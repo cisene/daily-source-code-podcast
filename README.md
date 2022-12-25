@@ -11,4 +11,18 @@ By scouring sources, some fragments has been found. A combination of sources and
 
 
 
+## Contribute
+
+I'd happily accept Pull-requests. Add, correct, adjust or tweak anothing that you know or have fact, evidence for.
+
+
+
+## Timeline
+
+To get a better picture and something to reference to, a timeline has been established a [DSC - Timeline](dsc-timeline.md).
+
+
+
+## Current status
+
 A work-in-progress copy can be found here: [daily-source-code.rss](daily-source-code.rss)
