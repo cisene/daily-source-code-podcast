@@ -4,69 +4,91 @@ This is a data source as much as a reference document, to establish a time line.
 
 
 
+[[_TOC_]]
+
+## Episode distribution over years
+
+
+| Year | From |   To | Episodes |
+| ---- | ---: | ---: | -------: |
+| 2004 |   01 |      |          |
+| 2005 |      |      |          |
+| 2006 |      |      |          |
+| 2007 |      |  704 |          |
+| 2008 |  705 |  813 |      109 |
+| 2009 |  814 |  821 |        8 |
+| 2010 |  822 |  856 |       45 |
+| 2011 |  857 |  863 |        7 |
+| 2012 |  864 |  866 |        3 |
+| 2013 |  867 |  867 |        1 |
+
+
+
+## Episodes list
+
 Dates are ISO 8601 for easy processing -- YYYY-MM-DD HH:mm:SS [timezone offset]
 
-
+Daily Source Code for Tuesday April 10th 2007
 
 | Episode | Date                      | Title                                                        |
 | ------: | ------------------------- | ------------------------------------------------------------ |
-|      00 |                           |                                                              |
-|      01 |                           |                                                              |
-|      02 |                           |                                                              |
-|      03 |                           |                                                              |
-|      04 |                           |                                                              |
-|      05 |                           |                                                              |
-|      06 |                           |                                                              |
-|      07 |                           |                                                              |
-|      08 |                           |                                                              |
-|      09 |                           |                                                              |
-|      10 |                           |                                                              |
-|      11 |                           |                                                              |
-|      12 |                           |                                                              |
-|      13 |                           |                                                              |
-|      14 |                           |                                                              |
-|      15 |                           |                                                              |
-|      16 |                           |                                                              |
-|      17 |                           |                                                              |
-|      18 |                           |                                                              |
-|      19 |                           |                                                              |
-|      20 |                           |                                                              |
-|      21 |                           |                                                              |
-|      22 |                           |                                                              |
-|      23 |                           |                                                              |
-|      24 |                           |                                                              |
-|      25 |                           |                                                              |
-|      26 |                           |                                                              |
-|      27 |                           |                                                              |
-|      28 |                           |                                                              |
-|      29 |                           |                                                              |
-|      30 |                           |                                                              |
-|      31 |                           |                                                              |
-|      32 |                           |                                                              |
-|      33 |                           |                                                              |
-|      34 |                           |                                                              |
-|      35 |                           |                                                              |
-|      36 |                           |                                                              |
-|      37 |                           |                                                              |
-|      38 |                           |                                                              |
-|      39 |                           |                                                              |
-|      40 |                           |                                                              |
-|      41 |                           |                                                              |
-|      42 |                           |                                                              |
-|      43 |                           |                                                              |
-|      44 |                           |                                                              |
-|      45 |                           |                                                              |
-|      46 |                           |                                                              |
-|      47 |                           |                                                              |
-|      48 |                           |                                                              |
-|      49 |                           |                                                              |
-|      50 |                           |                                                              |
-|      51 |                           |                                                              |
-|      52 |                           |                                                              |
-|      53 |                           |                                                              |
-|      54 |                           |                                                              |
-|      55 |                           |                                                              |
-|      56 |                           |                                                              |
+|      01 | 2004-08-13                | Daily Source Code                                            |
+|      02 | 2004-08-14                | source code august 14 2004                                   |
+|      03 | 2004-08-15                | source code august 15 2004                                   |
+|      04 | 2004-08-16                | source code august 16 2004                                   |
+|      05 | 2004-08-17                | source code august 17 2004                                   |
+|      06 | 2004-08-18                | source code august 18 2004                                   |
+|      07 | 2004-08-19                | daily source code august 19 2004                             |
+|      08 | 2004-08-21                | daily source code august 21 2004                             |
+|      09 | 2004-08-22                | daily source code august 22 2004                             |
+|      10 | 2004-08-22                | daily source code Sun Aug 22 21:14:27 CEST 2004              |
+|      11 | 2004-08-23                | source code august 23 2004 20:09                             |
+|      12 | 2004-08-24                | daily source code august 24 2004                             |
+|      13 | 2004-08-25                | source code august 25 2004                                   |
+|      14 | 2004-08-26                | daily source code august 26 2004                             |
+|      15 | 2004-08-27                | daily source code august 27 2004                             |
+|      16 | 2004-08-30                | daily source code august 30 2004                             |
+|      17 | 2004-09-01                | daily source code september 1 2004                           |
+|      18 | 2004-09-02                | daily source code september 2 2004                           |
+|      19 | 2004-09-03                | daily source code september 3 2004                           |
+|      20 | 2004-09-06                | daily source code september 6 2004                           |
+|      21 | 2004-09-07                | daily source code september 7 2004                           |
+|      22 | 2004-09-08                | daily source code september 8 2004                           |
+|      23 | 2004-09-09                | daily source code september 9 2004                           |
+|      24 | 2004-09-11                | daily source code september 11 2004                          |
+|      25 | 2004-09-13                | daily source code september 13 2004                          |
+|      26 | 2004-09-14                | daily source code september 14 2004                          |
+|      27 | 2004-09-15                | daily source code september 15 2004                          |
+|      28 | 2004-09-16                | daily source code september 16 2004                          |
+|      29 | 2004-09-19                | daily source code september 19 2004                          |
+|      30 | 2004-09-20                | daily source code september 20 2004                          |
+|      31 | 2004-09-21                | daily source code september 21 2004                          |
+|         | 2004-09-22                | trade secrets september 22 2004                              |
+|      32 | 2004-09-23                | daily source code september 22 2004                          |
+|      33 | 2004-09-24                | daily source code september 24 2004                          |
+|      34 | 2004-09-27                | daily source code september 27 2004                          |
+|      35 | 2004-09-28                | daily source code september 28 2004                          |
+|      36 | 2004-09-29                | daily source code september 29 2004                          |
+|      37 | 2004-10-01                | daily source code october 1 2004                             |
+|      38 | 2004-10-04                | daily source code october 4 2004                             |
+|      39 | 2004-10-05                | daily source code october 5 2004                             |
+|      40 | 2004-10-06                | daily source code october 6 2004                             |
+|      41 | 2004-10-07                | daily source code october 7 2004                             |
+|      42 | 2004-10-11                | daily source code october 11 2004                            |
+|      43 | 2004-10-12                | daily source code october 12 2004                            |
+|      44 | 2004-10-13                | daily source code october 13 2004                            |
+|      45 | 2004-10-14                | daily source code october 14 2004                            |
+|      46 | 2004-10-15                | daily source code october 15 2004                            |
+|      47 | 2004-10-18                | daily source code october 18 2004                            |
+|      48 | 2004-10-20                | daily source code october 20 2004                            |
+|      49 | 2004-10-21                | daily source code october 21 2004                            |
+|      50 | 2004-10-25                | daily source code october 25 2004                            |
+|      51 | 2004-10-26                | daily source code october 26 2004                            |
+|      52 | 2004-10-30                | daily source code october 30 2004                            |
+|      53 | 2004-11-01                | daily source code november 1 2004                            |
+|      54 | 2004-11-03                | daily source code november 3 2004                            |
+|      55 | 2004-11-05                | daily source code november 5 2004                            |
+|      56 | 2004-11-06                | daily source code november 6 2004                            |
 |      57 |                           |                                                              |
 |      58 |                           |                                                              |
 |      59 |                           |                                                              |
@@ -592,9 +614,9 @@ Dates are ISO 8601 for easy processing -- YYYY-MM-DD HH:mm:SS [timezone offset]
 |     574 |                           |                                                              |
 |     575 |                           |                                                              |
 |     576 |                           |                                                              |
-|     577 | 2007-04-05 02:07:50-07:00 |                                                              |
-|     578 | 2007-04-06 02:48:08-07:00 |                                                              |
-|     579 | 2007-04-09 22:02:02-07:00 |                                                              |
+|     577 | 2007-04-05 02:07:50-07:00 | Daily Source Code for Thursday April 5th 2007                |
+|     578 | 2007-04-06 02:48:08-07:00 | Daily Source Code for Friday April 6th 2007                  |
+|     579 | 2007-04-09 22:02:02-07:00 | Daily Source Code for Tuesday April 10th 2007                |
 |     580 | 2007-04-12 07:02:17-07:00 |                                                              |
 |     581 | 2007-04-15 21:55:00-07:00 |                                                              |
 |     582 | 2007-04-16 21:55:00-07:00 |                                                              |
@@ -872,7 +894,7 @@ Dates are ISO 8601 for easy processing -- YYYY-MM-DD HH:mm:SS [timezone offset]
 |     859 |                           |                                                              |
 |     860 | 2011-02-05                | SNAFU Saturday Boots To The Head Edition                     |
 |     861 | 2011-04-01                | The Forgotten Fubar Friday                                   |
-|     862 | 3011-04-16                | The SNAFU Saturday Show                                      |
+|     862 | 2011-04-16                | The SNAFU Saturday Show                                      |
 |     863 | 2011-05-13                | FUBAR Friday BitCoin Blast Off                               |
 |     864 | 2012-04-26                | Remembering The Ones We Lost                                 |
 |     865 | 2012-05-24                | Post Idols Blues                                             |
