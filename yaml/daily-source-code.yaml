@@ -1,0 +1,32 @@
+---
+feed:
+  filename: 'daily-source-code.rss'
+  version: 2.0
+
+channel:
+  title: Daily Source Code
+  link: http://curry.com/
+
+  category: 'News & Politics'
+  language: 'en-us'
+  copyright: 'Creative Commons Attribution-Noncommercial-ShareAlike 3.0: http://creativecommons.org/licenses/by-nc-sa/3.0/us/'
+  managingEditor: 'adam@curry.com(Adam Curry)'
+  webMaster: 'adam@curry.com'
+
+  itunes:
+    owner:
+      name: 'Adam Curry'
+      email: 'adam@curry.com'
+    author: 'Adam Curry'
+    explicit: 'Yes'
+    complete: 'Yes'
+    type: 'serial'
+    series_name: Daily Source Code
+
+  podcast:
+    medium: 'podcast'
+    locked:
+      locked: 'yes'
+      owner: 'adam@curry.com'
+
+  items:
