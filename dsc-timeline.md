@@ -24,6 +24,17 @@ This is a data source as much as a reference document, to establish a time line.
 
 
 
+## Locations
+
+| Location          | From       | To         |
+| ----------------- | ---------- | ---------- |
+| Curry Castle      | 2004-08-13 | 2004-11-18 |
+| Curry Cottage, UK | 2004-11-21 |            |
+
+
+
+
+
 ## Episodes list
 
 Dates are ISO 8601 for easy processing -- YYYY-MM-DD HH:mm:SS [timezone offset]
@@ -89,13 +100,13 @@ Daily Source Code for Tuesday April 10th 2007
 |      54 | 2004-11-03                | daily source code november 3 2004                            |
 |      55 | 2004-11-05                | daily source code november 5 2004                            |
 |      56 | 2004-11-06                | daily source code november 6 2004                            |
-|      57 |                           |                                                              |
-|      58 |                           |                                                              |
-|      59 |                           |                                                              |
-|      60 |                           |                                                              |
-|      61 |                           |                                                              |
-|      62 |                           |                                                              |
-|      63 |                           |                                                              |
+|      57 | 2004-11-10                | daily source code november 10 2004                           |
+|      58 | 2004-11-11                | daily source code november 11 2004                           |
+|      59 | 2004-11-11                | daily source code november 11 2004                           |
+|      60 | 2004-11-13                | daily source code november 13 2004                           |
+|      61 | 2004-11-15                | daily source code november 15 2004                           |
+|      62 | 2004-11-16                | daily source code november 16 2004                           |
+|      63 | 2004-11-18                | daily source code november 18 2004                           |
 |      64 |                           |                                                              |
 |      65 |                           |                                                              |
 |      66 |                           |                                                              |
