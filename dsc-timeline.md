@@ -34,6 +34,9 @@ This is a data source as much as a reference document, to establish a time line.
 
 
 
+## Episodes of note
+* Episode 180 - The one demonstrated on scene during introduction of [Steve Jobs previews podcasting All Things D3 2005](https://www.youtube.com/watch?v=B8WCRXCdDz4&t=1015s) with ([Steve Jobs](https://en.wikipedia.org/wiki/Steve_Jobs), [Kara Swisher](https://en.wikipedia.org/wiki/Kara_Swisher) and [Walt Mossberg](https://en.wikipedia.org/wiki/Walt_Mossberg)).
+
 
 
 ## Episodes list
