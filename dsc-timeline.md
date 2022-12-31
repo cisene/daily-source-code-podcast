@@ -26,11 +26,12 @@ This is a data source as much as a reference document, to establish a time line.
 
 ## Locations
 
-| Location                   | From       | To         |
-| -------------------------- | ---------- | ---------- |
-| Curry Castle               | 2004-08-13 | 2004-11-18 |
-| Curry Cottage, UK          | 2004-11-21 |            |
-| Curry Manor, Guildford, UK |            |            |
+| Location          | Caption       | From       | To         |
+| ----------------- | ------------- | ---------- | ---------- |
+| Rijkevoorsel, BE  | Curry Castle  | 2004-08-13 | 2004-11-18 |
+| Curry Cottage, UK | Curry Cottage | 2004-11-21 |            |
+| South London, UK  | Curry Manor   |            |            |
+| San Fransisco, US | Curry Condo   |            |            |
 
 
 
