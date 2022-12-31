@@ -26,12 +26,13 @@ This is a data source as much as a reference document, to establish a time line.
 
 ## Locations
 
-| Location          | Caption       | From       | To         |
-| ----------------- | ------------- | ---------- | ---------- |
-| Rijkevoorsel, BE  | Curry Castle  | 2004-08-13 | 2004-11-18 |
-| Curry Cottage, UK | Curry Cottage | 2004-11-21 |            |
-| South London, UK  | Curry Manor   |            |            |
-| San Fransisco, US | Curry Condo   |            |            |
+| Caption       | Location          | Latitude | Longitude | Altitude | From       | To         |
+| ------------- | ----------------- | -------- | --------- | -------- | ---------- | ---------- |
+| Curry Castle  | Rijkevoorsel, BE  | 51.3480  | 4.7176    | 0.0      | 2004-08-13 | 2004-11-18 |
+| Curry Cottage | Guildford, UK     | 51.2524  | -0.5678   | 0.0      | 2004-11-21 |            |
+| Curry Terrace |                   |          |           | 0.0      | 2008-12-01 |            |
+| Curry Manor   | South London, UK  | 51.3895  | -0.0766   | 0.0      |            | 2008-12-01 |
+| Curry Condo   | San Fransisco, US | 37.7749  | -122.4194 | 0.0      |            |            |
 
 
 
