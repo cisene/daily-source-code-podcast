@@ -1,6 +1,40 @@
 # DSC Time line - Daily Source Code - Delta Sierra Charlie
 
-This is a data source as much as a reference document, to establish a time line. According to wikipedia [Daily Source Code] ran from August 13, 2004 – November 30, 2013.
+This is a data source as much as a reference document, to establish a time line. An attempt at restoring the scattered pieces available across the internet into a fully functional RSS feed so that it can be played and listened to from first to last episode effortless.
+
+The podcast feed was titled "Adam Curry: *Daily Source Code*" and the first episode was released August 14, 2004 and ran to November 30, 2013 when the latest and last episode were released.
+
+
+
+## Background
+
+Adam Curry have mentioned a few times both in chats on [podcastindex.social](https://podcastindex.social/) (Mastodon instance for the PodcastIndex.org - Podcasting 2.0 project) and in the podcast Podcasting 2.0, that he'd like to see the podcast restored and listen-able again.
+
+```text
+The History of Podcasting
+
+The true godfathers of podcasting are Dave Winer and Adam Curry. Dave Winer (http://scripting.com) is a software developer and RSS evangelist; he developed the popular weblog package Radio Userland (http://userland.com). Today, Dave “produces” the popular podcast Morning Coffee Notes (http://morningcoffeenotes.com). Adam Curry produces the ever-popular Daily Source Code (http://live.curry.com). Adam is well-known as amid-1980s former MTV VJ (see http://live.curry.com).
+
+Citeted from "Podcasting - The Do-It-Yourself Guide", Todd Cochrane, page 8, printed in 2005.
+```
+
+
+
+## Present day
+
+Christopher Isene started out on with just bits and pieces of what was available of the original feed that had been archived both on [radio-weblogs.com](http://radio-weblogs.com/0001014/categories/dailySourceCode/rss.xml) where is lived in it's first incarnation. Piecing together the beginning, [http://radio-weblogs.com/0001014/rss.xml](http://radio-weblogs.com/0001014/rss.xml) and [https://radio-weblogs.com/0001014/categories/dailySourceCode/rss.xml](https://radio-weblogs.com/0001014/categories/dailySourceCode/rss.xml) were used as source for the tail-end of the RSS feed, containing the last published episodes.
+
+
+
+
+
+
+
+the first stumbling steps to searching further, with the BitTorrent Sync key 
+
+
+
+
 
 
 
