@@ -1,4 +1,7 @@
 # DSC, Daily Source Code Podcast
+
+DELTA SIERRA CHARLIE
+
 Restoration of DSC, Daily Source Code Podcast RSS feed
 
 
@@ -6,19 +9,18 @@ An attempt at restoring part or fragments of the DSC feed, through bits and piec
 
 It is an impossible task, but the impossible just takes a little longer ...
 
+
 ## Internet archeology
 By scouring sources, some fragments has been found. A combination of sources and fragments could be used to rebuild parts.
 
 
 
 ## Contribute
-
 I'd happily accept Pull-requests. Add, correct, adjust or tweak anothing that you know or have fact, evidence for.
 
 
 
 ## Timeline
-
 To get a better picture and something to reference to, a timeline has been established a [DSC - Timeline](dsc-timeline.md).
 
 
