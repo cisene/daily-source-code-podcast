@@ -42,14 +42,17 @@ The archived version of the script resurfaced in March of 2023, almost 20 years 
 
 While looking around for ways of decompiling the compiled binary, some different packages surfaced and where attempted to decompile the file, without success. Made a request for some help on Mastodon/Fediverse and got responses!
 
-[Mike Neumann](https://podcastindex.social/@mikeneumann) and [BunnyHero](https://podcastindex.social/@bunnyhero@mstdn.ca) both had old Apple machines they could try decompiling the compiled script on, Bunny did get slightly different results due not having iTunes installed, while Mike had iTunes installed and Applescript Editor was able to resolve the dependencies.
+[Mike Neumann](https://podcastindex.social/@mikeneumann) and [BunnyHero](https://podcastindex.social/@bunnyhero@mstdn.ca) both had old Apple machines they could try decompiling the compiled script on.
 
 **Big thanks to Bunny and Mike for helping out preserving an important piece of history for the future.**
 
 
 
-
 ## iPod.applescript - Mike Neumann's version
+
+Mike's setup was a Mac (13" MBP mid-2012) with MacOS Catalina and Apple Music.
+
+```osadecompile iPod.scpt > iPod.applescript``` 
 
 ```applescript
 on adding folder items to this_folder after receiving these_items
@@ -79,29 +82,35 @@ end adding folder items to
 
 ## iPod.applescript - BunnyHero's version
 
+BunnyHero's setup is somewhat unknown but had Script Editor and Apple Music.
+
 ```applescript
 on adding folder items to this_folder after receiving these_items
-	-- these_items will contain a list of file references to the added items 
-	set item_count to number of items in the these_items
-	set addcount to 0
-	if item_count is greater than 0 then
-		repeat with i from 1 to item_count
-			set this_info to info for item i of these_items
-			if folder of this_info is false then
-				tell application "iTunes.app"
-					«event hookAdd » item i of these_items given «class insh»:«class cPly» "syncPod"
-					addcount = addcount + 1
-				end tell
-			end if
-		end repeat
-		if addcount is greater than 0 then
-			tell application "iTunes.app"
-				«event hookUpdt» "Adam Curry's iPod"
-			end tell
-		end if
-	end if
+    -- these_items will contain a list of file references to the added items 
+    set item_count to number of items in the these_items
+    set addcount to 0
+    if item_count is greater than 0 then
+        repeat with i from 1 to item_count
+            set this_info to info for item i of these_items
+            if folder of this_info is false then
+                tell application "Music"
+                    add item i of these_items to playlist "syncPod"
+                    addcount = addcount + 1
+                end tell
+            end if
+        end repeat
+        if addcount is greater than 0 then
+            tell application "Music"
+                «event hookUpdt» "Adam Curry's iPod"
+            end tell
+        end if
+    end if
 end adding folder items to
 ```
+
+
+
+The truth is somewhere in between, as the above pieces of code are interpretations of something that got lost over the years and had to be decompiled, reverse engineered to once again be in human-readable form.
 
 
 
@@ -109,4 +118,4 @@ end adding folder items to
 
 Created: 2023-03-21 22:25+0100 
 
-Updated: 2023-03-21 22:25+0100
+Updated: 2023-03-21 23:56+0100

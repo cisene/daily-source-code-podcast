@@ -6,14 +6,14 @@ on adding folder items to this_folder after receiving these_items
         repeat with i from 1 to item_count
             set this_info to info for item i of these_items
             if folder of this_info is false then
-                tell application "Music"
-                    add item i of these_items to playlist "syncPod"
+                tell application "iTunes.app"
+                    «event hookAdd » item i of these_items given «class insh»:«class cPly» "syncPod"
                     addcount = addcount + 1
                 end tell
             end if
         end repeat
         if addcount is greater than 0 then
-            tell application "Music"
+            tell application "iTunes.app"
                 «event hookUpdt» "Adam Curry's iPod"
             end tell
         end if
