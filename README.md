@@ -15,6 +15,12 @@ By scouring sources, some fragments has been found. A combination of sources and
 
 
 
+### The first Pocasting app, Adam Curry's script
+
+Yeah, we dug up the first podcasting application, the little piece of software that automated the task of watching a folder and moving downloaded MP3's onto Adam's iPod .. "Automagically". You can find the source code in Applescript along with the writeup: [iPod](./iPod/) 
+
+
+
 ## Contribute
 I'd happily accept Pull-requests. Add, correct, adjust or tweak anothing that you know or have fact, evidence for.
 
