@@ -2,12 +2,28 @@
 
 DELTA SIERRA CHARLIE
 
-Restoration of DSC, Daily Source Code Podcast RSS feed
+Restoration of DSC, *Daily Source Code* Podcast RSS feed
+
+> In August 13 2004, Adam Curry, co-creator of the medium of podcasting, launched his first podcast, Daily Source Code.
+>
+> Daily Source Code is a milestone in the history of podcasting, even though it was not the very first podcast recorded. Its last episode was aired on November 30, 2013.
+>
+> A podcast is an audio programme that is focused on one topic, published in episodes, and is free for listeners to stream or download to their electronic devices on demand. Today, over 100 million people in the US alone tune into podcasts for information and entertainment every month.
+>
+> Podcasting was invented by a software developer, Dave Winer, alongside Adam Curry, a former MTV video jockey and early advocate for Internet-related businesses.
+>
+> Winer had previously created RSS (Really Simple Syndication), the system used in Internet blogging. Curry suggested applying Winer’s blogging technology to digital audio files. Also, since the market had just exploded with Apple’s iPod, Curry coded a programme that allowed people to download online radio broadcasts to the device.
+>
+> Journalist Ben Hammersley coined the term “podcast” – a combination of the words “iPod” and “broadcast” – as a way to describe the new innovation in an article for The Guardian newspaper. In this way, podcasting gradually developed.
 
 
-An attempt at restoring part or fragments of the DSC feed, through bits and pieces through internet archeology, google-fu and brute-force, piece together what would be similar but not necessarily identical to what the original DSC RSS feed looked like.
+
+
+This is an attempt at restoring part or fragments of the DSC feed, through bits and pieces through internet archeology, google-fu and brute-force, piece together what would be similar but not necessarily identical to what the original DSC RSS feed looked like.
 
 It is an impossible task, but the impossible just takes a little longer ...
+
+
 
 
 ## Internet archeology
@@ -22,7 +38,7 @@ Yeah, we dug up the first podcasting application, the little piece of software t
 
 
 ## Contribute
-I'd happily accept Pull-requests. Add, correct, adjust or tweak anothing that you know or have fact, evidence for.
+I'd happily accept Pull-requests. Add, correct, adjust or tweak anything that you know or have fact, evidence for.
 
 
 
