@@ -60,13 +60,13 @@ the first stumbling steps to searching further, with the BitTorrent Sync key
 
 ## Locations
 
-| Caption       | Location          | Latitude | Longitude | Altitude | From       | To         |
-| ------------- | ----------------- | -------- | --------- | -------- | ---------- | ---------- |
-| Curry Castle  | Rijkevoorsel, BE  | 51.3480  | 4.7176    | 0.0      | 2004-08-13 | 2004-11-18 |
-| Curry Cottage | Guildford, UK     | 51.2524  | -0.5678   | 0.0      | 2004-11-21 |            |
-| Curry Terrace |                   |          |           | 0.0      | 2008-12-01 |            |
-| Curry Manor   | South London, UK  | 51.3895  | -0.0766   | 0.0      |            | 2008-12-01 |
-| Curry Condo   | San Fransisco, US | 37.7749  | -122.4194 | 0.0      |            |            |
+| Caption       | Location          | Latitude | Longitude | From       | To         |
+| ------------- | ----------------- | -------- | --------- | ---------- | ---------- |
+| Curry Castle  | Rijkevoorsel, BE  | 51.3480  | 4.7176    | 2004-08-13 | 2004-11-18 |
+| Curry Cottage | Guildford, UK     | 51.2524  | -0.5678   | 2004-11-21 |            |
+| Curry Terrace |                   |          |           | 2008-12-01 |            |
+| Curry Manor   | South London, UK  | 51.3895  | -0.0766   |            | 2008-12-01 |
+| Curry Condo   | San Fransisco, US | 37.7749  | -122.4194 |            |            |
 
 
 
