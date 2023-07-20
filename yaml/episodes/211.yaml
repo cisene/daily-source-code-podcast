@@ -1,10 +1,9 @@
 episode: '211'
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday July 19th 2005
+title: Daily Source Code for Tuesday July 19th 2005
 link: '#daily-source-code-episode-web-211'
 pubDate: '2005-07-19'
 category: podcast
-description: '\nDuration: 00:41:19\nDuration: 00:41:19\nDuration: 00:41:19'
+description: '\nDuration: 00:41:19'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday July 19th 2005
   subtitle: Daily Source Code for Tuesday July 19th 2005
-  summary: ''
+  summary: '\nDuration: 00:41:19'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2479
   season: null
   episode: '211'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 24793681
+    bitrate: '80000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-211-2005-07-19.mp3
 fileinfo:
   filename: DSC-211-2005-07-19.mp3
   size: 24793681

@@ -1,10 +1,9 @@
 episode: '442'
-title: Daily Source Code
-subtitle: Daily Source Code for Wednesday August 16th 2006
+title: Daily Source Code for Wednesday August 16th 2006
 link: '#daily-source-code-episode-web-442'
 pubDate: '2006-08-16'
 category: podcast
-description: '\nDuration: 00:36:25\nDuration: 00:36:25\nDuration: 00:36:25'
+description: '\nDuration: 00:36:25'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Wednesday August 16th 2006
   subtitle: Daily Source Code for Wednesday August 16th 2006
-  summary: ''
+  summary: '\nDuration: 00:36:25'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2185
   season: null
   episode: '442'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 26299477
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-442-2006-08-16.mp3
 fileinfo:
   filename: DSC-442-2006-08-16.mp3
   size: 26299477

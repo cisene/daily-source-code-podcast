@@ -1,10 +1,9 @@
 episode: '277'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday November 11st 2005
+title: Daily Source Code for Friday November 11st 2005
 link: '#daily-source-code-episode-web-277'
 pubDate: '2005-11-11'
 category: podcast
-description: '\nDuration: 00:49:07\nDuration: 00:49:07\nDuration: 00:49:07'
+description: '\nDuration: 00:49:07'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday November 11st 2005
   subtitle: Daily Source Code for Friday November 11st 2005
-  summary: ''
+  summary: '\nDuration: 00:49:07'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2947
   season: null
   episode: '277'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 35322707
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-277-2005-11-11.mp3
 fileinfo:
   filename: DSC-277-2005-11-11.mp3
   size: 35322707

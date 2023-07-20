@@ -1,6 +1,5 @@
 episode: '861'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday April 01st 2011
+title: Daily Source Code for Friday April 01st 2011
 link: '#daily-source-code-episode-web-861'
 pubDate: '2011-04-01'
 category: podcast
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday April 01st 2011
   subtitle: Daily Source Code for Friday April 01st 2011
-  summary: ''
+  summary: null
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 10365
   season: null
   episode: '861'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 124340679
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-861-2011-04-01.mp3
 fileinfo:
   filename: DSC-861-2011-04-01.mp3
   size: 124340679

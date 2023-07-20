@@ -1,10 +1,9 @@
 episode: '280'
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday November 15th 2005
+title: Daily Source Code for Tuesday November 15th 2005
 link: '#daily-source-code-episode-web-280'
 pubDate: '2005-11-15'
 category: podcast
-description: '\nDuration: 00:49:16\nDuration: 00:49:16\nDuration: 00:49:16'
+description: '\nDuration: 00:49:16'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday November 15th 2005
   subtitle: Daily Source Code for Tuesday November 15th 2005
-  summary: ''
+  summary: '\nDuration: 00:49:16'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2956
   season: null
   episode: '280'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 35431538
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-280-2005-11-15.mp3
 fileinfo:
   filename: DSC-280-2005-11-15.mp3
   size: 35431538

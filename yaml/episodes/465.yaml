@@ -1,10 +1,9 @@
 episode: '465'
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday September 21st 2006
+title: Daily Source Code for Thursday September 21st 2006
 link: '#daily-source-code-episode-web-465'
 pubDate: '2006-09-21'
 category: podcast
-description: '\nDuration: 00:45:27\nDuration: 00:45:27\nDuration: 00:45:27'
+description: '\nDuration: 00:45:27'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday September 21st 2006
   subtitle: Daily Source Code for Thursday September 21st 2006
-  summary: ''
+  summary: '\nDuration: 00:45:27'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2727
   season: null
   episode: '465'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 32710736
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-465-2006-09-21.mp3
 fileinfo:
   filename: DSC-465-2006-09-21.mp3
   size: 32710736

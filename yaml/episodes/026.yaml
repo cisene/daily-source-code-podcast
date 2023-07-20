@@ -1,10 +1,9 @@
 episode: '026'
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday September 14th 2004
+title: Daily Source Code for Tuesday September 14th 2004
 link: '#daily-source-code-episode-web-026'
 pubDate: '2004-09-14'
 category: podcast
-description: '\nDuration: 00:28:16\nDuration: 00:28:16\nDuration: 00:28:16'
+description: '\nDuration: 00:28:16'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday September 14th 2004
   subtitle: Daily Source Code for Tuesday September 14th 2004
-  summary: ''
+  summary: '\nDuration: 00:28:16'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 1696
   season: null
   episode: '026'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 20327265
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-026-2004-09-14.mp3
 fileinfo:
   filename: DSC-026-2004-09-14.mp3
   size: 20327265

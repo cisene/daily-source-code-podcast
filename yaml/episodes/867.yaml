@@ -1,6 +1,5 @@
 episode: '867'
-title: Daily Source Code
-subtitle: Daily Source Code for Wednesday November 27th 2013
+title: Daily Source Code for Wednesday November 27th 2013
 link: '#daily-source-code-episode-web-867'
 pubDate: '2013-11-27'
 category: podcast
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Wednesday November 27th 2013
   subtitle: Daily Source Code for Wednesday November 27th 2013
-  summary: ''
+  summary: null
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 5147
   season: null
   episode: '867'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 61456611
+    bitrate: '95000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-867-2013-11-27.mp3
 fileinfo:
   filename: DSC-867-2013-11-27.mp3
   size: 61456611

@@ -1,10 +1,9 @@
 episode: '472'
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday October 03rd 2006
+title: Daily Source Code for Tuesday October 03rd 2006
 link: '#daily-source-code-episode-web-472'
 pubDate: '2006-10-03'
 category: podcast
-description: '\nDuration: 00:28:39\nDuration: 00:28:39\nDuration: 00:28:39'
+description: '\nDuration: 00:28:39'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday October 03rd 2006
   subtitle: Daily Source Code for Tuesday October 03rd 2006
-  summary: ''
+  summary: '\nDuration: 00:28:39'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 1719
   season: null
   episode: '472'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 20621844
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-472-2006-10-03.mp3
 fileinfo:
   filename: DSC-472-2006-10-03.mp3
   size: 20621844

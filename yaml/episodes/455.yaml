@@ -1,10 +1,9 @@
 episode: '455'
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday September 05th 2006
+title: Daily Source Code for Tuesday September 05th 2006
 link: '#daily-source-code-episode-web-455'
 pubDate: '2006-09-05'
 category: podcast
-description: '\nDuration: 00:45:57\nDuration: 00:45:57\nDuration: 00:45:57'
+description: '\nDuration: 00:45:57'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday September 05th 2006
   subtitle: Daily Source Code for Tuesday September 05th 2006
-  summary: ''
+  summary: '\nDuration: 00:45:57'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2757
   season: null
   episode: '455'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 33155785
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-455-2006-09-05.mp3
 fileinfo:
   filename: DSC-455-2006-09-05.mp3
   size: 33155785

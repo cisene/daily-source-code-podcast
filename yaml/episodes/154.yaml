@@ -1,10 +1,9 @@
 episode: '154'
-title: Daily Source Code
-subtitle: Daily Source Code for Saturday April 16th 2005
+title: Daily Source Code for Saturday April 16th 2005
 link: '#daily-source-code-episode-web-154'
 pubDate: '2005-04-16'
 category: podcast
-description: '\nDuration: 01:01:55\nDuration: 01:01:55\nDuration: 01:01:55'
+description: '\nDuration: 01:01:55'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Saturday April 16th 2005
   subtitle: Daily Source Code for Saturday April 16th 2005
-  summary: ''
+  summary: '\nDuration: 01:01:55'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 3715
   season: null
   episode: '154'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 29661273
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-154-2005-04-16.mp3
 fileinfo:
   filename: DSC-154-2005-04-16.mp3
   size: 29661273

@@ -1,10 +1,9 @@
 episode: '575'
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday April 03rd 2007
+title: Daily Source Code for Tuesday April 03rd 2007
 link: '#daily-source-code-episode-web-575'
 pubDate: '2007-04-03'
 category: podcast
-description: '\nDuration: 00:43:50\nDuration: 00:43:50\nDuration: 00:43:50'
+description: '\nDuration: 00:43:50'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday April 03rd 2007
   subtitle: Daily Source Code for Tuesday April 03rd 2007
-  summary: ''
+  summary: '\nDuration: 00:43:50'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2630
   season: null
   episode: '575'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 31509555
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-575-2007-04-03.mp3
 fileinfo:
   filename: DSC-575-2007-04-03.mp3
   size: 31509555

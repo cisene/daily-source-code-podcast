@@ -1,10 +1,9 @@
 episode: 078
-title: Daily Source Code
-subtitle: Daily Source Code for Monday December 13rd 2004
+title: Daily Source Code for Monday December 13rd 2004
 link: '#daily-source-code-episode-web-078'
 pubDate: '2004-12-13'
 category: podcast
-description: '\nDuration: 00:42:55\nDuration: 00:42:55\nDuration: 00:42:55'
+description: '\nDuration: 00:42:55'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Monday December 13rd 2004
   subtitle: Daily Source Code for Monday December 13rd 2004
-  summary: ''
+  summary: '\nDuration: 00:42:55'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2575
   season: null
   episode: 078
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 20609967
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-078-2004-12-13.mp3
 fileinfo:
   filename: DSC-078-2004-12-13.mp3
   size: 20609967

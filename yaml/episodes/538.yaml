@@ -1,10 +1,9 @@
 episode: '538'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday February 02nd 2007
+title: Daily Source Code for Friday February 02nd 2007
 link: '#daily-source-code-episode-web-538'
 pubDate: '2007-02-02'
 category: podcast
-description: '\nDuration: 00:51:01\nDuration: 00:51:01\nDuration: 00:51:01'
+description: '\nDuration: 00:51:01'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday February 02nd 2007
   subtitle: Daily Source Code for Friday February 02nd 2007
-  summary: ''
+  summary: '\nDuration: 00:51:01'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 3061
   season: null
   episode: '538'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 36748008
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-538-2007-02-02.mp3
 fileinfo:
   filename: DSC-538-2007-02-02.mp3
   size: 36748008

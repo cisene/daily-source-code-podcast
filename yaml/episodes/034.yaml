@@ -1,10 +1,9 @@
 episode: '034'
-title: Daily Source Code
-subtitle: Daily Source Code for Monday September 27th 2004
+title: Daily Source Code for Monday September 27th 2004
 link: '#daily-source-code-episode-web-034'
 pubDate: '2004-09-27'
 category: podcast
-description: '\nDuration: 01:00:48\nDuration: 01:00:48\nDuration: 01:00:48'
+description: '\nDuration: 01:00:48'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Monday September 27th 2004
   subtitle: Daily Source Code for Monday September 27th 2004
-  summary: ''
+  summary: '\nDuration: 01:00:48'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 3648
   season: null
   episode: '034'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 27018879
+    bitrate: '59000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-034-2004-09-27.mp3
 fileinfo:
   filename: DSC-034-2004-09-27.mp3
   size: 27018879

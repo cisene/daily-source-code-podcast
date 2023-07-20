@@ -1,10 +1,9 @@
 episode: '569'
-title: Daily Source Code
-subtitle: Daily Source Code for Monday March 26th 2007
+title: Daily Source Code for Monday March 26th 2007
 link: '#daily-source-code-episode-web-569'
 pubDate: '2007-03-26'
 category: podcast
-description: '\nDuration: 00:48:42\nDuration: 00:48:42\nDuration: 00:48:42'
+description: '\nDuration: 00:48:42'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Monday March 26th 2007
   subtitle: Daily Source Code for Monday March 26th 2007
-  summary: ''
+  summary: '\nDuration: 00:48:42'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2922
   season: null
   episode: '569'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 35080328
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-569-2007-03-26.mp3
 fileinfo:
   filename: DSC-569-2007-03-26.mp3
   size: 35080328

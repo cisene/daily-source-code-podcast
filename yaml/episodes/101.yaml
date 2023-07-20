@@ -1,10 +1,9 @@
 episode: '101'
-title: Daily Source Code
-subtitle: Daily Source Code for Wednesday January 19th 2005
+title: Daily Source Code for Wednesday January 19th 2005
 link: '#daily-source-code-episode-web-101'
 pubDate: '2005-01-19'
 category: podcast
-description: '\nDuration: 00:44:13\nDuration: 00:44:13\nDuration: 00:44:13'
+description: '\nDuration: 00:44:13'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Wednesday January 19th 2005
   subtitle: Daily Source Code for Wednesday January 19th 2005
-  summary: ''
+  summary: '\nDuration: 00:44:13'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2653
   season: null
   episode: '101'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 21185649
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-101-2005-01-19.mp3
 fileinfo:
   filename: DSC-101-2005-01-19.mp3
   size: 21185649

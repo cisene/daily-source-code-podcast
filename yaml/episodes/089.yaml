@@ -1,10 +1,9 @@
 episode: 089
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday December 30 2004
+title: Daily Source Code for Thursday December 30 2004
 link: '#daily-source-code-episode-web-089'
 pubDate: '2004-12-30'
 category: podcast
-description: '\nDuration: 00:46:24\nDuration: 00:46:24\nDuration: 00:46:24'
+description: '\nDuration: 00:46:24'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday December 30 2004
   subtitle: Daily Source Code for Thursday December 30 2004
-  summary: ''
+  summary: '\nDuration: 00:46:24'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2784
   season: null
   episode: 089
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 22176777
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-089-2004-12-30.mp3
 fileinfo:
   filename: DSC-089-2004-12-30.mp3
   size: 22176777

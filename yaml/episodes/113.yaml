@@ -1,10 +1,9 @@
 episode: '113'
-title: Daily Source Code
-subtitle: Daily Source Code for Sunday February 06th 2005
+title: Daily Source Code for Sunday February 06th 2005
 link: '#daily-source-code-episode-web-113'
 pubDate: '2005-02-06'
 category: podcast
-description: '\nDuration: 01:16:46\nDuration: 01:16:46\nDuration: 01:16:46'
+description: '\nDuration: 01:16:46'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Sunday February 06th 2005
   subtitle: Daily Source Code for Sunday February 06th 2005
-  summary: ''
+  summary: '\nDuration: 01:16:46'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 4606
   season: null
   episode: '113'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 36788065
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-113-2005-02-06.mp3
 fileinfo:
   filename: DSC-113-2005-02-06.mp3
   size: 36788065

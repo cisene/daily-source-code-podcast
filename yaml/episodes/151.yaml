@@ -1,10 +1,9 @@
 episode: '151'
-title: Daily Source Code
-subtitle: Daily Source Code for Saturday April 09th 2005
+title: Daily Source Code for Saturday April 09th 2005
 link: '#daily-source-code-episode-web-151'
 pubDate: '2005-04-09'
 category: podcast
-description: '\nDuration: 00:54:15\nDuration: 00:54:15\nDuration: 00:54:15'
+description: '\nDuration: 00:54:15'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Saturday April 09th 2005
   subtitle: Daily Source Code for Saturday April 09th 2005
-  summary: ''
+  summary: '\nDuration: 00:54:15'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 3255
   season: null
   episode: '151'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 25987876
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-151-2005-04-09.mp3
 fileinfo:
   filename: DSC-151-2005-04-09.mp3
   size: 25987876

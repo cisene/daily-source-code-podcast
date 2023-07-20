@@ -1,6 +1,5 @@
 episode: '855'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday December 17th 2010
+title: Daily Source Code for Friday December 17th 2010
 link: '#daily-source-code-episode-web-855'
 pubDate: '2010-12-17'
 category: podcast
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday December 17th 2010
   subtitle: Daily Source Code for Friday December 17th 2010
-  summary: ''
+  summary: null
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 11160
   season: null
   episode: '855'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 134103824
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-855-2010-12-17.mp3
 fileinfo:
   filename: DSC-855-2010-12-17.mp3
   size: 134103824

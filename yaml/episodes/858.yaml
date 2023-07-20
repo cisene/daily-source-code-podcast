@@ -1,6 +1,5 @@
 episode: '858'
-title: Daily Source Code
-subtitle: Daily Source Code for Monday January 17th 2011
+title: Daily Source Code for Monday January 17th 2011
 link: '#daily-source-code-episode-web-858'
 pubDate: '2011-01-17'
 category: podcast
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Monday January 17th 2011
   subtitle: Daily Source Code for Monday January 17th 2011
-  summary: ''
+  summary: null
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 10543
   season: null
   episode: '858'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 126398088
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-858-2011-01-17.mp3
 fileinfo:
   filename: DSC-858-2011-01-17.mp3
   size: 126398088

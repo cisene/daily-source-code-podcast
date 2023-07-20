@@ -1,10 +1,9 @@
 episode: '121'
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday February 17th 2005
+title: Daily Source Code for Thursday February 17th 2005
 link: '#daily-source-code-episode-web-121'
 pubDate: '2005-02-17'
 category: podcast
-description: '\nDuration: 00:38:17\nDuration: 00:38:17\nDuration: 00:38:17'
+description: '\nDuration: 00:38:17'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday February 17th 2005
   subtitle: Daily Source Code for Thursday February 17th 2005
-  summary: ''
+  summary: '\nDuration: 00:38:17'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2297
   season: null
   episode: '121'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 18343577
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-121-2005-02-17.mp3
 fileinfo:
   filename: DSC-121-2005-02-17.mp3
   size: 18343577

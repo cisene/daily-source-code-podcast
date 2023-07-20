@@ -1,6 +1,5 @@
 episode: '853'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday November 26th 2010
+title: Daily Source Code for Friday November 26th 2010
 link: '#daily-source-code-episode-web-853'
 pubDate: '2010-11-26'
 category: podcast
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday November 26th 2010
   subtitle: Daily Source Code for Friday November 26th 2010
-  summary: ''
+  summary: null
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 11553
   season: null
   episode: '853'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 184501636
+    bitrate: '128000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-853-2010-11-26.mp3
 fileinfo:
   filename: DSC-853-2010-11-26.mp3
   size: 184501636

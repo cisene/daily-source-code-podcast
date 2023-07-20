@@ -1,10 +1,9 @@
 episode: '250'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday September 30 2005
+title: Daily Source Code for Friday September 30 2005
 link: '#daily-source-code-episode-web-250'
 pubDate: '2005-09-30'
 category: podcast
-description: '\nDuration: 00:49:13\nDuration: 00:49:13\nDuration: 00:49:13'
+description: '\nDuration: 00:49:13'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday September 30 2005
   subtitle: Daily Source Code for Friday September 30 2005
-  summary: ''
+  summary: '\nDuration: 00:49:13'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2953
   season: null
   episode: '250'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 35384834
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-250-2005-09-30.mp3
 fileinfo:
   filename: DSC-250-2005-09-30.mp3
   size: 35384834

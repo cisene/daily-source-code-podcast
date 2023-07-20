@@ -1,10 +1,9 @@
 episode: '557'
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday March 06th 2007
+title: Daily Source Code for Tuesday March 06th 2007
 link: '#daily-source-code-episode-web-557'
 pubDate: '2007-03-06'
 category: podcast
-description: '\nDuration: 00:41:15\nDuration: 00:41:15\nDuration: 00:41:15'
+description: '\nDuration: 00:41:15'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday March 06th 2007
   subtitle: Daily Source Code for Tuesday March 06th 2007
-  summary: ''
+  summary: '\nDuration: 00:41:15'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2475
   season: null
   episode: '557'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 29729882
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-557-2007-03-06.mp3
 fileinfo:
   filename: DSC-557-2007-03-06.mp3
   size: 29729882

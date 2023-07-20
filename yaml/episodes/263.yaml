@@ -1,10 +1,9 @@
 episode: '263'
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday October 20 2005
+title: Daily Source Code for Thursday October 20 2005
 link: '#daily-source-code-episode-web-263'
 pubDate: '2005-10-20'
 category: podcast
-description: '\nDuration: 00:49:05\nDuration: 00:49:05\nDuration: 00:49:05'
+description: '\nDuration: 00:49:05'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday October 20 2005
   subtitle: Daily Source Code for Thursday October 20 2005
-  summary: ''
+  summary: '\nDuration: 00:49:05'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2945
   season: null
   episode: '263'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 35296930
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-263-2005-10-20.mp3
 fileinfo:
   filename: DSC-263-2005-10-20.mp3
   size: 35296930

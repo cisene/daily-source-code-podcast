@@ -1,10 +1,9 @@
 episode: '489'
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday October 31st 2006
+title: Daily Source Code for Tuesday October 31st 2006
 link: '#daily-source-code-episode-web-489'
 pubDate: '2006-10-31'
 category: podcast
-description: '\nDuration: 00:42:26\nDuration: 00:41:23\nDuration: 00:42:26\nDuration: 00:41:23\nDuration: 00:42:26\nDuration: 00:41:23'
+description: '\nDuration: 00:41:23'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday October 31st 2006
   subtitle: Daily Source Code for Tuesday October 31st 2006
-  summary: ''
+  summary: '\nDuration: 00:41:23'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2483
   season: null
   episode: '489'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 29833104
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-489-2006-10-31.mp3
 fileinfo:
   filename: DSC-489-2006-10-31.mp3
   size: 29833104

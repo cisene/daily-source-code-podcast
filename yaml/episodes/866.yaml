@@ -1,6 +1,5 @@
 episode: '866'
-title: Daily Source Code
-subtitle: Daily Source Code for Wednesday August 29th 2012
+title: Daily Source Code for Wednesday August 29th 2012
 link: '#daily-source-code-episode-web-866'
 pubDate: '2012-08-29'
 category: podcast
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Wednesday August 29th 2012
   subtitle: Daily Source Code for Wednesday August 29th 2012
-  summary: ''
+  summary: null
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 9314
   season: null
   episode: '866'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 111823423
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-866-2012-08-29.mp3
 fileinfo:
   filename: DSC-866-2012-08-29.mp3
   size: 111823423

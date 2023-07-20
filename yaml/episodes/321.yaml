@@ -1,10 +1,9 @@
 episode: '321'
-title: Daily Source Code
-subtitle: Daily Source Code for Monday January 23rd 2006
+title: Daily Source Code for Monday January 23rd 2006
 link: '#daily-source-code-episode-web-321'
 pubDate: '2006-01-23'
 category: podcast
-description: '\nDuration: 01:09:42\nDuration: 01:09:42\nDuration: 01:09:42'
+description: '\nDuration: 01:09:42'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Monday January 23rd 2006
   subtitle: Daily Source Code for Monday January 23rd 2006
-  summary: ''
+  summary: '\nDuration: 01:09:42'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 4182
   season: null
   episode: '321'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 50149204
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-321-2006-01-23.mp3
 fileinfo:
   filename: DSC-321-2006-01-23.mp3
   size: 50149204

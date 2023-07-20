@@ -1,10 +1,9 @@
 episode: '319'
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday January 19th 2006
+title: Daily Source Code for Thursday January 19th 2006
 link: '#daily-source-code-episode-web-319'
 pubDate: '2006-01-19'
 category: podcast
-description: '\nDuration: 00:37:29\nDuration: 00:37:29\nDuration: 00:37:29'
+description: '\nDuration: 00:37:29'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday January 19th 2006
   subtitle: Daily Source Code for Thursday January 19th 2006
-  summary: ''
+  summary: '\nDuration: 00:37:29'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2249
   season: null
   episode: '319'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 26983069
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-319-2006-01-19.mp3
 fileinfo:
   filename: DSC-319-2006-01-19.mp3
   size: 26983069

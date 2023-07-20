@@ -1,6 +1,5 @@
 episode: '837'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday July 02nd 2010
+title: Daily Source Code for Friday July 02nd 2010
 link: '#daily-source-code-episode-web-837'
 pubDate: '2010-07-02'
 category: podcast
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday July 02nd 2010
   subtitle: Daily Source Code for Friday July 02nd 2010
-  summary: ''
+  summary: null
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 11965
   season: null
   episode: '837'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 191011679
+    bitrate: '128000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-837-2010-07-02.mp3
 fileinfo:
   filename: DSC-837-2010-07-02.mp3
   size: 191011679

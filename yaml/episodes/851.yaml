@@ -1,6 +1,5 @@
 episode: '851'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday October 29th 2010
+title: Daily Source Code for Friday October 29th 2010
 link: '#daily-source-code-episode-web-851'
 pubDate: '2010-10-29'
 category: podcast
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday October 29th 2010
   subtitle: Daily Source Code for Friday October 29th 2010
-  summary: ''
+  summary: null
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 12687
   season: null
   episode: '851'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 202766986
+    bitrate: '128000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-851-2010-10-29.mp3
 fileinfo:
   filename: DSC-851-2010-10-29.mp3
   size: 202766986

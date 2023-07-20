@@ -1,10 +1,9 @@
 episode: '023'
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday September 09th 2004
+title: Daily Source Code for Thursday September 09th 2004
 link: '#daily-source-code-episode-web-023'
 pubDate: '2004-09-09'
 category: podcast
-description: '\nDuration: 00:24:49\nDuration: 00:24:49\nDuration: 00:24:49'
+description: '\nDuration: 00:24:49'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday September 09th 2004
   subtitle: Daily Source Code for Thursday September 09th 2004
-  summary: ''
+  summary: '\nDuration: 00:24:49'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 1489
   season: null
   episode: '023'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 17838631
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-023-2004-09-09.mp3
 fileinfo:
   filename: DSC-023-2004-09-09.mp3
   size: 17838631

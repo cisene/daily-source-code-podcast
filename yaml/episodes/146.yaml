@@ -1,10 +1,9 @@
 episode: '146'
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday March 31st 2005
+title: Daily Source Code for Thursday March 31st 2005
 link: '#daily-source-code-episode-web-146'
 pubDate: '2005-03-31'
 category: podcast
-description: '\nDuration: 01:05:25\nDuration: 01:05:25\nDuration: 01:05:25'
+description: '\nDuration: 01:05:25'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday March 31st 2005
   subtitle: Daily Source Code for Thursday March 31st 2005
-  summary: ''
+  summary: '\nDuration: 01:05:25'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 3925
   season: null
   episode: '146'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 31334658
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-146-2005-03-31.mp3
 fileinfo:
   filename: DSC-146-2005-03-31.mp3
   size: 31334658

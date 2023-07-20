@@ -1,10 +1,9 @@
 episode: '547'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday February 16th 2007
+title: Daily Source Code for Friday February 16th 2007
 link: '#daily-source-code-episode-web-547'
 pubDate: '2007-02-16'
 category: podcast
-description: '\nDuration: 00:49:59\nDuration: 00:49:59\nDuration: 00:49:59'
+description: '\nDuration: 00:49:59'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday February 16th 2007
   subtitle: Daily Source Code for Friday February 16th 2007
-  summary: ''
+  summary: '\nDuration: 00:49:59'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2999
   season: null
   episode: '547'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 35992005
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-547-2007-02-16.mp3
 fileinfo:
   filename: DSC-547-2007-02-16.mp3
   size: 35992005

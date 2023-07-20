@@ -1,10 +1,9 @@
 episode: 039
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday October 05th 2004
+title: Daily Source Code for Tuesday October 05th 2004
 link: '#daily-source-code-episode-web-039'
 pubDate: '2004-10-05'
 category: podcast
-description: '\nDuration: 00:38:37\nDuration: 00:38:37\nDuration: 00:38:37'
+description: '\nDuration: 00:38:37'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday October 05th 2004
   subtitle: Daily Source Code for Tuesday October 05th 2004
-  summary: ''
+  summary: '\nDuration: 00:38:37'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2317
   season: null
   episode: 039
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 34110194
+    bitrate: '117000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-039-2004-10-05.mp3
 fileinfo:
   filename: DSC-039-2004-10-05.mp3
   size: 34110194

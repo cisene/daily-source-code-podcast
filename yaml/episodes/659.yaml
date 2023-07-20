@@ -1,10 +1,9 @@
 episode: '659'
-title: Daily Source Code
-subtitle: Daily Source Code for Tuesday September 04th 2007
+title: Daily Source Code for Tuesday September 04th 2007
 link: '#daily-source-code-episode-web-659'
 pubDate: '2007-09-04'
 category: podcast
-description: '  <p><strong>#659 Daily Source Code for Tuesday September 4th 2007</strong></p><p>From The Curry Condo, San Francisco, Ca, USA.</p><p>In Loving Memory of Sindy</p> \nDuration: 00:10:16\nDuration: 00:10:16\nDuration: 00:10:16'
+description: '  <p><strong>#659 Daily Source Code for Tuesday September 4th 2007</strong></p><p>From The Curry Condo, San Francisco, Ca, USA.</p><p>In Loving Memory of Sindy</p> \nDuration: 00:10:16'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Tuesday September 04th 2007
   subtitle: Daily Source Code for Tuesday September 04th 2007
-  summary: ''
+  summary: '  <p><strong>#659 Daily Source Code for Tuesday September 4th 2007</strong></p><p>From The Curry Condo, San Francisco, Ca, USA.</p><p>In Loving Memory of Sindy</p> \nDuration: 00:10:16'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 616
   season: null
   episode: '659'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 7606610
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-659-2007-09-04.mp3
 fileinfo:
   filename: DSC-659-2007-09-04.mp3
   size: 7606610

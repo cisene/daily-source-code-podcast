@@ -1,10 +1,9 @@
 episode: '107'
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday January 27th 2005
+title: Daily Source Code for Thursday January 27th 2005
 link: '#daily-source-code-episode-web-107'
 pubDate: '2005-01-27'
 category: podcast
-description: '\nDuration: 00:41:55\nDuration: 00:41:55\nDuration: 00:41:55'
+description: '\nDuration: 00:41:55'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday January 27th 2005
   subtitle: Daily Source Code for Thursday January 27th 2005
-  summary: ''
+  summary: '\nDuration: 00:41:55'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2515
   season: null
   episode: '107'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 20082351
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-107-2005-01-27.mp3
 fileinfo:
   filename: DSC-107-2005-01-27.mp3
   size: 20082351

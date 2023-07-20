@@ -1,10 +1,9 @@
 episode: '552'
-title: Daily Source Code
-subtitle: Daily Source Code for Monday February 26th 2007
+title: Daily Source Code for Monday February 26th 2007
 link: '#daily-source-code-episode-web-552'
 pubDate: '2007-02-26'
 category: podcast
-description: '\nDuration: 00:38:50\nDuration: 00:38:50\nDuration: 00:38:50'
+description: '\nDuration: 00:38:50'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Monday February 26th 2007
   subtitle: Daily Source Code for Monday February 26th 2007
-  summary: ''
+  summary: '\nDuration: 00:38:50'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2330
   season: null
   episode: '552'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 28396954
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-552-2007-02-26.mp3
 fileinfo:
   filename: DSC-552-2007-02-26.mp3
   size: 28396954

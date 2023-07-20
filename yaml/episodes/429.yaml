@@ -1,10 +1,9 @@
 episode: '429'
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday July 27th 2006
+title: Daily Source Code for Thursday July 27th 2006
 link: '#daily-source-code-episode-web-429'
 pubDate: '2006-07-27'
 category: podcast
-description: '\nDuration: 00:39:53\nDuration: 00:39:53\nDuration: 00:39:53'
+description: '\nDuration: 00:39:53'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday July 27th 2006
   subtitle: Daily Source Code for Thursday July 27th 2006
-  summary: ''
+  summary: '\nDuration: 00:39:53'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2393
   season: null
   episode: '429'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 28867466
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-2006-07-27.mp3
 fileinfo:
   filename: DSC-2006-07-27.mp3
   size: 28867466

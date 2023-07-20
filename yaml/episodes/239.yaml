@@ -1,10 +1,9 @@
 episode: '239'
-title: Daily Source Code
-subtitle: Daily Source Code for Monday September 12nd 2005
+title: Daily Source Code for Monday September 12nd 2005
 link: '#daily-source-code-episode-web-239'
 pubDate: '2005-09-12'
 category: podcast
-description: '\nDuration: 00:40:20\nDuration: 00:40:20\nDuration: 00:40:20'
+description: '\nDuration: 00:40:20'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Monday September 12nd 2005
   subtitle: Daily Source Code for Monday September 12nd 2005
-  summary: ''
+  summary: '\nDuration: 00:40:20'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2420
   season: null
   episode: '239'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 28999485
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-239-2005-09-12.mp3
 fileinfo:
   filename: DSC-239-2005-09-12.mp3
   size: 28999485

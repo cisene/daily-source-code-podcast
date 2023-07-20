@@ -1,10 +1,9 @@
 episode: '379'
-title: Daily Source Code
-subtitle: Daily Source Code for Wednesday May 03rd 2006
+title: Daily Source Code for Wednesday May 03rd 2006
 link: '#daily-source-code-episode-web-379'
 pubDate: '2006-05-03'
 category: podcast
-description: '\nDuration: 00:49:11\nDuration: 00:49:11\nDuration: 00:49:11'
+description: '\nDuration: 00:49:11'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Wednesday May 03rd 2006
   subtitle: Daily Source Code for Wednesday May 03rd 2006
-  summary: ''
+  summary: '\nDuration: 00:49:11'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2951
   season: null
   episode: '379'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 35394264
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-2006-05-03.mp3
 fileinfo:
   filename: DSC-2006-05-03.mp3
   size: 35394264

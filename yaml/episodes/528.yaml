@@ -1,10 +1,9 @@
 episode: '528'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday January 19th 2007
+title: Daily Source Code for Friday January 19th 2007
 link: '#daily-source-code-episode-web-528'
 pubDate: '2007-01-19'
 category: podcast
-description: '\nDuration: 00:30:29\nDuration: 00:30:29\nDuration: 00:30:29'
+description: '\nDuration: 00:30:29'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday January 19th 2007
   subtitle: Daily Source Code for Friday January 19th 2007
-  summary: ''
+  summary: '\nDuration: 00:30:29'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 1829
   season: null
   episode: '528'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 22108506
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-528-2007-01-19.mp3
 fileinfo:
   filename: DSC-528-2007-01-19.mp3
   size: 22108506

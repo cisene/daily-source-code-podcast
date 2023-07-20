@@ -1,10 +1,9 @@
 episode: 094
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday January 06th 2005
+title: Daily Source Code for Thursday January 06th 2005
 link: '#daily-source-code-episode-web-094'
 pubDate: '2005-01-06'
 category: podcast
-description: '\nDuration: 00:29:51\nDuration: 00:29:51\nDuration: 00:29:51'
+description: '\nDuration: 00:29:51'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday January 06th 2005
   subtitle: Daily Source Code for Thursday January 06th 2005
-  summary: ''
+  summary: '\nDuration: 00:29:51'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 1791
   season: null
   episode: 094
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 14302788
+    bitrate: '64000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-094-2005-01-06.mp3
 fileinfo:
   filename: DSC-094-2005-01-06.mp3
   size: 14302788

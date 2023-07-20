@@ -1,10 +1,9 @@
 episode: '669'
-title: Daily Source Code
-subtitle: Daily Source Code for Thursday October 04th 2007
+title: Daily Source Code for Thursday October 04th 2007
 link: '#daily-source-code-episode-web-669'
 pubDate: '2007-10-04'
 category: podcast
-description: '\nDuration: 00:52:15\nDuration: 00:52:15\nDuration: 00:52:15'
+description: '\nDuration: 00:52:15'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Thursday October 04th 2007
   subtitle: Daily Source Code for Thursday October 04th 2007
-  summary: ''
+  summary: '\nDuration: 00:52:15'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 3135
   season: null
   episode: '669'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 37630361
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-669-2007-10-04.mp3
 fileinfo:
   filename: DSC-669-2007-10-04.mp3
   size: 37630361

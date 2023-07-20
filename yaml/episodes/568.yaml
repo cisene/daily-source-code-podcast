@@ -1,10 +1,9 @@
 episode: '568'
-title: Daily Source Code
-subtitle: Daily Source Code for Friday March 23rd 2007
+title: Daily Source Code for Friday March 23rd 2007
 link: '#daily-source-code-episode-web-568'
 pubDate: '2007-03-23'
 category: podcast
-description: '\nDuration: 00:42:44\nDuration: 00:42:44\nDuration: 00:42:44'
+description: '\nDuration: 00:42:44'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Friday March 23rd 2007
   subtitle: Daily Source Code for Friday March 23rd 2007
-  summary: ''
+  summary: '\nDuration: 00:42:44'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 2564
   season: null
   episode: '568'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 30781246
+    bitrate: '96000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-568-2007-03-23.mp3
 fileinfo:
   filename: DSC-568-2007-03-23.mp3
   size: 30781246

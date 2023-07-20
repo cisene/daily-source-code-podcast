@@ -1,10 +1,9 @@
 episode: '044'
-title: Daily Source Code
-subtitle: Daily Source Code for Wednesday October 13rd 2004
+title: Daily Source Code for Wednesday October 13rd 2004
 link: '#daily-source-code-episode-web-044'
 pubDate: '2004-10-13'
 category: podcast
-description: '\nDuration: 01:03:59\nDuration: 01:03:59\nDuration: 01:03:59'
+description: '\nDuration: 01:03:59'
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,11 +16,12 @@ enclosure:
   type: audio/mpeg
 itunes:
   author: Adam Curry
+  title: Daily Source Code for Wednesday October 13rd 2004
   subtitle: Daily Source Code for Wednesday October 13rd 2004
-  summary: ''
+  summary: '\nDuration: 01:03:59'
   explicit: 'yes'
   keywords: adam,curry,dsc,delta,sierra,charlie
-  duration: 0
+  duration: 3839
   season: null
   episode: '044'
   image:
@@ -51,9 +51,18 @@ podcast:
     type: application/srt
   socialInteract:
     uri: null
-    protocol: null
+    protocol: disabled
     accountId: null
     accountUrl: null
+  alternateEnclosure:
+    type: audio/mpeg
+    length: 55713027
+    bitrate: '116000'
+    default: true
+    title: Standard
+    source:
+      uri:
+      - DSC-044-2004-10-13.mp3
 fileinfo:
   filename: DSC-044-2004-10-13.mp3
   size: 55713027
