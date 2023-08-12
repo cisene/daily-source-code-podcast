@@ -45,7 +45,7 @@ the first stumbling steps to searching further, with the BitTorrent Sync key
 
 | Year | From |   To | Episodes |
 | ---- | ---: | ---: | -------: |
-| 2004 |   01 |   90 |          |
+| 2004 |   01 |   90 |       89 |
 | 2005 |   91 |  306 |          |
 | 2006 |      |      |          |
 | 2007 |      |  704 |          |
@@ -60,14 +60,18 @@ the first stumbling steps to searching further, with the BitTorrent Sync key
 
 ## Locations
 
-| Caption       | Location          | Latitude | Longitude | From       | To         |
-| ------------- | ----------------- | -------- | --------- | ---------- | ---------- |
-| Curry Castle  | Rijkevoorsel, BE  | 51.3480  | 4.7176    | 2004-08-13 | 2004-11-18 |
-| Curry Cottage | Guildford, UK     | 51.2524  | -0.5678   | 2004-11-21 |            |
-| Curry Terrace |                   |          |           | 2008-12-01 |            |
-| Curry Manor   | South London, UK  | 51.3895  | -0.0766   |            | 2008-12-01 |
-| Curry Condo   | San Fransisco, US | 37.7749  | -122.4194 |            |            |
+| Caption       | Location          				| Latitude  | Longitude  | From        | To         |
+| ------------- | ------------------------- | --------- |  --------- | ----------- | ---------- |
+| Curry Castle  | Rijkevoorsel, BE  				| 51.3480   | 4.7176     | 2004-08-13  | 2004-11-18 |
+| Curry Cottage | Guildford, UK             | 51.2524   | -0.5678    | 2004-11-20  | 2008-11-31 |
+| 							| Miami Beach Florida, US   |           |            | 2005-01-04  |            |
+| Curry Bunker  | Amsterdam, NL             | 52.365562 | 4.891813   |             |            |
+| Curry Terrace |                           |           |            | 2008-12-01  |            |
+| Curry Manor   | South London, UK  				| 51.3895   | -0.0766    |             | 2008-12-01 |
+| Curry Condo   | San Fransisco, US 				| 37.7749   | -122.4194  | 2008-12-02? | 2013-12-31 |
 
+2004-09-29 - Bunker
+2004-11-20 - Cottage
 
 
 ## Episodes of note
