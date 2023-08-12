@@ -1,10 +1,7 @@
 ---
 feed:
-  filename: 'daily-source-code.rss'
-  version: 2.0
-
-episodes:
-- '001'
+  filename: daily-source-code.rss
+  version: 2
 
 channel:
   atom:
@@ -18,10 +15,9 @@ channel:
   docs: http://blogs.law.harvard.edu/tech/rss
   category: News & Politics
   language: en-us
-  copyright: 'Creative Commons Attribution-Noncommercial-ShareAlike 3.0: http://creativecommons.org/licenses/by-nc-sa/3.0/us/'
+  copyright: "Creative Commons Attribution-Noncommercial-ShareAlike 3.0: http://creativecommons.org/licenses/by-nc-sa/3.0/us/"
   managingEditor: adam@curry.com (Adam Curry)
   webMaster: adam@curry.com (Adam Curry)
-
   image:
     url: https://dailysourcecode.com/feed.png
     link: http://dailysourcecode.com/
@@ -29,104 +25,40 @@ channel:
     description: Adam Curry's Daily Source Code Podcast
     width: 144
     height: 144
-
   itunes:
     summary: Adam Curry's Daily Source Code Podcast
     owner:
-      name: 'Adam Curry'
-      email: 'adam@curry.com'
-    author: 'Adam Curry'
+      name: Adam Curry
+      email: adam@curry.com
+    author: Adam Curry
     category:
-    - 'News & Politics'
-    - 'Comedy'
+      - News & Politics
+      - Comedy
     explicit: Yes
     complete: no
     type: serial
     series_name: Daily Source Code
     keywords: dsc,adam,delta,sierra,charlie
     image: https://dailysourcecode.com/feed.png
-
   podcast:
     complete: no
     medium: podcast
-
     locked:
       locked: yes
       owner: adam@curry.com
-
-    funding:
-      url: https://dailysourcecode.com/funding
-      title: Support the Daily Source Code
-
-    value:
-      type: lightning
-      method: keysend
-      suggested: '0.00000005000'
-      valueRecipient:
-      - name: Value4Value
-        type: node
-        address: 03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a
-        split: 53
-      - name: Dreb Scott (Chapter Architect)
-        type: node
-        address: 02453e4e93322d60219808c00c2e6d1f1c673420e95b5511a33c40cfb4df5e9148
-        split: 5
-      - name: Clip Custodian (LNpay.co)
-        type: node
-        address: 02a128c92baf0ede00ed0fc3720a92ba2c6392e0b58aa4decab1d787a666d94cb7
-        customKey: 112111100
-        customValue: wal_aMZ509T2lnpWvN
-        split: 20
-      - name: Sovereign Feeds
-        type: node
-        address: 030a58b8653d32b99200a2334cfe913e51dc7d155aa0116c176657a4f1722677a3
-        customKey: 696969
-        customValue: eChoVKtO1KujpAA5HCoB
-        split: 5
-      - name: Stats
-        type: node
-        address: 030a58b8653d32b99200a2334cfe913e51dc7d155aa0116c176657a4f1722677a3
-        customKey: 696969
-        customValue: gq0Z8b1wEftMkFL4vj7E
-        split: 1
-      - name: Geoff Smith - Various Original Songs
-        type: node
-        address: 030a58b8653d32b99200a2334cfe913e51dc7d155aa0116c176657a4f1722677a3
-        customKey: 696969
-        customValue: mXbAWPOMXmz866ZUJv29
-        split: 5
-      - name: Fountain Boosts
-        type: node
-        address: 0332d57355d673e217238ce3e4be8491aa6b2a13f95494133ee243e57df1653ace
-        customKey: 112111100
-        customValue: wal_GJWRnH1vp88Uf
-        split: 1
-      - name: Bakfiets
-        type: node
-        address: 021f548a8ab5eb8e7cf91e4c9777c388463e213485ece9a1808e3c6850084ee630
-        split: 5
-      - name: hiddenflower35@getalby.com
-        type: node
-        address: 030a58b8653d32b99200a2334cfe913e51dc7d155aa0116c176657a4f1722677a3
-        customKey: 696969
-        customValue: vVERjCpDD6Z8gTQSuNVP
-        split: 5
-
     guid: dfbbeceb-eade-5c61-9fcd-130f3661e347
     images:
       srcset: null
-
-    #block: no
     block:
-    - name: global
-      status: no
-    - name: spotify
-      status: yes
-    - name: facebook
-      status: yes
-    - name: threads
-      status: yes
-    - name: fediverse
-      status: no
-    - name: bluesky
-      status: yes
+      - name: global
+        status: no
+      - name: spotify
+        status: yes
+      - name: facebook
+        status: yes
+      - name: threads
+        status: yes
+      - name: fediverse
+        status: no
+      - name: bluesky
+        status: yes
