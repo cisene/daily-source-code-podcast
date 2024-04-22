@@ -48,6 +48,16 @@ Some episode info:
 https://web.archive.org/web/20130922024941/http://dailysourcecode.mevio.com/#show-episodes
 
 
+Mirrored RSS: [https://web.archive.org/web/20061116220024/http://www.btpodshow.com/feeds/dailysourcecode.xml](https://web.archive.org/web/20061116220024/http://www.btpodshow.com/feeds/dailysourcecode.xml)
+
+
+Search Start: [Daily Source Code Adam Curry](https://web.archive.org/web/20240000000000*/Daily%20Source%20Code%20Adam%20Curry)
+
+
+
+
+
+
 [[_TOC_]]
 
 ## Episode distribution over years
