@@ -36,6 +36,16 @@ the first stumbling steps to searching further, with the BitTorrent Sync key
 
 
 
+Also found mirrored online:
+
+* [https://johntrain.org/nextcloud/s/nPY4sg3dJZaq5yk](https://johntrain.org/nextcloud/s/nPY4sg3dJZaq5yk)
+
+* [https://archive.org/details/pcs_The_Daily_Source_Code](https://archive.org/details/pcs_The_Daily_Source_Code)
+
+
+Some episode info:
+
+https://web.archive.org/web/20130922024941/http://dailysourcecode.mevio.com/#show-episodes
 
 
 [[_TOC_]]
