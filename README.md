@@ -19,7 +19,7 @@ Restoration of DSC, *Daily Source Code* Podcast RSS feed
 
 
 
-This is an attempt at restoring part or fragments of the DSC feed, through bits and pieces through internet archeology, google-fu and brute-force, piece together what would be similar but not necessarily identical to what the original DSC RSS feed looked like.
+This is an attempt at restoring part or fragments of the DSC feed, through bits and pieces through Internet archeology, google-fu and brute-force, piece together what would be similar but not necessarily identical to what the original DSC RSS feed looked like.
 
 It is an impossible task, but the impossible just takes a little longer ...
 
@@ -34,12 +34,22 @@ By scouring sources, some fragments has been found. A combination of sources and
 Many small pieces of information was gathered through searches for RSS fragments, some were same stale copy of the RSS, some were snapshots from the live RSS as it got updated over time.
 
 
+
 ### BTSync
+
 Episodes and other material were found when a BTSync link surfaced and lots of material gathered by somebody still hosting almost all episodes.
 [btsync://BSOB4VLQZYXFUZV6RYXW4APTX3M2GY2CQ?n=dsc](btsync://BSOB4VLQZYXFUZV6RYXW4APTX3M2GY2CQ?n=dsc)
 
 
+
+## The other source
+
+
+
+
+
 ### The first Pocasting app, Adam Curry's script
+
 Yeah, we dug up the first podcasting application, the little piece of software that automated the task of watching a folder and moving downloaded MP3's onto Adam's iPod .. "Automagically". You can find the source code in Applescript along with the writeup: [iPod](./iPod/) 
 
 
