@@ -1,0 +1,932 @@
+1
+00:00:01,500 --> 00:00:17,820
+Hey everybody it's source code for August 19th 2004 I'm out of
+
+2
+00:00:19,500 --> 00:00:28,620
+today from Korea Castle in Belgium and it's a little bit later than usual. I guess maybe
+
+3
+00:00:28,620 --> 00:00:32,720
+it's starting to become the norm now. I was late last night as well. It's 10 o'clock
+
+4
+00:00:32,720 --> 00:00:38,280
+in the evening and I'm telling you until I get to the end of these radio shows, I'm
+
+5
+00:00:38,280 --> 00:00:42,960
+not going to be able to get this source code up on a daily basis before 8 o'clock in the
+
+6
+00:00:42,960 --> 00:00:48,480
+morning east coast to US time. Hopefully after that though, we'll be, we'll
+
+7
+00:00:48,480 --> 00:00:55,760
+be better on the timing. Okay, just switch a few things around here on my screen. A couple
+
+8
+00:00:55,760 --> 00:01:04,880
+of things I want to talk about today. First of all, you know I've been winding down my
+
+9
+00:01:04,880 --> 00:01:10,000
+year long 10 year of doing the morning show for Radio Veronica here in the Netherlands.
+
+10
+00:01:10,000 --> 00:01:14,440
+And so, you know, near the end and last week, well, next week we'll have, it'll be our last
+
+11
+00:01:14,440 --> 00:01:19,000
+week and then there's Monday and Tuesday because actually my last show is on the 31st.
+
+12
+00:01:19,000 --> 00:01:21,000
+So we've got all kinds of great guest book and today we have
+
+13
+00:01:21,000 --> 00:01:25,180
+had the Leofond de Chote, famous disc jockey from Tholm,
+
+14
+00:01:25,180 --> 00:01:27,300
+30 years ago, he was on the pirate ships,
+
+15
+00:01:27,300 --> 00:01:29,980
+which were operating on the North Sea.
+
+16
+00:01:29,980 --> 00:01:31,860
+He ever heard the story behind that, it's great.
+
+17
+00:01:31,860 --> 00:01:33,620
+Now, I have to look up the history
+
+18
+00:01:33,620 --> 00:01:35,780
+of the pirate radio broadcast ships,
+
+19
+00:01:35,780 --> 00:01:39,100
+radio caroline, radio Veronica, radio and what sea
+
+20
+00:01:39,100 --> 00:01:41,700
+international, it was a crazy time.
+
+21
+00:01:41,700 --> 00:01:44,620
+And he was one of the pirate disc jockeys
+
+22
+00:01:44,620 --> 00:01:47,540
+on one of those ships on the international waters
+
+23
+00:01:47,540 --> 00:01:48,780
+in the North Sea.
+
+24
+00:01:48,780 --> 00:01:51,360
+And now he is the program director,
+
+25
+00:01:51,360 --> 00:01:54,500
+or the, yeah, he's the guy that's responsible
+
+26
+00:01:54,500 --> 00:01:57,940
+for the entire programming on three
+
+27
+00:01:57,940 --> 00:02:00,180
+of the top commercial television stations.
+
+28
+00:02:00,180 --> 00:02:02,180
+And it was really, you know, it was very intense
+
+29
+00:02:02,180 --> 00:02:04,220
+to do a show with, so I've also worked with him.
+
+30
+00:02:04,220 --> 00:02:07,780
+He directed a live show that I did called Countdown,
+
+31
+00:02:07,780 --> 00:02:09,660
+which was a new bass show.
+
+32
+00:02:09,660 --> 00:02:11,980
+We had live guests and we had people performing
+
+33
+00:02:11,980 --> 00:02:14,980
+and videos and we did that for, you know,
+
+34
+00:02:14,980 --> 00:02:16,500
+the whole season.
+
+35
+00:02:16,500 --> 00:02:18,380
+So we worked very intently together
+
+36
+00:02:18,380 --> 00:02:19,980
+and we've had our ups and downs.
+
+37
+00:02:19,980 --> 00:02:22,020
+But it's always a really intense,
+
+38
+00:02:22,500 --> 00:02:27,160
+concentrate when you're doing it to you with someone like that, maybe a little bit more
+
+39
+00:02:27,160 --> 00:02:28,160
+than normal.
+
+40
+00:02:28,160 --> 00:02:31,740
+And I wasn't feeling too hot today.
+
+41
+00:02:31,740 --> 00:02:35,340
+So I was pretty wiped out after the show.
+
+42
+00:02:35,340 --> 00:02:41,180
+Had to go up to the flat screen factory that I have a stake in called GrandmasterView.
+
+43
+00:02:41,180 --> 00:02:43,500
+If you, you know, you should look it up, www.GrandmasterView.com.
+
+44
+00:02:43,500 --> 00:02:49,940
+It's pretty cool that we have humongous flat screens at unbelievably low prices.
+
+45
+00:02:49,940 --> 00:02:56,540
+So in the, I got home and just slept until like six or six, thirty and had dinner and
+
+46
+00:02:56,540 --> 00:02:58,940
+now we're just kind of hanging out and about ready to go back to bed.
+
+47
+00:02:58,940 --> 00:03:00,380
+Such is the life of the morning.
+
+48
+00:03:00,380 --> 00:03:01,380
+This kajake.
+
+49
+00:03:01,380 --> 00:03:06,860
+And you can tell I'm a disc jockey because I have all the lore as well.
+
+50
+00:03:06,860 --> 00:03:14,860
+Now about audio blogging, I picked up a pretty cool post yesterday from Harold Gilchrist.
+
+51
+00:03:14,860 --> 00:03:20,140
+And once in a second, let me see what the URL of his website is.
+
+52
+00:03:20,140 --> 00:03:24,020
+I have to find that and put a link to it.
+
+53
+00:03:24,000 --> 00:03:31,120
+it because radio.weblogs.com website. But if you just Google it Harold Gilchrist, that's
+
+54
+00:03:31,120 --> 00:03:42,800
+a G-I-L-C-H-R-I-S-T. And he posted some interesting thoughts in his own audio blog about, well,
+
+55
+00:03:42,800 --> 00:03:49,520
+what he calls the rise of audio enclosure blogging. Of course, that tickled me and I
+
+56
+00:03:49,520 --> 00:03:55,200
+can just bring my mixer back to the front here. I'm going to play a little bit, a snippet.
+
+57
+00:03:55,200 --> 00:04:00,080
+Listen to what he's saying. There's a couple of things in there that I like that he said.
+
+58
+00:04:00,080 --> 00:04:08,960
+Check it out. This is Harold Gilchrist and whereas I call this source code, the daily source code,
+
+59
+00:04:08,960 --> 00:04:16,160
+if you will. Another audio blogging example, which actually I took example who is Dave Weiner's
+
+60
+00:04:16,160 --> 00:04:21,200
+morning coffee notes. And Harold calls his audio blogs poolside.
+
+61
+00:04:21,200 --> 00:04:25,440
+Anyway, but there's a lot of new audio ging.
+
+62
+00:04:25,500 --> 00:04:31,900
+big out there in a blog as fair. I usually call the blog oddspare. And that's good. That's
+
+63
+00:04:31,900 --> 00:04:37,700
+good news. So let's back up a second. I said it's the rise of the RSS enclosure audio
+
+64
+00:04:37,700 --> 00:04:44,660
+blogger. And again, this is just something I'll remember, but it seems that if you look
+
+65
+00:04:44,660 --> 00:04:51,300
+at the RSS feeds of Adam and Dave, and I believe now Doug Kay is doing it for Callie,
+
+66
+00:04:51,300 --> 00:05:02,780
+let these audio posts are accompanied by MP3s in the feeds. And developers like Adam Perry
+
+67
+00:05:02,780 --> 00:05:09,620
+or writing scripts to take advantage of that being there. So follow this as good news. As
+
+68
+00:05:09,620 --> 00:05:17,140
+an observer of audio blogging, this is very healthy. And I look forward to the, did the
+
+69
+00:05:17,140 --> 00:05:24,740
+lip in the audio blogging attention, get greater. And I've been seeing it happen now.
+
+70
+00:05:24,740 --> 00:05:25,740
+Okay.
+
+71
+00:05:25,740 --> 00:05:26,740
+That's
+
+72
+00:05:27,000 --> 00:05:29,000
+Some nice words there from Harold
+
+73
+00:05:29,000 --> 00:05:32,200
+About audio blogging
+
+74
+00:05:32,200 --> 00:05:37,280
+I don't know what Harold does. I gather from his post maybe he's a consultant or
+
+75
+00:05:37,280 --> 00:05:41,840
+He said it's his job to pay attention to what's going on in the blogosphere, so
+
+76
+00:05:41,840 --> 00:05:49,000
+Something that one part that I really like there is that he said that developers like Adam Curry. I'm like oh, yes
+
+77
+00:05:49,000 --> 00:05:52,080
+Finally I'm starting to graduate into the developer sphere
+
+78
+00:05:53,160 --> 00:05:58,920
+And I wanted to stop and talk about that for just a second because I've created this thing called iPod
+
+79
+00:05:58,920 --> 00:06:02,080
+Which more people are using than I then I anticipated
+
+80
+00:06:02,080 --> 00:06:08,440
+Because now of course I'm getting support questions and all kinds of stuff that comes along with developing something
+
+81
+00:06:08,440 --> 00:06:17,040
+My intention with iPod was to create something that unfortunately I can only do it for the Mac because that's all I have and that's the only thing I know how to
+
+82
+00:06:17,040 --> 00:06:20,120
+program or develop on or
+
+83
+00:06:20,120 --> 00:06:22,560
+integrate systems on
+
+84
+00:06:22,720 --> 00:06:24,880
+Is
+
+85
+00:06:24,880 --> 00:06:28,480
+That if you subscribe to an RSS feed that has mp3
+
+86
+00:06:28,500 --> 00:06:34,220
+closures like Harold explained that it will automatically show up on your iPod, really
+
+87
+00:06:34,220 --> 00:06:38,540
+making your iPod an aggregate.
+
+88
+00:06:38,540 --> 00:06:43,500
+And the intent behind it was just to prove the concept, show it says what I want it to
+
+89
+00:06:43,500 --> 00:06:49,620
+be, this is how I want it to work and hopefully other people will catch on to it and with a
+
+90
+00:06:49,620 --> 00:06:53,820
+little bit of luck developers will start to make the same functionality hopefully better
+
+91
+00:06:53,820 --> 00:07:00,700
+in cross-platform development environments.
+
+92
+00:07:00,700 --> 00:07:08,620
+Steve Garfield who is a video blogger, well he caught me on one of the, probably the Achilles
+
+93
+00:07:08,620 --> 00:07:11,100
+heel of the iPod or application.
+
+94
+00:07:11,100 --> 00:07:15,660
+Steve said, hey it's funny, I removed all this content, didn't want from the iPod or
+
+95
+00:07:15,660 --> 00:07:19,220
+folder and it came back magically.
+
+96
+00:07:19,220 --> 00:07:23,180
+So there it is, I built an application that doesn't really have a database.
+
+97
+00:07:23,180 --> 00:07:29,140
+So it dollars I guess it parks the file system and uses that as a database.
+
+98
+00:07:30,000 --> 00:07:35,080
+enclosures are still in the active RSS feed, it's going to want to suck those in.
+
+99
+00:07:35,080 --> 00:07:40,200
+So if you have something like, see if you have a feed that doesn't update very often,
+
+100
+00:07:40,200 --> 00:07:41,960
+take IT conversations for instance.
+
+101
+00:07:41,960 --> 00:07:47,040
+There's probably 15 shows in their feed and one is added every other day or every three
+
+102
+00:07:47,040 --> 00:07:48,040
+days.
+
+103
+00:07:48,040 --> 00:07:53,720
+So if you remove five or six of those files, only one of them or two of them won't come
+
+104
+00:07:53,720 --> 00:07:54,720
+back.
+
+105
+00:07:54,720 --> 00:07:57,760
+On the contrary, this is another observation I had.
+
+106
+00:07:57,760 --> 00:08:04,920
+If you have something like scripting news and Dave posts an MP3 in his enclosure, if
+
+107
+00:08:04,920 --> 00:08:09,480
+you don't, if your script isn't running often enough, Dave will out post your aggregator
+
+108
+00:08:09,480 --> 00:08:14,640
+and that posting will actually drop off the edge of the RSS file and you'll miss it.
+
+109
+00:08:14,640 --> 00:08:18,040
+So all kinds of things to be considered there when it comes to updating.
+
+110
+00:08:18,040 --> 00:08:27,160
+Of course this is because we're not, we're, we're not using or it's difficult to use
+
+111
+00:08:27,160 --> 00:08:31,320
+uh, pings effectively because of course
+
+112
+00:08:31,500 --> 00:08:37,500
+what you want is you want to be notified that something's updated and updated accordingly
+
+113
+00:08:37,500 --> 00:08:39,940
+and not necessarily pull the whole time.
+
+114
+00:08:39,940 --> 00:08:43,460
+But that's a whole other discussion.
+
+115
+00:08:43,460 --> 00:08:46,020
+So anyway, check out SteveBarfield.com.
+
+116
+00:08:46,020 --> 00:08:48,020
+He blogged the Democratic National Convention.
+
+117
+00:08:48,020 --> 00:08:49,020
+He's really funny.
+
+118
+00:08:49,020 --> 00:08:53,740
+I like the way he did it and I can see he's learning his video skills very, very quickly.
+
+119
+00:08:53,740 --> 00:08:57,980
+I think guess he's doing most of it on Final Cut Pro and the iMovie, but it's good stuff.
+
+120
+00:08:57,980 --> 00:09:02,980
+And once we figure out how we use enclosures with audio, which I think is a lot easier
+
+121
+00:09:02,980 --> 00:09:09,700
+to do, I know is a lot easier to develop for just because of the sheer size of the files,
+
+122
+00:09:09,700 --> 00:09:16,020
+I think we'll be able to apply a lot of this to the video blogging.
+
+123
+00:09:16,020 --> 00:09:20,500
+Which really, in my mind, if we say blogging in the context of audio or video blogging,
+
+124
+00:09:20,500 --> 00:09:23,340
+it's audio and video distribution.
+
+125
+00:09:23,340 --> 00:09:29,800
+And BitTorrent is a major part of that and I hope to start testing with that in the audio
+
+126
+00:09:29,800 --> 00:09:31,060
+realm pretty soon.
+
+127
+00:09:31,060 --> 00:09:33,060
+Um
+
+128
+00:09:33,000 --> 00:09:36,600
+Okay, hope you can still stand this sound of the crappy microphone.
+
+129
+00:09:36,600 --> 00:09:44,280
+Luckily, when I turn the mic off, it doesn't crap out, and I'm going to do so with a song.
+
+130
+00:09:44,280 --> 00:09:52,360
+And I've been thinking, I don't really have a theme for what I played the song of the day sounds, you know, it's like so typical.
+
+131
+00:09:52,360 --> 00:09:55,720
+But maybe today, I'll just be honest about it.
+
+132
+00:09:55,720 --> 00:10:01,160
+I'm really in the mood for something really hokey, you know, a 70s hokey song of the day,
+
+133
+00:10:01,160 --> 00:10:04,480
+Because we're For Shout-O-Pro Nelly for Tahoe, Jewel, or...
+
+134
+00:10:07,500 --> 00:10:14,500
+The 70s. This is Ricky Lee Jones. It's Chuck and Ben Love.
+
+135
+00:10:14,500 --> 00:10:17,500
+♪ How come you don't come ♪
+
+136
+00:10:17,500 --> 00:10:20,500
+♪ Yeah, feelin' me ♪
+
+137
+00:10:20,500 --> 00:10:22,500
+♪ That is a meaner ♪
+
+138
+00:10:24,000 --> 00:10:27,560
+Come on, come on, you turn it off TV
+
+139
+00:10:27,560 --> 00:10:31,360
+And head that side on the go away
+
+140
+00:10:31,360 --> 00:10:36,560
+Come, here we go, come, come, today
+
+141
+00:10:36,560 --> 00:10:40,200
+Hey, you walk on, make a boy
+
+142
+00:10:40,200 --> 00:10:42,280
+Hey, you look the way
+
+143
+00:10:42,280 --> 00:10:44,760
+Yeah, yeah
+
+144
+00:10:44,760 --> 00:10:49,160
+Later, roll up the line, and then I'll just let me tell
+
+145
+00:10:49,160 --> 00:10:54,720
+You don't understand what it talks, it's true, it's true
+
+146
+00:10:54,720 --> 00:10:58,000
+You show it's a quiet, it's gotta be cool
+
+147
+00:10:58,000 --> 00:11:01,120
+Let's buy some jam, let it go
+
+148
+00:11:01,120 --> 00:11:05,200
+Well, then you can't get it, look too cute
+
+149
+00:11:05,200 --> 00:11:06,400
+Hey, you look the way
+
+150
+00:11:06,400 --> 00:11:10,200
+This is healthy, it's so kinda pinky
+
+151
+00:11:13,500 --> 00:11:14,500
+Love
+
+152
+00:11:14,500 --> 00:11:18,940
+Chucky in the love
+
+153
+00:11:18,940 --> 00:11:22,540
+Chucky in the love
+
+154
+00:11:22,540 --> 00:11:27,540
+Chucky in the love
+
+155
+00:11:27,540 --> 00:11:31,820
+I don't believe what you say to me
+
+156
+00:11:31,820 --> 00:11:33,420
+This is solid
+
+157
+00:11:33,420 --> 00:11:34,480
+I've got that
+
+158
+00:11:36,000 --> 00:11:41,000
+I look in the pool, how is it here?
+
+159
+00:11:41,000 --> 00:11:46,000
+I look in the blood stall, what is it here?
+
+160
+00:11:46,000 --> 00:11:51,000
+No, don't come here no more
+
+161
+00:11:51,000 --> 00:11:52,000
+No.
+
+162
+00:11:54,000 --> 00:12:10,500
+I saw you, you silly, you had those down at the fair and say it is Halloween, but it's got uphill, I'm asleep, I hope.
+
+163
+00:12:13,500 --> 00:12:25,000
+That's it, man. That's it. I'm crazy. I think it's your coldiness, yeah. Is that hurt? What's the name?
+
+164
+00:12:27,000 --> 00:12:29,920
+♪ I'm gonna be the same as ♪
+
+165
+00:12:33,000 --> 00:12:34,000
+I'm doing the most of my life.
+
+166
+00:12:34,000 --> 00:12:35,000
+We're gonna take the most in love.
+
+167
+00:12:35,000 --> 00:12:36,000
+We're gonna take the most in love,
+
+168
+00:12:36,000 --> 00:12:37,000
+We're gonna take the most in love.
+
+169
+00:12:37,000 --> 00:12:38,000
+I'm doing the most of my life.
+
+170
+00:12:38,000 --> 00:12:39,000
+I'm doing the most of my life.
+
+171
+00:12:39,000 --> 00:12:40,000
+We're gonna take the most in love.
+
+172
+00:12:40,000 --> 00:12:41,000
+I'm doing the most of my life.
+
+173
+00:12:41,000 --> 00:12:42,000
+I'm doing the most of my life.
+
+174
+00:12:42,000 --> 00:12:43,000
+I'm doing the most of my life.
+
+175
+00:12:43,000 --> 00:12:44,000
+I'm doing the most of my life.
+
+176
+00:12:44,000 --> 00:12:45,000
+I'm doing the most of my life.
+
+177
+00:12:45,000 --> 00:12:46,000
+I'm doing the most of my life.
+
+178
+00:12:46,000 --> 00:12:47,000
+I'm doing the most of my life.
+
+179
+00:12:47,000 --> 00:12:48,000
+I'm doing the most of my life.
+
+180
+00:12:48,000 --> 00:12:49,000
+I'm doing the most of my life.
+
+181
+00:12:49,000 --> 00:12:50,000
+I'm doing the most of my life.
+
+182
+00:12:50,000 --> 00:12:51,000
+I'm doing the most of my life.
+
+183
+00:12:51,000 --> 00:12:52,000
+I'm doing the most of my life.
+
+184
+00:12:52,000 --> 00:12:53,000
+I'm doing the most of my life.
+
+185
+00:12:54,000 --> 00:12:55,000
+I'm doing the most of my life.
+
+186
+00:12:55,000 --> 00:12:56,000
+I'm doing the most of my life.
+
+187
+00:12:56,000 --> 00:12:57,000
+I'm doing the most of my life.
+
+188
+00:12:57,000 --> 00:12:58,000
+I'm doing the most of my life.
+
+189
+00:12:58,000 --> 00:12:59,000
+I'm doing the most of my life.
+
+190
+00:12:59,000 --> 00:13:00,000
+I'm doing the most of my life.
+
+191
+00:13:00,000 --> 00:13:01,000
+I'm doing the most of my life.
+
+192
+00:13:01,000 --> 00:13:02,000
+I'm doing the most of my life.
+
+193
+00:13:02,000 --> 00:13:03,000
+I'm doing the most of my life.
+
+194
+00:13:03,000 --> 00:13:04,000
+I'm doing the most of my life.
+
+195
+00:13:04,000 --> 00:13:05,000
+I'm doing the most of my life.
+
+196
+00:13:05,000 --> 00:13:06,000
+I'm doing the most of my life.
+
+197
+00:13:06,000 --> 00:13:07,000
+I'm doing the most of my life.
+
+198
+00:13:07,000 --> 00:13:08,000
+I'm doing the most of my life.
+
+199
+00:13:08,000 --> 00:13:09,000
+I'm doing the most of my life.
+
+200
+00:13:09,000 --> 00:13:10,000
+I'm doing the most of my life.
+
+201
+00:13:10,000 --> 00:13:11,000
+I'm doing the most of my life.
+
+202
+00:13:11,000 --> 00:13:12,000
+I'm doing the most of my life.
+
+203
+00:13:12,000 --> 00:13:13,000
+I'm doing the most of my life.
+
+204
+00:13:13,000 --> 00:13:14,000
+I'm doing the most of my life.
+
+205
+00:13:14,000 --> 00:13:16,000
+I'm doing the most of my life.
+
+206
+00:13:16,000 --> 00:13:18,000
+I'm doing the most of my life.
+
+207
+00:13:18,000 --> 00:13:19,000
+I'm doing the most of my life.
+
+208
+00:13:19,000 --> 00:13:20,000
+I'm doing the most of my life.
+
+209
+00:13:20,000 --> 00:13:21,000
+I'm doing the most of my life.
+
+210
+00:13:21,000 --> 00:13:22,000
+I'm doing the most of my life.
+
+211
+00:13:22,000 --> 00:13:23,000
+I'm doing the most of my life.
+
+212
+00:13:23,000 --> 00:13:24,000
+I'm doing the most of my life.
+
+213
+00:13:24,000 --> 00:13:25,000
+I'm doing the most of my life.
+
+214
+00:13:25,000 --> 00:13:26,000
+I'm doing the most of my life.
+
+215
+00:13:26,000 --> 00:13:27,000
+I'm doing the most of my life.
+
+216
+00:13:27,000 --> 00:13:28,000
+I'm doing the most of my life.
+
+217
+00:13:28,000 --> 00:13:29,000
+I'm doing the most of my life.
+
+218
+00:13:29,000 --> 00:13:30,000
+I'm doing the most of my life.
+
+219
+00:13:30,000 --> 00:13:31,000
+I'm doing the most of my life.
+
+220
+00:13:31,000 --> 00:13:32,000
+I'm doing the most of my life.
+
+221
+00:13:32,000 --> 00:13:33,000
+I'm doing the most of my life.
+
+222
+00:13:33,000 --> 00:13:34,000
+I'm doing the most of my life.
+
+223
+00:13:34,500 --> 00:13:38,500
+and get to sleep in Saturday and Sunday. It's gonna be really busy week next week.
+
+224
+00:13:38,500 --> 00:13:44,000
+Since Patricia and I announced that we're moving to the United Kingdom,
+
+225
+00:13:44,000 --> 00:13:49,500
+the press of force wants to have the story, so we're doing all kinds of interviews and TV shows next week.
+
+226
+00:13:49,500 --> 00:13:55,500
+I'm gonna fit some flying in, all kinds of stuff going on.
+
+227
+00:13:55,500 --> 00:13:59,500
+And of course, early to rise for the radio show.
+
+228
+00:13:59,500 --> 00:14:02,500
+And I'll be back tomorrow with a wrap up of the week.
+
+229
+00:14:02,500 --> 00:14:05,500
+Thanks for listening. Oh, I have to remember.
+
+230
+00:14:05,500 --> 00:14:11,500
+If you have any comments, my email is adam at curry.com, C-U-R-R-Y,
+
+231
+00:14:11,500 --> 00:14:16,500
+my website, live. curry.com.
+
+232
+00:14:16,500 --> 00:14:22,500
+And if you're listening to this through your aggregator, thank you very much for subscribing.
+
+233
+00:14:22,500 --> 00:14:24,500
+And talk to you tomorrow. Bye.
+
