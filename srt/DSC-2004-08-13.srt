@@ -1,0 +1,1144 @@
+1
+00:00:00,000 --> 00:00:07,000
+Well, good morning, everybody, and welcome to the Daily Source Code.
+
+2
+00:00:07,000 --> 00:00:12,320
+Thank you very much for taking the time to download this mp3 file, or if some of you
+
+3
+00:00:12,320 --> 00:00:17,680
+may have received it automatically overnight as an enclosure in your aggregator.
+
+4
+00:00:17,680 --> 00:00:20,920
+In that case, thanks for subscribing.
+
+5
+00:00:20,920 --> 00:00:26,380
+The first, what I'd like to do is explain exactly what this is, what the Daily Source
+
+6
+00:00:26,380 --> 00:00:30,320
+Code is going to be, and well, as the name already suggests, it's something that's
+
+7
+00:00:30,320 --> 00:00:32,500
+going to be daily.
+
+8
+00:00:32,500 --> 00:00:38,480
+And I'd like to elaborate a little bit on the name Daily Source Code and what inspired
+
+9
+00:00:38,480 --> 00:00:40,320
+me to do this, where that came from.
+
+10
+00:00:40,320 --> 00:00:43,740
+By the way, I'm recording this in my car.
+
+11
+00:00:43,740 --> 00:00:51,220
+I'm on the way from our home in Belgium to Breda in the Netherlands.
+
+12
+00:00:51,220 --> 00:00:53,980
+Pick up new pair of glasses and contact with...
+
+13
+00:00:53,980 --> 00:00:54,980
+Oops.
+
+14
+00:00:54,980 --> 00:00:57,020
+It's a very important carriage.
+
+15
+00:00:57,020 --> 00:00:58,860
+I think I'm going to have to take another route.
+
+16
+00:00:58,860 --> 00:01:01,540
+Anyway, the Daily Source Code.
+
+17
+00:01:01,500 --> 00:01:04,780
+Let me back up here for a second.
+
+18
+00:01:04,780 --> 00:01:09,860
+I'm in a very narrow country lane and there's a horse and drawn carriage coming my way.
+
+19
+00:01:09,860 --> 00:01:11,660
+So you know what?
+
+20
+00:01:11,660 --> 00:01:17,100
+I'm going to just step over here and while I'm talking to you guys, I'll just wait for
+
+21
+00:01:17,100 --> 00:01:21,460
+this guy to pass.
+
+22
+00:01:21,460 --> 00:01:26,700
+When I was on vacation just recently in Sorrento, Italy, a couple of great things happened.
+
+23
+00:01:26,700 --> 00:01:34,380
+First of all, as if by magic, my wireless microphone, which I had lost for a few months,
+
+24
+00:01:34,380 --> 00:01:36,980
+I had the receiver apart but I just couldn't find the microphone part.
+
+25
+00:01:36,980 --> 00:01:42,580
+It was left over from our reality show that we taped over a year ago and I bought a couple
+
+26
+00:01:42,580 --> 00:01:44,540
+of really professional wireless mic kits.
+
+27
+00:01:44,540 --> 00:01:46,300
+It cost about $2,000 each.
+
+28
+00:01:46,300 --> 00:01:49,660
+So this is great, has great range and has a great sound.
+
+29
+00:01:49,660 --> 00:01:50,980
+It's just fantastic.
+
+30
+00:01:50,980 --> 00:01:54,140
+Professional stuff.
+
+31
+00:01:54,140 --> 00:01:59,320
+So I found that in a suitcase that had been lurking there apparently for a couple of months
+
+32
+00:01:59,320 --> 00:02:02,340
+I thought, well, alright, now I can finally start doing some audio blogging again.
+
+33
+00:02:03,000 --> 00:02:06,000
+But also, I'd loaded up my iPod.
+
+34
+00:02:06,000 --> 00:02:10,000
+You may or may not know that I have created a couple of scripts that
+
+35
+00:02:10,000 --> 00:02:15,000
+parse some RSS feeds with enclosures and automatically downloads
+
+36
+00:02:15,000 --> 00:02:20,000
+the MP3 files and adds them to my iTunes library and to my iPod.
+
+37
+00:02:20,000 --> 00:02:24,000
+I'm subscribed to the IT conversations feed.
+
+38
+00:02:24,000 --> 00:02:27,000
+And so I loaded that up.
+
+39
+00:02:27,000 --> 00:02:30,000
+Wave to this guy here. Sure, buddy. Happy to do it.
+
+40
+00:02:30,000 --> 00:02:33,000
+I loaded it up.
+
+41
+00:02:33,000 --> 00:02:37,000
+And on there was a couple of conferences or a couple of sessions
+
+42
+00:02:37,000 --> 00:02:41,000
+from the open source developers conference, I believe.
+
+43
+00:02:41,000 --> 00:02:43,000
+And I forgot who the speaker was.
+
+44
+00:02:43,000 --> 00:02:48,000
+Of course, I'll be sure to find out and link to him.
+
+45
+00:02:48,000 --> 00:02:51,000
+I was talking about what source code really is.
+
+46
+00:02:51,000 --> 00:02:57,000
+Is source code the actual script that runs that makes your computer
+
+47
+00:02:57,000 --> 00:03:02,000
+do something or the machine code that sits underneath all that?
+
+48
+00:03:02,000 --> 00:03:05,000
+Or is the source code perhaps?
+
+49
+00:03:04,500 --> 00:03:12,500
+actually the written explanation, the English explanation, not just funky English that a computer can interpret,
+
+50
+00:03:12,500 --> 00:03:16,500
+that explains what a program is supposed to do.
+
+51
+00:03:16,500 --> 00:03:24,500
+And I kind of subscribe to that idea that maybe even an RFC or just a functional description of,
+
+52
+00:03:24,500 --> 00:03:29,500
+okay, here's what I want this computer program to do, here's how it should behave.
+
+53
+00:03:29,500 --> 00:03:36,500
+That is the actual source code, it's the thought behind what eventually gets written in computer code or scripting language.
+
+54
+00:03:36,500 --> 00:03:44,500
+So if you think about a radio program or an audio program like this, you could, coincidentally, it's also called a program, right?
+
+55
+00:03:44,500 --> 00:03:49,500
+I guess you could say that this is the source code to me.
+
+56
+00:03:49,500 --> 00:03:51,500
+It's Adam's source code.
+
+57
+00:03:51,500 --> 00:03:58,500
+And every single day, a bit of me is filtered through to the web, and I write about what I'm thinking, what I've been reading.
+
+58
+00:03:58,500 --> 00:04:06,500
+You know, the links that I choose, the sites that I choose to link to, all that comes from a certain mindset on the website.
+
+59
+00:04:06,000 --> 00:04:09,800
+on any given day or moment, and that's what I call the source code.
+
+60
+00:04:09,800 --> 00:04:17,040
+So I figured if I have a web log and I've got all these links and stories, it might
+
+61
+00:04:17,040 --> 00:04:21,320
+be of some interest to some people to listen to the source code where all the ideas come
+
+62
+00:04:21,320 --> 00:04:22,320
+from.
+
+63
+00:04:22,320 --> 00:04:25,120
+The narrative that's running around in my head that I can't possibly write down.
+
+64
+00:04:27,000 --> 00:04:34,080
+other inspiration has been Dave Weiner, who started doing his morning coffee notes in
+
+65
+00:04:34,080 --> 00:04:40,220
+audio a while ago, and he did almost a daily version during the blogging of the Democratic
+
+66
+00:04:40,220 --> 00:04:51,040
+National Convention. And I'm addicted to it. I just love listening to his source code, basically.
+
+67
+00:04:51,040 --> 00:04:58,680
+And his latest coffee notes, which he actually pleaded people to listen to, he made a very
+
+68
+00:04:58,680 --> 00:05:02,480
+good point, which he and I have discussed before, and I think I've written about it
+
+69
+00:05:02,480 --> 00:05:10,680
+on the web as well, is that we're coming to a head between bloggers and journalists.
+
+70
+00:05:10,680 --> 00:05:16,880
+And it's all really about, on a second, in Belgium here we stop at the, we stop for
+
+71
+00:05:16,880 --> 00:05:20,320
+pedestrians. Sure, man.
+
+72
+00:05:22,500 --> 00:05:24,260
+recollect my thoughts here for a second.
+
+73
+00:05:24,260 --> 00:05:25,420
+I didn't want to hit anybody.
+
+74
+00:05:25,420 --> 00:05:26,180
+This is kind of tough.
+
+75
+00:05:26,180 --> 00:05:27,180
+Hold on, let me just spark up.
+
+76
+00:05:27,180 --> 00:05:29,820
+About a half hour drive-out.
+
+77
+00:05:31,500 --> 00:05:33,500
+I'm trying to make this 15 minutes
+
+78
+00:05:33,500 --> 00:05:37,140
+So at any rate
+
+79
+00:05:37,140 --> 00:05:40,220
+The big
+
+80
+00:05:40,220 --> 00:05:45,620
+Revelation really of the promise of the web which they've says I think correctly is not necessarily web logs
+
+81
+00:05:45,620 --> 00:05:50,420
+It's the fact that when you write something you can link to the source
+
+82
+00:05:50,420 --> 00:05:52,220
+so
+
+83
+00:05:52,220 --> 00:05:56,860
+If you interpreted something that someone wrote in a certain way and you have an opinion about it
+
+84
+00:05:57,220 --> 00:06:02,440
+You can write that and then kind of the unwritten rule is you link to the source and then people can
+
+85
+00:06:02,440 --> 00:06:05,680
+Form their own opinion and agree or disagree with you
+
+86
+00:06:05,680 --> 00:06:07,500
+that's one of the beauties of the web and
+
+87
+00:06:07,500 --> 00:06:13,880
+It doesn't work that way in traditional journalism because there is just no way to link in a radio show or
+
+88
+00:06:13,880 --> 00:06:21,200
+Television show or certainly not in a print publication. Well, I guess you could print a URL
+
+89
+00:06:21,200 --> 00:06:26,040
+But it's not quite the same it doesn't give your readers the same immediate access to check out the source
+
+90
+00:06:26,220 --> 00:06:29,220
+And I was listening to that and I was thinking, you know, wow, that's so true.
+
+91
+00:06:31,500 --> 00:06:37,020
+interview so many times, particularly in the Netherlands where my wife and I are very well
+
+92
+00:06:37,020 --> 00:06:43,820
+known and are written about all the time in, unfortunately, usually just a tabloid magazine.
+
+93
+00:06:43,820 --> 00:06:48,700
+Sometimes there's a serious article, but it really doesn't matter who's writing it or who
+
+94
+00:06:48,700 --> 00:06:53,980
+did the interview or what credentials the journalist comes with. Once you read it in print, it's never
+
+95
+00:06:53,980 --> 00:07:02,380
+100% what you intended or the way you said it and it often has, it's often opinionated by the
+
+96
+00:07:02,380 --> 00:07:07,180
+journalist, the writer, which is obviously okay, but there's no link to the source. The sources,
+
+97
+00:07:07,180 --> 00:07:12,220
+in that case, would be the conversation that we had for the interview, which could be anywhere
+
+98
+00:07:12,220 --> 00:07:17,660
+from half hour on the phone to, oh, I've had interviews, for instance, the big Playboy magazine
+
+99
+00:07:17,660 --> 00:07:25,260
+interview that takes two days, including a photo session. And that's still down to X number of words
+
+100
+00:07:25,260 --> 00:07:30,380
+that the journalist has allotted and the space that is available for the story.
+
+101
+00:07:30,380 --> 00:07:31,980
+It's a deer.
+
+102
+00:07:31,980 --> 00:07:33,980
+Thanks for watching!
+
+103
+00:07:36,000 --> 00:07:41,280
+So as I was thinking about that, there was something that I wanted to write about, which
+
+104
+00:07:41,280 --> 00:07:45,560
+I will, but again, this is just my daily source code, so I'm kind of distilling through the
+
+105
+00:07:45,560 --> 00:07:46,920
+thoughts right now.
+
+106
+00:07:46,920 --> 00:07:49,280
+I found something that was really useful.
+
+107
+00:07:49,280 --> 00:07:55,000
+I got so sick and tired of people just writing crap about us and wrong information and just
+
+108
+00:07:55,000 --> 00:07:58,400
+you know, they couldn't even get my age right most of the time.
+
+109
+00:07:58,400 --> 00:08:03,080
+Which usually was to my advantage.
+
+110
+00:08:03,080 --> 00:08:08,600
+I remember there was a, at a certain point, there was a big thing and someone wrote about
+
+111
+00:08:08,600 --> 00:08:14,560
+some supposed tax inquiry that was going on into my business affairs.
+
+112
+00:08:14,560 --> 00:08:17,880
+That was on the front page of several newspapers, another newspapers, you know, pick up the
+
+113
+00:08:17,880 --> 00:08:24,640
+story and it was on the news wires and all the actual errors would just pass from one
+
+114
+00:08:24,640 --> 00:08:27,000
+to the next, like the kids' game of telephone.
+
+115
+00:08:27,000 --> 00:08:34,440
+In fact, they usually got a little bit worse as one publication copied another.
+
+116
+00:08:34,440 --> 00:08:37,480
+And there was another large daily.
+
+117
+00:08:37,500 --> 00:08:42,880
+the newspaper that said, well, we really want to interview you and your wife about what's
+
+118
+00:08:42,880 --> 00:08:47,020
+going on and what's happening. I said, you know, that's fine. Are you guys going to
+
+119
+00:08:47,020 --> 00:08:52,620
+record the interview? It was for the newspaper. So a lot of, I'd say eight out of ten journalists
+
+120
+00:08:52,620 --> 00:08:58,620
+record their interviews on usually still on a cassette player, portable cassette player.
+
+121
+00:08:58,620 --> 00:09:03,700
+Some good little funky and have a new fast, new fangled gadgets like maybe a mini-disk,
+
+122
+00:09:03,700 --> 00:09:10,700
+but very few MP3 recorders out there. Really just more memo recording devices. And I said,
+
+123
+00:09:10,700 --> 00:09:14,660
+well, yeah, of course we're going to say, well, you know what, I'm going to record
+
+124
+00:09:14,660 --> 00:09:22,540
+our interview as well. And I'm going to reserve the right to publish that. And that was something
+
+125
+00:09:22,540 --> 00:09:27,100
+new. They agreed to it, which I think was absolutely the right thing to do. But they
+
+126
+00:09:27,100 --> 00:09:31,460
+were definitely a little bit freaked out about this new concept. But I mean, when you think
+
+127
+00:09:31,460 --> 00:09:37,180
+about it, hey, you know, you're recording me, what gives you the right to be the only one?
+
+128
+00:09:37,180 --> 00:09:39,020
+I mean, I should be able to record our conversation.
+
+129
+00:09:39,000 --> 00:09:48,120
+to. And I figured that that way if they start printing all kinds of factual, incorrect bits,
+
+130
+00:09:48,120 --> 00:09:53,120
+or maybe even if they just interpreted it incorrectly, I would be able to point to the
+
+131
+00:09:53,120 --> 00:09:59,720
+source, the source code of that interview and say, here you go. These guys clearly misunderstood
+
+132
+00:09:59,720 --> 00:10:07,320
+me or they took this out of context. And I have to add something that also happens is
+
+133
+00:10:07,320 --> 00:10:11,560
+I may have explained it poorly. I may have not communicated something that in a certain
+
+134
+00:10:11,560 --> 00:10:17,000
+way and that just came out wrong. That happens probably most frequently. One second buddy,
+
+135
+00:10:17,000 --> 00:10:23,560
+you want to move in here? Wow, doing this in the car really makes me a very nice and
+
+136
+00:10:23,560 --> 00:10:34,640
+courteous road user. Okay, this is the big trash truck. All right, Val. When the article
+
+137
+00:10:34,640 --> 00:10:39,880
+came out, by the way, and most generally, well, not most, but many journalists will give you
+
+138
+00:10:40,500 --> 00:10:46,300
+read the story before it's printed and change anything. And said, you know, they did ask
+
+139
+00:10:46,300 --> 00:10:51,020
+a couple follow up questions over the phone later. And the article was good. And I don't
+
+140
+00:10:51,020 --> 00:10:56,260
+believe there was, I mean, you can't really change any article sound the way you want
+
+141
+00:10:56,260 --> 00:11:02,420
+it to sound. But when it comes to the facts, these guys are really on their toes. They
+
+142
+00:11:02,420 --> 00:11:08,900
+had recorded themselves and it was two guys did the interview. And it came out very well.
+
+143
+00:11:08,900 --> 00:11:13,100
+And I think that part of that was because they knew that they really had to be on their
+
+144
+00:11:13,100 --> 00:11:17,820
+toes and get it right because I would publish the source code. I never actually did publish
+
+145
+00:11:17,820 --> 00:11:22,580
+the source code. I still have it. I felt that, you know, that just wasn't necessary. And
+
+146
+00:11:22,580 --> 00:11:30,140
+in fact, just the idea that I could worked. So when you think about it that way, which
+
+147
+00:11:30,140 --> 00:11:41,600
+is a great way that journalists and their sources can work together to make better to
+
+148
+00:11:42,000 --> 00:11:47,000
+better results. Something that everyone who is ever interviewed might want to consider
+
+149
+00:11:47,000 --> 00:11:50,520
+doing. So I just flipped that around and said, well, hold on a second.
+
+150
+00:11:52,500 --> 00:11:53,940
+I've got source code.
+
+151
+00:11:53,940 --> 00:11:56,980
+The source code is what's running around in my head.
+
+152
+00:11:56,980 --> 00:12:01,860
+And it's what I'm reading and what I'm linking to and what my thoughts are.
+
+153
+00:12:01,860 --> 00:12:03,340
+And I should make that available.
+
+154
+00:12:03,340 --> 00:12:05,980
+The only thing that's going to cost is what just bandwidth.
+
+155
+00:12:05,980 --> 00:12:09,780
+I mean, I have so much time to record stuff.
+
+156
+00:12:09,780 --> 00:12:11,580
+I mean, the car a lot.
+
+157
+00:12:11,580 --> 00:12:13,580
+But it's really no effort.
+
+158
+00:12:13,580 --> 00:12:15,900
+And of course, I'm going to...
+
+159
+00:12:15,900 --> 00:12:19,580
+And it gives me another opportunity to write a couple of nifty scripts that automates the
+
+160
+00:12:19,580 --> 00:12:26,660
+whole bit and does the ID3 tags and posts it to the right place and adds it to my RSS
+
+161
+00:12:26,660 --> 00:12:27,660
+feed as an enclosure.
+
+162
+00:12:27,660 --> 00:12:32,780
+So all of that, of course, is the fun part for me is a fledgling developer and program
+
+163
+00:12:32,780 --> 00:12:35,140
+or maybe I should say a scriptor.
+
+164
+00:12:35,140 --> 00:12:39,300
+But again, you get all the source code for me if you're interested in it and you don't
+
+165
+00:12:39,300 --> 00:12:40,900
+have to listen to it at all.
+
+166
+00:12:40,900 --> 00:12:43,900
+You won't really lose it.
+
+167
+00:12:43,900 --> 00:12:50,500
+So another reason that I'm doing this and I do plan on it being daily is that I like doing
+
+168
+00:12:50,500 --> 00:12:51,660
+audio or radio.
+
+169
+00:12:51,660 --> 00:12:54,020
+I've been doing a morning radio program.
+
+170
+00:12:54,000 --> 00:13:01,160
+for almost a full year as of August 31st. I've done it for a full year for
+
+171
+00:13:01,160 --> 00:13:06,400
+Radio Veronica in the Netherlands who asked me about a year ago this this time
+
+172
+00:13:06,400 --> 00:13:11,920
+if I could fill in for a month because their new morning guy could get of his
+
+173
+00:13:11,920 --> 00:13:16,320
+contract at a competing radio station and I can't even when they ask me
+
+174
+00:13:16,320 --> 00:13:20,920
+damn you know a month of getting up at 3.30 in the morning to do a show from 6 to 9
+
+175
+00:13:20,920 --> 00:13:27,800
+I don't know if I last three days the month went okay and I really got into it
+
+176
+00:13:27,800 --> 00:13:31,920
+and I was enjoying it and a morning show is it's kind of like this you know
+
+177
+00:13:31,920 --> 00:13:36,760
+you're talking to people you're helping them wake up and talking about topical
+
+178
+00:13:36,760 --> 00:13:41,160
+stuff it's just what's going on in the world what's going on in the
+
+179
+00:13:41,160 --> 00:13:44,800
+community which is the country of the Netherlands and I guess the community
+
+180
+00:13:44,800 --> 00:13:48,680
+is a global community so you can talk about all kinds of stuff and we had a
+
+181
+00:13:48,680 --> 00:13:53,840
+great time on that show I mean we took the ratings up sky-high actually in just
+
+182
+00:13:53,840 --> 00:13:56,680
+a couple of months by
+
+183
+00:13:55,500 --> 00:14:02,000
+taking the entire show on the road for a week and broadcast live from Camp Smitty and Asamawa, Iraq,
+
+184
+00:14:02,000 --> 00:14:04,500
+where the Dutch Marines were stationed.
+
+185
+00:14:04,500 --> 00:14:08,500
+And it was just a blast, you know.
+
+186
+00:14:08,500 --> 00:14:12,500
+And really it's just talking and playing a little bit of music.
+
+187
+00:14:12,500 --> 00:14:14,500
+So that ends.
+
+188
+00:14:14,500 --> 00:14:22,500
+Oh, well, so the morning guy for a number of personal reasons couldn't make it to the station,
+
+189
+00:14:22,500 --> 00:14:28,500
+and they kept saying, well, oh, the station management kept asking me to extend by another week
+
+190
+00:14:28,500 --> 00:14:29,500
+or another month.
+
+191
+00:14:29,500 --> 00:14:32,500
+I said, well, you know what, why don't we just say we'll do this for a whole year,
+
+192
+00:14:32,500 --> 00:14:35,500
+so I can actually build something and create something.
+
+193
+00:14:35,500 --> 00:14:37,500
+And that's my traffic alert. Check this out.
+
+194
+00:14:37,500 --> 00:14:40,500
+Very in navel, direct restoque es tar fesperz.
+
+195
+00:14:40,500 --> 00:14:44,500
+Travo glan zam rifin a tarpo d'imitin van ai dresou van vediam.
+
+196
+00:14:44,500 --> 00:14:46,500
+D'imitin van ai d'imitin van ai d'imitin.
+
+197
+00:14:46,500 --> 00:14:50,500
+Okay, that's a traffic report cut and it happens automatically on radio.
+
+198
+00:14:50,500 --> 00:14:55,500
+So we did it for a full year and that's winding down two more weeks.
+
+199
+00:14:55,500 --> 00:14:56,500
+So a little bit over.
+
+200
+00:14:57,000 --> 00:15:02,440
+Yeah, a little over two weeks and then I'll be a free man for September 1st and Patricia
+
+201
+00:15:02,440 --> 00:15:09,640
+and I and our daughter Christina who's coming 14 in just a week and a half. We decided that
+
+202
+00:15:09,640 --> 00:15:16,440
+we want to change. Part of it for health reasons. Trish was diagnosed with heart disease earlier
+
+203
+00:15:16,440 --> 00:15:25,400
+this year. Not as horrible perhaps as it sounds, but easy for me to say I guess. But it's not like
+
+204
+00:15:25,400 --> 00:15:30,520
+she has massive heart failure heart disease but she has to pay attention to her life and
+
+205
+00:15:30,520 --> 00:15:39,400
+what she's doing and is on medication and has to keep a very healthy lifestyle. And we want to
+
+206
+00:15:39,400 --> 00:15:45,640
+change to really get into that and so we've decided that we're going to move and we're going to move
+
+207
+00:15:45,640 --> 00:15:55,960
+out of the the Benalux and we've picked the United Kingdom. So we've put our our both houses up for
+
+208
+00:15:55,960 --> 00:15:58,360
+sale the one in Amsterdam which I affectionately call the
+
+209
+00:15:58,500 --> 00:16:03,780
+that's actually been on the market for about two and a half, almost three years now.
+
+210
+00:16:03,780 --> 00:16:08,920
+The market is completely dead in most of Europe, I guess, and certainly for big luxury
+
+211
+00:16:08,920 --> 00:16:09,920
+houses.
+
+212
+00:16:09,920 --> 00:16:16,100
+There's just, ah, there's no buyers really, unless of course you're willing to lower
+
+213
+00:16:16,100 --> 00:16:21,860
+your price, there's always a buyer for something if they're bottom-feeding.
+
+214
+00:16:21,860 --> 00:16:25,180
+We have the Castle in Belgium, which you've now put on the market.
+
+215
+00:16:25,180 --> 00:16:30,460
+I've already had a lot of interest for that, of course it was also really the set, if you
+
+216
+00:16:30,460 --> 00:16:34,340
+will, for our reality show.
+
+217
+00:16:34,340 --> 00:16:40,200
+So a lot of people are familiar with it and we're pretty hopeful that that'll move relatively
+
+218
+00:16:40,200 --> 00:16:41,200
+quickly.
+
+219
+00:16:41,200 --> 00:16:45,020
+Price to sell, as they say, great house for entertaining everybody.
+
+220
+00:16:45,020 --> 00:16:47,540
+And then we're off and then we're going to go to the UK.
+
+221
+00:16:47,540 --> 00:16:52,140
+We're not, well, we know the general area where we want to be, which will be south of
+
+222
+00:16:52,140 --> 00:16:58,820
+London, but within a reasonable car or train ride into the city.
+
+223
+00:16:58,820 --> 00:16:59,940
+And I
+
+224
+00:17:00,000 --> 00:17:07,720
+a totally open agenda. There's nothing that I have to do. Well, first I want to remember
+
+225
+00:17:07,720 --> 00:17:12,800
+what it's like to sleep in. You know, not have to set the alarm clock for 3.30 in the
+
+226
+00:17:12,800 --> 00:17:18,720
+morning. But just by saying we're going to make this change, already things have happened.
+
+227
+00:17:18,720 --> 00:17:25,680
+I'm getting all kinds of new, fresh, creative ideas. In addition, I've been asked to write
+
+228
+00:17:25,680 --> 00:17:30,120
+a book. All kinds of things are just coming together. So I'm really looking forward to
+
+229
+00:17:30,120 --> 00:17:34,400
+that in a way. It feels like I'm getting my freedom back. The one thing I do want to
+
+230
+00:17:34,400 --> 00:17:42,560
+try to do is to do these daily source code, audio, blog posts. And I guess it would be
+
+231
+00:17:42,560 --> 00:17:48,840
+since they're in English and to have an excellent advantage as a time difference goes. I'm going
+
+232
+00:17:48,840 --> 00:17:56,400
+to try and have these up by, I guess, 7 a.m. New York time. So if you're driving to work
+
+233
+00:17:56,400 --> 00:18:01,220
+and you have your download or automatically downloading the
+
+234
+00:18:01,500 --> 00:18:05,500
+The MP3's from the RSS feed.
+
+235
+00:18:05,500 --> 00:18:09,500
+You'll have something to listen to on your morning commute.
+
+236
+00:18:09,500 --> 00:18:14,500
+That probably really won't be possible until the first of September when I'm not doing
+
+237
+00:18:14,500 --> 00:18:16,500
+the morning show.
+
+238
+00:18:16,500 --> 00:18:21,500
+I just can't see getting, you know, being done on the morning show at night in the
+
+239
+00:18:21,500 --> 00:18:23,500
+morning, my time.
+
+240
+00:18:23,500 --> 00:18:29,500
+I'm usually not home before to, you know, only give me a very small window before,
+
+241
+00:18:29,500 --> 00:18:31,500
+well, actually that would already be too late.
+
+242
+00:18:31,500 --> 00:18:33,500
+That would be 8 a.m. New York time.
+
+243
+00:18:33,500 --> 00:18:37,500
+So these will probably be up around 9 or 10 a.m.
+
+244
+00:18:37,500 --> 00:18:39,500
+for the couple of weeks, first couple of weeks.
+
+245
+00:18:39,500 --> 00:18:42,500
+It also gives me a chance to figure out what I want to do with them.
+
+246
+00:18:42,500 --> 00:18:45,500
+One of the thoughts I had for instance was to do a song of the day.
+
+247
+00:18:45,500 --> 00:18:50,500
+Just get you going with one song that I think either fits in with the mood of the day
+
+248
+00:18:50,500 --> 00:18:54,500
+or the news of the day or the state of the world or state of affairs.
+
+249
+00:18:54,500 --> 00:18:56,500
+So I'm looking forward to that.
+
+250
+00:18:56,500 --> 00:19:00,500
+And again, it'll be what's going on in my mind.
+
+251
+00:19:00,500 --> 00:19:02,500
+What am I thinking about?
+
+252
+00:19:03,000 --> 00:19:10,000
+And by that time, I probably posted five to eight entries on my web blog.
+
+253
+00:19:10,000 --> 00:19:14,000
+And this will be the source code for that, what I was thinking about.
+
+254
+00:19:14,000 --> 00:19:18,000
+Which is pretty much on par for what I've posted today.
+
+255
+00:19:18,000 --> 00:19:21,000
+So that's the general idea.
+
+256
+00:19:21,000 --> 00:19:22,000
+Um...
+
+257
+00:19:24,000 --> 00:19:34,000
+As you can tell, there's a lot of talk of RSS and enclosures and MP3s in this first daily source code.
+
+258
+00:19:34,000 --> 00:19:40,000
+You may or may not have read that I've been programming a little bit, been working in user talk,
+
+259
+00:19:40,000 --> 00:19:45,000
+which is scripting language that comes with Frontier and Radio User Land,
+
+260
+00:19:45,000 --> 00:19:49,000
+and also been doing some work in Apple Script,
+
+261
+00:19:49,000 --> 00:19:55,000
+which allows you to script your Macintosh to do things automatically.
+
+262
+00:19:55,000 --> 00:20:00,000
+And a little bit of Python, although I haven't delved into that as much as I want to.
+
+263
+00:20:00,000 --> 00:20:10,000
+But I'm really working on a system that'll make this a little bit simpler when it comes to downloading stuff under your iPod.
+
+264
+00:20:10,000 --> 00:20:16,000
+I have a kind of a beta version running now, and I'm subscribed to a big file.
+
+265
+00:20:16,000 --> 00:20:26,000
+One is the IT conversations, which is great because almost every day there's a new interview or panel or session coming up.
+
+266
+00:20:25,500 --> 00:20:29,740
+down the pipe and it's right there my iPod in the morning on my hour-long commute to
+
+267
+00:20:29,740 --> 00:20:33,140
+the radio station. I just listen, you know, I didn't have to do anything, I didn't have
+
+268
+00:20:33,140 --> 00:20:37,900
+to click or wait, just pick up the iPod in the morning, throw the headphones on, the earphones
+
+269
+00:20:37,900 --> 00:20:45,660
+in and there's something there. Also, of course Dave's morning coffee notes is in there and
+
+270
+00:20:45,660 --> 00:20:50,540
+something called blog, was it audio digger or blog digger? I'd have to look that up, which
+
+271
+00:20:50,540 --> 00:21:00,460
+is an RSS 2.0 feed with audio enclosures. It comes from blog decks and it's just stuff
+
+272
+00:21:00,460 --> 00:21:06,340
+that it's scraped off of the web and there's about 5 to 10 new MP3s on that as well. It's
+
+273
+00:21:06,340 --> 00:21:13,500
+always very surprising, all kinds of wacky stuff that just kind of shows up. Total serendipity,
+
+274
+00:21:13,500 --> 00:21:17,700
+if you will. I have no idea what's going to show up. A lot of it's crap, someone's very,
+
+275
+00:21:17,700 --> 00:21:26,180
+very interesting. So I'll start pointing to that as well. So the script that I've created,
+
+276
+00:21:27,000 --> 00:21:31,080
+doesn't work the way it should yet and I already lost that source code by
+
+277
+00:21:31,080 --> 00:21:36,120
+accidentally compiling it in AppleScript and not knowing that you lose your source code.
+
+278
+00:21:36,120 --> 00:21:42,520
+But I'm going to start working on that again in in the also after September 1st
+
+279
+00:21:42,520 --> 00:21:46,360
+so that you know you don't have to really think about oh how am I going to do this
+
+280
+00:21:46,360 --> 00:21:48,880
+what do I need with the news aggregator how do I get
+
+281
+00:21:48,880 --> 00:21:54,040
+the mp3s from point A to point B now it should just be something as simple as
+
+282
+00:21:56,160 --> 00:22:02,400
+start this program up and you subscribe to your RSS feeds and it kind of does the rest
+
+283
+00:22:02,400 --> 00:22:06,920
+it just drops everything on your iPod and playlists and it even has a
+
+284
+00:22:06,920 --> 00:22:13,360
+little notification system so you know when something is new has been updated.
+
+285
+00:22:15,000 --> 00:22:22,440
+So I'm now just passing over the border into the Netherlands from Belgium. Thank you for accompanying me on the trip and
+
+286
+00:22:22,440 --> 00:22:29,600
+Tomorrow, I'll be back with another daily source code. Thanks for listening and see you tomorrow. Bye
+
