@@ -1,0 +1,988 @@
+1
+00:00:03,000 --> 00:00:10,440
+The Power of Source Code
+
+2
+00:00:10,440 --> 00:00:19,540
+Yeah, hi everybody, it's Source Code. It is Saturday, August 21st, 2004. I'm Adam Curry.
+
+3
+00:00:19,540 --> 00:00:27,240
+Saturday afternoon in Curry Castle in Belgium. It's about 3.36. How's that for an approximate time for you?
+
+4
+00:00:27,240 --> 00:00:35,360
+Sorry about yesterday. No postings on the blog and no source code. It was just way too crazy.
+
+5
+00:00:35,360 --> 00:00:39,760
+During the radio show in the morning, as you know, we're winding down.
+
+6
+00:00:40,160 --> 00:00:44,500
+One more week to go and then two more days to finish up the month and that'll be all over.
+
+7
+00:00:44,500 --> 00:00:50,920
+We had the Chanuk crew who flew us in Iraq.
+
+8
+00:00:50,920 --> 00:01:03,020
+They flew us from Camp Smitty to Basra.
+
+9
+00:01:04,500 --> 00:01:07,620
+a final two or three hour drive from there to Kuwait on our way home.
+
+10
+00:01:07,620 --> 00:01:12,080
+And we also did some night goggle vision reconnaissance flights.
+
+11
+00:01:12,080 --> 00:01:13,300
+So anyway, they came by.
+
+12
+00:01:13,300 --> 00:01:17,400
+They wanted to see where we worked since we'd already seen their area of responsibility.
+
+13
+00:01:17,400 --> 00:01:20,300
+It was a good time, but tiring nonetheless.
+
+14
+00:01:20,300 --> 00:01:22,700
+From there, I went straight home.
+
+15
+00:01:22,700 --> 00:01:29,940
+There was someone who almost arrived immediately for an interview, which was, of course, all
+
+16
+00:01:29,940 --> 00:01:30,300
+set up.
+
+17
+00:01:30,300 --> 00:01:34,100
+But I keep forgetting I really don't like doing stuff on Friday afternoons.
+
+18
+00:01:34,960 --> 00:01:41,120
+And then on top of that, some folks who had seen the house earlier in the week came back,
+
+19
+00:01:41,120 --> 00:01:41,920
+wanted to see it again.
+
+20
+00:01:41,920 --> 00:01:43,520
+This time they brought the entire family.
+
+21
+00:01:43,520 --> 00:01:49,420
+And I got a call earlier this morning that they are coming back again on Monday.
+
+22
+00:01:49,420 --> 00:01:50,680
+So that looks good.
+
+23
+00:01:52,500 --> 00:02:03,780
+I don't know if you remember, two days ago I mentioned that Crystal, my assistant, had...
+
+24
+00:02:03,780 --> 00:02:06,760
+I'm not quite sure where she got it from.
+
+25
+00:02:06,760 --> 00:02:16,460
+She got one of these Pinnacle Systems Show Center, which is essentially a video device that you hook up to your television.
+
+26
+00:02:16,460 --> 00:02:18,840
+I have it hooked up to our big Grandmaster View screen here.
+
+27
+00:02:19,660 --> 00:02:23,980
+It has a Wi-Fi card, so it talks to your Wi-Fi environment.
+
+28
+00:02:23,980 --> 00:02:32,860
+And it sits there basically listening for a show center server, which I'm not quite sure what protocol it speaks.
+
+29
+00:02:32,860 --> 00:02:35,500
+It may be Windows Media Server, I'm not sure.
+
+30
+00:02:35,500 --> 00:02:42,100
+But that has to run on a Windows machine, so I still have an old Sony VAIO laptop with Windows 2000.
+
+31
+00:02:42,100 --> 00:02:45,840
+Loaded it up, and lo and behold, it's working.
+
+32
+00:02:45,840 --> 00:02:49,500
+First of all, regarding the...
+
+33
+00:02:49,500 --> 00:02:50,040
+the setup
+
+34
+00:02:50,040 --> 00:02:51,420
+the wifi setup
+
+35
+00:02:51,420 --> 00:02:52,000
+is stupid
+
+36
+00:02:52,000 --> 00:02:53,060
+you have to fill in
+
+37
+00:02:54,000 --> 00:03:00,420
+name, a network name, and it comes with a show center as the network name installed
+
+38
+00:03:00,420 --> 00:03:03,280
+standard, which makes no sense because, of course, that means everyone's going to have
+
+39
+00:03:03,280 --> 00:03:03,960
+to change that.
+
+40
+00:03:03,960 --> 00:03:08,760
+Either you have to change your Wi-Fi network name or you have to figure out how to change
+
+41
+00:03:08,760 --> 00:03:15,280
+it on the show center device, which means you've got to reboot, hold down the B key.
+
+42
+00:03:15,280 --> 00:03:17,940
+I mean, this is all stuff that is just not easy for people.
+
+43
+00:03:17,940 --> 00:03:19,740
+I think it should work like my laptop does.
+
+44
+00:03:19,740 --> 00:03:24,640
+When I walk in range of a new Wi-Fi network, it says, hey, should I add this?
+
+45
+00:03:24,640 --> 00:03:25,720
+Do you want to connect to it now?
+
+46
+00:03:25,720 --> 00:03:28,140
+That, of course, is the way this should work as well.
+
+47
+00:03:28,140 --> 00:03:33,840
+So basically, you create a database in the show center software on the PC.
+
+48
+00:03:33,840 --> 00:03:41,680
+Of course, just like a share program, like a peer-to-peer program, if you want, it'll
+
+49
+00:03:41,680 --> 00:03:45,960
+go through your entire disk and pull up all kinds of media files.
+
+50
+00:03:45,960 --> 00:03:48,360
+So that works pretty straightforward.
+
+51
+00:03:48,360 --> 00:03:49,360
+And it's basically...
+
+52
+00:03:49,360 --> 00:03:52,240
+Basically, you have three bins, music, movies, photos.
+
+53
+00:03:52,240 --> 00:03:53,960
+You can create playlists from them.
+
+54
+00:03:55,500 --> 00:03:58,160
+is the files that it will accept.
+
+55
+00:03:58,160 --> 00:04:00,800
+Let me see.
+
+56
+00:04:00,800 --> 00:04:01,800
+I think I have...
+
+57
+00:04:01,800 --> 00:04:06,980
+Here, it does tell me which files it'll accept.
+
+58
+00:04:06,980 --> 00:04:08,760
+Hold on.
+
+59
+00:04:10,500 --> 00:04:23,840
+mp3 windows media audio wave file jpeg png gif mpeg1 mpeg2 divx avi version 5 plus 4 plus 5
+
+60
+00:04:23,840 --> 00:04:33,540
+simple profile remember that is x video avi simple profile dv avi windows media video video files
+
+61
+00:04:33,540 --> 00:04:39,080
+also must all contain audio data well so apparently there's a quite a difference between
+
+62
+00:04:39,080 --> 00:04:46,860
+avis and avis because some really i had this huge bucket of bit torrent downloads which
+
+63
+00:04:46,860 --> 00:04:53,740
+are either mpegs or avis and some of the avis do work on the show center if you put it in a
+
+64
+00:04:53,740 --> 00:05:03,160
+windows media video it converts it to a vcd file you know so it's a little bit disappointing that
+
+65
+00:05:03,160 --> 00:05:08,700
+you just don't know exactly what is going to work or not and if you should convert prior to
+
+66
+00:05:08,700 --> 00:05:10,260
+putting it into this database
+
+67
+00:05:10,260 --> 00:05:12,000
+or if it
+
+68
+00:05:12,000 --> 00:05:13,720
+will do it by itself. It's very unclear.
+
+69
+00:05:13,720 --> 00:05:17,960
+Something it does have that's pretty cool is you can
+
+70
+00:05:17,960 --> 00:05:19,820
+set up a folder to be watched
+
+71
+00:05:19,820 --> 00:05:21,860
+and the minute you drop
+
+72
+00:05:21,860 --> 00:05:23,840
+anything into that folder, automatically
+
+73
+00:05:23,840 --> 00:05:26,080
+it will be added to the database and then
+
+74
+00:05:26,080 --> 00:05:27,900
+from the control center, the show center
+
+75
+00:05:27,900 --> 00:05:29,740
+in the living room, which has a remote control,
+
+76
+00:05:29,740 --> 00:05:31,920
+makes it nice, you can already
+
+77
+00:05:31,920 --> 00:05:34,100
+a little light pops on saying new media
+
+78
+00:05:34,100 --> 00:05:35,820
+and you go to the new media menu
+
+79
+00:05:35,820 --> 00:05:37,540
+it will show up and it will play.
+
+80
+00:05:37,540 --> 00:05:39,900
+Essentially when you select new media to be played
+
+81
+00:05:39,900 --> 00:05:41,560
+it's being streamed across
+
+82
+00:05:41,560 --> 00:05:43,020
+my Wi-Fi network.
+
+83
+00:05:43,020 --> 00:05:45,140
+So I'm going to play with it a little bit more
+
+84
+00:05:45,140 --> 00:05:47,740
+and I'm interested to see how
+
+85
+00:05:47,740 --> 00:05:50,060
+Tricia, my wife, and Christina, our daughter
+
+86
+00:05:50,060 --> 00:05:51,060
+how they pick it up
+
+87
+00:05:51,060 --> 00:05:54,020
+and how they use it and I'm putting mounted
+
+88
+00:05:54,020 --> 00:05:55,940
+volumes on their
+
+89
+00:05:55,940 --> 00:05:57,840
+computer desktops so they can just
+
+90
+00:05:57,840 --> 00:05:59,500
+drag and drop stuff in there as well.
+
+91
+00:05:59,500 --> 00:06:01,580
+So we'll see what happens. It'll be cool.
+
+92
+00:06:01,580 --> 00:06:06,880
+Right.
+
+93
+00:06:06,880 --> 00:06:09,860
+I told you that I've been reading
+
+94
+00:06:09,860 --> 00:06:11,120
+...
+
+95
+00:06:11,120 --> 00:06:13,500
+That would be big quotation marks.
+
+96
+00:06:13,500 --> 00:06:15,740
+Michael Crichton's Timeline.
+
+97
+00:06:15,740 --> 00:06:17,880
+The reason why I say reading
+
+98
+00:06:17,880 --> 00:06:19,740
+is because I've been listening to it on audiobook.
+
+99
+00:06:19,740 --> 00:06:22,260
+I actually just finished it yesterday afternoon
+
+100
+00:06:22,260 --> 00:06:24,260
+on my drive home, sitting in some extra traffic.
+
+101
+00:06:24,260 --> 00:06:28,020
+So I even was able to finish up
+
+102
+00:06:28,020 --> 00:06:29,440
+the last 25 minutes I thought
+
+103
+00:06:29,440 --> 00:06:31,760
+I wouldn't be able to listen to during my drive home.
+
+104
+00:06:31,760 --> 00:06:34,060
+Great book.
+
+105
+00:06:34,060 --> 00:06:35,000
+Really enjoyed it.
+
+106
+00:06:35,000 --> 00:06:37,260
+14 hours worth of audio.
+
+107
+00:06:37,260 --> 00:06:40,020
+And I got an email from Dave Weiner.
+
+108
+00:06:40,020 --> 00:06:41,420
+Let me just pick that up here.
+
+109
+00:06:41,420 --> 00:06:46,440
+FYI, I've become a member of audible.com
+
+110
+00:06:46,440 --> 00:06:47,780
+and am reading
+
+111
+00:06:47,780 --> 00:06:49,520
+Timeline now as I drive.
+
+112
+00:06:49,520 --> 00:06:50,620
+He's driving across country.
+
+113
+00:06:50,620 --> 00:06:53,480
+It's a very nice, if somewhat paranoid, service.
+
+114
+00:06:53,480 --> 00:06:55,880
+I guess he's referring to...
+
+115
+00:06:55,880 --> 00:06:58,380
+He could be referring to the book or to audible.com.
+
+116
+00:06:58,380 --> 00:07:00,200
+Thanks for the tip in your audio blog post.
+
+117
+00:07:00,200 --> 00:07:02,220
+Next stop, St. Augustine.
+
+118
+00:07:02,220 --> 00:07:02,780
+Dave.
+
+119
+00:07:02,780 --> 00:07:03,220
+Okay.
+
+120
+00:07:03,220 --> 00:07:06,460
+So there's something interesting.
+
+121
+00:07:06,460 --> 00:07:08,560
+I was talking about the audiobook.
+
+122
+00:07:08,560 --> 00:07:11,400
+I think what I even said is...
+
+123
+00:07:11,400 --> 00:07:15,000
+Gee, wouldn't it be cool if I could attach one of those DRM
+
+124
+00:07:15,000 --> 00:07:21,860
+protected audio files, because Audible.com uses the AAC, Apple, DRM, can't copy me stuff.
+
+125
+00:07:21,860 --> 00:07:26,160
+And if you tried to open it in iTunes just by double clicking it, it would then say, hey,
+
+126
+00:07:26,160 --> 00:07:31,240
+you know, you want to buy this book? Looks like Adam referred it to you. Of course, they have a
+
+127
+00:07:31,240 --> 00:07:38,340
+number, it's DRM, so they know that I bought it. And maybe they could give me two bucks for selling
+
+128
+00:07:38,340 --> 00:07:44,040
+another copy, because I think it goes for, I don't know, it goes for at least $10. What I want to do
+
+129
+00:07:44,040 --> 00:07:49,880
+today, though, is share with you a little piece from that book, a monologue, which I found very
+
+130
+00:07:49,880 --> 00:07:59,840
+interesting and very applicable to perhaps the reason why we have weblogs today. Now, if you're
+
+131
+00:07:59,840 --> 00:08:05,420
+reading this book still and don't want to hear any parts of it, then you should probably not listen
+
+132
+00:08:05,420 --> 00:08:11,900
+to this. It's definitely not a spoiler, doesn't mess you up at all about the plot or the outcome
+
+133
+00:08:11,900 --> 00:08:14,020
+of the book. But it's a monologue by one of my friends, and I'm going to share with you a little
+
+134
+00:08:14,020 --> 00:08:16,500
+one of the characters and he's basically doing
+
+135
+00:08:16,500 --> 00:08:24,860
+a pitch for this vision that he has, which is irrelevant, but listen to the theory behind
+
+136
+00:08:24,860 --> 00:08:25,300
+the pitch.
+
+137
+00:08:25,300 --> 00:08:30,380
+Now, of course, since this is an AAC file, I can't open it in any other application but
+
+138
+00:08:30,380 --> 00:08:30,840
+iTunes.
+
+139
+00:08:30,840 --> 00:08:33,080
+I tried to open it in QuickTime, didn't work either.
+
+140
+00:08:33,080 --> 00:08:38,260
+So I can't open it into my recording application, so I'm going to have to put the mic down on
+
+141
+00:08:38,260 --> 00:08:42,760
+the speaker so that I can start up iTunes and you can listen to this.
+
+142
+00:08:42,760 --> 00:08:45,540
+This is about three minutes, but it's a very interesting thing.
+
+143
+00:08:45,540 --> 00:08:47,040
+Hi.
+
+144
+00:08:54,000 --> 00:08:56,560
+He walked back and forth across the stage.
+
+145
+00:08:56,560 --> 00:09:01,640
+Today, everybody expects to be entertained, and they expect to be entertained all the time.
+
+146
+00:09:01,640 --> 00:09:08,140
+Business meetings must be snappy, with bullet lists and animated graphics, so executives aren't bored.
+
+147
+00:09:08,140 --> 00:09:13,240
+Malls and stores must be engaging, so they amuse as well as sell us.
+
+148
+00:09:13,240 --> 00:09:18,680
+Politicians must have pleasing video personalities and tell us only what we want to hear.
+
+149
+00:09:19,000 --> 00:09:24,580
+Schools must be careful not to bore young minds that expect the speed and complexity of television.
+
+150
+00:09:24,580 --> 00:09:29,320
+Students must be amused, everyone must be amused, or they will switch.
+
+151
+00:09:29,320 --> 00:09:32,780
+Switch brands, switch channels, switch parties, switch loyalties.
+
+152
+00:09:32,780 --> 00:09:38,360
+This is the intellectual reality of Western society at the end of the century.
+
+153
+00:09:38,360 --> 00:09:44,960
+In other centuries, human beings wanted to be saved, or improved, or freed, or educated.
+
+154
+00:09:44,960 --> 00:09:47,560
+But in our century, they want to be entertained.
+
+155
+00:09:48,340 --> 00:09:52,680
+The great fear is not of disease or death, but of boredom.
+
+156
+00:09:52,680 --> 00:09:55,440
+A sense of time on our hands.
+
+157
+00:09:55,500 --> 00:10:00,000
+a sense of nothing to do, a sense that we are not amused.
+
+158
+00:10:00,000 --> 00:10:03,800
+But where will this mania for entertainment end?
+
+159
+00:10:03,800 --> 00:10:09,240
+What will people do when they get tired of television, when they get tired of movies?
+
+160
+00:10:09,240 --> 00:10:11,180
+We already know the answer.
+
+161
+00:10:11,180 --> 00:10:17,700
+They go into participatory activities, sports, theme parks, amusement rides, roller coasters,
+
+162
+00:10:17,700 --> 00:10:21,660
+structured fun, planned thrills.
+
+163
+00:10:21,660 --> 00:10:26,280
+And what will they do when they tire of theme parks and planned thrills?
+
+164
+00:10:26,280 --> 00:10:30,380
+Sooner or later, the artifice becomes too noticeable.
+
+165
+00:10:30,380 --> 00:10:37,880
+They begin to realize that an amusement park is really a kind of jail in which you pay to be an inmate.
+
+166
+00:10:37,880 --> 00:10:41,860
+This artifice will drive them to seek authenticity.
+
+167
+00:10:41,860 --> 00:10:47,580
+Authenticity will be the buzzword of the 21st century.
+
+168
+00:10:47,580 --> 00:10:50,120
+And what is authentic?
+
+169
+00:10:50,120 --> 00:10:51,600
+Anything.
+
+170
+00:10:51,600 --> 00:10:54,520
+Anything that is not devised and structured to make a profit.
+
+171
+00:10:54,520 --> 00:10:57,000
+Anything that is not controlled by control.
+
+172
+00:10:57,000 --> 00:11:04,760
+corporations, anything that exists for its own sake, that assumes its own shape. But of course,
+
+173
+00:11:04,760 --> 00:11:10,820
+nothing in the modern world is allowed to assume its own shape. The modern world is the corporate
+
+174
+00:11:10,820 --> 00:11:17,740
+equivalent of a formal garden, where everything is planted and arranged for effect, where nothing is
+
+175
+00:11:17,740 --> 00:11:27,440
+untouched, where nothing is authentic. Where, then, will people turn for the rare and desirable
+
+176
+00:11:27,440 --> 00:11:38,460
+experience of authenticity? They will turn to the past. The past is unarguably authentic.
+
+177
+00:11:38,460 --> 00:11:47,500
+The past is a world that already existed before Disney and Murdoch and Nissan and Sony and IBM
+
+178
+00:11:47,500 --> 00:11:47,720
+and Amazon.
+
+179
+00:11:47,740 --> 00:11:55,000
+All the other shapers of the present day. The past was here before they were. The past rose
+
+180
+00:11:55,000 --> 00:11:58,500
+and fell without their intrusion and molding and
+
+181
+00:11:58,500 --> 00:12:00,640
+selling. The past is
+
+182
+00:12:00,640 --> 00:12:02,980
+real. It's authentic.
+
+183
+00:12:02,980 --> 00:12:04,560
+And this will
+
+184
+00:12:04,560 --> 00:12:06,560
+make the past unbelievably
+
+185
+00:12:06,560 --> 00:12:08,180
+attractive.
+
+186
+00:12:08,180 --> 00:12:10,280
+Well, that's
+
+187
+00:12:10,280 --> 00:12:11,820
+probably about enough of that.
+
+188
+00:12:11,820 --> 00:12:14,840
+And hopefully it sounded okay through my
+
+189
+00:12:14,840 --> 00:12:18,660
+air-based audio bridge.
+
+190
+00:12:18,660 --> 00:12:20,540
+So I thought that was just an
+
+191
+00:12:20,540 --> 00:12:22,040
+interesting bit of monologue.
+
+192
+00:12:22,040 --> 00:12:24,560
+One about how people were going to look for
+
+193
+00:12:24,560 --> 00:12:26,860
+reality. And maybe that's what weblogs
+
+194
+00:12:26,860 --> 00:12:28,640
+bring if you subscribe to that
+
+195
+00:12:28,640 --> 00:12:30,840
+type of vision. That weblogs
+
+196
+00:12:30,840 --> 00:12:32,520
+bring a sense of reality. Or
+
+197
+00:12:32,520 --> 00:12:34,720
+multiple weblogs can triangulate
+
+198
+00:12:34,720 --> 00:12:36,600
+reality. And the whole
+
+199
+00:12:36,600 --> 00:12:38,160
+bit about the past, who knows?
+
+200
+00:12:38,160 --> 00:12:40,380
+Maybe that's what archives are all about.
+
+201
+00:12:40,380 --> 00:12:43,560
+So what else?
+
+202
+00:12:43,560 --> 00:12:44,680
+um...
+
+203
+00:12:46,500 --> 00:12:52,040
+iPodder update, the application that turns your iPod into an audio MP3 aggregator.
+
+204
+00:12:52,040 --> 00:12:56,380
+So the current status is you fire it up manually.
+
+205
+00:12:56,380 --> 00:13:01,400
+It sucks in about six different feeds and updates your iTunes.
+
+206
+00:13:01,400 --> 00:13:04,000
+And if you have it, an iPod automatically.
+
+207
+00:13:04,000 --> 00:13:13,440
+I'm going to be working on the next release where there will be a separate text file sitting in the iPodder folder.
+
+208
+00:13:13,440 --> 00:13:15,160
+And that's going to be your subscription file.
+
+209
+00:13:15,300 --> 00:13:22,660
+So all you do is basically just add a new line with a URL to it to any MP3 enclosure feed with MP3 files.
+
+210
+00:13:22,660 --> 00:13:27,320
+And it'll automatically run through that file as well.
+
+211
+00:13:27,320 --> 00:13:31,320
+It'll parse it and download the enclosures when you run the iPodder application.
+
+212
+00:13:31,320 --> 00:13:35,840
+After that, so that'll probably be about release beta 06,
+
+213
+00:13:35,840 --> 00:13:45,180
+I hope to just have some form of installer that sets it all up for you and runs the program at a set interval.
+
+214
+00:13:45,180 --> 00:13:47,100
+with one configuration file
+
+215
+00:13:48,000 --> 00:13:49,560
+And you never hear from it again.
+
+216
+00:13:49,560 --> 00:13:52,640
+It just keeps running automatically at the intervals that you set.
+
+217
+00:13:52,640 --> 00:13:56,740
+And I think I mentioned in the previous show
+
+218
+00:13:56,740 --> 00:13:58,420
+that it looks like some developers out there
+
+219
+00:13:58,420 --> 00:14:00,840
+are working on their own versions.
+
+220
+00:14:00,840 --> 00:14:02,940
+Some Python stuff.
+
+221
+00:14:02,940 --> 00:14:04,260
+I'm looking forward to that coming out.
+
+222
+00:14:04,260 --> 00:14:06,100
+Please, make this better than I did.
+
+223
+00:14:06,100 --> 00:14:08,680
+Let's see.
+
+224
+00:14:08,680 --> 00:14:10,000
+That's about it.
+
+225
+00:14:10,000 --> 00:14:10,340
+Let me see.
+
+226
+00:14:10,340 --> 00:14:11,380
+I've been at this for...
+
+227
+00:14:11,380 --> 00:14:11,940
+How long are we going to talk?
+
+228
+00:14:11,940 --> 00:14:12,580
+14 minutes?
+
+229
+00:14:12,580 --> 00:14:13,680
+Okay, no song of the day.
+
+230
+00:14:13,680 --> 00:14:17,640
+Besides, enough copyright violation with that bit from the timeline audiobook.
+
+231
+00:14:17,640 --> 00:14:22,880
+But I'm going to go fill up the server with some more content.
+
+232
+00:14:22,880 --> 00:14:26,320
+See if I can now connect the bridge on that
+
+233
+00:14:26,320 --> 00:14:30,100
+so that if a new video comes in as a torrent,
+
+234
+00:14:30,100 --> 00:14:31,080
+bit torrent file,
+
+235
+00:14:31,080 --> 00:14:34,920
+it's downloaded and then automatically dropped into this watch folder
+
+236
+00:14:34,920 --> 00:14:37,200
+on the Windows PC server
+
+237
+00:14:37,200 --> 00:14:38,900
+so that we can then watch it in the living room.
+
+238
+00:14:38,900 --> 00:14:40,140
+Wow.
+
+239
+00:14:40,140 --> 00:14:41,900
+It's kind of like when I was a kid.
+
+240
+00:14:41,900 --> 00:14:44,700
+The RadioShack 101 projects.
+
+241
+00:14:44,700 --> 00:14:46,700
+Just need to have a red wire, a blue wire,
+
+242
+00:14:46,700 --> 00:14:47,620
+and a nice long yellow.
+
+243
+00:14:47,620 --> 00:14:49,500
+one and it'll all work.
+
+244
+00:14:49,500 --> 00:14:50,800
+Okay, everybody, that's it.
+
+245
+00:14:50,800 --> 00:14:52,640
+I'll talk to you tomorrow.
+
+246
+00:14:52,640 --> 00:14:52,960
+Bye.
+
+247
+00:14:52,960 --> 00:14:53,000
+Bye.
+
