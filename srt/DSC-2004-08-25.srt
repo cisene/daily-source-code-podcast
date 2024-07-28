@@ -1,0 +1,1008 @@
+1
+00:00:01,500 --> 00:00:15,500
+Once again it's time for the source code. It is Wednesday, on the month of August 25th,
+
+2
+00:00:15,500 --> 00:00:21,620
+2004. Good afternoon, good evening, good morning wherever you are. I'm Adam Curry. Welcome to
+
+3
+00:00:21,620 --> 00:00:29,340
+my daily brain dump which hopefully showed up on your iPod or the MP3 device automatically
+
+4
+00:00:29,340 --> 00:00:37,340
+this morning. It's Wednesday afternoon here and Wednesday still is a tough day. It's the
+
+5
+00:00:37,340 --> 00:00:42,620
+middle of the week and again the alarm clock went off at 3.30 this morning and I'm feeling
+
+6
+00:00:42,620 --> 00:00:48,380
+pretty worn down but we're getting closer to the end of that. I want to talk about a
+
+7
+00:00:48,380 --> 00:00:55,860
+couple things today mainly about what these audio blog posts or audio shows should be.
+
+8
+00:00:55,860 --> 00:01:02,740
+This morning though when I got up Dave slushers getting closures.
+
+9
+00:01:03,000 --> 00:01:07,720
+Pearl script had nicely deposited a brand new IT conversations on my iPod
+
+10
+00:01:07,720 --> 00:01:15,080
+And I was extremely happy to see that it was an hour and two minutes because my commute is about an hour and six minutes
+
+11
+00:01:15,080 --> 00:01:18,920
+And it was IT conversations very on Oprah Hallie suit
+
+12
+00:01:18,920 --> 00:01:23,840
+With the second installment of her trip down memory lane the show is called memory lane
+
+13
+00:01:23,840 --> 00:01:31,480
+The first one was with Joey Ito and this time she interviewed Dan Bricklin who is the
+
+14
+00:01:32,360 --> 00:01:37,800
+The founding father of the spreadsheet Busy Cal for those of you who remember
+
+15
+00:01:37,800 --> 00:01:45,640
+And it was again a great great show, you know, you just listen to you know to lots of computer
+
+16
+00:01:45,640 --> 00:01:48,840
+science and technology history and
+
+17
+00:01:48,840 --> 00:01:53,000
+Events that took place that I recognize I remember a lot of them
+
+18
+00:01:53,000 --> 00:01:58,760
+Which is nice. It's it's funny to hear how they do that, you know, I think she
+
+19
+00:01:59,480 --> 00:02:02,920
+Because of her very personal approach. I think she gets a lot more out of
+
+20
+00:02:04,500 --> 00:02:08,660
+people like Dan, then someone else might.
+
+21
+00:02:08,660 --> 00:02:09,500
+I don't know.
+
+22
+00:02:09,500 --> 00:02:11,980
+I've done that again.
+
+23
+00:02:11,980 --> 00:02:14,380
+But it's certainly worth mentioning, good show.
+
+24
+00:02:14,380 --> 00:02:16,780
+And then I did say that it was an hour and two minutes.
+
+25
+00:02:16,780 --> 00:02:17,980
+I was really happy about that.
+
+26
+00:02:17,980 --> 00:02:19,500
+And that immediately got me to thinking about,
+
+27
+00:02:19,500 --> 00:02:24,620
+well, what is the ideal length for one of these shows?
+
+28
+00:02:24,620 --> 00:02:26,820
+Of course, depending on how people are going to use it,
+
+29
+00:02:26,820 --> 00:02:29,420
+I presume that some will perfectly
+
+30
+00:02:29,420 --> 00:02:32,500
+find being three or four or five hours long.
+
+31
+00:02:32,500 --> 00:02:35,620
+But I'm just supposing here that a lot of people
+
+32
+00:02:35,620 --> 00:02:38,860
+listen to these during a commute either in the morning
+
+33
+00:02:38,860 --> 00:02:40,620
+or in the afternoon and sitting in your car,
+
+34
+00:02:40,620 --> 00:02:43,900
+you're on the train, the bus, bike, whatever.
+
+35
+00:02:43,900 --> 00:02:46,620
+So I think that they should probably be, well,
+
+36
+00:02:46,620 --> 00:02:51,940
+if it's a set show, maybe with a topic for every episode,
+
+37
+00:02:51,940 --> 00:02:53,780
+it could easily be half an hour or an hour,
+
+38
+00:02:53,780 --> 00:02:55,740
+so you could split it up.
+
+39
+00:02:55,740 --> 00:02:58,100
+I'm trying to keep mine to 15 minutes,
+
+40
+00:02:58,100 --> 00:02:59,900
+because, well, I figured if I'm boring myself,
+
+41
+00:02:59,900 --> 00:03:02,820
+I must be boring the tears out of you,
+
+42
+00:03:02,820 --> 00:03:04,460
+which is also an interesting number.
+
+43
+00:03:04,460 --> 00:03:07,460
+As Andy Warhol once said, 15 minutes.
+
+44
+00:03:06,000 --> 00:03:12,300
+15 minutes of fame. Maybe these things are supposed to be about 15 minutes. One that
+
+45
+00:03:12,300 --> 00:03:19,600
+is much shorter but showed up a nice spoof of me, courtesy of Steve Garfield. Now Steve
+
+46
+00:03:19,600 --> 00:03:25,200
+has done some video blogging experiments most recently from the Democratic National
+
+47
+00:03:25,200 --> 00:03:32,320
+Convention. He's really getting his chops down on editing, putting his own stuff together.
+
+48
+00:03:32,320 --> 00:03:36,400
+He found some video blog software. I linked to it on my web blog. You should check it
+
+49
+00:03:36,400 --> 00:03:41,160
+out because I'm quite impressed with the software. You register, you log in. It says,
+
+50
+00:03:41,160 --> 00:03:46,100
+can we connect to your webcam? Well, it did not mine. I'm on a Mac, so I presume that
+
+51
+00:03:46,100 --> 00:03:52,520
+may have something to do with it. But no configuration. You just hit record and then you can record
+
+52
+00:03:52,520 --> 00:03:56,960
+your video. It stores it on their server. Really nice.
+
+53
+00:03:56,960 --> 00:04:03,440
+And so Steve, I guess he's a jokester because he did a spoof on the Daily Source code and
+
+54
+00:04:03,440 --> 00:04:07,480
+he did a video version of it, a video message. So I'll play the audio from the
+
+55
+00:04:07,500 --> 00:04:08,500
+that for you.
+
+56
+00:04:08,500 --> 00:04:09,500
+Okay.
+
+57
+00:04:09,500 --> 00:04:11,780
+Hello and welcome to the Daily Source Code.
+
+58
+00:04:11,780 --> 00:04:15,740
+Hi, I'm Eddie Adam Curry Castle here in Belgium because some people here, you know, we're
+
+59
+00:04:15,740 --> 00:04:17,740
+only $50,000 close to someone.
+
+60
+00:04:17,740 --> 00:04:19,580
+So I hope that really goes through.
+
+61
+00:04:19,580 --> 00:04:20,820
+Hang on a second.
+
+62
+00:04:20,820 --> 00:04:21,820
+We got dogs here and everything.
+
+63
+00:04:21,820 --> 00:04:22,820
+You know, it's crazy.
+
+64
+00:04:22,820 --> 00:04:23,820
+There's lots of animals here.
+
+65
+00:04:23,820 --> 00:04:24,820
+There's the phone.
+
+66
+00:04:24,820 --> 00:04:25,820
+And my wife's coming in.
+
+67
+00:04:25,820 --> 00:04:26,820
+She wants to talk to me.
+
+68
+00:04:26,820 --> 00:04:27,820
+Some believable show.
+
+69
+00:04:27,820 --> 00:04:28,820
+She always wants to talk to me.
+
+70
+00:04:28,820 --> 00:04:29,820
+She knows I'm trying to do this.
+
+71
+00:04:29,820 --> 00:04:30,820
+I'm not making any money.
+
+72
+00:04:30,820 --> 00:04:31,820
+That's why she's mad.
+
+73
+00:04:31,820 --> 00:04:32,820
+Okay.
+
+74
+00:04:32,820 --> 00:04:33,820
+So that's the Daily Source Code for today.
+
+75
+00:04:33,820 --> 00:04:34,660
+We'll see you again tomorrow.
+
+76
+00:04:34,660 --> 00:04:37,900
+As far as I could tell, I did that without a script.
+
+77
+00:04:37,900 --> 00:04:40,220
+I thought that was pretty good.
+
+78
+00:04:40,220 --> 00:04:41,740
+And it's true though, you know, this is...
+
+79
+00:04:41,740 --> 00:04:43,660
+Hello and welcome to the Daily Source Code.
+
+80
+00:04:43,660 --> 00:04:46,460
+Hi, I'm Eddie Adam Curry, welcome here in Belgium.
+
+81
+00:04:46,460 --> 00:04:49,660
+We don't want that to be looping around.
+
+82
+00:04:49,660 --> 00:04:51,460
+Okay.
+
+83
+00:04:51,460 --> 00:04:55,620
+He's right that there's, you know, I feel like I'm pretty crazy, you know, doing this
+
+84
+00:04:55,620 --> 00:04:59,300
+stuff, trying to figure it out, trying to get people to transfer stuff automatically
+
+85
+00:04:59,300 --> 00:05:00,300
+onto their iPod.
+
+86
+00:05:00,300 --> 00:05:04,100
+But I know there's got to be something there of if now I'm already being spooked by Steve
+
+87
+00:05:04,100 --> 00:05:10,300
+Garfield then you know you're hitting the big time but I do think that
+
+88
+00:05:09,000 --> 00:05:16,080
+Writing is one thing on web blogs when it comes to being able to communicate through
+
+89
+00:05:16,080 --> 00:05:18,040
+audio and video.
+
+90
+00:05:18,040 --> 00:05:22,120
+Doing this stuff takes practice.
+
+91
+00:05:22,120 --> 00:05:25,080
+They call it the recording arts and sciences.
+
+92
+00:05:25,080 --> 00:05:27,360
+There's stuff to be learned to do it.
+
+93
+00:05:27,360 --> 00:05:31,360
+There's software that isn't necessarily very user friendly.
+
+94
+00:05:31,360 --> 00:05:33,920
+There's a pretty steep learning curve in the beginning.
+
+95
+00:05:33,920 --> 00:05:36,440
+I think that there will be a market though.
+
+96
+00:05:36,440 --> 00:05:37,440
+Maybe it's audiobooks.
+
+97
+00:05:37,440 --> 00:05:39,400
+Maybe it's audio blogs.
+
+98
+00:05:39,400 --> 00:05:41,000
+As I'm sure there will be a video market.
+
+99
+00:05:41,000 --> 00:05:47,960
+Once we start to make it a little bit easier to receive stuff, to get it onto your player,
+
+100
+00:05:47,960 --> 00:05:50,320
+your play or whatever your play out device is.
+
+101
+00:05:50,320 --> 00:05:55,360
+I think that the download platform is a lot more interesting because we can get a lot
+
+102
+00:05:55,360 --> 00:05:56,360
+higher quality.
+
+103
+00:05:56,360 --> 00:05:59,160
+You don't have to sit around waiting for stuff.
+
+104
+00:05:59,160 --> 00:06:00,640
+It just kind of shows up.
+
+105
+00:06:00,640 --> 00:06:02,720
+Yeah, it's not a video on demand.
+
+106
+00:06:02,720 --> 00:06:03,720
+It's not immediate.
+
+107
+00:06:03,720 --> 00:06:06,560
+It's a video by subscription or audio by subscription.
+
+108
+00:06:06,560 --> 00:06:10,520
+That's why I was talking about audiobooks, which I like.
+
+109
+00:06:10,500 --> 00:06:12,100
+I know I've mentioned it before.
+
+110
+00:06:12,100 --> 00:06:15,620
+I listened to a lot of them, particularly because I've been in the car a lot in the
+
+111
+00:06:15,620 --> 00:06:17,420
+past year.
+
+112
+00:06:17,420 --> 00:06:20,020
+And Dave Weiner, I tried to talk to him today.
+
+113
+00:06:20,020 --> 00:06:22,820
+He's traveling on his way to Seattle.
+
+114
+00:06:22,820 --> 00:06:25,220
+He's going to be on the road for another week and he's blogging from the road.
+
+115
+00:06:25,220 --> 00:06:27,740
+You can see it on scripting.com.
+
+116
+00:06:27,740 --> 00:06:33,300
+And he had sent me a note that he had listened to my source code and he said, well, thanks
+
+117
+00:06:33,300 --> 00:06:34,300
+for the recommendation.
+
+118
+00:06:34,300 --> 00:06:37,900
+I subscribed, signed up with audible.com.
+
+119
+00:06:37,900 --> 00:06:43,980
+And I also downloaded the book that you would suggest, which is timeline by Michael Criton,
+
+120
+00:06:43,980 --> 00:06:46,660
+which is 14 hours worth of MP3 audio.
+
+121
+00:06:46,660 --> 00:06:48,700
+But I thought it was very entertaining.
+
+122
+00:06:48,700 --> 00:06:52,700
+Dave hated it and he's been in the car and he's been playing this for...
+
+123
+00:06:52,700 --> 00:06:53,700
+He said it was almost done.
+
+124
+00:06:53,700 --> 00:06:55,740
+He's listened more than 13 hours of the book that he hates.
+
+125
+00:06:55,740 --> 00:07:00,860
+So, it may not be the best guy to refer audio books to you.
+
+126
+00:07:00,860 --> 00:07:03,860
+But then I thought for a second, you know...
+
+127
+00:07:03,860 --> 00:07:07,820
+Cute, no one's reviewing audio books.
+
+128
+00:07:07,820 --> 00:07:08,820
+Maybe there's something there.
+
+129
+00:07:08,820 --> 00:07:12,020
+Oprah certainly did okay with Oprah's book club.
+
+130
+00:07:12,000 --> 00:07:17,280
+And since I've already listened to so many of them, what the heck I'll try and review
+
+131
+00:07:17,280 --> 00:07:19,320
+now and then.
+
+132
+00:07:19,320 --> 00:07:27,380
+So for instance today, what we have, I've been listening to a book called Anti-Americanism
+
+133
+00:07:27,380 --> 00:07:32,000
+by French author Jean-Francois de Vérez.
+
+134
+00:07:32,000 --> 00:07:33,600
+They did that accent, huh?
+
+135
+00:07:33,600 --> 00:07:35,280
+Of course it's been translated.
+
+136
+00:07:35,280 --> 00:07:41,320
+Apparently he wrote another book called Without Marks or Jesus, which apparently was
+
+137
+00:07:41,320 --> 00:07:42,320
+a bestseller.
+
+138
+00:07:42,320 --> 00:07:49,120
+Unfortunately, I don't know anything about it nor is it available on Audible.
+
+139
+00:07:49,120 --> 00:07:55,320
+Just go to the blurb here, what they give you about the book Anti-Americanism.
+
+140
+00:07:55,320 --> 00:07:59,640
+Just taking a moment here.
+
+141
+00:07:59,640 --> 00:08:03,280
+Of course, lots of heavy processing going on in the community.
+
+142
+00:08:03,280 --> 00:08:04,200
+There we go.
+
+143
+00:08:07,500 --> 00:08:09,500
+Of course, now it's out here it comes.
+
+144
+00:08:09,500 --> 00:08:10,500
+Hold on.
+
+145
+00:08:10,500 --> 00:08:12,500
+So there's two...
+
+146
+00:08:12,500 --> 00:08:13,500
+We're sorry.
+
+147
+00:08:13,500 --> 00:08:16,500
+We've encountered an assistant error on your browser.
+
+148
+00:08:16,500 --> 00:08:20,500
+It was less idle and lost connection with audible.com.
+
+149
+00:08:20,500 --> 00:08:21,500
+Oh, thanks.
+
+150
+00:08:21,500 --> 00:08:24,500
+So, I guess I can't plug in your beautiful writing there.
+
+151
+00:08:24,500 --> 00:08:25,500
+Okay.
+
+152
+00:08:25,500 --> 00:08:30,500
+So this book was also quite controversial because it discusses anti-Americanism.
+
+153
+00:08:30,500 --> 00:08:32,500
+It's written by a French guy.
+
+154
+00:08:32,500 --> 00:08:34,500
+And he basically says, bullshit.
+
+155
+00:08:34,500 --> 00:08:37,500
+You know, all of this stuff about all these...
+
+156
+00:08:37,500 --> 00:08:40,500
+There are so many myths about America that someone has to say it.
+
+157
+00:08:40,500 --> 00:08:44,500
+And by the way, we as Europeans might want to look at ourselves once in a while
+
+158
+00:08:44,500 --> 00:08:52,500
+before we start pointing the finger overseas at the hyper superpower called the United States of America.
+
+159
+00:08:52,500 --> 00:08:55,500
+A couple things about audiobooks.
+
+160
+00:08:55,500 --> 00:08:59,500
+So, you know, one, there's just the story and the book and whatever you're going to listen to.
+
+161
+00:08:59,500 --> 00:09:05,500
+Then, of course, there's the reader, how the reader, you know, communicates the words.
+
+162
+00:09:05,500 --> 00:09:07,500
+And there's also the quality.
+
+163
+00:09:07,500 --> 00:09:09,000
+the quality.
+
+164
+00:09:09,000 --> 00:09:16,300
+And in this is a prime example of, I think, a reader that just doesn't put everything into it that he could,
+
+165
+00:09:16,300 --> 00:09:19,480
+or he sounds a little bit too technical, it's very dry.
+
+166
+00:09:19,480 --> 00:09:21,600
+I think he reads just a tad too fast.
+
+167
+00:09:21,600 --> 00:09:25,600
+And the quality really, really bites ass.
+
+168
+00:09:25,600 --> 00:09:27,800
+But I want you to listen to a little bit of it.
+
+169
+00:09:27,800 --> 00:09:29,800
+So you get a feel for this book.
+
+170
+00:09:29,800 --> 00:09:33,100
+His title is a little bit written by a French guy.
+
+171
+00:09:33,100 --> 00:09:35,100
+Well, it's actually none of that.
+
+172
+00:09:35,100 --> 00:09:37,500
+So listen to this from John F. Montsseauchauve.
+
+173
+00:09:37,500 --> 00:09:39,580
+you
+
+174
+00:09:42,000 --> 00:09:47,320
+We deceive ourselves if we think we can negotiate with the al-Qaeda fanatics and their ilk.
+
+175
+00:09:47,320 --> 00:09:52,000
+For this course to have the remotest chance of success, their motivations would have to
+
+176
+00:09:52,000 --> 00:09:53,000
+be logical.
+
+177
+00:09:53,000 --> 00:09:59,480
+As it is, an abyss separates them from any rational course of action, and terrorism is
+
+178
+00:09:59,480 --> 00:10:01,800
+the parody of policy that serves to fill it.
+
+179
+00:10:01,800 --> 00:10:03,880
+you
+
+180
+00:10:04,500 --> 00:10:09,780
+The days that immediately followed the unleashing of the full Islamo-terrorist war against
+
+181
+00:10:09,780 --> 00:10:14,820
+democracy in general and the United States in particular turned out to be an extremely
+
+182
+00:10:14,820 --> 00:10:17,260
+interesting and revealing testing ground.
+
+183
+00:10:17,260 --> 00:10:22,620
+Since over a period of two months the phobias and fallacies of traditional anti-Americanism
+
+184
+00:10:22,620 --> 00:10:27,340
+and of neo-totalitarianism massively intensified.
+
+185
+00:10:27,340 --> 00:10:32,900
+The clumsiest of these fallacies was an attempt to justify Islamist terrorism by claiming
+
+186
+00:10:32,900 --> 00:10:36,340
+that America has long been hostile towards Islam.
+
+187
+00:10:36,340 --> 00:10:41,060
+But the truth is that the United States' actions historically have been far less damaging to
+
+188
+00:10:41,060 --> 00:10:44,980
+Muslim interests than the actions of Britain, France or Russia.
+
+189
+00:10:44,980 --> 00:10:49,980
+These European powers have conquered Muslim countries, occupied and indeed oppressed
+
+190
+00:10:49,980 --> 00:10:53,420
+them over decades and even centuries.
+
+191
+00:10:53,420 --> 00:10:57,380
+Americans on the other hand have never colonized a Muslim nation.
+
+192
+00:10:57,380 --> 00:11:01,140
+Americans' events know hostility towards Islam as such today.
+
+193
+00:11:01,140 --> 00:11:06,020
+the contrary their interventions in Somalia, Bosnia and Kosovo as well as the pressure
+
+194
+00:11:06,000 --> 00:11:11,280
+exerted on the Macedonian government were designed to defend most of minorities.
+
+195
+00:11:11,280 --> 00:11:16,720
+I've been listening to this book for the past couple of days. I think it's about
+
+196
+00:11:16,720 --> 00:11:24,800
+six hours worth of five and a half hours worth of audio. It's really hard to concentrate.
+
+197
+00:11:24,800 --> 00:11:32,400
+You heard the speaker. It's just not a nice voice at all and sounds very nasal. I should
+
+198
+00:11:32,400 --> 00:11:39,600
+take that back to Audible and tell them they should get it redone. You do pick up a lot of things.
+
+199
+00:11:39,600 --> 00:11:48,160
+It's all of the books. I'll try to do one a day as long as the supply lasts. For all the books
+
+200
+00:11:48,160 --> 00:11:55,440
+that are about the Bush Bin Laden connection and 9-11 conspiracies. I listened to a lot of those.
+
+201
+00:11:55,440 --> 00:11:59,840
+This one definitely gives you a whole different perspective. Even some common
+
+202
+00:11:59,840 --> 00:12:06,640
+myths or some common beliefs that I've never really stopped to think about really are quite mythical.
+
+203
+00:12:07,500 --> 00:12:15,540
+If you do, if different facts or different angles perspective is shown to you, which this book does.
+
+204
+00:12:15,540 --> 00:12:22,300
+One more thing I had for us today.
+
+205
+00:12:24,000 --> 00:12:37,000
+was second this was a some note that I'd made myself taxes once you got the audio software running that everything just anything any other application you bring to the foreground starts to hurt.
+
+206
+00:12:37,000 --> 00:12:50,500
+I want to talk about the in a parent were the are bought g are that is spreading the internet at least it's getting a lot of a lot of attention a lot of stories about this.
+
+207
+00:12:50,500 --> 00:13:05,500
+So this were was distributed open to the back door and essentially enables the distributor of the were to activate your webcam and look at you and spy in on you or whatever the webcam is pointed at.
+
+208
+00:13:05,500 --> 00:13:11,500
+And it's like everyone's acting like this is a bad thing I think this is great this should be a feature and built into every single computer.
+
+209
+00:13:11,500 --> 00:13:19,500
+In fact would it be nice if we actually did have a compatible video conferencing system this guy apparently has it all figured out whoever has done this were because.
+
+210
+00:13:19,500 --> 00:13:25,500
+He can check on all our webcam so you know I think this needs to be explored from a whole different angle and.
+
+211
+00:13:25,500 --> 00:13:29,460
+And quite frankly, I wouldn't mind looking at someone else's webcam.
+
+212
+00:13:29,460 --> 00:13:33,060
+If we could connect, I wouldn't mind checking out my neighbors.
+
+213
+00:13:33,060 --> 00:13:38,300
+And maybe I'd even have some PayPal cash.
+
+214
+00:13:38,300 --> 00:13:41,100
+It left in my bank account to do that.
+
+215
+00:13:41,100 --> 00:13:43,860
+Grum Song of the Day.
+
+216
+00:13:43,860 --> 00:13:50,620
+A song that has been performed by many famous singers throughout the years.
+
+217
+00:13:50,620 --> 00:13:56,700
+This is one of, if not the original, I believe it's from 1936.
+
+218
+00:13:56,700 --> 00:14:02,180
+This is La Vianvosa, since we were kind of in a French vibe, brought to you by the perfectly
+
+219
+00:14:02,180 --> 00:14:05,500
+German Marlena Dietrich.
+
+220
+00:14:05,500 --> 00:14:12,500
+And I'm not going to be a fan of it.
+
+221
+00:14:12,500 --> 00:14:18,500
+I'm not going to be a fan of it.
+
+222
+00:14:18,500 --> 00:14:22,500
+I'm not going to be a fan of it.
+
+223
+00:14:22,500 --> 00:14:26,500
+I'm not going to be a fan of it.
+
+224
+00:14:27,000 --> 00:14:46,000
+They're more than two-lors, they're some fake elkersos, they're here at the trade of mocha, in a part of the wonder, Dorja Conne la Cósé.
+
+225
+00:14:46,000 --> 00:14:52,000
+Tell me, for one more, for L'Héléville, la vie.
+
+226
+00:14:52,000 --> 00:14:56,000
+L'Hélé, l'Hélé.
+
+227
+00:14:56,000 --> 00:15:01,000
+L'Héléville, l'Hélé.
+
+228
+00:15:01,000 --> 00:15:04,000
+De que chou la péos ones.
+
+229
+00:15:04,000 --> 00:15:12,000
+A la justo some one, mocha, ke vie.
+
+230
+00:15:13,500 --> 00:15:15,500
+I'm going to say it's my fault.
+
+231
+00:15:15,500 --> 00:15:19,500
+I'm going to say it's my fault.
+
+232
+00:15:19,500 --> 00:15:22,500
+I'm going to say it's my fault.
+
+233
+00:15:22,500 --> 00:15:27,500
+I'm going to say it's my fault.
+
+234
+00:15:30,000 --> 00:15:38,480
+Go, feel upon us, everyone, hear upon the two minds.
+
+235
+00:15:38,480 --> 00:15:48,660
+No one ever knows, be on the road, and be on the road.
+
+236
+00:15:48,660 --> 00:16:08,540
+We'll be on the road, we'll be on the road.
+
+237
+00:16:08,540 --> 00:16:28,600
+We'll be on the road, we'll be on the road.
+
+238
+00:16:28,600 --> 00:16:30,660
+you
+
+239
+00:16:31,500 --> 00:16:38,500
+Yeah, take that Steve Garfield dot com.
+
+240
+00:16:38,500 --> 00:16:44,500
+Okay, I see that I've gone over my allotted 15 minutes, a little bit on the long side today.
+
+241
+00:16:44,500 --> 00:16:48,500
+So, we're going to sign off and tomorrow, well we'll see what tomorrow brings.
+
+242
+00:16:48,500 --> 00:16:51,500
+Take care and I'll see you tomorrow with another source code.
+
+243
+00:16:51,500 --> 00:16:52,500
+Bye-bye.
+
+244
+00:16:52,500 --> 00:16:59,500
+This is how it goes.
+
+245
+00:16:59,500 --> 00:17:13,500
+♪♪
+
+246
+00:17:15,000 --> 00:17:17,000
+Our own door is gone.
+
+247
+00:17:17,000 --> 00:17:19,000
+Oh, oh.
+
+248
+00:17:19,000 --> 00:17:24,000
+Hmm.
+
+249
+00:17:24,000 --> 00:17:26,000
+Thanks for watching!
+
+250
+00:17:26,000 --> 00:17:27,000
+.
+
+251
+00:17:27,000 --> 00:17:28,000
+.
+
+252
+00:17:30,000 --> 00:17:31,000
+.
+

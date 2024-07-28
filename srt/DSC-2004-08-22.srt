@@ -1,0 +1,1028 @@
+1
+00:00:01,500 --> 00:00:11,500
+It's the source code.
+
+2
+00:00:11,500 --> 00:00:14,500
+Today is Sunday August 22nd 2004.
+
+3
+00:00:14,500 --> 00:00:24,500
+I'm at Curry another source code from Belgium from Curry Castle where it looks like, oh,
+
+4
+00:00:24,500 --> 00:00:29,420
+with any luck we maybe saw it in this place pretty soon.
+
+5
+00:00:29,420 --> 00:00:34,420
+Belgium came back on Friday to look for the second time when it comes back Monday morning
+
+6
+00:00:34,420 --> 00:00:39,420
+tomorrow at 11 a.m. so that's pretty encouraging.
+
+7
+00:00:39,420 --> 00:00:42,420
+For today I just want to talk about a couple things.
+
+8
+00:00:42,420 --> 00:00:44,420
+Hold on a second, Mike.
+
+9
+00:00:44,420 --> 00:00:46,420
+My preferred is...
+
+10
+00:00:46,420 --> 00:00:47,420
+Am I even...
+
+11
+00:00:47,420 --> 00:00:48,420
+Nah, hey.
+
+12
+00:00:48,420 --> 00:00:51,420
+Let me see if I can switch this on the fly.
+
+13
+00:00:51,420 --> 00:00:53,420
+You
+
+14
+00:00:55,500 --> 00:01:01,980
+So my internal mic on my laptop to be a great attribute to Apple if I can do this on the
+
+15
+00:01:01,980 --> 00:01:02,980
+fly.
+
+16
+00:01:02,980 --> 00:01:03,980
+Let's see.
+
+17
+00:01:03,980 --> 00:01:04,980
+One, two.
+
+18
+00:01:04,980 --> 00:01:05,980
+Yeah.
+
+19
+00:01:05,980 --> 00:01:06,980
+It worked.
+
+20
+00:01:06,980 --> 00:01:07,980
+Okay.
+
+21
+00:01:07,980 --> 00:01:09,280
+Well, continuing to record.
+
+22
+00:01:09,280 --> 00:01:12,900
+That sounds a hell of a lot better.
+
+23
+00:01:12,900 --> 00:01:17,360
+Lots of people are asking me what the source code, where the name came from source code
+
+24
+00:01:17,360 --> 00:01:21,500
+and they obviously didn't catch the very first episode.
+
+25
+00:01:21,500 --> 00:01:25,460
+source code is pretty much what it would sound to be.
+
+26
+00:01:25,460 --> 00:01:28,100
+It's what's behind the program.
+
+27
+00:01:28,100 --> 00:01:31,340
+If you look at my web log is okay, here's all the thoughts that are distilled from my
+
+28
+00:01:31,340 --> 00:01:36,500
+brain that I actually get onto the web, get published.
+
+29
+00:01:36,500 --> 00:01:38,940
+The thoughts behind that is the source code.
+
+30
+00:01:38,940 --> 00:01:42,300
+And so every day I just talk about whatever's going on and what I'm thinking about and what's
+
+31
+00:01:42,300 --> 00:01:43,660
+happening.
+
+32
+00:01:43,660 --> 00:01:49,340
+And most of what I've talked about is probably linked to on that day or the previous day's
+
+33
+00:01:49,340 --> 00:01:50,500
+page.
+
+34
+00:01:50,500 --> 00:01:51,500
+So this is just the brain dump.
+
+35
+00:01:51,500 --> 00:01:56,900
+It's usually about 10 to 15 minutes long and I try to do it every single day.
+
+36
+00:01:57,000 --> 00:02:02,380
+Doug Kay from IT Conversations which you can find at ITconversations.com left a note on
+
+37
+00:02:02,380 --> 00:02:08,640
+my web log. He wanted to know if my ipotter software, if that script was going to support
+
+38
+00:02:08,640 --> 00:02:18,560
+AAC files which is Apple's compression and DRM technology for audio compression. And
+
+39
+00:02:18,560 --> 00:02:26,000
+yeah, the answer is of course it will. And the best part is that AAC files indeed have
+
+40
+00:02:26,000 --> 00:02:32,440
+a bookmark. So if you go to a different track on your ipotter and iTunes or your MPD player
+
+41
+00:02:32,440 --> 00:02:38,320
+in general, when you go back to it, it should pick up where you left off. But yeah, you know,
+
+42
+00:02:38,320 --> 00:02:45,200
+there's a lot to do. How about support for Adam files and do Adam files actually have
+
+43
+00:02:45,200 --> 00:02:50,400
+enclosures? I'm sure that they do. But that's, you know, that's going to be a whole nother
+
+44
+00:02:50,400 --> 00:02:56,240
+trick to figure out how to support that. And quite frankly, I'm hoping that someone picks
+
+45
+00:02:56,240 --> 00:02:58,520
+up and starts doing about
+
+46
+00:02:58,500 --> 00:03:05,500
+better iPod or in a cross language platform or scripting language and takes over. But
+
+47
+00:03:05,500 --> 00:03:12,760
+until then, I'll continue developing. Doug K. Vit conversations. One of the shows that's
+
+48
+00:03:12,760 --> 00:03:21,620
+on there is Gilmore Gang. And I was listening to last Friday's edition. This is hosted by
+
+49
+00:03:21,620 --> 00:03:29,940
+Steve Gilmore. He writes for, he's a contributing editor for ZDNet and they have a set number
+
+50
+00:03:29,940 --> 00:03:40,680
+of panelists and besides regular doc swirls, Dave Sifri of Technorati was also on the panel
+
+51
+00:03:40,680 --> 00:03:50,820
+I guess as a member of the Gilmore Gang. And the guest was Tuntec, Silic from Technorati.
+
+52
+00:03:50,820 --> 00:03:57,100
+Now, you know, I was listening to the show or I was thinking Technorati, I have Technorati
+
+53
+00:03:57,100 --> 00:03:59,980
+links on my web log but I get as far as I can tell I have.
+
+54
+00:04:00,000 --> 00:04:01,960
+I guess zero benefit out of it.
+
+55
+00:04:01,960 --> 00:04:03,760
+There's never a paying to it.
+
+56
+00:04:03,760 --> 00:04:05,960
+There's never an updated Tenorati link,
+
+57
+00:04:05,960 --> 00:04:07,700
+or very, very rarely.
+
+58
+00:04:07,700 --> 00:04:11,600
+So I'm not quite sure what it does.
+
+59
+00:04:11,600 --> 00:04:13,080
+I understand what they're talking about,
+
+60
+00:04:13,080 --> 00:04:16,560
+but so I'm just kind of listening away, surfing a bit.
+
+61
+00:04:16,560 --> 00:04:20,080
+And then I heard Steve Gilmore say something interesting.
+
+62
+00:04:20,080 --> 00:04:23,360
+And he started talking about something he called
+
+63
+00:04:23,360 --> 00:04:25,920
+the iPod platform, like whoa, hold on.
+
+64
+00:04:25,920 --> 00:04:29,960
+That sounds like something that I've been talking about.
+
+65
+00:04:30,520 --> 00:04:31,680
+The iPod platform.
+
+66
+00:04:31,680 --> 00:04:36,000
+iPod as a platform, a way to distribute information,
+
+67
+00:04:36,000 --> 00:04:40,000
+not just music or MP3s, but it could be a lot more.
+
+68
+00:04:40,000 --> 00:04:41,320
+Like the Gilmore gang, for instance,
+
+69
+00:04:41,320 --> 00:04:43,240
+and like this show, Source Code.
+
+70
+00:04:43,240 --> 00:04:46,360
+So of course now I feel more than ever,
+
+71
+00:04:46,360 --> 00:04:48,120
+like we're on to something here.
+
+72
+00:04:48,120 --> 00:04:52,120
+And I wanna just play a little bit of that part
+
+73
+00:04:52,120 --> 00:04:55,400
+of Steve Gilmore talking about
+
+74
+00:04:55,400 --> 00:04:58,000
+what he calls the iPod platform.
+
+75
+00:04:58,960 --> 00:05:01,040
+And it's about three minutes.
+
+76
+00:05:01,500 --> 00:05:03,500
+just have a listen person.
+
+77
+00:05:03,500 --> 00:05:09,500
+That TANTech mentioned was the different kinds of data types.
+
+78
+00:05:09,500 --> 00:05:19,500
+Video, audio, this program, for example, is achieving a very, very important audience
+
+79
+00:05:19,500 --> 00:05:25,500
+in the download market, in the iPod platform, as I've called it.
+
+80
+00:05:25,500 --> 00:05:33,500
+As new programs come online, Dave Weiner does his morning coffee notes.
+
+81
+00:05:33,500 --> 00:05:38,500
+Adam Curry has got a terrific daily program called Source Code, I believe.
+
+82
+00:05:38,500 --> 00:05:46,500
+And, Hallie Sude, I believe, has a program that she started on IT conversations.
+
+83
+00:05:46,500 --> 00:05:49,500
+Doug can fill us in on that.
+
+84
+00:05:49,500 --> 00:05:54,500
+So, you know, as this kind of content starts to proliferate, it seems that we're going to have
+
+85
+00:05:54,500 --> 00:06:02,500
+a similar problem, which is finding the time to consume the best of this information.
+
+86
+00:06:03,000 --> 00:06:06,000
+as it populates the network.
+
+87
+00:06:06,000 --> 00:06:11,000
+So, does attention have a role in this space?
+
+88
+00:06:13,500 --> 00:06:14,940
+I think this is not a fact.
+
+89
+00:06:14,940 --> 00:06:22,860
+I think it's important to realize that sometimes it's better to try to solve a simple problem
+
+90
+00:06:22,860 --> 00:06:28,140
+and try to do a really good job at it and get lots of feedback and iterate and then
+
+91
+00:06:28,140 --> 00:06:33,260
+try to grow certainly the scope of what you're working on if it makes sense, if it can make
+
+92
+00:06:33,260 --> 00:06:38,980
+sense to include other data types, other media types.
+
+93
+00:06:38,980 --> 00:06:41,740
+What we are involved in sort of talking about, you know, up to this point has been
+
+94
+00:06:41,740 --> 00:06:46,860
+sort of onslaught of text that we've been subject to because of the internet and that
+
+95
+00:06:46,860 --> 00:06:50,660
+we feel an almost urgency to all keep up with.
+
+96
+00:06:50,660 --> 00:06:55,460
+We kind of feel left out if we don't know exactly what everyone's saying about everything.
+
+97
+00:06:55,460 --> 00:06:59,660
+And that's the first approach is to try to at least triage that to something manageable.
+
+98
+00:06:59,660 --> 00:07:01,140
+But you're absolutely right, Steve.
+
+99
+00:07:01,140 --> 00:07:05,300
+It's not like the flood is over when we've solved that problem.
+
+100
+00:07:05,300 --> 00:07:09,580
+New media types are showing up more and more just like blogs that made it easy to publish
+
+101
+00:07:09,580 --> 00:07:11,780
+text on the web.
+
+102
+00:07:11,780 --> 00:07:14,940
+The audio blogs and other tools are developing.
+
+103
+00:07:15,000 --> 00:07:19,000
+to publish other media types, audio, photos, etc.
+
+104
+00:07:19,000 --> 00:07:21,000
+and share them.
+
+105
+00:07:21,000 --> 00:07:25,000
+And then the question is, well, how do I pay attention to what's most interesting there?
+
+106
+00:07:25,000 --> 00:07:30,000
+And so absolutely, I think that we're trying to keep multiple media types
+
+107
+00:07:30,000 --> 00:07:34,000
+or media type independence in mind from the beginning.
+
+108
+00:07:34,000 --> 00:07:41,000
+I mean, to me, this is a very similar characteristic to the T-Vo environment.
+
+109
+00:07:41,000 --> 00:07:47,000
+I used that as a Kleenex type brand name rather than specific manufacturer.
+
+110
+00:07:47,000 --> 00:07:49,000
+It's T-Vo for the web.
+
+111
+00:07:49,000 --> 00:07:57,000
+And as the web and multiple media's crisscross and sort of converge,
+
+112
+00:07:57,000 --> 00:08:08,000
+we're seeing companies like SBC and the paper yesterday.
+
+113
+00:08:08,000 --> 00:08:16,000
+SBC and just network are moving toward movies on demand.
+
+114
+00:08:16,500 --> 00:08:23,700
+They're keeping it fairly scoped to the traditional content providers, the movie studios and the
+
+115
+00:08:23,700 --> 00:08:24,700
+record companies.
+
+116
+00:08:24,700 --> 00:08:32,980
+But once the door is opened, I think that we'll see a lot of direct to web or direct from
+
+117
+00:08:32,980 --> 00:08:35,820
+web content starting to emerge.
+
+118
+00:08:35,820 --> 00:08:43,540
+And the characteristics of people who are consuming that media, if they are recorded
+
+119
+00:08:43,540 --> 00:08:52,580
+and transmitted to the attention network using attention.xml, that essentially allows for
+
+120
+00:08:52,580 --> 00:09:03,180
+the implicit metadata of how people consume this information to be them returned to the
+
+121
+00:09:03,180 --> 00:09:05,500
+group of people that are interested in.
+
+122
+00:09:05,500 --> 00:09:10,780
+You know, maybe there are 100 people who have already listened to the next open source or
+
+123
+00:09:10,780 --> 00:09:13,140
+source code broadcast.
+
+124
+00:09:13,140 --> 00:09:17,140
+and say that it's the best one yet.
+
+125
+00:09:18,000 --> 00:09:25,480
+the way that they've listened to it in terms of what they've done with other input systems
+
+126
+00:09:25,480 --> 00:09:29,720
+on the computer during that period of time. In other words, nothing would be an indication
+
+127
+00:09:29,720 --> 00:09:35,480
+that this is a useful program that they've listened to from beginning to end without
+
+128
+00:09:35,480 --> 00:09:43,200
+stopping or doing much else except perhaps clicking on the website, Adam's website for
+
+129
+00:09:43,200 --> 00:09:44,200
+more information.
+
+130
+00:09:44,200 --> 00:09:50,040
+Okay, so a couple extra interesting things there that Steve was saying. I guess they're
+
+131
+00:09:50,040 --> 00:09:54,840
+talking about some attention, some present server or something in the middle. That's
+
+132
+00:09:54,840 --> 00:09:58,760
+probably what Technorati is supposed to be is where, oh, there's a whole bunch of stuff
+
+133
+00:09:58,760 --> 00:10:03,600
+that you should be looking at. Click here to go check it out. But it sounds good.
+
+134
+00:10:03,600 --> 00:10:08,160
+I don't know if it's really possible or, you know, but it actually sounds a little bit
+
+135
+00:10:08,160 --> 00:10:14,680
+ahead of where we're at right now where we still have to figure out how to get two different
+
+136
+00:10:14,680 --> 00:10:18,520
+types of feeds, RSS and Adam to work together. You know, we're still working on the aggregator
+
+137
+00:10:19,500 --> 00:10:25,900
+And then what Steve was talking about, TBO for the web, I totally agree with that.
+
+138
+00:10:25,900 --> 00:10:31,220
+That's where aggregators are going to get a lot smarter and probably more specific doing
+
+139
+00:10:31,220 --> 00:10:38,060
+certain tasks and hopefully we'll also have the big mother of all aggregators that'll
+
+140
+00:10:38,060 --> 00:10:42,740
+do everything for you when you want it as you like it and spit it out in multiple play
+
+141
+00:10:42,740 --> 00:10:43,740
+out systems.
+
+142
+00:10:43,740 --> 00:10:45,740
+Um
+
+143
+00:10:46,500 --> 00:10:53,460
+what the end of the day was talking about how people would be listening to a program
+
+144
+00:10:53,460 --> 00:10:57,580
+for instance like source code and what you're doing while listening to it. I'm interested
+
+145
+00:10:57,580 --> 00:11:02,500
+if you want to leave a comment please do. Do you listen to the whole thing from beginning
+
+146
+00:11:02,500 --> 00:11:07,020
+to end? Do you do anything else? Are you reading, surfing, checking email? Are you walking?
+
+147
+00:11:07,020 --> 00:11:11,620
+Are you in the car? I'd love to know where you listen to the program.
+
+148
+00:11:11,620 --> 00:11:21,300
+And of course something I'd love to enhance this show is the ability to somehow embed
+
+149
+00:11:21,300 --> 00:11:28,980
+links. I'm not quite sure how that would work. It may not. Right now as D point out you've
+
+150
+00:11:28,980 --> 00:11:32,300
+listened to the the audio blog post and if you want more information you go do my web
+
+151
+00:11:32,300 --> 00:11:42,900
+blog. And let's see I want to talk about oh Patricia, she of course always wonders what
+
+152
+00:11:42,900 --> 00:11:47,260
+I'm doing here in the bar with the door closed and I told her about source code and she listened
+
+153
+00:11:48,000 --> 00:11:51,440
+She always thinks quite commercially and said,
+
+154
+00:11:51,440 --> 00:11:55,120
+well, so how do you plan to make money on this?
+
+155
+00:11:55,120 --> 00:11:58,040
+Or I said, no, no, that's not the point.
+
+156
+00:11:58,040 --> 00:11:59,680
+And though I'm gonna be able to convince her
+
+157
+00:11:59,680 --> 00:12:03,600
+how I see that working and why should you have to charge
+
+158
+00:12:03,600 --> 00:12:07,560
+for something just because I get paid in other media
+
+159
+00:12:07,560 --> 00:12:10,320
+to use my voice in exactly the same way,
+
+160
+00:12:10,320 --> 00:12:13,000
+that's kind of inexplicable.
+
+161
+00:12:13,000 --> 00:12:15,680
+But one thing you could do, of course, is,
+
+162
+00:12:15,680 --> 00:12:18,000
+well, if we have enough of the right people listening,
+
+163
+00:12:18,000 --> 00:12:19,480
+could always embed commercials.
+
+164
+00:12:19,480 --> 00:12:23,800
+And, gee, we could do all kinds of interesting commercials.
+
+165
+00:12:23,800 --> 00:12:26,320
+Here's one that I pulled out of my iTunes
+
+166
+00:12:26,320 --> 00:12:29,480
+that reminds you just how far we've come in advertising.
+
+167
+00:12:29,480 --> 00:12:34,560
+♪♪♪
+
+168
+00:12:34,560 --> 00:12:43,440
+♪♪
+
+169
+00:12:43,440 --> 00:12:49,440
+♪♪♪
+
+170
+00:12:49,500 --> 00:12:51,500
+I'm very much self-believant.
+
+171
+00:12:51,500 --> 00:12:53,500
+I'm just glad I'm on my gun.
+
+172
+00:12:53,500 --> 00:12:55,500
+Take a head, please.
+
+173
+00:12:55,500 --> 00:13:00,500
+Hehe.
+
+174
+00:13:00,500 --> 00:13:03,500
+Winston takes good, like a cigarette.
+
+175
+00:13:03,500 --> 00:13:05,500
+Um...
+
+176
+00:13:05,500 --> 00:13:09,500
+One more plea for software to do this type of program with.
+
+177
+00:13:09,500 --> 00:13:14,500
+Um, I've been given so many recommendations and I even tried megasag recently.
+
+178
+00:13:14,500 --> 00:13:16,500
+And no one really just has it.
+
+179
+00:13:16,500 --> 00:13:21,500
+I posted about this before, I posted the interface and really what would be absolutely perfect is it.
+
+180
+00:13:21,500 --> 00:13:26,500
+If I could just record whatever comes out of the speakers, including a mic signal.
+
+181
+00:13:26,500 --> 00:13:32,500
+Um, because then I could just be playing quick time movies or MPEGs or MP3s and whatever player I wanted.
+
+182
+00:13:32,500 --> 00:13:34,500
+I could have playlists and a program that does playlists.
+
+183
+00:13:34,500 --> 00:13:36,500
+Well, it seems like it can be done.
+
+184
+00:13:36,500 --> 00:13:38,500
+It has, it must be possible.
+
+185
+00:13:38,500 --> 00:13:41,500
+You can just get to the core audio driver or something like that.
+
+186
+00:13:41,500 --> 00:13:46,500
+Um, in order to, um, add to record all of the audio.
+
+187
+00:13:46,500 --> 00:13:50,500
+And, um, audio hijack, although it can record multiple...
+
+188
+00:13:51,000 --> 00:13:56,940
+multiple applications and a mic input at the same time it writes them to all
+
+189
+00:13:56,940 --> 00:14:02,580
+different files so it's just not you know I really need a DJ mixing setup that
+
+190
+00:14:02,580 --> 00:14:11,400
+will write a mix directly to mp3 and and and enables you to set up a couple of
+
+191
+00:14:11,400 --> 00:14:15,480
+hotkeys to trigger off preset stuff you should be able to drag stuff into a
+
+192
+00:14:15,480 --> 00:14:20,640
+playlist on the fly if you want as you're talking and and the mic channel has to
+
+193
+00:14:20,640 --> 00:14:25,080
+be able to mix it and some processing of the mic channel would be nice as well
+
+194
+00:14:25,080 --> 00:14:32,360
+okay song of the day beautiful day here in Belgium it's nice and sunny and I
+
+195
+00:14:32,360 --> 00:14:37,480
+figured we got to play something that everybody can sing along to
+
+196
+00:14:37,760 --> 00:14:52,800
+this is one of those songs the Beatles
+
+197
+00:14:52,500 --> 00:14:57,500
+I could have had a place to live
+
+198
+00:14:57,500 --> 00:15:01,500
+Oh, I know I saw her
+
+199
+00:15:01,500 --> 00:15:04,500
+I was there
+
+200
+00:15:04,500 --> 00:15:08,500
+You'll see who got me
+
+201
+00:15:08,500 --> 00:15:11,500
+That I could see
+
+202
+00:15:11,500 --> 00:15:13,500
+Every part of love
+
+203
+00:15:13,500 --> 00:15:16,500
+I've fallen out of her
+
+204
+00:15:16,500 --> 00:15:20,500
+She wouldn't have had
+
+205
+00:15:20,500 --> 00:15:22,500
+With another
+
+206
+00:15:22,500 --> 00:15:24,500
+One
+
+207
+00:15:24,500 --> 00:15:26,500
+I saw her
+
+208
+00:15:26,500 --> 00:15:28,500
+And then
+
+209
+00:15:28,500 --> 00:15:30,500
+She wouldn't have had
+
+210
+00:15:30,500 --> 00:15:31,500
+Had all my heart
+
+211
+00:15:31,500 --> 00:15:32,500
+And all my heart
+
+212
+00:15:34,500 --> 00:15:39,500
+♪ I'm a monster and I'm a monster ♪
+
+213
+00:15:39,500 --> 00:15:44,500
+♪ And I'm a monster and I'm a monster ♪
+
+214
+00:15:45,500 --> 00:15:50,500
+♪ These are my dreams and we have each other today ♪
+
+215
+00:15:50,500 --> 00:15:56,500
+♪ I'm a partner, I'm still in love with her ♪
+
+216
+00:15:56,500 --> 00:16:02,500
+♪ I'll never dance with another ♪
+
+217
+00:16:02,500 --> 00:16:08,500
+♪ And I'll always have ♪
+
+218
+00:16:08,500 --> 00:16:13,500
+♪ I'm a monster and I'll always have ♪
+
+219
+00:16:13,500 --> 00:16:18,500
+♪ I'm a monster and I'm still in love with her ♪
+
+220
+00:16:18,500 --> 00:16:23,500
+♪ I'm a monster and I'm still in love with her ♪
+
+221
+00:16:23,500 --> 00:16:28,500
+♪ I'm a monster and I'm still in love with her ♪
+
+222
+00:16:28,500 --> 00:16:33,500
+♪ I'm a monster and I'm still in love with her ♪
+
+223
+00:16:33,500 --> 00:16:36,500
+♪ I'm a monster and I'm still in love with her ♪
+
+224
+00:16:36,000 --> 00:16:48,500
+And I'm home with my fast-dabbed room And I'm out here in my ear.
+
+225
+00:16:48,500 --> 00:17:01,000
+I'll go home with you tonight And we'll have each other tight And we'll be parking on past the middle of the year.
+
+226
+00:17:01,000 --> 00:17:13,000
+I'll never dance without my love Oh, my soul stands there.
+
+227
+00:17:13,000 --> 00:17:19,000
+It was in the house of the world Standing there.
+
+228
+00:17:19,000 --> 00:17:26,000
+It was in the house of the world Standing there.
+
+229
+00:17:26,000 --> 00:17:32,000
+I thought I was standing there at Beatles on source code for today.
+
+230
+00:17:32,000 --> 00:17:38,000
+And I just wanted to wind up today's report with some work I did last night.
+
+231
+00:17:37,500 --> 00:17:43,500
+on this pinnacle show server which I blogged about and I've spoken about earlier in source code reports.
+
+232
+00:17:43,500 --> 00:17:52,500
+Now, what this turn... well, what it is, it's kind of a DVD-like device. That's the slimline thing.
+
+233
+00:17:52,500 --> 00:17:58,500
+You put on top of DVD player and you basically plug a Wi-Fi card in the back which comes which is supplied with.
+
+234
+00:17:58,500 --> 00:18:02,500
+And then you hook it up to your TV, you have hooked it up to our big grandmaster view screen.
+
+235
+00:18:02,500 --> 00:18:10,500
+And then you start a server with some special software that only runs on Windows.
+
+236
+00:18:10,500 --> 00:18:17,500
+And then you can scan your drive, get all kinds of media, you set up a watch folder, drop stuff in, it's added to the library.
+
+237
+00:18:17,500 --> 00:18:29,500
+And what you do is you log into the system on your television with your remote and it gives you an overview of your library and it plays stuff in order for you and it's shuffle stuff.
+
+238
+00:18:29,500 --> 00:18:38,500
+And I thought this was some pretty sophisticated stuff until Yerun posted on the comments on my web blog pointed me to an open source.
+
+239
+00:18:39,000 --> 00:18:48,000
+a source version of a server and it turns out that this box is really no more than just a web browser with media players, which is a pretty good idea.
+
+240
+00:18:48,000 --> 00:18:56,000
+They really should promote that idea so more people would be making content management systems and servers specifically for this.
+
+241
+00:18:56,000 --> 00:19:05,000
+They seem to be using all open protocols so that's fine, maybe a couple of extra bits there to get the new media light working on the front if something new is added.
+
+242
+00:19:05,000 --> 00:19:15,000
+In fact, I built a little webpage on my powerbook and connected to it from the system and linked to an mp3 file and it played.
+
+243
+00:19:15,000 --> 00:19:25,000
+Then I started digging a little bit into the windows, not to the code, really into the directory and it turns out that's a web server running some PHP scripts.
+
+244
+00:19:25,000 --> 00:19:41,000
+So, interesting. And if anyone has any ideas out there for a media jute box that I might be able to connect to, if you connect to it with a web browser,
+
+245
+00:19:40,500 --> 00:19:44,620
+essentially you can do it with this thing. You know let me know about it. And
+
+246
+00:19:44,620 --> 00:19:50,580
+finally I'm looking for more RSS feeds with audio enclosures. You know as I
+
+247
+00:19:50,580 --> 00:19:55,860
+work on the next beta release of iPodter I need more content coming in just to be
+
+248
+00:19:55,860 --> 00:20:00,700
+able to test in a real-world environment. You know my own stuff comes back to me.
+
+249
+00:20:00,700 --> 00:20:06,180
+Dave's on the road right now he's not updating very frequently. There's some
+
+250
+00:20:06,180 --> 00:20:10,540
+other audio blogs that have no RSS feed or most of them though. Maybe maybe one of
+
+251
+00:20:10,540 --> 00:20:14,500
+the big services has an enclosure feed that I'm not aware of yet. So please let
+
+252
+00:20:14,500 --> 00:20:23,740
+me know. It's Adam at Curry.com and my web log is at live liv.curry.com.
+
+253
+00:20:23,740 --> 00:20:28,700
+I'd love to hear from you and thanks for listening if you caught this through
+
+254
+00:20:28,700 --> 00:20:33,420
+iPodter or through another news aggregator. Thank you very much for
+
+255
+00:20:33,420 --> 00:20:42,980
+subscribing and we'll talk to you tomorrow.
+
+256
+00:20:42,000 --> 00:21:03,380
+The power of the entire planet.
+
+257
+00:21:03,380 --> 00:21:24,760
+The power of the planet.
+
