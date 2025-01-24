@@ -1,0 +1,828 @@
+1
+00:00:01,500 --> 00:00:17,500
+Hi everybody, it is the source code for Friday, August 27th, 2004.
+
+2
+00:00:17,500 --> 00:00:20,500
+Good afternoon or good morning or good evening, wherever you are, wherever you're listening
+
+3
+00:00:20,500 --> 00:00:25,500
+to this, either you clicked on the link on the website or you might be subscribing to
+
+4
+00:00:25,500 --> 00:00:26,500
+it through RSS.
+
+5
+00:00:26,500 --> 00:00:28,500
+Thank you very much for subscribing.
+
+6
+00:00:29,500 --> 00:00:34,500
+I've been thinking a lot about what we need to do with this show in particular
+
+7
+00:00:34,500 --> 00:00:38,500
+because I'm even getting pretty bored of talking about myself.
+
+8
+00:00:38,500 --> 00:00:43,500
+And then last night it hit me as I was trying to get to sleep around, I had to go to bed
+
+9
+00:00:43,500 --> 00:00:50,500
+early, only two more days, Monday and Tuesday, the last two days of the morning show.
+
+10
+00:00:50,500 --> 00:00:57,500
+And I was thinking that really what maybe at this audio blog or audio show can be about,
+
+11
+00:00:57,500 --> 00:01:00,500
+maybe it can just be really for users and developers to bring them together.
+
+12
+00:01:00,500 --> 00:01:02,500
+I mean, I'm...
+
+13
+00:01:03,000 --> 00:01:08,000
+100% a user on all sides of the broadcast equation.
+
+14
+00:01:08,000 --> 00:01:11,000
+I really like receiving stuff and I like making stuff,
+
+15
+00:01:11,000 --> 00:01:13,000
+sending it out as well.
+
+16
+00:01:13,000 --> 00:01:16,000
+And I think that so far we've been pretty successful at
+
+17
+00:01:16,000 --> 00:01:21,000
+bringing together a number of developers to work on the
+
+18
+00:01:21,000 --> 00:01:24,000
+iPod platform and get stuff working.
+
+19
+00:01:24,000 --> 00:01:28,000
+And these may not even be developers per se.
+
+20
+00:01:28,000 --> 00:01:32,000
+These could be just users who have a little more
+
+21
+00:01:32,000 --> 00:01:35,000
+knowledge and experience at making the computers do things
+
+22
+00:01:35,000 --> 00:01:36,000
+that they want them to do.
+
+23
+00:01:36,000 --> 00:01:39,000
+So I'm going to see if at all we can make this a
+
+24
+00:01:39,000 --> 00:01:42,000
+platform of its own for users and developers.
+
+25
+00:01:42,000 --> 00:01:46,000
+And if you have a comment, obviously you can leave a
+
+26
+00:01:46,000 --> 00:01:48,000
+comment on the web blog or send me an email
+
+27
+00:01:48,000 --> 00:01:49,000
+adamantcurry.com.
+
+28
+00:01:49,000 --> 00:01:53,000
+But maybe if you have something to contribute, you can
+
+29
+00:01:53,000 --> 00:01:55,000
+create your own audio blog post.
+
+30
+00:01:55,000 --> 00:01:58,000
+Send me a URL point to it and I'll pick it up.
+
+31
+00:01:58,000 --> 00:02:01,000
+And then maybe we can share some of your ideas or
+
+32
+00:02:01,000 --> 00:02:04,000
+questions or stuff that you're looking for or things that we
+
+33
+00:02:04,500 --> 00:02:08,500
+need to make our computers do and how we can connect them all together through the internet.
+
+34
+00:02:08,500 --> 00:02:15,500
+And I made a very important discovery yesterday, although the application wiretap for Mac OS
+
+35
+00:02:15,500 --> 00:02:20,500
+10 had been pointed out to me a couple of times by people in my quest for getting the right
+
+36
+00:02:20,500 --> 00:02:25,500
+audio software to record these with.
+
+37
+00:02:25,500 --> 00:02:29,500
+The interface really, I had downloaded it, I think the interface just confused me so
+
+38
+00:02:29,500 --> 00:02:34,500
+much. I didn't realize that it does exactly what I wanted to do, namely record all the
+
+39
+00:02:34,500 --> 00:02:40,500
+audio that would normally come out of my speaker. I want that recorded digitally just by listening
+
+40
+00:02:40,500 --> 00:02:45,500
+to the core audio bits or whatever it is. And that's exactly what wiretap does. I didn't
+
+41
+00:02:45,500 --> 00:02:53,500
+think it did because when I looked at the preferences file and I think it's selected by default,
+
+42
+00:02:53,500 --> 00:02:57,500
+it says save files to and then you give it a place to save to and then it says
+
+43
+00:02:57,500 --> 00:03:03,500
+you can add prefix if you want, which can be the aim. And so when I clicked on the application
+
+44
+00:03:03,500 --> 00:03:05,500
+name it seemed only to want to save files.
+
+45
+00:03:06,000 --> 00:03:10,000
+save files with the application name that was at the front that was recording.
+
+46
+00:03:10,000 --> 00:03:14,000
+So I figured well it only records one application at a time.
+
+47
+00:03:14,000 --> 00:03:23,000
+And then yesterday while I was doing the source code, Cindy Camilleri came online on iChat
+
+48
+00:03:23,000 --> 00:03:28,000
+and since she doesn't come online when usually when I am because we are in different, she's
+
+49
+00:03:28,000 --> 00:03:32,000
+in New York and I'm in obviously in Belgium.
+
+50
+00:03:32,000 --> 00:03:38,000
+And I always have iChat saying you know, Skipper is here which is her nickname, Skipper.
+
+51
+00:03:38,000 --> 00:03:45,000
+And I heard the iChat alert that she was online while I was recording and I didn't think that
+
+52
+00:03:45,000 --> 00:03:46,000
+you'd hear it.
+
+53
+00:03:46,000 --> 00:03:50,000
+But then I listened back to the yesterday show, yep sure enough it was there.
+
+54
+00:03:50,000 --> 00:03:54,000
+So I started experimenting and indeed it records everything.
+
+55
+00:03:54,000 --> 00:03:59,000
+So instead of a mixing console now in front of me, I basically have all my applications
+
+56
+00:03:59,000 --> 00:04:04,000
+open that I normally use to play bits of audio or use in an audio show like this.
+
+57
+00:04:04,000 --> 00:04:07,000
+I have three quick time windows open.
+
+58
+00:04:07,500 --> 00:04:14,500
+the Rachmaninoff remix which is, well, by default now become the tune for source code.
+
+59
+00:04:14,500 --> 00:04:18,500
+I have a song of the day all queued up and also I have iTunes standing by in case I think
+
+60
+00:04:18,500 --> 00:04:22,500
+of something I need to search and iTunes is great for that, just typing your search
+
+61
+00:04:22,500 --> 00:04:25,500
+and immediately you get your results.
+
+62
+00:04:25,500 --> 00:04:32,500
+Okay, before I go on to with more about what source code could be and a little update
+
+63
+00:04:32,500 --> 00:04:37,500
+on iPodder, here's something that came in through my own iPodder, at least I'm using
+
+64
+00:04:37,500 --> 00:04:46,500
+the get enclosure.pearl script and this came in from, what was this, blog digger
+
+65
+00:04:46,500 --> 00:04:51,500
+and this is from their their media RSS file and apparently some German guy has
+
+66
+00:04:51,500 --> 00:04:57,500
+written a book called blogs and his name is Don Alfonso and here is an audio
+
+67
+00:04:57,500 --> 00:05:01,500
+show that was out there on the internet somewhere and I just want to play a
+
+68
+00:05:01,500 --> 00:05:04,500
+little bit of it because it's kind of cool to hear Germans talk about web logs.
+
+69
+00:05:04,500 --> 00:05:08,500
+15.40, you can hear the exact same thing in Germany.
+
+70
+00:05:09,000 --> 00:05:11,000
+These texts are only available on the Internet.
+
+71
+00:05:11,000 --> 00:05:16,000
+The book is a special logbook for the reader.
+
+72
+00:05:16,000 --> 00:05:21,000
+It shows a new world and often also a radical point of view.
+
+73
+00:05:21,000 --> 00:05:23,000
+The book is about blogs.
+
+74
+00:05:23,000 --> 00:05:28,000
+The title of the book is also published in the beginning of September in the book of Schwarzkopf and Schwarzkopf.
+
+75
+00:05:28,000 --> 00:05:32,000
+A book published by Don Alfonso and Kai...
+
+76
+00:05:32,000 --> 00:05:34,000
+What's the name again?
+
+77
+00:05:34,000 --> 00:05:35,000
+Don Alfonso?
+
+78
+00:05:35,000 --> 00:05:36,000
+Kai-Pal.
+
+79
+00:05:36,000 --> 00:05:37,000
+Exactly.
+
+80
+00:05:37,000 --> 00:05:38,000
+Kai-Pal.
+
+81
+00:05:38,000 --> 00:05:39,000
+The book is about blogs.
+
+82
+00:05:39,000 --> 00:05:45,000
+16 webloggers write about text and form on the Internet and why they take over the Internet.
+
+83
+00:05:45,000 --> 00:05:46,000
+I love it.
+
+84
+00:05:46,000 --> 00:05:49,000
+Okay, so if you read German there's a book called Blogs.
+
+85
+00:05:49,000 --> 00:05:51,000
+Blogs is out now in Germany.
+
+86
+00:05:51,000 --> 00:06:01,000
+Okay, so about the source code, I'd like to see this turn into some form of a platform
+
+87
+00:06:01,000 --> 00:06:07,000
+where users and developers can talk about how we can work together and make our collective lives better.
+
+88
+00:06:07,000 --> 00:06:10,000
+I know one thing for sure that all of the...
+
+89
+00:06:10,500 --> 00:06:15,500
+users I know, if they are using shareware and they use it consistently or if there's a registration
+
+90
+00:06:15,500 --> 00:06:16,500
+fee.
+
+91
+00:06:16,500 --> 00:06:22,500
+Most everyone always says the same thing, hey, I want to pay my dues and make sure people
+
+92
+00:06:22,500 --> 00:06:23,500
+get paid.
+
+93
+00:06:23,500 --> 00:06:24,500
+So I think there is a market there.
+
+94
+00:06:24,500 --> 00:06:30,500
+It's probably on a per user basis, small license fees, but there's a lot of software to be
+
+95
+00:06:30,500 --> 00:06:38,500
+made and if we can aggregate the ideas when it comes to per topic, obviously, then
+
+96
+00:06:38,500 --> 00:06:44,500
+maybe we can get some economies of scale going like has happened with iPodder.
+
+97
+00:06:44,500 --> 00:06:50,500
+So the history real quick, I created this script, an Apple script that takes a list of
+
+98
+00:06:50,500 --> 00:06:57,500
+RSS feeds with MP3 enclosures, downloads those and contrary to popular belief, by the way,
+
+99
+00:06:57,500 --> 00:07:00,500
+it does check to see if the file has already been downloaded.
+
+100
+00:07:00,500 --> 00:07:04,500
+It doesn't download again unless the file has been removed because I use the curl
+
+101
+00:07:04,500 --> 00:07:07,500
+minus F switch.
+
+102
+00:07:07,500 --> 00:07:11,500
+It downloads them and then it transfers them to your iTunes, which if you have a
+
+103
+00:07:12,000 --> 00:07:18,000
+iPod automatically syncs up to your iPod and in iTunes it actually creates a playlist which
+
+104
+00:07:18,000 --> 00:07:24,000
+is equal or equivalent to the name of the channel that or the RSS feed that you're downloading.
+
+105
+00:07:24,000 --> 00:07:27,000
+It takes all that information from the RSS feed.
+
+106
+00:07:27,000 --> 00:07:29,000
+So a couple different versions showed up.
+
+107
+00:07:29,000 --> 00:07:35,000
+We have a Pearl version which I'm actually using myself now and there is now a Windows
+
+108
+00:07:35,000 --> 00:07:39,000
+version and apparently there's nothing extra to install, no bits that you need.
+
+109
+00:07:39,000 --> 00:07:44,000
+So I'm going to just download the script and it's good to go.
+
+110
+00:07:44,000 --> 00:07:48,000
+It's made by Peter Overbeke and I'm pretty sure he's Dutch.
+
+111
+00:07:48,000 --> 00:07:51,000
+I haven't met him other than online.
+
+112
+00:07:51,000 --> 00:07:53,000
+I've linked to him today on my web blog.
+
+113
+00:07:53,000 --> 00:08:00,000
+It's opportunities.nl slash wordpress and he even sent me a ping about it because he's
+
+114
+00:08:00,000 --> 00:08:05,000
+up to, he's done like three versions now and it's really ready to be tested.
+
+115
+00:08:05,000 --> 00:08:09,000
+So please give Peter's script a test because if we can get this working for Windows, and
+
+116
+00:08:09,000 --> 00:08:13,000
+by the way it works with the iTunes, the Windows version of iTunes.
+
+117
+00:08:13,500 --> 00:08:21,500
+If we can get this working, then this concept of an iPod platform, meaning all mp3 devices,
+
+118
+00:08:21,500 --> 00:08:28,500
+that can download stuff without you doing anything and just have shows ready for you, I think
+
+119
+00:08:28,500 --> 00:08:34,500
+we're just on the verge of a huge potential being unleashed here.
+
+120
+00:08:34,500 --> 00:08:39,500
+So again, if you could, and I've linked to it on my web blog, check out the iPodder
+
+121
+00:08:39,500 --> 00:08:44,500
+for Windows and let's say get some feedback on how it's doing and if it's working and if it's
+
+122
+00:08:44,500 --> 00:08:49,500
+performing. And then of course, the next step, which is needed for both platforms, both for
+
+123
+00:08:49,500 --> 00:08:56,500
+Windows and the Mac, and for Linux and anything else that we can find that people have this desire,
+
+124
+00:08:56,500 --> 00:09:07,500
+is getting the shows, the mp3s from iTunes to non-ipod mp3 players. And I have a feeling
+
+125
+00:09:07,500 --> 00:09:13,500
+that's going to be a little bit more challenging. So just about at the end for today, yes, that was
+
+126
+00:09:13,500 --> 00:09:16,500
+really long time.
+
+127
+00:09:15,000 --> 00:09:19,000
+them. As I said, I'm trying to keep these around 15 minutes, which is, you know, just believing
+
+128
+00:09:19,000 --> 00:09:22,000
+in Andy Warhol's vision.
+
+129
+00:09:22,000 --> 00:09:31,000
+Today, 14 years ago, Patricia turned to me and said, we need to get this child up. And
+
+130
+00:09:31,000 --> 00:09:37,000
+we knew that we were going to have a C-section way ahead of time because Christina was a
+
+131
+00:09:37,000 --> 00:09:42,000
+breach. And we went to the hospital and Dr. Ladosi was there and Dr. Sony, the wife
+
+132
+00:09:42,000 --> 00:09:49,000
+Sony with an eye at the hospital, St. Barnabas in New Jersey. And they said, okay,
+
+133
+00:09:49,000 --> 00:09:52,000
+you know, we're gonna have this kid today. And it was around seven o'clock and it was
+
+134
+00:09:52,000 --> 00:09:59,000
+a really great vibe in the operating room. And as the doctor literally picked
+
+135
+00:09:59,000 --> 00:10:05,000
+Christina up out of Patricia, it was just an amazing sight. On the radio, it
+
+136
+00:10:05,000 --> 00:10:10,000
+was Light FM was on and the Beatles in my life started to play. And it was
+
+137
+00:10:10,000 --> 00:10:15,000
+something that we will never, ever forget. Now, of course, it would be easy for me
+
+138
+00:10:15,000 --> 00:10:16,000
+to play.
+
+139
+00:10:16,500 --> 00:10:19,500
+the Beatles right now and we'd all have an emotional moment.
+
+140
+00:10:19,500 --> 00:10:26,500
+But since my daughter, Christina, turns 14 today, I figure I'd honor her since she does
+
+141
+00:10:26,500 --> 00:10:30,500
+share the bar slash recording studio slash computer room with me.
+
+142
+00:10:30,500 --> 00:10:35,500
+I'd honor her by playing the brand new song by her favorite band.
+
+143
+00:10:35,500 --> 00:10:39,500
+And of course, I need to remind you that you do have to vote for them for the viewers'
+
+144
+00:10:39,500 --> 00:10:45,500
+choice for the upcoming MTV Video Music Awards, which I believe are next Wednesday.
+
+145
+00:10:45,500 --> 00:10:47,500
+They're all time favorite and I've met these guys.
+
+146
+00:10:47,500 --> 00:10:50,500
+They are great, broke, bunch of musicians, very, very talented.
+
+147
+00:10:50,500 --> 00:10:51,500
+Is Good Charlotte.
+
+148
+00:10:51,500 --> 00:10:53,500
+Check out their new one, Predictable.
+
+149
+00:11:18,000 --> 00:11:20,000
+I'm still I don't know why
+
+150
+00:11:20,000 --> 00:11:22,000
+I'm not switchin'
+
+151
+00:11:22,000 --> 00:11:25,000
+I knew it all along
+
+152
+00:11:25,000 --> 00:11:28,000
+You're so predictable
+
+153
+00:11:28,000 --> 00:11:31,000
+I knew something would go wrong
+
+154
+00:11:31,000 --> 00:11:34,000
+It's all a way back
+
+155
+00:11:34,000 --> 00:11:36,000
+So you don't have to call
+
+156
+00:11:36,000 --> 00:11:39,000
+I'll say anything at all
+
+157
+00:11:39,000 --> 00:11:42,000
+You're so predictable
+
+158
+00:11:42,000 --> 00:11:45,000
+You're so predictable
+
+159
+00:11:48,000 --> 00:11:51,000
+So take your red tip
+
+160
+00:11:51,000 --> 00:11:55,000
+It's your broken promises
+
+161
+00:11:55,000 --> 00:11:57,000
+And all the time you stole
+
+162
+00:11:57,000 --> 00:12:00,000
+Because I am done with this
+
+163
+00:12:00,000 --> 00:12:03,000
+I can give it away, give it away
+
+164
+00:12:03,000 --> 00:12:06,000
+I'm doing everything I should've
+
+165
+00:12:06,000 --> 00:12:08,000
+And now I'm making a change
+
+166
+00:12:08,000 --> 00:12:09,000
+I'm living to death
+
+167
+00:12:09,000 --> 00:12:11,000
+I'm giving back what you gave it
+
+168
+00:12:11,000 --> 00:12:13,000
+I don't need anything
+
+169
+00:12:13,000 --> 00:12:16,000
+I knew it all along
+
+170
+00:12:16,000 --> 00:12:19,000
+You're so predictable
+
+171
+00:12:19,500 --> 00:12:21,500
+I did something with you
+
+172
+00:12:21,500 --> 00:12:25,500
+I'm in the middle of a fight
+
+173
+00:12:25,500 --> 00:12:28,500
+I see you now, I have to go
+
+174
+00:12:28,500 --> 00:12:31,500
+I say anything at all
+
+175
+00:12:31,500 --> 00:12:34,500
+So free to bow
+
+176
+00:12:34,500 --> 00:12:37,500
+I'm in the middle of a fight
+
+177
+00:12:37,500 --> 00:12:39,500
+Everyone needs every time I travel
+
+178
+00:12:39,500 --> 00:12:41,500
+I'm in the middle of a fight
+
+179
+00:12:41,500 --> 00:12:43,500
+I'm so broken, I'm so cold
+
+180
+00:12:43,500 --> 00:12:45,500
+I'm so hurt inside, I'm so scared
+
+181
+00:12:45,500 --> 00:12:48,500
+I'm afraid of, I don't even know
+
+182
+00:12:48,500 --> 00:12:50,500
+The story's been running out of here
+
+183
+00:12:50,500 --> 00:12:52,500
+I'm searching for a way
+
+184
+00:12:52,500 --> 00:12:54,500
+I'm dreaming you won't come back
+
+185
+00:12:54,500 --> 00:12:56,500
+I want you in my story
+
+186
+00:12:56,500 --> 00:12:58,500
+I'm ready to come and fight
+
+187
+00:13:01,500 --> 00:13:23,500
+I knew it all along, you're so pretty to phone I knew something would go wrong, and I'm fine
+
+188
+00:13:23,500 --> 00:13:33,500
+You don't have to call, I'll say anything at all, so pretty to phone
+
+189
+00:13:46,500 --> 00:13:55,500
+Good Charlotte, predictable.
+
+190
+00:13:55,500 --> 00:14:00,500
+And believe me, I am just cherishing for as long as possible the fact that my daughter
+
+191
+00:14:00,500 --> 00:14:02,500
+and I actually like a lot of the same music.
+
+192
+00:14:02,500 --> 00:14:05,500
+So that's their new one.
+
+193
+00:14:05,500 --> 00:14:07,500
+And be on the lookout for the CD.
+
+194
+00:14:07,500 --> 00:14:08,500
+Right.
+
+195
+00:14:08,500 --> 00:14:10,500
+Okay, that's it for the source code for today.
+
+196
+00:14:10,500 --> 00:14:13,500
+Just within my 15 minute time limit weekend coming up.
+
+197
+00:14:13,500 --> 00:14:18,500
+And then two more shows Monday and Tuesday, got a big party.
+
+198
+00:14:18,500 --> 00:14:19,500
+And then my new life starts.
+
+199
+00:14:19,500 --> 00:14:24,500
+And I can get to, well, the one thing I want to start doing is having the source code up
+
+200
+00:14:24,500 --> 00:14:31,500
+and available every morning before, preferably before 8 o'clock East Coast time in the United
+
+201
+00:14:31,500 --> 00:14:32,500
+States.
+
+202
+00:14:32,500 --> 00:14:35,500
+All right, well, have yourselves a great weekend.
+
+203
+00:14:35,500 --> 00:14:37,500
+Hopefully you'll check out the shows this Saturday and Sunday.
+
+204
+00:14:37,500 --> 00:14:40,500
+If not, talk to you on Monday and have a good one.
+
+205
+00:14:40,500 --> 00:14:40,500
+Bye-bye.
+
+206
+00:14:48,000 --> 00:15:12,000
+The power of your intelligence.
+
+207
+00:15:12,000 --> 00:15:22,000
+The power of your intelligence.
+
