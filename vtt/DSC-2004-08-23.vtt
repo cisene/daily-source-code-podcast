@@ -1,0 +1,610 @@
+WEBVTT
+
+00:01.500 --> 00:16.500
+Once again, it's the source code
+we're on a Monday 23rd of August
+
+00:16.500 --> 00:20.900
+Hi everybody, it's Adam Curry
+to you from Curry Castle in
+
+00:20.900 --> 00:23.500
+I am exhausted.
+
+00:23.500 --> 00:32.940
+It's been an incredibly long day
+of course started with the alarm
+kicking in at 3.30
+
+00:32.940 --> 00:37.980
+to go off to the radio show
+went well.
+
+00:37.980 --> 00:43.180
+I had to come home pretty
+because the people I told you
+who come to see the
+
+00:43.180 --> 00:49.180
+house twice already, well they
+to come today for the third and
+time and so
+
+00:49.180 --> 00:51.860
+it looks like they're all just
+set to make an offer.
+
+00:51.860 --> 00:58.660
+So hopefully stuff will move
+and we can move on with our
+
+00:58.660 --> 01:03.020
+So today is going to be a little
+of a short.
+
+01:03.000 --> 01:09.000
+version of source code because
+I got home, remember this is
+an hour and a half drive,
+
+01:09.000 --> 01:14.360
+and there was also an accident
+the highway, so it took about
+hours to get home. Then we had
+
+01:14.360 --> 01:23.200
+to go check out Christina's new
+which is in Antwerp, the
+school or the Antwerp
+
+01:23.200 --> 01:30.400
+International School, which will
+going to at least for the next
+of months. Excuse me?
+
+01:30.400 --> 01:55.040
+No. Batteries? Van lights?
+how are you? It's medium open,
+much car? It's real. Okay.
+
+01:58.500 --> 01:59.500
+Okay.
+
+01:59.500 --> 02:01.500
+I'm not going to do it.
+
+02:01.500 --> 02:02.500
+No, I'm not.
+
+02:02.500 --> 02:03.500
+No, I'm not.
+
+02:03.500 --> 02:04.500
+I'm not.
+
+02:04.500 --> 02:05.500
+I'm not going to do it.
+
+02:05.500 --> 02:06.500
+I'm not going to do it.
+
+02:06.500 --> 02:07.500
+I'm not going to do it.
+
+02:07.500 --> 02:08.500
+I'm not going to do it.
+
+02:08.500 --> 02:09.500
+I'm not going to do it.
+
+02:12.000 --> 02:12.500
+Sorry.
+
+02:15.000 --> 02:20.680
+This cracks me up. That was my
+Patricia who just walked in. She
+what I'm doing.
+
+02:20.680 --> 02:24.840
+She knows I'm recording and
+she'll insist to come in and try
+just mess me
+
+02:24.840 --> 02:31.980
+up, which is really part of the
+I wanted to talk about today. I
+the interesting
+
+02:31.980 --> 02:41.880
+blog post from Dave Slusher from
+Evil Genius Chronicles at
+
+02:41.880 --> 02:48.640
+And I know that he had tried out
+iPod or script and he sent me a
+I think he
+
+02:48.640 --> 02:56.000
+dropped me a comment on my web
+and he said that he had created
+Pearl script version
+
+02:56.000 --> 03:03.860
+that does the same thing. Only
+was somewhat more complete where
+just throw a text
+
+03:03.860 --> 03:08.360
+file in with the URLs to the
+that you subscribe to you want
+subscribe to and
+
+03:08.360 --> 03:15.080
+get the MP3s from. So you can
+that kind of manually. And his
+runs automatically
+
+03:15.080 --> 03:16.120
+through a Cron script.
+
+03:16.500 --> 03:19.340
+because he's running it on a
+
+03:19.340 --> 03:24.620
+So his pro script is called get
+enclosures.pl.
+
+03:24.620 --> 03:30.060
+And I'm writing up a whole kind
+an essay about
+
+03:30.060 --> 03:33.860
+what Steve Gilmore calls the
+platform.
+
+03:33.860 --> 03:37.340
+And so now that we also have the
+
+03:37.340 --> 03:42.060
+IPH Potter, which is built in a
+
+03:42.060 --> 03:44.260
+So I got to build a little
+to all of that.
+
+03:44.260 --> 03:46.980
+But as I said, it took us a long
+
+03:46.980 --> 03:49.260
+to get back through traffic from
+school,
+
+03:49.260 --> 03:53.100
+from our meeting with the
+
+03:53.100 --> 03:56.260
+and some of the staff and
+there.
+
+03:56.260 --> 04:01.420
+So then I got back and I found
+Dave Slosher's script
+
+04:01.420 --> 04:03.380
+was done, I downloaded it, it
+
+04:03.380 --> 04:06.980
+it's extremely cool and I will
+about that.
+
+04:06.980 --> 04:10.140
+But maybe even more funny is
+
+04:10.140 --> 04:15.140
+he's audio blogging his evil
+chronicles.
+
+04:15.140 --> 04:17.620
+And I'm gonna play a little
+from that.
+
+04:18.000 --> 04:22.000
+where, well, you listen to it
+then you'll see what I mean.
+
+04:22.000 --> 04:24.000
+Hold on.
+
+04:24.000 --> 04:29.000
+Interestingly enough, my wife,
+tends to be a skeptic about
+kinds of things,
+
+04:29.000 --> 04:34.000
+when I said something about the
+blog, made the statement,
+
+04:34.000 --> 04:38.000
+what are you saying that's so
+you need to do this audio blog?
+
+04:38.000 --> 04:45.000
+Which actually, you know, is a
+question to ask and a reasonable
+to examine.
+
+04:45.000 --> 04:55.000
+Ultimately, I think the deal is
+there's no real need that's an
+access to the real question.
+
+04:55.000 --> 04:58.000
+The question is not what's so
+
+04:58.000 --> 05:01.000
+You know, we're not audio
+because it's so important.
+
+05:01.000 --> 05:05.000
+We're audio blogging because
+another tool in the toolkit.
+
+05:05.000 --> 05:11.000
+It's another different, you
+interesting kind of novel way of
+with people.
+
+05:11.000 --> 05:16.000
+And one of the things that gets
+in a lot of online
+
+05:16.000 --> 05:20.000
+textual communication is nuance
+people's voice.
+
+05:19.500 --> 05:27.500
+and you lose a lot of humor of
+because you don't hear people
+and you don't kind of hear the
+tone of voice.
+
+05:27.500 --> 05:34.500
+And so this is just a different
+way to form connections between
+
+05:34.500 --> 05:43.500
+So there's actually a gap in
+that's missing where my wife
+by and rolled her eyes at me as
+doing this.
+
+05:43.500 --> 05:50.500
+And so you know she generally
+to think that most of the stuff
+kind of dumb.
+
+05:50.500 --> 05:55.500
+And I can't necessarily say that
+wrong.
+
+05:55.500 --> 06:03.500
+It's important to remember that
+know for as self-important as
+tend to be about the
+
+06:03.500 --> 06:10.500
+99% of anyone you will ever meet
+that you're full of shit.
+
+06:10.500 --> 06:18.500
+So that's an important kind of
+thing that we need to keep that
+think we're bringing about the
+
+06:18.500 --> 06:20.500
+and everyone else thinks we're a
+
+06:21.000 --> 06:25.200
+So, you know, gotta keep the
+
+06:25.200 --> 06:28.080
+I actually made notes for this
+because I wanted to do it.
+
+06:28.080 --> 06:33.440
+Okay, so it was interesting that
+actually pulled that excerpt
+his blog post from
+
+06:33.440 --> 06:38.040
+yesterday from the 22nd, because
+has exactly the same thing at
+whereas wife walks
+
+06:38.040 --> 06:41.120
+in, rolls her eyes, like, you
+you're fucking crazy.
+
+06:41.120 --> 06:43.080
+What are you doing talking to
+
+06:43.080 --> 06:47.160
+Who are you talking to and how
+you going to make money on this?
+
+06:47.160 --> 06:49.640
+Is this what you're going to do
+the rest of your life?
+
+06:49.640 --> 06:54.760
+Well, clearly, if we both had
+same situation, we found each
+so quickly in the game,
+
+06:54.760 --> 07:01.360
+there's gotta be more of us and
+stuff to be done, I presume.
+
+07:01.360 --> 07:06.600
+So right, oh yes, I wanted to
+you a song of the day.
+
+07:06.600 --> 07:15.440
+This is from Dutch band, jazz
+a whole bunch of different
+
+07:15.440 --> 07:17.040
+They did play at the Nord Sea
+Festival.
+
+07:17.040 --> 07:22.400
+I think it was not this year,
+this past show, but the year
+that.
+
+07:22.500 --> 07:27.500
+And this is from... I think the
+album released.
+
+07:27.500 --> 07:30.500
+And I've linked to it before on
+blog.
+
+07:30.500 --> 07:32.500
+This one's called How the Wind
+
+07:32.500 --> 07:34.500
+Check it out.
+
+07:34.500 --> 07:40.500
+And we're coming blue in the
+
+07:40.500 --> 07:45.500
+I see a little girl.
+
+07:45.500 --> 07:49.500
+She won the stool world.
+
+07:49.500 --> 07:53.500
+But something's wrong with her.
+
+07:53.500 --> 07:57.500
+She walks barefoot with a turd.
+
+07:57.500 --> 08:01.500
+A young child without a home.
+
+08:01.500 --> 08:05.500
+Sniffs go to carry on.
+
+08:05.500 --> 08:08.500
+Why should we cry for him?
+
+08:08.500 --> 08:11.500
+We just... a j-woke.
+
+08:11.500 --> 08:14.500
+And I talk about the wind move.
+
+08:14.500 --> 08:18.500
+I don't know if this is bad or
+
+08:18.500 --> 08:20.500
+This is so sad.
+
+08:20.500 --> 08:22.500
+How the wind blows.
+
+08:22.500 --> 08:24.500
+I don't know.
+
+08:24.000 --> 08:28.240
+This is Batchoo, this is so sad
+
+08:28.240 --> 08:36.400
+There is this little boy, he's
+a living time
+
+08:36.400 --> 08:40.200
+No mane on holiday
+
+08:40.200 --> 08:43.400
+Pays my, it's okay
+
+08:43.400 --> 08:47.200
+How the wind blows, and I don't
+
+08:47.200 --> 08:51.000
+This is Batchoo, this is so sad
+
+08:51.000 --> 08:54.800
+How the wind blows, and I don't
+
+08:54.800 --> 08:58.400
+This is Batchoo, this is so sad
+
+08:58.400 --> 09:01.000
+And I don't know
+
+09:01.000 --> 09:04.000
+This is Batchoo, this is so sad
+
+09:04.000 --> 09:07.000
+And I don't know
+
+09:07.000 --> 09:10.000
+This is Batchoo, this is so sad
+
+09:10.500 --> 09:28.500
+Start moving and keep me
+I am a few Ten thousand bodies,
+by the enemy.
+
+09:29.500 --> 09:31.500
+So cold but...
+
+09:31.500 --> 09:35.500
+I am a few Ten thousand bodies,
+by the enemy.
+
+09:35.500 --> 10:01.500
+I am a few Ten thousand bodies,
+by the enemy.
+
+10:03.000 --> 10:21.000
+How the wind blows, I don't know
+is bad, you know this is so sad,
+know how the wind blows, I don't
+this is sad, you know this is so
+you know
+
+10:31.000 --> 10:33.000
+So sad to know
+
+10:33.000 --> 10:49.900
+Look in the industry...
+
+10:49.900 --> 10:54.860
+chat Mia
+
+10:54.860 --> 11:04.560
+It's a sad thing, but you're
+
+11:04.500 --> 11:10.940
+mode Jones how the wind blows
+
+11:10.940 --> 11:13.740
+yeah man never bother
+
+11:13.740 --> 11:23.340
+that their entire album by the
+was recorded all on a Macintosh
+Pro Tools did at
+
+11:23.340 --> 11:29.380
+their house in their attic these
+really are starving musicians
+them on the radio
+
+11:29.380 --> 11:34.060
+show a couple times and they're
+and power to them I think they
+some really
+
+11:34.060 --> 11:41.300
+great tunes oh by the way hope
+noticed that my audio is no
+crackling the quality
+
+11:41.300 --> 11:48.380
+should be a little bit higher
+using a combination of two
+that basically give me what
+
+11:48.380 --> 11:54.300
+I want one of them is a wiretap
+allows me to record the audio
+any application
+
+11:54.300 --> 12:02.220
+there are a couple of different
+that do that like audio hijack
+there's a program
+
+12:02.220 --> 12:05.980
+that I found. It's not perfect,
+it points out to me
+
+12:06.000 --> 12:11.680
+through a comment on my blog
+about better software for audio
+It's called Live
+
+12:11.680 --> 12:17.800
+L-I-V-E is for the Macintosh and
+does give me the ability to
+my microphone
+
+12:17.800 --> 12:26.200
+and makes tracks. I can even
+assign keys to different clips
+play. Yeah, I
+
+12:26.200 --> 12:31.400
+mean, there's a few, it's
+an overly complicated interface
+someone who's just
+
+12:31.400 --> 12:35.780
+doing simple blogging stuff. But
+you could switch between a real
+version of this
+
+12:35.780 --> 12:41.220
+interface with what's running
+and then this more vast expanded
+that would
+
+12:41.220 --> 12:46.700
+be perfect. Now, of course, the
+to this is it only works with
+files and
+
+12:46.700 --> 12:52.400
+not with MP3s. So first you have
+convert any MP3s who want to
+to AIFF and then
+
+12:52.400 --> 12:55.960
+you have to import them. So it
+to be a little bit of an ordeal,
+we're getting
+
+12:55.960 --> 13:02.840
+closer. And with that, I'd say
+going to wrap up this version of
+daily source
+
+13:02.840 --> 13:06.840
+code. Again, there's an essay
+about the iPod or
+
+13:07.500 --> 13:14.100
+Or the iPod platform and the
+versions of iPod are there now
+there and
+
+13:14.100 --> 13:21.240
+You know hopefully how we're
+close to creating something so I
+talk to you tomorrow as we
+
+13:21.240 --> 13:26.020
+But what is tomorrow is tomorrow
+Wednesday hump day? I'll see you
+
+13:26.020 --> 13:53.960
+The power of the sword is not.
+
+13:53.960 --> 13:55.960
+I
