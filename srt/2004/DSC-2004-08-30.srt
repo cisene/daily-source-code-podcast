@@ -1,0 +1,1468 @@
+1
+00:00:00,000 --> 00:00:15,000
+Good morning, good morning, good evening, wherever you might be, checking out the source code.
+
+2
+00:00:15,000 --> 00:00:20,000
+I'm Adam Curry, it is Monday, August 30th, 2004.
+
+3
+00:00:20,000 --> 00:00:26,000
+And sorry about the weekend, I just didn't feel like doing anything really.
+
+4
+00:00:26,000 --> 00:00:29,000
+And quite honestly, I liked that a lot.
+
+5
+00:00:29,000 --> 00:00:33,000
+So why don't we agree that the source code is going to be a weekday feature.
+
+6
+00:00:33,000 --> 00:00:40,000
+And I will as often as possible, try to have something up Sunday night so that you
+
+7
+00:00:40,000 --> 00:00:42,000
+can listen to it on your Monday morning commute.
+
+8
+00:00:42,000 --> 00:00:47,000
+And God, I'd always like to have it ready for you for your morning commute.
+
+9
+00:00:47,000 --> 00:00:51,000
+So it's Adam Curry coming to you from Curry Council in Belgium.
+
+10
+00:00:51,000 --> 00:00:57,000
+Tomorrow is the very last radio show that I do on the very last morning show that I do
+
+11
+00:00:57,000 --> 00:00:58,000
+for Veronica Radio.
+
+12
+00:00:58,000 --> 00:01:00,000
+As a big party afterwards.
+
+13
+00:01:01,500 --> 00:01:11,500
+last until late probably. So that being said, you may not expect a source code tomorrow
+
+14
+00:01:11,500 --> 00:01:19,500
+just because of all the festivities. But otherwise, I'm going to turn this into a daily feature
+
+15
+00:01:19,500 --> 00:01:23,500
+that should be up every morning between 7 and 8 New York time.
+
+16
+00:01:23,500 --> 00:01:28,500
+And the source code, as we discussed last time, which was last Friday, it's where users
+
+17
+00:01:28,500 --> 00:01:34,500
+and developers come to party, right? And when I thought about that over the weekend, we
+
+18
+00:01:34,500 --> 00:01:38,500
+have so many things that we can be doing. And there are projects that we're working on.
+
+19
+00:01:38,500 --> 00:01:44,500
+One of the projects, of course, is iPodder. And by now we have a shoot, I don't know,
+
+20
+00:01:44,500 --> 00:01:49,500
+we must have five different versions of it, all kind of doing the same thing. And I think
+
+21
+00:01:49,500 --> 00:01:57,500
+that what we probably need is some central place other than a weblog where we can, especially
+
+22
+00:01:57,500 --> 00:02:01,500
+when we branch out and do a project like this, we can keep track of it all because there's
+
+23
+00:02:01,500 --> 00:02:02,500
+a stuff is falling between.
+
+24
+00:02:03,000 --> 00:02:07,000
+the cracks, we don't have a central place. And I'm notoriously very bad at organizing
+
+25
+00:02:07,000 --> 00:02:12,000
+that kind of stuff. And then I thought maybe we should start a source forge page, a source
+
+26
+00:02:12,000 --> 00:02:19,000
+forge.org, which is, I presume is really good for managing projects, development projects,
+
+27
+00:02:19,000 --> 00:02:24,000
+because we've had a new release of iPodder for Windows, which I will talk about a little
+
+28
+00:02:24,000 --> 00:02:28,000
+bit later. But that's exciting because now we have something that actually does the same thing
+
+29
+00:02:28,000 --> 00:02:34,000
+that we've been using on our Macs for a couple of weeks now. All you do is you run the script
+
+30
+00:02:34,000 --> 00:02:40,000
+that goes out, it checks a file of feeds to bring in the enclosures, it puts them all
+
+31
+00:02:40,000 --> 00:02:46,000
+into their own directory, and it actually controls iTunes on Windows. So yeah, with that
+
+32
+00:02:46,000 --> 00:02:51,000
+script, and I will talk about that a bit later because I have a couple of, I have some thoughts
+
+33
+00:02:51,000 --> 00:02:57,000
+about it, with that script and an iPod, you can automatically have your iPod updated.
+
+34
+00:02:59,000 --> 00:03:03,000
+So it seems like we're talking more and more about technology from a user and a developer
+
+35
+00:03:03,000 --> 00:03:04,000
+perspective.
+
+36
+00:03:04,500 --> 00:03:09,500
+And actually I wasn't going to mention this until Gmail went live, but I was so hurt
+
+37
+00:03:09,500 --> 00:03:14,500
+up until this morning that I didn't have a Gmail account.
+
+38
+00:03:14,500 --> 00:03:17,500
+It seems like everybody in the world had a Gmail account.
+
+39
+00:03:17,500 --> 00:03:19,500
+Everybody got one from their friend.
+
+40
+00:03:19,500 --> 00:03:23,500
+Personally, I would have expected one from Google themselves, but didn't get that.
+
+41
+00:03:23,500 --> 00:03:28,500
+And it wasn't until this morning when my co-host on the radio show said, hey, I got a Gmail
+
+42
+00:03:28,500 --> 00:03:29,500
+account.
+
+43
+00:03:29,500 --> 00:03:30,500
+Would you like one?
+
+44
+00:03:30,500 --> 00:03:33,500
+Can you be my Gmail friend?
+
+45
+00:03:33,500 --> 00:03:35,500
+So I'll be looking into that.
+
+46
+00:03:35,500 --> 00:03:38,500
+And I'm sure that as that goes live, there will be a lot to talk about.
+
+47
+00:03:38,500 --> 00:03:43,500
+Google seems to be doing some pretty exciting stuff.
+
+48
+00:03:43,500 --> 00:03:46,500
+Let me think about video and audio blogging.
+
+49
+00:03:46,500 --> 00:03:51,500
+I had some thoughts about that because more and more is happening now.
+
+50
+00:03:51,500 --> 00:03:56,500
+I've been checking out more audio blogs and video blogs in the past couple of days.
+
+51
+00:03:56,500 --> 00:04:05,500
+And to me, it is crystal clear that we can make a huge jump start with our video.
+
+52
+00:04:06,000 --> 00:04:10,000
+with distributing bundles of passion.
+
+53
+00:04:10,000 --> 00:04:11,000
+That's Dave Slusher would call it.
+
+54
+00:04:11,000 --> 00:04:13,000
+Or content or whatever,
+
+55
+00:04:13,000 --> 00:04:14,000
+just this kind of shit.
+
+56
+00:04:14,000 --> 00:04:16,000
+The shit we want to share with each other, thank you.
+
+57
+00:04:16,000 --> 00:04:17,000
+That is it.
+
+58
+00:04:17,000 --> 00:04:21,000
+And the infrastructure is already there.
+
+59
+00:04:21,000 --> 00:04:22,000
+If you have a web,
+
+60
+00:04:22,000 --> 00:04:25,000
+if you're going to a video or audio blog,
+
+61
+00:04:25,000 --> 00:04:26,000
+you're going to post something,
+
+62
+00:04:26,000 --> 00:04:27,000
+you want to distribute it,
+
+63
+00:04:27,000 --> 00:04:28,000
+you want to publish it,
+
+64
+00:04:28,000 --> 00:04:30,000
+you want to get out to the world,
+
+65
+00:04:30,000 --> 00:04:30,000
+you may already,
+
+66
+00:04:30,000 --> 00:04:32,000
+you probably already have a,
+
+67
+00:04:32,000 --> 00:04:34,000
+some kind of blog software.
+
+68
+00:04:34,000 --> 00:04:36,000
+And all the bits are there,
+
+69
+00:04:36,000 --> 00:04:38,000
+with RSS 2.0,
+
+70
+00:04:38,000 --> 00:04:39,000
+the enclosures,
+
+71
+00:04:39,000 --> 00:04:41,000
+the aggregators aren't quite there yet.
+
+72
+00:04:41,000 --> 00:04:43,000
+Of course, we're now building our own aggregators,
+
+73
+00:04:43,000 --> 00:04:46,000
+essentially making our devices aggregators.
+
+74
+00:04:46,000 --> 00:04:48,000
+And then I think is where we have to take our mindset,
+
+75
+00:04:48,000 --> 00:04:50,000
+we have to get beyond the computer
+
+76
+00:04:50,000 --> 00:04:55,000
+so that when someone who just doesn't need to understand
+
+77
+00:04:55,000 --> 00:04:57,000
+how it works is told,
+
+78
+00:04:57,000 --> 00:04:59,000
+well, you can subscribe to this show,
+
+79
+00:04:59,000 --> 00:05:01,000
+all they should have to do is think of,
+
+80
+00:05:01,000 --> 00:05:03,000
+okay, I installed this software.
+
+81
+00:05:03,000 --> 00:05:04,000
+I don't know where it went, it's gone,
+
+82
+00:05:04,000 --> 00:05:07,000
+it says thank you very much, it'll work now.
+
+83
+00:05:07,500 --> 00:05:13,500
+have to do is jack in my iPod every day or charge it as usual and new stuff just shows up.
+
+84
+00:05:13,500 --> 00:05:17,500
+So that is where we have to get to that part. And everything in between I think can be done
+
+85
+00:05:17,500 --> 00:05:25,500
+at the desktop level with, well, they'd be communicating to a blog server or it could be something
+
+86
+00:05:25,500 --> 00:05:30,500
+just as simple as putting up an RSS feed on an FTP site. You know, there are all different
+
+87
+00:05:30,500 --> 00:05:36,500
+versions of that that'll work. For publishing, for receiving, we really have to take out all that
+
+88
+00:05:36,500 --> 00:05:45,500
+all that middle stuff. Excuse me. We're very, very, very close. But still, it feels like,
+
+89
+00:05:45,500 --> 00:05:50,500
+by default, and it's not wrong, but it feels like we are approaching it from
+
+90
+00:05:51,500 --> 00:05:57,500
+possibly a difficult angle. Because what I see people doing is saying, okay, I'm going to make a
+
+91
+00:05:57,500 --> 00:06:03,500
+weblog entry and then I'm going to attach a video blog to that where really what you want is you want
+
+92
+00:06:03,500 --> 00:06:09,500
+your DVD player or whatever it is, whatever device is going to be...
+
+93
+00:06:09,000 --> 00:06:12,000
+sitting in front of your viewing station.
+
+94
+00:06:12,000 --> 00:06:13,000
+Now that could very well be a computer,
+
+95
+00:06:13,000 --> 00:06:17,000
+but in some cases maybe it should be your television.
+
+96
+00:06:17,000 --> 00:06:20,000
+And that device also has to be an aggregator.
+
+97
+00:06:20,000 --> 00:06:23,000
+It has to be perceived as an aggregator
+
+98
+00:06:23,000 --> 00:06:25,000
+in order for people to understand what we're trying to do.
+
+99
+00:06:25,000 --> 00:06:27,000
+Because that's the simplest.
+
+100
+00:06:27,000 --> 00:06:28,000
+You just don't have to think about it.
+
+101
+00:06:28,000 --> 00:06:30,000
+It shows up.
+
+102
+00:06:30,000 --> 00:06:32,000
+We're going to hit all kinds of speed bumps
+
+103
+00:06:32,000 --> 00:06:33,000
+when it comes to subscriptions.
+
+104
+00:06:33,000 --> 00:06:36,000
+I mean, we already saw that with web logs.
+
+105
+00:06:36,000 --> 00:06:39,000
+Because eventually you're going to have to tell people,
+
+106
+00:06:39,000 --> 00:06:43,000
+please copy your L, paste it into this file, and then it'll be OK.
+
+107
+00:06:43,000 --> 00:06:44,000
+And even that's too much.
+
+108
+00:06:44,000 --> 00:06:49,000
+Do we go with preference pains or how do we do with that?
+
+109
+00:06:49,000 --> 00:06:51,000
+So these are all thoughts that we need to talk about.
+
+110
+00:06:51,000 --> 00:06:53,000
+And I really would like some feedback on that.
+
+111
+00:06:53,000 --> 00:06:57,000
+Oh, by the way, I've lowered the bit rate on source code
+
+112
+00:06:57,000 --> 00:07:02,000
+so that the quality should remain reasonably decent.
+
+113
+00:07:02,000 --> 00:07:04,000
+And the file size will just go down a bit
+
+114
+00:07:04,000 --> 00:07:07,000
+because, man, we're really eating a hard drive space doing this.
+
+115
+00:07:07,000 --> 00:07:10,000
+I mean, that's exactly what I knew would happen.
+
+116
+00:07:10,000 --> 00:07:11,000
+Once.
+
+117
+00:07:10,500 --> 00:07:14,500
+minute you get into something and you're developing and you want shows to be there for
+
+118
+00:07:14,500 --> 00:07:18,500
+other developers to work on nothing's worse than creating an aggregator and nothing coming
+
+119
+00:07:18,500 --> 00:07:21,500
+in, right?
+
+120
+00:07:21,500 --> 00:07:28,500
+And on that point, consumer note, about a year and a half ago we did a reality show about
+
+121
+00:07:28,500 --> 00:07:31,500
+us, which was broadcast here in the Netherlands.
+
+122
+00:07:31,500 --> 00:07:34,500
+And what was cool about it is we also produced it ourselves.
+
+123
+00:07:34,500 --> 00:07:41,500
+And we did the entire thing on Final Cut Pro and used the Firewire drives and DV cams.
+
+124
+00:07:41,500 --> 00:07:45,500
+And the only, I think, real professional part that we used was besides people who knew
+
+125
+00:07:45,500 --> 00:07:51,500
+what they were doing, professionally trained people, a lot of experience and video production.
+
+126
+00:07:51,500 --> 00:07:55,500
+Well, we bought some good wireless mics, the one I'm using right now.
+
+127
+00:07:55,500 --> 00:08:02,500
+We also bought about two terabytes worth of storage data from Lassie.
+
+128
+00:08:02,500 --> 00:08:06,500
+And I just wanted to touch on that because I'm not too happy with the way, well, first
+
+129
+00:08:06,500 --> 00:08:08,500
+of all, with their product.
+
+130
+00:08:08,500 --> 00:08:11,500
+We have a whole slew of the, you know, see how big it is.
+
+131
+00:08:12,000 --> 00:08:14,000
+these are 80 gigs, I think.
+
+132
+00:08:14,000 --> 00:08:20,000
+Yeah, I think it's 80 gig drive, LeCise, which are fire wire.
+
+133
+00:08:20,000 --> 00:08:26,000
+They have their own power supply, which is kind of a drag by itself, but it didn't matter.
+
+134
+00:08:26,000 --> 00:08:31,000
+These are, they look at, they look the part, you know, of heavy duty industrial hard drives.
+
+135
+00:08:31,000 --> 00:08:38,000
+We also got a couple of the two of the half terabytes, like 550 gigabyte drives, which we
+
+136
+00:08:38,000 --> 00:08:42,000
+affectionately called the big swinging disc.
+
+137
+00:08:42,000 --> 00:08:47,000
+And within a year's time, and some a little bit longer, usually just outside the warranty,
+
+138
+00:08:47,000 --> 00:08:49,000
+80% of these drives has failed.
+
+139
+00:08:49,000 --> 00:08:55,000
+80% which is a real hassle when you're in the middle of producing something that has to
+
+140
+00:08:55,000 --> 00:08:59,000
+get on the air and you just have to move on with stuff, particularly when you're using
+
+141
+00:08:59,000 --> 00:09:02,000
+Final Cut Pro where you render everything after the fact.
+
+142
+00:09:02,000 --> 00:09:07,000
+So you're always working up against the deadline of knowing that you'll have to have at least
+
+143
+00:09:07,000 --> 00:09:12,000
+an hour or two hours or sometimes long depending on how many layers of video and audio you
+
+144
+00:09:12,000 --> 00:09:13,000
+have for it to render.
+
+145
+00:09:13,500 --> 00:09:19,500
+out. And then you select to go through post audio and sound sweetening. So it's a real
+
+146
+00:09:19,500 --> 00:09:22,500
+drag when you have to stop in the middle and something's fucked up and you've lost
+
+147
+00:09:22,500 --> 00:09:25,500
+your data essentially. Well, it turns out you haven't lost your data with these LICI drives.
+
+148
+00:09:25,500 --> 00:09:36,500
+The bus, the firewire bus, this is according to LICI, burns out very easily with max because
+
+149
+00:09:36,500 --> 00:09:41,500
+of a discrepancy in the voltage of the Macintosh firewire port. Now, I know that these things aren't
+
+150
+00:09:41,500 --> 00:09:48,500
+quite fleshed out as a standard, but they definitely sell the C drives as a Macintosh compatible.
+
+151
+00:09:48,500 --> 00:09:54,500
+And they know about this problem. So it really pisses me off that we've had so many failures
+
+152
+00:09:54,500 --> 00:10:00,500
+in all such sort times as well. And they won't replace the ports. They'll give you a new drive
+
+153
+00:10:00,500 --> 00:10:06,500
+if it's under warranty. But they won't just say, okay, well, because my data's on these discs,
+
+154
+00:10:06,500 --> 00:10:11,500
+right, it's just sitting there and it's spinning and it's happy. It's just not getting any joy
+
+155
+00:10:11,500 --> 00:10:15,500
+from through firewire. So it's just not being asked to do anything.
+
+156
+00:10:15,000 --> 00:10:17,000
+And they don't want to replace the ports.
+
+157
+00:10:17,000 --> 00:10:23,000
+They say, well, you could buy another drive, and then you could switch the actual platters
+
+158
+00:10:23,000 --> 00:10:27,000
+or the drives and you, you know, like fuck that, fuck that.
+
+159
+00:10:27,000 --> 00:10:28,000
+This is me off.
+
+160
+00:10:28,000 --> 00:10:30,000
+This should be better.
+
+161
+00:10:30,000 --> 00:10:37,000
+Anyway, until further notice, I strongly recommend you do not purchase LaCe FireWire drives
+
+162
+00:10:37,000 --> 00:10:42,000
+if you're intending on doing anything that you do that, where you care about your data.
+
+163
+00:10:42,000 --> 00:10:45,000
+Quite honestly, that's just about everything.
+
+164
+00:10:45,000 --> 00:10:50,000
+Okay, down to iPodder for a second here.
+
+165
+00:10:50,000 --> 00:10:56,000
+Now, as I've been looking around the net, looking at what people are doing, there is an incredible
+
+166
+00:10:56,000 --> 00:11:00,000
+amount of work that already has been done on iTunes.
+
+167
+00:11:00,000 --> 00:11:05,000
+I mean, just a massive amount, all kinds of scripts to do the most wacky things you could think
+
+168
+00:11:05,000 --> 00:11:11,000
+of and not one single person except for the people who have been working on iPodder has
+
+169
+00:11:11,000 --> 00:11:13,000
+come up with anything even close to it.
+
+170
+00:11:13,000 --> 00:11:16,000
+So this, I mean, first of all, there's a lot of people wanting to make iTunes and I.
+
+171
+00:11:16,500 --> 00:11:20,500
+iPod, do more stuff, and I'd like to try and capitalize on that and get people interested
+
+172
+00:11:20,500 --> 00:11:27,500
+and excited in being able to spread shows around and subscribe to stuff simply and make
+
+173
+00:11:27,500 --> 00:11:33,500
+it easy for people and really connect your iPod to something and pull out all of the fodder
+
+174
+00:11:33,500 --> 00:11:36,500
+of downloading and transferring and updating and creating playlists.
+
+175
+00:11:36,500 --> 00:11:39,500
+Now, we'll do that all for you and make it completely automatic.
+
+176
+00:11:39,500 --> 00:11:44,500
+In fact, I was thinking that if we could come up with three versions that we all love of iPod
+
+177
+00:11:44,500 --> 00:11:45,500
+or whatever.
+
+178
+00:11:45,500 --> 00:11:52,500
+It could be for a Mac, for Windows, for Linux, whatever we need it for.
+
+179
+00:11:52,500 --> 00:11:58,500
+That a site that or someone who wants to distribute audio, or in this case, audio, that they
+
+180
+00:11:58,500 --> 00:12:04,500
+could actually distribute that program or any version of that or link to a download page
+
+181
+00:12:04,500 --> 00:12:10,500
+that would come with only their feed file and then you could add to it yourself.
+
+182
+00:12:10,500 --> 00:12:14,500
+We should be able to open that up somehow and make it work for everybody.
+
+183
+00:12:14,500 --> 00:12:17,500
+Now, Peter created iPodder for...
+
+184
+00:12:18,000 --> 00:12:22,000
+Windows and I'm really excited about this because what I did is I took the
+
+185
+00:12:22,000 --> 00:12:27,000
+time to work on to work on it. Check it out on Windows 2000.
+
+186
+00:12:27,000 --> 00:12:31,000
+Professional have that running on a laptop here. I haven't worked with Windows
+
+187
+00:12:31,000 --> 00:12:34,000
+in a long time. That's worked pretty snappy compared to the Mac. It's a little
+
+188
+00:12:34,000 --> 00:12:41,000
+bit faster, but anyway, that's a whole different discussion. So you download his
+
+189
+00:12:41,000 --> 00:12:45,000
+script, which is runs on Windows. Something Windows scripting. There is a little
+
+190
+00:12:45,000 --> 00:12:51,000
+note about it in the readme file. And all you have to basically do is just make
+
+191
+00:12:51,000 --> 00:12:55,000
+sure that you have the scripting engine on your machine. Mine had it, so I
+
+192
+00:12:55,000 --> 00:12:58,000
+presume that's probably the fault installed these days with Windows, although I
+
+193
+00:12:58,000 --> 00:13:02,000
+don't know for sure. And I also need iTunes, which I didn't have yet. So I downloaded
+
+194
+00:13:02,000 --> 00:13:08,000
+iTunes, that ran. Then I fired up the script. I saw it go out. It has little
+
+195
+00:13:08,000 --> 00:13:14,000
+Windows telling me what it's doing. And then it failed because I hadn't set the
+
+196
+00:13:14,000 --> 00:13:18,000
+download directory, which you have to do manually in the feeds file. I was set to
+
+197
+00:13:18,000 --> 00:13:21,000
+D, colon, back.
+
+198
+00:13:19,500 --> 00:13:24,500
+I said it to my own download directory, my own download drive.
+
+199
+00:13:24,500 --> 00:13:28,500
+So then I ran it again and boom, it worked.
+
+200
+00:13:28,500 --> 00:13:31,500
+I brought the stuff in, it updated the iTunes playlist.
+
+201
+00:13:31,500 --> 00:13:33,500
+Fucking fantastic.
+
+202
+00:13:33,500 --> 00:13:37,500
+And this is so important because as much as I love my Mac,
+
+203
+00:13:37,500 --> 00:13:40,500
+it's death if you think we can do anything just doing it on the Mac.
+
+204
+00:13:40,500 --> 00:13:42,500
+We've got to get Windows involved.
+
+205
+00:13:42,500 --> 00:13:46,500
+So the only thing I'd really like and maybe there's something we only talk about
+
+206
+00:13:46,500 --> 00:13:50,500
+after we get some kind of page up or we work on this development together.
+
+207
+00:13:50,500 --> 00:13:55,500
+So if we have a source source, source for page or something of the like
+
+208
+00:13:55,500 --> 00:14:00,500
+is if we could just take one little step and if we have an installer.
+
+209
+00:14:00,500 --> 00:14:02,500
+And this is the way I dream it.
+
+210
+00:14:02,500 --> 00:14:05,500
+For Windows and Mac doesn't matter Linux or whatever.
+
+211
+00:14:05,500 --> 00:14:09,500
+You download this program, you've got to be very clear what it does.
+
+212
+00:14:09,500 --> 00:14:12,500
+You know, the description has to say, turns your iPod into an aggregator.
+
+213
+00:14:12,500 --> 00:14:15,500
+You know, connect to show subscribe whatever it is.
+
+214
+00:14:15,500 --> 00:14:17,500
+We've got to work on that language.
+
+215
+00:14:17,500 --> 00:14:21,500
+You download it, you install it, it says, okay, here's what I'm doing.
+
+216
+00:14:21,000 --> 00:14:24,000
+I'm doing where do you want the files to be downloaded?
+
+217
+00:14:24,000 --> 00:14:25,000
+You select a directory boom.
+
+218
+00:14:25,000 --> 00:14:27,000
+That's your download directory.
+
+219
+00:14:27,000 --> 00:14:29,000
+It checks to see if you have iTunes installed.
+
+220
+00:14:29,000 --> 00:14:33,000
+It checks to see if you have the right scripting environment
+
+221
+00:14:33,000 --> 00:14:34,000
+on Windows or whatever it is.
+
+222
+00:14:34,000 --> 00:14:36,000
+Just run through a couple of checks.
+
+223
+00:14:36,000 --> 00:14:38,000
+If not download it, do it seamlessly.
+
+224
+00:14:38,000 --> 00:14:41,000
+That's the thing that the only thing that's really wrong
+
+225
+00:14:41,000 --> 00:14:43,000
+with iPodder for the Mac is you have to download
+
+226
+00:14:43,000 --> 00:14:46,000
+this X and L tool in order for it to work.
+
+227
+00:14:46,000 --> 00:14:48,000
+That should be automatic for people.
+
+228
+00:14:48,000 --> 00:14:49,000
+They shouldn't have to do anything,
+
+229
+00:14:49,000 --> 00:14:52,000
+but double click and just answer one or two questions
+
+230
+00:14:52,000 --> 00:14:55,000
+and maybe select a download directory.
+
+231
+00:14:55,000 --> 00:14:57,000
+And then it is, and by the way,
+
+232
+00:14:57,000 --> 00:14:58,000
+it should also set up a cron job
+
+233
+00:14:58,000 --> 00:15:00,000
+and we should explain what we're doing.
+
+234
+00:15:00,000 --> 00:15:03,000
+That maybe you can make that configurable for the user
+
+235
+00:15:03,000 --> 00:15:04,000
+later on.
+
+236
+00:15:04,000 --> 00:15:05,000
+I want to check that these intervals
+
+237
+00:15:05,000 --> 00:15:08,000
+are these times to see if there's new shows.
+
+238
+00:15:08,000 --> 00:15:09,000
+Maybe we don't tell them about it all,
+
+239
+00:15:09,000 --> 00:15:10,000
+but we have to let them know that we're making
+
+240
+00:15:10,000 --> 00:15:12,000
+the computer do something, obviously.
+
+241
+00:15:15,000 --> 00:15:17,000
+And that should be all set up automatically.
+
+242
+00:15:17,000 --> 00:15:21,000
+And it should download a first couple of files.
+
+243
+00:15:21,000 --> 00:15:22,000
+And then notification is something.
+
+244
+00:15:22,500 --> 00:15:26,500
+else. Personally, I don't think we need a notification, but maybe we could just create a
+
+245
+00:15:26,500 --> 00:15:32,500
+smart playlist, which I've done in my setup. Whenever there's new content, new shows
+
+246
+00:15:32,500 --> 00:15:39,500
+that bundles of passion, Dave, that come in from out there, that particular playlist is
+
+247
+00:15:39,500 --> 00:15:43,500
+updated as well. So the different ways to do the notification, maybe there's more options
+
+248
+00:15:43,500 --> 00:15:49,500
+in there. Maybe you want to receive an email that, hey, the new show is up. So that would
+
+249
+00:15:49,500 --> 00:15:53,500
+be just wonderful. I'd love to get some feedback on that. Particularly on what we should do
+
+250
+00:15:53,500 --> 00:15:57,500
+on centralizing some of this development works. I don't want it to just kind of dribble out.
+
+251
+00:15:57,500 --> 00:16:03,500
+We need to get this going. And then we need to talk to people, getting them to support
+
+252
+00:16:03,500 --> 00:16:08,500
+what we're doing. IT conversations is already great. Dave Liner's coffee notes. He just did
+
+253
+00:16:08,500 --> 00:16:14,500
+an update the other day from the cars. He's driving through Madison, Wisconsin. Dave Slusher,
+
+254
+00:16:14,500 --> 00:16:20,500
+there's so many people already getting into this that I think we're still on a good track.
+
+255
+00:16:20,500 --> 00:16:22,500
+We just need to centralize some things.
+
+256
+00:16:24,000 --> 00:16:27,000
+Okay, here's something that's interesting about the big rock and roll dudes.
+
+257
+00:16:27,000 --> 00:16:32,000
+MTV Video Music Awards were last night in the States for the first time for Miami.
+
+258
+00:16:32,000 --> 00:16:36,000
+Of course, now I have a 14-year-old who's even more interested in the show than I am.
+
+259
+00:16:36,000 --> 00:16:38,000
+Check this out.
+
+260
+00:16:38,000 --> 00:16:43,000
+Even though they pertain to have a global television network, which they do, of course, and they
+
+261
+00:16:43,000 --> 00:16:49,000
+have lots of potential viewers, the show did not air live in Europe on any of the MTV stations
+
+262
+00:16:49,000 --> 00:16:51,000
+as far as I'm aware.
+
+263
+00:16:51,000 --> 00:16:57,000
+It won't air until Wednesday, mind you, when everyone already knows who's won.
+
+264
+00:16:57,000 --> 00:17:01,000
+The disappointment, the good Charlotte didn't win.
+
+265
+00:17:01,000 --> 00:17:05,000
+Viewers Choice Award was pretty big this morning in the Curry Household, but so all of
+
+266
+00:17:05,000 --> 00:17:06,000
+that's already been done.
+
+267
+00:17:06,000 --> 00:17:11,000
+Then they're going to broadcast like an edited or watered down version of the award show,
+
+268
+00:17:11,000 --> 00:17:16,000
+where I want the full three-hour, raunchy, whatever shit goes on show.
+
+269
+00:17:16,000 --> 00:17:20,000
+In fact, I'd actually pay money to have the totally unsensored version, if there wasn't
+
+270
+00:17:20,000 --> 00:17:21,000
+anything to be censored.
+
+271
+00:17:21,000 --> 00:17:25,000
+So, I'm hoping fingers crossed that someone out there recorded it and we'll put it...
+
+272
+00:17:25,500 --> 00:17:27,500
+up a bit torrent because it's just ridiculous.
+
+273
+00:17:27,500 --> 00:17:30,500
+And MTV should be doing that themselves.
+
+274
+00:17:30,500 --> 00:17:31,500
+They're crazy.
+
+275
+00:17:31,500 --> 00:17:34,500
+Now, why do we have to wait three days until we can see it?
+
+276
+00:17:34,500 --> 00:17:38,500
+It makes no sense to me for any award show.
+
+277
+00:17:38,500 --> 00:17:43,500
+The Academy Awards aren't that dense about it.
+
+278
+00:17:43,500 --> 00:17:47,500
+And actually, BitTorrent works great for those moments when you want something big like Windows
+
+279
+00:17:47,500 --> 00:17:53,500
+Service Pack 2, which was also distributed via BitTorrent, which has appeared to be your
+
+280
+00:17:53,500 --> 00:17:54,500
+sharing system.
+
+281
+00:17:54,500 --> 00:18:00,500
+And really, it's what they call it, file swarming or whatever.
+
+282
+00:18:00,500 --> 00:18:03,500
+And it adds funny because I spoke to Dave briefly.
+
+283
+00:18:03,500 --> 00:18:10,500
+And remember, he wanted to load up on some movies for when he got the Canada.
+
+284
+00:18:10,500 --> 00:18:14,500
+And well, basically, I said, you know, if you're looking for older movies, take a while
+
+285
+00:18:14,500 --> 00:18:18,500
+to download, because you may only have one or two or three people or maybe only one seeding
+
+286
+00:18:19,500 --> 00:18:21,500
+that particular file.
+
+287
+00:18:21,500 --> 00:18:26,500
+So it could take a long time to download what really works great when something's new or something's
+
+288
+00:18:26,500 --> 00:18:26,500
+really...
+
+289
+00:18:27,000 --> 00:18:32,000
+popular. And then I gave him of course a couple of torrents to some new porn movies.
+
+290
+00:18:32,000 --> 00:18:37,000
+So he understood that and he came back and said, well, if I just want some old Saturday night
+
+291
+00:18:37,000 --> 00:18:41,000
+live episodes, how do I get that? I said, well, you can probably find it. There may be someone
+
+292
+00:18:41,000 --> 00:18:46,000
+seeding that online, but probably unlikely. And he came up with an idea is, well, maybe we
+
+293
+00:18:46,000 --> 00:18:51,000
+all have to just kind of put a weblog together and we'll update each other and say, hey, today
+
+294
+00:18:51,000 --> 00:18:58,000
+Saturday night live day and we all put our stuff up online and we become, in effect, the transmitter.
+
+295
+00:18:58,000 --> 00:19:02,000
+You know what? Ad hoc transmitter gives everyone a zippy download who joins the group.
+
+296
+00:19:02,000 --> 00:19:07,000
+You know, it's interesting to think about because that could be pretty powerful if you can create
+
+297
+00:19:07,000 --> 00:19:12,000
+that kind of bandwidth. Ad hoc and just doing it as end users are not someone in the middle.
+
+298
+00:19:12,000 --> 00:19:17,000
+Not quite sure how it'll work, but I do think that we all could, yeah, we can definitely all get
+
+299
+00:19:18,000 --> 00:19:22,000
+together and make it happen. She wears it take, you know, run a little script somewhere or just open
+
+300
+00:19:22,000 --> 00:19:28,000
+something up and leave it running. Shouldn't be a problem at all. And likewise, for the song of the
+
+301
+00:19:28,500 --> 00:19:32,500
+And I've already gone way over my time limit, but I do want to play a song of the day for you.
+
+302
+00:19:32,500 --> 00:19:34,500
+It was very easy to download this one.
+
+303
+00:19:34,500 --> 00:19:42,500
+I had 53 hosts within seconds, and yet it's a song that's over 20 years old.
+
+304
+00:19:42,500 --> 00:19:50,500
+The unfortunate news reached everybody, just the other just yesterday, that Laura Branigan
+
+305
+00:19:50,500 --> 00:19:51,500
+passed away.
+
+306
+00:19:51,500 --> 00:19:57,500
+She died in upstate New York, East Cog, I think, 47-year-old, 47 years old of an aneurysm.
+
+307
+00:19:57,500 --> 00:20:04,500
+I didn't know her very well, but we had met a couple of times, both in Holland and somewhere
+
+308
+00:20:04,500 --> 00:20:05,500
+in TV.
+
+309
+00:20:05,500 --> 00:20:06,500
+I'm thinking Marty Grah.
+
+310
+00:20:06,500 --> 00:20:09,500
+So that's why I probably don't remember very well.
+
+311
+00:20:09,500 --> 00:20:14,500
+But it's shocking when someone that young goes.
+
+312
+00:20:14,500 --> 00:20:19,500
+Anyway, we have our music to remember by.
+
+313
+00:20:19,500 --> 00:20:24,500
+Not many hits from Laura Branigan, but this is one that everyone remembers.
+
+314
+00:20:24,500 --> 00:20:28,500
+And I just wanted to play it for you so we can all think about her, her self-control.
+
+315
+00:21:00,000 --> 00:21:05,000
+It's the night, turn around in the night
+
+316
+00:21:06,000 --> 00:21:12,000
+Look, roll, do the world something break
+
+317
+00:21:13,000 --> 00:21:19,000
+Where in my eyes you're walking down the street
+
+318
+00:21:20,000 --> 00:21:22,000
+I'm not so good
+
+319
+00:21:23,000 --> 00:21:27,000
+Take myself, take myself, roll, roll
+
+320
+00:21:27,000 --> 00:21:31,000
+Come here, and only do the night
+
+321
+00:21:31,500 --> 00:21:41,500
+You take me to you take my down come close
+
+322
+00:21:41,500 --> 00:21:43,500
+I love the night I love the night
+
+323
+00:21:45,000 --> 00:21:49,000
+I let the sky, I set you on the earth
+
+324
+00:21:49,000 --> 00:21:53,000
+But you can't do it, you can't do it
+
+325
+00:21:53,000 --> 00:21:57,000
+You take the sun, you take the sun
+
+326
+00:21:57,000 --> 00:22:05,000
+Hi! I'm a creature tonight
+
+327
+00:22:05,000 --> 00:22:09,000
+I hope you lose the wings
+
+328
+00:22:09,000 --> 00:22:13,000
+Against the moon, the marks I can't stop
+
+329
+00:22:13,000 --> 00:22:17,000
+I need it, tomorrow I'm not allowed
+
+330
+00:22:17,000 --> 00:22:21,000
+I'm really not
+
+331
+00:22:21,000 --> 00:22:25,000
+I know the light is new
+
+332
+00:22:25,000 --> 00:22:29,000
+I'm a spirit, I'm a spirit
+
+333
+00:22:29,000 --> 00:22:33,000
+Something's fun, make myself believe it
+
+334
+00:22:33,000 --> 00:22:35,000
+This night will never go
+
+335
+00:22:43,000 --> 00:22:47,000
+I'm a spirit, I'm a spirit
+
+336
+00:22:48,000 --> 00:22:56,000
+All the night, it's like a pain to go
+
+337
+00:22:57,000 --> 00:23:01,000
+In the day, nothing matters
+
+338
+00:23:01,000 --> 00:23:05,000
+It's like a time of time
+
+339
+00:23:07,000 --> 00:23:12,000
+I'm on the Greece of the Philippines
+
+340
+00:23:13,000 --> 00:23:16,000
+I have a number of women trying to fight
+
+341
+00:23:17,000 --> 00:23:22,000
+I'm a person, a mouth, a white, a sound just leaving
+
+342
+00:23:22,000 --> 00:23:24,000
+To my old, a ghost
+
+343
+00:23:24,000 --> 00:23:28,000
+I said, night, I really didn't know
+
+344
+00:23:29,000 --> 00:23:34,000
+I'm a lady, it's not a day
+
+345
+00:23:35,000 --> 00:23:38,000
+I must leave, something's wrong
+
+346
+00:23:38,000 --> 00:23:42,000
+Make myself believe it, it's night, we never go
+
+347
+00:23:46,000 --> 00:23:49,000
+I'm a woman, a woman
+
+348
+00:23:49,500 --> 00:23:51,500
+Oh
+
+349
+00:24:20,500 --> 00:24:27,500
+So just imagine everyone running off to the record store trying to buy that single by Laura Brandt again just to remember
+
+350
+00:24:27,500 --> 00:24:30,500
+By no way wouldn't happen. It's just not in stock. It's not possible
+
+351
+00:24:31,500 --> 00:24:37,500
+Through Peter Peer. It was very easy. The download was amazing. It only took about 40 seconds to bring it in.
+
+352
+00:24:38,500 --> 00:24:42,500
+And they're going to wind up the source code with that today. So tomorrow of course I have the final morning radio show
+
+353
+00:24:43,500 --> 00:24:47,500
+That could mean that there may not be a source code up or maybe may very very late
+
+354
+00:24:47,500 --> 00:24:50,500
+And as of September 1st that's when we start
+
+355
+00:24:51,000 --> 00:24:56,000
+new life. And tomorrow, by the way, I'm going to play a new song in my wife made. She's
+
+356
+00:24:56,000 --> 00:25:00,000
+working on a DVD of her career, which spans 40 years, and she's recording a couple new
+
+357
+00:25:00,000 --> 00:25:04,000
+tracks. And I've got one that I will share with you tomorrow. So we'll see you then on
+
+358
+00:25:04,000 --> 00:25:07,000
+the source code, everybody, until then, take care.
+
+359
+00:25:21,000 --> 00:25:37,000
+If you'd like to respond to sports code, then send an email to adipocurry.com or leave a comment
+
+360
+00:25:37,000 --> 00:25:38,000
+on live.curry.com.
+
+361
+00:25:52,500 --> 00:25:54,500
+Because of the time when we're all together, we're not allowed to be together anymore.
+
+362
+00:25:54,500 --> 00:25:56,500
+I've been bored of seeing you every day and time.
+
+363
+00:26:05,500 --> 00:26:07,500
+But you're not allowed to be with me.
+
+364
+00:26:07,500 --> 00:26:09,500
+I'll stay by your side.
+
+365
+00:26:09,500 --> 00:26:11,500
+I'll stay by your side and time.
+
+366
+00:26:11,500 --> 00:26:13,500
+I'll stay by your side and time.
+
+367
+00:26:13,500 --> 00:26:16,500
+I'll stay by your side and time.
+

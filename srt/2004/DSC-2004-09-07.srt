@@ -1,0 +1,992 @@
+1
+00:00:00,000 --> 00:00:17,000
+Hi everybody, it's the Source Code and today is September 7th, 2004.
+
+2
+00:00:17,000 --> 00:00:21,000
+I'm Adam Curry and good evening or good morning or good afternoon wherever you're listening
+
+3
+00:00:21,000 --> 00:00:23,000
+to the Source Code.
+
+4
+00:00:23,000 --> 00:00:26,000
+Thanks for downloading, thanks for subscribing.
+
+5
+00:00:26,000 --> 00:00:31,000
+Welcome to you today or this evening I should say from the bunker in Amsterdam.
+
+6
+00:00:31,000 --> 00:00:36,000
+That's the house that we've had in the middle of the city for the past four years.
+
+7
+00:00:36,000 --> 00:00:44,000
+We call it the bunker because it used to be a museum and it's completely fortified.
+
+8
+00:00:44,000 --> 00:00:49,000
+It's got alarm systems up the yin yang, double enforced doors, bulletproof glass, all this
+
+9
+00:00:49,000 --> 00:00:51,000
+crap.
+
+10
+00:00:51,000 --> 00:00:53,000
+And Patricia and I are staying here tonight.
+
+11
+00:00:53,000 --> 00:01:00,000
+It's 10 minutes to 10 p.m. so a little bit late with the show because wow, had a very busy day.
+
+12
+00:01:00,000 --> 00:01:01,000
+We got up, let's see.
+
+13
+00:01:01,500 --> 00:01:06,500
+I got up at six o'clock, which is still my time to rise, apparently.
+
+14
+00:01:06,500 --> 00:01:14,500
+I still haven't gotten out of the morning show rhythm, I guess.
+
+15
+00:01:14,500 --> 00:01:15,500
+I was going to say algorithm.
+
+16
+00:01:15,500 --> 00:01:18,500
+I haven't gotten out of the morning show rhythm yet.
+
+17
+00:01:18,500 --> 00:01:25,500
+And at 6.30 we have to get up to get Christina off to school properly anyway.
+
+18
+00:01:25,500 --> 00:01:33,500
+And we had to drive for about an hour and 15 minutes to Grandmaster View today, which is
+
+19
+00:01:33,500 --> 00:01:38,500
+a flat-screen company that I own a share in.
+
+20
+00:01:38,500 --> 00:01:43,500
+I've been around since it's half inception.
+
+21
+00:01:43,500 --> 00:01:48,500
+And it's actually, you should check it out, grandmasterview.com.
+
+22
+00:01:48,500 --> 00:01:50,500
+And it should be coming to the States pretty soon.
+
+23
+00:01:50,500 --> 00:01:55,500
+We're already in Germany, in Spain, in Italy, and of course the Netherlands and Belgium.
+
+24
+00:01:55,500 --> 00:01:57,500
+Really huge flat screens.
+
+25
+00:01:57,500 --> 00:02:01,500
+I'm talking like, what do we have?
+
+26
+00:02:01,500 --> 00:02:02,500
+Two, I see the largest.
+
+27
+00:02:03,000 --> 00:02:07,000
+stock model we make is two meters and 25 centimeters diagonally.
+
+28
+00:02:07,000 --> 00:02:09,000
+So that's, what is that?
+
+29
+00:02:09,000 --> 00:02:10,000
+That's about seven feet.
+
+30
+00:02:10,000 --> 00:02:12,000
+So these are pretty big.
+
+31
+00:02:13,000 --> 00:02:16,000
+And so just, you know, I try to get up there once a week
+
+32
+00:02:16,000 --> 00:02:18,000
+and hang out with everyone.
+
+33
+00:02:18,000 --> 00:02:20,000
+Basically, you know, production is running.
+
+34
+00:02:20,000 --> 00:02:21,000
+So it's all marketing.
+
+35
+00:02:21,000 --> 00:02:26,000
+And I am part of the whole marketing scheme.
+
+36
+00:02:26,000 --> 00:02:28,000
+Everyone knows in Holland, Adam Curry,
+
+37
+00:02:28,000 --> 00:02:30,000
+helicopters and flat screens.
+
+38
+00:02:30,000 --> 00:02:33,000
+And after that, we went off to one of our partners.
+
+39
+00:02:33,000 --> 00:02:35,000
+And Patricia, by the way, had never been up to Grand Master View.
+
+40
+00:02:35,000 --> 00:02:39,000
+So it was really nice to show her that and I had a quick meeting.
+
+41
+00:02:39,000 --> 00:02:43,000
+And then we went 15 minutes further up to Kuehlenburg,
+
+42
+00:02:43,000 --> 00:02:48,000
+which is just around Utrecht in the middle of the Netherlands,
+
+43
+00:02:48,000 --> 00:02:50,000
+to a company called Design Concepts,
+
+44
+00:02:50,000 --> 00:02:52,000
+the one of our partners with Grand Master View.
+
+45
+00:02:52,000 --> 00:02:54,000
+What they do is they do these really beautiful frames
+
+46
+00:02:54,000 --> 00:02:57,000
+around our flat screens and do them in leather
+
+47
+00:02:57,000 --> 00:03:00,000
+and different types of material.
+
+48
+00:03:00,000 --> 00:03:03,000
+And they have a showroom where they're selling their furniture.
+
+49
+00:03:03,000 --> 00:03:04,000
+And they have...
+
+50
+00:03:04,500 --> 00:03:08,500
+at least five different setups where they have the living room setups.
+
+51
+00:03:08,500 --> 00:03:11,500
+Only now they have it in addition to a beautiful living room.
+
+52
+00:03:11,500 --> 00:03:17,500
+They also have one of our screens custom designed to fit that particular style.
+
+53
+00:03:17,500 --> 00:03:21,500
+So Patricia and I checked that out and I think we probably bought a couch or something.
+
+54
+00:03:21,500 --> 00:03:22,500
+I'm not sure.
+
+55
+00:03:22,500 --> 00:03:25,500
+She saw something she liked a lot, but it was really cool.
+
+56
+00:03:25,500 --> 00:03:29,500
+And I think that's a great way to combine two different products.
+
+57
+00:03:29,500 --> 00:03:33,500
+And it's working because we actually have one of our salespeople sitting there in
+
+58
+00:03:33,500 --> 00:03:35,500
+the in the design concept store.
+
+59
+00:03:35,500 --> 00:03:39,500
+You can check out design concepts at design concepts dot NL.
+
+60
+00:03:39,500 --> 00:03:42,500
+So let's see that got us back.
+
+61
+00:03:45,500 --> 00:03:50,500
+No, after that, then I had to go off to see the accountants for our quarterly sit down.
+
+62
+00:03:50,500 --> 00:03:53,500
+Most of you are rolling your eyes and going, you know, accountants, tax lawyers,
+
+63
+00:03:53,500 --> 00:03:56,500
+whatever, I actually enjoy it.
+
+64
+00:03:56,500 --> 00:03:59,500
+There's nothing better than having your accountants and your lawyers and your
+
+65
+00:03:59,500 --> 00:04:02,500
+tax lawyers all at the table and knowing that each one of those guys
+
+66
+00:04:02,500 --> 00:04:04,500
+is charging you three to four hundred dollars an hour.
+
+67
+00:04:04,500 --> 00:04:05,500
+So I just make the.
+
+68
+00:04:06,000 --> 00:04:11,000
+best of it. I make sure I get plenty of all the tea I want and I make jokes and we have
+
+69
+00:04:11,000 --> 00:04:17,000
+a pretty good time. I don't mind it. They're supposed to be saving me and helping me and
+
+70
+00:04:17,000 --> 00:04:23,000
+usually they do. At least I think I've found a team that's pretty damn good. And that
+
+71
+00:04:23,000 --> 00:04:27,000
+took obviously took quite a while and then by the time I got home it was time for Patricia
+
+72
+00:04:27,000 --> 00:04:31,000
+and I to go grab a bite to eat and then of course I passed out on the couch. I
+
+73
+00:04:31,000 --> 00:04:35,000
+think Patricia might have passed out as well. We both kind of a woke around 9
+
+74
+00:04:35,000 --> 00:04:39,000
+o'clock this evening I said well guess what you know I want to go record the
+
+75
+00:04:39,000 --> 00:04:42,000
+source source code and I hadn't had a chance to crack my computer all day
+
+76
+00:04:42,000 --> 00:04:47,000
+since we left the house. Man I hate that so much you know there's so much email
+
+77
+00:04:47,000 --> 00:04:50,000
+that's come in that I just can't even start to look at right now I'm just too
+
+78
+00:04:50,000 --> 00:04:56,000
+tired to do it. There's all kinds of things that need my attention and
+
+79
+00:04:56,000 --> 00:05:01,000
+that's oh man. And of course I don't even know if there's more any audio
+
+80
+00:05:01,000 --> 00:05:05,000
+stuff that's come down the pipe. Luckily tomorrow we're driving home. I'll have a
+
+81
+00:05:05,000 --> 00:05:09,000
+chance to catch up on any program.
+
+82
+00:05:07,500 --> 00:05:09,500
+that I may have missed.
+
+83
+00:05:09,500 --> 00:05:12,500
+Let's see, so I do want to talk a little bit about...
+
+84
+00:05:12,500 --> 00:05:17,500
+Let's see about iPodder. I had a couple of updates there.
+
+85
+00:05:17,500 --> 00:05:20,500
+What did I have? Oh yeah.
+
+86
+00:05:20,500 --> 00:05:22,500
+Looks like we have two new versions coming up,
+
+87
+00:05:22,500 --> 00:05:24,500
+and tomorrow I'll know for sure,
+
+88
+00:05:24,500 --> 00:05:27,500
+and by tomorrow night I'll have updated ipodder.org.
+
+89
+00:05:27,500 --> 00:05:32,500
+I saw on my email just a brief scan that there is now a Java version of iPodder,
+
+90
+00:05:32,500 --> 00:05:34,500
+and there's also a Coco version,
+
+91
+00:05:34,500 --> 00:05:40,500
+which is I believe the Mac OS X native scripting or programming environment.
+
+92
+00:05:40,500 --> 00:05:44,500
+I'm not too sure, but I will be checking out both of those programs
+
+93
+00:05:44,500 --> 00:05:47,500
+and putting them up in the directory as appropriate.
+
+94
+00:05:47,500 --> 00:05:50,500
+If you know of any feeds, please let me know,
+
+95
+00:05:50,500 --> 00:05:57,500
+because I'd love to add something to the MP3 RSS directory feed,
+
+96
+00:05:57,500 --> 00:06:02,500
+so people can subscribe to that with their MP3 devices.
+
+97
+00:06:02,500 --> 00:06:06,500
+Also got some feedback on using the metadata,
+
+98
+00:06:06,500 --> 00:06:09,500
+which is a big word for all the information you're stuffing.
+
+99
+00:06:09,000 --> 00:06:15,000
+to a file that you send along. Basically, that's the stuff that when you play the source code
+
+100
+00:06:15,000 --> 00:06:20,000
+on your MP3 player or in iTunes or whatever you're playing it on, that's why it actually,
+
+101
+00:06:20,000 --> 00:06:24,000
+instead of just giving you a file name, it says source code, Adam Curry, and then it
+
+102
+00:06:24,000 --> 00:06:31,000
+may have a date. It may show you a genre which should be speech track one of one.
+
+103
+00:06:31,000 --> 00:06:35,000
+And then maybe like the past two or three shows, I've actually put a subtitle for
+
+104
+00:06:35,000 --> 00:06:41,000
+the show in there. And so that should run across your display of your MP3 player.
+
+105
+00:06:41,000 --> 00:06:48,000
+And on the iPod specifically, I started off with the title is source code and then
+
+106
+00:06:48,000 --> 00:06:55,000
+the date and I spell it full out. So it's source code September 7th 2004.
+
+107
+00:06:55,000 --> 00:07:01,000
+Apparently when you're in the playlist menu and you're browsing through
+
+108
+00:07:01,000 --> 00:07:06,000
+different shows, you only really get up to like half of the name of the month.
+
+109
+00:07:06,000 --> 00:07:09,000
+So it's source code August or source code September.
+
+110
+00:07:10,500 --> 00:07:14,500
+Clearly not handy when searching for a particular title.
+
+111
+00:07:14,500 --> 00:07:16,500
+So I got to figure out what I'm going to do to change this.
+
+112
+00:07:16,500 --> 00:07:23,500
+I don't know if I want to put the date first and make it a seemingly easier to parse date.
+
+113
+00:07:23,500 --> 00:07:30,500
+So for today, should it be 09072004, source code?
+
+114
+00:07:30,500 --> 00:07:32,500
+Or I don't know.
+
+115
+00:07:32,500 --> 00:07:39,500
+But clearly the way I'm doing it is not making it very easy to archive and browse in iPod
+
+116
+00:07:39,500 --> 00:07:40,500
+and playlists.
+
+117
+00:07:40,500 --> 00:07:43,500
+So duly noted, let's see who did I get this email from.
+
+118
+00:07:43,500 --> 00:07:48,500
+This was from Paul Pilots.
+
+119
+00:07:48,500 --> 00:07:52,500
+And I will definitely work on some kind of naming convention that works a little bit better
+
+120
+00:07:52,500 --> 00:07:56,500
+on the iPod and I guess presumably on other MP3 devices.
+
+121
+00:07:56,500 --> 00:08:00,500
+And please, if you're subscribing to the source code and you have iPod are running through
+
+122
+00:08:00,500 --> 00:08:06,500
+Windows Media Player on any other device other than the iPod, please let me know.
+
+123
+00:08:06,500 --> 00:08:10,500
+I'd love to know people using it that way as well because the reason I'm sitting here at
+
+124
+00:08:10,500 --> 00:08:11,500
+5 to 10 in the evening.
+
+125
+00:08:12,000 --> 00:08:15,000
+because I'm getting a lot of feedback and I'm getting a lot of people are
+
+126
+00:08:15,000 --> 00:08:18,000
+listening to the source code also
+
+127
+00:08:21,000 --> 00:08:24,000
+So, you know, it seems like stuff's working.
+
+128
+00:08:24,000 --> 00:08:28,000
+Okay, now I had promised you something yesterday,
+
+129
+00:08:28,000 --> 00:08:32,000
+which I'm now going to bring up.
+
+130
+00:08:32,000 --> 00:08:33,000
+It's a real clip.
+
+131
+00:08:33,000 --> 00:08:38,000
+So I'm mixing all different kinds of media here today.
+
+132
+00:08:38,000 --> 00:08:41,000
+I remember I told you, I was discussing,
+
+133
+00:08:41,000 --> 00:08:44,000
+I was discussing, oh, the big DJ voice.
+
+134
+00:08:44,000 --> 00:08:46,000
+I think it was where, you know,
+
+135
+00:08:46,000 --> 00:08:48,000
+DJs always have to talk really loud
+
+136
+00:08:48,000 --> 00:08:49,000
+and have to really enunciate everything
+
+137
+00:08:49,000 --> 00:08:51,000
+and they're hitting on it, punch and make it sound
+
+138
+00:08:51,000 --> 00:08:54,000
+like you're hitting home when you're talking to that listener.
+
+139
+00:08:54,000 --> 00:09:00,000
+Now, a lot of people do this.
+
+140
+00:09:00,000 --> 00:09:03,000
+And a lot of people record their shows,
+
+141
+00:09:03,000 --> 00:09:04,000
+pre-record their shows.
+
+142
+00:09:04,000 --> 00:09:05,000
+I'd like to do it direct to tape
+
+143
+00:09:05,000 --> 00:09:08,000
+or direct to MP3, as it were in this case.
+
+144
+00:09:08,000 --> 00:09:11,000
+Casey Kasem, we've probably heard used,
+
+145
+00:09:11,000 --> 00:09:15,000
+I guess, I don't know if he still does the American
+
+146
+00:09:15,000 --> 00:09:16,000
+top 30 countdown, what is it?
+
+147
+00:09:16,000 --> 00:09:20,000
+The American or the Casey Kasem's top 40.
+
+148
+00:09:20,000 --> 00:09:22,000
+He probably still does that show, it's syndicated.
+
+149
+00:09:22,500 --> 00:09:27,500
+around the country actually around the globe I've heard it all over the place so at a certain point in the show
+
+150
+00:09:27,500 --> 00:09:30,500
+He does something called the long-distance dedication and it's someone
+
+151
+00:09:31,500 --> 00:09:36,500
+You know who lives in one part of the world or one part of the states and have a song played and dedicated to someone else
+
+152
+00:09:36,500 --> 00:09:43,500
+And there's always a story behind it's a little bit sappy in fact the whole show KC Kasem show is so sappy and is so
+
+153
+00:09:44,500 --> 00:09:46,500
+Well, so it's so early 80s
+
+154
+00:09:46,500 --> 00:09:48,500
+well at one point
+
+155
+00:09:48,500 --> 00:09:54,500
+You hear the real Casey Kasem as I'm I'm confident I've only met a couple times
+
+156
+00:09:54,500 --> 00:09:58,500
+But I'm confident this is exactly the way he can be if he's extremely pissed off
+
+157
+00:09:58,500 --> 00:10:04,500
+Certainly at the height of his Casey Kasem days when people would run around do anything for him because he was
+
+158
+00:10:05,500 --> 00:10:07,500
+Mr. Casey Kasem, Mr. Countdown on the radio
+
+159
+00:10:08,500 --> 00:10:13,500
+Check it out this little bit where Casey Kasem told hi. This is Casey Kasem
+
+160
+00:10:13,500 --> 00:10:15,500
+American top 40 has moved to a new time
+
+161
+00:10:15,500 --> 00:10:20,500
+I hope you'll join me this Saturday morning at every Saturday morning at 2 to
+
+162
+00:10:20,500 --> 00:10:23,500
+Okay, so there you go American top 40
+
+163
+00:10:24,000 --> 00:10:27,000
+Now listen to the dedication and listen to Casey lose it on this one.
+
+164
+00:10:27,000 --> 00:10:30,000
+Now we're up to our long-distance dedication.
+
+165
+00:10:30,000 --> 00:10:35,000
+And this one is about kids and pets and a situation that we can all understand.
+
+166
+00:10:35,000 --> 00:10:37,000
+Whether we have kids or pets or neither.
+
+167
+00:10:37,000 --> 00:10:40,000
+It's from a man in Cincinnati, Ohio.
+
+168
+00:10:40,000 --> 00:10:41,000
+And here's what he writes.
+
+169
+00:10:41,000 --> 00:10:46,000
+Dear Casey, this may seem to be a strange dedication request, but I'm quite sincere
+
+170
+00:10:46,000 --> 00:10:49,000
+and it'll meet a lot if you play it.
+
+171
+00:10:49,000 --> 00:10:51,000
+Recently there was a death in our family.
+
+172
+00:10:51,000 --> 00:10:55,000
+He was a little dog named Snuggles, but he was most certainly a part of...
+
+173
+00:10:55,000 --> 00:10:57,000
+Let's come start again.
+
+174
+00:10:57,000 --> 00:10:58,000
+I'm coming out of the record.
+
+175
+00:10:58,000 --> 00:10:59,000
+Play the record, okay?
+
+176
+00:11:01,500 --> 00:11:01,500
+Please.
+
+177
+00:11:06,000 --> 00:11:10,000
+See when you come out of those up-tempo goddamn numbers man, it's impossible to make those transitions
+
+178
+00:11:10,000 --> 00:11:15,000
+And then you got to go into somebody dying. You know they do this to me all the time
+
+179
+00:11:15,000 --> 00:11:18,000
+I don't know what the hell they do it for but goddamn it if we can't come out of a slow record
+
+180
+00:11:18,000 --> 00:11:20,000
+I don't understand it is down on the phone
+
+181
+00:11:21,000 --> 00:11:27,000
+Okay, I want a goddamn concerted effort to come out of a record that isn't a fucking up-tempo record every time
+
+182
+00:11:27,000 --> 00:11:29,000
+I do a goddamn death dedication
+
+183
+00:11:30,000 --> 00:11:35,000
+Now make it and I also want to know what happened to the pictures I was supposed to see this week
+
+184
+00:11:36,000 --> 00:11:38,000
+It's a god last goddamn time
+
+185
+00:11:38,000 --> 00:11:42,000
+I want somebody uses fucking brain to not come out of a goddamn record
+
+186
+00:11:42,000 --> 00:11:49,000
+That is that's up tempo and I got to talk about a fucking dog dying. Well, he's a fucking ponderous man
+
+187
+00:11:50,000 --> 00:11:52,000
+Ponderous fucking ponderous
+
+188
+00:11:53,000 --> 00:11:55,000
+Ponderous
+
+189
+00:11:55,000 --> 00:12:01,000
+And don't we all feel like that once in a while there's a yelling everybody and boy does it sound good when you yell at someone and
+
+190
+00:12:01,000 --> 00:12:07,000
+You've got that compressed mic sound you've got the headphones on you can hear your voice really well and just go yell about your
+
+191
+00:12:07,500 --> 00:12:10,500
+fucking dead dog dedication. Perfect radio history moment.
+
+192
+00:12:10,500 --> 00:12:14,500
+Now let me take you right into a song because it's our song of the day I felt like playing
+
+193
+00:12:14,500 --> 00:12:19,500
+something by the motel so sit back and enjoy. Only the lonely.
+
+194
+00:12:19,500 --> 00:12:32,500
+We walked. The loneliest man. We smiled. Without any style. We kissed, fought, together, wrong.
+
+195
+00:12:32,500 --> 00:12:34,500
+No intention.
+
+196
+00:12:37,500 --> 00:12:38,500
+We laughed.
+
+197
+00:12:38,500 --> 00:12:48,500
+About each other's strengths. We lived. Without each other. Thank you what everyone would do.
+
+198
+00:12:48,500 --> 00:12:52,500
+Without me and you.
+
+199
+00:12:52,500 --> 00:13:00,500
+It's like I told you. Only the lonely gets laid.
+
+200
+00:13:02,500 --> 00:13:04,500
+So dark.
+
+201
+00:13:04,500 --> 00:13:06,500
+Here we go.
+
+202
+00:13:06,500 --> 00:13:08,500
+So dark.
+
+203
+00:13:09,000 --> 00:13:14,000
+To nothing we know, our feelings go lowing
+
+204
+00:13:14,000 --> 00:13:16,000
+Way up steaming
+
+205
+00:13:16,000 --> 00:13:23,000
+You better, the time we were together
+
+206
+00:13:23,000 --> 00:13:31,000
+So long ago, with that girl, remember all I know
+
+207
+00:13:31,000 --> 00:13:35,000
+Is it makes me feel good now
+
+208
+00:13:35,000 --> 00:13:41,000
+It's like a song you, all the way below you can't play
+
+209
+00:13:43,000 --> 00:13:51,000
+All the way below you, all the way below you can't play
+
+210
+00:14:05,000 --> 00:14:10,000
+So long ago, with that girl, remember all I know
+
+211
+00:14:40,500 --> 00:14:50,500
+Only the lonely, only the lonely can be
+
+212
+00:15:04,500 --> 00:15:07,500
+You're early 80s, huh?
+
+213
+00:15:07,500 --> 00:15:14,500
+The motels, only this summer on your daily source code live from Amsterdam, coming to
+
+214
+00:15:14,500 --> 00:15:18,500
+you from the bunker on the Emperor's Canal.
+
+215
+00:15:18,500 --> 00:15:20,500
+I'm going to leave you with one final thought.
+
+216
+00:15:20,500 --> 00:15:23,500
+As I said today was going to be rather short just because it was so hectic and so much
+
+217
+00:15:23,500 --> 00:15:29,500
+to do and I haven't really had a chance to even look at my aggregator really barely.
+
+218
+00:15:29,500 --> 00:15:33,500
+I was reading a Q&A with Bill Gates.
+
+219
+00:15:33,500 --> 00:15:35,500
+I think Dave Weiner pointed to it.
+
+220
+00:15:35,500 --> 00:15:40,500
+And at one point, and it's obviously talking about competing devices with the iPod
+
+221
+00:15:40,500 --> 00:15:46,500
+and with iTunes and their competing service with the service that will
+
+222
+00:15:46,500 --> 00:15:48,500
+compete against the iTunes music store.
+
+223
+00:15:48,500 --> 00:15:51,500
+And here's the quote that Bill Gates gave says,
+
+224
+00:15:51,500 --> 00:15:56,500
+but the work we've done with these device manufacturers to get them to build
+
+225
+00:15:56,500 --> 00:15:59,500
+support for subscription music in.
+
+226
+00:15:59,500 --> 00:16:00,500
+That's a big contribution.
+
+227
+00:16:00,500 --> 00:16:05,500
+It's kind of a weird sentence, but basically what he's saying that with Windows Media Player.
+
+228
+00:16:06,000 --> 00:16:12,000
+The work that Microsoft has done to get them to build in support for subscription music has been a big contribution.
+
+229
+00:16:12,000 --> 00:16:16,000
+I'm thinking, you know, subscription, this is exactly the stuff we're doing.
+
+230
+00:16:16,000 --> 00:16:18,000
+This is real subscription stuff.
+
+231
+00:16:18,000 --> 00:16:25,000
+You know, you can always build in a money channel if you need to, but you know, why is it all music that we're talking about?
+
+232
+00:16:25,000 --> 00:16:27,000
+Stop focusing just on music.
+
+233
+00:16:27,000 --> 00:16:30,000
+These things can be used for a hell of a lot more than just music.
+
+234
+00:16:30,000 --> 00:16:34,000
+Pure transfer of information, data, you know, just like the source code.
+
+235
+00:16:34,000 --> 00:16:38,000
+But it is good that they've got that subscription all built in.
+
+236
+00:16:38,000 --> 00:16:41,000
+Anyway, that's it for the source code for today.
+
+237
+00:16:41,000 --> 00:16:46,000
+I'm going to hit the hay tomorrow's reasonably easy day for me.
+
+238
+00:16:46,000 --> 00:16:51,000
+We have a production company coming to take a look if they actually would like to rent this place for several months
+
+239
+00:16:51,000 --> 00:16:54,000
+to do a Dutch version of, I think it's the Apprentice.
+
+240
+00:16:54,000 --> 00:16:57,000
+Well, that would be nice if we could rent this place out.
+
+241
+00:16:57,000 --> 00:16:59,000
+And pretty soon we're going to be looking for new digs in the UK.
+
+242
+00:16:59,000 --> 00:17:02,000
+So I'll keep you up to speed on that when we meet again tomorrow.
+
+243
+00:17:02,000 --> 00:17:04,000
+On the source code.
+
+244
+00:17:04,000 --> 00:17:05,000
+Take care everybody.
+
+245
+00:17:05,000 --> 00:17:07,000
+The power.
+
+246
+00:17:07,500 --> 00:17:16,500
+And of course, if you want to respond, send email to adamantcurry.com or leave a comment
+
+247
+00:17:16,500 --> 00:17:17,500
+on my weblog, live.
+
+248
+00:17:19,500 --> 00:17:29,500
+The power of your intelligence.
+
