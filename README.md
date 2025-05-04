@@ -40,12 +40,14 @@ Many small pieces of information was gathered through searches for RSS fragments
 Episodes and other material were found when a BTSync link surfaced and lots of material gathered by somebody still hosting almost all episodes.
 [btsync://BSOB4VLQZYXFUZV6RYXW4APTX3M2GY2CQ?n=dsc](btsync://BSOB4VLQZYXFUZV6RYXW4APTX3M2GY2CQ?n=dsc)
 
+http://blog.curry.com/2014/01/15/theDailySourceCodeArchiveProject.html
+
 
 
 ## The other source
 
 
-
+https://raymondpoort.com/2014/01/17/bt-sync-brings-the-dsc-back-home/
 
 
 ### The first Pocasting app, Adam Curry's script
