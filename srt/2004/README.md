@@ -43,4 +43,6 @@ There is a few known problems with these transcriptions that the Speech Notes pr
 | [DSC-2004-09-21](./DSC-2004-09-21.srt)             | [ ]        | [ ]       |
 | [DSC-2004-09-22](./DSC-2004-09-22.srt)             | [ ]        | [ ]       |
 | [DSC-2004-09-24](./DSC-2004-09-24.srt)             | [ ]        | [ ]       |
+| [DSC-2004-09-27](./DSC-2004-09-27.srt)             | [ ]        | [ ]       |
+| [DSC-2004-09-28](./DSC-2004-09-28.srt)             | [ ]        | [ ]       |
 
