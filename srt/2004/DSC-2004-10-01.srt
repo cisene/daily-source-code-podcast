@@ -1,0 +1,2560 @@
+1
+00:00:01,500 --> 00:00:13,500
+Well, good morning everybody!
+
+2
+00:00:13,500 --> 00:00:17,500
+Welcome to the Daily Source Code, I'm Adam Curry, coming to you from Flanders, Belgium
+
+3
+00:00:17,500 --> 00:00:21,500
+from Curry Castle and this is the place where users and developers party together and I
+
+4
+00:00:21,500 --> 00:00:26,500
+apologize for not putting up the source code for yesterday.
+
+5
+00:00:26,500 --> 00:00:30,500
+Actually, I'll tell you what the plan was.
+
+6
+00:00:30,500 --> 00:00:35,500
+Since Dave Wein and I were going to do a trade secrets during the presidential debate,
+
+7
+00:00:35,500 --> 00:00:40,500
+I figured by the time I got home, as you might know yesterday was a big day for me.
+
+8
+00:00:40,500 --> 00:00:47,500
+I had a discussion with a company that wants to audiobooks or wants to distribute that
+
+9
+00:00:47,500 --> 00:00:48,500
+through podcasting.
+
+10
+00:00:48,500 --> 00:00:54,500
+Lots of really exciting stuff happening, but I didn't get home until reasonably late.
+
+11
+00:00:54,500 --> 00:01:00,500
+In fact, Patricia was also coming back from Amsterdam, she had to go to the dentist.
+
+12
+00:01:03,000 --> 00:01:08,000
+So we both kind of were returning to the castle in different automobiles at different times.
+
+13
+00:01:08,000 --> 00:01:13,000
+And so we both decided, well, you eat at some restaurant there on the way home.
+
+14
+00:01:13,000 --> 00:01:16,000
+And I'll eat at this restaurant here because we were on two incompatible highways.
+
+15
+00:01:16,000 --> 00:01:18,000
+And so we got home.
+
+16
+00:01:18,000 --> 00:01:24,000
+And then I just kind of discovered after having done more calculations with time zones that
+
+17
+00:01:24,000 --> 00:01:30,000
+if I wanted to watch the debate with Dave simultaneously and record it,
+
+18
+00:01:30,000 --> 00:01:33,000
+I'd have to get up at about 2.30.
+
+19
+00:01:33,000 --> 00:01:35,000
+And by the time I realized this, it was like, I don't know, 11.
+
+20
+00:01:36,000 --> 00:01:40,000
+So I didn't have time to really put a source code together.
+
+21
+00:01:40,000 --> 00:01:43,000
+And I apologize because now I can see on the iPod.
+
+22
+00:01:45,000 --> 00:01:46,000
+Users and developers both confuse,
+
+23
+00:01:46,000 --> 00:01:49,000
+hey, I didn't get the DailyStore's code yesterday.
+
+24
+00:01:49,000 --> 00:01:52,000
+And there's something else that I wanted to mention,
+
+25
+00:01:52,000 --> 00:01:54,000
+something that I've noticed.
+
+26
+00:01:54,000 --> 00:01:56,000
+The way I have it set up, the way I use
+
+27
+00:01:56,000 --> 00:01:58,000
+MarsEdit with RadioUserLand,
+
+28
+00:01:59,000 --> 00:02:01,000
+I just post stuff through MarsEdit,
+
+29
+00:02:01,000 --> 00:02:03,000
+but if I want to put an enclosure in,
+
+30
+00:02:03,000 --> 00:02:06,000
+I have to go in through the web browser interface
+
+31
+00:02:06,000 --> 00:02:09,000
+to RadioUserLand to go manually put in the
+
+32
+00:02:10,000 --> 00:02:11,000
+enclosure URL,
+
+33
+00:02:12,000 --> 00:02:13,000
+since I haven't really,
+
+34
+00:02:13,000 --> 00:02:16,000
+I've put together some publishing scripts in the past,
+
+35
+00:02:16,000 --> 00:02:17,000
+but wasn't happy with them,
+
+36
+00:02:17,000 --> 00:02:19,000
+so I'm still kind of doing everything manually
+
+37
+00:02:19,000 --> 00:02:21,000
+until I know exactly what I want to do
+
+38
+00:02:21,000 --> 00:02:23,000
+and what I want the settings to be
+
+39
+00:02:23,000 --> 00:02:25,000
+and the ID3 tags,
+
+40
+00:02:25,000 --> 00:02:27,000
+so we're getting pretty close on a lot of that stuff.
+
+41
+00:02:28,500 --> 00:02:30,500
+Shoot, what was my point?
+
+42
+00:02:30,500 --> 00:02:33,500
+Oh my God, I'm lost on my own soliloquy.
+
+43
+00:02:33,500 --> 00:02:36,500
+Anyway, forget all that.
+
+44
+00:02:36,500 --> 00:02:44,500
+So I did get up at 230 and connected with Dave and we did watch the debate together and we
+
+45
+00:02:44,500 --> 00:02:45,500
+did comment on it.
+
+46
+00:02:45,500 --> 00:02:49,500
+And I have to say, technologically, this was a tremendous success.
+
+47
+00:02:49,500 --> 00:02:53,500
+Although we didn't get the streaming part set up, we actually, I reached out to Doug
+
+48
+00:02:53,500 --> 00:02:57,500
+Kay of IT Conversations at the very last minute and said, you know, hey, we're
+
+49
+00:02:57,500 --> 00:03:03,500
+thinking we could take some calls through Skype and X10 and whatever else.
+
+50
+00:03:03,500 --> 00:03:04,500
+And maybe you could stream it.
+
+51
+00:03:04,500 --> 00:03:07,500
+And Doug, unfortunately, had already gone off to a conference and he had always
+
+52
+00:03:07,500 --> 00:03:10,500
+gear with him, so he couldn't help us out.
+
+53
+00:03:10,500 --> 00:03:15,500
+But it's probably, you know, well, I don't know, if we had been streaming it
+
+54
+00:03:15,500 --> 00:03:18,500
+live, it might have actually been pretty interesting if we'd been able to
+
+55
+00:03:18,500 --> 00:03:23,500
+get people on in the conversation with us.
+
+56
+00:03:23,500 --> 00:03:26,500
+But, you know, it's like halfway through the recording, we said, you know, I
+
+57
+00:03:26,500 --> 00:03:28,500
+don't know if I was going to give a shit about this.
+
+58
+00:03:28,500 --> 00:03:29,500
+Certainly no one who saw the debate.
+
+59
+00:03:30,000 --> 00:03:35,000
+debate is going to care. And actually stuff that we discussed right after the debate,
+
+60
+00:03:35,000 --> 00:03:41,000
+which was, I don't know, it probably wasn't even for public consumption. That was a much
+
+61
+00:03:41,000 --> 00:03:45,000
+better conversation. So we just said, you know what, scrap this. We're going to try
+
+62
+00:03:45,000 --> 00:03:46,000
+and do a wrap up tomorrow.
+
+63
+00:03:48,000 --> 00:03:53,000
+of things. And now of course we have to figure out nine hours time difference again so we
+
+64
+00:03:53,000 --> 00:04:00,000
+can hook up properly. But the technology of the debate, as I want to say, that was really
+
+65
+00:04:00,000 --> 00:04:06,000
+good because we finally figured out how to make the X10 SIP phone sound a bit reasonable,
+
+66
+00:04:06,000 --> 00:04:11,000
+found some automatic gain settings to limit Dave's microphone so when he talked too
+
+67
+00:04:11,000 --> 00:04:19,000
+loud it would crack and break up. Oh no I want to say about the RSS feed when I
+
+68
+00:04:19,000 --> 00:04:25,000
+update the show. So depending on, let's say that it's about just by coincidence,
+
+69
+00:04:25,000 --> 00:04:30,000
+I've posted this and I still have to go back and add the enclosure URL into
+
+70
+00:04:30,000 --> 00:04:38,000
+the post that basically puts this show into my RSS feed. Let's say I do it two
+
+71
+00:04:38,000 --> 00:04:42,000
+minutes before the top of the hour. So first it goes through the motions.
+
+72
+00:04:42,000 --> 00:04:48,000
+Probably by the time I've gone into the web interface to add the enclosure
+
+73
+00:04:48,000 --> 00:04:53,000
+posted the RSS feed without the enclosure.
+
+74
+00:04:53,000 --> 00:04:57,000
+Now I think that what's happening is that some aggregators, and maybe some of the iPodder
+
+75
+00:04:57,000 --> 00:05:05,000
+stuff does this, will grab the RSS file and will certainly won't wait, won't download
+
+76
+00:05:05,000 --> 00:05:09,000
+anything until it's been updated, which will probably be in an hour later or something.
+
+77
+00:05:10,500 --> 00:05:17,500
+You know have their iPod are set for twice a day so yeah then then you're not gonna you know you're not gonna catch the you're not gonna get the show.
+
+78
+00:05:17,500 --> 00:05:23,500
+So I'm gonna try and publish simultaneously because I also have a feeling that maybe some of these feeds are.
+
+79
+00:05:27,000 --> 00:05:28,000
+And people are just missing out.
+
+80
+00:05:28,000 --> 00:05:31,000
+So it's something we just got to be aware of.
+
+81
+00:05:31,000 --> 00:05:33,000
+Same goes for trade secrets.
+
+82
+00:05:33,000 --> 00:05:38,000
+If I post the show, then I can post a link to it, but Dave has to manually put in the
+
+83
+00:05:38,000 --> 00:05:39,000
+enclosure URL.
+
+84
+00:05:39,000 --> 00:05:43,000
+So that's stuff that we got to fix, but it is actually affecting the network.
+
+85
+00:05:43,000 --> 00:05:45,000
+Our broadcast network is affected somewhat by this.
+
+86
+00:05:48,000 --> 00:05:50,000
+So, forgot to say thank god it's Friday.
+
+87
+00:05:50,000 --> 00:05:54,000
+It's going to be pretty, you know, slow day for me here.
+
+88
+00:05:55,000 --> 00:05:58,000
+I just catching up on some stuff here at the castle.
+
+89
+00:05:58,000 --> 00:06:03,000
+And then tonight at eight o'clock, Patricia and I are off to Jolio Blighty.
+
+90
+00:06:03,000 --> 00:06:06,000
+We're going to fly to London City.
+
+91
+00:06:06,000 --> 00:06:10,000
+And from there, we're going to drive to our future home.
+
+92
+00:06:11,000 --> 00:06:14,000
+And we're going to spend the weekend measuring, you know,
+
+93
+00:06:14,000 --> 00:06:17,000
+kicking the trees, kicking the tires, looking around the neighborhood.
+
+94
+00:06:18,000 --> 00:06:21,000
+Christina's going to stay with her grandparents.
+
+95
+00:06:21,000 --> 00:06:24,000
+And oh, and by the way, we'll be alone.
+
+96
+00:06:25,000 --> 00:06:28,000
+So don't expect me to do any podcasting over the weekend.
+
+97
+00:06:28,000 --> 00:06:30,000
+Yeah, I'll be podcasting, podcasting something else.
+
+98
+00:06:32,000 --> 00:06:36,000
+Anyway, I'm going to play a song for you to kind of get into the mood for this Friday.
+
+99
+00:06:36,000 --> 00:06:39,000
+As I was watching the debate last night, I thought to myself, you know,
+
+100
+00:06:39,000 --> 00:06:43,000
+all this conversation about Iraq and the war in Iraq.
+
+101
+00:06:43,000 --> 00:06:46,000
+And if you look in the Stevie Wonder's Villa, Get It Gela,
+
+102
+00:06:46,000 --> 00:06:49,000
+a ghetto village ghetto.
+
+103
+00:06:49,500 --> 00:06:55,500
+land then if you live there you probably wonder dude it doesn't matter who's
+
+104
+00:06:55,500 --> 00:07:03,500
+president I might have to go it's a JPL remix of Stevie Wonder's below get it
+
+105
+00:07:03,500 --> 00:07:06,500
+land I really it's a little bit long it's about six minutes if you want to
+
+106
+00:07:06,500 --> 00:07:08,500
+skip through it but
+
+107
+00:07:10,500 --> 00:07:20,500
+I'm going to go with you, I'm not getting free.
+
+108
+00:07:21,500 --> 00:07:26,500
+Would you like to come with me?
+
+109
+00:07:27,500 --> 00:07:30,500
+Let me guess.
+
+110
+00:07:31,500 --> 00:07:36,500
+These are people not strong
+
+111
+00:07:36,500 --> 00:07:41,500
+While I've heard that they're here
+
+112
+00:07:42,500 --> 00:07:47,500
+They're like a man in their hills
+
+113
+00:07:48,500 --> 00:07:51,500
+They're dying
+
+114
+00:09:10,500 --> 00:09:20,500
+God cover the hand of the Lamb.
+
+115
+00:09:42,000 --> 00:09:54,000
+The end of the season, so I'm gonna go to the farm and see if I can make a move.
+
+116
+00:09:54,000 --> 00:09:59,000
+It is not a good idea, but I'm gonna go to the farm and see if I can make a move.
+
+117
+00:09:59,000 --> 00:10:01,000
+So, I'm gonna go to the farm and see if I can make a move.
+
+118
+00:10:33,000 --> 00:10:39,000
+national up
+
+119
+00:10:39,000 --> 00:10:40,000
+all of him
+
+120
+00:10:40,000 --> 00:10:41,000
+if
+
+121
+00:10:41,000 --> 00:10:46,000
+then
+
+122
+00:10:52,500 --> 00:10:54,500
+God's people
+
+123
+00:10:56,500 --> 00:10:58,500
+And I
+
+124
+00:11:01,500 --> 00:11:03,500
+Now some folks say that
+
+125
+00:11:04,500 --> 00:11:06,500
+Jesus is
+
+126
+00:11:07,500 --> 00:11:10,500
+For what we have
+
+127
+00:11:12,500 --> 00:11:16,500
+Some folks say that we'll be happy
+
+128
+00:11:52,500 --> 00:11:54,500
+If the make-up's safe, the drill depends off the lighting
+
+129
+00:11:54,500 --> 00:11:57,500
+Just dust it off, hit the ramstacks
+
+130
+00:11:57,500 --> 00:11:59,500
+Supercup in the hall, bring the cats that be hating
+
+131
+00:11:59,500 --> 00:12:02,500
+Till we love the dog, they know this is the dog's law
+
+132
+00:12:02,500 --> 00:12:03,500
+It's coming for war
+
+133
+00:12:06,000 --> 00:12:09,000
+Watch what you let when I start busting my fucking head
+
+134
+00:12:09,000 --> 00:12:12,000
+It's the right place to be
+
+135
+00:12:12,000 --> 00:12:13,000
+Even on a walk
+
+136
+00:12:13,000 --> 00:12:16,000
+I bet the whole town hustling
+
+137
+00:12:16,000 --> 00:12:17,000
+Yo, I'm riding this block
+
+138
+00:12:17,000 --> 00:12:19,000
+Starving at night, coughing at tea
+
+139
+00:12:19,000 --> 00:12:21,000
+Parming the block, I'm bigger with niggas
+
+140
+00:12:21,000 --> 00:12:22,000
+I watch you the wild
+
+141
+00:12:22,000 --> 00:12:25,000
+I hold my breath and I pull the pipe
+
+142
+00:12:25,000 --> 00:12:28,000
+Get the shit up twice, shit is my life
+
+143
+00:12:28,000 --> 00:12:30,000
+It's me with a 45, I'm dead
+
+144
+00:12:30,000 --> 00:12:32,000
+And through the red day, give me the bank
+
+145
+00:12:32,000 --> 00:12:34,000
+Or give me your face, give me a shank
+
+146
+00:12:34,000 --> 00:12:36,000
+It's holiday
+
+147
+00:13:00,000 --> 00:13:01,000
+remix of Village Ghetto.
+
+148
+00:13:03,000 --> 00:13:05,000
+Friday, October 1st, 2004.
+
+149
+00:13:05,000 --> 00:13:09,000
+If you want to hear more of that, more JPL remixes, more cool remixes, there's a real
+
+150
+00:13:09,000 --> 00:13:12,000
+remix scene here in the Netherlands.
+
+151
+00:13:12,000 --> 00:13:14,000
+You can check it out at mixfreaks.org.
+
+152
+00:13:14,000 --> 00:13:20,000
+Okay, I'm going to go through the mail bag because I got a lot of responses to the previous
+
+153
+00:13:20,000 --> 00:13:22,000
+show, a couple of things I need to share with you.
+
+154
+00:13:22,000 --> 00:13:28,000
+First of all, my daughter, Christina, this is interesting.
+
+155
+00:13:28,000 --> 00:13:34,000
+She's been using a Manila site since, oh God, since, man, I'd have to look at her website,
+
+156
+00:13:34,000 --> 00:13:36,000
+but it's been for several years.
+
+157
+00:13:36,000 --> 00:13:40,000
+It's Christina.manilasites.com.
+
+158
+00:13:40,000 --> 00:13:46,000
+And there's also, she has a domain name that defaults to that, which is the land of the
+
+159
+00:13:46,000 --> 00:13:52,000
+young and the hopeless.com, which is, that's a song by her favorite band Good Charlotte.
+
+160
+00:13:52,000 --> 00:13:57,000
+Basically, what she has is a Good Charlotte, that's a band, a Good Charlotte weblog.
+
+161
+00:13:57,000 --> 00:14:01,000
+And she's a pretty big fan.
+
+162
+00:14:01,000 --> 00:14:04,000
+And she was poking around and she said, you know, dad, I'd really like a new...
+
+163
+00:14:04,500 --> 00:14:11,500
+skin on my weblog and of course in the manila and radio world we call skins themes.
+
+164
+00:14:11,500 --> 00:14:17,500
+And I found one and she found a Brian Bell theme, Collins-Sake.
+
+165
+00:14:17,500 --> 00:14:21,500
+Was it Collins-Sake is the theme?
+
+166
+00:14:21,500 --> 00:14:25,500
+And she said, well, you know, can you install that?
+
+167
+00:14:25,500 --> 00:14:28,500
+And I said, oh, and initially I said, sure I can install that, but then I thought,
+
+168
+00:14:28,500 --> 00:14:32,500
+wait a minute, she's not on one of my servers, she's on the manila site server.
+
+169
+00:14:32,500 --> 00:14:36,500
+And I said, well, really, you know, that's not being supported anymore,
+
+170
+00:14:36,500 --> 00:14:40,500
+or it's up and it's being supported, but I don't think they're doing any more support.
+
+171
+00:14:41,500 --> 00:14:44,500
+So you probably have to move it over to one of my servers and she's like, yeah,
+
+172
+00:14:44,500 --> 00:14:47,500
+but I'll lose the manila sites.com domain name and all this stuff.
+
+173
+00:14:49,500 --> 00:14:53,500
+Okay, here's the plea to anyone who's at userland who's listening.
+
+174
+00:14:53,500 --> 00:14:57,500
+If you want to do me a solid, if you could install that theme on manilasites.com, that
+
+175
+00:14:57,500 --> 00:14:58,500
+would be greatly appreciated.
+
+176
+00:14:58,500 --> 00:15:05,500
+If not, then I'll have to convince Christina that it's time to move domains.
+
+177
+00:15:05,500 --> 00:15:11,500
+I met at the first BloggerCon, so that was two BloggerCon's ago, if you count the
+
+178
+00:15:11,500 --> 00:15:12,500
+upcoming one November 6th.
+
+179
+00:15:12,500 --> 00:15:21,500
+I met Gregory Blake and his weblog is at, let me see,
+
+180
+00:15:21,500 --> 00:15:28,500
+ezunes.com, so it's www.ezoness.com.
+
+181
+00:15:28,500 --> 00:15:31,500
+And nice guy.
+
+182
+00:15:31,500 --> 00:15:38,500
+We had dinner together with a whole bunch of people after the BloggerCon.
+
+183
+00:15:38,500 --> 00:15:43,500
+We went into a chatting and we've exchanged email once in a while.
+
+184
+00:15:43,500 --> 00:15:45,500
+And I was hoping that this would happen.
+
+185
+00:15:45,500 --> 00:15:49,500
+And I even emailed Gregory and said, ah, you're the angel I've been waiting for.
+
+186
+00:15:49,500 --> 00:15:50,500
+Gregory says.
+
+187
+00:15:51,000 --> 00:16:00,000
+I've been checking out iPodder, using it, really liking it, but realized that really the organization
+
+188
+00:16:00,000 --> 00:16:04,000
+of the information on iPodder.org just doesn't give me enough.
+
+189
+00:16:04,000 --> 00:16:07,000
+I think Gregory is very much a user.
+
+190
+00:16:07,000 --> 00:16:10,000
+He might be more of a developer than I know, but it doesn't really matter.
+
+191
+00:16:10,000 --> 00:16:17,000
+And he's offered to be the curator of all things iPodder on iPodder.org, and I could
+
+192
+00:16:17,000 --> 00:16:21,000
+not be happier because I'm just swamped in the information.
+
+193
+00:16:21,000 --> 00:16:24,000
+I really need someone to sift through it and do that for us.
+
+194
+00:16:24,000 --> 00:16:29,000
+So I'm going to set up some stuff for Gregory and then hopefully, well, not this weekend
+
+195
+00:16:29,000 --> 00:16:32,000
+because I'll be busy in the UK, but Monday he'll be able to get started.
+
+196
+00:16:32,000 --> 00:16:37,000
+And we can start cleaning some of that stuff up, pointing to the right applications, the
+
+197
+00:16:37,000 --> 00:16:44,000
+right spots, because we have at least three Windows clients for iPodder coming out in
+
+198
+00:16:44,000 --> 00:16:51,000
+the next couple of days, a couple of which are already available working and it's just
+
+199
+00:16:51,000 --> 00:16:52,000
+like down.
+
+200
+00:16:52,500 --> 00:16:55,500
+to install and GUI stuff, which is the most important thing,
+
+201
+00:16:55,500 --> 00:16:56,500
+is how does it look?
+
+202
+00:16:56,500 --> 00:16:57,500
+I've seen some screenshots.
+
+203
+00:16:57,500 --> 00:16:59,500
+Andrew, Bromina's working on it.
+
+204
+00:17:01,500 --> 00:17:05,500
+There's of course that wonderful plugin for
+
+205
+00:17:08,500 --> 00:17:09,500
+oh, what is it?
+
+206
+00:17:09,500 --> 00:17:12,500
+Show me, gosh, I can't even remember now.
+
+207
+00:17:13,500 --> 00:17:15,500
+Show me what's on.
+
+208
+00:17:15,500 --> 00:17:16,500
+Oh, there's a link to it from iPodder.org
+
+209
+00:17:16,500 --> 00:17:19,500
+but they also do iPodder functionality.
+
+210
+00:17:19,500 --> 00:17:20,500
+That's working.
+
+211
+00:17:21,500 --> 00:17:23,500
+It's embedded in a different application.
+
+212
+00:17:23,500 --> 00:17:26,500
+But, well, there you go, even I'm confused.
+
+213
+00:17:26,500 --> 00:17:29,500
+So Gregory is gonna start helping us out
+
+214
+00:17:29,500 --> 00:17:31,500
+and I could not be happier.
+
+215
+00:17:31,500 --> 00:17:35,500
+And remember I was complaining about my mac.com email
+
+216
+00:17:38,500 --> 00:17:41,500
+and also not just the email but also my iDisk.
+
+217
+00:17:41,500 --> 00:17:44,500
+So I've kind of reached, I find this,
+
+218
+00:17:44,500 --> 00:17:46,500
+finally was an email that came out from the
+
+219
+00:17:51,000 --> 00:17:58,000
+comes with 250 megabytes of Mac dot Mac mail and iDisk storage but to thank you for your
+
+220
+00:17:59,000 --> 00:18:04,000
+for your patronage we're going to increase your total storage to one gigabyte for the duration
+
+221
+00:18:04,000 --> 00:18:10,000
+of your membership and so this is what kind of pissed me off so clearly they were upgrading all
+
+222
+00:18:10,000 --> 00:18:14,000
+these accounts and that screwed screwed stuff up because I could see it I could see my iDisk
+
+223
+00:18:14,000 --> 00:18:20,000
+saying you have no space available when I knew that I had plenty of space available so a
+
+224
+00:18:20,000 --> 00:18:24,000
+they didn't notify us that they were doing this they did it during the day of
+
+225
+00:18:24,000 --> 00:18:27,000
+course you know wherever you in the world it's going to be during the day sometime
+
+226
+00:18:27,000 --> 00:18:32,000
+but it seems like they did it during the the United States day which is probably
+
+227
+00:18:32,000 --> 00:18:37,000
+not too smart and and and it's not like email didn't wasn't arriving in my
+
+228
+00:18:37,000 --> 00:18:40,000
+account it was bouncing was actually being returned to people you know saying
+
+229
+00:18:40,000 --> 00:18:46,000
+sorry we can't reach this this guy's mailbox is full which it's embarrassing
+
+230
+00:18:46,000 --> 00:18:51,000
+really I got a lot of people laughing at me saying I used to you dick you know
+
+231
+00:18:52,500 --> 00:18:56,500
+which is it's a very geekish thing and sticks and stones etc.
+
+232
+00:18:56,500 --> 00:18:59,500
+But still, you know, they embarrassed me as a customer.
+
+233
+00:18:59,500 --> 00:19:06,500
+On top of that, I had just purchased an additional 100 megabytes of disk storage
+
+234
+00:19:06,500 --> 00:19:09,500
+because I saw the errors. I'm like, well I only have 200 messages.
+
+235
+00:19:09,500 --> 00:19:12,500
+I don't think it's filled up, but anyway I'll buy another 100 megs.
+
+236
+00:19:12,500 --> 00:19:18,500
+And I also bought the 1 gigabyte disk storage to put up some of these shows
+
+237
+00:19:18,500 --> 00:19:22,500
+to even out some of the bandwidth and also quite honestly to see how it worked
+
+238
+00:19:22,500 --> 00:19:24,500
+and for testing purposes.
+
+239
+00:19:24,500 --> 00:19:29,500
+And I paid for it and I'm sure somewhere in their system
+
+240
+00:19:29,500 --> 00:19:32,500
+they're going to refund me that now that I basically
+
+241
+00:19:33,000 --> 00:19:36,000
+It's not like I have two gigabytes all of a sudden waiting for me.
+
+242
+00:19:36,000 --> 00:19:43,000
+And I can work all of that out with them, but man, for them to announce on their site saying,
+
+243
+00:19:43,000 --> 00:19:47,000
+oh, we upgraded and a few people had some mail issues.
+
+244
+00:19:47,000 --> 00:19:51,000
+Well, if it was only a few people, could you please send those few people an email and
+
+245
+00:19:51,000 --> 00:19:53,000
+say we're sorry?
+
+246
+00:19:53,000 --> 00:19:55,000
+That's all I wanted.
+
+247
+00:19:55,000 --> 00:19:59,000
+I'm still going to use your service, but this pisses me off.
+
+248
+00:19:59,000 --> 00:20:01,000
+Just I'm a customer.
+
+249
+00:20:01,000 --> 00:20:02,000
+I'm paying you real money.
+
+250
+00:20:02,000 --> 00:20:03,000
+Please.
+
+251
+00:20:03,000 --> 00:20:07,000
+And now I'm going to suck all your bandwidth by putting all my shit on my
+
+252
+00:20:07,000 --> 00:20:10,000
+podcast on my I-disc.
+
+253
+00:20:10,000 --> 00:20:13,000
+See what we run into there.
+
+254
+00:20:13,000 --> 00:20:17,000
+See, got a request from Anthony for more Durewood douche.
+
+255
+00:20:17,000 --> 00:20:18,000
+I already played a song today.
+
+256
+00:20:18,000 --> 00:20:21,000
+I'll play Durewood douche on the next.
+
+257
+00:20:21,000 --> 00:20:22,000
+I do have an whole album.
+
+258
+00:20:22,000 --> 00:20:25,000
+Remember that was the song everybody's fucking but me.
+
+259
+00:20:27,000 --> 00:20:28,000
+Let me see.
+
+260
+00:20:28,000 --> 00:20:29,000
+Oh, yes.
+
+261
+00:20:29,000 --> 00:20:34,000
+The stomach bouncer bit that I played on the last source code.
+
+262
+00:20:34,500 --> 00:20:39,500
+podcast. This also comes from Anthony, says the comedian telling the joke was Jim Brewer.
+
+263
+00:20:39,500 --> 00:20:43,500
+He used to be on Saturday Night Live, currently he's touring the States with his own show.
+
+264
+00:20:43,500 --> 00:20:49,500
+So there you go. Very good show, clearly. What else did we have? I have a couple of
+
+265
+00:20:49,500 --> 00:20:56,500
+comments I need to go through here. Oh yeah. Well, thanks everybody for responding to
+
+266
+00:20:56,500 --> 00:21:01,500
+my Mac problems. I told you my Mac was sick. By the way, the swan did die and it
+
+267
+00:21:01,500 --> 00:21:09,500
+was sad and we did have to put our dog down. That was also all yesterday.
+
+268
+00:21:09,500 --> 00:21:16,500
+That wasn't fun. Oh, there's my wife. Yes, dear.
+
+269
+00:21:16,500 --> 00:21:17,500
+Okay.
+
+270
+00:21:17,500 --> 00:21:20,500
+I already had some cereal.
+
+271
+00:21:20,500 --> 00:21:23,500
+That's Patricia saying, you're fucking podcasting.
+
+272
+00:21:23,500 --> 00:21:24,500
+You have to eat before you do this stuff.
+
+273
+00:21:24,500 --> 00:21:25,500
+I did.
+
+274
+00:21:25,500 --> 00:21:26,500
+I did.
+
+275
+00:21:26,500 --> 00:21:30,500
+So I told you about Mac was really sick and it was really, it was on the ropes and the
+
+276
+00:21:30,500 --> 00:21:35,500
+finder was doing funky stuff and the doc was doing funky stuff and it seemed like it
+
+277
+00:21:35,500 --> 00:21:37,500
+was really, you know, crunching along on numbers.
+
+278
+00:21:37,500 --> 00:21:41,500
+And I tried everything that you could imagine from repairing disk permissions to cleaning
+
+279
+00:21:41,500 --> 00:21:45,500
+out caches and setting up PRAM and desktop rebuilding.
+
+280
+00:21:45,500 --> 00:21:49,500
+I've been doing that for 15 years with Macs.
+
+281
+00:21:49,500 --> 00:21:53,500
+And then a couple of people said, you know, basically what you got to do is you
+
+282
+00:21:53,500 --> 00:21:55,500
+just got to reinstall your system software.
+
+283
+00:21:55,500 --> 00:21:57,500
+And I, that's not what I wanted to hear.
+
+284
+00:21:57,500 --> 00:22:00,500
+I was like, oh, please.
+
+285
+00:22:00,500 --> 00:22:04,500
+But I bit the bullet since I was in Amsterdam anyway.
+
+286
+00:22:04,500 --> 00:22:07,500
+And actually, I don't have to say it was a very pleasurable experience.
+
+287
+00:22:07,500 --> 00:22:11,500
+I thought it was really going to suck because typically when you do something
+
+288
+00:22:11,500 --> 00:22:15,500
+with your system, all your preferences are hosed and, you know, applications disappear
+
+289
+00:22:15,500 --> 00:22:17,500
+and connections that you've made.
+
+290
+00:22:18,000 --> 00:22:19,000
+with stuff doesn't work.
+
+291
+00:22:19,000 --> 00:22:22,000
+So with OS X, I just followed the instructions,
+
+292
+00:22:22,000 --> 00:22:27,000
+just put in the booted from the startup, from the install CD.
+
+293
+00:22:27,000 --> 00:22:29,000
+It noticed that I had OS X on it.
+
+294
+00:22:29,000 --> 00:22:34,000
+It said, look, you do want to keep all your system folder
+
+295
+00:22:34,000 --> 00:22:35,000
+and reinstall a fresh copy.
+
+296
+00:22:35,000 --> 00:22:38,000
+We're going to rename that system folder to previous system.
+
+297
+00:22:38,000 --> 00:22:42,000
+You'll have all your stuff still there.
+
+298
+00:22:42,000 --> 00:22:44,000
+And although the one little tricky bit
+
+299
+00:22:44,000 --> 00:22:47,000
+is it also then wants to install another.
+
+300
+00:22:49,500 --> 00:22:56,500
+iChat, iCal, and iTunes and I deselected those because I knew that I already had up-to-date versions
+
+301
+00:22:57,500 --> 00:23:03,500
+Not only that I purchased the iLife 04 package so I didn't want garage band or anything being messed up
+
+302
+00:23:03,500 --> 00:23:07,500
+So I just deselected those did the install it went through the whole thing
+
+303
+00:23:08,500 --> 00:23:10,500
+Beautifully rebooted came up
+
+304
+00:23:11,500 --> 00:23:18,500
+My desktop looked exactly the same that the computer seemed completely responsive that you know that fan wasn't spinning disk was calm
+
+305
+00:23:18,500 --> 00:23:24,500
+And then of course had to download about a hundred and fifty megabytes of system updates
+
+306
+00:23:24,500 --> 00:23:28,500
+Which it does all put it's not like you get you know 18 different security packages
+
+307
+00:23:28,500 --> 00:23:31,500
+Just one big macOS update and then you get a couple more
+
+308
+00:23:31,500 --> 00:23:37,500
+Along the way so that takes another probably about another hour of everything to download and install and it was great
+
+309
+00:23:37,500 --> 00:23:39,500
+the only thing that I've had to
+
+310
+00:23:39,500 --> 00:23:47,500
+Reinstall was the soundflower sound drivers because those do sit actually in your system folder everything else was I mean all the
+
+311
+00:23:47,500 --> 00:23:49,500
+Scripts I have running
+
+312
+00:23:49,500 --> 00:23:51,500
+everything
+
+313
+00:23:51,000 --> 00:23:57,000
+works. And I've kept the previous system folder which is about 4 gigs of God knows what.
+
+314
+00:23:57,000 --> 00:24:02,000
+Just in case I need something, but so far it's... no, I'm extremely happy everything's working
+
+315
+00:24:02,000 --> 00:24:06,000
+and yeah, knock on wood for Murphy there.
+
+316
+00:24:06,000 --> 00:24:12,000
+So thank you very much for advising that and I certainly advise anyone who's using a
+
+317
+00:24:12,000 --> 00:24:17,000
+Mac if it really starts to act up and it's getting kind of crappy, you can easily do
+
+318
+00:24:17,000 --> 00:24:20,000
+this system reinstall. It won't kill you.
+
+319
+00:24:20,000 --> 00:24:27,000
+See I got an update from Martin Fenroy, that's on the iPodder Windows.
+
+320
+00:24:27,000 --> 00:24:30,000
+Actually this is iPodder for Windows and Mac and Linux.
+
+321
+00:24:30,000 --> 00:24:35,000
+What do we have on Win32? This is just some stuff that's coming up.
+
+322
+00:24:35,000 --> 00:24:39,000
+System tray icon with different states, nice interfaces cross...
+
+323
+00:24:42,000 --> 00:24:46,000
+everyone's working on this stuff. I mean, I have 40 messages on the iPod or dev list
+
+324
+00:24:46,000 --> 00:24:52,000
+that I haven't even read yet. This is absolutely phenomenal. And I also said, the other day
+
+325
+00:24:52,000 --> 00:24:54,000
+we were talking about Python as I was talking about how...
+
+326
+00:24:55,500 --> 00:25:02,500
+And I thought that Python was a Dutch invention and indeed Eric De Jong was sent me a mail
+
+327
+00:25:02,500 --> 00:25:10,500
+and he says Python was conceived at the Free University of Amsterdam by a Dutch guy who's
+
+328
+00:25:10,500 --> 00:25:12,500
+been living in the States for a couple of years by now.
+
+329
+00:25:12,500 --> 00:25:13,500
+So that's cool.
+
+330
+00:25:13,500 --> 00:25:14,500
+I didn't know that.
+
+331
+00:25:14,500 --> 00:25:18,500
+Well, I did kind of know it, but it was nice to have the confirmation.
+
+332
+00:25:18,500 --> 00:25:20,500
+It's something to be proud of.
+
+333
+00:25:20,500 --> 00:25:21,500
+Yes, dear.
+
+334
+00:25:22,500 --> 00:25:23,500
+Oh.
+
+335
+00:25:23,500 --> 00:25:24,500
+Huh?
+
+336
+00:25:24,500 --> 00:25:27,500
+Yeah, you're walking into my studio.
+
+337
+00:25:27,500 --> 00:25:31,500
+So then you have to tell me what you're doing here.
+
+338
+00:25:31,500 --> 00:25:32,500
+Your telephone.
+
+339
+00:25:32,500 --> 00:25:33,500
+Okay.
+
+340
+00:25:33,500 --> 00:25:35,500
+I had the goats.
+
+341
+00:25:35,500 --> 00:25:36,500
+You're going to the goats?
+
+342
+00:25:36,500 --> 00:25:39,500
+Okay, and the chickens.
+
+343
+00:25:39,500 --> 00:25:43,500
+And you need your phone when you go to the goats and the chickens?
+
+344
+00:25:43,500 --> 00:25:44,500
+Yeah.
+
+345
+00:25:44,500 --> 00:25:47,500
+You're never going to have to go to my meetings.
+
+346
+00:25:47,500 --> 00:25:51,500
+On that note, everybody, let me see.
+
+347
+00:25:51,500 --> 00:25:54,500
+I had something else queued up for you here that I wanted to play for you.
+
+348
+00:25:54,500 --> 00:25:55,500
+Oh, yeah.
+
+349
+00:25:55,500 --> 00:25:56,500
+Bumper.
+
+350
+00:25:57,000 --> 00:26:02,000
+Morgan, that name may not ring a bell, but you'll remember Dr. Day from Las Vegas and
+
+351
+00:26:02,000 --> 00:26:03,000
+Bumper Morgan.
+
+352
+00:26:03,000 --> 00:26:08,000
+That's not his name I know because he's another big time radio guy from way back.
+
+353
+00:26:08,000 --> 00:26:14,000
+And I think I've met him at like some river fest in Nashville when I was hawking my syndicated
+
+354
+00:26:14,000 --> 00:26:16,000
+countdown show.
+
+355
+00:26:16,000 --> 00:26:18,000
+And he said, hey Adam, how you doing?
+
+356
+00:26:18,000 --> 00:26:24,000
+Heard you a bit about MP3s and it turns out that Bumper, a while back, I love this
+
+357
+00:26:24,000 --> 00:26:26,000
+name, Bumper Morgan everybody.
+
+358
+00:26:26,000 --> 00:26:32,000
+Bumper had put together a bit about the history of MP3s and he sent me a link to it and I'm
+
+359
+00:26:32,000 --> 00:26:33,000
+going to play that for you.
+
+360
+00:26:33,000 --> 00:26:36,000
+Now it's about, let me see, it's got interviews in here.
+
+361
+00:26:36,000 --> 00:26:37,000
+It's, I haven't really...
+
+362
+00:26:39,000 --> 00:26:43,000
+I didn't want to listen to the whole thing first so it's going to be kind of a surprise.
+
+363
+00:26:43,000 --> 00:26:47,000
+It really sucks I'll cut it off but from what I heard the first couple of minutes it sounded
+
+364
+00:26:47,000 --> 00:26:48,000
+like it was going to be really interesting.
+
+365
+00:26:48,000 --> 00:26:54,000
+So it's part of promotion for Bumper but it's also a history of MP3s from a Radio Guys
+
+366
+00:26:54,000 --> 00:26:59,000
+perspective which of course is always fun to listen to and it's also good because
+
+367
+00:26:59,000 --> 00:27:02,000
+there's a lot of what we're doing with this podcasting.
+
+368
+00:27:02,000 --> 00:27:04,000
+Okay so let's hit this and I'll talk to you in about 8 minutes.
+
+369
+00:27:04,000 --> 00:27:07,000
+This is the history of MP3 from Bumper Morgan.
+
+370
+00:27:09,000 --> 00:27:13,000
+In 1994, there's been a revolution going on in the radio industry.
+
+371
+00:27:13,000 --> 00:27:18,000
+Radio stations can receive their product at net speed with bumper production.
+
+372
+00:27:18,000 --> 00:27:20,000
+So revolution!
+
+373
+00:27:31,500 --> 00:27:37,500
+for the consumer. It just means a great way to store great large amounts of audio on a very small
+
+374
+00:27:37,500 --> 00:27:41,500
+amount of space. You can put 100 songs on a CD and that's a wonderful thing.
+
+375
+00:27:41,500 --> 00:27:46,500
+Bob Ellison from Centrillion Software, the makers of Cool Edit Pro.
+
+376
+00:27:46,500 --> 00:27:49,500
+We've got new products coming out like the Rio from Diamond Multimedia,
+
+377
+00:27:49,500 --> 00:27:55,500
+kind of like a Walkman with MP3 on it. And to the audio professional for high-end audio
+
+378
+00:27:55,500 --> 00:28:00,500
+production, MP3 means that you can trade audio at a very high quality across the internet.
+
+379
+00:28:00,500 --> 00:28:03,500
+This is something that really wasn't possible before because audio takes up so much room.
+
+380
+00:28:04,500 --> 00:28:08,500
+And so the quality level and the compression that we've achieved has made a great difference.
+
+381
+00:28:08,500 --> 00:28:13,500
+And of course in radio, the big difference is being able to trade actual broadcast quality
+
+382
+00:28:13,500 --> 00:28:18,500
+samples right across the internet over email, over the web, and the other methods that we're also
+
+383
+00:28:18,500 --> 00:28:23,500
+used to today on the internet. Research for MP3 really began in the late 1970s with a group of
+
+384
+00:28:27,000 --> 00:28:30,000
+at the University of Erlangen in Germany.
+
+385
+00:28:30,000 --> 00:28:37,000
+It has taken a long time, I think, to arrive at the level of MP3, what we have today.
+
+386
+00:28:37,000 --> 00:28:41,000
+And I think it was a collaboration of really a team.
+
+387
+00:28:41,000 --> 00:28:47,000
+We started back at the end of the 70s,
+
+388
+00:28:47,000 --> 00:28:52,000
+and I made a research proposal to a research organization
+
+389
+00:28:52,000 --> 00:28:59,000
+to transmit audio via telephone lines
+
+390
+00:28:59,000 --> 00:29:05,000
+with the ISDN 64 kilobit per second data rate.
+
+391
+00:29:05,000 --> 00:29:09,000
+But this was considered at that time to be impossible.
+
+392
+00:29:09,000 --> 00:29:14,000
+I even had the idea together with a colleague to file a patent.
+
+393
+00:29:14,000 --> 00:29:21,000
+But the guy at the patent office refused to file it as a patent
+
+394
+00:29:21,000 --> 00:29:26,000
+because he again said that it's impossible according to the state of the knowledge.
+
+395
+00:29:26,000 --> 00:29:31,000
+And then I asked a young PhD student,
+
+396
+00:29:28,500 --> 00:29:34,500
+student at that time, this was Karlheinz Brandenburg, who is now the world-leading expert in that
+
+397
+00:29:34,500 --> 00:29:35,500
+area.
+
+398
+00:29:35,500 --> 00:29:46,500
+I asked him to make a simulation on his computer about 64 kilobit per second music audio coding.
+
+399
+00:29:46,500 --> 00:29:48,500
+This was the star.
+
+400
+00:29:48,500 --> 00:29:56,500
+He tried it and after four weeks we could listen to some seconds of coded audio and
+
+401
+00:29:56,500 --> 00:29:57,500
+the quality was not.
+
+402
+00:30:00,000 --> 00:30:05,000
+Isn't that interesting that some guy at the patent office refused to take the patent for MP3 because he said it's just not
+
+403
+00:30:07,500 --> 00:30:12,500
+Whoever that guy is, give him a medal.
+
+404
+00:30:12,500 --> 00:30:20,500
+And from there we started to really work seriously on it and we started with what at that time
+
+405
+00:30:20,500 --> 00:30:27,500
+was called transform coding, which essentially was to bring the signal from the time domain
+
+406
+00:30:27,500 --> 00:30:38,500
+in the frequency domain. And then we immediately had the idea to imitate the properties of the human ear,
+
+407
+00:30:39,500 --> 00:30:52,500
+the human sense of listening, and to omit those parts of the signal which could not be heard by
+
+408
+00:30:53,500 --> 00:31:00,500
+by the listener, by the human ear. And this I think this was what was called at that time
+
+409
+00:31:02,500 --> 00:31:07,500
+irrelevant. And irrelevant is just a part of the message which the receiver
+
+410
+00:31:09,000 --> 00:31:24,000
+cannot receive and cannot hear in the case of the ear or if any other receiver cannot perceive at all.
+
+411
+00:31:24,000 --> 00:31:33,000
+So I think this was very good to do in the frequency domain because we had the sensitivity curve of the ear
+
+412
+00:31:33,000 --> 00:31:40,000
+and with this sensitivity curve we could determine the amount of information, the number of data,
+
+413
+00:31:40,000 --> 00:31:48,000
+the number of bits we needed in each critical band, which the acoustic people they know what critical bands are.
+
+414
+00:31:48,000 --> 00:31:56,000
+And then we had a clear understanding how many bits we would need and we started to measure with real music this data.
+
+415
+00:31:56,000 --> 00:32:05,000
+And at the same time we were working in the field of electronics and we were very strong in developing not only in relation techniques
+
+416
+00:32:05,000 --> 00:32:11,000
+but signal processing and we started to build bits like this.
+
+417
+00:32:10,500 --> 00:32:18,500
+Then we saw that with symbol algorithm for the frequency transform, we could do it in real
+
+418
+00:32:18,500 --> 00:32:19,500
+time.
+
+419
+00:32:19,500 --> 00:32:23,500
+As soon as we had this, this was in 87.
+
+420
+00:32:23,500 --> 00:32:24,500
+Then MPEG started.
+
+421
+00:32:24,500 --> 00:32:33,500
+We made a demonstration to the MPEG group under the another Kiraleone.
+
+422
+00:32:33,500 --> 00:32:39,500
+The people were enthusiastic about what we had achieved.
+
+423
+00:32:39,500 --> 00:32:41,500
+Then we went on.
+
+424
+00:32:41,500 --> 00:32:49,500
+There was a European research project, what was called BAB, Digital Audio Broadcasting.
+
+425
+00:32:49,500 --> 00:32:58,500
+In this project, we developed I think the concept of perceptual coding.
+
+426
+00:32:58,500 --> 00:33:07,500
+In the meantime, also, Hans Brandenburg, he had been with the Bell laboratories and talking
+
+427
+00:33:12,000 --> 00:33:18,000
+gentleman whose name is Johnson. I think he's all famous in perceptual coding. And so we developed
+
+428
+00:33:18,000 --> 00:33:29,000
+step by step through the level that is represented by MP3 today, which is a step by step refinement
+
+429
+00:33:29,000 --> 00:33:31,000
+of the original techniques.
+
+430
+00:33:33,000 --> 00:33:38,000
+From there, the Fraunhofer Institute in Munich, licenses the MPEG codex.
+
+431
+00:33:38,000 --> 00:33:43,000
+We started with the Fraunhofer Institute in 1985.
+
+432
+00:33:43,000 --> 00:33:50,000
+This was the foundation of the Fraunhofer Institute because before we did it at the university only.
+
+433
+00:33:50,000 --> 00:33:56,000
+And the Fraunhofer Institute did start it with the real-time implementation.
+
+434
+00:33:56,000 --> 00:34:01,000
+And it was their first contribution to do it in real-time.
+
+435
+00:34:01,000 --> 00:34:09,000
+It was done in 1987 where other people did the simulation
+
+436
+00:34:09,000 --> 00:34:16,000
+and could present about 10 to 20 seconds of music which they had done simulations on for hours.
+
+437
+00:34:16,000 --> 00:34:19,000
+And we were able to do it in real-time.
+
+438
+00:34:19,000 --> 00:34:26,000
+And I think this was a big breakthrough because then you could demonstrate to everybody, you know,
+
+439
+00:34:26,000 --> 00:34:35,000
+and you could go to evaluations and present it and everybody could bring his CD along with him.
+
+440
+00:34:34,500 --> 00:34:37,500
+and they will play it through so I can listen to your...
+
+441
+00:34:39,000 --> 00:34:42,000
+And I think this was really the breakthrough
+
+442
+00:34:42,000 --> 00:34:44,000
+that we could do it in real time.
+
+443
+00:34:44,000 --> 00:34:45,000
+And they are convinced of people,
+
+444
+00:34:45,000 --> 00:34:48,000
+and you could do a lot of experiments
+
+445
+00:34:48,000 --> 00:34:52,000
+with a lot of different pieces of music,
+
+446
+00:34:52,000 --> 00:34:54,000
+and you were able to convince the people.
+
+447
+00:34:54,000 --> 00:34:56,000
+Then, tell those systems into the fray
+
+448
+00:34:56,000 --> 00:34:59,000
+with their new real-time product.
+
+449
+00:34:59,000 --> 00:35:01,000
+The Zephyr was the first commercial product
+
+450
+00:35:01,000 --> 00:35:03,000
+to incorporate MP3.
+
+451
+00:35:03,000 --> 00:35:05,000
+And ever since it came out in 1994,
+
+452
+00:35:05,000 --> 00:35:07,000
+broadcasters have been really impressed
+
+453
+00:35:07,000 --> 00:35:09,000
+with both its audio quality and its convenience.
+
+454
+00:35:09,000 --> 00:35:12,000
+Kevin Tam of Colo's System.
+
+455
+00:35:12,000 --> 00:35:13,000
+It really makes the remote sound like...
+
+456
+00:35:15,000 --> 00:35:20,000
+And more often than they care to think, the Zephyr has filled in as a backup to other transmissions.
+
+457
+00:35:20,000 --> 00:35:24,000
+It's also caught on for use by voiceover talent and also for mix approval.
+
+458
+00:35:24,000 --> 00:35:26,000
+The power of MP3 is really awesome.
+
+459
+00:35:26,000 --> 00:35:34,000
+And just like analog tapes, when you make too many doves of MP3 files, your product will suffer from generation loss.
+
+460
+00:35:34,000 --> 00:35:38,000
+Well, one of the things to remember about MP3 is that it is a lossy format.
+
+461
+00:35:38,000 --> 00:35:43,000
+Lossy means that when you encode to that format, you lose a little bit of fidelity of the audio.
+
+462
+00:35:43,000 --> 00:35:51,000
+And MP3 is so good because you don't lose the pieces of the audio that are most important to making it sound just as good as it was in the original.
+
+463
+00:35:51,000 --> 00:36:00,000
+But it is a keep in mind because when you're encoding to MP3, let's say you take a file and you encode it, and then you decode it, and you encode it again,
+
+464
+00:36:00,000 --> 00:36:03,000
+and then you decode it to wave again, and you encode it again.
+
+465
+00:36:03,000 --> 00:36:09,000
+With each iteration of this encoding process and decoding process, you lose more of the fidelity of the audio.
+
+466
+00:36:09,000 --> 00:36:17,000
+And all that means is that we have to think of MP3 as a target format, a sort of a one-way street ideally, and use...
+
+467
+00:36:16,500 --> 00:36:19,500
+This is ENCODE 2 MP3 when you're done with your audio and you know you were ready to submit
+
+468
+00:36:19,500 --> 00:36:23,500
+it for broadcast or archive it or what have you.
+
+469
+00:36:23,500 --> 00:36:26,500
+The time has come.
+
+470
+00:36:28,500 --> 00:36:31,500
+to downloadable promos and buffers at the speed of net.
+
+471
+00:36:31,500 --> 00:36:33,500
+So, roll-o-sh!
+
+472
+00:36:36,000 --> 00:36:43,000
+The most excellent bumper Morgan. Thank you very much for that history. I had no idea
+
+473
+00:36:43,000 --> 00:36:51,000
+So now we know that mp3 was is a fine German invention and that if some lonely guy at at the patent office
+
+474
+00:36:51,000 --> 00:36:55,000
+I've zoomed in Germany if he hadn't said I do live on assist me
+
+475
+00:36:55,000 --> 00:37:00,000
+I'm going to be a patient application
+
+476
+00:37:00,000 --> 00:37:02,000
+Come back another day
+
+477
+00:37:02,000 --> 00:37:08,000
+They weren't for that we might have been bogged down with tremendous boy wouldn't have and we probably wouldn't have mp3
+
+478
+00:37:08,000 --> 00:37:10,000
+You know wouldn't be able to use it
+
+479
+00:37:10,000 --> 00:37:13,000
+So thank you very much to that guy. That was fun listening to that actually
+
+480
+00:37:14,000 --> 00:37:21,000
+And I didn't know well conceptually I guess I figured if you keep re-recording mp3s then eventually you get degradation
+
+481
+00:37:24,000 --> 00:37:28,000
+Haven't noticed too much of that although if this mp3 is an example because this did come from an mp3
+
+482
+00:37:28,000 --> 00:37:30,000
+Well, then it's true because that's not pretty
+
+483
+00:37:31,500 --> 00:37:37,500
+up. But usually when I play first run stuff from someone else's podcast, it sounds pretty
+
+484
+00:37:37,500 --> 00:37:41,500
+good depending on the encoding. That may also have to do with... Well, I don't know because
+
+485
+00:37:41,500 --> 00:37:47,500
+I am setting this digitally through my sound system. I have no idea. I have no idea. So
+
+486
+00:37:47,500 --> 00:37:51,500
+obviously there's going to be degradation, something we've got to keep an eye on if
+
+487
+00:37:51,500 --> 00:37:52,500
+we're doing too much overdubbing.
+
+488
+00:37:52,500 --> 00:37:56,500
+Now, let me see. I have two... Well, we're at 37 minutes. I missed the show yesterday,
+
+489
+00:37:56,500 --> 00:38:00,500
+so I guess we can go a little bit long. There's two things I wanted to do. I have a
+
+490
+00:38:00,500 --> 00:38:04,500
+bit of an audio book I wanted to let you hear. I've finally gotten around to
+
+491
+00:38:04,500 --> 00:38:10,500
+listening to Snow Crash, a Snow Crash written by Neil Stevenson. Now, I've read
+
+492
+00:38:10,500 --> 00:38:14,500
+this book in the early, early 90s, so I'm going to say that it's probably from
+
+493
+00:38:14,500 --> 00:38:19,500
+the late 80s. And listening to it, of course, brings back the book. It was
+
+494
+00:38:19,500 --> 00:38:24,500
+a pretty significant book. At one point, I even registered Metaverse.com,
+
+495
+00:38:24,500 --> 00:38:27,500
+with Neil Stevenson's approval as long as I didn't put it on T-shirts and coffee mugs.
+
+496
+00:38:28,500 --> 00:38:32,500
+And unfortunately, that went in with the sale of my company.
+
+497
+00:38:33,000 --> 00:38:34,000
+company that was a part of the assets.
+
+498
+00:38:34,000 --> 00:38:35,000
+Damn.
+
+499
+00:38:35,000 --> 00:38:38,000
+I still would have liked to have Adam at Mediverse.com.
+
+500
+00:38:38,000 --> 00:38:39,000
+We even had machines.
+
+501
+00:38:39,000 --> 00:38:40,000
+If you've read the book, we had a machine.
+
+502
+00:38:43,500 --> 00:38:48,500
+pretty into it. When we started the company, it was Carl Jacobs who turned me on to that.
+
+503
+00:38:48,500 --> 00:38:53,500
+He used to work for Sun. Carl and his brother Chris, they were out in San Francisco hacking
+
+504
+00:38:53,500 --> 00:39:00,500
+away at the black Sun machine for the metaverse. Good days. In fact, I remember pushing audio
+
+505
+00:39:00,500 --> 00:39:07,500
+through at the time when we had just gotten the 96K modem and through the PC, the PC
+
+506
+00:39:13,500 --> 00:39:18,500
+M codec, I was able to receive audio coming from San Francisco through the
+
+507
+00:39:18,500 --> 00:39:25,500
+Sun machine over the internet. At the time I had a regular 56K dial-up modem,
+
+508
+00:39:25,500 --> 00:39:32,500
+US robotics, I think. Those were the days. Anyway, so Snow Crash, really in its, as
+
+509
+00:39:32,500 --> 00:39:35,500
+with all science fiction, it's always fun to look back and say, okay, so how much
+
+510
+00:39:35,500 --> 00:39:37,500
+really came to me.
+
+511
+00:39:39,000 --> 00:39:46,000
+And I guess when this book was written, Cable was a big deal.
+
+512
+00:39:46,000 --> 00:39:48,000
+Cable came up in the 80s of course.
+
+513
+00:39:48,000 --> 00:39:53,000
+That's what I have a lot of my fame and fortune to thank for, is MTV being in over 40 million
+
+514
+00:39:53,000 --> 00:39:55,000
+households.
+
+515
+00:39:55,000 --> 00:40:01,000
+And in the book, and it's too complicated to get into everything, but there's a cable
+
+516
+00:40:01,000 --> 00:40:02,000
+television mogul.
+
+517
+00:40:02,000 --> 00:40:05,000
+And I'm just going to play a little bit of him.
+
+518
+00:40:05,000 --> 00:40:07,000
+And by the way, this book isn't just one reader.
+
+519
+00:40:07,000 --> 00:40:08,000
+It's multiple voices.
+
+520
+00:40:08,000 --> 00:40:10,000
+It's some sound effects in there.
+
+521
+00:40:10,000 --> 00:40:12,000
+It's just really well done.
+
+522
+00:40:12,000 --> 00:40:16,000
+But to hear these words that were written way before we were really thinking about
+
+523
+00:40:16,000 --> 00:40:24,000
+any of this, before really the commercial internet happened, which at the time,
+
+524
+00:40:24,000 --> 00:40:28,000
+yeah, I mean it was the World Wide Web was just, yeah, we just had the mosaic
+
+525
+00:40:28,000 --> 00:40:29,000
+browser when I read the book.
+
+526
+00:40:29,000 --> 00:40:31,000
+So it came out before then.
+
+527
+00:40:31,000 --> 00:40:37,000
+The foresight really of what monopolists were going to do with communications,
+
+528
+00:40:37,000 --> 00:40:40,000
+telecommunications, and technology is already all.
+
+529
+00:40:40,500 --> 00:40:45,500
+over this book. Now hopefully I've bookmarked it appropriately. You can do that with the
+
+530
+00:40:45,500 --> 00:40:52,500
+AAC format. And this should be the piece of him, of the cable television mogul who has
+
+531
+00:40:52,500 --> 00:40:58,500
+a Texas twang of him talking about, well just shooting the breeze. So this is from
+
+532
+00:40:58,500 --> 00:41:02,500
+Snow Crash. The unabridged version is from part one. In total it's about 17 hours
+
+533
+00:41:02,500 --> 00:41:10,500
+of audio. Very well read. Very good quality. And I think totally enthralling from
+
+534
+00:41:10,500 --> 00:41:12,500
+beginning to end.
+
+535
+00:41:13,500 --> 00:41:15,500
+Okay, that should have started.
+
+536
+00:41:15,500 --> 00:41:22,500
+El Bob Reif, Lord of Bandwidth, is sitting behind his desk having his mustache waxed.
+
+537
+00:41:22,500 --> 00:41:25,500
+Not in the sense that women have their legs waxed.
+
+538
+00:41:25,500 --> 00:41:28,500
+He's having the curls smoothed out and restored.
+
+539
+00:41:28,500 --> 00:41:33,500
+The waxer is a very short Asian woman who does it so delicately that it doesn't even
+
+540
+00:41:33,500 --> 00:41:38,500
+interfere with his talking, mostly about his efforts to extend his cable TV network throughout
+
+541
+00:41:38,500 --> 00:41:43,500
+Korea and into China, and link it up with his big fiber optic trunk line that runs across
+
+542
+00:41:43,500 --> 00:41:46,500
+Siberia and over the Urals.
+
+543
+00:41:46,500 --> 00:41:50,500
+Yeah, you know, a monopolist's work is never done.
+
+544
+00:41:50,500 --> 00:41:53,500
+No such thing as a perfect monopoly.
+
+545
+00:41:53,500 --> 00:41:58,500
+Seems like you can never get that last one-tenth of one percent.
+
+546
+00:41:58,500 --> 00:42:00,500
+Isn't the government still strong in Korea?
+
+547
+00:42:00,500 --> 00:42:03,500
+You must have more trouble with regulations there.
+
+548
+00:42:03,500 --> 00:42:05,500
+El Bob Reif laughs.
+
+549
+00:42:05,500 --> 00:42:12,500
+You know, watching government regulators trying to keep up with the world is my favorite sport.
+
+550
+00:42:12,500 --> 00:42:14,500
+Remember when they busted up Ma Bell?
+
+551
+00:42:15,000 --> 00:42:19,000
+Just barely. The reporters are women in her 20s.
+
+552
+00:42:19,000 --> 00:42:23,000
+You know what it was, right? Voice communications monopoly.
+
+553
+00:42:23,000 --> 00:42:28,000
+Right. They were in the same business as me. The information business.
+
+554
+00:42:28,000 --> 00:42:33,000
+Moving phone conversations around on little tiny copper wires one at a time.
+
+555
+00:42:33,000 --> 00:42:41,000
+Government busted them up. At the same time when I was starting cable TV franchises in 30 states.
+
+556
+00:42:41,000 --> 00:42:50,000
+Can you believe that? It's like if they figured out a way to regulate horses at the same time the Model T and the airplane were being introduced.
+
+557
+00:42:51,000 --> 00:42:54,000
+And a cable TV system isn't the same as a phone system.
+
+558
+00:42:54,000 --> 00:42:56,000
+At that stage it wasn't.
+
+559
+00:42:56,000 --> 00:42:59,000
+Because it was just a local system.
+
+560
+00:42:59,000 --> 00:43:05,000
+But once you get local systems all over the world, all you gotta do is hook them together
+
+561
+00:43:05,000 --> 00:43:07,000
+and it's a global network.
+
+562
+00:43:07,000 --> 00:43:10,000
+Just as big as the phone system.
+
+563
+00:43:10,000 --> 00:43:14,000
+Except this one carries information 10,000 times faster.
+
+564
+00:43:14,000 --> 00:43:20,000
+It carries images, sound, data, you name it.
+
+565
+00:43:20,000 --> 00:43:27,000
+So eventually of course we know what happened is we got the internet and Neil Stevenson at all.
+
+566
+00:43:31,500 --> 00:43:33,500
+goggles and you walk around in it.
+
+567
+00:43:33,500 --> 00:43:34,500
+Great book.
+
+568
+00:43:34,500 --> 00:43:38,500
+I really recommend it if you are going on vacation on a really long drive and you won't
+
+569
+00:43:38,500 --> 00:43:39,500
+regret it.
+
+570
+00:43:39,500 --> 00:43:40,500
+You do have to stop at certain points.
+
+571
+00:43:40,500 --> 00:43:46,500
+It just gets so intense and the visuals that are being created is like, oh, I don't know,
+
+572
+00:43:46,500 --> 00:43:49,500
+that's technically possible.
+
+573
+00:43:49,500 --> 00:43:51,500
+But yeah, totally, totally good book.
+
+574
+00:43:51,500 --> 00:43:56,500
+I bought it at audible.com, but I'm sure you can get it just about anywhere.
+
+575
+00:43:56,500 --> 00:43:57,500
+Okay.
+
+576
+00:43:57,500 --> 00:43:58,500
+One more bit then.
+
+577
+00:43:58,500 --> 00:44:00,500
+I've been through the blog digger media feed.
+
+578
+00:44:00,500 --> 00:44:06,500
+There's been lots of mixes of, and I kind of like listening to most of them, of soundbites,
+
+579
+00:44:06,500 --> 00:44:09,500
+presidential debates, stuff like that.
+
+580
+00:44:09,500 --> 00:44:13,500
+And so people are kind of creating their own story with the tools that we're all using
+
+581
+00:44:13,500 --> 00:44:15,500
+today, just desktop tools.
+
+582
+00:44:15,500 --> 00:44:21,500
+This isn't really one of the best ones and you'll have to decide for yourself.
+
+583
+00:44:21,500 --> 00:44:23,500
+It's only about a minute and a half.
+
+584
+00:44:23,500 --> 00:44:26,500
+But it's out there and if I don't play it now, it won't make much sense playing
+
+585
+00:44:26,500 --> 00:44:29,500
+it later on after the election.
+
+586
+00:44:29,500 --> 00:44:32,500
+So here's, and of course, I don't know who it's from.
+
+587
+00:44:33,000 --> 00:44:38,000
+It only says Norrell Preff or N-O-Rell Preff maybe.
+
+588
+00:44:38,000 --> 00:44:40,000
+It's titled Liars and Murderers.
+
+589
+00:44:40,000 --> 00:44:42,000
+I don't like your name.
+
+590
+00:44:42,000 --> 00:44:46,000
+The government are um, Liars and Murderers.
+
+591
+00:44:46,000 --> 00:44:50,000
+I don't like your name.
+
+592
+00:44:50,000 --> 00:44:55,000
+The government are um, Liars and Murderers.
+
+593
+00:44:55,000 --> 00:44:57,000
+I despise your masculinity.
+
+594
+00:44:57,000 --> 00:45:00,000
+Put yourself in your whole fucking plan.
+
+595
+00:45:00,000 --> 00:45:02,000
+Liars and Murderers.
+
+596
+00:45:02,000 --> 00:45:11,000
+We will bring the Iraqi people food and medicines and supplies and freedom.
+
+597
+00:45:13,500 --> 00:45:15,500
+Something for her to play little games.
+
+598
+00:45:16,500 --> 00:45:17,500
+Players.
+
+599
+00:45:17,500 --> 00:45:19,500
+We're both part of the same hypocrisy.
+
+600
+00:45:21,000 --> 00:45:22,000
+And so were we.
+
+601
+00:45:22,000 --> 00:45:30,000
+In this honest way you pose yourself and try to pass yourselves off as decent Americans.
+
+602
+00:45:30,000 --> 00:45:36,000
+The Taliban regime in Afghanistan had given Osama bin Laden a base.
+
+603
+00:45:36,000 --> 00:45:40,000
+Khat bin Laden and the Taliban leader were never caught.
+
+604
+00:45:40,000 --> 00:45:44,000
+Instead more than 3,000 innocent people were involved to death.
+
+605
+00:45:44,000 --> 00:45:47,000
+Some people have to play little games.
+
+606
+00:45:47,000 --> 00:45:49,000
+Players.
+
+607
+00:45:49,000 --> 00:45:54,000
+America's war on terror is about hypocrisy and double standards.
+
+608
+00:45:54,000 --> 00:45:57,000
+They don't want the voice of reason spoken folks because otherwise we'd be free.
+
+609
+00:45:57,000 --> 00:46:01,000
+Otherwise we wouldn't believe their fucking horseshit lies or the fucking propaganda machine
+
+610
+00:46:01,000 --> 00:46:04,000
+being streamed in by their horseshit products that we don't fucking need
+
+611
+00:46:04,000 --> 00:46:08,000
+and become a third world consumer fucking plantation which is what we're becoming.
+
+612
+00:46:08,000 --> 00:46:09,000
+Fuck them.
+
+613
+00:46:09,000 --> 00:46:11,000
+They're liars and murderers.
+
+614
+00:46:11,000 --> 00:46:14,000
+All governments are liars and murderers.
+
+615
+00:46:14,000 --> 00:46:17,000
+I don't like your kind people.
+
+616
+00:46:17,000 --> 00:46:18,000
+Whoa.
+
+617
+00:46:18,000 --> 00:46:21,000
+So I get a lot of email people saying, you know, why do you play this stuff?
+
+618
+00:46:21,000 --> 00:46:23,000
+Do you agree with everything?
+
+619
+00:46:22,500 --> 00:46:24,500
+We'll say, and no, of course not, not with everything.
+
+620
+00:46:24,500 --> 00:46:25,500
+I think some of the words are pretty harsh.
+
+621
+00:46:25,500 --> 00:46:27,500
+Some of them are right on the money.
+
+622
+00:46:27,500 --> 00:46:31,500
+But this is art, you know, whether it's mixing stuff together
+
+623
+00:46:31,500 --> 00:46:33,500
+or painting something, you know, throwing oil on a canvas.
+
+624
+00:46:33,500 --> 00:46:34,500
+It's art.
+
+625
+00:46:34,500 --> 00:46:37,500
+And I think that as long as we're doing this podcast,
+
+626
+00:46:37,500 --> 00:46:40,500
+it might as expose as much of it as possible.
+
+627
+00:46:40,500 --> 00:46:42,500
+All right, I'm going to leave it at that for today's source
+
+628
+00:46:42,500 --> 00:46:42,500
+code.
+
+629
+00:46:42,500 --> 00:46:43,500
+What do we do?
+
+630
+00:46:43,500 --> 00:46:44,500
+We did 46 minutes.
+
+631
+00:46:44,500 --> 00:46:44,500
+Perfect.
+
+632
+00:46:44,500 --> 00:46:46,500
+I hope you just finished your.
+
+633
+00:46:49,500 --> 00:46:53,500
+And I will see you on the next source code which will likely be right after the weekend.
+
+634
+00:46:57,000 --> 00:47:01,000
+And this was the show, the Daily Source Code for today, which was Friday, October 1st,
+
+635
+00:47:01,000 --> 00:47:03,000
+2004, as always.
+
+636
+00:47:12,000 --> 00:47:21,000
+And of course for all the archives in the latest show, it's DailySourceCo.com or...
+
+637
+00:47:27,000 --> 00:47:29,000
+And that is at DailySourceCo.com.
+
+638
+00:47:29,000 --> 00:47:32,000
+I hope you enjoyed it.
+
+639
+00:47:32,000 --> 00:47:33,000
+I'll talk to you soon.
+
+640
+00:47:33,000 --> 00:47:34,000
+Bye bye.
+

@@ -1,0 +1,2184 @@
+1
+00:00:00,000 --> 00:00:12,000
+Well, good afternoon everybody! Welcome to the Daily Source Code, coming to you live!
+
+2
+00:00:12,000 --> 00:00:16,000
+Almost live. Bit delayed, maybe it was yesterday, maybe it's tomorrow. It's from
+
+3
+00:00:16,000 --> 00:00:19,000
+Flanders Belgium from Curry Castle. This is your daily...
+
+4
+00:00:24,000 --> 00:00:31,000
+Oh boy, got a lot of stuff lined up for you today. I know I always say that.
+
+5
+00:00:34,500 --> 00:00:38,500
+on a quick Skype call to Dave Weiner and I said you know I could do the stuff I
+
+6
+00:00:38,500 --> 00:00:41,500
+receive every single day I could put together three source codes it's just
+
+7
+00:00:41,500 --> 00:00:45,500
+how do I weed through all this stuff to find the good things right well
+
+8
+00:00:45,500 --> 00:00:49,500
+basically my iPod are does a
+
+9
+00:00:51,000 --> 00:00:56,000
+I've got a what's new playlist set up. It's a smart list. So basically the rules are it's just like an email
+
+10
+00:00:58,500 --> 00:01:01,500
+If it's happened to be played before and it's in this category then
+
+11
+00:01:01,500 --> 00:01:02,500
+line it up.
+
+12
+00:01:03,500 --> 00:01:07,500
+And that's how I get all kinds of cool tunes and stuff coming off the blog
+
+13
+00:01:07,500 --> 00:01:08,500
+dear
+
+14
+00:01:09,500 --> 00:01:11,500
+mp3 feeds.
+
+15
+00:01:11,500 --> 00:01:13,500
+Just so much so much stuff coming in.
+
+16
+00:01:14,500 --> 00:01:17,500
+And this is the source code where of course users and developers make the
+
+17
+00:01:17,500 --> 00:01:18,500
+pot-tay happen.
+
+18
+00:01:19,500 --> 00:01:21,500
+And I got to tell you last night I could barely sleep.
+
+19
+00:01:21,500 --> 00:01:24,500
+It was all day yesterday.
+
+20
+00:01:24,500 --> 00:01:27,500
+I was doing interviews mainly with journalists based on
+
+21
+00:01:28,500 --> 00:01:29,500
+the West Coast.
+
+22
+00:01:29,500 --> 00:01:34,500
+So it was LA Times, Wired magazine, Business Week, which was she was in
+
+23
+00:01:34,500 --> 00:01:36,500
+New York, had a great, great chat with her.
+
+24
+00:01:37,500 --> 00:01:42,500
+Susan is a she's an old radio pirate herself.
+
+25
+00:01:42,500 --> 00:01:44,500
+I'm expecting a cool article.
+
+26
+00:01:46,500 --> 00:01:48,500
+Let's see who else that I talked to.
+
+27
+00:01:48,500 --> 00:01:52,500
+I talked to publication in Minneapolis, St.
+
+28
+00:01:52,500 --> 00:01:56,500
+Paul, hoping of course to reach a prince through that interview.
+
+29
+00:01:56,500 --> 00:01:58,500
+And, oh man.
+
+30
+00:02:00,000 --> 00:02:05,000
+There we go. Leo La Porte has a radio or whatever.
+
+31
+00:02:07,500 --> 00:02:11,500
+So, he's going to interview me tomorrow.
+
+32
+00:02:11,500 --> 00:02:13,500
+That'll be a radio interview.
+
+33
+00:02:13,500 --> 00:02:19,500
+I've been doing just so much work on this that I got in bed last night and I just had
+
+34
+00:02:19,500 --> 00:02:25,500
+URL ipodder.org circling my head and I started to, I got like cold.
+
+35
+00:02:28,500 --> 00:02:31,500
+had to pull out a fan to cool down and to walk around.
+
+36
+00:02:31,500 --> 00:02:32,500
+I was buzzing.
+
+37
+00:02:32,500 --> 00:02:34,500
+I was just electrified, full of energy.
+
+38
+00:02:34,500 --> 00:02:36,500
+You know what that's like when you can't sleep?
+
+39
+00:02:36,500 --> 00:02:40,500
+It's just like sparks flying off your brain, man.
+
+40
+00:02:40,500 --> 00:02:42,500
+So that usually means that I'm really excited about something,
+
+41
+00:02:42,500 --> 00:02:45,500
+and I am because this is just so nice,
+
+42
+00:02:45,500 --> 00:02:49,500
+everything that's taken place.
+
+43
+00:02:49,500 --> 00:02:51,500
+So I've got a couple of songs that I want to play for you.
+
+44
+00:02:51,500 --> 00:02:55,500
+Of course, I also want to talk about some iPod'r stuff.
+
+45
+00:03:03,000 --> 00:03:07,000
+just bringing up the speed on what the latest developments are and what's going on.
+
+46
+00:03:07,000 --> 00:03:15,000
+And I've finally had some time this morning to start updating the directories on iPodder.org.
+
+47
+00:03:15,000 --> 00:03:20,000
+And I'm far from finished. What's cool about the directory, you have two. One is the software
+
+48
+00:03:20,000 --> 00:03:26,000
+directory. Now I'm still working on getting all that together. It's a little harder to
+
+49
+00:03:26,000 --> 00:03:31,000
+figure out who's doing what and where. But since I voiced that concern, I'm getting a lot of
+
+50
+00:03:31,000 --> 00:03:36,000
+emails with the introduction saying, okay, we're the new iPodder.net team. Here's who we are.
+
+51
+00:03:40,500 --> 00:03:45,500
+If you go to iPodder.org and you go to the shows directory, there's a hyperlink and you
+
+52
+00:03:45,500 --> 00:03:49,500
+click on it and you get a form and you can say, okay, I want to add this show.
+
+53
+00:03:49,500 --> 00:03:56,500
+Just type in the URL and the RSS feed of your show and I'll add that to the directory.
+
+54
+00:03:56,500 --> 00:03:58,500
+That resource is finally picking up a little bit.
+
+55
+00:03:58,500 --> 00:04:02,500
+But I also want to do a redesign and just get this a little bit tighter and make it
+
+56
+00:04:02,500 --> 00:04:04,500
+a little more efficient for everybody.
+
+57
+00:04:04,500 --> 00:04:07,500
+I've had some excellent offers of help.
+
+58
+00:04:07,500 --> 00:04:08,500
+Gregory is offered to help.
+
+59
+00:04:08,500 --> 00:04:15,500
+So I'm working on setting up some stuff to make it a little more easy to work with.
+
+60
+00:04:15,500 --> 00:04:17,500
+See what else we've been doing.
+
+61
+00:04:17,500 --> 00:04:19,500
+Oh, here's something.
+
+62
+00:04:19,500 --> 00:04:22,500
+Actually, I'll talk about that in a second when I get to iPodder.
+
+63
+00:04:22,500 --> 00:04:26,500
+First I want to do a request song that came in from...
+
+64
+00:04:28,500 --> 00:04:33,500
+Ray, I think it was, yeah, it was Ray Slakinsky.
+
+65
+00:04:33,500 --> 00:04:35,500
+I think I hope I pronounced that right.
+
+66
+00:04:35,500 --> 00:04:40,500
+Ray, I think he got me started on some bit torrent stuff.
+
+67
+00:04:40,500 --> 00:04:41,500
+He wrote a Python script.
+
+68
+00:04:41,500 --> 00:04:44,500
+I believe he's the author of Nucleus, which to this day,
+
+69
+00:04:44,500 --> 00:04:48,500
+I still have running up on my cloud in the server space
+
+70
+00:04:48,500 --> 00:04:48,500
+somewhere.
+
+71
+00:04:48,500 --> 00:04:52,500
+It just scans the supernova bit torrent files
+
+72
+00:04:52,500 --> 00:04:54,500
+for certain keywords.
+
+73
+00:04:54,500 --> 00:04:57,500
+If it finds one, then it pulls it in,
+
+74
+00:04:57,500 --> 00:04:59,500
+and then it downloads the file from the bit torrent.
+
+75
+00:04:59,500 --> 00:05:01,500
+And then, of course, also lets me know.
+
+76
+00:05:01,500 --> 00:05:03,500
+It notifies me that there's something new.
+
+77
+00:05:03,500 --> 00:05:05,500
+So that's how I get all my recent TV shows,
+
+78
+00:05:05,500 --> 00:05:07,500
+my American TV shows.
+
+79
+00:05:07,500 --> 00:05:09,500
+And he requested.
+
+80
+00:05:09,500 --> 00:05:12,500
+He's also obviously involved in a lot of iPod development.
+
+81
+00:05:12,500 --> 00:05:14,500
+And he said, dude, why don't you
+
+82
+00:05:14,500 --> 00:05:16,500
+play this song by Julia Hatfield?
+
+83
+00:05:16,500 --> 00:05:20,500
+Because this song happens to be about sticking it to the man.
+
+84
+00:05:20,500 --> 00:05:22,500
+I can just hear Dave Slusher.
+
+85
+00:05:22,500 --> 00:05:24,500
+His ears are perking up there in Carolina.
+
+86
+00:05:24,500 --> 00:05:24,500
+Wait a minute.
+
+87
+00:05:24,500 --> 00:05:27,500
+We're sticking it to the music man, to the music business.
+
+88
+00:05:27,500 --> 00:05:30,500
+So let's just get a little vibe going.
+
+89
+00:05:30,000 --> 00:05:35,000
+here on this Tuesday on the SuperSource Code with Julie Hatfield. This is Sell Out!
+
+90
+00:09:16,500 --> 00:09:21,500
+Right on. This is the Daily Source Code. I'm Adam Curry. Glad to have you along for the ride.
+
+91
+00:09:21,500 --> 00:09:29,500
+Okay. A couple more notes about iPodder. If you've been following along with the developments on iPodder.org,
+
+92
+00:09:29,500 --> 00:09:34,500
+I'm happy to let you know that we have three new Windows versions coming out
+
+93
+00:09:34,500 --> 00:09:40,500
+that will work with a variety of MP3 players and playlist management systems.
+
+94
+00:09:40,500 --> 00:09:45,500
+The installs, I've been beta testing some of the installs look really, really good.
+
+95
+00:09:45,500 --> 00:09:49,500
+System tray icons, all the stuff you'd expect as a Windows user
+
+96
+00:09:49,500 --> 00:09:53,500
+and I've actually broken out the Windows laptop to try and figure,
+
+97
+00:09:53,500 --> 00:09:57,500
+try and install them and see what they're doing. The Java version is pretty cool too.
+
+98
+00:09:57,500 --> 00:10:02,500
+I mean, it's just so much. But what it all comes down to when we've discussed this
+
+99
+00:10:02,500 --> 00:10:08,500
+on the iPodder development list is making sure that users get that first, oh wow, experience.
+
+100
+00:10:08,500 --> 00:10:14,500
+And I've had some varying results in the past, well in the past couple of weeks.
+
+101
+00:10:14,500 --> 00:10:17,500
+Basically, I've heard a lot of this banter going on saying, well you want your...
+
+102
+00:10:21,000 --> 00:10:22,000
+mom to be able to figure it out.
+
+103
+00:10:22,000 --> 00:10:23,000
+And that of course is true.
+
+104
+00:10:23,000 --> 00:10:24,000
+So it's all about the defaults.
+
+105
+00:10:24,000 --> 00:10:30,000
+And one thing that we've kind of been sloundering around with is what happens when you first
+
+106
+00:10:30,000 --> 00:10:33,000
+install an iPod or what is the first experience.
+
+107
+00:10:33,000 --> 00:10:39,000
+Currently, we've whittled it down to you subscribe to a feed or a couple of feeds and
+
+108
+00:10:39,000 --> 00:10:43,000
+it's going to go and get the first couple of shows on the first pass round.
+
+109
+00:10:43,000 --> 00:10:47,000
+Just so you're not plugging up your machine or you're bandwidth, you're getting some
+
+110
+00:10:47,000 --> 00:10:49,000
+joy at that first moment.
+
+111
+00:10:49,000 --> 00:10:51,000
+You're like, oh well, it's working.
+
+112
+00:10:51,000 --> 00:10:54,000
+But we thought this through a little bit more and after some conversation on the
+
+113
+00:10:54,000 --> 00:10:59,000
+list and also some requests came in through email is for a default feed and
+
+114
+00:10:59,000 --> 00:11:01,000
+a default file.
+
+115
+00:11:01,000 --> 00:11:03,000
+Now just hack something together, which is going to have to live with for now.
+
+116
+00:11:03,000 --> 00:11:05,000
+I'm not really happy with the URL, but we're going to.
+
+117
+00:11:07,500 --> 00:11:12,500
+to come off of iPodder.org so that it's identifiable as the default feed.
+
+118
+00:11:12,500 --> 00:11:18,500
+So essentially, if you're developing an iPodder right now, you put this feed in as your default
+
+119
+00:11:18,500 --> 00:11:23,500
+subscription to give the users an idea of what a URL looks like.
+
+120
+00:11:23,500 --> 00:11:28,500
+It'll end in .xml, which of course not all RSS feeds do.
+
+121
+00:11:28,500 --> 00:11:31,500
+But when you see it, it's a little easier to visualize.
+
+122
+00:11:31,500 --> 00:11:34,500
+And the feed basically will just sit there and be dormant.
+
+123
+00:11:34,500 --> 00:11:35,500
+It only has one file in it.
+
+124
+00:11:35,500 --> 00:11:37,500
+So that means it's going to bring in that file.
+
+125
+00:11:37,500 --> 00:11:38,500
+It's half a meg.
+
+126
+00:11:40,500 --> 00:11:43,500
+to get pretty much instant joy as a user.
+
+127
+00:11:43,500 --> 00:11:44,500
+And well, I'll do that.
+
+128
+00:11:44,500 --> 00:11:45,500
+Actually, I have it right here.
+
+129
+00:11:45,500 --> 00:11:47,500
+I'm just going to play the default welcome
+
+130
+00:11:47,500 --> 00:11:53,500
+that you will get whenever you flip open an iPod or upon a first install.
+
+131
+00:11:53,500 --> 00:11:56,500
+And if you have any ideas about how to make this better,
+
+132
+00:11:56,500 --> 00:11:59,500
+I just try to keep it short to the point as simple.
+
+133
+00:11:59,500 --> 00:12:00,500
+It's surely let me know.
+
+134
+00:12:00,500 --> 00:12:03,500
+So once you install iPod or if you hear the following,
+
+135
+00:12:03,500 --> 00:12:05,500
+you know that it worked.
+
+136
+00:12:05,500 --> 00:12:06,500
+Hi, I'm Adam Curry.
+
+137
+00:12:06,500 --> 00:12:09,500
+Welcome to the iPod platform.
+
+138
+00:12:09,500 --> 00:12:11,500
+Hearing this message means you have successfully installed
+
+139
+00:12:11,500 --> 00:12:15,500
+iPod on your computer and you should see a new playlist
+
+140
+00:12:15,500 --> 00:12:20,500
+on your MP3 player titled iPod test channel containing this file.
+
+141
+00:12:20,500 --> 00:12:25,500
+You now can add any URL that points to an RSS feed with enclosures
+
+142
+00:12:25,500 --> 00:12:29,500
+to automatically receive new podcasts by subscription.
+
+143
+00:12:29,500 --> 00:12:33,500
+You can use iPod.org as your guide to new software, news,
+
+144
+00:12:33,500 --> 00:12:36,500
+and pointers to new podcast directories and services.
+
+145
+00:12:36,500 --> 00:12:39,500
+We really hope you enjoy receiving and creating your podcasts.
+
+146
+00:12:39,500 --> 00:12:41,500
+And please remember, this stuff's supposed to be...
+
+147
+00:12:42,000 --> 00:12:46,000
+fun. So enjoy. Right. And I'm going to take the stick out of my ass. All right. There we
+
+148
+00:12:46,000 --> 00:12:50,000
+go. So anyway, it's just a, it's a placeholder now. And if we come up with a better script
+
+149
+00:12:50,000 --> 00:12:56,000
+or I'm not too happy with, you know, the, the just briefly passing over an RSS URL,
+
+150
+00:12:56,000 --> 00:13:00,000
+you know, is it, is it simple enough? Will people, will people get it? Do you need any
+
+151
+00:13:00,000 --> 00:13:05,000
+kind of knowledge of RSS? I'll tell you a lot of the journalists that I spoke to hadn't
+
+152
+00:13:05,000 --> 00:13:08,000
+actually used the news aggregator. They've heard of it. You know, they're working
+
+153
+00:13:08,000 --> 00:13:13,000
+on it. Yeah, I want to test that at home. One of them, I think it was the reporter
+
+154
+00:13:13,000 --> 00:13:17,000
+from Daniel, the reporter from Wired. He was using newsgator. So he was, you know,
+
+155
+00:13:17,000 --> 00:13:20,000
+very advanced and he knew that it synced up with this machine at home and the
+
+156
+00:13:20,000 --> 00:13:25,000
+machine at office, at the office. So there's all different levels, but I want
+
+157
+00:13:25,000 --> 00:13:29,000
+to make it as simple as possible. And maybe we need more fanfare and, and, and
+
+158
+00:13:29,000 --> 00:13:33,000
+some fun stuff or more production. But at any rate, now we have a default
+
+159
+00:13:34,000 --> 00:13:39,000
+feed. And if you want me to change that or change, you know, if you think there's any
+
+160
+00:13:39,000 --> 00:13:43,000
+ideas for the MP3, the first welcome MP3. And I think we can do better.
+
+161
+00:13:43,500 --> 00:13:46,500
+better. But just let me know. This is just a placeholder for now.
+
+162
+00:13:46,500 --> 00:13:51,500
+Okay, I already mentioned that I'm updating the show's directory.
+
+163
+00:13:51,500 --> 00:13:55,500
+Just a couple of pages I found around the net.
+
+164
+00:13:55,500 --> 00:13:59,500
+I'm going to go to this now, I hope. Let's see.
+
+165
+00:13:59,500 --> 00:14:04,500
+Russell Beatty wrote a pretty, and of course as you saw from
+
+166
+00:14:04,500 --> 00:14:08,500
+yesterday's show, I'm now linking to all these resources that I'm talking about
+
+167
+00:14:08,500 --> 00:14:15,500
+source code. And he wrote quite a nice bit about podcasting.
+
+168
+00:14:15,500 --> 00:14:19,500
+Let's see if I want to get a quote from here.
+
+169
+00:14:19,500 --> 00:14:23,500
+Now what he's basically saying is he's identifying something
+
+170
+00:14:23,500 --> 00:14:27,500
+I think I feel happening as well. Is it going to be the MP3 player
+
+171
+00:14:27,500 --> 00:14:30,500
+or is it going to be your mobile phone? And I think that they're
+
+172
+00:14:30,500 --> 00:14:35,500
+two sides of the same coin. We have MP3 players doing a beautiful job
+
+173
+00:14:35,500 --> 00:14:39,500
+playing and organizing MP3s and mobility and battery life.
+
+174
+00:14:39,500 --> 00:14:45,500
+And we have this basically this asynchronous...
+
+175
+00:14:45,000 --> 00:14:47,000
+where you connect your iPod to your machine
+
+176
+00:14:47,000 --> 00:14:51,000
+and it updates with new stuff thanks to iPod or whatever
+
+177
+00:14:51,000 --> 00:14:53,000
+you know, whatever you downloaded and paid for
+
+178
+00:14:53,000 --> 00:14:55,000
+if it comes to music it will also
+
+179
+00:14:55,000 --> 00:14:57,000
+automatically sync up your machine.
+
+180
+00:14:57,000 --> 00:15:01,000
+And of course what the iPod is screening for
+
+181
+00:15:01,000 --> 00:15:03,000
+is some type of connectivity that is wireless.
+
+182
+00:15:03,000 --> 00:15:05,000
+So I can fully see that being Bluetooth,
+
+183
+00:15:05,000 --> 00:15:09,000
+I can see it being WiFi, but also I could see it being
+
+184
+00:15:09,000 --> 00:15:11,000
+third generation cell network.
+
+185
+00:15:11,000 --> 00:15:15,000
+Could be UMTS or GPRS or ABC Element OP
+
+186
+00:15:15,000 --> 00:15:17,000
+whatever the hell all these acronyms are for
+
+187
+00:15:19,000 --> 00:15:22,000
+because a lot of cell phones now have MP3 players inside.
+
+188
+00:15:23,000 --> 00:15:25,000
+And I think that this is all just a function
+
+189
+00:15:25,000 --> 00:15:27,000
+of what kind of iPod or software do you need?
+
+190
+00:15:27,000 --> 00:15:32,000
+It seems to me that most handheld devices these days
+
+191
+00:15:32,000 --> 00:15:33,000
+are a lot of them are running Java.
+
+192
+00:15:33,000 --> 00:15:36,000
+So I think the Java iPod or development
+
+193
+00:15:36,000 --> 00:15:40,000
+is gonna be really important for cell phones.
+
+194
+00:15:40,000 --> 00:15:44,000
+Their storage capacity is growing but leaps and bounds
+
+195
+00:15:44,000 --> 00:15:46,000
+whether it's a...
+
+196
+00:15:49,500 --> 00:15:55,500
+half a gig now. I have a half a gig of my camera which fits happily in my cell phone.
+
+197
+00:15:55,500 --> 00:16:01,500
+Granted, the OS, just the power of the process, takes a little while to create a directory
+
+198
+00:16:01,500 --> 00:16:04,500
+listing everything that's on the card, but it does work. And you can certainly store
+
+199
+00:16:04,500 --> 00:16:09,500
+stuff on it. And what a cell phone does really well is connectivity. It's good at roaming,
+
+200
+00:16:09,500 --> 00:16:14,500
+it's good at picking stuff up, and it can be made intelligent to grab stuff off of the
+
+201
+00:16:14,500 --> 00:16:22,500
+network during off-peak hours. There's just all kinds of all kinds of ways to do that.
+
+202
+00:16:22,500 --> 00:16:27,500
+And I think that that's why iPod.org is going to be important for quite a while now
+
+203
+00:16:27,500 --> 00:16:29,500
+because this is
+
+204
+00:16:31,500 --> 00:16:32,500
+I've got this type of device.
+
+205
+00:16:32,500 --> 00:16:36,500
+I want to get my podcasts on it automatically.
+
+206
+00:16:36,500 --> 00:16:37,500
+How do we make this happen?
+
+207
+00:16:37,500 --> 00:16:39,500
+So that is the resource for you.
+
+208
+00:16:39,500 --> 00:16:44,500
+And Russell is saying that he thinks, and I got to agree to a certain extent, that he
+
+209
+00:16:44,500 --> 00:16:47,500
+feels that cell phones will get there quicker than the rest.
+
+210
+00:16:49,500 --> 00:16:51,500
+Hi, hon.
+
+211
+00:16:51,500 --> 00:16:53,500
+Bring me a candle.
+
+212
+00:16:53,500 --> 00:16:55,500
+Thank you.
+
+213
+00:16:55,500 --> 00:16:57,500
+Aromatherapy?
+
+214
+00:16:57,500 --> 00:16:59,500
+Relaxing.
+
+215
+00:16:59,500 --> 00:17:01,500
+What? Don't stick them where?
+
+216
+00:17:01,500 --> 00:17:03,500
+Those, those batteries.
+
+217
+00:17:03,500 --> 00:17:05,500
+Uh-huh. Thank you.
+
+218
+00:17:05,500 --> 00:17:07,500
+Go to Sada.
+
+219
+00:17:07,500 --> 00:17:09,500
+Yeah, yeah.
+
+220
+00:17:09,500 --> 00:17:11,500
+Patricia just came home from doing grocery shopping.
+
+221
+00:17:11,500 --> 00:17:13,500
+And she's totally into the production chain now.
+
+222
+00:17:13,500 --> 00:17:15,500
+She brought me two 9 volt batteries because I seem to eat a lot of food.
+
+223
+00:17:15,500 --> 00:17:17,500
+Thank you.
+
+224
+00:17:21,000 --> 00:17:22,000
+And I said, please go get him.
+
+225
+00:17:22,000 --> 00:17:23,000
+And well, she told me where I could put him.
+
+226
+00:17:23,000 --> 00:17:24,000
+And you know what?
+
+227
+00:17:24,000 --> 00:17:26,000
+The sun don't shine.
+
+228
+00:17:26,000 --> 00:17:31,000
+Anyway, also had a, let's see, there was a,
+
+229
+00:17:31,000 --> 00:17:33,000
+Scobal had an interesting post, Robert Scobal from Microsoft,
+
+230
+00:17:33,000 --> 00:17:36,000
+who was also becoming, you know, really quite a cheerleader
+
+231
+00:17:36,000 --> 00:17:39,000
+in all of the stuff.
+
+232
+00:17:39,000 --> 00:17:41,000
+Hold on a second.
+
+233
+00:17:41,000 --> 00:17:41,000
+I can find it.
+
+234
+00:17:41,000 --> 00:17:45,000
+Well, basically there was a conversation about iPods
+
+235
+00:17:45,000 --> 00:17:48,000
+with Steve Ballmer of Microsoft.
+
+236
+00:17:48,000 --> 00:17:55,000
+And I'll point to this as a part of the post for this podcast.
+
+237
+00:17:55,000 --> 00:17:58,000
+Scobal pointed out a lot of that conversation
+
+238
+00:17:58,000 --> 00:17:59,000
+and there's a transcript of it.
+
+239
+00:17:59,000 --> 00:18:03,000
+And well, I guess the bottom line is, you know, all,
+
+240
+00:18:03,000 --> 00:18:05,000
+everyone who uses an iPod as a pirate, right?
+
+241
+00:18:05,000 --> 00:18:06,000
+You're a thief.
+
+242
+00:18:06,000 --> 00:18:09,000
+That's kind of the gist of it.
+
+243
+00:18:09,000 --> 00:18:11,000
+And Scobal says, whoa, wait a minute.
+
+244
+00:18:11,000 --> 00:18:12,000
+You know, hold on.
+
+245
+00:18:12,000 --> 00:18:13,000
+That just ain't true.
+
+246
+00:18:13,000 --> 00:18:15,000
+Or at least he posted about this.
+
+247
+00:18:15,000 --> 00:18:17,000
+And because what we're doing with these podcasts, you know,
+
+248
+00:18:17,000 --> 00:18:21,000
+bar the music rights that we may or may not be infringing upon,
+
+249
+00:18:21,000 --> 00:18:22,000
+which is easily solved by not.
+
+250
+00:18:22,500 --> 00:18:25,500
+doing that, the content of the message is in the message, right?
+
+251
+00:18:25,500 --> 00:18:27,500
+But that's also solvable, I think.
+
+252
+00:18:27,500 --> 00:18:29,500
+You should be able to license that.
+
+253
+00:18:29,500 --> 00:18:31,500
+We've talked about that before.
+
+254
+00:18:31,500 --> 00:18:34,500
+But the one thing I'm really happy about is because I played a bit from the Gilmore Gang
+
+255
+00:18:34,500 --> 00:18:35,500
+yesterday.
+
+256
+00:18:35,500 --> 00:18:40,500
+The Gilmore Gang actually is posted now, so I don't feel too bad about previewing a
+
+257
+00:18:40,500 --> 00:18:44,500
+bit on yesterday's source code before the show was even up.
+
+258
+00:18:44,500 --> 00:18:48,500
+I think it was Steve Gilmore talking about Scoble pulling stuff out of his ass and
+
+259
+00:18:48,500 --> 00:18:50,500
+being such a supporter of this stuff.
+
+260
+00:18:50,500 --> 00:18:53,500
+And I said, yeah, you never underestimate the bandwidth of Scoble's ass.
+
+261
+00:18:53,500 --> 00:18:56,500
+Well, apparently he almost crashed while he heard that.
+
+262
+00:18:56,500 --> 00:18:57,500
+I got to be careful.
+
+263
+00:18:57,500 --> 00:19:00,500
+I should say warning, I'm going to talk about you now.
+
+264
+00:19:00,500 --> 00:19:01,500
+Be careful.
+
+265
+00:19:01,500 --> 00:19:02,500
+Put down your coffee.
+
+266
+00:19:02,500 --> 00:19:02,500
+Don't be dreaming.
+
+267
+00:19:02,500 --> 00:19:05,500
+Don't be driving a car.
+
+268
+00:19:05,500 --> 00:19:11,500
+Yesterday I had Hugo Schottmann on the show just briefly.
+
+269
+00:19:11,500 --> 00:19:14,500
+And I do want to hook up with him later this week or maybe over the weekend.
+
+270
+00:19:14,500 --> 00:19:20,500
+Hugo is really leading the charge in a lot of the set ups of how we get our audio working.
+
+271
+00:19:20,500 --> 00:19:22,500
+And we need more help.
+
+272
+00:19:22,500 --> 00:19:23,500
+We need people.
+
+273
+00:19:24,000 --> 00:19:31,000
+who were doing podcasting on Windows to send in screenshots, advice, just give me a URL
+
+274
+00:19:31,000 --> 00:19:39,000
+to point to because it's such a small percentage and I'm now even getting the questions, well,
+
+275
+00:19:39,000 --> 00:19:44,000
+if I just get a Mac, will that solve all of my production issues?
+
+276
+00:19:44,000 --> 00:19:52,000
+And no, in fact, I think it should be just as easy if not remembering a little bit of
+
+277
+00:19:52,000 --> 00:19:58,000
+how the PC architecture works, maybe even easier. It's just all kind of hidden within Windows.
+
+278
+00:19:58,000 --> 00:20:02,000
+Not that it's not, you know, that it's not hidden within a Macintosh, but in Windows you have a
+
+279
+00:20:02,000 --> 00:20:08,000
+little mixer panel and I know that you can you can mix and match audio feeds because I've done it,
+
+280
+00:20:08,000 --> 00:20:14,000
+I've done this before on Windows. So we really need some help on that. And while we're on that
+
+281
+00:20:14,000 --> 00:20:19,000
+topic, Rogamiba software who makes Audio Hijack Pro for the Mac and as they say themselves,
+
+282
+00:20:19,000 --> 00:20:24,000
+have no plans on porting to Windows, I think they're pretty close for the Mac, you know,
+
+283
+00:20:25,500 --> 00:20:31,500
+close on understanding what we need and they've got a weblog, I don't know if it's the head
+
+284
+00:20:31,500 --> 00:20:39,500
+of development but there's a weblog at rogomeba.com which of course will also point to.
+
+285
+00:20:39,500 --> 00:20:43,500
+We just got to keep the conversation going because they're the guys for the Macintosh
+
+286
+00:20:43,500 --> 00:20:44,500
+that can make this happen.
+
+287
+00:20:46,500 --> 00:20:53,500
+Something else and I really want to you know put a big shout out to the Skype Skype developers team.
+
+288
+00:20:53,500 --> 00:20:57,500
+We're working on Skype for Mac OS I think we're now at beta.
+
+289
+00:21:00,000 --> 00:21:01,000
+Let's check.
+
+290
+00:21:01,000 --> 00:21:03,000
+I have it running here.
+
+291
+00:21:03,000 --> 00:21:07,000
+Where beta, come on, about Skype.
+
+292
+00:21:07,000 --> 00:21:10,000
+What does it say?
+
+293
+00:21:10,000 --> 00:21:14,000
+Beta 0.10.0.1.
+
+294
+00:21:14,000 --> 00:21:16,000
+Right on.
+
+295
+00:21:16,000 --> 00:21:20,000
+You know, so obviously I'm not complaining too much because it is working
+
+296
+00:21:20,000 --> 00:21:26,000
+and by far it has the best sound quality far and above iChat, AV with AIM,
+
+297
+00:21:26,000 --> 00:21:29,000
+far and above the X10 stuff.
+
+298
+00:21:29,000 --> 00:21:33,000
+Skype really has the quality going and they seem to be able to keep
+
+299
+00:21:33,000 --> 00:21:35,000
+the connection a little bit longer.
+
+300
+00:21:35,000 --> 00:21:39,000
+But if we need to get to the developers of Skype, I don't know,
+
+301
+00:21:39,000 --> 00:21:43,000
+I'm sure on PC it's a little more advanced.
+
+302
+00:21:43,000 --> 00:21:46,000
+It was born on the Windows platform.
+
+303
+00:21:46,000 --> 00:21:50,000
+But for the Mac there's only one thing we need to make it the,
+
+304
+00:21:50,000 --> 00:21:55,000
+well two things, to make it the perfect application for enhancing
+
+305
+00:21:55,000 --> 00:21:57,000
+a podcast and doing a little bit more.
+
+306
+00:21:57,000 --> 00:22:02,000
+The main thing is we need to be able to switch
+
+307
+00:22:01,500 --> 00:22:03,500
+audio devices that the application uses.
+
+308
+00:22:03,500 --> 00:22:08,500
+Now this is, I know it's, and none of the, I'm sure none of this is trivial, you know,
+
+309
+00:22:08,500 --> 00:22:12,500
+when I just want to make one little thing happen in my iPod or script, it took me two weeks.
+
+310
+00:22:12,500 --> 00:22:18,500
+I broke everything and overwrote old code and, you know, it's, by no means trivial.
+
+311
+00:22:19,500 --> 00:22:26,500
+But a lot of Mac applications that use the core audio driver allow you to select between
+
+312
+00:22:26,500 --> 00:22:31,500
+different audio devices. So where you can, on the built-in audio device, you can select between
+
+313
+00:22:32,500 --> 00:22:39,500
+the default or line in or your built-in microphone. But I can also choose a virtual audio device,
+
+314
+00:22:39,500 --> 00:22:44,500
+like Soundflower, which we talked about, or an external one, like the DigiDesign breakout box.
+
+315
+00:22:44,500 --> 00:22:49,500
+But Skype doesn't allow you to set those preferences. And I think that it's, well,
+
+316
+00:22:49,500 --> 00:22:53,500
+from a development standpoint, what needs to be done is those hooks need to be put in,
+
+317
+00:22:53,500 --> 00:22:59,500
+so that you can select that in the preferences. Once we do that, you know, then, first of all,
+
+318
+00:22:59,500 --> 00:23:03,500
+it'd be a lot more stable because high-jacking applications.
+
+319
+00:23:03,000 --> 00:23:09,000
+applications and then adding applications to it that really aren't talking to the sound
+
+320
+00:23:09,000 --> 00:23:15,000
+drivers in the same way, just like Skype does currently, makes for shit to happen.
+
+321
+00:23:15,000 --> 00:23:22,000
+It crashes, it can just disappear, sometimes it gets really slow and buggy, and logging
+
+322
+00:23:22,000 --> 00:23:26,000
+may even be on for all I know within the beta client.
+
+323
+00:23:26,000 --> 00:23:30,000
+But if we have any way to get in touch with the developers, let me know, because
+
+324
+00:23:30,000 --> 00:23:31,000
+we need their help.
+
+325
+00:23:32,000 --> 00:23:36,000
+And we can make their product better.
+
+326
+00:23:36,000 --> 00:23:41,000
+And add to that the ability to conference two calls together.
+
+327
+00:23:41,000 --> 00:23:45,000
+And then we're really talking, because with Skype out, you can basically make a
+
+328
+00:23:45,000 --> 00:23:48,000
+phone call anywhere in the world for about four or five cents a minute.
+
+329
+00:23:48,000 --> 00:23:54,000
+And the quality is equal to actually sometimes, because you're just calling
+
+330
+00:23:54,000 --> 00:23:56,000
+a landline phone, it's a little bit worse than if you're calling someone directly.
+
+331
+00:23:56,000 --> 00:24:00,000
+What I'd like to do is I'd like to be able to make a Skype call with Dave,
+
+332
+00:24:00,000 --> 00:24:04,000
+for instance, that'll be a direct Skype call, no phone system in between.
+
+333
+00:24:04,500 --> 00:24:09,500
+And then like the conference in, another person or a phone call, you know, if we could add
+
+334
+00:24:09,500 --> 00:24:14,500
+one or two more lines to Skype then it would be great.
+
+335
+00:24:14,500 --> 00:24:18,500
+So any help that we can get on that is way appreciated.
+
+336
+00:24:18,500 --> 00:24:23,500
+Did you know that there's a new movie coming out about the life and times of Peter Sellers?
+
+337
+00:24:23,500 --> 00:24:29,500
+I saw one of the actors, a couple of the actors were on a late night talk show in England
+
+338
+00:24:29,500 --> 00:24:30,500
+while we were there over the weekend.
+
+339
+00:24:30,500 --> 00:24:33,500
+And it looks like a great movie.
+
+340
+00:24:33,500 --> 00:24:36,500
+And while I was thinking of that and just running through the iTunes playlist today,
+
+341
+00:24:36,500 --> 00:24:42,500
+I bumped across something that is classic Peter Sellers in reminiscence of the Beatles that
+
+342
+00:24:42,500 --> 00:24:44,500
+we played on Trade Secrets the other day.
+
+343
+00:24:44,500 --> 00:24:47,500
+Here's Peter doing his rendition of She Loves You.
+
+344
+00:24:47,500 --> 00:24:48,500
+Yeah, yeah, yeah.
+
+345
+00:24:52,500 --> 00:24:54,500
+This is the end of the video.
+
+346
+00:24:54,500 --> 00:24:56,500
+Thank you for watching.
+
+347
+00:25:16,500 --> 00:25:21,500
+I have made several experiments and I have come to this conclusion.
+
+348
+00:25:21,500 --> 00:25:22,500
+So?
+
+349
+00:25:22,500 --> 00:25:26,500
+You think that you have lost your love?
+
+350
+00:25:26,500 --> 00:25:29,500
+Well, I saw her yesterday.
+
+351
+00:25:29,500 --> 00:25:35,500
+It is you that she is thinking of and she has helped me ever to say.
+
+352
+00:25:35,500 --> 00:25:37,500
+She says she loves you.
+
+353
+00:25:37,500 --> 00:25:37,500
+Yeah!
+
+354
+00:25:37,500 --> 00:25:38,500
+Yeah?
+
+355
+00:25:40,500 --> 00:25:40,500
+Yo!
+
+356
+00:25:40,500 --> 00:25:41,500
+Ya!
+
+357
+00:25:41,500 --> 00:25:41,500
+Ya!
+
+358
+00:25:41,500 --> 00:25:42,500
+Ya!
+
+359
+00:25:42,500 --> 00:25:42,500
+Ya!
+
+360
+00:25:42,500 --> 00:25:43,500
+Ya!
+
+361
+00:25:43,500 --> 00:25:44,500
+She loves you!
+
+362
+00:25:44,500 --> 00:25:44,500
+Ya!
+
+363
+00:25:44,500 --> 00:25:45,500
+Ya!
+
+364
+00:25:45,500 --> 00:25:46,500
+Ya!
+
+365
+00:25:46,500 --> 00:25:46,500
+Ya!
+
+366
+00:25:46,500 --> 00:25:47,500
+Ya!
+
+367
+00:25:47,500 --> 00:25:47,500
+Ya!
+
+368
+00:25:47,500 --> 00:25:49,500
+Ha ha ha ha ha ha ha!
+
+369
+00:25:49,500 --> 00:25:50,500
+Ha!
+
+370
+00:25:50,500 --> 00:25:51,500
+He said,
+
+371
+00:25:51,500 --> 00:25:53,500
+You hurt her so!
+
+372
+00:25:53,500 --> 00:25:54,500
+Good!
+
+373
+00:25:54,500 --> 00:25:57,500
+She almost lost her mind!
+
+374
+00:25:57,500 --> 00:25:59,500
+Good job!
+
+375
+00:25:59,500 --> 00:26:02,500
+And now she says,
+
+376
+00:26:02,500 --> 00:26:06,500
+She knows that you're not the hurting kind.
+
+377
+00:26:06,500 --> 00:26:08,500
+She says she loves you.
+
+378
+00:26:08,500 --> 00:26:09,500
+Ya!
+
+379
+00:26:09,500 --> 00:26:09,500
+Ya!
+
+380
+00:26:09,500 --> 00:26:10,500
+Ya!
+
+381
+00:26:10,500 --> 00:26:10,500
+Ya!
+
+382
+00:26:10,500 --> 00:26:12,500
+She loves you!
+
+383
+00:26:12,500 --> 00:26:12,500
+Ya!
+
+384
+00:26:12,500 --> 00:26:13,500
+Ya!
+
+385
+00:26:13,500 --> 00:26:14,500
+Ya!
+
+386
+00:26:14,500 --> 00:26:16,500
+She loves you!
+
+387
+00:26:16,500 --> 00:26:16,500
+Ya!
+
+388
+00:26:16,500 --> 00:26:17,500
+Ya!
+
+389
+00:26:17,500 --> 00:26:18,500
+Ya!
+
+390
+00:26:18,500 --> 00:26:19,500
+Ya!
+
+391
+00:26:19,500 --> 00:26:21,500
+You know,
+
+392
+00:26:21,500 --> 00:26:24,500
+It's up to you.
+
+393
+00:26:24,500 --> 00:26:26,500
+I think that it's only fair.
+
+394
+00:26:26,500 --> 00:26:29,500
+I can hurt you too.
+
+395
+00:26:31,500 --> 00:26:33,500
+She loves you
+
+396
+00:26:52,500 --> 00:26:54,500
+BOOF BOOF BOOF
+
+397
+00:26:55,500 --> 00:26:58,500
+Alright, Peter Sellers, she loves you.
+
+398
+00:26:58,500 --> 00:27:01,500
+Yeah, yeah, yeah, here on the source code,
+
+399
+00:27:01,500 --> 00:27:02,500
+and only a version that Peter Sellers...
+
+400
+00:27:06,000 --> 00:27:09,000
+some tunes, because hey, it's Tuesday.
+
+401
+00:27:09,000 --> 00:27:12,000
+It's like it's the day when we kind of are getting over Monday, you know, just getting
+
+402
+00:27:12,000 --> 00:27:14,000
+to the vibe of things.
+
+403
+00:27:14,000 --> 00:27:16,000
+Grace Jones pull up to the bumper.
+
+404
+00:27:45,000 --> 00:27:47,000
+I'm not a problem for me.
+
+405
+00:27:47,000 --> 00:27:52,000
+I'm not a woman who goes into a maze.
+
+406
+00:27:52,000 --> 00:27:55,000
+For love, you're a problem for me.
+
+407
+00:27:55,000 --> 00:27:57,000
+You don't have to be.
+
+408
+00:28:01,000 --> 00:28:04,000
+For love, you're a problem for me.
+
+409
+00:28:04,000 --> 00:28:06,000
+I'm not a problem for me.
+
+410
+00:28:10,000 --> 00:28:14,000
+For love, you're a problem for me.
+
+411
+00:28:14,000 --> 00:28:16,000
+Don't ride,
+
+412
+00:28:16,000 --> 00:28:18,000
+go away.
+
+413
+00:28:18,000 --> 00:28:20,000
+Wagging,
+
+414
+00:28:20,000 --> 00:28:22,000
+unquiet,
+
+415
+00:28:22,000 --> 00:28:24,000
+all right.
+
+416
+00:28:25,000 --> 00:28:27,000
+This night.
+
+417
+00:28:36,000 --> 00:28:38,000
+All the way down the hall,
+
+418
+00:28:39,000 --> 00:28:41,000
+the lord of you and me.
+
+419
+00:28:44,000 --> 00:28:47,000
+This place forever.
+
+420
+00:28:46,500 --> 00:28:50,500
+One you my friend
+
+421
+00:28:50,500 --> 00:28:55,500
+Life is short of it's walk
+
+422
+00:28:55,500 --> 00:28:57,500
+One you see tomorrow
+
+423
+00:28:57,500 --> 00:28:59,500
+Shining in the dream
+
+424
+00:28:59,500 --> 00:29:02,500
+You leave your heart on your heart
+
+425
+00:29:02,500 --> 00:29:04,500
+Short of you, my love
+
+426
+00:29:04,500 --> 00:29:07,500
+Can you love me more, see
+
+427
+00:29:10,500 --> 00:29:12,500
+Short of you, my love
+
+428
+00:29:12,500 --> 00:29:15,500
+Can you love me more, see
+
+429
+00:29:15,500 --> 00:29:17,500
+Short of you, my love
+
+430
+00:29:51,000 --> 00:30:13,000
+You know, I just realized you were probably doing exactly what I was doing.
+
+431
+00:30:13,000 --> 00:30:18,000
+The minute a little break happened, you like crank up the volume, I did that on my laptop
+
+432
+00:30:18,000 --> 00:30:21,000
+Damn if I didn't fuck up the reporting
+
+433
+00:30:24,000 --> 00:30:28,000
+If Jones pull up to the bumper, baby, and drag it straight into Queens on the source code,
+
+434
+00:30:28,000 --> 00:30:29,000
+so that's lesson learned.
+
+435
+00:30:29,000 --> 00:30:33,000
+Do not turn up the volume on your Macintosh while doing a podcast.
+
+436
+00:30:33,000 --> 00:30:34,000
+So many things that...
+
+437
+00:30:34,000 --> 00:30:38,000
+There are times when I just say, screw it, I want to get all my mixing equipment out,
+
+438
+00:30:38,000 --> 00:30:42,000
+all my outboard gear and just only use the computer to record it.
+
+439
+00:30:42,000 --> 00:30:43,000
+I get as far as...
+
+440
+00:30:43,000 --> 00:30:47,000
+I go to the closet and I'm going to open this up and get all my gear out because I
+
+441
+00:30:47,000 --> 00:30:48,000
+know it's going to be perfect.
+
+442
+00:30:48,000 --> 00:30:50,000
+I say, no, we've got to figure out how to make this work.
+
+443
+00:30:50,000 --> 00:30:51,000
+We are very close.
+
+444
+00:30:51,000 --> 00:30:52,000
+We're getting a lot better.
+
+445
+00:30:52,000 --> 00:30:54,000
+I've got the next trade secrets that I do with Dave.
+
+446
+00:30:54,000 --> 00:30:57,000
+I hope to have a good Skype quality call.
+
+447
+00:30:57,000 --> 00:30:58,000
+So we're working on all of this test.
+
+448
+00:30:58,000 --> 00:31:03,000
+By the way, thanks to Tom from Down Under for the Peter Sellers Hard Days Night link.
+
+449
+00:31:03,000 --> 00:31:05,000
+He sent me that one.
+
+450
+00:31:05,000 --> 00:31:11,000
+Tom also, by the way, has been following my radio career since the early 80s.
+
+451
+00:31:11,000 --> 00:31:15,000
+Even at the Pirate Radio Station, I was working at an Amsterdam.
+
+452
+00:31:15,000 --> 00:31:23,000
+I had a radio show which started around 83, 84, which I did with a partner called Curry
+
+453
+00:31:23,000 --> 00:31:24,000
+and Van Inkel.
+
+454
+00:31:24,000 --> 00:31:25,000
+His name was Van Inkel, of course.
+
+455
+00:31:25,500 --> 00:31:30,500
+And, you know, we did hundreds of hours of radio and I have hundreds of...
+
+456
+00:31:31,500 --> 00:31:38,500
+of skimmer tapes and the skimmer tape is basically when you're on the air live and you crack
+
+457
+00:31:38,500 --> 00:31:41,500
+the microphone then it starts recording and these are all cassette supports, that was
+
+458
+00:31:41,500 --> 00:31:42,500
+the technology of the day.
+
+459
+00:31:42,500 --> 00:31:47,500
+Really basically just a micro switch, you open up the fader on your mixing board or
+
+460
+00:31:47,500 --> 00:31:52,500
+you open up that channel and it clicks the pause switch and it starts to record the
+
+461
+00:31:52,500 --> 00:31:57,500
+air signal so that after the show you can go back and listen to yourself and listen
+
+462
+00:31:57,500 --> 00:32:02,500
+to if you sucked or not, which of course we all think we sucked and that's a skimmer
+
+463
+00:32:02,500 --> 00:32:05,500
+tape and that's also an air check tape which you'll hand to the next program
+
+464
+00:32:05,500 --> 00:32:09,500
+director down the line say hey here's my stuff that I did on station A.
+
+465
+00:32:12,000 --> 00:32:16,000
+And what Tom has done, he's jumped on the iPodder wagon.
+
+466
+00:32:16,000 --> 00:32:21,000
+And he is, and I added it to the directory, to the iPodder.org shows directory,
+
+467
+00:32:21,000 --> 00:32:23,000
+and it's much more for my benefit.
+
+468
+00:32:23,000 --> 00:32:29,000
+But he's put his entire archive, he's loading that up into RSS files, which is great.
+
+469
+00:32:29,000 --> 00:32:32,000
+And I'm sending him two boxes of tapes as we're about to move.
+
+470
+00:32:32,000 --> 00:32:33,000
+I'm so happy I can do this.
+
+471
+00:32:33,000 --> 00:32:37,000
+I'm sending it off to Australia, and he's going to digitize all that.
+
+472
+00:32:37,000 --> 00:32:39,000
+And I guess he's going to put those on the feed as well.
+
+473
+00:32:39,000 --> 00:32:45,000
+So that's just another perfect use of this kind of technology.
+
+474
+00:32:45,000 --> 00:32:50,000
+If you do a show, if you do a live radio show, you're working at a quote real radio station,
+
+475
+00:32:50,000 --> 00:32:54,000
+then get an MP3 archive going, and just add that to your RSS feed so
+
+476
+00:32:54,000 --> 00:32:57,000
+that you can expand your listenership overnight.
+
+477
+00:32:57,000 --> 00:33:01,000
+Just briefly talking about a couple more things we could use.
+
+478
+00:33:01,000 --> 00:33:04,000
+If you're thinking about doing a podcast, and really a podcast,
+
+479
+00:33:04,000 --> 00:33:07,000
+it sounds like we're doing all this difficult stuff.
+
+480
+00:33:07,000 --> 00:33:11,000
+But if you have the balls to record your own voice, then you're already there.
+
+481
+00:33:11,000 --> 00:33:13,000
+And you can do that on almost any computer today.
+
+482
+00:33:13,500 --> 00:33:16,500
+You don't have to get fancy with mixing in songs and tunes.
+
+483
+00:33:16,500 --> 00:33:20,500
+You can even sit in your car and play something on the CD radio.
+
+484
+00:33:20,500 --> 00:33:25,500
+Car is great because you sit in your car while it's not moving preferably.
+
+485
+00:33:25,500 --> 00:33:28,500
+You've got a closed sound environment.
+
+486
+00:33:28,500 --> 00:33:30,500
+You're mobile so if it's loud, where the ambient noise is loud, where you are, just
+
+487
+00:33:30,500 --> 00:33:31,500
+don't...
+
+488
+00:33:33,000 --> 00:33:39,000
+You've got a power supply, you can start recording, and you can use your CD player, you can use
+
+489
+00:33:39,000 --> 00:33:46,000
+your cassette player, you could use your MP3 player connected to your car stereo, and just
+
+490
+00:33:46,000 --> 00:33:46,000
+put a mic...
+
+491
+00:33:49,500 --> 00:33:50,500
+It'll work.
+
+492
+00:33:50,500 --> 00:33:52,500
+It'll be a little, it's a hack, but it'll work.
+
+493
+00:33:52,500 --> 00:33:53,500
+And I've heard people do it.
+
+494
+00:33:53,500 --> 00:33:58,500
+But more importantly, if there's anything that you're an expert on, just like web logging,
+
+495
+00:33:58,500 --> 00:34:03,500
+if you do a top five stock picks of the day, record it.
+
+496
+00:34:03,500 --> 00:34:07,500
+And if you don't know how to make an RSS 2.0 feed out of it, let me know.
+
+497
+00:34:07,500 --> 00:34:09,500
+We'll try and help you out.
+
+498
+00:34:09,500 --> 00:34:12,500
+Or just join the mailing list.
+
+499
+00:34:12,500 --> 00:34:13,500
+Just check out iPodder.org.
+
+500
+00:34:13,500 --> 00:34:15,500
+We're happy to help.
+
+501
+00:34:15,500 --> 00:34:16,500
+Short is good.
+
+502
+00:34:16,500 --> 00:34:18,500
+Short stuff is really good.
+
+503
+00:34:18,500 --> 00:34:20,500
+I'd love to have just a little quote of the day.
+
+504
+00:34:20,500 --> 00:34:24,500
+You know, if someone could do one quote of the day, there's lots of quotes of the day services,
+
+505
+00:34:24,500 --> 00:34:25,500
+but they're all text based.
+
+506
+00:34:25,500 --> 00:34:27,500
+So here's something you could do.
+
+507
+00:34:27,500 --> 00:34:28,500
+You wouldn't have to write.
+
+508
+00:34:28,500 --> 00:34:33,500
+All you have to do is every single day just record these two lines and then whoever the
+
+509
+00:34:33,500 --> 00:34:34,500
+quote was by.
+
+510
+00:34:34,500 --> 00:34:38,500
+And it'd be nice if you could post the quote in text and link to the source or whatever
+
+511
+00:34:38,500 --> 00:34:40,500
+if we wanted to have it.
+
+512
+00:34:40,500 --> 00:34:44,500
+But those types of things I love to see on my playlist.
+
+513
+00:34:44,500 --> 00:34:45,500
+A joke of the day.
+
+514
+00:34:45,500 --> 00:34:47,500
+A stand up routine of the day.
+
+515
+00:34:48,500 --> 00:34:49,500
+These things really work.
+
+516
+00:34:49,500 --> 00:34:50,500
+Why do you think David Letterman's talk...
+
+517
+00:34:51,000 --> 00:34:53,000
+top 10 list is so phenomenal.
+
+518
+00:34:53,000 --> 00:34:57,000
+By the way, Dave, if you're listening, Dave Letterman,
+
+519
+00:34:57,000 --> 00:34:59,000
+give us the top 10 list.
+
+520
+00:34:59,000 --> 00:35:02,000
+Cut an audio recording of that and make a feed
+
+521
+00:35:02,000 --> 00:35:03,000
+so we can listen to it every day.
+
+522
+00:35:03,000 --> 00:35:04,000
+We love the top 10 list.
+
+523
+00:35:09,000 --> 00:35:11,000
+I shouldn't have worked on the iPod platform.
+
+524
+00:35:11,000 --> 00:35:12,000
+I think it will.
+
+525
+00:35:12,000 --> 00:35:13,000
+Okay, one more thing I picked up.
+
+526
+00:35:13,000 --> 00:35:15,000
+This is in the Equal Airtime Department.
+
+527
+00:35:15,000 --> 00:35:18,000
+I picked up from the Blog Digger Media Feed.
+
+528
+00:35:18,000 --> 00:35:22,000
+We've done lots of songs and mixes about President Bush,
+
+529
+00:35:22,000 --> 00:35:25,000
+so it's time for one about the next president
+
+530
+00:35:25,000 --> 00:35:27,000
+of the United States, John Kerry.
+
+531
+00:35:28,000 --> 00:35:31,000
+Democrats got a man named John.
+
+532
+00:35:31,000 --> 00:35:33,000
+Got no clue what...
+
+533
+00:37:19,500 --> 00:37:25,500
+Flip, flopper and roll in the equal airtime segment on your daily source code.
+
+534
+00:37:25,500 --> 00:37:26,500
+Hold on a second, phone is ringing.
+
+535
+00:37:26,500 --> 00:37:28,500
+I'm expecting a call actually.
+
+536
+00:37:28,500 --> 00:37:32,500
+So you know what, we're gonna leave it at that for today because I do have phone calls
+
+537
+00:37:32,500 --> 00:37:38,500
+coming in and I'm gonna get this compressed and shoot it up to the server for consumption.
+
+538
+00:37:40,500 --> 00:37:43,500
+If you want to respond, drop an email at adamantcurry.com.
+
+539
+00:37:43,500 --> 00:37:44,500
+Of course, the archives.
+
+540
+00:37:49,500 --> 00:37:52,500
+iPod or Fee, the RSS 2.0 with enclosures.
+
+541
+00:37:52,500 --> 00:37:55,500
+dailysourcecode.com slash RSS.
+
+542
+00:37:57,000 --> 00:38:00,000
+The power of your intelligence.
+
+543
+00:38:00,000 --> 00:38:01,000
+And of course, as always, my own.
+
+544
+00:38:01,000 --> 00:38:03,000
+Weblog live.curry.com
+
+545
+00:38:09,000 --> 00:38:11,000
+And keep those podcasts coming everybody.
+
+546
+00:38:11,000 --> 00:38:12,000
+Take care, bye!
+
