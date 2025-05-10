@@ -1,0 +1,1888 @@
+1
+00:00:00,000 --> 00:00:04,120
+Daily source code February 8th 2005.
+
+2
+00:00:04,120 --> 00:00:08,640
+Transmeters? We don't need no stinking transmeters.
+
+3
+00:00:08,640 --> 00:00:11,680
+Autastic! It's Adam Curry.
+
+4
+00:00:11,680 --> 00:00:14,600
+Hey everybody, how you doing? It's Tuesday, February 8th.
+
+5
+00:00:14,600 --> 00:00:16,800
+The power of the door.
+
+6
+00:00:16,800 --> 00:00:21,680
+Once again, coming you from Curry Cottage, it is the Daily Source Code.
+
+7
+00:00:21,680 --> 00:00:24,840
+Well man, I've got some stuff lined up for you today.
+
+8
+00:00:24,840 --> 00:00:29,560
+I could not be happier about a couple of bits of news that I received today through email.
+
+9
+00:00:29,800 --> 00:00:34,360
+Time here in the UK and Gulford is 1224.
+
+10
+00:00:37,880 --> 00:00:41,080
+Once again, I'm back in the big green oversized ugly chair.
+
+11
+00:00:41,080 --> 00:00:43,560
+I've got everything all set up.
+
+12
+00:00:43,560 --> 00:00:51,880
+I actually have my second mic standing my just in case Patricia decides to come in and give me some shit about yesterday's hit test on.
+
+13
+00:00:51,880 --> 00:00:59,240
+Man! Thank you very much for all the great emails that I've received about not even recognizing one of my wife's biggest hit
+
+14
+00:00:59,240 --> 00:01:07,560
+songs. I figured out what the problem is right away. It was 1981 and I was either in between doing pirate radio broadcasts
+
+15
+00:01:07,560 --> 00:01:12,840
+or I think I might have been in college for that lost semester in West Virginia.
+
+16
+00:01:16,440 --> 00:01:22,120
+Okay, coming up today we have some technology stuff to talk about about iPodder and about
+
+17
+00:01:23,080 --> 00:01:31,960
+a podcast recording tool, have some pod save music and also some not so pod save music.
+
+18
+00:01:31,960 --> 00:01:40,040
+Why you might wonder why why well it was brought to my attention today and then I'm so excited about this.
+
+19
+00:01:40,040 --> 00:01:46,360
+Oops. That was me bringing up Firefox. It was brought to my attention today
+
+20
+00:01:46,680 --> 00:01:56,840
+that ASCAP which of course is the American Society of Composer's author and publishers have
+
+21
+00:01:58,840 --> 00:02:09,400
+put out a license for podcasts. Yes, this is apparently was effective as of January 1st. I'm not sure when this
+
+22
+00:02:09,400 --> 00:02:13,560
+license agreement came out. Of course, a link to the license agreement you can find in the
+
+23
+00:02:13,560 --> 00:02:18,120
+show notes for today. I'm going to read you a couple of parts of this because I'm just so excited to see
+
+24
+00:02:18,120 --> 00:02:23,640
+a word that didn't even exist barely half a year ago. Now show up in legal documents and
+
+25
+00:02:23,640 --> 00:02:30,280
+good legal documents, not the kind that say we're suing your ass. Here it is. The ASCAP
+
+26
+00:02:30,280 --> 00:02:37,080
+experimental license agreement for internet sites and services released 5.0 was designed for sites and
+
+27
+00:02:37,080 --> 00:02:44,360
+services that perform ASCAP music in a non interactive manner. What does that mean? You might ask.
+
+28
+00:02:44,360 --> 00:02:50,360
+Well, non interactive means that users cannot select individual songs or posted songs,
+
+29
+00:02:50,360 --> 00:02:56,600
+song collections unless the performance is not more than 60 seconds in duration. So first of all,
+
+30
+00:02:56,600 --> 00:03:02,360
+if you play anything for instance, young poet with his with his hit test would be less than 60 seconds.
+
+31
+00:03:02,360 --> 00:03:06,680
+Although I think the answer sometimes it goes a little bit longer than that. But he would not have to
+
+32
+00:03:06,680 --> 00:03:10,840
+pay a license. Okay, almost second. I'm going to have to sit with my T here because we're going to
+
+33
+00:03:10,840 --> 00:03:16,920
+talk about this for just a couple of minutes. This is exciting shit. Okay, examples of non interactive
+
+34
+00:03:16,920 --> 00:03:25,480
+music, that music uses that qualify for release 5.0 include. Here comes music that is embedded
+
+35
+00:03:25,480 --> 00:03:31,960
+on one or more pages of a site or service such as a flash intro. Okay, that makes sense. By the way,
+
+36
+00:03:31,960 --> 00:03:35,320
+you know, if you have a podcast and you're using an opening theme song like you just heard my
+
+37
+00:03:35,400 --> 00:03:40,520
+rock money enough. Now, rock money enough. I don't think I think the copyright is pretty much
+
+38
+00:03:40,520 --> 00:03:45,080
+inspired on the rock money enough. But it's a remix, right? So someone else performs a music and
+
+39
+00:03:45,080 --> 00:03:51,560
+if they're an ask cap member, they deserve to get paid for it. Second, webcasts of live performances
+
+40
+00:03:52,440 --> 00:03:59,240
+and here comes. Here's the one. Radio broadcasts or podcasts. Now, they hi-finated podcast. I'm
+
+41
+00:03:59,240 --> 00:04:04,280
+not quite sure why, but I'll just read that again. Radio broadcasts or podcasts that do not
+
+42
+00:04:04,920 --> 00:04:12,440
+offer a playlist program guide and do not make advanced lists of the songs contained in the programs
+
+43
+00:04:12,440 --> 00:04:19,000
+available prior to their transmission. And finally, song samples are excerpts that are not
+
+44
+00:04:19,000 --> 00:04:25,800
+more than 60 seconds in duration. So if I reread this one piece, okay? Radio broadcasts or podcasts.
+
+45
+00:04:25,800 --> 00:04:33,400
+I love seeing this show up on the ask cap site that do not offer a playlist program guide and do
+
+46
+00:04:33,400 --> 00:04:38,600
+not make advanced lists of the songs contained in the programs available prior to their
+
+47
+00:04:38,600 --> 00:04:46,680
+transmission. So I think what that means is show notes can't contain the title or any
+
+48
+00:04:46,680 --> 00:04:51,880
+information about the ask cap song, which is kind of makes it, I understand what they're doing
+
+49
+00:04:51,880 --> 00:04:58,840
+this. So I guess you can't search it and then apparently pull out that one particular piece of music,
+
+50
+00:04:59,160 --> 00:05:04,600
+would be quite an interesting technological feat actually if you could do that with a podcast.
+
+51
+00:05:04,600 --> 00:05:08,920
+I think, yeah, I guess technically it is possible if you had the time codes and everything you
+
+52
+00:05:08,920 --> 00:05:13,000
+might be able to suck it out, but that's I think that's kind of a technicality, but okay,
+
+53
+00:05:13,000 --> 00:05:16,520
+so that means you would not be able to list the songs in your show notes. And of course,
+
+54
+00:05:16,520 --> 00:05:20,920
+you have to pay some money. Now, this is where it broke down for me because I immediately was like,
+
+55
+00:05:20,920 --> 00:05:26,280
+whoa, give me the license. Let me see what's going on. I downloaded the non-interactive 5.0
+
+56
+00:05:26,280 --> 00:05:33,480
+license agreement. Hello lawyers. I know that you listened to the show. I've received many
+
+57
+00:05:33,480 --> 00:05:37,720
+an email from you and had conversations. Some of you, my friends, some of you aren't. Some of you
+
+58
+00:05:37,720 --> 00:05:44,360
+were my friends before you lit a gate on the other side. We need some help from lawyer. Hold on,
+
+59
+00:05:44,360 --> 00:05:51,240
+what's that? That's the neighbor. What is he doing? Is he sharpening his throwing knives?
+
+60
+00:05:51,560 --> 00:05:57,640
+Hmm, lawyers. Yes, I know that lawyers listen to the daily source code. Please help me out,
+
+61
+00:05:57,640 --> 00:06:03,480
+help me understand what this license is. As far as I can tell, if you have no revenue on your show,
+
+62
+00:06:03,480 --> 00:06:07,160
+that means you have no sponsoring or advertising, no money coming in based upon the show,
+
+63
+00:06:07,160 --> 00:06:14,760
+you pay $250 a year and that's it. You can play any ASCAP license music on your podcast.
+
+64
+00:06:15,320 --> 00:06:20,840
+If you do make money, then you have to pay a percentage of revenue and that's where we've got
+
+65
+00:06:20,840 --> 00:06:26,520
+really complicated. They have like three different schedules and examples and my eyes fucking glazed over
+
+66
+00:06:26,520 --> 00:06:31,080
+when I saw that shit. So they're far from understanding what we need as podcasts, which is just a
+
+67
+00:06:31,080 --> 00:06:37,240
+fairly simple license. If you're a lawyer, please, I really, I would appreciate so much if you could
+
+68
+00:06:38,040 --> 00:06:41,800
+look through this document. Again, it's linked from the show notes. I think it is legal actually
+
+69
+00:06:41,800 --> 00:06:48,520
+to point to the license from your show notes and see if you can figure it out. What does it mean?
+
+70
+00:06:48,520 --> 00:06:58,120
+What exactly do we have to do? And I'll say right off the bat that I think I saw like 15% so if I
+
+71
+00:06:58,120 --> 00:07:05,640
+understand just in general terms, if I say I make $100 a month in advertising on my podcast,
+
+72
+00:07:05,640 --> 00:07:11,000
+I would have to pay $15 to ASCAP if I played music. Now the question is, if I just have an opening
+
+73
+00:07:11,000 --> 00:07:16,040
+tune, which presumably would be more than 60 seconds, of course, that's your way out, right?
+
+74
+00:07:16,040 --> 00:07:20,200
+If you do it list less than 60 seconds. Or if you play maybe one song of the day,
+
+75
+00:07:21,480 --> 00:07:25,800
+do you still have to pay the full amount? I mean, the scheduling, as they call it, the schedule
+
+76
+00:07:25,800 --> 00:07:31,000
+of how you pay for this performance ride is just fucking complicated, you know, and I'm not a lawyer
+
+77
+00:07:31,000 --> 00:07:36,600
+and I plead all lawyers who are listening, please help us out. And as easily as possible,
+
+78
+00:07:36,600 --> 00:07:43,320
+please record this in MP3, send it to MP3feedback at gmail.com. So we can all understand and we can do
+
+79
+00:07:43,320 --> 00:07:49,160
+this in a fair and safe manner because wow, you know, I'm not looking forward to playing Britney Spears
+
+80
+00:07:49,160 --> 00:07:53,720
+or anything like that, but I totally would love to share some memories of old tunes with you guys.
+
+81
+00:07:53,720 --> 00:07:57,080
+And I know that you would love to do it as well. And I think it would be really, really good for
+
+82
+00:07:57,080 --> 00:08:02,040
+podcasting. It would be great for artists who have big back catalogs who are selling them
+
+83
+00:08:03,000 --> 00:08:09,000
+through their own website, for instance. It could just be really, really good for the music industry in general.
+
+84
+00:08:09,000 --> 00:08:14,360
+And, you know, the terms are, of course, debatable, but the fact that it's shown up now,
+
+85
+00:08:15,640 --> 00:08:24,040
+hold on. Oh, yes. The fact that it's shown up as, as podcasts on a license just is such
+
+86
+00:08:24,040 --> 00:08:29,000
+such good news. I'm incredibly happy about this. So today I'm going to be playing a couple of
+
+87
+00:08:29,160 --> 00:08:35,320
+what we would deem non-pod-safe tunes. And I'm just going to think that it won't be a problem
+
+88
+00:08:35,320 --> 00:08:40,600
+for me to, you know, add this on to whatever payment I'm going to make. Because of course, I'm
+
+89
+00:08:40,600 --> 00:08:47,480
+going to pay the $250, right? So as of today, I'll just consider myself licensed,
+
+90
+00:08:48,280 --> 00:08:53,960
+licensed, armed, and licensed is what I think. And it's good because I was talking the past two shows
+
+91
+00:08:54,040 --> 00:09:00,040
+I've been talking about Michael Jackson and how I believe that he's being framed in this particular
+
+92
+00:09:00,040 --> 00:09:07,640
+case. I've met this man a couple of times. He comes across this very polite, although freaky individual,
+
+93
+00:09:07,640 --> 00:09:13,000
+but, you know, what's normal? I'm normal sitting here, smoking, drinking, yapping into a microphone.
+
+94
+00:09:13,000 --> 00:09:17,480
+And it's just whatever you consider normal. But I think he's totally being framed and what's worse.
+
+95
+00:09:17,640 --> 00:09:24,840
+What's much worse is that we're completely forgetting about the musical profit that Michael Jackson
+
+96
+00:09:24,840 --> 00:09:32,120
+is. He said something really interesting on that Haraldo interview on Fox News. He said,
+
+97
+00:09:32,120 --> 00:09:37,400
+I think Haraldo said, well, you know, these days it's hip hop, it's rap, it's, you know, there's all kinds
+
+98
+00:09:37,400 --> 00:09:42,600
+of different musical styles. And you're still kind of what Haraldo was basically saying he was
+
+99
+00:09:42,600 --> 00:09:46,120
+being nice about it. He was saying, you're kind of still stuck in the 80s and 90s, Michael.
+
+100
+00:09:46,200 --> 00:09:49,560
+You know, you haven't really upgraded your sound or whatever. And Michael said,
+
+101
+00:09:49,560 --> 00:09:55,880
+you know, Haraldo, cultural change, style will change, fashion will change, but music stays the same.
+
+102
+00:09:55,880 --> 00:10:01,720
+The songs always remain. And that's kind of the theme of today's podcast, but I also want to
+
+103
+00:10:01,720 --> 00:10:06,360
+make sure that we don't forget the musical genius that Michael Jackson is. So let's kick it off
+
+104
+00:10:06,360 --> 00:10:12,440
+today with Don't Stop till you get enough. This is your daily source code for February 8, 2005.
+
+105
+00:10:12,440 --> 00:10:14,680
+You ready? Crank it off.
+
+106
+00:10:42,440 --> 00:10:46,440
+Just rise in the air.
+
+107
+00:11:16,440 --> 00:11:18,440
+Just rise in the air.
+
+108
+00:11:46,440 --> 00:11:48,440
+Just rise in the air.
+
+109
+00:12:16,440 --> 00:12:18,440
+Just rise in the air.
+
+110
+00:12:46,440 --> 00:12:48,440
+Just rise in the air.
+
+111
+00:13:16,440 --> 00:13:18,440
+Just rise in the air.
+
+112
+00:13:46,440 --> 00:13:48,440
+Just rise in the air.
+
+113
+00:14:16,440 --> 00:14:18,440
+Just rise in the air.
+
+114
+00:14:46,440 --> 00:14:56,440
+Just rise in the air.
+
+115
+00:14:56,440 --> 00:15:10,440
+Just rise in the air.
+
+116
+00:15:10,440 --> 00:15:12,440
+Just rise in the air.
+
+117
+00:15:40,440 --> 00:15:42,440
+Just rise in the air.
+
+118
+00:16:10,440 --> 00:16:12,440
+Just rise in the air.
+
+119
+00:16:40,440 --> 00:16:42,440
+Just rise in the air.
+
+120
+00:17:10,440 --> 00:17:12,440
+Just rise in the air.
+
+121
+00:17:40,440 --> 00:17:44,440
+Just rise in the air.
+
+122
+00:18:10,440 --> 00:18:12,440
+Just rise in the air.
+
+123
+00:18:40,440 --> 00:18:42,440
+Just rise in the air.
+
+124
+00:19:10,440 --> 00:19:12,440
+Just rise in the air.
+
+125
+00:19:40,440 --> 00:19:42,440
+Just rise in the air.
+
+126
+00:19:42,440 --> 00:19:44,440
+Just rise in the air.
+
+127
+00:20:10,440 --> 00:20:14,440
+Just rise in the air.
+
+128
+00:20:14,440 --> 00:20:16,440
+Just rise in the air.
+
+129
+00:20:40,440 --> 00:20:44,440
+Just rise in the air.
+
+130
+00:21:10,440 --> 00:21:14,440
+Just rise in the air.
+
+131
+00:21:14,440 --> 00:21:16,440
+Just rise in the air.
+
+132
+00:21:40,440 --> 00:21:42,440
+Just rise in the air.
+
+133
+00:21:42,440 --> 00:21:44,440
+Just rise in the air.
+
+134
+00:21:44,440 --> 00:21:46,440
+Just rise in the air.
+
+135
+00:21:46,440 --> 00:21:48,440
+Just rise in the air.
+
+136
+00:21:48,440 --> 00:21:50,440
+Just rise in the air.
+
+137
+00:21:50,440 --> 00:21:52,440
+Just rise in the air.
+
+138
+00:21:52,440 --> 00:21:54,440
+Just rise in the air.
+
+139
+00:21:54,440 --> 00:21:56,440
+Just rise in the air.
+
+140
+00:21:56,440 --> 00:21:58,440
+Just rise in the air.
+
+141
+00:21:58,440 --> 00:22:00,440
+Just rise in the air.
+
+142
+00:22:00,440 --> 00:22:02,440
+Just rise in the air.
+
+143
+00:22:02,440 --> 00:22:04,440
+Just rise in the air.
+
+144
+00:22:04,440 --> 00:22:06,440
+Just rise in the air.
+
+145
+00:22:06,440 --> 00:22:08,440
+Just rise in the air.
+
+146
+00:22:08,440 --> 00:22:10,440
+Just rise in the air.
+
+147
+00:22:10,440 --> 00:22:12,440
+Just rise in the air.
+
+148
+00:22:12,440 --> 00:22:14,440
+Just rise in the air.
+
+149
+00:22:14,440 --> 00:22:16,440
+Just rise in the air.
+
+150
+00:22:16,440 --> 00:22:18,440
+Just rise in the air.
+
+151
+00:22:18,440 --> 00:22:20,440
+Just rise in the air.
+
+152
+00:22:20,440 --> 00:22:22,440
+Just rise in the air.
+
+153
+00:22:22,440 --> 00:22:24,440
+Just rise in the air.
+
+154
+00:22:24,440 --> 00:22:26,440
+Just rise in the air.
+
+155
+00:22:26,440 --> 00:22:28,440
+Just rise in the air.
+
+156
+00:22:28,440 --> 00:22:30,440
+Just rise in the air.
+
+157
+00:22:30,440 --> 00:22:32,440
+Just rise in the air.
+
+158
+00:22:32,440 --> 00:22:34,440
+Just rise in the air.
+
+159
+00:22:34,440 --> 00:22:36,440
+Just rise in the air.
+
+160
+00:22:36,440 --> 00:22:38,440
+Just rise in the air.
+
+161
+00:22:38,440 --> 00:22:40,440
+Just rise in the air.
+
+162
+00:22:40,440 --> 00:22:42,440
+Just rise in the air.
+
+163
+00:22:42,440 --> 00:22:44,440
+Just rise in the air.
+
+164
+00:22:44,440 --> 00:22:46,440
+Just rise in the air.
+
+165
+00:22:46,440 --> 00:22:48,440
+Just rise in the air.
+
+166
+00:22:48,440 --> 00:22:50,440
+Just rise in the air.
+
+167
+00:22:50,440 --> 00:22:52,440
+Just rise in the air.
+
+168
+00:22:52,440 --> 00:22:54,440
+Just rise in the air.
+
+169
+00:22:54,440 --> 00:22:56,440
+Just rise in the air.
+
+170
+00:22:56,440 --> 00:22:58,440
+Just rise in the air.
+
+171
+00:22:58,440 --> 00:23:00,440
+Just rise in the air.
+
+172
+00:23:00,440 --> 00:23:02,440
+Just rise in the air.
+
+173
+00:23:02,440 --> 00:23:04,440
+Just rise in the air.
+
+174
+00:23:04,440 --> 00:23:06,440
+Just rise in the air.
+
+175
+00:23:06,440 --> 00:23:12,440
+Good luck tonight.
+
+176
+00:23:12,440 --> 00:23:16,440
+Hey.
+
+177
+00:23:16,440 --> 00:23:18,440
+Hey, Adam.
+
+178
+00:23:18,440 --> 00:23:20,440
+It's Richard Land全warchorid.com
+
+179
+00:23:20,440 --> 00:23:23,440
+I'd like to point your listeners on something real special,
+
+180
+00:23:23,440 --> 00:23:25,440
+On February 15t.
+
+181
+00:23:25,440 --> 00:23:29,440
+Then it will be possible to listen to you in real life
+
+182
+00:23:29,440 --> 00:23:32,440
+on the topic of nero costing and also in storage media.
+
+183
+00:23:32,440 --> 00:23:34,440
+But I think the nero costing part
+
+184
+00:23:34,440 --> 00:23:41,640
+part in combination with podcasting can be quite interesting. As far as I know, the first
+
+185
+00:23:41,640 --> 00:23:47,800
+opportunity for weeks or even months that people can see you live and there's something
+
+186
+00:23:47,800 --> 00:23:53,800
+interesting as well. The conference is for free. So I'll suggest your podcast listeners to
+
+187
+00:23:53,800 --> 00:23:59,800
+sign on and there's this special website which can be found on November in the
+
+188
+00:23:59,800 --> 00:24:07,720
+Mike-congress.nl. That's November in your Mike-congress.nl. And I think it's quite
+
+189
+00:24:07,720 --> 00:24:13,640
+interesting conference and I suggest the podcast listeners who live in the
+
+190
+00:24:13,640 --> 00:24:20,280
+Netherlands Belgium or maybe even Germany can join this conference on February to
+
+191
+00:24:20,280 --> 00:24:24,920
+15th and the location is called Happy Days. And what I did see but I'm sure that's
+
+192
+00:24:24,920 --> 00:24:30,280
+just a coincidence that the founding partner is Grandmasterview. You see you on the 15th
+
+193
+00:24:30,280 --> 00:24:34,440
+I will be speaking there as well and I will speak about business models for podcasting and stuff
+
+194
+00:24:34,440 --> 00:24:38,440
+like that.
+
+195
+00:24:46,440 --> 00:24:52,440
+Richard that was created completely with Nick's cast live. Sounds good although it's just looking at the
+
+196
+00:24:52,440 --> 00:24:56,200
+meters here at my output meters. Looks like the left channel was a little bit lower than the
+
+197
+00:24:56,200 --> 00:24:59,720
+right channel. I don't know if that's a problem with Nick's cast live or not. You can hear that
+
+198
+00:24:59,720 --> 00:25:05,880
+Richard had all these little bits mapped keys and he was firing him off and the sound actually
+
+199
+00:25:05,880 --> 00:25:09,400
+was really good. I don't know if there's any processing sound in Nick's cast live but it's pretty
+
+200
+00:25:09,400 --> 00:25:14,840
+impressive. Nick's cast live.com download that sucker. If you're looking for something to create
+
+201
+00:25:16,120 --> 00:25:20,600
+live podcast with on the fly this is not something you record you used to record and go back and
+
+202
+00:25:20,600 --> 00:25:25,560
+edit this is for kind of life performance version of the podcast which is the way I do the
+
+203
+00:25:25,560 --> 00:25:35,080
+daily source code. Adam Bloom sent me some tunes. Yes he's related to Ron and I just wanted to
+
+204
+00:25:35,080 --> 00:25:42,360
+share this with you because he's so fucking crazy to hear this version of an ACD C2. Here's Hasing Dixie
+
+205
+00:25:42,360 --> 00:25:49,240
+on the source code. Oh by the way you're allowed to sing along if you know the words.
+
+206
+00:25:49,240 --> 00:25:57,240
+Probably the first time you could understand that. I'm not going to plug in your own electric guitar
+
+207
+00:25:57,240 --> 00:26:05,240
+and the jamblers are fast with scenes. She kept motorclaims. She was the best damn woman that I've ever seen
+
+208
+00:26:05,240 --> 00:26:13,960
+she had decided that I still and we no lies out in me out in America that I've eaten more than
+
+209
+00:26:13,960 --> 00:26:21,480
+their share. Had me fat for a year. She told me to come but I was already there. The walls were
+
+210
+00:26:21,480 --> 00:26:30,120
+shaking. Earth was a curtain from mine. We were shaking. We wasn't making it in here. She made
+
+211
+00:26:30,120 --> 00:26:45,240
+all night long. Give me a tear you made. She made all night long. Working double time must have
+
+212
+00:26:45,240 --> 00:26:52,520
+looks in the light. She didn't want to catch it. She kissed mine all night long. No lies just
+
+213
+00:26:52,520 --> 00:27:00,120
+a matter of health. Made a meal out of me. Come back for my own. Had to come down to taking
+
+214
+00:27:00,120 --> 00:27:08,520
+movies around. Now I'm back in the rain to take it. Let the swing and the walls was shaking. Earth was
+
+215
+00:27:08,520 --> 00:27:19,800
+a curtain from mine. We were shaking. We wasn't making it in here. She made all night long. I have
+
+216
+00:27:19,800 --> 00:27:32,760
+mercy on the years. She made all night long. You're able to make it in here. She made all night long.
+
+217
+00:27:33,720 --> 00:27:42,920
+Got it now. I'm standing here. She made all night long. Yeah, you should make.
+
+218
+00:28:12,920 --> 00:28:31,080
+You're able to make it in here. You're able to make it in here. You're able to make it in here.
+
+219
+00:28:31,080 --> 00:28:44,840
+You're able to make it in here. You're able to make it in here. You're able to make it in here.
+
+220
+00:28:45,480 --> 00:28:52,680
+Yeah, you should make it in here. You're able to make it in here.
+
+221
+00:28:52,680 --> 00:29:01,640
+Oh, god, oh. Hey, Adam and all the daily source code listeners. My name's Travis Hoffman
+
+222
+00:29:01,640 --> 00:29:06,840
+and I'm the proprietor of the Ponderplace podcast. What's the Ponderplace podcast you ask?
+
+223
+00:29:06,840 --> 00:29:10,520
+It's a place where I take a look into the tales of the odd and moronic found in everyday life.
+
+224
+00:29:11,240 --> 00:29:15,080
+So exactly. What kind of tales of odd and moronic behavior am I talking about?
+
+225
+00:29:15,880 --> 00:29:19,800
+Well, there's always like how we just own cheese. How come you never see any metal sports?
+
+226
+00:29:19,800 --> 00:29:23,160
+How can you get 130% vitamin C in the orange juice? Why do they always hide the Valentine's day
+
+227
+00:29:23,160 --> 00:29:26,360
+candy and health information underneath the candy? Is it impossible to blow your nose well driving?
+
+228
+00:29:26,360 --> 00:29:28,760
+Do those blizz greens of death on one nose machine? You'll have to be that annoying.
+
+229
+00:29:28,760 --> 00:29:31,800
+Is lots of hair pigment threes on old people with their web turned signal on well driving?
+
+230
+00:29:31,800 --> 00:29:35,000
+Does everything need a four-none date these days? Why do charming compare toilet paper to pillows?
+
+231
+00:29:35,000 --> 00:29:37,400
+How come in Walmart? There's a mirror for your car that has a rhinoceros in it.
+
+232
+00:29:37,400 --> 00:29:41,000
+They show on your love by spinning or doing your pets really showing love at all. How exactly do you puff?
+
+233
+00:29:41,000 --> 00:29:44,920
+Puff rise and pump bleak. The secret service just hasn't blown anyone anymore. It's really not that big of a secret.
+
+234
+00:29:44,920 --> 00:29:47,640
+I think it'd be funny to put strawberry milk on an empty petal business model and just drink a lot.
+
+235
+00:29:47,640 --> 00:29:51,000
+How come mallwalkers are so dangerous? I think it'd be funny if that grocery store had sales on can do it.
+
+236
+00:29:51,000 --> 00:29:53,880
+And then hung up from the ceiling just out of reach two words, nerped car.
+
+237
+00:29:53,880 --> 00:29:57,880
+How come scientists have kept calcium and sodium yet? Why do you need a careful of your own?
+
+238
+00:29:57,880 --> 00:30:00,840
+Sorry. I get kind of carried away sometimes.
+
+239
+00:30:00,840 --> 00:30:07,240
+If you're curious about these pondering and many others, be sure to check out the Ponderplace podcast at www.
+
+240
+00:30:07,240 --> 00:30:12,520
+Travishopman.com slash ponderplace. Thanks. And back to you Adam.
+
+241
+00:30:16,520 --> 00:30:18,520
+Yeah, I'm tired. I'm tired. I'm tired.
+
+242
+00:30:18,520 --> 00:30:19,080
+Oh, I'm tired.
+
+243
+00:30:19,080 --> 00:30:20,120
+Oh, I'm tired.
+
+244
+00:30:20,120 --> 00:30:21,400
+With your own polo.
+
+245
+00:30:21,400 --> 00:30:22,680
+I know.
+
+246
+00:30:22,680 --> 00:30:26,040
+Hi, Adam. Hey, young polo, I take you with a hit test number seven.
+
+247
+00:30:26,040 --> 00:30:29,080
+Alright, buddy. Again, I've lined up three tracks for you.
+
+248
+00:30:29,080 --> 00:30:29,880
+I bet you have.
+
+249
+00:30:29,880 --> 00:30:30,680
+I hope you're ready.
+
+250
+00:30:30,680 --> 00:30:32,040
+Yes, this is number one.
+
+251
+00:30:32,040 --> 00:30:33,800
+Don't forget to buy my wife in there, okay?
+
+252
+00:30:34,040 --> 00:30:36,040
+Oh, Charlie Wattley.
+
+253
+00:30:36,040 --> 00:30:38,040
+Oh, it's Chalamara, Charlie.
+
+254
+00:30:38,040 --> 00:30:40,840
+It's, I think it's Charlie Wattley.
+
+255
+00:30:40,840 --> 00:30:44,040
+I'm looking for new.
+
+256
+00:30:44,040 --> 00:30:45,480
+Look. Listen to that cow.
+
+257
+00:30:46,840 --> 00:30:47,640
+Do I hear a cow though?
+
+258
+00:30:50,600 --> 00:30:51,640
+And this is number two.
+
+259
+00:30:58,760 --> 00:31:00,440
+Yes, this is a Dutch group.
+
+260
+00:31:00,520 --> 00:31:01,880
+Frog with your fruit.
+
+261
+00:31:01,880 --> 00:31:02,440
+Swine bits.
+
+262
+00:31:04,280 --> 00:31:06,760
+No one else will know that outside of Holland or Portugal.
+
+263
+00:31:08,200 --> 00:31:10,200
+Your Dutch, you probably guessed it. Big hit.
+
+264
+00:31:12,680 --> 00:31:14,040
+And the last one. Number three.
+
+265
+00:31:16,360 --> 00:31:18,200
+Hmm, yeah, I know this one.
+
+266
+00:31:20,280 --> 00:31:22,280
+This is uh, Alice and Moier.
+
+267
+00:31:22,280 --> 00:31:25,080
+Oh, my head. Alice and Moier. It's all sung out.
+
+268
+00:31:26,440 --> 00:31:27,240
+Oh, cry.
+
+269
+00:31:27,240 --> 00:31:28,680
+I'll cry it out, I think it is.
+
+270
+00:31:29,560 --> 00:31:31,560
+And these are the answers.
+
+271
+00:31:31,560 --> 00:31:32,600
+And so number one.
+
+272
+00:31:33,560 --> 00:31:34,760
+It's Charlie Wattley.
+
+273
+00:31:34,760 --> 00:31:36,760
+And she's looking for a new love.
+
+274
+00:31:41,720 --> 00:31:42,600
+I hear a cow though.
+
+275
+00:31:44,360 --> 00:31:45,400
+I need a cow though.
+
+276
+00:31:59,320 --> 00:32:01,320
+I'm really, yeah.
+
+277
+00:32:03,000 --> 00:32:03,640
+Charlie Wattley.
+
+278
+00:32:05,320 --> 00:32:07,000
+The former singer of Schalemar.
+
+279
+00:32:08,600 --> 00:32:09,800
+See, I see a lot of people.
+
+280
+00:32:09,800 --> 00:32:11,400
+I knew love. This is number two.
+
+281
+00:32:11,400 --> 00:32:12,280
+We're going extra points.
+
+282
+00:32:14,120 --> 00:32:15,320
+It's a Dutch track.
+
+283
+00:32:15,320 --> 00:32:15,640
+Yeah.
+
+284
+00:32:16,440 --> 00:32:17,640
+It's Frank Weier.
+
+285
+00:32:18,680 --> 00:32:21,080
+And the song is titled, The Swatch Vits.
+
+286
+00:32:24,920 --> 00:32:28,520
+I should tell the listeners that this guy married
+
+287
+00:32:28,680 --> 00:32:29,640
+Amanda Redington.
+
+288
+00:32:31,400 --> 00:32:33,880
+She's a UK TV presenter and his hero wondering.
+
+289
+00:32:35,560 --> 00:32:36,600
+It's a nice guy, Frank.
+
+290
+00:32:45,560 --> 00:32:46,920
+So really good lyric in this.
+
+291
+00:32:50,440 --> 00:32:51,720
+I'm not white. I'm not black.
+
+292
+00:32:51,720 --> 00:32:53,080
+I don't think white. I don't think black.
+
+293
+00:32:53,880 --> 00:32:55,160
+I think in the color of your heart.
+
+294
+00:32:55,720 --> 00:32:56,520
+I don't think white.
+
+295
+00:32:58,520 --> 00:33:00,760
+No, it's Frank Weier.
+
+296
+00:33:03,000 --> 00:33:03,720
+And Swatch Vits.
+
+297
+00:33:05,720 --> 00:33:06,360
+Black and white.
+
+298
+00:33:07,240 --> 00:33:08,840
+Something in line of don't think black.
+
+299
+00:33:08,840 --> 00:33:09,640
+Don't say white.
+
+300
+00:33:09,640 --> 00:33:11,240
+But think in the color of your heart.
+
+301
+00:33:11,240 --> 00:33:12,280
+It's answer number three.
+
+302
+00:33:12,280 --> 00:33:12,600
+All right.
+
+303
+00:33:13,880 --> 00:33:14,360
+Allison.
+
+304
+00:33:14,360 --> 00:33:15,640
+It's Allison Weier.
+
+305
+00:33:16,680 --> 00:33:17,800
+And she's all cried out.
+
+306
+00:33:17,800 --> 00:33:18,520
+I'll cry it out.
+
+307
+00:33:25,160 --> 00:33:31,240
+The grass is gone and you'll be
+
+308
+00:33:32,440 --> 00:33:33,240
+baby.
+
+309
+00:33:33,240 --> 00:33:35,560
+I'm gonna keep it as I run
+
+310
+00:33:36,200 --> 00:33:38,840
+and hear the short and the narrow.
+
+311
+00:33:39,960 --> 00:33:41,240
+I'm not thinking anything.
+
+312
+00:33:41,240 --> 00:33:42,760
+I'll be yeah.
+
+313
+00:33:43,960 --> 00:33:45,640
+Also a great lyric to this listeners.
+
+314
+00:33:46,440 --> 00:33:47,400
+Oh yeah.
+
+315
+00:33:48,520 --> 00:33:52,280
+You took a whole lot of love and for a handful of nothing.
+
+316
+00:33:53,240 --> 00:33:54,840
+It's great.
+
+317
+00:33:54,840 --> 00:33:55,560
+Great young.
+
+318
+00:33:55,560 --> 00:33:56,200
+Excellent.
+
+319
+00:33:58,120 --> 00:33:59,160
+Oh my favorite songs.
+
+320
+00:34:00,600 --> 00:34:02,360
+Man, they made some good music in the A.E.
+
+321
+00:34:02,840 --> 00:34:03,800
+It's a bad hair.
+
+322
+00:34:03,800 --> 00:34:05,560
+Crad out with answer number three.
+
+323
+00:34:05,560 --> 00:34:07,000
+And this hit test.
+
+324
+00:34:07,000 --> 00:34:09,080
+Number seven already.
+
+325
+00:34:09,080 --> 00:34:10,040
+It's going fast.
+
+326
+00:34:11,160 --> 00:34:13,320
+Well, I'm still still working on the air checks.
+
+327
+00:34:14,360 --> 00:34:15,720
+You can't have too many of those.
+
+328
+00:34:16,280 --> 00:34:20,120
+Still searching for a piece that I can use in the hit test.
+
+329
+00:34:21,080 --> 00:34:26,600
+If you've got one, please send it to hittestatgmail.com.
+
+330
+00:34:27,880 --> 00:34:32,760
+And that's also the address to send your feedback to hittestatgmail.com.
+
+331
+00:34:34,760 --> 00:34:37,640
+If you want to download this edition of the hittest
+
+332
+00:34:38,600 --> 00:34:45,320
+or earlier episodes, you can find them at www.helpat hands.nl slash hittest.
+
+333
+00:34:46,600 --> 00:34:48,920
+So that's www.helpat hands.
+
+334
+00:34:49,880 --> 00:34:51,560
+That's an L slash hittest.
+
+335
+00:34:53,000 --> 00:34:54,280
+That's it for today.
+
+336
+00:34:55,560 --> 00:34:57,080
+See you next time for another
+
+337
+00:34:57,080 --> 00:34:59,240
+edition of the hittest. Bye-bye.
+
+338
+00:34:59,240 --> 00:35:00,360
+Thank you very much, young.
+
+339
+00:35:00,360 --> 00:35:01,160
+Excellent.
+
+340
+00:35:01,160 --> 00:35:03,240
+As always, the hit test.
+
+341
+00:35:03,240 --> 00:35:06,040
+And I forgot to put the site in there.
+
+342
+00:35:06,040 --> 00:35:08,040
+Yesterday in the show notes, it's in there today.
+
+343
+00:35:08,040 --> 00:35:08,680
+Hi Adam.
+
+344
+00:35:08,680 --> 00:35:09,640
+This is Kevin.
+
+345
+00:35:09,640 --> 00:35:12,280
+And if my voice sounds a little bit familiar to you,
+
+346
+00:35:12,280 --> 00:35:14,600
+but you can't quite place it, let me give you a hand.
+
+347
+00:35:15,400 --> 00:35:17,720
+It's time for Adam Curry to take the hittest.
+
+348
+00:35:19,320 --> 00:35:22,440
+I'm just one of the fellows that post over at radeogaddy.com.
+
+349
+00:35:22,440 --> 00:35:24,440
+And I just wanted to drop in and clarify
+
+350
+00:35:24,440 --> 00:35:28,360
+key things because I've noticed a few people have heard about the site
+
+351
+00:35:28,360 --> 00:35:31,880
+through you and other places and have come by and made requests
+
+352
+00:35:31,880 --> 00:35:34,760
+and been a little bit disappointed and not understood why.
+
+353
+00:35:34,760 --> 00:35:37,480
+And so I thought I might just drop in clarify
+
+354
+00:35:37,480 --> 00:35:41,800
+key things and help people get a little bit better response perhaps.
+
+355
+00:35:42,600 --> 00:35:48,440
+I first think to understand is that radeogaddy.com builds itself
+
+356
+00:35:48,440 --> 00:35:50,440
+as free voiceovers and more.
+
+357
+00:35:50,440 --> 00:35:54,840
+The original intent was to help low-power non-profit radio stations.
+
+358
+00:35:54,840 --> 00:36:00,200
+Exchange voice work so that, you know, if I have a station in the mean guy,
+
+359
+00:36:00,200 --> 00:36:02,840
+you know, you don't hear my voice all day long.
+
+360
+00:36:02,840 --> 00:36:07,400
+I'll have other people do voices like I have an Australian fellow
+
+361
+00:36:07,400 --> 00:36:09,960
+on my little home station that you'll hear.
+
+362
+00:36:12,280 --> 00:36:18,760
+A few clarifications on what things are voiceover talking.
+
+363
+00:36:19,880 --> 00:36:22,520
+If you ask for a voiceover or a dry read,
+
+364
+00:36:22,520 --> 00:36:24,600
+you'll probably get that filled pretty quick.
+
+365
+00:36:24,600 --> 00:36:29,720
+Somebody will just read what you type in and do give them a script.
+
+366
+00:36:29,720 --> 00:36:31,320
+Tell them what you want.
+
+367
+00:36:31,320 --> 00:36:34,840
+Just saying drop by my website and check it out and get an idea what I want.
+
+368
+00:36:34,840 --> 00:36:37,320
+That's not going to get a good response.
+
+369
+00:36:37,320 --> 00:36:40,600
+So say clearly what it is you're looking for.
+
+370
+00:36:40,600 --> 00:36:41,880
+And what style?
+
+371
+00:36:41,880 --> 00:36:46,040
+Upbeat, newsy, mellow, laidback, however you want to phrase it.
+
+372
+00:36:46,040 --> 00:36:47,480
+Next, a jingle.
+
+373
+00:36:47,480 --> 00:36:48,760
+Jingle has singing.
+
+374
+00:36:48,760 --> 00:36:50,520
+We do not do jingles.
+
+375
+00:36:50,520 --> 00:36:51,960
+You don't want to hear me sing.
+
+376
+00:36:51,960 --> 00:36:53,000
+That's all there is to that.
+
+377
+00:36:53,000 --> 00:36:59,800
+A sweeper or a produced element is what a lot of people are asking for.
+
+378
+00:36:59,800 --> 00:37:03,880
+And I want folks to understand that you have to have the stuff to make those.
+
+379
+00:37:05,240 --> 00:37:06,760
+And a lot of guys do not.
+
+380
+00:37:06,760 --> 00:37:08,440
+And you have to have the time to do them.
+
+381
+00:37:08,440 --> 00:37:10,360
+There's a lot of work involved in that.
+
+382
+00:37:10,360 --> 00:37:15,000
+So occasionally somebody will find something they think is a challenge.
+
+383
+00:37:15,000 --> 00:37:18,600
+Like this one I did for a game's podcast.
+
+384
+00:37:18,600 --> 00:37:21,080
+I'd rather like it and just kind of proud of it and enjoy doing it.
+
+385
+00:37:21,080 --> 00:37:36,680
+We're not talking your dad's video games.
+
+386
+00:37:36,680 --> 00:37:39,720
+So that's an example of a produced sweeper.
+
+387
+00:37:39,720 --> 00:37:42,840
+But as I say, not everybody's time to do that.
+
+388
+00:37:42,840 --> 00:37:47,720
+So if that's not what you get, please don't be disappointed that nobody answered.
+
+389
+00:37:48,200 --> 00:37:52,520
+Sometimes your post gets knocked down the list and just gets missed.
+
+390
+00:37:56,760 --> 00:38:00,840
+I hope this explains things a little bit and that folks will drop by and check things out.
+
+391
+00:38:00,840 --> 00:38:04,600
+And I enjoy doing the stuff for Yon and for you and for the hit test.
+
+392
+00:38:04,600 --> 00:38:08,760
+And I did not know about your podcast before, but now I'm enjoying listening.
+
+393
+00:38:09,960 --> 00:38:14,680
+Take care and I'm sure you'll be hearing me often because I don't think Yon and the hit
+
+394
+00:38:14,680 --> 00:38:16,280
+test are going anywhere anytime soon.
+
+395
+00:38:19,320 --> 00:38:29,240
+So this is Kevin, known over at radiodaddy.com is power FM saying now back to Adam Curry and the
+
+396
+00:38:29,240 --> 00:38:30,360
+Daily Source Co.
+
+397
+00:38:32,360 --> 00:38:35,560
+Awesome. Awesome. Thank you very much, Kevin. That's great.
+
+398
+00:38:35,560 --> 00:38:39,400
+That's clarification because I've been sending people over to radiodaddy.com without really
+
+399
+00:38:39,400 --> 00:38:42,520
+thinking too much about what the implications of that could be.
+
+400
+00:38:42,520 --> 00:38:45,560
+And perhaps we need to do something specifically for podcasts for that.
+
+401
+00:38:45,560 --> 00:38:51,640
+And I'd certainly contribute and you're right, creating sweepers and bumpers and jingles and stuff is hard work.
+
+402
+00:38:52,680 --> 00:38:56,840
+And usually I wound up paying people significant sums of money to do that for me is a guy in
+
+403
+00:38:56,840 --> 00:39:04,520
+New York, Dave Fox, WX Fox on the run.com is his site and he does, I actually have an exclusive
+
+404
+00:39:04,520 --> 00:39:11,000
+arrangement with him for for Europe when I do stuff on, you know, traditional radio and television.
+
+405
+00:39:11,960 --> 00:39:16,280
+But if you have a little bit of a cash and you want him to produce some stuff and he has the
+
+406
+00:39:16,280 --> 00:39:22,040
+time too, he is absolutely the best. But when it comes to a community-based thing like this,
+
+407
+00:39:22,040 --> 00:39:26,920
+yeah, I'd be happy to, you know, happy to cut some liners. Maybe, well, you know, we should think
+
+408
+00:39:26,920 --> 00:39:30,840
+about that where we can do if we can come up with some kind of central resource because the idea is
+
+409
+00:39:30,840 --> 00:39:38,280
+great. But, you know, maybe radiodaddy.com should be for a little, you know, for a different audience
+
+410
+00:39:38,360 --> 00:39:42,680
+than the podcasters. But the clarification was excellent Kevin, I really appreciate. And of course,
+
+411
+00:39:42,680 --> 00:39:48,760
+I appreciate the sweeper and the bumper for the hit test. As do I appreciate,
+
+412
+00:39:48,760 --> 00:39:52,760
+young pull-out putting that together every single day, I really appreciate that. Don't forget,
+
+413
+00:39:52,760 --> 00:39:58,120
+on Thursdays, we have our trivia Thursday, I have, oh man, I have such a big,
+
+414
+00:40:00,360 --> 00:40:06,680
+yeah, I got a big, you know, I was big. I have this Beatles-based trivia, I've got another
+
+415
+00:40:06,680 --> 00:40:11,640
+lost in translation trivia, I've got him here, one, two, three, four, five, six, seven,
+
+416
+00:40:11,640 --> 00:40:17,560
+five, seven, yeah, seven different trivia to us so far. And of course, there'll be, so let's
+
+417
+00:40:17,560 --> 00:40:23,160
+make that eight with young pull-outs Thursday edition. All right, almost, well, actually, it's
+
+418
+00:40:23,160 --> 00:40:27,400
+40 minutes, so I could end it here, but Christine and I were in the car this morning. What I,
+
+419
+00:40:27,400 --> 00:40:33,800
+when I tend to do is, I got my iPod running overnight and the iPod has plugged in, so, you know,
+
+420
+00:40:33,800 --> 00:40:38,520
+true to form, I pick up the iPod, jack in the iPrip and on the way to school, which is about a
+
+421
+00:40:38,520 --> 00:40:43,640
+15 minute drive in the morning, sometimes a little bit longer. Then we listen to whatever's come
+
+422
+00:40:43,640 --> 00:40:49,560
+through, whatever the latest podcasts were. And this morning, we heard this awesome mashup,
+
+423
+00:40:49,560 --> 00:40:53,560
+which I just wanted to share with you. So, you know, you can end if your walk is over,
+
+424
+00:40:53,560 --> 00:40:57,480
+if your commute is over, you're at the 40 minute mark, you can save this for later,
+
+425
+00:40:57,480 --> 00:41:02,920
+or you can listen to it right now, but I guarantee you, I guarantee you're going to want to crank
+
+426
+00:41:02,920 --> 00:41:08,360
+this one out. YouTube versus lyrics more, it's called calling on a Sunday.
+
+427
+00:41:32,920 --> 00:41:38,120
+And I told every group you go make it all happy night you're right next. I'm on a walk from the other house
+
+428
+00:41:38,120 --> 00:41:44,040
+and who the hell he is. And it's called a joke, I make it to my new meet in. So take your time, grab a take a week, I'll move to see you.
+
+429
+00:41:44,040 --> 00:41:48,840
+And I will now make you introduce me to my new people, see my name is Leverich's mom, baby, and I truly mean it.
+
+430
+00:41:48,840 --> 00:41:53,080
+For the past, I'm the future from the new women's and you can't help but leave it, you can read it, pay to it,
+
+431
+00:41:53,080 --> 00:41:56,440
+and you'll need to live a life, or see it's won't be in this more baby.
+
+432
+00:41:56,440 --> 00:42:00,680
+I'm a blessing, I'm a girl, see you, and I think, oh, that's time to get your dinner, baby.
+
+433
+00:42:00,680 --> 00:42:05,480
+I'm never running from a challenge ever, bitchy, bitchy, you know, rap, all the time we got that can't move in.
+
+434
+00:42:05,480 --> 00:42:10,280
+You have to see me do my best, son, I'm two fingers, play it too, not the two, show the wounded man.
+
+435
+00:42:10,280 --> 00:42:15,400
+I have a rumor, you may begin to feel the music, your feet may never be true, the music ain't love, be the screamer, baby.
+
+436
+00:42:15,400 --> 00:42:19,960
+All in a zone, every group you go make it all happy night you're right next.
+
+437
+00:42:19,960 --> 00:42:24,680
+Call it up to all, every group you go make it all happy night you're right next.
+
+438
+00:42:24,680 --> 00:42:29,560
+Call it up to all, every group you go make it all happy night you're right next.
+
+439
+00:42:29,800 --> 00:42:34,200
+Call it up to all, every group you go make it all happy night you're right next.
+
+440
+00:42:34,200 --> 00:42:36,600
+My life's a combination of my past achievements,
+
+441
+00:42:36,600 --> 00:42:39,560
+with a lot of heavy lifting, a lot of teeth breathing, a lot of courage,
+
+442
+00:42:39,560 --> 00:42:42,520
+a lot of times, a lot of mixed feelings, a lot of love, a lot of love, a lot of love,
+
+443
+00:42:42,520 --> 00:42:46,040
+you throw a lot of reasons, hang, bring out, I'm about to paint it on the mistreatment,
+
+444
+00:42:46,040 --> 00:42:48,680
+hang, bring out a little backstage, try the wiggle, me, you, hang,
+
+445
+00:42:48,680 --> 00:42:52,520
+forgot about the flowers, you underneath the crowded streets, drop in between the crack team,
+
+446
+00:42:52,520 --> 00:42:55,560
+a chap, hey, hey, fallin' like I like it in the kind of signal,
+
+447
+00:42:55,560 --> 00:42:57,960
+and you can pass it to my ticket, you're in the Masaliga,
+
+448
+00:42:57,960 --> 00:43:00,280
+you think I'll never hang head up for money, stop dreaming,
+
+449
+00:43:00,280 --> 00:43:02,600
+you think I'll never stop, hold baby, now you're richer.
+
+450
+00:43:02,600 --> 00:43:05,000
+I won't stop till I feel my known stop breathing,
+
+451
+00:43:05,000 --> 00:43:07,400
+I won't stop till I feel my heart stopped beating,
+
+452
+00:43:07,400 --> 00:43:09,800
+I won't stop speaking this weekend next weekend,
+
+453
+00:43:09,800 --> 00:43:12,040
+I won't sleep singing, I don't stop singing,
+
+454
+00:43:12,040 --> 00:43:13,960
+buy a freeze and I keep the fireball free,
+
+455
+00:43:13,960 --> 00:43:16,440
+no, man, won't break this from the metal times,
+
+456
+00:43:16,440 --> 00:43:22,040
+swimming, baby, call it up to all, every group you go make it all happy night you're right next.
+
+457
+00:43:22,040 --> 00:43:25,400
+Call it up to all, every group you go make it all happy night you're right next.
+
+458
+00:43:25,400 --> 00:43:31,400
+Call it up to all, every group you go make it all happy night you're right next.
+
+459
+00:43:31,400 --> 00:43:36,040
+Call it up to all, every group you go make it all happy night you're right next.
+
+460
+00:43:55,640 --> 00:44:00,440
+Call it up to all, every group you go make it all happy night you're right next.
+
+461
+00:44:02,840 --> 00:44:05,560
+Call it on Sunday, it's, uh,
+
+462
+00:44:05,560 --> 00:44:09,240
+YouTube versus lyrics born at the end of the Tuesday source code.
+
+463
+00:44:12,200 --> 00:44:15,480
+Alrighty, oh, man, so, uh, 10 after one,
+
+464
+00:44:15,480 --> 00:44:18,200
+gonna have some lunch with my wife and, uh,
+
+465
+00:44:18,200 --> 00:44:22,360
+shoot this up to the bird, that would be the server, right?
+
+466
+00:44:22,360 --> 00:44:28,280
+That's it, feedback at amaccharry.com or for audio feedback, MP3 feedback at gmail.com.
+
+467
+00:44:31,960 --> 00:44:36,360
+Keep it all coming, and of course, I'm expecting lots of lawyers to be emailing about this brand new
+
+468
+00:44:36,360 --> 00:44:41,080
+license that we found. So, please send that off. And of course, you can find all of the source codes,
+
+469
+00:44:41,080 --> 00:44:45,480
+data source code.com for the archives, the latest show and the podcast feed.
+
+470
+00:44:46,200 --> 00:44:52,120
+And, uh, if you have a chance, you can also check out the weblog www.curry.com.
+
+471
+00:44:52,120 --> 00:44:56,280
+Thanks for tuning in. Thanks for subscribing. Thanks for downloading. I really appreciate it.
+
+472
+00:44:56,280 --> 00:45:00,440
+I'll see you tomorrow on the HumphDeadish Network source code. Take care everybody. Bye. Bye.
+
