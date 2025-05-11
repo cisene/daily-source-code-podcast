@@ -1,0 +1,1656 @@
+1
+00:00:00,000 --> 00:00:06,000
+Daily source code for February 23, 2005.
+
+2
+00:00:06,000 --> 00:00:10,000
+Transmators, we don't need no stinkin' transmators.
+
+3
+00:00:10,000 --> 00:00:14,000
+Get ready for the generation of rocker.
+
+4
+00:00:14,000 --> 00:00:16,000
+And a podcasting.
+
+5
+00:00:16,000 --> 00:00:18,000
+It's Adam Curry.
+
+6
+00:00:18,000 --> 00:00:22,000
+Hey everybody, welcome to the Thursday Disney source code.
+
+7
+00:00:22,000 --> 00:00:26,000
+At least we'll call the Thursday edition because here in California,
+
+8
+00:00:26,000 --> 00:00:28,000
+we're still living in Wednesday.
+
+9
+00:00:28,000 --> 00:00:32,000
+By the time you hit this, it'll be Thursday or Friday or Saturday or God knows.
+
+10
+00:00:32,000 --> 00:00:36,000
+It is the 23rd.
+
+11
+00:00:36,000 --> 00:00:40,000
+But the 24th.
+
+12
+00:00:40,000 --> 00:00:42,000
+I'm confused.
+
+13
+00:00:42,000 --> 00:00:44,000
+What is it Marcus?
+
+14
+00:00:44,000 --> 00:00:46,000
+What's Thursday?
+
+15
+00:00:46,000 --> 00:00:48,000
+It's the 24th.
+
+16
+00:00:48,000 --> 00:00:50,000
+So, wait a minute.
+
+17
+00:00:50,000 --> 00:00:52,000
+Did my announcer screw it up then?
+
+18
+00:00:52,000 --> 00:00:54,000
+What did she say?
+
+19
+00:00:54,000 --> 00:00:56,000
+23rd, 2005.
+
+20
+00:00:56,000 --> 00:00:58,000
+Screw it.
+
+21
+00:00:58,000 --> 00:01:00,000
+She's talking about bad programming.
+
+22
+00:01:00,000 --> 00:01:02,000
+Let's just call it the 23rd.
+
+23
+00:01:02,000 --> 00:01:06,000
+Hey everybody, welcome to the Daily source code coming to you from San Francisco, California.
+
+24
+00:01:06,000 --> 00:01:10,000
+From, uh, I love the hotel on Gary Street.
+
+25
+00:01:10,000 --> 00:01:12,000
+Kind of right in the middle of, uh,
+
+26
+00:01:12,000 --> 00:01:14,000
+all the druggies hang out.
+
+27
+00:01:14,000 --> 00:01:16,000
+It's all the drug addicts are here on the street.
+
+28
+00:01:16,000 --> 00:01:20,000
+For the next 40 minutes, got some crap for you.
+
+29
+00:01:20,000 --> 00:01:26,000
+Wow, we had a long, long day.
+
+30
+00:01:26,000 --> 00:01:30,000
+I posted on the weblog early this morning,
+
+31
+00:01:30,000 --> 00:01:34,000
+uh, that a source code wouldn't be up until later today.
+
+32
+00:01:34,000 --> 00:01:38,000
+Well, I certainly made that promise come true, didn't I?
+
+33
+00:01:38,000 --> 00:01:42,000
+Without doing meetings, meeting with lots of people,
+
+34
+00:01:42,000 --> 00:01:46,000
+and actually today we were in the valley.
+
+35
+00:01:46,000 --> 00:01:48,000
+Silicon Valley itself, which means you get on the,
+
+36
+00:01:48,000 --> 00:01:54,000
+uh, on the 101, 101 freeway going south.
+
+37
+00:01:56,000 --> 00:01:58,000
+She can tell I've got, uh, Marcus sitting here.
+
+38
+00:01:58,000 --> 00:02:02,000
+He's, uh, hanging out in our studio in our Gary Street studio.
+
+39
+00:02:02,000 --> 00:02:06,000
+Uh, for those of you that haven't been introduced to Marcus,
+
+40
+00:02:06,000 --> 00:02:08,000
+we've been working together for about, uh,
+
+41
+00:02:08,000 --> 00:02:10,000
+was it Marcus three years now?
+
+42
+00:02:10,000 --> 00:02:12,000
+Three years.
+
+43
+00:02:12,000 --> 00:02:14,000
+He, um, basically keeps all my shit running.
+
+44
+00:02:14,000 --> 00:02:17,000
+That's what we've been doing for the past couple.
+
+45
+00:02:17,000 --> 00:02:18,000
+How do we meet?
+
+46
+00:02:18,000 --> 00:02:19,000
+How do we meet?
+
+47
+00:02:19,000 --> 00:02:20,000
+How do you know?
+
+48
+00:02:20,000 --> 00:02:22,000
+Do you email me and said, what?
+
+49
+00:02:22,000 --> 00:02:23,000
+I do frontier.
+
+50
+00:02:23,000 --> 00:02:24,000
+I used to live in Holland.
+
+51
+00:02:24,000 --> 00:02:25,000
+Oh, that's right.
+
+52
+00:02:25,000 --> 00:02:26,000
+Yeah.
+
+53
+00:02:26,000 --> 00:02:27,000
+You've got some interest in stuff going on.
+
+54
+00:02:27,000 --> 00:02:28,000
+That's right.
+
+55
+00:02:28,000 --> 00:02:29,000
+That's right.
+
+56
+00:02:29,000 --> 00:02:30,000
+And then, uh, I said, yeah.
+
+57
+00:02:30,000 --> 00:02:31,000
+Okay.
+
+58
+00:02:31,000 --> 00:02:36,000
+So, uh, but the interesting thing is, uh,
+
+59
+00:02:36,000 --> 00:02:39,000
+that although we've been working together for certainly a good, uh,
+
+60
+00:02:39,000 --> 00:02:41,000
+uh, three years, we had never met in person.
+
+61
+00:02:41,000 --> 00:02:43,000
+We've spoken on the, uh, not, not even on the phone.
+
+62
+00:02:43,000 --> 00:02:45,000
+We've spoken on Skype before.
+
+63
+00:02:45,000 --> 00:02:49,000
+And, uh, on what on, uh, I chat a couple of times.
+
+64
+00:02:49,000 --> 00:02:50,000
+We never actually met.
+
+65
+00:02:50,000 --> 00:02:51,000
+Yeah.
+
+66
+00:02:51,000 --> 00:02:54,000
+And, uh, I guess kind of like, uh,
+
+67
+00:02:54,000 --> 00:02:59,000
+if you know someone from, uh, from the telephone or, um,
+
+68
+00:02:59,000 --> 00:03:03,000
+if you only know someone from a radio broadcast or a podcast,
+
+69
+00:03:03,000 --> 00:03:05,000
+uh, and then when you finally meet up,
+
+70
+00:03:05,000 --> 00:03:09,000
+it's like everything you expected this person to look like is completely untrue.
+
+71
+00:03:09,000 --> 00:03:11,000
+It's completely different.
+
+72
+00:03:11,000 --> 00:03:14,000
+Um, but Marcus, you had the bent, you knew what I looked like, right?
+
+73
+00:03:14,000 --> 00:03:15,000
+So that, that was, that was easy.
+
+74
+00:03:15,000 --> 00:03:19,000
+But, uh, I actually, without going into too much detail,
+
+75
+00:03:19,000 --> 00:03:24,000
+but I thought Marcus was ten years younger.
+
+76
+00:03:24,000 --> 00:03:25,000
+Doesn't matter how old he is.
+
+77
+00:03:25,000 --> 00:03:26,000
+I won't give that away.
+
+78
+00:03:26,000 --> 00:03:29,000
+But ten years younger just because of his voice.
+
+79
+00:03:29,000 --> 00:03:31,000
+Um, and I thought he probably had really long hair.
+
+80
+00:03:31,000 --> 00:03:36,000
+I was kind of like a musician type, type rock and roll guy.
+
+81
+00:03:36,000 --> 00:03:38,000
+Long hair all one color.
+
+82
+00:03:38,000 --> 00:03:39,000
+Yeah.
+
+83
+00:03:39,000 --> 00:03:40,000
+Yeah.
+
+84
+00:03:40,000 --> 00:03:41,000
+Yeah.
+
+85
+00:03:41,000 --> 00:03:43,000
+Dude, I've got the gray here too, don't worry about it.
+
+86
+00:03:44,000 --> 00:03:46,000
+So, uh, we've been hanging out, uh,
+
+87
+00:03:46,000 --> 00:03:49,000
+actually speaking out, uh, for most of, uh,
+
+88
+00:03:49,000 --> 00:03:52,000
+uh, most of the evening, uh, in the hotel room.
+
+89
+00:03:52,000 --> 00:03:53,000
+Uh, we got the power books.
+
+90
+00:03:53,000 --> 00:03:55,000
+I had this, I got like a,
+
+91
+00:03:55,000 --> 00:03:56,000
+it shouldn't be happening.
+
+92
+00:03:56,000 --> 00:03:58,000
+I've got, uh, I don't know if you can hear that.
+
+93
+00:03:58,000 --> 00:04:00,000
+I've kind of interference on the wireless mics.
+
+94
+00:04:00,000 --> 00:04:02,000
+I wonder what's doing that.
+
+95
+00:04:02,000 --> 00:04:04,000
+Maybe some kind of,
+
+96
+00:04:04,000 --> 00:04:07,000
+ease dropping device in the room that is doing that.
+
+97
+00:04:07,000 --> 00:04:10,000
+So meetings in the valley.
+
+98
+00:04:10,000 --> 00:04:11,000
+My goodness.
+
+99
+00:04:12,000 --> 00:04:16,000
+For all the, all the noise, everything that's going on in, uh,
+
+100
+00:04:16,000 --> 00:04:18,000
+in the world of podcasting,
+
+101
+00:04:18,000 --> 00:04:23,000
+I gotta tell you that San Francisco, California,
+
+102
+00:04:23,000 --> 00:04:25,000
+and well, particularly the valley, uh,
+
+103
+00:04:25,000 --> 00:04:27,000
+so that's like, uh, what's the valley?
+
+104
+00:04:27,000 --> 00:04:28,000
+Mountain view, sunny veil,
+
+105
+00:04:28,000 --> 00:04:31,000
+all those places that you may have heard of before.
+
+106
+00:04:31,000 --> 00:04:34,000
+They are fucking clueless.
+
+107
+00:04:34,000 --> 00:04:36,000
+I was so amazed.
+
+108
+00:04:36,000 --> 00:04:40,000
+It seems like when it comes to anything
+
+109
+00:04:40,000 --> 00:04:43,000
+or anything, MP3 players or anything,
+
+110
+00:04:43,000 --> 00:04:46,000
+iPod, everybody here is still trying to figure out
+
+111
+00:04:46,000 --> 00:04:48,000
+how to capture the music business.
+
+112
+00:04:48,000 --> 00:04:50,000
+And it's just, it's amazing.
+
+113
+00:04:50,000 --> 00:04:52,000
+And we do meetings with people, and yeah,
+
+114
+00:04:52,000 --> 00:04:54,000
+you know, they're really excited about podcasting.
+
+115
+00:04:54,000 --> 00:04:56,000
+But, you know, halfway into the meeting,
+
+116
+00:04:56,000 --> 00:04:57,000
+it's like, you find out that they,
+
+117
+00:04:57,000 --> 00:05:00,000
+they never really even listen to a podcast.
+
+118
+00:05:00,000 --> 00:05:02,000
+It's just, uh, it's like you're there in this big,
+
+119
+00:05:02,000 --> 00:05:04,000
+sinkhole of God knows.
+
+120
+00:05:04,000 --> 00:05:06,000
+And this is, of course, it's not true for everybody.
+
+121
+00:05:06,000 --> 00:05:08,000
+That would be completely unfair.
+
+122
+00:05:08,000 --> 00:05:10,000
+But when it comes to all the companies here that you'd expect,
+
+123
+00:05:10,000 --> 00:05:12,000
+uh, to know what is going on,
+
+124
+00:05:12,000 --> 00:05:14,000
+have a real good feel for it.
+
+125
+00:05:14,000 --> 00:05:15,000
+Wow, I was pretty amazed.
+
+126
+00:05:15,000 --> 00:05:17,000
+Not that everyone we met with had no clue,
+
+127
+00:05:17,000 --> 00:05:19,000
+but woo, it was, um,
+
+128
+00:05:19,000 --> 00:05:21,000
+um, interesting to say the least.
+
+129
+00:05:21,000 --> 00:05:23,000
+So we talked a little bit about that,
+
+130
+00:05:23,000 --> 00:05:24,000
+a little bit about, uh,
+
+131
+00:05:24,000 --> 00:05:27,000
+also new, uh, applications, uh,
+
+132
+00:05:27,000 --> 00:05:28,000
+I've been playing around with.
+
+133
+00:05:28,000 --> 00:05:30,000
+And of course, we've got a matchup.
+
+134
+00:05:30,000 --> 00:05:33,000
+This one's, uh, music shape by the dog.
+
+135
+00:05:33,000 --> 00:05:35,000
+And this one's, uh, music shape by the dog.
+
+136
+00:05:35,000 --> 00:05:37,000
+And this one's, uh, music shape by the dog.
+
+137
+00:05:37,000 --> 00:05:39,000
+And this one's, uh, music shape by the dog.
+
+138
+00:05:39,000 --> 00:05:41,000
+And this one's, uh, music shape by the dog.
+
+139
+00:05:41,000 --> 00:05:43,000
+And this one's, uh, music shape by the dog.
+
+140
+00:05:43,000 --> 00:05:45,000
+And this one's, uh, music shape by the dog.
+
+141
+00:05:45,000 --> 00:05:47,000
+And this one's, uh, music shape by the dog.
+
+142
+00:05:47,000 --> 00:05:49,000
+And this one's, uh, music shape by the dog.
+
+143
+00:05:49,000 --> 00:05:51,000
+And this one's, uh, music shape by the dog.
+
+144
+00:05:51,000 --> 00:05:53,000
+And this one's, uh, music shape by the dog.
+
+145
+00:05:53,000 --> 00:05:55,000
+And this one's, uh, music shape by the dog.
+
+146
+00:05:55,000 --> 00:05:57,000
+And this one's, uh, music shape by the dog.
+
+147
+00:05:57,000 --> 00:05:59,000
+And this one's, uh, music shape by the dog.
+
+148
+00:05:59,000 --> 00:06:01,000
+And this one's, uh, music shape by the dog.
+
+149
+00:06:01,000 --> 00:06:05,000
+And this one's, uh, music shape by the dog.
+
+150
+00:06:05,000 --> 00:06:07,000
+And this one's, uh, music shape by the dog.
+
+151
+00:06:07,000 --> 00:06:11,000
+And this one's, uh, music shape by the dog.
+
+152
+00:06:11,000 --> 00:06:13,000
+And this one's, uh, music shape by the dog.
+
+153
+00:06:13,000 --> 00:06:17,000
+And this one's, uh, music shape by the dog.
+
+154
+00:06:17,000 --> 00:06:19,000
+And this one's, uh, music shape by the dog.
+
+155
+00:06:19,000 --> 00:06:23,000
+And this one's, uh, music shape by the dog.
+
+156
+00:06:23,000 --> 00:06:25,000
+And this one's, uh, music shape by the dog.
+
+157
+00:06:25,000 --> 00:06:27,000
+And this one's, uh, music shape by the dog.
+
+158
+00:06:57,000 --> 00:07:27,000
+Yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah
+
+159
+00:07:27,000 --> 00:07:57,000
+Don't you get that yeah, yeah yeah,へep, make the border sure see itvin' all in the world, healthcare, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, there's a bond between London and America and America, they're especially lonely Yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah yeah yeah, yeah, yeah, yeah, yeah, yeah, yeah, I, yeah, yeah yeah yeah yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah better, yeah, yeah, oh yeah yeah, yeah
+
+160
+00:07:57,000 --> 00:08:04,360
+It's another matchup that I received from Pimpedaddy Sid, the Pimpedaddy from Holland, but
+
+161
+00:08:04,360 --> 00:08:11,000
+like that one, Madonna music shaped me in, I was turning like Marcus here, this, but for those
+
+162
+00:08:11,000 --> 00:08:14,600
+of you who record your podcast on a Mac and if you use Audio High Jack Pro, you've probably
+
+163
+00:08:14,600 --> 00:08:19,960
+discovered that if you unplug the headphones, then Audio High Jack Pro kind of freaks out
+
+164
+00:08:19,960 --> 00:08:24,120
+on you, and we'll usually crash and we're talking about external mixers. I've been in the market
+
+165
+00:08:24,200 --> 00:08:30,840
+for a small handheld or battery powered mixer. Marcus actually had a really good idea during the
+
+166
+00:08:30,840 --> 00:08:37,240
+Madonna tune, said, how about going to the pawn shop? There's a lot of musicians that need money
+
+167
+00:08:37,240 --> 00:08:42,280
+in San Francisco and it's probably been pawning everything, so it's a good idea maybe Friday morning
+
+168
+00:08:42,280 --> 00:08:52,200
+because tomorrow going up to Seattle, I'll give you one guess who I'm seeing up there should be
+
+169
+00:08:52,200 --> 00:09:00,920
+interesting. It's been, wow, maybe, trying to think, it's probably been like seven years since
+
+170
+00:09:00,920 --> 00:09:08,040
+I've been up to Redmond, and of course there's, I think I told you about that, that a guy named
+
+171
+00:09:08,040 --> 00:09:14,600
+Aida Kuhers, who was a Dutch guy. I met a couple of years ago about four or five years ago in Holland,
+
+172
+00:09:14,600 --> 00:09:19,720
+he was just recently promoted up to some big muckery muck post up there and he knew us on the
+
+173
+00:09:19,800 --> 00:09:23,720
+West Coast, he said, I'll come on up and we'll talk and we'll do some stuff. I think that's kind of
+
+174
+00:09:23,720 --> 00:09:27,720
+turned into like we're meeting 50 people or something, but that's okay. Should be fun, it's always
+
+175
+00:09:27,720 --> 00:09:35,560
+good to find out what's going on up north. We're going to talk about today a couple of things.
+
+176
+00:09:35,560 --> 00:09:41,000
+I don't know if I'm going to make it 40 minutes because it is now 10 p.m. and we have to leave
+
+177
+00:09:42,040 --> 00:09:47,880
+the hotel at a quarter to six to make the 7 a.m. flight, which of course is having me regret the
+
+178
+00:09:47,960 --> 00:09:57,400
+fact that we agreed to come on up. Last night was the Wired Awards, the Wired Rave Awards
+
+179
+00:09:57,400 --> 00:10:07,240
+in the legendary Fillmore. It was, I didn't know exactly what I was to expect from an award
+
+180
+00:10:07,240 --> 00:10:11,480
+show, you kind of expect that someone will be up on stage and announce nominees, they're
+
+181
+00:10:11,480 --> 00:10:16,280
+announced winners and maybe there's a short word of thanks or something, but it was none of that.
+
+182
+00:10:16,360 --> 00:10:21,960
+It was almost like, I remember parties like this in New York, MTV used to throw parties like this
+
+183
+00:10:21,960 --> 00:10:25,960
+with a whole bunch of people who were just way too cool and hit for the room and they all kind of
+
+184
+00:10:25,960 --> 00:10:30,440
+mall around, eyeing each other and you know, no one really talks because the music is just a little
+
+185
+00:10:30,440 --> 00:10:37,800
+bit too loud and there's perhaps the drinks flow a little bit too freely and it was weird,
+
+186
+00:10:37,800 --> 00:10:45,720
+it was, I mean the setting was great, it was beautiful. I didn't recognize one single solitary person
+
+187
+00:10:45,800 --> 00:10:53,080
+in the entire, well no, it's not true. I met C. Carl Jacob who he actually got me started in a lot of
+
+188
+00:10:53,080 --> 00:10:59,400
+stuff when he was at Sun and that was, well that was before I started on ramp. It was good to see him.
+
+189
+00:11:00,520 --> 00:11:04,280
+What he'd do, he had a company called Dimension X, he sold that and then what he'd do he went
+
+190
+00:11:04,280 --> 00:11:12,920
+on to work for Cloud Mark, I think. God no, he's in a kite surfing right now, so that was good to
+
+191
+00:11:13,000 --> 00:11:17,720
+see him and I think there was no, what's the, Mark is you know, what's the virtual, the guy
+
+192
+00:11:17,720 --> 00:11:23,880
+like the credit as the father of virtual reality with all the dreadlocks, Lanier, I mean I can't
+
+193
+00:11:23,880 --> 00:11:28,360
+remember his name. Well anyway, you know that dude with the dreadlocks? Yeah, he was there.
+
+194
+00:11:30,920 --> 00:11:39,960
+He was there. Oh, but I did not win by the way in the category for tech innovator, I was nominated for
+
+195
+00:11:40,280 --> 00:11:49,080
+iPodder. The award went to blog lines. I think he's, what does his name Eric? I think it is.
+
+196
+00:11:49,080 --> 00:11:55,960
+Is that Eric? You eat it? Oh, is that it? Yeah. Well, what, what, what? Check, right. Yeah, I've got
+
+197
+00:11:55,960 --> 00:12:00,920
+markers here doing all the show prep for me. This is great. Most prep. Well,
+
+198
+00:12:00,920 --> 00:12:09,240
+speaking, we check it. Exactly. I was really proud of Mr. Colehouse or you might pronounce his name
+
+199
+00:12:09,320 --> 00:12:14,280
+his cool ass. He's a Dutch architect. He won for best architect. That was very cool.
+
+200
+00:12:14,840 --> 00:12:18,440
+But so there was no announcement of the winner. It was just like, you know, there were screens and
+
+201
+00:12:18,440 --> 00:12:22,440
+they, and the screens rotated the nominees and then it highlighted the winner. I was like, wow, yeah,
+
+202
+00:12:22,440 --> 00:12:26,840
+okay, that's all right. And then the editor and chief got on stage and the mic was, you know,
+
+203
+00:12:26,840 --> 00:12:30,840
+he had a love mic on, which is like that sucked. That didn't work. He couldn't hear him at all.
+
+204
+00:12:31,640 --> 00:12:38,440
+And then Danger Mouse did a couple sets. He's the guy credited with bringing mashups to the
+
+205
+00:12:38,520 --> 00:12:42,520
+masses, although I think that mashups have kind of been around for a while, but he did that
+
+206
+00:12:43,080 --> 00:12:49,160
+the gray album, the Beatles mashup with Jay-Z. So that was definitely cool. We played that on the
+
+207
+00:12:49,160 --> 00:12:55,640
+source code. So, you know, that's awesome stuff that he's doing. And so around 10 o'clock,
+
+208
+00:12:55,640 --> 00:13:01,000
+he's like, well, all right. Let's go. That was really nice. Oh, and all the nominees did get this
+
+209
+00:13:01,080 --> 00:13:07,800
+block of, there you go. So I think it's a aircraft aluminium. And note, by the way, I say
+
+210
+00:13:07,800 --> 00:13:13,720
+aluminium, which is the correct pronunciation. It's not aluminum. That is not actually an alloy.
+
+211
+00:13:13,720 --> 00:13:18,360
+I think that exists. It's aluminium. So this is like block of, you know, what does it like?
+
+212
+00:13:19,480 --> 00:13:25,720
+It looks like a like a die. And the size would be, what does that two by probably two inches
+
+213
+00:13:25,720 --> 00:13:32,360
+by two inches by two inches by two inches? And little ribbon weighs a ton. And I asked the nominees
+
+214
+00:13:32,360 --> 00:13:38,040
+to walk around with them. Listen to this thing. Hanging around your neck like this big anchor.
+
+215
+00:13:39,960 --> 00:13:45,560
+So that was nice. That was kind of cool. But what was really nice is they had the new
+
+216
+00:13:47,080 --> 00:13:53,800
+the new addition of wide magazine, which is a whole thing about radio. I don't know if I
+
+217
+00:13:53,880 --> 00:13:58,360
+told you about this. But it's basically about the death of radio. And they feature
+
+218
+00:13:58,760 --> 00:14:05,880
+serious satellite radio in there. They feature some terrestrial digital broadcast thing,
+
+219
+00:14:05,880 --> 00:14:11,400
+which is on my clear channel and podcasting. And you remember, I went through all that work
+
+220
+00:14:11,400 --> 00:14:17,400
+in in South Beach to do these pictures with a great photographer, by the way. We, you know, we got
+
+221
+00:14:17,400 --> 00:14:24,120
+an Audi A8 that they rolled in specifically for the photo shoot. And we spent a couple of hours
+
+222
+00:14:24,120 --> 00:14:28,360
+doing pictures there. Not one of those pictures made into the magazine. But then we did something
+
+223
+00:14:28,360 --> 00:14:32,520
+with a photographer wanted to do. Because I was like the photo editor wanted that picture of the A8.
+
+224
+00:14:32,520 --> 00:14:36,360
+And the photographer said, I want you something else. And well, if you get the magazine, you'll see
+
+225
+00:14:36,360 --> 00:14:43,320
+it. It's a, it's a, it's a, basically a full page shot of my face, which would be extremely
+
+226
+00:14:43,320 --> 00:14:49,480
+frightening. Had they not luckily completely photoshopped it. So I look like a, like a plasticine
+
+227
+00:14:49,480 --> 00:14:56,920
+wax doll. So there's no lines. And, you know, it's, it's fake, essentially. And even it's
+
+228
+00:14:56,920 --> 00:15:00,760
+even saw some comments on on credit card on the weblog people saying, wow, what kind of,
+
+229
+00:15:00,760 --> 00:15:04,200
+what kind of makeup are you wearing? Well, no, please. I mean, that was, that's not what I
+
+230
+00:15:04,200 --> 00:15:10,520
+really look like. That is all photoshop. And by the way, any magazine you pick up, if you think
+
+231
+00:15:10,600 --> 00:15:15,880
+that any of those bodies, particularly women's magazines, if you think any of that is real,
+
+232
+00:15:15,880 --> 00:15:21,960
+no way, it's all photoshop. Not a single solitary picture makes it into any magazine these days
+
+233
+00:15:21,960 --> 00:15:27,960
+without being photoshopped. And by the way, if I see one more commercial of Kate Moss
+
+234
+00:15:27,960 --> 00:15:33,640
+with get the fucking London look and these, and this I, what is it, mascara that's supposed to
+
+235
+00:15:33,640 --> 00:15:41,160
+make your eyelashes look really long? Please, she's wearing fake eyelashes, okay? So it's a lie
+
+236
+00:15:41,160 --> 00:15:49,960
+and it's fake and that's what the cosmetic business is. It's two cents worth of mud and two
+
+237
+00:15:49,960 --> 00:15:57,800
+million worth of marketing. So wired awards. Yeah, okay. I would suggest doing it differently,
+
+238
+00:15:57,800 --> 00:16:01,720
+and I think they would probably get more mileage out of it for their own magazine if they did
+
+239
+00:16:01,800 --> 00:16:05,880
+a little more, and just a little more traditional sense of an award show because it's just
+
+240
+00:16:05,880 --> 00:16:10,360
+nothing to do with awards. But it was really nice and it was great being nominated and I really
+
+241
+00:16:10,360 --> 00:16:19,000
+appreciated that, but yeah, anyway, moving along. Just before I started the show, my Skype
+
+242
+00:16:19,000 --> 00:16:24,760
+bleeped. I thought I had an incoming message or a phone call, but it was actually an upgrade message.
+
+243
+00:16:25,720 --> 00:16:31,960
+And I did the upgrade and low on behold, we have some spiffy new features on Skype for the
+
+244
+00:16:31,960 --> 00:16:35,160
+Mac now. I had the voicemail feature. I don't know if that's not standard in it or not,
+
+245
+00:16:37,080 --> 00:16:40,760
+or maybe you still have to get invited. I do have that voicemail features. That's cool.
+
+246
+00:16:41,400 --> 00:16:47,000
+But now you can also finally do conferencing from the Mac. So it looks like Skype is really
+
+247
+00:16:47,000 --> 00:16:52,760
+moving up and I guess this is a stable version and love in it completely, especially now with the
+
+248
+00:16:52,840 --> 00:16:57,480
+trip I've been calling home. I try to call home every at least once a day, sometimes two times
+
+249
+00:16:57,480 --> 00:17:02,760
+a day, but to be able to do that and just talk for an hour on the phone, basically,
+
+250
+00:17:02,760 --> 00:17:09,000
+for almost no money, is a confusing Skype out is absolutely fantastic. These guys are on
+
+251
+00:17:09,000 --> 00:17:14,120
+something really, really big. Speaking of new applications, I bought a lemon out with a new
+
+252
+00:17:15,160 --> 00:17:20,760
+new beta version for the Mac. I've been trying that out. It looks really clean, really fast.
+
+253
+00:17:21,720 --> 00:17:27,640
+I've also worked on putting up a cleaner version of the directory for them, which is
+
+254
+00:17:27,640 --> 00:17:32,600
+now sucking in. So that works a lot faster. They've got a clean up buttons. You can basically
+
+255
+00:17:32,600 --> 00:17:36,760
+delete all those files that are hanging around. I'd still like to see a little more a little close
+
+256
+00:17:36,760 --> 00:17:43,160
+like a Tvo functionality where basically you say, after two gigs of stuff that you've downloaded,
+
+257
+00:17:43,160 --> 00:17:47,320
+start deleting it or whatever. There should be some kind of preferences that we put in there
+
+258
+00:17:47,480 --> 00:17:53,400
+that a little bit beyond just delete old stuff or whatever. But that's just personal taste,
+
+259
+00:17:53,400 --> 00:18:00,680
+I guess. But it's looking really good. And there's a couple more two point out, even three
+
+260
+00:18:00,680 --> 00:18:04,840
+point out versions of iPodders coming along. So I'll try and keep you updated as much as possible.
+
+261
+00:18:04,840 --> 00:18:07,400
+I'm really fried. I'm not going to keep this. I'm not going to make this too long.
+
+262
+00:18:08,120 --> 00:18:13,160
+About 18 minutes into the show. I did catch the new bitty cast. I'll just play a little bit in the
+
+263
+00:18:13,240 --> 00:18:18,840
+background here. If you want to hear what goes on with an all-girl band and the stuff they talk about
+
+264
+00:18:19,480 --> 00:18:25,800
+is a whack. Just listen in for a second. What I really like about it is the stereo sound is
+
+265
+00:18:25,800 --> 00:18:30,120
+so nice. They've got it completely separated left and right channel. Listen a little bit of the
+
+266
+00:18:30,120 --> 00:18:35,560
+bitty cast. The guy from B2 records like this record label. And then there was the man. That's Amanda.
+
+267
+00:18:35,560 --> 00:18:39,160
+One of those swing bands like Big Bed Booty Daddy or my command like that. And he's like,
+
+268
+00:18:39,160 --> 00:18:45,320
+well, you know, we made our record for a fraction of that cost and we're talking about how
+
+269
+00:18:45,320 --> 00:18:50,600
+cost efficiently they work. Yeah. And I totally met these girls in New York. They are so set up man.
+
+270
+00:18:50,600 --> 00:18:57,400
+They've got bitty's LLC. They've got lawyers. They've got a band fund. They're making money. I mean,
+
+271
+00:18:57,400 --> 00:19:01,720
+they're not really putting a lot of money in their pocket. They say not yet at least or not when we
+
+272
+00:19:01,720 --> 00:19:05,640
+spoke that could have changed immediately. But you know, they got money to record. They got money
+
+273
+00:19:05,640 --> 00:19:11,080
+to do their own tour support. It's just totally beautiful. And now with the bitty cast,
+
+274
+00:19:11,080 --> 00:19:16,680
+which you can find at bittycast.com, you can subscribe to the feed there. You know, live by
+
+275
+00:19:16,680 --> 00:19:22,120
+carously through them. I haven't even listened to this whole show. Let me see what's the length of
+
+276
+00:19:22,120 --> 00:19:27,000
+this one. This is from the 20th. It's a 26 minutes. I love well, of course. Well, you know,
+
+277
+00:19:27,000 --> 00:19:30,200
+they started out. They couldn't have started out any better to get my attention. Actually,
+
+278
+00:19:30,200 --> 00:19:35,240
+check this out. What were we recording now? You're doing a think of an intro. And so I
+
+279
+00:19:35,240 --> 00:19:42,440
+skipped the four of these at 16 loops. It's late. And we kind of do really. So get your attention.
+
+280
+00:19:42,440 --> 00:19:46,920
+Yeah, I thought it was. No, we have enough for our two people. That's true.
+
+281
+00:19:46,920 --> 00:19:53,000
+Each one of what? No. We got a lot of moves for it. But not 16. No, that's true. That's a little
+
+282
+00:19:53,000 --> 00:19:58,280
+you know. Okay. Well, if that is enough of the tease, then I don't know what is. Another podcast I ran
+
+283
+00:19:58,600 --> 00:20:03,480
+up a bump into something. I listened to it all the way through. It's just wow. This is such a tremendous
+
+284
+00:20:03,480 --> 00:20:09,160
+wealth of information stuff. I never heard about thought about, you know, it's the stuff that
+
+285
+00:20:09,160 --> 00:20:14,760
+usually have to go to college too to, and you know me, my academic career. You got to go to college
+
+286
+00:20:14,760 --> 00:20:20,760
+to learn this stuff. If you've ever wondered about the stars and the planets and astronomy in general,
+
+287
+00:20:20,760 --> 00:20:25,320
+you might want to check out slacker astronomy. Listen to a little bit here.
+
+288
+00:20:28,600 --> 00:20:34,600
+Welcome to show number negative three of slacker astronomy. A podcast about astronomy and just about
+
+289
+00:20:34,600 --> 00:20:39,320
+anything else that floats over our heads. Every week or so, we will bring you a summary of recent
+
+290
+00:20:39,320 --> 00:20:43,480
+news events from the world of astronomy. And during slow news weeks, we'll simultaneously cast the
+
+291
+00:20:43,480 --> 00:20:51,880
+Howard Stern Show. You know, for the ratings. This week's show is about big, bad space, big, bad empty space.
+
+292
+00:20:51,880 --> 00:20:57,080
+It's kind of space that exists in W's head. Or so it often seems. W's victory in November.
+
+293
+00:20:57,880 --> 00:21:02,760
+Don't you wish? Don't you wish that you had a professor who talked about astronomy that way,
+
+294
+00:21:02,760 --> 00:21:07,720
+comparing big empty space to what's in George W's head? I mean, that's beautiful. Really pretty smart.
+
+295
+00:21:07,720 --> 00:21:13,160
+And recent events show that outer space is not as empty or as tranquil as it generally appears.
+
+296
+00:21:13,160 --> 00:21:17,640
+When we look up at the black night sky, we see a lonely wasteland of isolated stars.
+
+297
+00:21:17,640 --> 00:21:22,120
+It may feel as if our planet is alone in a drift in an empty universe. What most of us don't
+
+298
+00:21:22,200 --> 00:21:28,440
+realize is the same sky that looks relaxed and calm is in fact fiery and active. Stars are exploding.
+
+299
+00:21:28,440 --> 00:21:34,120
+Galaxies are colliding. And even the soft little gas clouds and nebulas are shooting microwave lasers.
+
+300
+00:21:34,120 --> 00:21:38,840
+So I don't want to give it all away. But basically, if you listen to this slacker astronomy podcast,
+
+301
+00:21:38,840 --> 00:21:44,280
+you'll be pretty worried about this explosion that happened 50 million light years away or a go or
+
+302
+00:21:44,280 --> 00:21:48,920
+what does it light years away or a go away? But if it's, if it's light years away,
+
+303
+00:21:48,920 --> 00:21:57,000
+then it takes, doesn't take 50 light years to get here? 50 light years or 50 regular years.
+
+304
+00:21:58,600 --> 00:22:05,400
+See, I stumped Marcus. 50 years in our time, a light year is the distance light travels in one year.
+
+305
+00:22:06,840 --> 00:22:14,920
+Okay. So that one million 800 and some, why do you know this stuff?
+
+306
+00:22:15,000 --> 00:22:22,680
+Anyway, you can find the slacker astronomy podcast through iPod.org, which is really heating up.
+
+307
+00:22:22,680 --> 00:22:29,800
+Thanks to some of the recent press that we've been getting. It's, I mean, normally we see about 10 to 15
+
+308
+00:22:29,800 --> 00:22:36,840
+new podcasts being listed a day. Now we're closer to 20 to 25. So it's really heating up. And by the way,
+
+309
+00:22:36,840 --> 00:22:43,000
+if you subscribe to the iPod.org RSS feed, you can actually have those come into your aggregators.
+
+310
+00:22:43,000 --> 00:22:47,720
+So you know, you wouldn't necessarily have to go to iPod.org all the time to see what's new.
+
+311
+00:22:47,720 --> 00:22:51,720
+And you know, you're pretty much, if you don't go there every single day, you're going to start missing
+
+312
+00:22:51,720 --> 00:22:56,760
+because it just has to scroll off the bottom at a certain point. But it's, that's just been,
+
+313
+00:22:56,760 --> 00:23:02,120
+just been phenomenal, the amount of podcasts that are coming online. I can hardly believe how much
+
+314
+00:23:02,120 --> 00:23:09,880
+is happening. Let me see, before we get into this, was something else that I wanted to say that was
+
+315
+00:23:09,960 --> 00:23:15,560
+really, oh, yes, there was hold on. I have all my crap here on top of this article.
+
+316
+00:23:16,920 --> 00:23:25,560
+I was, number is ranting about the security, the airport security in New York. Was it a great article
+
+317
+00:23:25,560 --> 00:23:33,640
+in the San Francisco Chronicle? I'm just gonna find the front page. I can't find that. Anyway,
+
+318
+00:23:33,720 --> 00:23:40,120
+there's a security firm at San Francisco Airport SFO has been accused of cheating.
+
+319
+00:23:41,000 --> 00:23:50,680
+And what that means is that the home security office or whatever you call that will send
+
+320
+00:23:50,680 --> 00:23:57,240
+undercover agents to all the airports, of course, to see if they can penetrate security. So they've
+
+321
+00:23:57,240 --> 00:24:03,240
+got like bombs and guns and all this kind of this contraband stuff that you should box
+
+322
+00:24:03,240 --> 00:24:10,120
+cutters, whatever. You shouldn't be able to take on the plane. And so of course, they do penetrate
+
+323
+00:24:10,120 --> 00:24:14,440
+through the security, but what the security firm, which is a private firm, by the way, hired by
+
+324
+00:24:14,440 --> 00:24:23,400
+the government, basically performing in a governmental role, what they did is, if one of these
+
+325
+00:24:24,280 --> 00:24:29,080
+decoys, I guess, would penetrate their security. And what would happen is, they'd go through
+
+326
+00:24:29,080 --> 00:24:33,960
+security, they'd smuggle whatever through they had, so like a knife or gun and they'd say, okay,
+
+327
+00:24:33,960 --> 00:24:41,800
+listen, I'm an agent here and you missed this. They had a whole system set up of 1,200 cameras
+
+328
+00:24:41,800 --> 00:24:47,320
+where they would follow this guy, because what he would basically do is he would then go to the next
+
+329
+00:24:47,320 --> 00:24:52,760
+security checkpoint and try to do the same thing. And so, you know, well, they call it cheating,
+
+330
+00:24:54,040 --> 00:24:58,760
+essentially, they would hand off that information all the way down the line, so the guy would never
+
+331
+00:24:58,760 --> 00:25:05,480
+penetrate another checkpoint again. So that's one point, which, you know, all right, so that's happening,
+
+332
+00:25:05,480 --> 00:25:17,080
+but the meat of the story to me is that apparently they only catch 90% of what is taken through
+
+333
+00:25:17,080 --> 00:25:27,480
+the security checkpoints. The other 10% includes knives, box cutters, baseball bats, bricks, golf clubs,
+
+334
+00:25:27,480 --> 00:25:37,160
+and even ones in the past couple months, a small chain saw. So so much for your fucking security,
+
+335
+00:25:37,160 --> 00:25:42,360
+you know, all you need is, don't you need just like 1% to go wrong or just one little item,
+
+336
+00:25:43,320 --> 00:25:51,640
+please. Again, I will, I submit that the security at the US airports is there to make us feel safe,
+
+337
+00:25:51,640 --> 00:25:56,840
+it's horseshit, it doesn't make you any safer. Yeah, you always want to try and get the one whack job,
+
+338
+00:25:56,840 --> 00:26:02,680
+but essentially it would be much better to create something with winky, blinky lights and
+
+339
+00:26:02,680 --> 00:26:09,240
+retinal scans and radars and you walk through that with your luggage and, you know, you're then
+
+340
+00:26:09,240 --> 00:26:14,200
+scanned and, you know, you're approved and then you can go through, which means, of course,
+
+341
+00:26:14,200 --> 00:26:18,280
+they didn't check anything, but at least you'll feel a lot safer and isn't that what it's all about.
+
+342
+00:26:21,480 --> 00:26:26,280
+Fine, for the hit test. It's not going to be multiple choice. Every test is multiple choice.
+
+343
+00:26:29,160 --> 00:26:35,720
+With Yon, Poli. Hey, Yon! Hi, Adam. It's time for hit test number 14.
+
+344
+00:26:35,720 --> 00:26:40,680
+Right, I don't, but it's the 7th, number 13. What do you mean? So, the tricks will be played for you two times.
+
+345
+00:26:40,680 --> 00:26:45,320
+Okay, and afterwards you get five seconds to think about it. So, are you ready? I don't get my 10 second one.
+
+346
+00:26:47,960 --> 00:26:53,720
+Yon, Pharnam, you're the boy. Yon, Pharnam, you're the boy. Yon, Pharnam, you're the boy.
+
+347
+00:26:57,320 --> 00:27:00,120
+Okay, I'm going to stick with my answer. Yon, Pharnam, you're the boys.
+
+348
+00:27:01,080 --> 00:27:02,280
+What, for number two?
+
+349
+00:27:06,280 --> 00:27:11,000
+And once again, no idea about it.
+
+350
+00:27:14,440 --> 00:27:18,040
+I got to give up on that one. And this is number three.
+
+351
+00:27:20,040 --> 00:27:24,200
+Oh, yeah, I know this one. This song is actually one more time.
+
+352
+00:27:25,080 --> 00:27:31,240
+That's the first song I played on my first official radio game, Pointer Sisters. He's so shy.
+
+353
+00:27:34,760 --> 00:27:38,760
+I think. That's my five seconds. It's time for the answer.
+
+354
+00:27:39,560 --> 00:27:46,040
+Answer number one. Yeah. In today's hit test number 14. Yon Pharnam, this is the voice.
+
+355
+00:27:55,160 --> 00:28:16,040
+And the second entry today's hit test. It's name is Cherry. This is inner city mama.
+
+356
+00:28:16,040 --> 00:28:18,040
+I never would have guessed that.
+
+357
+00:28:24,600 --> 00:28:27,800
+I don't remember the song at all. And then it's Cherry sure, but
+
+358
+00:28:33,800 --> 00:28:41,240
+and the final answer. It's an old drag from the Point of Sisters. And he's so shy.
+
+359
+00:28:54,200 --> 00:29:08,280
+And the point of Sisters and he's so shy is answer number three into this hit test.
+
+360
+00:29:09,000 --> 00:29:13,960
+Well, that's hit feedback. It's welcome. It's hit test at gmail.com and all information about the hit test.
+
+361
+00:29:13,960 --> 00:29:19,880
+And the new hit test podcast can be found at www.yonfolet.nl.
+
+362
+00:29:19,880 --> 00:29:27,080
+This G-A-N-B-O-L-E-T-D-S-N-L. Well, I don't see you next time for number 15 of the hit test.
+
+363
+00:29:27,080 --> 00:29:31,880
+Bye bye. Thank you very much. That was good one. That was good. That was good. Thank you very much. Yonple,
+
+364
+00:29:31,880 --> 00:29:38,120
+doing the hit test. And well, tomorrow's somewhere tomorrow. Of course, there'll be another podcast.
+
+365
+00:29:38,120 --> 00:29:41,480
+It's going to be a little tough for us. Well, maybe I'll do one on the plane or something like that.
+
+366
+00:29:41,480 --> 00:29:47,560
+Oh, by the way, before I forget, I must say we were in the meeting today. The company was
+
+367
+00:29:47,560 --> 00:29:52,760
+really, really smart people who've been working on their own version of podcasting for quite a while, actually.
+
+368
+00:29:52,760 --> 00:29:59,160
+And so it's in there with like the chief technology officer and a couple other people.
+
+369
+00:29:59,160 --> 00:30:03,800
+And the door opens and the young lady just folks are head. It's a small company.
+
+370
+00:30:03,800 --> 00:30:07,960
+Just folks are head around the corner. She says, hey, I just wanted to say hi,
+
+371
+00:30:07,960 --> 00:30:11,880
+because I listened to the daily source code every single day. So, I'll straight.
+
+372
+00:30:17,560 --> 00:30:23,480
+Keep messing in the roof. It's hard. You drive us wild. We'll drive you crazy.
+
+373
+00:30:26,120 --> 00:30:34,920
+You say you want your first spin. Part is just a double hit. You win. You drive us wild. We'll drive you crazy.
+
+374
+00:30:36,840 --> 00:30:45,640
+You keep shouting. You keep shouting. I want to rock in, roll out now.
+
+375
+00:30:46,600 --> 00:30:49,240
+And party every day. Yeah.
+
+376
+00:30:49,240 --> 00:30:56,920
+We'll run in roll out now. And party every day. Yeah. We'll run in roll out now.
+
+377
+00:30:58,120 --> 00:31:02,280
+And party every day. Yeah. We'll run in roll out now.
+
+378
+00:31:03,720 --> 00:31:05,240
+And party every day.
+
+379
+00:31:08,120 --> 00:31:13,560
+You keep saying you can drive me wild. You're looking fancy in a light crystal.
+
+380
+00:31:13,800 --> 00:31:17,080
+And you drive us wild. We'll drive you crazy.
+
+381
+00:31:19,400 --> 00:31:25,160
+And you show us everything you've got. And pay the paper that's quantum rock.
+
+382
+00:31:25,160 --> 00:31:28,360
+You drive us wild. We'll drive you crazy.
+
+383
+00:31:30,360 --> 00:31:39,160
+You keep shouting. You keep shouting. I want to rock in, roll out now.
+
+384
+00:31:40,120 --> 00:31:44,760
+And party every day. Yeah! We'll run in roll out now.
+
+385
+00:31:45,960 --> 00:31:50,600
+And party every day. Yeah. We'll run in roll out now.
+
+386
+00:31:51,480 --> 00:31:55,880
+And party every day. Yeah! We'll run in roll out now.
+
+387
+00:31:57,200 --> 00:31:58,920
+And party every day.
+
+388
+00:32:09,160 --> 00:32:27,160
+You give the shadow, you give the shadow
+
+389
+00:32:27,160 --> 00:32:33,160
+I won't rock it roll out now
+
+390
+00:32:33,160 --> 00:32:41,160
+I won't rock it roll out now
+
+391
+00:32:41,160 --> 00:32:47,160
+I won't rock it roll out now
+
+392
+00:32:47,160 --> 00:32:53,160
+I won't rock it roll out now
+
+393
+00:32:53,160 --> 00:33:02,980
+Hey, see Dixie from their album Kiss My Grass, Rockin' Roll and I, of course, you probably
+
+394
+00:33:02,980 --> 00:33:09,340
+recognize that from one of Michael Butler's all-time favorites, Keas.
+
+395
+00:33:09,340 --> 00:33:16,960
+Before I go, I just want to mention that I stand corrected in the previous podcast, I spoke
+
+396
+00:33:16,960 --> 00:33:26,120
+about helicopter pilots, not smoking, and Hugh, Hugh Adonnell sent me three pictures
+
+397
+00:33:26,120 --> 00:33:33,200
+no less, it must be a collector of cockpit pictures, three different helicopters, each
+
+398
+00:33:33,200 --> 00:33:40,900
+of which contains an astray, so there's the aerospatial, a Spasial 355, which is like the
+
+399
+00:33:40,900 --> 00:33:46,540
+euro, it's like the big asturocopter helicopter, nice, the last tray there, neatly positioned
+
+400
+00:33:46,540 --> 00:33:53,340
+on the left hand side, by the way, that's the passenger side, I think, in the French helicopter.
+
+401
+00:33:53,340 --> 00:33:59,580
+Then there's a Bell 206, which looks like it's astray, is located right in the middle
+
+402
+00:33:59,580 --> 00:34:04,980
+of the console, or wait a minute, is that I can't really tell what that is, and then there's
+
+403
+00:34:04,980 --> 00:34:12,580
+also a bull-cove, which is a very popular helicopter for police and trauma use, and they
+
+404
+00:34:12,580 --> 00:34:15,540
+also have an astray, right, and you know what?
+
+405
+00:34:15,540 --> 00:34:25,500
+All of these astrays look used, maybe I just need a new machine, yeah, that's a show, a little
+
+406
+00:34:25,500 --> 00:34:30,300
+bit shorter than normal, but time for you to hit the hay off to Seattle tomorrow morning,
+
+407
+00:34:30,300 --> 00:34:33,620
+and somewhere in the evening we'll be back with another daily source code, and I'll tell
+
+408
+00:34:33,620 --> 00:34:40,100
+you all about the days of MCs, as usual, it's Adam and Curry.com, and all the archives
+
+409
+00:34:40,100 --> 00:34:46,100
+in the latest show at Daily Source Code.com.
+
+410
+00:34:46,100 --> 00:34:51,740
+Weblog is www.curry.com, leave a comment there, I still haven't had time to clean out my entry
+
+411
+00:34:51,740 --> 00:34:55,380
+through feedback, Gmail, e-box, I'm probably going to wait to do that until I get back
+
+412
+00:34:55,380 --> 00:35:00,700
+home to go for it, and by the way, going home Friday, which means I'll be back with my
+
+413
+00:35:00,700 --> 00:35:06,780
+two girls Saturday morning looking forward to it, it's been a lot of fun, but it was like a big
+
+414
+00:35:06,780 --> 00:35:13,660
+road trip, okay, take care everybody, have a great day, and I'll talk to you tomorrow, bye-bye.
+

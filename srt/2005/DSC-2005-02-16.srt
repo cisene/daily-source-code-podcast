@@ -1,0 +1,2256 @@
+1
+00:00:00,000 --> 00:00:06,000
+Daily Source Code for February 16, 2005.
+
+2
+00:00:06,000 --> 00:00:13,000
+Hey everybody, coming to you almost live from New York, it's the Daily Source Code.
+
+3
+00:00:13,000 --> 00:00:17,000
+And it is the middle of the night.
+
+4
+00:00:17,000 --> 00:00:18,000
+It's, uh, what is it?
+
+5
+00:00:18,000 --> 00:00:22,000
+115 coming to you from the Hilton on six half a noon.
+
+6
+00:00:22,000 --> 00:00:24,000
+Good every source code.
+
+7
+00:00:24,000 --> 00:00:27,000
+A little bit late, but, uh, it's still kind of Wednesday.
+
+8
+00:00:27,000 --> 00:00:28,000
+Wednesday night.
+
+9
+00:00:29,000 --> 00:00:30,000
+Hi there.
+
+10
+00:00:32,000 --> 00:00:36,000
+I've got the, uh, wireless microphone.
+
+11
+00:00:36,000 --> 00:00:37,000
+I've got the wireless microphone.
+
+12
+00:00:37,000 --> 00:00:39,000
+I've just turned this down a little bit.
+
+13
+00:00:39,000 --> 00:00:41,000
+I don't have my earphones in.
+
+14
+00:00:41,000 --> 00:00:45,000
+Uh, just got back from the Louis Sivius Bitty Show.
+
+15
+00:00:45,000 --> 00:00:49,000
+And I wanted to make sure that I, uh, recorded the source code now.
+
+16
+00:00:49,000 --> 00:00:54,000
+So I could, uh, really give you the whole essence of, of what the show was about.
+
+17
+00:00:54,000 --> 00:00:59,000
+And, you know, just really make sure that, uh, that I got everything out.
+
+18
+00:00:59,000 --> 00:01:03,000
+I've got a second to give you the, this here.
+
+19
+00:01:03,000 --> 00:01:07,000
+And I'm like, my chain is also hitting the microphone.
+
+20
+00:01:07,000 --> 00:01:08,000
+Hold up.
+
+21
+00:01:08,000 --> 00:01:09,000
+Hold up.
+
+22
+00:01:09,000 --> 00:01:10,000
+Hold up.
+
+23
+00:01:10,000 --> 00:01:11,000
+Hold up.
+
+24
+00:01:11,000 --> 00:01:12,000
+Hold up.
+
+25
+00:01:12,000 --> 00:01:13,000
+Okay.
+
+26
+00:01:13,000 --> 00:01:14,000
+Okay.
+
+27
+00:01:14,000 --> 00:01:15,000
+Okay.
+
+28
+00:01:15,000 --> 00:01:16,000
+Okay.
+
+29
+00:01:16,000 --> 00:01:17,000
+Okay.
+
+30
+00:01:17,000 --> 00:01:21,000
+As you can tell, um, it's severely jet lag.
+
+31
+00:01:21,000 --> 00:01:36,000
+Uh, arrived around, uh, what's on again around 1130s when I arrived at Newark Airport.
+
+32
+00:01:36,000 --> 00:01:38,000
+Really happy I was able to go to Newark, by the way.
+
+33
+00:01:38,000 --> 00:01:41,000
+It's such a superior airport if you need to get to Manhattan.
+
+34
+00:01:41,000 --> 00:01:44,000
+If you want to drive in, drive as much quicker.
+
+35
+00:01:44,000 --> 00:01:46,000
+It's much less congested.
+
+36
+00:01:46,000 --> 00:01:48,000
+It's a modern airport.
+
+37
+00:01:48,000 --> 00:01:51,000
+I really love it to British airway.
+
+38
+00:01:51,000 --> 00:01:53,000
+So I'm in my room.
+
+39
+00:01:53,000 --> 00:01:55,000
+And, uh, just got back.
+
+40
+00:01:55,000 --> 00:01:56,000
+I missed a whole bunch, right?
+
+41
+00:01:56,000 --> 00:01:58,000
+So the part that I missed is that I walked through the gates.
+
+42
+00:01:58,000 --> 00:02:04,000
+This is the famous, uh, art, um, in central park that everyone's talking about.
+
+43
+00:02:04,000 --> 00:02:09,000
+The whole city is basically filled to the health with people who, um, who've come to New York.
+
+44
+00:02:09,000 --> 00:02:13,000
+Just to see these, these gates with orange pieces of fabric.
+
+45
+00:02:13,000 --> 00:02:15,000
+And I'm not saying it's pretty impressive.
+
+46
+00:02:15,000 --> 00:02:17,000
+Excuse me.
+
+47
+00:02:17,000 --> 00:02:19,000
+And it is completely art.
+
+48
+00:02:19,000 --> 00:02:24,000
+It's certainly, you know, listening a lot of response from, uh, from the natives.
+
+49
+00:02:24,000 --> 00:02:29,000
+I'm, uh, just cleaning up some stuff because I was in my, even out of my room.
+
+50
+00:02:29,000 --> 00:02:31,000
+A couple times.
+
+51
+00:02:31,000 --> 00:02:36,000
+And haven't really had a chance to, well, hung up my clothes as Patricia always tells me to do.
+
+52
+00:02:36,000 --> 00:02:40,000
+You know, hung up the shirts and, uh, and the jackets.
+
+53
+00:02:40,000 --> 00:02:46,000
+Uh, so anyway, um, had a meeting this afternoon and then had some dinner.
+
+54
+00:02:46,000 --> 00:02:55,000
+And then went to, uh, Joe's pub, uh, which was down, was a 24th street, I think.
+
+55
+00:02:55,000 --> 00:02:59,000
+And, uh, packed house sold out.
+
+56
+00:02:59,000 --> 00:03:02,000
+It was sold out 20 minutes before the show started.
+
+57
+00:03:02,000 --> 00:03:10,000
+And on stage, there they were, my, my girls, the city's beauties.
+
+58
+00:03:10,000 --> 00:03:12,000
+And holy crap.
+
+59
+00:03:12,000 --> 00:03:15,000
+What an amazing, amazing show.
+
+60
+00:03:15,000 --> 00:03:18,000
+So bear in mind that I'm open with a mini bar here.
+
+61
+00:03:18,000 --> 00:03:20,000
+Please come with me.
+
+62
+00:03:20,000 --> 00:03:23,000
+Let's see what we have.
+
+63
+00:03:23,000 --> 00:03:25,000
+I want you some water.
+
+64
+00:03:25,000 --> 00:03:31,000
+Bear in mind that, uh, even though I've been talking about the bitties and, and then talking about me and their own podcast,
+
+65
+00:03:31,000 --> 00:03:36,000
+viddycast.com, by the way, officially launched as of today.
+
+66
+00:03:36,000 --> 00:03:39,000
+We've never met.
+
+67
+00:03:39,000 --> 00:03:43,000
+It's kind of like, I guess kind of like meeting a penpal.
+
+68
+00:03:43,000 --> 00:03:44,000
+What do I mean?
+
+69
+00:03:44,000 --> 00:03:47,000
+Where, um, you've been in, in contact.
+
+70
+00:03:47,000 --> 00:03:53,000
+In this case, we've been in contact for, actually, I was talking to Leanne about that.
+
+71
+00:03:53,000 --> 00:03:58,000
+Um, I actually knew them before they even had done their first album.
+
+72
+00:03:58,000 --> 00:04:04,000
+And she somewhere has, I forget who it was who turned me on to them.
+
+73
+00:04:04,000 --> 00:04:10,000
+Um, but we've totally known each other for quite a while and, and man, things are just popping open for them.
+
+74
+00:04:10,000 --> 00:04:12,000
+It's so cool.
+
+75
+00:04:12,000 --> 00:04:19,000
+It really is, um, uh, what's the, uh, reporter from CBS News was in the audience tonight,
+
+76
+00:04:19,000 --> 00:04:21,000
+uh, Sharon Alfonci.
+
+77
+00:04:21,000 --> 00:04:26,000
+Uh, she was, she was, uh, and he created.
+
+78
+00:04:26,000 --> 00:04:32,000
+Uh, I see there was someone from the Economist, someone from the New York Times.
+
+79
+00:04:32,000 --> 00:04:37,000
+I mean, LeCivius Bitties are go as far as I'm concerned.
+
+80
+00:04:37,000 --> 00:04:41,000
+Um, so I just wanted to, you know, talk a little bit about their show, um, before I go to bed.
+
+81
+00:04:41,000 --> 00:04:47,000
+Uh, and hopefully tomorrow, uh, be able to do, uh, a longer, more full version of the source code.
+
+82
+00:04:47,000 --> 00:04:49,000
+And boy, shit is piling up.
+
+83
+00:04:49,000 --> 00:04:55,000
+I see that I have 264 messages in my regular Gmail account and another 50 MP3 feedback.
+
+84
+00:04:55,000 --> 00:05:00,000
+So, uh, and of course, there's hit tests and, well, I guess you just, you want, why don't I do that?
+
+85
+00:05:00,000 --> 00:05:05,000
+Um, I will definitely, you know, me, uh,
+
+86
+00:05:06,000 --> 00:05:08,000
+it's a thing with Google.
+
+87
+00:05:08,000 --> 00:05:13,000
+Of course, you got a log out of one account to get into the other.
+
+88
+00:05:13,000 --> 00:05:18,000
+Um, and, uh, by the way, I have to say the Wi-Fi at the Hilton is excellent.
+
+89
+00:05:18,000 --> 00:05:22,000
+And she, 995 for 24 hours.
+
+90
+00:05:22,000 --> 00:05:25,000
+Uh, and you don't have to, you know, put your credit card.
+
+91
+00:05:25,000 --> 00:05:27,000
+It goes right along on your hotel bill.
+
+92
+00:05:27,000 --> 00:05:29,000
+You can sign up per 24 hours.
+
+93
+00:05:29,000 --> 00:05:30,000
+Very impressive.
+
+94
+00:05:30,000 --> 00:05:32,000
+Work great.
+
+95
+00:05:32,000 --> 00:05:34,000
+Let's see if you don't pull that, put in a hit test.
+
+96
+00:05:34,000 --> 00:05:35,000
+I'm sure you did.
+
+97
+00:05:35,000 --> 00:05:37,000
+We'll do as we'll do the hit test.
+
+98
+00:05:37,000 --> 00:05:39,000
+That's always fun.
+
+99
+00:05:39,000 --> 00:05:40,000
+Hold on.
+
+100
+00:05:40,000 --> 00:05:42,000
+Let me see if you, uh, oh yeah.
+
+101
+00:05:42,000 --> 00:05:43,000
+Oh.
+
+102
+00:05:43,000 --> 00:05:45,000
+Number, cheese.
+
+103
+00:05:45,000 --> 00:05:46,000
+Did I miss number 10?
+
+104
+00:05:46,000 --> 00:05:47,000
+I haven't even done number 10 yet.
+
+105
+00:05:47,000 --> 00:05:48,000
+Okay.
+
+106
+00:05:48,000 --> 00:05:49,000
+So I'll do number 10.
+
+107
+00:05:49,000 --> 00:05:50,000
+Okay.
+
+108
+00:05:50,000 --> 00:05:52,000
+I'm going to start downloading that.
+
+109
+00:05:52,000 --> 00:05:54,000
+Um, and so that'll be ready.
+
+110
+00:05:54,000 --> 00:05:56,000
+Um, so obviously I want to play some, uh,
+
+111
+00:05:56,000 --> 00:05:58,000
+the city is bitty's tunes for you.
+
+112
+00:05:58,000 --> 00:06:01,000
+Haven't played it in a while have threatened to several times.
+
+113
+00:06:01,000 --> 00:06:04,000
+Uh, and by the way, I'm going to hook up with the girls on Saturday.
+
+114
+00:06:04,000 --> 00:06:06,000
+We'll have some coffee, uh, in town.
+
+115
+00:06:06,000 --> 00:06:09,000
+Although they're trying to get me out the queens to Sesame Street, where, uh,
+
+116
+00:06:09,000 --> 00:06:10,000
+where they live.
+
+117
+00:06:10,000 --> 00:06:11,000
+They say they live in Sesame Street.
+
+118
+00:06:11,000 --> 00:06:13,000
+So I totally believe it.
+
+119
+00:06:13,000 --> 00:06:14,000
+Okay.
+
+120
+00:06:14,000 --> 00:06:16,000
+So young poets hit test is downloading.
+
+121
+00:06:16,000 --> 00:06:18,000
+In the meantime, let me see.
+
+122
+00:06:18,000 --> 00:06:20,000
+What should I play for you?
+
+123
+00:06:20,000 --> 00:06:22,000
+Um,
+
+124
+00:06:22,000 --> 00:06:23,000
+Okay.
+
+125
+00:06:23,000 --> 00:06:25,000
+I'm going to play neighbor.
+
+126
+00:06:25,000 --> 00:06:27,000
+I've known this song ever since, uh,
+
+127
+00:06:28,000 --> 00:06:30,000
+well, ever since I got the CD.
+
+128
+00:06:30,000 --> 00:06:32,000
+Um, it's from their second album.
+
+129
+00:06:32,000 --> 00:06:34,000
+And I, and I didn't know exactly what the song was about.
+
+130
+00:06:34,000 --> 00:06:36,000
+Nor did I really think about it.
+
+131
+00:06:36,000 --> 00:06:38,000
+Um, but tonight on stage, um,
+
+132
+00:06:38,000 --> 00:06:42,000
+um, actually Saskia, uh, told the story.
+
+133
+00:06:42,000 --> 00:06:45,000
+Uh, about the song that Leanne wrote.
+
+134
+00:06:45,000 --> 00:06:47,000
+It was, uh, she used to really as a kid.
+
+135
+00:06:47,000 --> 00:06:49,000
+She used to love, uh, Mr. Rogers.
+
+136
+00:06:49,000 --> 00:06:52,000
+And when he would come on TV and say hi neighbor,
+
+137
+00:06:52,000 --> 00:06:53,000
+she would sit there and say hi neighbor.
+
+138
+00:06:53,000 --> 00:06:54,000
+And she would talk back.
+
+139
+00:06:54,000 --> 00:06:56,000
+And of course, kids are like that, right?
+
+140
+00:06:56,000 --> 00:06:59,000
+And it's totally, it's totally logical that, uh,
+
+141
+00:06:59,000 --> 00:07:02,000
+that she would really think that that was her neighbor.
+
+142
+00:07:02,000 --> 00:07:05,000
+And then she had a, uh, some kind of contact with him.
+
+143
+00:07:05,000 --> 00:07:08,000
+Yeah, and through the, the magic of television.
+
+144
+00:07:08,000 --> 00:07:12,000
+And when he passed away, she was upset and wrote this song.
+
+145
+00:07:12,000 --> 00:07:15,000
+And I'm so happy that I now know the story behind it.
+
+146
+00:07:15,000 --> 00:07:18,000
+Because it really gives the words new meaning.
+
+147
+00:07:18,000 --> 00:07:20,000
+Here's the piece of it.
+
+148
+00:07:20,000 --> 00:07:21,000
+Just, just, just you.
+
+149
+00:07:21,000 --> 00:07:23,000
+You switched to a sweater and said,
+
+150
+00:07:23,000 --> 00:07:26,000
+How do you do neighbor?
+
+151
+00:07:26,000 --> 00:07:28,000
+How do you do?
+
+152
+00:07:28,000 --> 00:07:34,000
+I remember the look in your sparkle eyes.
+
+153
+00:07:34,000 --> 00:07:36,000
+That said clearly, I love you.
+
+154
+00:07:36,000 --> 00:07:40,000
+Don't do it like nice neighbor.
+
+155
+00:07:40,000 --> 00:07:43,000
+You saw me looking at you.
+
+156
+00:07:43,000 --> 00:07:49,000
+I'll picture picture up on the wall of the old street.
+
+157
+00:07:49,000 --> 00:07:52,000
+And I'm in tall and I'm everywhere.
+
+158
+00:07:52,000 --> 00:07:53,000
+Go round.
+
+159
+00:07:53,000 --> 00:07:56,000
+Spin it away, Charlie.
+
+160
+00:07:56,000 --> 00:08:00,000
+Oh, Charlie.
+
+161
+00:08:00,000 --> 00:08:03,000
+Where did you go today?
+
+162
+00:08:03,000 --> 00:08:06,000
+Where we played with Santa.
+
+163
+00:08:06,000 --> 00:08:08,000
+Where for walks in the park.
+
+164
+00:08:08,000 --> 00:08:09,000
+You were a gentle man.
+
+165
+00:08:09,000 --> 00:08:12,000
+We were home in front of the neighbor.
+
+166
+00:08:12,000 --> 00:08:14,000
+Me, delivery.
+
+167
+00:08:14,000 --> 00:08:17,000
+Make me feel free.
+
+168
+00:08:18,000 --> 00:08:21,000
+Chef rocket showed us how to bake a pie.
+
+169
+00:08:21,000 --> 00:08:26,000
+Well, lady, Elaine gave him an evil eye, neighbor.
+
+170
+00:08:26,000 --> 00:08:30,000
+You never acted that way.
+
+171
+00:08:30,000 --> 00:08:34,000
+In the whole world, you said there's only one need.
+
+172
+00:08:34,000 --> 00:08:36,000
+I didn't your world.
+
+173
+00:08:36,000 --> 00:08:39,000
+I was happy to be your neighbor.
+
+174
+00:08:39,000 --> 00:08:43,000
+Oh, with the wood with lady, I believe.
+
+175
+00:08:43,000 --> 00:08:46,000
+Lady, I believe.
+
+176
+00:08:46,000 --> 00:08:50,000
+She was so pretty.
+
+177
+00:09:17,000 --> 00:09:24,000
+I came home today with all weight on my mind.
+
+178
+00:09:24,000 --> 00:09:28,000
+Life isn't simple anymore.
+
+179
+00:09:28,000 --> 00:09:32,000
+But I know where I can find you.
+
+180
+00:09:32,000 --> 00:09:34,000
+You said there's only one need.
+
+181
+00:09:34,000 --> 00:09:36,000
+I didn't your world.
+
+182
+00:09:36,000 --> 00:09:39,000
+I was happy to be your neighbor.
+
+183
+00:09:39,000 --> 00:09:43,000
+Oh, with the wood with lady, I believe.
+
+184
+00:09:44,000 --> 00:09:46,000
+Yeah, the whole world.
+
+185
+00:09:46,000 --> 00:09:49,000
+You said there's only one need in your world.
+
+186
+00:09:49,000 --> 00:09:53,000
+I was happy to be your neighbor.
+
+187
+00:09:53,000 --> 00:09:57,000
+Oh, with the wood with lady, I believe.
+
+188
+00:09:57,000 --> 00:10:00,000
+Lady, I believe.
+
+189
+00:10:00,000 --> 00:10:04,000
+She was so pretty.
+
+190
+00:10:04,000 --> 00:10:07,000
+Thank you, friend.
+
+191
+00:10:07,000 --> 00:10:11,000
+She was so pretty.
+
+192
+00:10:12,000 --> 00:10:16,000
+Ah, the serious bitties and neighbor on the daily source code for Wednesday,
+
+193
+00:10:16,000 --> 00:10:18,000
+even though it's technically Thursday.
+
+194
+00:10:18,000 --> 00:10:23,000
+But it's what we'll just call it Wednesday, the 16th of February, 2005.
+
+195
+00:10:23,000 --> 00:10:28,000
+The big New York trip hanging out, meeting with the friends,
+
+196
+00:10:28,000 --> 00:10:32,000
+neighbors, old businesses, associates.
+
+197
+00:10:32,000 --> 00:10:35,000
+Just having a little good chill in New York.
+
+198
+00:10:35,000 --> 00:10:36,000
+It's a great time to be here.
+
+199
+00:10:36,000 --> 00:10:40,000
+Too bad a little bit of rain pumped up the end of the day.
+
+200
+00:10:41,000 --> 00:10:43,000
+But it was actually quite nice.
+
+201
+00:10:43,000 --> 00:10:48,000
+It was like 60, yeah, 58, 59, 60 degrees.
+
+202
+00:10:48,000 --> 00:10:52,000
+Let me see if I can open a window here.
+
+203
+00:10:52,000 --> 00:10:56,000
+Since I'm producing smoke, it might actually be nice.
+
+204
+00:10:56,000 --> 00:11:01,000
+Let's see if we can hear some New York sounds.
+
+205
+00:11:01,000 --> 00:11:06,000
+Okay, let's see if I can make this a little open.
+
+206
+00:11:06,000 --> 00:11:08,000
+Okay, that's working.
+
+207
+00:11:08,000 --> 00:11:10,000
+Let's do this out.
+
+208
+00:11:12,000 --> 00:11:15,000
+I'm on the 30 second floor.
+
+209
+00:11:15,000 --> 00:11:18,000
+We're not here too much from the street.
+
+210
+00:11:18,000 --> 00:11:21,000
+It's kind of quiet right now.
+
+211
+00:11:21,000 --> 00:11:24,000
+New York quiet, right?
+
+212
+00:11:24,000 --> 00:11:26,000
+Ah, boy, boy, boy.
+
+213
+00:11:26,000 --> 00:11:29,000
+So I'm going to have to make it pretty short for today.
+
+214
+00:11:29,000 --> 00:11:33,000
+And tomorrow, I've also got all kinds of stuff planned.
+
+215
+00:11:33,000 --> 00:11:36,000
+And so hopefully I have some guests on the show.
+
+216
+00:11:36,000 --> 00:11:37,000
+Oh, really?
+
+217
+00:11:37,000 --> 00:11:39,000
+You can get the videos on Saturday.
+
+218
+00:11:39,000 --> 00:11:42,000
+We're going to try and hook up with them Saturday.
+
+219
+00:11:42,000 --> 00:11:45,000
+And see if we can get them on the podcast.
+
+220
+00:11:45,000 --> 00:11:47,000
+Okay.
+
+221
+00:11:47,000 --> 00:11:50,000
+So, what should we do?
+
+222
+00:11:50,000 --> 00:11:52,000
+Let's do the hit test.
+
+223
+00:11:52,000 --> 00:11:55,000
+Just to do it, this is going to be a wacky source code.
+
+224
+00:11:55,000 --> 00:11:57,000
+That's for sure.
+
+225
+00:11:57,000 --> 00:11:59,000
+Okay.
+
+226
+00:11:59,000 --> 00:12:02,000
+Almost can't live a day without young bullets.
+
+227
+00:12:02,000 --> 00:12:04,000
+One guest.
+
+228
+00:12:04,000 --> 00:12:09,000
+I'm going to read my mama always said that hit test was lock a box of chocolates.
+
+229
+00:12:09,000 --> 00:12:11,000
+You never know what you're going to get.
+
+230
+00:12:11,000 --> 00:12:17,000
+Time for Adam Curry to take the hit test with young bullet.
+
+231
+00:12:17,000 --> 00:12:18,000
+Hi, Adam.
+
+232
+00:12:18,000 --> 00:12:19,000
+Hey, young.
+
+233
+00:12:19,000 --> 00:12:22,000
+Here's the thin edition of the hit test.
+
+234
+00:12:22,000 --> 00:12:23,000
+Didn't we already do this?
+
+235
+00:12:23,000 --> 00:12:25,000
+And if you're ready, we're going to start right away.
+
+236
+00:12:25,000 --> 00:12:26,000
+So here we go.
+
+237
+00:12:26,000 --> 00:12:27,000
+This is number one.
+
+238
+00:12:27,000 --> 00:12:28,000
+Have a feeling of done this.
+
+239
+00:12:33,000 --> 00:12:35,000
+Now we've done this one.
+
+240
+00:12:35,000 --> 00:12:36,000
+Shoot.
+
+241
+00:12:36,000 --> 00:12:39,000
+Oh, so I'm like, I've heard this.
+
+242
+00:12:39,000 --> 00:12:40,000
+Isn't this.
+
+243
+00:12:40,000 --> 00:12:43,000
+Oh, it's magic.
+
+244
+00:12:43,000 --> 00:12:44,000
+Yeah, see.
+
+245
+00:12:44,000 --> 00:12:47,000
+I knew I missed that mess that up.
+
+246
+00:12:47,000 --> 00:12:48,000
+Hold on.
+
+247
+00:12:48,000 --> 00:12:49,000
+Let's see.
+
+248
+00:12:49,000 --> 00:12:50,000
+Oh, hot test number 11.
+
+249
+00:12:50,000 --> 00:12:51,000
+Okay.
+
+250
+00:12:51,000 --> 00:12:52,000
+Shoot.
+
+251
+00:12:52,000 --> 00:12:53,000
+All right.
+
+252
+00:12:53,000 --> 00:12:54,000
+So I have to download this.
+
+253
+00:12:54,000 --> 00:12:56,000
+That'll just take me a minute.
+
+254
+00:12:56,000 --> 00:12:57,000
+I was also a fun.
+
+255
+00:12:57,000 --> 00:12:58,000
+There were two.
+
+256
+00:12:58,000 --> 00:13:00,000
+Actually, there were a whole bunch of people who came.
+
+257
+00:13:00,000 --> 00:13:08,000
+Who knew what podcasting was and had heard about the bitty cast or heard about the show on this podcast or other podcasts.
+
+258
+00:13:08,000 --> 00:13:11,000
+Two guys from Holland who've been working in Connecticut.
+
+259
+00:13:11,000 --> 00:13:14,000
+New Canaan actually, which is a reasonable drive.
+
+260
+00:13:14,000 --> 00:13:16,000
+They came down and they're souped up Mustang.
+
+261
+00:13:16,000 --> 00:13:18,000
+These guys are working for some.
+
+262
+00:13:18,000 --> 00:13:22,000
+They're they're code slingers basically.
+
+263
+00:13:22,000 --> 00:13:24,000
+And they'd heard it on the source code.
+
+264
+00:13:24,000 --> 00:13:27,000
+And they got told to turn on to the bitty's and.
+
+265
+00:13:28,000 --> 00:13:29,000
+There are a lot of.
+
+266
+00:13:29,000 --> 00:13:33,000
+Yeah, there's a lot of podcasts really in people, which is really cool to see.
+
+267
+00:13:33,000 --> 00:13:37,000
+But there was an audience there that is very familiar with the CBS bitties.
+
+268
+00:13:37,000 --> 00:13:41,000
+They are definitely the bomb, diggy, shizzle, fizzle, and new way of our york.
+
+269
+00:13:41,000 --> 00:13:45,000
+It's a podcasting with Adam Curry.
+
+270
+00:13:45,000 --> 00:13:48,000
+It's time for Adam Curry to take the hip test.
+
+271
+00:13:48,000 --> 00:13:51,000
+With your polette.
+
+272
+00:13:51,000 --> 00:13:52,000
+Hi, Adam.
+
+273
+00:13:52,000 --> 00:13:54,000
+This is your edition of the hit test.
+
+274
+00:13:55,000 --> 00:13:58,000
+And again, music from the 80s, it should be part safe.
+
+275
+00:13:58,000 --> 00:14:02,000
+Because questions and answers are well within 60 seconds each.
+
+276
+00:14:02,000 --> 00:14:05,000
+So, you know what, y'all, I love it when you play by the rules.
+
+277
+00:14:05,000 --> 00:14:06,000
+Okay.
+
+278
+00:14:06,000 --> 00:14:07,000
+Excuse me.
+
+279
+00:14:07,000 --> 00:14:08,000
+I'm recording here.
+
+280
+00:14:08,000 --> 00:14:09,000
+What are you doing?
+
+281
+00:14:09,000 --> 00:14:10,000
+What are you doing?
+
+282
+00:14:10,000 --> 00:14:11,000
+Excuse me.
+
+283
+00:14:11,000 --> 00:14:12,000
+Give me back the mic.
+
+284
+00:14:12,000 --> 00:14:13,000
+Come on.
+
+285
+00:14:13,000 --> 00:14:14,000
+Give me back.
+
+286
+00:14:14,000 --> 00:14:15,000
+What are you doing?
+
+287
+00:14:15,000 --> 00:14:16,000
+Come on.
+
+288
+00:14:16,000 --> 00:14:17,000
+What are you doing?
+
+289
+00:14:17,000 --> 00:14:18,000
+Hello, Adam.
+
+290
+00:14:20,000 --> 00:14:22,000
+Well, I'll give you a hint.
+
+291
+00:14:22,000 --> 00:14:25,000
+It's like a hot pussy.
+
+292
+00:14:25,000 --> 00:14:26,000
+All right.
+
+293
+00:14:26,000 --> 00:14:29,000
+Well, I've decided that I was a little tired.
+
+294
+00:14:29,000 --> 00:14:32,000
+Yons, hitting his Dutch accent.
+
+295
+00:14:32,000 --> 00:14:36,000
+And I've decided to take over the hit test myself.
+
+296
+00:14:36,000 --> 00:14:37,000
+Are you ready?
+
+297
+00:14:37,000 --> 00:14:38,000
+I'm ready, baby.
+
+298
+00:14:38,000 --> 00:14:39,000
+Hey, hit this.
+
+299
+00:14:39,000 --> 00:14:41,000
+This is number one.
+
+300
+00:14:41,000 --> 00:14:46,000
+Oh, shoot.
+
+301
+00:14:46,000 --> 00:14:49,000
+I know this one too.
+
+302
+00:14:49,000 --> 00:14:51,000
+Free your mind.
+
+303
+00:14:51,000 --> 00:14:54,000
+Free your mind.
+
+304
+00:14:54,000 --> 00:14:56,000
+And your dress will follow.
+
+305
+00:14:56,000 --> 00:14:57,000
+And vote.
+
+306
+00:14:57,000 --> 00:14:58,000
+This is number two.
+
+307
+00:15:06,000 --> 00:15:07,000
+I told you that.
+
+308
+00:15:07,000 --> 00:15:09,000
+I can make you feel good.
+
+309
+00:15:09,000 --> 00:15:11,000
+Was that Shalomar?
+
+310
+00:15:11,000 --> 00:15:14,000
+It's got to be a big lesbian song.
+
+311
+00:15:14,000 --> 00:15:15,000
+It was probably Shalomar.
+
+312
+00:15:15,000 --> 00:15:17,000
+I can make you feel good.
+
+313
+00:15:17,000 --> 00:15:18,000
+I think that's what it was.
+
+314
+00:15:18,000 --> 00:15:19,000
+All right.
+
+315
+00:15:19,000 --> 00:15:20,000
+Let's keep going.
+
+316
+00:15:20,000 --> 00:15:22,000
+And this is number three.
+
+317
+00:15:22,000 --> 00:15:24,000
+Um.
+
+318
+00:15:24,000 --> 00:15:25,000
+Is it.
+
+319
+00:15:25,000 --> 00:15:26,000
+Uh.
+
+320
+00:15:30,000 --> 00:15:31,000
+S.O.S.B.
+
+321
+00:15:31,000 --> 00:15:32,000
+The chain.
+
+322
+00:15:32,000 --> 00:15:35,000
+And now here's Yon with the answers.
+
+323
+00:15:35,000 --> 00:15:36,000
+First of all.
+
+324
+00:15:36,000 --> 00:15:37,000
+Madge.
+
+325
+00:15:37,000 --> 00:15:38,000
+Thank you very much.
+
+326
+00:15:38,000 --> 00:15:40,000
+That was a great surprise.
+
+327
+00:15:40,000 --> 00:15:43,000
+So I guess you don't know anything about music, eh?
+
+328
+00:15:43,000 --> 00:15:44,000
+Give me.
+
+329
+00:15:44,000 --> 00:15:45,000
+Give me that.
+
+330
+00:15:45,000 --> 00:15:46,000
+I'm sorry.
+
+331
+00:15:46,000 --> 00:15:48,000
+I'm sorry for this interruption.
+
+332
+00:15:48,000 --> 00:15:49,000
+It's like you.
+
+333
+00:15:49,000 --> 00:15:51,000
+I wasn't able to start over again.
+
+334
+00:15:51,000 --> 00:15:52,000
+Oh.
+
+335
+00:15:52,000 --> 00:15:53,000
+Well, okay.
+
+336
+00:15:53,000 --> 00:15:54,000
+Here we go.
+
+337
+00:15:54,000 --> 00:15:55,000
+And to number one.
+
+338
+00:15:55,000 --> 00:15:56,000
+Free your mind.
+
+339
+00:15:56,000 --> 00:15:58,000
+And your dress will follow.
+
+340
+00:15:58,000 --> 00:15:59,000
+And vote.
+
+341
+00:15:59,000 --> 00:16:00,000
+And for your mind.
+
+342
+00:16:00,000 --> 00:16:02,000
+That's one for the kid.
+
+343
+00:16:02,000 --> 00:16:03,000
+I'll wait.
+
+344
+00:16:03,000 --> 00:16:04,000
+I'll call him.
+
+345
+00:16:04,000 --> 00:16:06,000
+I'll kill you.
+
+346
+00:16:06,000 --> 00:16:07,000
+What?
+
+347
+00:16:07,000 --> 00:16:08,000
+He doesn't need it.
+
+348
+00:16:08,000 --> 00:16:10,000
+I'm a friend to tell.
+
+349
+00:16:10,000 --> 00:16:11,000
+Yeah.
+
+350
+00:16:11,000 --> 00:16:12,000
+No.
+
+351
+00:16:12,000 --> 00:16:13,000
+Oh.
+
+352
+00:16:13,000 --> 00:16:14,000
+Oh.
+
+353
+00:16:14,000 --> 00:16:15,000
+Oh.
+
+354
+00:16:15,000 --> 00:16:16,000
+Oh.
+
+355
+00:16:16,000 --> 00:16:17,000
+Oh.
+
+356
+00:16:17,000 --> 00:16:18,000
+Oh.
+
+357
+00:16:18,000 --> 00:16:19,000
+Oh.
+
+358
+00:16:19,000 --> 00:16:20,000
+Oh.
+
+359
+00:16:20,000 --> 00:16:21,000
+Oh.
+
+360
+00:16:21,000 --> 00:16:22,000
+Yeah.
+
+361
+00:16:22,000 --> 00:16:23,000
+Real mind.
+
+362
+00:16:23,000 --> 00:16:24,000
+And the last.
+
+363
+00:16:24,000 --> 00:16:26,000
+And answer number two.
+
+364
+00:16:26,000 --> 00:16:29,000
+And this is Johnny H. Jazz.
+
+365
+00:16:29,000 --> 00:16:30,000
+Oh.
+
+366
+00:16:30,000 --> 00:16:31,000
+Sure.
+
+367
+00:16:31,000 --> 00:16:33,000
+I don't want to be a hero.
+
+368
+00:16:33,000 --> 00:16:34,000
+Oh.
+
+369
+00:16:34,000 --> 00:16:36,000
+I can make you feel good.
+
+370
+00:16:36,000 --> 00:16:37,000
+Johnny.
+
+371
+00:16:37,000 --> 00:16:38,000
+I can.
+
+372
+00:16:38,000 --> 00:16:39,000
+But.
+
+373
+00:16:39,000 --> 00:16:43,000
+The only Johnny H. Jazz song I know is a shadow dreams.
+
+374
+00:16:43,000 --> 00:16:44,000
+And something else.
+
+375
+00:16:44,000 --> 00:16:45,000
+But shadow dreams.
+
+376
+00:16:45,000 --> 00:16:47,000
+I wouldn't have guessed this.
+
+377
+00:16:47,000 --> 00:16:48,000
+Yeah.
+
+378
+00:16:48,000 --> 00:16:50,000
+I don't want to be a hero.
+
+379
+00:16:50,000 --> 00:16:51,000
+Yeah.
+
+380
+00:16:51,000 --> 00:16:55,000
+I don't want to be a hero.
+
+381
+00:16:55,000 --> 00:16:56,000
+Yeah.
+
+382
+00:16:56,000 --> 00:16:58,000
+I don't want to be a hero.
+
+383
+00:16:59,000 --> 00:17:00,000
+Yeah.
+
+384
+00:17:00,000 --> 00:17:03,000
+I don't want to be a hero.
+
+385
+00:17:03,000 --> 00:17:05,000
+And the final answer.
+
+386
+00:17:05,000 --> 00:17:07,000
+The SOS band.
+
+387
+00:17:07,000 --> 00:17:09,000
+The secret of success band.
+
+388
+00:17:09,000 --> 00:17:13,000
+And the song is titled Just Being Good To Me.
+
+389
+00:17:13,000 --> 00:17:14,000
+Oh.
+
+390
+00:17:14,000 --> 00:17:16,000
+So I got like a half a point.
+
+391
+00:17:16,000 --> 00:17:17,000
+Tell me.
+
+392
+00:17:17,000 --> 00:17:19,000
+I don't care.
+
+393
+00:17:19,000 --> 00:17:21,000
+I don't care.
+
+394
+00:17:21,000 --> 00:17:22,000
+Oh.
+
+395
+00:17:22,000 --> 00:17:24,000
+Just being good to me.
+
+396
+00:17:25,000 --> 00:17:30,000
+Woo.
+
+397
+00:17:30,000 --> 00:17:32,000
+Well, that's it.
+
+398
+00:17:32,000 --> 00:17:33,000
+Match.
+
+399
+00:17:33,000 --> 00:17:34,000
+What are you still doing here?
+
+400
+00:17:34,000 --> 00:17:35,000
+Why are you so close to me?
+
+401
+00:17:35,000 --> 00:17:36,000
+Get away.
+
+402
+00:17:36,000 --> 00:17:38,000
+Let me do this.
+
+403
+00:17:38,000 --> 00:17:39,000
+Boy, what are you doing?
+
+404
+00:17:39,000 --> 00:17:40,000
+Are you just not supposed to see?
+
+405
+00:17:40,000 --> 00:17:41,000
+Yeah.
+
+406
+00:17:41,000 --> 00:17:42,000
+Is it my podcast?
+
+407
+00:17:42,000 --> 00:17:44,000
+At the least radio.
+
+408
+00:17:44,000 --> 00:17:45,000
+Yeah.
+
+409
+00:17:45,000 --> 00:17:47,000
+Now you're pushing it, match.
+
+410
+00:17:47,000 --> 00:17:50,000
+And I'm sorry again for these interruptions.
+
+411
+00:17:50,000 --> 00:17:53,000
+Let me wrap it up before other things go wrong here.
+
+412
+00:17:54,000 --> 00:17:55,000
+Okay.
+
+413
+00:17:55,000 --> 00:17:56,000
+This concludes the hit test.
+
+414
+00:17:56,000 --> 00:17:59,000
+Feedback is welcome at hittest.gmail.com.
+
+415
+00:17:59,000 --> 00:18:04,000
+And you can find them all at www.helpethand.nl-hittest.
+
+416
+00:18:04,000 --> 00:18:05,000
+See you soon, Adam.
+
+417
+00:18:05,000 --> 00:18:06,000
+Bye-bye.
+
+418
+00:18:06,000 --> 00:18:07,000
+Yo.
+
+419
+00:18:07,000 --> 00:18:09,000
+Most excellent young.
+
+420
+00:18:09,000 --> 00:18:12,000
+Thank you once again for a wonderful.
+
+421
+00:18:12,000 --> 00:18:13,000
+Wonderful job there.
+
+422
+00:18:13,000 --> 00:18:14,000
+The theater of the mind.
+
+423
+00:18:14,000 --> 00:18:15,000
+The amazing.
+
+424
+00:18:15,000 --> 00:18:18,000
+How managed can transport herself to the Netherlands.
+
+425
+00:18:18,000 --> 00:18:25,000
+Let's help at hand.nl-hittest.htt-t-e-s-t.
+
+426
+00:18:25,000 --> 00:18:27,000
+For the archive of all of the young-pled hittest.
+
+427
+00:18:27,000 --> 00:18:30,000
+I think you sent me some email about the RSS feed and stuff.
+
+428
+00:18:30,000 --> 00:18:34,000
+But I just got to find an hour or two to catch up on on my correspondence.
+
+429
+00:18:34,000 --> 00:18:37,000
+That's what's just fricking crazy.
+
+430
+00:18:37,000 --> 00:18:38,000
+You go.
+
+431
+00:18:38,000 --> 00:18:40,000
+That's why I need a producer.
+
+432
+00:18:40,000 --> 00:18:46,000
+By the way, I've had a couple of people send me emails and I've had some correspondence with the couple of them.
+
+433
+00:18:46,000 --> 00:18:47,000
+And I really appreciate it.
+
+434
+00:18:47,000 --> 00:18:52,000
+And sometimes, hopefully, maybe the weekend, I'll be able to get back to you guys.
+
+435
+00:18:52,000 --> 00:18:56,000
+Because there's some real, real town that's competent people who want to help.
+
+436
+00:18:56,000 --> 00:18:58,000
+And best of all, they just want to help.
+
+437
+00:18:58,000 --> 00:19:00,000
+I really appreciate it.
+
+438
+00:19:00,000 --> 00:19:05,000
+Actually, I wanted to mention these two guys that came down from a Connecticut.
+
+439
+00:19:05,000 --> 00:19:06,000
+Let me just see.
+
+440
+00:19:06,000 --> 00:19:09,000
+I got to get their card from my jacket.
+
+441
+00:19:09,000 --> 00:19:12,000
+They're really nice guys.
+
+442
+00:19:12,000 --> 00:19:15,000
+And they said, let me see if I can find it here.
+
+443
+00:19:15,000 --> 00:19:16,000
+Hold on a second.
+
+444
+00:19:16,000 --> 00:19:19,000
+Shoot when I put there.
+
+445
+00:19:19,000 --> 00:19:21,000
+They had a website.
+
+446
+00:19:21,000 --> 00:19:28,000
+And they had pictures from the bitty show, which is apparently running on, here we go.
+
+447
+00:19:28,000 --> 00:19:30,000
+It's running on their cable modem at their apartment.
+
+448
+00:19:30,000 --> 00:19:37,000
+And I said, but, you know, dude, if I point to this, you know, that could get pretty nasty with your 300k upstream.
+
+449
+00:19:37,000 --> 00:19:40,000
+But they're really, they're hackers that thought it would be funny.
+
+450
+00:19:40,000 --> 00:19:43,000
+But it's Dutch.Hop2.org.
+
+451
+00:19:43,000 --> 00:19:48,000
+Dutch.Hop2, H-O-P-T-O, or hotel.
+
+452
+00:19:48,000 --> 00:19:54,000
+Or is it a hotel Oscar Papa Tango Oscar.org?
+
+453
+00:19:54,000 --> 00:19:55,000
+Okay.
+
+454
+00:19:55,000 --> 00:19:56,000
+Let's see.
+
+455
+00:19:56,000 --> 00:19:57,000
+I want to play another bitty track.
+
+456
+00:19:57,000 --> 00:20:00,000
+This is actually from the bittycastbittycast.com.
+
+457
+00:20:00,000 --> 00:20:03,000
+I think this is a previous live show.
+
+458
+00:20:03,000 --> 00:20:06,000
+This is going to be a little chaotic because we just turned on the recorder.
+
+459
+00:20:06,000 --> 00:20:07,000
+Let me see that.
+
+460
+00:20:07,000 --> 00:20:09,000
+I want the live show.
+
+461
+00:20:09,000 --> 00:20:10,000
+Now, this is what I want.
+
+462
+00:20:10,000 --> 00:20:13,000
+Here's a bit of the live show.
+
+463
+00:20:13,000 --> 00:20:17,000
+This is a Texas girl.
+
+464
+00:20:17,000 --> 00:20:21,000
+This is Lee Ann's got this beautiful country and western line.
+
+465
+00:20:21,000 --> 00:20:22,000
+Yes, it's a good song.
+
+466
+00:20:22,000 --> 00:20:23,000
+Yeah.
+
+467
+00:20:23,000 --> 00:20:24,000
+It goes by.
+
+468
+00:20:24,000 --> 00:20:26,000
+Here's the bitty's on the source code.
+
+469
+00:20:39,000 --> 00:20:41,000
+Here's the bitty's on the source code.
+
+470
+00:20:41,000 --> 00:20:43,000
+Here's the bitty's on the source code.
+
+471
+00:20:43,000 --> 00:20:45,000
+Here's the bitty's on the source code.
+
+472
+00:20:45,000 --> 00:20:47,000
+Here's the bitty's on the source code.
+
+473
+00:20:47,000 --> 00:20:49,000
+Here's the bitty's on the source code.
+
+474
+00:20:49,000 --> 00:20:51,000
+Here's the bitty's on the source code.
+
+475
+00:20:51,000 --> 00:20:53,000
+Here's the bitty's on the source code.
+
+476
+00:20:53,000 --> 00:20:55,000
+Here's the bitty's on the source code.
+
+477
+00:20:55,000 --> 00:20:57,000
+Here's the bitty's on the source code.
+
+478
+00:20:57,000 --> 00:20:59,000
+Here's the bitty's on the source code.
+
+479
+00:20:59,000 --> 00:21:01,000
+Here's the bitty's on the source code.
+
+480
+00:21:01,000 --> 00:21:03,000
+Here's the bitty's on the source code.
+
+481
+00:21:03,000 --> 00:21:05,000
+Here's the bitty's on the source code.
+
+482
+00:21:05,000 --> 00:21:07,000
+Here's the bitty's on the source code.
+
+483
+00:21:07,000 --> 00:21:08,000
+Here's the bitty's on the source code.
+
+484
+00:21:08,000 --> 00:21:13,000
+Here's the bitty's on the source code.
+
+485
+00:21:13,000 --> 00:21:17,000
+Here's the bitty's on the source code.
+
+486
+00:21:17,000 --> 00:21:19,000
+Here's the bitty's on the source code.
+
+487
+00:21:19,000 --> 00:21:22,000
+Here's the bitty's on the source code.
+
+488
+00:21:22,000 --> 00:21:25,000
+Here's the bitty's on the source code.
+
+489
+00:21:25,000 --> 00:21:28,000
+Here's the bitty's on the source code.
+
+490
+00:21:28,000 --> 00:21:30,000
+Here's the bitty's on the source code.
+
+491
+00:21:30,000 --> 00:21:32,000
+Here's the bitty's on the source code.
+
+492
+00:21:32,000 --> 00:21:35,000
+Here's the bitty's on the source code.
+
+493
+00:21:35,000 --> 00:22:05,000
+Thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this
+
+494
+00:22:05,000 --> 00:22:35,000
+Thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for watching this video, thank you very much for
+
+495
+00:22:35,000 --> 00:22:51,200
+No matter where you are she long she is never for my home with you kid, take taxis no of this girl, no I can't take the girl out of Texas, I can-I will beat you ,cap for the lamb, no oppression
+
+496
+00:22:51,680 --> 00:23:02,760
+No matter where you are she long she is never for home with you kid, take taxes from the office, take taxes from the public Take taxes from the public
+
+497
+00:23:02,760 --> 00:23:11,160
+Yeah, this is Bitties! Texas Girl, and that's live from their Bittycast, and you can get
+
+498
+00:23:11,160 --> 00:23:18,280
+that at Bittycast.com, check out their website, which is Bitties Forever.com, this is just
+
+499
+00:23:18,280 --> 00:23:22,840
+like a Bitty Promotion Show. Man, it was so fun when you, so I told you, it's kind of like
+
+500
+00:23:22,840 --> 00:23:28,680
+pen pals, and I finally met them, and we all hugged, and these are, they're like kind of like
+
+501
+00:23:28,840 --> 00:23:35,320
+kind of a no-potite, you know, they're, they're not a one as over five, five, I think, and they're
+
+502
+00:23:35,320 --> 00:23:41,960
+just, oh man, I don't know, it was great, just the whole show, and there's great scenes Saskia
+
+503
+00:23:41,960 --> 00:23:47,960
+where they're upright-based, that's some, you know what, you know, me and, you know, and big wood
+
+504
+00:23:47,960 --> 00:23:53,560
+instruments and women, right? Or, you know, string instruments like the upright base or some hot
+
+505
+00:23:53,560 --> 00:23:58,200
+girl on cello action, you know, that really gets my blood pumping, and Saskia was just, oh man,
+
+506
+00:23:58,280 --> 00:24:05,480
+she's a julyard, I think she's, she graduated julyard on a scholarship, but the way she was just
+
+507
+00:24:05,480 --> 00:24:09,960
+hammering on that upright base was a very physical thing, she was just cool to watch, and then
+
+508
+00:24:10,760 --> 00:24:19,720
+Vidi Amanda on guitar, rocking out, Deedra on, on piano and Leanne, of course, on vocals,
+
+509
+00:24:19,720 --> 00:24:23,480
+and, oh, those girls just make such beautiful music. It was fun, you know, we hung out,
+
+510
+00:24:23,480 --> 00:24:29,800
+had a drink afterwards, and Saturday was, as I said, we're gonna try and hook up. So also,
+
+511
+00:24:29,800 --> 00:24:34,440
+there's, you know, I'm gonna be reporting on what's going on, I'm meeting with people
+
+512
+00:24:35,320 --> 00:24:41,480
+on the East Coast and the West Coast, there's lots of opportunities, obviously podcast opportunities
+
+513
+00:24:41,480 --> 00:24:45,400
+that people have been emailing me and calling me about, and so I find decided I might as well go
+
+514
+00:24:45,960 --> 00:24:50,680
+and just talk to people and see, see what some of the ideas are, there's a lot of old business
+
+515
+00:24:50,760 --> 00:24:57,080
+socios of mine have popped up with ideas, marketing, advertising people, it's just, it's a
+
+516
+00:24:57,080 --> 00:25:02,840
+live, you know, so the stuff going on, and I hope to report during the week about some cool stuff,
+
+517
+00:25:02,840 --> 00:25:08,440
+meeting up with a couple of podcasters on the West Coast. That's planning on going to the
+
+518
+00:25:08,440 --> 00:25:14,920
+to the rave awards, which is the wired rave awards next week. So I don't know, the West Coast,
+
+519
+00:25:14,920 --> 00:25:19,560
+there's a Donna Drew Party, I'm gonna try and hook up with, or not try, I'm gonna hook up with,
+
+520
+00:25:19,640 --> 00:25:26,600
+Sunday night, hanging out, Michael Butler, I'm gonna check out him, he's, of course, he's on the West
+
+521
+00:25:26,600 --> 00:25:33,080
+Coast, I'm going to second my, I'd powder, it's just kicking in, I hope it doesn't kill the downloads
+
+522
+00:25:33,080 --> 00:25:40,120
+here, who else, Mike gohagan from, first time I got his name right, right off the bat,
+
+523
+00:25:40,120 --> 00:25:50,280
+Michael gohagan, real reviews, oh man, I've got to set up the schedule, and tomorrow I'm having dinner
+
+524
+00:25:50,280 --> 00:25:55,000
+with Steve Leaves, Ken and I have talked about him, so it's just, it's cool, and actually I haven't
+
+525
+00:25:55,000 --> 00:26:00,840
+been in New York since before 9-11, so it's just good to kind of, you know, feel the energy of what's
+
+526
+00:26:00,840 --> 00:26:07,000
+going on in, oops, sorry about that, what's going on in the city, and yeah, it's just, it's good to
+
+527
+00:26:07,080 --> 00:26:11,400
+be in New York, it really is, although I miss my girls terribly who weren't, let's see,
+
+528
+00:26:12,520 --> 00:26:16,600
+I'll tell him he's at now, they'll be getting up in a couple hours, so my goodness, okay, let's play
+
+529
+00:26:16,600 --> 00:26:22,440
+one more, one more bitty song, and then I'm gonna go to bed, because I still have to compress this and
+
+530
+00:26:22,440 --> 00:26:28,760
+get it up to the, get it up to the bird, wow there's only one song, I guess I can play if I take
+
+531
+00:26:28,760 --> 00:26:34,680
+you out on a bitty's note, you know, there's, what else could it be, but my favorite, I want to be
+
+532
+00:26:34,680 --> 00:26:35,640
+by the biddies, on your daily source code,
+
+533
+00:27:04,680 --> 00:27:13,720
+I want to be famous, eat out at sardys, hard parties, that's fine, I want to be famous,
+
+534
+00:27:13,720 --> 00:27:23,800
+go to Paris on private flights, I want to have lovers buy the score, movie producers knocking down
+
+535
+00:27:23,880 --> 00:27:37,160
+my door, this is the faith that is in store for me, oh when I'm famous I will wear a great trench coat
+
+536
+00:27:37,160 --> 00:27:49,240
+and fake red hair, so they all will know that it is me, when they see me how they'll smile
+
+537
+00:27:49,560 --> 00:27:56,600
+and me photo grass to sign, I will say sorry babe, talk to my assistant,
+
+538
+00:27:58,600 --> 00:28:09,960
+I want to be famous, ta-goids will bring what I eat, I want to be famous who I do will be news on the street
+
+539
+00:28:10,920 --> 00:28:17,800
+then when I'm old I'll have a ball, there'll be shocked that I'm living at home
+
+540
+00:28:18,520 --> 00:28:29,240
+when I enter the gas will fall to the knees and then I'll slip the throat so my enemies met
+
+541
+00:28:29,240 --> 00:28:38,280
+all I don't want and she is when I'm famous, famous, famous, famous, so exhausting
+
+542
+00:28:39,960 --> 00:28:55,960
+I want to be famous, ta-goids will bring what I eat, I want to be famous
+
+543
+00:29:09,960 --> 00:29:30,920
+I want to be famous, ta-goids will bring what I eat, I want to be famous
+
+544
+00:29:31,400 --> 00:29:41,960
+oh I will be a Barbie doll with huge fake tits, no hips at all and I hate us attitude
+
+545
+00:29:42,040 --> 00:29:52,040
+and to wo wo wo wo wo every morning I don't get high on colored pills my routine is dry
+
+546
+00:29:52,760 --> 00:29:56,680
+a little wee and just a touch
+
+547
+00:29:58,680 --> 00:30:07,400
+I want to be famous, ta-goids will bring what I eat, I want to be famous
+
+548
+00:30:07,400 --> 00:30:18,440
+lonely and alone at the end I'll hand up bitter and ugly and old not just my body but also my soul
+
+549
+00:30:18,440 --> 00:30:29,800
+but a legend is my goal and a legend of me when I'm famous, ta-goids will give for the little
+
+550
+00:30:29,800 --> 00:30:39,880
+people all they have to use when I'm famous, ain't a stranger, I'm a yeah
+
+551
+00:30:41,240 --> 00:30:45,000
+man that brought the house down when they did that tonight the syvee is bitties
+
+552
+00:30:45,000 --> 00:30:51,160
+on this I guess we'll just call this a bitty special that we had on the source code tonight
+
+553
+00:30:51,880 --> 00:30:57,960
+or today or whenever you happen to be listening to this I'm actually just now preparing
+
+554
+00:30:58,040 --> 00:31:06,360
+the show notes which will consist of a picture of the ticket that I had for the show
+
+555
+00:31:06,360 --> 00:31:08,360
+which was free
+
+556
+00:31:10,920 --> 00:31:15,000
+it's so nice, I was on the list, I'm with the band, I finally got to say it, it was great
+
+557
+00:31:16,040 --> 00:31:25,560
+so thanks to the bitties, lean, Amanda, Saskia, Diedra, Ben, Day,
+
+558
+00:31:26,520 --> 00:31:29,560
+Day Bennett and uh...
+
+559
+00:31:31,320 --> 00:31:36,280
+she also have to thank a young poet of course and and match for the contest
+
+560
+00:31:37,480 --> 00:31:40,760
+okay I've got my nighttime sleep time medicine
+
+561
+00:31:42,920 --> 00:31:48,040
+since I'm jet lag it's the only true way to regulate the sleeping you know
+
+562
+00:31:49,320 --> 00:31:52,920
+if you know what I'm saying it's the good stuff from Amsterdam
+
+563
+00:31:53,880 --> 00:31:59,880
+all right everybody tomorrow be back with another daily source code thanks for listening
+
+564
+00:31:59,880 --> 00:32:05,480
+check out the bitties bittiecast.com or bitties forever dot com and of course daily source code dot com
+
