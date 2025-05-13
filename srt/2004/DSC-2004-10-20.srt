@@ -1,0 +1,2076 @@
+1
+00:00:00,000 --> 00:00:23,000
+Welcome everybody, welcome to the source code for Wednesday October 20th 2000 and 4 coming to you from the highway between Belgium and the Netherlands.
+
+2
+00:00:23,000 --> 00:00:29,000
+It's your source code, I'm Adam Curry, welcome everybody to the show.
+
+3
+00:00:29,000 --> 00:00:48,000
+I've got to be honest, I've started today's source code at least five times and couldn't get it the way I wanted to and quite honestly just didn't have the emotional energy to get into it.
+
+4
+00:00:49,000 --> 00:01:05,000
+Let me explain what happened yesterday, I missed the source code, I wasn't able to tape, let me tell you what happened and again it's taken me quite a while and a lot of conversations with a lot of people before I decided to record today's source code and tell you what I have to say.
+
+5
+00:01:05,000 --> 00:01:26,000
+Yesterday I went with my sister Tiffany, who's two years younger than I am, we have another sister Willow, she's four years younger than I am, she lives in Italy, she couldn't come with us but we took our mom to the hospital to get the final results of her test.
+
+6
+00:01:26,000 --> 00:01:33,000
+Yesterday we found out that she is tested positive for lung cancer.
+
+7
+00:01:33,000 --> 00:01:40,000
+Now you can understand why I didn't cut a source code yesterday.
+
+8
+00:01:40,000 --> 00:01:55,000
+My mom divorced my dad when I was 22, 23 years ago and he also lives in Holland but ever since I've become the man of the family.
+
+9
+00:01:55,000 --> 00:01:59,000
+And you're supposed to take care of all kinds of stuff.
+
+10
+00:01:59,000 --> 00:02:18,000
+So yesterday going through all this and hearing what the options were and just lending emotional support kind of fell on my shoulders because you got to be strong and got to help everybody through this.
+
+11
+00:02:18,000 --> 00:02:38,000
+It was hard I couldn't bring myself quite yet to record a show and in fact this morning I started recording and I lost it and for the first time in I think more than 20 years I cried like a baby.
+
+12
+00:02:38,000 --> 00:03:02,000
+Yeah, it's like one of these things and I know that there are hundreds of thousands and millions of people probably tens of millions of people that go through this every single day and families and it affects so many people and many of you listening me will probably have experiences with this and you know kind of what we're going through.
+
+13
+00:03:02,000 --> 00:03:13,000
+So let me give you a little bit of background on what's happening. First of all this is the thing that sucks the most is she looks great. She feels fine.
+
+14
+00:03:13,000 --> 00:03:30,000
+The reason why she went to get went to the doctor was she had a cough that wouldn't go away and they discovered after it took an x-ray lung photo they discovered that she has a tumor low in her right lung.
+
+15
+00:03:30,000 --> 00:03:42,000
+Which is about six centimeters big at this point from what they can see it is not spread to other parts of her body.
+
+16
+00:03:42,000 --> 00:03:53,000
+It is the non-small cell form of cancer which is not the most aggressive kind it's guess what we call just a regular old fucked up cancer.
+
+17
+00:03:53,000 --> 00:04:13,000
+And because it's so low and because we can't see any spreading she has a chance after she has a PET scan which is a radioactive scan where they can get even closer look to see if there's any other cell forming anywhere else in her body which they couldn't see on regular CT scans.
+
+18
+00:04:13,000 --> 00:04:27,000
+She has perhaps she has a chance that she can be operated which means they'll either remove half of her right lung or all of her right lung if she has enough lung capacity in the left lung to live a normal life.
+
+19
+00:04:27,000 --> 00:04:32,000
+I have to know that my mom has been a smoker all over life of course.
+
+20
+00:04:33,000 --> 00:04:46,000
+And wouldn't you know that she quit about three quarters of a year ago she has finally quit smoking so of course this is exactly how these things go right like Murphy pops up and says oh yeah.
+
+21
+00:04:47,000 --> 00:05:10,000
+Should that not be possible then we resort to radiation and chemotherapy now this kind of comes at a difficult moment for for my mom certainly but you know I'm in the midst of a move we're moving to the UK and only four weeks.
+
+22
+00:05:10,000 --> 00:05:31,000
+Patricia as I think I've mentioned before has heart disease so you know where you think you're riding on top of the world you know and and you've got money and you can buy anything you want and you can do anything you want and there's exciting stuff on the horizon and there's cool stuff happening and podcasting is exploding and.
+
+23
+00:05:31,000 --> 00:05:38,000
+And then life throws you curveball and says hey dude this is not what it's all about this is was really important.
+
+24
+00:05:38,000 --> 00:05:54,000
+So anyway I'm on my way to Amsterdam staying overnight there and I was halfway up the highway and I said you know okay I think I'm ready to talk about this and I pulled off to the side and I'm sitting here.
+
+25
+00:05:54,000 --> 00:06:04,000
+Kind of parking a lot of a grad of a gas station and just wanted to share this with you because if these podcasts are really going to be.
+
+26
+00:06:04,000 --> 00:06:10,000
+All about life and and there are own personal shows and we can do whatever we want.
+
+27
+00:06:10,000 --> 00:06:23,000
+I think that it's only fair that I can share this with you and of course I talked it over with my mom and everybody else and and they're all totally cool with it and maybe it's a good therapy for me to.
+
+28
+00:06:23,000 --> 00:06:27,000
+To get some of this off my chest so I really appreciate you listening to this.
+
+29
+00:06:27,000 --> 00:06:29,000
+Okay.
+
+30
+00:06:29,000 --> 00:06:36,000
+I was not going to play any any music in today's show that was not licensed.
+
+31
+00:06:36,000 --> 00:06:48,000
+This is something that we've been talking about the all since we've been doing podcast and I'm certainly the four runner of breaking the rules by playing music which I don't have the rights to play and.
+
+32
+00:06:48,000 --> 00:06:56,000
+And it's unnecessary really when you think about it because you know there's so much music out there and I'm going to hit on that a little bit later on in the show.
+
+33
+00:06:56,000 --> 00:07:06,000
+But I'm just going to break the law one more time if you don't mind playing a song for my mom because we will get through this definitely with a little help from our friends.
+
+34
+00:07:18,000 --> 00:07:20,000
+Thank you.
+
+35
+00:07:48,000 --> 00:07:50,000
+Thank you.
+
+36
+00:08:18,000 --> 00:08:20,000
+Thank you.
+
+37
+00:08:48,000 --> 00:08:50,000
+Thank you.
+
+38
+00:09:18,000 --> 00:09:20,000
+Thank you.
+
+39
+00:09:48,000 --> 00:09:50,000
+Thank you.
+
+40
+00:10:18,000 --> 00:10:20,000
+Thank you.
+
+41
+00:10:48,000 --> 00:10:50,000
+Thank you.
+
+42
+00:11:18,000 --> 00:11:20,000
+Thank you.
+
+43
+00:11:48,000 --> 00:11:50,000
+Thank you.
+
+44
+00:12:18,000 --> 00:12:20,000
+Thank you.
+
+45
+00:12:22,000 --> 00:12:24,000
+Thank you.
+
+46
+00:12:48,000 --> 00:12:50,000
+Thank you.
+
+47
+00:13:18,000 --> 00:13:20,000
+Thank you.
+
+48
+00:13:48,000 --> 00:13:50,000
+Thank you.
+
+49
+00:14:18,000 --> 00:14:20,000
+Thank you.
+
+50
+00:14:48,000 --> 00:14:50,000
+Thank you.
+
+51
+00:15:18,000 --> 00:15:20,000
+Thank you.
+
+52
+00:15:20,000 --> 00:15:22,000
+Thank you.
+
+53
+00:15:22,000 --> 00:15:24,000
+Thank you.
+
+54
+00:15:24,000 --> 00:15:26,000
+Thank you.
+
+55
+00:15:26,000 --> 00:15:28,000
+Thank you.
+
+56
+00:15:28,000 --> 00:15:30,000
+Thank you.
+
+57
+00:15:30,000 --> 00:15:32,000
+Thank you.
+
+58
+00:16:00,000 --> 00:16:02,000
+Thank you.
+
+59
+00:16:30,000 --> 00:16:32,000
+Thank you.
+
+60
+00:17:00,000 --> 00:17:02,000
+Thank you.
+
+61
+00:17:30,000 --> 00:17:32,000
+Thank you.
+
+62
+00:18:00,000 --> 00:18:02,000
+Thank you.
+
+63
+00:18:30,000 --> 00:18:32,000
+Thank you.
+
+64
+00:19:00,000 --> 00:19:02,000
+Thank you.
+
+65
+00:19:30,000 --> 00:19:32,000
+Thank you.
+
+66
+00:20:00,000 --> 00:20:02,000
+Thank you.
+
+67
+00:20:30,000 --> 00:20:32,000
+Thank you.
+
+68
+00:21:00,000 --> 00:21:02,000
+Thank you.
+
+69
+00:21:30,000 --> 00:21:32,000
+Thank you.
+
+70
+00:21:32,000 --> 00:21:34,000
+Thank you.
+
+71
+00:21:34,000 --> 00:21:36,000
+Thank you.
+
+72
+00:21:36,000 --> 00:21:38,000
+Thank you.
+
+73
+00:21:38,000 --> 00:21:40,000
+Thank you.
+
+74
+00:21:40,000 --> 00:21:42,000
+Thank you.
+
+75
+00:21:42,000 --> 00:21:44,000
+Thank you.
+
+76
+00:21:44,000 --> 00:21:46,000
+Thank you.
+
+77
+00:21:46,000 --> 00:21:48,000
+Thank you.
+
+78
+00:21:48,000 --> 00:21:50,000
+Thank you.
+
+79
+00:21:50,000 --> 00:21:52,000
+Thank you.
+
+80
+00:21:52,000 --> 00:21:54,000
+Thank you.
+
+81
+00:21:54,000 --> 00:21:56,000
+Thank you.
+
+82
+00:21:56,000 --> 00:21:58,000
+Thank you.
+
+83
+00:21:58,000 --> 00:22:00,000
+Thank you.
+
+84
+00:22:00,000 --> 00:22:02,000
+Thank you.
+
+85
+00:22:02,000 --> 00:22:04,000
+Thank you.
+
+86
+00:22:04,000 --> 00:22:06,000
+Thank you.
+
+87
+00:22:06,000 --> 00:22:08,000
+Thank you.
+
+88
+00:22:08,000 --> 00:22:10,000
+Thank you.
+
+89
+00:22:10,000 --> 00:22:12,000
+Thank you.
+
+90
+00:22:12,000 --> 00:22:14,000
+Thank you.
+
+91
+00:22:14,000 --> 00:22:16,000
+Thank you.
+
+92
+00:22:16,000 --> 00:22:18,000
+Thank you.
+
+93
+00:22:18,000 --> 00:22:20,000
+Thank you.
+
+94
+00:22:20,000 --> 00:22:22,000
+Thank you.
+
+95
+00:22:22,000 --> 00:22:24,000
+Thank you.
+
+96
+00:22:24,000 --> 00:22:26,000
+Thank you.
+
+97
+00:22:26,000 --> 00:22:28,000
+Thank you.
+
+98
+00:22:28,000 --> 00:22:30,000
+Thank you.
+
+99
+00:22:30,000 --> 00:22:32,000
+Thank you.
+
+100
+00:22:32,000 --> 00:22:34,000
+Thank you.
+
+101
+00:22:34,000 --> 00:22:36,000
+Thank you.
+
+102
+00:22:36,000 --> 00:22:38,000
+Thank you.
+
+103
+00:22:38,000 --> 00:22:40,000
+Thank you.
+
+104
+00:22:40,000 --> 00:22:42,000
+Thank you.
+
+105
+00:22:42,000 --> 00:22:44,000
+Thank you.
+
+106
+00:22:44,000 --> 00:22:46,000
+Thank you.
+
+107
+00:22:46,000 --> 00:22:48,000
+Thank you.
+
+108
+00:22:48,000 --> 00:22:50,000
+Thank you.
+
+109
+00:22:50,000 --> 00:22:52,000
+Thank you.
+
+110
+00:22:52,000 --> 00:22:54,000
+Thank you.
+
+111
+00:22:54,000 --> 00:22:56,000
+Thank you.
+
+112
+00:22:56,000 --> 00:22:58,000
+Thank you.
+
+113
+00:22:58,000 --> 00:23:00,000
+Thank you.
+
+114
+00:23:00,000 --> 00:23:02,000
+Thank you.
+
+115
+00:23:02,000 --> 00:23:04,000
+Thank you.
+
+116
+00:23:04,000 --> 00:23:06,000
+Thank you.
+
+117
+00:23:06,000 --> 00:23:08,000
+Thank you.
+
+118
+00:23:08,000 --> 00:23:10,000
+Thank you.
+
+119
+00:23:10,000 --> 00:23:12,000
+Thank you.
+
+120
+00:23:12,000 --> 00:23:14,000
+Thank you.
+
+121
+00:23:14,000 --> 00:23:16,000
+Thank you.
+
+122
+00:23:16,000 --> 00:23:18,000
+Thank you.
+
+123
+00:23:18,000 --> 00:23:20,000
+Thank you.
+
+124
+00:23:20,000 --> 00:23:22,000
+Thank you.
+
+125
+00:23:22,000 --> 00:23:24,000
+Thank you.
+
+126
+00:23:24,000 --> 00:23:26,000
+Thank you.
+
+127
+00:23:26,000 --> 00:23:28,000
+Thank you.
+
+128
+00:23:28,000 --> 00:23:30,000
+Thank you.
+
+129
+00:23:30,000 --> 00:23:32,000
+Thank you.
+
+130
+00:23:32,000 --> 00:23:34,000
+Thank you.
+
+131
+00:23:34,000 --> 00:23:36,000
+Thank you.
+
+132
+00:23:36,000 --> 00:23:38,000
+Thank you.
+
+133
+00:23:38,000 --> 00:23:40,000
+Thank you.
+
+134
+00:23:40,000 --> 00:23:42,000
+Thank you.
+
+135
+00:23:42,000 --> 00:23:44,000
+Thank you.
+
+136
+00:23:44,000 --> 00:23:46,000
+Thank you.
+
+137
+00:23:46,000 --> 00:23:48,000
+Thank you.
+
+138
+00:23:48,000 --> 00:23:50,000
+Thank you.
+
+139
+00:23:50,000 --> 00:23:52,000
+Thank you.
+
+140
+00:23:52,000 --> 00:23:54,000
+Thank you.
+
+141
+00:23:54,000 --> 00:23:56,000
+Thank you.
+
+142
+00:23:56,000 --> 00:23:58,000
+Thank you.
+
+143
+00:23:58,000 --> 00:24:00,000
+Thank you.
+
+144
+00:24:00,000 --> 00:24:02,000
+Thank you.
+
+145
+00:24:02,000 --> 00:24:04,000
+Thank you.
+
+146
+00:24:04,000 --> 00:24:06,000
+Thank you.
+
+147
+00:24:06,000 --> 00:24:08,000
+Thank you.
+
+148
+00:24:08,000 --> 00:24:10,000
+Thank you.
+
+149
+00:24:10,000 --> 00:24:12,000
+Thank you.
+
+150
+00:24:12,000 --> 00:24:14,000
+Thank you.
+
+151
+00:24:14,000 --> 00:24:16,000
+Thank you.
+
+152
+00:24:16,000 --> 00:24:18,000
+Thank you.
+
+153
+00:24:18,000 --> 00:24:22,000
+Thank you.
+
+154
+00:24:22,000 --> 00:24:24,000
+Thank you.
+
+155
+00:24:48,000 --> 00:24:52,000
+Thank you.
+
+156
+00:24:52,000 --> 00:24:54,000
+Thank you.
+
+157
+00:24:54,000 --> 00:24:56,000
+Thank you.
+
+158
+00:24:56,000 --> 00:24:58,000
+Thank you.
+
+159
+00:24:58,000 --> 00:25:00,000
+Thank you.
+
+160
+00:25:00,000 --> 00:25:02,000
+Thank you.
+
+161
+00:25:02,000 --> 00:25:04,000
+Thank you.
+
+162
+00:25:04,000 --> 00:25:06,000
+Thank you.
+
+163
+00:25:06,000 --> 00:25:08,000
+Thank you.
+
+164
+00:25:08,000 --> 00:25:10,000
+Thank you.
+
+165
+00:25:10,000 --> 00:25:12,000
+Thank you.
+
+166
+00:25:12,000 --> 00:25:20,000
+Thank you.
+
+167
+00:25:20,000 --> 00:25:22,000
+Thank you.
+
+168
+00:25:22,000 --> 00:25:24,000
+Thank you.
+
+169
+00:25:24,000 --> 00:25:26,000
+Thank you.
+
+170
+00:25:26,000 --> 00:25:28,000
+Thank you.
+
+171
+00:25:28,000 --> 00:25:30,000
+Thank you.
+
+172
+00:25:30,000 --> 00:25:32,000
+Thank you.
+
+173
+00:25:32,000 --> 00:25:34,000
+Thank you.
+
+174
+00:25:34,000 --> 00:25:36,000
+Thank you.
+
+175
+00:25:36,000 --> 00:25:38,000
+Thank you.
+
+176
+00:25:38,000 --> 00:25:40,000
+Thank you.
+
+177
+00:25:40,000 --> 00:25:42,000
+Thank you.
+
+178
+00:25:42,000 --> 00:25:44,000
+Thank you.
+
+179
+00:25:44,000 --> 00:25:46,000
+Thank you.
+
+180
+00:25:46,000 --> 00:25:48,000
+Thank you.
+
+181
+00:25:48,000 --> 00:25:50,000
+Thank you.
+
+182
+00:25:50,000 --> 00:25:52,000
+Thank you.
+
+183
+00:25:52,000 --> 00:25:54,000
+Thank you.
+
+184
+00:25:54,000 --> 00:25:56,000
+Thank you.
+
+185
+00:25:56,000 --> 00:25:58,000
+Thank you.
+
+186
+00:25:58,000 --> 00:26:00,000
+Thank you.
+
+187
+00:26:00,000 --> 00:26:02,000
+Thank you.
+
+188
+00:26:02,000 --> 00:26:04,000
+Thank you.
+
+189
+00:26:04,000 --> 00:26:06,000
+Thank you.
+
+190
+00:26:06,000 --> 00:26:08,000
+Thank you.
+
+191
+00:26:08,000 --> 00:26:10,000
+Thank you.
+
+192
+00:26:10,000 --> 00:26:12,000
+Thank you.
+
+193
+00:26:12,000 --> 00:26:14,000
+Thank you.
+
+194
+00:26:14,000 --> 00:26:16,000
+Thank you.
+
+195
+00:26:16,000 --> 00:26:18,000
+Thank you.
+
+196
+00:26:18,000 --> 00:26:20,000
+Thank you.
+
+197
+00:26:20,000 --> 00:26:22,000
+Thank you.
+
+198
+00:26:22,000 --> 00:26:26,000
+Thank you.
+
+199
+00:26:26,000 --> 00:26:28,000
+Thank you.
+
+200
+00:26:28,000 --> 00:26:30,000
+Thank you.
+
+201
+00:26:30,000 --> 00:26:32,000
+Thank you.
+
+202
+00:26:32,000 --> 00:26:34,000
+Thank you.
+
+203
+00:26:34,000 --> 00:26:36,000
+Thank you.
+
+204
+00:27:05,000 --> 00:27:06,000
+Thank you.
+
+205
+00:27:06,000 --> 00:27:08,000
+Thank you.
+
+206
+00:27:08,000 --> 00:27:10,000
+Thank you.
+
+207
+00:27:10,000 --> 00:27:12,000
+Thank you.
+
+208
+00:27:12,000 --> 00:27:14,000
+Thank you.
+
+209
+00:27:14,000 --> 00:27:16,000
+Thank you.
+
+210
+00:27:16,000 --> 00:27:18,000
+Thank you.
+
+211
+00:27:18,000 --> 00:27:20,000
+Thank you.
+
+212
+00:27:20,000 --> 00:27:22,000
+Thank you.
+
+213
+00:27:22,000 --> 00:27:24,000
+Thank you.
+
+214
+00:27:24,000 --> 00:27:26,000
+Thank you.
+
+215
+00:27:26,000 --> 00:27:28,000
+Thank you.
+
+216
+00:27:28,000 --> 00:27:30,000
+Thank you.
+
+217
+00:27:30,000 --> 00:27:32,000
+Thank you.
+
+218
+00:27:32,000 --> 00:27:34,000
+Thank you.
+
+219
+00:27:34,000 --> 00:27:36,000
+Thank you.
+
+220
+00:27:36,000 --> 00:27:38,000
+Thank you.
+
+221
+00:27:38,000 --> 00:27:40,000
+Thank you.
+
+222
+00:27:40,000 --> 00:27:42,000
+Thank you.
+
+223
+00:27:42,000 --> 00:27:44,000
+Thank you.
+
+224
+00:27:44,000 --> 00:27:46,000
+Thank you.
+
+225
+00:27:46,000 --> 00:27:48,000
+Thank you.
+
+226
+00:27:48,000 --> 00:27:50,000
+Thank you.
+
+227
+00:27:50,000 --> 00:27:52,000
+Okay.
+
+228
+00:27:52,000 --> 00:27:54,000
+Thank you.
+
+229
+00:27:54,000 --> 00:28:00,000
+Really well produced.
+
+230
+00:28:00,000 --> 00:28:08,000
+Thank you.
+
+231
+00:28:08,000 --> 00:28:12,000
+Thank you.
+
+232
+00:28:12,000 --> 00:28:22,000
+What is the fight between you and my master?
+
+233
+00:28:22,000 --> 00:28:24,000
+Try to take over the world.
+
+234
+00:28:24,000 --> 00:28:26,000
+Are you on your block of mind?
+
+235
+00:28:26,000 --> 00:28:27,000
+I can't!
+
+236
+00:28:27,000 --> 00:28:29,000
+What in the world is this?
+
+237
+00:28:30,000 --> 00:28:32,000
+There seems to be no sight of me.
+
+238
+00:28:32,000 --> 00:28:33,000
+How much it works here?
+
+239
+00:28:33,000 --> 00:28:36,000
+Now you see that people will always try them.
+
+240
+00:28:36,000 --> 00:28:39,000
+Because good, you dumb.
+
+241
+00:28:40,000 --> 00:28:44,000
+Welcome to the five speed cassette audio blog.
+
+242
+00:28:44,000 --> 00:28:45,000
+My name is Mark.
+
+243
+00:28:45,000 --> 00:28:48,000
+Hopefully you'll remember me for my first instalment.
+
+244
+00:28:48,000 --> 00:28:50,000
+Let's jump right in.
+
+245
+00:28:50,000 --> 00:28:54,000
+Today's two topics will be indie music.
+
+246
+00:28:54,000 --> 00:28:57,000
+Or I should say a call for indie music.
+
+247
+00:28:57,000 --> 00:28:59,000
+And F1 and its problems.
+
+248
+00:28:59,000 --> 00:29:03,000
+By the way, if you can hear those wonderful wind charms in the background,
+
+249
+00:29:03,000 --> 00:29:05,000
+Zach is providing some atmospheric music.
+
+250
+00:29:05,000 --> 00:29:08,000
+He's on one of those little play triangle things.
+
+251
+00:29:08,000 --> 00:29:11,000
+I call him a play triangle with two pieces of metal.
+
+252
+00:29:11,000 --> 00:29:13,000
+The whole bunch of toys hanging from them.
+
+253
+00:29:13,000 --> 00:29:14,000
+He's currently kicking along.
+
+254
+00:29:14,000 --> 00:29:16,000
+So if you hear that in the background,
+
+255
+00:29:16,000 --> 00:29:18,000
+Zach is having a moment of Zen.
+
+256
+00:29:18,000 --> 00:29:20,000
+Okay.
+
+257
+00:29:20,000 --> 00:29:23,000
+Let's start off with the indie music.
+
+258
+00:29:23,000 --> 00:29:24,000
+Yes, I know Zach.
+
+259
+00:29:24,000 --> 00:29:26,000
+You want your moment in time.
+
+260
+00:29:26,000 --> 00:29:27,000
+You know what?
+
+261
+00:29:27,000 --> 00:29:29,000
+I think I'm going to do all my recordings with Zach in the background now.
+
+262
+00:29:29,000 --> 00:29:32,000
+So to add a family touch to this whole thing.
+
+263
+00:29:32,000 --> 00:29:33,000
+Yeah.
+
+264
+00:29:33,000 --> 00:29:35,000
+Pretty funny.
+
+265
+00:29:35,000 --> 00:29:36,000
+Okay.
+
+266
+00:29:36,000 --> 00:29:39,000
+I'll admit that a lot of people right now, I shouldn't say a lot of people.
+
+267
+00:29:39,000 --> 00:29:46,000
+But so far, I've come across a number of very good podcasts that are doing indie music.
+
+268
+00:29:46,000 --> 00:29:47,000
+And they're doing it quite well.
+
+269
+00:29:47,000 --> 00:29:52,000
+I must say my current favorite has to be hardcore in some new radio.
+
+270
+00:29:52,000 --> 00:29:54,000
+Once again, it's on the aggressive side.
+
+271
+00:29:54,000 --> 00:29:55,000
+It's kind of edgy.
+
+272
+00:29:55,000 --> 00:29:57,000
+I've already contacted him.
+
+273
+00:29:57,000 --> 00:30:00,000
+Seems like a really nice guy.
+
+274
+00:30:00,000 --> 00:30:03,000
+So he's already kind of got that covered.
+
+275
+00:30:04,000 --> 00:30:06,000
+The other day, I was listening to Evil Genius podcast.
+
+276
+00:30:06,000 --> 00:30:13,000
+And I heard him talk about, let's all get on the bandwagon to play non-R-I-A music.
+
+277
+00:30:13,000 --> 00:30:16,000
+Now, I'm totally in favor of that.
+
+278
+00:30:16,000 --> 00:30:18,000
+Unfortunately, my library youth.
+
+279
+00:30:18,000 --> 00:30:21,000
+Unfortunately, consistently consistently of R-I-A music.
+
+280
+00:30:21,000 --> 00:30:24,000
+I got to go and find a CD.
+
+281
+00:30:24,000 --> 00:30:28,000
+Of a gentleman who was Daniel Cox, classically guitar.
+
+282
+00:30:28,000 --> 00:30:29,000
+It's really great stuff.
+
+283
+00:30:29,000 --> 00:30:31,000
+Flamenco type stuff.
+
+284
+00:30:31,000 --> 00:30:34,000
+And I'll have to play a track or two from him.
+
+285
+00:30:34,000 --> 00:30:38,000
+So you have a nice idea of some of the things that I'm looking for.
+
+286
+00:30:38,000 --> 00:30:39,000
+Oops.
+
+287
+00:30:39,000 --> 00:30:40,000
+Sorry about that.
+
+288
+00:30:40,000 --> 00:30:42,000
+You hear what's happening is that we're now finding each other.
+
+289
+00:30:42,000 --> 00:30:45,000
+We were talking about podcasting in the beginning.
+
+290
+00:30:45,000 --> 00:30:47,000
+Now we're talking about music.
+
+291
+00:30:47,000 --> 00:30:51,000
+And I agree with Dave Slusher's call to screw it.
+
+292
+00:30:51,000 --> 00:30:53,000
+Let's play non-R-I-A music.
+
+293
+00:30:53,000 --> 00:30:54,000
+Let's become a force.
+
+294
+00:30:54,000 --> 00:30:56,000
+I know we can do this because there's enough of us.
+
+295
+00:30:56,000 --> 00:30:58,000
+And we've got the platform.
+
+296
+00:30:58,000 --> 00:31:01,000
+But we need someone to really start sorting this out.
+
+297
+00:31:01,000 --> 00:31:05,000
+And the director is going to be a big help at iPod.org.
+
+298
+00:31:05,000 --> 00:31:08,000
+That's going to help us find podcasts.
+
+299
+00:31:08,000 --> 00:31:10,000
+But we're going to need a little bit more than that.
+
+300
+00:31:10,000 --> 00:31:13,000
+And a good example of what I think is needed is the indie feeds.
+
+301
+00:31:13,000 --> 00:31:16,000
+Again, you can get it from the music directory at iPod.org.
+
+302
+00:31:16,000 --> 00:31:25,000
+And the indie feeds are basically all single podcast feeds that feature one song per podcast.
+
+303
+00:31:25,000 --> 00:31:28,000
+And it's the intro explanation about who the song is.
+
+304
+00:31:28,000 --> 00:31:29,000
+Then it's the song.
+
+305
+00:31:29,000 --> 00:31:30,000
+And then there's an outro.
+
+306
+00:31:30,000 --> 00:31:35,000
+And you can choose between pop rock, latin, jazz, funk, soul.
+
+307
+00:31:35,000 --> 00:31:38,000
+There's like five or six categories, three more that are being announced.
+
+308
+00:31:38,000 --> 00:31:44,000
+And this, I think, is a perfect way for someone who's trying to promote a certain type of music
+
+309
+00:31:44,000 --> 00:31:47,000
+to get that into, to get everyone's attention.
+
+310
+00:31:47,000 --> 00:31:50,000
+Because now all I do is subscribe to this feed.
+
+311
+00:31:50,000 --> 00:31:51,000
+And I'll just listen to stuff.
+
+312
+00:31:51,000 --> 00:31:54,000
+And these are, of course, recommendations that are coming from this podcast.
+
+313
+00:31:54,000 --> 00:31:59,000
+But it gives me a real simple way to say, okay, man, maybe not this one.
+
+314
+00:31:59,000 --> 00:32:00,000
+Ooh, ooh, I like that one.
+
+315
+00:32:00,000 --> 00:32:03,000
+You know, and then I can just literally, in fact,
+
+316
+00:32:03,000 --> 00:32:06,000
+normally I would have stripped off the beginning in the ending.
+
+317
+00:32:06,000 --> 00:32:07,000
+So I have the whole song.
+
+318
+00:32:07,000 --> 00:32:08,000
+But, you know, the song is right there.
+
+319
+00:32:08,000 --> 00:32:11,000
+I don't have to go figure out where to get it from.
+
+320
+00:32:11,000 --> 00:32:13,000
+All the information is contained within the podcast.
+
+321
+00:32:13,000 --> 00:32:15,000
+And I like this song because, hey, it's not rock.
+
+322
+00:32:15,000 --> 00:32:17,000
+You know, I want to play something different.
+
+323
+00:32:17,000 --> 00:32:19,000
+I'm not just a rock dude.
+
+324
+00:32:19,000 --> 00:32:22,000
+Also, you know, be indie music.
+
+325
+00:32:23,000 --> 00:32:25,000
+It doesn't have to be only rock.
+
+326
+00:32:25,000 --> 00:32:27,000
+It's kind of that connotation there.
+
+327
+00:32:27,000 --> 00:32:30,000
+And I really like this song.
+
+328
+00:32:30,000 --> 00:32:33,000
+It may be chuckle because it's so true,
+
+329
+00:32:33,000 --> 00:32:37,000
+saying that you'd hear in this song over and over is, hey, you know what?
+
+330
+00:32:37,000 --> 00:32:40,000
+But you run your mouth and I'll run my business.
+
+331
+00:32:40,000 --> 00:32:43,000
+Here's a sampling from the indie feed.
+
+332
+00:32:43,000 --> 00:32:47,000
+Get your feed independent music at indie feed.
+
+333
+00:32:47,000 --> 00:32:51,000
+This is a San Francisco based country blues band called
+
+334
+00:32:51,000 --> 00:32:52,000
+It's electric.
+
+335
+00:32:52,000 --> 00:32:55,000
+And their song is You Run Your Mouth.
+
+336
+00:33:22,000 --> 00:33:27,000
+You run your juicy mouth and I'll run my business brother.
+
+337
+00:33:27,000 --> 00:33:32,000
+You run your juicy mouth and I'll run my business brother.
+
+338
+00:33:32,000 --> 00:33:35,000
+Always telling me what to do now.
+
+339
+00:33:35,000 --> 00:33:37,000
+I wouldn't do that if I were you.
+
+340
+00:33:37,000 --> 00:33:41,000
+You run your mouth and I'll run my business brother.
+
+341
+00:33:41,000 --> 00:33:46,000
+You clamp your liver lifts and I'll run my business brother.
+
+342
+00:33:46,000 --> 00:33:50,000
+You clamp your liver lifts and I'll run my business brother.
+
+343
+00:33:51,000 --> 00:33:53,000
+Tell everybody you're my pal.
+
+344
+00:33:53,000 --> 00:33:56,000
+You wind up telling me how to handle my gal.
+
+345
+00:33:56,000 --> 00:33:59,000
+You run your mouth and I'll run my business brother.
+
+346
+00:33:59,000 --> 00:34:04,000
+You flap your face and I'll run my business brother.
+
+347
+00:34:04,000 --> 00:34:09,000
+You flap your face and I'll run my business brother.
+
+348
+00:34:09,000 --> 00:34:12,000
+Always telling me what to do.
+
+349
+00:34:12,000 --> 00:34:14,000
+I wouldn't do that if I were you.
+
+350
+00:34:14,000 --> 00:34:18,000
+You flap your face and I'll run my business brother.
+
+351
+00:34:19,000 --> 00:34:23,000
+You clamp your liver lifts and I'll run my business brother.
+
+352
+00:34:23,000 --> 00:34:28,000
+You clamp your liver lifts and I'll run my business brother.
+
+353
+00:34:28,000 --> 00:34:31,000
+Tell everybody you're my pal.
+
+354
+00:34:31,000 --> 00:34:33,000
+You wind up telling me how to handle my gal.
+
+355
+00:34:33,000 --> 00:34:37,000
+You run your mouth and I'll run my business brother.
+
+356
+00:34:38,000 --> 00:34:53,000
+You clamp your liver lifts and I'll run my business brother.
+
+357
+00:34:53,000 --> 00:34:55,000
+You clamp your liver lifts and I'll run my business brother.
+
+358
+00:34:55,000 --> 00:34:58,000
+You tell everybody I'm busted.
+
+359
+00:34:58,000 --> 00:35:01,000
+You talked so much you got me disgusting.
+
+360
+00:35:01,000 --> 00:35:02,000
+You run your mouth.
+
+361
+00:35:02,000 --> 00:35:04,000
+I'll run my business brother.
+
+362
+00:35:04,000 --> 00:35:11,000
+You run your mouth and power on my business brother.
+
+363
+00:35:11,000 --> 00:35:15,000
+You run your mouth, power on my business brother.
+
+364
+00:35:15,000 --> 00:35:20,000
+Tell everybody, you're my pal, you want to tell me how to hand on my cow.
+
+365
+00:35:20,000 --> 00:35:25,000
+You run your mouth, power on my business brother.
+
+366
+00:35:25,000 --> 00:35:29,000
+Deletrics, self-titled album can be found at Solana Records.
+
+367
+00:35:29,000 --> 00:35:35,000
+That's at www.solAArecords.com.
+
+368
+00:35:35,000 --> 00:35:40,000
+Get your free independent music at Indifeed.
+
+369
+00:35:40,000 --> 00:35:45,000
+So this to me is the perfect example of someone who's really promoting independent music,
+
+370
+00:35:45,000 --> 00:35:49,000
+non-RIA music exactly the way it should be done.
+
+371
+00:35:49,000 --> 00:35:53,000
+A little more space between the beginning and the ending, that would be even better.
+
+372
+00:35:53,000 --> 00:35:57,000
+And I like that song, you run your mouth, I'll run my business brother.
+
+373
+00:35:57,000 --> 00:36:00,000
+From the mailbag, JR Boyan sent me an email, said,
+
+374
+00:36:00,000 --> 00:36:03,000
+Adam, what are these whipped cream balls of which you speak?
+
+375
+00:36:03,000 --> 00:36:10,000
+Now, you probably remember on earlier podcast Patricia walked in and gave me a dessert,
+
+376
+00:36:10,000 --> 00:36:18,000
+which was, and actually Leo Leport played this bit on a show on Los Angeles, on a radio show.
+
+377
+00:36:18,000 --> 00:36:21,000
+And they were, indeed, whipped cream balls.
+
+378
+00:36:21,000 --> 00:36:25,000
+JR goes on and says, as I know whipped cream from the States, at least,
+
+379
+00:36:25,000 --> 00:36:30,000
+it isn't quite thick enough to form a sphere, searching on Google, I turn up, she mayl porn.
+
+380
+00:36:30,000 --> 00:36:32,000
+Probably not, well, your wife brings you.
+
+381
+00:36:32,000 --> 00:36:34,000
+Well, unfortunately not, JR.
+
+382
+00:36:34,000 --> 00:36:37,000
+But this is a Dutch treat, it's called a Rome sushi.
+
+383
+00:36:37,000 --> 00:36:43,000
+And it's kind of about the size of a horse testicle, actually.
+
+384
+00:36:43,000 --> 00:36:47,000
+So a nice round sphere, and it's made of dough.
+
+385
+00:36:47,000 --> 00:36:51,000
+Injected into this ball, is whipped cream.
+
+386
+00:36:51,000 --> 00:36:55,000
+So you bite into it and you get this, you know, the nice dough taste,
+
+387
+00:36:55,000 --> 00:36:58,000
+and then the cream just kind of explodes in your mouth.
+
+388
+00:36:58,000 --> 00:37:00,000
+Are you getting a visual on this?
+
+389
+00:37:00,000 --> 00:37:01,000
+Good.
+
+390
+00:37:01,000 --> 00:37:03,000
+Then let's go to Helsinki.
+
+391
+00:37:03,000 --> 00:37:08,000
+Today is the October 18th, 2004.
+
+392
+00:37:08,000 --> 00:37:16,000
+This is a pilot episode of the podcast called My Corner.
+
+393
+00:37:17,000 --> 00:37:23,000
+My name is Matt Carrickip, and I'm from Helsinki, Finland.
+
+394
+00:37:23,000 --> 00:37:28,000
+As you can hear, I'm not an native English speaker.
+
+395
+00:37:28,000 --> 00:37:33,000
+And actually, that's one reason why I'm doing this.
+
+396
+00:37:33,000 --> 00:37:38,000
+When I first heard about this new media called podcasting,
+
+397
+00:37:38,000 --> 00:37:45,000
+I immediately thought that this would be a great way to practice my oral English skills.
+
+398
+00:37:46,000 --> 00:37:52,000
+So if you hear me trying to find words or stammering,
+
+399
+00:37:52,000 --> 00:37:55,000
+that's because I'm still learning.
+
+400
+00:37:55,000 --> 00:37:59,000
+Well, I didn't quite get the name. Was it Mirak? I thought,
+
+401
+00:37:59,000 --> 00:38:02,000
+Hold on, let's see, go back and see if we can hear what his name is.
+
+402
+00:38:02,000 --> 00:38:05,000
+Oh, man, you hear that's almost impossible.
+
+403
+00:38:05,000 --> 00:38:08,000
+My name is Matt Carrickip.
+
+404
+00:38:08,000 --> 00:38:10,000
+Matt Carrickip?
+
+405
+00:38:10,000 --> 00:38:12,000
+My name is Matt Carrickip.
+
+406
+00:38:12,000 --> 00:38:14,000
+Matt Carrickip?
+
+407
+00:38:14,000 --> 00:38:15,000
+Oh, that's tough, hold on.
+
+408
+00:38:15,000 --> 00:38:16,000
+Say it with me now.
+
+409
+00:38:16,000 --> 00:38:17,000
+My name?
+
+410
+00:38:17,000 --> 00:38:19,000
+My name is Matt Carrickip.
+
+411
+00:38:19,000 --> 00:38:20,000
+Matt Carrickip.
+
+412
+00:38:20,000 --> 00:38:22,000
+Well, his podcast is titled My Corner.
+
+413
+00:38:22,000 --> 00:38:23,000
+And I listen to the whole thing.
+
+414
+00:38:23,000 --> 00:38:25,000
+Your English is excellent, by the way.
+
+415
+00:38:25,000 --> 00:38:29,000
+This does bring up an interesting point because I saw a conversation,
+
+416
+00:38:29,000 --> 00:38:31,000
+a discussion on, I pointed out, or about,
+
+417
+00:38:31,000 --> 00:38:36,000
+the language element in the RSS feed for a podcast,
+
+418
+00:38:36,000 --> 00:38:40,000
+and that we are requiring the language element to be in there.
+
+419
+00:38:41,000 --> 00:38:44,000
+I wonder, is Finnish a standard selection?
+
+420
+00:38:44,000 --> 00:38:45,000
+I hope so.
+
+421
+00:38:45,000 --> 00:38:48,000
+Because, you know, wow, we're going to require language.
+
+422
+00:38:48,000 --> 00:38:51,000
+We're going to have to make sure every single one is in there,
+
+423
+00:38:51,000 --> 00:38:53,000
+because we've gone from Germany.
+
+424
+00:38:53,000 --> 00:38:57,000
+We've gone to Australia, Italy, now Finland.
+
+425
+00:38:57,000 --> 00:39:00,000
+This podcasting thing gets around it.
+
+426
+00:39:00,000 --> 00:39:02,000
+Another great podcast that came up
+
+427
+00:39:02,000 --> 00:39:06,000
+is something that you can find at openpodcast.org.
+
+428
+00:39:06,000 --> 00:39:10,000
+And openpodcast.org is basically an interface,
+
+429
+00:39:10,000 --> 00:39:13,000
+a way for you to upload your own MP3 file,
+
+430
+00:39:13,000 --> 00:39:19,000
+that will then automatically be included in the openpodcast.org podcast.
+
+431
+00:39:19,000 --> 00:39:23,000
+So, just like with the indie music feed
+
+432
+00:39:23,000 --> 00:39:26,000
+that I played a couple of minutes earlier,
+
+433
+00:39:26,000 --> 00:39:28,000
+I was just one segment that goes in.
+
+434
+00:39:28,000 --> 00:39:31,000
+It's a great way to promote new podcast.
+
+435
+00:39:31,000 --> 00:39:33,000
+And I think that's what OpenPodcast is meant for,
+
+436
+00:39:34,000 --> 00:39:36,000
+you know, for people that just, you know,
+
+437
+00:39:36,000 --> 00:39:39,000
+send in a little promotional bit about their own podcast.
+
+438
+00:39:39,000 --> 00:39:40,000
+Maybe an example.
+
+439
+00:39:40,000 --> 00:39:42,000
+I don't know if there's a time limit to it,
+
+440
+00:39:42,000 --> 00:39:44,000
+but some amazing things are coming through.
+
+441
+00:39:44,000 --> 00:39:46,000
+And I want to play you something that I heard first,
+
+442
+00:39:46,000 --> 00:39:49,000
+and then I went to find this person's podcast.
+
+443
+00:39:49,000 --> 00:39:50,000
+What's going on?
+
+444
+00:39:50,000 --> 00:39:54,000
+Well, as you said, with Scratch Pro Chronicles,
+
+445
+00:39:54,000 --> 00:39:57,000
+this is definitely what I was talking about on my show,
+
+446
+00:39:57,000 --> 00:40:00,000
+the other day, having people just send in
+
+447
+00:40:01,000 --> 00:40:05,000
+the hot portions of the show or give a little segment of the show.
+
+448
+00:40:05,000 --> 00:40:08,000
+And so people can know that they exist, you know,
+
+449
+00:40:08,000 --> 00:40:11,000
+get all the feed, all in one rip.
+
+450
+00:40:11,000 --> 00:40:14,000
+This is hot.
+
+451
+00:40:14,000 --> 00:40:19,000
+Openpodcast.org, send your feed in.
+
+452
+00:40:19,000 --> 00:40:23,000
+Like people know that you exist, please.
+
+453
+00:40:23,000 --> 00:40:26,000
+Okay, so that intrigued me immensely.
+
+454
+00:40:26,000 --> 00:40:29,000
+I'm like, this is not someone I've heard on the podcast before.
+
+455
+00:40:29,000 --> 00:40:32,000
+I'm going to go to the Scratch Pro Chronicles,
+
+456
+00:40:32,000 --> 00:40:34,000
+and here it is.
+
+457
+00:40:34,000 --> 00:40:35,000
+Oops, hold on.
+
+458
+00:40:35,000 --> 00:40:38,000
+Scratch Pro Chronicles.
+
+459
+00:40:38,000 --> 00:40:40,000
+Join the podcast.
+
+460
+00:40:40,000 --> 00:40:43,000
+No, I've got a crazy idea out of two blocks now.
+
+461
+00:40:43,000 --> 00:40:44,000
+Check it out for them.
+
+462
+00:40:44,000 --> 00:40:45,000
+This side you freak out.
+
+463
+00:40:45,000 --> 00:40:48,000
+You go get the clean joint, right?
+
+464
+00:40:48,000 --> 00:40:51,000
+Boom, now, now all you all you die.
+
+465
+00:40:51,000 --> 00:40:53,000
+It's this shit, my head.
+
+466
+00:40:53,000 --> 00:40:55,000
+Boom, and this, you know what I'm saying?
+
+467
+00:40:55,000 --> 00:40:58,000
+Any color you want, but it would be like,
+
+468
+00:40:58,000 --> 00:40:59,000
+blow a cream.
+
+469
+00:40:59,000 --> 00:41:00,000
+You know what I'm saying?
+
+470
+00:41:00,000 --> 00:41:01,000
+Shit, like that.
+
+471
+00:41:01,000 --> 00:41:03,000
+Make it, don't even know where this is going.
+
+472
+00:41:03,000 --> 00:41:05,000
+I'm gonna rock, think it's a symbol.
+
+473
+00:41:05,000 --> 00:41:06,000
+On the real.
+
+474
+00:41:06,000 --> 00:41:07,000
+You know what I'm saying?
+
+475
+00:41:07,000 --> 00:41:08,000
+Yo, sir.
+
+476
+00:41:08,000 --> 00:41:10,000
+I had crazy business.
+
+477
+00:41:10,000 --> 00:41:11,000
+Check it out.
+
+478
+00:41:11,000 --> 00:41:12,000
+Check it out.
+
+479
+00:41:12,000 --> 00:41:13,000
+Check it out.
+
+480
+00:41:13,000 --> 00:41:14,000
+Just imagine if you buy, woo!
+
+481
+00:41:14,000 --> 00:41:15,000
+Check it out.
+
+482
+00:41:15,000 --> 00:41:16,000
+Just imagine you bought navy blue, right?
+
+483
+00:41:16,000 --> 00:41:18,000
+A navy blue, a navy blue pair, right?
+
+484
+00:41:18,000 --> 00:41:19,000
+Boom.
+
+485
+00:41:19,000 --> 00:41:20,000
+But it's shit.
+
+486
+00:41:20,000 --> 00:41:21,000
+No, sir.
+
+487
+00:41:21,000 --> 00:41:22,000
+But I get to that cream.
+
+488
+00:41:24,000 --> 00:41:26,000
+It's like an M&M documentary.
+
+489
+00:41:26,000 --> 00:41:27,000
+I love it.
+
+490
+00:41:27,000 --> 00:41:28,000
+It's fucking crazy.
+
+491
+00:41:28,000 --> 00:41:31,000
+So check out Scratch Pro Chronicles.
+
+492
+00:41:31,000 --> 00:41:34,000
+It's all kind of music is out there on the podcast.
+
+493
+00:41:34,000 --> 00:41:38,000
+And I'm not sure about Scratch Pro Chronicles, especially with all the sampling,
+
+494
+00:41:38,000 --> 00:41:40,000
+what the legality is of that.
+
+495
+00:41:40,000 --> 00:41:42,000
+But there's some great music.
+
+496
+00:41:42,000 --> 00:41:47,000
+Let's see if we can figure out ways to promote non-RIAA music.
+
+497
+00:41:47,000 --> 00:41:50,000
+Let's come up with a norai.
+
+498
+00:41:50,000 --> 00:41:52,000
+No, norai, norai.
+
+499
+00:41:52,000 --> 00:41:54,000
+Look, independent music.
+
+500
+00:41:54,000 --> 00:41:56,000
+It's stuff that needs a helping hand.
+
+501
+00:41:56,000 --> 00:41:59,000
+And stuff that clearly is good because there's a lot of great stuff out there.
+
+502
+00:41:59,000 --> 00:42:04,000
+I'm going to leave it with that for today for the source code, if you don't mind.
+
+503
+00:42:06,000 --> 00:42:08,000
+So I'm staying with all night here.
+
+504
+00:42:08,000 --> 00:42:10,000
+And I'll kind of know there's source code tomorrow.
+
+505
+00:42:10,000 --> 00:42:11,000
+I'll have new things to talk about.
+
+506
+00:42:11,000 --> 00:42:12,000
+Some new music.
+
+507
+00:42:12,000 --> 00:42:15,000
+I'm going to stay up tonight and list a whole bunch of new podcasts.
+
+508
+00:42:15,000 --> 00:42:18,000
+It's got some cool stuff, cool tunes.
+
+509
+00:42:18,000 --> 00:42:21,000
+And thank you very much for listening.
+
+510
+00:42:24,000 --> 00:42:30,000
+As always, come in to AtamedCoree.com or you can leave a comment down below.
+
+511
+00:42:30,000 --> 00:42:32,000
+Live.Coree.com.
+
+512
+00:42:32,000 --> 00:42:34,000
+Throw the archives and the prints.
+
+513
+00:42:34,000 --> 00:42:36,000
+Show us at www.sauce.com.
+
+514
+00:42:36,000 --> 00:42:40,000
+And there's a description fee for your podcasts.
+
+515
+00:42:40,000 --> 00:42:41,000
+I caught her.
+
+516
+00:42:41,000 --> 00:42:44,000
+Stay at www.sauce.com slash RSS.
+
+517
+00:42:44,000 --> 00:42:45,000
+Lot of XML.
+
+518
+00:42:45,000 --> 00:42:46,000
+Talk to you tomorrow.
+
+519
+00:42:54,000 --> 00:43:01,000
+Thanks for watching.
+

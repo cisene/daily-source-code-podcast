@@ -1,0 +1,4616 @@
+1
+00:00:00,000 --> 00:00:03,000
+How are you all doing?
+
+2
+00:00:03,000 --> 00:00:06,000
+Good afternoon, everybody. Welcome.
+
+3
+00:00:06,000 --> 00:00:12,000
+Friends, family, global dominating world leaders. Welcome to the daily source code. I'm Adam Curry.
+
+4
+00:00:12,000 --> 00:00:29,000
+Coming to you from Amsterdam, the Netherlands today, from the bunker on the canal.
+
+5
+00:00:29,000 --> 00:00:34,000
+Oh, thank God, it's Monday, huh?
+
+6
+00:00:34,000 --> 00:00:40,000
+Because Monday always reminds you that there's a whole new week of fascinating stuff up ahead.
+
+7
+00:00:40,000 --> 00:00:44,000
+There's so much that can be happening, that will be happening.
+
+8
+00:00:44,000 --> 00:00:47,000
+And there's a lot to talk about that did happen.
+
+9
+00:00:47,000 --> 00:00:51,000
+Or maybe a little more specifically, some stuff that didn't happen.
+
+10
+00:00:51,000 --> 00:00:57,000
+If you were somewhat annoyed or disappointed that there was no source code Friday or Friday night,
+
+11
+00:00:57,000 --> 00:01:00,000
+or there's nothing sitting there waiting for you on Saturday.
+
+12
+00:01:00,000 --> 00:01:07,000
+You were probably waiting for the helicopter flight addition of the daily source code.
+
+13
+00:01:07,000 --> 00:01:11,000
+Well, I'll guess what, it didn't happen. I'll explain why.
+
+14
+00:01:11,000 --> 00:01:18,000
+Because the root of the theme song here for a second, I'm tired of that.
+
+15
+00:01:18,000 --> 00:01:23,000
+First of all, so yeah, Patricia and I are in Amsterdam today.
+
+16
+00:01:23,000 --> 00:01:29,000
+She's at the dentist, finally finishing up all the rather nasty dental works.
+
+17
+00:01:29,000 --> 00:01:34,000
+She's had in the past couple of years. So everything's great, and she's happy to be done.
+
+18
+00:01:34,000 --> 00:01:37,000
+And so I had time here to finish up a couple things.
+
+19
+00:01:37,000 --> 00:01:41,000
+And we're still winding down just about everything we can here, so that when we leave,
+
+20
+00:01:41,000 --> 00:01:46,000
+which would be around the end of November when we moved to the UK, everything will be pretty much done.
+
+21
+00:01:46,000 --> 00:01:52,000
+Unfortunately, I still have this humongous house in Amsterdam, which, well, the housing market right now is just not good.
+
+22
+00:01:52,000 --> 00:01:58,000
+People who live in the Netherlands are not really buying houses, so clearly a lot aren't selling,
+
+23
+00:01:58,000 --> 00:02:06,000
+and it's hard to find the right people folks coming over from other countries looking for something like this.
+
+24
+00:02:06,000 --> 00:02:08,000
+This is a big place.
+
+25
+00:02:08,000 --> 00:02:12,000
+Anyway, thinking of things to do with that.
+
+26
+00:02:12,000 --> 00:02:16,000
+But back to Friday and Saturday, what the plan was,
+
+27
+00:02:16,000 --> 00:02:23,000
+I've been asked to be a celebrity waiter at a special benefit dinner for war child.
+
+28
+00:02:23,000 --> 00:02:25,000
+Feast for peace is what it was called.
+
+29
+00:02:25,000 --> 00:02:30,000
+And there were several other Dutch celebrities there, and it actually was a lot of hard work,
+
+30
+00:02:30,000 --> 00:02:32,000
+about 200 people that had to be served.
+
+31
+00:02:32,000 --> 00:02:36,000
+Part of them were on a buffet, some others on a set menu,
+
+32
+00:02:36,000 --> 00:02:41,000
+but I used to waiter in a rather classy restaurant in Audeca,
+
+33
+00:02:41,000 --> 00:02:44,000
+called The Old Prince, The Out of Prince.
+
+34
+00:02:44,000 --> 00:02:50,000
+And I wore the three-piece suit and the bow tie, and really worked my ass off when I was like 17.
+
+35
+00:02:50,000 --> 00:02:54,000
+And even a little bit younger than even 16 is when I started there.
+
+36
+00:02:54,000 --> 00:02:58,000
+I did that for about three years, so I definitely know how to do it,
+
+37
+00:02:58,000 --> 00:03:00,000
+and I know how it works, and know how it restaurant runs.
+
+38
+00:03:00,000 --> 00:03:04,000
+It was a little on handy as they had two floors, and the kitchen was on the top floor,
+
+39
+00:03:04,000 --> 00:03:08,000
+so anything that was delivered downstairs had to be taken down by the stairs,
+
+40
+00:03:08,000 --> 00:03:12,000
+and the dirty plates had to be taken up, so that was kind of a bummer.
+
+41
+00:03:12,000 --> 00:03:14,000
+But I'd promised to do this.
+
+42
+00:03:14,000 --> 00:03:20,000
+It was about 200 kilometers, so let's say about 110 miles from my house,
+
+43
+00:03:20,000 --> 00:03:21,000
+each way.
+
+44
+00:03:21,000 --> 00:03:23,000
+I knew it was going to be really late by the time we were done.
+
+45
+00:03:23,000 --> 00:03:26,000
+So I said to the organizers, who I knew to friends of mine, I said,
+
+46
+00:03:26,000 --> 00:03:28,000
+I'll tell you what, I'm going to fly to your house,
+
+47
+00:03:28,000 --> 00:03:29,000
+which is nearby.
+
+48
+00:03:29,000 --> 00:03:31,000
+It's their restaurant nearby the restaurant.
+
+49
+00:03:31,000 --> 00:03:33,000
+Then I'll pick you up.
+
+50
+00:03:33,000 --> 00:03:35,000
+We'll fly to the restaurant.
+
+51
+00:03:35,000 --> 00:03:36,000
+Then we'll do our thing.
+
+52
+00:03:36,000 --> 00:03:39,000
+We'll leave the helicopter there, and then the next morning,
+
+53
+00:03:39,000 --> 00:03:43,000
+you just take me over to the restaurant, and I'll fly back home.
+
+54
+00:03:43,000 --> 00:03:46,000
+And the plan was, since I was going to be up on myself,
+
+55
+00:03:46,000 --> 00:03:48,000
+was to hook up the recording equipment.
+
+56
+00:03:48,000 --> 00:03:49,000
+I've done this before.
+
+57
+00:03:49,000 --> 00:03:50,000
+It works perfectly.
+
+58
+00:03:50,000 --> 00:03:55,000
+I have the wireless mic set, and I just put the little lovelier mic
+
+59
+00:03:55,000 --> 00:03:58,000
+inside my headphone, because when I talk through the microphone
+
+60
+00:03:58,000 --> 00:04:01,000
+on the headset, you'll hear me through the inner-com system,
+
+61
+00:04:01,000 --> 00:04:04,000
+and you'll also hear what's going on with air traffic control.
+
+62
+00:04:04,000 --> 00:04:07,000
+Now, on, I left late, so Friday afternoon,
+
+63
+00:04:07,000 --> 00:04:08,000
+this is funny.
+
+64
+00:04:08,000 --> 00:04:11,000
+All the air bases, all the air force bases in the Netherlands,
+
+65
+00:04:11,000 --> 00:04:12,000
+they're always closed.
+
+66
+00:04:12,000 --> 00:04:13,000
+Or they'd closed early on Fridays.
+
+67
+00:04:13,000 --> 00:04:14,000
+They're closed all weekend.
+
+68
+00:04:14,000 --> 00:04:17,000
+It's a perfect time to attack Holland if you're planning
+
+69
+00:04:17,000 --> 00:04:19,000
+a stealth attack, because they just closed.
+
+70
+00:04:19,000 --> 00:04:20,000
+There's no one there.
+
+71
+00:04:20,000 --> 00:04:21,000
+Literally, no one there.
+
+72
+00:04:21,000 --> 00:04:23,000
+So there's also no air traffic control,
+
+73
+00:04:23,000 --> 00:04:27,000
+and around each of these, the basically airports,
+
+74
+00:04:27,000 --> 00:04:30,000
+so these bases, there's a control zone that can reach
+
+75
+00:04:30,000 --> 00:04:33,000
+several miles wide, and you have to request a crossing.
+
+76
+00:04:33,000 --> 00:04:36,000
+Usually, you ask them, the air traffic control
+
+77
+00:04:36,000 --> 00:04:38,000
+around the ground, and these control zones.
+
+78
+00:04:38,000 --> 00:04:41,000
+So, they've not being there.
+
+79
+00:04:41,000 --> 00:04:45,000
+You have to talk to Dutch military info.
+
+80
+00:04:45,000 --> 00:04:47,000
+And Dutch military info is kind of the default
+
+81
+00:04:47,000 --> 00:04:49,000
+that you go back to, if you can't reach somebody,
+
+82
+00:04:49,000 --> 00:04:52,000
+or if you want to know something about a certain area,
+
+83
+00:04:52,000 --> 00:04:54,000
+that's their flight information service.
+
+84
+00:04:54,000 --> 00:04:56,000
+And it was so beautiful.
+
+85
+00:04:56,000 --> 00:04:59,000
+The weather was just so phenomenal that everybody
+
+86
+00:04:59,000 --> 00:05:02,000
+and their freaking dog was in the air.
+
+87
+00:05:02,000 --> 00:05:04,000
+I swear to God, excuse me.
+
+88
+00:05:04,000 --> 00:05:06,000
+You're right, math.
+
+89
+00:05:06,000 --> 00:05:09,000
+There are days that go by when I don't hear a single soul
+
+90
+00:05:09,000 --> 00:05:10,000
+on the radio.
+
+91
+00:05:10,000 --> 00:05:12,000
+There's no one in the air, but me and KLM basically,
+
+92
+00:05:12,000 --> 00:05:15,000
+and they're 30,000 feet higher than I am.
+
+93
+00:05:15,000 --> 00:05:17,000
+And today, everybody was up.
+
+94
+00:05:17,000 --> 00:05:18,000
+There were gliders.
+
+95
+00:05:18,000 --> 00:05:19,000
+There were ultra lides.
+
+96
+00:05:19,000 --> 00:05:22,000
+There were lots of fixed wing aircraft.
+
+97
+00:05:22,000 --> 00:05:24,000
+There were some helicopters.
+
+98
+00:05:24,000 --> 00:05:26,000
+Everything was flying around.
+
+99
+00:05:26,000 --> 00:05:30,000
+And since I couldn't just listen to the specific frequency
+
+100
+00:05:30,000 --> 00:05:33,000
+that I needed in a new one of these air bases,
+
+101
+00:05:33,000 --> 00:05:36,000
+I had to listen to Dutch mil info.
+
+102
+00:05:36,000 --> 00:05:38,000
+And it was so busy.
+
+103
+00:05:38,000 --> 00:05:40,000
+And I really wanted to pay attention because,
+
+104
+00:05:40,000 --> 00:05:42,000
+you got people zooming around at a thousand feet,
+
+105
+00:05:42,000 --> 00:05:43,000
+which is about my height.
+
+106
+00:05:43,000 --> 00:05:44,000
+That's where I usually fly.
+
+107
+00:05:44,000 --> 00:05:45,000
+Sometimes a bit lower.
+
+108
+00:05:45,000 --> 00:05:48,000
+700 feet is what helicopters like to fly.
+
+109
+00:05:48,000 --> 00:05:50,000
+But there's people all over the place.
+
+110
+00:05:50,000 --> 00:05:52,000
+Especially gliders.
+
+111
+00:05:52,000 --> 00:05:54,000
+And there's only one air traffic controller
+
+112
+00:05:54,000 --> 00:05:56,000
+controlling all of these areas.
+
+113
+00:05:56,000 --> 00:05:58,000
+And so either I would have to turn the sound down,
+
+114
+00:05:58,000 --> 00:06:01,000
+which would be unsafe to say the least,
+
+115
+00:06:01,000 --> 00:06:04,000
+because you definitely want to hear what's going on.
+
+116
+00:06:04,000 --> 00:06:07,000
+And just where everybody is,
+
+117
+00:06:07,000 --> 00:06:12,000
+as you can get a little global picture of what's happening.
+
+118
+00:06:12,000 --> 00:06:15,000
+Or you would be distracted by it because,
+
+119
+00:06:15,000 --> 00:06:17,000
+and I would be distracted by it and couldn't talk.
+
+120
+00:06:17,000 --> 00:06:19,000
+So Friday was bad.
+
+121
+00:06:19,000 --> 00:06:21,000
+Of course, the weather Saturday was even better.
+
+122
+00:06:21,000 --> 00:06:23,000
+All the control zones were closed.
+
+123
+00:06:23,000 --> 00:06:25,000
+Everybody was out again.
+
+124
+00:06:25,000 --> 00:06:27,000
+So I just decided not to do it,
+
+125
+00:06:27,000 --> 00:06:29,000
+because it would either be unsafe,
+
+126
+00:06:29,000 --> 00:06:31,000
+or just I don't think it would be that entertaining.
+
+127
+00:06:31,000 --> 00:06:33,000
+So I owe you that one,
+
+128
+00:06:33,000 --> 00:06:34,000
+and we'll definitely do it,
+
+129
+00:06:34,000 --> 00:06:36,000
+because I think it's cool.
+
+130
+00:06:36,000 --> 00:06:38,000
+I think you'll enjoy flying along,
+
+131
+00:06:38,000 --> 00:06:39,000
+and just listening what's happening,
+
+132
+00:06:39,000 --> 00:06:41,000
+and I'll talk you through some of the stuff I'm doing,
+
+133
+00:06:41,000 --> 00:06:43,000
+and we can just talk about stuff.
+
+134
+00:06:43,000 --> 00:06:45,000
+So for today,
+
+135
+00:06:45,000 --> 00:06:47,000
+I figured I'd try and make a little bit good,
+
+136
+00:06:47,000 --> 00:06:50,000
+and kick it off with a nice song for this Monday,
+
+137
+00:06:50,000 --> 00:06:53,000
+which is a promise for the future.
+
+138
+00:06:53,000 --> 00:06:55,000
+Oh, blue eyes on the daily source code.
+
+139
+00:06:55,000 --> 00:06:57,000
+It's about aviation.
+
+140
+00:07:23,000 --> 00:07:26,000
+To blue.
+
+141
+00:07:26,000 --> 00:07:28,000
+In Lama Land,
+
+142
+00:07:28,000 --> 00:07:30,000
+there's a one-man band,
+
+143
+00:07:30,000 --> 00:07:33,000
+and it'll tutt his flute for you.
+
+144
+00:07:33,000 --> 00:07:35,000
+Come fly with me,
+
+145
+00:07:35,000 --> 00:07:39,000
+let's take off in the blue.
+
+146
+00:07:39,000 --> 00:07:43,000
+Once I get you up there,
+
+147
+00:07:43,000 --> 00:07:48,000
+where the air is where I find,
+
+148
+00:07:49,000 --> 00:07:52,000
+we'll just fly.
+
+149
+00:07:52,000 --> 00:07:54,000
+Star.
+
+150
+00:07:54,000 --> 00:07:57,000
+Once I get you up there,
+
+151
+00:07:57,000 --> 00:08:01,000
+I'll be holding you a song.
+
+152
+00:08:01,000 --> 00:08:03,000
+Yeah.
+
+153
+00:08:03,000 --> 00:08:06,000
+You made it.
+
+154
+00:08:06,000 --> 00:08:08,000
+Angels tear,
+
+155
+00:08:08,000 --> 00:08:10,000
+cause we're together.
+
+156
+00:08:10,000 --> 00:08:12,000
+Where the wise,
+
+157
+00:08:12,000 --> 00:08:15,000
+it's such a lovely day.
+
+158
+00:08:16,000 --> 00:08:18,000
+Just say the words,
+
+159
+00:08:18,000 --> 00:08:21,000
+and we'll beat the birds down to act.
+
+160
+00:08:21,000 --> 00:08:23,000
+A book obey.
+
+161
+00:08:23,000 --> 00:08:26,000
+It's perfect for flying.
+
+162
+00:08:26,000 --> 00:08:28,000
+Honeymoon,
+
+163
+00:08:28,000 --> 00:08:30,000
+they sell.
+
+164
+00:08:30,000 --> 00:08:32,000
+Come fly with me,
+
+165
+00:08:32,000 --> 00:08:35,000
+let's fly, let's fly away.
+
+166
+00:08:45,000 --> 00:09:02,000
+Once I get you up there,
+
+167
+00:09:02,000 --> 00:09:07,000
+where the air is where I find,
+
+168
+00:09:07,000 --> 00:09:10,000
+we'll just fly.
+
+169
+00:09:10,000 --> 00:09:12,000
+Star.
+
+170
+00:09:12,000 --> 00:09:14,000
+Once I get you up there,
+
+171
+00:09:14,000 --> 00:09:19,000
+I'll be holding you a song.
+
+172
+00:09:19,000 --> 00:09:21,000
+Yeah.
+
+173
+00:09:21,000 --> 00:09:24,000
+You made it.
+
+174
+00:09:24,000 --> 00:09:26,000
+Angels tear,
+
+175
+00:09:26,000 --> 00:09:28,000
+cause we're together.
+
+176
+00:09:28,000 --> 00:09:30,000
+Where the wise,
+
+177
+00:09:30,000 --> 00:09:34,000
+it's such a lovely day.
+
+178
+00:09:34,000 --> 00:09:37,000
+You just say the words,
+
+179
+00:09:37,000 --> 00:09:40,000
+and we'll beat the birds down to act.
+
+180
+00:09:40,000 --> 00:09:42,000
+A book obey.
+
+181
+00:09:43,000 --> 00:09:46,000
+It's perfect for flying.
+
+182
+00:09:46,000 --> 00:09:47,000
+Honeymoon,
+
+183
+00:09:47,000 --> 00:09:49,000
+they sell.
+
+184
+00:09:49,000 --> 00:09:51,000
+Come fly with me,
+
+185
+00:09:51,000 --> 00:09:55,000
+let's fly, let's fly.
+
+186
+00:09:55,000 --> 00:10:00,000
+Pack up, let's fly away.
+
+187
+00:10:00,000 --> 00:10:03,000
+I believe with Nelson Riddle.
+
+188
+00:10:03,000 --> 00:10:04,000
+Frank Sinatra,
+
+189
+00:10:04,000 --> 00:10:06,000
+come fly with me.
+
+190
+00:10:06,000 --> 00:10:08,000
+We're just kind of how I feel about what we're doing with iPod.
+
+191
+00:10:08,000 --> 00:10:10,000
+We're all just flying along here,
+
+192
+00:10:10,000 --> 00:10:13,000
+and everyone's allowed to jump on and fly along.
+
+193
+00:10:13,000 --> 00:10:16,000
+It's extremely nice.
+
+194
+00:10:16,000 --> 00:10:18,000
+So we were talking,
+
+195
+00:10:18,000 --> 00:10:20,000
+I don't know how long ago it was,
+
+196
+00:10:20,000 --> 00:10:22,000
+but we've been talking often on about
+
+197
+00:10:22,000 --> 00:10:25,000
+the genre setting in these podcasts.
+
+198
+00:10:25,000 --> 00:10:26,000
+If you have an MP3 player,
+
+199
+00:10:26,000 --> 00:10:27,000
+you look at it,
+
+200
+00:10:27,000 --> 00:10:31,000
+there's different categories that you can put your
+
+201
+00:10:31,000 --> 00:10:32,000
+music into,
+
+202
+00:10:32,000 --> 00:10:34,000
+and of course there's all kinds of music genres,
+
+203
+00:10:34,000 --> 00:10:35,000
+and there's a speech genre,
+
+204
+00:10:35,000 --> 00:10:37,000
+and a talk genre I believe,
+
+205
+00:10:37,000 --> 00:10:38,000
+and maybe there's,
+
+206
+00:10:38,000 --> 00:10:39,000
+I don't even think there's an audiobook genre.
+
+207
+00:10:39,000 --> 00:10:42,000
+This is according to ID3 tags,
+
+208
+00:10:42,000 --> 00:10:44,000
+1.3 or 2.1,
+
+209
+00:10:44,000 --> 00:10:46,000
+or I'm not quite sure.
+
+210
+00:10:46,000 --> 00:10:49,000
+But I've been able to force a podcasting genre
+
+211
+00:10:49,000 --> 00:10:52,000
+into the daily source code,
+
+212
+00:10:52,000 --> 00:10:54,000
+so that it's encoding,
+
+213
+00:10:54,000 --> 00:10:57,000
+and I guess everyone else can see that in their MP3 players,
+
+214
+00:10:57,000 --> 00:10:58,000
+and their iPods,
+
+215
+00:10:58,000 --> 00:11:00,000
+that it's coming across as a podcast.
+
+216
+00:11:00,000 --> 00:11:03,000
+And I've been doing this after an audio comment that came in
+
+217
+00:11:03,000 --> 00:11:06,000
+from Michael Gogan,
+
+218
+00:11:06,000 --> 00:11:08,000
+I've already been pronouncing his name.
+
+219
+00:11:08,000 --> 00:11:10,000
+Thank God he doesn't for us.
+
+220
+00:11:10,000 --> 00:11:12,000
+Hey Adam, it's Michael Gogan.
+
+221
+00:11:12,000 --> 00:11:13,000
+There we go.
+
+222
+00:11:13,000 --> 00:11:14,000
+Go Hagen.
+
+223
+00:11:14,000 --> 00:11:16,000
+Okay, here's some feedback from Michael Gogan.
+
+224
+00:11:16,000 --> 00:11:19,000
+As a follow-up to my suggestion yesterday that everybody
+
+225
+00:11:19,000 --> 00:11:22,000
+begins setting genre as podcast,
+
+226
+00:11:22,000 --> 00:11:24,000
+as they're sending out their podcast,
+
+227
+00:11:24,000 --> 00:11:28,000
+it appears that there is absolutely no rules about
+
+228
+00:11:28,000 --> 00:11:32,000
+what should or should not be listed as a genre.
+
+229
+00:11:32,000 --> 00:11:35,000
+So I say let's make the platform ours,
+
+230
+00:11:35,000 --> 00:11:38,000
+and start listening to everybody's genre as podcast.
+
+231
+00:11:38,000 --> 00:11:40,000
+You know, the side benefit of that is
+
+232
+00:11:40,000 --> 00:11:43,000
+that if you were to pass along one of these recordings to a friend,
+
+233
+00:11:43,000 --> 00:11:46,000
+or somebody that's not even familiar with this entire format yet,
+
+234
+00:11:46,000 --> 00:11:48,000
+just by pulling up the name and title in genre,
+
+235
+00:11:48,000 --> 00:11:51,000
+they'd see what they've got and go out in the internet
+
+236
+00:11:51,000 --> 00:11:52,000
+and find out all about it.
+
+237
+00:11:52,000 --> 00:11:55,000
+You know, as we begin aggregating more and more of these things,
+
+238
+00:11:55,000 --> 00:11:57,000
+for those of us that are interested in keeping it,
+
+239
+00:11:57,000 --> 00:11:59,000
+you know, that metadata is going to become important.
+
+240
+00:11:59,000 --> 00:12:02,000
+I know it really helps me to have a consistent setting
+
+241
+00:12:02,000 --> 00:12:05,000
+in iTunes because I've just got thousands of songs,
+
+242
+00:12:05,000 --> 00:12:08,000
+and this helps to segregate it from actual speech recordings
+
+243
+00:12:08,000 --> 00:12:10,000
+or audiobooks and that sort of thing.
+
+244
+00:12:10,000 --> 00:12:13,000
+So I was really pleased to see that you had implemented
+
+245
+00:12:13,000 --> 00:12:14,000
+podcast yesterday.
+
+246
+00:12:14,000 --> 00:12:17,000
+I know that Matthew Bischoff did so as well,
+
+247
+00:12:17,000 --> 00:12:20,000
+and so it's kind of neat to see some hair-brained idea
+
+248
+00:12:20,000 --> 00:12:22,000
+I had implemented just a day later.
+
+249
+00:12:22,000 --> 00:12:25,000
+On the window side it appears that sometimes genre
+
+250
+00:12:25,000 --> 00:12:27,000
+is referred to as content.
+
+251
+00:12:27,000 --> 00:12:30,000
+It should be easy enough to change if you're a particular
+
+252
+00:12:31,000 --> 00:12:34,000
+editor, a recorder doesn't allow you to do it on the window side.
+
+253
+00:12:34,000 --> 00:12:37,000
+There are plenty of ID3 tag editors you can download
+
+254
+00:12:37,000 --> 00:12:39,000
+or worst case scenario.
+
+255
+00:12:39,000 --> 00:12:41,000
+Just pull down iTunes that's free anyways,
+
+256
+00:12:41,000 --> 00:12:44,000
+and it makes it really easy to change.
+
+257
+00:12:44,000 --> 00:12:45,000
+You know, just on a side note,
+
+258
+00:12:45,000 --> 00:12:47,000
+right after my email yesterday,
+
+259
+00:12:47,000 --> 00:12:51,000
+you played a little recording from Dave Slescher's
+
+260
+00:12:51,000 --> 00:12:52,000
+Evil Genius Chronicles.
+
+261
+00:12:52,000 --> 00:12:55,000
+It was actually a recording I had sent in to Dave
+
+262
+00:12:55,000 --> 00:12:58,000
+a day or two prior, so you made my Wednesday.
+
+263
+00:12:58,000 --> 00:12:59,000
+I felt like I hit a home run.
+
+264
+00:12:59,000 --> 00:13:03,000
+I ended up both on Dave's show and on your show.
+
+265
+00:13:03,000 --> 00:13:06,000
+So maybe I've invented the first subset of podcasting,
+
+266
+00:13:06,000 --> 00:13:09,000
+which is just recording a two or three comment,
+
+267
+00:13:09,000 --> 00:13:11,000
+two or three minute comment, submitting it,
+
+268
+00:13:11,000 --> 00:13:13,000
+and seeing who plays it,
+
+269
+00:13:13,000 --> 00:13:14,000
+almost like a correspondence.
+
+270
+00:13:14,000 --> 00:13:15,000
+So anyways, keep up the good work,
+
+271
+00:13:15,000 --> 00:13:17,000
+and I look forward to listening to your show.
+
+272
+00:13:17,000 --> 00:13:19,000
+Alright, thank you very much, Michael.
+
+273
+00:13:19,000 --> 00:13:22,000
+That was well worth listening to.
+
+274
+00:13:22,000 --> 00:13:23,000
+When I do encourage that,
+
+275
+00:13:23,000 --> 00:13:25,000
+please send in your audio comp.
+
+276
+00:13:25,000 --> 00:13:28,000
+It's good, it's a nice way to communicate in these podcasts.
+
+277
+00:13:28,000 --> 00:13:30,000
+Certainly for the Daily Source Code,
+
+278
+00:13:30,000 --> 00:13:32,000
+coming to you today, as said, from Amsterdam,
+
+279
+00:13:32,000 --> 00:13:37,000
+and the iPod or hype seems to be at just climbing to higher peaks
+
+280
+00:13:37,000 --> 00:13:38,000
+every single day.
+
+281
+00:13:38,000 --> 00:13:40,000
+I've been doing interviews more over the weekend,
+
+282
+00:13:40,000 --> 00:13:43,000
+wired magazine, wired came out with a real nice article.
+
+283
+00:13:43,000 --> 00:13:46,000
+Haven't seen the L.A. Times yet, but that's on the way.
+
+284
+00:13:46,000 --> 00:13:49,000
+I've been doing interviews more over the weekend,
+
+285
+00:13:49,000 --> 00:13:52,000
+wired magazine, wired came out with a real nice article.
+
+286
+00:13:52,000 --> 00:13:54,000
+Haven't seen the L.A. Times yet, but that's on the way.
+
+287
+00:13:54,000 --> 00:13:57,000
+Last night, the BBC interviewed me.
+
+288
+00:13:57,000 --> 00:13:59,000
+I was so cool to, I'm still looking for a recording.
+
+289
+00:13:59,000 --> 00:14:03,000
+They promised they would email me the piece when it was broadcast.
+
+290
+00:14:03,000 --> 00:14:06,000
+Because the BBC has so much good content,
+
+291
+00:14:06,000 --> 00:14:07,000
+so we got a little bit into that.
+
+292
+00:14:07,000 --> 00:14:09,000
+I hope it was pre-recorded, so I hope they left it
+
+293
+00:14:09,000 --> 00:14:12,000
+in the actual interview that aired.
+
+294
+00:14:12,000 --> 00:14:14,000
+Also, I was on with Leo L.A.
+
+295
+00:14:14,000 --> 00:14:16,000
+The beginning of the weekend,
+
+296
+00:14:16,000 --> 00:14:19,000
+tech guy on KFI, Leo now has two podcasts going.
+
+297
+00:14:19,000 --> 00:14:22,000
+So check them out at LeoVille.com.
+
+298
+00:14:22,000 --> 00:14:25,000
+You can hear the part to the interview there,
+
+299
+00:14:25,000 --> 00:14:27,000
+but he's also doing a news podcast,
+
+300
+00:14:27,000 --> 00:14:28,000
+which is a little more regular.
+
+301
+00:14:28,000 --> 00:14:31,000
+So be sure to check out LeoVille.com.
+
+302
+00:14:31,000 --> 00:14:35,000
+I've been working on the directory at ipotter.org.
+
+303
+00:14:35,000 --> 00:14:38,000
+The traffic that we're getting is just,
+
+304
+00:14:38,000 --> 00:14:40,000
+it's unbelievable. I'm really happy we moved this to,
+
+305
+00:14:40,000 --> 00:14:43,000
+a new server before all this started to just
+
+306
+00:14:43,000 --> 00:14:48,000
+unleash itself upon this server running ipotter.org.
+
+307
+00:14:48,000 --> 00:14:52,000
+The concept behind the directory,
+
+308
+00:14:52,000 --> 00:14:54,000
+and I'm really starting to understand the beauty
+
+309
+00:14:54,000 --> 00:14:56,000
+of decentralized directories right now.
+
+310
+00:14:56,000 --> 00:14:59,000
+A directory is just like Yahoo has,
+
+311
+00:14:59,000 --> 00:15:03,000
+where you can look at businesses by region,
+
+312
+00:15:03,000 --> 00:15:05,000
+by town, type of business.
+
+313
+00:15:05,000 --> 00:15:07,000
+In this case, looking at podcasts,
+
+314
+00:15:07,000 --> 00:15:09,000
+it's exactly the same thing.
+
+315
+00:15:09,000 --> 00:15:11,000
+Only, of course, this is going so fast.
+
+316
+00:15:11,000 --> 00:15:15,000
+I already have so many entries in the directory tree
+
+317
+00:15:15,000 --> 00:15:18,000
+that it's impossible for one person just to maintain.
+
+318
+00:15:18,000 --> 00:15:20,000
+Nor do I want to do that.
+
+319
+00:15:20,000 --> 00:15:23,000
+Nor should there be any central person
+
+320
+00:15:23,000 --> 00:15:25,000
+that has that type of power.
+
+321
+00:15:25,000 --> 00:15:27,000
+That's a concern,
+
+322
+00:15:27,000 --> 00:15:30,000
+because we want to make it as open as possible for everybody.
+
+323
+00:15:30,000 --> 00:15:33,000
+So this concept of the open directory,
+
+324
+00:15:33,000 --> 00:15:36,000
+really eliminates that.
+
+325
+00:15:36,000 --> 00:15:38,000
+Here's how it works.
+
+326
+00:15:38,000 --> 00:15:41,000
+Basically, you create the directory in an outliner.
+
+327
+00:15:41,000 --> 00:15:43,000
+That makes sense, right?
+
+328
+00:15:43,000 --> 00:15:44,000
+You've seen an outliner.
+
+329
+00:15:44,000 --> 00:15:47,000
+You can expand a node, so you might have music
+
+330
+00:15:47,000 --> 00:15:48,000
+underneath there.
+
+331
+00:15:48,000 --> 00:15:50,000
+It would be blues and rock,
+
+332
+00:15:50,000 --> 00:15:52,000
+and then maybe world music.
+
+333
+00:15:52,000 --> 00:15:53,000
+You expand that.
+
+334
+00:15:53,000 --> 00:15:55,000
+There may be some more subcategories,
+
+335
+00:15:55,000 --> 00:15:56,000
+like for blues.
+
+336
+00:15:56,000 --> 00:15:58,000
+It could be rhythm and blues and delta blues.
+
+337
+00:15:58,000 --> 00:16:00,000
+And underneath that, you eventually find the links
+
+338
+00:16:00,000 --> 00:16:01,000
+that you're looking for.
+
+339
+00:16:01,000 --> 00:16:03,000
+Now, you translate that to the web,
+
+340
+00:16:03,000 --> 00:16:05,000
+and you get a directory structure where you have
+
+341
+00:16:05,000 --> 00:16:07,000
+a breadcrum trail of basically directories that you
+
+342
+00:16:07,000 --> 00:16:09,000
+jump into until you get where you want to be,
+
+343
+00:16:09,000 --> 00:16:11,000
+and then you can trace your way back.
+
+344
+00:16:11,000 --> 00:16:14,000
+So you create these in OPML, which stands for Outline
+
+345
+00:16:14,000 --> 00:16:16,000
+Process or Markup Language.
+
+346
+00:16:16,000 --> 00:16:19,000
+It's like HTML for Outliners.
+
+347
+00:16:19,000 --> 00:16:23,000
+And I've linked on us as iPodder as well as
+
+348
+00:16:23,000 --> 00:16:24,000
+Curry.com.
+
+349
+00:16:24,000 --> 00:16:28,000
+I've linked to OPML or Outline program
+
+350
+00:16:28,000 --> 00:16:31,000
+programs that export OPML.
+
+351
+00:16:31,000 --> 00:16:34,000
+So I basically have created a number of top categories.
+
+352
+00:16:34,000 --> 00:16:36,000
+It's just a start, right?
+
+353
+00:16:36,000 --> 00:16:38,000
+Because we can have any number we want,
+
+354
+00:16:38,000 --> 00:16:40,000
+and any way we want to categorize it.
+
+355
+00:16:40,000 --> 00:16:44,000
+But the way this works is other people
+
+356
+00:16:44,000 --> 00:16:47,000
+should own trees and branches or, you know,
+
+357
+00:16:47,000 --> 00:16:49,000
+and nodes of this directory.
+
+358
+00:16:49,000 --> 00:16:52,000
+So already I'm working with two people.
+
+359
+00:16:52,000 --> 00:16:55,000
+One is already taken hold of the music directory.
+
+360
+00:16:55,000 --> 00:16:57,000
+And that means that anything,
+
+361
+00:16:57,000 --> 00:17:00,000
+when the minute you, in an iPodder or the minute
+
+362
+00:17:00,000 --> 00:17:02,000
+you click on the music folder,
+
+363
+00:17:02,000 --> 00:17:05,000
+it looks like it's still staying on iPodder.org,
+
+364
+00:17:05,000 --> 00:17:08,000
+but it's actually bringing in the OPML
+
+365
+00:17:08,000 --> 00:17:12,000
+from a public web server and it's giving you a seamless
+
+366
+00:17:12,000 --> 00:17:15,000
+overview of and breadcrum trail
+
+367
+00:17:15,000 --> 00:17:17,000
+through the directory structure.
+
+368
+00:17:17,000 --> 00:17:19,000
+And in addition to that,
+
+369
+00:17:19,000 --> 00:17:21,000
+if you want to suggest add a link,
+
+370
+00:17:21,000 --> 00:17:25,000
+it goes to the owner of that branch
+
+371
+00:17:25,000 --> 00:17:27,000
+and to that owner's email.
+
+372
+00:17:27,000 --> 00:17:29,000
+So that's all automatic.
+
+373
+00:17:29,000 --> 00:17:30,000
+It's really cool.
+
+374
+00:17:30,000 --> 00:17:33,000
+It's far from done because I'd love to have
+
+375
+00:17:33,000 --> 00:17:37,000
+or there's so many more, so many things I could go for a whole show
+
+376
+00:17:37,000 --> 00:17:39,000
+that's what I'd like to have in the directory.
+
+377
+00:17:39,000 --> 00:17:41,000
+But what's cool is already the music directory
+
+378
+00:17:41,000 --> 00:17:44,000
+is now being maintained by someone else.
+
+379
+00:17:44,000 --> 00:17:47,000
+And once I get another person ready,
+
+380
+00:17:47,000 --> 00:17:49,000
+who's already got everything good to go,
+
+381
+00:17:49,000 --> 00:17:52,000
+but his OPML is still a little funky.
+
+382
+00:17:52,000 --> 00:17:54,000
+So we're working on that.
+
+383
+00:17:54,000 --> 00:17:56,000
+Then there's going to be a sub division,
+
+384
+00:17:56,000 --> 00:17:58,000
+specifically for mixes,
+
+385
+00:17:58,000 --> 00:18:00,000
+that'll be made by someone else.
+
+386
+00:18:00,000 --> 00:18:02,000
+So you can see how this directory can build
+
+387
+00:18:02,000 --> 00:18:04,000
+very, very quickly.
+
+388
+00:18:04,000 --> 00:18:06,000
+So I'm looking for people who want to help.
+
+389
+00:18:06,000 --> 00:18:09,000
+If you can figure out how to create an OPML document,
+
+390
+00:18:09,000 --> 00:18:12,000
+which in essence, you can create it just like RSS.
+
+391
+00:18:12,000 --> 00:18:14,000
+You could probably write it by hand.
+
+392
+00:18:14,000 --> 00:18:15,000
+You know, it's not that hard.
+
+393
+00:18:15,000 --> 00:18:16,000
+But it's a little bit easier.
+
+394
+00:18:16,000 --> 00:18:19,000
+And it's more visual if you do it in an outliner.
+
+395
+00:18:19,000 --> 00:18:21,000
+Personally, I use radio user land.
+
+396
+00:18:21,000 --> 00:18:26,000
+It supports all of the bits we need out of the box.
+
+397
+00:18:26,000 --> 00:18:29,000
+It is fully OPML compliant.
+
+398
+00:18:29,000 --> 00:18:31,000
+And well, there's a drawback,
+
+399
+00:18:31,000 --> 00:18:33,000
+if you call it that it does cost money.
+
+400
+00:18:33,000 --> 00:18:34,000
+You do have to pay for it.
+
+401
+00:18:34,000 --> 00:18:37,000
+You can use it for up to 30 days to test it out.
+
+402
+00:18:37,000 --> 00:18:39,000
+And then you have to pay 40 bucks and you get some hosting
+
+403
+00:18:39,000 --> 00:18:40,000
+and a weblog and all that.
+
+404
+00:18:40,000 --> 00:18:43,000
+But I think the outliner is at this point,
+
+405
+00:18:43,000 --> 00:18:46,000
+the most important thing to talk about in radio user land.
+
+406
+00:18:46,000 --> 00:18:48,000
+A lot of people who have started helping out using
+
+407
+00:18:48,000 --> 00:18:50,000
+Omni Outliner, small drawback,
+
+408
+00:18:50,000 --> 00:18:54,000
+the minute you export to OPML in Omni Outliner,
+
+409
+00:18:54,000 --> 00:18:58,000
+it does not send the owner name element.
+
+410
+00:18:58,000 --> 00:19:01,000
+Or it doesn't create the owner name element or the owner email element,
+
+411
+00:19:01,000 --> 00:19:04,000
+both which you need in order to work with the directory.
+
+412
+00:19:04,000 --> 00:19:06,000
+It also doesn't have a created element
+
+413
+00:19:06,000 --> 00:19:10,000
+and a modified date stamp element.
+
+414
+00:19:10,000 --> 00:19:12,000
+And some other things like node states,
+
+415
+00:19:12,000 --> 00:19:14,000
+but that's less important.
+
+416
+00:19:14,000 --> 00:19:17,000
+But hopefully we can get some of those
+
+417
+00:19:17,000 --> 00:19:19,000
+incompatibility squared away.
+
+418
+00:19:19,000 --> 00:19:21,000
+I'm getting a delay on headphones here.
+
+419
+00:19:21,000 --> 00:19:25,000
+It sounds like I'm talking with a big rubber ball on my mouth.
+
+420
+00:19:25,000 --> 00:19:28,000
+Which could have been true, but not today.
+
+421
+00:19:29,000 --> 00:19:30,000
+Okay, let's see.
+
+422
+00:19:30,000 --> 00:19:31,000
+What do we do?
+
+423
+00:19:31,000 --> 00:19:32,000
+Oh man, 20 minutes into the show.
+
+424
+00:19:32,000 --> 00:19:33,000
+Talk about the directory.
+
+425
+00:19:33,000 --> 00:19:35,000
+Now I want to talk a little bit about the election.
+
+426
+00:19:35,000 --> 00:19:37,000
+As I've been cruising through the internet,
+
+427
+00:19:37,000 --> 00:19:39,000
+just finding all the cool bits,
+
+428
+00:19:39,000 --> 00:19:42,000
+subscribing to new podcasts.
+
+429
+00:19:42,000 --> 00:19:44,000
+I'm using iPod RX.
+
+430
+00:19:44,000 --> 00:19:47,000
+It has an option to download the files,
+
+431
+00:19:47,000 --> 00:19:49,000
+other than MP3s.
+
+432
+00:19:49,000 --> 00:19:51,000
+And I've subscribed to the blog digger,
+
+433
+00:19:51,000 --> 00:19:54,000
+media feed and feedsters, AVI feed.
+
+434
+00:19:54,000 --> 00:19:57,000
+So I get all these cool little video mixes of stuff,
+
+435
+00:19:57,000 --> 00:20:00,000
+which is usually all anti-bush,
+
+436
+00:20:00,000 --> 00:20:02,000
+or very pro-carry.
+
+437
+00:20:02,000 --> 00:20:04,000
+Certainly those are just the two categories.
+
+438
+00:20:04,000 --> 00:20:06,000
+You could put everything into.
+
+439
+00:20:06,000 --> 00:20:08,000
+And there's some, it looks like there's some movies
+
+440
+00:20:08,000 --> 00:20:11,000
+or documentaries coming out and there's lots of trailers.
+
+441
+00:20:11,000 --> 00:20:14,000
+And I did a little test and I listened to each of these
+
+442
+00:20:14,000 --> 00:20:15,000
+without looking at the video,
+
+443
+00:20:15,000 --> 00:20:17,000
+just listening on the headphones.
+
+444
+00:20:17,000 --> 00:20:19,000
+And I thought they were good enough to put on the source code,
+
+445
+00:20:19,000 --> 00:20:20,000
+because there's just some,
+
+446
+00:20:20,000 --> 00:20:22,000
+well, there's interesting angles and interesting takes.
+
+447
+00:20:22,000 --> 00:20:26,000
+And this is the time to display this art before the election.
+
+448
+00:20:26,000 --> 00:20:27,000
+After the election,
+
+449
+00:20:27,000 --> 00:20:28,000
+it won't make any,
+
+450
+00:20:28,000 --> 00:20:30,000
+it really that much sense.
+
+451
+00:20:30,000 --> 00:20:32,000
+So I think it's important that we,
+
+452
+00:20:32,000 --> 00:20:35,000
+that we get the stuff out there,
+
+453
+00:20:35,000 --> 00:20:36,000
+so you can hear it.
+
+454
+00:20:36,000 --> 00:20:39,000
+I'm going to start with a bit,
+
+455
+00:20:39,000 --> 00:20:44,000
+which is about Fox News Channel.
+
+456
+00:20:44,000 --> 00:20:45,000
+Often, of course,
+
+457
+00:20:45,000 --> 00:20:47,000
+if you're into conspiracy theories,
+
+458
+00:20:47,000 --> 00:20:48,000
+you're going to love this.
+
+459
+00:20:48,000 --> 00:20:51,000
+Fox News Channel is said to be,
+
+460
+00:20:52,000 --> 00:20:54,000
+a supporter of Bush,
+
+461
+00:20:54,000 --> 00:20:57,000
+totally hammering Kerry,
+
+462
+00:20:57,000 --> 00:21:00,000
+but also just any Democrat versus Republican.
+
+463
+00:21:00,000 --> 00:21:03,000
+And Roger Ailes is the guy,
+
+464
+00:21:03,000 --> 00:21:06,000
+I think, still runs Fox News Channel.
+
+465
+00:21:06,000 --> 00:21:08,000
+And the question that was asked in this,
+
+466
+00:21:08,000 --> 00:21:10,000
+I believe trailer for documentaries,
+
+467
+00:21:10,000 --> 00:21:14,000
+who is the guy that runs Fox News Channel?
+
+468
+00:21:14,000 --> 00:21:17,000
+Who runs Fox News Channel?
+
+469
+00:21:22,000 --> 00:21:25,000
+In 1967, Roger Ailes works as media manager
+
+470
+00:21:25,000 --> 00:21:29,000
+for a public and presidential candidate, Richard Nixon.
+
+471
+00:21:29,000 --> 00:21:33,000
+In 1984, Roger Ailes is hired as a media advisor
+
+472
+00:21:33,000 --> 00:21:35,000
+for the Reagan campaign.
+
+473
+00:21:35,000 --> 00:21:39,000
+In 1988, Roger Ailes works as the media manager
+
+474
+00:21:39,000 --> 00:21:43,000
+for a public and candidate, George H. W. Bush.
+
+475
+00:21:43,000 --> 00:21:45,000
+It is accused of master-minding
+
+476
+00:21:45,000 --> 00:21:47,000
+a DuCoccus race-bading campaign
+
+477
+00:21:48,000 --> 00:21:51,000
+using convicted murder of Willie Horton.
+
+478
+00:21:51,000 --> 00:21:54,000
+After a career of running cutthroat conservative media campaigns,
+
+479
+00:21:54,000 --> 00:21:56,000
+for three Republican presidents,
+
+480
+00:21:56,000 --> 00:21:59,000
+Roger Ailes launches the Fox News Channel in 1996.
+
+481
+00:21:59,000 --> 00:22:02,000
+We'd like to restore objectivity,
+
+482
+00:22:02,000 --> 00:22:04,000
+where we find it lacking,
+
+483
+00:22:04,000 --> 00:22:07,000
+and I left politics a number of years ago
+
+484
+00:22:07,000 --> 00:22:10,000
+and run on whose organization for the last two years.
+
+485
+00:22:10,000 --> 00:22:12,000
+So we just expect to do fine,
+
+486
+00:22:12,000 --> 00:22:13,000
+balanced journalist.
+
+487
+00:22:13,000 --> 00:22:15,000
+On election night of 2000,
+
+488
+00:22:15,000 --> 00:22:18,000
+Roger Ailes Fox News Channel prematurely announced
+
+489
+00:22:18,000 --> 00:22:20,000
+to the world that George W. Bush
+
+490
+00:22:20,000 --> 00:22:22,000
+had won the state of Florida.
+
+491
+00:22:22,000 --> 00:22:25,000
+President Bush's days of absorbing John Kerry's attacks
+
+492
+00:22:25,000 --> 00:22:27,000
+were without counterattack or over.
+
+493
+00:22:27,000 --> 00:22:30,000
+John Kerry has been lashing out at President Bush
+
+494
+00:22:30,000 --> 00:22:32,000
+and by extension Republicans for a long time.
+
+495
+00:22:32,000 --> 00:22:33,000
+But the president is a gentleman.
+
+496
+00:22:33,000 --> 00:22:36,000
+You know, he set a different tone for his campaign.
+
+497
+00:22:36,000 --> 00:22:38,000
+John Kerry was scaring old people as usual.
+
+498
+00:22:38,000 --> 00:22:41,000
+The guy who says what he means of means what he says.
+
+499
+00:22:41,000 --> 00:22:43,000
+North Korea loves John Kerry.
+
+500
+00:22:43,000 --> 00:22:44,000
+Really? Yeah.
+
+501
+00:22:44,000 --> 00:22:46,000
+It's John Kerry's Jane Farnder with the Burmary Stark.
+
+502
+00:22:46,000 --> 00:22:47,000
+Dr. Rodgersman.
+
+503
+00:22:47,000 --> 00:22:48,000
+He wanted to do this Kerry plan.
+
+504
+00:22:48,000 --> 00:22:50,000
+We'll do his punished, successful companies.
+
+505
+00:22:50,000 --> 00:22:52,000
+Elias worked well for Democrats in the past.
+
+506
+00:22:52,000 --> 00:22:54,000
+I think the market is down on John Kerry.
+
+507
+00:22:54,000 --> 00:22:56,000
+The economy is very, very strong right now.
+
+508
+00:22:56,000 --> 00:22:58,000
+I think it's going to get stronger.
+
+509
+00:22:58,000 --> 00:22:59,000
+It's picking up.
+
+510
+00:22:59,000 --> 00:23:00,000
+Day by day.
+
+511
+00:23:00,000 --> 00:23:01,000
+Killing more jobs.
+
+512
+00:23:01,000 --> 00:23:03,000
+I'm going to suggest to the budgetary for John Kerry.
+
+513
+00:23:03,000 --> 00:23:09,000
+In 2004, Roger Ailes is running yet another Republican media campaign.
+
+514
+00:23:09,000 --> 00:23:12,000
+This time, he's got an entire table
+
+515
+00:23:12,000 --> 00:23:17,000
+that worked to help him re-elect George W. Bush.
+
+516
+00:23:17,000 --> 00:23:19,000
+Move on.org.
+
+517
+00:23:19,000 --> 00:23:22,000
+That's who put that out there.
+
+518
+00:23:22,000 --> 00:23:25,000
+Definitely an interesting site worth checking out.
+
+519
+00:23:25,000 --> 00:23:28,000
+Although I had to say, I'm on the mailing list and I rarely ever read it.
+
+520
+00:23:28,000 --> 00:23:30,000
+But I like what they produce.
+
+521
+00:23:30,000 --> 00:23:32,000
+I think they produce really wonderful stuff.
+
+522
+00:23:32,000 --> 00:23:33,000
+Very powerful stuff.
+
+523
+00:23:33,000 --> 00:23:34,000
+Good video.
+
+524
+00:23:34,000 --> 00:23:35,000
+Okay.
+
+525
+00:23:35,000 --> 00:23:38,000
+Now onto something about the...
+
+526
+00:23:38,000 --> 00:23:41,000
+What was an SMS coming in?
+
+527
+00:23:42,000 --> 00:23:44,000
+About the Patriot Act.
+
+528
+00:23:44,000 --> 00:23:47,000
+Another trailer for unconstitutional...
+
+529
+00:23:47,000 --> 00:23:50,000
+The film was called Unconstitutional.
+
+530
+00:23:50,000 --> 00:23:54,000
+And you can find more information at unconstitutionalthemovie.org.
+
+531
+00:23:54,000 --> 00:23:57,000
+Let me just see if I have the right one here.
+
+532
+00:23:57,000 --> 00:23:58,000
+Pretty sure I do.
+
+533
+00:23:58,000 --> 00:24:00,000
+Now, this is coming off another media play.
+
+534
+00:24:00,000 --> 00:24:03,000
+This is coming off of the VLC client.
+
+535
+00:24:03,000 --> 00:24:05,000
+So hopefully it'll play and you'll be able to hear it.
+
+536
+00:24:05,000 --> 00:24:08,000
+Here's the trailer for Unconstitutional.
+
+537
+00:24:09,000 --> 00:24:14,000
+This legislation is essential not only to pursuing and punishing tourists.
+
+538
+00:24:14,000 --> 00:24:17,000
+But also preventing more atrocities.
+
+539
+00:24:17,000 --> 00:24:21,000
+For about 20 second, I've got a phone call about 7 o'clock in the morning.
+
+540
+00:24:21,000 --> 00:24:25,000
+For my uncle saying that by 12 to 15 federal agents
+
+541
+00:24:25,000 --> 00:24:28,000
+just came into my pants house, picked up my mom, my dad, and my sister.
+
+542
+00:24:28,000 --> 00:24:31,000
+I go sat down next to me and I said,
+
+543
+00:24:31,000 --> 00:24:33,000
+George Bush is out of control.
+
+544
+00:24:33,000 --> 00:24:35,000
+I would gasp probably 30 minutes later.
+
+545
+00:24:35,000 --> 00:24:39,000
+Over my shoulder and there were four Santa Fe police officers standing behind me.
+
+546
+00:24:39,000 --> 00:24:44,000
+We have to ask ourselves, is this the most effective use of law enforcement?
+
+547
+00:24:44,000 --> 00:24:45,000
+Power.
+
+548
+00:24:53,000 --> 00:24:54,000
+Nearly 1,000 individuals.
+
+549
+00:24:54,000 --> 00:24:57,000
+He swept broadly, he swept blindly.
+
+550
+00:24:57,000 --> 00:24:59,000
+Until the number was over 1,000,
+
+551
+00:24:59,000 --> 00:25:01,000
+and people started asking questions.
+
+552
+00:25:01,000 --> 00:25:05,000
+They said, how many of these 1,000 people have been charged with
+
+553
+00:25:05,000 --> 00:25:08,000
+the crimes of September 11th and the answer was zero.
+
+554
+00:25:08,000 --> 00:25:11,000
+I know my dad was so hard to come to the country for freedom.
+
+555
+00:25:11,000 --> 00:25:15,000
+And then you know, 10 years later, we find out that the country that we came here to save us
+
+556
+00:25:15,000 --> 00:25:17,000
+is actually doing the Santas.
+
+557
+00:25:17,000 --> 00:25:23,000
+You had the Justice Department itself criticizing the actions and the policies.
+
+558
+00:25:23,000 --> 00:25:25,000
+These are critical issues.
+
+559
+00:25:25,000 --> 00:25:27,000
+This is what we're fighting for.
+
+560
+00:25:27,000 --> 00:25:30,000
+These are our civil liberties.
+
+561
+00:25:30,000 --> 00:25:34,000
+Well, I mean, I'm the was we'd say.
+
+562
+00:25:34,000 --> 00:25:38,000
+And have that drink open, I know.
+
+563
+00:25:38,000 --> 00:25:44,000
+I'm talking sex, I'm living real for.
+
+564
+00:25:44,000 --> 00:25:46,000
+I'm moving.
+
+565
+00:25:46,000 --> 00:25:47,000
+Okay, this is here.
+
+566
+00:25:47,000 --> 00:25:51,000
+It's sponsored by ACLU, unconstitutional, unconstitutional,
+
+567
+00:25:51,000 --> 00:25:53,000
+the movie.org.
+
+568
+00:25:53,000 --> 00:25:57,000
+You can probably tell by now that this, if you're a Republican,
+
+569
+00:25:57,000 --> 00:26:00,000
+this may not be a good podcast to listen to today.
+
+570
+00:26:00,000 --> 00:26:02,000
+And there's more where that came from.
+
+571
+00:26:02,000 --> 00:26:05,000
+I got an interesting audio feedback from Alan Pine,
+
+572
+00:26:05,000 --> 00:26:09,000
+Alan's from Paris, and he has a very cool podcast.
+
+573
+00:26:09,000 --> 00:26:13,000
+Well, I'll let him explain exactly what it is and where you can find it.
+
+574
+00:26:13,000 --> 00:26:17,000
+Hey Adam, this is Alan Pine calling from Paris and France.
+
+575
+00:26:17,000 --> 00:26:21,000
+I just wanted to let you know about a great site called truthout.org.
+
+576
+00:26:21,000 --> 00:26:26,000
+And in particular, there are nightly truthout overview, MP3 bulletin,
+
+577
+00:26:26,000 --> 00:26:28,000
+which is presented by William Rivers Pit.
+
+578
+00:26:28,000 --> 00:26:31,000
+It's basically a five to six minute news,
+
+579
+00:26:31,000 --> 00:26:36,000
+style bulletin of credible journalistic coverage of the US
+
+580
+00:26:36,000 --> 00:26:42,000
+and US foreign policy, the political situation, et cetera, et cetera.
+
+581
+00:26:42,000 --> 00:26:46,000
+The only downside is that at the moment,
+
+582
+00:26:46,000 --> 00:26:50,000
+they don't have any RSS feed, nor any enclosures.
+
+583
+00:26:50,000 --> 00:26:54,000
+So what I've done in the meantime is to handle the feed,
+
+584
+00:26:54,000 --> 00:26:56,000
+and pointing to their archives.
+
+585
+00:26:56,000 --> 00:26:59,000
+And it's available on my blog, which is at
+
+586
+00:26:59,000 --> 00:27:04,000
+Perso.1ado.fr-72% water.
+
+587
+00:27:04,000 --> 00:27:10,000
+That's P-R-S-O-Person.1ado.fr-72% water.
+
+588
+00:27:10,000 --> 00:27:12,000
+Hope this is useful for you.
+
+589
+00:27:12,000 --> 00:27:16,000
+Keep up the great work, your seven-dave, and
+
+590
+00:27:16,000 --> 00:27:18,000
+Viva La Revolucione.
+
+591
+00:27:18,000 --> 00:27:19,000
+Take care, bye.
+
+592
+00:27:19,000 --> 00:27:21,000
+Right home, Viva La Revolucione!
+
+593
+00:27:21,000 --> 00:27:24,000
+I love it, thank you very much, Alan,
+
+594
+00:27:24,000 --> 00:27:27,000
+and I have subscribed to the show,
+
+595
+00:27:27,000 --> 00:27:31,000
+and I got to say it is very good.
+
+596
+00:27:31,000 --> 00:27:34,000
+I wonder if this actually airs anywhere.
+
+597
+00:27:34,000 --> 00:27:36,000
+It sounds very much like a podcast.
+
+598
+00:27:36,000 --> 00:27:39,000
+It's very well written and well read,
+
+599
+00:27:39,000 --> 00:27:40,000
+but it doesn't sound like it's,
+
+600
+00:27:40,000 --> 00:27:43,000
+it doesn't have quite that professional radio quality.
+
+601
+00:27:43,000 --> 00:27:45,000
+So please let us know exactly what,
+
+602
+00:27:45,000 --> 00:27:47,000
+where this is being broadcast or,
+
+603
+00:27:48,000 --> 00:27:50,000
+is it always at web only?
+
+604
+00:27:50,000 --> 00:27:53,000
+And since you already publicly announced it
+
+605
+00:27:53,000 --> 00:27:56,000
+in the feedback, I will place a link
+
+606
+00:27:56,000 --> 00:28:00,000
+to the podcast feed for truth out.
+
+607
+00:28:00,000 --> 00:28:03,000
+It's definitely some good stuff.
+
+608
+00:28:03,000 --> 00:28:06,000
+Okay, another trailer, this is a funny trailer,
+
+609
+00:28:06,000 --> 00:28:09,000
+about the weird speech that our current president
+
+610
+00:28:09,000 --> 00:28:10,000
+often produces.
+
+611
+00:28:10,000 --> 00:28:12,000
+Also included in this at the end,
+
+612
+00:28:12,000 --> 00:28:15,000
+is an entire song by the George W. Burst Singers.
+
+613
+00:28:15,000 --> 00:28:17,000
+Ladies and gentlemen, I present for you
+
+614
+00:28:17,000 --> 00:28:20,000
+on the source code, Bushisms.
+
+615
+00:28:20,000 --> 00:28:25,000
+Africa is a nation of suffers from incredible disease.
+
+616
+00:28:25,000 --> 00:28:28,000
+Yeah, I think it might have been better to say
+
+617
+00:28:28,000 --> 00:28:30,000
+that there are a lot of people in Africa
+
+618
+00:28:30,000 --> 00:28:32,000
+who suffer from terrible diseases,
+
+619
+00:28:32,000 --> 00:28:34,000
+as opposed to making it sound like
+
+620
+00:28:34,000 --> 00:28:35,000
+the whole continent.
+
+621
+00:28:35,000 --> 00:28:37,000
+She's got to be cut off and sunk.
+
+622
+00:28:38,000 --> 00:28:43,000
+I think war is a dangerous place.
+
+623
+00:28:43,000 --> 00:28:46,000
+War, what is it good for?
+
+624
+00:28:46,000 --> 00:28:51,000
+A three day weekend.
+
+625
+00:28:51,000 --> 00:28:56,000
+It'll take time to restore chaos.
+
+626
+00:28:56,000 --> 00:28:59,000
+I think that they brought chaos to Iraq promptly,
+
+627
+00:28:59,000 --> 00:29:01,000
+and he thought it would be a challenge in fact
+
+628
+00:29:01,000 --> 00:29:03,000
+that proved to be very simple.
+
+629
+00:29:03,000 --> 00:29:08,000
+I kept you imagine something like
+
+630
+00:29:08,000 --> 00:29:10,000
+someone been more than ever saying
+
+631
+00:29:10,000 --> 00:29:11,000
+the George W. Burst Singers.
+
+632
+00:29:11,000 --> 00:29:12,000
+We're knowing the simple pleasure
+
+633
+00:29:12,000 --> 00:29:16,000
+finding an egg on Easter Sunday.
+
+634
+00:29:16,000 --> 00:29:18,000
+Oh, someone been law night filled the same way.
+
+635
+00:29:18,000 --> 00:29:20,000
+He misses out on Hanukkah,
+
+636
+00:29:20,000 --> 00:29:23,000
+Yom Kippur,
+
+637
+00:29:23,000 --> 00:29:26,000
+Russia-China,
+
+638
+00:29:26,000 --> 00:29:28,000
+and the United States.
+
+639
+00:29:28,000 --> 00:29:31,000
+He misses out on Hanukkah,
+
+640
+00:29:31,000 --> 00:29:33,000
+the John Kippur,
+
+641
+00:29:33,000 --> 00:29:35,000
+Russia-China.
+
+642
+00:29:35,000 --> 00:29:36,000
+He just doesn't appreciate the joy
+
+643
+00:29:36,000 --> 00:29:38,000
+of the George Holidays.
+
+644
+00:29:38,000 --> 00:29:40,000
+I can't imagine Osama in
+
+645
+00:29:40,000 --> 00:29:41,000
+Joing Spring Break.
+
+646
+00:29:41,000 --> 00:29:45,000
+It can come.
+
+647
+00:29:45,000 --> 00:29:47,000
+It's almost like this Osama
+
+648
+00:29:47,000 --> 00:29:49,000
+bin Laden, Pella,
+
+649
+00:29:49,000 --> 00:29:51,000
+is from somewhere else,
+
+650
+00:29:51,000 --> 00:29:53,000
+from some other culture.
+
+651
+00:29:53,000 --> 00:29:54,000
+It's weird.
+
+652
+00:29:54,000 --> 00:29:56,000
+And interact.
+
+653
+00:29:56,000 --> 00:29:58,000
+We entered the rule of one of
+
+654
+00:29:58,000 --> 00:30:01,000
+the worst tyrants.
+
+655
+00:30:01,000 --> 00:30:02,000
+And in so doing,
+
+656
+00:30:02,000 --> 00:30:04,000
+we'd not only freed the American people,
+
+657
+00:30:04,000 --> 00:30:09,000
+we made our own people more secure.
+
+658
+00:30:09,000 --> 00:30:13,000
+And there's no doubt in my mind.
+
+659
+00:30:13,000 --> 00:30:16,000
+Not one doubt in my mind
+
+660
+00:30:16,000 --> 00:30:18,000
+that we will fail.
+
+661
+00:30:18,000 --> 00:30:20,000
+No!
+
+662
+00:30:20,000 --> 00:30:23,000
+Most people are very unsure about
+
+663
+00:30:23,000 --> 00:30:24,000
+failure.
+
+664
+00:30:24,000 --> 00:30:26,000
+Is that who we want as president?
+
+665
+00:30:26,000 --> 00:30:27,000
+No, we don't.
+
+666
+00:30:27,000 --> 00:30:29,000
+We want someone absolutely positive
+
+667
+00:30:29,000 --> 00:30:32,000
+that we're going to fail.
+
+668
+00:30:32,000 --> 00:30:36,000
+That's leadership.
+
+669
+00:30:36,000 --> 00:30:38,000
+Ladies and gentlemen,
+
+670
+00:30:38,000 --> 00:30:39,000
+once again,
+
+671
+00:30:39,000 --> 00:30:42,000
+the George W. Bush Singers.
+
+672
+00:30:43,000 --> 00:30:45,000
+Woohoo!
+
+673
+00:30:49,000 --> 00:30:50,000
+And so,
+
+674
+00:30:50,000 --> 00:30:51,000
+And so,
+
+675
+00:30:51,000 --> 00:30:53,000
+am I straight of them?
+
+676
+00:30:55,000 --> 00:30:57,000
+My state of the Union.
+
+677
+00:30:57,000 --> 00:31:03,000
+My State of the Union
+
+678
+00:31:03,000 --> 00:31:05,000
+Our State of my State,
+
+679
+00:31:05,000 --> 00:31:06,000
+Master their name.
+
+680
+00:31:06,000 --> 00:31:08,000
+My State to Knock.
+
+681
+00:31:08,000 --> 00:31:09,000
+Nice.
+
+682
+00:31:09,000 --> 00:31:11,000
+We want to go in.
+
+683
+00:31:11,000 --> 00:31:13,000
+You want to call it.
+
+684
+00:31:13,000 --> 00:31:16,000
+You want to call it.
+
+685
+00:31:16,000 --> 00:31:17,000
+Speech.
+
+686
+00:31:17,000 --> 00:31:18,000
+Speech.
+
+687
+00:31:18,000 --> 00:31:19,000
+Speech.
+
+688
+00:31:19,000 --> 00:31:20,000
+Speech, pleasure.
+
+689
+00:31:20,000 --> 00:31:21,000
+To the.
+
+690
+00:31:21,000 --> 00:31:22,000
+The.
+
+691
+00:31:22,000 --> 00:31:24,000
+Action.
+
+692
+00:31:33,000 --> 00:31:35,000
+I asked the Americans.
+
+693
+00:31:35,000 --> 00:31:37,000
+I asked to give.
+
+694
+00:31:37,000 --> 00:31:41,000
+I'm married to give.
+
+695
+00:31:41,000 --> 00:31:43,000
+For a thousand years.
+
+696
+00:31:43,000 --> 00:31:45,000
+For a thousand years.
+
+697
+00:31:45,000 --> 00:31:49,000
+For a thousand years.
+
+698
+00:31:49,000 --> 00:31:50,000
+For a thousand hours.
+
+699
+00:31:50,000 --> 00:31:52,000
+For.
+
+700
+00:31:52,000 --> 00:31:53,000
+Thousand.
+
+701
+00:31:53,000 --> 00:31:55,000
+I was.
+
+702
+00:31:55,000 --> 00:31:57,000
+Over the next.
+
+703
+00:31:57,000 --> 00:31:59,000
+Over the next.
+
+704
+00:31:59,000 --> 00:32:01,000
+The rest you're.
+
+705
+00:32:01,000 --> 00:32:03,000
+Of your life.
+
+706
+00:32:03,000 --> 00:32:06,000
+Of service to a mercy.
+
+707
+00:32:06,000 --> 00:32:07,000
+Of.
+
+708
+00:32:07,000 --> 00:32:09,000
+There we go.
+
+709
+00:32:09,000 --> 00:32:10,000
+Tonight.
+
+710
+00:32:10,000 --> 00:32:11,000
+That's.
+
+711
+00:32:11,000 --> 00:32:12,000
+That's.
+
+712
+00:32:12,000 --> 00:32:13,000
+That's.
+
+713
+00:32:13,000 --> 00:32:14,000
+That's.
+
+714
+00:32:14,000 --> 00:32:15,000
+Two.
+
+715
+00:32:15,000 --> 00:32:16,000
+Two.
+
+716
+00:32:16,000 --> 00:32:17,000
+Four thousand hours.
+
+717
+00:32:17,000 --> 00:32:19,000
+Four thousand hours.
+
+718
+00:32:19,000 --> 00:32:22,000
+Oh man.
+
+719
+00:32:22,000 --> 00:32:23,000
+The bush.
+
+720
+00:32:23,000 --> 00:32:24,000
+The.
+
+721
+00:32:24,000 --> 00:32:26,000
+Bushism dot net is where you can find more on that.
+
+722
+00:32:26,000 --> 00:32:27,000
+It's just silly.
+
+723
+00:32:27,000 --> 00:32:28,000
+But you.
+
+724
+00:32:28,000 --> 00:32:30,000
+You should really see the video of the George W. Bush.
+
+725
+00:32:30,000 --> 00:32:32,000
+Singers is just so hokey.
+
+726
+00:32:32,000 --> 00:32:33,000
+It's.
+
+727
+00:32:33,000 --> 00:32:34,000
+It's awesome.
+
+728
+00:32:34,000 --> 00:32:35,000
+Oh, by the way.
+
+729
+00:32:35,000 --> 00:32:40,000
+And when I was listening to another podcast and actually played it on the source code the other day.
+
+730
+00:32:40,000 --> 00:32:43,000
+I could hear from the other podcast.
+
+731
+00:32:43,000 --> 00:32:46,000
+I could hear the volume control on the Mac here.
+
+732
+00:32:46,000 --> 00:32:49,000
+If I turn my volume up on my headphones.
+
+733
+00:32:49,000 --> 00:32:50,000
+Let me see.
+
+734
+00:32:50,000 --> 00:32:51,000
+I don't know.
+
+735
+00:32:51,000 --> 00:32:53,000
+Of course, it's not going to do that for me.
+
+736
+00:32:53,000 --> 00:32:55,000
+You just give a little blip.
+
+737
+00:32:55,000 --> 00:32:57,000
+If you're using a Mac or power book.
+
+738
+00:32:57,000 --> 00:32:59,000
+Then you can hold down the shift key.
+
+739
+00:32:59,000 --> 00:33:01,000
+And then turn up the volume.
+
+740
+00:33:01,000 --> 00:33:03,000
+I would probably on a desktop Mac as well.
+
+741
+00:33:03,000 --> 00:33:04,000
+You.
+
+742
+00:33:04,000 --> 00:33:05,000
+That blipping noise.
+
+743
+00:33:05,000 --> 00:33:06,000
+That aside.
+
+744
+00:33:06,000 --> 00:33:10,000
+I had one more video to play for you about the draft.
+
+745
+00:33:10,000 --> 00:33:12,000
+But yeah, I like the George W. Bush singer so much.
+
+746
+00:33:12,000 --> 00:33:15,000
+I'm going to skip it because I'm just depressed.
+
+747
+00:33:15,000 --> 00:33:16,000
+Look.
+
+748
+00:33:16,000 --> 00:33:21,000
+I think you should vote for John Kerry.
+
+749
+00:33:21,000 --> 00:33:23,000
+George Bush is in the.
+
+750
+00:33:23,000 --> 00:33:27,000
+Kuhuts with a whole bunch of guys who got a whole lot of agendas.
+
+751
+00:33:27,000 --> 00:33:29,000
+The only way we can make sure that.
+
+752
+00:33:30,000 --> 00:33:33,000
+There's a clean slate that we've got something to work with.
+
+753
+00:33:33,000 --> 00:33:39,000
+If we get them out, get a new guy in and keep sharp, sharp look out for what's happening.
+
+754
+00:33:39,000 --> 00:33:41,000
+And let's not this happen to us again.
+
+755
+00:33:41,000 --> 00:33:42,000
+We've got all the tools.
+
+756
+00:33:42,000 --> 00:33:43,000
+We've got our voices.
+
+757
+00:33:43,000 --> 00:33:45,000
+We've got our web logs.
+
+758
+00:33:45,000 --> 00:33:48,000
+The time from weblog to CNN is Dave would say is getting shorter.
+
+759
+00:33:48,000 --> 00:33:50,000
+It's dropped down to hours.
+
+760
+00:33:50,000 --> 00:33:51,000
+So we do have the power.
+
+761
+00:33:51,000 --> 00:33:53,000
+And I believe that.
+
+762
+00:33:53,000 --> 00:33:58,000
+That we should elect John Kerry as our next president.
+
+763
+00:33:58,000 --> 00:33:59,000
+Okay.
+
+764
+00:33:59,000 --> 00:34:01,000
+So no, let's not talk about that anymore.
+
+765
+00:34:01,000 --> 00:34:03,000
+Let's talk about some cool stuff.
+
+766
+00:34:03,000 --> 00:34:06,000
+I was talking to Dave on trade secrets the other day.
+
+767
+00:34:06,000 --> 00:34:07,000
+I think it was on trade secrets.
+
+768
+00:34:07,000 --> 00:34:08,000
+Maybe it was just.
+
+769
+00:34:08,000 --> 00:34:09,000
+It all runs together.
+
+770
+00:34:09,000 --> 00:34:10,000
+I don't know who I told what anymore.
+
+771
+00:34:10,000 --> 00:34:12,000
+We were talking about William Shattner.
+
+772
+00:34:12,000 --> 00:34:14,000
+And I said, you know, William Shattner actually is.
+
+773
+00:34:14,000 --> 00:34:15,000
+You know, he's got his stuff together.
+
+774
+00:34:15,000 --> 00:34:17,000
+He's got a he's got a web log.
+
+775
+00:34:17,000 --> 00:34:19,000
+There's daughter maintains.
+
+776
+00:34:19,000 --> 00:34:21,000
+Oh, we were talking about.
+
+777
+00:34:21,000 --> 00:34:23,000
+The Peter sellers.
+
+778
+00:34:23,000 --> 00:34:26,000
+I played Peter sellers did a Beatles song.
+
+779
+00:34:26,000 --> 00:34:27,000
+She loves you.
+
+780
+00:34:27,000 --> 00:34:29,000
+And he said, didn't Bill Shattner do that.
+
+781
+00:34:29,000 --> 00:34:31,000
+So he did loosing the sky with diamonds.
+
+782
+00:34:31,000 --> 00:34:34,000
+So we were talking about the musical career of Bill Shattner.
+
+783
+00:34:34,000 --> 00:34:35,000
+I had no idea why.
+
+784
+00:34:35,000 --> 00:34:38,000
+And it turns out loan below loan behold.
+
+785
+00:34:38,000 --> 00:34:40,000
+He is just released a new album.
+
+786
+00:34:40,000 --> 00:34:44,000
+It's titled William Shattner has been.
+
+787
+00:34:44,000 --> 00:34:48,000
+And it's got photos, news, videos, press appearances.
+
+788
+00:34:48,000 --> 00:34:50,000
+Got all kinds of stuff.
+
+789
+00:34:50,000 --> 00:34:52,000
+It's a DVD to go with it.
+
+790
+00:34:52,000 --> 00:34:54,000
+But the album, check this out.
+
+791
+00:34:54,000 --> 00:34:58,000
+It includes guest appearances by Joe Jackson, lemon jelly,
+
+792
+00:34:58,000 --> 00:35:03,000
+Amy Mann, Henry Rollins, and Brad Paisley.
+
+793
+00:35:03,000 --> 00:35:07,000
+And he's got a couple samples on his website promoting this.
+
+794
+00:35:07,000 --> 00:35:09,000
+Shattner has been.com.
+
+795
+00:35:09,000 --> 00:35:13,000
+And I would love to play a little bit of it for you.
+
+796
+00:35:13,000 --> 00:35:16,000
+Okay, I'm going to play.
+
+797
+00:35:16,000 --> 00:35:18,000
+You have time.
+
+798
+00:35:18,000 --> 00:35:21,000
+And I'm playing this from the flash interface and the browser.
+
+799
+00:35:21,000 --> 00:35:22,000
+So who knows what can happen.
+
+800
+00:35:22,000 --> 00:35:24,000
+I'll be a bit of an experiment.
+
+801
+00:35:24,000 --> 00:35:25,000
+Here it comes.
+
+802
+00:35:25,000 --> 00:35:26,000
+Now.
+
+803
+00:35:26,000 --> 00:35:28,000
+Maybe you won't suffer.
+
+804
+00:35:28,000 --> 00:35:30,000
+Maybe it's quick.
+
+805
+00:35:30,000 --> 00:35:32,000
+But you'll have time to think.
+
+806
+00:35:32,000 --> 00:35:34,000
+Why did I waste it?
+
+807
+00:35:34,000 --> 00:35:36,000
+Why didn't I taste it?
+
+808
+00:35:36,000 --> 00:35:39,000
+You'll have time.
+
+809
+00:35:39,000 --> 00:35:42,000
+Because you're...
+
+810
+00:35:42,000 --> 00:35:44,000
+Gonna die.
+
+811
+00:35:48,000 --> 00:35:51,000
+Yes, it's gonna happen because it's happened to a lot of people I know.
+
+812
+00:35:51,000 --> 00:35:55,000
+My mother, my father, my loves.
+
+813
+00:35:55,000 --> 00:35:59,000
+The president, the kings of the pope.
+
+814
+00:35:59,000 --> 00:36:01,000
+They all had a hole.
+
+815
+00:36:01,000 --> 00:36:04,000
+And they muttered just before they went.
+
+816
+00:36:04,000 --> 00:36:07,000
+Maybe I won't go.
+
+817
+00:36:07,000 --> 00:36:11,000
+Live life like you're gonna die.
+
+818
+00:36:11,000 --> 00:36:14,000
+Because you are.
+
+819
+00:36:14,000 --> 00:36:16,000
+Maybe you won't suffer.
+
+820
+00:36:16,000 --> 00:36:18,000
+Maybe it's quick.
+
+821
+00:36:18,000 --> 00:36:20,000
+But you'll have time to think.
+
+822
+00:36:21,000 --> 00:36:23,000
+Why did I waste it?
+
+823
+00:36:23,000 --> 00:36:25,000
+Why didn't I taste it?
+
+824
+00:36:25,000 --> 00:36:27,000
+You'll have time.
+
+825
+00:36:27,000 --> 00:36:29,000
+Because you're...
+
+826
+00:36:29,000 --> 00:36:31,000
+Gonna die.
+
+827
+00:36:31,000 --> 00:36:34,000
+I'm gonna die.
+
+828
+00:36:34,000 --> 00:36:36,000
+I tell you else left us.
+
+829
+00:36:36,000 --> 00:36:39,000
+Best I've gone to heaven along the rules.
+
+830
+00:36:39,000 --> 00:36:40,000
+Johnny Cash!
+
+831
+00:36:40,000 --> 00:36:41,000
+Yeah!
+
+832
+00:36:41,000 --> 00:36:44,000
+JFK, that guy in the stones.
+
+833
+00:36:44,000 --> 00:36:45,000
+Yeah!
+
+834
+00:36:45,000 --> 00:36:47,000
+Luke Garic, Einstein, and...
+
+835
+00:36:47,000 --> 00:36:49,000
+Joey Ramon.
+
+836
+00:36:50,000 --> 00:36:53,000
+Johnny Ramon.
+
+837
+00:36:53,000 --> 00:36:56,000
+Have I convinced you that you're replying lips?
+
+838
+00:36:56,000 --> 00:36:59,000
+This may come as news, but it's time.
+
+839
+00:36:59,000 --> 00:37:00,000
+Okay.
+
+840
+00:37:00,000 --> 00:37:02,000
+So unfortunately, that's all there is.
+
+841
+00:37:02,000 --> 00:37:03,000
+It's all in China.
+
+842
+00:37:03,000 --> 00:37:04,000
+Let me...
+
+843
+00:37:04,000 --> 00:37:05,000
+Well...
+
+844
+00:37:05,000 --> 00:37:06,000
+Stop that.
+
+845
+00:37:06,000 --> 00:37:07,000
+It goes into the interview.
+
+846
+00:37:07,000 --> 00:37:09,000
+Wise words for a man in his 70s,
+
+847
+00:37:09,000 --> 00:37:12,000
+who's been around and seems to be enjoying life every single day.
+
+848
+00:37:12,000 --> 00:37:13,000
+You'll have time.
+
+849
+00:37:13,000 --> 00:37:15,000
+Bill Shattner from his album has been...
+
+850
+00:37:15,000 --> 00:37:18,000
+Can't wait to get my hands on a copy to play the fool song for.
+
+851
+00:37:18,000 --> 00:37:19,000
+Yeah.
+
+852
+00:37:19,000 --> 00:37:24,000
+Just a word or two about some new podcast feeds that are really exciting.
+
+853
+00:37:24,000 --> 00:37:28,000
+I told you before that I've been working with Tony Khan of...
+
+854
+00:37:28,000 --> 00:37:31,000
+WGBH embossed in public radio.
+
+855
+00:37:31,000 --> 00:37:35,000
+And he is the writer and producer of a show called Morning Stories.
+
+856
+00:37:35,000 --> 00:37:37,000
+And there's short stories.
+
+857
+00:37:37,000 --> 00:37:41,000
+They're read by a normal people who he coaches through the whole process.
+
+858
+00:37:41,000 --> 00:37:44,000
+He produces these wonderful, you know, two to three minute stories.
+
+859
+00:37:44,000 --> 00:37:48,000
+I've played some of them here on the source code.
+
+860
+00:37:48,000 --> 00:37:50,000
+And he finally...
+
+861
+00:37:50,000 --> 00:37:52,000
+He got it done.
+
+862
+00:37:52,000 --> 00:37:56,000
+Somehow he got MPR to, you know, to figure out all the rights issues.
+
+863
+00:37:56,000 --> 00:37:58,000
+And they've put up a feed, a podcast feed.
+
+864
+00:37:58,000 --> 00:38:01,000
+You can find it in the directory under public radio.
+
+865
+00:38:01,000 --> 00:38:06,000
+And I think this is just the start of many more MPR shows to come to...
+
+866
+00:38:06,000 --> 00:38:08,000
+to a podcast thing.
+
+867
+00:38:08,000 --> 00:38:09,000
+And we welcome them all, of course.
+
+868
+00:38:09,000 --> 00:38:11,000
+And I'm very excited about it.
+
+869
+00:38:11,000 --> 00:38:17,000
+Also, KOMO news from Seattle, KOMO 1000, I think it is.
+
+870
+00:38:17,000 --> 00:38:19,000
+They have also put up a podcast feed.
+
+871
+00:38:19,000 --> 00:38:21,000
+I've got this delay again.
+
+872
+00:38:21,000 --> 00:38:23,000
+It sounds like it got the rubber ball back.
+
+873
+00:38:23,000 --> 00:38:25,000
+One of those red, what rubber balls, you know,
+
+874
+00:38:25,000 --> 00:38:29,000
+the one with the leather strap that goes around at the back of your head like the GIMP.
+
+875
+00:38:29,000 --> 00:38:30,000
+Okay.
+
+876
+00:38:30,000 --> 00:38:35,000
+So KOMO 1000 news is doing it exactly the way I think it should be done.
+
+877
+00:38:35,000 --> 00:38:38,000
+They produce these, you know, little news bulletins.
+
+878
+00:38:38,000 --> 00:38:42,000
+These 40 to 40 is a 60 second news stories.
+
+879
+00:38:42,000 --> 00:38:45,000
+Which is fun, you know, because now for the first time I play this,
+
+880
+00:38:45,000 --> 00:38:47,000
+I can actually see how long these stories are.
+
+881
+00:38:47,000 --> 00:38:49,000
+And I'll get like three or four one after another.
+
+882
+00:38:49,000 --> 00:38:51,000
+And they sit there in the playlist.
+
+883
+00:38:51,000 --> 00:38:56,000
+And the reason that it's so cool that each individual podcast is a news story.
+
+884
+00:38:56,000 --> 00:38:59,000
+If you don't like the topic of the story, just hit the next button, boom,
+
+885
+00:38:59,000 --> 00:39:00,000
+you're on into the next story.
+
+886
+00:39:00,000 --> 00:39:04,000
+So it's fantastic and so happy that they're supporting podcasting this way.
+
+887
+00:39:04,000 --> 00:39:07,000
+Again, also one I think of many still to come.
+
+888
+00:39:07,000 --> 00:39:09,000
+And of course in the past couple of days,
+
+889
+00:39:09,000 --> 00:39:13,000
+there's once again been many different opinions about just what podcasting is
+
+890
+00:39:13,000 --> 00:39:15,000
+and what it's worth.
+
+891
+00:39:15,000 --> 00:39:18,000
+And well, I want to share some of that with you.
+
+892
+00:39:18,000 --> 00:39:22,000
+I wish to do some podcasting.
+
+893
+00:39:22,000 --> 00:39:26,000
+No, you cannot afford to.
+
+894
+00:39:26,000 --> 00:39:28,000
+Why not?
+
+895
+00:39:28,000 --> 00:39:31,000
+Oh, you have me in.
+
+896
+00:39:31,000 --> 00:39:33,000
+When does 95?
+
+897
+00:39:33,000 --> 00:39:38,000
+No, I'm podcasting.
+
+898
+00:39:38,000 --> 00:39:40,000
+What?
+
+899
+00:39:40,000 --> 00:39:46,000
+The term itself is bullshit.
+
+900
+00:39:46,000 --> 00:39:51,000
+Oh, fantastic.
+
+901
+00:39:51,000 --> 00:39:57,000
+And it's funny how you can see the game of telephone working with these podcasts.
+
+902
+00:39:57,000 --> 00:40:01,000
+I heard a podcast from who was at Northwest noise.
+
+903
+00:40:01,000 --> 00:40:02,000
+I think it was.
+
+904
+00:40:02,000 --> 00:40:05,000
+And he was referring to my podcast from the car where I said,
+
+905
+00:40:05,000 --> 00:40:08,000
+you know, I really love my A8, my Audi OA8.
+
+906
+00:40:08,000 --> 00:40:10,000
+It's got everything I need, all the technical bits,
+
+907
+00:40:10,000 --> 00:40:13,000
+but it's kind of boring and unsexy.
+
+908
+00:40:13,000 --> 00:40:16,000
+And he was talking about me saying that, you know,
+
+909
+00:40:16,000 --> 00:40:17,000
+I wasn't too hot on the car.
+
+910
+00:40:17,000 --> 00:40:20,000
+I was like, no, no, no, no, don't get me wrong.
+
+911
+00:40:20,000 --> 00:40:25,000
+So the history of podcasting also is,
+
+912
+00:40:25,000 --> 00:40:28,000
+you know, it gets its twist here and there.
+
+913
+00:40:28,000 --> 00:40:31,000
+And of course, you can leave it up to Raster Web Audio,
+
+914
+00:40:31,000 --> 00:40:34,000
+our buddy Pete to bring you the complete
+
+915
+00:40:34,000 --> 00:40:38,000
+and correct history of podcasting.
+
+916
+00:40:42,000 --> 00:40:45,000
+Welcome to Raster Web Audio,
+
+917
+00:40:45,000 --> 00:40:48,000
+441008.
+
+918
+00:40:48,000 --> 00:40:53,000
+Raster Web Audio is proud to bring you this audio biography,
+
+919
+00:40:53,000 --> 00:40:56,000
+the history of podcasting.
+
+920
+00:40:56,000 --> 00:40:59,000
+Adam Carey was born in New York, New Jersey,
+
+921
+00:40:59,000 --> 00:41:01,000
+the younger brother of Jim Carey.
+
+922
+00:41:01,000 --> 00:41:04,000
+Adam always had an interest in the law and lawyoring,
+
+923
+00:41:04,000 --> 00:41:07,000
+but soon found himself involved with pirates
+
+924
+00:41:07,000 --> 00:41:12,000
+who would steal transistoradios from Dr. Cyril's medical office,
+
+925
+00:41:12,000 --> 00:41:13,000
+and sell them on e-bates,
+
+926
+00:41:13,000 --> 00:41:15,000
+the lives of David Winner,
+
+927
+00:41:15,000 --> 00:41:19,000
+a man obsessed with digging and digging and still digging.
+
+928
+00:41:19,000 --> 00:41:22,000
+Soon Adam met up with another Dave,
+
+929
+00:41:22,000 --> 00:41:25,000
+Dave Slushie, the founder of 711,
+
+930
+00:41:25,000 --> 00:41:27,000
+and together they came up with a way to make
+
+931
+00:41:27,000 --> 00:41:29,000
+a video images of Tim Conway,
+
+932
+00:41:29,000 --> 00:41:32,000
+appear on your giant flat screen TV,
+
+933
+00:41:32,000 --> 00:41:35,000
+even if you lived in Conroy, South Dakota,
+
+934
+00:41:35,000 --> 00:41:38,000
+or anywhere a hurricane was likely to hit.
+
+935
+00:41:38,000 --> 00:41:41,000
+Later, Adam and Dave teamed up with the Gilmour Girls
+
+936
+00:41:41,000 --> 00:41:43,000
+and tried something called poo casting,
+
+937
+00:41:43,000 --> 00:41:47,000
+but found that the audience for people who wanted poo
+
+938
+00:41:47,000 --> 00:41:50,000
+auto-magically delivered to their front porch morning
+
+939
+00:41:50,000 --> 00:41:52,000
+with extremely small,
+
+940
+00:41:52,000 --> 00:41:54,000
+even among people who listened to NPR,
+
+941
+00:41:54,000 --> 00:41:56,000
+or were on NPR,
+
+942
+00:41:56,000 --> 00:41:58,000
+or used to have a radio show,
+
+943
+00:41:58,000 --> 00:42:00,000
+or even if they lived in Conroy, South Dakota.
+
+944
+00:42:00,000 --> 00:42:02,000
+Eventually pod casting was invented,
+
+945
+00:42:02,000 --> 00:42:04,000
+and we had a way to deliver iPods
+
+946
+00:42:04,000 --> 00:42:06,000
+to every boy and girl in the New Zealand.
+
+947
+00:42:06,000 --> 00:42:09,000
+But the only problem was that all of the files
+
+948
+00:42:09,000 --> 00:42:11,000
+on the iPods were stolen from Steve Gapes,
+
+949
+00:42:11,000 --> 00:42:13,000
+the creator of Microsoftware,
+
+950
+00:42:13,000 --> 00:42:15,000
+and this made him mad,
+
+951
+00:42:15,000 --> 00:42:19,000
+so a guy named Stephen Jobs kicked his ass quite hard,
+
+952
+00:42:19,000 --> 00:42:22,000
+and the flow of free iPods continued.
+
+953
+00:42:22,000 --> 00:42:24,000
+And that's how pod casting came to be,
+
+954
+00:42:24,000 --> 00:42:27,000
+and the fact that you're listening to this right now,
+
+955
+00:42:27,000 --> 00:42:29,000
+is proof that it works.
+
+956
+00:42:29,000 --> 00:42:31,000
+This has been audio biography.
+
+957
+00:42:31,000 --> 00:42:33,000
+Thank you, and good night.
+
+958
+00:42:33,000 --> 00:42:37,000
+Just had great visions of poo casting
+
+959
+00:42:37,000 --> 00:42:39,000
+with the Gilmour Girls.
+
+960
+00:42:39,000 --> 00:42:40,000
+Excellent.
+
+961
+00:42:40,000 --> 00:42:42,000
+Another podcast that popped up
+
+962
+00:42:42,000 --> 00:42:45,000
+is a professional radio feed from CBC,
+
+963
+00:42:45,000 --> 00:42:48,000
+Canada, Canadian Broadcasting Corporation,
+
+964
+00:42:48,000 --> 00:42:51,000
+which operates very much like a pod cast.
+
+965
+00:42:51,000 --> 00:42:53,000
+People can contribute to CBC,
+
+966
+00:42:53,000 --> 00:42:55,000
+the listeners do actively contribute,
+
+967
+00:42:55,000 --> 00:42:58,000
+and a story showed up on CBC,
+
+968
+00:42:58,000 --> 00:43:00,000
+and of course it was copied over to their pod cast,
+
+969
+00:43:00,000 --> 00:43:01,000
+all about pod casting.
+
+970
+00:43:01,000 --> 00:43:03,000
+This is much less humorous,
+
+971
+00:43:03,000 --> 00:43:05,000
+but very well put together,
+
+972
+00:43:05,000 --> 00:43:09,000
+and I think just an excellent overview of pod casting.
+
+973
+00:43:11,000 --> 00:43:13,000
+In a coffee shop in Charlotte Town,
+
+974
+00:43:13,000 --> 00:43:15,000
+Stephen Garrity is sitting down with a friend,
+
+975
+00:43:15,000 --> 00:43:17,000
+a cup of lemonade tea,
+
+976
+00:43:17,000 --> 00:43:19,000
+and a laptop computer,
+
+977
+00:43:19,000 --> 00:43:21,000
+a few key strokes later,
+
+978
+00:43:21,000 --> 00:43:23,000
+and he's on the air.
+
+979
+00:43:23,000 --> 00:43:25,000
+Live from the poor most of the time.
+
+980
+00:43:25,000 --> 00:43:27,000
+Live from the poor most of the time.
+
+981
+00:43:27,000 --> 00:43:30,000
+Live from the poor most of the time.
+
+982
+00:43:30,000 --> 00:43:32,000
+We're back to the poor most of the time.
+
+983
+00:43:32,000 --> 00:43:35,000
+This is Stephen Garrity here I'm here with.
+
+984
+00:43:35,000 --> 00:43:37,000
+This is the new face of radio,
+
+985
+00:43:37,000 --> 00:43:40,000
+at least if people like Garrity have their way.
+
+986
+00:43:40,000 --> 00:43:42,000
+It's called pod casting.
+
+987
+00:43:42,000 --> 00:43:43,000
+It works like this.
+
+988
+00:43:43,000 --> 00:43:46,000
+Ordinary people record their own show of sorts
+
+989
+00:43:46,000 --> 00:43:47,000
+into their computer,
+
+990
+00:43:47,000 --> 00:43:49,000
+then they post that show online
+
+991
+00:43:49,000 --> 00:43:52,000
+for others to download and listen to.
+
+992
+00:43:52,000 --> 00:43:55,000
+But don't expect high production values yet.
+
+993
+00:43:55,000 --> 00:43:57,000
+This is a trend just emerging.
+
+994
+00:43:57,000 --> 00:44:00,000
+Garrity show is interrupted by commercials.
+
+995
+00:44:00,000 --> 00:44:03,000
+It's interrupted by the waiter.
+
+996
+00:44:03,000 --> 00:44:04,000
+Interesting, in five or five.
+
+997
+00:44:04,000 --> 00:44:06,000
+Thank you.
+
+998
+00:44:06,000 --> 00:44:10,000
+Indeed, most pod cast shows so far sound,
+
+999
+00:44:10,000 --> 00:44:12,000
+a little bit campy.
+
+1000
+00:44:12,000 --> 00:44:14,000
+Hi, welcome to the Don and Drew Show.
+
+1001
+00:44:14,000 --> 00:44:15,000
+I'm Don and Sally.
+
+1002
+00:44:16,000 --> 00:44:17,000
+Take this example.
+
+1003
+00:44:17,000 --> 00:44:19,000
+Broadcast from Wayne was constant.
+
+1004
+00:44:19,000 --> 00:44:21,000
+And it's cold.
+
+1005
+00:44:21,000 --> 00:44:22,000
+It's very cold.
+
+1006
+00:44:22,000 --> 00:44:24,000
+We started fire today.
+
+1007
+00:44:24,000 --> 00:44:25,000
+Yeah.
+
+1008
+00:44:25,000 --> 00:44:28,000
+Well, like on the wood in the wood burner.
+
+1009
+00:44:28,000 --> 00:44:29,000
+In the wood burner.
+
+1010
+00:44:29,000 --> 00:44:31,000
+So Drew starts opening up with what you're wearing.
+
+1011
+00:44:31,000 --> 00:44:35,000
+Okay, I'm wearing some hammy downhill figurines.
+
+1012
+00:44:35,000 --> 00:44:37,000
+But others sound downright professional.
+
+1013
+00:44:37,000 --> 00:44:39,000
+From the Silicon Valley,
+
+1014
+00:44:39,000 --> 00:44:42,000
+Dan Finsett and the rest of California.
+
+1015
+00:44:43,000 --> 00:44:44,000
+I'm Eric Grace.
+
+1016
+00:44:44,000 --> 00:44:47,000
+And this is my show.
+
+1017
+00:44:47,000 --> 00:44:50,000
+This guy created a show by literally wandering around
+
+1018
+00:44:50,000 --> 00:44:52,000
+a technology conference with his laptop
+
+1019
+00:44:52,000 --> 00:44:54,000
+and doing impromptu interviews with industry
+
+1020
+00:44:54,000 --> 00:44:55,000
+potted tea bumped into.
+
+1021
+00:44:55,000 --> 00:44:58,000
+I'm sending her with Sam Tesla who started.
+
+1022
+00:44:58,000 --> 00:44:59,000
+And this is very deja vu,
+
+1023
+00:44:59,000 --> 00:45:01,000
+especially for those of you familiar with the Apple
+
+1024
+00:45:01,000 --> 00:45:02,000
+Store user group.
+
+1025
+00:45:02,000 --> 00:45:04,000
+You started a user group.
+
+1026
+00:45:04,000 --> 00:45:07,000
+Podcasting is evolving out of the blog trend.
+
+1027
+00:45:07,000 --> 00:45:08,000
+Short for web blog.
+
+1028
+00:45:08,000 --> 00:45:10,000
+Sort of an online diary.
+
+1029
+00:45:10,000 --> 00:45:12,000
+And like the beginnings of the blogging trend.
+
+1030
+00:45:12,000 --> 00:45:16,000
+Today's podcastures are mostly extreme computer users.
+
+1031
+00:45:16,000 --> 00:45:21,000
+The early adopters for whom the word nerd is a badge of honor.
+
+1032
+00:45:21,000 --> 00:45:25,000
+But increasingly, their content is going mainstream.
+
+1033
+00:45:25,000 --> 00:45:29,000
+Well, good afternoon, friends, family, world leaders.
+
+1034
+00:45:29,000 --> 00:45:32,000
+Welcome to the Daily Source Code for Wednesday October.
+
+1035
+00:45:32,000 --> 00:45:36,000
+This guy Adam Curry used to be a VJMTV.
+
+1036
+00:45:36,000 --> 00:45:41,000
+Now, he produces a daily podcast out of his castle in the Netherlands.
+
+1037
+00:45:41,000 --> 00:45:45,000
+Actually, we got a lot of cool things lined up for today's show.
+
+1038
+00:45:45,000 --> 00:45:48,000
+I've got a couple of songs to play for you.
+
+1039
+00:45:48,000 --> 00:45:51,000
+Lots of examples of new podcasts.
+
+1040
+00:45:51,000 --> 00:45:56,000
+One of the reasons podcasting is taking off is the way it's distributed.
+
+1041
+00:45:56,000 --> 00:45:59,000
+Listeners can download the show and play it on their computer,
+
+1042
+00:45:59,000 --> 00:46:01,000
+but there's an easier way.
+
+1043
+00:46:01,000 --> 00:46:03,000
+Using special software,
+
+1044
+00:46:03,000 --> 00:46:07,000
+listeners who own iPods, those portable music devices from Apple,
+
+1045
+00:46:07,000 --> 00:46:12,000
+can have their iPod automatically store the latest episode of their favorite show.
+
+1046
+00:46:12,000 --> 00:46:17,000
+It's sort of like a VCR that takes your favorite programs overnight while you sleep.
+
+1047
+00:46:17,000 --> 00:46:21,000
+Except in this case, it's taping radio shows.
+
+1048
+00:46:21,000 --> 00:46:25,000
+For now, if you want to catch a podcast, you'll have to hunt around.
+
+1049
+00:46:25,000 --> 00:46:28,000
+The main website that lists available shows, podcaster.net,
+
+1050
+00:46:28,000 --> 00:46:31,000
+only has about 35 shows listed.
+
+1051
+00:46:31,000 --> 00:46:33,000
+But that number is growing daily.
+
+1052
+00:46:33,000 --> 00:46:37,000
+As more people become self-made talk show hosts.
+
+1053
+00:46:37,000 --> 00:46:41,000
+And that is getting some radio executives nervous.
+
+1054
+00:46:41,000 --> 00:46:43,000
+Think about it.
+
+1055
+00:46:43,000 --> 00:46:46,000
+With enough of an audience of iPod listeners,
+
+1056
+00:46:46,000 --> 00:46:51,000
+it's entirely possible some of the better podcasters could actually attract advertisers.
+
+1057
+00:46:51,000 --> 00:46:56,000
+Advertisers who want to reach tech savvy and niche market listeners.
+
+1058
+00:46:56,000 --> 00:47:01,000
+In that scenario, radio stations, as we traditionally know them,
+
+1059
+00:47:01,000 --> 00:47:03,000
+would become irrelevant.
+
+1060
+00:47:03,000 --> 00:47:06,000
+Who needs to tune to a particular station,
+
+1061
+00:47:06,000 --> 00:47:09,000
+or even bookmark a specific website.
+
+1062
+00:47:09,000 --> 00:47:13,000
+If every morning, your listening device is already filtered out the shows you don't like,
+
+1063
+00:47:13,000 --> 00:47:16,000
+and left the few you do.
+
+1064
+00:47:16,000 --> 00:47:19,000
+You might argue it's already happening to television,
+
+1065
+00:47:19,000 --> 00:47:23,000
+where fewer viewers stick with a single channel through a whole evening,
+
+1066
+00:47:23,000 --> 00:47:28,000
+but rather pick and choose based on the show brand.
+
+1067
+00:47:28,000 --> 00:47:32,000
+Either way, today's podcasters are onto something,
+
+1068
+00:47:32,000 --> 00:47:35,000
+with that they realize it or not.
+
+1069
+00:47:35,000 --> 00:47:39,000
+Can I internet for a CDC radio?
+
+1070
+00:47:39,000 --> 00:47:41,000
+I'm Todd Maffin.
+
+1071
+00:47:41,000 --> 00:47:44,000
+Excellent piece, absolutely phenomenal.
+
+1072
+00:47:44,000 --> 00:47:49,000
+And actually, I'm considering adding that to the default feed
+
+1073
+00:47:49,000 --> 00:47:51,000
+that iPoders are now using.
+
+1074
+00:47:51,000 --> 00:47:54,000
+You know, you have the welcome, the kind of like hello world it worked
+
+1075
+00:47:54,000 --> 00:47:55,000
+and installed.
+
+1076
+00:47:55,000 --> 00:47:57,000
+I'm considering adding that one.
+
+1077
+00:47:57,000 --> 00:47:59,000
+It's not too big in file size,
+
+1078
+00:47:59,000 --> 00:48:02,000
+and I think it'll be just cool if that all sudden started playing.
+
+1079
+00:48:02,000 --> 00:48:05,000
+You'd really get a good idea of what's already out there.
+
+1080
+00:48:05,000 --> 00:48:10,000
+It mentions iPodor.net, which they have more than 35 feeds now.
+
+1081
+00:48:10,000 --> 00:48:12,000
+They have about 64 feeds.
+
+1082
+00:48:12,000 --> 00:48:15,000
+I'm considering asking those guys if they would like to become a node
+
+1083
+00:48:15,000 --> 00:48:18,000
+of the directory of iPodor.org,
+
+1084
+00:48:18,000 --> 00:48:22,000
+they have some different, they travel in different circles.
+
+1085
+00:48:22,000 --> 00:48:24,000
+So let's connect this together.
+
+1086
+00:48:24,000 --> 00:48:27,000
+Let's make this as big as possible.
+
+1087
+00:48:27,000 --> 00:48:29,000
+Okay, so you've set through all of that.
+
+1088
+00:48:29,000 --> 00:48:33,000
+It's about 48 minutes into your hour that we're here on the source code.
+
+1089
+00:48:33,000 --> 00:48:36,000
+Gonna play you a song that'll pick up your spirits for a Monday.
+
+1090
+00:48:36,000 --> 00:48:38,000
+It's Grand Funk Railroad.
+
+1091
+00:48:38,000 --> 00:48:42,000
+I don't need a whole lots of money.
+
+1092
+00:48:42,000 --> 00:48:46,000
+I don't need a big fine car.
+
+1093
+00:48:46,000 --> 00:48:50,000
+I got everything that I made before.
+
+1094
+00:48:50,000 --> 00:48:54,000
+I got more than I could ask for.
+
+1095
+00:48:54,000 --> 00:48:58,000
+I don't have to burn around.
+
+1096
+00:48:58,000 --> 00:49:01,000
+I don't have to stay out all night.
+
+1097
+00:49:01,000 --> 00:49:06,000
+Cause I got me a sweet, a sweet living woman.
+
+1098
+00:49:06,000 --> 00:49:10,000
+Cause you know just how to treat me right.
+
+1099
+00:49:10,000 --> 00:49:14,000
+But my baby, she's all right.
+
+1100
+00:49:14,000 --> 00:49:17,000
+But my baby, she's clean outside.
+
+1101
+00:49:17,000 --> 00:49:23,000
+Don't you know that she's just some kind of wonderful.
+
+1102
+00:49:23,000 --> 00:49:27,000
+She's some kind of wonderful, yes she is.
+
+1103
+00:49:27,000 --> 00:49:29,000
+She's some kind of wonderful.
+
+1104
+00:49:29,000 --> 00:49:33,000
+Yeah, yeah, yeah, yeah.
+
+1105
+00:49:33,000 --> 00:49:41,000
+When I hold all in my arm, you know she sets my soul on fire.
+
+1106
+00:49:41,000 --> 00:49:45,000
+Ooh, when the baby kisses me.
+
+1107
+00:49:45,000 --> 00:49:49,000
+My heart becomes still with desire.
+
+1108
+00:49:49,000 --> 00:49:53,000
+When she raps the Lord and all around me.
+
+1109
+00:49:53,000 --> 00:49:57,000
+About to rise me out of my mind.
+
+1110
+00:49:57,000 --> 00:50:01,000
+Yeah, I'll give my baby kiss to me.
+
+1111
+00:50:01,000 --> 00:50:05,000
+She's been up and down my spine.
+
+1112
+00:50:05,000 --> 00:50:09,000
+My baby, she's all right.
+
+1113
+00:50:09,000 --> 00:50:12,000
+But my baby, she's clean outside.
+
+1114
+00:50:12,000 --> 00:50:18,000
+Don't you know that she's just some kind of wonderful.
+
+1115
+00:50:18,000 --> 00:50:22,000
+She's some kind of wonderful, yes she is.
+
+1116
+00:50:22,000 --> 00:50:26,000
+She's some kind of wonderful, yes, yes, yes.
+
+1117
+00:50:28,000 --> 00:50:31,000
+That is the end of my day.
+
+1118
+00:50:31,000 --> 00:50:35,000
+Got a sweet little woman like mine.
+
+1119
+00:50:35,000 --> 00:50:38,000
+It got to be somebody.
+
+1120
+00:50:38,000 --> 00:50:42,000
+Got a sweet little woman like mine.
+
+1121
+00:50:42,000 --> 00:50:47,000
+Yeah, I can't I can't I can't I'm with you.
+
+1122
+00:50:47,000 --> 00:50:51,000
+Can I can I'm with you?
+
+1123
+00:50:51,000 --> 00:50:55,000
+I can't I can't I'm with you.
+
+1124
+00:50:56,000 --> 00:50:58,000
+Get again, done.
+
+1125
+00:50:58,000 --> 00:51:03,000
+Yeah, I can't I can't you.
+
+1126
+00:51:03,000 --> 00:51:06,000
+Yeah, I can't I can't I can't you.
+
+1127
+00:51:06,000 --> 00:51:08,000
+The world of all talking about my baby.
+
+1128
+00:51:08,000 --> 00:51:10,880
+She's so kind of wonderful,
+
+1129
+00:51:10,880 --> 00:51:13,000
+author, you know how that baby of each moment.
+
+1130
+00:51:13,000 --> 00:51:15,920
+She's so kind of wonderful, Tonking about my baby.
+
+1131
+00:51:15,920 --> 00:51:18,920
+She's so kind of wonderful, tonking about the baby.
+
+1132
+00:51:18,920 --> 00:51:22,640
+She's so kind and I wonder,
+
+1133
+00:51:22,640 --> 00:51:27,640
+I'm talking about my baby, I'm saying that I'm playing around.
+
+1134
+00:51:27,640 --> 00:51:32,640
+Yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah.
+
+1135
+00:51:32,640 --> 00:51:35,640
+Grandfog Railroad, some kind of wonderful, on the source code.
+
+1136
+00:51:35,640 --> 00:51:36,640
+My name's Adam Curry.
+
+1137
+00:51:36,640 --> 00:51:41,640
+The show came to you from the bunker, the canal house in Amsterdam.
+
+1138
+00:51:41,640 --> 00:51:43,640
+Looking forward to another show tomorrow.
+
+1139
+00:51:43,640 --> 00:51:46,640
+Keep all the good stuff coming, all the bits, all the short clips.
+
+1140
+00:51:46,640 --> 00:51:50,640
+Everything you find, send it to me, I love it, point me to URLs, whatever.
+
+1141
+00:51:50,640 --> 00:51:54,640
+Just about anything that can play audio, I can record.
+
+1142
+00:51:54,640 --> 00:51:56,640
+So, love to see more of that.
+
+1143
+00:51:56,640 --> 00:51:58,640
+Keep the podcasts coming as well.
+
+1144
+00:51:58,640 --> 00:52:01,640
+I'm subscribed to just about everything that comes in.
+
+1145
+00:52:01,640 --> 00:52:04,640
+I've unsubscribe from a few, just because, well, you know what,
+
+1146
+00:52:04,640 --> 00:52:08,640
+the big problem, the reason why is because hard drive size.
+
+1147
+00:52:08,640 --> 00:52:12,640
+Looks like we're finally in an industry where size really does matter.
+
+1148
+00:52:12,640 --> 00:52:15,640
+And that'll be it for me for today.
+
+1149
+00:52:15,640 --> 00:52:18,640
+Have you ever heard of this show?
+
+1150
+00:52:19,640 --> 00:52:23,640
+As always, comments are welcome through my email at amercurry.com
+
+1151
+00:52:23,640 --> 00:52:28,640
+or through my weblogger to post a comment on live.curry.com.
+
+1152
+00:52:28,640 --> 00:52:34,640
+And all the archives of the show and the podcast RSS feed are available at dailysourcecode.com.
+
+1153
+00:52:40,640 --> 00:52:43,640
+Hey, I'm going to have lunch. I'm out of here. Bye-bye.
+
+1154
+00:52:48,640 --> 00:52:58,640
+Bye-bye.
+
