@@ -1,0 +1,1520 @@
+1
+00:00:00,000 --> 00:00:10,000
+Daily source code for April 7th, 2005.
+
+2
+00:00:10,000 --> 00:00:13,000
+A top of the hour, I'm gonna go home, and then it's Adam Curry.
+
+3
+00:00:13,000 --> 00:00:20,000
+You're DJ, has only just begun.
+
+4
+00:00:20,000 --> 00:00:25,000
+It was $16 million worth of airplane strapped in my ass.
+
+5
+00:00:25,000 --> 00:00:29,000
+And the next generation radio content in my ears.
+
+6
+00:00:29,000 --> 00:00:35,000
+I like to think I'm flying into the future.
+
+7
+00:00:35,000 --> 00:00:39,000
+Hey everybody, welcome to the Daily Source Code.
+
+8
+00:00:39,000 --> 00:00:44,000
+Today's Thursday the 7th.
+
+9
+00:00:44,000 --> 00:00:49,000
+Oh my goodness, okay, a brand new form of Daily Source Code.
+
+10
+00:00:49,000 --> 00:00:51,000
+So today we've done this once before.
+
+11
+00:00:51,000 --> 00:00:52,000
+We've done it in Miami.
+
+12
+00:00:52,000 --> 00:00:55,000
+I'm testing out some data software.
+
+13
+00:00:55,000 --> 00:00:58,000
+Let me just call it the Cas Blaster for now.
+
+14
+00:00:58,000 --> 00:01:04,000
+This is going to be the easy-to-record podcast software.
+
+15
+00:01:04,000 --> 00:01:07,000
+Okay, oh my goodness.
+
+16
+00:01:07,000 --> 00:01:13,000
+It's been a while since I've been messing around with all the faders and all that stuff and all the software.
+
+17
+00:01:13,000 --> 00:01:18,000
+I've been working with a developer for the past couple of weeks on creating a piece of software that runs on a window.
+
+18
+00:01:18,000 --> 00:01:26,000
+It's a computer which will enable anyone to basically get a podcast recorded very, very simply.
+
+19
+00:01:26,000 --> 00:01:33,000
+And of course, there's lots of programs out there that record your microphone and there's lots of programs that can mix.
+
+20
+00:01:33,000 --> 00:01:38,000
+But to really make it easy, I guess that's all interface stuff, right?
+
+21
+00:01:38,000 --> 00:01:47,000
+So I figured today would be the day that I tried the second test of this series.
+
+22
+00:01:47,000 --> 00:01:51,000
+The second test of this, of using the Windows tablet.
+
+23
+00:01:51,000 --> 00:01:57,000
+I'm actually using the pen now to control the software, although it works perfectly well with the mouse.
+
+24
+00:01:57,000 --> 00:01:59,000
+But what the hair, right?
+
+25
+00:01:59,000 --> 00:02:06,000
+The sound, of course, will not be what you're used to hearing from the source code because I'm not running this through my sure SM7.
+
+26
+00:02:06,000 --> 00:02:10,000
+Not running it through any processing, no compressors, any of that.
+
+27
+00:02:10,000 --> 00:02:15,000
+This is purely a laptop and a headset.
+
+28
+00:02:16,000 --> 00:02:20,000
+And the headset is actually let me just see.
+
+29
+00:02:20,000 --> 00:02:23,000
+It's an all-tech lancing.
+
+30
+00:02:23,000 --> 00:02:30,000
+And it doesn't have the best of all sound quality because of course it's all about the sound card and the preamp and all that stuff.
+
+31
+00:02:30,000 --> 00:02:33,000
+But it does the job okay.
+
+32
+00:02:33,000 --> 00:02:39,000
+And the software is set up in a way that is just absolutely phenomenal.
+
+33
+00:02:39,000 --> 00:02:49,000
+It's really what I, as a radio guy, want to have because it has, and of course I'm providing a, like a semi screenshot along with the show notes.
+
+34
+00:02:49,000 --> 00:02:51,000
+You can take a look at this.
+
+35
+00:02:51,000 --> 00:02:55,000
+It has a row of what I'd call cart decks, which are basically jingles.
+
+36
+00:02:55,000 --> 00:02:58,000
+You can see it's one, two, three for so it's 10 slots for jingles.
+
+37
+00:02:58,000 --> 00:03:01,000
+And then it has four slots for songs.
+
+38
+00:03:01,000 --> 00:03:08,000
+Again, this is all beta software, so it could be crapping out, it could sound, it could basically sound shitty.
+
+39
+00:03:08,000 --> 00:03:13,000
+It has meters on it, so you can keep the levels kind of in check.
+
+40
+00:03:13,000 --> 00:03:19,000
+Basically, you want the two view meters to be in the yellow and they can hit the red.
+
+41
+00:03:19,000 --> 00:03:31,000
+In fact, on this meter, I'm seeing now you can hit the red almost all the way because when you, when you spike the meters to the right, then you're basically at zero db, which would be the maximum, it shouldn't be any more than that.
+
+42
+00:03:32,000 --> 00:03:42,000
+Also, no reverb or any effects like that, which apparently seems to be very tough to do in windows, at least while you're recording something on the fly.
+
+43
+00:03:42,000 --> 00:03:52,000
+But, you know, the whole setup is, it's, I gotta say, it's sweet, got three faders here, one for the headphones, which,
+
+44
+00:03:53,000 --> 00:03:59,000
+Oh man, okay, so I don't know how to integrate Skype yet, so I'm not gonna, oh, I actually should have answered that call, that was pretty stupid.
+
+45
+00:03:59,000 --> 00:04:02,000
+I bet you'll work too, what maybe it won't.
+
+46
+00:04:02,000 --> 00:04:06,000
+So that's something I gotta check out, that's for another beta test.
+
+47
+00:04:06,000 --> 00:04:17,000
+It has a mic fader, which you basically set once, so that you're not modulating in the red, then it has a little talk button, which you turn off, I just did that there.
+
+48
+00:04:17,000 --> 00:04:26,000
+And then it has an auto button, well, it actually has another fader for a player, which means anything you play from either the cart decks or from the song decks.
+
+49
+00:04:26,000 --> 00:04:34,000
+If you aren't comfortable with fading stuff up and down, so for instance, let me just give an example with the rock money-off opener there.
+
+50
+00:04:34,000 --> 00:04:40,000
+So now I'm basically sliding that fader down and then I slide it back up like that.
+
+51
+00:04:40,000 --> 00:04:55,000
+Right, so I'm doing that manually, it has an automatic feature, so if I hit that, it'll just bring down the level of whatever's playing to basically match your voice or your voice can talk over that.
+
+52
+00:04:55,000 --> 00:05:00,000
+And when you release it, it should automatically flow back up.
+
+53
+00:05:00,000 --> 00:05:05,000
+Okay, first bug determined, it doesn't fade back automatically.
+
+54
+00:05:05,000 --> 00:05:14,000
+Let me try that again, so I've got it up about the same, just grab the fader there.
+
+55
+00:05:14,000 --> 00:05:19,000
+This particular instance, the pen is not doing a good job, let me just grab the mouse, okay.
+
+56
+00:05:19,000 --> 00:05:26,000
+So now it's at equal level with a microphone and I hit the auto button and it just fades it down nice and smoothly so you can talk over it.
+
+57
+00:05:26,000 --> 00:05:33,000
+So that works well, only when I release that, it should go back to the same spot, and it's not doing that, okay, so that's something we got to work on.
+
+58
+00:05:34,000 --> 00:05:44,000
+Okay, so I can just stop that, that's pretty cool because everything immediately queues up, so it can be restarted, so you don't have to rewind any players or anything.
+
+59
+00:05:44,000 --> 00:05:48,000
+So I have a couple other jingles that I just and sweepers that I just loaded in here.
+
+60
+00:05:48,000 --> 00:05:50,000
+This is one that was sent to me the other day.
+
+61
+00:05:50,000 --> 00:05:53,000
+Hi, this is Rachel from audiocollective.net.
+
+62
+00:05:53,000 --> 00:05:59,000
+If you're listening to Adam Curry on the daily source code.
+
+63
+00:05:59,000 --> 00:06:03,000
+The only thing this beta software doesn't do is light my spliff, that's too bad.
+
+64
+00:06:03,000 --> 00:06:09,000
+It has a pause button, but I'm afraid to use it because I don't think that's implemented yet.
+
+65
+00:06:09,000 --> 00:06:21,000
+Okay, now to the player, the player windows, let me see, I just put a couple of things in here, just to give you some examples.
+
+66
+00:06:21,000 --> 00:06:23,000
+Let me kick this one in for you.
+
+67
+00:06:24,000 --> 00:06:30,000
+I think this is actually a mashup I might have played before, but we'll just roll this one out for you right now.
+
+68
+00:06:30,000 --> 00:06:37,000
+We roll rock and roll you on the on the on the on the on the on the daily source code.
+
+69
+00:06:53,000 --> 00:07:00,000
+We roll rock and roll you on the on the on the daily source code.
+
+70
+00:07:00,000 --> 00:07:06,000
+We roll rock and roll you on the on the daily source code.
+
+71
+00:07:06,000 --> 00:07:12,000
+We roll rock and roll you on the daily source code.
+
+72
+00:07:12,000 --> 00:07:19,000
+We roll rock and roll you on the daily source code.
+
+73
+00:07:20,000 --> 00:07:27,000
+We roll rock and roll you on the daily source code.
+
+74
+00:07:32,000 --> 00:07:39,000
+If you want to hear.
+
+75
+00:07:39,000 --> 00:07:44,000
+If I want to hear audience hear you hear me out.
+
+76
+00:07:44,000 --> 00:07:48,000
+And we'll be moving on and singing at some old song
+
+77
+00:07:48,000 --> 00:07:50,000
+And we'll be singing
+
+78
+00:07:50,000 --> 00:07:52,000
+We'll be singing
+
+79
+00:07:52,000 --> 00:07:54,000
+We'll be singing
+
+80
+00:07:54,000 --> 00:07:56,000
+We'll be singing
+
+81
+00:07:56,000 --> 00:07:58,000
+We'll be singing
+
+82
+00:07:58,000 --> 00:08:00,000
+We'll be singing
+
+83
+00:08:00,000 --> 00:08:02,000
+We'll be singing
+
+84
+00:08:02,000 --> 00:08:04,000
+We'll be singing
+
+85
+00:08:04,000 --> 00:08:08,000
+We'll be singing
+
+86
+00:08:08,000 --> 00:08:10,000
+We'll be singing
+
+87
+00:08:10,000 --> 00:08:12,000
+We'll be singing
+
+88
+00:08:12,000 --> 00:08:14,000
+We'll be singing
+
+89
+00:08:14,000 --> 00:08:16,000
+We'll be singing
+
+90
+00:08:16,000 --> 00:08:18,000
+We'll be singing
+
+91
+00:08:18,000 --> 00:08:20,000
+We'll be singing
+
+92
+00:08:20,000 --> 00:08:28,000
+You need to keep stop
+
+93
+00:08:28,000 --> 00:08:30,000
+You need to keep stop
+
+94
+00:08:30,000 --> 00:08:34,000
+We will be singing
+
+95
+00:08:34,000 --> 00:08:38,000
+We'll be singing
+
+96
+00:08:38,000 --> 00:08:40,000
+We're singing
+
+97
+00:09:08,000 --> 00:09:10,000
+We're singing
+
+98
+00:09:10,000 --> 00:09:12,000
+We're singing
+
+99
+00:09:12,000 --> 00:09:14,000
+We're singing
+
+100
+00:09:14,000 --> 00:09:16,000
+We're singing
+
+101
+00:09:16,000 --> 00:09:18,000
+We're singing
+
+102
+00:09:22,000 --> 00:09:24,000
+Okay
+
+103
+00:09:24,000 --> 00:09:26,000
+Hey, that's interesting
+
+104
+00:09:26,000 --> 00:09:30,000
+All right, learn something new here
+
+105
+00:09:30,000 --> 00:09:34,000
+By the way, you're just along for the ride beta testing with me, I guess
+
+106
+00:09:34,000 --> 00:09:36,000
+So under each of the song players
+
+107
+00:09:36,000 --> 00:09:40,000
+It has a little progress bar that shows you how far it's playing
+
+108
+00:09:40,000 --> 00:09:42,000
+Now I don't know if that MP3
+
+109
+00:09:42,000 --> 00:09:44,000
+Just had more like
+
+110
+00:09:44,000 --> 00:09:48,000
+Silence at the end of it
+
+111
+00:09:48,000 --> 00:09:50,000
+But let's see
+
+112
+00:09:50,000 --> 00:09:54,000
+Because I basically it didn't look like it was all the way at the end
+
+113
+00:09:54,000 --> 00:09:56,000
+So let me drag the
+
+114
+00:09:56,000 --> 00:09:58,000
+The progress bar to kind of
+
+115
+00:09:58,000 --> 00:10:00,000
+Where it's stopped there
+
+116
+00:10:00,000 --> 00:10:02,000
+Oh my second now, I'm just going on my pen
+
+117
+00:10:02,000 --> 00:10:04,000
+It's not wanting to react very well
+
+118
+00:10:04,000 --> 00:10:08,000
+So if I play it from here
+
+119
+00:10:08,000 --> 00:10:10,000
+Okay
+
+120
+00:10:10,000 --> 00:10:12,000
+Well that's another thing that has to be fixed
+
+121
+00:10:12,000 --> 00:10:14,000
+So you can't actually pause it
+
+122
+00:10:14,000 --> 00:10:16,000
+You can't actually queue it up to a spot where you want it to be
+
+123
+00:10:16,000 --> 00:10:18,000
+Okay, we've got to improve that
+
+124
+00:10:18,000 --> 00:10:20,000
+So I hope you're understanding
+
+125
+00:10:20,000 --> 00:10:22,000
+All the crap that I'm talking about here
+
+126
+00:10:22,000 --> 00:10:26,000
+Because basically the whole point of this is to
+
+127
+00:10:26,000 --> 00:10:28,000
+Is to have an application that
+
+128
+00:10:28,000 --> 00:10:30,000
+95% of the world can use
+
+129
+00:10:30,000 --> 00:10:32,000
+Which means it has to run on windows
+
+130
+00:10:32,000 --> 00:10:34,000
+And that is all encompassing
+
+131
+00:10:34,000 --> 00:10:36,000
+You put your jingles
+
+132
+00:10:36,000 --> 00:10:38,000
+Or your little bit you want to play
+
+133
+00:10:38,000 --> 00:10:42,000
+Stuff that you need to see the progress bar on to see how far it is
+
+134
+00:10:42,000 --> 00:10:44,000
+Of course why that didn't work out in that case
+
+135
+00:10:44,000 --> 00:10:46,000
+I'm not quite sure
+
+136
+00:10:46,000 --> 00:10:48,000
+You should be able to queue it up
+
+137
+00:10:48,000 --> 00:10:50,000
+When started from that spot that didn't work
+
+138
+00:10:50,000 --> 00:10:52,000
+So that's something we got to change
+
+139
+00:10:52,000 --> 00:10:54,000
+So actually I hope someone's writing this down
+
+140
+00:10:54,000 --> 00:10:56,000
+So we can make these improvements
+
+141
+00:10:56,000 --> 00:10:58,000
+What's really nice is there's
+
+142
+00:10:58,000 --> 00:11:03,000
+In the in the recorder portion of the of the interface
+
+143
+00:11:03,000 --> 00:11:06,000
+The record button shows you exactly how long
+
+144
+00:11:06,000 --> 00:11:08,000
+Been recording so that's 11 minutes right now
+
+145
+00:11:08,000 --> 00:11:12,000
+Okay, so that's kind of screw up the idea I had
+
+146
+00:11:12,000 --> 00:11:15,000
+Because I have a piece of the
+
+147
+00:11:15,000 --> 00:11:18,000
+Lissivia's Bitties the latest bitty cast that was from
+
+148
+00:11:18,000 --> 00:11:22,000
+Or was that yesterday's bitty cast the six
+
+149
+00:11:22,000 --> 00:11:26,000
+And they played a song
+
+150
+00:11:26,000 --> 00:11:30,000
+Just at the end of the show, which was written by
+
+151
+00:11:30,000 --> 00:11:32,000
+Bitty Amanda Monaco I believe
+
+152
+00:11:32,000 --> 00:11:34,000
+So now I'm going to have to fast forward to it
+
+153
+00:11:34,000 --> 00:11:36,000
+So let me see
+
+154
+00:11:36,000 --> 00:11:38,000
+So I can definitely drag
+
+155
+00:11:38,000 --> 00:11:40,000
+There's the girls
+
+156
+00:11:40,000 --> 00:11:42,000
+So let me drag the player over
+
+157
+00:11:42,000 --> 00:11:44,000
+That works fine actually
+
+158
+00:11:44,000 --> 00:11:46,000
+Okay, let me
+
+159
+00:11:46,000 --> 00:11:48,000
+Back to her house and she was so cute
+
+160
+00:11:48,000 --> 00:11:50,000
+So I'll go in the back to see
+
+161
+00:11:50,000 --> 00:11:52,000
+Okay, we're just a little bit more
+
+162
+00:11:52,000 --> 00:11:54,000
+I will be better soon
+
+163
+00:11:54,000 --> 00:11:56,000
+For girls
+
+164
+00:12:02,000 --> 00:12:04,000
+Okay, okay, here it is, let me just
+
+165
+00:12:04,000 --> 00:12:07,000
+Okay, so that's something we got to fix
+
+166
+00:12:07,000 --> 00:12:08,000
+Okay
+
+167
+00:12:08,000 --> 00:12:11,000
+Got to be able to cue stuff up in the middle of a song
+
+168
+00:12:11,000 --> 00:12:14,000
+I'm gonna play a song in Amanda wrote when she first met Andre
+
+169
+00:12:14,000 --> 00:12:16,000
+Okay, listen to this song. It's a beautiful song
+
+170
+00:12:16,000 --> 00:12:17,000
+Thank you
+
+171
+00:12:17,000 --> 00:12:19,000
+It's a sweetest thing ever
+
+172
+00:12:19,000 --> 00:12:25,000
+I've been wine, I've been dying
+
+173
+00:12:25,000 --> 00:12:29,000
+For so many a time
+
+174
+00:12:29,000 --> 00:12:33,000
+Left to wait for a date
+
+175
+00:12:33,000 --> 00:12:35,000
+And wait
+
+176
+00:12:35,000 --> 00:12:37,000
+And wait
+
+177
+00:12:37,000 --> 00:12:41,000
+Could be tall handsome stable
+
+178
+00:12:41,000 --> 00:12:45,000
+Or cultured yet torture
+
+179
+00:12:45,000 --> 00:12:48,000
+And yet they are one
+
+180
+00:12:48,000 --> 00:12:53,000
+And the same
+
+181
+00:12:53,000 --> 00:12:57,000
+Tall or shard
+
+182
+00:12:57,000 --> 00:13:02,000
+Oh, I don't care if he's got money
+
+183
+00:13:02,000 --> 00:13:07,000
+Lately they're one and the same
+
+184
+00:13:10,000 --> 00:13:13,000
+This one, that one
+
+185
+00:13:13,000 --> 00:13:17,000
+All a disappointment they should hang
+
+186
+00:13:18,000 --> 00:13:23,000
+Their heads down in shame
+
+187
+00:13:23,000 --> 00:13:27,000
+I'll hear him say
+
+188
+00:13:27,000 --> 00:13:32,000
+There is no one like you
+
+189
+00:13:32,000 --> 00:13:37,000
+The crises and old flames arrive
+
+190
+00:13:37,000 --> 00:13:43,000
+And make me blue but someday soon
+
+191
+00:13:43,000 --> 00:13:48,000
+I'll find myself a brighter flame
+
+192
+00:13:48,000 --> 00:13:53,000
+That won't be just one and the same
+
+193
+00:14:13,000 --> 00:14:28,000
+I'll hear him say
+
+194
+00:14:28,000 --> 00:14:33,000
+There is no one like you
+
+195
+00:14:33,000 --> 00:14:38,000
+No crisis, no all games
+
+196
+00:14:38,000 --> 00:14:45,000
+I know my lonely days all through
+
+197
+00:14:45,000 --> 00:14:50,000
+I'll have found myself a brighter flame
+
+198
+00:14:50,000 --> 00:14:57,000
+That isn't just one and the same
+
+199
+00:14:57,000 --> 00:15:03,000
+He won't be just one and the same
+
+200
+00:15:03,000 --> 00:15:07,000
+Oh man, the biddies, they sing so beautiful
+
+201
+00:15:07,000 --> 00:15:10,000
+Don't you agree
+
+202
+00:15:10,000 --> 00:15:12,000
+Just give me goosebumps
+
+203
+00:15:12,000 --> 00:15:14,000
+Okay, so that won't work perfectly
+
+204
+00:15:14,000 --> 00:15:16,000
+It ended the player progress bar
+
+205
+00:15:16,000 --> 00:15:17,000
+Showed the very ending
+
+206
+00:15:17,000 --> 00:15:21,000
+So I guess the wheel rocky thing was just a bogus MP3
+
+207
+00:15:21,000 --> 00:15:23,000
+It's amazing
+
+208
+00:15:23,000 --> 00:15:26,000
+Because I've been working with this developer as I said for a couple of weeks
+
+209
+00:15:26,000 --> 00:15:28,000
+And you think you've got everything right
+
+210
+00:15:28,000 --> 00:15:31,000
+And then you go and test it and it's all the stuff pops up
+
+211
+00:15:31,000 --> 00:15:32,000
+Oh man, no I need that
+
+212
+00:15:32,000 --> 00:15:35,000
+I guess it only really works when you're podcasting
+
+213
+00:15:35,000 --> 00:15:37,000
+I'm really trying to figure this stuff out
+
+214
+00:15:37,000 --> 00:15:39,000
+So let me just fire off another jingle there
+
+215
+00:15:39,000 --> 00:15:43,000
+Thanks to Tom Schooting
+
+216
+00:15:43,000 --> 00:15:47,000
+He's the guy that puts on my old radio shows online
+
+217
+00:15:47,000 --> 00:15:51,000
+The Korean vendingles shows that I used to do it radio Veronica
+
+218
+00:15:51,000 --> 00:15:53,000
+He does that from Australia
+
+219
+00:15:53,000 --> 00:15:55,000
+I sent him that whole box of cassettes when we moved
+
+220
+00:15:55,000 --> 00:15:57,000
+And he's just been putting stuff up online
+
+221
+00:15:57,000 --> 00:15:58,000
+Relentlessly, it's been great
+
+222
+00:15:58,000 --> 00:16:01,000
+He sent me all these jingles that I guess he found in some
+
+223
+00:16:01,000 --> 00:16:03,000
+On some cassettes somewhere
+
+224
+00:16:03,000 --> 00:16:06,000
+We talked a while ago about Big Bad Al
+
+225
+00:16:06,000 --> 00:16:08,000
+I think I was weeks ago
+
+226
+00:16:08,000 --> 00:16:10,000
+Kind of like the daddy over the radio
+
+227
+00:16:10,000 --> 00:16:14,000
+The guy who mentored me and a lot of other guys
+
+228
+00:16:14,000 --> 00:16:18,000
+That's what I actually played at the very beginning of the show
+
+229
+00:16:18,000 --> 00:16:20,000
+Let's listen to him again there
+
+230
+00:16:20,000 --> 00:16:22,000
+A top of the hour I'm gonna go home
+
+231
+00:16:22,000 --> 00:16:24,000
+And then it's Adam Curry
+
+232
+00:16:24,000 --> 00:16:26,000
+I use that one so often
+
+233
+00:16:26,000 --> 00:16:31,000
+Of course now it sounds kind of shitty because it's coming off of a cassette
+
+234
+00:16:32,000 --> 00:16:35,000
+16 minutes 23 seconds into this
+
+235
+00:16:35,000 --> 00:16:37,000
+This is so far going pretty well
+
+236
+00:16:37,000 --> 00:16:41,000
+What's nice about the program as I said it's supposed to be all encompassing
+
+237
+00:16:41,000 --> 00:16:44,000
+When you stop recording, it'll obviously stop recording
+
+238
+00:16:44,000 --> 00:16:48,000
+Then you hit save and then it pops up a window that asks you for some basic information
+
+239
+00:16:48,000 --> 00:16:49,000
+What does that information?
+
+240
+00:16:49,000 --> 00:16:52,000
+Well, of course, it's the ID3 tags, right?
+
+241
+00:16:52,000 --> 00:16:54,000
+And then you save it and it's done
+
+242
+00:16:54,000 --> 00:16:55,000
+It's already recorded MP3
+
+243
+00:16:55,000 --> 00:16:57,000
+It's compressed with a standard setting
+
+244
+00:16:57,000 --> 00:17:00,000
+We're using the same setting I always use on the daily source code
+
+245
+00:17:01,000 --> 00:17:06,000
+Which after months of fooling around with bit rates and sample rates
+
+246
+00:17:06,000 --> 00:17:09,000
+We kind of figured this is the one that works the best
+
+247
+00:17:09,000 --> 00:17:11,000
+So we simplified all that
+
+248
+00:17:11,000 --> 00:17:15,000
+These of course I guess could eventually all be advanced options
+
+249
+00:17:15,000 --> 00:17:16,000
+If you really want to set that
+
+250
+00:17:16,000 --> 00:17:20,000
+But after that
+
+251
+00:17:20,000 --> 00:17:23,000
+There will of course be an upload piece
+
+252
+00:17:23,000 --> 00:17:27,000
+And I've been thinking about all these tools that are coming online
+
+253
+00:17:27,000 --> 00:17:33,000
+And I mean it's like there are so many different recorder packages out there
+
+254
+00:17:33,000 --> 00:17:38,000
+There's a big benefit to having an interface like the one that I'm using right now
+
+255
+00:17:38,000 --> 00:17:40,000
+Because it's really set for podcast
+
+256
+00:17:40,000 --> 00:17:42,000
+And at least for a particular type of podcast
+
+257
+00:17:42,000 --> 00:17:45,000
+There's more I'd love to have Skype integrated into this
+
+258
+00:17:45,000 --> 00:17:49,000
+So if you want to just call someone on Skype it just records that
+
+259
+00:17:49,000 --> 00:17:51,000
+Or maybe you could even set a level on that
+
+260
+00:17:51,000 --> 00:17:54,000
+Something we got to think about as well
+
+261
+00:17:54,000 --> 00:17:57,000
+But then the upload to the server where you're hosting it
+
+262
+00:17:57,000 --> 00:18:01,000
+I think that should just be using the meta weblog API
+
+263
+00:18:01,000 --> 00:18:04,000
+Which I believe does in closures
+
+264
+00:18:04,000 --> 00:18:07,000
+Not 100% sure but I think it does
+
+265
+00:18:07,000 --> 00:18:11,000
+Because then basically it'll create a blog post
+
+266
+00:18:11,000 --> 00:18:14,000
+And you could use that with any weblogging software
+
+267
+00:18:14,000 --> 00:18:18,000
+You could use it with any podcast hosting service
+
+268
+00:18:18,000 --> 00:18:22,000
+And even though I definitely want to
+
+269
+00:18:22,000 --> 00:18:26,000
+Rule the world global world domination
+
+270
+00:18:26,000 --> 00:18:28,000
+Anything we can do with podcasting
+
+271
+00:18:28,000 --> 00:18:30,000
+It seems like that's the smartest way to go
+
+272
+00:18:30,000 --> 00:18:33,000
+Because there's going to be lots of different programs
+
+273
+00:18:33,000 --> 00:18:35,000
+To record and to upload
+
+274
+00:18:35,000 --> 00:18:38,000
+And it just takes away all the hassle of trying to figure out
+
+275
+00:18:38,000 --> 00:18:40,000
+How do I get it up there?
+
+276
+00:18:40,000 --> 00:18:43,000
+How do I FTP then create the RSS feed?
+
+277
+00:18:43,000 --> 00:18:46,000
+I think it's some programs that I've seen out there
+
+278
+00:18:46,000 --> 00:18:48,000
+Create an RSS feed for you
+
+279
+00:18:48,000 --> 00:18:50,000
+And then it'll upload that as well
+
+280
+00:18:50,000 --> 00:18:53,000
+But I think that it seems if we just follow the path
+
+281
+00:18:53,000 --> 00:18:55,000
+The blogging software has gone
+
+282
+00:18:55,000 --> 00:18:59,000
+There's lots of different applications
+
+283
+00:18:59,000 --> 00:19:02,000
+That are basically just using the meta weblog API
+
+284
+00:19:02,000 --> 00:19:04,000
+To talk to in this case I use a
+
+285
+00:19:04,000 --> 00:19:06,000
+Manila server for my weblog
+
+286
+00:19:06,000 --> 00:19:09,000
+And I've used radio user land
+
+287
+00:19:09,000 --> 00:19:11,000
+Through the meta weblog API
+
+288
+00:19:11,000 --> 00:19:13,000
+And currently I use Mars Edit
+
+289
+00:19:13,000 --> 00:19:14,000
+Which is made by
+
+290
+00:19:14,000 --> 00:19:16,000
+I think Brent does that
+
+291
+00:19:16,000 --> 00:19:19,000
+Or does net news wire of course I do that on the Mac
+
+292
+00:19:19,000 --> 00:19:22,000
+And then it makes a lot of sense
+
+293
+00:19:22,000 --> 00:19:26,000
+Because then instead of trying to compete on all these weird levels
+
+294
+00:19:26,000 --> 00:19:28,000
+You just compete on the interface
+
+295
+00:19:28,000 --> 00:19:30,000
+Whatever interface works best for you
+
+296
+00:19:30,000 --> 00:19:32,000
+And you could switch back and forth between
+
+297
+00:19:32,000 --> 00:19:33,000
+Different programs
+
+298
+00:19:33,000 --> 00:19:36,000
+Perhaps depending on what type of podcast you're doing
+
+299
+00:19:36,000 --> 00:19:40,000
+So it's kind of a bummer that as I said
+
+300
+00:19:40,000 --> 00:19:42,000
+I can't queue up some of these songs
+
+301
+00:19:42,000 --> 00:19:44,000
+Believe me by the next beta
+
+302
+00:19:44,000 --> 00:19:46,000
+I'm sure I will be able to
+
+303
+00:19:46,000 --> 00:19:48,000
+I found this show which is
+
+304
+00:19:48,000 --> 00:19:51,000
+It might be an existing radio program
+
+305
+00:19:51,000 --> 00:19:53,000
+But probably only on AM
+
+306
+00:19:53,000 --> 00:19:56,000
+But it's a financial podcast
+
+307
+00:19:56,000 --> 00:20:01,000
+The following is a presentation of the Tiger Financial News Network
+
+308
+00:20:01,000 --> 00:20:03,000
+I guess
+
+309
+00:20:03,000 --> 00:20:05,000
+I guess it is from a network
+
+310
+00:20:05,000 --> 00:20:07,000
+The Tom O'Brien show
+
+311
+00:20:07,000 --> 00:20:09,000
+He'll just scan forward
+
+312
+00:20:09,000 --> 00:20:10,000
+What you hear?
+
+313
+00:20:10,000 --> 00:20:11,000
+He'll show
+
+314
+00:20:11,000 --> 00:20:12,000
+Pieces of eight
+
+315
+00:20:12,000 --> 00:20:14,000
+What you talk about is principles
+
+316
+00:20:14,000 --> 00:20:16,000
+And whether you agree
+
+317
+00:20:16,000 --> 00:20:18,000
+That's using the auto ducking feature there
+
+318
+00:20:18,000 --> 00:20:20,000
+Automatically lowering that anyway
+
+319
+00:20:20,000 --> 00:20:21,000
+Okay, so that's the Tom O'Brien show
+
+320
+00:20:21,000 --> 00:20:23,000
+Podcasts I'm now subscribed to
+
+321
+00:20:23,000 --> 00:20:24,000
+It does sound like it's coming from a
+
+322
+00:20:24,000 --> 00:20:26,000
+From a regular radio program
+
+323
+00:20:26,000 --> 00:20:28,000
+Okay
+
+324
+00:20:28,000 --> 00:20:31,000
+Well, I guess we've pretty much done everything we can
+
+325
+00:20:31,000 --> 00:20:33,000
+For this particular test
+
+326
+00:20:33,000 --> 00:20:35,000
+There's one very important thing
+
+327
+00:20:35,000 --> 00:20:36,000
+I still have to wait
+
+328
+00:20:36,000 --> 00:20:37,000
+Hold on a second before I get to that
+
+329
+00:20:37,000 --> 00:20:39,000
+Let me just unplug the power cord
+
+330
+00:20:39,000 --> 00:20:41,000
+Let me go mobile here for a sec
+
+331
+00:20:42,000 --> 00:20:43,000
+We walk over to the Mac
+
+332
+00:20:43,000 --> 00:20:45,000
+Where I have my other show notes
+
+333
+00:20:45,000 --> 00:20:46,000
+Usually
+
+334
+00:20:46,000 --> 00:20:48,000
+Let me just check and make sure I'm not missing anything
+
+335
+00:20:48,000 --> 00:20:50,000
+Using the headset is kind of cool though
+
+336
+00:20:50,000 --> 00:20:52,000
+I hope it sounds reasonably okay
+
+337
+00:20:52,000 --> 00:20:54,000
+No, the only thing I had in there
+
+338
+00:20:54,000 --> 00:20:55,000
+Was the Bitties thing
+
+339
+00:20:55,000 --> 00:20:57,000
+Okay, so we've pretty much
+
+340
+00:20:57,000 --> 00:20:59,000
+Everything I want to do for this beta test
+
+341
+00:20:59,000 --> 00:21:01,000
+A little bit shorter source code
+
+342
+00:21:01,000 --> 00:21:02,000
+The normal but
+
+343
+00:21:02,000 --> 00:21:04,000
+I hit all the things I wanted to hit
+
+344
+00:21:04,000 --> 00:21:05,000
+Except for
+
+345
+00:21:05,000 --> 00:21:07,000
+The fact that I would like to wish
+
+346
+00:21:07,000 --> 00:21:09,000
+My beautiful wife
+
+347
+00:21:09,000 --> 00:21:11,000
+My bride of almost 18 years
+
+348
+00:21:11,000 --> 00:21:13,000
+The happiest birthday
+
+349
+00:21:13,000 --> 00:21:14,000
+You could ever imagine
+
+350
+00:21:14,000 --> 00:21:16,000
+Because it's her birthday today
+
+351
+00:21:16,000 --> 00:21:18,000
+Happy birthday baby
+
+352
+00:21:18,000 --> 00:21:19,000
+I love you
+
+353
+00:21:21,000 --> 00:21:22,000
+Alrighty
+
+354
+00:21:22,000 --> 00:21:23,000
+So
+
+355
+00:21:23,000 --> 00:21:25,000
+Thank you very much for
+
+356
+00:21:25,000 --> 00:21:27,000
+Bearing with me on this test
+
+357
+00:21:27,000 --> 00:21:29,000
+As I said, I'll be providing
+
+358
+00:21:29,000 --> 00:21:31,000
+At least a partial screenshot
+
+359
+00:21:31,000 --> 00:21:33,000
+Of the software in the show notes
+
+360
+00:21:33,000 --> 00:21:34,000
+So you can see
+
+361
+00:21:34,000 --> 00:21:36,000
+Kind of get a visual representation
+
+362
+00:21:36,000 --> 00:21:37,000
+Of what I was talking about
+
+363
+00:21:37,000 --> 00:21:39,000
+We walked through the interface
+
+364
+00:21:43,000 --> 00:21:45,000
+And you'll be able to comment on that
+
+365
+00:21:45,000 --> 00:21:47,000
+Email at amercurry.com
+
+366
+00:21:47,000 --> 00:21:50,000
+Or of course on the weblog www.curry.com
+
+367
+00:21:50,000 --> 00:21:52,000
+The latest show
+
+368
+00:21:52,000 --> 00:21:54,000
+The podcast feed and the archives
+
+369
+00:21:54,000 --> 00:21:56,000
+All on dailysourcecode.com
+
+370
+00:21:56,000 --> 00:21:58,000
+Tomorrow I'll be back
+
+371
+00:21:58,000 --> 00:22:00,000
+And we'll see if we can improve on this
+
+372
+00:22:00,000 --> 00:22:02,000
+Or maybe even get some effects going
+
+373
+00:22:02,000 --> 00:22:03,000
+I don't know
+
+374
+00:22:03,000 --> 00:22:04,000
+It's kind of a work and progress
+
+375
+00:22:04,000 --> 00:22:06,000
+And I'm really enjoying it
+
+376
+00:22:07,000 --> 00:22:09,000
+A better way to bait a test podcast
+
+377
+00:22:09,000 --> 00:22:11,000
+Offer with on a podcast
+
+378
+00:22:11,000 --> 00:22:12,000
+Take care everybody
+
+379
+00:22:12,000 --> 00:22:13,000
+I'll see you tomorrow
+
+380
+00:22:13,000 --> 00:22:14,000
+Bye bye
+

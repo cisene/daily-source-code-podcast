@@ -1,0 +1,1632 @@
+1
+00:00:00,000 --> 00:00:09,060
+All right, everybody. How you doing? Welcome to the Daily Source Code. Today is the 23rd of March
+
+2
+00:00:09,060 --> 00:00:17,380
+2005. It's a little bit past 8 o'clock. PM. I am at Super Airport Amsterdam. Oh, a second.
+
+3
+00:00:17,380 --> 00:00:38,380
+Let me just do a couple of my dying. Well, people looking at me kind of strange.
+
+4
+00:00:47,380 --> 00:01:02,380
+All righty. Here we go. I'm just going to take a little walk. Walk with me if you don't mind.
+
+5
+00:01:02,380 --> 00:01:08,380
+Groovy. Now, let's talk for a bit. Let me walk outside if we can talk a little more.
+
+6
+00:01:08,380 --> 00:01:24,380
+Finally. Because I am way early for my flight. Oh, man. Let me tell you, I've been playing hooky. Big time.
+
+7
+00:01:24,380 --> 00:01:34,380
+I feel almost guilty, really. Let me tell you about the past two days. First of all, apologies for no source code yesterday.
+
+8
+00:01:34,380 --> 00:01:46,380
+What can I tell you? It was a really, really busy day. Been moving in office in Holland and actually some of the reconfiguration myself of the computers.
+
+9
+00:01:46,380 --> 00:01:53,380
+Which I can pretty good at. I'm pretty good at this Windows stuff, too. Windows networking. It's so much fun.
+
+10
+00:01:54,380 --> 00:02:04,380
+So I had some meetings with some lawyers and stuff. Not particularly all fun stuff. I did go out shopping for Patricia. I bought her a really, really, really beautiful gift.
+
+11
+00:02:04,380 --> 00:02:15,380
+If you don't mind me saying so, I bought her a brand new watch. She's been looking for a new watch.
+
+12
+00:02:15,380 --> 00:02:25,380
+One that basically that has all the right fashion and style comments and accoutrements. But at the same time, one which actually read time.
+
+13
+00:02:25,380 --> 00:02:36,380
+And believe it or not, I did a little bit of shopping yesterday. You'd be amazed at how many extremely expensive watches require to be wound by hand.
+
+14
+00:02:36,380 --> 00:02:43,380
+Is that crazy or what? I mean, it's okay if you may buy an expensive watch, but then have to wind it by hand that makes no sense.
+
+15
+00:02:43,380 --> 00:02:51,380
+It's just like, I'd taxi Eric with me and he was flipping out. He said, what? They want that much for this watch and you have to wind yourself.
+
+16
+00:02:51,380 --> 00:03:00,380
+And actually, that's a mistake I made in the past. On the time piece I once bought and discovered later that it was, you had to wind it manually.
+
+17
+00:03:00,380 --> 00:03:05,380
+And he's like, well, that's, that's, you know, what's, what is up with that?
+
+18
+00:03:05,380 --> 00:03:15,380
+So I got her a new watch, a Chanel watch actually. She's her favorite scent is Chanel number five.
+
+19
+00:03:15,380 --> 00:03:29,380
+So I kind of went on brand instinct there. Beautiful with a ceramic band and has a little rose colored sapphires.
+
+20
+00:03:29,380 --> 00:03:41,380
+I mean, really fucking beautiful. But of course, it's our anniversary coming up fifth of April, as well as her birthday on the seventh of April. So, hey, you know, it's been a while that we've been married.
+
+21
+00:03:41,380 --> 00:03:47,380
+Will it be 18 years now? Holy moly. Thanks for 17 or 18 years, I guess.
+
+22
+00:03:47,380 --> 00:03:54,380
+So that was the fun part. And then I went to the hotel last night. I had some dinner with some friends.
+
+23
+00:03:54,380 --> 00:04:01,380
+I talked about the future TV project that I've kind of been helping out with more on the sales side than anything, not really on production.
+
+24
+00:04:01,380 --> 00:04:07,380
+I guess I'd be like executive producer, which means I kind of help out sell it.
+
+25
+00:04:07,380 --> 00:04:09,380
+So that's going very well.
+
+26
+00:04:09,380 --> 00:04:14,380
+God, I got a headache right on the left side of my forehead.
+
+27
+00:04:15,380 --> 00:04:23,380
+So, went to bed probably, I don't know, around one, something like that.
+
+28
+00:04:23,380 --> 00:04:34,380
+And got up at 630, early call, because I was meeting the wing commander, wing commander William, my flight instructor and good friend.
+
+29
+00:04:34,380 --> 00:04:56,380
+For some serious, serious flight training today, you know, I remember I told you that I was just impossible to get anyone to give me instruction in the UK near we live, at least not FAA, which is the kind of license I already have in FAA pilots license for helicopters.
+
+30
+00:04:56,380 --> 00:05:01,380
+And we actually went training on the aircraft that I'm going to buy at the end of the year.
+
+31
+00:05:01,380 --> 00:05:16,380
+Session of 182 RG stands for Attractable Gear, which means it's a complex aircraft, a constant speed propeller, you know, all that kind of stuff.
+
+32
+00:05:16,380 --> 00:05:25,380
+So you got to imagine that this is, especially if you're not used to it, it's a real intense experience.
+
+33
+00:05:25,380 --> 00:05:34,380
+It's very, very physical, because of course you're anything but relaxed while you're flying something that you've never flown before, don't know really what the fuck you're doing.
+
+34
+00:05:34,380 --> 00:05:45,380
+So, see, first we start off with some basic technical stuff about the plane. Oh, and by the way, I said, hey man, I want a podcast all this. You said, you know what?
+
+35
+00:05:45,380 --> 00:05:54,380
+You don't want to be that embarrassed, because I'm really going to embarrass your ass. I said, but maybe that would be good. He said, you're also not going to have any time to think about anything, you know what he was right.
+
+36
+00:05:54,380 --> 00:06:04,380
+Whew, so we took off, you know, kind of get accustomed to the aircraft. Then we went down to the south of the country, to Midasaylund.
+
+37
+00:06:04,380 --> 00:06:16,380
+And did several touching goes. Nice, real nice grass, air strip there, had a cup of coffee, and then went off to Tesla, which is way up at the top of the country.
+
+38
+00:06:16,380 --> 00:06:22,380
+There's a band of islands and there's a nice airport up there where you can have a great lunch.
+
+39
+00:06:23,380 --> 00:06:33,380
+Did the four touching goes there? And, well, that was the first embarrassment happened there when we were coming down. I guess it's coming down a little too steep.
+
+40
+00:06:33,380 --> 00:06:47,380
+William said, nose up, nose up, and I pulled the nose up. And, you know, if he hadn't put in some throttle, we would have had a very noisy landing and probably would've broken the wheels right off of it.
+
+41
+00:06:47,380 --> 00:06:56,380
+And, of course, you know, when you do that, the tower is watching. Everyone who's having lunch is watching, so that's a great way to get extremely humbled.
+
+42
+00:06:56,380 --> 00:07:08,380
+Had our lunch, then flew off, and then did some instrument training, which is, that's funny, basically then blocks, you know, so you're flying along right, and then he takes this,
+
+43
+00:07:09,380 --> 00:07:21,380
+what he did, he did it with the map, takes it takes the map, and blocks off all the wind shields, so you can't see anything.
+
+44
+00:07:21,380 --> 00:07:29,380
+And then says, okay, turn 360 degrees over left, 30 degrees bank, you know, and so you're completely flying on instruments, can't see anything.
+
+45
+00:07:29,380 --> 00:07:38,380
+It's the weirdest sensation, you know, because you're basically, you're flying a flight simulator, only you could really mess it up.
+
+46
+00:07:38,380 --> 00:07:44,380
+So that was a lot of fun. I really enjoyed that. And then, man, this is like four hours into it.
+
+47
+00:07:44,380 --> 00:07:54,380
+Going back to Hilversum, which is kind of the television city here in the Netherlands, and did another couple touching goes.
+
+48
+00:07:54,380 --> 00:08:02,380
+Now, this is an airfield that I'm very used to, and I've flown into with the helicopter, many, many, many, many times.
+
+49
+00:08:02,380 --> 00:08:14,380
+Boy, is it different when you're coming in with a reasonably powered aircraft, and there's like no wind, and it's a very short field, and at one point, the tower even came on the rail, and said,
+
+50
+00:08:14,380 --> 00:08:35,380
+hey, how to make sure you don't, don't make William nauseous dude, I was a mess, and it's also at a certain point, you just can't, you know, you're tired, you're, there's too much going on, that's a lot to do in the aircraft, which is all new, when you're landing, you know, you've got your flaps and your gear and your speed, and you're, you're just so much.
+
+51
+00:08:35,380 --> 00:08:45,380
+So, kind of ended on like a downer, which is, I guess it's kind of good, because that's, it makes, gives you a lot of food for thought.
+
+52
+00:08:45,380 --> 00:09:03,380
+We actually were going to fly all the way home to, to the airport nearby Gilford, which is Farrogs. Unfortunately, we would need customs, which normally isn't a problem, but then you kind of have to call it earlier, so I still had an easy jet ticket just in case.
+
+53
+00:09:03,380 --> 00:09:08,380
+So, I was done around six, and I've been at the airport for about an hour and a half now.
+
+54
+00:09:08,380 --> 00:09:16,380
+It's typical, so I'm going to take easy jet home, but you can't check in until, what is an hour and a half before the flight?
+
+55
+00:09:16,380 --> 00:09:22,380
+It's literally no one at the check-in counter, which of course is good, because that's why they make it, how they make it so cheap, right?
+
+56
+00:09:22,380 --> 00:09:30,380
+And of course, the same people who check you in are the people who take your ticket at the gate, and sometimes even on the aircraft is flight attendants,
+
+57
+00:09:30,380 --> 00:09:38,380
+but I love that system, you know, I'm not just a user of easy jet, I'm also a shareholder, and I really love their format and their service.
+
+58
+00:09:38,380 --> 00:09:52,380
+So, then we'll be off to Gatwick, I'll leave around 10, and I arrive at 10, because it's only 40 minutes flight, and we gain an hour, traveling towards the west,
+
+59
+00:09:52,380 --> 00:10:02,380
+so we picked that up, and then I'll be home before 11 o'clock, and then I'm just going to crash, I'm going to take a nice long hot shower and hop into bed, up early tomorrow,
+
+60
+00:10:02,380 --> 00:10:12,380
+because two more really, really busy days, we're closing contracts, so that I can make some damn announcements pretty soon.
+
+61
+00:10:13,380 --> 00:10:22,380
+She's, I mean, just talking on the phone and on Skype really so much, that's I love doing that, I've said that before, but man is that stuff work,
+
+62
+00:10:22,380 --> 00:10:32,380
+I just, you know, being here and having to do some stuff on the cell phones, I don't have connectivity outside the terminal, reminds me what a pain in the acid is, and how expensive it is.
+
+63
+00:10:32,380 --> 00:10:42,380
+So, that'll be for tomorrow and Friday, I'll have a quote unquote regularly scheduled podcast for you, got promos and all kinds of stuff to play,
+
+64
+00:10:42,380 --> 00:10:50,380
+and that's actually the thing that bums me out about kind of being out of pocket for a day and a half is I just will have so much email to catch up on, it's crazy,
+
+65
+00:10:50,380 --> 00:11:01,380
+you know, it's going to take me hours to catch up on and I'm already way over a thousand messages on red, it's, I'm out of control, I really am.
+
+66
+00:11:02,380 --> 00:11:11,380
+What's this coming up here, when you put the glasses on, I took my glasses off, because they, they're part of the source of the headache, I was a cleaning machine,
+
+67
+00:11:11,380 --> 00:11:22,380
+hold on a second, maybe I should move my, it's a big cleaning truck, it's cleaning the side walk out here outside the terminal, hold on let me get out of the way.
+
+68
+00:11:22,380 --> 00:11:43,380
+Actually, let them go by, see if I can enjoy the sound of the cleaning machine, here comes, like a truck with brushes, the city cat live busher, hey, you know what, you want to go in and they'll like to turn it off for a second, listen to some conversations, I'll be kind of fun.
+
+69
+00:11:52,380 --> 00:12:05,380
+Following the cleaning truck, into the revolving north.
+
+70
+00:12:05,380 --> 00:12:07,380
+There we go.
+
+71
+00:12:07,380 --> 00:12:15,380
+Okay, doing the old phone trick, because people do recognize me here, and they already think I'm weird,
+
+72
+00:12:15,380 --> 00:12:19,380
+but totally think I'm a bonkers of them talking to myself.
+
+73
+00:12:19,380 --> 00:12:27,380
+It's funny, podcasting is slow to catch on in the Netherlands, that's kind of the interesting thing, since it was kind of born in this region,
+
+74
+00:12:27,380 --> 00:12:39,380
+but there was so much going on in the Dutch press at the time, basically the international press for me, the US press, was catching on and writing articles, we had some major shit here in Holland,
+
+75
+00:12:39,380 --> 00:12:57,380
+you know, Dale von Hoch, the film director, who was assassinated, there's all kinds of stuff going on with the government here, people are very unhappy, there's just a, I'd say a general unrest going on.
+
+76
+00:12:57,380 --> 00:13:01,380
+Let's just see, where's the easy jet check in?
+
+77
+00:13:01,380 --> 00:13:05,380
+It's Martin there, what's this here?
+
+78
+00:13:05,380 --> 00:13:08,380
+I wonder, where is easy jet?
+
+79
+00:13:08,380 --> 00:13:24,380
+I might have the right spot, oh my second, bear with me, this is interesting, let's go look at the, maybe someone's already there,
+
+80
+00:13:24,380 --> 00:13:29,380
+maybe I'm just not at the right counter, hold on a sec.
+
+81
+00:13:29,380 --> 00:13:43,380
+Okay, where are we, 955, Gattwick, oh number 31, okay, I'm not even close then.
+
+82
+00:13:43,380 --> 00:13:51,380
+Well hold on a sec, then let me just reconfigure my bag situation and you'll walk with me, right?
+
+83
+00:13:51,380 --> 00:13:56,380
+Maybe we can check in together, that would be fun.
+
+84
+00:13:56,380 --> 00:14:00,380
+Say one thing, I'm not gonna be.
+
+85
+00:14:00,380 --> 00:14:06,380
+Maybe one more sensible word come out of my mouth, that's for sure.
+
+86
+00:14:06,380 --> 00:14:11,380
+Okay, and that's strange, nothing to say.
+
+87
+00:14:12,380 --> 00:14:24,380
+Okay, what I'm gonna do is I'm gonna put on my, my headphones for my phone, you know, this is the phone scam trick, right?
+
+88
+00:14:24,380 --> 00:14:36,380
+If you're new to sound seeing tours, you probably feel a bit conscious, as you walk around talking to yourself and the trick is to have a cell phone either up to your ear,
+
+89
+00:14:36,380 --> 00:14:43,380
+which I don't like, I don't want to do now because I already have a headache and holding my arm up makes aggravates if this really sucks.
+
+90
+00:14:43,380 --> 00:14:45,380
+There we go.
+
+91
+00:14:45,380 --> 00:14:53,380
+Now we're walking, I gotta go to number 31, this is number 21, I was 10 or so, maybe I can already check it and I'll be fun.
+
+92
+00:14:53,380 --> 00:14:56,380
+I'm doing easy jet checking experience.
+
+93
+00:14:57,380 --> 00:15:07,380
+I can't take the equipment with a love mic on through customs and through security.
+
+94
+00:15:07,380 --> 00:15:10,380
+They'll totally bust me for that.
+
+95
+00:15:10,380 --> 00:15:17,380
+Although I heard Catholic inside of do that, Father Roderick, and he was recording in the airport.
+
+96
+00:15:17,380 --> 00:15:30,380
+Where's that in Rome, I think, he was recording his podcast, Catholicinsider.com, and what is it, kind of, kind of, kind of anity, what are they called?
+
+97
+00:15:30,380 --> 00:15:35,380
+Those bad looking dudes, they busted him, but they let him go.
+
+98
+00:15:35,380 --> 00:15:41,380
+Here's probably wearing his priest, his priest uniform.
+
+99
+00:15:41,380 --> 00:15:45,380
+Oh dude, I'm not gonna believe this.
+
+100
+00:15:45,380 --> 00:15:49,380
+There's something that lines for easy jet that'll freaking me out.
+
+101
+00:15:49,380 --> 00:15:51,380
+I don't know.
+
+102
+00:15:51,380 --> 00:15:53,380
+Oh my goodness.
+
+103
+00:15:53,380 --> 00:15:56,380
+What's going on?
+
+104
+00:15:56,380 --> 00:16:00,380
+Oh my God, there's a hundred people here.
+
+105
+00:16:00,380 --> 00:16:01,380
+Oh shit.
+
+106
+00:16:01,380 --> 00:16:05,380
+I could have probably checked in hours ago.
+
+107
+00:16:05,380 --> 00:16:09,380
+Oh, let's see.
+
+108
+00:16:09,380 --> 00:16:11,380
+Is this line all for easy jet?
+
+109
+00:16:11,380 --> 00:16:14,380
+Oh, you're slaying me with this.
+
+110
+00:16:14,380 --> 00:16:18,380
+People must be going somewhere else.
+
+111
+00:16:18,380 --> 00:16:22,380
+I am not gonna stand in that line.
+
+112
+00:16:22,380 --> 00:16:25,380
+That's for sure.
+
+113
+00:16:25,380 --> 00:16:28,380
+Let's see.
+
+114
+00:16:28,380 --> 00:16:32,380
+Is there a self-service check-in for easy jet?
+
+115
+00:16:32,380 --> 00:16:39,380
+Wouldn't that rock to have us in the check?
+
+116
+00:16:39,380 --> 00:16:43,380
+Martin there and jet to come.
+
+117
+00:16:43,380 --> 00:16:47,380
+No easy jet check-in?
+
+118
+00:16:47,380 --> 00:16:49,380
+Why not?
+
+119
+00:16:49,380 --> 00:16:50,380
+I don't know.
+
+120
+00:16:50,380 --> 00:16:53,380
+Well that's no good.
+
+121
+00:16:53,380 --> 00:16:55,380
+No kidding.
+
+122
+00:16:55,380 --> 00:16:56,380
+Is that because they're cheap?
+
+123
+00:16:56,380 --> 00:16:59,380
+They don't want to buy a spot on your self-service checking?
+
+124
+00:16:59,380 --> 00:17:01,380
+No, because these are the same company.
+
+125
+00:17:01,380 --> 00:17:04,380
+But I think in the near future they're going to use the easy.
+
+126
+00:17:04,380 --> 00:17:08,380
+No hope so, because they haven't in London, they have the check-in that way.
+
+127
+00:17:08,380 --> 00:17:10,380
+So, there are no decides.
+
+128
+00:17:10,380 --> 00:17:12,380
+And if we put some pure milk here, I'll see.
+
+129
+00:17:12,380 --> 00:17:15,380
+Yeah, we have enough machines, but where are these people going?
+
+130
+00:17:15,380 --> 00:17:16,380
+Are they going to get away?
+
+131
+00:17:16,380 --> 00:17:21,380
+No, they're going to Manchester, Switzerland, and Woodley.
+
+132
+00:17:21,380 --> 00:17:25,380
+Okay, so I'll let them, I'll just wait because I'm a 10 o'clock flight.
+
+133
+00:17:25,380 --> 00:17:27,380
+No, I'm going to my flight, so I'm still 10.
+
+134
+00:17:27,380 --> 00:17:29,380
+And she, I could.
+
+135
+00:17:29,380 --> 00:17:31,380
+You want to come stand with me?
+
+136
+00:17:31,380 --> 00:17:32,380
+Hang out with me?
+
+137
+00:17:32,380 --> 00:17:34,380
+Yeah, people can figure this out.
+
+138
+00:17:34,380 --> 00:17:35,380
+Thank you.
+
+139
+00:17:35,380 --> 00:17:36,380
+Bye bye.
+
+140
+00:17:38,380 --> 00:17:42,380
+Holy moly.
+
+141
+00:17:42,380 --> 00:17:44,380
+No, not a good idea.
+
+142
+00:17:44,380 --> 00:17:46,380
+Oh man, this is me off.
+
+143
+00:17:46,380 --> 00:17:50,380
+So, then let's do this.
+
+144
+00:17:50,380 --> 00:17:52,380
+Let's buy some aspirin.
+
+145
+00:17:52,380 --> 00:17:58,380
+I'm definitely not going to wait through that.
+
+146
+00:17:58,380 --> 00:18:00,380
+I have to go downstairs.
+
+147
+00:18:00,380 --> 00:18:02,380
+Is there an escalator here?
+
+148
+00:18:02,380 --> 00:18:03,380
+Is this only up?
+
+149
+00:18:03,380 --> 00:18:04,380
+This is only up?
+
+150
+00:18:04,380 --> 00:18:05,380
+Of course.
+
+151
+00:18:05,380 --> 00:18:09,380
+Well, I have to take the stairs down.
+
+152
+00:18:09,380 --> 00:18:26,380
+There's a group of muslim women, beautiful, beautifully colored scarves.
+
+153
+00:18:26,380 --> 00:18:29,380
+Beautiful colors.
+
+154
+00:18:29,380 --> 00:18:31,380
+Okay.
+
+155
+00:18:31,380 --> 00:18:39,380
+Oh man, do I need an aspirin bad?
+
+156
+00:18:39,380 --> 00:18:44,380
+It's like I keep taking, I'm even taking my glasses off while I'm walking.
+
+157
+00:18:44,380 --> 00:18:47,380
+Because just...
+
+158
+00:18:47,380 --> 00:18:49,380
+It's the day that I wish I had my lenses in.
+
+159
+00:18:49,380 --> 00:18:52,380
+Yeah, a lot of that is just tension.
+
+160
+00:18:52,380 --> 00:18:56,380
+Tension from being so concentrated while flying.
+
+161
+00:18:56,380 --> 00:19:00,380
+This is the bottom section of Skippel Airport, which you've never been.
+
+162
+00:19:00,380 --> 00:19:01,380
+Really is.
+
+163
+00:19:01,380 --> 00:19:02,380
+Okay.
+
+164
+00:19:02,380 --> 00:19:04,380
+You know, I hope I'm not.
+
+165
+00:19:04,380 --> 00:19:07,380
+I hope I see where the microphone.
+
+166
+00:19:07,380 --> 00:19:10,380
+I hope this is recording not too much.
+
+167
+00:19:10,380 --> 00:19:13,380
+I'm going to just replace it just a little bit.
+
+168
+00:19:13,380 --> 00:19:18,380
+Re-position, hold on.
+
+169
+00:19:18,380 --> 00:19:19,380
+A little bit.
+
+170
+00:19:19,380 --> 00:19:20,380
+There we go.
+
+171
+00:19:20,380 --> 00:19:23,380
+It should be fit better.
+
+172
+00:19:25,380 --> 00:19:28,380
+Sound like an old man, don't I?
+
+173
+00:19:28,380 --> 00:19:29,380
+Okay.
+
+174
+00:19:29,380 --> 00:19:31,380
+Just cleaning guys.
+
+175
+00:19:31,380 --> 00:19:34,380
+Just shooting the breeze.
+
+176
+00:19:34,380 --> 00:19:36,380
+I'll walk by.
+
+177
+00:19:36,380 --> 00:19:41,380
+I'm not working.
+
+178
+00:19:41,380 --> 00:19:42,380
+I'll walk by.
+
+179
+00:19:42,380 --> 00:19:47,380
+You can shut up.
+
+180
+00:19:47,380 --> 00:19:48,380
+Okay.
+
+181
+00:19:48,380 --> 00:19:49,380
+Drunk store.
+
+182
+00:19:49,380 --> 00:19:52,380
+Just Kippel Airport really is beautiful.
+
+183
+00:19:52,380 --> 00:19:57,380
+It's got fantastic shopping from an odd.
+
+184
+00:19:58,380 --> 00:20:00,380
+Which is accessible to anyone.
+
+185
+00:20:00,380 --> 00:20:03,380
+I don't have to be checked in through the gates.
+
+186
+00:20:03,380 --> 00:20:04,380
+I'm not excited, even better.
+
+187
+00:20:04,380 --> 00:20:07,380
+They've got a casino in there.
+
+188
+00:20:07,380 --> 00:20:09,380
+It's just beautiful.
+
+189
+00:20:09,380 --> 00:20:12,380
+We're passing here.
+
+190
+00:20:12,380 --> 00:20:16,380
+A spree, max, in where.
+
+191
+00:20:16,380 --> 00:20:20,380
+Matinik, Gassan, diamonds.
+
+192
+00:20:20,380 --> 00:20:28,380
+Drunk store.
+
+193
+00:20:28,380 --> 00:20:32,380
+There's the Tyrak.
+
+194
+00:20:32,380 --> 00:20:35,380
+Isn't that just a Tyrak everywhere in the world?
+
+195
+00:20:35,380 --> 00:20:41,380
+Conveniently located next to Burger King.
+
+196
+00:20:41,380 --> 00:20:43,380
+Temperature here is great though.
+
+197
+00:20:43,380 --> 00:20:45,380
+Nice and cool.
+
+198
+00:20:45,380 --> 00:20:52,380
+They're conditioning.
+
+199
+00:20:52,380 --> 00:20:57,380
+The two of them shop.
+
+200
+00:20:57,380 --> 00:20:58,380
+Interesting.
+
+201
+00:20:58,380 --> 00:21:02,380
+They're advertising for the Reichs Museum.
+
+202
+00:21:02,380 --> 00:21:03,380
+11 minutes.
+
+203
+00:21:03,380 --> 00:21:05,380
+The world famous old masters.
+
+204
+00:21:05,380 --> 00:21:08,380
+A little map of how to get there.
+
+205
+00:21:08,380 --> 00:21:12,380
+11 minutes by train from the airport.
+
+206
+00:21:12,380 --> 00:21:13,380
+Okay.
+
+207
+00:21:13,380 --> 00:21:16,380
+There's lots of perfumes and colors now.
+
+208
+00:21:16,380 --> 00:21:18,380
+Maybe perfumes and colors?
+
+209
+00:21:18,380 --> 00:21:19,380
+No.
+
+210
+00:21:19,380 --> 00:21:21,380
+They don't have any aspirin.
+
+211
+00:21:21,380 --> 00:21:22,380
+Really.
+
+212
+00:21:22,380 --> 00:21:24,380
+Really got to get to the drugstore.
+
+213
+00:21:24,380 --> 00:21:26,380
+I know where it is.
+
+214
+00:21:26,380 --> 00:21:29,380
+And of course it's all the way at the other side.
+
+215
+00:21:29,380 --> 00:21:34,380
+With a food village supermarket here.
+
+216
+00:21:35,380 --> 00:21:48,380
+Italian trittura.
+
+217
+00:21:48,380 --> 00:21:50,380
+New electronic store.
+
+218
+00:21:50,380 --> 00:21:51,380
+I haven't seen before.
+
+219
+00:21:51,380 --> 00:21:54,380
+Photo electronics.
+
+220
+00:21:54,380 --> 00:21:58,380
+Walking past the guest store.
+
+221
+00:21:58,380 --> 00:21:59,380
+McGregor.
+
+222
+00:21:59,380 --> 00:22:03,380
+You can hear all the brands that are all represented.
+
+223
+00:22:03,380 --> 00:22:04,380
+Jaguar.
+
+224
+00:22:04,380 --> 00:22:05,380
+Jaguar doing here.
+
+225
+00:22:05,380 --> 00:22:07,380
+Jaguar bags and clothing.
+
+226
+00:22:07,380 --> 00:22:09,380
+Okay.
+
+227
+00:22:09,380 --> 00:22:11,380
+God.
+
+228
+00:22:11,380 --> 00:22:14,380
+It's exploding.
+
+229
+00:22:14,380 --> 00:22:17,380
+Juice bar.
+
+230
+00:22:17,380 --> 00:22:23,380
+This has got to be the most boring sound seeing tour I've ever done.
+
+231
+00:22:23,380 --> 00:22:27,380
+I just barely have any energy to talk.
+
+232
+00:22:28,380 --> 00:22:30,380
+Passure typical.
+
+233
+00:22:30,380 --> 00:22:31,380
+Valice.
+
+234
+00:22:31,380 --> 00:22:32,380
+In suitcase.
+
+235
+00:22:32,380 --> 00:22:33,380
+Store.
+
+236
+00:22:33,380 --> 00:22:34,380
+Cheese.
+
+237
+00:22:34,380 --> 00:22:35,380
+Louise.
+
+238
+00:22:35,380 --> 00:22:38,380
+Where is this place?
+
+239
+00:22:38,380 --> 00:22:40,380
+It's even further.
+
+240
+00:22:40,380 --> 00:22:45,380
+Well certainly a way to kill time.
+
+241
+00:22:45,380 --> 00:22:51,380
+And I'm glad I'm walking because my back is also starting to act up a little bit.
+
+242
+00:22:51,380 --> 00:22:56,380
+Due to the flying.
+
+243
+00:22:56,380 --> 00:23:03,380
+You can hear those high heels that usually fly to 10.
+
+244
+00:23:03,380 --> 00:23:05,380
+Everyone else is on soft.
+
+245
+00:23:05,380 --> 00:23:10,380
+Soft shoes.
+
+246
+00:23:10,380 --> 00:23:14,380
+There it is.
+
+247
+00:23:14,380 --> 00:23:19,380
+It's the atos.
+
+248
+00:23:19,380 --> 00:23:29,380
+Here we go.
+
+249
+00:23:29,380 --> 00:23:33,380
+I need some major major aspirin.
+
+250
+00:23:33,380 --> 00:23:34,380
+Okay.
+
+251
+00:23:34,380 --> 00:23:37,380
+Follow along now as we enter the store.
+
+252
+00:23:49,380 --> 00:23:56,380
+Hi.
+
+253
+00:23:56,380 --> 00:24:01,380
+Murofen.
+
+254
+00:24:01,380 --> 00:24:04,380
+Tipee 400.
+
+255
+00:24:04,380 --> 00:24:05,380
+Yeah.
+
+256
+00:24:05,380 --> 00:24:06,380
+400.
+
+257
+00:24:06,380 --> 00:24:09,380
+Tipee 400.
+
+258
+00:24:09,380 --> 00:24:12,380
+Tipee 400.
+
+259
+00:24:12,380 --> 00:24:15,380
+Tipee 400.
+
+260
+00:24:15,380 --> 00:24:17,380
+Tipee 400.
+
+261
+00:24:17,380 --> 00:24:21,380
+Yeah.
+
+262
+00:24:21,380 --> 00:24:26,380
+Yeah.
+
+263
+00:24:26,380 --> 00:24:29,380
+Tipee 400.
+
+264
+00:24:29,380 --> 00:24:33,380
+Tipee 400.
+
+265
+00:24:35,380 --> 00:24:40,380
+Four.
+
+266
+00:24:40,380 --> 00:25:04,380
+All right, do not pass, go, do not collect any money, sit down on the nearest couch.
+
+267
+00:25:05,380 --> 00:25:08,380
+Crack these suckers over.
+
+268
+00:25:09,380 --> 00:25:14,380
+My goodness, that headache just really hit me.
+
+269
+00:25:14,380 --> 00:25:17,380
+Okay.
+
+270
+00:25:23,380 --> 00:25:25,380
+All right.
+
+271
+00:25:25,380 --> 00:25:35,380
+Now, of course, I want to meet the results.
+
+272
+00:25:35,380 --> 00:25:40,380
+If it all possible.
+
+273
+00:25:40,380 --> 00:25:46,380
+Let's go upstairs and we'll walk back on the upper level.
+
+274
+00:25:46,380 --> 00:25:54,380
+See if we run into anything fun and then we'll close it off and just call today a loss.
+
+275
+00:25:56,380 --> 00:26:13,380
+Welcome past the hello there bar.
+
+276
+00:26:13,380 --> 00:26:18,380
+It's kind of where all the cab drivers hang out and wait for their rides to show up.
+
+277
+00:26:18,380 --> 00:26:22,380
+It's a ride also going from the rivals up to the departure level.
+
+278
+00:26:22,380 --> 00:26:28,380
+Back up and we'll start at number one and walk down to 31.
+
+279
+00:26:28,380 --> 00:26:29,380
+It's pretty good airport.
+
+280
+00:26:29,380 --> 00:26:34,380
+The only thing they messed up is the baggage system and they know it.
+
+281
+00:26:34,380 --> 00:26:39,380
+They really messed that one up.
+
+282
+00:26:39,380 --> 00:26:44,380
+It's been really bad ever since they bought in the automated system.
+
+283
+00:26:44,380 --> 00:26:53,380
+It's kind of like a Denver where that happened, where they had the big automatic baggage system.
+
+284
+00:26:53,380 --> 00:26:57,380
+Yeah, that's what it was.
+
+285
+00:26:57,380 --> 00:27:02,380
+The stuff got mangled, never showed up, never got out.
+
+286
+00:27:02,380 --> 00:27:05,380
+So these, it's pretty empty over here.
+
+287
+00:27:06,380 --> 00:27:08,380
+Fin air.
+
+288
+00:27:08,380 --> 00:27:13,380
+Pretty sure it was BMI.
+
+289
+00:27:17,380 --> 00:27:18,380
+Lift on.
+
+290
+00:27:18,380 --> 00:27:21,380
+Alan's got a quick check in, but these a jet doesn't.
+
+291
+00:27:21,380 --> 00:27:24,380
+That's disappointing to say the least.
+
+292
+00:27:24,380 --> 00:27:30,380
+Because the lines were just, well, it moves pretty quick with the easy jet.
+
+293
+00:27:30,380 --> 00:27:36,380
+Yeah, we've gone through that, but since there's no designated seating and checking,
+
+294
+00:27:36,380 --> 00:27:38,380
+it's just boom, boom, boom, boom.
+
+295
+00:27:38,380 --> 00:27:43,380
+It's still, I had a lot of people waiting there.
+
+296
+00:27:43,380 --> 00:27:46,380
+Now in the blue zone, which of course is all KLM checking.
+
+297
+00:27:46,380 --> 00:27:47,380
+Really interesting.
+
+298
+00:27:47,380 --> 00:27:50,380
+They've got wow.
+
+299
+00:27:50,380 --> 00:27:54,380
+baggage drop off exclusively for business class passengers.
+
+300
+00:27:54,380 --> 00:27:57,380
+Avit and Avit plus members.
+
+301
+00:27:58,380 --> 00:28:03,380
+And there must be, wow, there must be a hundred terminals here.
+
+302
+00:28:03,380 --> 00:28:05,380
+All sitting there unused.
+
+303
+00:28:10,380 --> 00:28:12,380
+It smells like weed here.
+
+304
+00:28:12,380 --> 00:28:15,380
+It's gone.
+
+305
+00:28:15,380 --> 00:28:23,380
+So I'm basically walking from building one all the way to building three big sign here.
+
+306
+00:28:23,380 --> 00:28:26,380
+There's an Amro, runs SAP.
+
+307
+00:28:26,380 --> 00:28:30,380
+Wow, it makes me want to go out and buy an install right away.
+
+308
+00:28:30,380 --> 00:28:35,380
+There's a, there he talks to us.
+
+309
+00:28:35,380 --> 00:28:38,380
+I'm sorry, flight attendant.
+
+310
+00:28:38,380 --> 00:28:39,380
+Oh, wow.
+
+311
+00:28:39,380 --> 00:28:44,380
+There's two firemen here walking in full firemen year.
+
+312
+00:28:44,380 --> 00:28:45,380
+It's interesting.
+
+313
+00:28:45,380 --> 00:28:50,380
+With the oxygen tanks and they're going into the bathroom.
+
+314
+00:28:50,380 --> 00:28:53,380
+OK, well, that's not used that one, shall we?
+
+315
+00:28:53,380 --> 00:28:56,380
+That's probably a bad sign.
+
+316
+00:29:00,380 --> 00:29:01,380
+Interesting.
+
+317
+00:29:01,380 --> 00:29:06,380
+There's a premium servicing point here.
+
+318
+00:29:06,380 --> 00:29:12,380
+I don't know if premium is something that I don't know if that's used in other airports at all.
+
+319
+00:29:12,380 --> 00:29:19,380
+It's kind of a fast track to get through customs with a retinal scan.
+
+320
+00:29:19,380 --> 00:29:24,380
+And so you arrive at customs, you put your card in, little gate opens up.
+
+321
+00:29:24,380 --> 00:29:29,380
+And then you have to put your face in front of this scanner's leader around.
+
+322
+00:29:29,380 --> 00:29:32,380
+And a blue glowing hole.
+
+323
+00:29:32,380 --> 00:29:41,380
+And it's, I've really seen it fail more than I've seen at work because, you know,
+
+324
+00:29:41,380 --> 00:29:46,380
+when people come in from a longer flight, they got retized and attired.
+
+325
+00:29:46,380 --> 00:29:47,380
+And then it fails.
+
+326
+00:29:47,380 --> 00:29:49,380
+But of course, then you're still at the head of the line.
+
+327
+00:29:49,380 --> 00:29:56,380
+You get to cut right in, to go, you know, to talk to a customs agent.
+
+328
+00:29:56,380 --> 00:29:58,380
+They're pretty easy, by the way, anyway.
+
+329
+00:29:58,380 --> 00:30:03,380
+Anyone can really cut, you know, your paperwork's got to be pretty fucked up,
+
+330
+00:30:03,380 --> 00:30:05,380
+not to be able to enter the Netherlands.
+
+331
+00:30:05,380 --> 00:30:06,380
+I'll tell you that.
+
+332
+00:30:06,380 --> 00:30:08,380
+It's, it's really quite outrageous.
+
+333
+00:30:08,380 --> 00:30:10,380
+It's, look at you.
+
+334
+00:30:10,380 --> 00:30:11,380
+OK.
+
+335
+00:30:11,380 --> 00:30:13,380
+Don't even ask what you're doing.
+
+336
+00:30:13,380 --> 00:30:14,380
+Hi there.
+
+337
+00:30:14,380 --> 00:30:15,380
+That works seem to be OK.
+
+338
+00:30:15,380 --> 00:30:16,380
+Come on in.
+
+339
+00:30:16,380 --> 00:30:17,380
+Welcome.
+
+340
+00:30:17,380 --> 00:30:18,380
+Yeah.
+
+341
+00:30:18,380 --> 00:30:21,380
+No mind if you're going to work here or not.
+
+342
+00:30:21,380 --> 00:30:23,380
+We'll cause trouble.
+
+343
+00:30:23,380 --> 00:30:24,380
+OK.
+
+344
+00:30:24,380 --> 00:30:25,380
+We're back at.
+
+345
+00:30:25,380 --> 00:30:27,380
+Excuse me.
+
+346
+00:30:27,380 --> 00:30:28,380
+Number 20.
+
+347
+00:30:28,380 --> 00:30:29,380
+That's where I started before.
+
+348
+00:30:29,380 --> 00:30:33,380
+So we'll walk up to the easy jet counter.
+
+349
+00:30:33,380 --> 00:30:34,380
+See how the queue is.
+
+350
+00:30:34,380 --> 00:30:39,380
+See if that's gotten any better.
+
+351
+00:30:39,380 --> 00:30:42,380
+Otherwise, I might, if there's a little bit of a queue all stand in it,
+
+352
+00:30:42,380 --> 00:30:44,380
+we'll listen in the conversation.
+
+353
+00:30:44,380 --> 00:30:48,380
+If any, but of course, I'll be kind of hard to talk.
+
+354
+00:30:48,380 --> 00:30:54,380
+We'll pass senseless.
+
+355
+00:30:54,380 --> 00:30:58,380
+24.
+
+356
+00:30:58,380 --> 00:31:00,380
+Doubt that's cleared up that quick.
+
+357
+00:31:00,380 --> 00:31:02,380
+But yeah, we're now.
+
+358
+00:31:02,380 --> 00:31:04,380
+So empty.
+
+359
+00:31:04,380 --> 00:31:05,380
+Oh, wait.
+
+360
+00:31:05,380 --> 00:31:08,380
+It's a big line of de-gate.
+
+361
+00:31:09,380 --> 00:31:17,380
+But the customers and maybe always send a lot of people through.
+
+362
+00:31:17,380 --> 00:31:19,380
+But it's all those other flights.
+
+363
+00:31:19,380 --> 00:31:24,380
+So I've never had a large weight for this flight to get like now.
+
+364
+00:31:24,380 --> 00:31:26,380
+It's still big.
+
+365
+00:31:26,380 --> 00:31:29,380
+I've already seen it in a distance.
+
+366
+00:31:29,380 --> 00:31:32,380
+OK.
+
+367
+00:31:32,380 --> 00:31:36,380
+And I suggest we wrap it up for today.
+
+368
+00:31:36,380 --> 00:31:37,380
+I'm beat.
+
+369
+00:31:37,380 --> 00:31:41,380
+I'm amazed if you listen in this long anyway, really.
+
+370
+00:31:41,380 --> 00:31:43,380
+What I'll do is I'll check in.
+
+371
+00:31:43,380 --> 00:31:47,380
+Once I'm through, I'll slap together the ID3 tags.
+
+372
+00:31:47,380 --> 00:31:49,380
+And I'll upload this puppy.
+
+373
+00:31:49,380 --> 00:31:51,380
+Get it rolling.
+
+374
+00:31:51,380 --> 00:31:53,380
+Let me just check now.
+
+375
+00:31:53,380 --> 00:31:55,380
+It's still way dizzy.
+
+376
+00:31:55,380 --> 00:32:08,380
+Lots of different languages happen in here.
+
+377
+00:32:08,380 --> 00:32:09,380
+No.
+
+378
+00:32:09,380 --> 00:32:11,380
+Actually, it's a little bit better.
+
+379
+00:32:11,380 --> 00:32:15,380
+But it's still pretty, pretty full.
+
+380
+00:32:15,380 --> 00:32:16,380
+OK.
+
+381
+00:32:16,380 --> 00:32:22,380
+Then let me find a place to sit and disconnect from you.
+
+382
+00:32:22,380 --> 00:32:26,380
+OK.
+
+383
+00:32:26,380 --> 00:32:28,380
+OK.
+
+384
+00:32:28,380 --> 00:32:30,380
+That's it then.
+
+385
+00:32:30,380 --> 00:32:36,380
+Again, I apologize for the lack of a show.
+
+386
+00:32:36,380 --> 00:32:41,380
+And I'll tell you right up front, we're going to have some very different shows coming up
+
+387
+00:32:41,380 --> 00:32:43,380
+as of next week.
+
+388
+00:32:43,380 --> 00:32:45,380
+Because we're going on vacation.
+
+389
+00:32:45,380 --> 00:32:47,380
+And we're going to Miami.
+
+390
+00:32:47,380 --> 00:32:49,380
+There's a big music festival going on.
+
+391
+00:32:49,380 --> 00:32:51,380
+It's spring break.
+
+392
+00:32:51,380 --> 00:32:54,380
+Really looking forward to 10 days just hanging out.
+
+393
+00:32:54,380 --> 00:32:55,380
+Me and the girls.
+
+394
+00:32:55,380 --> 00:32:57,380
+And I'll be doing my podcast.
+
+395
+00:32:57,380 --> 00:32:59,380
+But it will be different types of podcasts.
+
+396
+00:32:59,380 --> 00:33:01,380
+So some of it will be some of the produce stuff.
+
+397
+00:33:01,380 --> 00:33:04,380
+I'm sure we'll do some sound seeing stuff.
+
+398
+00:33:04,380 --> 00:33:05,380
+We'll figure it out.
+
+399
+00:33:05,380 --> 00:33:06,380
+We're going to have some fun.
+
+400
+00:33:06,380 --> 00:33:08,380
+OK.
+
+401
+00:33:08,380 --> 00:33:09,380
+All right, everybody.
+
+402
+00:33:09,380 --> 00:33:11,380
+Thanks for checking it out.
+
+403
+00:33:11,380 --> 00:33:15,380
+The show for today is the 23rd of March 2005.
+
+404
+00:33:15,380 --> 00:33:16,380
+This was your daily source code.
+
+405
+00:33:16,380 --> 00:33:17,380
+Thanks again.
+
+406
+00:33:17,380 --> 00:33:18,380
+And talk to you real soon.
+
+407
+00:33:18,380 --> 00:33:20,380
+That'd be in tomorrow.
+
+408
+00:33:20,380 --> 00:33:21,380
+Bye.
+

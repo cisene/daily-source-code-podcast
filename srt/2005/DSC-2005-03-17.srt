@@ -1,0 +1,1124 @@
+1
+00:00:00,000 --> 00:00:03,200
+Daily source code, March 17th, 2005.
+
+2
+00:00:04,000 --> 00:00:08,600
+Transmators, we don't need no thinking transmittance.
+
+3
+00:00:11,600 --> 00:00:14,000
+Hey everybody, it's Thursday.
+
+4
+00:00:17,600 --> 00:00:21,400
+How you doing, everybody? I'm Adam Curry coming to you late today.
+
+5
+00:00:21,400 --> 00:00:25,000
+Much later than normal. It is your daily source code for March 17th.
+
+6
+00:00:25,000 --> 00:00:26,600
+It's Thursday, 2005.
+
+7
+00:00:27,600 --> 00:00:30,600
+Probably going to be a little bit short today since it's already 630
+
+8
+00:00:30,600 --> 00:00:35,600
+and dinner will be on the table before you know it, but still a source code.
+
+9
+00:00:37,600 --> 00:00:47,600
+And just before the show, I was working on two technical bits that have been bothering us here at the cottage for the past week or so.
+
+10
+00:00:47,600 --> 00:00:55,600
+One is the annoying blip that digital burp that's been taking place just before every single show starts.
+
+11
+00:00:55,600 --> 00:01:02,600
+I think I've fixed it now. I basically, a lot of people sent an email on how to, on how to work.
+
+12
+00:01:02,600 --> 00:01:04,600
+It's working, it's recording.
+
+13
+00:01:04,600 --> 00:01:08,600
+On how to set up the auto record feature, which I think is called,
+
+14
+00:01:08,600 --> 00:01:11,600
+the record sink, and hopefully it works.
+
+15
+00:01:17,600 --> 00:01:22,600
+Now I'm just trying to see if everything else is working here as a core in the plan yet.
+
+16
+00:01:23,600 --> 00:01:26,600
+Another thing I figured out is the buzz.
+
+17
+00:01:26,600 --> 00:01:30,600
+You're not going to believe with the buzz game from the buzz that was in my microphone.
+
+18
+00:01:30,600 --> 00:01:33,600
+Actually, let's just turn this down, turn down the music.
+
+19
+00:01:33,600 --> 00:01:36,600
+No buzz, whatever.
+
+20
+00:01:36,600 --> 00:01:38,600
+You're not going to believe this.
+
+21
+00:01:38,600 --> 00:01:45,600
+The power cord for my power book was actually crossing over on the floor was crossing over the microphone cable.
+
+22
+00:01:45,600 --> 00:01:48,600
+Wala, your culprit.
+
+23
+00:01:49,600 --> 00:01:52,600
+Just got a love figure in that kind of stuff out.
+
+24
+00:01:52,600 --> 00:01:55,600
+Hey, by the way, happy St. Patty's Day, everybody.
+
+25
+00:01:55,600 --> 00:01:58,600
+It is today, right? St. Patrick's Day.
+
+26
+00:01:58,600 --> 00:02:00,600
+A couple people said, hey, you should mention that.
+
+27
+00:02:00,600 --> 00:02:03,600
+I don't have anything really teed up or I don't.
+
+28
+00:02:03,600 --> 00:02:05,600
+Geez, I'm not even, am I even wearing any green?
+
+29
+00:02:05,600 --> 00:02:08,600
+Oh, no. What have you do? Don't pinch me, please.
+
+30
+00:02:08,600 --> 00:02:11,600
+I think drinking is very bad.
+
+31
+00:02:11,600 --> 00:02:12,600
+Check this out.
+
+32
+00:02:12,600 --> 00:02:14,600
+Yo, I got a fake, I need no.
+
+33
+00:02:14,600 --> 00:02:17,600
+You're going to love this, the mashup of the day.
+
+34
+00:02:17,600 --> 00:02:19,600
+Get tipsy over, it's the title.
+
+35
+00:02:19,600 --> 00:02:20,600
+I'll get a start.
+
+36
+00:02:44,600 --> 00:02:46,600
+3, 2, 3, 2, 3, 2, 1.
+
+37
+00:02:46,600 --> 00:02:48,600
+Homeboy, it should be here.
+
+38
+00:02:48,600 --> 00:02:51,600
+We need to kind of pop it and we'll do this for fun.
+
+39
+00:02:51,600 --> 00:02:53,600
+You ain't got one to get you a better one.
+
+40
+00:02:53,600 --> 00:02:55,600
+We sound too dreadful.
+
+41
+00:02:55,600 --> 00:02:56,600
+You want a try?
+
+42
+00:02:56,600 --> 00:02:58,600
+Oh, your bones are both hard.
+
+43
+00:02:58,600 --> 00:03:00,600
+Everything's a stress.
+
+44
+00:03:00,600 --> 00:03:01,600
+And what's more?
+
+45
+00:03:01,600 --> 00:03:03,600
+Well, it's awesome.
+
+46
+00:03:03,600 --> 00:03:04,600
+It's fun.
+
+47
+00:03:04,600 --> 00:03:05,600
+It's fun.
+
+48
+00:03:05,600 --> 00:03:06,600
+It's fun.
+
+49
+00:03:06,600 --> 00:03:07,600
+It's fun.
+
+50
+00:03:07,600 --> 00:03:08,600
+It's fun.
+
+51
+00:03:08,600 --> 00:03:09,600
+It's fun.
+
+52
+00:03:09,600 --> 00:03:11,600
+It's fun.
+
+53
+00:03:11,600 --> 00:03:12,600
+It's fun.
+
+54
+00:03:32,600 --> 00:03:35,600
+This is great.
+
+55
+00:03:35,600 --> 00:03:37,600
+It comes before to give out to this day.
+
+56
+00:03:37,600 --> 00:03:40,600
+Stop dreaming, that's the sandwich.
+
+57
+00:03:40,600 --> 00:03:43,100
+Just a single man ain't trying to get rich
+
+58
+00:03:43,100 --> 00:03:45,600
+Little wasted on me, man, son of a bitch
+
+59
+00:03:45,600 --> 00:03:48,600
+Rusted it off, now I'm back again, man
+
+60
+00:03:48,600 --> 00:03:51,100
+Grew some oil, juice, man, you're some good bitch
+
+61
+00:03:51,100 --> 00:03:53,600
+I won't wait for me, cause I'm sparing that it's cheap
+
+62
+00:03:53,600 --> 00:03:56,600
+Nah, he on his side, man, son of a bitch
+
+63
+00:03:56,600 --> 00:03:57,600
+Just a bitch!
+
+64
+00:03:57,600 --> 00:03:58,600
+And what a pain!
+
+65
+00:03:58,600 --> 00:03:59,600
+What a pain!
+
+66
+00:03:59,600 --> 00:04:00,600
+What a pain!
+
+67
+00:04:00,600 --> 00:04:01,600
+What a pain!
+
+68
+00:04:01,600 --> 00:04:02,600
+What a pain!
+
+69
+00:04:02,600 --> 00:04:03,600
+What a pain!
+
+70
+00:04:03,600 --> 00:04:04,600
+What a pain!
+
+71
+00:04:04,600 --> 00:04:05,600
+What a pain!
+
+72
+00:04:05,600 --> 00:04:09,600
+What a pain!
+
+73
+00:04:09,600 --> 00:04:11,900
+What a pain!
+
+74
+00:04:11,900 --> 00:04:13,600
+What a pain!
+
+75
+00:04:13,600 --> 00:04:15,600
+What a pain!
+
+76
+00:04:15,600 --> 00:04:18,600
+What a pain!
+
+77
+00:04:18,600 --> 00:04:19,600
+What a pain!
+
+78
+00:04:19,600 --> 00:04:21,100
+What a pain!
+
+79
+00:04:21,100 --> 00:04:24,100
+Why a trying and open your mouth?
+
+80
+00:04:24,100 --> 00:04:27,100
+An eye!
+
+81
+00:04:39,600 --> 00:04:54,160
+We've got a job, got a life, got a forward door, and a faintless wife, got those nice
+
+82
+00:04:54,160 --> 00:05:01,520
+copper pipes, got an ex, got a room up for the night, I'm just such a kitch, what a prize,
+
+83
+00:05:01,520 --> 00:05:07,400
+ain't got a body like a battle, I love that perfect fruit, honest eyes, we got a
+
+84
+00:05:07,520 --> 00:05:09,720
+body email is only make serie of
+
+85
+00:05:09,800 --> 00:05:18,140
+searches, confuse..?
+
+86
+00:05:18,140 --> 00:05:20,520
+Yeah we've been looking for as many as couples introduced here, where we would
+
+87
+00:05:20,520 --> 00:05:22,560
+buy a job, get the basic things sold and we gonna buy it, in this
+
+88
+00:05:22,560 --> 00:05:23,980
+day.
+
+89
+00:05:23,980 --> 00:05:34,020
+I wouldn't be building any type of payments ever we couldcer, so there would be
+
+90
+00:05:34,020 --> 00:05:59,780
+Get tipsy everybody in the club get over it mash up here on the daily source code from March 17th, 2005
+
+91
+00:05:59,820 --> 00:06:07,180
+4 warned no big announcements in this show today. Maybe tomorrow maybe over the weekend
+
+92
+00:06:07,180 --> 00:06:12,660
+home just a little more power there for some reason I've been really busy today it's been
+
+93
+00:06:12,660 --> 00:06:17,380
+unbelievable and of course a lot of that is email if you sent me email you haven't
+
+94
+00:06:17,380 --> 00:06:23,660
+gotten reply once again someone overloaded on the communications front just
+
+95
+00:06:23,660 --> 00:06:26,420
+trying to fish all the important ones out of there because I'm really in the stage
+
+96
+00:06:26,420 --> 00:06:31,180
+of a company that I really like is when we're doing the contracts and putting everything
+
+97
+00:06:31,180 --> 00:06:36,380
+together and we have a number of contracts were completed yesterday and today which
+
+98
+00:06:36,380 --> 00:06:40,020
+means things are starting to take shape you know and I really do enjoy that and
+
+99
+00:06:40,020 --> 00:06:44,820
+so it's been a lot of emailing but certainly a lot of Skype call and I just
+
+100
+00:06:44,820 --> 00:06:48,020
+got to give Skype it's props one more time and these guys are the phone
+
+101
+00:06:48,020 --> 00:06:52,660
+companies unbelievable I have my own with Skype it seems like I have my own PBX now
+
+102
+00:06:52,660 --> 00:06:59,020
+you know I can I do conference calls add phone lines you know drop phone lines
+
+103
+00:06:59,020 --> 00:07:05,220
+you know be on one call and then hop off and put a whole conference on hold and
+
+104
+00:07:05,220 --> 00:07:10,180
+jump on another it's just great really it's great I even have this I bought a
+
+105
+00:07:10,180 --> 00:07:16,460
+Skype in number which now you can call me in Connecticut 203 unfortunately though
+
+106
+00:07:16,460 --> 00:07:19,660
+that doesn't work with the Mac version of Skype yet it does work on Windows
+
+107
+00:07:20,620 --> 00:07:25,500
+and I tried it out and it's very cool it actually just works you know so again
+
+108
+00:07:25,500 --> 00:07:29,740
+I think these guys have done it they've become pretty much the phone company so
+
+109
+00:07:29,740 --> 00:07:33,740
+what we're gonna talk about today first of all congrats to the lemon team 2.0
+
+110
+00:07:33,740 --> 00:07:37,900
+shipped yesterday looking awesome a lot of the features that we've been talking
+
+111
+00:07:37,900 --> 00:07:45,820
+about were put in there almost second I just got a Skype message here
+
+112
+00:07:46,700 --> 00:07:52,700
+that's my buddy Chris he's listening to a daily source code and Starbucks and
+
+113
+00:07:52,700 --> 00:07:59,100
+Sunnyvale it's a bit reminiscent of Starbucks and Surrey don't you think yeah no so
+
+114
+00:07:59,100 --> 00:08:07,260
+lemon is is the the iPodder that is cross-platform that works on both the Mac and on
+
+115
+00:08:07,260 --> 00:08:15,020
+Windows it's I think the team is now what is the team for people it's Martijn in Holland
+
+116
+00:08:15,500 --> 00:08:20,940
+got Andrew and Massachusetts Garth and Australia I'm missing one person I know I don't want
+
+117
+00:08:20,940 --> 00:08:25,420
+if I'm gonna do the credits I might as well do it right it's another person from Rotterdam
+
+118
+00:08:25,420 --> 00:08:32,700
+why can't I just I can't go up with the name okay so while well firefox is doing its business then
+
+119
+00:08:32,700 --> 00:08:41,580
+let me see that's iPodder I see if it's right iPodder dot sourceforge dot car
+
+120
+00:08:41,660 --> 00:08:48,780
+dot net that's it there we go let me just see I want to get the team right so yeah we go it's loading now
+
+121
+00:08:48,780 --> 00:08:54,700
+it's really cool by the way if you haven't seen their their homepage yet they've got a great
+
+122
+00:08:54,700 --> 00:08:59,020
+little what you call one arm band that's spinning and three lemons come up which is great
+
+123
+00:08:59,020 --> 00:09:07,580
+Eric that's it Eric from Rotterdam so Eric Andrew Garth and Martijn Feneroi did the design
+
+124
+00:09:07,580 --> 00:09:13,500
+user interface and then there's oh there's a content strategist mark I don't know if I've
+
+125
+00:09:13,500 --> 00:09:20,940
+met Mark or not I'm not quite sure anyway guys looks great it's a cross-platform
+
+126
+00:09:22,780 --> 00:09:29,180
+iPodder it's amazing it's so far it's working great I'm sure this stuff that we're gonna find is it
+
+127
+00:09:29,180 --> 00:09:36,300
+as as everything progresses and as as people start to bang on it but I like I like the cleanup
+
+128
+00:09:36,380 --> 00:09:41,580
+features those are really cool it's just good it's really an all-round great product
+
+129
+00:09:41,580 --> 00:09:46,780
+congratulations on on the release guys that's great that's great for the for the podcast and
+
+130
+00:09:46,780 --> 00:09:51,820
+community so if you haven't tried it yet going over and download the iPodder lemon
+
+131
+00:09:52,460 --> 00:09:57,500
+something else coming up is the skinny awards if you've not heard of them of this podcast the
+
+132
+00:09:57,580 --> 00:10:05,260
+skinny on sports we say T.S.O.S. it's Andy and Matt skin they're from up there away on the
+
+133
+00:10:05,260 --> 00:10:11,020
+left up a bit they do the faster 10 minutes on your iPod which is great this is a sports pod
+
+134
+00:10:11,020 --> 00:10:15,820
+cast I just love because it's tailored for me the guy who knows nothing about sports but wants to be
+
+135
+00:10:15,820 --> 00:10:21,180
+able to make conversation at the next cocktail party and it's not just news right it's Andy
+
+136
+00:10:21,180 --> 00:10:24,780
+Matt and they actually sit there and they discuss what's going on in sports and they're doing
+
+137
+00:10:24,780 --> 00:10:29,660
+an award show and I'm one of the presenters so that is on the horizon you can look out for
+
+138
+00:10:29,660 --> 00:10:35,100
+them not quite sure when the awards will air because they were still affirming up their presenters
+
+139
+00:10:35,100 --> 00:10:41,660
+list sounds just like the MTV awards but look for that skinny on sports you can find them in the
+
+140
+00:10:41,660 --> 00:10:50,700
+iPodder.org directory and some great news today I've been doing some experimentation with
+
+141
+00:10:50,700 --> 00:10:56,220
+as an Amazon associate we've talked about this where I put the Senseo coffee machine up
+
+142
+00:10:57,340 --> 00:11:03,900
+and then she currently have the iRiver IFP 799 running and now a couple days ago when I got
+
+143
+00:11:03,900 --> 00:11:11,420
+the new compact for the sound was it sound sound craft mixing board it was available as well through
+
+144
+00:11:11,420 --> 00:11:17,580
+the associate program I put that up dude I sold five mixers five mixers my earnings have tripled
+
+145
+00:11:17,580 --> 00:11:23,100
+in the past you know three days it's unbelievable this shit really works it's great you know and
+
+146
+00:11:23,100 --> 00:11:28,540
+and I presume people are listening to this show partially for podcast information stuff that's
+
+147
+00:11:28,540 --> 00:11:36,140
+going on and you know so there's a lot you know what's next microphone cable I have to admit I kind
+
+148
+00:11:36,140 --> 00:11:43,420
+of like selling coffee machines more than than mixers at least audio mixers but maybe there's more
+
+149
+00:11:43,420 --> 00:11:49,660
+it's great to see that this system works I can actually and by the way so you know I'm not
+
+150
+00:11:49,660 --> 00:11:55,420
+getting paid by anyone to endorse any product whatsoever or any service on the daily source code
+
+151
+00:11:57,260 --> 00:12:00,780
+except of course if you look at from a different vantage point I figure that people out there
+
+152
+00:12:00,780 --> 00:12:05,580
+who want to know what kind of year I'm using and have an opportunity to kick some back to the
+
+153
+00:12:05,580 --> 00:12:10,380
+person presenting them with that information it's working the the loop is closed it's freaking
+
+154
+00:12:10,460 --> 00:12:16,060
+work and I love it it really does it's cool I'm very excited about that and here's something that
+
+155
+00:12:16,060 --> 00:12:22,380
+has been brewing around for a while very early on when we started before the word podcasting was
+
+156
+00:12:22,380 --> 00:12:30,380
+invented and we were dealing with MP3s and automatically transferring them to ii pod actually this
+
+157
+00:12:30,380 --> 00:12:35,820
+this is a legacy issue from the ipod which later was moved to MP3 players have similar issues
+
+158
+00:12:36,060 --> 00:12:40,540
+and it's about the ii3 tags and I just want to see if I can bring up this email here
+
+159
+00:12:43,260 --> 00:12:51,660
+it's from bk I should summarize some of this although I put the whole email in the show notes
+
+160
+00:12:53,100 --> 00:12:58,140
+but I got to tell a little bit of the history about the naming convention of podcast so
+
+161
+00:12:59,100 --> 00:13:07,660
+when I get to complain the dsc-25-03-17 means very little to me and please could you put in
+
+162
+00:13:07,660 --> 00:13:15,020
+daily source code podcast for 314-2005 let me explain why we're not doing that the reason why
+
+163
+00:13:15,020 --> 00:13:20,380
+is that initially on the iPods and it's still that way on the iPods what you put in the title
+
+164
+00:13:20,460 --> 00:13:28,700
+field right we'll scroll but if you're in your iPod itself and you go to a playlist for
+
+165
+00:13:28,700 --> 00:13:33,660
+instance you could go to the daily source code playlist or maybe just you know your most recent podcast
+
+166
+00:13:33,660 --> 00:13:39,100
+it'll only say you'll only be able to read daily source code and it because it just cuts it off
+
+167
+00:13:39,100 --> 00:13:44,940
+you know it's basically a poor designer a bug whatever we want to call it in in the in the iPod so
+
+168
+00:13:44,940 --> 00:13:50,300
+if I if you have a long show name title it just won't be able to give you any data so we've
+
+169
+00:13:50,300 --> 00:13:54,140
+also tried you know doing the dates first and then the show name after that but the same problem
+
+170
+00:13:54,140 --> 00:13:59,020
+occurs because once you've done the date it basically will give you two or three characters and it's over
+
+171
+00:14:00,460 --> 00:14:09,340
+as to why we put the information about the about the podcast in the album it's for the same
+
+172
+00:14:09,340 --> 00:14:15,660
+in the album field on the id3 tags it's for the same reason if you put whatever's in the show
+
+173
+00:14:15,740 --> 00:14:21,100
+in the comment field of the id3 tags it won't show up in your MP3 player the only two things
+
+174
+00:14:21,100 --> 00:14:28,140
+that show up consistently across the board and iPods and MP3 players are the title and the album and
+
+175
+00:14:28,140 --> 00:14:33,100
+those two are basically what you want to see scrolling across the screen so that you could figure
+
+176
+00:14:33,100 --> 00:14:38,380
+out you know what you're listening to and this just no other way around it I mean the the whole
+
+177
+00:14:38,940 --> 00:14:44,540
+basically the id3 tags are our bogus for podcasting anyway podcast is not a valid
+
+178
+00:14:45,580 --> 00:14:52,300
+genre type at least in the id3 version two or whatever I'm a little confused and fuzzy on that
+
+179
+00:14:52,940 --> 00:14:57,340
+it will let me write them in the program that I use but it says hey that's not valid
+
+180
+00:14:57,980 --> 00:15:02,780
+which is interesting and it's all based upon music it was never intended for podcast so again
+
+181
+00:15:02,780 --> 00:15:07,660
+those are the reasons that we really did a lot of work and flesh this out early early on so I think
+
+182
+00:15:07,660 --> 00:15:13,900
+we've pretty much been through that loop and I don't see any reason currently to change those you
+
+183
+00:15:13,900 --> 00:15:18,780
+know BK is asking for some best practices he actually posted this on his on the site I'll put a link
+
+184
+00:15:18,780 --> 00:15:25,740
+to that as well but that's the reason why it's all about okay how how am I able to find out which
+
+185
+00:15:25,740 --> 00:15:31,740
+show I'm listening to by looking at a list doesn't work in certainly not in the iPod I river by
+
+186
+00:15:31,820 --> 00:15:38,140
+the way it's a much better job if you look at a listing of of files or podcasts essentially
+
+187
+00:15:38,140 --> 00:15:44,140
+it will start to scroll and you can even yeah man I river so cool you can modify the the speed
+
+188
+00:15:44,140 --> 00:15:48,460
+of the scroll and all that stuff but it was really done with iPods in mind so of course it's
+
+189
+00:15:48,460 --> 00:15:53,020
+it's to look for discussion but by the way I've seen some other very interesting uses of the id3
+
+190
+00:15:53,020 --> 00:15:58,780
+tag certainly of the album tag being used for commercials don and drew I think had MSMobile
+
+191
+00:15:59,100 --> 00:16:05,580
+calm in the album ID3 tag and it would just scroll across which it's kind of like RDS on the radio
+
+192
+00:16:05,580 --> 00:16:11,260
+so what it does fuck up and I completely agree with that it screws up sorry pardon my friend it's
+
+193
+00:16:11,260 --> 00:16:18,140
+screws up management in iTunes or however you're managing your podcast because you know yeah I'd
+
+194
+00:16:18,140 --> 00:16:23,980
+like the album to be it would make sense for the album to be daily source code that will be the
+
+195
+00:16:23,980 --> 00:16:29,020
+collection but you know it's we're kind of just cludging it into what's what's available maybe it's
+
+196
+00:16:29,020 --> 00:16:36,780
+time for ID4 tags or IDP tags I just don't know how that works but the industry standard is ID3 and
+
+197
+00:16:36,780 --> 00:16:42,700
+we're just kind of you know plugging along and using what we can at this at this point in time
+
+198
+00:16:42,700 --> 00:16:47,740
+so I promised you it was going to be relatively short and what's interesting to me
+
+199
+00:16:48,620 --> 00:16:55,420
+is I'm just looking at the eye river here it appears oh my god so I set up this sink right
+
+200
+00:16:56,140 --> 00:17:01,340
+the synchronization so it starts when basically it waits for sound and the once it hears the sound
+
+201
+00:17:01,340 --> 00:17:07,420
+it starts recording looks to me like when I shut up for a second and I don't produce any sound it
+
+202
+00:17:07,420 --> 00:17:14,700
+actually stops recording dude that's a configuration I have to look at and then it starts a new
+
+203
+00:17:14,700 --> 00:17:18,700
+recording when it hears something so this can be pretty interesting the way this is split let's test it
+
+204
+00:17:18,700 --> 00:17:24,700
+right now I'm going to be quiet and let's see if it shuts off yep yep one two one two one
+
+205
+00:17:24,700 --> 00:17:31,740
+totally shut off oh my god so I don't know if I can reset that somehow that's going to be very interesting
+
+206
+00:17:31,740 --> 00:17:37,340
+so now I also don't know how long I've been wait there's a oh man this eye river is they thought
+
+207
+00:17:37,340 --> 00:17:42,460
+about everything so it looks like I've been going for 12 minutes and 53 seconds of that possible
+
+208
+00:17:42,460 --> 00:17:48,620
+in total so it does keep a total of everything but it will quit midstream if you don't
+
+209
+00:17:48,620 --> 00:17:53,020
+provide it with any audio interesting so I'm going to have to work on that well hold on a second
+
+210
+00:17:53,020 --> 00:17:58,140
+then let's make sure that we provide some audio hold on so now I've got to keep talking because
+
+211
+00:17:58,140 --> 00:18:03,820
+I'm afraid it's going to like shut off don't want that to happen okay try this audio on
+
+212
+00:18:03,820 --> 00:18:15,100
+okay it's time once it's time for it to look with your on pull it hey on hi Adam this is
+
+213
+00:18:15,100 --> 00:18:19,740
+yet another hit test for you yeah I thought so and we're going to start right away this is number one
+
+214
+00:18:19,740 --> 00:18:31,740
+okay okay um I don't know let's say I just have to give up right away on that one number two
+
+215
+00:18:33,820 --> 00:18:53,500
+okay okay are you yelling at your iPod now do you if you're MP3 player you're
+
+216
+00:18:53,500 --> 00:19:01,660
+number three okay that one I know
+
+217
+00:19:01,660 --> 00:19:13,660
+uh abs now oh geez all right and this is answering number one what's this it's us
+
+218
+00:19:13,660 --> 00:19:17,020
+what I don't know ass away from ass what I don't know ass away from ass what
+
+219
+00:19:43,660 --> 00:19:56,140
+oh all right I was going to say that it's full note I was going to spend the night
+
+220
+00:19:56,140 --> 00:20:06,140
+oh it's too late for me it's too late now it's the third one
+
+221
+00:20:06,140 --> 00:20:26,780
+that's a great song yeah that's a great song yeah
+
+222
+00:20:26,780 --> 00:20:33,420
+oh all the boys here's Johnny yeah you go from uh number five's alive
+
+223
+00:20:56,780 --> 00:21:05,660
+and so number three in today's hit test whose Johnny elevards and that wraps up the
+
+224
+00:21:05,660 --> 00:21:11,420
+hit test for today well it's uh the same thing every time you can send feedback to hittest at
+
+225
+00:21:11,420 --> 00:21:16,220
+gmail.com and you can find information about the hittest and the separate hittest podcast
+
+226
+00:21:16,220 --> 00:21:23,340
+at young polettes dot-to-n-l that's j-a-n-f-o-l-e-t-t-n-l well Adam see you next time
+
+227
+00:21:23,340 --> 00:21:28,700
+for our next edition of the hittest thank you bye bye also I was talking to Andrew Brummit
+
+228
+00:21:28,700 --> 00:21:33,660
+he's the iPod 11 team today and he said that he had put the answers to hit test
+
+229
+00:21:33,660 --> 00:21:40,860
+was it 22 I think with the hairband the metalband guitar solos he put a spoiler out
+
+230
+00:21:41,500 --> 00:21:45,660
+he put all the answers up online and hopefully Michael Butler won't see it maybe this week
+
+231
+00:21:45,660 --> 00:21:51,260
+and we'll be the day that Mike and I finally hook up on on doing that uh doing that hittest
+
+232
+00:21:51,260 --> 00:21:56,380
+hey listen I gotta go it's uh because now of course I have to you know sew up all these files together
+
+233
+00:21:56,380 --> 00:22:00,940
+and make sure that it becomes one happy show and god knows it may sound like crap so my
+
+234
+00:22:00,940 --> 00:22:05,740
+apologies if that's what happened in the long run but I don't really want to re-record this show
+
+235
+00:22:06,300 --> 00:22:12,620
+that would kind of make no sense um tomorrow as I told you I'm slated for two interviews in
+
+236
+00:22:12,700 --> 00:22:19,740
+London one four uh as a very serious Dutch new show called to be from that which means two today
+
+237
+00:22:19,740 --> 00:22:23,980
+number that it's on channel too obviously uh so then you know the the Netherlands is trying
+
+238
+00:22:23,980 --> 00:22:28,380
+is basically catching up with podcast things it's kind of interesting how the press there has
+
+239
+00:22:28,380 --> 00:22:34,700
+have taken so long to to to really catch on and and really to print anything about it
+
+240
+00:22:34,860 --> 00:22:42,940
+Polo said dinner okay thank you be right there uh see perfect timing uh and part of that is
+
+241
+00:22:42,940 --> 00:22:48,940
+because the news was really focused on a lot of other really serious issues that are taking place
+
+242
+00:22:48,940 --> 00:22:56,860
+in the Netherlands um the murder of taeofonhoch uh the Dutch filmmaker uh there's been all kinds of
+
+243
+00:22:56,860 --> 00:23:03,260
+real real big tension going on um death threats to many politicians it's just it's not been a very
+
+244
+00:23:03,260 --> 00:23:08,140
+happy happy vibe and so I think the news is kind of dominated by that interesting though how
+
+245
+00:23:08,140 --> 00:23:14,460
+so much of the podcasting uh movement has come out of the Netherlands you know or actually um
+
+246
+00:23:14,460 --> 00:23:19,660
+I did my stuff in in Belgium but let's just call it actually I did do some of the some of my
+
+247
+00:23:19,660 --> 00:23:24,220
+attempts at coding the first iPod or script during my radio show and he'll were so more after
+
+248
+00:23:24,220 --> 00:23:28,380
+the show actually would do that and we're sitting around kind of decompressing and trying to write
+
+249
+00:23:28,380 --> 00:23:32,460
+two or three lines of code because they had a really nice fat pipe there at the studio and we
+
+250
+00:23:32,460 --> 00:23:38,780
+good to suck in megabytes of podcasts while I was testing uh sucking in RSS feeds but also look at
+
+251
+00:23:38,780 --> 00:23:44,460
+the you know there's uh the uh two people from the from the lemon team are uh are in Holland
+
+252
+00:23:46,780 --> 00:23:54,220
+what's Ed's uh mimic is another fine uh uh Dutch product I think Doppler as well I mean dude
+
+253
+00:23:54,300 --> 00:23:59,260
+this is there's a lot going on it's all in their enterprises backyard it's uh very typical I guess
+
+254
+00:23:59,980 --> 00:24:04,060
+oh one other thing that if you live in the UK and you've been reading the newspapers the big
+
+255
+00:24:04,060 --> 00:24:09,020
+governmental budget was presented uh it was in all the papers today and one thing that I keep reading
+
+256
+00:24:09,020 --> 00:24:16,780
+is that the UK government wants to go Dutch on uh rules for business uh let me just uh talk about
+
+257
+00:24:16,780 --> 00:24:23,820
+that for one second what they're referring to is the Dutch government's pledge to reduce um all the
+
+258
+00:24:23,900 --> 00:24:31,980
+laws and rules and often conflicting um processes that have to that are putting place for businesses
+
+259
+00:24:31,980 --> 00:24:37,740
+now I've started several businesses in the Netherlands um very few with big success and let me
+
+260
+00:24:37,740 --> 00:24:42,700
+tell you the number one problem is you just can't fucking do business there it is impossible there's
+
+261
+00:24:42,700 --> 00:24:49,500
+been no change whatsoever in any of these rules I recommend that you don't eat the horseshit
+
+262
+00:24:49,580 --> 00:24:55,100
+that it's working over there or that it's a great idea it's just bullshit to keep people believing
+
+263
+00:24:55,100 --> 00:24:58,540
+in the government these guys are going to be out when these rules are supposedly supposed to be
+
+264
+00:24:58,540 --> 00:25:04,460
+in full swing they'll all be out of they'll be in you know in great cushy little uh board director
+
+265
+00:25:04,460 --> 00:25:09,420
+jobs uh all over uh the world and they won't have to bother with any of that shit but that nothing
+
+266
+00:25:09,420 --> 00:25:16,620
+has trickled down whatsoever it is the worst business environment I have ever been in um and it's
+
+267
+00:25:16,620 --> 00:25:21,900
+it's it's crazy the minute you you you register a company blue envelope start coming in with you
+
+268
+00:25:21,900 --> 00:25:27,500
+have to pay this you have to talk to this person uh evaluated tax is separate from uh from normal
+
+269
+00:25:27,500 --> 00:25:34,140
+taxation it's crazy it's a crazy ass country and if you run a big company like diagio and you're
+
+270
+00:25:34,140 --> 00:25:37,580
+in there get your people out man I'm telling you get them out what do you think we escaped for
+
+271
+00:25:38,780 --> 00:25:42,780
+hey that's it I gotta go eat as you heard so thank you very much for this short and version
+
+272
+00:25:42,940 --> 00:25:50,940
+hope you don't mind the dropouts tomorrow um besides that uh that interview also doing click on
+
+273
+00:25:50,940 --> 00:25:56,380
+line with the BBC so I will uh take along the as Madge would say I take along the i-reathas with
+
+274
+00:25:56,380 --> 00:26:03,980
+my very expensive microphones thanks for tuning everybody tomorrow thank god it's brighter
+
+275
+00:26:07,020 --> 00:26:12,540
+comments at americancurry.com if you have a promo put it up online somewhere and just send me a
+
+276
+00:26:12,540 --> 00:26:19,180
+link to the URL uh because clearly sending MP3's is just not working it fills up Gmail and I
+
+277
+00:26:19,180 --> 00:26:25,340
+have no time to go manage my one gig of shit it's just not an easy interface to delete stuff actually
+
+278
+00:26:25,340 --> 00:26:30,220
+there's no simple way to say delete everything that's in junk it's not that I've been able to find
+
+279
+00:26:30,220 --> 00:26:35,740
+so if you've got a way let me know comments at www.curry.com the podcast feed and the latest
+
+280
+00:26:35,740 --> 00:26:41,180
+show in the archive the daily source code dot com thanks everybody i'll see you tomorrow on Friday take care bye
+
+281
+00:26:42,540 --> 00:26:46,860
+bye
+
