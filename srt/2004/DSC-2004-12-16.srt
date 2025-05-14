@@ -1,0 +1,1656 @@
+1
+00:00:00,000 --> 00:00:20,240
+Welcome to the Data Source Code, today is Thursday, December 6, 2004, coming to you from
+
+2
+00:00:20,240 --> 00:00:27,280
+Curry Cottage in the United Kingdom, and the lovely, affluent, seri, town of Guilfe,
+
+3
+00:00:27,520 --> 00:00:36,320
+hits the source code, I'm Adam Curry and I've got the sniffles, I don't know if this is man,
+
+4
+00:00:36,320 --> 00:00:42,400
+it was like, I thought I was done this season with flu and stuff and it's nothing else bothers me,
+
+5
+00:00:42,400 --> 00:00:49,120
+it's all it is, it's 100% snob. It's not like a painting pretty picture there for you.
+
+6
+00:00:49,680 --> 00:00:54,960
+Once again, it's about 40 minutes, users and developers partying together, got some nerdy stuff
+
+7
+00:00:55,040 --> 00:01:00,480
+to talk about today, some pot-safe music, in fact, one of my favorite bands, Mo Jones
+
+8
+00:01:00,480 --> 00:01:06,000
+is going to play something like them later on, and also have a bit of cover villa I want to share with you.
+
+9
+00:01:11,280 --> 00:01:17,280
+Pretty unabendful day, actually, went off to the Starbucks to the band with
+
+10
+00:01:17,920 --> 00:01:23,680
+whole to the pipe, had to go suck on the pipe for a while, got that nice and early, I was there
+
+11
+00:01:23,680 --> 00:01:31,520
+around one o'clock, usually I'm a little bit later than that, I had my regular Grande Capuchino,
+
+12
+00:01:31,520 --> 00:01:41,200
+why is it the instead of saying regular large or small at Starbucks, what is it tall, that's
+
+13
+00:01:41,200 --> 00:01:49,760
+their small, Grande is their media more, actually kind of looks large, and then humanoid,
+
+14
+00:01:49,760 --> 00:01:58,160
+like the big golf size, is venti. God knows, makes no sense, but I noticed that I'm starting to
+
+15
+00:01:58,160 --> 00:02:03,200
+catch up with a lot of stuff, not with email, of course, I'm planning on catching up on that
+
+16
+00:02:03,200 --> 00:02:08,160
+starting Monday, I'll talk about that in a sec, but had some, yeah, really kind of got a little bit
+
+17
+00:02:08,160 --> 00:02:14,080
+synced up with the podcasts and was able to actually, I think it's because I was playing with the
+
+18
+00:02:14,160 --> 00:02:20,160
+I River, you know, that I think I downloaded more than my usual quote, just filling it up,
+
+19
+00:02:20,160 --> 00:02:24,160
+and I was listening to a lot of that today, and came across some excellent stuff, lot of fun.
+
+20
+00:02:26,400 --> 00:02:32,240
+See, what else did I do, really? Oh, yeah, of course, God did the network test, put the source
+
+21
+00:02:32,240 --> 00:02:38,640
+code up on the old server, which as many of you, not noticed is a dot max server, it's just my regular
+
+22
+00:02:39,440 --> 00:02:45,040
+Adam Curry homepage dot mac, where dot mac account, where actually I had the source code, I was running it there
+
+23
+00:02:45,040 --> 00:02:51,840
+for a long time, and then we switched over to a new band with the new servers, and it was working fine
+
+24
+00:02:51,840 --> 00:02:56,720
+up until I guess we hit some critical point, and thank you all very much for all the testing you've done,
+
+25
+00:02:56,720 --> 00:03:01,680
+about what at last count there was about 90, 90 different comments of people who've been checking
+
+26
+00:03:01,680 --> 00:03:10,640
+out doing AV testing today on the dot mac account versus the Adam.opmail.org URL, where you could find
+
+27
+00:03:10,640 --> 00:03:16,160
+today's show, yes today's show, I'm sorry, and it was just great to see all the tests going on,
+
+28
+00:03:16,160 --> 00:03:23,360
+and it looks like, I guess with the provider that we have, once you hit some critical mass of band with,
+
+29
+00:03:24,400 --> 00:03:30,400
+instead of throttling, well, maybe that is the only way you can throttle overload of circuits
+
+30
+00:03:30,400 --> 00:03:34,640
+is to just start refusing packets, and that's pretty much what people are seeing happen is
+
+31
+00:03:34,640 --> 00:03:40,880
+packets being refused. Now there's a couple of different options that we can take. One thing I've asked
+
+32
+00:03:41,680 --> 00:03:46,480
+I potter developers and I've already seen some requests going and feature requests, so I'm hoping
+
+33
+00:03:46,480 --> 00:03:53,200
+that they will have time to put this in, not just for the case that I bumped up against, but
+
+34
+00:03:54,480 --> 00:03:59,920
+anything can happen, shit just does happen, if you're sitting on a 30 or 40 minute download, and
+
+35
+00:03:59,920 --> 00:04:03,920
+the connection breaks or something hoses for some reason, it's a shame if you can't get the show
+
+36
+00:04:03,920 --> 00:04:10,800
+anymore because somewhere, there is a certain amount of Murphy in the network, so some kind of
+
+37
+00:04:10,800 --> 00:04:21,040
+recheck, and I think perhaps most, I don't know if the iPodders actually will look to complete
+
+38
+00:04:21,040 --> 00:04:26,800
+all of the bytes, well, what will be nice that they would start the download again, and even
+
+39
+00:04:26,800 --> 00:04:31,760
+better if they could start it, you know, resume where they left off. That's one fix. Of course,
+
+40
+00:04:31,760 --> 00:04:42,240
+another one is staggering the RSS files, so you can basically change it. I think does that make sense?
+
+41
+00:04:42,240 --> 00:04:47,760
+What I'm saying now, yeah, so you release the RSS file with the feed pointing to one location,
+
+42
+00:04:47,760 --> 00:04:52,240
+and then 15 minutes later you change it to another location, basically load balancing it out.
+
+43
+00:04:53,200 --> 00:04:57,280
+BitTorrent, of course, seems like something we should be looking at pretty soon, and I think that we're
+
+44
+00:04:57,280 --> 00:05:01,840
+going to see that, well, there's already been a lot of development going on, and I believe most of the
+
+45
+00:05:01,840 --> 00:05:07,840
+major iPodders clients support BitTorrent. Actually, do we know if every single one of them supports
+
+46
+00:05:07,840 --> 00:05:15,280
+BitTorrent yet, is that a given, we should check that, because if they do, then, wow, what are we waiting
+
+47
+00:05:15,280 --> 00:05:20,960
+for, right? Let's get moving. So I'm going to keep it with the dot Mac for now, but clearly
+
+48
+00:05:21,040 --> 00:05:24,880
+on the lookout for some really good bandwidth, and the one thing I'd love to hear from, and the
+
+49
+00:05:24,880 --> 00:05:29,760
+one or two people seem to have a lot of knowledge about networks. If you're really in the networking
+
+50
+00:05:29,760 --> 00:05:35,120
+business, please shoot me an email or an audio comment or whatever, just so we understand what we need
+
+51
+00:05:35,120 --> 00:05:41,040
+to get, where we need to be, and even what is it going to cost? Where do I have to be to have
+
+52
+00:05:42,560 --> 00:05:47,280
+not have a problem with number of subscribers trying to get to my content? And is there someone
+
+53
+00:05:47,280 --> 00:05:55,920
+in this universe who can benefit from that? Oh, joy. Hello to the Prince of Paul at the
+
+54
+00:05:55,920 --> 00:06:02,320
+boy. I don't know. Written hour from Portland, Oregon. I was sitting on the train on the way home
+
+55
+00:06:02,320 --> 00:06:08,080
+from work, listening to the source code, and I was fucking shocked. I couldn't believe what I was
+
+56
+00:06:08,080 --> 00:06:13,280
+hearing about your I-river, because I have an I-river, the hard drive-based one, the Ford
+
+57
+00:06:13,280 --> 00:06:19,840
+gang, the I-HP 140, and it's totally different. It does all the things that you said it, you wanted
+
+58
+00:06:19,840 --> 00:06:24,960
+it to do a record straight to MP3, which is why what I'm doing right now, using the internal
+
+59
+00:06:24,960 --> 00:06:30,720
+mic, I just can't believe that they did a such a good job of mine and my product and just such
+
+60
+00:06:30,720 --> 00:06:36,960
+a horrible job on the other. I mean, you got to record straight to MP3, or at least to a wave,
+
+61
+00:06:36,960 --> 00:06:41,760
+and you got to just boot up just like a drive. That's what mine does. I can't believe they didn't
+
+62
+00:06:41,840 --> 00:06:47,760
+do that right. That really makes me mad, and I'm sorry, that you got screwed on that.
+
+63
+00:06:47,760 --> 00:06:52,720
+Anyway, because I think that my product for my rivers really good, so anyway, take that for what
+
+64
+00:06:52,720 --> 00:07:00,320
+it is. One satisfying question or two is some satisfying customer. So, keep it up, man,
+
+65
+00:07:00,320 --> 00:07:07,040
+love on the source code. All right, dude. Gotta love the Prince of Paul. Sorry. I haven't written
+
+66
+00:07:07,120 --> 00:07:13,120
+out of there. Okay, so clearly there's a difference in different models of I rivers, and I got quite
+
+67
+00:07:13,120 --> 00:07:19,520
+a lot of email and comments about the discussion that we had where I kind of reviewed this,
+
+68
+00:07:19,520 --> 00:07:27,840
+what is it? The IFP 799? I have to keep looking at that, let me see. Yeah, IFP 799. We have this
+
+69
+00:07:27,840 --> 00:07:36,720
+crappy I-river media manager. It's not even a media manager. It's a music manager. Imagine that.
+
+70
+00:07:36,800 --> 00:07:41,680
+Oh, whoever thought we'd want to manage anything else with music on our I-river MP3 players.
+
+71
+00:07:44,240 --> 00:07:49,760
+And there's all this DRM stuff in it, and the worst part is just that you can't just stick it
+
+72
+00:07:49,760 --> 00:07:56,800
+into your USB port and have it mount as a drive, which is clearly what Adams and written hours
+
+73
+00:07:58,240 --> 00:08:02,880
+I-river is doing. I guess he has a maybe more expensive model. I think he has one of the square ones.
+
+74
+00:08:02,880 --> 00:08:09,440
+This is basically like a little triangle of cheese. And what I mean, if you buy like a cheese stick,
+
+75
+00:08:11,440 --> 00:08:21,520
+I-I-river doesn't smell like a cheese stick. So it doesn't mount. And I got an email, and of
+
+76
+00:08:21,520 --> 00:08:29,040
+course all of this, as usual, in the production show notes, from, uh, this is from, uh, it was from Holland.
+
+77
+00:08:29,120 --> 00:08:37,440
+I remember, uh, Julius, right? Julius says he's got the I-HP 140, which doesn't have any of the
+
+78
+00:08:37,440 --> 00:08:44,480
+the same problems, but he says that there's some places to look on the net that you can basically
+
+79
+00:08:44,480 --> 00:08:51,920
+hack the firmware, one of them is MysticRiver.net, and there are ways to get around whatever
+
+80
+00:08:52,480 --> 00:09:00,160
+he calls the DRM shit in there. Um, clearly, you know, it's like, boy, we really got to figure this out
+
+81
+00:09:00,160 --> 00:09:05,920
+because otherwise it's a pretty nice machine. In the interface, it can still use work, but sound quality
+
+82
+00:09:05,920 --> 00:09:11,600
+is amazing. The sound and the options that you can set is quite good. And again, uh, for reporter
+
+83
+00:09:11,600 --> 00:09:17,360
+purposes, or for, um, on the go podcast purposes to have it, you know, just handy and be able to
+
+84
+00:09:17,360 --> 00:09:22,720
+record something at good quality, even with the built-in mic for, you know, 30, 40 hours on end,
+
+85
+00:09:22,720 --> 00:09:28,880
+it's, it's an invaluable tool without a doubt. Over the weekend, I was, uh, checking out, uh, no,
+
+86
+00:09:28,880 --> 00:09:33,360
+no, over the weekend, this was Tuesday, I think, Monday, or, no, it was Tuesday. Was it, yeah,
+
+87
+00:09:33,360 --> 00:09:40,800
+Tuesday, I was listening to coverville. Uh, I love, uh, the cover real podcast. Um, and, and I'm,
+
+88
+00:09:40,800 --> 00:09:46,000
+to this day, not sure about the legality of playing cover songs, but, um, you know, cover realist
+
+89
+00:09:46,000 --> 00:09:50,960
+playing asscaping BMI fees and has an arrangement. I hope all that's cool. I really do it because
+
+90
+00:09:50,960 --> 00:09:57,120
+it's so incredible to hear, uh, most of the songs you recognize, uh, but to hear them in different
+
+91
+00:09:57,120 --> 00:10:02,560
+versions, uh, sometimes original, sometimes covers. It's, uh, it's just, it's a fabulous show and the
+
+92
+00:10:02,560 --> 00:10:08,160
+frequency of this show. I think it's, uh, three times a week, um, you know, that's, it's great. I love
+
+93
+00:10:08,160 --> 00:10:12,160
+it. I love it. I love it. I love it. I love it. And even though it's a pretty big download, uh, the extra
+
+94
+00:10:12,160 --> 00:10:19,520
+quality, it's 128, uh, K is, uh, it's, uh, it's well worth it. Now, of course, I wouldn't want to break
+
+95
+00:10:19,520 --> 00:10:27,520
+any RIA rules or regulations or want to screw anybody, but, um, I heard this track. It's a cover from
+
+96
+00:10:27,520 --> 00:10:35,920
+1990, uh, a song done by, uh, was not was. I know, uh, Don and David, I've met them several times,
+
+97
+00:10:35,920 --> 00:10:38,960
+interviewed him a couple of times. So I'm sure they wouldn't have a problem with it. Don
+
+98
+00:10:39,040 --> 00:10:45,920
+about the record company. Um, and, and, and this song that they're doing is, uh, special to me,
+
+99
+00:10:45,920 --> 00:10:51,280
+because they mentioned a date in there, which is my birthday. So, uh, automatically, even though
+
+100
+00:10:51,280 --> 00:10:55,200
+it's in a completely different context in the song, it's the song that is, you know, the lyrics
+
+101
+00:10:55,200 --> 00:10:59,920
+of stuck with me for all of my life, basically. Um, so I want to play it for you because it is
+
+102
+00:10:59,920 --> 00:11:08,000
+such a kick-ass version. It is so incredibly good that I think in, you know, we could just, it's
+
+103
+00:11:08,080 --> 00:11:14,560
+news. And this is fair use. It's news. Cover of gold played an incredibly un-real version.
+
+104
+00:11:15,280 --> 00:11:19,040
+Well, I, you know, I can't even announce it. I'll just have to have the, you know, the, I played the whole
+
+105
+00:11:19,040 --> 00:11:24,720
+cover, cover real bit for you, so you can. All right, moving on. Let's, uh, we got a great big show
+
+106
+00:11:24,720 --> 00:11:30,400
+for you tonight. Yeah, everybody. So let's get down to it. Our first group is, uh, was not was,
+
+107
+00:11:31,440 --> 00:11:37,120
+a bunch of folks from Detroit, uh, let by, I'm going to turn it up to 11 here, hold on.
+
+108
+00:11:37,200 --> 00:11:42,080
+Not their real names, not brothers, their David Weiss, and Don Fagensen, they went by the
+
+109
+00:11:42,080 --> 00:11:49,280
+alias's Don Fagensen, or David and Don was, put your earphones on, had a ton of different
+
+110
+00:11:49,280 --> 00:11:55,920
+vocalists in the band. It's really good. There cover of Poppa was a Rolling Stone, crank it up from
+
+111
+00:11:56,400 --> 00:12:08,240
+1990. Here on cover of it. Oh, oh. I'll shut up. But I bet you, you can't stop pressing down that
+
+112
+00:12:08,240 --> 00:12:10,240
+accelerator, baby.
+
+113
+00:12:38,240 --> 00:13:08,240
+That's what we would have to write on them. Yeah, I'm very mean, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah
+
+114
+00:13:08,240 --> 00:13:38,240
+The day I always remember, yes I belong and all But I moved the day, I need to time, I never had a chance to see him, yeah yeah yeah, yeah, yeah, yeah yeah yeah, yeah, yeah yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah yeah, yeah, yeah yeah, yeah, yeah, yeah, yeah yeah, yeah, yeah, yeah, yeah yeah, yeah yeah, yeah, yeah yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah yeah, yeah, yeah, yeah yeah, yeah, yeah. Yeah, yeah, yeah, yeah yeah, yeah yeah yeah yeah, yeah, yeah, yeah yeah,
+
+115
+00:13:38,240 --> 00:14:08,240
+I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I
+
+116
+00:14:08,240 --> 00:14:38,240
+'m a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish, and I'm a fish, but I'm a fish, but I'm a fish, but I'm a fish,
+
+117
+00:14:38,240 --> 00:14:39,760
+One, two, one, but now I'm ready
+
+118
+00:14:39,760 --> 00:14:41,440
+And I don't dwell a self-pity
+
+119
+00:14:41,440 --> 00:14:43,520
+Taking a bottle of life you didn't give me
+
+120
+00:14:43,520 --> 00:14:45,440
+I remember when I used to tell lies
+
+121
+00:14:45,440 --> 00:14:47,680
+When people would ask I'd get fat aside
+
+122
+00:14:47,680 --> 00:14:49,440
+Taking a story used to make you look good
+
+123
+00:14:49,440 --> 00:14:51,840
+But the little true one, you was never knowing it
+
+124
+00:14:51,840 --> 00:14:53,760
+We were used to say, I look just like you
+
+125
+00:14:53,760 --> 00:14:55,840
+The best to show I don't act like you
+
+126
+00:14:55,840 --> 00:14:57,600
+I'm more than that, I'm on my way as quick
+
+127
+00:14:57,600 --> 00:14:59,200
+Better, and you can best believe
+
+128
+00:14:59,200 --> 00:15:01,200
+I'm much more together
+
+129
+00:15:01,200 --> 00:15:02,560
+So believe it
+
+130
+00:15:02,560 --> 00:15:04,320
+But then I'm up
+
+131
+00:15:04,320 --> 00:15:06,160
+And isn't true what they said
+
+132
+00:15:06,160 --> 00:15:08,160
+I've never been working days
+
+133
+00:15:08,160 --> 00:15:10,160
+In my life
+
+134
+00:15:10,160 --> 00:15:12,160
+And my mother
+
+135
+00:15:12,160 --> 00:15:14,160
+And I'm going round time
+
+136
+00:15:14,160 --> 00:15:16,160
+Said Papa had the opposite
+
+137
+00:15:16,160 --> 00:15:18,160
+And I love the way
+
+138
+00:15:18,160 --> 00:15:20,160
+And that ain't right
+
+139
+00:15:20,160 --> 00:15:22,160
+I've been talking about Papa
+
+140
+00:15:22,160 --> 00:15:24,160
+But I'm so stupid, freaky
+
+141
+00:15:24,160 --> 00:15:26,160
+And I'm not ashamed
+
+142
+00:15:26,160 --> 00:15:28,160
+All the time
+
+143
+00:15:28,160 --> 00:15:30,160
+Doing and done
+
+144
+00:15:30,160 --> 00:15:34,160
+It's still in the name of the Lord
+
+145
+00:15:34,160 --> 00:15:36,160
+We'll be right over here
+
+146
+00:15:36,160 --> 00:15:38,160
+So it's still in the name of the Lord
+
+147
+00:15:38,160 --> 00:15:40,160
+And I love the way
+
+148
+00:15:40,160 --> 00:15:42,160
+And that ain't right
+
+149
+00:15:42,160 --> 00:15:44,160
+But I'm going round time
+
+150
+00:15:44,160 --> 00:15:46,160
+Said Papa had the opposite
+
+151
+00:15:46,160 --> 00:15:48,160
+And I love the way
+
+152
+00:15:48,160 --> 00:15:50,160
+And that ain't right
+
+153
+00:15:50,160 --> 00:15:52,160
+And that ain't right
+
+154
+00:15:52,160 --> 00:15:54,160
+I'm a techman
+
+155
+00:15:54,160 --> 00:15:56,160
+And I'm always the Lord
+
+156
+00:15:56,160 --> 00:15:58,160
+I'm always the one
+
+157
+00:15:58,160 --> 00:16:00,160
+And that ain't right
+
+158
+00:16:00,160 --> 00:16:02,160
+So believe it
+
+159
+00:16:02,160 --> 00:16:04,160
+I'm really down
+
+160
+00:16:04,160 --> 00:16:07,160
+Oh, he's the first one
+
+161
+00:16:07,160 --> 00:16:09,160
+Oh, yeah
+
+162
+00:16:14,160 --> 00:16:15,160
+Think it's been said
+
+163
+00:16:15,160 --> 00:16:17,160
+You gave me something you never had
+
+164
+00:16:17,160 --> 00:16:18,160
+But that's not always true
+
+165
+00:16:18,160 --> 00:16:19,160
+And it's sad
+
+166
+00:16:19,160 --> 00:16:21,160
+If I'm myself missing you when I did
+
+167
+00:16:21,160 --> 00:16:23,160
+But who knows the reasons you did when you did
+
+168
+00:16:23,160 --> 00:16:25,160
+I can't help but to wonder why
+
+169
+00:16:25,160 --> 00:16:27,160
+If every life has a big fat lie
+
+170
+00:16:27,160 --> 00:16:29,160
+You act like you're having no responsibilities
+
+171
+00:16:29,160 --> 00:16:31,160
+Because if you did, it's a bet that you wouldn't be
+
+172
+00:16:31,160 --> 00:16:33,160
+Still if you're back in hustling and screaming
+
+173
+00:16:33,160 --> 00:16:35,160
+You've been a gotta job, but did you know what I mean
+
+174
+00:16:35,160 --> 00:16:37,160
+And I'm put, I'm talking about it on his day's day
+
+175
+00:16:37,160 --> 00:16:39,160
+But used to lazy for the pre that way
+
+176
+00:16:39,160 --> 00:16:41,160
+Oh, he's trying to take the easy ride
+
+177
+00:16:41,160 --> 00:16:43,160
+That's what they tell me, so I don't know it's out
+
+178
+00:16:43,160 --> 00:16:45,160
+And for a moment, not for a sec
+
+179
+00:16:45,160 --> 00:16:47,160
+Because your lack of self respect
+
+180
+00:16:47,160 --> 00:16:49,160
+But it's too late, but you that is
+
+181
+00:16:49,160 --> 00:16:51,160
+Tomorrow I'll be doing all about my business
+
+182
+00:16:51,160 --> 00:16:53,160
+And so it's time to put the past behind
+
+183
+00:16:53,160 --> 00:16:55,160
+You race to anger
+
+184
+00:16:55,160 --> 00:16:56,160
+And clear my mind
+
+185
+00:16:56,160 --> 00:16:58,160
+I wanna forget the little bit I know
+
+186
+00:16:58,160 --> 00:17:00,160
+And make sure that I never see someone
+
+187
+00:17:00,160 --> 00:17:02,160
+Because I love my kids to go up and know
+
+188
+00:17:02,160 --> 00:17:04,160
+And I was always there because I love the soul
+
+189
+00:17:04,160 --> 00:17:06,160
+And that's the least thing that I can do
+
+190
+00:17:06,160 --> 00:17:08,160
+But that's a lot more than I can't for you
+
+191
+00:17:08,160 --> 00:17:12,160
+Oh, I'm put, I'm put, I'm talking about it on his day's
+
+192
+00:17:12,160 --> 00:17:16,160
+So it's time to put, I'm talking about it on his day's day
+
+193
+00:17:16,160 --> 00:17:20,160
+But you say, I'm put, I'm put, I'm put, I'm put, I'm put
+
+194
+00:17:20,160 --> 00:17:22,160
+Still if you're back in hustling and screaming
+
+195
+00:17:22,160 --> 00:17:27,160
+He's beat, I'm a, I'm a, I'm a, I'm a, I'm a
+
+196
+00:17:27,160 --> 00:17:31,160
+But I'm a, I'm a, I'm a, I'm a, I'm a, I'm a
+
+197
+00:17:31,160 --> 00:17:35,160
+Wow, oh, oh, oh, That's all i do
+
+198
+00:17:35,160 --> 00:17:37,160
+deter the truth
+
+199
+00:17:37,160 --> 00:17:39,160
+Of that feeling
+
+200
+00:17:39,160 --> 00:17:42,160
+Oh
+
+201
+00:17:42,160 --> 00:17:51,160
+Oh, Oh, Oh, Oh,
+
+202
+00:17:51,160 --> 00:17:53,160
+Oh, Oh, Oh, Oh, Oh.
+
+203
+00:17:53,160 --> 00:17:55,160
+Oh, Oh, Oh, Oh, Oh, Oh, Oh, Oh. Oh, I see
+
+204
+00:17:55,160 --> 00:18:25,160
+Oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh
+
+205
+00:18:25,160 --> 00:18:35,400
+oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh
+
+206
+00:18:35,400 --> 00:18:44,600
+ask or what, whoo, I was, man, I was awesome. I just love that version. Oh, that is so cool.
+
+207
+00:18:44,600 --> 00:18:50,400
+And isn't really a shame how shitty MP3 really sounds when it gets down to it.
+
+208
+00:18:50,400 --> 00:18:56,360
+Because I've heard better versions, just even though it's a grading coding from cover
+
+209
+00:18:56,360 --> 00:19:01,480
+ville, it does degrade. It really does degrade after a while. And I'm degrading it with my own
+
+210
+00:19:01,480 --> 00:19:07,080
+recompression of recompression. So one day, you know, one day will have real high quality
+
+211
+00:19:07,080 --> 00:19:12,280
+audio or, you know, maybe you'll pay a little bit extra for super duper high quality audio.
+
+212
+00:19:12,280 --> 00:19:18,360
+You'll have to one way the other for your hard disk space. So it's, it's, it's, but
+
+213
+00:19:18,360 --> 00:19:24,520
+oh, geez, I love that. Love that. More cool tunes on the way. And, um, uh, when I wanted to mention
+
+214
+00:19:24,520 --> 00:19:30,680
+that, uh, oh, yeah, uh, the Dutch podcasting scene is finally happening. And I was trying to figure out,
+
+215
+00:19:30,760 --> 00:19:35,560
+why was it taking so long? Because, you know, I'd post on my dad. I mean, people know who I am
+
+216
+00:19:35,560 --> 00:19:41,160
+and Holland had posted my Dutch weblog several times. You know, hey, come on over and check out
+
+217
+00:19:41,160 --> 00:19:47,320
+what's happening on the, uh, on the English side on the curried alive.curried.com. And of course,
+
+218
+00:19:47,320 --> 00:19:52,040
+I realize now that there have been so many tragic accidents that have, or accidents or deaths
+
+219
+00:19:52,040 --> 00:19:57,800
+really that have taken place in Holland in the past six months, um, you know, you take a
+
+220
+00:19:57,880 --> 00:20:06,840
+tale of a hook into a count. And Andre Hazes, uh, who is a real folk hero singer, um, Prince
+
+221
+00:20:06,840 --> 00:20:14,680
+Bernard, uh, they finally buried him, uh, just, uh, just the other day. And he died, uh, um, was it
+
+222
+00:20:14,680 --> 00:20:21,240
+last weekend, I think? Uh, uh, I mentioned a tale of a hook ride. Of course, uh, pin for town,
+
+223
+00:20:22,040 --> 00:20:26,360
+three years ago. By now, which is it's, it's been, uh, it's been kind of weird. And I think that now
+
+224
+00:20:26,440 --> 00:20:31,800
+finally the press is, you know, they've covered all the deaths and the, and the Prince actually did one final
+
+225
+00:20:32,520 --> 00:20:37,320
+interview a few days before he died. Uh, I haven't actually read the whole thing myself, but apparently
+
+226
+00:20:37,320 --> 00:20:43,240
+it really took, uh, took the Mickey out of a couple people to put it politely. Uh, so I think that
+
+227
+00:20:43,240 --> 00:20:47,880
+they, they were done, you know, they had nothing left to cover and, uh, you know, start looking around
+
+228
+00:20:47,880 --> 00:20:53,160
+and say, hey, what's this commotion gone over there? Oh, that's, that's the podcasters. I'm sorry,
+
+229
+00:20:53,240 --> 00:20:58,040
+what are these podcasters you speak of? So I think that's, uh, that's what happened. So, uh,
+
+230
+00:20:58,040 --> 00:21:05,560
+B&N, uh, which is a broadcast company that I worked for for about, uh, was it, uh, over a year?
+
+231
+00:21:06,360 --> 00:21:10,920
+It was over a year, a little under a year. I did a Friday radio show for them. I love the show,
+
+232
+00:21:10,920 --> 00:21:16,360
+love doing that show. It was, um, seven to ten did it with the Kid V, uh, you don't
+
+233
+00:21:16,360 --> 00:21:23,320
+care, I can defect them. And, um, uh, I got admit that we didn't really leave on the best of terms,
+
+234
+00:21:23,320 --> 00:21:30,920
+because I kind of like just like quit. Which, uh, is pretty much, uh, uh, yeah, it wasn't a nice way
+
+235
+00:21:30,920 --> 00:21:35,160
+to end the relationship in hindsight, but there was a whole bunch of things going on and, you know,
+
+236
+00:21:35,160 --> 00:21:42,040
+it's just, it happened that way. Um, and it's not that I went anywhere else, really, per se. I just,
+
+237
+00:21:42,760 --> 00:21:50,200
+I just didn't want to do it for a number of reasons. Mainly, uh, there was a big to do about, um,
+
+238
+00:21:50,840 --> 00:21:59,320
+the outrageous salaries that people in the public broadcasting sector were, uh, enjoying for relatively
+
+239
+00:21:59,320 --> 00:22:05,880
+little work. And I was one of them, basically. And, and this whole report came out, this 110 page.
+
+240
+00:22:06,680 --> 00:22:11,560
+I think it was a McKinsey or Anderson, Anderson report. And I read it and I was just disgusted.
+
+241
+00:22:11,560 --> 00:22:16,760
+And I have to quit. I can't do this because this is partially about me. Uh, and I just felt
+
+242
+00:22:16,760 --> 00:22:20,360
+it was totally wrong because it was public money, you know, and it could have been put to much better
+
+243
+00:22:20,360 --> 00:22:26,120
+use. And basically it was subsidizing my helicopter lessons at the time. So, so anyway, regardless,
+
+244
+00:22:26,120 --> 00:22:31,800
+uh, I had a real good time, um, uh, working with them then, I tried to, you know, sell them on the idea
+
+245
+00:22:31,800 --> 00:22:37,240
+of web logs. And I actually had a lot of infrastructure set up for them, which they, you know,
+
+246
+00:22:37,240 --> 00:22:41,800
+then they went off and did it themselves, right? Typical story. Um, if you've ever seen blog news
+
+247
+00:22:41,800 --> 00:22:46,840
+network, you know, that, you know, I basically set that up, you know, willing to sell it to them,
+
+248
+00:22:46,840 --> 00:22:51,640
+or to, you know, to get them running on it and, uh, they had their own ideas. It's an old story,
+
+249
+00:22:51,640 --> 00:22:55,480
+but, you know, it's like, they're, I don't know, maybe they're a little corporate,
+
+250
+00:22:55,480 --> 00:23:03,560
+little government, you know, something typical about that. And, uh, uh, so now they've started podcasting,
+
+251
+00:23:03,560 --> 00:23:07,080
+which is really nice because I know that, you know, basically everyone there's young and smart
+
+252
+00:23:07,080 --> 00:23:13,400
+energetic and they do a number of, uh, really high quality radio shows, um, uh, and it did really
+
+253
+00:23:13,400 --> 00:23:19,080
+different formats, a lot of talk and talk and music formats. And so they've, uh, created podcast feeds,
+
+254
+00:23:19,080 --> 00:23:24,120
+and that's now become pretty much a big news story in Holland, right on the heels of the Heineken
+
+255
+00:23:24,120 --> 00:23:30,120
+podcast. Uh, so, uh, and I think this is a, a much bigger story, by the way, because it is essentially
+
+256
+00:23:30,200 --> 00:23:34,120
+what they're doing is they're pointing to the BBC and saying, hey, look, you know, the BBC are doing
+
+257
+00:23:34,120 --> 00:23:41,480
+a podcast, well, the BBC did like a podcast in a half. Um, and, uh, and, you know, and so the news is,
+
+258
+00:23:41,480 --> 00:23:47,320
+look, this is a great way to spend, um, the public's money, we're basically, uh, letting you enjoy
+
+259
+00:23:47,320 --> 00:23:53,080
+our programming, um, any, any time you want, if, uh, you know, if you don't choose to listen to it on the radio.
+
+260
+00:23:53,160 --> 00:24:00,520
+So, uh, that's, that's cool. And, uh, hopefully they're going to get listed in the iPodor.org
+
+261
+00:24:00,520 --> 00:24:03,800
+directory in the radio, no, they, they sent me an email and said, you know, can you put it
+
+262
+00:24:03,800 --> 00:24:08,360
+in the directory? So, well, you need to go into radio, I guess, or, I mean, where would you want to be?
+
+263
+00:24:08,360 --> 00:24:12,840
+And, uh, they just have to use the suggest to link feature. That's, uh, the beauty of the, uh, the
+
+264
+00:24:12,840 --> 00:24:17,400
+openness of the directory. But I'm sure that'll work out and they should show up. And, uh,
+
+265
+00:24:17,560 --> 00:24:25,400
+welcome to have them here in our podcast space. Hi, this is Craig Patchett from godcast.org
+
+266
+00:24:25,400 --> 00:24:33,480
+with the Living Word for Wednesday, December 15th, 2004. Our verses for today are Matthew 6,
+
+267
+00:24:33,480 --> 00:24:42,280
+19 through 21, and the translation is the NASP. This is Jesus, speaking as part of his sermon on the
+
+268
+00:24:42,280 --> 00:24:51,160
+Mount. Do not store up for yourselves treasures on earth, where Moth and Rust destroy and where thieves
+
+269
+00:24:51,160 --> 00:24:58,280
+break in and steal. But store up for yourselves treasures in heaven, where neither Moth nor Rust
+
+270
+00:24:58,280 --> 00:25:06,680
+destroys and where thieves do not break in or steal. For where your treasure is, dare your heart will be
+
+271
+00:25:06,680 --> 00:25:18,920
+also Matthew 6, 19 through 21. Okay, and that's beautiful. So, um, I subscribe to the, uh, to godcast.org
+
+272
+00:25:18,920 --> 00:25:23,240
+to the Living Word because this is what comes through. And, um, and this is actually, of course,
+
+273
+00:25:23,240 --> 00:25:29,240
+you know, I think the heaven here is a metaphor, right? This is, uh, it's about what's in your head,
+
+274
+00:25:29,240 --> 00:25:35,160
+basically heaven head. So, uh, basically this is not, this is, I think what this is saying here is,
+
+275
+00:25:36,120 --> 00:25:41,240
+um, you know, all the worldly possessions really don't mean anything. It's, uh, it's the possessions
+
+276
+00:25:41,240 --> 00:25:48,680
+that you collect along the journey of life and that you, uh, carry with you and that you cherish.
+
+277
+00:25:48,680 --> 00:25:56,680
+And I can tell you, um, from someone who was amassed an amazing amount of stuff. I mean, really
+
+278
+00:25:56,680 --> 00:26:01,800
+stuff, and I've seen it because I've given half of it away in the past, in the past four weeks,
+
+279
+00:26:01,880 --> 00:26:08,760
+just given away our stuff because it's sickening. Um, it really, it's, uh, it's nothing compared
+
+280
+00:26:08,760 --> 00:26:13,000
+to the experiences that you keep up in your head, and in your heart, which in this case, I think is,
+
+281
+00:26:13,720 --> 00:26:19,960
+in this verse of Matthew is, uh, uh, what's being talked about, uh, what's being referred to as heaven.
+
+282
+00:26:21,160 --> 00:26:25,960
+And what thieves do not break in or steal? That's cool. Yeah, because thieves, where are your treasure
+
+283
+00:26:26,040 --> 00:26:33,480
+or your heart? There, your heart will be also. Matthew 6, 19 through 21. Don't you feel refreshed?
+
+284
+00:26:33,480 --> 00:26:38,440
+Now, now that we've been posting to the living word, comments and verse requests are always welcome
+
+285
+00:26:38,440 --> 00:26:44,440
+and we'd back at godcast.org. This is Craig Patchett. Hoping that God blesses your day today.
+
+286
+00:26:44,440 --> 00:26:52,120
+I'll see you tomorrow. God bless your day as well, brother. Excellent. Godcast.org.
+
+287
+00:26:52,120 --> 00:26:56,920
+Hey, got an audio comment from Lee Wilkins, an update on Alfian Benson.
+
+288
+00:26:56,920 --> 00:27:01,480
+Hey, Adam, it's Lee Wilkins. I was just listening to you going on about, um, and half the
+
+289
+00:27:01,480 --> 00:27:07,800
+listening to Robert talking about the paper and the phase involved. Well, as you know, that's right.
+
+290
+00:27:07,800 --> 00:27:12,840
+We were talking about that yesterday, um, uh, uh, what PayPal charges, because we did, uh,
+
+291
+00:27:12,840 --> 00:27:18,840
+we raised the money for Alfian Benson, um, uh, VIA, uh, a PayPal donation link.
+
+292
+00:27:18,840 --> 00:27:25,880
+It managed to raise the funds to get Alfian Benson back. You! Hey, boy. Now, they're going to be
+
+293
+00:27:25,880 --> 00:27:29,320
+back Friday morning instead of Thursday morning because the quarantine people can't pick them up,
+
+294
+00:27:29,320 --> 00:27:33,160
+but at least they're coming back. That's the main thing. But going back to the question anyway,
+
+295
+00:27:33,160 --> 00:27:40,440
+uh, or a solution. Whatever, um, is that PayPal, we transferred the money to a guy in Houston,
+
+296
+00:27:40,440 --> 00:27:45,160
+who was going to pay us cash over the count. Wait a minute. That sounded really dodgy.
+
+297
+00:27:45,240 --> 00:27:48,360
+Wait a minute, you paid it to a guy in Houston who was going to pay it cash and bring it in a
+
+298
+00:27:48,360 --> 00:27:55,720
+brown paper bag with the hellest. What's going on here, Lee? Uh, in the US, um, and we transferred
+
+299
+00:27:55,720 --> 00:28:04,840
+to 1,200 and something dollars, okay? But what I'm trying to get to PayPal and PayPal took their
+
+300
+00:28:04,840 --> 00:28:15,000
+fee. They took a fee of $43 dollars, um, for, for the 1,200 something. We said them, which I don't
+
+301
+00:28:15,000 --> 00:28:21,720
+think is, I personally don't think it's too bad considering the urgency in the matter. But I can
+
+302
+00:28:21,720 --> 00:28:26,920
+understand where Robert's coming from, where you're coming from, but you know, PayPal do take a large
+
+303
+00:28:26,920 --> 00:28:34,680
+chunk. Right. But here's, here's the question. How much did PayPal take? Um, when we sent it
+
+304
+00:28:34,840 --> 00:28:40,600
+to you, is that also a piece that they, so PayPal was basically grabbing it twice in this case.
+
+305
+00:28:40,600 --> 00:28:45,640
+But, okay. I mean, yeah, I kind of agree with your point. And so it's, uh, what does that? It's like,
+
+306
+00:28:46,200 --> 00:28:49,000
+three and a half percent or something. It's at the service trip, about three percent.
+
+307
+00:28:49,800 --> 00:28:56,680
+You know, the other day, PayPal, our business and these banks. Um, I'm so I got in
+
+308
+00:28:57,000 --> 00:29:02,360
+the introduction there. We, we don't call that a businessly. Hold on. We just, we call that a
+
+309
+00:29:02,360 --> 00:29:09,720
+business business. And these banks, um, online payment companies have got to make this money
+
+310
+00:29:09,720 --> 00:29:15,640
+somewhere. So one of screw over us consumers. Yeah. And that's it. As I said, Alfie invented
+
+311
+00:29:15,640 --> 00:29:22,760
+a back tomorrow Friday, the 17th of December. Um, touchdown and morning, we're going to visit
+
+312
+00:29:22,840 --> 00:29:28,040
+a meeting afternoon. I'll upload a podcast and some pictures and all that over the weekend as
+
+313
+00:29:28,040 --> 00:29:33,720
+well. So have fun. Take care, Adam. Bye bye. Yeah, excellently. Okay. Well, looking forward to pictures
+
+314
+00:29:33,720 --> 00:29:38,920
+and, uh, and sounds of Alfie and Benson, uh, happily barking away. Have anyone else noticed by
+
+315
+00:29:38,920 --> 00:29:44,360
+the way, uh, that if you've gotten into podcasting, and I mean, really just listen to podcasts,
+
+316
+00:29:45,640 --> 00:29:50,600
+that you may not necessarily be watching as much TV as you use to, as you use to, and I'm really
+
+317
+00:29:50,680 --> 00:29:55,720
+finding this. And it actually may be not even that I'm, um, that I'm watching less, but I find that
+
+318
+00:29:55,720 --> 00:30:01,880
+less interesting. This is so little television that is compelling to me. I mean, news is no longer
+
+319
+00:30:01,880 --> 00:30:08,360
+compelling because I get my news on the internet. Um, some, well, BBC news, I, I like to watch because
+
+320
+00:30:08,360 --> 00:30:12,680
+it has some regional stuff that I'm still not tuned into, and I'm trying to figure out who's
+
+321
+00:30:12,680 --> 00:30:18,280
+what and who's doing what, uh, but still I, I think I get most of my news, uh, online. And then
+
+322
+00:30:18,280 --> 00:30:22,760
+reality shows, at this point, they're not really reality shows anymore. They're, you know,
+
+323
+00:30:22,760 --> 00:30:30,280
+very preconceived type of reality shows. Um, I don't know. I just, uh, podcasts seem so much more
+
+324
+00:30:30,280 --> 00:30:34,920
+exciting to me. I actually look forward to, I guess that is kind of like weblogs used to be when we
+
+325
+00:30:34,920 --> 00:30:39,400
+had weblogs.com just in the beginning, uh, you sit there and you hit refresh, you know, I was like,
+
+326
+00:30:39,400 --> 00:30:43,000
+oh, you know, what's it? When, oh, look, this guy just posted, oh, she just posted, you know,
+
+327
+00:30:43,000 --> 00:30:47,720
+here's that weblog that I've been following. And the same thing now with audio.weblogs.com,
+
+328
+00:30:47,880 --> 00:30:54,200
+it's great. And if, if you don't know how that works, uh, definitely go to iPod.org and there's a link
+
+329
+00:30:54,200 --> 00:30:58,120
+on the, uh, the couple of links to get help on that. Because you want, if you have a new podcast,
+
+330
+00:30:58,120 --> 00:31:02,440
+you want to be pinging that server as what we call it, which means you basically say, hello,
+
+331
+00:31:02,440 --> 00:31:07,320
+I have a podcast that's updated here. I am, and, uh, you'll show up on the top of that list and
+
+332
+00:31:07,320 --> 00:31:13,080
+believe me, a lot of people look at that list. And also, that information is available in XML format.
+
+333
+00:31:13,080 --> 00:31:19,240
+So that's being pulled into, um, uh, into new applications so that when people open up their iPod or,
+
+334
+00:31:19,240 --> 00:31:24,840
+uh, and eventually, uh, this will all be on your MP3 player. I hope you'll see on your MP3 player that,
+
+335
+00:31:24,840 --> 00:31:30,440
+uh, that something new is, uh, is available. Um, and you can make decisions about that, uh, on the go.
+
+336
+00:31:31,240 --> 00:31:38,120
+So, uh, uh, I think radio's getting back for that, uh, that video killed the radio star thing.
+
+337
+00:31:38,920 --> 00:31:44,040
+Oh, yeah, it's a show called audio. This episode won a body with a camera on the last one.
+
+338
+00:31:44,040 --> 00:31:48,040
+Let me answer your monies. Let me begin and just start proposing to you this idea that I've got of an MP3
+
+339
+00:31:48,040 --> 00:31:52,920
+key ask. So if you're like me, you've spent countless hours and airports, hotels and on highways,
+
+340
+00:31:52,920 --> 00:31:57,160
+with nothing good to listen to. So, uh, everybody who's like that raise your hand.
+
+341
+00:31:58,920 --> 00:32:03,800
+Okay. You know, you, you, you gas up at a truck stop at travel America or a loves. And what do you
+
+342
+00:32:03,800 --> 00:32:11,320
+find inside, but, uh, I use condom. It'll be more on audio cassette, which I would never buy,
+
+343
+00:32:11,320 --> 00:32:16,840
+or you're in an airport terminal. And what do you find for sale there? But uh, you too, it's all
+
+344
+00:32:16,840 --> 00:32:22,600
+you too with the airport. $30 audio books. And you can't listen to the narrator ahead of time. So,
+
+345
+00:32:22,600 --> 00:32:25,800
+you know, if you don't like the way the voice sounds, you're screwed. You know, I'm sure a few
+
+346
+00:32:25,800 --> 00:32:30,280
+years will all be downloading audio content onto our cell phones, Dave Winner and Adam Curry,
+
+347
+00:32:30,280 --> 00:32:34,840
+or forming a company as we speak on this premise of micro stations. I think it's a terrific idea
+
+348
+00:32:34,840 --> 00:32:39,720
+and I'd love to hear more details. But until we have universal adoption of their service, which
+
+349
+00:32:39,720 --> 00:32:43,880
+sure is going to take at least a couple of years, there's a market for another idea, I think,
+
+350
+00:32:43,880 --> 00:32:48,760
+and it's the end of it. Wait a minute, let me just stop there because I had you, I was completely
+
+351
+00:32:48,760 --> 00:32:55,560
+there for a second. I totally love the idea of at an airport where there's like a Wi-Fi and, um,
+
+352
+00:32:55,560 --> 00:33:02,200
+and in your iPod, your MP3 player, your iRiver, your creative labs. Go, it's bling, you know,
+
+353
+00:33:02,200 --> 00:33:07,320
+and then maybe there's a transaction, you pay for something, but, you know, it comes, it's comes
+
+354
+00:33:07,320 --> 00:33:12,840
+boiling in and along with anything else you happen to be subscribed to, it's like a filling station.
+
+355
+00:33:12,840 --> 00:33:20,280
+I can, yeah, why not have every gas station via an iPod filling station? MP3 Kiosk. So, with
+
+356
+00:33:20,280 --> 00:33:26,920
+the wireless broadband connection and a touch screen, the public can easily pull audio content onto
+
+357
+00:33:26,920 --> 00:33:32,920
+a portable device, right? Or burn it right there onto a CD-ROM. The back end is just an iPod or a
+
+358
+00:33:32,920 --> 00:33:38,520
+Doppler derivative and the gooey's got an autopsy. I'm going to go to gooey with me, please.
+
+359
+00:33:38,520 --> 00:33:44,600
+Oh, that anybody, even your grandmother understands it. No, I bullshit. So, you can sort the content
+
+360
+00:33:44,600 --> 00:33:50,120
+by genre and popularity and, you know, if you wanted to try, listen to it. Okay, totally. I love it.
+
+361
+00:33:50,120 --> 00:33:55,960
+I love the idea. It's a great idea. I mean, just the fact that we can have point to point sales, you know,
+
+362
+00:33:55,960 --> 00:34:02,760
+of, you walk in and, and you can fill up really cool. And that, of course, is only a step,
+
+363
+00:34:02,760 --> 00:34:09,320
+you know, from, from when, entire cities are blanketed and Wi-Fi. So, a lot of interesting stuff
+
+364
+00:34:09,320 --> 00:34:21,000
+coming up in the future people. Merry Christmas. Merry Christmas. Merry Christmas to me, I'll come.
+
+365
+00:34:22,040 --> 00:34:27,080
+Merry Christmas. I just wanted to let you know, the scalp.net will be featuring nothing,
+
+366
+00:34:27,080 --> 00:34:31,880
+but Christmas music for the rest of December. From the obscure?
+
+367
+00:34:40,200 --> 00:34:41,320
+To the classics?
+
+368
+00:34:49,240 --> 00:34:51,240
+To some stuff you've never heard before.
+
+369
+00:35:02,120 --> 00:35:05,160
+So, tune in to the scalp.net Christmas kit.
+
+370
+00:35:05,800 --> 00:35:11,800
+All right, talking about being a total TV junkie, reminded me that it was time to pull some
+
+371
+00:35:11,800 --> 00:35:19,480
+loads of jones out of iTunes. Roll it out for you. These are a couple of brothers, cats, who, you know,
+
+372
+00:35:19,480 --> 00:35:21,560
+home-seedy up in the rannick on their mat.
+
+373
+00:35:49,480 --> 00:36:04,280
+I'm sorry. That really sucked. That's just no good. We're going to have to do that again, I'm sorry.
+
+374
+00:36:05,080 --> 00:36:09,880
+I just can't live that way. I have to do mojones just as, you know, we got to kick it off again.
+
+375
+00:36:09,880 --> 00:36:13,160
+TV junkie, mojones on your daily summer scroll.
+
+376
+00:36:13,160 --> 00:36:18,360
+I'm sorry for the radio drop. We're not happening again.
+
+377
+00:36:43,240 --> 00:36:52,440
+Call me Mr. Scream. I can't tell you now. What you long child free?
+
+378
+00:36:53,960 --> 00:37:00,680
+I can't take it no more. But some fact keeps me dead.
+
+379
+00:37:04,040 --> 00:37:05,080
+I'm alone.
+
+380
+00:37:05,160 --> 00:37:13,880
+I'll free to turn it off again. Maybe you won't come to an answer.
+
+381
+00:37:13,880 --> 00:37:31,800
+Go out here, mojones, mojones on your daily junkie, mojones on your daily junkie, mojones on your daily junkie.
+
+382
+00:37:32,680 --> 00:37:37,720
+No, my computer is not broken.
+
+383
+00:37:39,720 --> 00:37:43,560
+Splinter, give me something else.
+
+384
+00:37:44,840 --> 00:37:46,520
+Faint up my ground.
+
+385
+00:37:47,880 --> 00:37:53,240
+Wait, this might have been sped. I can't take it no more.
+
+386
+00:37:54,440 --> 00:37:58,360
+No, no. But some fact keeps me dead.
+
+387
+00:38:01,880 --> 00:38:03,800
+I'm alone.
+
+388
+00:38:06,200 --> 00:38:11,400
+I'll free to turn it off again. Maybe you won't come to an answer.
+
+389
+00:38:11,400 --> 00:38:26,680
+Go out here, mojones, mojones on your daily junkie, mojones on your daily junkie, mojones on your daily junkie, mojones on your daily junkie, mojones on your daily junkie.
+
+390
+00:38:32,360 --> 00:38:34,680
+Splinter, give me something else.
+
+391
+00:38:34,680 --> 00:38:37,480
+Splinter, give me something else.
+
+392
+00:39:04,680 --> 00:39:06,760
+Splinter, give me something else.
+
+393
+00:39:35,480 --> 00:39:41,000
+Splinter, give me something else.
+
+394
+00:39:55,880 --> 00:39:57,160
+T-D-A-V.
+
+395
+00:39:57,160 --> 00:40:01,080
+Junkey, and I'll do it for the Thursday edition of your daily source code.
+
+396
+00:40:01,080 --> 00:40:10,080
+And got to get prepared because we got some road shows coming up pretty soon.
+
+397
+00:40:10,080 --> 00:40:20,080
+On Monday, I fly to the Netherlands and I have chosen my hotel based upon weblog readers
+
+398
+00:40:20,080 --> 00:40:25,080
+Curry.com. They say this is the place that has the best Wi-Fi.
+
+399
+00:40:26,080 --> 00:40:29,080
+That in a 24-7 bar.
+
+400
+00:40:29,080 --> 00:40:31,080
+I'm not really a drinker, as you know.
+
+401
+00:40:31,080 --> 00:40:34,080
+At least there'll be life, you know, people will be doing stuff.
+
+402
+00:40:34,080 --> 00:40:37,080
+And I have bandwidth.
+
+403
+00:40:37,080 --> 00:40:42,080
+You know, it's me, all by myself, with a television and bandwidth.
+
+404
+00:40:42,080 --> 00:40:46,080
+Wireless, I think that I'll be just fine.
+
+405
+00:40:46,080 --> 00:40:51,080
+So I have all kinds of adventures on the horizon.
+
+406
+00:40:51,080 --> 00:40:56,080
+Of course, we'll bring you the Friday edition of the show.
+
+407
+00:40:56,080 --> 00:40:59,080
+We've got some cool stuff to talk about tomorrow.
+
+408
+00:40:59,080 --> 00:41:02,080
+Meet you here on the source code.
+
+409
+00:41:02,080 --> 00:41:10,080
+Oh yeah, if you want to send me an audio comment, add a link for read.com
+
+410
+00:41:10,080 --> 00:41:15,080
+or leave a comment and I've got Curry.com or DannySource.com.
+
+411
+00:41:15,080 --> 00:41:19,080
+You can just attach it to the email if it's under 5 megs of
+
+412
+00:41:20,080 --> 00:41:22,080
+suck it down when it gets to the start.
+
+413
+00:41:23,080 --> 00:41:25,080
+Take care, everyone. Have a good day.
+
+414
+00:41:25,080 --> 00:41:27,080
+Have a good evening or good morning.
+

@@ -1,0 +1,1684 @@
+1
+00:00:00,000 --> 00:00:03,000
+Augustine, all's live!
+
+2
+00:00:03,000 --> 00:00:05,000
+Adam Curry!
+
+3
+00:00:05,000 --> 00:00:07,000
+Yeah, everybody crank it up!
+
+4
+00:00:07,000 --> 00:00:10,000
+Oh, oh, oh, oh, oh, oh!
+
+5
+00:00:11,000 --> 00:00:13,000
+And welcome to your daily source code!
+
+6
+00:00:13,000 --> 00:00:16,000
+Coming to you from the UK, this is the source code for...
+
+7
+00:00:16,000 --> 00:00:20,000
+Oh, man, it's Monday, November 29, 2004.
+
+8
+00:00:20,000 --> 00:00:22,000
+We're in studio.
+
+9
+00:00:22,000 --> 00:00:27,000
+Well, not actually not the it's studio A, I'm in studio A8.
+
+10
+00:00:27,000 --> 00:00:31,000
+Which means I'm in the Audi.
+
+11
+00:00:31,000 --> 00:00:34,000
+The Audi A8 is the new studio.
+
+12
+00:00:34,000 --> 00:00:36,000
+It's the place to be.
+
+13
+00:00:36,000 --> 00:00:38,000
+It had a nice weekend.
+
+14
+00:00:38,000 --> 00:00:41,000
+Went off to the Netherlands to do a little bit of business.
+
+15
+00:00:41,000 --> 00:00:45,000
+Had some friends putting together a television pilot,
+
+16
+00:00:45,000 --> 00:00:49,000
+which I instigated called Adams of Eagle Eye,
+
+17
+00:00:49,000 --> 00:00:51,000
+based around two friends of mine.
+
+18
+00:00:51,000 --> 00:00:54,000
+Both presenters, one legendary news guy,
+
+19
+00:00:54,000 --> 00:00:59,000
+who's about 55 years old and is definitely seeing a revival
+
+20
+00:00:59,000 --> 00:01:02,000
+that is career and man, it was a lot of fun.
+
+21
+00:01:08,000 --> 00:01:10,000
+I'm really even more fun was just figuring out
+
+22
+00:01:10,000 --> 00:01:14,000
+and actually experiencing how close the UK really is
+
+23
+00:01:14,000 --> 00:01:17,000
+and how easy it is to get more pretty much anywhere.
+
+24
+00:01:17,000 --> 00:01:21,000
+I left Saturday morning to the car picking up at 8 o'clock.
+
+25
+00:01:21,000 --> 00:01:24,000
+Had me at Heathrow at a quarter to nine,
+
+26
+00:01:24,000 --> 00:01:27,000
+I was on board the plane at 9.30.
+
+27
+00:01:27,000 --> 00:01:30,000
+And I was an Amsterdam, I see a quarter to an hour.
+
+28
+00:01:30,000 --> 00:01:36,000
+I was already in the Amsterdam bunker before noon,
+
+29
+00:01:36,000 --> 00:01:38,000
+I think, or just a little bit past noon.
+
+30
+00:01:38,000 --> 00:01:42,000
+So, not bad all things are considered.
+
+31
+00:01:42,000 --> 00:01:44,000
+Yeah, yeah, yeah, power up here and nothing.
+
+32
+00:01:44,000 --> 00:01:46,000
+All that stuff, okay.
+
+33
+00:01:46,000 --> 00:01:49,000
+So, let me see.
+
+34
+00:01:50,000 --> 00:01:52,000
+Yeah, the most important thing of the entire trip
+
+35
+00:01:52,000 --> 00:01:54,000
+for me personally besides, of course,
+
+36
+00:01:54,000 --> 00:01:56,000
+all the fun we had doing the TV show,
+
+37
+00:01:56,000 --> 00:02:01,000
+which was a total, what do you call it?
+
+38
+00:02:01,000 --> 00:02:03,000
+I'm sorry, I'm sorry.
+
+39
+00:02:03,000 --> 00:02:05,000
+One weekend in Holland and all of a sudden
+
+40
+00:02:05,000 --> 00:02:07,000
+I lose all my English volunteer.
+
+41
+00:02:07,000 --> 00:02:10,000
+All of, we basically called up all our buddies
+
+42
+00:02:10,000 --> 00:02:12,000
+and said, look, we need a couple camera people,
+
+43
+00:02:12,000 --> 00:02:14,000
+we need some producers, some sound people,
+
+44
+00:02:14,000 --> 00:02:17,000
+everyone chipped in and we created,
+
+45
+00:02:17,000 --> 00:02:19,000
+even studio was donated time.
+
+46
+00:02:19,000 --> 00:02:21,000
+Of course, if we actually sell this pilot
+
+47
+00:02:21,000 --> 00:02:23,000
+and we get it on the air, then of course,
+
+48
+00:02:23,000 --> 00:02:26,000
+everyone will be waiting there where they're hand out
+
+49
+00:02:26,000 --> 00:02:28,000
+because then they'll get paid and they'll be working
+
+50
+00:02:28,000 --> 00:02:30,000
+on the show, which is the way this is supposed to work.
+
+51
+00:02:30,000 --> 00:02:32,000
+So, it was a lot of fun.
+
+52
+00:02:32,000 --> 00:02:34,000
+And I'd book to hotel through,
+
+53
+00:02:34,000 --> 00:02:37,000
+I actually just did a Google search before I left
+
+54
+00:02:37,000 --> 00:02:39,000
+and said, I want to Wi-Fi,
+
+55
+00:02:39,000 --> 00:02:41,000
+enabled hotel in Hilversum.
+
+56
+00:02:41,000 --> 00:02:44,000
+And I know of some really good hotels in Hilversum,
+
+57
+00:02:44,000 --> 00:02:46,000
+which is kind of the Hollywood of the Netherlands.
+
+58
+00:02:46,000 --> 00:02:49,000
+So, you know, reason to go to hotels,
+
+59
+00:02:49,000 --> 00:02:51,000
+but none of them had anything that resembled Wi-Fi
+
+60
+00:02:51,000 --> 00:02:52,000
+or actually even broadband.
+
+61
+00:02:52,000 --> 00:02:55,000
+They were still talking about telephone with data ports.
+
+62
+00:02:55,000 --> 00:02:58,000
+So, didn't, didn't book there,
+
+63
+00:02:58,000 --> 00:03:00,000
+found a hotel called Revell,
+
+64
+00:03:00,000 --> 00:03:03,000
+excuse me, which I posted about on my weblog.
+
+65
+00:03:03,000 --> 00:03:06,000
+And walked in there around a 10pm,
+
+66
+00:03:06,000 --> 00:03:08,000
+of course, it was a late check-in.
+
+67
+00:03:08,000 --> 00:03:10,000
+And I think it might've been the owner
+
+68
+00:03:10,000 --> 00:03:12,000
+if not definitely a manager who said,
+
+69
+00:03:12,000 --> 00:03:14,000
+oh, you know, Adam, welcome.
+
+70
+00:03:14,000 --> 00:03:16,000
+I already heard on your podcast,
+
+71
+00:03:16,000 --> 00:03:17,000
+you're coming.
+
+72
+00:03:17,000 --> 00:03:18,000
+I just need your MAC address,
+
+73
+00:03:18,000 --> 00:03:22,000
+which is, you know, the Ethernet address
+
+74
+00:03:22,000 --> 00:03:23,000
+for my airport card,
+
+75
+00:03:23,000 --> 00:03:26,000
+which is unique to any Ethernet device.
+
+76
+00:03:26,000 --> 00:03:29,000
+Otherwise, I could've used the USB wireless card
+
+77
+00:03:29,000 --> 00:03:34,000
+from them or wireless the adapter, I guess.
+
+78
+00:03:34,000 --> 00:03:36,000
+So, I just get my MAC address and boom, you know,
+
+79
+00:03:36,000 --> 00:03:38,000
+free Wi-Fi, and it was cranking.
+
+80
+00:03:38,000 --> 00:03:43,000
+I downloaded hundreds of megabytes of podcasts
+
+81
+00:03:43,000 --> 00:03:45,000
+while I was awake, and while I was sleeping.
+
+82
+00:03:45,000 --> 00:03:47,000
+So, well worth the price of admission.
+
+83
+00:03:47,000 --> 00:03:48,000
+The room was good.
+
+84
+00:03:48,000 --> 00:03:51,000
+Yeah, the remote control wasn't quite bolted on to the nightstand.
+
+85
+00:03:51,000 --> 00:03:53,000
+So, in my book,
+
+86
+00:03:53,000 --> 00:03:55,000
+if you got a remote that's not bolted on,
+
+87
+00:03:55,000 --> 00:03:57,000
+you're in a hotel that's good enough, you know,
+
+88
+00:03:57,000 --> 00:03:59,000
+you got cold running water.
+
+89
+00:03:59,000 --> 00:04:02,000
+And you got your Wi-Fi, which is really reliable,
+
+90
+00:04:02,000 --> 00:04:05,000
+then it's all a good thing.
+
+91
+00:04:05,000 --> 00:04:09,000
+And the return journey was just as beautiful,
+
+92
+00:04:09,000 --> 00:04:11,000
+you know, got on the plane,
+
+93
+00:04:11,000 --> 00:04:13,000
+got to the airport a little bit early, had some dinner,
+
+94
+00:04:13,000 --> 00:04:15,000
+hopped on the plane, it left to the right on time.
+
+95
+00:04:15,000 --> 00:04:17,000
+It's 7, you arrive at 7, then of course,
+
+96
+00:04:17,000 --> 00:04:18,000
+because it's, you know, about,
+
+97
+00:04:18,000 --> 00:04:20,000
+actually you're at the gate getting off at 7,
+
+98
+00:04:20,000 --> 00:04:22,000
+because the flight itself is only about 36,
+
+99
+00:04:22,000 --> 00:04:23,000
+37 minutes.
+
+100
+00:04:23,000 --> 00:04:25,000
+Then guy waiting for me there,
+
+101
+00:04:25,000 --> 00:04:26,000
+hopped in the car,
+
+102
+00:04:26,000 --> 00:04:28,000
+and 30 minutes later I was home.
+
+103
+00:04:28,000 --> 00:04:29,000
+I was home before,
+
+104
+00:04:29,000 --> 00:04:31,000
+before was even 830.
+
+105
+00:04:31,000 --> 00:04:35,000
+So, perfect, absolutely perfect for the commute
+
+106
+00:04:35,000 --> 00:04:38,000
+back and forth to the Netherlands,
+
+107
+00:04:38,000 --> 00:04:40,000
+or any other part of the mainland for that reason.
+
+108
+00:04:40,000 --> 00:04:43,000
+So, the reason I'm coming to you from the A8 studio today
+
+109
+00:04:43,000 --> 00:04:45,000
+is because it's just so much going on,
+
+110
+00:04:45,000 --> 00:04:48,000
+and we just went to Christina's new school.
+
+111
+00:04:48,000 --> 00:04:51,000
+Actually, it's a school that we want to get her into,
+
+112
+00:04:51,000 --> 00:04:53,000
+so we had to, you know, kind of show up and say,
+
+113
+00:04:53,000 --> 00:04:55,000
+hey, you know, can we get this kid in?
+
+114
+00:04:55,000 --> 00:04:57,000
+Admissions are a tough thing here in the UK,
+
+115
+00:04:57,000 --> 00:05:00,000
+particularly in public schools,
+
+116
+00:05:00,000 --> 00:05:02,000
+because, you know, full is full,
+
+117
+00:05:02,000 --> 00:05:03,000
+and if they have no room,
+
+118
+00:05:03,000 --> 00:05:05,000
+then they just can't admit your child.
+
+119
+00:05:05,000 --> 00:05:08,000
+So, seem like they were going to have a space for her.
+
+120
+00:05:08,000 --> 00:05:10,000
+In fact, I think I heard the headmaster say,
+
+121
+00:05:10,000 --> 00:05:13,000
+well, you know, once we do the admissions
+
+122
+00:05:13,000 --> 00:05:14,000
+a little talk there,
+
+123
+00:05:14,000 --> 00:05:15,000
+and you feel like the paperwork,
+
+124
+00:05:15,000 --> 00:05:17,000
+and now it's just needs really is uniform,
+
+125
+00:05:17,000 --> 00:05:18,000
+and she's good to go.
+
+126
+00:05:18,000 --> 00:05:20,000
+It's an old request.
+
+127
+00:05:20,000 --> 00:05:22,000
+I didn't want to play that, our shoot.
+
+128
+00:05:22,000 --> 00:05:24,000
+I wanted to play,
+
+129
+00:05:24,000 --> 00:05:26,000
+oh, man, I totally blew that.
+
+130
+00:05:26,000 --> 00:05:27,000
+That's not what I want.
+
+131
+00:05:27,000 --> 00:05:28,000
+Here's what I wanted to play for.
+
+132
+00:05:28,000 --> 00:05:29,000
+Silence, silence!
+
+133
+00:05:29,000 --> 00:05:34,000
+I'm not that fit, but I'm afraid we'll go.org.
+
+134
+00:05:34,000 --> 00:05:37,000
+And you're listening to Adam Curry's Daily Source.
+
+135
+00:05:37,000 --> 00:05:39,000
+Bloody hell, not even.
+
+136
+00:05:39,000 --> 00:05:41,000
+Sheep, half of the equipment.
+
+137
+00:05:41,000 --> 00:05:43,000
+There we go.
+
+138
+00:05:43,000 --> 00:05:44,000
+There you go.
+
+139
+00:05:44,000 --> 00:05:46,000
+There you feel my head that's just learned some public end up.
+
+140
+00:05:46,000 --> 00:05:48,000
+Adam Curry's Daily Source code.
+
+141
+00:06:00,000 --> 00:06:02,000
+You're not ready.
+
+142
+00:06:02,000 --> 00:06:04,000
+I love when people send me promos,
+
+143
+00:06:04,000 --> 00:06:05,000
+and I love using them,
+
+144
+00:06:05,000 --> 00:06:07,000
+please continue to do that.
+
+145
+00:06:07,000 --> 00:06:09,000
+I go much, Todd.
+
+146
+00:06:09,000 --> 00:06:11,000
+So the reason I'm in the A.A.
+
+147
+00:06:11,000 --> 00:06:13,000
+is after, you know, we had to do the school thing,
+
+148
+00:06:13,000 --> 00:06:14,000
+and that seems all cool.
+
+149
+00:06:14,000 --> 00:06:15,000
+She's going to get in there.
+
+150
+00:06:15,000 --> 00:06:17,000
+That was really much easier than I expected.
+
+151
+00:06:17,000 --> 00:06:18,000
+We even dressed up.
+
+152
+00:06:18,000 --> 00:06:22,000
+And we made Christina dressed up to look a little bit representative,
+
+153
+00:06:22,000 --> 00:06:24,000
+and, you know, not her total gothic look.
+
+154
+00:06:24,000 --> 00:06:26,000
+That was a struggle this morning.
+
+155
+00:06:27,000 --> 00:06:30,000
+And so then I had to take the girls off to Sainsbury's,
+
+156
+00:06:30,000 --> 00:06:33,000
+which is the big shopping,
+
+157
+00:06:33,000 --> 00:06:36,000
+you know, the big grocery store,
+
+158
+00:06:36,000 --> 00:06:38,000
+mega grocery store.
+
+159
+00:06:38,000 --> 00:06:39,000
+And at three o'clock,
+
+160
+00:06:39,000 --> 00:06:42,000
+the ladies have appointments,
+
+161
+00:06:42,000 --> 00:06:44,000
+oops, that's my recorder.
+
+162
+00:06:44,000 --> 00:06:46,000
+The ladies have appointments for their nails,
+
+163
+00:06:46,000 --> 00:06:48,000
+and hair, and God knows what else.
+
+164
+00:06:48,000 --> 00:06:50,000
+And right now it's two o'clock.
+
+165
+00:06:50,000 --> 00:06:52,000
+So I figured,
+
+166
+00:06:52,000 --> 00:06:54,000
+what I do is I just bring my kit with me.
+
+167
+00:06:54,000 --> 00:06:58,000
+I've got my 12 volt DC to AC power converter.
+
+168
+00:06:58,000 --> 00:07:00,000
+I got all my stuff with me.
+
+169
+00:07:00,000 --> 00:07:01,000
+I just, you know,
+
+170
+00:07:01,000 --> 00:07:03,000
+slide the chair back a little bit.
+
+171
+00:07:03,000 --> 00:07:04,000
+Keep the heater on.
+
+172
+00:07:04,000 --> 00:07:06,000
+You can probably hear kind of humming in the background.
+
+173
+00:07:06,000 --> 00:07:09,000
+And I got my wireless love,
+
+174
+00:07:09,000 --> 00:07:11,000
+my hanging from the o' Jesus strap,
+
+175
+00:07:11,000 --> 00:07:12,000
+which is, you know,
+
+176
+00:07:12,000 --> 00:07:14,000
+the thing you hold onto when you go on a sharp corner
+
+177
+00:07:14,000 --> 00:07:16,000
+and say what Jesus.
+
+178
+00:07:16,000 --> 00:07:17,000
+And so there it is.
+
+179
+00:07:17,000 --> 00:07:20,000
+It's just kind of dangling in front of me.
+
+180
+00:07:20,000 --> 00:07:22,000
+And it's actually,
+
+181
+00:07:22,000 --> 00:07:23,000
+I've mentioned this before.
+
+182
+00:07:23,000 --> 00:07:25,000
+The car is a great place.
+
+183
+00:07:25,000 --> 00:07:27,000
+If you're looking for a studio,
+
+184
+00:07:27,000 --> 00:07:29,000
+cars are a perfect place.
+
+185
+00:07:29,000 --> 00:07:31,000
+You know,
+
+186
+00:07:31,000 --> 00:07:33,000
+to set up and get a nice quiet environment.
+
+187
+00:07:33,000 --> 00:07:34,000
+He let me turn off the,
+
+188
+00:07:34,000 --> 00:07:35,000
+turn off the,
+
+189
+00:07:35,000 --> 00:07:36,000
+turn off the,
+
+190
+00:07:36,000 --> 00:07:38,000
+the blower here.
+
+191
+00:07:38,000 --> 00:07:39,000
+There we go.
+
+192
+00:07:39,000 --> 00:07:40,000
+That's better.
+
+193
+00:07:40,000 --> 00:07:41,000
+Let's, you know,
+
+194
+00:07:41,000 --> 00:07:42,000
+why don't we just scan the,
+
+195
+00:07:42,000 --> 00:07:44,000
+the FM dial for a second.
+
+196
+00:07:44,000 --> 00:07:46,000
+Well, we're in the UK anyway.
+
+197
+00:07:46,000 --> 00:07:47,000
+We're going to start off with,
+
+198
+00:07:47,000 --> 00:07:50,000
+the BBC one at the top of the dial.
+
+199
+00:07:50,000 --> 00:07:52,000
+Okay.
+
+200
+00:07:52,000 --> 00:07:55,000
+So they're playing eagle eye cherry.
+
+201
+00:07:55,000 --> 00:07:56,000
+Isn't it?
+
+202
+00:07:56,000 --> 00:07:57,000
+It's like that.
+
+203
+00:07:57,000 --> 00:07:58,000
+Okay.
+
+204
+00:07:58,000 --> 00:07:59,000
+Ready or two?
+
+205
+00:07:59,000 --> 00:08:00,000
+Get off my line.
+
+206
+00:08:02,000 --> 00:08:03,000
+Uh,
+
+207
+00:08:03,000 --> 00:08:05,000
+that's really interesting.
+
+208
+00:08:05,000 --> 00:08:07,000
+Every ball day.
+
+209
+00:08:07,000 --> 00:08:08,000
+Okay.
+
+210
+00:08:08,000 --> 00:08:09,000
+And that was going to Virgin,
+
+211
+00:08:09,000 --> 00:08:11,000
+Virgin F.
+
+212
+00:08:11,000 --> 00:08:12,000
+Okay.
+
+213
+00:08:12,000 --> 00:08:14,000
+And that was going to Virgin F.
+
+214
+00:08:15,000 --> 00:08:17,000
+You know,
+
+215
+00:08:17,000 --> 00:08:20,000
+let's go to 96 for eagle.
+
+216
+00:08:20,000 --> 00:08:21,000
+Whatever that is.
+
+217
+00:08:21,000 --> 00:08:23,000
+The first glasshead in Secretary.
+
+218
+00:08:23,000 --> 00:08:24,000
+Council leaders in the south.
+
+219
+00:08:24,000 --> 00:08:29,000
+Are you still,
+
+220
+00:08:29,000 --> 00:08:35,000
+have only seen that concerns about plants about new houses.
+
+221
+00:08:35,000 --> 00:08:36,000
+Okay.
+
+222
+00:08:36,000 --> 00:08:37,000
+Let's go to BBC London.
+
+223
+00:08:37,000 --> 00:08:38,000
+Whatever that is.
+
+224
+00:08:38,000 --> 00:08:39,000
+Today's weather patch.
+
+225
+00:08:39,000 --> 00:08:40,000
+You may be able to dial.
+
+226
+00:08:40,000 --> 00:08:41,000
+It'll be bright.
+
+227
+00:08:41,000 --> 00:08:42,000
+The showers and the air.
+
+228
+00:08:42,000 --> 00:08:49,480
+BBC SCR, this we're up to news now BBC Radio 3, Classical Station
+
+229
+00:08:53,480 --> 00:08:58,560
+Well that's that's what we just see finale, which part of the BBC Radio 4,
+
+230
+00:08:58,560 --> 00:09:09,680
+leisure and news, classic, classic FM, yes they're up here, they're definitely all in news
+
+231
+00:09:09,680 --> 00:09:16,000
+ring now, part of the BBC Radio 4, the latest show BBC Radio 4, British underwear model
+
+232
+00:09:16,000 --> 00:09:20,200
+Katrina Davis is taking it off, that's the kind of news we need, the rating after winning
+
+233
+00:09:20,200 --> 00:09:24,560
+through to the show's last three finalists, the 23 year old originally from Cardiff is the
+
+234
+00:09:24,560 --> 00:09:29,920
+only woman left in the show, which ends next week and has a 200,000 pounds of price, London's
+
+235
+00:09:29,920 --> 00:09:36,240
+weather, writing kind of the songs that even higher, okay now kiss 100, I'm just running
+
+236
+00:09:36,240 --> 00:09:50,360
+on the dial here, I have no idea or, and now we have LBC 97.3, jazz FM, we are definitely top of the
+
+237
+00:09:50,360 --> 00:10:02,360
+hour in the news and magic FM, so there you go quick, quick scan around the FM dial here
+
+238
+00:10:02,360 --> 00:10:09,760
+in the UK, hello, this is top of the number of homo, some are still a dot net, music from
+
+239
+00:10:09,760 --> 00:10:16,280
+Germany, and you are listening to the daily source code with a podcast that he had a
+
+240
+00:10:16,280 --> 00:10:21,960
+curry, and have boiling, okay I wanted to make sure that you got Thomas's promo again
+
+241
+00:10:21,960 --> 00:10:27,440
+because last time I played something from some of the stellar dot net, I totally messed
+
+242
+00:10:27,440 --> 00:10:33,860
+up the URL, so now in the podcast production show notes, you can find the link to
+
+243
+00:10:33,860 --> 00:10:40,220
+Thomas Della dot net, which is German music, it's very cool, it's a great podcast, and
+
+244
+00:10:40,220 --> 00:10:46,200
+something that I think should definitely be added to the pod squad all in due time, more
+
+245
+00:10:46,200 --> 00:10:50,340
+about that in a second, first a little bit more about the UK, I want to thank you all so
+
+246
+00:10:50,340 --> 00:11:00,980
+much for responding to my call to help about television systems, power plugs, and light
+
+247
+00:11:00,980 --> 00:11:09,360
+sockets, let me see Dave Raven, first of all this is interesting, Dave Raven said it wasn't
+
+248
+00:11:09,360 --> 00:11:13,980
+until he heard Patricia talking about Iván on backing vocals, that's Patricia's sister
+
+249
+00:11:13,980 --> 00:11:19,820
+that he connected, he said he interviewed Iván for BFBS code in Cologne, was BF British
+
+250
+00:11:19,820 --> 00:11:25,100
+Forces broadcasting I guess, in the early 80s, so he says he had the world is very, very small,
+
+251
+00:11:25,100 --> 00:11:29,100
+he says that your local TV shop will tweak your TVs to UK standard, that I didn't
+
+252
+00:11:29,100 --> 00:11:35,740
+know, that's cool, also you can buy ES bulbs of all types, so you can keep your lamps,
+
+253
+00:11:35,740 --> 00:11:40,580
+and apparently we just didn't go to the right, do it yourself hardware store, now check
+
+254
+00:11:40,580 --> 00:11:46,580
+this out, he says why the funny plugs bulbs and TV, well here it comes, and this always
+
+255
+00:11:46,660 --> 00:11:54,740
+emases me, and I keep noticing on television and in newspapers that a lot of things
+
+256
+00:11:54,740 --> 00:11:59,180
+that you think might be American inventions or maybe the Germans think they invented it
+
+257
+00:11:59,180 --> 00:12:03,300
+or the Japanese think they invented it, British have their own thoughts about who invented
+
+258
+00:12:03,300 --> 00:12:11,380
+what, oh hold on that's the traffic report wailing through, here we go, low-key
+
+259
+00:12:11,380 --> 00:12:17,860
+bird, L-O-G-I-E, so I guess it's low-G- or low-key bird, invented the television, his
+
+260
+00:12:17,860 --> 00:12:22,660
+nationality was British, so I guess that's why they get to put the audio frequency wherever
+
+261
+00:12:22,660 --> 00:12:27,540
+they want, I did not know that, I thought it was like, you know, Mr. Xeneth, who invented
+
+262
+00:12:27,540 --> 00:12:35,300
+the television, Joseph Swan demonstrated the electric light a year before Edison, nationality,
+
+263
+00:12:35,300 --> 00:12:40,220
+British, so I guess that means he gets to put fucked up bayonet, connectors on it, if you
+
+264
+00:12:40,220 --> 00:12:45,660
+want, but that's amazing, I never heard about Joseph Swan, that he demonstrated the electric
+
+265
+00:12:45,660 --> 00:12:49,100
+light a year before Edison, then how come Edison gets all the credit or is that only in the
+
+266
+00:12:49,100 --> 00:12:55,740
+states that he gets all the credit? William Gilbert coined the word electricity, nationality,
+
+267
+00:12:55,740 --> 00:13:02,780
+British, now what I remember from my history lessons, didn't Benjamin Franklin, this is the way
+
+268
+00:13:02,780 --> 00:13:08,220
+Americans learned about the discovery of electricity, Benjamin Franklin was flying a kite with a
+
+269
+00:13:08,300 --> 00:13:13,420
+wire on it with a key at the end, and he got electrocuted when lightning struck his kite during
+
+270
+00:13:13,420 --> 00:13:18,940
+a storm, and that apparently is when he went, well, Boeing electricity, apparently not,
+
+271
+00:13:19,660 --> 00:13:23,980
+well, I have to take it from Dave that William Gilbert coined the word electricity, and then he
+
+272
+00:13:23,980 --> 00:13:30,540
+winds up by saying, UK Boeing over, and regards Dave, excellent Dave, thank you very much,
+
+273
+00:13:30,540 --> 00:13:35,820
+let me see, there's a couple more emails that got here, Mike from Holland says, hi Adam, welcome to
+
+274
+00:13:35,820 --> 00:13:39,820
+UK, congratulations on the culture show, peace, short of general, I love publicity for podcasting,
+
+275
+00:13:39,820 --> 00:13:45,820
+boo, oh, here's one about plug TV systems, here's one for you, can you explain, oh, this is a good one,
+
+276
+00:13:46,460 --> 00:13:53,100
+he says, can you explain, well, all electric sockets in the Netherlands are halfway up the wall,
+
+277
+00:13:53,100 --> 00:13:57,180
+that's always puzzling me, why not have them at floor level like over here, so they're not so obvious,
+
+278
+00:13:58,620 --> 00:14:04,300
+okay, very good question, that is something we noticed as well, and I believe it's twofold,
+
+279
+00:14:04,380 --> 00:14:10,140
+one is it was safety for children, kind of like the way I guess UK has switched next to every single
+
+280
+00:14:11,100 --> 00:14:16,220
+electrical outlet that they have, which is probably also a safety thing as well, but I also believe,
+
+281
+00:14:16,220 --> 00:14:22,460
+because most of the Netherlands is several feet under below sea level, thus underwater,
+
+282
+00:14:23,420 --> 00:14:29,500
+flooding certainly occurred back in the day, and yeah, when flooding occurred, you know, you want to have
+
+283
+00:14:29,500 --> 00:14:33,420
+a little bit of space there before it hits the electrical sockets, that's the only answer I've
+
+284
+00:14:33,500 --> 00:14:36,940
+ever heard, it may not be the correct one, there's something else if you ever come to the
+
+285
+00:14:36,940 --> 00:14:42,860
+Netherlands, you may notice that the toilets in Holland don't just have like a hole down into water,
+
+286
+00:14:42,860 --> 00:14:50,700
+they have a shelf, there's an actual shelf, and you know, stuff just kind of sits there until
+
+287
+00:14:50,700 --> 00:14:56,860
+you flush it, and I remember moving to the Netherlands and inquiring about that thinking was very
+
+288
+00:14:56,940 --> 00:15:04,540
+weird, and the way that happened is that the first toilets were made for hospitals, and the same
+
+289
+00:15:04,540 --> 00:15:11,020
+company that made the toilets for hospitals basically just continue to make them for for domestic
+
+290
+00:15:11,020 --> 00:15:16,140
+use for people's homes, and in a hospital it's quite handy to have a little shelf there to check
+
+291
+00:15:16,140 --> 00:15:22,380
+some stuff out, and that's the story behind that, hey, I'm almost as good as Patricia with
+
+292
+00:15:22,380 --> 00:15:28,540
+a Stevie next stuff, aren't I? Now, one more TV solutions, where do we have here, this is from Toby
+
+293
+00:15:28,540 --> 00:15:33,420
+Jeffy, oh yeah, he said something, okay, so here's the actual technical deal with the televisions,
+
+294
+00:15:33,420 --> 00:15:38,060
+reason you can't hear the UK audio on your TV is that the rest of Europe uses PAL GPH for
+
+295
+00:15:38,060 --> 00:15:44,620
+UHF, which is a 5.5 megahertz audio offset, whereas the UK South Africa, Ireland and the Hong Kong
+
+296
+00:15:44,620 --> 00:15:51,660
+used PAL I, which is a six megahertz offset for the audio, not sure what PAL does this, or PAL I does this,
+
+297
+00:15:51,660 --> 00:15:57,500
+but basically means that the RF reception is going to, you're going to not going to hear the audio,
+
+298
+00:15:57,500 --> 00:16:02,540
+one way around it, and this is something that I actually thought about myself, is if you get a free
+
+299
+00:16:02,540 --> 00:16:06,380
+view box, which I told you about, the stuff that pulls digital channels out of thin air,
+
+300
+00:16:06,380 --> 00:16:10,540
+you can use this scarred, and I do believe that the scarred is just a pure audio and video in the
+
+301
+00:16:10,540 --> 00:16:16,780
+start, the scarred connector when those broad, multi-prong connectors, so I'm hoping that once we
+
+302
+00:16:16,860 --> 00:16:22,700
+get our credit cards and either UK issued credit card to get sky, to get the sky satellite system,
+
+303
+00:16:22,700 --> 00:16:27,660
+and then I'll be able to connect a couple of TVs up using the set top box going directly to the
+
+304
+00:16:27,660 --> 00:16:36,140
+scarred to the scarred connector. So that's it about that for the, then that's also minor really
+
+305
+00:16:36,140 --> 00:16:42,620
+when all things considered is not bad at all, and we're fitting in quite perfectly, even with
+
+306
+00:16:42,620 --> 00:16:48,380
+the small, you know, these small little differences. Ross Jones sent me a link, which I actually
+
+307
+00:16:48,380 --> 00:16:52,700
+posted on my weblog, another link in the production show notes for today's Daily Source Code,
+
+308
+00:16:54,140 --> 00:17:03,100
+that the BBC is doing a show on radio six tomorrow about the ever so popular, quote, unquote,
+
+309
+00:17:03,100 --> 00:17:08,380
+podcasting, so I'll be sure to, hopefully get a recording of that, or at least be able to
+
+310
+00:17:08,380 --> 00:17:13,420
+listen to it and report back on what the BBC is doing with that. Again, the BBC is really
+
+311
+00:17:13,420 --> 00:17:19,180
+getting into into podcasting. I can feel it. There's no like official sanctioned, you know,
+
+312
+00:17:19,180 --> 00:17:22,700
+really yet, but I know the technicians are all over it, and I know a lot of the people who are
+
+313
+00:17:23,500 --> 00:17:28,380
+who are presenters and producers are still, you know, very interested in doing whatever they can with
+
+314
+00:17:28,380 --> 00:17:35,980
+podcasting. Along the lines of the culture show that aired last week, Stuart Hunter has also posted
+
+315
+00:17:36,060 --> 00:17:42,460
+an MPEG version of the podcasting segment for all of you who are having problems with the MP4 version,
+
+316
+00:17:42,460 --> 00:17:48,300
+and he's placed that as a bit torrent. Again, that URL available from the pod show production notes
+
+317
+00:17:48,300 --> 00:17:54,540
+for today's Daily Source Code. Let's get another little promo here. Hello everybody,
+
+318
+00:17:54,540 --> 00:17:59,420
+different lines, the digital man from the digital experience podcast. I want to invite all of you
+
+319
+00:17:59,420 --> 00:18:06,220
+to check us out. Our weekly podcast includes non-real music, news and information, podcast reviews,
+
+320
+00:18:06,220 --> 00:18:10,220
+and upfront political talks with Dan and Craig. We're kind of like Adam Curry,
+
+321
+00:18:10,220 --> 00:18:15,740
+only we never lived in a castle. We drive on the right side of the road,
+
+322
+00:18:17,900 --> 00:18:24,060
+and there are very few. So check out the weekly digital experience podcast,
+
+323
+00:18:24,140 --> 00:18:34,060
+only at lands.pfil.com. All righty. Gotta say I'm hearing more everybody's popping up every single day,
+
+324
+00:18:34,060 --> 00:18:40,460
+and that's actually the cover real all requests that I played by accident earlier in the show.
+
+325
+00:18:40,460 --> 00:18:45,660
+Check it out. Just listen to how people are saying every body. It's an all-request Sunday on cover
+
+326
+00:18:45,740 --> 00:18:54,380
+ville, everybody. By the way, I totally love the Beatles coverville, which was the Thanksgiving
+
+327
+00:18:54,380 --> 00:19:01,980
+version. Man, that kicks so much ass. It was wonderful to hear. I suggest you check that out if you
+
+328
+00:19:01,980 --> 00:19:08,460
+haven't yet. Great stories, great versions by other artists, and it came right after I was watching
+
+329
+00:19:08,460 --> 00:19:14,060
+this wonderful BBC program, which I'll also put a link to on the on the podcast show notes.
+
+330
+00:19:15,740 --> 00:19:22,780
+A couple of years back, someone found an old analog portable jute box that belonged to John
+
+331
+00:19:22,780 --> 00:19:28,300
+Lennon. I think they found it in an auction. So it's literally, it's like a case, you open this
+
+332
+00:19:28,300 --> 00:19:36,700
+case up, and in it is a whole mechanism, plus these 45 RPM vinyl singles, and it was his personal
+
+333
+00:19:36,700 --> 00:19:41,020
+jute box. And he'd filled it up with, so kind of like the the iPod of the day, right?
+
+334
+00:19:41,740 --> 00:19:49,260
+And it was found intact with all the original 45s that John Lennon put there in there himself,
+
+335
+00:19:49,260 --> 00:19:54,620
+written down a couple of been changed around. And basically what they did is they took this jute box
+
+336
+00:19:54,620 --> 00:20:01,820
+and went to all the people who songs were in it. And it was amazing. I mean, they also took
+
+337
+00:20:01,820 --> 00:20:06,860
+the people who a couple people who weren't in it, but so like sting for instance. But they,
+
+338
+00:20:06,940 --> 00:20:13,500
+you know, they found all these old blues artists and singers. And it was, you know, I'll put a link
+
+339
+00:20:14,540 --> 00:20:19,020
+to the show. I don't know if there's any video available, but it was a fabulous, fabulous show.
+
+340
+00:20:19,020 --> 00:20:22,700
+Again, just, and it wasn't even the BBC. I think it was ITV actually, one of the,
+
+341
+00:20:22,700 --> 00:20:27,260
+one of the commercial stations. It was just a great, great show. I wonder if it was, it looked like
+
+342
+00:20:27,260 --> 00:20:31,500
+was it was all English names on the credit. So I guess it was a UK production. I have no idea if
+
+343
+00:20:32,460 --> 00:20:38,380
+it's new or if it was repeat or if it's ever aired anywhere. But I was, yeah, I was totally amazed
+
+344
+00:20:38,380 --> 00:20:44,060
+by that. And then, but on the heels of that to hear the coverville, the coverville of the Beatles
+
+345
+00:20:44,060 --> 00:20:52,380
+was absolutely fantastic. Just beautiful. Let's see, what did we want to handle today? A couple
+
+346
+00:20:52,380 --> 00:21:03,580
+more plugs. What is this UPEI? Okay. Justin, Doran. Can't stop listening to your show. Good stuff.
+
+347
+00:21:03,580 --> 00:21:07,260
+Just wanted to let you know. I'm starting a new university web radio station podcasting service
+
+348
+00:21:07,260 --> 00:21:12,220
+over here. The University of Prince Edward Island in Canada. Your show provides a lot of inspiration
+
+349
+00:21:12,220 --> 00:21:19,740
+for it. And he had links to, did I just play that promo? I'll put the email in the, in the
+
+350
+00:21:19,740 --> 00:21:26,380
+show notes. A little discombobulated today, sitting in the car trying to do this. And also Studio Geek
+
+351
+00:21:26,380 --> 00:21:32,780
+another podcast you want to check out with an RIA free podcast, which I heard someone the other
+
+352
+00:21:32,780 --> 00:21:37,740
+day say, RIA. Maybe that's the way we should just categorize it. RIA. It's the, instead of RIA,
+
+353
+00:21:37,740 --> 00:21:42,940
+just say, RIA. I think that's probably the best way to go. Want to give a little attention
+
+354
+00:21:42,940 --> 00:21:50,780
+to the new sports node on the iPodor.org directory. And I kind of messed it up. I was talking
+
+355
+00:21:50,780 --> 00:21:58,540
+about the, what is it? The, the, the skinny on sports podcast. And I'd confuse it, the skinny on
+
+356
+00:21:58,540 --> 00:22:06,780
+sports podcast with Curtis, who is actually, does the sports pod at the sports pod.com. And Curtis
+
+357
+00:22:06,780 --> 00:22:10,380
+is actually the person who has been working with me for the past two weeks trying to get an
+
+358
+00:22:10,380 --> 00:22:17,340
+OPML file just right so that we can get it into the directory. And it was a real, I mean,
+
+359
+00:22:17,340 --> 00:22:22,140
+it was just like giving birth. And even though I have no idea what I'm talking about when it comes
+
+360
+00:22:22,140 --> 00:22:27,580
+to that, it was really painful. So we finally got it to work. It's up and running. And Curtis
+
+361
+00:22:27,580 --> 00:22:31,260
+is actually going to write up a little document to assist people when they get into the loop that
+
+362
+00:22:31,260 --> 00:22:36,140
+we got into with, with trying to get the right OPML just, you know, just perfect so that the
+
+363
+00:22:36,220 --> 00:22:43,500
+directory would parse it all. So apologies there. The skinny on sports is of course now listed
+
+364
+00:22:43,500 --> 00:22:49,100
+in the, in the directory, but it's really Curtis who's maintaining this and he's got all kinds
+
+365
+00:22:49,100 --> 00:22:57,580
+of sports podcasts. Check out the sports, what is it? The sports, the sports pod, sports pod.com.
+
+366
+00:22:57,580 --> 00:23:05,820
+Again, all information linked into the appropriate places, of course, from the iPodor.org directory.
+
+367
+00:23:06,220 --> 00:23:15,180
+And we're working on a lot of OPML stuff. Droo from Don and Drew has also gotten the OPML bug.
+
+368
+00:23:15,180 --> 00:23:20,060
+And I think what's going to happen pretty soon is this whole concept of the pod squad,
+
+369
+00:23:20,060 --> 00:23:24,860
+which essentially is, oh, I eight or nine podcasts that just, you know, are my favorites.
+
+370
+00:23:24,860 --> 00:23:28,940
+We're going to start linking those together and, and, and really having a lot of the information
+
+371
+00:23:28,940 --> 00:23:34,300
+flow from one to the next and also make it easy for people to subscribe to an entire,
+
+372
+00:23:35,180 --> 00:23:40,460
+basically a station or a network in one go. So just here's one file, drag it into your iPodor
+
+373
+00:23:40,460 --> 00:23:45,660
+and boom, you're subscribed. And it should also maybe put them into a separate, I'm thinking,
+
+374
+00:23:45,660 --> 00:23:50,380
+I don't know, maybe we should put them into a separate playlist on your MP3 player.
+
+375
+00:23:50,380 --> 00:23:54,860
+Not quite sure yet, but a big part of that is going to be these production notes and how we flow
+
+376
+00:23:54,860 --> 00:24:01,180
+things from, from one podcast to the next. And maybe how we can, you know, all together, you know,
+
+377
+00:24:01,180 --> 00:24:07,420
+as a, as a group, as a pod squad, maybe we can figure out how to promote certain songs together,
+
+378
+00:24:07,420 --> 00:24:11,420
+or who knows? But it's definitely high on the radar for getting stuff rolling.
+
+379
+00:24:12,460 --> 00:24:19,660
+As is the bit torrent method of distribution, boy, this has been a big thing on the mailing lists.
+
+380
+00:24:19,660 --> 00:24:24,460
+And unfortunately, too many private emails over the past week, which I think we've kind of
+
+381
+00:24:24,460 --> 00:24:30,300
+gotten out of the private email circuit by now. But Dave Winner and I co-authored,
+
+382
+00:24:30,460 --> 00:24:36,780
+where I think it's just going to be the simplest way to get an alternative form of distribution
+
+383
+00:24:36,780 --> 00:24:42,300
+for podcasters who, you know, are trying to figure out a way of distributing their podcasters,
+
+384
+00:24:42,300 --> 00:24:47,980
+more efficiently than just putting an MP3 up and letting everyone hammer the MP3 file directly.
+
+385
+00:24:48,780 --> 00:24:55,180
+So we've come up with a bit torrent name space for RSS. And it's really simple. All it solves is
+
+386
+00:24:55,180 --> 00:25:00,300
+one thing. And that's what I like about it. It just gives you a way to add an alternative
+
+387
+00:25:00,300 --> 00:25:06,060
+download location and download method specifically for a bit torrent. It's not trying to solve
+
+388
+00:25:06,060 --> 00:25:11,420
+anything else than that, which is why I like it because RSS is supposed to be simple. So the next
+
+389
+00:25:11,420 --> 00:25:14,940
+thing we'll be working on, I think, is this OPML. Of course, we're going to figure out, you know,
+
+390
+00:25:14,940 --> 00:25:20,380
+I don't know if there should be an OPML namespace or whatever. In fact, I've just looking at RSS
+
+391
+00:25:20,380 --> 00:25:28,860
+an OPML, both in an outliner. I'm trying to think how can we connect those two, but I'm not sure yet.
+
+392
+00:25:29,740 --> 00:25:34,940
+And hey, it's only Monday. Damn. This is the brain's work in a way too hard.
+
+393
+00:25:36,380 --> 00:25:42,460
+It's not often that I come across something from Andrew Grummett's feeds. I'm subscribed to a
+
+394
+00:25:42,460 --> 00:25:49,420
+couple of different RSS feeds that he has with the RSS 2.0 and in closures. And something finally
+
+395
+00:25:49,500 --> 00:25:56,060
+came across the wire off of Andrew Grummett's, I guess this is podcast feed. And it was so cute.
+
+396
+00:25:56,780 --> 00:26:01,100
+It took me a while that it took me two plays actually to figure out what was going on.
+
+397
+00:26:02,300 --> 00:26:08,940
+But this is, it's he came through as, see, was it categorized as the Grummett family players
+
+398
+00:26:10,060 --> 00:26:14,940
+from Andrew Grummett's audio weblog. The tune is Freddie Freeloader and I guess this
+
+399
+00:26:15,340 --> 00:26:20,060
+um, I'm going to kid shoot see a nine mile online here in the car. I'm thinking it's Andrew
+
+400
+00:26:20,060 --> 00:26:25,020
+of one kid or two. I think he has one child. So I think that the deal is Andrew is kind of doing
+
+401
+00:26:25,020 --> 00:26:30,380
+the melody and then his child is blowing on whatever he's blowing on.
+
+402
+00:26:44,940 --> 00:26:45,900
+Do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do
+
+403
+00:27:14,940 --> 00:27:44,940
+do do do do do do do do
+
+404
+00:27:44,940 --> 00:27:49,380
+old ladies and gentlemen you heard you heard it here first on the daily source code where
+
+405
+00:27:49,380 --> 00:27:53,020
+users and developers party together and when we got a lot of stuff to take care of
+
+406
+00:27:53,020 --> 00:27:59,580
+here in the UK I have still a full afternoon right now it's shoot it's already
+
+407
+00:27:59,580 --> 00:28:03,260
+220 so I'm expecting the girls out here any minute now will rush the groceries
+
+408
+00:28:03,260 --> 00:28:07,500
+back home then I got to take them to the hairdresser nail salon and then of
+
+409
+00:28:07,500 --> 00:28:10,860
+course well there they are you know what I'm going to do you know what I'm
+
+410
+00:28:10,860 --> 00:28:13,860
+going to do you know I'm going to walk right into Starbucks and get hooked up
+
+411
+00:28:13,860 --> 00:28:18,660
+and upload the show that's exactly what I'm going to do and I'll be back tomorrow
+
+412
+00:28:18,660 --> 00:28:25,140
+with more source code for you right here from Curry College well then again
+
+413
+00:28:25,140 --> 00:28:29,260
+of course this is Stimio A8 I'm pretty kind of just hopefully will be tomorrow
+
+414
+00:28:29,260 --> 00:28:33,980
+no no broadband yet so I'm going to take I predict probably the rest of the
+
+415
+00:28:33,980 --> 00:28:38,740
+week before the before it's scheduled but I've got a big honking download
+
+416
+00:28:38,740 --> 00:28:47,620
+so I'm just coming up as always comments are welcome and you're your
+
+417
+00:28:47,620 --> 00:28:51,860
+audio comments or promos or whatever you have it's out of a free.com of course
+
+418
+00:28:51,860 --> 00:28:55,820
+I'm going to comment on my weblog of live 940.com and the source code can be found
+
+419
+00:28:55,820 --> 00:29:00,660
+in its archives later show at the podcast RSS feed and daily source code.com
+
+420
+00:29:00,660 --> 00:29:05,060
+I'll check you out tomorrow everybody take care bye bye
+
+421
+00:29:08,740 --> 00:29:22,840
+RSS
+

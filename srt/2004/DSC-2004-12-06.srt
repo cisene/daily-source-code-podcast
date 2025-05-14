@@ -1,0 +1,5860 @@
+1
+00:00:00,000 --> 00:00:13,000
+Hey everybody, who listens to the Daily Source Code?
+
+2
+00:00:13,000 --> 00:00:28,000
+The Daily Source Code podcast.
+
+3
+00:00:28,000 --> 00:00:31,000
+It's for everybody.
+
+4
+00:00:31,000 --> 00:00:32,000
+Testing.
+
+5
+00:00:32,000 --> 00:00:33,000
+All's live.
+
+6
+00:00:33,000 --> 00:00:34,000
+Adam Curry.
+
+7
+00:00:34,000 --> 00:00:35,000
+Yeah.
+
+8
+00:00:35,000 --> 00:00:38,000
+Monday, everybody good afternoon.
+
+9
+00:00:38,000 --> 00:00:41,000
+I you're doing and welcome to the Daily Source Code.
+
+10
+00:00:41,000 --> 00:00:42,000
+Today is Monday.
+
+11
+00:00:42,000 --> 00:00:44,000
+It's December 6, 2004.
+
+12
+00:00:44,000 --> 00:00:48,000
+I'm out of curry coming to you from Curry Cottage in the United Kingdom.
+
+13
+00:00:48,000 --> 00:00:49,000
+That's right.
+
+14
+00:00:49,000 --> 00:00:52,000
+With a brand new set of new sounds.
+
+15
+00:00:52,000 --> 00:00:56,000
+And lots of reverb by special requests.
+
+16
+00:00:56,000 --> 00:01:03,000
+I'm not even going to get into the entire set up and exactly what I've changed.
+
+17
+00:01:03,000 --> 00:01:06,000
+But boy, a lot of thought went into it.
+
+18
+00:01:06,000 --> 00:01:11,000
+In fact, Patricia actually spent a lot of time with me coming up with the microphone sound.
+
+19
+00:01:11,000 --> 00:01:12,000
+It's pretty good.
+
+20
+00:01:12,000 --> 00:01:14,000
+In fact, it could be a hell of a lot worse.
+
+21
+00:01:14,000 --> 00:01:16,000
+You know, I could be at Starbucks right now.
+
+22
+00:01:16,000 --> 00:01:17,000
+That's how bad it could be.
+
+23
+00:01:17,000 --> 00:01:25,000
+That's interesting.
+
+24
+00:01:25,000 --> 00:01:27,000
+Still kind of working on the entire set up.
+
+25
+00:01:27,000 --> 00:01:28,000
+All the pieces and bits.
+
+26
+00:01:28,000 --> 00:01:29,000
+Everything that goes together.
+
+27
+00:01:29,000 --> 00:01:30,000
+It's all right here.
+
+28
+00:01:30,000 --> 00:01:37,000
+This is where users and developers party together.
+
+29
+00:01:37,000 --> 00:01:40,000
+And I kind of feel like a little bit of a developer.
+
+30
+00:01:40,000 --> 00:01:43,000
+If you look at the setup that I've got going here.
+
+31
+00:01:43,000 --> 00:01:46,000
+And part of the reason for this entire setup is
+
+32
+00:01:46,000 --> 00:01:51,000
+I've been catching some some flack about the sound.
+
+33
+00:01:51,000 --> 00:01:56,000
+The, you know, basically the big room that I had at the castle.
+
+34
+00:01:56,000 --> 00:02:01,000
+Some folks seem to actually miss the kind of echoey reverb thing.
+
+35
+00:02:01,000 --> 00:02:05,000
+And sometimes they even are pretty vocal about it.
+
+36
+00:02:05,000 --> 00:02:08,000
+Listen to this that came in on my iPod or just over the weekend.
+
+37
+00:02:08,000 --> 00:02:09,000
+Hey.
+
+38
+00:02:09,000 --> 00:02:10,000
+How are you?
+
+39
+00:02:10,000 --> 00:02:11,000
+Okay, how are you?
+
+40
+00:02:11,000 --> 00:02:12,000
+Very well.
+
+41
+00:02:12,000 --> 00:02:15,000
+So are we recording?
+
+42
+00:02:15,000 --> 00:02:16,000
+We are.
+
+43
+00:02:16,000 --> 00:02:17,000
+Okay.
+
+44
+00:02:17,000 --> 00:02:18,000
+So.
+
+45
+00:02:18,000 --> 00:02:23,000
+Oh, this is the sound of excitement in the background.
+
+46
+00:02:23,000 --> 00:02:25,000
+Yeah, exactly.
+
+47
+00:02:25,000 --> 00:02:28,000
+So what do you want to say?
+
+48
+00:02:28,000 --> 00:02:29,000
+Uh, I don't know.
+
+49
+00:02:29,000 --> 00:02:31,000
+I'm not a podcaster, you know.
+
+50
+00:02:31,000 --> 00:02:33,000
+So here we are.
+
+51
+00:02:33,000 --> 00:02:34,000
+You're not?
+
+52
+00:02:34,000 --> 00:02:35,000
+No.
+
+53
+00:02:35,000 --> 00:02:36,000
+Are you a podcaster?
+
+54
+00:02:36,000 --> 00:02:37,000
+No.
+
+55
+00:02:37,000 --> 00:02:38,000
+Okay.
+
+56
+00:02:38,000 --> 00:02:39,000
+So we're not good at this off the coast all the way.
+
+57
+00:02:39,000 --> 00:02:40,000
+No.
+
+58
+00:02:40,000 --> 00:02:42,000
+We're not going to sit there and do a David Adam.
+
+59
+00:02:42,000 --> 00:02:43,000
+No.
+
+60
+00:02:43,000 --> 00:02:44,000
+And did that our way?
+
+61
+00:02:44,000 --> 00:02:45,000
+No.
+
+62
+00:02:45,000 --> 00:02:46,000
+No.
+
+63
+00:02:46,000 --> 00:02:47,000
+Okay.
+
+64
+00:02:47,000 --> 00:02:48,000
+So are we here?
+
+65
+00:02:48,000 --> 00:02:58,000
+Because Adam insists upon having some sort of a seat for his iPod or network.
+
+66
+00:02:58,000 --> 00:02:59,000
+Right.
+
+67
+00:02:59,000 --> 00:03:00,000
+All right.
+
+68
+00:03:00,000 --> 00:03:01,000
+So Adam.
+
+69
+00:03:01,000 --> 00:03:02,000
+This will have to do.
+
+70
+00:03:02,000 --> 00:03:03,000
+This will have to do.
+
+71
+00:03:03,000 --> 00:03:04,000
+All right.
+
+72
+00:03:04,000 --> 00:03:12,000
+So, you know, one of those of you who haven't heard the last week show down low that one.
+
+73
+00:03:12,000 --> 00:03:14,000
+That was a show with Jonathan Schwartz, right?
+
+74
+00:03:14,000 --> 00:03:15,000
+Yeah.
+
+75
+00:03:15,000 --> 00:03:22,000
+It got a lot of good reviews except for people like, you know, who are concerned about,
+
+76
+00:03:22,000 --> 00:03:27,000
+how am I, big ego or HP?
+
+77
+00:03:27,000 --> 00:03:33,000
+Well, those complaints happen no matter what.
+
+78
+00:03:33,000 --> 00:03:34,000
+Yeah.
+
+79
+00:03:34,000 --> 00:03:40,000
+So I think it was a good show and I hope people will listen to all the way through because some of the stuff towards the end of some of the best as well.
+
+80
+00:03:40,000 --> 00:03:41,000
+All right.
+
+81
+00:03:41,000 --> 00:03:42,000
+The point about me, come on.
+
+82
+00:03:42,000 --> 00:03:43,000
+Get to me.
+
+83
+00:03:43,000 --> 00:03:45,000
+That's what the second I am.
+
+84
+00:03:45,000 --> 00:03:47,000
+Stephen, I'm great except.
+
+85
+00:03:47,000 --> 00:03:48,000
+Right.
+
+86
+00:03:48,000 --> 00:03:49,000
+Yeah.
+
+87
+00:03:49,000 --> 00:03:50,000
+Well.
+
+88
+00:03:50,000 --> 00:03:51,000
+Okay.
+
+89
+00:03:51,000 --> 00:03:52,000
+So what are we going to do next week?
+
+90
+00:03:52,000 --> 00:03:54,000
+We're going to try and do the full show next week, right?
+
+91
+00:03:54,000 --> 00:03:55,000
+Yeah.
+
+92
+00:03:55,000 --> 00:03:57,000
+We're going to try and record it on Monday.
+
+93
+00:03:57,000 --> 00:04:02,000
+But we'll have to leave that one for perhaps another little down low.
+
+94
+00:04:02,000 --> 00:04:03,000
+Okay.
+
+95
+00:04:03,000 --> 00:04:04,000
+We're good.
+
+96
+00:04:04,000 --> 00:04:05,000
+All right.
+
+97
+00:04:05,000 --> 00:04:06,000
+All right.
+
+98
+00:04:06,000 --> 00:04:08,000
+So let's hope everybody does go back.
+
+99
+00:04:08,000 --> 00:04:11,000
+Listen to last week's Gilmour Gang with Jonathan Schwartz, great show.
+
+100
+00:04:11,000 --> 00:04:12,000
+I know I will.
+
+101
+00:04:12,000 --> 00:04:14,000
+You know, I will too.
+
+102
+00:04:14,000 --> 00:04:15,000
+Okay.
+
+103
+00:04:15,000 --> 00:04:17,000
+When Friday rolls around, that's what I'm going to do.
+
+104
+00:04:17,000 --> 00:04:19,000
+Get to the part about me.
+
+105
+00:04:19,000 --> 00:04:20,000
+Thanks.
+
+106
+00:04:20,000 --> 00:04:21,000
+Yeah.
+
+107
+00:04:21,000 --> 00:04:26,000
+Let's hope he gets his broadband as of noon here on Thursday, which is when we're recording this.
+
+108
+00:04:26,000 --> 00:04:34,000
+Adam just said email that the British telecom people have not, no, whoever it is is not come through with his DSL line.
+
+109
+00:04:34,000 --> 00:04:42,000
+Not as this saying because, you know, there's just something different about the sound of this voice when he's got dial up.
+
+110
+00:04:42,000 --> 00:04:43,000
+Not the attention here.
+
+111
+00:04:43,000 --> 00:04:44,000
+It's the bit.
+
+112
+00:04:44,000 --> 00:04:47,000
+You know, he needs more reverb.
+
+113
+00:04:47,000 --> 00:04:48,000
+Yeah.
+
+114
+00:04:48,000 --> 00:04:49,000
+That's it.
+
+115
+00:04:49,000 --> 00:04:50,000
+That's it.
+
+116
+00:04:50,000 --> 00:04:51,000
+There's something about that Mike changed that he's done.
+
+117
+00:04:51,000 --> 00:04:52,000
+It's just not right.
+
+118
+00:04:52,000 --> 00:04:53,000
+We missed the castle.
+
+119
+00:04:53,000 --> 00:04:54,000
+It's just not right.
+
+120
+00:04:54,000 --> 00:04:57,000
+Well, I, you know, when the jury's out on the cottage.
+
+121
+00:04:57,000 --> 00:04:59,000
+But it doesn't really matter.
+
+122
+00:04:59,000 --> 00:05:02,000
+It's what, uh, Adam thinks.
+
+123
+00:05:02,000 --> 00:05:03,000
+That's true.
+
+124
+00:05:03,000 --> 00:05:04,000
+Oh.
+
+125
+00:05:04,000 --> 00:05:05,000
+Okay.
+
+126
+00:05:05,000 --> 00:05:06,000
+Steve, have a great weekend.
+
+127
+00:05:06,000 --> 00:05:07,000
+And we'll talk to you on Monday.
+
+128
+00:05:07,000 --> 00:05:08,000
+Okay.
+
+129
+00:05:08,000 --> 00:05:09,000
+Thanks for that.
+
+130
+00:05:09,000 --> 00:05:11,000
+So nice of you guys to be thinking of me.
+
+131
+00:05:11,000 --> 00:05:14,000
+And so nice to say that it sounds like shit now that I'm in the cottage.
+
+132
+00:05:14,000 --> 00:05:15,000
+So I've cranked up the reverb.
+
+133
+00:05:15,000 --> 00:05:17,000
+Make sure you guys got plenty of it.
+
+134
+00:05:17,000 --> 00:05:18,000
+Oops.
+
+135
+00:05:18,000 --> 00:05:19,000
+Sorry about that.
+
+136
+00:05:19,000 --> 00:05:21,000
+Still don't have the windscreen happening on the new microphone.
+
+137
+00:05:21,000 --> 00:05:23,000
+So I think we kind of got this vibe going.
+
+138
+00:05:23,000 --> 00:05:26,000
+You know, I've got the drum cadence now on the background.
+
+139
+00:05:26,000 --> 00:05:31,000
+This is the last time I played that drum drum line, the drum cadence.
+
+140
+00:05:31,000 --> 00:05:39,000
+I got so many responses that actually started up an email thread with Joel Hawksley.
+
+141
+00:05:39,000 --> 00:05:42,000
+He said, uh, actually I'll read this email to you.
+
+142
+00:05:42,000 --> 00:05:44,000
+Because I said it was really awesome.
+
+143
+00:05:44,000 --> 00:05:47,000
+A lot of people had commented on these cadences.
+
+144
+00:05:47,000 --> 00:05:48,000
+And I said, you know, how did you record it?
+
+145
+00:05:48,000 --> 00:05:50,000
+He says it turns out the file.
+
+146
+00:05:50,000 --> 00:05:51,000
+I sent you a record a while ago.
+
+147
+00:05:51,000 --> 00:05:54,000
+My friend Sony microphone and Sony mini disc recorder.
+
+148
+00:05:54,000 --> 00:05:56,000
+And, uh, what it is, he sent me another one.
+
+149
+00:05:56,000 --> 00:05:59,000
+And this is of our shoot.
+
+150
+00:05:59,000 --> 00:06:00,000
+What was this?
+
+151
+00:06:01,000 --> 00:06:04,000
+I think this is the Michigan Michigan State drum band.
+
+152
+00:06:04,000 --> 00:06:08,000
+Hold on, I'm trying to get my show notes to scroll up,
+
+153
+00:06:08,000 --> 00:06:11,000
+which apparently is going to be a problem today.
+
+154
+00:06:11,000 --> 00:06:12,000
+Let's see.
+
+155
+00:06:12,000 --> 00:06:13,000
+Yeah.
+
+156
+00:06:13,000 --> 00:06:15,000
+Come on everybody.
+
+157
+00:06:17,000 --> 00:06:19,000
+Oh, there we go. Okay.
+
+158
+00:06:19,000 --> 00:06:20,000
+Um, right.
+
+159
+00:06:20,000 --> 00:06:23,000
+So of course, doesn't tell me anything about that in the show notes.
+
+160
+00:06:23,000 --> 00:06:28,000
+Uh, before that, uh, as we opened up, you heard a little bit of, uh,
+
+161
+00:06:29,000 --> 00:06:31,000
+Steve Gilmore and Doug K.
+
+162
+00:06:31,000 --> 00:06:35,000
+Apparently there was no Gilmore gang to be recorded this week.
+
+163
+00:06:35,000 --> 00:06:39,000
+And, uh, so that you don't go running off and start checking your, uh,
+
+164
+00:06:39,000 --> 00:06:42,000
+your iPodder and, uh, your scripts to see if something broke.
+
+165
+00:06:42,000 --> 00:06:44,000
+You know, there actually just was no show recorded.
+
+166
+00:06:44,000 --> 00:06:47,000
+So hopefully they'll have one, uh, one up pretty soon.
+
+167
+00:06:47,000 --> 00:06:48,000
+Um, okay.
+
+168
+00:06:48,000 --> 00:06:50,000
+So this, oh, there we go.
+
+169
+00:06:50,000 --> 00:06:51,000
+Uh, street beats.
+
+170
+00:06:51,000 --> 00:06:52,000
+It's Florida State.
+
+171
+00:06:52,000 --> 00:06:54,000
+Florida State drum line.
+
+172
+00:06:54,000 --> 00:06:57,000
+The license is non-R-I-A-A.
+
+173
+00:06:57,000 --> 00:06:59,000
+Why did these cats crank?
+
+174
+00:06:59,000 --> 00:07:00,000
+Check it out.
+
+175
+00:07:06,000 --> 00:07:07,000
+I love that.
+
+176
+00:07:07,000 --> 00:07:09,000
+No, I used to love it.
+
+177
+00:07:09,000 --> 00:07:12,000
+I really used to love it when, um, when they'd be doing a, um, a parade.
+
+178
+00:07:12,000 --> 00:07:15,000
+And then they'd walk by and they'd do, um,
+
+179
+00:07:15,000 --> 00:07:17,000
+the theme from entertainment tonight.
+
+180
+00:07:17,000 --> 00:07:20,000
+Have you ever heard of a high school or college drum band
+
+181
+00:07:20,000 --> 00:07:22,000
+or the theme to entertainment?
+
+182
+00:07:24,000 --> 00:07:26,000
+Uh, anyway, I'm kind of getting into drum, uh, drum band.
+
+183
+00:07:27,000 --> 00:07:29,000
+Uh, should we be concerned about me?
+
+184
+00:07:29,000 --> 00:07:31,000
+Possibly.
+
+185
+00:07:33,000 --> 00:07:38,000
+Good morning and welcome to today's podcast for December 3rd, 2004.
+
+186
+00:07:38,000 --> 00:07:42,000
+This is a brief daily offering of words for the wise and the other wise.
+
+187
+00:07:42,000 --> 00:07:47,000
+Today's words from an article Adam Curry read on his abbreviated daily source code.
+
+188
+00:07:47,000 --> 00:07:51,000
+The article by Felicity Lawrence is a wake-up call for the Western world's food
+
+189
+00:07:51,000 --> 00:07:52,000
+humorous.
+
+190
+00:07:52,000 --> 00:07:55,000
+The way we eat is not just ecologically unsustainable,
+
+191
+00:07:55,000 --> 00:08:00,000
+but also morally and even biologically unsustainable.
+
+192
+00:08:00,000 --> 00:08:02,000
+The word is profligate.
+
+193
+00:08:02,000 --> 00:08:03,000
+Let's listen.
+
+194
+00:08:05,000 --> 00:08:10,000
+Food is flown around the world to meet the supermarkets requirements for just in time ordering.
+
+195
+00:08:10,000 --> 00:08:14,000
+Their demand for cosmetic perfection and a perpetual glow.
+
+196
+00:08:14,000 --> 00:08:18,000
+In case you had noticed, this is, uh, basically me, um,
+
+197
+00:08:18,000 --> 00:08:22,000
+fucking up the read that I did on, uh, what was it, um,
+
+198
+00:08:22,000 --> 00:08:26,000
+what was I supposed to get my broadband? Was that, um, on the first of December?
+
+199
+00:08:26,000 --> 00:08:28,000
+So that was, was that Wednesday, I think?
+
+200
+00:08:28,000 --> 00:08:30,000
+When I, when was I really pissed off?
+
+201
+00:08:30,000 --> 00:08:31,000
+Yeah, something like that.
+
+202
+00:08:31,000 --> 00:08:33,000
+And then instead of doing a daily source code,
+
+203
+00:08:33,000 --> 00:08:36,000
+I'd read this article from the Guardian,
+
+204
+00:08:36,000 --> 00:08:38,000
+which I've actually linked to on ipodder.org.
+
+205
+00:08:38,000 --> 00:08:41,000
+And I couldn't get this, this word right.
+
+206
+00:08:41,000 --> 00:08:43,000
+Well, you'll, you'll hear it.
+
+207
+00:08:43,000 --> 00:08:49,000
+We'll summer can be met by producers only if they use agrochemicals intensively
+
+208
+00:08:49,000 --> 00:08:54,000
+and allow for a, uh, prof, uh, a big fucking word,
+
+209
+00:08:54,000 --> 00:08:56,000
+degree of waste.
+
+210
+00:08:56,000 --> 00:09:01,000
+A third of Kenyan green beans are thrown away because they are the wrong size or shape.
+
+211
+00:09:01,000 --> 00:09:02,000
+Prophligate.
+
+212
+00:09:03,000 --> 00:09:06,000
+PRO, FLI, G-A-T-E.
+
+213
+00:09:06,000 --> 00:09:10,000
+Volume is an adjective that, in this context,
+
+214
+00:09:10,000 --> 00:09:13,000
+means recklessly wasteful, wildly extravagant.
+
+215
+00:09:13,000 --> 00:09:17,000
+It can also be used as a noun to describe a profligate person.
+
+216
+00:09:17,000 --> 00:09:20,000
+Adam, I want to thank you for reading this editorial to us.
+
+217
+00:09:20,000 --> 00:09:25,000
+I think you and Felicity draw much needed attention to the very serious problem.
+
+218
+00:09:25,000 --> 00:09:30,000
+Um, hope all of your listeners read this article and hope a few of mine do too.
+
+219
+00:09:31,000 --> 00:09:36,000
+You can find a link to this article as well as Adam's reading of it at today's podcast.com.
+
+220
+00:09:36,000 --> 00:09:38,000
+Please email me with questions.
+
+221
+00:09:38,000 --> 00:09:45,000
+Scott at today's podcast.com or send me a voice mail at 435-514-4859.
+
+222
+00:09:45,000 --> 00:09:48,000
+Thanks for listening and please tell your friends about podcast.
+
+223
+00:09:48,000 --> 00:09:49,000
+Yeah, right on.
+
+224
+00:09:49,000 --> 00:09:50,000
+Okay.
+
+225
+00:09:50,000 --> 00:09:51,000
+Thank you very much Scott.
+
+226
+00:09:51,000 --> 00:09:52,000
+Send me straight there.
+
+227
+00:09:52,000 --> 00:09:53,000
+Profligate.
+
+228
+00:09:53,000 --> 00:09:54,000
+I can do that.
+
+229
+00:09:54,000 --> 00:09:55,000
+Profligate.
+
+230
+00:09:55,000 --> 00:09:57,000
+And it's good to know what words mean once in a while.
+
+231
+00:09:57,000 --> 00:09:58,000
+Profligate.
+
+232
+00:09:58,000 --> 00:10:02,000
+So we're sitting here in my new office in the castle.
+
+233
+00:10:02,000 --> 00:10:03,000
+A couple things still wrong with it.
+
+234
+00:10:03,000 --> 00:10:07,000
+I've got this beautiful desk that's antique desk that's Louis the 14th desk.
+
+235
+00:10:07,000 --> 00:10:09,000
+But my chair doesn't fit under it.
+
+236
+00:10:09,000 --> 00:10:14,000
+I guess the Louis guys were really small back in the Louis the 14th day.
+
+237
+00:10:14,000 --> 00:10:18,000
+So I kind of like my knees are banging against the bottom of the desk.
+
+238
+00:10:18,000 --> 00:10:22,000
+So we've got to figure a way to raise that up to give me a little more.
+
+239
+00:10:22,000 --> 00:10:25,000
+A little more breathing room perhaps would be good.
+
+240
+00:10:25,000 --> 00:10:30,000
+And as you can hear, I'm still using the new mega mic, the the sure SM7.
+
+241
+00:10:30,000 --> 00:10:33,000
+I've got my reverb set up, Steve, and Doug, hope you like that.
+
+242
+00:10:33,000 --> 00:10:38,000
+So I get a little bit of that castle vibe regardless of the size of the room these days.
+
+243
+00:10:38,000 --> 00:10:42,000
+And even though I still don't have my broadband and you know,
+
+244
+00:10:42,000 --> 00:10:44,000
+I'm so past the pissed off stage.
+
+245
+00:10:44,000 --> 00:10:47,000
+I'm just kind of rolling with the flow on all of that.
+
+246
+00:10:47,000 --> 00:10:54,000
+I've kind of relearned how much I love the concept of enclosures.
+
+247
+00:10:54,000 --> 00:11:02,000
+And the whole iPod or concept because basically what I've done now is I've thrown out all my subscriptions completely.
+
+248
+00:11:02,000 --> 00:11:07,000
+All I have is just basically the pod squad that I subscribe to.
+
+249
+00:11:07,000 --> 00:11:13,000
+And of course link to the pod squad is on the production notes for today's show.
+
+250
+00:11:13,000 --> 00:11:17,000
+And I only have that download the minute I go to bed.
+
+251
+00:11:18,000 --> 00:11:23,000
+So actually the computer wakes up at 2 a.m. at 2 a.m. at wakes up.
+
+252
+00:11:23,000 --> 00:11:26,000
+And the first thing it does, it fires up iPodder.
+
+253
+00:11:26,000 --> 00:11:30,000
+And it goes off and downloads the pod squad.
+
+254
+00:11:30,000 --> 00:11:36,000
+So pretty much every single day I've been lucky enough to have all of the all the files sitting there waiting for me.
+
+255
+00:11:36,000 --> 00:11:39,000
+Because it's not so much that the bandwidth is slow.
+
+256
+00:11:39,000 --> 00:11:46,000
+Because you know, some some podcasts really because they're so crunched just by so many people
+
+257
+00:11:46,000 --> 00:11:49,000
+requesting the MP3 files. They come in pretty slow as is.
+
+258
+00:11:49,000 --> 00:11:53,000
+The problem with not having the bandwidth is that you can't multitask.
+
+259
+00:11:53,000 --> 00:11:56,000
+You can't download two things at the same time.
+
+260
+00:11:56,000 --> 00:11:58,000
+Because that really of course is just no bandwidth.
+
+261
+00:11:58,000 --> 00:12:01,000
+So it's not so much that's about the speed of stuff coming in.
+
+262
+00:12:01,000 --> 00:12:05,000
+But it's about being able to do multiple simultaneous parallel processes.
+
+263
+00:12:05,000 --> 00:12:10,000
+Like get your email at the same time check a web page.
+
+264
+00:12:10,000 --> 00:12:14,000
+So I'm shifting all that stuff off into the middle of the night.
+
+265
+00:12:14,000 --> 00:12:19,000
+So actually where I was telling you to please send me just a link to an MP3 file instead of an attachment.
+
+266
+00:12:19,000 --> 00:12:21,000
+I'm back now to attachments.
+
+267
+00:12:21,000 --> 00:12:27,000
+Please, if you're sending me something, if you're sending me a promo to your podcast and I love playing people's promos.
+
+268
+00:12:27,000 --> 00:12:29,000
+Send it to me as an attachment.
+
+269
+00:12:29,000 --> 00:12:34,000
+As long as it fits within, I think it's three or five megs that my email server allows in.
+
+270
+00:12:34,000 --> 00:12:40,000
+Because that, you know, basically I just look at the headers and look at the body of the messages.
+
+271
+00:12:40,000 --> 00:12:45,000
+And at night once again, I say go out and cash all of all of the attachments.
+
+272
+00:12:45,000 --> 00:12:49,000
+So by the time I'm up and we're going to bed late, you know,
+
+273
+00:12:49,000 --> 00:12:52,000
+I'm we're going to bed around 1 a.m. for some reason.
+
+274
+00:12:52,000 --> 00:12:54,000
+Of course, we're seeing a still isn't in school.
+
+275
+00:12:54,000 --> 00:12:57,000
+Hopefully this coming week looks like she'll be able to start and boy,
+
+276
+00:12:57,000 --> 00:12:59,000
+she really wants to start.
+
+277
+00:12:59,000 --> 00:13:00,000
+This is a great kid.
+
+278
+00:13:00,000 --> 00:13:01,000
+She's like, I want to go to school.
+
+279
+00:13:01,000 --> 00:13:02,000
+I'm so bored.
+
+280
+00:13:02,000 --> 00:13:08,000
+So I then will obviously be going to bed a little bit more in a more timely fashion.
+
+281
+00:13:09,000 --> 00:13:11,000
+Probably before midnight.
+
+282
+00:13:11,000 --> 00:13:18,000
+So there's a good nine hours, you know, of just time for the computer to do what's work.
+
+283
+00:13:18,000 --> 00:13:20,000
+And it's really not that bad.
+
+284
+00:13:20,000 --> 00:13:23,000
+What sucks, of course, is when someone says, hey, check this out.
+
+285
+00:13:23,000 --> 00:13:25,000
+And I can't do that in real time.
+
+286
+00:13:25,000 --> 00:13:27,000
+I can't really do Skype calls.
+
+287
+00:13:27,000 --> 00:13:30,000
+I can, but the Skype calls like four or five second delay.
+
+288
+00:13:30,000 --> 00:13:32,000
+So, in fact, what I'm going to suggest today,
+
+289
+00:13:32,000 --> 00:13:34,000
+if now that he more or less has his voice back,
+
+290
+00:13:34,000 --> 00:13:37,000
+I'm going to ask if he'll do a trade secrets with me later this week.
+
+291
+00:13:37,000 --> 00:13:40,000
+And what we're going to do is we're going to do a double ender,
+
+292
+00:13:40,000 --> 00:13:42,000
+the way Don and Drew taught us.
+
+293
+00:13:42,000 --> 00:13:44,000
+So Dave will basically record on his end.
+
+294
+00:13:44,000 --> 00:13:45,000
+I'll record on my end.
+
+295
+00:13:45,000 --> 00:13:48,000
+We'll have a communication like a phone.
+
+296
+00:13:48,000 --> 00:13:50,000
+Probably, I think that'll be the best one,
+
+297
+00:13:50,000 --> 00:13:51,000
+phone to communicate.
+
+298
+00:13:51,000 --> 00:13:53,000
+And we'll both record our individual sides.
+
+299
+00:13:53,000 --> 00:13:55,000
+We'll slap those two bits together.
+
+300
+00:13:55,000 --> 00:13:58,000
+And we'll have a trade secrets and boys time for one.
+
+301
+00:13:58,000 --> 00:14:00,000
+So much has happened.
+
+302
+00:14:00,000 --> 00:14:05,000
+A lot of email, a lot of cool links to non-RIA-based music,
+
+303
+00:14:05,000 --> 00:14:09,000
+which, of course, is what we try to play most of here on the daily source code.
+
+304
+00:14:09,000 --> 00:14:12,000
+For instance, and again, all of these emails that I'm reading to you,
+
+305
+00:14:12,000 --> 00:14:15,000
+all that information is in the podcast show notes,
+
+306
+00:14:15,000 --> 00:14:18,000
+email from Joshua.
+
+307
+00:14:18,000 --> 00:14:22,000
+Josh on the train, actually, who's listened to the source code on the train
+
+308
+00:14:22,000 --> 00:14:24,000
+and it's called me about that before.
+
+309
+00:14:24,000 --> 00:14:25,000
+He says, a thought here.
+
+310
+00:14:25,000 --> 00:14:30,000
+Non-RIA music should be freer, freer, freer,
+
+311
+00:14:30,000 --> 00:14:33,000
+F-R-E-F-R-I-A-A,
+
+312
+00:14:34,000 --> 00:14:38,000
+which stands for F-R-I-A-A, freer, freer,
+
+313
+00:14:38,000 --> 00:14:39,000
+I don't know Josh.
+
+314
+00:14:39,000 --> 00:14:40,000
+I think we've got to work on that.
+
+315
+00:14:40,000 --> 00:14:43,000
+I don't know if that's going to work.
+
+316
+00:14:43,000 --> 00:14:45,000
+Some freer music that we have been playing,
+
+317
+00:14:45,000 --> 00:14:48,000
+that I played a couple times, is the lascivious bitis.
+
+318
+00:14:48,000 --> 00:14:51,000
+Bittisforever.com is their website.
+
+319
+00:14:51,000 --> 00:14:56,000
+Excuse me, and I've had kind of an ongoing email conversation
+
+320
+00:14:56,000 --> 00:15:00,000
+with Leanne from the lascivious bitis.
+
+321
+00:15:00,000 --> 00:15:03,000
+And what was really nice is, she sent me an email,
+
+322
+00:15:03,000 --> 00:15:05,000
+and she said, I want you to know,
+
+323
+00:15:05,000 --> 00:15:07,000
+we've sold a ton of CDs,
+
+324
+00:15:07,000 --> 00:15:10,000
+and have gotten much more fan mail than usual
+
+325
+00:15:10,000 --> 00:15:13,000
+after your podcast of the list of these bitis.
+
+326
+00:15:13,000 --> 00:15:15,000
+We've done plenty of radio and TV,
+
+327
+00:15:15,000 --> 00:15:17,000
+and I think the only other thing that got people going
+
+328
+00:15:17,000 --> 00:15:19,000
+like that was when we did the Bobby Flasho
+
+329
+00:15:19,000 --> 00:15:21,000
+on the Food Network.
+
+330
+00:15:21,000 --> 00:15:24,000
+All right, we're up there.
+
+331
+00:15:24,000 --> 00:15:28,000
+Podcasting equals Food Network.
+
+332
+00:15:29,000 --> 00:15:32,000
+Hey, the Food Network's all right.
+
+333
+00:15:32,000 --> 00:15:34,000
+And I haven't had the courage actually
+
+334
+00:15:34,000 --> 00:15:36,000
+to ask what a ton of CDs means,
+
+335
+00:15:36,000 --> 00:15:40,000
+but just the fact that by playing someone's band
+
+336
+00:15:40,000 --> 00:15:42,000
+on the daily source code that people are going out
+
+337
+00:15:42,000 --> 00:15:44,000
+and buying that CD.
+
+338
+00:15:44,000 --> 00:15:46,000
+They're probably buying it from the website.
+
+339
+00:15:46,000 --> 00:15:48,000
+I cannot tell you how good that makes me feel.
+
+340
+00:15:48,000 --> 00:15:50,000
+It's the same thing with Leanne Wilkins,
+
+341
+00:15:50,000 --> 00:15:53,000
+who we'll talk about later on in the show.
+
+342
+00:15:53,000 --> 00:15:55,000
+And Jenny, they're two dogs.
+
+343
+00:15:55,000 --> 00:15:57,000
+You've probably heard this from the Friday podcast,
+
+344
+00:15:57,000 --> 00:15:59,000
+where I basically had him on the show,
+
+345
+00:15:59,000 --> 00:16:02,000
+and he's trying to get his dogs out of jail.
+
+346
+00:16:02,000 --> 00:16:04,000
+In Atlanta, I total fuck up,
+
+347
+00:16:04,000 --> 00:16:08,000
+and he's really just too much money for them to cough up.
+
+348
+00:16:08,000 --> 00:16:10,000
+I spoke to him this morning,
+
+349
+00:16:10,000 --> 00:16:12,000
+already they had like $700,
+
+350
+00:16:12,000 --> 00:16:15,000
+and it was so incredibly cool that people don't know.
+
+351
+00:16:15,000 --> 00:16:17,000
+I mean, people are doing $10,
+
+352
+00:16:17,000 --> 00:16:21,000
+$20, $25 to help them out.
+
+353
+00:16:21,000 --> 00:16:24,000
+And really, I cannot tell you how much I appreciate that.
+
+354
+00:16:24,000 --> 00:16:26,000
+And most people really understood the,
+
+355
+00:16:26,000 --> 00:16:30,000
+the issue and really understood what it means to have
+
+356
+00:16:30,000 --> 00:16:34,000
+your dogs in jail, basically.
+
+357
+00:16:34,000 --> 00:16:37,000
+And the people really understood it donated quite generously,
+
+358
+00:16:37,000 --> 00:16:39,000
+and that's so incredibly nice.
+
+359
+00:16:39,000 --> 00:16:41,000
+And what it tells me is that,
+
+360
+00:16:41,000 --> 00:16:43,000
+hey, wait a minute, we have a business model.
+
+361
+00:16:43,000 --> 00:16:46,000
+We have an absolute fucking business model for podcasting.
+
+362
+00:16:46,000 --> 00:16:48,000
+I know how to make other people money.
+
+363
+00:16:48,000 --> 00:16:49,000
+That's what I know.
+
+364
+00:16:49,000 --> 00:16:51,000
+I know how to make those serious bitties money.
+
+365
+00:16:51,000 --> 00:16:54,000
+I know how to make money for worthy causes.
+
+366
+00:16:54,000 --> 00:16:58,000
+That's a real serious business model that we cannot overlook.
+
+367
+00:16:58,000 --> 00:17:01,000
+And quite honestly, I'm pretty fucking proud.
+
+368
+00:17:01,000 --> 00:17:04,000
+I was sitting to Adam Curry show last week,
+
+369
+00:17:04,000 --> 00:17:05,000
+the Tuesday show,
+
+370
+00:17:05,000 --> 00:17:07,000
+and I was surprised to hear him play Battalica.
+
+371
+00:17:07,000 --> 00:17:13,000
+Battalica are a band that take Battalica as a sort of a style,
+
+372
+00:17:13,000 --> 00:17:18,000
+and then take the riffs and the backing music of the Beatles,
+
+373
+00:17:18,000 --> 00:17:20,000
+in this case it was, hey, Jude,
+
+374
+00:17:20,000 --> 00:17:22,000
+and sort of mash them together.
+
+375
+00:17:22,000 --> 00:17:23,000
+He introduced it as a mashup,
+
+376
+00:17:23,000 --> 00:17:26,000
+although mashups are usually working with a crawled at works.
+
+377
+00:17:26,000 --> 00:17:30,000
+And in this case, I would call it more of a live mashup.
+
+378
+00:17:30,000 --> 00:17:34,000
+So I thought it'd be interesting to play a band that I know of in San Francisco,
+
+379
+00:17:34,000 --> 00:17:37,000
+called Smashup Derby, who are actually doing live mashups.
+
+380
+00:17:37,000 --> 00:17:40,000
+They're doing these actually live,
+
+381
+00:17:40,000 --> 00:17:42,000
+and actually playing events,
+
+382
+00:17:42,000 --> 00:17:44,000
+whereas Battalica, a very secretive,
+
+383
+00:17:44,000 --> 00:17:47,000
+and friends I know only do recordings.
+
+384
+00:17:47,000 --> 00:17:51,000
+So, here they are taking Franz Ferdinand,
+
+385
+00:17:51,000 --> 00:17:54,000
+mixing it with talking heads. I'll see what you think.
+
+386
+00:18:03,000 --> 00:18:05,000
+By the way, this is pretty fucked up, chef.
+
+387
+00:18:05,000 --> 00:18:07,000
+But I think you're like it.
+
+388
+00:18:21,000 --> 00:18:23,000
+This is not my people house,
+
+389
+00:18:23,000 --> 00:18:26,000
+make a good show, this is not my people house,
+
+390
+00:18:26,000 --> 00:18:28,000
+make a good show,
+
+391
+00:18:28,000 --> 00:18:31,000
+make a good show, make a good show,
+
+392
+00:18:31,000 --> 00:18:32,000
+make a good show,
+
+393
+00:18:32,000 --> 00:18:33,000
+make a good show,
+
+394
+00:18:33,000 --> 00:18:36,000
+make a good show,
+
+395
+00:18:36,000 --> 00:18:37,000
+make a good show,
+
+396
+00:18:37,000 --> 00:18:39,000
+make a good show,
+
+397
+00:18:39,000 --> 00:18:42,000
+make a good show,
+
+398
+00:18:42,000 --> 00:18:44,000
+make a good show,
+
+399
+00:18:44,000 --> 00:18:45,000
+make a good show,
+
+400
+00:18:45,000 --> 00:18:46,000
+make a good show,
+
+401
+00:18:46,000 --> 00:18:48,000
+make a good show,
+
+402
+00:18:48,000 --> 00:18:49,000
+make a good show,
+
+403
+00:18:50,000 --> 00:18:52,000
+make a really good show,
+
+404
+00:18:52,000 --> 00:18:53,000
+make a good show,
+
+405
+00:18:53,000 --> 00:18:55,000
+make a good show,
+
+406
+00:18:55,000 --> 00:18:57,000
+make a good show,
+
+407
+00:18:57,000 --> 00:18:58,000
+make a good show,
+
+408
+00:18:58,000 --> 00:18:59,000
+make a good show,
+
+409
+00:18:59,000 --> 00:19:00,000
+make a good show,
+
+410
+00:19:00,000 --> 00:19:02,000
+make a good show,
+
+411
+00:19:02,000 --> 00:19:03,000
+make a good show,
+
+412
+00:19:03,000 --> 00:19:04,000
+make a good show,
+
+413
+00:19:04,000 --> 00:19:05,000
+make a good show,
+
+414
+00:19:05,000 --> 00:19:06,000
+make a good show,
+
+415
+00:19:06,000 --> 00:19:08,000
+make a good show,
+
+416
+00:19:08,000 --> 00:19:10,000
+make a good show,
+
+417
+00:19:10,000 --> 00:19:12,000
+make a good show,
+
+418
+00:19:12,000 --> 00:19:14,000
+make a good show,
+
+419
+00:19:14,000 --> 00:19:15,000
+make a good show,
+
+420
+00:19:15,000 --> 00:19:16,000
+making a good show,
+
+421
+00:19:16,000 --> 00:19:18,000
+make a good show,
+
+422
+00:19:18,000 --> 00:19:18,480
+make a good show,
+
+423
+00:19:18,480 --> 00:19:20,480
+Too dramatic to jump
+
+424
+00:19:20,480 --> 00:19:25,480
+I'm back for a bit, let it get out
+
+425
+00:19:27,480 --> 00:19:30,480
+Burn it down the house for a tight
+
+426
+00:19:30,480 --> 00:19:34,480
+We're doing the party cover, hold tight
+
+427
+00:19:34,480 --> 00:19:37,480
+We're in for a naps, you wear those
+
+428
+00:19:37,480 --> 00:19:41,480
+Let us go to the party
+
+429
+00:19:44,480 --> 00:19:46,480
+Burn it down the house
+
+430
+00:19:49,480 --> 00:19:51,480
+So we should keep your fact to pass
+
+431
+00:19:51,480 --> 00:19:54,480
+It's times for jumping over the board
+
+432
+00:19:54,480 --> 00:19:56,480
+Trust me, tasty and secure
+
+433
+00:19:57,480 --> 00:20:00,480
+Closing up but not too far
+
+434
+00:20:00,480 --> 00:20:02,480
+Maybe you know as you are
+
+435
+00:20:02,480 --> 00:20:05,480
+Fight your fire required
+
+436
+00:20:05,480 --> 00:20:21,480
+Oh, hey, you might need a break down, shake down
+
+437
+00:20:21,480 --> 00:20:30,480
+Keep up in rockin' light, free, hunt, train, stay by the breeze
+
+438
+00:20:30,480 --> 00:20:36,480
+Burn it down out, not out, so I don't want to hear it
+
+439
+00:20:36,480 --> 00:20:41,480
+Next life, don't wanna hurt them all, it's something sure
+
+440
+00:20:41,480 --> 00:20:45,480
+Can't be me, all five feet
+
+441
+00:20:47,480 --> 00:20:49,480
+Burn it down the house
+
+442
+00:20:52,480 --> 00:20:56,480
+I don't wanna believe in you
+
+443
+00:20:56,480 --> 00:21:00,480
+I know I won't believe in you
+
+444
+00:21:00,480 --> 00:21:04,480
+I know I won't believe in you
+
+445
+00:21:04,480 --> 00:21:08,480
+I know I won't believe in you
+
+446
+00:21:08,480 --> 00:21:10,480
+With you
+
+447
+00:21:13,480 --> 00:21:15,480
+Same as it ever goes
+
+448
+00:21:16,480 --> 00:21:18,480
+Burn it down the house
+
+449
+00:21:18,480 --> 00:21:22,480
+Same as it ever goes
+
+450
+00:21:22,480 --> 00:21:24,480
+Same as it ever goes
+
+451
+00:21:24,480 --> 00:21:27,480
+Burn it down the house
+
+452
+00:21:27,480 --> 00:21:30,480
+Same as it ever goes
+
+453
+00:21:30,480 --> 00:21:33,480
+Same as it ever goes
+
+454
+00:21:33,480 --> 00:21:35,480
+Burn it down the house
+
+455
+00:21:42,480 --> 00:21:45,480
+That was talking friends by SmashUp Derby
+
+456
+00:21:45,480 --> 00:21:48,480
+Now if you want to find out more about SmashUp Derby
+
+457
+00:21:48,480 --> 00:21:53,480
+They have their websites, which is at www. SmashUp Derby.com
+
+458
+00:21:53,480 --> 00:21:56,480
+That's Derby or the need Derby as in Derby and Joan
+
+459
+00:21:56,480 --> 00:22:00,480
+Now I love that song, I love the idea of sort of mashing things
+
+460
+00:22:00,480 --> 00:22:04,480
+That were live, because so often I'm messing around in acid
+
+461
+00:22:04,480 --> 00:22:07,480
+Or not on acid, I mean in acid the problem
+
+462
+00:22:07,480 --> 00:22:10,480
+And actually trying to get things to work
+
+463
+00:22:10,480 --> 00:22:14,480
+And you can do so much more with a real band
+
+464
+00:22:14,480 --> 00:22:19,480
+And of course Adrian and Matti C are both involved with
+
+465
+00:22:20,480 --> 00:22:22,480
+The club in San Francisco
+
+466
+00:22:22,480 --> 00:22:25,480
+So they're quite heavily involved in the bootleg scene
+
+467
+00:22:25,480 --> 00:22:28,480
+And it's really nice to sort of hear something that's sort of live
+
+468
+00:22:28,480 --> 00:22:30,480
+And something that's quite dynamic like that
+
+469
+00:22:30,480 --> 00:22:32,480
+And I would love to see them alive at some point
+
+470
+00:22:39,480 --> 00:22:40,480
+Shit
+
+471
+00:22:41,480 --> 00:22:43,480
+Let me just explain what happened
+
+472
+00:22:43,480 --> 00:22:44,480
+Can you take this question there?
+
+473
+00:22:44,480 --> 00:22:46,480
+Oh, cool
+
+474
+00:22:47,480 --> 00:22:50,480
+But I want that, I don't want a free mouse pad, I want my mouse
+
+475
+00:22:50,480 --> 00:22:51,480
+By mouse and Matt
+
+476
+00:22:51,480 --> 00:22:56,480
+Okay, so I was so enthusiastic about that live mashup
+
+477
+00:22:56,480 --> 00:22:59,480
+That essentially in my entire cup of tea
+
+478
+00:22:59,480 --> 00:23:02,480
+Spilled all over the desk, all over the Louis 14
+
+479
+00:23:02,480 --> 00:23:04,480
+The Louis Qatar's
+
+480
+00:23:04,480 --> 00:23:05,480
+Shit
+
+481
+00:23:07,480 --> 00:23:11,480
+And Christina was nice enough to get me a big roll of paper towel
+
+482
+00:23:11,480 --> 00:23:14,480
+It didn't spill on the keyboard
+
+483
+00:23:14,480 --> 00:23:19,480
+Fuck, all over the desk, all over the breakout box
+
+484
+00:23:19,480 --> 00:23:23,480
+Over the mouse pad
+
+485
+00:23:23,480 --> 00:23:24,480
+Christina
+
+486
+00:23:24,480 --> 00:23:27,480
+Okay
+
+487
+00:23:27,480 --> 00:23:29,480
+All right
+
+488
+00:23:31,480 --> 00:23:34,480
+Okay, so sometimes shit just sucks
+
+489
+00:23:34,480 --> 00:23:37,480
+Let me see what can I do with like continue to clean up here
+
+490
+00:23:37,480 --> 00:23:39,480
+Listen to the sports pod, okay?
+
+491
+00:23:39,480 --> 00:23:41,480
+Yeah, you'll enjoy that
+
+492
+00:23:44,480 --> 00:23:46,480
+Oh, it's fun, who goes crazy
+
+493
+00:23:46,480 --> 00:23:48,480
+Down goes crazy
+
+494
+00:23:48,480 --> 00:23:49,480
+Oh, it's fun
+
+495
+00:23:49,480 --> 00:23:52,480
+I don't believe what I just thought
+
+496
+00:23:52,480 --> 00:23:53,480
+Oh, it's fun
+
+497
+00:23:53,480 --> 00:23:55,480
+And check the ball
+
+498
+00:23:55,480 --> 00:23:57,480
+And check the ball
+
+499
+00:23:57,480 --> 00:23:58,480
+Oh, it's fun
+
+500
+00:23:58,480 --> 00:24:00,480
+You believe in miracles
+
+501
+00:24:00,480 --> 00:24:02,480
+Yeah
+
+502
+00:24:02,480 --> 00:24:04,480
+Okay, we're going to the sports pod for Friday
+
+503
+00:24:04,480 --> 00:24:07,480
+December 2,000 and four
+
+504
+00:24:07,480 --> 00:24:11,480
+Sports pod on demand through pod task technology
+
+505
+00:24:12,480 --> 00:24:14,480
+I'm good, it's talking to you at 9
+
+506
+00:24:14,480 --> 00:24:15,480
+15
+
+507
+00:24:15,480 --> 00:24:16,480
+10
+
+508
+00:24:16,480 --> 00:24:18,480
+Yeah, yeah, it's just a good time
+
+509
+00:24:18,480 --> 00:24:20,480
+And I want to hear from you
+
+510
+00:24:20,480 --> 00:24:21,480
+Tech that voice emails
+
+511
+00:24:21,480 --> 00:24:22,480
+Go to
+
+512
+00:24:22,480 --> 00:24:23,480
+Curtis
+
+513
+00:24:23,480 --> 00:24:24,480
+At these sports pod
+
+514
+00:24:24,480 --> 00:24:27,480
+Okay, so basically I just wanted to give you a little
+
+515
+00:24:27,480 --> 00:24:30,480
+Just a little bit of promo there about the sports pod
+
+516
+00:24:30,480 --> 00:24:32,480
+I didn't want to play the whole thing for you. Okay
+
+517
+00:24:32,480 --> 00:24:34,480
+Hold on, let me just reset the microphone
+
+518
+00:24:34,480 --> 00:24:35,480
+Okay, that's better
+
+519
+00:24:35,480 --> 00:24:36,480
+There we go
+
+520
+00:24:37,480 --> 00:24:38,480
+Shoot
+
+521
+00:24:38,480 --> 00:24:39,480
+I hate that
+
+522
+00:24:39,480 --> 00:24:40,480
+So rocking, man
+
+523
+00:24:40,480 --> 00:24:43,480
+I was like totally jamming out to that mashup
+
+524
+00:24:43,480 --> 00:24:45,480
+And then it's like this huge cup
+
+525
+00:24:45,480 --> 00:24:47,480
+It's not like a little teensy weeny
+
+526
+00:24:47,480 --> 00:24:50,480
+You know, a little wanky tea cup
+
+527
+00:24:50,480 --> 00:24:52,480
+It's a big, I love my pony coffee cup
+
+528
+00:24:52,480 --> 00:24:54,480
+You know, and the whole thing
+
+529
+00:24:54,480 --> 00:24:56,480
+I just like, I think my headphone
+
+530
+00:24:56,480 --> 00:24:58,480
+Wire caught on it or something
+
+531
+00:24:58,480 --> 00:25:00,480
+Oh, man, totally sucked
+
+532
+00:25:00,480 --> 00:25:03,480
+Okay, you're still tuned into the daily source code
+
+533
+00:25:03,480 --> 00:25:05,480
+Madam Curry coming to you from the United Kingdom
+
+534
+00:25:05,480 --> 00:25:07,480
+We're in Guildford
+
+535
+00:25:07,480 --> 00:25:10,480
+And it disclosed cottage location
+
+536
+00:25:10,480 --> 00:25:12,480
+And
+
+537
+00:25:12,480 --> 00:25:15,480
+I'm still getting lots of email about
+
+538
+00:25:15,480 --> 00:25:19,480
+You know, UK culture and who invented what?
+
+539
+00:25:19,480 --> 00:25:21,480
+Another email here from
+
+540
+00:25:21,480 --> 00:25:23,480
+Let's see
+
+541
+00:25:23,480 --> 00:25:25,480
+I would this email come from
+
+542
+00:25:25,480 --> 00:25:28,480
+Oh man, it's a long email
+
+543
+00:25:28,480 --> 00:25:30,480
+That's for sure
+
+544
+00:25:30,480 --> 00:25:34,480
+Okay, well, can I even tell who the email is from
+
+545
+00:25:34,480 --> 00:25:37,480
+But the gist of the email is
+
+546
+00:25:37,480 --> 00:25:39,480
+Inventors of the TV
+
+547
+00:25:39,480 --> 00:25:42,480
+Remember we were talking about this on a previous source code
+
+548
+00:25:42,480 --> 00:25:44,480
+Well, it's a tie
+
+549
+00:25:44,480 --> 00:25:46,480
+Okay, Adam, you won't remember me
+
+550
+00:25:46,480 --> 00:25:50,480
+But I love when people start off the emails to me like that
+
+551
+00:25:50,480 --> 00:25:52,480
+Adam, you won't remember me
+
+552
+00:25:52,480 --> 00:25:54,480
+However
+
+553
+00:25:54,480 --> 00:25:55,480
+Oh, a number of years ago
+
+554
+00:25:55,480 --> 00:25:57,480
+When you needed assistance with your power book
+
+555
+00:25:57,480 --> 00:25:58,480
+At Media Plaza
+
+556
+00:25:58,480 --> 00:26:01,480
+I was the new Mac headed American webmaster there
+
+557
+00:26:01,480 --> 00:26:02,480
+Of course I remember
+
+558
+00:26:03,480 --> 00:26:07,480
+So whoever said that low-key barred was the inventor of the television
+
+559
+00:26:07,480 --> 00:26:10,480
+Only told you part of the truth apparently
+
+560
+00:26:10,480 --> 00:26:12,480
+You see it's a little more complicated than that
+
+561
+00:26:12,480 --> 00:26:14,480
+Barred invented a technique for television
+
+562
+00:26:14,480 --> 00:26:16,480
+Referred to his mechanical television
+
+563
+00:26:16,480 --> 00:26:19,480
+And publicly display that in 1924
+
+564
+00:26:19,480 --> 00:26:21,480
+Now what it is, it used huge hungs of wood
+
+565
+00:26:21,480 --> 00:26:24,480
+And a spinning disk kind of like a flat
+
+566
+00:26:24,480 --> 00:26:27,480
+Zoatrop to collect the image
+
+567
+00:26:27,480 --> 00:26:29,480
+Oh, there's all kinds of links to this shit
+
+568
+00:26:29,480 --> 00:26:31,480
+So at the same time in 1923
+
+569
+00:26:31,480 --> 00:26:32,480
+In 1923
+
+570
+00:26:32,480 --> 00:26:34,480
+A first up towards electronic television
+
+571
+00:26:34,480 --> 00:26:37,480
+Developed into today's cathode rate
+
+572
+00:26:37,480 --> 00:26:39,480
+Toot patented in 1924
+
+573
+00:26:39,480 --> 00:26:41,480
+And he called it at the time
+
+574
+00:26:41,480 --> 00:26:42,480
+The kinoscope
+
+575
+00:26:42,480 --> 00:26:45,480
+Meanwhile in 22 in the town of Rigby, Idaho
+
+576
+00:26:45,480 --> 00:26:48,480
+Philo T. Farnsworth, the high school science teacher
+
+577
+00:26:48,480 --> 00:26:50,480
+With no history of electronics
+
+578
+00:26:50,480 --> 00:26:51,480
+Engineering sketched his design
+
+579
+00:26:51,480 --> 00:26:52,480
+For electrical engineering
+
+580
+00:26:52,480 --> 00:26:55,480
+Toot and the high school science teacher
+
+581
+00:26:55,480 --> 00:26:56,480
+With no history of electronics
+
+582
+00:26:56,480 --> 00:26:57,480
+Engineering sketched his design
+
+583
+00:26:57,480 --> 00:27:00,480
+For electrical engineering
+
+584
+00:27:00,480 --> 00:27:02,480
+Design for electronic television
+
+585
+00:27:02,480 --> 00:27:04,480
+The model we used today
+
+586
+00:27:04,480 --> 00:27:06,480
+So you've got to go through this email
+
+587
+00:27:06,480 --> 00:27:08,480
+It's in the podcast show notes
+
+588
+00:27:08,480 --> 00:27:11,480
+It's just it continues to bugle my mind
+
+589
+00:27:11,480 --> 00:27:13,480
+How you grow up
+
+590
+00:27:13,480 --> 00:27:15,480
+Depending on where you grow up
+
+591
+00:27:15,480 --> 00:27:17,480
+Thinking that certain people
+
+592
+00:27:17,480 --> 00:27:20,480
+Usually of your own country, origin and culture
+
+593
+00:27:20,480 --> 00:27:22,480
+Discovered certain things
+
+594
+00:27:22,480 --> 00:27:24,480
+And when you really get down to it
+
+595
+00:27:24,480 --> 00:27:26,480
+There seems to be some dispute about stuff
+
+596
+00:27:26,480 --> 00:27:27,480
+Some people say, well
+
+597
+00:27:27,480 --> 00:27:29,480
+Yeah, it depends on how you look at it
+
+598
+00:27:30,480 --> 00:27:33,480
+So check that out in the podcast show notes for today's
+
+599
+00:27:33,480 --> 00:27:34,480
+DailySource Code
+
+600
+00:27:34,480 --> 00:27:37,480
+Which can find on dailySourcecode.com
+
+601
+00:27:37,480 --> 00:27:40,480
+Hey Adam, hope you're settled in at the Prairie Cottage
+
+602
+00:27:40,480 --> 00:27:43,480
+Well, yeah kind of
+
+603
+00:27:43,480 --> 00:27:45,480
+Patricia said yesterday
+
+604
+00:27:45,480 --> 00:27:48,480
+She said, we finally unpacked
+
+605
+00:27:48,480 --> 00:27:50,480
+It doesn't mean we're completely settled
+
+606
+00:27:50,480 --> 00:27:51,480
+But we're unpacked
+
+607
+00:27:51,480 --> 00:27:54,480
+I just wanted to go and tell you a few things
+
+608
+00:27:54,480 --> 00:27:56,480
+One struggle comments
+
+609
+00:27:56,480 --> 00:27:58,480
+Love in your show
+
+610
+00:27:58,480 --> 00:27:59,480
+You can work ass
+
+611
+00:27:59,480 --> 00:28:01,480
+Maybe back in MTV
+
+612
+00:28:01,480 --> 00:28:03,480
+Didn't see her for a while
+
+613
+00:28:03,480 --> 00:28:05,480
+And I'll get them not seen you now
+
+614
+00:28:05,480 --> 00:28:07,480
+But definitely hearing a loud and clear
+
+615
+00:28:07,480 --> 00:28:08,480
+Thanks
+
+616
+00:28:08,480 --> 00:28:10,480
+Number two
+
+617
+00:28:10,480 --> 00:28:12,480
+I got a little behind on my podcasts
+
+618
+00:28:12,480 --> 00:28:14,480
+And so I thought I'd just listen to them
+
+619
+00:28:14,480 --> 00:28:16,480
+Oh man, this sounds kind of crappy
+
+620
+00:28:16,480 --> 00:28:17,480
+What are you using?
+
+621
+00:28:17,480 --> 00:28:18,480
+On the plane ride
+
+622
+00:28:18,480 --> 00:28:22,480
+Well, I was listening to one of your podcast
+
+623
+00:28:22,480 --> 00:28:24,480
+And it was you on a plane
+
+624
+00:28:24,480 --> 00:28:26,480
+On your way to Amsterdam
+
+625
+00:28:26,480 --> 00:28:28,480
+And that's where I was headed to
+
+626
+00:28:28,480 --> 00:28:30,480
+Just a little funny deja vu
+
+627
+00:28:30,480 --> 00:28:32,480
+I guess that's the word for it
+
+628
+00:28:32,480 --> 00:28:34,480
+And number three
+
+629
+00:28:34,480 --> 00:28:36,480
+I've seen one of you talking about
+
+630
+00:28:36,480 --> 00:28:39,480
+The idea of being able to do podcasts
+
+631
+00:28:39,480 --> 00:28:41,480
+From like your iPod
+
+632
+00:28:41,480 --> 00:28:42,480
+Thought I'd let you know
+
+633
+00:28:42,480 --> 00:28:45,480
+That there is a non iPod alternative
+
+634
+00:28:45,480 --> 00:28:46,480
+Okay
+
+635
+00:28:46,480 --> 00:28:47,480
+Hard to I've played
+
+636
+00:28:47,480 --> 00:28:48,480
+Not like the little yups
+
+637
+00:28:48,480 --> 00:28:50,480
+It's the I River
+
+638
+00:28:50,480 --> 00:28:51,480
+I HP
+
+639
+00:28:51,480 --> 00:28:52,480
+So
+
+640
+00:28:52,480 --> 00:28:54,480
+And I'm doing it from that
+
+641
+00:28:54,480 --> 00:28:56,480
+Actually, I think I ordered one of those
+
+642
+00:28:56,480 --> 00:28:58,480
+And are you recording it on the on the I River?
+
+643
+00:28:58,480 --> 00:28:59,480
+Damn
+
+644
+00:28:59,480 --> 00:29:00,480
+I hope it's
+
+645
+00:29:00,480 --> 00:29:02,480
+I wonder what the is it like
+
+646
+00:29:02,480 --> 00:29:05,480
+32k or is it 64k?
+
+647
+00:29:05,480 --> 00:29:06,480
+You need to
+
+648
+00:29:06,480 --> 00:29:08,480
+Wait, that maybe I can see that
+
+649
+00:29:08,480 --> 00:29:10,480
+From the info on the file
+
+650
+00:29:10,480 --> 00:29:11,480
+Let's see
+
+651
+00:29:11,480 --> 00:29:12,480
+Oh
+
+652
+00:29:12,480 --> 00:29:13,480
+Data rate
+
+653
+00:29:13,480 --> 00:29:14,480
+4.8k
+
+654
+00:29:14,480 --> 00:29:15,480
+Bites per second
+
+655
+00:29:15,480 --> 00:29:16,480
+Ah
+
+656
+00:29:16,480 --> 00:29:17,480
+Okay
+
+657
+00:29:17,480 --> 00:29:19,480
+That explains the quality
+
+658
+00:29:19,480 --> 00:29:20,480
+So
+
+659
+00:29:20,480 --> 00:29:22,480
+If you think it sounds like crap
+
+660
+00:29:22,480 --> 00:29:24,480
+Maybe it's not good for you to use
+
+661
+00:29:24,480 --> 00:29:26,480
+But does have a digital
+
+662
+00:29:26,480 --> 00:29:28,480
+And a analog
+
+663
+00:29:28,480 --> 00:29:30,480
+Lines and line out
+
+664
+00:29:30,480 --> 00:29:32,480
+It's pretty nice tool
+
+665
+00:29:32,480 --> 00:29:34,480
+Okay, that's it
+
+666
+00:29:34,480 --> 00:29:35,480
+Just wanted to go
+
+667
+00:29:35,480 --> 00:29:36,480
+And main point was
+
+668
+00:29:36,480 --> 00:29:38,480
+Thank you for the killer cast
+
+669
+00:29:38,480 --> 00:29:39,480
+Oh man
+
+670
+00:29:39,480 --> 00:29:40,480
+Degadise
+
+671
+00:29:40,480 --> 00:29:42,480
+No, you don't have to thank me
+
+672
+00:29:42,480 --> 00:29:43,480
+Thank you
+
+673
+00:29:43,480 --> 00:29:44,480
+Boy or only
+
+674
+00:29:44,480 --> 00:29:45,480
+Thank you all so very much
+
+675
+00:29:45,480 --> 00:29:48,480
+More on the source code now
+
+676
+00:29:48,480 --> 00:29:50,480
+Um
+
+677
+00:29:50,480 --> 00:29:52,480
+Let's listen to the latest Don and Drew
+
+678
+00:29:52,480 --> 00:29:54,480
+Uh show
+
+679
+00:29:54,480 --> 00:29:56,480
+And a couple things
+
+680
+00:29:56,480 --> 00:29:57,480
+First of all, it turns out
+
+681
+00:29:57,480 --> 00:29:59,480
+They're banned in Finland
+
+682
+00:29:59,480 --> 00:30:01,480
+Apparently
+
+683
+00:30:01,480 --> 00:30:03,480
+Uh one or multiple
+
+684
+00:30:03,480 --> 00:30:05,480
+Finish ISPs no longer
+
+685
+00:30:05,480 --> 00:30:09,480
+Allow access to the Donandrew.com
+
+686
+00:30:09,480 --> 00:30:11,480
+Man those fins, you know
+
+687
+00:30:11,480 --> 00:30:12,480
+There's there
+
+688
+00:30:12,480 --> 00:30:14,480
+They're so politically correct
+
+689
+00:30:14,480 --> 00:30:17,480
+Don't try and show a nipple in Finland
+
+690
+00:30:17,480 --> 00:30:19,480
+Either everybody
+
+691
+00:30:20,480 --> 00:30:22,480
+But Dons get really pissed about all this press
+
+692
+00:30:22,480 --> 00:30:23,480
+That they're getting
+
+693
+00:30:23,480 --> 00:30:26,480
+And basically, and this happens all the time
+
+694
+00:30:26,480 --> 00:30:28,480
+With people who are married
+
+695
+00:30:28,480 --> 00:30:30,480
+You know, they'll kind of
+
+696
+00:30:30,480 --> 00:30:32,480
+Assume or presume
+
+697
+00:30:32,480 --> 00:30:34,480
+Certainly the press will assume that you have
+
+698
+00:30:34,480 --> 00:30:35,480
+Your husband's last name
+
+699
+00:30:35,480 --> 00:30:36,480
+So
+
+700
+00:30:36,480 --> 00:30:38,480
+So she's being quoted as
+
+701
+00:30:38,480 --> 00:30:40,480
+Don Dunkus
+
+702
+00:30:40,480 --> 00:30:42,480
+So it's Drew
+
+703
+00:30:42,480 --> 00:30:43,480
+Dunkus
+
+704
+00:30:43,480 --> 00:30:45,480
+And Don Miss Sally
+
+705
+00:30:45,480 --> 00:30:46,480
+And she's getting pissed
+
+706
+00:30:46,480 --> 00:30:48,480
+And we got to watch out, you know
+
+707
+00:30:48,480 --> 00:30:49,480
+Journalists out there
+
+708
+00:30:49,480 --> 00:30:50,480
+Because you know she's going to stop
+
+709
+00:30:50,480 --> 00:30:51,480
+She's getting into a half
+
+710
+00:30:51,480 --> 00:30:52,480
+And then you show a puff off
+
+711
+00:30:52,480 --> 00:30:53,480
+And she
+
+712
+00:30:53,480 --> 00:30:55,480
+And she won't want to do any more podcast
+
+713
+00:30:55,480 --> 00:30:57,480
+So we got to be careful
+
+714
+00:30:57,480 --> 00:30:58,480
+Don Miss Sally
+
+715
+00:30:58,480 --> 00:30:59,480
+It's Don Miss Sally
+
+716
+00:30:59,480 --> 00:31:00,480
+Everybody
+
+717
+00:31:00,480 --> 00:31:02,480
+And
+
+718
+00:31:02,480 --> 00:31:04,480
+There's something else that I don't
+
+719
+00:31:04,480 --> 00:31:05,480
+Don't have a queue up for you
+
+720
+00:31:05,480 --> 00:31:07,480
+But there's something that Don says
+
+721
+00:31:07,480 --> 00:31:09,480
+In, uh, let's see
+
+722
+00:31:09,480 --> 00:31:11,480
+That is the December second podcast
+
+723
+00:31:11,480 --> 00:31:12,480
+So the Don and Drew show
+
+724
+00:31:12,480 --> 00:31:14,480
+Where she says something
+
+725
+00:31:14,480 --> 00:31:15,480
+There's been haunting my mind
+
+726
+00:31:15,480 --> 00:31:17,480
+For the longest time
+
+727
+00:31:17,480 --> 00:31:19,480
+Because it works
+
+728
+00:31:19,480 --> 00:31:21,480
+You know in order to stop smoking
+
+729
+00:31:21,480 --> 00:31:23,480
+And I'm talking about evil smoke
+
+730
+00:31:23,480 --> 00:31:25,480
+Right cigarette smoke
+
+731
+00:31:25,480 --> 00:31:26,480
+Let's just forget all other types of smoke
+
+732
+00:31:26,480 --> 00:31:28,480
+For the time being
+
+733
+00:31:28,480 --> 00:31:31,480
+You have to have some kind of incentive
+
+734
+00:31:31,480 --> 00:31:32,480
+Death is a good one
+
+735
+00:31:32,480 --> 00:31:34,480
+That works for a lot of people
+
+736
+00:31:34,480 --> 00:31:36,480
+It's really hard to stay off smoking
+
+737
+00:31:36,480 --> 00:31:39,480
+And I guess for me
+
+738
+00:31:39,480 --> 00:31:41,480
+The worst part is
+
+739
+00:31:41,480 --> 00:31:43,480
+In the Netherlands
+
+740
+00:31:43,480 --> 00:31:45,480
+If you go by a
+
+741
+00:31:45,480 --> 00:31:47,480
+Prefabricated split
+
+742
+00:31:47,480 --> 00:31:49,480
+They basically mix the
+
+743
+00:31:49,480 --> 00:31:51,480
+Marijuana with tobacco
+
+744
+00:31:51,480 --> 00:31:53,480
+And that's not good
+
+745
+00:31:53,480 --> 00:31:55,480
+It tastes really good
+
+746
+00:31:55,480 --> 00:31:56,480
+I got to tell you that
+
+747
+00:31:56,480 --> 00:31:57,480
+It tastes wonderful
+
+748
+00:31:57,480 --> 00:31:59,480
+And I can dream about that
+
+749
+00:31:59,480 --> 00:32:00,480
+But I can't have it
+
+750
+00:32:00,480 --> 00:32:01,480
+I can't have it
+
+751
+00:32:01,480 --> 00:32:03,480
+Because I'm an addict
+
+752
+00:32:03,480 --> 00:32:04,480
+I am a
+
+753
+00:32:04,480 --> 00:32:05,480
+Nicotine addict
+
+754
+00:32:05,480 --> 00:32:06,480
+And if I have one of those
+
+755
+00:32:06,480 --> 00:32:07,480
+Then I basically fall off the wagon
+
+756
+00:32:07,480 --> 00:32:09,480
+And then I want to smoke again
+
+757
+00:32:09,480 --> 00:32:10,480
+And Don said something to me
+
+758
+00:32:10,480 --> 00:32:11,480
+At a blogger con
+
+759
+00:32:11,480 --> 00:32:12,480
+Hey, hon
+
+760
+00:32:12,480 --> 00:32:13,480
+Hello
+
+761
+00:32:13,480 --> 00:32:14,480
+Can I help you?
+
+762
+00:32:14,480 --> 00:32:17,480
+No, no, no
+
+763
+00:32:17,480 --> 00:32:19,480
+It only spilled on the Louis Cetsware desk
+
+764
+00:32:19,480 --> 00:32:20,480
+Oh, shit
+
+765
+00:32:20,480 --> 00:32:22,480
+It did spill on the carpet
+
+766
+00:32:22,480 --> 00:32:23,480
+Yes
+
+767
+00:32:23,480 --> 00:32:24,480
+Fuck
+
+768
+00:32:24,480 --> 00:32:27,480
+It was this whole thing spilled
+
+769
+00:32:27,480 --> 00:32:29,480
+I'm sorry
+
+770
+00:32:29,480 --> 00:32:30,480
+I didn't even see it on that
+
+771
+00:32:30,480 --> 00:32:32,480
+Yeah, that was a bonfire
+
+772
+00:32:32,480 --> 00:32:34,480
+It's just a little bit
+
+773
+00:32:34,480 --> 00:32:36,480
+Will that come out?
+
+774
+00:32:36,480 --> 00:32:38,480
+A T
+
+775
+00:32:38,480 --> 00:32:39,480
+No, a T won't come
+
+776
+00:32:39,480 --> 00:32:40,480
+It's like pain
+
+777
+00:32:40,480 --> 00:32:41,480
+It's like pain
+
+778
+00:32:42,480 --> 00:32:44,480
+Hold on
+
+779
+00:32:44,480 --> 00:32:45,480
+We can't hear you
+
+780
+00:32:45,480 --> 00:32:46,480
+We used to die
+
+781
+00:32:46,480 --> 00:32:47,480
+Are underwear in there
+
+782
+00:32:47,480 --> 00:32:48,480
+In T
+
+783
+00:32:48,480 --> 00:32:49,480
+You're underwear?
+
+784
+00:32:49,480 --> 00:32:51,480
+Yeah, if you want to have sort of
+
+785
+00:32:51,480 --> 00:32:53,480
+Well, who's going to see underwear?
+
+786
+00:32:53,480 --> 00:32:55,480
+Skin collar underwear
+
+787
+00:32:55,480 --> 00:32:57,480
+Well, sometimes you need it under
+
+788
+00:32:57,480 --> 00:32:59,480
+Under something that's a little bit
+
+789
+00:32:59,480 --> 00:33:00,480
+Yeah, see you
+
+790
+00:33:00,480 --> 00:33:01,480
+See you through
+
+791
+00:33:01,480 --> 00:33:03,480
+So you wear something
+
+792
+00:33:03,480 --> 00:33:04,480
+Wait everybody
+
+793
+00:33:04,480 --> 00:33:06,480
+Here's clothing tips from Patricia
+
+794
+00:33:06,480 --> 00:33:08,480
+You put it in the T
+
+795
+00:33:08,480 --> 00:33:09,480
+Well
+
+796
+00:33:09,480 --> 00:33:10,480
+You can now wear my carpet
+
+797
+00:33:11,480 --> 00:33:13,480
+You can steep it a little bit
+
+798
+00:33:13,480 --> 00:33:15,480
+And then after we're afterwards
+
+799
+00:33:15,480 --> 00:33:17,480
+You got beautiful skin color
+
+800
+00:33:17,480 --> 00:33:18,480
+Underwear
+
+801
+00:33:18,480 --> 00:33:20,480
+But it's not good on the carpet
+
+802
+00:33:20,480 --> 00:33:21,480
+No
+
+803
+00:33:21,480 --> 00:33:22,480
+No
+
+804
+00:33:22,480 --> 00:33:23,480
+That's not good
+
+805
+00:33:23,480 --> 00:33:24,480
+That's not going to come out
+
+806
+00:33:24,480 --> 00:33:25,480
+Is it?
+
+807
+00:33:25,480 --> 00:33:26,480
+That's going to suck
+
+808
+00:33:26,480 --> 00:33:27,480
+Ah
+
+809
+00:33:27,480 --> 00:33:30,480
+It's probably already in there
+
+810
+00:33:30,480 --> 00:33:32,480
+Oh yeah, it's already leaking
+
+811
+00:33:32,480 --> 00:33:33,480
+Down towards the very good
+
+812
+00:33:33,480 --> 00:33:34,480
+I did a good job, huh?
+
+813
+00:33:34,480 --> 00:33:35,480
+Yeah
+
+814
+00:33:35,480 --> 00:33:36,480
+I did a good job
+
+815
+00:33:36,480 --> 00:33:37,480
+Stepping on it with my big boots
+
+816
+00:33:37,480 --> 00:33:38,480
+You know, and I was in the shower
+
+817
+00:33:38,480 --> 00:33:40,480
+I took a nice and relaxed shower
+
+818
+00:33:40,480 --> 00:33:41,480
+I didn't do anything
+
+819
+00:33:41,480 --> 00:33:42,480
+I didn't do anything
+
+820
+00:33:42,480 --> 00:33:43,480
+I didn't do anything
+
+821
+00:33:43,480 --> 00:33:44,480
+I didn't do anything
+
+822
+00:33:44,480 --> 00:33:45,480
+I didn't do anything
+
+823
+00:33:45,480 --> 00:33:46,480
+I didn't do anything
+
+824
+00:33:46,480 --> 00:33:47,480
+Nothing
+
+825
+00:33:47,480 --> 00:33:48,480
+Nothing, dear
+
+826
+00:33:48,480 --> 00:33:49,480
+Okay, thank you
+
+827
+00:33:49,480 --> 00:33:51,480
+I'll continue with my show now
+
+828
+00:33:51,480 --> 00:33:52,480
+Love you, mean it
+
+829
+00:33:52,480 --> 00:33:53,480
+Bye
+
+830
+00:33:53,480 --> 00:33:56,480
+So Dawn
+
+831
+00:33:56,480 --> 00:33:58,480
+Let's get back to Dawn for a second
+
+832
+00:33:58,480 --> 00:33:59,480
+My other wife
+
+833
+00:33:59,480 --> 00:34:01,480
+She
+
+834
+00:34:01,480 --> 00:34:03,480
+She said something that haunted me
+
+835
+00:34:03,480 --> 00:34:05,480
+And it just works so well as an incentive
+
+836
+00:34:05,480 --> 00:34:07,480
+And I've been to Amsterdam in the meantime
+
+837
+00:34:07,480 --> 00:34:09,480
+She said
+
+838
+00:34:09,480 --> 00:34:11,480
+Smoking cigarettes
+
+839
+00:34:11,480 --> 00:34:12,480
+Smoking tobacco
+
+840
+00:34:12,480 --> 00:34:14,480
+Is like sucking on
+
+841
+00:34:14,480 --> 00:34:16,480
+The man's dick
+
+842
+00:34:16,480 --> 00:34:18,480
+The man being the man
+
+843
+00:34:18,480 --> 00:34:20,480
+Not a man, but the man
+
+844
+00:34:20,480 --> 00:34:23,480
+And she says it again in that podcast
+
+845
+00:34:23,480 --> 00:34:25,480
+December 2nd podcast
+
+846
+00:34:25,480 --> 00:34:27,480
+I'm going to have to drag that up
+
+847
+00:34:27,480 --> 00:34:29,480
+Because it's going to work for other people
+
+848
+00:34:29,480 --> 00:34:30,480
+I really will
+
+849
+00:34:30,480 --> 00:34:31,480
+When you hear the way she says it, it's just like
+
+850
+00:34:31,480 --> 00:34:33,480
+Whoa, you know, and it makes so much sense
+
+851
+00:34:33,480 --> 00:34:35,480
+Because totally, you know, like you're being addicted
+
+852
+00:34:36,480 --> 00:34:38,480
+And it's, you know, and it's
+
+853
+00:34:38,480 --> 00:34:41,480
+They're putting shit in there to keep you addicted
+
+854
+00:34:41,480 --> 00:34:45,480
+Okay, so anyway, just want to
+
+855
+00:34:45,480 --> 00:34:48,480
+Just want to say hi to my other wife Dawn
+
+856
+00:34:48,480 --> 00:34:52,480
+And more helpful hints from around town
+
+857
+00:34:52,480 --> 00:34:54,480
+People trying to help me out
+
+858
+00:34:54,480 --> 00:34:56,480
+With my ADSL problems
+
+859
+00:34:56,480 --> 00:34:59,480
+I actually posted it pretty long
+
+860
+00:34:59,480 --> 00:35:01,480
+Outline of
+
+861
+00:35:01,480 --> 00:35:04,480
+What's gone wrong and what my options are
+
+862
+00:35:04,480 --> 00:35:07,480
+And it will get fixed obviously, but it's just
+
+863
+00:35:07,480 --> 00:35:09,480
+It's a pain, you know, two weeks without
+
+864
+00:35:09,480 --> 00:35:12,480
+Any type of real connectivity sucks
+
+865
+00:35:12,480 --> 00:35:14,480
+People who have been there can feel my pain
+
+866
+00:35:14,480 --> 00:35:16,480
+But I got a great comment
+
+867
+00:35:16,480 --> 00:35:19,480
+Again on the podcast show notes
+
+868
+00:35:19,480 --> 00:35:20,480
+Here's all you have to do
+
+869
+00:35:20,480 --> 00:35:22,480
+Step one, get a shovel
+
+870
+00:35:22,480 --> 00:35:25,480
+Step two, dig around until you find a trunk line
+
+871
+00:35:25,480 --> 00:35:27,480
+Step three, tap into the green blue yellow
+
+872
+00:35:27,480 --> 00:35:29,480
+And move white stripe wires
+
+873
+00:35:29,480 --> 00:35:33,480
+Number four, run those to an RJ 45
+
+874
+00:35:33,480 --> 00:35:36,480
+On pins 1, 2, 3, 6
+
+875
+00:35:36,480 --> 00:35:39,480
+And then plug into your switch
+
+876
+00:35:39,480 --> 00:35:41,480
+Plug into your switch in the house
+
+877
+00:35:41,480 --> 00:35:44,480
+And then cover everything with dirt
+
+878
+00:35:44,480 --> 00:35:46,480
+Maybe a couple of ferns
+
+879
+00:35:46,480 --> 00:35:48,480
+And you're good to go
+
+880
+00:35:48,480 --> 00:35:49,480
+I'm like, uh-huh
+
+881
+00:35:49,480 --> 00:35:51,480
+Yeah, I want to dry that
+
+882
+00:35:51,480 --> 00:35:53,480
+Seriously, there are some of those options
+
+883
+00:35:53,480 --> 00:35:55,480
+That are pretty similar, there's the SDSL
+
+884
+00:35:55,480 --> 00:35:57,480
+I mean, I'm getting a real education
+
+885
+00:35:57,480 --> 00:36:00,480
+Different ways you can get connected to the internet
+
+886
+00:36:01,480 --> 00:36:04,480
+When I'm hoping most will happen
+
+887
+00:36:04,480 --> 00:36:07,480
+Just for a short interim is this WDSL
+
+888
+00:36:07,480 --> 00:36:09,480
+Which is wireless DSL
+
+889
+00:36:09,480 --> 00:36:11,480
+Which is should be hearing about today
+
+890
+00:36:11,480 --> 00:36:14,480
+So perhaps more on the podcast tomorrow
+
+891
+00:36:14,480 --> 00:36:16,480
+And see a gaff
+
+892
+00:36:16,480 --> 00:36:19,480
+Which means a fuck up on my part high Adam
+
+893
+00:36:19,480 --> 00:36:21,480
+Says Tim Biedle
+
+894
+00:36:21,480 --> 00:36:22,480
+Really enjoying your show
+
+895
+00:36:22,480 --> 00:36:24,480
+Especially your experiences adjusting to UK life
+
+896
+00:36:24,480 --> 00:36:26,480
+So many things we take for granted
+
+897
+00:36:27,480 --> 00:36:30,480
+And also I'm sorry I do that again
+
+898
+00:36:30,480 --> 00:36:32,480
+So many things we take for granted
+
+899
+00:36:32,480 --> 00:36:34,480
+Take on new meaning when we see it through the eyes of a stranger
+
+900
+00:36:34,480 --> 00:36:35,480
+There you go
+
+901
+00:36:35,480 --> 00:36:36,480
+Just one thing though
+
+902
+00:36:36,480 --> 00:36:40,480
+BBC SCR does not stand for South Coast radio
+
+903
+00:36:40,480 --> 00:36:43,480
+As I said, I was really in my American mode
+
+904
+00:36:43,480 --> 00:36:46,480
+I guess it stands for Southern Counties radio
+
+905
+00:36:46,480 --> 00:36:48,480
+Love your cockney accent
+
+906
+00:36:48,480 --> 00:36:50,480
+Better than Dick Van Dykes
+
+907
+00:36:50,480 --> 00:36:53,480
+I feel so incredibly special
+
+908
+00:36:53,480 --> 00:36:55,480
+Time for another promo
+
+909
+00:36:55,480 --> 00:36:58,480
+If you have any promos that you want to air it on a daily source code
+
+910
+00:36:58,480 --> 00:37:01,480
+Which basically just kind of promotes your podcast
+
+911
+00:37:01,480 --> 00:37:02,480
+Happy to play them
+
+912
+00:37:02,480 --> 00:37:04,480
+The more creative, the better obviously
+
+913
+00:37:04,480 --> 00:37:06,480
+Just email them to atamercurry.com
+
+914
+00:37:11,480 --> 00:37:12,480
+Hey podcast world, this is Greg
+
+915
+00:37:12,480 --> 00:37:13,480
+And Lisa
+
+916
+00:37:13,480 --> 00:37:15,480
+And we want to tell you about a great new podcast
+
+917
+00:37:15,480 --> 00:37:18,480
+Coming to you from the Deserts of New Mexico
+
+918
+00:37:18,480 --> 00:37:21,480
+It's called Viva podcast
+
+919
+00:37:21,480 --> 00:37:23,480
+So for more information visit us
+
+920
+00:37:23,480 --> 00:37:26,480
+at vivapodcast.com
+
+921
+00:37:26,480 --> 00:37:29,480
+That's vivapodcast.com
+
+922
+00:37:29,480 --> 00:37:30,480
+Adios
+
+923
+00:37:30,480 --> 00:37:33,480
+Right on
+
+924
+00:37:33,480 --> 00:37:36,480
+The vivapodcast vivapodcast.com
+
+925
+00:37:36,480 --> 00:37:39,480
+I don't know if you know who a peeper del is
+
+926
+00:37:39,480 --> 00:37:42,480
+Pete is actually the guy who I think I don't
+
+927
+00:37:42,480 --> 00:37:43,480
+And Drew started on podcasting
+
+928
+00:37:43,480 --> 00:37:44,480
+It's all his fault
+
+929
+00:37:44,480 --> 00:37:48,480
+He responded to the guardian article
+
+930
+00:37:48,480 --> 00:37:51,480
+Actually he talked about a lot about
+
+931
+00:37:51,480 --> 00:37:53,480
+I call him produce Pete now
+
+932
+00:37:53,480 --> 00:37:55,480
+About how he cooks
+
+933
+00:37:55,480 --> 00:37:57,480
+A lot of people took this article to heart
+
+934
+00:37:57,480 --> 00:37:59,480
+They were really thinking about
+
+935
+00:37:59,480 --> 00:38:01,480
+What are we stuffing into our face these days
+
+936
+00:38:01,480 --> 00:38:03,480
+And what are we eating and where is it coming from
+
+937
+00:38:03,480 --> 00:38:06,480
+And how is it being produced and how is it being processed
+
+938
+00:38:06,480 --> 00:38:09,480
+And shoot, it's kind of scary
+
+939
+00:38:09,480 --> 00:38:12,480
+Just food is basic
+
+940
+00:38:12,480 --> 00:38:15,480
+If we can get past this idea of putting
+
+941
+00:38:15,480 --> 00:38:17,480
+Burning tobacco in our face
+
+942
+00:38:17,480 --> 00:38:19,480
+We should certainly look at
+
+943
+00:38:19,480 --> 00:38:21,480
+At all the other things we stuff in there
+
+944
+00:38:21,480 --> 00:38:23,480
+Dawn
+
+945
+00:38:23,480 --> 00:38:25,480
+No, what I mean girl
+
+946
+00:38:25,480 --> 00:38:28,480
+Here's Pete with the rastery body
+
+947
+00:38:32,480 --> 00:38:35,480
+This is rastery body of four
+
+948
+00:38:35,480 --> 00:38:36,480
+2004
+
+949
+00:38:36,480 --> 00:38:38,480
+Well, oh two
+
+950
+00:38:38,480 --> 00:38:41,480
+So why did the British guy
+
+951
+00:38:41,480 --> 00:38:43,480
+Bring two of hookers into his robot
+
+952
+00:38:43,480 --> 00:38:47,480
+Someone told him he needed a pair of arms
+
+953
+00:38:47,480 --> 00:38:49,480
+He said
+
+954
+00:38:49,480 --> 00:38:51,480
+Thank you
+
+955
+00:38:51,480 --> 00:38:53,480
+And good night
+
+956
+00:38:53,480 --> 00:38:55,480
+People are living
+
+957
+00:38:55,480 --> 00:38:57,480
+Rastery body
+
+958
+00:38:57,480 --> 00:38:59,480
+That is the show for December 2nd 2004
+
+959
+00:38:59,480 --> 00:39:01,480
+This is the daily source code
+
+960
+00:39:01,480 --> 00:39:05,480
+I'm out of curry coming to you from the curry cottage in the UK and lovely
+
+961
+00:39:05,480 --> 00:39:07,480
+Guildford and sorry
+
+962
+00:39:07,480 --> 00:39:09,480
+And not far from here
+
+963
+00:39:09,480 --> 00:39:11,480
+Todd Maffin was in Berlin
+
+964
+00:39:11,480 --> 00:39:13,480
+Looking for the Berlin Wall
+
+965
+00:39:13,480 --> 00:39:15,480
+I've got to play a bit of this because this is like the tower of
+
+966
+00:39:15,480 --> 00:39:16,480
+Where
+
+967
+00:39:16,480 --> 00:39:18,480
+And you have to listen to this whole thing
+
+968
+00:39:18,480 --> 00:39:19,480
+I've put a link to the show
+
+969
+00:39:19,480 --> 00:39:20,480
+Well, just listen to a bit of it
+
+970
+00:39:20,480 --> 00:39:22,480
+And then we'll explain what happens
+
+971
+00:39:27,480 --> 00:39:28,480
+Hi, I'm Todd Maffin
+
+972
+00:39:28,480 --> 00:39:31,480
+Thanks for tuning into the iLoveReadyow.org podcast
+
+973
+00:39:31,480 --> 00:39:34,480
+Today we are coming to you from Berlin Germany
+
+974
+00:39:34,480 --> 00:39:36,480
+And my goal today is to find
+
+975
+00:39:36,480 --> 00:39:37,480
+The Wall
+
+976
+00:39:37,480 --> 00:39:39,480
+Or what's left of the Berlin Wall anyway
+
+977
+00:39:39,480 --> 00:39:41,480
+Which I understand is not very much
+
+978
+00:39:41,480 --> 00:39:43,480
+But I'm
+
+979
+00:39:43,480 --> 00:39:45,480
+Basically in the wander around the streets
+
+980
+00:39:45,480 --> 00:39:47,480
+The Concierge is pointed me toward the right
+
+981
+00:39:47,480 --> 00:39:49,480
+Which
+
+982
+00:39:49,480 --> 00:39:51,480
+Good as the instructions as he was able to give me
+
+983
+00:39:51,480 --> 00:39:54,480
+So I'm going to walk along here and
+
+984
+00:39:54,480 --> 00:39:56,480
+Follow along as we try and find the wall
+
+985
+00:40:01,480 --> 00:40:03,480
+So besides I'm the kick-in
+
+986
+00:40:03,480 --> 00:40:05,480
+John Lymus
+
+987
+00:40:05,480 --> 00:40:07,480
+He listened to the cab driver
+
+988
+00:40:07,480 --> 00:40:09,480
+I think this is it
+
+989
+00:40:10,480 --> 00:40:11,480
+Oh, who is this English?
+
+990
+00:40:13,480 --> 00:40:14,480
+We're going to terminate
+
+991
+00:40:14,480 --> 00:40:15,480
+Do you speak English?
+
+992
+00:40:22,480 --> 00:40:23,480
+Hello
+
+993
+00:40:23,480 --> 00:40:24,480
+Do you speak English?
+
+994
+00:40:24,480 --> 00:40:26,480
+No, but I'm going to kick your ass
+
+995
+00:40:26,480 --> 00:40:27,480
+You fucking American
+
+996
+00:40:28,480 --> 00:40:30,480
+Can you tell me how to find the wall?
+
+997
+00:40:33,480 --> 00:40:34,480
+I wonder if did the
+
+998
+00:40:34,480 --> 00:40:36,480
+Todd, you have to let us know
+
+999
+00:40:36,480 --> 00:40:38,480
+Did you have like a big fucking microphone while you're doing this?
+
+1000
+00:40:38,480 --> 00:40:40,480
+Hi, I'm a fucking American tourist
+
+1001
+00:40:40,480 --> 00:40:42,480
+Do you know where the fucking wall is?
+
+1002
+00:40:42,480 --> 00:40:44,480
+The wall, what's left of the wall?
+
+1003
+00:40:44,480 --> 00:40:46,480
+The wall? What's left of the wall?
+
+1004
+00:40:46,480 --> 00:40:48,480
+The wall?
+
+1005
+00:40:48,480 --> 00:40:49,480
+It's not here.
+
+1006
+00:40:49,480 --> 00:40:50,480
+Okay, we're in food
+
+1007
+00:40:50,480 --> 00:40:52,480
+And
+
+1008
+00:40:52,480 --> 00:40:54,480
+You see the mirror?
+
+1009
+00:40:54,480 --> 00:40:56,480
+Is he the mirror right here?
+
+1010
+00:40:56,480 --> 00:40:59,480
+He's 50 meters here
+
+1011
+00:40:59,480 --> 00:41:02,480
+How many euros is that for you to take me?
+
+1012
+00:41:02,480 --> 00:41:04,480
+Okay, now this is the beautiful part
+
+1013
+00:41:04,480 --> 00:41:06,480
+The cab driver says
+
+1014
+00:41:06,480 --> 00:41:07,480
+And I'm good at this
+
+1015
+00:41:07,480 --> 00:41:08,480
+Because I've lived in Europe
+
+1016
+00:41:08,480 --> 00:41:09,480
+Most of my life
+
+1017
+00:41:09,480 --> 00:41:11,480
+The cab driver is having a real hard time explaining
+
+1018
+00:41:11,480 --> 00:41:14,480
+But he's saying it's only like 50 meters from here
+
+1019
+00:41:14,480 --> 00:41:18,480
+And Todd says, how many euros will it cost to get me there?
+
+1020
+00:41:18,480 --> 00:41:23,480
+Now, 50 meters is about, you know, 55 yards
+
+1021
+00:41:23,480 --> 00:41:24,480
+Basically
+
+1022
+00:41:24,480 --> 00:41:27,480
+So this whole podcast and you have to listen to this
+
+1023
+00:41:27,480 --> 00:41:28,480
+Because it's hilarious
+
+1024
+00:41:28,480 --> 00:41:30,480
+And I can just imagine him walking around
+
+1025
+00:41:30,480 --> 00:41:32,480
+With this big ass microphone
+
+1026
+00:41:32,480 --> 00:41:34,480
+Asking people where the wall are
+
+1027
+00:41:34,480 --> 00:41:36,480
+And they're like, oh, the fucker
+
+1028
+00:41:36,480 --> 00:41:37,480
+It's like right there
+
+1029
+00:41:37,480 --> 00:41:38,480
+That's where it was
+
+1030
+00:41:38,480 --> 00:41:40,480
+So of course he finds out
+
+1031
+00:41:40,480 --> 00:41:42,480
+In the end that he really only had to walk
+
+1032
+00:41:42,480 --> 00:41:44,480
+Like, you know, half a football field to get there
+
+1033
+00:41:44,480 --> 00:41:46,480
+But an excellent podcast
+
+1034
+00:41:46,480 --> 00:41:48,480
+And I'm considering moving
+
+1035
+00:41:48,480 --> 00:41:50,480
+I love radio
+
+1036
+00:41:50,480 --> 00:41:52,480
+The podcast into the comedy section
+
+1037
+00:41:52,480 --> 00:41:54,480
+Because it's just really, really good
+
+1038
+00:41:54,480 --> 00:41:56,480
+All right, time for some free music
+
+1039
+00:41:56,480 --> 00:42:00,480
+This, let's see, I played
+
+1040
+00:42:00,480 --> 00:42:03,480
+Something a while ago
+
+1041
+00:42:03,480 --> 00:42:06,480
+From, let's see, what was it?
+
+1042
+00:42:06,480 --> 00:42:08,480
+From chosen
+
+1043
+00:42:08,480 --> 00:42:10,480
+I think it was chosen
+
+1044
+00:42:10,480 --> 00:42:13,480
+And I got a whole email
+
+1045
+00:42:13,480 --> 00:42:15,480
+Going on with
+
+1046
+00:42:15,480 --> 00:42:18,480
+The manager
+
+1047
+00:42:18,480 --> 00:42:21,480
+Or the actually the management and marketing guy
+
+1048
+00:42:21,480 --> 00:42:24,480
+Who does this for these bands
+
+1049
+00:42:24,480 --> 00:42:25,480
+And you just have to read the email
+
+1050
+00:42:25,480 --> 00:42:27,480
+To get all the background on it
+
+1051
+00:42:27,480 --> 00:42:29,480
+Sent me another song
+
+1052
+00:42:29,480 --> 00:42:31,480
+And I think this is the right one
+
+1053
+00:42:31,480 --> 00:42:33,480
+I don't know if I have the right track queue
+
+1054
+00:42:33,480 --> 00:42:34,480
+I'm so frazzled now with all this tea
+
+1055
+00:42:34,480 --> 00:42:36,480
+Spilling all over the carpet
+
+1056
+00:42:36,480 --> 00:42:37,480
+Here's a track from
+
+1057
+00:42:37,480 --> 00:42:39,480
+Remained to one, our artist
+
+1058
+00:42:39,480 --> 00:42:41,480
+He says, let me know what you think
+
+1059
+00:42:41,480 --> 00:42:43,480
+The track is called I Candy
+
+1060
+00:42:43,480 --> 00:42:52,480
+I was blessed with an angel from the heavens above
+
+1061
+00:42:52,480 --> 00:42:53,480
+But like cooling a gang
+
+1062
+00:42:53,480 --> 00:42:54,480
+I cherished the love
+
+1063
+00:42:54,480 --> 00:42:56,480
+I thought the grass was green
+
+1064
+00:42:56,480 --> 00:42:58,480
+We was like Rick James and Tina
+
+1065
+00:42:58,480 --> 00:43:00,480
+So we let things come between us
+
+1066
+00:43:00,480 --> 00:43:02,480
+Look how you ended it
+
+1067
+00:43:02,480 --> 00:43:04,480
+Little friends were friends better fits
+
+1068
+00:43:04,480 --> 00:43:06,480
+So chill west was so innocent
+
+1069
+00:43:06,480 --> 00:43:07,480
+I ain't going shed no tears
+
+1070
+00:43:07,480 --> 00:43:09,480
+Can't get my money back on top
+
+1071
+00:43:09,480 --> 00:43:11,480
+Spin all those years
+
+1072
+00:43:11,480 --> 00:43:12,480
+Wasn't home all the time
+
+1073
+00:43:12,480 --> 00:43:13,480
+But always there
+
+1074
+00:43:13,480 --> 00:43:15,480
+Not a picture that you painted
+
+1075
+00:43:15,480 --> 00:43:16,480
+It's crystal clear
+
+1076
+00:43:16,480 --> 00:43:17,480
+Same looks as deceiving
+
+1077
+00:43:17,480 --> 00:43:19,480
+You left without a reason
+
+1078
+00:43:19,480 --> 00:43:21,480
+Quickly change like the season
+
+1079
+00:43:21,480 --> 00:43:23,480
+Now I'm still breathing
+
+1080
+00:43:23,480 --> 00:43:24,480
+You can't break me
+
+1081
+00:43:24,480 --> 00:43:26,480
+You'll make me never do things
+
+1082
+00:43:26,480 --> 00:43:27,480
+Was they shaky
+
+1083
+00:43:27,480 --> 00:43:29,480
+Clear the take me quite some time
+
+1084
+00:43:29,480 --> 00:43:32,480
+Cause everybody knows how I can find
+
+1085
+00:43:37,480 --> 00:43:39,480
+I want nothing fancy
+
+1086
+00:43:39,480 --> 00:43:41,480
+Just a piece of eye candy
+
+1087
+00:43:41,480 --> 00:43:43,480
+Can I get a glimpse of that
+
+1088
+00:43:43,480 --> 00:43:44,480
+I'll kiss you Spanish
+
+1089
+00:43:44,480 --> 00:43:46,480
+Wait a black just one
+
+1090
+00:43:46,480 --> 00:43:48,480
+He said, I can't
+
+1091
+00:43:48,480 --> 00:43:50,480
+I want nothing fancy
+
+1092
+00:43:50,480 --> 00:43:52,480
+Just a piece of eye candy
+
+1093
+00:43:52,480 --> 00:43:53,480
+Can I get a glimpse of that
+
+1094
+00:43:53,480 --> 00:43:55,480
+I'll kiss you Spanish
+
+1095
+00:43:55,480 --> 00:43:56,480
+Wait a black
+
+1096
+00:43:56,480 --> 00:43:58,480
+Just one little taste of that
+
+1097
+00:43:58,480 --> 00:43:59,480
+I can't
+
+1098
+00:43:59,480 --> 00:44:00,480
+What would it not give for
+
+1099
+00:44:00,480 --> 00:44:01,480
+One more taste
+
+1100
+00:44:01,480 --> 00:44:02,480
+One more shot
+
+1101
+00:44:02,480 --> 00:44:03,480
+I'm talking about
+
+1102
+00:44:03,480 --> 00:44:04,480
+One more chase
+
+1103
+00:44:04,480 --> 00:44:05,480
+And I ain't blind
+
+1104
+00:44:05,480 --> 00:44:06,480
+Could up on your lies
+
+1105
+00:44:06,480 --> 00:44:08,480
+How you should grow
+
+1106
+00:44:08,480 --> 00:44:09,480
+Friends is you have the boss
+
+1107
+00:44:09,480 --> 00:44:11,480
+Which we could go to distance
+
+1108
+00:44:11,480 --> 00:44:13,480
+To get chance to try to listen
+
+1109
+00:44:13,480 --> 00:44:15,480
+Now we knocked out a position
+
+1110
+00:44:15,480 --> 00:44:16,480
+My heart would lower you
+
+1111
+00:44:16,480 --> 00:44:18,480
+You was just for you
+
+1112
+00:44:18,480 --> 00:44:19,480
+Get some stuff into
+
+1113
+00:44:19,480 --> 00:44:20,480
+That's why I never told you
+
+1114
+00:44:20,480 --> 00:44:21,480
+Don't let this damn me
+
+1115
+00:44:23,480 --> 00:44:24,480
+I can't be
+
+1116
+00:44:24,480 --> 00:44:26,480
+We could have both been a family
+
+1117
+00:44:26,480 --> 00:44:27,480
+I'm not sure what's going on
+
+1118
+00:44:27,480 --> 00:44:28,480
+I'm going to let you play
+
+1119
+00:44:28,480 --> 00:44:29,480
+For another time
+
+1120
+00:44:29,480 --> 00:44:30,480
+It keeps crapping out
+
+1121
+00:44:30,480 --> 00:44:31,480
+That's no good
+
+1122
+00:44:31,480 --> 00:44:32,480
+I don't know what's up with that
+
+1123
+00:44:32,480 --> 00:44:34,480
+I've heard that her up on a couple of times
+
+1124
+00:44:34,480 --> 00:44:35,480
+Was it with MP3's
+
+1125
+00:44:35,480 --> 00:44:36,480
+Okay
+
+1126
+00:44:36,480 --> 00:44:37,480
+I can't you will get to that
+
+1127
+00:44:37,480 --> 00:44:38,480
+Another time in the source code
+
+1128
+00:44:38,480 --> 00:44:39,480
+Hope you didn't put the automatic
+
+1129
+00:44:39,480 --> 00:44:40,480
+Three minutes skip in there
+
+1130
+00:44:40,480 --> 00:44:42,480
+Because now you probably missed this
+
+1131
+00:44:42,480 --> 00:44:43,480
+Bit and you're already off into
+
+1132
+00:44:43,480 --> 00:44:44,480
+Something else
+
+1133
+00:44:44,480 --> 00:44:46,480
+I got to remember
+
+1134
+00:44:46,480 --> 00:44:47,480
+What was this?
+
+1135
+00:44:47,480 --> 00:44:50,480
+Was this the last Starbucks podcast
+
+1136
+00:44:50,480 --> 00:44:51,480
+I guess that must have been
+
+1137
+00:44:51,480 --> 00:44:52,480
+Must have been Fridays
+
+1138
+00:44:53,480 --> 00:44:56,480
+I was trying to get a hold of Lee Wilkins
+
+1139
+00:44:56,480 --> 00:44:58,480
+Wilkins to talk about his dogs
+
+1140
+00:44:58,480 --> 00:45:00,480
+And I was looking for some
+
+1141
+00:45:00,480 --> 00:45:02,480
+Dialing music and I just basically hit the first thing
+
+1142
+00:45:02,480 --> 00:45:03,480
+That came up in iTunes
+
+1143
+00:45:03,480 --> 00:45:05,480
+And it was a king of the road
+
+1144
+00:45:05,480 --> 00:45:07,480
+By was it Roger Miller
+
+1145
+00:45:07,480 --> 00:45:09,480
+And I came up with this
+
+1146
+00:45:09,480 --> 00:45:10,480
+With a little lyric
+
+1147
+00:45:10,480 --> 00:45:13,480
+Which was Prince of the pod
+
+1148
+00:45:13,480 --> 00:45:15,480
+And of course you got to figure
+
+1149
+00:45:15,480 --> 00:45:16,480
+Someone wrote lyrics to it
+
+1150
+00:45:16,480 --> 00:45:18,480
+Kim Black did a great job
+
+1151
+00:45:18,480 --> 00:45:19,480
+She says
+
+1152
+00:45:19,480 --> 00:45:21,480
+I'm no songwriter
+
+1153
+00:45:21,480 --> 00:45:23,480
+But here it is
+
+1154
+00:45:23,480 --> 00:45:26,480
+And and I for a long time I thought
+
+1155
+00:45:26,480 --> 00:45:28,480
+You know what I'm going to do with this
+
+1156
+00:45:28,480 --> 00:45:30,480
+I should maybe I should
+
+1157
+00:45:30,480 --> 00:45:32,480
+Maybe I should try and do something
+
+1158
+00:45:32,480 --> 00:45:33,480
+Do a song
+
+1159
+00:45:33,480 --> 00:45:36,480
+Patricia hates it when I sing
+
+1160
+00:45:36,480 --> 00:45:37,480
+And she's right
+
+1161
+00:45:37,480 --> 00:45:39,480
+Because you know it's like I can't sing
+
+1162
+00:45:39,480 --> 00:45:41,480
+I really cannot sing
+
+1163
+00:45:41,480 --> 00:45:42,480
+I suck at singing
+
+1164
+00:45:42,480 --> 00:45:44,480
+And if you really do know how to sing
+
+1165
+00:45:44,480 --> 00:45:45,480
+Like she does then
+
+1166
+00:45:45,480 --> 00:45:47,480
+You know that's like painful
+
+1167
+00:45:47,480 --> 00:45:49,480
+And by the way I think most
+
+1168
+00:45:49,480 --> 00:45:50,480
+These jockeys
+
+1169
+00:45:50,480 --> 00:45:52,480
+Really are frustrated singers
+
+1170
+00:45:52,480 --> 00:45:53,480
+Or performers
+
+1171
+00:45:53,480 --> 00:45:54,480
+And whenever
+
+1172
+00:45:54,480 --> 00:45:55,480
+You'll notice this
+
+1173
+00:45:55,480 --> 00:45:56,480
+Whenever DJs
+
+1174
+00:45:56,480 --> 00:45:57,480
+Radio DJs
+
+1175
+00:45:57,480 --> 00:45:58,480
+Have a chance
+
+1176
+00:45:58,480 --> 00:45:59,480
+To sing
+
+1177
+00:45:59,480 --> 00:46:00,480
+They jump right in boy
+
+1178
+00:46:00,480 --> 00:46:01,480
+They love singing
+
+1179
+00:46:01,480 --> 00:46:02,480
+And I have to admit
+
+1180
+00:46:02,480 --> 00:46:03,480
+I have some of that
+
+1181
+00:46:03,480 --> 00:46:05,480
+Not what's not a frustration
+
+1182
+00:46:05,480 --> 00:46:06,480
+But I don't know what to do
+
+1183
+00:46:06,480 --> 00:46:07,480
+I think
+
+1184
+00:46:07,480 --> 00:46:09,480
+Most of it's just the whole process
+
+1185
+00:46:09,480 --> 00:46:11,480
+Of putting a song together
+
+1186
+00:46:11,480 --> 00:46:12,480
+That is fascinating
+
+1187
+00:46:12,480 --> 00:46:13,480
+Because when you're DJ
+
+1188
+00:46:13,480 --> 00:46:14,480
+You're already into sound
+
+1189
+00:46:14,480 --> 00:46:15,480
+You're into
+
+1190
+00:46:15,480 --> 00:46:16,480
+Into mixing boards
+
+1191
+00:46:16,480 --> 00:46:17,480
+You're into
+
+1192
+00:46:17,480 --> 00:46:18,480
+You know just put
+
+1193
+00:46:18,480 --> 00:46:19,480
+Really your it's in life
+
+1194
+00:46:19,480 --> 00:46:20,480
+It's performance art
+
+1195
+00:46:20,480 --> 00:46:22,480
+It's just what podcasting is
+
+1196
+00:46:22,480 --> 00:46:23,480
+So
+
+1197
+00:46:23,480 --> 00:46:26,480
+When I saw the lyrics
+
+1198
+00:46:26,480 --> 00:46:28,480
+I said well you know all I really need
+
+1199
+00:46:28,480 --> 00:46:30,480
+And I have garage band
+
+1200
+00:46:30,480 --> 00:46:32,480
+And you know I should be able to
+
+1201
+00:46:32,480 --> 00:46:33,480
+I thought no I can't do that
+
+1202
+00:46:33,480 --> 00:46:34,480
+Because I don't know how to
+
+1203
+00:46:34,480 --> 00:46:35,480
+Fucking play
+
+1204
+00:46:35,480 --> 00:46:36,480
+Yeah
+
+1205
+00:46:36,480 --> 00:46:37,480
+I studied piano for two years
+
+1206
+00:46:37,480 --> 00:46:38,480
+But no way
+
+1207
+00:46:38,480 --> 00:46:39,480
+Am I going to be able to
+
+1208
+00:46:39,480 --> 00:46:41,480
+Even figure out how to do
+
+1209
+00:46:41,480 --> 00:46:42,480
+King of the Road
+
+1210
+00:46:42,480 --> 00:46:43,480
+By the way the piano
+
+1211
+00:46:43,480 --> 00:46:44,480
+Was still sitting in the empty castle
+
+1212
+00:46:44,480 --> 00:46:45,480
+Life
+
+1213
+00:46:45,480 --> 00:46:46,480
+If you want a piano
+
+1214
+00:46:46,480 --> 00:46:47,480
+Let me know
+
+1215
+00:46:47,480 --> 00:46:48,480
+I need to sell it
+
+1216
+00:46:48,480 --> 00:46:50,480
+Or I have to send it somewhere
+
+1217
+00:46:50,480 --> 00:46:51,480
+Within two weeks
+
+1218
+00:46:51,480 --> 00:46:52,480
+So it's going to be safe
+
+1219
+00:46:52,480 --> 00:46:53,480
+Anyway so
+
+1220
+00:46:53,480 --> 00:46:54,480
+Why not
+
+1221
+00:46:54,480 --> 00:46:55,480
+And Google for
+
+1222
+00:46:55,480 --> 00:46:57,480
+For a MIDI version of King of the Road
+
+1223
+00:46:57,480 --> 00:47:00,480
+And I actually found something
+
+1224
+00:47:00,480 --> 00:47:01,480
+That was
+
+1225
+00:47:01,480 --> 00:47:02,480
+Let me see
+
+1226
+00:47:02,480 --> 00:47:03,480
+Sequenced
+
+1227
+00:47:03,480 --> 00:47:04,480
+By
+
+1228
+00:47:04,480 --> 00:47:05,480
+Here comes
+
+1229
+00:47:05,480 --> 00:47:06,480
+I'm playing for you now
+
+1230
+00:47:06,480 --> 00:47:08,480
+Harry Todd
+
+1231
+00:47:08,480 --> 00:47:10,480
+I put a link to these original
+
+1232
+00:47:10,480 --> 00:47:12,480
+Page in there as well
+
+1233
+00:47:12,480 --> 00:47:13,480
+And I listen to this
+
+1234
+00:47:13,480 --> 00:47:14,480
+So yeah
+
+1235
+00:47:14,480 --> 00:47:15,480
+That's kind of like
+
+1236
+00:47:16,480 --> 00:47:17,480
+Harps Accord
+
+1237
+00:47:17,480 --> 00:47:19,480
+Like
+
+1238
+00:47:19,480 --> 00:47:20,480
+I like that
+
+1239
+00:47:20,480 --> 00:47:21,480
+If I'm going to do this
+
+1240
+00:47:21,480 --> 00:47:22,480
+I'm going to do it right
+
+1241
+00:47:22,480 --> 00:47:23,480
+Now what I found is
+
+1242
+00:47:23,480 --> 00:47:25,480
+There's a way to
+
+1243
+00:47:25,480 --> 00:47:27,480
+Take a MIDI file
+
+1244
+00:47:27,480 --> 00:47:29,480
+And through another little program
+
+1245
+00:47:29,480 --> 00:47:31,480
+Which I forget what it's called
+
+1246
+00:47:31,480 --> 00:47:33,480
+Montemedi
+
+1247
+00:47:33,480 --> 00:47:34,480
+Something like that
+
+1248
+00:47:34,480 --> 00:47:35,480
+Montemedi
+
+1249
+00:47:35,480 --> 00:47:36,480
+I mean you could just
+
+1250
+00:47:36,480 --> 00:47:37,480
+Search Google for
+
+1251
+00:47:37,480 --> 00:47:39,480
+Import MIDI into Garage Band
+
+1252
+00:47:39,480 --> 00:47:40,480
+Because Garage Band
+
+1253
+00:47:40,480 --> 00:47:41,480
+Doesn't do it natively
+
+1254
+00:47:41,480 --> 00:47:42,480
+For some reason
+
+1255
+00:47:42,480 --> 00:47:44,480
+So you take this MIDI file
+
+1256
+00:47:44,480 --> 00:47:46,480
+Drag it onto this application
+
+1257
+00:47:46,480 --> 00:47:48,480
+And it does all kinds of magic
+
+1258
+00:47:48,480 --> 00:47:49,480
+And it creates a folder for you
+
+1259
+00:47:49,480 --> 00:47:50,480
+And in that folder
+
+1260
+00:47:50,480 --> 00:47:53,480
+Is all the instruments in separate files
+
+1261
+00:47:53,480 --> 00:47:55,480
+And you drag that into a Garage Band
+
+1262
+00:47:55,480 --> 00:47:57,480
+Song and new project
+
+1263
+00:47:57,480 --> 00:47:59,480
+And low and behold
+
+1264
+00:47:59,480 --> 00:48:00,480
+It gives you all these tracks
+
+1265
+00:48:00,480 --> 00:48:02,480
+In this case it had like ten tracks
+
+1266
+00:48:02,480 --> 00:48:04,480
+And it gave me the opportunity
+
+1267
+00:48:04,480 --> 00:48:06,480
+To then go and select
+
+1268
+00:48:06,480 --> 00:48:07,480
+Different instruments
+
+1269
+00:48:07,480 --> 00:48:08,480
+Because I wanted to
+
+1270
+00:48:08,480 --> 00:48:09,480
+I already had the score
+
+1271
+00:48:09,480 --> 00:48:10,480
+Right
+
+1272
+00:48:10,480 --> 00:48:11,480
+But I needed
+
+1273
+00:48:11,480 --> 00:48:13,480
+I just needed a little more
+
+1274
+00:48:14,480 --> 00:48:16,480
+And just some kick and stuff
+
+1275
+00:48:16,480 --> 00:48:18,480
+A little heavier bass
+
+1276
+00:48:18,480 --> 00:48:20,480
+And some guitars in there
+
+1277
+00:48:20,480 --> 00:48:21,480
+And I'll shut up
+
+1278
+00:48:21,480 --> 00:48:22,480
+And you know
+
+1279
+00:48:22,480 --> 00:48:24,480
+Well, see for yourself
+
+1280
+00:48:24,480 --> 00:48:26,480
+Cast your phone
+
+1281
+00:48:26,480 --> 00:48:28,480
+See your rent
+
+1282
+00:48:28,480 --> 00:48:30,480
+Cut it just left
+
+1283
+00:48:30,480 --> 00:48:32,480
+For 50 cents
+
+1284
+00:48:32,480 --> 00:48:34,480
+No Wi-Fi
+
+1285
+00:48:34,480 --> 00:48:36,480
+And almost no mess
+
+1286
+00:48:36,480 --> 00:48:37,480
+And John
+
+1287
+00:48:37,480 --> 00:48:38,480
+Look, girl
+
+1288
+00:48:38,480 --> 00:48:39,480
+No cigarettes
+
+1289
+00:48:39,480 --> 00:48:40,480
+So that
+
+1290
+00:48:40,480 --> 00:48:42,480
+Two hours of
+
+1291
+00:48:42,480 --> 00:48:43,480
+And whatever money
+
+1292
+00:48:43,480 --> 00:48:45,480
+Makes me a podcast
+
+1293
+00:48:45,480 --> 00:48:49,480
+The personality of a man
+
+1294
+00:48:49,480 --> 00:48:52,480
+A means by no means
+
+1295
+00:48:52,480 --> 00:48:55,480
+Friends of the park
+
+1296
+00:48:55,480 --> 00:48:57,480
+Podcasting
+
+1297
+00:48:57,480 --> 00:48:59,480
+Not show
+
+1298
+00:48:59,480 --> 00:49:00,480
+Destination
+
+1299
+00:49:00,480 --> 00:49:02,480
+How the hell should I?
+
+1300
+00:49:02,480 --> 00:49:05,480
+Don't go now
+
+1301
+00:49:05,480 --> 00:49:07,480
+For the jokes
+
+1302
+00:49:08,480 --> 00:49:11,480
+I'm paying my empty views
+
+1303
+00:49:11,480 --> 00:49:12,480
+I smoke
+
+1304
+00:49:12,480 --> 00:49:13,480
+All sinkies
+
+1305
+00:49:13,480 --> 00:49:15,480
+A one or two
+
+1306
+00:49:15,480 --> 00:49:16,480
+If I can quit
+
+1307
+00:49:16,480 --> 00:49:17,480
+Hey, boy
+
+1308
+00:49:17,480 --> 00:49:18,480
+A silken
+
+1309
+00:49:18,480 --> 00:49:20,480
+You're one of
+
+1310
+00:49:20,480 --> 00:49:22,480
+My enemies
+
+1311
+00:49:22,480 --> 00:49:24,480
+By no means
+
+1312
+00:49:24,480 --> 00:49:26,480
+Friends of the park
+
+1313
+00:49:26,480 --> 00:49:29,480
+I know everything
+
+1314
+00:49:29,480 --> 00:49:30,480
+Podcasting
+
+1315
+00:49:30,480 --> 00:49:31,480
+Everybody
+
+1316
+00:49:31,480 --> 00:49:33,480
+All of them girls
+
+1317
+00:49:33,480 --> 00:49:34,480
+And some other
+
+1318
+00:49:34,480 --> 00:49:36,480
+And some other
+
+1319
+00:49:36,480 --> 00:49:37,480
+And some other
+
+1320
+00:49:37,480 --> 00:49:38,480
+And some other
+
+1321
+00:49:38,480 --> 00:49:39,480
+And some other
+
+1322
+00:49:39,480 --> 00:49:40,480
+And some other
+
+1323
+00:49:40,480 --> 00:49:41,480
+And some other
+
+1324
+00:49:41,480 --> 00:49:42,480
+And some other
+
+1325
+00:49:42,480 --> 00:49:43,480
+And some other
+
+1326
+00:49:43,480 --> 00:49:44,480
+And some other
+
+1327
+00:49:44,480 --> 00:49:45,480
+And some other
+
+1328
+00:49:45,480 --> 00:49:46,480
+And some other
+
+1329
+00:49:46,480 --> 00:49:47,480
+And some other
+
+1330
+00:49:47,480 --> 00:49:48,480
+And some other
+
+1331
+00:49:48,480 --> 00:49:49,480
+And some other
+
+1332
+00:49:49,480 --> 00:49:50,480
+And some other
+
+1333
+00:49:50,480 --> 00:49:51,480
+And some other
+
+1334
+00:49:51,480 --> 00:49:52,480
+And some other
+
+1335
+00:49:52,480 --> 00:49:53,480
+And some other
+
+1336
+00:49:53,480 --> 00:49:54,480
+And some other
+
+1337
+00:49:54,480 --> 00:49:55,480
+And some other
+
+1338
+00:49:55,480 --> 00:49:56,480
+And some other
+
+1339
+00:49:56,480 --> 00:49:57,480
+And some other
+
+1340
+00:49:57,480 --> 00:49:58,480
+And some other
+
+1341
+00:49:58,480 --> 00:49:59,480
+And some other
+
+1342
+00:49:59,480 --> 00:50:00,480
+And some other
+
+1343
+00:50:00,480 --> 00:50:01,480
+And some other
+
+1344
+00:50:01,480 --> 00:50:02,480
+And some other
+
+1345
+00:50:02,480 --> 00:50:03,480
+And some other
+
+1346
+00:50:03,480 --> 00:50:04,480
+And some other
+
+1347
+00:50:04,480 --> 00:50:06,480
+And some other
+
+1348
+00:50:06,480 --> 00:50:07,480
+And some other
+
+1349
+00:50:07,480 --> 00:50:08,480
+And some other
+
+1350
+00:50:08,480 --> 00:50:10,480
+And some other
+
+1351
+00:50:10,480 --> 00:50:11,480
+And some other
+
+1352
+00:50:11,480 --> 00:50:12,480
+And some other
+
+1353
+00:50:12,480 --> 00:50:13,480
+And some other
+
+1354
+00:50:13,480 --> 00:50:14,480
+And some other
+
+1355
+00:50:14,480 --> 00:50:15,480
+And other
+
+1356
+00:50:15,480 --> 00:50:16,480
+And some other
+
+1357
+00:50:16,480 --> 00:50:17,480
+And some other
+
+1358
+00:50:17,480 --> 00:50:18,480
+And other
+
+1359
+00:50:18,480 --> 00:50:19,480
+And some other
+
+1360
+00:50:19,480 --> 00:50:20,480
+And other
+
+1361
+00:50:20,480 --> 00:50:21,480
+And other
+
+1362
+00:50:21,480 --> 00:50:22,480
+And other
+
+1363
+00:50:22,480 --> 00:50:23,480
+So other
+
+1364
+00:50:23,480 --> 00:50:24,480
+And other
+
+1365
+00:50:24,480 --> 00:50:25,480
+And...
+
+1366
+00:50:25,480 --> 00:50:26,480
+And...
+
+1367
+00:50:26,480 --> 00:50:27,480
+Anyone
+
+1368
+00:50:27,480 --> 00:50:29,840
+They
+
+1369
+00:50:30,480 --> 00:50:31,480
+And on Christmas
+
+1370
+00:50:31,480 --> 00:50:32,480
+Andboy
+
+1371
+00:50:32,480 --> 00:50:39,280
+Two hours of head to the weather up all night. It makes me a podcast of personality
+
+1372
+00:50:47,960 --> 00:50:55,160
+Okay, Prince of the Pod, everybody. This will never air again and no, I'm not going to put up an MP3
+
+1373
+00:50:55,160 --> 00:50:56,400
+No
+
+1374
+00:50:56,400 --> 00:50:59,260
+Just did it because people were so nice to do the lyrics and
+
+1375
+00:50:59,740 --> 00:51:06,140
+And basically so nice to put a MIDI file up there and share and so I thought I'd share something back. Don't you love it?
+
+1376
+00:51:08,300 --> 00:51:11,420
+Good and interesting comment came in from Bill Kennedy from
+
+1377
+00:51:11,820 --> 00:51:15,180
+Indianapolis who of course followed the Lee will Lee and Jenny
+
+1378
+00:51:15,900 --> 00:51:22,620
+Story of their of their two, you know, they're two beautiful little doggies who have been caught up in the airline and quarantine
+
+1379
+00:51:23,020 --> 00:51:25,660
+Hell and he had an interesting idea. I said
+
+1380
+00:51:26,140 --> 00:51:30,540
+Couldn't a podcast listener in Atlanta get the dogs out of the kennel hold them for
+
+1381
+00:51:33,260 --> 00:51:36,060
+For Lee and Jenny until they get all the money
+
+1382
+00:51:37,500 --> 00:51:39,500
+To get them back to United Kingdom
+
+1383
+00:51:40,220 --> 00:51:45,260
+In fact, they also could you know if they could find like a really good you have family
+
+1384
+00:51:46,060 --> 00:51:50,620
+Because he has the way it works basically you have to the animals have to have a rabies shot
+
+1385
+00:51:50,620 --> 00:51:55,340
+Forget all the other stuff the passport and the chip and the neck but they have a rabies shot and then they have to wait for
+
+1386
+00:51:55,420 --> 00:52:01,980
+Six months before they can enter the United Kingdom. So six months after the rabies shot
+
+1387
+00:52:01,980 --> 00:52:07,740
+I presume they've probably had that rabies shot by now and they've probably so it's about like a week or two
+
+1388
+00:52:08,620 --> 00:52:10,620
+Maybe just a full week
+
+1389
+00:52:10,620 --> 00:52:15,420
+But they would have to stay in the states for another six months. Maybe there's a really great family who would want to
+
+1390
+00:52:16,220 --> 00:52:18,620
+You know take care of them instead of
+
+1391
+00:52:19,260 --> 00:52:23,900
+Bring them over to the United Kingdom and curing huge costs. I think it's for two dogs
+
+1392
+00:52:23,980 --> 00:52:29,420
+It'll probably be about five thousand dollars for the six months. They have to stay in quarantine. I'm not kidding you about this
+
+1393
+00:52:30,940 --> 00:52:36,540
+And you know sure you can visit them, but they're basically in jail. You know, so it's just a thought anyway
+
+1394
+00:52:37,180 --> 00:52:42,540
+But again really cool that everyone has helping out on at least getting something going and getting it back
+
+1395
+00:52:43,500 --> 00:52:44,860
+to the UK
+
+1396
+00:52:44,860 --> 00:52:48,860
+If it all possible within the next way have another ten days to go or something
+
+1397
+00:52:49,340 --> 00:52:54,220
+Another email I wanted to share with you. Hi Adam. I've been listening to the daily source code for a few weeks
+
+1398
+00:52:54,220 --> 00:52:56,220
+I've been following the growth of podcasting
+
+1399
+00:52:56,620 --> 00:53:01,420
+My addiction to podcast will have to stop cold turkey for a while since I was strong armed and my
+
+1400
+00:53:01,420 --> 00:53:08,140
+iPod was stolen this evening while yes, indeed listening to your star-bucky and Skype adventures on the daily source code
+
+1401
+00:53:09,180 --> 00:53:15,340
+Incidentally says this occurred on a quiet street in Residential Menlo Park about two miles away from the blogger
+
+1402
+00:53:15,420 --> 00:53:18,620
+on three location at Stanford University. This is freaking me out
+
+1403
+00:53:22,700 --> 00:53:26,780
+It goes into explaining exactly how this happened. This is will by the way
+
+1404
+00:53:28,140 --> 00:53:31,820
+And it's horrible. He was walking along with his iPod
+
+1405
+00:53:32,380 --> 00:53:36,620
+He said actually a realize later must have been following me because I was unaware
+
+1406
+00:53:37,820 --> 00:53:43,900
+And couldn't hear anything over the exciting beat of the rockman enough, which of course is the power of your intellect
+
+1407
+00:53:44,860 --> 00:53:51,100
+And they basically grabbed the iPod ripped you know ripped it right off of right off of them
+
+1408
+00:53:51,100 --> 00:53:56,460
+Kind of ripping the headphones out and boom took off with that. So, you know
+
+1409
+00:53:57,820 --> 00:53:59,820
+Menlo Park
+
+1410
+00:54:00,620 --> 00:54:01,660
+Sox
+
+1411
+00:54:01,660 --> 00:54:05,100
+Sorry about that dude. I'm really sorry. Oh good news
+
+1412
+00:54:05,980 --> 00:54:11,820
+The new Jay Potter is out. Jay Potter is an iPod are variant. It's based on Java, so it works
+
+1413
+00:54:12,300 --> 00:54:15,900
+On anything that will run Java, at least that's the promise of Java, right?
+
+1414
+00:54:16,460 --> 00:54:20,380
+Couple of new features in that though, and the thing that I like the most is
+
+1415
+00:54:22,940 --> 00:54:24,940
+The vacation switch
+
+1416
+00:54:25,660 --> 00:54:29,980
+Oh, so I'm just trying to look at a different email here. I was talking about this
+
+1417
+00:54:31,580 --> 00:54:35,020
+On the source code. I might even post it something about it on on my weblog is
+
+1418
+00:54:35,820 --> 00:54:39,900
+When you have a loss of connection for a couple days. You could be on vacation or
+
+1419
+00:54:40,460 --> 00:54:45,420
+Like me you could be without bandwidth when you go to start you know syncing up with your shows
+
+1420
+00:54:45,420 --> 00:54:49,020
+iPod or is going to bring in everything. Every single iPod has done this to date
+
+1421
+00:54:49,020 --> 00:54:54,300
+It'll go and try and bring in every single show that that you've missed and what we need is some more
+
+1422
+00:54:55,260 --> 00:54:59,100
+Intelligent content management and Jay Potter as well as
+
+1423
+00:54:59,820 --> 00:55:03,420
+What is that the bottom feeder something that I found
+
+1424
+00:55:04,140 --> 00:55:06,140
+Through email
+
+1425
+00:55:06,140 --> 00:55:09,900
+Actually, it's on Apple's website Apple was had a link to it
+
+1426
+00:55:10,460 --> 00:55:12,460
+If then soft.com
+
+1427
+00:55:12,460 --> 00:55:16,460
+Also has this feature and you know, it's it's great to see that
+
+1428
+00:55:17,100 --> 00:55:23,260
+You know, we're we're helping me help and a brother out need who has like no fucking bandwidth
+
+1429
+00:55:25,660 --> 00:55:27,900
+What's this in the daily source code comment?
+
+1430
+00:55:28,460 --> 00:55:31,900
+What are we? We're like 55 minutes shoot. It's gonna be an hour long show
+
+1431
+00:55:32,060 --> 00:55:34,060
+That's for sure. Let's check out the comment
+
+1432
+00:55:34,780 --> 00:55:42,060
+Yeah, this is Kurt from Minnesota first off. Thank you for podcasting in the daily source code
+
+1433
+00:55:42,060 --> 00:55:45,260
+I really enjoyed listening to it well just about every day
+
+1434
+00:55:46,300 --> 00:55:52,700
+Right now I had downloaded it onto my i-book and I'm sitting in a car in a parking ramp in herndon Virginia
+
+1435
+00:55:53,420 --> 00:55:56,220
+And what you would talked about with regards to
+
+1436
+00:55:56,380 --> 00:55:59,260
+All nations which I'm like right please. Please tell me
+
+1437
+00:55:59,980 --> 00:56:01,980
+You have your pants on
+
+1438
+00:56:02,700 --> 00:56:07,420
+Rank true in my situation. I have no bandwidth during the day and then I've got great bandwidth at night
+
+1439
+00:56:08,300 --> 00:56:13,100
+And I thought would really be great as a feature instead of having you have a vacation switch
+
+1440
+00:56:13,420 --> 00:56:15,020
+Is have a bandwidth slider
+
+1441
+00:56:15,020 --> 00:56:22,860
+So you can slide it all over do. I've got nothing no net to I've got dial up in which case it'll prioritize what it downloads up to
+
+1442
+00:56:22,940 --> 00:56:26,300
+I've got my normal full net set up so just a thought
+
+1443
+00:56:27,020 --> 00:56:34,220
+I thought I'd voice it as a as a sound file here. I'm using garage band for the first time and it's kind of an interesting experience
+
+1444
+00:56:34,220 --> 00:56:38,860
+Turning off like the metronome and some other things, but anyway, it was just my thought up for a feature
+
+1445
+00:56:38,860 --> 00:56:43,420
+I thought that would be more useful than something that just toggles on and off for vacation
+
+1446
+00:56:43,980 --> 00:56:50,540
+Anyway again, thanks for daily source code and keep at it. It sounds great. Yeah, that's a good idea
+
+1447
+00:56:50,540 --> 00:56:53,180
+So that's actually a very good interface
+
+1448
+00:56:55,740 --> 00:57:01,420
+So oh, yeah, just say okay, right now I have X bandwidth and it's gonna make decisions based upon your bandwidth
+
+1449
+00:57:01,420 --> 00:57:05,820
+What to do that would be really cool. I don't know how you set it up if that's a
+
+1450
+00:57:06,380 --> 00:57:11,180
+Pre-determined matrix that we come up with or if that's something you can you should always be able to configure it yourself
+
+1451
+00:57:11,180 --> 00:57:13,180
+But good idea
+
+1452
+00:57:13,180 --> 00:57:15,180
+very cool very cool
+
+1453
+00:57:15,580 --> 00:57:19,500
+It's I was like he's sitting in this in the parking lot in the car
+
+1454
+00:57:19,580 --> 00:57:25,020
+You know, what is he doing there? Is he hijacking someone's Wi-Fi or jacking something else?
+
+1455
+00:57:25,820 --> 00:57:31,260
+You know, we got to get out of here. It's almost time it's almost an hour for this show and and I'm
+
+1456
+00:57:31,260 --> 00:57:33,820
+I have so much to do well tomorrow
+
+1457
+00:57:33,820 --> 00:57:36,780
+I already have tomorrow show almost planned and when I look at it this way
+
+1458
+00:57:38,380 --> 00:57:42,140
+I'm gonna leave you with a little piece that was sent to me by
+
+1459
+00:57:42,540 --> 00:57:46,620
+Well, I can't tell you who sent it to me because he basically broke the wall by sharing this with me
+
+1460
+00:57:47,580 --> 00:57:52,220
+And it's definitely I'm breaking the law too. I'm gonna play it play it for you. It's a classic
+
+1461
+00:57:53,260 --> 00:57:58,140
+I'm gonna end the show with this so don't wait for the rock money off power up your intellect
+
+1462
+00:57:59,100 --> 00:58:01,500
+I'm just gonna play the last minute of this song
+
+1463
+00:58:01,820 --> 00:58:09,820
+Please listen to the foresight that these genius musicians had and I what I mean songwriters producers musicians
+
+1464
+00:58:10,620 --> 00:58:15,260
+Genius when they wrote this and they recorded this they knew that one day
+
+1465
+00:58:15,260 --> 00:58:19,420
+podcasting would be for ever body
+

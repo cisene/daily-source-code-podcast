@@ -1,0 +1,1740 @@
+1
+00:00:00,000 --> 00:00:16,020
+Ladies and gentlemen, Islanders of iPod, behold our new sovereign leader, bow down for the
+
+2
+00:00:16,020 --> 00:00:24,560
+Earl of everybody, the Duke of Doyle, the parent of broadband, the Sultan of Starbucks,
+
+3
+00:00:24,560 --> 00:00:31,080
+the king of his castle, and the tyrant of peace-pilling, but most of all, the prince of
+
+4
+00:00:31,080 --> 00:00:34,820
+pod, Mr. Adam Curry!
+
+5
+00:00:34,820 --> 00:00:36,320
+Adam Curry!
+
+6
+00:00:36,320 --> 00:00:43,400
+Please obey his rule for he shall punish you at SIGTO YOU AGAIN!
+
+7
+00:00:43,400 --> 00:00:51,560
+Get ready baby, oh Adam, Adam, oh, it's the daily source code!
+
+8
+00:00:52,440 --> 00:01:00,560
+Everybody, it's Monday, it's December 13th, 2004, welcome to the daily source code where
+
+9
+00:01:00,560 --> 00:01:06,560
+users and developers party together on feeling good friends, family, world leaders.
+
+10
+00:01:06,560 --> 00:01:10,360
+I know you're all listening to this podcast.
+
+11
+00:01:10,360 --> 00:01:16,560
+It's time for your source code.
+
+12
+00:01:16,560 --> 00:01:22,840
+I got everything I want, right here, right here in my cottage, baby, I got my tea and
+
+13
+00:01:22,840 --> 00:01:30,040
+I have it on the other side of the wire, so we won't have the horrific tea-spilling accident,
+
+14
+00:01:30,040 --> 00:01:37,600
+reprise the low-echatars, cannot handle it whatsoever, man, I got a jam-pack show for you,
+
+15
+00:01:37,600 --> 00:01:43,520
+actually took a screenshot of my flat panel display that I have on the low-echatars, so
+
+16
+00:01:43,520 --> 00:01:49,320
+you can see how many different sound clips I have lined up for today's show.
+
+17
+00:01:49,320 --> 00:01:56,240
+It's about 20 hours, it's about 20 hours, it's about 20 hours, it's about 20 hours, we've got
+
+18
+00:01:56,240 --> 00:02:02,480
+comments, we've got music, we've got feedback, we've got lots of stuff to talk about, particularly
+
+19
+00:02:02,480 --> 00:02:07,600
+well, we've got so much feedback on the trade secrets that the David I did, I got to talk
+
+20
+00:02:07,600 --> 00:02:12,320
+about that a little bit, see what else do we have lined up.
+
+21
+00:02:12,400 --> 00:02:18,160
+It's just an incredible amount, you know, particularly because on Friday I did the podcast
+
+22
+00:02:18,160 --> 00:02:25,440
+from Studio A8 with Anneli, Anneli Nuitts, who, by the way, she's not a reporter from
+
+23
+00:02:25,440 --> 00:02:33,640
+wired, she's a journalist and she's a writer, and she was hired by wired to do this particular
+
+24
+00:02:33,640 --> 00:02:34,640
+piece.
+
+25
+00:02:34,640 --> 00:02:39,000
+Ah, this profile on me, the profile of the Prince of Bob.
+
+26
+00:02:39,000 --> 00:02:46,280
+Okay, this actually tells you a little bit more about this show.
+
+27
+00:02:46,280 --> 00:02:47,280
+Greetings, program!
+
+28
+00:02:47,280 --> 00:02:50,280
+It's not any time for a drum song, because we use it.
+
+29
+00:02:50,280 --> 00:02:54,280
+I'm completely operational, and all my circuits are functioning perfectly.
+
+30
+00:02:54,280 --> 00:02:56,600
+I'm certainly in the mood for a party.
+
+31
+00:02:56,600 --> 00:03:01,240
+No time for that now, the computer's starting, can you please program us out of the system?
+
+32
+00:03:01,320 --> 00:03:03,640
+Shall we play a game?
+
+33
+00:03:03,640 --> 00:03:08,840
+My user has information that you can make this a free system again.
+
+34
+00:03:08,840 --> 00:03:10,840
+It's party time!
+
+35
+00:03:10,840 --> 00:03:13,720
+Yeah, for me the RT, why?
+
+36
+00:03:13,720 --> 00:03:16,120
+Because I got up!
+
+37
+00:03:16,120 --> 00:03:19,320
+This is your daily source code.
+
+38
+00:03:19,320 --> 00:03:20,320
+Yeah.
+
+39
+00:03:20,320 --> 00:03:21,320
+Hey, bud!
+
+40
+00:03:21,320 --> 00:03:22,320
+This party!
+
+41
+00:03:22,320 --> 00:03:23,320
+Wow!
+
+42
+00:03:23,320 --> 00:03:25,680
+Your users and developers are party together.
+
+43
+00:03:25,680 --> 00:03:29,440
+Oh, I can't thank you guys enough for all the shit you send in to me, it makes
+
+44
+00:03:29,440 --> 00:03:32,280
+my job so wonderfully easy.
+
+45
+00:03:32,280 --> 00:03:36,040
+One of the things that I've been getting a lot of feedback on is download issues with
+
+46
+00:03:36,040 --> 00:03:37,040
+the source code.
+
+47
+00:03:37,040 --> 00:03:41,280
+There's about time that we talked about this on the show, because at first I thought,
+
+48
+00:03:41,280 --> 00:03:47,120
+well, look, there's so many people subscribing, there's got to be a certain percentage
+
+49
+00:03:47,120 --> 00:03:51,360
+that will just fall by the wayside, and I think that's still a part of the issue here.
+
+50
+00:03:51,360 --> 00:03:58,400
+But I have seen myself, and we're also using the same servers for Don and Drew, and
+
+51
+00:03:58,400 --> 00:04:03,360
+I know we've offered it to cover Bill, I don't know if cover Bill needs any help yet.
+
+52
+00:04:03,360 --> 00:04:08,760
+But I have seen some intermittent download issues, and I'm not quite sure, I'm pretty
+
+53
+00:04:08,760 --> 00:04:12,600
+sure it's not our server, because we've got a server that's doing nothing else, but
+
+54
+00:04:12,600 --> 00:04:15,840
+just sitting there and serving up files.
+
+55
+00:04:15,840 --> 00:04:20,120
+We have an unmetered pipe on that server.
+
+56
+00:04:20,120 --> 00:04:26,040
+Now, granted that there's a limitation to it, and I think that we're, see, they're 20
+
+57
+00:04:26,080 --> 00:04:31,360
+30 megabit pipe, which should be enough.
+
+58
+00:04:31,360 --> 00:04:35,200
+I mean, what's happening here is there's so many people trying to grab these files at
+
+59
+00:04:35,200 --> 00:04:37,800
+the same time that it is slowing down.
+
+60
+00:04:37,800 --> 00:04:42,360
+The slowness is not a problem, when it stops, that's when it clearly is a problem, and
+
+61
+00:04:42,360 --> 00:04:44,880
+something that we've got to figure out.
+
+62
+00:04:44,880 --> 00:04:55,640
+I really don't know what could be doing this other than, well, it's still, of course,
+
+63
+00:04:55,640 --> 00:05:00,200
+it could be the server itself, although I doubt it, it's just getting hammered by requests,
+
+64
+00:05:00,200 --> 00:05:02,120
+but it's not really that.
+
+65
+00:05:02,120 --> 00:05:07,360
+I have my doubts about it being the bandwidth provider, because that seems just like,
+
+66
+00:05:07,360 --> 00:05:11,840
+it's okay, the bandwidth is there, somewhere there's something taking place, it's not
+
+67
+00:05:11,840 --> 00:05:15,800
+right, and there's another thing that we probably should look at, and lots of comments and
+
+68
+00:05:15,800 --> 00:05:23,040
+emails about this in the production show notes for this particular source code, is we need
+
+69
+00:05:23,080 --> 00:05:30,480
+resumable downloads, because I, you know, with my, as too far as of thus yet, still deprived,
+
+70
+00:05:30,480 --> 00:05:35,480
+or bandwidth deprived situation, I've had a lot of time to play around with what works
+
+71
+00:05:35,480 --> 00:05:41,920
+and what doesn't work, and most podcasts, by the way, are so popular, and I guess even
+
+72
+00:05:41,920 --> 00:05:48,600
+more than a couple hundred people subscribing is popular enough to crunch most pipes
+
+73
+00:05:48,600 --> 00:05:54,480
+throughput, that they're really not coming in that much faster than modem speeds, depending
+
+74
+00:05:54,480 --> 00:05:59,000
+on when your iPodder is grabbing this stuff, of course.
+
+75
+00:05:59,000 --> 00:06:04,520
+So if I run my iPodder at night, I pretty much get everything I want in the morning,
+
+76
+00:06:04,520 --> 00:06:08,200
+even though it's coming over a phone line, because it's still bringing it in sequentially.
+
+77
+00:06:08,200 --> 00:06:12,080
+So if you sleep eight or nine hours, I pretty much get the podcast I need, because it could
+
+78
+00:06:12,080 --> 00:06:19,560
+take an hour for, an hour for basically a 40, 45 minute to an hour podcast to come
+
+79
+00:06:19,560 --> 00:06:22,880
+in, depending on how it was encoded.
+
+80
+00:06:22,880 --> 00:06:29,120
+But sometimes shit does just happen, particularly on dial-up, you know, you get kicked off,
+
+81
+00:06:29,120 --> 00:06:32,320
+bandwidth just goes away temporarily, and I think that's something that we need to look
+
+82
+00:06:32,320 --> 00:06:37,800
+at in our iPodders in the, you know, basically the iPod, catching the podcasting clients
+
+83
+00:06:37,840 --> 00:06:42,520
+is, how do we ensure that if it's something breaks, that it continues to try and get it,
+
+84
+00:06:42,520 --> 00:06:48,440
+or at least gives up after a smart, something after ruleset, something that really means
+
+85
+00:06:48,440 --> 00:06:52,120
+it's not available, because if this is happening to me, it may be happening to Don and
+
+86
+00:06:52,120 --> 00:06:55,120
+Drew, and it could be happening to a number of people.
+
+87
+00:06:55,120 --> 00:07:03,800
+And I actually, I created my, my really real poor man's iPodder in OSX on the command line.
+
+88
+00:07:03,800 --> 00:07:11,160
+This is a wonderful command called Curl, CURL, and if you give it a URL, and so let's
+
+89
+00:07:11,160 --> 00:07:16,800
+just say I give it a URL of an MP3 file, what you want to do is you want to give it an
+
+90
+00:07:16,800 --> 00:07:24,520
+OSWITCH, a capital O and a capital C. The capital O, so basically you do Curl space minus
+
+91
+00:07:24,520 --> 00:07:29,600
+capital O, which means it's going to output the same name as, as it is when you're downloading
+
+92
+00:07:29,640 --> 00:07:35,360
+it, and then the minus C switch means it's going to check and see if it, if it, if it
+
+93
+00:07:35,360 --> 00:07:40,080
+has to resume this download, and it works really, really well. I've been using it, so I had
+
+94
+00:07:40,080 --> 00:07:44,040
+this whole list of URLs that have stuff that I want to download that aren't necessarily
+
+95
+00:07:44,040 --> 00:07:49,840
+iPodder subscriptions, just stuff that I've seen, maybe coming through an audio.weblogs.com.
+
+96
+00:07:49,840 --> 00:07:54,600
+So I added to this list of URLs, and if I want to do something else, because of course,
+
+97
+00:07:54,600 --> 00:07:59,000
+that's the problem if you're downloading MP3s, you don't really have a lot of bandwidth left
+
+98
+00:07:59,040 --> 00:08:03,200
+over to do anything else, or basically you don't, certainly not the porn that I'm used
+
+99
+00:08:03,200 --> 00:08:09,000
+to do on download. So then you just hit Control C, and it stops that, and then you can
+
+100
+00:08:09,000 --> 00:08:13,680
+fire up that process again, and it picks up where it left off. So, resume will download,
+
+101
+00:08:13,680 --> 00:08:19,240
+something we definitely got to look at in the iPodder community. And so Melts, we got
+
+102
+00:08:19,240 --> 00:08:25,440
+to keep our eye on, is these damn mashups, man. I love them. Check this out. It's a mashup
+
+103
+00:08:25,440 --> 00:08:33,440
+from SmashUp Derby. What the fuck is going on? Jet Lady Joe. On the source code.
+
+104
+00:08:33,440 --> 00:08:39,440
+That would be your day to source code, but Monday, December 13th.
+
+105
+00:08:39,440 --> 00:08:48,440
+What the fuck is going on?
+
+106
+00:08:48,440 --> 00:08:58,840
+They be Madonna. You're natural feet. Wonder how you manage to make ends meet. Who finds
+
+107
+00:08:58,840 --> 00:09:06,440
+the money? When you pay the rent? Did you think that money was so good?
+
+108
+00:09:06,440 --> 00:09:15,440
+They'd be Madonna. Baby have to rest. Wonder how you manage to make ends meet.
+
+109
+00:09:15,440 --> 00:09:29,440
+They'd be Madonna. Right on the bed. Listen to the music playing in your head.
+
+110
+00:09:29,440 --> 00:09:34,440
+Said I ain't going to remind you.
+
+111
+00:09:59,440 --> 00:10:24,440
+Baby, Madonna. Baby, Madonna. Baby, Madonna. Baby, Madonna. Baby, Madonna.
+
+112
+00:10:25,440 --> 00:10:36,440
+I could see you. Oh, baby. But you are with me. I can't help. I know we got
+
+113
+00:10:36,440 --> 00:10:50,440
+but to save the money to get away. Yeah, be my girl. Be my girl. I can't help being my girl.
+
+114
+00:10:50,440 --> 00:11:05,440
+Be my girl. Be my girl. I can't help being my girl.
+
+115
+00:11:05,440 --> 00:11:09,440
+SmashUp Derby. Jet Lady Joe. What the fuck is going on?
+
+116
+00:11:09,440 --> 00:11:13,440
+I'm listening to my own show. I listen back to it on my iPod.
+
+117
+00:11:13,440 --> 00:11:17,440
+I'm going to rewind that. Listen to it again. I suggest you do the same.
+
+118
+00:11:18,440 --> 00:11:21,440
+Welcome back. How good was that?
+
+119
+00:11:21,440 --> 00:11:26,440
+I have to apologize because so many cool things were sent in.
+
+120
+00:11:26,440 --> 00:11:30,440
+I thought I'd kind of organized a lot of the emails.
+
+121
+00:11:30,440 --> 00:11:34,440
+What happens often is someone will send something like this Jet Lady Joe.
+
+122
+00:11:34,440 --> 00:11:37,440
+This mashup, smashup Derby.
+
+123
+00:11:37,440 --> 00:11:44,440
+And it'll come in an email and then I will save the MP3.
+
+124
+00:11:44,440 --> 00:11:47,440
+And I thought I'd save the email that went along with this, but clearly I didn't.
+
+125
+00:11:47,440 --> 00:11:51,440
+This is my pathetic attempt at an excuse.
+
+126
+00:11:51,440 --> 00:11:57,440
+Podcast. Podcast. Podcast.
+
+127
+00:11:57,440 --> 00:12:02,440
+Podcast. Open Podcast.org. Podcast.
+
+128
+00:12:02,440 --> 00:12:08,440
+Podcast.
+
+129
+00:12:08,440 --> 00:12:10,440
+Hey, this is Alan Joyce from the Heavens Digital Podcast.
+
+130
+00:12:10,440 --> 00:12:15,440
+And if you're interested in hearing the latest technology news with some non-RAA music
+
+131
+00:12:15,440 --> 00:12:20,440
+to go along with it, then head on over to everythingdigital.org and subscribe to the
+
+132
+00:12:20,440 --> 00:12:26,440
+Heavens Digital Podcast RSS feed at everythingdigital.org slash RSS.xml.
+
+133
+00:12:26,440 --> 00:12:29,440
+I've got 75 gigabytes of bandwidth just waiting for this guy.
+
+134
+00:12:29,440 --> 00:12:33,440
+So, come on over and check it out.
+
+135
+00:12:33,440 --> 00:12:35,440
+That's the new pickup line by the way. Hey, baby.
+
+136
+00:12:35,440 --> 00:12:41,440
+I got 75 gigs of bandwidth. Why'd you come over my blaze and dig off your dress?
+
+137
+00:12:41,440 --> 00:12:44,440
+This is your daily source code. I'm Adam Curry.
+
+138
+00:12:44,440 --> 00:12:47,440
+The Prince of Pod. Oh, we're going to get to that later.
+
+139
+00:12:47,440 --> 00:12:51,440
+There was another Prince of Pod thing. Oh, I have so much to do with unbelievable.
+
+140
+00:12:51,440 --> 00:12:55,440
+Lots of responses to the trade secret podcast that David I did.
+
+141
+00:12:55,440 --> 00:12:59,440
+First of all, about the sound quality, I have to admit we did a test with my with my phone recording
+
+142
+00:12:59,440 --> 00:13:01,440
+it before we did the show, the whole show.
+
+143
+00:13:01,440 --> 00:13:05,440
+And the test did sound better than the way the show came out.
+
+144
+00:13:05,440 --> 00:13:09,440
+Part of that is Dave's voice is completely just shot.
+
+145
+00:13:09,440 --> 00:13:12,440
+Actually, this is a recent podcast that he's done.
+
+146
+00:13:12,440 --> 00:13:15,440
+It's to call the Dave sexy voice demo.
+
+147
+00:13:15,440 --> 00:13:18,440
+Just listen to how he sounds. It's not very good at all.
+
+148
+00:13:18,440 --> 00:13:22,440
+And this is a more higher quality recording than the one you had on the trade secrets podcast.
+
+149
+00:13:22,440 --> 00:13:29,440
+I'm very intense evening of schmoozing and hanging out with the people at Berkman and Kennedy School
+
+150
+00:13:29,440 --> 00:13:31,440
+and Joe Trippie and Zach Rosen.
+
+151
+00:13:31,440 --> 00:13:35,440
+I have almost no voice left. It's a really getting ridiculous.
+
+152
+00:13:35,440 --> 00:13:38,440
+I'm asked to go see a doctor.
+
+153
+00:13:38,440 --> 00:13:43,440
+Luckily, they have good doctors here and they know me.
+
+154
+00:13:43,440 --> 00:13:48,440
+So probably if it doesn't give much better signal probably going anyway.
+
+155
+00:13:48,440 --> 00:13:53,440
+It's one of the demos you all could hear how sexy one of the voice sounds.
+
+156
+00:13:53,440 --> 00:13:58,440
+Oh, maybe I got 75 gigs of bandwidth for you sexy boy.
+
+157
+00:13:58,440 --> 00:14:02,440
+Okay, so we got a lot of comments about the sound quality.
+
+158
+00:14:02,440 --> 00:14:10,440
+Also, when you, if you don't talk directly into the phone, you know, when you kind of,
+
+159
+00:14:10,440 --> 00:14:13,440
+I don't know, I think it's, we weren't paying that much attention.
+
+160
+00:14:13,440 --> 00:14:15,440
+We're having a good conversation actually.
+
+161
+00:14:15,440 --> 00:14:17,440
+We weren't paying a lot of attention to the sound quality.
+
+162
+00:14:17,440 --> 00:14:22,440
+And this is, now you're seeing how hard it is to really make sure you get something.
+
+163
+00:14:22,440 --> 00:14:24,440
+You know, maybe you appreciate the sound guy.
+
+164
+00:14:24,440 --> 00:14:25,440
+It's a little bit more.
+
+165
+00:14:25,440 --> 00:14:29,440
+When you see him with that big boom microphone and all those meters and dials.
+
+166
+00:14:29,440 --> 00:14:30,440
+I mean, this is what's about.
+
+167
+00:14:30,440 --> 00:14:32,440
+It's very difficult to get good audio.
+
+168
+00:14:32,440 --> 00:14:37,440
+And particularly if it's more than just one person talking in a space and you want everything
+
+169
+00:14:37,440 --> 00:14:41,440
+to kind of sound the same and everything to be, to be legible.
+
+170
+00:14:41,440 --> 00:14:43,440
+And some people actually had no problem at all.
+
+171
+00:14:43,440 --> 00:14:47,440
+You know, it's, it's all a matter of what you can here actually.
+
+172
+00:14:47,440 --> 00:14:53,440
+But anyway, the, the content of the conversation is what really it was good for me.
+
+173
+00:14:53,440 --> 00:14:59,440
+And the fact that we, you know, have these, have had these plans to start a company.
+
+174
+00:14:59,440 --> 00:15:02,440
+It's really good to be able to just talk about it now.
+
+175
+00:15:02,440 --> 00:15:04,440
+Just say, okay, so we don't have a name for it yet.
+
+176
+00:15:04,440 --> 00:15:08,440
+But otherwise, you know, we're pretty far along with, with what we want it to do.
+
+177
+00:15:08,440 --> 00:15:14,440
+And, and you know, as we were talking about the three, you know, there's basically three parts to it.
+
+178
+00:15:14,440 --> 00:15:21,440
+But the most exciting I think we all agree is, is the podcast is the content itself of these shows that we're making.
+
+179
+00:15:21,440 --> 00:15:23,440
+And, you know, what is it?
+
+180
+00:15:23,440 --> 00:15:27,440
+I mean, I'm still trying to capture, you know, this magic.
+
+181
+00:15:27,440 --> 00:15:28,440
+I don't think it's capturable.
+
+182
+00:15:28,440 --> 00:15:32,440
+It's, you know, the magic is something that's out there and you can't really define it.
+
+183
+00:15:32,440 --> 00:15:35,440
+And, but somehow it's, it's working.
+
+184
+00:15:35,440 --> 00:15:36,440
+It really is working.
+
+185
+00:15:36,440 --> 00:15:42,440
+And, and I got to tell you, if for someone who's been in broadcasting so long, I'm totally used to people saying,
+
+186
+00:15:42,440 --> 00:15:45,440
+Oh, you know, saw your show or heard your show, yes, they would ever.
+
+187
+00:15:45,440 --> 00:15:51,440
+But now when people say, I heard your podcast, it's, it's, it's great.
+
+188
+00:15:51,440 --> 00:15:53,440
+I mean, it is, it's the same.
+
+189
+00:15:53,440 --> 00:15:59,440
+It's basically the same feeling is, is, you know, the first time I was really on big time radio or on, on MTV.
+
+190
+00:15:59,440 --> 00:16:03,440
+But it's, it's a fresh new feeling because it is something new.
+
+191
+00:16:03,440 --> 00:16:04,440
+It is something fresh sky.
+
+192
+00:16:04,440 --> 00:16:07,440
+I mean, that was a, what the hell we're doing.
+
+193
+00:16:07,440 --> 00:16:10,440
+But, a lot of people certainly want to help, even if they do or don't understand it.
+
+194
+00:16:10,440 --> 00:16:15,440
+And I'm going to play a bit of this audio comment that that I got from, I think it's,
+
+195
+00:16:15,440 --> 00:16:20,440
+Todd and I'll interrupt him here and there to talk about some of the topics he's producing.
+
+196
+00:16:20,440 --> 00:16:23,440
+Hey, they're out of Mrs. Todd.
+
+197
+00:16:23,440 --> 00:16:26,440
+And, I just listened to the latest trade secrets.
+
+198
+00:16:26,440 --> 00:16:30,440
+All I can say is, boring, boring, boring, boring, boring, boring, boring, boring, boring, boring, boring, boring, boring, boring, boring boring.
+
+199
+00:16:30,440 --> 00:16:36,920
+boring boring boring boring boring at any rate i'm really excited about you guys getting
+
+200
+00:16:36,920 --> 00:16:42,040
+the ball rolling with a company and i'm sure it's early for this but i'm gonna help out
+
+201
+00:16:42,040 --> 00:16:47,560
+i want to do whatever i can i'll make myself fully available to you guys so if it's for
+
+202
+00:16:47,560 --> 00:16:54,920
+brain storming or any little bit of coding that i might be able to do or whatever i'm there
+
+203
+00:16:55,400 --> 00:17:03,320
+find me at studiogeek.org and uh yeah this thing's gonna be great thanks
+
+204
+00:17:03,320 --> 00:17:06,840
+i was um i was thinking of a different comment that's gonna come in that was talking about
+
+205
+00:17:06,840 --> 00:17:13,160
+some OP mail stuff but uh Todd thank you very much for your generous offer and boring indeed
+
+206
+00:17:13,160 --> 00:17:16,680
+and this is what we're what we're seeing all kinds of people are saying hey you know count me in
+
+207
+00:17:16,680 --> 00:17:20,680
+and whatever we could and it's not like i'm looking for a job that's what i what i like about it
+
+208
+00:17:20,760 --> 00:17:26,600
+i've also heard some uh some negative noises you know like oh i thought you guys were only
+
+209
+00:17:26,600 --> 00:17:31,080
+you know trying to build a vibe in in podcasting and like well that's exactly what we're trying
+
+210
+00:17:31,080 --> 00:17:35,480
+to do and wouldn't you rather that you know people are gonna make money in podcasting so
+
+211
+00:17:35,480 --> 00:17:41,480
+ones and people are already making money and if it was just about money believe me either i or
+
+212
+00:17:41,480 --> 00:17:46,440
+Dave could have started to make money in a number of different ways lots of people are offering
+
+213
+00:17:46,520 --> 00:17:49,960
+sponsorships and you know but that's not what this is about there's something much
+
+214
+00:17:49,960 --> 00:17:55,880
+much bigger that that that is coming it is truly it is the people's media it is the people's
+
+215
+00:17:55,880 --> 00:18:01,960
+network um when someone said a long time ago the internet is like citizens banned fucking you know
+
+216
+00:18:01,960 --> 00:18:09,880
+it's it is it's true only the you know we're not limited to the 40 sandals channels uh and uh 40
+
+217
+00:18:09,880 --> 00:18:17,000
+upper side band and 40 lower side band remember the SSB oh man i was so into that i was so
+
+218
+00:18:17,000 --> 00:18:23,720
+in the SS single side band uh CB radio when only we cut cut resistors in the next the chipset
+
+219
+00:18:23,720 --> 00:18:27,880
+and it would give you another or a diode i think it was it would give you another 120 channels
+
+220
+00:18:27,880 --> 00:18:32,120
+anyone out there you should do that it would use to sit on those upper frequencies near the 28
+
+221
+00:18:32,120 --> 00:18:39,640
+megahertz band anyway um i should almost replay what i just said to figure out what i was trying to say
+
+222
+00:18:40,840 --> 00:18:46,360
+yeah uh my point being that you know if people are gonna make money on on podcasting and they're
+
+223
+00:18:46,360 --> 00:18:52,200
+gonna create companies and uh i think anyone would want to at least have a company in the market
+
+224
+00:18:52,200 --> 00:18:56,920
+place that is open and and you know and honest about what they're doing and what their intentions are
+
+225
+00:18:56,920 --> 00:19:03,240
+and is basically trying to party with everyone else to figure out what we need to do so uh but right
+
+226
+00:19:03,320 --> 00:19:09,320
+after um right after Christmas um when my uh when my conveniently with my in-laws are here
+
+227
+00:19:10,600 --> 00:19:15,400
+that's when i take off to the states i'm gonna hook up with uh with Dave and Ron and uh we're gonna
+
+228
+00:19:15,400 --> 00:19:21,720
+you know get some uh get some shit going so i'm extremely extremely excited about uh about that
+
+229
+00:19:21,720 --> 00:19:26,760
+and throughout the podcast hope to touch out in the gosh already 20 minutes i gotta hurry along here
+
+230
+00:19:26,760 --> 00:19:31,480
+i'll be touching on more more stuff as we go along and this is Chris Chaffey in Richmond Virginia just
+
+231
+00:19:31,480 --> 00:19:36,120
+want to say i love the show and make a comment about the religious podcast that you've been
+
+232
+00:19:36,120 --> 00:19:41,640
+shined on your show i think this is the first time that religion has found the technology on
+
+233
+00:19:41,640 --> 00:19:47,320
+the internet before pornography uh i just thought that was really interesting and um so anyway keep
+
+234
+00:19:47,320 --> 00:19:54,600
+up the great work and y'all talk to later uh boy oh yeah religion found well but what is religion
+
+235
+00:19:54,600 --> 00:20:02,600
+and what is pornography and are the interchangeable here's a clip from the new dawn and
+
+236
+00:20:02,600 --> 00:20:16,520
+drew movie road to ruin so tonight at the dawn and drew um house the cause the dawn and drew
+
+237
+00:20:16,520 --> 00:20:23,480
+house what you're listening to is the dawn and drew show right but there's the dawn and true house
+
+238
+00:20:24,120 --> 00:20:31,240
+and the dawn and drew car and the dawn and drew barn that's right so this is taking place in the
+
+239
+00:20:31,240 --> 00:20:40,120
+dawn and drew kitchen that's in the house everything has brand to do see i see i i gotcha okay so
+
+240
+00:20:40,120 --> 00:20:48,280
+i'm with you don't interrupt me okay okay remember okay i talked about this okay
+
+241
+00:20:49,240 --> 00:20:56,920
+true okay i'm not going to talk go ahead are you going to not interrupt me i will not interrupt you
+
+242
+00:20:57,880 --> 00:21:03,240
+promise promise can you make that promise i'll try all right
+
+243
+00:21:06,840 --> 00:21:13,080
+or more sounds like these subscribe to found sound dot net audio fragments from around the web
+
+244
+00:21:18,600 --> 00:21:24,680
+that's like some kind of really twisted performance art but i'm totally digging that and there you go
+
+245
+00:21:24,680 --> 00:21:28,760
+it's the dawn and drew house the dawn and drew kitchen it's all sponsored everything's brand
+
+246
+00:21:29,800 --> 00:21:39,480
+is that what we're going with dawn and drew i don't think so um and was it um Wednesday or Tuesday
+
+247
+00:21:39,480 --> 00:21:45,160
+i was taught well spoken about uh dawn many times of course because yeah she's like my girlfriend and
+
+248
+00:21:46,040 --> 00:21:53,240
+um the fact that she said something to me at bloggercon that has been such an incredible
+
+249
+00:21:54,360 --> 00:22:02,440
+stimulus such a motivating factor in me staying away from all types of tobacco now remember i still
+
+250
+00:22:02,440 --> 00:22:10,600
+like the holy herb but very little of it but no tobacco and it was very easy actually to go back
+
+251
+00:22:10,680 --> 00:22:18,840
+through the production notes on dawn and drew dot com which are also an opml which and which is
+
+252
+00:22:18,840 --> 00:22:25,880
+this outliner format if you if you haven't seen this before um we're hoping david and i are hoping
+
+253
+00:22:25,880 --> 00:22:34,040
+you get an open source outliner out there so you can play with this yourself but essentially
+
+254
+00:22:34,040 --> 00:22:38,360
+that's that's how the production notes are made and that's how i can you can look at them on the
+
+255
+00:22:38,440 --> 00:22:44,120
+web that way and it kind of an outlone outliner rendered format but what i really like is looking
+
+256
+00:22:44,120 --> 00:22:48,600
+at them in an outliner and you can just you know click stuff and it's all kind of a one place
+
+257
+00:22:48,600 --> 00:22:52,840
+but it also makes searching this outline very easy and so i just you know when and look for some
+
+258
+00:22:52,840 --> 00:22:59,960
+references to smoking and i came up with a December second uh podcast uh dawn and drew show and
+
+259
+00:22:59,960 --> 00:23:07,240
+actually the bit that well the stimulating um piece that the dawn said that um i want you to hear
+
+260
+00:23:07,240 --> 00:23:13,400
+because it it really has helped me stay away from tobacco um it really has let's uh drop it
+
+261
+00:23:13,400 --> 00:23:18,600
+to the conversation you're only being heavy that i could contribute to this earth okay so basically
+
+262
+00:23:18,600 --> 00:23:27,000
+talking about um about uh dawn's mom she would be a smoke in our baby's face and i said that too
+
+263
+00:23:27,000 --> 00:23:32,920
+i said grandma cannot blow smoke in baby's face and my mom said i blew smoke in your face and
+
+264
+00:23:33,080 --> 00:23:38,120
+you're a baby to make you not want to smoke cigarettes which i don't smoke it's a good thing then
+
+265
+00:23:38,840 --> 00:23:46,280
+and i'm quite anti-accus smoke yes i am because it kills you yeah and your boyfriend alluded
+
+266
+00:23:46,280 --> 00:23:51,480
+today in a show that he put out yesterday that uh he's still and that he still hasn't smoked
+
+267
+00:23:51,480 --> 00:23:55,080
+now isn't this nice don't we have a beautiful open relationship
+
+268
+00:23:55,160 --> 00:24:02,600
+it's so nice to know that you know drew recognizes that i'm dawn's boy
+
+269
+00:24:03,800 --> 00:24:09,800
+good job Adam you guys if you smoke cigarettes you're totally sucking on the
+
+270
+00:24:09,800 --> 00:24:15,160
+cock of big brother that was it that was the entire line listen to it again because it will help you
+
+271
+00:24:15,160 --> 00:24:21,000
+as well it is beautiful if you smoke cigarettes you're totally sucking on the cock of big brother
+
+272
+00:24:21,080 --> 00:24:25,640
+and that that is that goes so deep in so many ways just sucking on the cock of big brother
+
+273
+00:24:25,640 --> 00:24:31,000
+yeah i i should play this over and over in my life if you smoke cigarettes you're totally
+
+274
+00:24:31,000 --> 00:24:38,040
+sucking on the cock of big brother there you go play that over and if you're smoker play that
+
+275
+00:24:38,040 --> 00:24:43,480
+over and over again and think about what that really means and that's your choice and you're right
+
+276
+00:24:43,480 --> 00:24:50,680
+because it's your body but go for it there's gonna be drew and I and Adam gray whatever one i'll
+
+277
+00:24:51,240 --> 00:24:57,880
+that's right all right a clip for the archives ladies and gents here's the uh the longer
+
+278
+00:24:57,880 --> 00:25:02,920
+uh comment that came in that i want to discuss a little bit about uh this is from uh coanbremor
+
+279
+00:25:02,920 --> 00:25:08,280
+Adam hi this is coanbremor uh calling from the new forester a few miles to the south west of
+
+280
+00:25:08,280 --> 00:25:13,880
+you at the moment uh just a few things first of all by the way it's a colleague from the UK
+
+281
+00:25:13,880 --> 00:25:18,280
+all uh i wanted to say thank you for playing music by the lascivious videos on the daily source code
+
+282
+00:25:19,160 --> 00:25:24,040
+i heard you play famous by them and thought that a few seconds of that will be a fantastic intro
+
+283
+00:25:24,040 --> 00:25:31,960
+and outro to my own podcast um so following your example i emailed lianne uh west over uh who
+
+284
+00:25:31,960 --> 00:25:37,960
+replied with a lovely email uh among other things given me permission so respect to yourself for
+
+285
+00:25:37,960 --> 00:25:42,360
+making me aware their music respect to them for saying yep you can do that and i was
+
+286
+00:25:42,440 --> 00:25:47,160
+chuffed a piece is to hear that they're uh they're selling tons of CDs as a result of your
+
+287
+00:25:47,160 --> 00:25:54,280
+plugs so uh so well done everybody who's uh bought CDs from them i was also uh interested in
+
+288
+00:25:54,280 --> 00:26:00,600
+your comments about iPodda and some of the drawbacks when you're in a restricted bandwidth situation
+
+289
+00:26:00,600 --> 00:26:04,440
+man i got to put this whole thing up so you can listen to him talk about uh he has so many good
+
+290
+00:26:04,440 --> 00:26:09,320
+ideas that i'd hope that the iPodda developers listen to this oh put this uh up as a separate
+
+291
+00:26:09,400 --> 00:26:13,880
+MP3 file i want to move ahead because he's he started to talk about OP about what the second
+
+292
+00:26:13,880 --> 00:26:17,560
+thing is i was wondering whether i was actually missing a trick with the OPML file whether it was supposed
+
+293
+00:26:17,560 --> 00:26:23,640
+to be used in some way with the um with the MP3 file uh i suspect probably not but then i've got
+
+294
+00:26:23,640 --> 00:26:28,360
+to thinking well what if you could you know what if now check this out because this is what i've been
+
+295
+00:26:28,360 --> 00:26:32,680
+trying to figure out i've been trying to figure out the you know these OPML files basically it's
+
+296
+00:26:32,680 --> 00:26:37,720
+perfect for for production and i've and i've you know i've done radio production for a long time
+
+297
+00:26:37,800 --> 00:26:42,040
+so to have an outline or to be able to do that works beautifully now the thing about these
+
+298
+00:26:42,040 --> 00:26:48,600
+about OPML and and what what Dave and i call the uh he calls the internet outliner so i've
+
+299
+00:26:48,600 --> 00:26:54,760
+picked up that that word the internet outliner um because it's all connected and i can open up
+
+300
+00:26:54,760 --> 00:26:59,400
+the outline to someone you know to someone else's outline it's exactly the way if if you're
+
+301
+00:26:59,400 --> 00:27:05,240
+maintaining a node on the iPodda or directory or if you want to i mean basically all i need to do
+
+302
+00:27:05,320 --> 00:27:11,480
+is is create an OPML file and these are all linked together so it seems logical that that's
+
+303
+00:27:11,480 --> 00:27:17,080
+exactly what we're going to do with these production nodes how that ties into the actual RSS feed
+
+304
+00:27:17,080 --> 00:27:24,120
+and the actual um ID3 tags i'm not quite sure that's what i'm looking to figure out what if the
+
+305
+00:27:24,120 --> 00:27:31,080
+technology was clever enough to to consume the OPML file while you're actually playing the MP3 file
+
+306
+00:27:31,160 --> 00:27:37,800
+so for example you could embed the name of the OPML file in one of the ID3 tags and then a suitable
+
+307
+00:27:39,240 --> 00:27:44,120
+client be that a software application or media player of some sort or a hardware device like
+
+308
+00:27:44,120 --> 00:27:49,480
+a you know an ex-generation iPod or something like that could for example display the appropriate part
+
+309
+00:27:49,480 --> 00:27:56,680
+of the OPML nodes when you're at the appropriate part of the MP3 file or possibly even interacts
+
+310
+00:27:56,760 --> 00:28:01,560
+depending upon your um security settings right i'd like to start simple first of all i mean that
+
+311
+00:28:01,560 --> 00:28:06,040
+that would be that would be the best part that would be the easiest and it's all just about ease of
+
+312
+00:28:06,040 --> 00:28:12,440
+used really i mean this is just to be able to to see something simply um and it's really um i have
+
+313
+00:28:12,440 --> 00:28:19,080
+all these tools that that i've collected and i've been working on um that allow me to just basically
+
+314
+00:28:19,080 --> 00:28:25,800
+hit a button and any MP3 files that i've thrown into this one folder on my desktop is then loaded into
+
+315
+00:28:25,800 --> 00:28:32,360
+an outline and it's loaded in with you know uh by the ID3 tag so it's the artist the album which
+
+316
+00:28:32,360 --> 00:28:39,000
+is usually the person uh and then you know uh sometimes they'll have their URL as the album uh and
+
+317
+00:28:39,000 --> 00:28:43,640
+then the actual sound clip itself which of course when i double click that sound clip and uh again
+
+318
+00:28:43,640 --> 00:28:48,600
+i have this uh this great screenshot that i'll uh that i'll put up for you uh that i should
+
+319
+00:28:48,760 --> 00:28:54,920
+did of uh just before i started today's podcast when you double click on that no then uh it opens up
+
+320
+00:28:56,360 --> 00:29:01,720
+the appropriate MP3 file in a quick time player and it starts playing it uh so it's just it's just
+
+321
+00:29:01,720 --> 00:29:06,440
+an interface basically and ease of use i really see this ease of use but we can connect it all together so
+
+322
+00:29:07,080 --> 00:29:11,000
+that's the kind of stuff that we got to figure out um and i'll make a note here that i also
+
+323
+00:29:12,280 --> 00:29:17,720
+put up uh cones entire uh wait there's also an email version of his comment oh that's cool okay so
+
+324
+00:29:17,720 --> 00:29:22,760
+I'll put that in the uh in the production notes as well and moving right along more promos
+
+325
+00:29:22,760 --> 00:29:29,800
+hi Adam this is Andy McCaskey from slash.review and RV business review going through some podcast
+
+326
+00:29:29,800 --> 00:29:37,640
+music i found this track uh on garageband.com and it just has source code written all over it give
+
+327
+00:29:37,640 --> 00:29:40,440
+a listen alright hit it then
+
+328
+00:29:47,720 --> 00:29:51,080
+i'm starting singing on i'm singing right now
+
+329
+00:29:54,760 --> 00:30:01,160
+starting writing just a minute and go i'm almost done and just and goes to show
+
+330
+00:30:02,360 --> 00:30:06,200
+don't have to wrap the words before recording
+
+331
+00:30:09,800 --> 00:30:13,160
+this is a song about it
+
+332
+00:30:13,240 --> 00:30:21,320
+down yeah let's hear the song about it and say
+
+333
+00:30:24,600 --> 00:30:28,600
+doesn't make any sense it's not supposed to
+
+334
+00:30:28,920 --> 00:30:30,600
+oh
+
+335
+00:30:41,000 --> 00:30:46,600
+hi i'm Mads Weinstein and you are listening to yeast radio
+
+336
+00:30:46,600 --> 00:30:53,960
+today i'm just doing a quick promo so that everybody can hear how wonderful yeast radio is
+
+337
+00:30:54,040 --> 00:31:00,680
+and how wonderful i am now you may not know me if you don't read the tabloids but i am a very
+
+338
+00:31:00,680 --> 00:31:09,800
+famous lesbian and the rock band manager for the famous girl band that's girl g double rl
+
+339
+00:31:09,800 --> 00:31:15,800
+goddess ria too as well today i'm gonna just give you a quick sneak preview when i'm gonna play one of
+
+340
+00:31:15,800 --> 00:31:22,600
+these phony phone calls that we love to play over on yeast radio so uh here we go let's have a listen
+
+341
+00:31:24,600 --> 00:31:32,520
+so this is um another promo that came in for yeast radio yeah you got to listen to all the
+
+342
+00:31:32,520 --> 00:31:38,440
+phone gags i wasn't too crazy about most of them but um this whole Mads Weinstein never really
+
+343
+00:31:38,440 --> 00:31:45,080
+intrigues me the things like getting it now oh hold on oh no that's a quick preview i need to
+
+344
+00:31:46,120 --> 00:31:51,720
+not say for work everybody video we took primarily about vaginal yeast but you see we also talk
+
+345
+00:31:51,800 --> 00:31:58,520
+about other things like getting it out i hemorrhoids high five basirial and why they make
+
+346
+00:31:58,520 --> 00:32:03,960
+you shit such big chunks that you can hardly flush down the toilet we have all kinds of fun
+
+347
+00:32:03,960 --> 00:32:11,480
+on yeast radio i'm Mads Weinstein and to get to this for now anyway you go to my weblog
+
+348
+00:32:11,480 --> 00:32:21,720
+match underscore Weinstein dot live journal dot com once again match underscore Weinstein
+
+349
+00:32:21,720 --> 00:32:29,240
+dot live journal dot com excellent um magic uh forget the phony phone calls
+
+350
+00:32:29,240 --> 00:32:34,360
+Mads just do a podcast just talk just you know say whatever's on your mind that'll be beautiful
+
+351
+00:32:35,000 --> 00:32:40,600
+uh let me see uh what i have so many things left that i want to play i guess i have to
+
+352
+00:32:40,600 --> 00:32:46,760
+save some of this for tomorrow as is usually the case except for uh i'll get to play some
+
+353
+00:32:46,840 --> 00:32:48,760
+rest of web audio for you
+
+354
+00:32:52,920 --> 00:33:00,280
+this is uh web audio for about four well oh eight you want drum we got drum
+
+355
+00:33:17,640 --> 00:33:25,640
+this would be the old kind of block high school band i believe and we're coming up to the
+
+356
+00:33:25,640 --> 00:33:33,080
+drums drums are the crystalian loudest part of the band and you can hear it right loud
+
+357
+00:33:38,040 --> 00:33:43,720
+guys with the trumpets don't need to be doing much we have a number of two more players doing
+
+358
+00:33:43,720 --> 00:33:49,800
+nothing and now there's some girls holding some brightly colored things in their hands
+
+359
+00:33:49,800 --> 00:33:55,160
+actually okay cheerleaders and there's a rack you're terrorizing your child
+
+360
+00:33:55,160 --> 00:34:00,520
+coony actually codes hey coony that's coony right there I guess play it to us
+
+361
+00:34:01,960 --> 00:34:08,600
+and there goes the uh we'll be getting in the parade basically we'll be back after these past
+
+362
+00:34:08,600 --> 00:34:14,760
+those are cheerleaders those are cheerleaders dad for asked a rare audio good ill beat
+
+363
+00:34:15,400 --> 00:34:21,160
+and actually um uh peaked did uh another rastware audio they want to play for you which i want
+
+364
+00:34:21,160 --> 00:34:26,200
+to try and do you know some christmas stuff now that we're getting into uh the season uh to be
+
+365
+00:34:26,200 --> 00:34:32,040
+this this season to be jolly uh it's really big here in in gulford everywhere you hear it's it's
+
+366
+00:34:32,040 --> 00:34:37,960
+all holiday cheer um so if you got any of that send it on along uh to the source code um i'm
+
+367
+00:34:38,040 --> 00:34:43,240
+going to do uh bit of rastware uh which was actually it's a pretty serious and lovely message
+
+368
+00:34:44,920 --> 00:34:51,240
+like we couldn't expect that from peaked all right this is rastware audio for
+
+369
+00:34:52,120 --> 00:34:59,160
+well 11 you know we we have a lot of fun here you know we like to joke around we like to have a
+
+370
+00:34:59,160 --> 00:35:06,440
+good time but i want to be serious for a minute here feet the world yes feet the world it's very
+
+371
+00:35:06,520 --> 00:35:13,880
+powerful message i think it brings great hope to people you know it's it can kind of bring us all
+
+372
+00:35:13,880 --> 00:35:22,280
+together for a great cause and i try to do what i can i try to do what i can for that cause i try
+
+373
+00:35:22,840 --> 00:35:32,120
+to feed the world you're wondering how i do that well i provide to the world and rastest
+
+374
+00:35:32,120 --> 00:35:42,600
+2.0 feet and atoms 0.3 feet and rastest 1.0 feet and rastest or 0.91 feet and most importantly
+
+375
+00:35:43,400 --> 00:35:51,400
+rastest 2.0 feet within closures yes so this holiday season i want to ask you all please
+
+376
+00:35:52,360 --> 00:36:01,640
+feed the world thank you and good all right actually um you know band aid do they know it's Christmas
+
+377
+00:36:01,720 --> 00:36:08,040
+oh shoot i should play that um and i did buy it that is now number one in the 9 kingdom and
+
+378
+00:36:08,040 --> 00:36:13,080
+basically would bob gild off and and everyone who's worked on the record this is a second time
+
+379
+00:36:13,080 --> 00:36:17,960
+has been down the second version i guess it is is it 10 years later since uh since live aid i
+
+380
+00:36:17,960 --> 00:36:25,560
+must be yeah 90 no 20 years since live aid i'm sorry um is they just said to people hey you know
+
+381
+00:36:25,560 --> 00:36:33,080
+it's a really expensive cd uh or a cd single um it costs you more uh than usual but that's because
+
+382
+00:36:33,080 --> 00:36:37,800
+all this money is going to feed the world the feed people in africa and uh Britain's are
+
+383
+00:36:37,800 --> 00:36:41,560
+really great about that they go out and they buy this thing and now it's number one and bob gild off
+
+384
+00:36:41,560 --> 00:36:46,040
+was on tv at top of the pops you know it's the big the big music show uh and he was an africa
+
+385
+00:36:46,040 --> 00:36:49,080
+and he said i'm gonna actually do something really weird he says i want you to go out next week
+
+386
+00:36:49,080 --> 00:36:53,880
+and buy the record again please uh as you was thanking everyone for it uh going the number one
+
+387
+00:36:53,960 --> 00:36:59,880
+and these guys have done some amazing work they they really have um uh it's it's made a difference
+
+388
+00:36:59,880 --> 00:37:07,240
+it has made a difference um so feed the world um and yeah if you do that with your rss 2.0
+
+389
+00:37:07,240 --> 00:37:18,680
+feed that's cool okay i can i can contribute no problem or that's very transmats very transmats
+
+390
+00:37:18,840 --> 00:37:25,080
+next person says Merry Christmas to me i'll come hey Adam it's Kevin from scouts.net Merry Christmas
+
+391
+00:37:25,880 --> 00:37:30,760
+i just wanted to let you know the scouts.net will be featuring nothing but Christmas music
+
+392
+00:37:30,760 --> 00:37:34,440
+for the rest of December from the obscure
+
+393
+00:37:35,080 --> 00:37:43,400
+what can you get i wouldn't care Christmas when he already oh i call the classics
+
+394
+00:37:43,400 --> 00:37:47,400
+so this is christmas
+
+395
+00:37:47,960 --> 00:37:53,400
+and what have you done to some stuff you've never heard before
+
+396
+00:37:53,400 --> 00:38:11,480
+so tune in to the scouts.net christmas cast excellent oh that's a uh a low phased boring let's hear
+
+397
+00:38:11,480 --> 00:38:19,880
+that one again that was good that was pretty good that was a bad one okay scouts.net got some good
+
+398
+00:38:19,960 --> 00:38:27,480
+stuff going on the christmas cast um and i was talking to uh uh to analy new it's um i don't
+
+399
+00:38:27,480 --> 00:38:32,040
+we've talked about on the podcast on Friday or not but we certainly talked about it at Starbucks
+
+400
+00:38:33,320 --> 00:38:40,200
+how how shitty it really is you know that we can't play music that is associated with you know
+
+401
+00:38:40,200 --> 00:38:47,240
+with with our memories um which you know it was what sharing sharing music should be about
+
+402
+00:38:47,320 --> 00:38:52,120
+and that especially when it comes to christmas stuff man there is so i mean so many different christmas
+
+403
+00:38:52,120 --> 00:38:59,880
+songs or holiday songs in general um uh or just songs. it means so much to so many people and you
+
+404
+00:38:59,880 --> 00:39:03,640
+know if i if i were to play a certain song right now it would mean something to you it would mean
+
+405
+00:39:03,640 --> 00:39:09,080
+mean something to me and and at that moment it's uh it's very powerful it raised up a lot of emotions
+
+406
+00:39:09,080 --> 00:39:15,720
+and the fact that we can't do that is is really a bummer um sucks i think i think i don't know if
+
+407
+00:39:15,800 --> 00:39:19,560
+i'm gonna be able to make it all the way up until the new year without playing something that
+
+408
+00:39:19,560 --> 00:39:25,480
+maybe not sanctioned i don't know and of course i'm not gonna get away from the prince of the pod even
+
+409
+00:39:25,480 --> 00:39:32,040
+though i have uh kept my vow not to release and not to let any way slip out of my hands uh the
+
+410
+00:39:32,040 --> 00:39:38,520
+MP3 of my version of the prince of the pod you can uh count on people like bill to um and that's
+
+411
+00:39:38,600 --> 00:39:48,600
+bull uh bill uh dovet i believe the DOU THET to do his own version um with his own music and with
+
+412
+00:39:48,600 --> 00:39:58,040
+his own new lyrics. it's only about two minutes if you want to skip ahead or just hand out
+
+413
+00:40:09,320 --> 00:40:19,320
+i ain't got no internet of uh two hours of Don and Drew puts us all into the moon and uh
+
+414
+00:40:20,280 --> 00:40:29,560
+male of feeds by our means prince of the pod she's a good good Larry new copter on the way
+
+415
+00:40:29,880 --> 00:40:31,560
+day
+
+416
+00:40:32,280 --> 00:40:34,280
+go for UK
+
+417
+00:40:34,280 --> 00:40:41,560
+or that my can choose i don't pay no or i do this one
+
+418
+00:40:41,560 --> 00:40:48,680
+that ones i have found here i can't find them around them uh
+
+419
+00:40:48,680 --> 00:40:52,440
+man of means by all means
+
+420
+00:40:52,600 --> 00:40:54,440
+prince of the pod
+
+421
+00:40:56,680 --> 00:40:58,680
+all right thank you very much for the love
+
+422
+00:41:00,680 --> 00:41:05,480
+that's gonna do it for today's daily source code uh left with lots more comments and uh
+
+423
+00:41:05,480 --> 00:41:11,960
+pod safe music that we got to get to tomorrow and also as we move into uh into the holiday
+
+424
+00:41:11,960 --> 00:41:17,720
+five we'll be uh recalling some memories right we've played some two two matches
+
+425
+00:41:23,080 --> 00:41:28,840
+okay so those uh this is a good start for the week lots more to do lots more that needs to happen
+
+426
+00:41:28,840 --> 00:41:35,640
+stuff happening uh around uh the cottage uh we have to find stables for Christina's pony who's
+
+427
+00:41:35,640 --> 00:41:40,920
+still been uh he was left back in Belgium got to work on that more dimmers to be installed
+
+428
+00:41:40,920 --> 00:41:49,240
+but do a lot of dimmer work of course still going back and forth to Starbucks but it looks like
+
+429
+00:41:49,320 --> 00:42:02,200
+December 20th the band is new and we're all over the world okay one other thing i want to mention
+
+430
+00:42:02,200 --> 00:42:10,360
+um i'm working on uh new server and consolidating some of my uh my different website infrastructure
+
+431
+00:42:11,400 --> 00:42:16,440
+uh so uh keep your eye on curie dot com i'm basically gonna fold everything down the curie dot
+
+432
+00:42:16,440 --> 00:42:20,280
+com let's keep your eye on that that's we can leave a comment or of course you can always
+
+433
+00:42:20,280 --> 00:42:25,560
+email it to be out of a pretty dot com if it's under like you know five mags go ahead and just uh send
+
+434
+00:42:25,560 --> 00:42:31,320
+an audio attachment metal cash overnight take care see you tomorrow
+
+435
+00:42:46,440 --> 00:42:48,440
+you
+

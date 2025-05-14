@@ -1,0 +1,4520 @@
+1
+00:00:00,000 --> 00:00:12,880
+Well, everybody, welcome to the thank god and spread edition of the daily source code.
+
+2
+00:00:12,880 --> 00:00:18,000
+My name is Adam Curry coming to you partially from the cottage in the UK from Curry Cottage
+
+3
+00:00:18,000 --> 00:00:24,000
+and we're about to go to a new location, actually studio A8.
+
+4
+00:00:24,000 --> 00:00:30,000
+So here's the deal.
+
+5
+00:00:30,000 --> 00:00:37,000
+I was scheduled to be interview today for Wired Magazine, which I presume was all about podcasting.
+
+6
+00:00:37,000 --> 00:00:46,000
+Anly knew it, came to Guildford and she actually turned out that they're doing a whole big piece on radio for Wired Magazine
+
+7
+00:00:46,000 --> 00:00:51,000
+and that they're actually featuring me and part of that is podcast.
+
+8
+00:00:51,000 --> 00:00:57,000
+That was all about podcasting, but turned out to be a semi-profile on me, so of course it took me much longer than expected.
+
+9
+00:00:57,000 --> 00:01:05,000
+It took me hours to talk about myself, you know how that goes.
+
+10
+00:01:05,000 --> 00:01:13,000
+So after about three hours of pushing room, hanging out at Starbucks and talking about my life,
+
+11
+00:01:13,000 --> 00:01:17,000
+of course, eventually the question came, can I watch it do a podcast?
+
+12
+00:01:17,000 --> 00:01:22,000
+I said no, no, you cannot watch me do a podcast, you can be in a podcast with me.
+
+13
+00:01:22,000 --> 00:01:30,000
+And this is not the right place at Starbucks, at least because, you know, I have two headphones and really close micang because of all the noise.
+
+14
+00:01:30,000 --> 00:01:41,000
+So I suggest that we then walk up to the parking spot where I have the Audi and we use the A8 studio to record a little show.
+
+15
+00:01:41,000 --> 00:01:50,000
+And it turned into kind of me interviewing Annely and she interviewing me and what we talked about all kinds of stuff, like start fucking, and well you name it.
+
+16
+00:01:50,000 --> 00:01:54,000
+In fact, you're going to enjoy it right now. Today is Friday, source code.
+
+17
+00:01:54,000 --> 00:01:55,000
+Enjoy.
+
+18
+00:01:55,000 --> 00:02:05,000
+Okay, so perfect point to slide into the beginning of the podcast from the A8 studio A8 in overlooking downtown Guildford.
+
+19
+00:02:05,000 --> 00:02:07,000
+What does that mean studio A8?
+
+20
+00:02:07,000 --> 00:02:09,000
+That means that I'm sitting in the car studio.
+
+21
+00:02:09,000 --> 00:02:12,000
+I have a little bit too much reverb actually for the car studio.
+
+22
+00:02:12,000 --> 00:02:13,000
+Hold on, hold on, hold on.
+
+23
+00:02:13,000 --> 00:02:15,000
+I turned the reverb off.
+
+24
+00:02:15,000 --> 00:02:16,000
+Ah, much better.
+
+25
+00:02:16,000 --> 00:02:19,000
+Here with Annely.
+
+26
+00:02:19,000 --> 00:02:21,000
+Do you want to be identified as...
+
+27
+00:02:21,000 --> 00:02:23,000
+Sure, you can identify me however you want.
+
+28
+00:02:23,000 --> 00:02:27,000
+As a journalist here today from Wired Magazine.
+
+29
+00:02:27,000 --> 00:02:28,000
+Yes, that's right.
+
+30
+00:02:28,000 --> 00:02:29,000
+Okay.
+
+31
+00:02:29,000 --> 00:02:32,000
+And we've just sat in Starbucks for...
+
+32
+00:02:32,000 --> 00:02:34,000
+I can't believe we sat there for about three hours.
+
+33
+00:02:34,000 --> 00:02:35,000
+Yeah.
+
+34
+00:02:35,000 --> 00:02:38,000
+And actually, we're not sticky or there's no problems.
+
+35
+00:02:38,000 --> 00:02:43,000
+Well, when I got up, I did feel the chair, like kind of the covering lifted up with me as I stood up.
+
+36
+00:02:43,000 --> 00:02:44,000
+Yeah.
+
+37
+00:02:44,000 --> 00:02:46,000
+I noticed that girl who then said, okay, please sit there.
+
+38
+00:02:46,000 --> 00:02:48,000
+Didn't she say that immediately?
+
+39
+00:02:48,000 --> 00:02:49,000
+She did.
+
+40
+00:02:49,000 --> 00:02:50,000
+She wanted our seat.
+
+41
+00:02:50,000 --> 00:02:51,000
+Cause next to the outlet.
+
+42
+00:02:51,000 --> 00:02:52,000
+Outlet.
+
+43
+00:02:52,000 --> 00:02:53,000
+Yes, the power.
+
+44
+00:02:53,000 --> 00:02:54,000
+Electronic power.
+
+45
+00:02:54,000 --> 00:02:56,000
+So Annely came...
+
+46
+00:02:56,000 --> 00:02:59,000
+Now, we've been in contact for about a week or so.
+
+47
+00:02:59,000 --> 00:03:01,000
+And she asked if she could come and interview me.
+
+48
+00:03:01,000 --> 00:03:04,000
+And I figured it was more about podcasting than anything,
+
+49
+00:03:04,000 --> 00:03:09,000
+but now that we just spent three hours talking about me.
+
+50
+00:03:09,000 --> 00:03:10,000
+Yeah, that's what I was telling you.
+
+51
+00:03:10,000 --> 00:03:11,000
+Yeah, that's what I'm talking about himself.
+
+52
+00:03:11,000 --> 00:03:12,000
+I'm good at that.
+
+53
+00:03:12,000 --> 00:03:13,000
+Yeah, he's, yeah.
+
+54
+00:03:13,000 --> 00:03:14,000
+You can tell.
+
+55
+00:03:14,000 --> 00:03:15,000
+That's what the Saliliqui is all about.
+
+56
+00:03:15,000 --> 00:03:16,000
+That's right.
+
+57
+00:03:16,000 --> 00:03:17,000
+Yeah.
+
+58
+00:03:17,000 --> 00:03:20,000
+He's a practice, a practice self storyteller.
+
+59
+00:03:20,000 --> 00:03:21,000
+Story.
+
+60
+00:03:21,000 --> 00:03:22,000
+No, no, no.
+
+61
+00:03:22,000 --> 00:03:24,000
+You know, that's interesting because...
+
+62
+00:03:24,000 --> 00:03:27,000
+Because that is what I've done my entire life.
+
+63
+00:03:27,000 --> 00:03:31,000
+The minute you put on a pair of headphones and you have a microphone,
+
+64
+00:03:31,000 --> 00:03:33,000
+you're kind of talking to yourself.
+
+65
+00:03:33,000 --> 00:03:38,000
+And I've always imagined that there's probably one other person listening.
+
+66
+00:03:38,000 --> 00:03:41,000
+Whether there were thousands, tens of thousands or hundreds of thousands,
+
+67
+00:03:41,000 --> 00:03:44,000
+or perhaps millions where they were watching on TV.
+
+68
+00:03:44,000 --> 00:03:46,000
+And it feels no different to this...
+
+69
+00:03:46,000 --> 00:03:49,000
+The podcasting or being on MTV.
+
+70
+00:03:49,000 --> 00:03:52,000
+In fact, on MTV was even easier.
+
+71
+00:03:52,000 --> 00:03:56,000
+Do you know that actually that we all were kind of talking to the crew?
+
+72
+00:03:56,000 --> 00:03:59,000
+They were standing right next to the goddamn camera.
+
+73
+00:03:59,000 --> 00:04:03,000
+The guy, you know, the camera up would, you know,
+
+74
+00:04:03,000 --> 00:04:06,000
+you could see and put his head around smiling or whatever.
+
+75
+00:04:06,000 --> 00:04:09,000
+Or the associate producer who would be there, you know,
+
+76
+00:04:09,000 --> 00:04:12,000
+trying to make sure that you're saying all the right things
+
+77
+00:04:12,000 --> 00:04:14,000
+or hitting all the promotional items.
+
+78
+00:04:14,000 --> 00:04:16,000
+And basically just be talking to them.
+
+79
+00:04:16,000 --> 00:04:19,000
+And you feel good right when they laugh and stuff like that.
+
+80
+00:04:19,000 --> 00:04:20,000
+Yes.
+
+81
+00:04:20,000 --> 00:04:21,000
+I want the camera got a laugh.
+
+82
+00:04:21,000 --> 00:04:22,000
+Exactly.
+
+83
+00:04:22,000 --> 00:04:23,000
+How did you know that?
+
+84
+00:04:23,000 --> 00:04:25,000
+Did you watch enough MTV to pick up on that?
+
+85
+00:04:26,000 --> 00:04:29,000
+It's true. You can tell that it's playing right to the camera.
+
+86
+00:04:29,000 --> 00:04:30,000
+Totally.
+
+87
+00:04:30,000 --> 00:04:32,000
+And I see some of that now.
+
+88
+00:04:32,000 --> 00:04:36,000
+Do you remember when E started up and E was kind of like
+
+89
+00:04:36,000 --> 00:04:39,000
+MTV of entertainment before turning to what it is now?
+
+90
+00:04:39,000 --> 00:04:42,000
+Because that was started by Lee Masters,
+
+91
+00:04:42,000 --> 00:04:46,000
+who was kicked out of MTV by John Reardon,
+
+92
+00:04:46,000 --> 00:04:49,000
+just some inside dirt there.
+
+93
+00:04:49,000 --> 00:04:52,000
+And it was exactly the same thing.
+
+94
+00:04:52,000 --> 00:04:53,000
+You're doing all this entertainment news,
+
+95
+00:04:53,000 --> 00:04:55,000
+but basically laughing with the camera crew
+
+96
+00:04:55,000 --> 00:04:57,000
+trying to, you know, get a rapport going.
+
+97
+00:04:57,000 --> 00:04:58,000
+Yeah.
+
+98
+00:04:58,000 --> 00:05:00,000
+And so we essentially had the same thing with podcasting.
+
+99
+00:05:00,000 --> 00:05:04,000
+Only the feedback doesn't necessarily come from the camera crew.
+
+100
+00:05:04,000 --> 00:05:07,000
+It comes from, you know, the podcasters themselves.
+
+101
+00:05:07,000 --> 00:05:08,000
+And the e-mail listeners.
+
+102
+00:05:08,000 --> 00:05:09,000
+Yeah.
+
+103
+00:05:09,000 --> 00:05:11,000
+The e-mail, well, you just, we just went through
+
+104
+00:05:11,000 --> 00:05:15,000
+some of my, my production that I, that I do for the show
+
+105
+00:05:15,000 --> 00:05:18,000
+with basically scanning the e-mail downloading all the MP3s.
+
+106
+00:05:18,000 --> 00:05:20,000
+And I haven't had a chance to listen to everything.
+
+107
+00:05:20,000 --> 00:05:24,000
+So I might put some of those things on the next show.
+
+108
+00:05:24,000 --> 00:05:28,000
+But I just wanted to figure out what exactly you're doing.
+
+109
+00:05:28,000 --> 00:05:30,000
+Because you, I mean, you must, first of all,
+
+110
+00:05:30,000 --> 00:05:31,000
+you had something else to do, right?
+
+111
+00:05:31,000 --> 00:05:33,000
+It wasn't just, you didn't just come over all the way
+
+112
+00:05:33,000 --> 00:05:35,000
+to, to Guilford just for me.
+
+113
+00:05:35,000 --> 00:05:37,000
+But no, I was just in Guilford for you.
+
+114
+00:05:37,000 --> 00:05:38,000
+I, I can go for it.
+
+115
+00:05:38,000 --> 00:05:40,000
+But you went London for other things, right?
+
+116
+00:05:40,000 --> 00:05:41,000
+There was other stuff you could do.
+
+117
+00:05:41,000 --> 00:05:43,000
+I came all the way to London just for you Adam.
+
+118
+00:05:43,000 --> 00:05:44,000
+Really?
+
+119
+00:05:44,000 --> 00:05:45,000
+Yeah.
+
+120
+00:05:45,000 --> 00:05:46,000
+And you're not shitting me, right?
+
+121
+00:05:46,000 --> 00:05:47,000
+No, I'm totally not.
+
+122
+00:05:47,000 --> 00:05:49,000
+Don't change it because we had a really good rapport
+
+123
+00:05:49,000 --> 00:05:50,000
+because it's totally true.
+
+124
+00:05:50,000 --> 00:05:52,000
+I flew all the way out to London.
+
+125
+00:05:52,000 --> 00:05:56,000
+And it's like, I'm so paid for me to come out and talk to you.
+
+126
+00:05:56,000 --> 00:05:57,000
+Who?
+
+127
+00:05:57,000 --> 00:05:58,000
+Uncle Sy.
+
+128
+00:05:58,000 --> 00:05:59,000
+Uncle Sy?
+
+129
+00:05:59,000 --> 00:06:01,000
+Oh, he's the, is he the dude?
+
+130
+00:06:01,000 --> 00:06:02,000
+He's the dude.
+
+131
+00:06:02,000 --> 00:06:03,000
+And wired?
+
+132
+00:06:03,000 --> 00:06:04,000
+Okay.
+
+133
+00:06:04,000 --> 00:06:05,000
+So, he's not the founder of wired.
+
+134
+00:06:05,000 --> 00:06:06,000
+No, no.
+
+135
+00:06:06,000 --> 00:06:07,000
+He just owns it.
+
+136
+00:06:07,000 --> 00:06:08,000
+He owns Condonast.
+
+137
+00:06:08,000 --> 00:06:09,000
+Oh, okay.
+
+138
+00:06:09,000 --> 00:06:10,000
+So he actually personally?
+
+139
+00:06:10,000 --> 00:06:13,000
+No, he didn't personally call me and say, hey.
+
+140
+00:06:13,000 --> 00:06:14,000
+Okay.
+
+141
+00:06:14,000 --> 00:06:15,000
+Condonast.
+
+142
+00:06:15,000 --> 00:06:16,000
+But that's Condonast is like big.
+
+143
+00:06:16,000 --> 00:06:18,000
+They own, like, lots of languages.
+
+144
+00:06:18,000 --> 00:06:21,000
+You can't even, I'm like a fly on his shoe.
+
+145
+00:06:21,000 --> 00:06:22,000
+Like he has no idea.
+
+146
+00:06:22,000 --> 00:06:23,000
+Don't put yourself down like that.
+
+147
+00:06:23,000 --> 00:06:24,000
+No, I mean, on size shoe.
+
+148
+00:06:24,000 --> 00:06:27,000
+I mean, I'm sure there's other people who care, who care more.
+
+149
+00:06:27,000 --> 00:06:28,000
+Okay.
+
+150
+00:06:28,000 --> 00:06:29,000
+So.
+
+151
+00:06:29,000 --> 00:06:30,000
+And, you know, no offense side for listening.
+
+152
+00:06:30,000 --> 00:06:33,000
+I mean, just to, just so I can understand this.
+
+153
+00:06:33,000 --> 00:06:37,000
+So someone says, there's a, do you mind just walking through it?
+
+154
+00:06:37,000 --> 00:06:38,000
+How the work?
+
+155
+00:06:38,000 --> 00:06:39,000
+So there's a meeting.
+
+156
+00:06:39,000 --> 00:06:40,000
+There's a meeting.
+
+157
+00:06:40,000 --> 00:06:44,000
+The high level thinkers at wired magazines get together.
+
+158
+00:06:44,000 --> 00:06:47,000
+And they come up with something smart that they want to cover.
+
+159
+00:06:47,000 --> 00:06:48,000
+You know, cover.
+
+160
+00:06:48,000 --> 00:06:49,000
+Like in this case, radio.
+
+161
+00:06:49,000 --> 00:06:50,000
+Okay.
+
+162
+00:06:50,000 --> 00:06:51,000
+Oh, radio.
+
+163
+00:06:51,000 --> 00:06:52,000
+Okay.
+
+164
+00:06:52,000 --> 00:06:53,000
+That's the, yeah.
+
+165
+00:06:53,000 --> 00:06:58,000
+And, you know, some secret that we will not disclose stories or assign to various
+
+166
+00:06:58,000 --> 00:07:03,000
+people that are all about the, you know, the sort of mutations that radios going through.
+
+167
+00:07:03,000 --> 00:07:05,000
+Now that technology is changing.
+
+168
+00:07:05,000 --> 00:07:06,000
+Right.
+
+169
+00:07:06,000 --> 00:07:07,000
+We were talking about before, right?
+
+170
+00:07:07,000 --> 00:07:08,000
+Challenges to radio.
+
+171
+00:07:08,000 --> 00:07:09,000
+Yes.
+
+172
+00:07:09,000 --> 00:07:13,000
+From, you know, new technologies and radio really hasn't gone through that.
+
+173
+00:07:13,000 --> 00:07:15,000
+And, and so then, you know.
+
+174
+00:07:16,000 --> 00:07:18,000
+So for XM, that's kind of, that's kind of what that is.
+
+175
+00:07:18,000 --> 00:07:20,000
+Yeah, I mean, that's out, that's out there's so far.
+
+176
+00:07:20,000 --> 00:07:27,000
+And there's actually now, there's a program that some guys invented, which allows you to record XM.
+
+177
+00:07:27,000 --> 00:07:30,000
+And then enable it and, you know, store it.
+
+178
+00:07:30,000 --> 00:07:31,000
+Yeah.
+
+179
+00:07:31,000 --> 00:07:32,000
+Yeah.
+
+180
+00:07:32,000 --> 00:07:33,000
+Sort of.
+
+181
+00:07:33,000 --> 00:07:34,000
+But where do you store it?
+
+182
+00:07:34,000 --> 00:07:35,000
+In the car or at home or.
+
+183
+00:07:35,000 --> 00:07:39,000
+You store it on your media player on whatever, whatever, you know,
+
+184
+00:07:39,000 --> 00:07:40,000
+Okay.
+
+185
+00:07:40,000 --> 00:07:41,000
+Your audio player is.
+
+186
+00:07:41,000 --> 00:07:42,000
+Yeah.
+
+187
+00:07:42,000 --> 00:07:43,000
+Yeah.
+
+188
+00:07:43,000 --> 00:07:44,000
+I don't mean to say media player like the windows.
+
+189
+00:07:44,000 --> 00:07:45,000
+No, I know.
+
+190
+00:07:45,000 --> 00:07:46,000
+Generic.
+
+191
+00:07:46,000 --> 00:07:47,000
+Thank you.
+
+192
+00:07:47,000 --> 00:07:48,000
+Thank you for, yes.
+
+193
+00:07:48,000 --> 00:07:49,000
+Thank you for clarifying.
+
+194
+00:07:49,000 --> 00:07:50,000
+That's important.
+
+195
+00:07:50,000 --> 00:07:52,000
+Please do not use the window media player.
+
+196
+00:07:52,000 --> 00:07:53,000
+Why not?
+
+197
+00:07:53,000 --> 00:07:54,000
+It's evil.
+
+198
+00:07:54,000 --> 00:07:55,000
+No.
+
+199
+00:07:55,000 --> 00:07:56,000
+DRM.
+
+200
+00:07:56,000 --> 00:08:00,000
+And Microsoft in general has some, I think, poor policies regarding its media player.
+
+201
+00:08:00,000 --> 00:08:02,000
+But we could talk about that later.
+
+202
+00:08:02,000 --> 00:08:03,000
+Okay.
+
+203
+00:08:03,000 --> 00:08:05,000
+But yes.
+
+204
+00:08:05,000 --> 00:08:08,000
+So this is for a big radio article.
+
+205
+00:08:08,000 --> 00:08:12,000
+Well, it's about, so there will be articles about radio.
+
+206
+00:08:12,000 --> 00:08:15,000
+And I'm doing the article in podcasting and featuring Adam Curry.
+
+207
+00:08:15,000 --> 00:08:18,000
+See, this is the part that really I loved.
+
+208
+00:08:18,000 --> 00:08:19,000
+The Prince of podcast.
+
+209
+00:08:19,000 --> 00:08:20,000
+The Prince of podcast.
+
+210
+00:08:20,000 --> 00:08:21,000
+Yeah.
+
+211
+00:08:21,000 --> 00:08:22,000
+You heard that.
+
+212
+00:08:22,000 --> 00:08:23,000
+Don't tell me you've heard that.
+
+213
+00:08:23,000 --> 00:08:24,000
+The Prince of podcast.
+
+214
+00:08:24,000 --> 00:08:25,000
+Did you hear the song?
+
+215
+00:08:25,000 --> 00:08:28,000
+I haven't heard you encouraging people to create the song.
+
+216
+00:08:28,000 --> 00:08:31,000
+I haven't heard any Adam Curry for like two days.
+
+217
+00:08:31,000 --> 00:08:35,000
+I mean, except in person, which is, you know, which is, of course, as much better than.
+
+218
+00:08:35,000 --> 00:08:38,000
+But it's different, you know, when somebody is in person.
+
+219
+00:08:38,000 --> 00:08:41,000
+You know, it's weird to like hear somebody on their podcast and meet them in person.
+
+220
+00:08:41,000 --> 00:08:44,000
+You keep wanting to like not look at them and just hear their voice.
+
+221
+00:08:44,000 --> 00:08:45,000
+And it's like not so distracting.
+
+222
+00:08:45,000 --> 00:08:48,000
+There's like a person attached to the voice that's really in my iPod.
+
+223
+00:08:48,000 --> 00:08:49,000
+Yeah.
+
+224
+00:08:49,000 --> 00:08:50,000
+Yeah.
+
+225
+00:08:50,000 --> 00:08:51,000
+So what are you doing?
+
+226
+00:08:51,000 --> 00:08:53,000
+Well, what I was doing is actually I was going to see.
+
+227
+00:08:53,000 --> 00:08:57,000
+I have my iPod here and I put my eye trip on because we're in the A8 studio.
+
+228
+00:08:57,000 --> 00:08:58,000
+Right.
+
+229
+00:08:58,000 --> 00:09:02,000
+What I was going to do is I was going to play something over the sound system here.
+
+230
+00:09:02,000 --> 00:09:04,000
+So we can record it through the microphones at the same time.
+
+231
+00:09:04,000 --> 00:09:07,000
+You know, you can also hear it because you're not wearing headphones.
+
+232
+00:09:07,000 --> 00:09:09,000
+And I don't have a, it's not a real studio.
+
+233
+00:09:09,000 --> 00:09:10,000
+No.
+
+234
+00:09:10,000 --> 00:09:11,000
+I don't know.
+
+235
+00:09:11,000 --> 00:09:12,000
+I don't even know.
+
+236
+00:09:12,000 --> 00:09:16,000
+I like the fact that there's a map of Gilford on his little.
+
+237
+00:09:16,000 --> 00:09:17,000
+Isn't that the shit though?
+
+238
+00:09:17,000 --> 00:09:18,000
+Isn't that the shit though?
+
+239
+00:09:18,000 --> 00:09:21,000
+It also has little icons for where you can check this out.
+
+240
+00:09:21,000 --> 00:09:22,000
+Check this out.
+
+241
+00:09:22,000 --> 00:09:24,000
+That red sun looking.
+
+242
+00:09:24,000 --> 00:09:25,000
+Shit.
+
+243
+00:09:25,000 --> 00:09:26,000
+I don't know.
+
+244
+00:09:26,000 --> 00:09:27,000
+What is that?
+
+245
+00:09:27,000 --> 00:09:28,000
+Yeah.
+
+246
+00:09:28,000 --> 00:09:32,000
+Is that a places you can go to get tattoo door?
+
+247
+00:09:32,000 --> 00:09:33,000
+And we should check that out.
+
+248
+00:09:33,000 --> 00:09:34,000
+Well, watch this.
+
+249
+00:09:34,000 --> 00:09:35,000
+Watch this.
+
+250
+00:09:35,000 --> 00:09:37,000
+Because this is a DVD navigation system.
+
+251
+00:09:38,000 --> 00:09:40,000
+So watch me zoom out.
+
+252
+00:09:40,000 --> 00:09:41,000
+And you'll see.
+
+253
+00:09:41,000 --> 00:09:43,000
+Does it show like planet earth?
+
+254
+00:09:43,000 --> 00:09:44,000
+Wow.
+
+255
+00:09:44,000 --> 00:09:47,000
+So I can go to any place within this map, which is all of Europe.
+
+256
+00:09:47,000 --> 00:09:48,000
+Wow.
+
+257
+00:09:48,000 --> 00:09:49,000
+Let's go to, let's go Berlin.
+
+258
+00:09:49,000 --> 00:09:50,000
+Okay.
+
+259
+00:09:50,000 --> 00:09:51,000
+Okay.
+
+260
+00:09:51,000 --> 00:09:52,000
+Hold on.
+
+261
+00:09:52,000 --> 00:09:53,000
+Let's go.
+
+262
+00:09:53,000 --> 00:09:54,000
+Let's go to Berlin.
+
+263
+00:09:54,000 --> 00:09:55,000
+So country.
+
+264
+00:09:55,000 --> 00:09:56,000
+Right.
+
+265
+00:09:56,000 --> 00:09:58,000
+We'll select Germany.
+
+266
+00:09:58,000 --> 00:10:00,000
+Town.
+
+267
+00:10:00,000 --> 00:10:02,000
+This is being loaded.
+
+268
+00:10:02,000 --> 00:10:04,000
+It's a big ass country.
+
+269
+00:10:05,000 --> 00:10:07,000
+It's not that big anymore.
+
+270
+00:10:07,000 --> 00:10:09,000
+Well, for a whole bunch of towns.
+
+271
+00:10:09,000 --> 00:10:10,000
+Hold on.
+
+272
+00:10:10,000 --> 00:10:13,000
+But we could go to an obscure German town.
+
+273
+00:10:13,000 --> 00:10:14,000
+Hold on.
+
+274
+00:10:14,000 --> 00:10:15,000
+Well, Berlin.
+
+275
+00:10:15,000 --> 00:10:16,000
+Berlin.
+
+276
+00:10:16,000 --> 00:10:17,000
+Berlin.
+
+277
+00:10:17,000 --> 00:10:18,000
+In multiple languages.
+
+278
+00:10:18,000 --> 00:10:19,000
+Okay.
+
+279
+00:10:19,000 --> 00:10:20,000
+Berlin.
+
+280
+00:10:20,000 --> 00:10:21,000
+What is Berlin here?
+
+281
+00:10:21,000 --> 00:10:22,000
+It's a little Berlin.
+
+282
+00:10:22,000 --> 00:10:26,000
+It's a Berlin in Dutch spelling.
+
+283
+00:10:26,000 --> 00:10:28,000
+I want to go to special destination or just a street.
+
+284
+00:10:28,000 --> 00:10:29,000
+Let's go special destination.
+
+285
+00:10:29,000 --> 00:10:30,000
+Yes.
+
+286
+00:10:30,000 --> 00:10:32,000
+Maybe we can find out what that is.
+
+287
+00:10:32,000 --> 00:10:33,000
+Yeah.
+
+288
+00:10:33,000 --> 00:10:34,000
+It's a little sun.
+
+289
+00:10:34,000 --> 00:10:35,000
+It's a little sun.
+
+290
+00:10:35,000 --> 00:10:37,000
+It's a landmark.
+
+291
+00:10:37,000 --> 00:10:39,000
+How about an ice skating rink?
+
+292
+00:10:39,000 --> 00:10:40,000
+Fine.
+
+293
+00:10:40,000 --> 00:10:41,000
+Ice skating rink of Berlin.
+
+294
+00:10:41,000 --> 00:10:44,000
+I don't understand why the ice skating rinks aren't also landmarks.
+
+295
+00:10:44,000 --> 00:10:45,000
+Well, not necessarily.
+
+296
+00:10:45,000 --> 00:10:46,000
+There might be, could be a landmark.
+
+297
+00:10:46,000 --> 00:10:47,000
+Here.
+
+298
+00:10:47,000 --> 00:10:48,000
+Ice, ice, portala.
+
+299
+00:10:48,000 --> 00:10:49,000
+Do we go there?
+
+300
+00:10:49,000 --> 00:10:50,000
+Ice, portala?
+
+301
+00:10:50,000 --> 00:10:51,000
+Yes.
+
+302
+00:10:51,000 --> 00:10:52,000
+We even got the phone number.
+
+303
+00:10:52,000 --> 00:10:54,000
+We now set a destination.
+
+304
+00:10:54,000 --> 00:10:55,000
+Start route guidance.
+
+305
+00:10:55,000 --> 00:10:57,000
+When it starts us with the globe.
+
+306
+00:10:57,000 --> 00:10:59,000
+I just want you to know right now.
+
+307
+00:10:59,000 --> 00:11:01,000
+We're seeing a slow zoom.
+
+308
+00:11:01,000 --> 00:11:02,000
+Okay.
+
+309
+00:11:03,000 --> 00:11:04,000
+There it is.
+
+310
+00:11:04,000 --> 00:11:05,000
+There's our route.
+
+311
+00:11:05,000 --> 00:11:06,000
+If we leave now.
+
+312
+00:11:06,000 --> 00:11:08,000
+We will be there at 330 this morning.
+
+313
+00:11:08,000 --> 00:11:09,000
+Great.
+
+314
+00:11:09,000 --> 00:11:10,000
+Well, all the way.
+
+315
+00:11:10,000 --> 00:11:11,000
+We have to go underneath.
+
+316
+00:11:11,000 --> 00:11:12,000
+We have to take the train.
+
+317
+00:11:12,000 --> 00:11:14,000
+All the way from Gilford to the ice rink in Berlin.
+
+318
+00:11:14,000 --> 00:11:15,000
+Yeah.
+
+319
+00:11:15,000 --> 00:11:16,000
+We could be that at 330.
+
+320
+00:11:16,000 --> 00:11:17,000
+If we left right now.
+
+321
+00:11:17,000 --> 00:11:18,000
+That's great.
+
+322
+00:11:18,000 --> 00:11:20,000
+Well, that's the power of technology.
+
+323
+00:11:20,000 --> 00:11:21,000
+Isn't that wonderful?
+
+324
+00:11:21,000 --> 00:11:23,000
+And it also has the traffic monitor system.
+
+325
+00:11:23,000 --> 00:11:25,000
+So what the traffic is going to be like?
+
+326
+00:11:25,000 --> 00:11:26,000
+Well, what it'll do actually.
+
+327
+00:11:26,000 --> 00:11:28,000
+It'll route you around bad traffic.
+
+328
+00:11:28,000 --> 00:11:29,000
+Wow.
+
+329
+00:11:29,000 --> 00:11:30,000
+Yeah.
+
+330
+00:11:30,000 --> 00:11:31,000
+And they can shoot.
+
+331
+00:11:31,000 --> 00:11:32,000
+Okay.
+
+332
+00:11:32,000 --> 00:11:33,000
+Now, what I was going to do.
+
+333
+00:11:33,000 --> 00:11:34,000
+I was looking for the Prince of Pod.
+
+334
+00:11:34,000 --> 00:11:37,000
+I can't believe that you haven't heard that.
+
+335
+00:11:37,000 --> 00:11:39,000
+You haven't heard enough.
+
+336
+00:11:39,000 --> 00:11:40,000
+I know clearly.
+
+337
+00:11:40,000 --> 00:11:41,000
+My ears are not.
+
+338
+00:11:41,000 --> 00:11:42,000
+I have not.
+
+339
+00:11:42,000 --> 00:11:43,000
+Hold on a second.
+
+340
+00:11:43,000 --> 00:11:47,000
+You see how easy it is to fill up 10 minutes of.
+
+341
+00:11:47,000 --> 00:11:50,000
+Of of MP3 space.
+
+342
+00:11:50,000 --> 00:11:52,000
+We just did 10 minutes.
+
+343
+00:11:52,000 --> 00:11:53,000
+I know.
+
+344
+00:11:53,000 --> 00:11:54,000
+Just looking at maps.
+
+345
+00:11:54,000 --> 00:11:55,000
+It's easy.
+
+346
+00:11:55,000 --> 00:11:57,000
+And people eat to shut up.
+
+347
+00:11:57,000 --> 00:12:00,000
+Well, let me see if I can find Prince of Pod.
+
+348
+00:12:01,000 --> 00:12:02,000
+It's true.
+
+349
+00:12:02,000 --> 00:12:06,000
+I mean, I was willing to listen to like 20 minutes of you not being able to launch Skype.
+
+350
+00:12:06,000 --> 00:12:07,000
+With Lee.
+
+351
+00:12:07,000 --> 00:12:08,000
+With Lee Wilkins.
+
+352
+00:12:08,000 --> 00:12:09,000
+Lee.
+
+353
+00:12:09,000 --> 00:12:10,000
+Are you there?
+
+354
+00:12:10,000 --> 00:12:11,000
+Oh, dude.
+
+355
+00:12:11,000 --> 00:12:12,000
+Oh, man.
+
+356
+00:12:12,000 --> 00:12:14,000
+It was just like hanging out with my friends.
+
+357
+00:12:14,000 --> 00:12:15,000
+We were like.
+
+358
+00:12:15,000 --> 00:12:16,000
+Oh, no.
+
+359
+00:12:16,000 --> 00:12:17,000
+Oh, no.
+
+360
+00:12:17,000 --> 00:12:18,000
+Oh, no.
+
+361
+00:12:18,000 --> 00:12:19,000
+Oh, almost.
+
+362
+00:12:19,000 --> 00:12:20,000
+Oh, no.
+
+363
+00:12:20,000 --> 00:12:21,000
+Oh, no.
+
+364
+00:12:21,000 --> 00:12:22,000
+Oh, no.
+
+365
+00:12:22,000 --> 00:12:23,000
+Oh, no.
+
+366
+00:12:23,000 --> 00:12:24,000
+Oh, no.
+
+367
+00:12:24,000 --> 00:12:25,000
+Hold on.
+
+368
+00:12:25,000 --> 00:12:27,000
+That's the BBC traffic report cutting.
+
+369
+00:12:28,000 --> 00:12:30,000
+Hey, Jenny.
+
+370
+00:12:30,000 --> 00:12:31,000
+You're all.
+
+371
+00:12:31,000 --> 00:12:33,000
+On the internet.
+
+372
+00:12:33,000 --> 00:12:34,000
+In that cool.
+
+373
+00:12:34,000 --> 00:12:35,000
+Someone has a traffic report.
+
+374
+00:12:35,000 --> 00:12:36,000
+It cuts in.
+
+375
+00:12:36,000 --> 00:12:37,000
+It just keeps letting you know.
+
+376
+00:12:37,000 --> 00:12:38,000
+Here at the ice rate.
+
+377
+00:12:38,000 --> 00:12:40,000
+There's a little bit of traffic.
+
+378
+00:12:40,000 --> 00:12:41,000
+Okay.
+
+379
+00:12:41,000 --> 00:12:42,000
+I seriously want to play a song for you, though.
+
+380
+00:12:42,000 --> 00:12:43,000
+I seriously.
+
+381
+00:12:43,000 --> 00:12:44,000
+Okay.
+
+382
+00:12:44,000 --> 00:12:45,000
+Hold on.
+
+383
+00:12:45,000 --> 00:12:47,000
+See how much I hate this iPod interface.
+
+384
+00:12:47,000 --> 00:12:49,000
+Now, how long it's taken me to find something.
+
+385
+00:12:49,000 --> 00:12:52,000
+He's doing that thing where you like spin your finger around the dial.
+
+386
+00:12:52,000 --> 00:12:53,000
+He's using his thumb, though.
+
+387
+00:12:53,000 --> 00:12:54,000
+A lot of.
+
+388
+00:12:54,000 --> 00:12:55,000
+You do it with your finger.
+
+389
+00:12:55,000 --> 00:12:56,000
+The index finger method.
+
+390
+00:12:56,000 --> 00:12:57,000
+Really?
+
+391
+00:12:57,000 --> 00:12:58,000
+The thumb.
+
+392
+00:12:58,000 --> 00:13:00,000
+I don't have the thumb method is.
+
+393
+00:13:00,000 --> 00:13:01,000
+You know.
+
+394
+00:13:01,000 --> 00:13:02,000
+That's.
+
+395
+00:13:02,000 --> 00:13:04,000
+That's interesting.
+
+396
+00:13:04,000 --> 00:13:05,000
+The thumb.
+
+397
+00:13:05,000 --> 00:13:06,000
+No, the thumb method is the only.
+
+398
+00:13:06,000 --> 00:13:07,000
+I only know the thumb method.
+
+399
+00:13:07,000 --> 00:13:09,000
+You got to learn the finger method.
+
+400
+00:13:09,000 --> 00:13:10,000
+It's.
+
+401
+00:13:10,000 --> 00:13:11,000
+I think it's faster.
+
+402
+00:13:11,000 --> 00:13:12,000
+But it's.
+
+403
+00:13:12,000 --> 00:13:13,000
+It also requires two hands.
+
+404
+00:13:13,000 --> 00:13:14,000
+So.
+
+405
+00:13:14,000 --> 00:13:15,000
+Okay.
+
+406
+00:13:15,000 --> 00:13:16,000
+So I'm going to.
+
+407
+00:13:16,000 --> 00:13:17,000
+He's testing the finger method.
+
+408
+00:13:17,000 --> 00:13:18,000
+Yes.
+
+409
+00:13:18,000 --> 00:13:19,000
+The finger method sucks.
+
+410
+00:13:19,000 --> 00:13:20,000
+Okay.
+
+411
+00:13:20,000 --> 00:13:22,000
+I want to play some with severe spitties.
+
+412
+00:13:22,000 --> 00:13:23,000
+Excellent.
+
+413
+00:13:23,000 --> 00:13:24,000
+Now, you've heard of him, right?
+
+414
+00:13:24,000 --> 00:13:25,000
+I have.
+
+415
+00:13:26,000 --> 00:13:27,000
+Have you actually seen him live?
+
+416
+00:13:27,000 --> 00:13:28,000
+I haven't.
+
+417
+00:13:28,000 --> 00:13:29,000
+No, I just heard him on your podcast.
+
+418
+00:13:29,000 --> 00:13:30,000
+And I was like.
+
+419
+00:13:30,000 --> 00:13:31,000
+Okay.
+
+420
+00:13:31,000 --> 00:13:32,000
+I'll do.
+
+421
+00:13:32,000 --> 00:13:33,000
+I'll play.
+
+422
+00:13:33,000 --> 00:13:34,000
+You do have to meet him.
+
+423
+00:13:34,000 --> 00:13:35,000
+In fact.
+
+424
+00:13:35,000 --> 00:13:36,000
+Oh, let me.
+
+425
+00:13:36,000 --> 00:13:38,000
+I'll have to pull this up for a second.
+
+426
+00:13:38,000 --> 00:13:39,000
+Well, this is.
+
+427
+00:13:39,000 --> 00:13:41,000
+What's setting up?
+
+428
+00:13:41,000 --> 00:13:42,000
+Well, it's.
+
+429
+00:13:42,000 --> 00:13:48,000
+The listivious bitties are performing.
+
+430
+00:13:48,000 --> 00:13:50,000
+I'm such a mess.
+
+431
+00:13:50,000 --> 00:13:54,000
+Are performing Sunday night in Manhattan.
+
+432
+00:13:54,000 --> 00:13:57,000
+Of course, there's not the email I was looking for.
+
+433
+00:13:57,000 --> 00:13:59,000
+I want to put that in later.
+
+434
+00:13:59,000 --> 00:14:00,000
+I guess.
+
+435
+00:14:00,000 --> 00:14:02,000
+This is me taking a drink of water.
+
+436
+00:14:02,000 --> 00:14:03,000
+Go for it.
+
+437
+00:14:03,000 --> 00:14:05,000
+Do I have.
+
+438
+00:14:05,000 --> 00:14:07,000
+See, Leanna sent me.
+
+439
+00:14:07,000 --> 00:14:08,000
+Leanna from a severe spitties.
+
+440
+00:14:08,000 --> 00:14:09,000
+It sent me email.
+
+441
+00:14:09,000 --> 00:14:12,000
+There's so many different email accounts.
+
+442
+00:14:12,000 --> 00:14:14,000
+Okay.
+
+443
+00:14:14,000 --> 00:14:17,000
+I'll post about this in the in the production show notes.
+
+444
+00:14:17,000 --> 00:14:21,000
+But essentially they're doing a show on the.
+
+445
+00:14:22,000 --> 00:14:23,000
+14th.
+
+446
+00:14:23,000 --> 00:14:25,000
+So that's Sunday.
+
+447
+00:14:25,000 --> 00:14:27,000
+Sunday Monday.
+
+448
+00:14:27,000 --> 00:14:31,000
+Well, today is the 10th 11th 12th.
+
+449
+00:14:31,000 --> 00:14:32,000
+It's Monday.
+
+450
+00:14:32,000 --> 00:14:33,000
+Then I guess.
+
+451
+00:14:33,000 --> 00:14:36,000
+Well, in Manhattan at 11 o'clock, no cover.
+
+452
+00:14:36,000 --> 00:14:40,000
+And if you use the secret word.
+
+453
+00:14:40,000 --> 00:14:42,000
+Yeah, which we have to come up with.
+
+454
+00:14:42,000 --> 00:14:45,000
+Then you get in free at the door.
+
+455
+00:14:45,000 --> 00:14:48,000
+So of course, it would be.
+
+456
+00:14:49,000 --> 00:14:50,000
+What's a good word?
+
+457
+00:14:50,000 --> 00:14:53,000
+What's a good secret word that people just want to say podcast.
+
+458
+00:14:53,000 --> 00:14:54,000
+So that too.
+
+459
+00:14:54,000 --> 00:14:57,000
+podcast is good podcast or source code or.
+
+460
+00:14:57,000 --> 00:14:58,000
+Yeah.
+
+461
+00:14:58,000 --> 00:15:02,000
+Or you could do like something that was, you know, more self-promotional.
+
+462
+00:15:02,000 --> 00:15:04,000
+Like I love Adam Curry.
+
+463
+00:15:04,000 --> 00:15:05,000
+Yeah, no, no, no.
+
+464
+00:15:05,000 --> 00:15:07,000
+Because that would be wrong.
+
+465
+00:15:07,000 --> 00:15:12,000
+Um, no, I'm just still trying to figure out where her email went.
+
+466
+00:15:12,000 --> 00:15:14,000
+I had it saved obviously.
+
+467
+00:15:14,000 --> 00:15:15,000
+I'll find it.
+
+468
+00:15:15,000 --> 00:15:17,000
+Now, it should be.
+
+469
+00:15:17,000 --> 00:15:18,000
+Just podcast.
+
+470
+00:15:18,000 --> 00:15:20,000
+Yeah, I think podcast works, right?
+
+471
+00:15:20,000 --> 00:15:21,000
+Okay.
+
+472
+00:15:21,000 --> 00:15:22,000
+Yeah, it's broken.
+
+473
+00:15:22,000 --> 00:15:23,000
+Okay, podcast.
+
+474
+00:15:23,000 --> 00:15:25,000
+If you meant, and I'm going to give you all the details.
+
+475
+00:15:25,000 --> 00:15:27,000
+Uh, what we'll do is we're going to play some list of these
+
+476
+00:15:27,000 --> 00:15:28,000
+Bitties.
+
+477
+00:15:28,000 --> 00:15:30,000
+And let me see if this is working.
+
+478
+00:15:30,000 --> 00:15:32,000
+Yeah, I think it is.
+
+479
+00:15:32,000 --> 00:15:33,000
+Yes.
+
+480
+00:15:33,000 --> 00:15:34,000
+Okay.
+
+481
+00:15:34,000 --> 00:15:36,000
+Um, I'm going to play famous.
+
+482
+00:15:36,000 --> 00:15:38,000
+That's one of my favorite Bitties songs.
+
+483
+00:15:38,000 --> 00:15:40,000
+So we have to kind of be quiet what place.
+
+484
+00:15:40,000 --> 00:15:42,000
+Then otherwise you'll, they'll hear us.
+
+485
+00:15:42,000 --> 00:15:43,000
+Okay.
+
+486
+00:15:43,000 --> 00:15:44,000
+But it'll be cool.
+
+487
+00:15:44,000 --> 00:15:45,000
+Here's the CBS Bitties.
+
+488
+00:15:45,000 --> 00:15:51,000
+So I have to find the right spot, so it doesn't crackle.
+
+489
+00:15:51,000 --> 00:15:52,000
+I want to be famous.
+
+490
+00:15:52,000 --> 00:15:57,000
+I want to wear minks and sattens and pearls.
+
+491
+00:15:57,000 --> 00:15:59,000
+I want to be famous.
+
+492
+00:15:59,000 --> 00:16:03,000
+More than just any old girl.
+
+493
+00:16:03,000 --> 00:16:07,000
+I want to have eyes as blue as the sea.
+
+494
+00:16:07,000 --> 00:16:10,000
+I want all the people to look at me.
+
+495
+00:16:11,000 --> 00:16:13,000
+I want my own show on TV.
+
+496
+00:16:13,000 --> 00:16:16,000
+I want to be that girl.
+
+497
+00:16:16,000 --> 00:16:18,000
+I want to be famous.
+
+498
+00:16:18,000 --> 00:16:20,000
+Eat out at sardies.
+
+499
+00:16:20,000 --> 00:16:22,000
+I parties at spy.
+
+500
+00:16:22,000 --> 00:16:25,000
+I want to be famous.
+
+501
+00:16:25,000 --> 00:16:29,000
+Got to Paris on private flights.
+
+502
+00:16:29,000 --> 00:16:34,000
+I want to have lovers buy the score.
+
+503
+00:16:34,000 --> 00:16:37,000
+Movie producers knocking down my door.
+
+504
+00:16:37,000 --> 00:16:44,000
+This is the faith that is in store for me.
+
+505
+00:16:44,000 --> 00:16:51,000
+Oh, when I'm famous, I will wear a great trench coat and fake red hair.
+
+506
+00:16:51,000 --> 00:16:58,000
+So that all will know that it is me.
+
+507
+00:16:58,000 --> 00:17:02,000
+When they see me, how they'll smile.
+
+508
+00:17:02,000 --> 00:17:05,000
+When they see me, how they'll smile.
+
+509
+00:17:05,000 --> 00:17:08,000
+When they see me, how they'll smile.
+
+510
+00:17:08,000 --> 00:17:11,000
+When they see me, how they'll smile.
+
+511
+00:17:11,000 --> 00:17:14,000
+When they see me, how they'll smile.
+
+512
+00:17:14,000 --> 00:17:17,000
+When they see me, how they'll smile.
+
+513
+00:17:17,000 --> 00:17:20,000
+When they see me, how they'll smile.
+
+514
+00:17:20,000 --> 00:17:23,000
+When they see me, how they'll smile.
+
+515
+00:17:23,000 --> 00:17:26,000
+When they see me, how they'll smile.
+
+516
+00:17:26,000 --> 00:17:28,000
+When they see me, how they'll smile.
+
+517
+00:17:28,000 --> 00:17:31,000
+When they see me, how they'll smile.
+
+518
+00:17:31,000 --> 00:17:46,000
+When they see me, how they'll smile.
+
+519
+00:17:46,000 --> 00:17:50,160
+When they see me, how they'll smile.
+
+520
+00:17:50,160 --> 00:17:51,160
+When they see me, how they'll smile.
+
+521
+00:17:51,160 --> 00:17:54,000
+When they see me, how they'll smile.
+
+522
+00:17:54,000 --> 00:17:59,000
+At the point of the day I start to get laughing.
+
+523
+00:17:59,000 --> 00:18:04,000
+It was like there's a team and when they have all the fashion, sort of like old times.
+
+524
+00:18:04,000 --> 00:18:06,000
+Yeah, I like that, I love that.
+
+525
+00:18:06,000 --> 00:18:07,000
+Yeah, I know, I love that.
+
+526
+00:18:07,000 --> 00:18:09,000
+They give her a buddy, a little bit.
+
+527
+00:18:09,000 --> 00:18:10,000
+Yeah.
+
+528
+00:18:10,000 --> 00:18:11,000
+Kind of like lounge singer.
+
+529
+00:18:11,000 --> 00:18:12,000
+Yeah.
+
+530
+00:18:12,000 --> 00:18:13,000
+Yeah.
+
+531
+00:18:13,000 --> 00:18:15,000
+I think he played in circles this time.
+
+532
+00:18:15,000 --> 00:18:16,000
+Oh, I'm sure.
+
+533
+00:18:16,000 --> 00:18:17,000
+Yeah.
+
+534
+00:18:17,000 --> 00:18:18,000
+Okay.
+
+535
+00:18:18,000 --> 00:18:20,000
+I'm planning to keep that up.
+
+536
+00:18:20,000 --> 00:18:21,000
+But he knows.
+
+537
+00:18:29,000 --> 00:18:49,000
+Oh, I will be a Barbie doll with huge fake tits.
+
+538
+00:18:49,000 --> 00:18:51,000
+No hips at all.
+
+539
+00:18:51,000 --> 00:18:54,000
+And I hate us attitude.
+
+540
+00:18:54,000 --> 00:18:58,000
+And oh, oh, oh, oh, oh, oh.
+
+541
+00:18:58,000 --> 00:19:02,000
+Every morning I'll get high on.
+
+542
+00:19:02,000 --> 00:19:05,000
+Colored Hills, Martini's dry.
+
+543
+00:19:05,000 --> 00:19:08,000
+A little way and just good touch.
+
+544
+00:19:08,000 --> 00:19:10,000
+Oh, oh, oh.
+
+545
+00:19:10,000 --> 00:19:15,000
+I want to be my famous better than all of my friends.
+
+546
+00:19:15,000 --> 00:19:17,000
+Oh, much better than all of her.
+
+547
+00:19:17,000 --> 00:19:23,000
+I want to be famous, lonely and unknown at the end.
+
+548
+00:19:23,000 --> 00:19:27,000
+Oh, I'll end up bitter and ugly and old.
+
+549
+00:19:27,000 --> 00:19:31,000
+Not just my body, but also my soul.
+
+550
+00:19:31,000 --> 00:19:37,000
+But a legend is my goal and a legend of me.
+
+551
+00:19:37,000 --> 00:19:43,000
+When I'm famous, not a will give for the little people.
+
+552
+00:19:43,000 --> 00:19:46,000
+Oh, they have tears when I'm famous.
+
+553
+00:19:46,000 --> 00:19:53,000
+Hey, my friend.
+
+554
+00:19:53,000 --> 00:19:56,000
+Welcome to Adam Curry's Jazz Cafe.
+
+555
+00:19:56,000 --> 00:19:57,000
+Everybody.
+
+556
+00:19:57,000 --> 00:19:58,000
+All right.
+
+557
+00:19:58,000 --> 00:20:00,000
+That was the serious bitties.
+
+558
+00:20:00,000 --> 00:20:01,000
+I want to be famous.
+
+559
+00:20:01,000 --> 00:20:04,000
+You can check them out at bittiesforever.com.
+
+560
+00:20:04,000 --> 00:20:06,000
+And I found the email.
+
+561
+00:20:06,000 --> 00:20:07,000
+So it's Tuesday.
+
+562
+00:20:07,000 --> 00:20:10,000
+There's a, I even got me information wrong.
+
+563
+00:20:10,000 --> 00:20:11,000
+It's Tuesday.
+
+564
+00:20:11,000 --> 00:20:13,000
+There's a no cover show in Manhattan at 11 p.m.
+
+565
+00:20:14,000 --> 00:20:18,000
+It's the bitties holiday party in Manhattan at the living room.
+
+566
+00:20:18,000 --> 00:20:20,000
+Any idea where that is?
+
+567
+00:20:20,000 --> 00:20:24,000
+It's 154 Ludlow Street.
+
+568
+00:20:24,000 --> 00:20:27,000
+And there's even an, I'll put this in the podcast show notes.
+
+569
+00:20:27,000 --> 00:20:30,000
+2125337235.
+
+570
+00:20:30,000 --> 00:20:32,000
+One set 11 p.m.
+
+571
+00:20:32,000 --> 00:20:33,000
+And here's the deal.
+
+572
+00:20:33,000 --> 00:20:37,000
+The end suggests you could give your listening audience a secret code.
+
+573
+00:20:37,000 --> 00:20:40,000
+So they can come up to me or the production manager Ben.
+
+574
+00:20:40,000 --> 00:20:41,000
+Say the code.
+
+575
+00:20:41,000 --> 00:20:43,000
+And they will know how many people came.
+
+576
+00:20:43,000 --> 00:20:44,000
+Thanks to the podcast.
+
+577
+00:20:44,000 --> 00:20:46,000
+Maybe she's just during the, during the set.
+
+578
+00:20:46,000 --> 00:20:48,000
+Just say anyone here from the source code.
+
+579
+00:20:48,000 --> 00:20:50,000
+Raise your hand without talking.
+
+580
+00:20:50,000 --> 00:20:51,000
+Yeah.
+
+581
+00:20:51,000 --> 00:20:52,000
+There's another way to go.
+
+582
+00:20:52,000 --> 00:20:53,000
+My be better.
+
+583
+00:20:53,000 --> 00:20:57,000
+But also the, the secret word is pod squad.
+
+584
+00:20:57,000 --> 00:20:58,000
+That's what it has to be.
+
+585
+00:20:58,000 --> 00:20:59,000
+Pod squad.
+
+586
+00:20:59,000 --> 00:21:00,000
+Pod squad.
+
+587
+00:21:00,000 --> 00:21:01,000
+Pod people.
+
+588
+00:21:01,000 --> 00:21:02,000
+Pod people.
+
+589
+00:21:02,000 --> 00:21:03,000
+Yeah.
+
+590
+00:21:03,000 --> 00:21:04,000
+Like we're going to come up.
+
+591
+00:21:04,000 --> 00:21:05,000
+Similarly you.
+
+592
+00:21:05,000 --> 00:21:06,000
+Oh, no.
+
+593
+00:21:06,000 --> 00:21:08,000
+But anyway, definitely go check out.
+
+594
+00:21:09,000 --> 00:21:10,000
+It's a no cover.
+
+595
+00:21:10,000 --> 00:21:17,000
+So go check out the, the bitis, the, the listivious bitis at the bitis holiday party in Manhattan at the living room.
+
+596
+00:21:17,000 --> 00:21:20,000
+Tuesday to some of 14th 11 p.m.
+
+597
+00:21:20,000 --> 00:21:22,000
+154 Ludlow Street.
+
+598
+00:21:22,000 --> 00:21:30,000
+I think great thing about these podcasts is you can basically use the thumb or finger method to replay that message and find out exactly where it is.
+
+599
+00:21:30,000 --> 00:21:35,000
+Still here with with Analy who's come to lovely gilford.
+
+600
+00:21:35,000 --> 00:21:40,000
+Uh, to talk about pod casting and did you get enough about me and you think you know enough about my life?
+
+601
+00:21:40,000 --> 00:21:41,000
+I feel like I do.
+
+602
+00:21:41,000 --> 00:21:42,000
+Yeah.
+
+603
+00:21:42,000 --> 00:21:43,000
+You didn't have any of the sex questions I expected.
+
+604
+00:21:43,000 --> 00:21:44,000
+There was none of that.
+
+605
+00:21:44,000 --> 00:21:45,000
+Yeah.
+
+606
+00:21:45,000 --> 00:21:47,000
+I mean we could do the sex questions now.
+
+607
+00:21:47,000 --> 00:21:48,000
+Yeah.
+
+608
+00:21:48,000 --> 00:21:49,000
+Okay.
+
+609
+00:21:49,000 --> 00:21:50,000
+So I'm waiting for you to interview me some more actually.
+
+610
+00:21:50,000 --> 00:21:51,000
+I think that'll be really cool.
+
+611
+00:21:51,000 --> 00:21:54,000
+So, you know, how was sex with Michael Jackson?
+
+612
+00:21:54,000 --> 00:22:00,000
+You know, when I met Michael Jackson was the weirdest thing the first time I met him because we
+
+613
+00:22:00,000 --> 00:22:01,000
+met him.
+
+614
+00:22:01,000 --> 00:22:08,000
+This is when I had to give him the Michael Jackson video Vanguard award, which was created only for Michael Jackson, so he would.
+
+615
+00:22:08,000 --> 00:22:10,000
+He could only be given to him by you precisely.
+
+616
+00:22:10,000 --> 00:22:11,000
+Yeah.
+
+617
+00:22:11,000 --> 00:22:12,000
+You know the story.
+
+618
+00:22:12,000 --> 00:22:14,000
+And the reason why the sex part.
+
+619
+00:22:14,000 --> 00:22:16,000
+I had those sex with Michael Jackson.
+
+620
+00:22:16,000 --> 00:22:17,000
+What's the point?
+
+621
+00:22:17,000 --> 00:22:18,000
+But here's what was weird.
+
+622
+00:22:18,000 --> 00:22:23,000
+So this was at MJJ Studios in Los Angeles.
+
+623
+00:22:23,000 --> 00:22:26,000
+It's not in some weird back-ass road to.
+
+624
+00:22:27,000 --> 00:22:28,000
+Beautiful studios, right?
+
+625
+00:22:28,000 --> 00:22:29,000
+So you walk in there.
+
+626
+00:22:29,000 --> 00:22:31,000
+And what was weird was immediately.
+
+627
+00:22:31,000 --> 00:22:34,000
+I saw that they were at least 10 kids running around.
+
+628
+00:22:34,000 --> 00:22:36,000
+And how he Mandel was there.
+
+629
+00:22:36,000 --> 00:22:37,000
+Which is.
+
+630
+00:22:37,000 --> 00:22:38,000
+Which is weird.
+
+631
+00:22:38,000 --> 00:22:40,000
+I mean, well, thank you.
+
+632
+00:22:40,000 --> 00:22:41,000
+I don't know.
+
+633
+00:22:41,000 --> 00:22:42,000
+It's like, you know, maybe.
+
+634
+00:22:42,000 --> 00:22:44,000
+Was he pulling a glove over his head?
+
+635
+00:22:44,000 --> 00:22:45,000
+Well, no.
+
+636
+00:22:45,000 --> 00:22:48,000
+Maybe the how he Mandel was supposed to like keep the kids busy with it.
+
+637
+00:22:48,000 --> 00:22:50,000
+And with his body's world voices or something.
+
+638
+00:22:50,000 --> 00:22:51,000
+Yeah.
+
+639
+00:22:51,000 --> 00:22:52,000
+You're doing a lot of the body's voice.
+
+640
+00:22:52,000 --> 00:22:53,000
+It was scary.
+
+641
+00:22:53,000 --> 00:22:54,000
+It was scary.
+
+642
+00:22:54,000 --> 00:22:56,000
+You know, adults in Michael's life.
+
+643
+00:22:56,000 --> 00:23:00,000
+At that point, we didn't know about any of the allegations.
+
+644
+00:23:00,000 --> 00:23:01,000
+Yeah.
+
+645
+00:23:01,000 --> 00:23:02,000
+And I still don't know if it's true.
+
+646
+00:23:02,000 --> 00:23:07,000
+I mean, I have to say a lot of the evidence or what is being called evidence points that way.
+
+647
+00:23:07,000 --> 00:23:09,000
+But that's hard.
+
+648
+00:23:09,000 --> 00:23:10,000
+I have no idea.
+
+649
+00:23:10,000 --> 00:23:12,000
+Did they just read his house again?
+
+650
+00:23:12,000 --> 00:23:13,000
+Yeah.
+
+651
+00:23:13,000 --> 00:23:14,000
+He's fucked.
+
+652
+00:23:14,000 --> 00:23:15,000
+Yeah.
+
+653
+00:23:15,000 --> 00:23:16,000
+He really is fucked.
+
+654
+00:23:16,000 --> 00:23:17,000
+He's fucked.
+
+655
+00:23:17,000 --> 00:23:19,000
+And you know that Tommy Matolle, you know, Tommy Matolle is right?
+
+656
+00:23:19,000 --> 00:23:20,000
+No.
+
+657
+00:23:20,000 --> 00:23:21,000
+Tommy Matolle.
+
+658
+00:23:21,000 --> 00:23:22,000
+Tommy Matolle.
+
+659
+00:23:23,000 --> 00:23:25,000
+He runs Sony Records.
+
+660
+00:23:25,000 --> 00:23:26,000
+Oh, OK.
+
+661
+00:23:26,000 --> 00:23:28,000
+And he was married to Mariah Carey.
+
+662
+00:23:28,000 --> 00:23:29,000
+Right?
+
+663
+00:23:29,000 --> 00:23:31,000
+There's a whole story all by itself.
+
+664
+00:23:31,000 --> 00:23:37,000
+Tommy Matolle hates or at least when I was in New York and in the scene hated Michael Jackson.
+
+665
+00:23:37,000 --> 00:23:43,000
+And Michael Jackson is so insecure and so childish really.
+
+666
+00:23:43,000 --> 00:23:48,000
+That all these promotions to do when this was the bad album.
+
+667
+00:23:48,000 --> 00:23:49,000
+Literally, of course.
+
+668
+00:23:49,000 --> 00:23:51,000
+This was the bad album.
+
+669
+00:23:51,000 --> 00:23:56,000
+And so the head Michael in the in the limo and they're going from, you know, from station to promotion or whatever.
+
+670
+00:23:56,000 --> 00:24:00,000
+And Michael kept saying, I really have to go to the bathroom.
+
+671
+00:24:00,000 --> 00:24:03,000
+And Tommy Matolle would not let him fucking pee.
+
+672
+00:24:03,000 --> 00:24:04,000
+It's so awesome.
+
+673
+00:24:04,000 --> 00:24:05,000
+On purpose.
+
+674
+00:24:05,000 --> 00:24:06,000
+On purpose.
+
+675
+00:24:06,000 --> 00:24:07,000
+Not to can't do it.
+
+676
+00:24:07,000 --> 00:24:08,000
+Can't go pee here and not.
+
+677
+00:24:08,000 --> 00:24:10,000
+We've not let him take a piss.
+
+678
+00:24:10,000 --> 00:24:12,000
+He hated him so much.
+
+679
+00:24:12,000 --> 00:24:13,000
+Just be in this cup.
+
+680
+00:24:13,000 --> 00:24:14,000
+Really?
+
+681
+00:24:14,000 --> 00:24:15,000
+I don't know what happened.
+
+682
+00:24:15,000 --> 00:24:18,000
+I think he held it until he was back in the hotel.
+
+683
+00:24:18,000 --> 00:24:19,000
+But that was horrible.
+
+684
+00:24:19,000 --> 00:24:20,000
+No, Michael Jackson.
+
+685
+00:24:20,000 --> 00:24:21,000
+Very sad case.
+
+686
+00:24:21,000 --> 00:24:22,000
+I think.
+
+687
+00:24:22,000 --> 00:24:23,000
+Very sad.
+
+688
+00:24:23,000 --> 00:24:24,000
+Could let's be honest.
+
+689
+00:24:24,000 --> 00:24:25,000
+Boy can sing.
+
+690
+00:24:25,000 --> 00:24:26,000
+Boy can dance.
+
+691
+00:24:26,000 --> 00:24:28,000
+Very, very musical.
+
+692
+00:24:28,000 --> 00:24:29,000
+Very musical.
+
+693
+00:24:29,000 --> 00:24:31,000
+But he has turned into a zombie.
+
+694
+00:24:31,000 --> 00:24:34,000
+More people than me have said that.
+
+695
+00:24:34,000 --> 00:24:35,000
+But yeah.
+
+696
+00:24:35,000 --> 00:24:36,000
+I don't know if that's just what you see.
+
+697
+00:24:36,000 --> 00:24:38,000
+This is the thing.
+
+698
+00:24:38,000 --> 00:24:40,000
+This podcast is real honest.
+
+699
+00:24:40,000 --> 00:24:41,000
+And there's nothing.
+
+700
+00:24:41,000 --> 00:24:43,000
+People can tell who we are and they're hearing us.
+
+701
+00:24:43,000 --> 00:24:47,000
+And there's nothing in between this microphone and everyone else's ears.
+
+702
+00:24:47,000 --> 00:24:49,000
+But you don't know what you're getting from Michael Jackson.
+
+703
+00:24:49,000 --> 00:24:51,000
+What's real or what's not real?
+
+704
+00:24:51,000 --> 00:24:56,000
+A two second sound bite on TV.
+
+705
+00:24:56,000 --> 00:24:59,000
+But you can tell that he's a zombie from the two seconds.
+
+706
+00:24:59,000 --> 00:25:01,000
+I mean, you know, he's the one.
+
+707
+00:25:01,000 --> 00:25:02,000
+I want to say yes.
+
+708
+00:25:02,000 --> 00:25:03,000
+I want to say yes.
+
+709
+00:25:03,000 --> 00:25:08,000
+But I have a feeling that some of that is also accentuated by the way it's edited.
+
+710
+00:25:08,000 --> 00:25:09,000
+I don't know.
+
+711
+00:25:09,000 --> 00:25:12,000
+Even the stuff that he edits him, that he's, you know, he's in control of editing.
+
+712
+00:25:12,000 --> 00:25:13,000
+You think that he's not.
+
+713
+00:25:13,000 --> 00:25:14,000
+I don't know.
+
+714
+00:25:14,000 --> 00:25:15,000
+I don't know.
+
+715
+00:25:15,000 --> 00:25:18,000
+He's a zombie on the stuff that he had that he had control of.
+
+716
+00:25:18,000 --> 00:25:21,000
+I thought it was actually pretty good the stuff that he had.
+
+717
+00:25:21,000 --> 00:25:22,000
+Yeah, I guess so.
+
+718
+00:25:22,000 --> 00:25:24,000
+But you see that he's trying to control it.
+
+719
+00:25:24,000 --> 00:25:25,000
+That's what was irritating about that.
+
+720
+00:25:25,000 --> 00:25:27,000
+Even that documentary that he made.
+
+721
+00:25:27,000 --> 00:25:28,000
+Did you see that?
+
+722
+00:25:28,000 --> 00:25:29,000
+No, no.
+
+723
+00:25:29,000 --> 00:25:30,000
+What was the documentary?
+
+724
+00:25:30,000 --> 00:25:32,000
+Well, there was two documentaries that the everything came to
+
+725
+00:25:32,000 --> 00:25:35,000
+ahead with this English guy who did a documentary.
+
+726
+00:25:35,000 --> 00:25:38,000
+That was like a tell all experts.
+
+727
+00:25:38,000 --> 00:25:39,000
+Yes.
+
+728
+00:25:39,000 --> 00:25:43,000
+But at the same time, he Michael Jackson has own cameras rolling and you saw
+
+729
+00:25:43,000 --> 00:25:47,000
+the other side, which totally exposed the English documentary to be set up,
+
+730
+00:25:47,000 --> 00:25:50,000
+kind of, you know, edited to make him look funky.
+
+731
+00:25:50,000 --> 00:25:55,000
+But what at the same time gave away is how controlling he was trying to be over
+
+732
+00:25:55,000 --> 00:25:58,000
+his own destiny and the way he was having his stuff edited.
+
+733
+00:25:58,000 --> 00:25:59,000
+Wow.
+
+734
+00:25:59,000 --> 00:26:01,000
+So with Michael's view and sensationalist view.
+
+735
+00:26:01,000 --> 00:26:02,000
+Yeah.
+
+736
+00:26:02,000 --> 00:26:03,000
+Yeah.
+
+737
+00:26:03,000 --> 00:26:04,000
+Yeah.
+
+738
+00:26:04,000 --> 00:26:05,000
+Okay.
+
+739
+00:26:05,000 --> 00:26:06,000
+So I didn't have sex with Michael Jackson.
+
+740
+00:26:06,000 --> 00:26:07,000
+We've established that.
+
+741
+00:26:07,000 --> 00:26:10,000
+I've actually not had sex with any famous people accept my wife.
+
+742
+00:26:10,000 --> 00:26:11,000
+I've come close.
+
+743
+00:26:12,000 --> 00:26:15,000
+So what was the closest you got to star-fucking?
+
+744
+00:26:15,000 --> 00:26:16,000
+Mandy Smith.
+
+745
+00:26:16,000 --> 00:26:17,000
+You remember her?
+
+746
+00:26:17,000 --> 00:26:19,000
+I vaguely remember Mandy Smith.
+
+747
+00:26:19,000 --> 00:26:24,000
+Mandy Smith was the Lolita 16 year old that Bill Wyman married.
+
+748
+00:26:24,000 --> 00:26:25,000
+Mm-hmm.
+
+749
+00:26:25,000 --> 00:26:26,000
+Then Bill, the Rolling Stones.
+
+750
+00:26:26,000 --> 00:26:27,000
+Mm-hmm.
+
+751
+00:26:27,000 --> 00:26:31,000
+And it was a big to do because he essentially had sex with her when she was like
+
+752
+00:26:31,000 --> 00:26:32,000
+14.
+
+753
+00:26:32,000 --> 00:26:34,000
+But they got married when she was 16.
+
+754
+00:26:34,000 --> 00:26:36,000
+And then she had a song a record out.
+
+755
+00:26:36,000 --> 00:26:37,000
+Mm-hmm.
+
+756
+00:26:37,000 --> 00:26:40,000
+And she came to the Netherlands to promote that.
+
+757
+00:26:40,000 --> 00:26:43,000
+Well, I was doing TV and she was totally coming on to me.
+
+758
+00:26:43,000 --> 00:26:44,000
+Totally.
+
+759
+00:26:44,000 --> 00:26:45,000
+Totally.
+
+760
+00:26:45,000 --> 00:26:46,000
+Totally.
+
+761
+00:26:46,000 --> 00:26:50,000
+Now at the time being, I had a client-designed relationship with Patricia.
+
+762
+00:26:50,000 --> 00:26:53,000
+It was very famous in Europe.
+
+763
+00:26:53,000 --> 00:26:54,000
+Mm-hmm.
+
+764
+00:26:54,000 --> 00:26:55,000
+And she was married.
+
+765
+00:26:55,000 --> 00:26:58,000
+So we came up with this great plan.
+
+766
+00:26:58,000 --> 00:27:00,000
+Because she's really nice.
+
+767
+00:27:00,000 --> 00:27:02,000
+And Mandy Smith, the time very sweet girl.
+
+768
+00:27:02,000 --> 00:27:05,000
+So you had a chance to be the star-fucking two women at the same?
+
+769
+00:27:05,000 --> 00:27:07,000
+No, no, no, no, no, no.
+
+770
+00:27:07,000 --> 00:27:09,000
+Not at the same time, but during the same time period.
+
+771
+00:27:09,000 --> 00:27:10,000
+Yes, but it was different.
+
+772
+00:27:10,000 --> 00:27:14,000
+Because Mandy and I had real no real interest in each other.
+
+773
+00:27:14,000 --> 00:27:16,000
+But we had the same problem.
+
+774
+00:27:16,000 --> 00:27:19,000
+She was being stalked by paparazzi, et cetera.
+
+775
+00:27:19,000 --> 00:27:22,000
+Because she had this relationship with Bill Lyman,
+
+776
+00:27:22,000 --> 00:27:23,000
+which wasn't really known at the time.
+
+777
+00:27:23,000 --> 00:27:24,000
+But she was going out with Bill.
+
+778
+00:27:24,000 --> 00:27:26,000
+She wasn't married to him yet.
+
+779
+00:27:26,000 --> 00:27:27,000
+It was like six months later.
+
+780
+00:27:27,000 --> 00:27:31,000
+And I had this whole thing with Patricia, which was supposed to be not known.
+
+781
+00:27:31,000 --> 00:27:32,000
+So what did we do?
+
+782
+00:27:32,000 --> 00:27:35,000
+I invited her come over to Amsterdam and we went out together.
+
+783
+00:27:35,000 --> 00:27:38,000
+And then everyone was talking about us.
+
+784
+00:27:38,000 --> 00:27:39,000
+It was the verdict.
+
+785
+00:27:39,000 --> 00:27:42,000
+And then of course there was this point where we said, well, we just have sex.
+
+786
+00:27:42,000 --> 00:27:44,000
+This is where we're faking it anyway.
+
+787
+00:27:44,000 --> 00:27:46,000
+It's like man, never mind.
+
+788
+00:27:46,000 --> 00:27:48,000
+Oh, no.
+
+789
+00:27:48,000 --> 00:27:50,000
+Because now she loved Bill when I love Patricia.
+
+790
+00:27:50,000 --> 00:27:52,000
+It was like, but that was about the closest.
+
+791
+00:27:52,000 --> 00:27:55,000
+So do you think that that means that like the Tom Cruise Penelope,
+
+792
+00:27:55,000 --> 00:27:56,000
+Cruise thing deaf?
+
+793
+00:27:56,000 --> 00:27:57,000
+Tom is totally gay.
+
+794
+00:27:57,000 --> 00:27:58,000
+Come on, the gay.
+
+795
+00:27:58,000 --> 00:27:59,000
+Who is it?
+
+796
+00:27:59,000 --> 00:28:00,000
+We're totally not having sex at all.
+
+797
+00:28:00,000 --> 00:28:01,000
+I have no idea.
+
+798
+00:28:01,000 --> 00:28:03,000
+You can be gay and have sex with women.
+
+799
+00:28:03,000 --> 00:28:04,000
+Oh, sure, sure.
+
+800
+00:28:04,000 --> 00:28:06,000
+But I mean, your story kind of is shattering.
+
+801
+00:28:06,000 --> 00:28:10,000
+My illusions about the fact that, you know, he's probably, because I was sort of enjoying
+
+802
+00:28:10,000 --> 00:28:14,000
+imagining Tom Cruise, you know, having to force himself to have sex with him.
+
+803
+00:28:14,000 --> 00:28:15,000
+To have sex with him.
+
+804
+00:28:15,000 --> 00:28:18,000
+Just to have his punishment for him for staying in the closet.
+
+805
+00:28:18,000 --> 00:28:20,000
+You know, it's like, you will be forced.
+
+806
+00:28:20,000 --> 00:28:24,000
+I gotta tell you though, that must be so hard to live your life like that.
+
+807
+00:28:24,000 --> 00:28:26,000
+Yeah, I can't even imagine.
+
+808
+00:28:26,000 --> 00:28:28,000
+Because George Michael is just come out, right?
+
+809
+00:28:28,000 --> 00:28:29,000
+Really, this is...
+
+810
+00:28:29,000 --> 00:28:34,000
+He's now going and he's doing a tour for promotional tour for his new album.
+
+811
+00:28:34,000 --> 00:28:35,000
+Yeah.
+
+812
+00:28:35,000 --> 00:28:37,000
+And he's been on the BBC several times.
+
+813
+00:28:37,000 --> 00:28:39,000
+You know, just going through this whole thing.
+
+814
+00:28:39,000 --> 00:28:42,000
+And he said at one point, he said, I have to do the English accent.
+
+815
+00:28:42,000 --> 00:28:43,000
+Otherwise, doesn't work.
+
+816
+00:28:43,000 --> 00:28:44,000
+Oh, my God.
+
+817
+00:28:44,000 --> 00:28:45,000
+I couldn't believe it.
+
+818
+00:28:45,000 --> 00:28:46,000
+It was like, here I was.
+
+819
+00:28:46,000 --> 00:28:48,000
+I was the number one pop star on the world.
+
+820
+00:28:48,000 --> 00:28:50,000
+And I was a fucking poof.
+
+821
+00:28:50,000 --> 00:28:52,000
+And he was freaked out about it.
+
+822
+00:28:52,000 --> 00:28:55,000
+You know, because he was mainly huge in America.
+
+823
+00:28:55,000 --> 00:28:57,000
+And he was like, he was really freaked.
+
+824
+00:28:57,000 --> 00:28:59,000
+And he couldn't let he couldn't be himself.
+
+825
+00:28:59,000 --> 00:29:04,000
+And I remember, I couldn't even get an interview with him.
+
+826
+00:29:04,000 --> 00:29:08,000
+He was so freaked out about life and everything in general.
+
+827
+00:29:08,000 --> 00:29:10,000
+He couldn't deal with it.
+
+828
+00:29:10,000 --> 00:29:12,000
+He still can't deal with being famous, really.
+
+829
+00:29:12,000 --> 00:29:15,000
+He just wants to be a writer and a singer and a producer and all that.
+
+830
+00:29:15,000 --> 00:29:16,000
+And a poof.
+
+831
+00:29:16,000 --> 00:29:17,000
+And a poof.
+
+832
+00:29:17,000 --> 00:29:18,000
+And he's a major poof.
+
+833
+00:29:18,000 --> 00:29:19,000
+And he's very good at it.
+
+834
+00:29:19,000 --> 00:29:20,000
+But I think...
+
+835
+00:29:20,000 --> 00:29:22,000
+But more importantly, Rob Helfer came out.
+
+836
+00:29:22,000 --> 00:29:24,000
+I mean, that's like way more important.
+
+837
+00:29:24,000 --> 00:29:25,000
+But that was such a...
+
+838
+00:29:25,000 --> 00:29:28,000
+For some reason, and for those of you don't know, Rob Helfer
+
+839
+00:29:28,000 --> 00:29:31,000
+to Judas Priest, he came out several years ago.
+
+840
+00:29:31,000 --> 00:29:34,000
+And he had like a new band, a new new, like...
+
+841
+00:29:34,000 --> 00:29:35,000
+Like almost as well.
+
+842
+00:29:35,000 --> 00:29:37,000
+Like almost as well, man.
+
+843
+00:29:37,000 --> 00:29:40,000
+But no one really cared.
+
+844
+00:29:40,000 --> 00:29:41,000
+Did he lose...
+
+845
+00:29:41,000 --> 00:29:42,000
+I mean...
+
+846
+00:29:42,000 --> 00:29:43,000
+Really?
+
+847
+00:29:43,000 --> 00:29:44,000
+Did you...
+
+848
+00:29:44,000 --> 00:29:46,000
+Did you lose interest in the band?
+
+849
+00:29:46,000 --> 00:29:47,000
+I was happy.
+
+850
+00:29:47,000 --> 00:29:49,000
+But I had always admired them.
+
+851
+00:29:49,000 --> 00:29:51,000
+As a youth, my first concert with...
+
+852
+00:29:51,000 --> 00:29:52,000
+Was you depressed for real?
+
+853
+00:29:52,000 --> 00:29:53,000
+Yeah, for real.
+
+854
+00:29:53,000 --> 00:29:54,000
+It was so cool.
+
+855
+00:29:54,000 --> 00:29:56,000
+And I learned the whole thing about, like, holding it
+
+856
+00:29:56,000 --> 00:29:57,000
+if you're lighter to light.
+
+857
+00:29:57,000 --> 00:29:58,000
+Like that.
+
+858
+00:29:58,000 --> 00:29:59,000
+Yeah.
+
+859
+00:29:59,000 --> 00:30:00,000
+That was my first experience.
+
+860
+00:30:00,000 --> 00:30:01,000
+Excellent.
+
+861
+00:30:01,000 --> 00:30:04,000
+And I was like, oh, and all that time, he was a homo.
+
+862
+00:30:04,000 --> 00:30:05,000
+That's so awesome.
+
+863
+00:30:05,000 --> 00:30:06,000
+We didn't know.
+
+864
+00:30:06,000 --> 00:30:07,000
+We didn't know.
+
+865
+00:30:07,000 --> 00:30:08,000
+We didn't know.
+
+866
+00:30:08,000 --> 00:30:09,000
+We didn't know.
+
+867
+00:30:09,000 --> 00:30:12,000
+Boys, you can be a tough metalhead and be queen.
+
+868
+00:30:12,000 --> 00:30:14,000
+And actually, if you play the records backwards,
+
+869
+00:30:14,000 --> 00:30:15,000
+it does say...
+
+870
+00:30:15,000 --> 00:30:17,000
+Fuck, fuck, fuck, fuck, fuck.
+
+871
+00:30:17,000 --> 00:30:19,000
+At all the time.
+
+872
+00:30:19,000 --> 00:30:20,000
+No.
+
+873
+00:30:20,000 --> 00:30:22,000
+It wasn't saying worship Satan.
+
+874
+00:30:22,000 --> 00:30:23,000
+It was saying...
+
+875
+00:30:23,000 --> 00:30:26,000
+You know, the bitties actually have a piece of back masking.
+
+876
+00:30:26,000 --> 00:30:28,000
+I found that I was listening to the album.
+
+877
+00:30:28,000 --> 00:30:29,000
+It was true, they really do.
+
+878
+00:30:29,000 --> 00:30:31,000
+That what I haven't played it backwards yet.
+
+879
+00:30:31,000 --> 00:30:33,000
+But you don't really.
+
+880
+00:30:33,000 --> 00:30:36,000
+No, but they have a piece that's backwards on the album.
+
+881
+00:30:36,000 --> 00:30:37,000
+I'm going to check it out.
+
+882
+00:30:37,000 --> 00:30:38,000
+There's a back masking piece.
+
+883
+00:30:38,000 --> 00:30:40,000
+It probably is just literally a piece backwards.
+
+884
+00:30:40,000 --> 00:30:43,000
+That is probably nothing more than that.
+
+885
+00:30:43,000 --> 00:30:44,000
+But you're right.
+
+886
+00:30:44,000 --> 00:30:45,000
+That's it.
+
+887
+00:30:45,000 --> 00:30:47,000
+So anyway, so yeah, Tom Cruise.
+
+888
+00:30:47,000 --> 00:30:48,000
+Yeah, Tom Cruise.
+
+889
+00:30:48,000 --> 00:30:49,000
+Tom Cruise.
+
+890
+00:30:49,000 --> 00:30:51,000
+How'd we get on the whole homo thing?
+
+891
+00:30:51,000 --> 00:30:52,000
+I don't remember.
+
+892
+00:30:52,000 --> 00:30:53,000
+It was...
+
+893
+00:30:53,000 --> 00:30:54,000
+Something about sex.
+
+894
+00:30:54,000 --> 00:30:55,000
+And it was you not having sex.
+
+895
+00:30:55,000 --> 00:30:56,000
+Right, not having sex.
+
+896
+00:30:57,000 --> 00:31:00,000
+That person who is your beard, even though it was a heterosexual beard.
+
+897
+00:31:00,000 --> 00:31:03,000
+There was a heterosexual beard.
+
+898
+00:31:03,000 --> 00:31:05,000
+Oh my god.
+
+899
+00:31:05,000 --> 00:31:08,000
+And it's fun because all those years at MTV,
+
+900
+00:31:08,000 --> 00:31:09,000
+you'd think...
+
+901
+00:31:09,000 --> 00:31:12,000
+Because we were very separate from the offices.
+
+902
+00:31:12,000 --> 00:31:16,000
+Officers were at 175 Broadway before that 1775.
+
+903
+00:31:16,000 --> 00:31:17,000
+And we were down.
+
+904
+00:31:17,000 --> 00:31:23,000
+We actually had the studio right next door to the Sally Jesse Raphael Show.
+
+905
+00:31:23,000 --> 00:31:26,000
+So in the morning, I would tape my segments.
+
+906
+00:31:26,000 --> 00:31:28,000
+And then during lunch, I'd have to stay in my dressing room
+
+907
+00:31:28,000 --> 00:31:30,000
+because all these degenerates, you know, like,
+
+908
+00:31:30,000 --> 00:31:32,000
+midgets having sex with, you know,
+
+909
+00:31:32,000 --> 00:31:33,000
+you know, whatever.
+
+910
+00:31:33,000 --> 00:31:34,000
+It's all kinds of stuff.
+
+911
+00:31:34,000 --> 00:31:35,000
+It's just having sex with their mothers.
+
+912
+00:31:35,000 --> 00:31:36,000
+Yeah, right.
+
+913
+00:31:36,000 --> 00:31:37,000
+We're walking down the hallway.
+
+914
+00:31:37,000 --> 00:31:38,000
+And it was...
+
+915
+00:31:38,000 --> 00:31:39,000
+It was...
+
+916
+00:31:39,000 --> 00:31:40,000
+It was a traffic report.
+
+917
+00:31:40,000 --> 00:31:41,000
+Yeah.
+
+918
+00:31:41,000 --> 00:31:44,000
+That was a traffic report from the BBC.
+
+919
+00:31:44,000 --> 00:31:46,000
+But never.
+
+920
+00:31:46,000 --> 00:31:47,000
+Never.
+
+921
+00:31:47,000 --> 00:31:48,000
+Did I see...
+
+922
+00:31:48,000 --> 00:31:52,000
+See, or was I offered anything other than maybe a token
+
+923
+00:31:52,000 --> 00:31:53,000
+to join?
+
+924
+00:31:53,000 --> 00:31:54,000
+Never saw any coke.
+
+925
+00:31:54,000 --> 00:31:56,000
+No, I've never even done cocaine.
+
+926
+00:31:56,000 --> 00:31:57,000
+No.
+
+927
+00:31:57,000 --> 00:31:58,000
+Nothing.
+
+928
+00:31:58,000 --> 00:32:00,000
+All that rock and roll, you know,
+
+929
+00:32:00,000 --> 00:32:03,000
+stuff that may have oozed from MTV screen.
+
+930
+00:32:03,000 --> 00:32:04,000
+Not true.
+
+931
+00:32:04,000 --> 00:32:05,000
+It was horrible.
+
+932
+00:32:05,000 --> 00:32:07,000
+It really was just getting high and not having sex.
+
+933
+00:32:07,000 --> 00:32:08,000
+No, but they were...
+
+934
+00:32:08,000 --> 00:32:09,000
+Well, just...
+
+935
+00:32:09,000 --> 00:32:10,000
+No.
+
+936
+00:32:10,000 --> 00:32:11,000
+People weren't even really smoking pot.
+
+937
+00:32:11,000 --> 00:32:13,000
+It was me and Rick, the audio guy.
+
+938
+00:32:13,000 --> 00:32:14,000
+You were...
+
+939
+00:32:14,000 --> 00:32:15,000
+We were the pot fans.
+
+940
+00:32:15,000 --> 00:32:16,000
+Yeah.
+
+941
+00:32:16,000 --> 00:32:18,000
+No, the camera guys were not...
+
+942
+00:32:18,000 --> 00:32:19,000
+No.
+
+943
+00:32:19,000 --> 00:32:20,000
+No.
+
+944
+00:32:20,000 --> 00:32:21,000
+No.
+
+945
+00:32:21,000 --> 00:32:22,000
+Rick.
+
+946
+00:32:22,000 --> 00:32:23,000
+Rick's my boy.
+
+947
+00:32:23,000 --> 00:32:24,000
+He'll always be my boy.
+
+948
+00:32:24,000 --> 00:32:25,000
+It was so good.
+
+949
+00:32:25,000 --> 00:32:27,000
+We would share my dressing room and these audio booths.
+
+950
+00:32:27,000 --> 00:32:29,000
+So, you know, whenever he had to take a dump,
+
+951
+00:32:29,000 --> 00:32:33,000
+he'd literally come to my dressing room and sit there and read my fan mail.
+
+952
+00:32:33,000 --> 00:32:34,000
+Well, I was doing the audio.
+
+953
+00:32:34,000 --> 00:32:35,000
+And we wouldn't tell anyone.
+
+954
+00:32:35,000 --> 00:32:36,000
+That's a good...
+
+955
+00:32:36,000 --> 00:32:38,000
+That's a good way to, you know, hang out.
+
+956
+00:32:38,000 --> 00:32:40,000
+Well, I also learned a lot about audio.
+
+957
+00:32:40,000 --> 00:32:42,000
+Like, through the bathroom door, like he'd be taking a dump.
+
+958
+00:32:42,000 --> 00:32:43,000
+And he'd be like, dude.
+
+959
+00:32:43,000 --> 00:32:45,000
+No, no, because no, because I'd watch him.
+
+960
+00:32:45,000 --> 00:32:47,000
+How we would do the audio stuff.
+
+961
+00:32:47,000 --> 00:32:48,000
+Yeah.
+
+962
+00:32:48,000 --> 00:32:50,000
+He'd say, oh man, it's time for my dump.
+
+963
+00:32:50,000 --> 00:32:51,000
+Okay, Rick.
+
+964
+00:32:51,000 --> 00:32:53,000
+Well, you know, he had these bags.
+
+965
+00:32:53,000 --> 00:32:56,000
+A number of postcards before email.
+
+966
+00:32:56,000 --> 00:32:58,000
+Just get postcards and naked pictures.
+
+967
+00:32:58,000 --> 00:33:01,000
+So, I had huge postal bags full.
+
+968
+00:33:01,000 --> 00:33:02,000
+And, you know, just...
+
+969
+00:33:02,000 --> 00:33:04,000
+Whenever he had time, he opened like 20 of them.
+
+970
+00:33:04,000 --> 00:33:06,000
+He had no time to open all of them and read it.
+
+971
+00:33:06,000 --> 00:33:09,000
+And so, Rick went to help me scan the mail while he was using my bathroom.
+
+972
+00:33:09,000 --> 00:33:11,000
+And that'd be tracking...
+
+973
+00:33:11,000 --> 00:33:14,000
+I'd be opening the mics and starting the tapes and everything in the audio booth.
+
+974
+00:33:14,000 --> 00:33:15,000
+And the directors didn't know about it.
+
+975
+00:33:15,000 --> 00:33:18,000
+They'd just say, you know, alright, track 97A.
+
+976
+00:33:18,000 --> 00:33:20,000
+And I just opened up the track and I would start up the music.
+
+977
+00:33:20,000 --> 00:33:23,000
+And then sometimes I'd fuck up and be like, Rick, are you high again?
+
+978
+00:33:23,000 --> 00:33:25,000
+And I'm like, mmmm.
+
+979
+00:33:25,000 --> 00:33:28,000
+They didn't know it was me running the audio board.
+
+980
+00:33:28,000 --> 00:33:30,000
+And the good old days of this scene.
+
+981
+00:33:30,000 --> 00:33:31,000
+The good old day.
+
+982
+00:33:31,000 --> 00:33:33,000
+Dude, we've been at it for 31 minutes.
+
+983
+00:33:33,000 --> 00:33:34,000
+I think we should stop.
+
+984
+00:33:34,000 --> 00:33:37,000
+So I can put in 10 minutes of opening and closing things.
+
+985
+00:33:37,000 --> 00:33:38,000
+Yeah.
+
+986
+00:33:38,000 --> 00:33:39,000
+I think that's a good idea.
+
+987
+00:33:39,000 --> 00:33:40,000
+And I think that's a good idea.
+
+988
+00:33:40,000 --> 00:33:41,000
+And I think that's a good idea.
+
+989
+00:33:41,000 --> 00:33:42,000
+And I think that's a good idea.
+
+990
+00:33:43,000 --> 00:33:45,000
+What I would love is if you...
+
+991
+00:33:45,000 --> 00:33:46,000
+You should do your own podcast.
+
+992
+00:33:46,000 --> 00:33:47,000
+You're perfect.
+
+993
+00:33:47,000 --> 00:33:48,000
+I know.
+
+994
+00:33:48,000 --> 00:33:50,000
+If you want to see my work, you can go to my website.
+
+995
+00:33:50,000 --> 00:33:51,000
+Yeah.
+
+996
+00:33:51,000 --> 00:33:52,000
+Textploitation.com.
+
+997
+00:33:52,000 --> 00:33:54,000
+Textploitation.
+
+998
+00:33:54,000 --> 00:33:55,000
+Textploitation.
+
+999
+00:33:55,000 --> 00:33:56,000
+T-E-C-H-S.
+
+1000
+00:33:56,000 --> 00:33:57,000
+And then theploitation part.
+
+1001
+00:33:57,000 --> 00:33:58,000
+You can work as well.
+
+1002
+00:33:58,000 --> 00:34:00,000
+But it's not, you know, with an X.
+
+1003
+00:34:00,000 --> 00:34:04,000
+So, yeah, I mean, I don't know about doing the podcasting thing.
+
+1004
+00:34:04,000 --> 00:34:05,000
+I'll think about it.
+
+1005
+00:34:05,000 --> 00:34:07,000
+I like being on your podcast.
+
+1006
+00:34:07,000 --> 00:34:09,000
+Well, you can be on my podcast anytime you want.
+
+1007
+00:34:09,000 --> 00:34:10,000
+You got Skype?
+
+1008
+00:34:10,000 --> 00:34:11,000
+I have Skype, yeah.
+
+1009
+00:34:11,000 --> 00:34:14,000
+We can try getting that working for 20 minutes on my next podcast.
+
+1010
+00:34:14,000 --> 00:34:17,000
+See what crap we can go through.
+
+1011
+00:34:17,000 --> 00:34:23,000
+I really appreciate you taking the time to come down and talk about, you know, whatever.
+
+1012
+00:34:23,000 --> 00:34:24,000
+Yeah.
+
+1013
+00:34:24,000 --> 00:34:26,000
+It was worth the jet lag.
+
+1014
+00:34:26,000 --> 00:34:27,000
+Yeah, I was going to say, could you?
+
+1015
+00:34:27,000 --> 00:34:28,000
+What did you get in yesterday?
+
+1016
+00:34:28,000 --> 00:34:29,000
+Got in yesterday.
+
+1017
+00:34:29,000 --> 00:34:30,000
+So that was my jet lag day.
+
+1018
+00:34:30,000 --> 00:34:32,000
+Because I saw you with, I saw one yon.
+
+1019
+00:34:32,000 --> 00:34:33,000
+That was...
+
+1020
+00:34:33,000 --> 00:34:34,000
+I'm totally recovered.
+
+1021
+00:34:34,000 --> 00:34:36,000
+I forced myself to stay awake all day.
+
+1022
+00:34:36,000 --> 00:34:37,000
+Right.
+
+1023
+00:34:37,000 --> 00:34:38,000
+So that I would be totally set.
+
+1024
+00:34:38,000 --> 00:34:40,000
+So that way I can go tomorrow back to the day.
+
+1025
+00:34:41,000 --> 00:34:42,000
+You're going back tomorrow?
+
+1026
+00:34:42,000 --> 00:34:43,000
+Yeah.
+
+1027
+00:34:43,000 --> 00:34:44,000
+Okay.
+
+1028
+00:34:44,000 --> 00:34:45,000
+So the budget's not that big.
+
+1029
+00:34:45,000 --> 00:34:46,000
+It wired.
+
+1030
+00:34:46,000 --> 00:34:48,000
+You don't get anything else in London?
+
+1031
+00:34:48,000 --> 00:34:49,000
+No, no.
+
+1032
+00:34:49,000 --> 00:34:50,000
+I could have stayed if I wanted to.
+
+1033
+00:34:50,000 --> 00:34:51,000
+But I need to get back.
+
+1034
+00:34:51,000 --> 00:34:54,000
+Because, you know, my sweetie's having a performance on Saturday night.
+
+1035
+00:34:54,000 --> 00:34:55,000
+Really?
+
+1036
+00:34:55,000 --> 00:34:57,000
+I want to be there and, you know, support her and, you know,
+
+1037
+00:34:57,000 --> 00:35:00,000
+What does she solo or play in a band?
+
+1038
+00:35:00,000 --> 00:35:04,000
+So she runs a show called Writers With Drinks in San Francisco,
+
+1039
+00:35:04,000 --> 00:35:07,000
+which is a spoken word variety show.
+
+1040
+00:35:07,000 --> 00:35:09,000
+And she's the NFC and there's going to be a lot of great writers.
+
+1041
+00:35:09,000 --> 00:35:11,000
+Tim Stanley Robinson is going to...
+
+1042
+00:35:11,000 --> 00:35:12,000
+Hello, podcast.
+
+1043
+00:35:12,000 --> 00:35:13,000
+I know.
+
+1044
+00:35:13,000 --> 00:35:14,000
+Okay.
+
+1045
+00:35:14,000 --> 00:35:15,000
+Saturday night.
+
+1046
+00:35:15,000 --> 00:35:16,000
+Okay.
+
+1047
+00:35:16,000 --> 00:35:17,000
+At the makeout room in San Francisco.
+
+1048
+00:35:17,000 --> 00:35:18,000
+730.
+
+1049
+00:35:18,000 --> 00:35:20,000
+Tim Stanley Robinson, an awesome science fiction writer.
+
+1050
+00:35:20,000 --> 00:35:21,000
+He's going to read.
+
+1051
+00:35:21,000 --> 00:35:23,000
+There's going to be a bunch of other awesome readers.
+
+1052
+00:35:23,000 --> 00:35:24,000
+And come on.
+
+1053
+00:35:24,000 --> 00:35:25,000
+It's like three bucks to get in.
+
+1054
+00:35:25,000 --> 00:35:26,000
+Can we...
+
+1055
+00:35:26,000 --> 00:35:28,000
+I mean, this is the kind of stuff.
+
+1056
+00:35:28,000 --> 00:35:29,000
+We put a link to it on your brain.
+
+1057
+00:35:29,000 --> 00:35:30,000
+We should record this.
+
+1058
+00:35:30,000 --> 00:35:31,000
+Oh, yeah.
+
+1059
+00:35:31,000 --> 00:35:32,000
+We should record it.
+
+1060
+00:35:32,000 --> 00:35:33,000
+Fuck.
+
+1061
+00:35:33,000 --> 00:35:34,000
+This is your podcast.
+
+1062
+00:35:34,000 --> 00:35:35,000
+Yeah.
+
+1063
+00:35:35,000 --> 00:35:36,000
+Here's your drinks.
+
+1064
+00:35:36,000 --> 00:35:37,000
+No, seriously.
+
+1065
+00:35:37,000 --> 00:35:38,000
+Yeah, totally.
+
+1066
+00:35:38,000 --> 00:35:39,000
+Love that shit.
+
+1067
+00:35:39,000 --> 00:35:40,000
+That would be great.
+
+1068
+00:35:40,000 --> 00:35:41,000
+I mean...
+
+1069
+00:35:41,000 --> 00:35:42,000
+I'm going to tell Charlie.
+
+1070
+00:35:42,000 --> 00:35:44,000
+I don't know what the, you know,
+
+1071
+00:35:44,000 --> 00:35:48,000
+how would, you know, what people think about them being recorded and being podcast,
+
+1072
+00:35:48,000 --> 00:35:49,000
+but shit.
+
+1073
+00:35:49,000 --> 00:35:51,000
+What a tremendous opportunity to get this stuff out.
+
+1074
+00:35:51,000 --> 00:35:52,000
+Yeah, really.
+
+1075
+00:35:52,000 --> 00:35:53,000
+It's really good.
+
+1076
+00:35:53,000 --> 00:35:54,000
+We've had a lot of fun with this.
+
+1077
+00:35:54,000 --> 00:35:56,000
+I love spoken word type stuff.
+
+1078
+00:35:56,000 --> 00:35:57,000
+You too.
+
+1079
+00:35:57,000 --> 00:35:59,000
+Have you heard the spoken word revolution?
+
+1080
+00:35:59,000 --> 00:36:00,000
+It's an audio book.
+
+1081
+00:36:00,000 --> 00:36:02,000
+I'll send you a link.
+
+1082
+00:36:02,000 --> 00:36:03,000
+Cool.
+
+1083
+00:36:03,000 --> 00:36:04,000
+I can't.
+
+1084
+00:36:04,000 --> 00:36:05,000
+I can't.
+
+1085
+00:36:05,000 --> 00:36:07,000
+I can't.
+
+1086
+00:36:08,000 --> 00:36:10,000
+So I could digital restriction management.
+
+1087
+00:36:10,000 --> 00:36:11,000
+Exactly.
+
+1088
+00:36:11,000 --> 00:36:13,000
+Now, but that's the kind of stuff that we need more of.
+
+1089
+00:36:13,000 --> 00:36:14,000
+Yeah, we do.
+
+1090
+00:36:14,000 --> 00:36:17,000
+I mean, the thing with podcasting is it's just in its infancy.
+
+1091
+00:36:17,000 --> 00:36:21,000
+So I'm looking forward to seeing a lot more stuff like that.
+
+1092
+00:36:21,000 --> 00:36:24,000
+Like independent artists doing spoken word.
+
+1093
+00:36:24,000 --> 00:36:29,000
+You know, people bringing you news from underground communities that you don't normally hear from.
+
+1094
+00:36:29,000 --> 00:36:31,000
+And that's what I think is really great.
+
+1095
+00:36:31,000 --> 00:36:34,000
+And people broadcasting from their cars.
+
+1096
+00:36:34,000 --> 00:36:36,000
+Hey, man.
+
+1097
+00:36:37,000 --> 00:36:38,000
+And look at this gear.
+
+1098
+00:36:38,000 --> 00:36:40,000
+I should take a picture of this.
+
+1099
+00:36:40,000 --> 00:36:42,000
+I don't have a Pimp in mind.
+
+1100
+00:36:42,000 --> 00:36:44,000
+My car is pimp.
+
+1101
+00:36:44,000 --> 00:36:46,000
+I don't need anyone to pimp it anymore.
+
+1102
+00:36:46,000 --> 00:36:48,000
+He's got a studio in here.
+
+1103
+00:36:48,000 --> 00:36:49,000
+Yeah, it's pretty great.
+
+1104
+00:36:49,000 --> 00:36:52,000
+And the BBC in constant traffic updates.
+
+1105
+00:36:52,000 --> 00:36:53,000
+All right.
+
+1106
+00:36:53,000 --> 00:36:55,000
+So you need me to take you back to the station?
+
+1107
+00:36:55,000 --> 00:36:56,000
+Yeah.
+
+1108
+00:36:56,000 --> 00:36:57,000
+Yeah, that'd be great.
+
+1109
+00:36:57,000 --> 00:36:58,000
+Okay.
+
+1110
+00:36:58,000 --> 00:36:59,000
+I know what we'll do.
+
+1111
+00:36:59,000 --> 00:37:00,000
+Of course I can.
+
+1112
+00:37:00,000 --> 00:37:03,000
+You just bear with me because you know, I'm still learning this left hand.
+
+1113
+00:37:03,000 --> 00:37:04,000
+Side of the road.
+
+1114
+00:37:05,000 --> 00:37:08,000
+You've got the new Pimp and ride has to have the steering wheel on the right hand side.
+
+1115
+00:37:08,000 --> 00:37:09,000
+I think.
+
+1116
+00:37:09,000 --> 00:37:11,000
+After the leases.
+
+1117
+00:37:11,000 --> 00:37:12,000
+Oh.
+
+1118
+00:37:12,000 --> 00:37:14,000
+You don't do this by yourself.
+
+1119
+00:37:14,000 --> 00:37:15,000
+No.
+
+1120
+00:37:15,000 --> 00:37:16,000
+Do not do this at home, kid.
+
+1121
+00:37:16,000 --> 00:37:18,000
+Do not mod your car.
+
+1122
+00:37:18,000 --> 00:37:19,000
+All right.
+
+1123
+00:37:19,000 --> 00:37:23,000
+It could result in severe penalties somewhere down the line.
+
+1124
+00:37:23,000 --> 00:37:24,000
+Yeah.
+
+1125
+00:37:24,000 --> 00:37:25,000
+I think it's in the Ula.
+
+1126
+00:37:25,000 --> 00:37:26,000
+All right, Emily.
+
+1127
+00:37:26,000 --> 00:37:28,000
+Thank you very much for hanging out.
+
+1128
+00:37:28,000 --> 00:37:29,000
+Thanks very much.
+
+1129
+00:37:29,000 --> 00:37:30,000
+Come on back to source code anytime you can.
+
+1130
+00:37:30,000 --> 00:37:31,000
+Thank you.
+

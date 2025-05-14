@@ -1,0 +1,1540 @@
+1
+00:00:00,000 --> 00:00:06,320
+Before we get started, let me remind you of the following results or events predicted
+
+2
+00:00:06,320 --> 00:00:07,320
+on these things.
+
+3
+00:00:07,320 --> 00:00:09,680
+The name of the material is from actual results.
+
+4
+00:00:09,680 --> 00:00:14,400
+The factors that could cause actual events or results to differ from expectations include
+
+5
+00:00:14,400 --> 00:00:19,960
+lack of growth, intense competition in our interest rate, integration failures, changes
+
+6
+00:00:19,960 --> 00:00:24,640
+in government regulation, operational failures, or looking at things like that.
+
+7
+00:00:24,640 --> 00:00:27,680
+All right, some of the volumes of today should not be applied upon as representing
+
+8
+00:00:27,680 --> 00:00:32,240
+our internet at the beginning of the 20th of the 20th, while we make a light update for
+
+9
+00:00:32,240 --> 00:00:36,880
+what we say is that something's a future we need to not to do it, so even if we're not
+
+10
+00:00:36,880 --> 00:00:41,880
+interested in it.
+
+11
+00:00:41,880 --> 00:00:51,760
+A casting, all's like Adam Curry, howdy everybody, welcome to the Daily Source Code for Wednesday,
+
+12
+00:00:51,760 --> 00:00:55,160
+December 8, 2004, coming to you from Curry College.
+
+13
+00:00:55,160 --> 00:01:03,040
+I'm Adam Curry, it is quarter past 11 in the evening, big day today, went to London, took
+
+14
+00:01:03,040 --> 00:01:06,040
+a train, it's been a couple of years.
+
+15
+00:01:06,040 --> 00:01:13,440
+I don't know, man, I got to talk about these English trains.
+
+16
+00:01:13,440 --> 00:01:17,080
+I only hear English people complain about the trains.
+
+17
+00:01:17,080 --> 00:01:19,280
+I thought it was a pretty fucking great experience.
+
+18
+00:01:19,280 --> 00:01:22,720
+Seriously, I had a really nice ass train.
+
+19
+00:01:22,800 --> 00:01:25,800
+I'm not a train guy, maybe I've just been missing out on trains.
+
+20
+00:01:25,800 --> 00:01:33,800
+Good matters, is your Daily Source Code, will we try to bring you 40 minutes of 40 minutes of
+
+21
+00:01:33,800 --> 00:01:35,280
+well-party?
+
+22
+00:01:35,280 --> 00:01:40,720
+40 minutes of users and developers partying together, or maybe there are no secrets, only
+
+23
+00:01:40,720 --> 00:01:43,000
+information you don't yet have.
+
+24
+00:01:43,000 --> 00:01:50,120
+And while we're on the power of pure intellect, let's start off with an audio comment that
+
+25
+00:01:50,120 --> 00:01:56,440
+is influential for the entire show.
+
+26
+00:01:56,440 --> 00:01:58,760
+Hello Adam and have everybody.
+
+27
+00:01:58,760 --> 00:02:02,480
+This is Chris Penard from Streetport, Louisiana, and you're listening to the Daily Source Code
+
+28
+00:02:02,480 --> 00:02:03,840
+with Adam Curry.
+
+29
+00:02:03,840 --> 00:02:07,160
+Adam, I wanted to tell you I enjoy the non-reverbs sound of your cottage.
+
+30
+00:02:07,160 --> 00:02:10,080
+I hope you get broadband soon and best wishes from the States.
+
+31
+00:02:10,080 --> 00:02:12,280
+You've inspired me to create a podcast on my own.
+
+32
+00:02:12,280 --> 00:02:14,080
+Now only have to think of a subject.
+
+33
+00:02:14,080 --> 00:02:16,080
+Wait, wait, wait, wait, wait.
+
+34
+00:02:16,080 --> 00:02:17,680
+Subject enough right there.
+
+35
+00:02:17,680 --> 00:02:27,400
+Okay, so after yesterday's source code where I basically asked everybody, no, I'm sorry,
+
+36
+00:02:27,400 --> 00:02:38,080
+I asked everybody, you know, what you thought about the reverb, I'd say 75% of all comments
+
+37
+00:02:38,080 --> 00:02:41,040
+were predominantly negative.
+
+38
+00:02:41,040 --> 00:02:44,520
+In other words, get rid of the goddamn reverb.
+
+39
+00:02:44,520 --> 00:02:47,040
+We were just getting used to the sound of the cottage.
+
+40
+00:02:47,040 --> 00:02:53,080
+So the reverb is off, you can still hear a little bit of the room because I don't have
+
+41
+00:02:53,080 --> 00:02:54,360
+anything up on the wall yet.
+
+42
+00:02:54,360 --> 00:02:57,560
+You've got my gold records.
+
+43
+00:02:57,560 --> 00:02:59,360
+Gold records on the wall?
+
+44
+00:02:59,360 --> 00:03:03,960
+My picture of me and many celebrities.
+
+45
+00:03:03,960 --> 00:03:08,880
+So actually, I think that if I'm lucky this weekend, it's finally time for my office.
+
+46
+00:03:08,880 --> 00:03:13,160
+Then we've done just about everything else in the house and then my office is last.
+
+47
+00:03:13,160 --> 00:03:18,840
+And the reason it's last because I have the most shit that has to be sorted through.
+
+48
+00:03:18,840 --> 00:03:25,520
+So anyway, back to the reverbs, the reverb is basically off.
+
+49
+00:03:25,520 --> 00:03:29,960
+However, I have added some more cowbell.
+
+50
+00:03:29,960 --> 00:03:32,800
+I think that makes the show much better.
+
+51
+00:03:32,800 --> 00:03:34,280
+Don't you?
+
+52
+00:03:34,280 --> 00:03:36,920
+Can never have too much cowbell, you know, basically.
+
+53
+00:03:36,920 --> 00:03:44,760
+So anyway, I had an appointment with my senior private banker, her name is Kherty.
+
+54
+00:03:44,760 --> 00:03:45,760
+She works for Mace Pearson.
+
+55
+00:03:45,760 --> 00:03:49,000
+She's been our banker for, that's enough fucking cowbell.
+
+56
+00:03:49,000 --> 00:03:55,360
+She's been our banker for, should I know, five years, I guess, and she really takes care
+
+57
+00:03:55,360 --> 00:03:57,160
+of a whole bunch of shit.
+
+58
+00:03:57,160 --> 00:04:00,560
+And I have a complicated life, or I'm trying to get away from her very complicated life
+
+59
+00:04:00,560 --> 00:04:05,120
+with all kinds of companies and structures and crap in the Netherlands and Belgium.
+
+60
+00:04:05,120 --> 00:04:09,440
+And here, I just want to have a simple, and I have it, a simple bank account, an internet
+
+61
+00:04:09,440 --> 00:04:14,600
+bank account that I can look at, I can pay my bills, I've got a direct debit card, you know,
+
+62
+00:04:14,600 --> 00:04:19,040
+we've got everything is online within my world, within my universe.
+
+63
+00:04:19,040 --> 00:04:22,200
+And all the other shit is basically being sorted out.
+
+64
+00:04:22,200 --> 00:04:27,280
+But anyway, so Kherty is, besides being beautiful, is an excellent banker.
+
+65
+00:04:27,280 --> 00:04:32,480
+And it's always fun to, she came over from Amsterdam for some meetings and so she said,
+
+66
+00:04:32,480 --> 00:04:34,920
+you know, why don't we hook up for lunch and I'm like, yeah, yeah, I'll meet you in the city.
+
+67
+00:04:34,920 --> 00:04:35,920
+No problem.
+
+68
+00:04:35,920 --> 00:04:39,520
+You know, having never been to the city from, in fact, we've been here for two weeks.
+
+69
+00:04:39,520 --> 00:04:40,520
+I haven't ventured in the London.
+
+70
+00:04:40,520 --> 00:04:44,400
+I've just been here sitting in the, at the cottage in in Guilford, having a good old
+
+71
+00:04:44,400 --> 00:04:48,000
+time exploring Starbucks, which I still visit every single day.
+
+72
+00:04:48,000 --> 00:04:51,200
+I haven't done a podcast from there because it's just the vibe, it's kind of worked out
+
+73
+00:04:51,200 --> 00:04:55,040
+where I've been doing stuff in the cottage, then uploading from Starbucks.
+
+74
+00:04:56,000 --> 00:05:00,720
+And this will actually have to upload during the night anyway.
+
+75
+00:05:04,400 --> 00:05:10,000
+So I mean, my big mouth said, okay, lunch, I'll meet you at the, was it the Great Eastern hotel,
+
+76
+00:05:10,000 --> 00:05:13,360
+which is Liverpool Street Station at noon.
+
+77
+00:05:13,360 --> 00:05:18,480
+And I figured, well, you know, I'll have a, a car picking me up and take me to the station at 1030.
+
+78
+00:05:19,440 --> 00:05:21,760
+And yeah, radio cars here are pretty normal.
+
+79
+00:05:22,240 --> 00:05:27,680
+Just cost, you know, like a pound at a half or something and take me from, from the, from the cottage
+
+80
+00:05:27,680 --> 00:05:29,680
+to the station because it's not all that far.
+
+81
+00:05:30,480 --> 00:05:34,240
+And it was one of those perfect days, you know, when you walk into the station,
+
+82
+00:05:34,880 --> 00:05:38,320
+you walk up to the window, you say, I got to go, you know, to Waterloo Station.
+
+83
+00:05:38,320 --> 00:05:42,160
+I was thinking I'd take a cab from Waterloo Station to Liverpool Street Station.
+
+84
+00:05:42,160 --> 00:05:47,600
+I mean, you can take the, the tube, which is the, the subway.
+
+85
+00:05:47,600 --> 00:05:50,960
+I really wanted to go above ground, so I could, you know, get a little vibe of the city.
+
+86
+00:05:51,600 --> 00:05:55,200
+And, you know, walk up to the window, got my, got my ticket.
+
+87
+00:05:55,200 --> 00:05:58,320
+I chose for a first class ticket because I want to see what that was like first, of course.
+
+88
+00:06:00,160 --> 00:06:05,440
+Being a stop that I am, the elite fucking stop that I am, and it was really nice.
+
+89
+00:06:05,440 --> 00:06:11,920
+I mean, it was kind of like a luxury airliner, you know, what used to be economy class,
+
+90
+00:06:11,920 --> 00:06:17,520
+and I'm talking about 25 years ago, only now the seats, you know, still go back further than those days.
+
+91
+00:06:18,320 --> 00:06:23,520
+You have your own little power supply, so you have 220 volts there for your laptop and door for your cell phone.
+
+92
+00:06:24,560 --> 00:06:26,800
+And it's really nice and quiet. And what I noticed was,
+
+93
+00:06:27,680 --> 00:06:32,560
+the suspension of the train is unfucking believable. I don't know if it's just the first class train.
+
+94
+00:06:33,280 --> 00:06:38,160
+Maybe the first class car has, has extra suspension, but I mean, it was like riding on air.
+
+95
+00:06:38,160 --> 00:06:43,680
+It was just nothing at all what I remembered about a train ride. And it was only like 35 minutes.
+
+96
+00:06:43,760 --> 00:06:47,920
+I'm at Waterloo Station, hop in the cab, 12 minutes later I'm there, door to door,
+
+97
+00:06:49,120 --> 00:06:54,560
+less than an hour. Unfucking real. And I thought, you know, I was in for at least an hour and a half
+
+98
+00:06:55,120 --> 00:07:00,000
+ordeal, but the train is almost nonstop. And on the way back, almost exactly the same thing,
+
+99
+00:07:00,000 --> 00:07:03,760
+you know, after a great lunch and a little bit of war driving in the cab, I picked up.
+
+100
+00:07:03,760 --> 00:07:09,440
+I must have picked up 15 different, uh, open Wi-Fi signals on the way back, um,
+
+101
+00:07:09,520 --> 00:07:13,840
+actually trying to connect, uh, but we weren't sitting in traffic long enough to, uh,
+
+102
+00:07:13,840 --> 00:07:19,040
+to actually, you know, have any luck of, uh, of, of down or uploading anything on some open Wi-Fi.
+
+103
+00:07:19,040 --> 00:07:22,400
+There were a couple of open Wi-Fi's according to, uh, I stumble or which I use.
+
+104
+00:07:24,000 --> 00:07:28,160
+Um, and again, on the way back, it was, I was backed by, uh, by four o'clock. It was awesome, you know,
+
+105
+00:07:28,160 --> 00:07:32,800
+off the Starbucks on the way home, uh, sucked down some, uh, podcasts, the Gilmore gang, specifically,
+
+106
+00:07:32,800 --> 00:07:36,960
+which I haven't listened to yet. And also it was great on the train. I had a commute, you know,
+
+107
+00:07:36,960 --> 00:07:44,320
+after a long time, and there I was, um, chuckley, about on and droop. Uh, with, you know,
+
+108
+00:07:44,320 --> 00:07:48,880
+the suits around me looking going like, what the, what's the sad weird guy with those weird
+
+109
+00:07:48,880 --> 00:07:54,480
+shoes and, and he's kind of weird hair. I got my eggs. If you don't know what they are,
+
+110
+00:07:54,480 --> 00:08:01,600
+eggs, they're basically Australian, ugly ass Australian boots, which are kind of furry and they're
+
+111
+00:08:01,680 --> 00:08:09,760
+made from, uh, sheep skin, but the sheep was killed humanly or some crap marketing story like that.
+
+112
+00:08:09,760 --> 00:08:15,120
+Which, of course, is probably completely true, um, but, yeah, nonetheless. So anyway,
+
+113
+00:08:15,120 --> 00:08:20,560
+had a great day in London. Uh, really, uh, happy about the, the connections. I had no idea what's
+
+114
+00:08:20,560 --> 00:08:25,440
+going to be, um, yeah, really so incredibly easy to get back and forth. In fact, if I had one
+
+115
+00:08:25,440 --> 00:08:29,840
+Christina's in school, Patricia and I could literally just decide to say, hey, let's go have lunch in
+
+116
+00:08:29,840 --> 00:08:33,440
+the city and we could, you know, hop off, drive down to the station and go. It would be awesome.
+
+117
+00:08:33,440 --> 00:08:37,920
+Oh, and Patricia had her first drive today. I mean, I've been doing all the driving since you,
+
+118
+00:08:37,920 --> 00:08:42,320
+you know, we have to drive on the left hand side and we have a right hand drive car, which means
+
+119
+00:08:42,320 --> 00:08:47,120
+you sit on the left hand side. So it's still a bit confusing. And, um, so the other day I came home
+
+120
+00:08:47,680 --> 00:08:51,680
+around 530 from Starbucks and it was dark and I said, come on, let's go. We're going to go to
+
+121
+00:08:51,680 --> 00:08:56,880
+Sainsbury's going to go to the, and which is, that's a good, uh, three, four, about four, five
+
+122
+00:08:56,960 --> 00:09:01,920
+kilometers, lots of roundabouts that you have to go around. Um, and producer to great, you know,
+
+123
+00:09:01,920 --> 00:09:06,880
+it was, uh, yeah, especially for the first time and in the dark, which I specifically made or do.
+
+124
+00:09:06,880 --> 00:09:12,640
+I, I noticed that I picked up a couple of instructional, um, habits from, uh, Wing Commander
+
+125
+00:09:12,640 --> 00:09:18,080
+William, my, um, helicopter instructor and all my, I should, my flight instructor period. I got
+
+126
+00:09:18,080 --> 00:09:23,680
+a call, I'm missing. It's like my wing, wingman, you know, my flying buddy and miss those guys,
+
+127
+00:09:23,680 --> 00:09:28,320
+him and Nick the stick. I got to catch up with him soon. I got to catch up with him. I got to get
+
+128
+00:09:28,320 --> 00:09:32,880
+flying and hold on a sec. Do you want to go out, Chess? I'm going to go out, girl. Okay, hold on. I'll
+
+129
+00:09:32,880 --> 00:09:36,880
+tell you what, why don't you listen to this promo. I'm going to let the dog out of the, uh, out of my
+
+130
+00:09:36,880 --> 00:09:40,960
+office here. Uh, uh, uh, uh, it's almost like the old days, isn't it?
+
+131
+00:09:44,960 --> 00:09:52,400
+Hitting you right between the years with the message of hope, love and good news. This is light spring.
+
+132
+00:09:52,400 --> 00:09:58,400
+And I'm Steve Webb, you're host. Here at Life Spring, we want to tell you about the one who loves
+
+133
+00:09:58,400 --> 00:10:04,960
+you unconditionally and who gave his life for you, Jesus Christ. Here you'll find music,
+
+134
+00:10:04,960 --> 00:10:13,920
+conversation, and reasons to believe. Our website is calpm1.org slash podcast.htm.
+
+135
+00:10:13,920 --> 00:10:19,360
+Hey Adam, thanks for this brand new avenue communication. We all call podcasting and thanks
+
+136
+00:10:19,360 --> 00:10:23,360
+everybody for listening. I'm out of here.
+
+137
+00:10:25,360 --> 00:10:32,560
+Thanks everybody. The Lord says everybody give me a bowing. Oh, man, perfect. I'm telling you,
+
+138
+00:10:32,560 --> 00:10:37,680
+I love religious podcasts. There's broadcasters of all sorts. I, I get a kick out of it.
+
+139
+00:10:37,680 --> 00:10:41,520
+And sometimes I actually get a real positive boost. You know, I love people who are just
+
+140
+00:10:41,520 --> 00:10:47,600
+positive and up and got energy. It works. It really does work. And we just said again,
+
+141
+00:10:47,680 --> 00:10:53,120
+everybody, can you give me a bowing? Hold on. He went, buddy, for listening. I'm out of here.
+
+142
+00:10:57,120 --> 00:11:03,200
+Excellent. Speaking of everybody, being out of here, big news here in the UK about the BBC.
+
+143
+00:11:04,320 --> 00:11:12,720
+3000 people got fired or displaced before Christmas and expected another thousand after Christmas.
+
+144
+00:11:12,720 --> 00:11:20,400
+As, you know, this is like, the BBC is public broadcasting and you pay a license. And actually,
+
+145
+00:11:20,400 --> 00:11:31,200
+just, this is whack. You go to tvlicensing.co.uk. And maybe it's even tvlicensing.com. And there you
+
+146
+00:11:31,200 --> 00:11:36,480
+register whether you have a black and white television, which costs I think, you know, 65 pounds.
+
+147
+00:11:36,480 --> 00:11:40,640
+Or if you have at least a color television, you can have multiple sets, but you have to pay for the
+
+148
+00:11:40,640 --> 00:11:45,520
+first one. And that's like a hundred and I think a hundred and twenty-one pounds. And if you don't,
+
+149
+00:11:46,240 --> 00:11:54,000
+you can get fined up to a thousand pounds, which is, well, these days, almost $2,000, like $1,900.
+
+150
+00:11:54,720 --> 00:12:00,720
+If you don't have your license. And I think maybe the, like, the mailman checks you or some shit like
+
+151
+00:12:00,720 --> 00:12:06,240
+that. And as was in the train on the way to London, there were huge posters of tvlicensing.com.
+
+152
+00:12:06,800 --> 00:12:11,600
+We said, we have a database. And we know every single home that doesn't have a TV license.
+
+153
+00:12:11,600 --> 00:12:16,960
+Just thought we'd let you know. It's like, fuck that shit. I got my TV license immediately.
+
+154
+00:12:18,240 --> 00:12:21,520
+But there's so anyway, so you pay for it, you know. And then took the people have a right to say,
+
+155
+00:12:21,520 --> 00:12:29,040
+hey, what the fuck? We want, you know, we want value from money. And with over 27,000 employees
+
+156
+00:12:29,040 --> 00:12:32,800
+at the BBC, there was a general feeling that, hey, you know, there's a lot of people here who
+
+157
+00:12:32,880 --> 00:12:36,720
+think they got a job for life. We got to keep them on their toes and keep it competitive.
+
+158
+00:12:36,720 --> 00:12:42,400
+And there's a lot to be said for that. There certainly is. And you know, we witnessed how the BBC
+
+159
+00:12:42,400 --> 00:12:47,760
+worked, and although extremely professional, you know, even I was amazed at the, the amount of money
+
+160
+00:12:47,760 --> 00:12:55,360
+that was basically being spent. And not to attract anything from the BBC, because I'd love the
+
+161
+00:12:55,360 --> 00:13:00,560
+programs they made. But there's a lot of inefficiencies. Even when they needed me to be on BBC
+
+162
+00:13:00,560 --> 00:13:05,280
+World, they called me at 9 o'clock 9 a.m. And I said, you know, can you be here at noon to be on the
+
+163
+00:13:05,280 --> 00:13:10,320
+on the BBC World Service? And I sent a cab from a town 10 miles away, you know, it's like,
+
+164
+00:13:10,320 --> 00:13:13,600
+because they had an account with them, which is totally ridiculous where they could have called
+
+165
+00:13:13,600 --> 00:13:17,040
+a cab. Shit, they could have re-enversed me, you know. There's so many different ways they could have
+
+166
+00:13:17,040 --> 00:13:20,800
+done that. And the, of course, the cab didn't wait. They had another one come from a different company.
+
+167
+00:13:20,800 --> 00:13:29,200
+It was a, it was whack. It was totally whack. Anyway, so this has been going on. And I think most
+
+168
+00:13:29,200 --> 00:13:34,720
+public broadcasts are being paid out of community funds are under a lot of pressure these days
+
+169
+00:13:35,360 --> 00:13:39,040
+for this very same reason. And a lot of the pressure, of course, comes from the commercial
+
+170
+00:13:39,040 --> 00:13:42,480
+broadcasters. What's really happening is everyone's eating each other up, you know.
+
+171
+00:13:43,040 --> 00:13:48,400
+They're all just fucking eating each other up. And we have, what I think is great about podcasting
+
+172
+00:13:48,400 --> 00:13:53,840
+is, and I was talking to the, uh, to charity and, uh, another, um, someone who works for, you know,
+
+173
+00:13:53,920 --> 00:14:00,960
+the Anglo-Saxon into a trust division. It's great, man. Women bankers, they freak me out. I love it.
+
+174
+00:14:00,960 --> 00:14:08,160
+They're so fucking smart. Um, we were talking about, uh, uh, I was thinking about women for a second
+
+175
+00:14:08,160 --> 00:14:15,840
+then I lost my, my train of thought. Oh, shit. Oh, I don't remember. Uh, oh, yeah, about, uh,
+
+176
+00:14:15,840 --> 00:14:23,040
+about podcasting. Um, you know, that we basically don't have to deal with 24 hours in a day.
+
+177
+00:14:23,680 --> 00:14:30,560
+You know, we have to deal with how many minutes the podcast listener has to consume in a day,
+
+178
+00:14:30,560 --> 00:14:37,040
+which is why I'm always advocating short podcast, right? Um, so because we can broadcast 5,000
+
+179
+00:14:37,040 --> 00:14:41,920
+hours a day if we want of a simultaneous audio programing because it's completely three
+
+180
+00:14:41,920 --> 00:14:47,360
+dimensional. You can listen to it whenever you want, wherever you want, however you want, um,
+
+181
+00:14:47,360 --> 00:14:52,320
+and you can be behind a, you could, you could catch up. You could list skip bits. You can do all of that.
+
+182
+00:14:53,440 --> 00:14:58,080
+So we basically, as podcasts, there's have to figure out how to grab people's attention and keep it,
+
+183
+00:14:58,080 --> 00:15:03,920
+which probably means they should move on from this conversation. But I will say that our next or next
+
+184
+00:15:03,920 --> 00:15:10,320
+or next or neighbors down the way. Um, I think her, she, uh, she's a school teacher. She brought her
+
+185
+00:15:10,320 --> 00:15:15,360
+daughter over to meet Christina, uh, both the same age. Her husband works for BBC interactive.
+
+186
+00:15:16,800 --> 00:15:22,720
+And, uh, I think they might have to move to Manchester. It sucks because the whole interactive
+
+187
+00:15:22,800 --> 00:15:27,200
+division is being moved. Uh, they fact thousands of employees are being moved to Manchester
+
+188
+00:15:27,200 --> 00:15:33,600
+because, um, the BBC also feels. And this is a big thing that, uh, that the, the general, uh,
+
+189
+00:15:33,600 --> 00:15:38,640
+listening and viewing audience feels is that it's too London based. It's too based around
+
+190
+00:15:38,640 --> 00:15:42,480
+what's going on at London and not about basically the heart land. So that's why a lot of the, uh,
+
+191
+00:15:43,600 --> 00:15:47,680
+programming staff, including interactive is going to Manchester. And I'm sure there's some financial
+
+192
+00:15:47,840 --> 00:15:52,720
+reasons for that as well. And another big piece of news today is that there also be, um,
+
+193
+00:15:52,720 --> 00:15:56,800
+and haven't confirmed this. I heard this from the cab driver that there were several, uh,
+
+194
+00:15:56,800 --> 00:16:03,120
+I don't, I think he's a thousand, uh, job cuts at, uh, uh, Colgate Palm Olive headquarters,
+
+195
+00:16:03,120 --> 00:16:09,120
+ladies and gentlemen of, uh, Colgate Palm Olive is in Gilford in the United Kingdom,
+
+196
+00:16:10,160 --> 00:16:15,600
+which means there's going to be thousands of people, uh, being kicked out. Some of them, of course,
+
+197
+00:16:15,680 --> 00:16:22,000
+must be some kind of at least mid-level executives, which means some ports are likely to free up
+
+198
+00:16:22,000 --> 00:16:31,440
+at the Gilford Exchange, making DSL capable and probable. And BT, don't call me. Okay. I got
+
+199
+00:16:31,440 --> 00:16:36,880
+my boys at EZNet on the case. We're going to use their gear at the Gilford Exchange. And you can
+
+200
+00:16:36,880 --> 00:16:40,480
+go out and solicit more people. You could have had a real good customer on your hands.
+
+201
+00:16:41,280 --> 00:16:45,440
+That's a, uh, that, uh, that, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh,
+
+202
+00:16:45,440 --> 00:16:50,960
+I haven't actually, listen to this next, uh, audio comment that came in. It's from Lee Wilkins and Jenny Patton,
+
+203
+00:16:51,840 --> 00:16:57,040
+um, of course we know about them from the Alphi and Benson fund, there are two little doggies. Uh, and they sent a,
+
+204
+00:16:57,040 --> 00:17:03,920
+thank you MP3, uh, which is intended for you listening to the daily source code right now.
+
+205
+00:17:06,160 --> 00:17:10,400
+Hey, what's up everybody? This is Lee Wilkins from the Jenny and Lesha. This is just a
+
+206
+00:17:10,400 --> 00:17:15,280
+special message for Adam Curry's daily source code and just to say a big thank you
+
+207
+00:17:15,280 --> 00:17:23,120
+for me and Jenny to all those that have donated so far as of six o'clock
+
+208
+00:17:23,120 --> 00:17:29,520
+Greenwich meantime on Monday we had raised up near our $1,200. I just wanted to say a
+
+209
+00:17:29,520 --> 00:17:34,000
+big thank you to all of the daily source code listeners and also all those that
+
+210
+00:17:34,480 --> 00:17:42,240
+done listen to today's source code and yet have donated it's just amazing knowing
+
+211
+00:17:42,240 --> 00:17:47,760
+and seeing how community like the blogger's fair and podger's fair can come together
+
+212
+00:17:49,040 --> 00:17:54,640
+at a time in need to help bring back Alfie and Benson. Alfie and Benson will hopefully be
+
+213
+00:17:54,640 --> 00:18:00,240
+returning this weekend and will Alfie and Benson will have their own number of podcasts
+
+214
+00:18:00,560 --> 00:18:06,640
+which we will launch and then we'll also have around blog which they'll be posting to as
+
+215
+00:18:06,640 --> 00:18:11,760
+well when they get back and there's nothing left else for me to say apart from a big thank you
+
+216
+00:18:11,760 --> 00:18:18,800
+to everybody and we would of course give you a date of progress at Alfie and Benson.com
+
+217
+00:18:19,200 --> 00:18:23,600
+but I just yet there's nothing left to say apart from thank you Adam to forgive me the
+
+218
+00:18:23,600 --> 00:18:31,440
+chance to tell our story and thank you again to everybody and I do mean everybody you will
+
+219
+00:18:31,440 --> 00:18:37,680
+begin personally now especially now from both me Jane and Alfie and Benson when they return.
+
+220
+00:18:38,400 --> 00:18:45,280
+Thank you very much. All righty I say mission accomplished everybody good job.
+
+221
+00:18:46,000 --> 00:18:52,640
+Now imagine what we could do if we really fucking got together and really pulled our resources
+
+222
+00:18:52,720 --> 00:18:59,360
+for something really big. It could happen you know I want to think about that and I'm sure there's
+
+223
+00:18:59,360 --> 00:19:04,480
+lots of people out there who see the power now I mean we have just proven once again that you can
+
+224
+00:19:05,600 --> 00:19:13,600
+create revenue and cash flow in in podcasting and man it was quick and you know it was realistic
+
+225
+00:19:13,600 --> 00:19:19,280
+and we set a goal and we and I feel good about it you know and we could do the same for like
+
+226
+00:19:19,360 --> 00:19:25,200
+people dying all over the world. Oh my god I'm about to break out into we are the world I should
+
+227
+00:19:25,200 --> 00:19:29,760
+stop immediately. Thank you very much Lee and Jenny for sending in that audio comment.
+
+228
+00:19:29,760 --> 00:19:36,240
+A comment on the weblog from let me see this was from Michael Martelli. Michael says hey Adam
+
+229
+00:19:36,240 --> 00:19:40,640
+love the show rather new to podcasting got into him about three weeks ago while listening to
+
+230
+00:19:40,640 --> 00:19:44,560
+and gadgets like that so of course I had to start listening to the god father's cast. Uh huh
+
+231
+00:19:44,560 --> 00:19:49,840
+the pod father you mean. Uh actually don't list the podcast on MP3 player actually downloaded
+
+232
+00:19:49,840 --> 00:19:53,440
+it to my computer at work. Listen while I write software. I'm very excited to be finally
+
+233
+00:19:53,440 --> 00:19:57,200
+getting an iPod for Christmas so still probably listen by my computer. Oddly enough here comes
+
+234
+00:19:57,200 --> 00:20:02,560
+I actually work at your old place of employment good old MTV networks software developer in the
+
+235
+00:20:02,560 --> 00:20:08,160
+time square office 1515 Broadway and you show really helps that they go by special on five o'clock.
+
+236
+00:20:09,040 --> 00:20:13,120
+Shocked listen to the days cast you mentioned my hometown of Wayne New Jersey. I did not know
+
+237
+00:20:13,200 --> 00:20:17,840
+audible was located there neat thing to hear. You know there's all isn't it there's a isn't there a
+
+238
+00:20:17,840 --> 00:20:24,320
+great roller rink in Wayne New Jersey. Maybe that's one town over from Wayne and I think the
+
+239
+00:20:24,320 --> 00:20:30,720
+willabric mall is in Wayne New Jersey and when I think about 1515 Broadway actually was at 1515
+
+240
+00:20:30,720 --> 00:20:36,240
+was the main office we also at one point had 1775 Broadway that actually part of that burned down
+
+241
+00:20:36,640 --> 00:20:43,200
+um the some god I should ask Kenster J he should he'll probably do that on the next Ken and
+
+242
+00:20:43,200 --> 00:20:49,920
+Squip show um and it was like someone's fucking extension it was Dave Kendall's god damn extension
+
+243
+00:20:49,920 --> 00:20:55,920
+core that burned down a whole floor of the MTV offices remember Dave Kendall he did 120 minutes
+
+244
+00:20:57,120 --> 00:21:00,800
+and we always used to tease him we said in the day where that fucking dead cat on his hat which
+
+245
+00:21:00,800 --> 00:21:05,360
+was very mean to say of course some of the hair god should have actually punished me for that but
+
+246
+00:21:05,440 --> 00:21:10,000
+they've been pretty pretty nice to me so anyway cool to hear that you're haunted and I wondered if you
+
+247
+00:21:10,000 --> 00:21:15,200
+work for MTV if MTV's I guess it's still the biocomb building 1515 Broadway which of course
+
+248
+00:21:15,200 --> 00:21:21,040
+we're also their live studios are all right well thanks for uh checkin in um and there was also
+
+249
+00:21:21,040 --> 00:21:29,040
+I don't know if you saw this this new story um actually it finally got sent to me uh by email uh Gary
+
+250
+00:21:29,120 --> 00:21:37,440
+why is who um we're scary from he's the IBV Greece transmitting station the station manager
+
+251
+00:21:37,440 --> 00:21:45,120
+the hell is in Greece okay uh is that the same I guess so uh I Adam enjoy the source code yeah
+
+252
+00:21:45,120 --> 00:21:51,360
+Boeing blah blah good luck with your uh with your van with sure Denver Post reports that the
+
+253
+00:21:51,360 --> 00:21:57,840
+ours people spend listening to radio are in steep decline as younger audiences switch to iPods
+
+254
+00:21:57,840 --> 00:22:03,360
+CDs mix at home and subscription satellite signals newspaper reports several local stations
+
+255
+00:22:03,360 --> 00:22:08,160
+are taking steps to address this by cutting ads per hour jumping back into internet streaming
+
+256
+00:22:09,520 --> 00:22:15,520
+no no no no no no an emphasizing live local shows to restore the companionship factor
+
+257
+00:22:15,520 --> 00:22:22,160
+in commercial radio thank you this is exactly what is going on with podcasting and of course the
+
+258
+00:22:22,160 --> 00:22:26,480
+BBC were you know they're talking about the value of what they're doing as well and I heard
+
+259
+00:22:26,800 --> 00:22:33,440
+even though it was a pompous ass today uh who's on radio two or whatever it was uh and it was
+
+260
+00:22:33,440 --> 00:22:39,840
+course radio BBC radio London whatever it was a call-in show and he was saying radio is also about
+
+261
+00:22:39,840 --> 00:22:45,760
+the relationship between the listener and the person the presenter on the show and I think that
+
+262
+00:22:45,760 --> 00:22:51,120
+the big companies like clear channel who own most of the radio stations have kind of overlooked that
+
+263
+00:22:51,200 --> 00:22:56,080
+fact that you can't you know it's an art form it may be the lowest rung of the show is
+
+264
+00:22:56,080 --> 00:23:02,960
+ladder to be in radio but that's okay you know it is an art form and uh and you can't just
+
+265
+00:23:02,960 --> 00:23:07,840
+it's like you know disco eventually was doomed to fail for the same reason you can't automate
+
+266
+00:23:07,840 --> 00:23:12,640
+music you know which is what the big excitement of disco was it was hey no more musicians you know
+
+267
+00:23:12,640 --> 00:23:16,880
+fuck that shit we don't need those motherfuckers anymore well guess what you know it doesn't work
+
+268
+00:23:16,880 --> 00:23:24,640
+that way you do need musicians um so uh and then he also points to a actually included a
+
+269
+00:23:24,640 --> 00:23:35,120
+scan of an article from what was that uh radio world um and he yeah it's very cool sent me a
+
+270
+00:23:35,120 --> 00:23:39,200
+PDF which of course I haven't attached to the production show notes everything else is an
+
+271
+00:23:39,200 --> 00:23:46,000
+production show notes um that talks about podcasting um as it relates to radio broadcasting and that's
+
+272
+00:23:46,080 --> 00:23:50,560
+it's an interesting it's a good read I'll see if we can get an online version he couldn't find one
+
+273
+00:23:50,560 --> 00:23:54,720
+oh here it is Gary says he's writing from northern Greece where he manages a large short-way radio
+
+274
+00:23:54,720 --> 00:24:02,000
+station for the for the man for the government I've moved internationally many times so I could relate
+
+275
+00:24:02,000 --> 00:24:07,600
+to your comments on the transition from castle to cottage yeah right on okay oh by the way it's
+
+276
+00:24:07,600 --> 00:24:13,440
+has my girlfriend is joining me here in Greece this weekend coming from Germany if you have any tips
+
+277
+00:24:13,440 --> 00:24:18,400
+I'm making a multicultural relationship work in this case the American guy in a German girl please let
+
+278
+00:24:18,400 --> 00:24:27,280
+me know hmm well that's an interesting question I think about that I don't have I'll have
+
+279
+00:24:27,280 --> 00:24:36,480
+never gone out with I mean I don't even know German women I don't think the only German women
+
+280
+00:24:36,560 --> 00:24:48,160
+I know are the ones that uh that make my Audi that's the only German women I know
+
+281
+00:24:48,160 --> 00:24:55,120
+that are usually named Helga but somehow I doubt your girlfriend's name is Helga or nor does she
+
+282
+00:24:55,120 --> 00:25:01,120
+look like she should be working in an Audi factory I don't think it makes any difference man
+
+283
+00:25:01,120 --> 00:25:08,880
+whatever you're from it really doesn't as long as there's love as long as there's love and
+
+284
+00:25:10,240 --> 00:25:17,200
+you might want to consider some you might want to consider some cowbell
+
+285
+00:25:19,680 --> 00:25:25,360
+is it hey baby I want you to come over here and take off your dress and I'll put my cowbell
+
+286
+00:25:26,080 --> 00:25:35,440
+okay all right Gary thank you very much Merry Christmas to you and uh into your girlfriend
+
+287
+00:25:36,320 --> 00:25:41,680
+let's see about 25 minutes into the show so we're gonna be perfectly on time the way I have
+
+288
+00:25:41,680 --> 00:25:48,640
+it plan at this point actually I was gonna talk the day today and we were emailing back and forth
+
+289
+00:25:48,640 --> 00:25:56,400
+and yeah and I had half of an idea maybe we could do a trade secrets although I'm a little
+
+290
+00:25:56,400 --> 00:26:01,600
+bit concerned still about his setup because when he's recording and there's something funky with
+
+291
+00:26:01,600 --> 00:26:06,400
+his new computer and we have to get this fucking fix because if it's skipping while he's recording
+
+292
+00:26:06,400 --> 00:26:09,920
+that's just not gonna work because then we can't do the the dawn and drew double ender trick
+
+293
+00:26:10,480 --> 00:26:14,080
+because we won't be in sync and I'll have to now that's gonna be a fucking nightmare so
+
+294
+00:26:15,040 --> 00:26:20,640
+and then he sent me a link to the latest morning coffee notes which now of course is on scripting news
+
+295
+00:26:20,640 --> 00:26:26,240
+and I figured out maybe today would not be the day a great day for even just a social chat on the
+
+296
+00:26:27,200 --> 00:26:39,280
+hell hello hello um this is a uh I feel better but my voice doesn't sound much better
+
+297
+00:26:40,160 --> 00:26:47,040
+it's really interesting way of speaking because once they start getting going you know no when
+
+298
+00:26:47,040 --> 00:26:55,760
+it's gonna just jump up normally I have a fairly deep voice but when it's in this mode
+
+299
+00:26:56,080 --> 00:27:02,160
+just never know um when it's gonna jump up about it you know this reminds me of do you remember
+
+300
+00:27:02,160 --> 00:27:10,080
+that episode of the um the cartridge family when Peter was going through puberty and he would sing
+
+301
+00:27:10,080 --> 00:27:14,320
+and then his voice would crack and then you know it was like a real big problem because he had to
+
+302
+00:27:14,320 --> 00:27:20,720
+do this solo during a really big concert and then what they did is they eventually changed the song
+
+303
+00:27:20,720 --> 00:27:24,800
+or they did a special song for him to sing which was about changing let's go
+
+304
+00:27:25,760 --> 00:27:29,760
+hey Dave you're going through your second puberty it's at 49
+
+305
+00:27:34,480 --> 00:27:43,680
+anyway I just was reading a thing that said that Elliot Spitzer is running for a governor
+
+306
+00:27:43,680 --> 00:27:50,480
+of New York State I just thought I could die with me like that run for a governor anything
+
+307
+00:27:51,200 --> 00:28:03,120
+what if he wins people say governor Spitzer you'll be able to kids love a great time
+
+308
+00:28:04,080 --> 00:28:24,480
+or sorry I have a fine mood that's right oh man that's frightening when Dave talks you know what
+
+309
+00:28:25,040 --> 00:28:31,520
+we should bug him home on a second he's been posting eyes aware blog he wants someone to call him
+
+310
+00:28:32,480 --> 00:28:38,720
+he has like one of these 206 free numbers let's see if you can do this I think what would be
+
+311
+00:28:38,720 --> 00:28:44,800
+kind of let's give it a try I'm gonna try to do it on Skype with Skype out even though I'm on
+
+312
+00:28:44,800 --> 00:28:49,680
+the dial-up modem here at the at the cottage I bet you I could get it done so while that's loading
+
+313
+00:28:49,680 --> 00:28:57,520
+I have some great news for you um my mom called today and she has a date for operation um and this
+
+314
+00:28:58,000 --> 00:29:02,720
+so the operation where they go in and remove either half a lung or a whole lung and I just said
+
+315
+00:29:02,720 --> 00:29:08,800
+this off the cuff like she's going in for a fucking tune up but it's going to be on the 22nd
+
+316
+00:29:09,440 --> 00:29:15,120
+that's when she should be admitted 23rd is when the actual operation takes place and we're
+
+317
+00:29:15,120 --> 00:29:18,800
+really excited about it and it's great for her you know she now she has a date she can work
+
+318
+00:29:18,800 --> 00:29:24,320
+towards it she knows when it's gonna happen and everything is really you know right on track
+
+319
+00:29:24,320 --> 00:29:31,040
+and looking great so we just could not be could not be happier about it all okay hold on I've got
+
+320
+00:29:31,040 --> 00:29:39,200
+my Skype here I hope this works hold on so I'll be going over I guess yeah I may spend
+
+321
+00:29:40,720 --> 00:29:47,840
+yeah I may spend a good part of the holiday perhaps even Christmas in Holland so we'll have to
+
+322
+00:29:47,840 --> 00:29:52,400
+see okay I'm gonna try this Skype out now let's see if this works see if we can call Dave's voice
+
+323
+00:29:52,960 --> 00:30:01,520
+a 206 338 3143 so now there you go Skype just crashed fuck piece of shit
+
+324
+00:30:03,440 --> 00:30:09,280
+fuck the application Skype is unexpectedly quit because it's a piece of shit on the Mac
+
+325
+00:30:10,160 --> 00:30:14,480
+okay you know what we'll do I'll just call this boy
+
+326
+00:30:15,440 --> 00:30:22,400
+hold on I'll just call him on the speaker phone here that's what I'll do okay so it's
+
+327
+00:30:23,280 --> 00:30:34,880
+one country code 206 is the area code 338 3143 feel free to participate and and call Dave right now
+
+328
+00:30:34,880 --> 00:30:40,080
+if you're in the car have yourself owned by anyone here let's call him hold on if I can get the
+
+329
+00:30:40,560 --> 00:30:52,160
+oh that's lame there's like no message it just goes beep oh okay hey Dave it's Adam and friends
+
+330
+00:30:52,160 --> 00:30:57,760
+here at the source code just partying is users and developers everybody and we want to say hi
+
+331
+00:30:57,760 --> 00:31:02,240
+hope you feel better I hope your voice gets better so you can do another lovely morning coffee notes
+
+332
+00:31:02,960 --> 00:31:11,520
+bye okay no to care of that okay moodlong Scott Phillips says fuck thanks for ruining my
+
+333
+00:31:11,520 --> 00:31:17,600
+morning cigarette man first second hand smoked guilt now the shame of the love the dare not
+
+334
+00:31:17,600 --> 00:31:22,960
+speak its name next I'll be supporting the terrorist I can just see it now stop sucking off the
+
+335
+00:31:22,960 --> 00:31:28,480
+malbro mula I know maybe it's time to try the patch again I admire you for sticking with it still
+
+336
+00:31:28,560 --> 00:31:35,360
+love you and Don both actually um as this is from Scott from Texas and Scott we hope you definitely
+
+337
+00:31:35,360 --> 00:31:41,920
+definitely will consider quitting and you know Don's voice still rings true in my head the what she
+
+338
+00:31:41,920 --> 00:31:48,480
+says and it keeps me off the evil the evil devil weed um and we'd like you to be around for
+
+339
+00:31:48,480 --> 00:31:54,400
+why as well so anything we can do to help just listen I gotta get that excerpt from Don you know what
+
+340
+00:31:54,400 --> 00:32:01,200
+maybe I should just try and find that right now excuse me for sniffing so disgustingly where's
+
+341
+00:32:01,200 --> 00:32:04,800
+there was Don Andrew where's fucking Don Andrew show I have the Don Andrew show here somewhere
+
+342
+00:32:05,520 --> 00:32:15,600
+let me just maybe just go and find oh where's Don Andrew show hold on I don't know if I can find
+
+343
+00:32:15,600 --> 00:32:21,760
+it that quickly hold on a second let me put this into the right sound channel here we go
+
+344
+00:32:22,080 --> 00:32:27,120
+all right you were gonna tell me something when we're driving home yeah like I think I'm gonna save it for
+
+345
+00:32:27,120 --> 00:32:32,480
+when we're on the air what was it what was it I told you to remember because I knew you were gonna forget
+
+346
+00:32:32,480 --> 00:32:37,680
+what's that it the field yeah it was that close find us some shit I'll kill that up tomorrow
+
+347
+00:32:37,680 --> 00:32:42,560
+I just I gotta I need that as a jingle I need to play that over and over and over again whenever Don
+
+348
+00:32:43,280 --> 00:32:48,160
+said whenever I want to smoke whenever you want to smoke I should play that and man it's the scariest thing
+
+349
+00:32:49,120 --> 00:32:55,760
+so Scott also sent along a was it Scott who sent this tune I think it was we just see
+
+350
+00:32:58,080 --> 00:32:59,120
+yeah attached
+
+351
+00:33:01,680 --> 00:33:09,760
+a pod save song which means non RIA from garage band dot com it says thought you might get a kick out of
+
+352
+00:33:09,760 --> 00:33:15,360
+it stick with it till the end okay oh yeah right well it's it's a different kind of song
+
+353
+00:33:15,520 --> 00:33:19,600
+roll it's into it since since you sent it in and since you like it I don't like to brush my teeth
+
+354
+00:33:19,600 --> 00:33:24,240
+is the title you can find the link to this song in the production show notes
+
+355
+00:33:32,400 --> 00:33:34,640
+was this the point where I go yeah everybody
+
+356
+00:33:35,040 --> 00:33:54,560
+it's kind of like Mr. Rogers and I ask I don't like to brush my teeth go up and down and on around and underneath
+
+357
+00:33:55,200 --> 00:34:03,200
+I don't like to brush my teeth don't like to brush my teeth
+
+358
+00:34:06,800 --> 00:34:19,680
+but I know that there are things I have to do so if I got a brush my teeth then I want to brush my teeth
+
+359
+00:34:24,560 --> 00:34:46,080
+I don't like to wash my face my eyes my mouth I know that every place I don't like to wash my face
+
+360
+00:34:46,160 --> 00:35:05,600
+but I know that there are things I have to do so if I got a brush my face then I want to wash my face with you
+
+361
+00:35:06,560 --> 00:35:28,880
+I don't like to be a down word about things to get done and it drives me insane but I just can't explain
+
+362
+00:35:28,880 --> 00:35:34,320
+why with you they almost seem to be fun
+
+363
+00:35:36,480 --> 00:35:55,600
+I don't like to go to bed for much prefer to watch to be instant I don't like to go to bed
+
+364
+00:35:59,360 --> 00:36:12,400
+but I know that there are things I have to do so if I got a good bed then I want to go to bed
+
+365
+00:36:12,400 --> 00:36:28,560
+and I want to go to bed
+
+366
+00:36:42,400 --> 00:36:59,760
+oh if I got a good bed then I want to go to bed with you
+
+367
+00:37:00,560 --> 00:37:07,440
+and that's sweet it starts off with brushing his teeth and before you know it you didn't let it
+
+368
+00:37:07,440 --> 00:37:09,440
+be as
+
+369
+00:37:18,880 --> 00:37:24,080
+welcome to the ripen read blogger podcast I'm Charlie Quidnung reporting I read the blogosphere so you
+
+370
+00:37:24,080 --> 00:37:29,840
+don't have to miss a day of posts no worries just listen to my ripen read blogger podcast and you'll hear
+
+371
+00:37:29,840 --> 00:37:34,800
+what everyone is saying maybe about you 10 minutes a day to hear the top three or four political
+
+372
+00:37:34,800 --> 00:37:39,680
+topics from a conservative perspective to get the details and read the original sources you'll find
+
+373
+00:37:39,680 --> 00:37:49,520
+all the links on ripen read.logspot.com that's ripn r e a d dot blogspot.com all right that'll do it for
+
+374
+00:37:49,520 --> 00:37:58,640
+your source code for today for Wednesday December 8, 2004 save perfect time just about 40 minutes
+
+375
+00:37:58,640 --> 00:38:02,640
+such as others looking for so always the best of the use of developers where we party together
+
+376
+00:38:02,640 --> 00:38:09,360
+to figure this shit out makes the work if we can and of course all the best of podcasts and
+
+377
+00:38:09,360 --> 00:38:13,280
+the promos and keep them coming Adam and Curry dot com attached to file
+
+378
+00:38:16,560 --> 00:38:20,960
+that's really working quite well for me if you keep it on the keep between keep it on
+
+379
+00:38:20,960 --> 00:38:26,240
+the three mags or five mags doesn't really matter if you send me seven mp three files
+
+380
+00:38:26,240 --> 00:38:31,760
+absolutely perfect because I just leave the mail client running dirty during the night
+
+381
+00:38:31,760 --> 00:38:37,920
+in the caches everything that comes in along with my my iPod or so I'm actually doing okay
+
+382
+00:38:37,920 --> 00:38:42,320
+yeah wouldn't mind having a little bit of bandwidth with him in the next oh fucking century or so
+
+383
+00:38:43,920 --> 00:38:48,640
+you can leave comments on the weblog of Curry dot com and of course I can get the all the archives
+
+384
+00:38:48,640 --> 00:38:56,640
+in the latest show on daily source code dot com we back tomorrow with the source code from the
+
+385
+00:38:56,640 --> 00:39:01,520
+cottage in the UK talk to you there and bye bye I remember all that
+
