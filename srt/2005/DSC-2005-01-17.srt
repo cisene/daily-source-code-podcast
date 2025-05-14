@@ -1,0 +1,1956 @@
+1
+00:00:00,000 --> 00:00:03,360
+source code for January 17th, 2005.
+
+2
+00:00:05,360 --> 00:00:09,920
+Transmators, we don't need no stinking transmators.
+
+3
+00:00:13,920 --> 00:00:15,920
+And good morning, good afternoon, good evening.
+
+4
+00:00:18,240 --> 00:00:21,920
+Hi everybody, welcome to the day of the source code coming to you once again from
+
+5
+00:00:21,920 --> 00:00:24,480
+Curry Cottage in in the affluence.
+
+6
+00:00:25,120 --> 00:00:27,920
+Suray, suburb, cold gulfed.
+
+7
+00:00:29,680 --> 00:00:31,600
+It's the start of a new week and we've got a lot of
+
+8
+00:00:31,600 --> 00:00:34,000
+lots of stuff to talk about on the source code.
+
+9
+00:00:34,000 --> 00:00:36,880
+All podcasts related of most of those.
+
+10
+00:00:39,440 --> 00:00:44,080
+Well, a new start, a new way to kick off the source code.
+
+11
+00:00:44,080 --> 00:00:46,080
+I've been receiving lots of emails from people.
+
+12
+00:00:46,080 --> 00:00:51,040
+Now is more and more people are coming online and enjoying podcasts.
+
+13
+00:00:51,920 --> 00:00:56,080
+It seems that the ID3 tags just aren't enough when searching through
+
+14
+00:00:56,960 --> 00:01:00,720
+whatever messed up playlist system your particular MP3 player might have.
+
+15
+00:01:01,920 --> 00:01:07,440
+So the request was, could you just start off by giving a little identification tag so that when someone hits
+
+16
+00:01:07,440 --> 00:01:11,120
+the play button, they know exactly which source code they're listening to.
+
+17
+00:01:11,120 --> 00:01:13,600
+Okay, fair enough, January 17th, 2003.
+
+18
+00:01:13,600 --> 00:01:24,160
+I keep forgetting that when you got headphones on, you can't take your glasses off because you
+
+19
+00:01:24,160 --> 00:01:25,520
+never get a background again.
+
+20
+00:01:25,520 --> 00:01:26,560
+Okay, there we go.
+
+21
+00:01:26,560 --> 00:01:31,760
+All right, 40 minutes approximately that is of all the latest goings on in the podcast
+
+22
+00:01:31,760 --> 00:01:36,960
+land and lots of responses to the previous podcast from last week.
+
+23
+00:01:36,960 --> 00:01:42,320
+The first thing I really want to talk about is the amount of response I got about my
+
+24
+00:01:42,320 --> 00:01:45,360
+easy jet experience traveling with Egypt.
+
+25
+00:01:45,360 --> 00:01:50,480
+In fact, I'm about to book another easy jet trip for this week to the Netherlands to do a couple
+
+26
+00:01:50,480 --> 00:01:52,240
+of a couple of meetings.
+
+27
+00:01:52,240 --> 00:01:59,120
+David Burgess said that he had a similar easy jet experience and he said polite, efficient,
+
+28
+00:01:59,120 --> 00:02:05,120
+orderly, although the playing was smaller than the Airbus 319 on the one that I flew on.
+
+29
+00:02:06,080 --> 00:02:11,760
+But I think this is, oh, he goes to this whole story about how people brought their own
+
+30
+00:02:11,760 --> 00:02:15,600
+champagne on board and how the students were all kind of cool with it and how the other
+
+31
+00:02:15,600 --> 00:02:16,720
+passengers were cool with it.
+
+32
+00:02:16,720 --> 00:02:22,480
+All of these, of course, in the production show, it's OPML file, which I'm thinking about
+
+33
+00:02:23,200 --> 00:02:30,080
+actually posting these in the blog post itself when I create the entry for Eves New Daily
+
+34
+00:02:30,080 --> 00:02:31,600
+source code.
+
+35
+00:02:31,600 --> 00:02:36,880
+Just probably need to format a little bit differently or polish it up so it doesn't look
+
+36
+00:02:36,880 --> 00:02:38,480
+so crappy on a web page.
+
+37
+00:02:38,480 --> 00:02:41,120
+But otherwise, you'll be able to get to all of those comments.
+
+38
+00:02:41,120 --> 00:02:42,120
+That's a really good one.
+
+39
+00:02:42,120 --> 00:02:44,240
+That's why I posted it up there.
+
+40
+00:02:44,240 --> 00:02:49,600
+Just been trolling through my iPod, I spent most of the weekend downloading stuff.
+
+41
+00:02:49,600 --> 00:02:52,000
+Of course, downloading automatically, transferring it to my I-River.
+
+42
+00:02:52,000 --> 00:02:56,720
+I got to tell you, I am completely an I-River guy now.
+
+43
+00:02:56,800 --> 00:02:59,920
+For some reason, it's just, it works better for me than the iPod.
+
+44
+00:02:59,920 --> 00:03:04,720
+It certainly is nicer because I have the old iPod, not the mini.
+
+45
+00:03:04,720 --> 00:03:07,760
+God forbid, not the micro or the, no, what was it?
+
+46
+00:03:07,760 --> 00:03:08,760
+It's the shuffle.
+
+47
+00:03:08,760 --> 00:03:09,760
+That's right.
+
+48
+00:03:09,760 --> 00:03:11,360
+David Letterman had a bit that I saw last night.
+
+49
+00:03:11,360 --> 00:03:18,640
+He had this little itsy bitsy, like an inch high by an inch wide mock-up of kind of like
+
+50
+00:03:18,640 --> 00:03:23,400
+the iPod shuffle and he said, look, Paul, this is the iPod micro.
+
+51
+00:03:24,360 --> 00:03:26,360
+It's like, yeah, exactly.
+
+52
+00:03:26,360 --> 00:03:28,600
+One podcast, even, that would be perfect, wouldn't it?
+
+53
+00:03:28,600 --> 00:03:33,880
+It's time once again for America's favorite radio show, the radio and such a subduct of Floyd,
+
+54
+00:03:33,880 --> 00:03:36,440
+brought to you by ductafloey.com.
+
+55
+00:03:36,440 --> 00:03:39,480
+This week, we join our heroes as a screen through time and space.
+
+56
+00:03:39,480 --> 00:03:59,320
+Yeah, you just don't get radio like that anymore, do you?
+
+57
+00:03:59,320 --> 00:04:01,880
+We were talking about Kennedy, the VJ.
+
+58
+00:04:01,880 --> 00:04:09,400
+On my last sounding tour down to Starbucks at Gilford and Matthew Bishop, of course, quite
+
+59
+00:04:09,400 --> 00:04:13,480
+active in the podcast community, checked in, he said, thought like, you know, that former
+
+60
+00:04:13,480 --> 00:04:19,880
+MTV VJ Kennedy now hosts the game show network show, friends or foe, yeah, well, she probably
+
+61
+00:04:19,880 --> 00:04:23,880
+has about the same amount of viewers as I have listeners to the source code, so we wish
+
+62
+00:04:23,880 --> 00:04:24,880
+her well.
+
+63
+00:04:24,880 --> 00:04:27,880
+It's just never was one of my favorite people, Kennedy.
+
+64
+00:04:27,880 --> 00:04:30,400
+God, gosh, we got so much to go through.
+
+65
+00:04:30,400 --> 00:04:33,320
+I have so many different sound clips and so many different things I want to talk about,
+
+66
+00:04:33,320 --> 00:04:36,240
+particularly about the sound seeing tour, because people are really catching onto this
+
+67
+00:04:36,320 --> 00:04:42,400
+concept and it's not just a concept that works when you're, well, I don't know, it works
+
+68
+00:04:42,400 --> 00:04:50,080
+everywhere basically and I was turned on to another podcast, which is actually, it's not
+
+69
+00:04:50,080 --> 00:04:54,080
+officially a podcast, it's a beer cast, now there are a lot of different beer cast, if you
+
+70
+00:04:54,080 --> 00:04:59,440
+look at the iPodot org directory, which I heard by the way that the iPodot org is listed
+
+71
+00:04:59,440 --> 00:05:05,280
+in the top 20,000 of most sites visited ever in the universe of the history of the
+
+72
+00:05:05,280 --> 00:05:10,560
+Incarnets, and where did I hear that, I heard it on, gosh, this is the problem, you know,
+
+73
+00:05:10,560 --> 00:05:16,000
+when you're listening to your I-river and open podcast that org for instance is something I
+
+74
+00:05:16,000 --> 00:05:20,240
+listened to a lot, I subscribe to that, but also podcast brothers and there's so many different
+
+75
+00:05:22,080 --> 00:05:25,760
+different podcasts that I just think, oh yeah, this is so great, I want to play a piece on my
+
+76
+00:05:25,760 --> 00:05:30,160
+show, I want to talk about it and what I want is a knob, you know, a knob where I can hit that
+
+77
+00:05:30,160 --> 00:05:35,040
+button, it remembers where it was, what file it was, let's me say something so I can, you know,
+
+78
+00:05:35,040 --> 00:05:39,680
+leave a little audio note to myself, that's gotta be possible, someone, somehow in the,
+
+79
+00:05:39,680 --> 00:05:43,840
+can someone hack that up in the firmware of the I-river please, I'll gladly pay for it,
+
+80
+00:05:43,840 --> 00:05:48,000
+make it happen for me. So here's one of those things that I did,
+
+81
+00:05:48,000 --> 00:05:52,960
+remember to put into today's podcast, this is the beer casting American tour,
+
+82
+00:05:53,840 --> 00:06:00,320
+you'll be interested to hear this because this is global maybe. Hey Adam, this is Greg from
+
+83
+00:06:00,400 --> 00:06:05,200
+beer casting.com, it's just right to let you know about the beer casting America tour,
+
+84
+00:06:05,200 --> 00:06:10,640
+which I am just about to kick off over the next few months. I don't know if you have ever heard
+
+85
+00:06:10,640 --> 00:06:15,920
+of one of our beer casts, but here's the scoop, what I do is I'm going on tour to a bunch of different
+
+86
+00:06:15,920 --> 00:06:20,880
+cities, all across the US, I introduce a bunch of new people who have never really met before
+
+87
+00:06:21,680 --> 00:06:24,960
+to what I call beer casting, podcasting with the buzz.
+
+88
+00:06:24,960 --> 00:06:35,440
+That's a great slogan. Podcasting with the buzz. Podcasting with the buzz, everybody.
+
+89
+00:06:35,440 --> 00:06:39,680
+That's what I, in fact, I wanted to call the Daily Source Code just that, the Daily Source Code,
+
+90
+00:06:39,680 --> 00:06:47,280
+podcasting with the buzz. Beer cast is essentially a podcast that I record live in a bar,
+
+91
+00:06:47,280 --> 00:06:52,800
+and then use all that RSS goodness to kind of get it out to the world. And I'll let people hear,
+
+92
+00:06:52,800 --> 00:06:56,080
+you know, what everyone's thinking about, all kinds of random shit from
+
+93
+00:06:56,960 --> 00:07:02,240
+why men are love cat fights down to politics down to tsunami, everything in between.
+
+94
+00:07:04,240 --> 00:07:10,240
+The tour actually just got started this week. It's going on. It was out in Worcester, Mass. On Tuesday,
+
+95
+00:07:10,240 --> 00:07:15,360
+hosted about 14 people out there. Also had a few people down in New York City doing it the same time.
+
+96
+00:07:17,280 --> 00:07:22,480
+Later on this month, I'll be hitting DC. Next Tuesday, the 18th, Seattle, Washington.
+
+97
+00:07:22,480 --> 00:07:28,800
+On the 23rd, Portland, Oregon, on the 26th, then goes on to February, and I'll be in Houston,
+
+98
+00:07:28,800 --> 00:07:34,720
+on the 7th, San Antonio, on the 8th, Austin, on the 9th. The second half of February,
+
+99
+00:07:34,720 --> 00:07:40,480
+and we'll go shoot down to Florida. Checking out West Palm Beach on the 20th, for Waterdale,
+
+100
+00:07:41,040 --> 00:07:46,880
+on the 21st, and South Beach, which you know, good and well. In the 22nd.
+
+101
+00:07:47,680 --> 00:07:53,600
+Seriously, though, the best part for me is not really the travel. The cool thing is that on
+
+102
+00:07:53,600 --> 00:07:59,600
+every city I visited or talked to or been to, it's somebody down there is helping me organize the event.
+
+103
+00:07:59,600 --> 00:08:04,800
+You know, they're getting people together to help me find location. I've been to some
+
+104
+00:08:04,800 --> 00:08:08,400
+most of these places, but you know, I've been there so long. So it's really great that people
+
+105
+00:08:08,400 --> 00:08:11,280
+come out of water work and they're saying, hey, you know, I love you to come down here to look
+
+106
+00:08:11,280 --> 00:08:15,680
+if you do it down here. March is, you know, kind of distant dream right now, but already
+
+107
+00:08:15,680 --> 00:08:19,680
+it looks like California is where I'm going to be. Getting people already sent it, you know,
+
+108
+00:08:19,680 --> 00:08:24,960
+and invite me to come do it down there. I'm really hoping that if there's any daily source
+
+109
+00:08:24,960 --> 00:08:29,280
+code listeners out there and one of these cities or someplace that they think it'd be great to do
+
+110
+00:08:29,280 --> 00:08:37,120
+one, I hope you come out, meet up, shoot me an email. Full schedule's up at www.bearcastin.com,
+
+111
+00:08:37,120 --> 00:08:40,720
+and you can check out some of the old shows and see how people are going to do it and what
+
+112
+00:08:40,720 --> 00:08:47,360
+we do and enjoy a lot of fun. You can also email me, graygetbeardcasting.com. Well,
+
+113
+00:08:47,360 --> 00:08:51,840
+well, thanks for listening and I hope you're a bandwidth get solved real soon.
+
+114
+00:08:51,840 --> 00:08:56,560
+Oh, great. Oh, please. Oh, the fucking bandwidth. It's killing me, man. It's fucking killing me.
+
+115
+00:08:58,400 --> 00:09:03,280
+I put a big post on my weblog today. Hopefully to get someone animated to come out and help me
+
+116
+00:09:03,280 --> 00:09:09,360
+before I start pulling up the curb myself to connect the last 15 meters. The last, you know,
+
+117
+00:09:09,360 --> 00:09:16,960
+30 feet or so of 50 feet maybe of wire. And when I listen to that, right, and I listen to as many
+
+118
+00:09:16,960 --> 00:09:22,080
+podcasts I possibly can. Most people, including my wife, my lovely wife Patricia, say, where do you
+
+119
+00:09:22,080 --> 00:09:27,680
+find the time to listen to all these? Well, actually, it's very clear where I find that time.
+
+120
+00:09:27,680 --> 00:09:32,480
+It's at Starbucks. Three hours a day is when I'm checking everything out. I'm not just uploading
+
+121
+00:09:32,480 --> 00:09:37,760
+and also downloading folks. But when I hear stuff like this, right, I'm thinking of myself, hold on.
+
+122
+00:09:37,760 --> 00:09:42,000
+We got to crank up the reverb here for a second. Ow, let's see if we can do this. Hello,
+
+123
+00:09:42,000 --> 00:09:48,480
+wait, that's the wrong. I'm doing the wrong thing here. No, I wanted to. Okay, let's see if I can, oh,
+
+124
+00:09:48,480 --> 00:09:55,760
+oh, oh, oh, oh, let's see. Okay. Hello. Okay. We are now turning the podcast transmitter towards
+
+125
+00:09:55,760 --> 00:10:02,640
+St. Louis, Missouri. Hello, and heiser Bush. Robert McColley and heiser Bush pay attention.
+
+126
+00:10:02,640 --> 00:10:09,600
+People are doing beer casts. A perfect moment to underwrite a beer cast. Okay. Let me, yeah,
+
+127
+00:10:09,600 --> 00:10:13,680
+there we go. Turn on the reverb. Just like, you know, there's opportunity out there. Anyone coming
+
+128
+00:10:13,680 --> 00:10:20,000
+into the beer space right now could own that in podcasting. And I certainly hope Greg has a good
+
+129
+00:10:20,000 --> 00:10:25,600
+time on this tour. I wonder what people are drinking. I'm certainly one that's going to be
+
+130
+00:10:25,600 --> 00:10:31,040
+subscribing to the show and listening to it. Okay, about the sound seeing tour, which is certainly
+
+131
+00:10:32,000 --> 00:10:35,680
+as you'll find out later on in today's podcast. It's not something that's new,
+
+132
+00:10:35,680 --> 00:10:40,800
+but it is something that we've kind of forgotten, you know, just sound. What does it sound like when
+
+133
+00:10:40,800 --> 00:10:45,520
+you're somewhere? In fact, there's a, the new Ray Charles movies coming out, right, with James
+
+134
+00:10:45,520 --> 00:10:52,080
+at Jamie Far from an living color, who was Jamie Far from Saturday Night Live. In living color,
+
+135
+00:10:52,080 --> 00:10:58,480
+I guess, right? Who does a fantastic Ray Charles? Absolutely blows me away. Can't wait to see
+
+136
+00:10:58,480 --> 00:11:02,560
+this movie, but there's a guy who, you know, from age seven, six or seven, I think,
+
+137
+00:11:03,840 --> 00:11:10,160
+only had sound. And we forget about that. And we forget about how much sound there is. And basically,
+
+138
+00:11:10,160 --> 00:11:15,840
+on the radio sound is all mushed and mangled into one, you know, big commercial block that kind of
+
+139
+00:11:15,840 --> 00:11:21,920
+flows towards you, not all radio, of course, but lots of, lots of radio. So people are really
+
+140
+00:11:21,920 --> 00:11:26,320
+catching on to these sound seeing tours. And I'd love to hear if other people are doing them,
+
+141
+00:11:26,320 --> 00:11:30,880
+and I'd love to, you know, go on a sound seeing tour of my own, not while recording, but while
+
+142
+00:11:30,880 --> 00:11:36,480
+listening to someone else. And I've got a lot of response to the last one, and so of course, I did the
+
+143
+00:11:36,480 --> 00:11:41,920
+my, my first sound seeing tour on South Beach, walking down the ocean drive in, in Florida.
+
+144
+00:11:41,920 --> 00:11:46,960
+The other one I did last was it Friday. In fact, I went to drop Christina off at,
+
+145
+00:11:48,640 --> 00:11:54,800
+near the high street yesterday. She was meeting up with some friends from school to go hang out, apparently.
+
+146
+00:11:54,880 --> 00:11:58,320
+It's pretty pretty harmless, I guess, for them to hang out here and gilford,
+
+147
+00:11:58,320 --> 00:12:03,360
+can't run into too much trouble. And Patricia called me and said, are you recording? You
+
+148
+00:12:03,360 --> 00:12:09,120
+should record that when you drop her off and what it's like? Good idea. I will. I certainly,
+
+149
+00:12:09,120 --> 00:12:15,040
+maybe she's just Mike Christina, and let her go on a sound seeing tour. Sound seeing tour gilford
+
+150
+00:12:15,040 --> 00:12:20,320
+has a 14-year-old girl. I'm learning so much. We've got, you know, that here in the UK,
+
+151
+00:12:20,320 --> 00:12:25,440
+so at her school, there are different groups of people. I'm not going to digress on this too much,
+
+152
+00:12:25,440 --> 00:12:30,240
+but we've got the chaves, and we've got the pikes. And I'm learning more, and more, I think I'm
+
+153
+00:12:30,240 --> 00:12:34,240
+probably more like a pikesy myself, but we're learning more about these groups every day as we settle
+
+154
+00:12:34,240 --> 00:12:37,680
+into the English culture. Anyway, so the number one thing people want to know about my
+
+155
+00:12:38,480 --> 00:12:43,840
+sound seeing tour is the setup. What am I using to record it? And I think that this is really key,
+
+156
+00:12:43,840 --> 00:12:48,240
+because first of all go through the elements, and then I'll tell you why these are probably the
+
+157
+00:12:48,320 --> 00:12:52,320
+right elements to use and why they're important. So the recording device is my iRiver,
+
+158
+00:12:52,320 --> 00:12:59,200
+IFP799. They're several different models. I like this one because it can hold up to a gig
+
+159
+00:12:59,760 --> 00:13:07,120
+of recording, and if you do, it's, I see I recorded 44 kilohertz on 128 KBPS. That's what I record at,
+
+160
+00:13:07,120 --> 00:13:11,040
+not what it actually gets sent out as, but I want to have a really high quality recording to start with.
+
+161
+00:13:11,840 --> 00:13:16,160
+And that's about a megabyte a minute. So if you do, you know, 40 minutes, you're going to be
+
+162
+00:13:16,160 --> 00:13:22,320
+pretty much around 40 meg. So plenty of plenty of space in there. What I like about the iRiver is you
+
+163
+00:13:22,320 --> 00:13:27,440
+can, when you put it into record mode, and of course you can lock it, right? So you put this little
+
+164
+00:13:27,440 --> 00:13:35,440
+iRiver into your pocket, and it won't automatically switch off. It plays the sound through. So
+
+165
+00:13:35,440 --> 00:13:39,920
+you can crank up the volume, and essentially when you have the earbuds in your ears, you're listening
+
+166
+00:13:39,920 --> 00:13:44,800
+to exactly what people will hear when they listen to the sound seeing tours. And believe me,
+
+167
+00:13:44,880 --> 00:13:48,960
+you hear a very different sound scape than when you're just listening with your ears.
+
+168
+00:13:49,520 --> 00:13:54,960
+So then what I do is I hook up my wireless microphone said. This is the kind, this is a
+
+169
+00:13:54,960 --> 00:14:00,960
+electro-eli shit. Hold on a second. Let me, let me just grab around my bag and make sure.
+
+170
+00:14:01,680 --> 00:14:02,960
+Yeah, that's a real good production.
+
+171
+00:14:02,960 --> 00:14:14,240
+Yeah, here it is. Sorry. I should have that. Prepared for you. This is the, okay, it's the
+
+172
+00:14:14,240 --> 00:14:25,440
+electro-eli CT-R-O. U-M-1-1-0. This is a set that we picked up, so there's many times before.
+
+173
+00:14:26,160 --> 00:14:32,160
+When we did a reality show to the Adam's family, and it's of course complete overkill to have
+
+174
+00:14:32,720 --> 00:14:37,360
+the transmitter in my front pocket, and the receiver in my back pocket hooked up to the
+
+175
+00:14:37,360 --> 00:14:47,280
+R.I. River. The advantage is this microphone is incredible. The way it picks up audio,
+
+176
+00:14:47,280 --> 00:14:52,080
+and it has a little lovelier, so you can just clip it onto your collar and no one will really
+
+177
+00:14:52,080 --> 00:14:57,520
+know that you're recording anything. The sound is phenomenal. That's what everyone hears. You can
+
+178
+00:14:57,520 --> 00:15:03,440
+hear everything around you. It has a very light compression in it. Of course, garbage and garbage
+
+179
+00:15:03,440 --> 00:15:08,880
+out. You've got to have the right microphone. This works for me. I'm sure that there are other
+
+180
+00:15:10,080 --> 00:15:15,200
+mic setups that will work, but that's what everyone wants to know. It's the electro-U-M-1-10
+
+181
+00:15:15,200 --> 00:15:22,000
+electro-U-HF transmitter receiver pair. Not cheap. I'll tell you that. I think I paid $2,000
+
+182
+00:15:22,000 --> 00:15:32,720
+euros for that, so that's almost $4,000 these days. Then what I do is I basically connect the
+
+183
+00:15:32,720 --> 00:15:42,880
+out of the electro receiver up to the input of the I-River, switch it on, and then I can listen
+
+184
+00:15:42,880 --> 00:15:49,120
+to exactly what I'm recording. Another additional benefit of this setup is that if you hold the
+
+185
+00:15:49,120 --> 00:15:53,360
+I-River in your hand, and you're left hand, for instance, and of course the wires are hooked
+
+186
+00:15:53,360 --> 00:15:58,240
+up to your head, right, and there's another wire running into your pocket to the receiver of the
+
+187
+00:15:58,960 --> 00:16:04,960
+microphone receiver, is that it looks like you're holding onto a cellular phone. Therefore, if you're
+
+188
+00:16:04,960 --> 00:16:09,440
+walking down the street, talking crap, you know, doing your sound seeing tour, people basically
+
+189
+00:16:09,440 --> 00:16:13,680
+won't look at you like you're some degenerate idiot, or the villager idiot for the
+
+190
+00:16:14,320 --> 00:16:19,200
+walking around talking to yourself. Alternatively, you can just keep the hold the cell phone up
+
+191
+00:16:19,200 --> 00:16:25,040
+to your ear, even though it can be off just pretending like you're talking into it. But I predict
+
+192
+00:16:25,040 --> 00:16:28,800
+that pretty soon it'll be normal, you know, people are doing sound seeing tours all over the
+
+193
+00:16:28,800 --> 00:16:35,200
+place, and it'll be a very normal thing to see in the city or village landscape. One additional bit
+
+194
+00:16:35,200 --> 00:16:42,720
+I would really love to have if it was at all possible. One additional feature would be GPS.
+
+195
+00:16:44,000 --> 00:16:50,400
+I'm so convinced that if I could connect GPS data to the sound seeing tour, that we'd have
+
+196
+00:16:50,400 --> 00:16:56,160
+something absolutely phenomenal. Better yet, wouldn't it be great just to have some kind of GPS
+
+197
+00:16:57,600 --> 00:17:01,680
+it is basically a connection with GPS, so I could do the sound seeing tour. I could, you know,
+
+198
+00:17:01,680 --> 00:17:08,320
+mark where I make a comment, and you could follow along with that tour, or alternatively,
+
+199
+00:17:08,400 --> 00:17:15,440
+you could just be walking anywhere, and let's say you had an iPod, an MP3 player with GPS in it,
+
+200
+00:17:15,440 --> 00:17:22,880
+and it would download GPS data, so let's say we had the sound seeing tour. God damn it,
+
+201
+00:17:22,880 --> 00:17:27,680
+I should register that domain name. What we're doing that, let me see if that's available.
+
+202
+00:17:27,680 --> 00:17:32,560
+Sound seeing tour.com, of course, what I would, my computer is not going to like me doing this
+
+203
+00:17:32,560 --> 00:17:37,920
+while I'm recording. Okay, before I upload the show, I'm checking God damn it, so you can't capture
+
+204
+00:17:37,920 --> 00:17:43,920
+that from me right away. I'll shoot. Now my computer is completely hoising out. Hold on, let me see if
+
+205
+00:17:43,920 --> 00:17:51,040
+Firefox will die. Go away. Go, please. Hide. Okay, great. So you basically upload your data. So let's
+
+206
+00:17:51,040 --> 00:17:56,560
+say I upload the data for a gilford, and if you're walking around gilford, then, you know, your MP3
+
+207
+00:17:56,560 --> 00:18:01,200
+player will go, bling, you know, we've got a message in this spot, and then I could, you know, click,
+
+208
+00:18:01,200 --> 00:18:06,320
+and then it would automatically bring me that or play that a sound file for me. Of course,
+
+209
+00:18:06,320 --> 00:18:10,800
+it seems like this would be logical to have it. Maybe we need to be able to put that into the RSS.
+
+210
+00:18:10,800 --> 00:18:19,760
+Yeah, there you go. So we need data that we can add into RSS feed along with the enclosure.
+
+211
+00:18:19,760 --> 00:18:23,200
+So, hey, there's another reason for a name space. Does anyone get what I'm talking about?
+
+212
+00:18:23,200 --> 00:18:28,720
+Where you can basically have these comments in space, so you could subscribe to sound
+
+213
+00:18:29,360 --> 00:18:31,840
+something like that. There's something in there that we got to work on.
+
+214
+00:18:32,720 --> 00:18:37,440
+And I've got a lot of comments and actually a real old fashioned
+
+215
+00:18:39,680 --> 00:18:46,720
+sound sing tour from the 1940s, but first a word from Patrick. Hey, Adam, this is Patrick from 80s
+
+216
+00:18:46,720 --> 00:18:52,240
+Airwaves, not a podcast, but a full-time online radio station dedicated to 80s music, movie clips,
+
+217
+00:18:52,240 --> 00:18:56,880
+and more. Now that you have your bandwidth, check us out as we broadcast live from a bonus room
+
+218
+00:18:56,960 --> 00:19:02,560
+over the garage at 80sairwaves.com. I just listened to your podcast on last week your sound trip
+
+219
+00:19:02,560 --> 00:19:08,160
+down ocean drive and south beach. I think it's the best podcast I've heard so far. You mentioned
+
+220
+00:19:08,160 --> 00:19:11,760
+two things that caused me to put this audio reply together. First, you mentioned how you're
+
+221
+00:19:11,760 --> 00:19:15,280
+involvement in the music business during the 80s caused you to miss a lot of the great stuff
+
+222
+00:19:15,280 --> 00:19:20,000
+that came out during that period. Our radio station plays a really wide variety of great music
+
+223
+00:19:20,000 --> 00:19:25,680
+from the 80s, not just the MTV stuff, but we throw in some scop, punk, rap, hair bands, more.
+
+224
+00:19:25,760 --> 00:19:29,280
+So I hope you'll check us out and let me know what you think. This could be your chance to
+
+225
+00:19:29,280 --> 00:19:35,920
+catch up on what you missed back then and Patrick got some cowbells. Second, you sounded pretty
+
+226
+00:19:35,920 --> 00:19:41,520
+stressed about the response to the interview with Madge from the East Radio person. Personally,
+
+227
+00:19:41,520 --> 00:19:46,560
+having survived cancer and radiation treatment myself and even having lost my father to cancer,
+
+228
+00:19:46,560 --> 00:19:50,080
+I personally like to tell people just to chill the fuck out. There are a lot more important
+
+229
+00:19:50,080 --> 00:19:55,360
+things in life to do than to get up tight about one person has to say about yeast infections.
+
+230
+00:19:55,440 --> 00:19:59,200
+So chill out people. That's it Adam. Keep up the great work.
+
+231
+00:19:59,200 --> 00:20:04,880
+Alright, Patrick, excellent. Thanks very much, Madge. Yeah, my mom has a sign on the her,
+
+232
+00:20:04,880 --> 00:20:10,720
+one of those old fashioned, what do you call it? My great grandmother used to knit them all the time.
+
+233
+00:20:11,920 --> 00:20:18,320
+Oh, shoot. A sampler is that we call it a sampler? And it's basically it's a crocheted or knit
+
+234
+00:20:18,880 --> 00:20:25,280
+type thing that hang on the wall and it has little slogan there like the one I remember is the road
+
+235
+00:20:25,280 --> 00:20:32,400
+to a friend's house is never long. But my mom has one and it's I used to complain about my shoes
+
+236
+00:20:32,400 --> 00:20:38,720
+hurting my feet until I met a man who had no feet. And yeah, that's obviously true. You know,
+
+237
+00:20:38,720 --> 00:20:42,880
+I'm bitching and moaning about my bandwidth but the hell of a lot worse that could be happening to me
+
+238
+00:20:42,880 --> 00:20:46,560
+or you know, could have happened to have been very fucking lucky in the past year. So
+
+239
+00:20:49,040 --> 00:20:51,920
+you're right, Patrick, there you go. We also just chill out. And by the way,
+
+240
+00:20:52,800 --> 00:21:00,080
+I've been listening to Madge's recent podcasts. The one about Apple about Steve Jobs keynote is
+
+241
+00:21:00,080 --> 00:21:06,480
+fucking hilarious. You got to listen to it. Absolutely fantastic. Okay, now let's go back in time
+
+242
+00:21:07,280 --> 00:21:11,600
+because we're going to listen to well, the introduction speaks for itself. Check this out. You're going to
+
+243
+00:21:11,600 --> 00:21:16,640
+love this. Hi Adam, this is Jim Widner. I wanted to tell you that first of all how much I've been
+
+244
+00:21:16,640 --> 00:21:22,800
+enjoying your daily source code sound scene tours. Your recent tour to Starbucks reminded me of an
+
+245
+00:21:22,800 --> 00:21:29,120
+MP3 file that I have in my collection. It's from a radio series that the BBC and CBS radio
+
+246
+00:21:30,000 --> 00:21:37,440
+put together in 1940 called London after dark. One of the programs featured CBS radio bureau chief
+
+247
+00:21:37,440 --> 00:21:43,760
+Edward Armerall standing near Trifagar Square with the air raid sirens blaring, giving listeners a
+
+248
+00:21:43,840 --> 00:21:48,560
+sort of sound scene of the area during the blitz. So I thought you might be interested in hearing
+
+249
+00:21:48,560 --> 00:21:53,040
+a clip from the program and I've included it here. I know we take you out of the streets of Black
+
+250
+00:21:53,040 --> 00:21:58,800
+Outland and downstate Lake Crescent-Shade region streets along south to be Avenue of here to
+
+251
+00:21:58,800 --> 00:22:06,320
+name into sharing crossroads London's Ken Panale and so to come down this way. Moving there is Edward
+
+252
+00:22:06,400 --> 00:22:19,680
+Murrow, known to you as Columbia's European director. Come in Ed Murrow.
+
+253
+00:22:20,240 --> 00:22:26,720
+This is the loudest where the noise that you hear at the moment is the sound of the air raid sirens.
+
+254
+00:22:28,000 --> 00:22:32,080
+I'm standing here just on the steps of St. Martin's in the field.
+
+255
+00:22:32,720 --> 00:22:42,160
+A search light just burst into action often in the distance. Man's single being slipping the sky above me
+
+256
+00:22:42,160 --> 00:22:48,480
+now. People are walking along that way. We're just at the entrance of an air raid shelter here and I must
+
+257
+00:22:48,480 --> 00:22:57,120
+move this kid over just to bits so people can walk in. I can see just straight away in front of me Lord
+
+258
+00:22:57,120 --> 00:23:06,080
+Nelson on top of that big column. There's no search light. Just square behind Nelson's statue.
+
+259
+00:23:10,400 --> 00:23:13,440
+That's like you listen to the traffic and the sound of the siren for a moment.
+
+260
+00:23:13,440 --> 00:23:16,400
+I'm in California. Tell your man's steps in front of me to light a cigarette.
+
+261
+00:23:17,680 --> 00:23:22,160
+There's some kind of those red buses around the corner. Do they look at the fire?
+
+262
+00:23:22,480 --> 00:23:29,120
+Just a few lights on the top deck. In this blackness it looks very much like a ship that's passing in the knife and you just see the purple.
+
+263
+00:23:30,320 --> 00:23:32,880
+That was another bus. More search lights come into action.
+
+264
+00:23:34,720 --> 00:23:39,520
+You see them reach, they have been to the sky in the cave. Maybe they catch a cloud and seem to splash on the bottom of it.
+
+265
+00:23:43,920 --> 00:23:51,200
+A little traffic lights here just a small cross on the Murrow's blood are now red. The cars pull up and
+
+266
+00:23:51,200 --> 00:23:58,160
+stop. I'll just ooze down in the darkness here along these steps and see if I can pick up the sound of
+
+267
+00:23:58,160 --> 00:24:04,320
+people's feet. Do they walk along? One of the strangest sounds one can hear in London these days,
+
+268
+00:24:04,320 --> 00:24:08,880
+or rather these dark nights. Just the sound of footsteps walking along the screen.
+
+269
+00:24:10,000 --> 00:24:15,600
+Like ghosts shot with steel shoes. Attachy goes up just in front and stops.
+
+270
+00:24:16,400 --> 00:24:19,520
+Just waiting for that red light to change to green hole a siren cloud.
+
+271
+00:24:21,520 --> 00:24:26,160
+There it goes and the cars move off. More search lights are in action.
+
+272
+00:24:26,960 --> 00:24:29,840
+We've not yet seen any burst of anti-aircraft by a little bit of them.
+
+273
+00:24:32,240 --> 00:24:36,880
+No parts of this doesn't necessarily mean that there are planes actually over London at this moment.
+
+274
+00:24:36,880 --> 00:24:38,560
+We've had these warnings before, of course.
+
+275
+00:24:41,760 --> 00:24:44,480
+Can you hear the siren just dying away in the distance now?
+
+276
+00:24:44,960 --> 00:24:52,240
+Near red one walks out of this shelter. The shelter there is the crypt underneath this famous old church,
+
+277
+00:24:52,240 --> 00:24:57,200
+just on the edge of the father's square. The crypt where in days of peace one was many women,
+
+278
+00:24:57,200 --> 00:24:59,200
+whatever to find a night's slagginger.
+
+279
+00:25:06,400 --> 00:25:09,520
+Industrial in all the steps of people coming up and to this old church.
+
+280
+00:25:09,520 --> 00:25:13,600
+And so that went on to hang out square.
+
+281
+00:25:13,600 --> 00:25:18,240
+How cool is that? Now you may have skipped past some of it because the quality was
+
+282
+00:25:19,280 --> 00:25:25,280
+well, 1940's quality. Man, if we come a long way with sound quality. But it's not awesome
+
+283
+00:25:26,320 --> 00:25:29,760
+that then people were blown away by that apparently. Of course they were. I mean,
+
+284
+00:25:29,760 --> 00:25:34,960
+geez, you were listening to an air raid happening over London, which was thousands of miles away.
+
+285
+00:25:34,960 --> 00:25:40,400
+And I presume that was live. I'm not sure if it was. But really cool to listen to.
+
+286
+00:25:40,400 --> 00:25:45,280
+And I really appreciate the MP3 to be able to play that on the source code.
+
+287
+00:25:47,040 --> 00:25:52,640
+I was going to say, oh yeah, by the way, if you are skipping past, I've noticed on the iRiver,
+
+288
+00:25:52,640 --> 00:26:02,080
+which is highly configurable, actually. You can adjust the joystick as to how fast it's going to
+
+289
+00:26:02,080 --> 00:26:06,000
+fast forward when you push it to the right or of course rewind when you push it to the left.
+
+290
+00:26:06,000 --> 00:26:09,840
+And it does give you the audio as it skips the longs. You can make it go at like 30 seconds of
+
+291
+00:26:09,840 --> 00:26:14,160
+pop at one second of pop. You can really change. I think it's like four or five different levels.
+
+292
+00:26:14,160 --> 00:26:18,960
+You can change it for skipping. So another reason to look at the iRiver, I should really get paid by
+
+293
+00:26:18,960 --> 00:26:23,680
+those fuckers, shouldn't I? Or they should at least fix the firmware so I can do more cool stuff with it.
+
+294
+00:26:23,680 --> 00:26:29,280
+Anyway, cool. Sound sing tours. Definitely something that I want to hear more of. And I've been
+
+295
+00:26:29,280 --> 00:26:37,520
+thinking about maybe something I should do is put a new podcast together where all of these
+
+296
+00:26:37,520 --> 00:26:41,280
+clips that I play or maybe clips, maybe even clips that I don't play is probably better.
+
+297
+00:26:41,280 --> 00:26:45,200
+Just a short podcast that I like. I can just kind of throw them into one bin and you subscribe
+
+298
+00:26:45,200 --> 00:26:49,600
+to that and it just brings you all the all the new stuff that I think is worth listening to.
+
+299
+00:26:49,600 --> 00:26:54,320
+That's something we can do. Oh, here that drunken voice again. That's one thing we haven't solved.
+
+300
+00:26:54,320 --> 00:27:01,760
+Yep, it's the latency issues. I think there's a, in November, there's a podcast
+
+301
+00:27:01,760 --> 00:27:06,320
+expo. We'll be held in California that I keep hearing about. I'm not sure. I think that the
+
+302
+00:27:06,320 --> 00:27:12,160
+podcast brothers are actually organizing that. But they're talking about a place where, of course,
+
+303
+00:27:12,160 --> 00:27:16,880
+podcasts, there's a come and meet each other. But also, where vendors, and I listen to the podcast
+
+304
+00:27:16,880 --> 00:27:21,040
+brothers at podcast brothers that org all the time, where vendors will be able to show off their
+
+305
+00:27:21,120 --> 00:27:27,520
+hard and software solutions for podcasters. Well, I certainly hope we have some by them because
+
+306
+00:27:27,520 --> 00:27:33,360
+we don't really have them yet, except for mixed cast live, which, well, it works only on Windows with
+
+307
+00:27:33,360 --> 00:27:40,320
+dot net. But there's so much, so we can do so much better with tools for, for making these podcast.
+
+308
+00:27:40,320 --> 00:27:45,680
+We really can. And you know me, right? I am the guy who loves the short podcast.
+
+309
+00:27:46,320 --> 00:27:58,080
+The legal underground word for the day is resend, which means you aggregate a null, avoid, or cancel
+
+310
+00:27:58,080 --> 00:28:05,440
+a contract, particularly nullifying a contract by the act of a party, to declare a contract void
+
+311
+00:28:05,440 --> 00:28:11,520
+in its inception, and to put an end to it, as though it never works. Not merely to terminate it
+
+312
+00:28:11,520 --> 00:28:16,800
+and release parties from further obligations to each other, but you aggregate it from the beginning,
+
+313
+00:28:16,800 --> 00:28:22,000
+and restore parties to relative positions, which they would have occupied, and no contract
+
+314
+00:28:22,000 --> 00:28:28,720
+ever been made. Source, lacks law dictionary, with pronunciations fifth edition.
+
+315
+00:28:29,600 --> 00:28:34,240
+All right, the legal word for the day is resend. There you go. See, that would be, we could do a
+
+316
+00:28:34,240 --> 00:28:38,880
+little format where you, you know, put together an OPML file of your shit. That's almost that.
+
+317
+00:28:38,880 --> 00:28:43,440
+That's a cool application. You could decide if you wanted the word of the day, the sound of the
+
+318
+00:28:43,440 --> 00:28:48,080
+day, the grout show of the day, or the legal word of the day. I'm telling you, we got a station.
+
+319
+00:28:48,080 --> 00:28:52,240
+It's very, very close. A couple of things I wanted to mention. First of all, I want to say
+
+320
+00:28:52,240 --> 00:28:57,600
+hi to Irwin of Irwin's podcast in the Netherlands. I'm not really going to extrovert a piece of
+
+321
+00:28:57,600 --> 00:29:01,440
+his show, nor do I want to extrovert pieces of all these podcasts that I talk about, but just
+
+322
+00:29:01,440 --> 00:29:06,320
+want Irwin to know that I listen to his show. It comes out almost every single day, I think,
+
+323
+00:29:06,400 --> 00:29:11,600
+or at least like four or five times a week. I listen to his show with great joy, not only for the,
+
+324
+00:29:11,600 --> 00:29:14,720
+you know, the song that he plays every single day, which he's usually is 60s or 70s,
+
+325
+00:29:14,720 --> 00:29:21,040
+oldies, oldies, too. But also he brings me up the speed within, like, what is it? Five or six
+
+326
+00:29:21,040 --> 00:29:25,840
+minutes of exactly what's going on in the media landscape in Holland. And I don't even read the
+
+327
+00:29:25,840 --> 00:29:29,200
+paper anymore. It's Irwin's podcast. I don't know what I'm listening to. I just want to say,
+
+328
+00:29:29,200 --> 00:29:34,240
+Erwin Iglarse de Frachnallia. Also been exchanging a lot of email with the bitties,
+
+329
+00:29:34,320 --> 00:29:38,000
+the civiest bitties. You know, my girls from New York City,
+
+330
+00:29:38,000 --> 00:29:42,640
+bittiesforever.com is where you can find out all about them and their music and we've played them
+
+331
+00:29:42,640 --> 00:29:47,360
+on the source code many times. There was a cover real special last Thursday, which I didn't
+
+332
+00:29:47,360 --> 00:29:50,160
+catch until the weekend, but of course, doesn't matter because that's, you know, that's the great
+
+333
+00:29:50,160 --> 00:29:54,800
+thing about it is your iPod, it will pick it up, you know, no matter when you do your iPod scan.
+
+334
+00:29:55,520 --> 00:30:01,760
+And it was great to hear them, although God, I chat, socks, it was really quality. And I know that,
+
+335
+00:30:01,840 --> 00:30:05,200
+yeah, there were apologies at front for the quality of that, but it was an eye chat conversation
+
+336
+00:30:05,200 --> 00:30:11,440
+between Canada and I guess New York where the girls were. And yeah, it's just not cotton it.
+
+337
+00:30:11,440 --> 00:30:16,560
+You know, Skype is far superior, but of course, Skype won't work properly on the Mac yet.
+
+338
+00:30:17,120 --> 00:30:23,840
+And what an incredible opportunity. I mean, the Skype guys could make Skype the podcast tool
+
+339
+00:30:23,840 --> 00:30:28,880
+do sure, you know, instead of call someone just record it straight to MP3. I hear,
+
+340
+00:30:29,440 --> 00:30:33,600
+ah, where's that? I had a comment somewhere, which I'll probably won't be able to play today,
+
+341
+00:30:33,600 --> 00:30:38,800
+because I can't find it right off the bat, but they also have a beta test of voice mail now.
+
+342
+00:30:39,520 --> 00:30:44,480
+It'll send you an MP3 of voice mail. So even if your computer is not connected, it'll store the message for you.
+
+343
+00:30:44,480 --> 00:30:50,160
+And then I guess you can retrieve it somehow. You know, so they've got all the bits in place.
+
+344
+00:30:50,160 --> 00:30:56,080
+And then of course, to be able to call someone who has Skype and do an interview or have a conversation
+
+345
+00:30:56,160 --> 00:31:00,960
+or conference in multiple people, I mean, it could be your own Gilmore gang set up, you know,
+
+346
+00:31:00,960 --> 00:31:05,520
+even though, well, look at the stuff that Doug K does. He's got, you know, professional mixing board,
+
+347
+00:31:05,520 --> 00:31:09,840
+professional audio, you know, phone bridge to hook everyone together. It could be done with Skype,
+
+348
+00:31:09,840 --> 00:31:13,520
+but I don't know, Skype just isn't, you know, well, maybe they're sticking to their mission,
+
+349
+00:31:13,520 --> 00:31:18,960
+which is probably a good thing. I am, by the way, about to order one of those Skype phones
+
+350
+00:31:18,960 --> 00:31:24,960
+that you hook right up to your network. And you can use Skype directly from that phone. I think that'll be great.
+
+351
+00:31:25,120 --> 00:31:30,720
+Considering that the Netherlands is one of the, except for Afghanistan, which, you know,
+
+352
+00:31:30,720 --> 00:31:34,240
+you don't want to call Afghanistan. You might want to smoke it, but you don't want to call it.
+
+353
+00:31:35,360 --> 00:31:42,160
+The Netherlands is the most expensive country to call in the world. What a racket the KPN has going on there,
+
+354
+00:31:42,160 --> 00:31:47,200
+huh? She especially cell phones and Holland calling them from outside the country, forget about it.
+
+355
+00:31:47,200 --> 00:31:51,680
+It's more than a pound of minutes. It's almost two bucks a minute just to call a cell phone
+
+356
+00:31:51,760 --> 00:31:58,400
+from outside of the country. Anyway, so the Bitties, a great interview on coverbill, check it out
+
+357
+00:31:58,400 --> 00:32:05,760
+coverbill.com, and you recall that when CBS evening news came to interview me in South Beach,
+
+358
+00:32:05,760 --> 00:32:15,040
+that I set up a little podcast for the interviewer, Sharon, Elfonci, and I used the list of
+
+359
+00:32:15,040 --> 00:32:18,960
+these Bitties. I want to be famous, which, of course, is the, you know, I thought about it, right?
+
+360
+00:32:18,960 --> 00:32:23,680
+It's the perfect song for the type of piece that I think they're going to make. So I think that
+
+361
+00:32:23,680 --> 00:32:27,600
+that probably works out just great for them, but it also gives the Bitties another boost and guess what?
+
+362
+00:32:27,600 --> 00:32:32,320
+CBS is called. They're going to interview them, too. So I cannot be more excited. I'm telling you
+
+363
+00:32:33,280 --> 00:32:41,280
+Grammys, onstage, Leanne, the girls, it can happen. It may not take that long.
+
+364
+00:32:42,160 --> 00:32:50,160
+And a quick pointer to Steve Garfield's video blog, Steve Garfield.com, if you've, I don't
+
+365
+00:32:50,160 --> 00:32:55,840
+think no Steve ever really got into podcasting. I think he's kind of, he wants to do video,
+
+366
+00:32:55,840 --> 00:33:01,600
+and he is attaching video as enclosures to his RSS feed. So you can certainly subscribe to it. I think
+
+367
+00:33:02,400 --> 00:33:07,760
+most of the iPodos will probably receive that as well, although if it gets really popular,
+
+368
+00:33:07,760 --> 00:33:11,840
+I don't know what's he's going to do for bandwidth, because it's a lot, well he's hosting it on his
+
+369
+00:33:11,840 --> 00:33:16,560
+dot Mac blog. But it's he's doing some interesting stuff. He's basically turning on the camera,
+
+370
+00:33:16,560 --> 00:33:21,040
+going places with his wife, and they're just hanging out and they're calling it a show, and you
+
+371
+00:33:21,040 --> 00:33:26,080
+should check it out. Steve Garfield test, Steve Garfield.com. And here's something cool I got in.
+
+372
+00:33:27,120 --> 00:33:30,880
+This is the kind of audio response I like. It's an interactive one where I actually have to stay
+
+373
+00:33:30,880 --> 00:33:36,720
+awake during the comment and play along. Hello Adam, Stuart Hunter here. I was really enjoying your
+
+374
+00:33:36,800 --> 00:33:43,200
+Miami podcast, especially the piece where I think you were in Dave's hotel room, and you were
+
+375
+00:33:43,200 --> 00:33:49,680
+challenging both Dave and Ron to recognize some music from the intro that you played from your iTunes
+
+376
+00:33:49,680 --> 00:33:54,240
+playlist. I really enjoyed that. Especially as I was putting my hand up saying, oh, I don't know.
+
+377
+00:33:55,200 --> 00:33:59,440
+I worked great. Okay. We got to do that more often then, perfect. I did think it was a little
+
+378
+00:33:59,440 --> 00:34:05,040
+bit unfair, because surely you were the music man of the 80s and 90s probably the most
+
+379
+00:34:05,120 --> 00:34:10,320
+knowledgeable. Of course, the showmaster always has all the answers, right? I mean, you know,
+
+380
+00:34:10,320 --> 00:34:14,400
+that's come on. Regis Phil did knows what the answers are in millionaire.
+
+381
+00:34:14,400 --> 00:34:18,640
+Person about the music of those times. So I thought maybe if she tried to reverse that a little bit
+
+382
+00:34:18,640 --> 00:34:25,120
+and challenge you on some intros. So I've picked a few little pieces together, and I'm going to play
+
+383
+00:34:25,120 --> 00:34:30,560
+them for you now. I'm not going to give you the answers right away, because if you don't get them,
+
+384
+00:34:30,640 --> 00:34:35,840
+I'm sure you will. I'm sure some of your listeners will email the answers. Okay. Oh, great.
+
+385
+00:34:35,840 --> 00:34:40,720
+This is cool. Okay. And by the way, I have not listened to the expressly. I've not listened to
+
+386
+00:34:42,240 --> 00:34:47,440
+the songs yet. So we're hearing this for the first time together. Let's see if we can do it.
+
+387
+00:34:48,880 --> 00:34:50,080
+Let's go. Let's hear it.
+
+388
+00:35:00,960 --> 00:35:01,920
+Oh, shit.
+
+389
+00:35:08,320 --> 00:35:14,880
+That from an artist who's still going strong had a big hit in the UK in the past year. Oh, shit.
+
+390
+00:35:17,920 --> 00:35:21,040
+Okay, I give. I don't know that one. That's the only clue you're going to get. Thank you.
+
+391
+00:35:21,040 --> 00:35:29,200
+Here's the next one. That's Robbie Williams. Isn't that the kids are all right?
+
+392
+00:35:30,880 --> 00:35:35,200
+I think that's Robbie Williams. I think I could be wrong. It was about to burst into song myself.
+
+393
+00:35:35,200 --> 00:35:39,920
+Yeah, because I thought it was coming up. That was the second one. Here's number three. Okay.
+
+394
+00:35:39,920 --> 00:35:43,280
+They're not named the band. Oh, these are 80s. I mean, I'm good at it.
+
+395
+00:35:52,000 --> 00:35:55,200
+A visage fade degree. Is that it?
+
+396
+00:35:57,520 --> 00:36:04,240
+Yeah, long, long, long, long, long. I think. Yeah, there we go. Okay, guys. I think I got that one.
+
+397
+00:36:04,880 --> 00:36:10,160
+Fizzage fade degree. Oh, we interrupt this test. Yes, dear.
+
+398
+00:36:12,000 --> 00:36:20,800
+Yeah, yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah.
+
+399
+00:36:20,800 --> 00:36:25,440
+Very quiet. Yeah. I was a layman. I was a long here and I had a bus comedy. Okay.
+
+400
+00:36:26,560 --> 00:36:29,040
+Okay, you're leaving now? Okay.
+
+401
+00:36:29,520 --> 00:36:32,160
+Is that she over there that's in my belt? What are you in here? Yeah.
+
+402
+00:36:33,200 --> 00:36:39,600
+Okay, I love you. No, close the door, please. Don't worry. I'll hear it. Yeah. I'll hear it. I'm almost done. Bye.
+
+403
+00:36:40,560 --> 00:36:48,240
+We have, okay, bye. Yeah, okay. Sorry. We now continue with the test.
+
+404
+00:36:52,400 --> 00:36:57,680
+Yeah, that's maybe the easiest one. Yeah, certainly had a great gun. They're of an option too. Yeah.
+
+405
+00:36:57,760 --> 00:37:02,000
+To guess what that was more. This one's a little bit harder. It's a good bit shorter because the
+
+406
+00:37:02,000 --> 00:37:05,600
+vocals kick in pretty quick. Okay. So you'll only have a few seconds here it is.
+
+407
+00:37:08,400 --> 00:37:13,760
+Lay all your hands on me. Short but sweet. Lay all your hands on me. Did not have too many hands on me.
+
+408
+00:37:13,760 --> 00:37:17,840
+Lay your hands on me. Thank you. Maybe a bit more difficult. Trying to think who they were.
+
+409
+00:37:17,840 --> 00:37:23,200
+Lay all your hands on me. It's like your hands on me. Whatever the hell we ever did it.
+
+410
+00:37:23,280 --> 00:37:29,040
+The next one will be very familiar to anyone from Australia. So this one should be fairly easy to guess.
+
+411
+00:37:31,120 --> 00:37:32,320
+John Farnam, you're the voice.
+
+412
+00:37:33,360 --> 00:37:39,120
+Boom, boom, boom, boom, boom, boom. Yeah, this is good. All right. I'm feeling a little bit better about myself.
+
+413
+00:37:39,120 --> 00:37:41,520
+Yeah, I felt really shitty. We get it.
+
+414
+00:37:44,320 --> 00:37:45,120
+Yeah, that was easy.
+
+415
+00:37:53,280 --> 00:38:01,520
+Oh, a little bit more than 10 seconds worth of that song. So hopefully I won't get into any trouble
+
+416
+00:38:01,520 --> 00:38:05,760
+from the R.I. Oh, shut up. Of course you won't. Here's song number six.
+
+417
+00:38:06,080 --> 00:38:24,320
+What the hell is that? I guess the common thread and the interest on playing here is that the
+
+418
+00:38:24,320 --> 00:38:29,120
+bands themselves didn't have too many hits. Yeah, or I don't know if this one was a hit.
+
+419
+00:38:29,120 --> 00:38:31,840
+Is there one? I don't know, but so.
+
+420
+00:38:42,560 --> 00:38:51,840
+Of course, I know the song. It's 74. 75. It's a file track for me to guess the artist and no
+
+421
+00:38:51,840 --> 00:38:54,000
+points on that one, I guess. The shot.
+
+422
+00:38:54,080 --> 00:38:57,440
+Extra points.
+
+423
+00:38:57,440 --> 00:39:04,560
+Down. It's a wonderful wonderful life by, um,
+
+424
+00:39:05,760 --> 00:39:10,800
+wonderful wonderful life by, do I get half the points that don't I?
+
+425
+00:39:10,800 --> 00:39:17,520
+For wonderful life. Maybe it's by wonderful life, um, the wet wet wet or something like that.
+
+426
+00:39:20,080 --> 00:39:22,080
+This is harder than I thought it would be, actually.
+
+427
+00:39:24,080 --> 00:39:27,440
+Well, there you go, Adam. I hope you enjoyed the challenge, though. I did.
+
+428
+00:39:27,440 --> 00:39:31,200
+To be honest, I don't think those intervals will have caused you any problems whatsoever, but
+
+429
+00:39:31,760 --> 00:39:36,000
+so it was fun to play the name that tune. I hope the listeners enjoyed it. So
+
+430
+00:39:36,000 --> 00:39:39,360
+okay. Much of good night. Excellent, man. Thank you very much. I look forward to more of those.
+
+431
+00:39:39,360 --> 00:39:43,280
+Maybe not as long. Maybe you only do top three or so, but the stumped the podcast.
+
+432
+00:39:43,280 --> 00:39:46,880
+So now there's a, there's a segment for you on the Daily Source Code.
+
+433
+00:39:55,680 --> 00:39:59,520
+Podcrumbs. Number five is out with part two of my interview with singer,
+
+434
+00:39:59,520 --> 00:40:04,320
+Sawyer, Robert Birkwan. This is the second of four parts of our conversation.
+
+435
+00:40:04,320 --> 00:40:10,080
+It also features the song you're hearing now, Radio Church from his 2000 CD to this day.
+
+436
+00:40:10,160 --> 00:40:14,880
+You can find the show as well as last week's first part and all the podcrumbs episodes at our new home,
+
+437
+00:40:14,880 --> 00:40:22,320
+www.podcrumbs.com. No, it also the feed address has changed and is now www.podcrumbs.com slash
+
+438
+00:40:22,320 --> 00:40:28,480
+wayindex.xml. Thanks for listening. Okay, seeing that I only have a couple of minutes left on today's
+
+439
+00:40:28,480 --> 00:40:33,120
+show. I'm not going to be able to play Robert Birkwan's song, Junkman. I'm going to move that
+
+440
+00:40:33,120 --> 00:40:38,320
+over to tomorrow's show, but of course you can check out podcrumbs number five to get all the latest.
+
+441
+00:40:38,400 --> 00:40:42,160
+It's actually a guide that's some pretty decent tunes because I did want to leave you with a
+
+442
+00:40:42,160 --> 00:40:47,200
+couple of comments that came in regarding Andy Hertzfeld's comments on podcasting,
+
+443
+00:40:47,200 --> 00:40:53,040
+which we've spoken about. And well, a lot of people responded to that. Here's the first one.
+
+444
+00:40:53,760 --> 00:40:58,960
+Hey Adam is Jack over at Boundcast. Andy Hertzfeld. Last week I set up something with a
+
+445
+00:40:58,960 --> 00:41:05,600
+Riley to have him interviewed on MacRoll that one Wednesday. I go there. We sit out and right
+
+446
+00:41:05,600 --> 00:41:13,280
+before the interview he says, me, I'm not much on podcasting. I'm like, well, okay. And
+
+447
+00:41:13,280 --> 00:41:18,000
+why would we go on and continue the interview and get all the way done and he's a great interview.
+
+448
+00:41:18,000 --> 00:41:23,120
+And then I put it up on the site last night and the next thing I know I'm on the train coming home
+
+449
+00:41:23,840 --> 00:41:29,120
+and here's your show and you're like Andy Hertzfeld, interview. I'm like, oh, great!
+
+450
+00:41:29,120 --> 00:41:34,720
+This is fantastic. And no, it's the scene at an interview about how he does like podcasting.
+
+451
+00:41:34,720 --> 00:41:40,960
+I'm just blown away by that. So what can I say? And life's full of this quirky kind of ironic
+
+452
+00:41:40,960 --> 00:41:47,760
+timing. Hi Adam. This is Reed. I just wanted to say about Andy Hertzfeld and what he said about
+
+453
+00:41:47,760 --> 00:41:54,160
+I have a podcasting. Like I said, my blog, he's just doesn't get it. He's a kind of person who would have
+
+454
+00:41:54,160 --> 00:42:00,000
+said back in the early 90s that the web was completely unnecessary because HTTP is just a duplication
+
+455
+00:42:00,000 --> 00:42:06,480
+of existing things like FTP. What do we need to do HTTP for? Yeah, so don't worry about him.
+
+456
+00:42:06,480 --> 00:42:11,840
+Okay, he just got his head up his ass. Oh, don't say that. Okay, so that's pretty much the range of the
+
+457
+00:42:11,840 --> 00:42:19,920
+comments and how they went from left to right and many more in between. But then, I guess it's the
+
+458
+00:42:21,120 --> 00:42:26,320
+what is it? The Wizards of Technology? Do they, Mr. Mark and Digital Bill, I think that's who they
+
+459
+00:42:26,400 --> 00:42:31,760
+are. They, they caught Phil Schiller, who is, what is he vice president of Apple? He's the
+
+460
+00:42:31,760 --> 00:42:36,800
+number two guy. I think they caught him outside McRoll Expo and they got his comments on podcasting.
+
+461
+00:42:45,840 --> 00:42:52,960
+Oh, wait a minute, wait a minute. That was funny. Mark has got so nervous. They started falling
+
+462
+00:42:53,040 --> 00:42:57,520
+all over himself. Let's listen to that one more time. I don't mean to laugh, but I'm noticing that
+
+463
+00:42:57,520 --> 00:43:01,280
+now for the first time. It's all right. I sound drunk on my shows. Here, let's try that again.
+
+464
+00:43:06,880 --> 00:43:10,960
+And listen to him fucking blowing. Oh, no, I'm sorry. I got to go. I've got much, much more
+
+465
+00:43:10,960 --> 00:43:15,520
+to do over here. You know, I got no time to talk to you a little, this is it, guys. You know,
+
+466
+00:43:15,520 --> 00:43:19,440
+if you want to, if you want to get these guys, you want to have them look at you
+
+467
+00:43:19,440 --> 00:43:24,000
+serious, you got to trick them. And you need to have a microphone that has a mic cue on it.
+
+468
+00:43:24,000 --> 00:43:28,560
+You know, it needs a mic cue, so you look official. And it could say anything on there. As long
+
+469
+00:43:28,560 --> 00:43:32,000
+as it's a cue that fits up that mic, baby, that's one thing to say, oh, wait a minute, that's
+
+470
+00:43:32,000 --> 00:43:37,920
+some, and maybe a big windscreen, you know, with your logo on it as well. That is guaranteed
+
+471
+00:43:37,920 --> 00:43:41,680
+to not get that response. Oh, I'm sorry. I've got to run, guys. I've got to get run. I'm full
+
+472
+00:43:41,680 --> 00:44:02,640
+of shit. I'm hurt. I broke it. I'm right. I'm believable. He talks just like he does when
+
+473
+00:44:02,640 --> 00:44:06,720
+he's doing those keynotes when he's on stage. I think it's really cool technology. I think
+
+474
+00:44:06,720 --> 00:44:09,920
+I'm really happy a lot of people are trying out. This is really wonderful. Where's your
+
+475
+00:44:09,920 --> 00:44:13,680
+mic cue? I can't see your windscreen. Are you really an official broadcaster? He sounds like
+
+476
+00:44:13,680 --> 00:44:31,680
+a freaking robot. A fun way to get more programming on your iPod. Interesting. Interesting.
+
+477
+00:44:31,680 --> 00:44:37,760
+A fun way to get more programming, more programming on your iPod. That's a lot in there, I
+
+478
+00:44:37,760 --> 00:44:53,760
+feel. Oh, yes.
+
+479
+00:44:53,760 --> 00:45:11,280
+That's it for the source code for today, January 17th. As always, you can leave us a comment
+
+480
+00:45:11,360 --> 00:45:18,640
+at umadcurry.com or on the weblogcurry.com. Okay, tomorrow. What's we do tomorrow?
+
+481
+00:45:19,760 --> 00:45:23,600
+They can talk a little about South Beach. Some of the things that we discussed, of course,
+
+482
+00:45:24,880 --> 00:45:29,920
+you couldn't imagine most of the things we're thinking about are they commercial nature.
+
+483
+00:45:30,640 --> 00:45:34,560
+And I'm also going to think about working on that podcast feed of all the different clips I've
+
+484
+00:45:34,640 --> 00:45:40,720
+done. I quite sure I want to put that together. Oh, and of course, before I upload this show,
+
+485
+00:45:40,720 --> 00:45:45,920
+I'm totally going to see you sound seeing.com today. So by the time you hear this show,
+
+486
+00:45:45,920 --> 00:45:50,640
+you'll be registered to me. I hope. All right, everybody. Thank you very much for sending in your
+
+487
+00:45:50,640 --> 00:45:56,400
+comments. Keep it coming. And tomorrow, I'm another dating source code. Who knows? Maybe with some
+
+488
+00:45:56,480 --> 00:46:04,400
+broadband if those BT engineers can find it in their hearts to connect the last 15 meters from
+
+489
+00:46:04,400 --> 00:46:17,200
+the curb to the house. Take care, everybody. I'll see you tomorrow. Bye, bye.
+

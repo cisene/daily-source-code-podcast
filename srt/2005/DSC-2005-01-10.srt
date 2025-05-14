@@ -1,0 +1,2448 @@
+1
+00:00:00,000 --> 00:00:02,000
+It's Adam Curry.
+
+2
+00:00:02,000 --> 00:00:05,000
+Hey, good morning, it's Monday.
+
+3
+00:00:05,000 --> 00:00:07,000
+And, well, come on.
+
+4
+00:00:07,000 --> 00:00:19,000
+Everybody, today's source code, the last one coming to you from South Beach in Florida.
+
+5
+00:00:19,000 --> 00:00:21,000
+Once again, you're in my bed.
+
+6
+00:00:21,000 --> 00:00:24,000
+And it's also not really Monday, but well it is Monday morning.
+
+7
+00:00:24,000 --> 00:00:26,000
+It's a quarter to one, AM.
+
+8
+00:00:26,000 --> 00:00:29,000
+So, this one's done before I go ahead.
+
+9
+00:00:29,000 --> 00:00:34,440
+Here's basically the choice I saw that I had I could get up really early tomorrow morning
+
+10
+00:00:35,480 --> 00:00:43,000
+Probably around 6.37 o'clock and do the source code and be on track with you as a Monday morning show
+
+11
+00:00:43,880 --> 00:00:49,400
+Or I could just do this now and sleep in a little bit, you know, maybe chill until 8.8.30
+
+12
+00:00:49,400 --> 00:00:55,160
+I don't have the luxury that I usually have when I'm in the in the cottage in the UK
+
+13
+00:00:56,040 --> 00:01:00,600
+Where I'm five hours ahead of basically east coast time
+
+14
+00:01:02,040 --> 00:01:04,040
+Or should I say east coast time
+
+15
+00:01:09,320 --> 00:01:16,760
+And of course now for once folks over in Europe will have a source code nice and early because what time is it now?
+
+16
+00:01:16,760 --> 00:01:19,720
+It's but it was so it's a quarter to six
+
+17
+00:01:20,920 --> 00:01:22,920
+UK time
+
+18
+00:01:22,920 --> 00:01:29,080
+I was taking my shower. It was a long long day today and I was really contemplating
+
+19
+00:01:29,080 --> 00:01:31,560
+I really want to do a source code. There's a couple of things. Boops.
+
+20
+00:01:31,560 --> 00:01:33,960
+Two couple of things I wanted to talk to you about. You know what? I figured
+
+21
+00:01:34,600 --> 00:01:41,000
+What better way than to spend the last evening that I have with all of my daily source code friends
+
+22
+00:01:41,000 --> 00:01:45,560
+My last evening not the last evening I have ever with the last evening here in in Florida
+
+23
+00:01:45,560 --> 00:01:49,160
+Which has been beautiful, man. I cannot believe the weather that we've been having
+
+24
+00:01:49,720 --> 00:01:52,520
+Or I guess it's normal for for Florida, but
+
+25
+00:01:53,320 --> 00:01:56,920
+Honky boy like me from Gilford to totally beautiful
+
+26
+00:01:58,200 --> 00:02:03,560
+So I also wanted to share the last bit of weed that I had here
+
+27
+00:02:04,360 --> 00:02:09,000
+We're not really gonna share it, but I'm gonna roll one up and smoke it
+
+28
+00:02:11,800 --> 00:02:16,680
+Like you don't know I do that right? Anyway, so let me tell you about about my day
+
+29
+00:02:17,640 --> 00:02:22,120
+And then I want to talk about a couple things and they will shut a turn and I'm gonna go to bed
+
+30
+00:02:22,680 --> 00:02:26,760
+Because you know travel day tomorrow and I probably won't
+
+31
+00:02:27,480 --> 00:02:33,960
+Have another well I arrive to see tomorrow so I'd leave Monday evening arrive Tuesday morning
+
+32
+00:02:34,760 --> 00:02:37,240
+And Gilford up of course. I'll be totally wrecked because
+
+33
+00:02:38,520 --> 00:02:42,360
+I'm not counting on any upgrade like I had on the way over boy. That was beautiful
+
+34
+00:02:44,040 --> 00:02:49,640
+Now you'll recall that I contemplated upgrading myself one class of service from
+
+35
+00:02:49,960 --> 00:02:55,720
+Economy basically to to club which is a business class on British Airways
+
+36
+00:02:57,320 --> 00:02:59,320
+But then saw the price tag
+
+37
+00:02:59,720 --> 00:03:01,480
+One way up great is like
+
+38
+00:03:01,480 --> 00:03:09,320
+1800 pounds $3,000 and at that point I said screw that actually I heard was the podcast brothers talking about that
+
+39
+00:03:10,040 --> 00:03:17,160
+That I'm now I have officially proven my geek status that I decided to fly coach so I could buy a new Mac
+
+40
+00:03:18,120 --> 00:03:21,080
+I felt that money would be better spent. That's totally agree
+
+41
+00:03:22,360 --> 00:03:24,920
+So what I thought maybe I do tomorrow is I go to
+
+42
+00:03:25,480 --> 00:03:27,720
+It's an apple store not too far away from here
+
+43
+00:03:28,760 --> 00:03:33,480
+And you know the Steve could jobs is doing the apple keynote speech tomorrow from San Francisco
+
+44
+00:03:33,480 --> 00:03:36,760
+So let's say that's probably around noon east coast time and
+
+45
+00:03:37,720 --> 00:03:44,600
+From what I understand I haven't really seen a verification on the web that one of the things that I always look forward to was
+
+46
+00:03:45,560 --> 00:03:49,800
+A Steve Joe Steve jobs keynote that I could watch on the web and
+
+47
+00:03:50,680 --> 00:03:53,560
+They started doing this what I guess
+
+48
+00:03:54,200 --> 00:03:57,000
+Must have been around 99 maybe or
+
+49
+00:03:58,280 --> 00:04:02,120
+2000 when when you know they really started doing this regularly on
+
+50
+00:04:03,320 --> 00:04:06,120
+Whenever there was a keynote and shit man
+
+51
+00:04:06,760 --> 00:04:12,280
+Sometimes we'd have parties you know we'd have friends come over and we put up on the big grandmas of you screen and
+
+52
+00:04:13,240 --> 00:04:19,240
+You know popcorn beer hanging out looking at the new gadgets
+
+53
+00:04:19,960 --> 00:04:27,640
+Apparently that's not gonna happen this time around and you can only watch it if you're there live or if you're in an apple store
+
+54
+00:04:28,280 --> 00:04:30,280
+Which I'm sure is a
+
+55
+00:04:30,840 --> 00:04:35,480
+Very understandable marketing employee to get you to buy something on spot
+
+56
+00:04:36,200 --> 00:04:38,200
+Maybe I'm wrong
+
+57
+00:04:38,200 --> 00:04:40,200
+But I think it's a shame I
+
+58
+00:04:40,280 --> 00:04:45,800
+Really love watching and maybe there'll be a repeat maybe it's just not the maybe you can't watch it live or
+
+59
+00:04:46,120 --> 00:04:47,480
+God who knows
+
+60
+00:04:47,480 --> 00:04:49,480
+It's a shame it's a shame so anyway
+
+61
+00:04:50,120 --> 00:04:55,000
+I'm thinking of maybe going to an apple store to check that out and then maybe actually buy a computer
+
+62
+00:04:55,320 --> 00:04:58,040
+I also have to figure out something for Christina because she
+
+63
+00:04:59,000 --> 00:05:03,480
+blew up the laptop that I gave or we'll didn't really blow it up I guess it was not totally hurt fall
+
+64
+00:05:03,480 --> 00:05:07,720
+There was a little fragile there was a 802 11 be obey for basically a Wi-Fi card
+
+65
+00:05:08,680 --> 00:05:10,680
+that
+
+66
+00:05:10,680 --> 00:05:14,040
+Was put into the PCM CIA slot and
+
+67
+00:05:15,000 --> 00:05:20,920
+And yeah, that kind of yeah, I'm not quite sure what happened, but she had to pull it out and put it in and that was
+
+68
+00:05:21,400 --> 00:05:25,960
+Partially because she didn't pull it out then it would still can you know continuously talk to
+
+69
+00:05:26,520 --> 00:05:28,520
+the airport base station
+
+70
+00:05:28,520 --> 00:05:32,520
+Which means the motor would stay dialed in which means my mother-in-law couldn't call okay?
+
+71
+00:05:32,920 --> 00:05:35,720
+So she had to pull it out whenever she was done with a computer and
+
+72
+00:05:35,960 --> 00:05:40,680
+And she shorted out the PCM CIA slot and it you know, well that
+
+73
+00:05:41,400 --> 00:05:45,400
+That means you got to send it somewhere and that's uh, I don't know if it's going to be worth it for that machine
+
+74
+00:05:45,400 --> 00:05:50,280
+But of course she wants to have a windows machine and she she's really cute about it
+
+75
+00:05:50,280 --> 00:05:55,800
+She's you know dad I'm really sorry, but you know I do like the coolest MSN I want the new MSN features
+
+76
+00:05:55,800 --> 00:05:57,800
+I just can't get it on the Mac
+
+77
+00:05:57,800 --> 00:06:02,360
+Something to be said for that, I mean that's that's the power of some positioning in a brand and
+
+78
+00:06:02,680 --> 00:06:13,640
+Putting something on the desktop that hey, I'm basically going to buy windows and a windows machine because of the cool features of MSN that you got on windows and and not on a Mac so
+
+79
+00:06:15,160 --> 00:06:17,160
+And you can get a
+
+80
+00:06:17,480 --> 00:06:21,960
+A laptop these days for five six hundred dollars and the way the pound is I mean the pound is
+
+81
+00:06:22,520 --> 00:06:29,480
+What is it like a buck 90 or something so that's it's like candy land over here shopping with the euros and pounds
+
+82
+00:06:29,720 --> 00:06:31,720
+Hey, you know what before we go any further
+
+83
+00:06:32,360 --> 00:06:34,360
+I've got to play you this cadence
+
+84
+00:06:34,760 --> 00:06:37,880
+I'm not prepared by the way. I don't have my outline or up
+
+85
+00:06:38,440 --> 00:06:43,240
+I don't have the show notes rolling none of that so it's a little bit off the cuff
+
+86
+00:06:44,920 --> 00:06:46,920
+Let me see if I can find the email
+
+87
+00:06:46,920 --> 00:06:54,600
+It was I do want to give the right credit home on my fire fox has been acting a little with my whole Mac has been acting a little weird actually
+
+88
+00:06:54,920 --> 00:06:56,280
+I have a feeling that
+
+89
+00:06:56,280 --> 00:07:01,480
+You know how sometimes you're fine. They're just goes a bit crazy and stuff seems to slow down and
+
+90
+00:07:02,760 --> 00:07:05,400
+I think it's time for new install of the
+
+91
+00:07:06,040 --> 00:07:08,040
+system software
+
+92
+00:07:08,040 --> 00:07:10,040
+Hold on let me see if I can
+
+93
+00:07:10,360 --> 00:07:14,120
+Find this because I want to give proper credit bear with me for a second
+
+94
+00:07:16,040 --> 00:07:18,040
+This drum cadence
+
+95
+00:07:18,680 --> 00:07:20,680
+Was sent to me by
+
+96
+00:07:20,680 --> 00:07:24,200
+Come on, I'm basically doing my email now on crap
+
+97
+00:07:24,760 --> 00:07:30,520
+For some reason my Mac mail program won't work with this network and it has nothing to do with
+
+98
+00:07:31,480 --> 00:07:34,920
+The ports it has to do with my Mac. I'm sure there's something wrong there
+
+99
+00:07:36,680 --> 00:07:38,680
+Hold on a second
+
+100
+00:07:38,680 --> 00:07:40,200
+We're gonna search this now
+
+101
+00:07:40,200 --> 00:07:42,200
+So I'm using the the web browser
+
+102
+00:07:43,400 --> 00:07:45,400
+Mac email
+
+103
+00:07:45,640 --> 00:07:50,760
+Which is not at all handy when you're used to just zapping through some of it. Okay, this is something to me by Elvin
+
+104
+00:07:51,320 --> 00:07:53,320
+Was Elvin's last name
+
+105
+00:07:54,120 --> 00:07:59,560
+Okay, Elvin says per world of the podcast mainstream drum bands songs. Okay. You got this from the
+
+106
+00:08:00,120 --> 00:08:02,840
+What is this a band that you split Disneyland
+
+107
+00:08:03,480 --> 00:08:08,040
+Herdum play it every day when I worked inside the park. Oh cool. I wonder what the Elvin was if he was
+
+108
+00:08:08,760 --> 00:08:13,080
+To say what he was in the park were you in a suit or you were you in the band
+
+109
+00:08:13,960 --> 00:08:18,760
+Anyway, I just couldn't resist. I said myself this is exactly the type of two
+
+110
+00:08:18,760 --> 00:08:20,760
+I want to hear from a
+
+111
+00:08:21,800 --> 00:08:23,800
+It's the Jackson's theme everybody
+
+112
+00:08:26,280 --> 00:08:28,280
+Feel free to sing along
+
+113
+00:08:29,560 --> 00:08:31,560
+Go Jackson
+
+114
+00:08:59,560 --> 00:09:01,560
+You
+
+115
+00:09:30,440 --> 00:09:32,440
+You
+
+116
+00:09:52,360 --> 00:09:55,000
+Yeah, awesome, Elvin. Thank you very much
+
+117
+00:09:55,560 --> 00:09:59,240
+Totally put me in the right mood for for the podcast theme from the jetsons
+
+118
+00:09:59,640 --> 00:10:03,480
+Drum cadence. Well more than just the drum cadence. I guess here on the daily source code
+
+119
+00:10:04,280 --> 00:10:06,280
+Which of course is for Monday?
+
+120
+00:10:06,280 --> 00:10:08,280
+January 10th
+
+121
+00:10:08,280 --> 00:10:11,000
+2005 moving right along in the brand new year
+
+122
+00:10:11,640 --> 00:10:16,520
+Let's see today started off very early with breakfast meeting
+
+123
+00:10:17,800 --> 00:10:21,720
+You know we've been doing meetings all this past week and in the weeks to come
+
+124
+00:10:21,960 --> 00:10:25,800
+I'm gonna start talking about you know some of the things we've learned. I've learned certainly
+
+125
+00:10:26,600 --> 00:10:28,600
+I'll tell you one thing. We're only scratching
+
+126
+00:10:29,160 --> 00:10:34,040
+You know just the tip of this stuff just the very tip of the iceberg of what's gonna be possible
+
+127
+00:10:34,520 --> 00:10:40,200
+We're going and you know with with just amazing amounts of talent that's out there
+
+128
+00:10:40,920 --> 00:10:45,720
+That is finally getting a voice. It's uh that's gonna be great
+
+129
+00:10:48,200 --> 00:10:50,200
+Okay, so at 11 o'clock
+
+130
+00:10:50,840 --> 00:10:52,840
+as was agreed to
+
+131
+00:10:53,320 --> 00:10:55,960
+CBS evening news
+
+132
+00:10:56,840 --> 00:11:02,680
+showed up here at the hotel and to interview me about well you guessed it about podcasting
+
+133
+00:11:03,480 --> 00:11:07,480
+I've been working with the producer on this lovely lady from New York
+
+134
+00:11:07,480 --> 00:11:08,520
+Her name is Linda
+
+135
+00:11:08,520 --> 00:11:15,720
+I've been working on well basically coordinating it for the past couple of weeks and you know this whole all of this work by the way is for
+
+136
+00:11:15,720 --> 00:11:20,680
+for two minutes which is a lot but for two minutes in the CBS evening news with Dan Rather
+
+137
+00:11:21,320 --> 00:11:24,600
+and it was Linda and the reporter
+
+138
+00:11:27,720 --> 00:11:35,080
+Totally spacing of course on the reporter a Sharon Sharon Alfonci. That's Sharon with a Y by the way S. H. A. R. Y. N
+
+139
+00:11:36,120 --> 00:11:38,120
+Who is a completely the up-and-coming
+
+140
+00:11:39,800 --> 00:11:41,800
+Personality on
+
+141
+00:11:41,800 --> 00:11:43,800
+the evening news
+
+142
+00:11:43,800 --> 00:11:45,160
+as
+
+143
+00:11:45,160 --> 00:11:47,560
+Some of the CBS staffers like to say
+
+144
+00:11:48,360 --> 00:11:52,760
+She's the up-and-coming girl that the grown-ups really like the grown-ups being the management
+
+145
+00:11:53,320 --> 00:11:55,320
+Hold on a second
+
+146
+00:11:55,320 --> 00:12:00,360
+Is this uh I feel a little bit is it is it soft a little bit tonight the I mean the recording?
+
+147
+00:12:02,280 --> 00:12:04,280
+Yes, not it seems pretty much the same
+
+148
+00:12:06,520 --> 00:12:10,440
+Well, what I like well, that's okay, and so so they're gonna interview me about podcasting
+
+149
+00:12:10,440 --> 00:12:14,040
+What was great is that everyone had done their homework that listened to podcasts
+
+150
+00:12:14,840 --> 00:12:19,480
+Definitely knew it had looked up and read up on you know the basics
+
+151
+00:12:20,680 --> 00:12:24,440
+And of course, you know the bear in mind that if you're creating two minutes, you know
+
+152
+00:12:24,920 --> 00:12:28,760
+There's there's just not a hell of a lot you're gonna get in there and of course it's all sound bites and
+
+153
+00:12:29,160 --> 00:12:34,760
+I've learned how to talk and sound bites and this obviously goes against everything that podcasting is because
+
+154
+00:12:35,240 --> 00:12:37,240
+well basically
+
+155
+00:12:37,240 --> 00:12:42,600
+In commercial television well in all television you have a time restriction you only have 24 hours in a day
+
+156
+00:12:43,240 --> 00:12:50,360
+And we've talked about this every minute is worth something every second every nanosecond is worth something so it's all you know it gets compressed and it gets
+
+157
+00:12:52,440 --> 00:12:59,720
+It gets harder and harder and harder to communicate something and so the only thing I can do if I want to communicate something is kind of work along
+
+158
+00:13:00,280 --> 00:13:04,280
+With the whole system and talk and sound bites which I did I'm good at that
+
+159
+00:13:04,840 --> 00:13:08,520
+I don't want to practice oh, but I remember one point MTV they had
+
+160
+00:13:08,920 --> 00:13:13,560
+They would bring in these new executives every oh, I don't seem like every three months for a while there
+
+161
+00:13:13,560 --> 00:13:19,480
+I'm the very early 90s and at one point there was this big idea it was light switch and we're gonna switch everything
+
+162
+00:13:19,480 --> 00:13:23,240
+It's all gonna be different on Monday and I basically meant that we were sitting in
+
+163
+00:13:24,120 --> 00:13:28,360
+In front of blue screen and blue screen is what the weather the weather people use
+
+164
+00:13:28,920 --> 00:13:33,400
+The weathermen are weather with a girl with a woman so they can project a map behind you
+
+165
+00:13:34,280 --> 00:13:38,920
+Except MTV wasn't projecting blue screen some of the older source code listeners will remember that they you know
+
+166
+00:13:38,920 --> 00:13:42,120
+We weren't projecting weather maps obviously on the blue screen, but they had like a diner set
+
+167
+00:13:43,160 --> 00:13:44,920
+or some you know
+
+168
+00:13:44,920 --> 00:13:50,120
+Situation outside and then basically you'd be in the corner of the screen somewhere on a little television
+
+169
+00:13:50,680 --> 00:13:56,040
+Playing in a you know like at a new stand doing your segment which wasn't very nice because
+
+170
+00:13:56,840 --> 00:14:02,280
+Well, you know it's a small television a small screen you start off with but then to be a small screen on a small screen was like
+
+171
+00:14:03,480 --> 00:14:09,480
+Thank you, but that wasn't even the worst part the worst part was that they brought in some radio consultants and
+
+172
+00:14:10,120 --> 00:14:13,880
+And they said well, you know, we've got to make sure that this is this is run like radio
+
+173
+00:14:13,880 --> 00:14:18,360
+We have some proven concepts and one of them is you shouldn't be talking longer than seven seconds per break
+
+174
+00:14:19,400 --> 00:14:24,600
+And they had like a 12 second break in a seven second break so literally you would have to talk about the next video
+
+175
+00:14:24,600 --> 00:14:29,320
+Or or tease what was coming up and then be someone next the camera counting down 12 seconds
+
+176
+00:14:29,320 --> 00:14:31,320
+You know it's almost impossible
+
+177
+00:14:31,400 --> 00:14:34,200
+But that is kind of what a lot of commercial television is
+
+178
+00:14:35,240 --> 00:14:37,800
+Not just commercial television any television any
+
+179
+00:14:38,680 --> 00:14:40,680
+traditional
+
+180
+00:14:40,680 --> 00:14:42,680
+Linear broadcast
+
+181
+00:14:42,680 --> 00:14:46,760
+So that the radio or television has to deal with the time issue
+
+182
+00:14:48,600 --> 00:14:51,000
+So it was great that everyone was everyone was
+
+183
+00:14:51,880 --> 00:14:53,880
+prepared and
+
+184
+00:14:54,840 --> 00:14:56,840
+Um
+
+185
+00:14:56,840 --> 00:14:58,840
+Sharon actually wanted to do
+
+186
+00:14:58,840 --> 00:15:02,840
+Well, she didn't really want to do a podcast, but she was she didn't want to see the whole process
+
+187
+00:15:02,840 --> 00:15:08,120
+So we did that a record that I totally got to plug the listivious bitties and I'm I think you know
+
+188
+00:15:08,120 --> 00:15:11,640
+If I if I did all the soundbites right and talked right and and of course
+
+189
+00:15:11,640 --> 00:15:14,520
+I was really working with these people with with Linden and Sharon
+
+190
+00:15:14,920 --> 00:15:18,360
+I think we're gonna get the a little piece of the bitties played on CBS even news
+
+191
+00:15:18,360 --> 00:15:23,160
+I got to say that's very cool that's gonna that's gonna that's gonna take on me if we pull that one off
+
+192
+00:15:24,120 --> 00:15:27,960
+And I think that by you know, it was in the in the whole song. I want to be famous
+
+193
+00:15:27,960 --> 00:15:31,080
+It it totally makes sense for the piece that that they're gonna make
+
+194
+00:15:31,560 --> 00:15:34,360
+They'd also heard my uh sound seeing tour
+
+195
+00:15:35,080 --> 00:15:38,840
+So they wanted me you know that well they want to get video of that which of course is
+
+196
+00:15:39,480 --> 00:15:44,760
+Impossible because it already happened so I kind of did the same thing you know walked on the street
+
+197
+00:15:44,760 --> 00:15:46,920
+I did walk down with more less you know the same
+
+198
+00:15:47,720 --> 00:15:53,080
+The same outfit the same gear you know so you can kind of see how I did that and I did say more or less the same
+
+199
+00:15:53,320 --> 00:15:55,320
+Things and
+
+200
+00:15:55,320 --> 00:16:00,920
+If anything it'll probably be in there for like three seconds and they'll be a voice over saying curry sometimes
+
+201
+00:16:01,320 --> 00:16:03,320
+Walks down the street while looking like any
+
+202
+00:16:03,880 --> 00:16:06,280
+Talk or do himself and people love it
+
+203
+00:16:06,680 --> 00:16:08,680
+um
+
+204
+00:16:10,440 --> 00:16:14,440
+So you know that's that's just to make it all kind of fit together
+
+205
+00:16:15,640 --> 00:16:21,000
+And so this took a long time they showed up at eleven which was the time that we agreed upon and you know
+
+206
+00:16:21,160 --> 00:16:27,400
+You're resetting stuff you're sitting down from the computer then when you're the over-the-shoulders to get the the close-ups of the computer
+
+207
+00:16:28,120 --> 00:16:29,720
+um
+
+208
+00:16:29,720 --> 00:16:31,720
+You know then
+
+209
+00:16:31,720 --> 00:16:38,680
+And it's nice because it wasn't really an interview. It was really just a conversation that we had which I totally love it when we when when you do that and not you know
+
+210
+00:16:39,240 --> 00:16:40,920
+Not have to
+
+211
+00:16:40,920 --> 00:16:46,200
+You know look at someone and answer their questions as they read off of piece of paper or whatever on you know
+
+212
+00:16:46,200 --> 00:16:49,800
+off to one side of the camera so it was like a real conversation and
+
+213
+00:16:49,880 --> 00:16:51,880
+and
+
+214
+00:16:52,040 --> 00:16:56,280
+Sharon is a really nice. She's uh was she's 32 years old
+
+215
+00:16:56,920 --> 00:17:04,120
+Think um just totally nice and very very smart and I might mention very cute
+
+216
+00:17:04,840 --> 00:17:06,840
+Or certainly
+
+217
+00:17:07,160 --> 00:17:09,160
+Yeah, and there she was cute very cute
+
+218
+00:17:10,920 --> 00:17:15,640
+Can you tell that it's working this last one that I promised myself? I'm starting to slow down a little bit here
+
+219
+00:17:16,600 --> 00:17:23,400
+So that lasted until about oh say it's what time we've probably done around one 30 because you know we walked over to ocean drive
+
+220
+00:17:24,440 --> 00:17:28,440
+From the hotel to actually do that bit in the camera of course had to get set up blah blah blah
+
+221
+00:17:29,720 --> 00:17:35,160
+And then she had to do a couple of stand-ups which I was actually quite funny because they had a crew a local crew
+
+222
+00:17:35,160 --> 00:17:42,040
+They got you from the CBS affiliate or production facility whatever and so Linda the producer of course is making sure that the shot is you know
+
+223
+00:17:42,040 --> 00:17:48,440
+What she wants and that the what Sharon is saying is what what they need and she was basically doing a stand-up saying
+
+224
+00:17:49,080 --> 00:17:50,600
+Well, you know you can be
+
+225
+00:17:50,600 --> 00:17:56,840
+If you like broadcasts and you can be a podcaster and you can do it anywhere even walking down the street if you don't mind going through with
+
+226
+00:17:57,160 --> 00:17:58,680
+Fewer through steps
+
+227
+00:17:58,680 --> 00:18:00,040
+Through a few steps
+
+228
+00:18:00,040 --> 00:18:03,640
+I think that means you know or you have to learn how to do it or whatever
+
+229
+00:18:03,640 --> 00:18:10,600
+Hopefully it's not gonna come off as it's difficult because I tried to make it certainly look as easy as possible as to how to create a podcast and
+
+230
+00:18:10,680 --> 00:18:15,480
+Certainly how to receive one because that you know, don't have to be more than the click of a mouse on a web page or
+
+231
+00:18:16,200 --> 00:18:20,920
+If you have an iPod or subscribing to a feed so that it puts it on your MP3 player
+
+232
+00:18:21,560 --> 00:18:29,240
+But they didn't have someone to hold the elephant diaphragm as I call it which I guess Sharon had never heard because she left a budget or it wasn't really a joke
+
+233
+00:18:29,240 --> 00:18:32,760
+It's the basically it's that big round reflecting thing that you see
+
+234
+00:18:33,640 --> 00:18:36,200
+film sets photo shoots television
+
+235
+00:18:37,160 --> 00:18:43,400
+Stand-ups whatever and it's golden one side white on the other side typically and you can basically use it to bounce
+
+236
+00:18:43,560 --> 00:18:49,960
+The sun reflect off off of this this sheet and it does kind of look like a big-ass diaphragm and it's you know
+
+237
+00:18:49,960 --> 00:18:51,960
+It's kind of it's made of cloth and it has a
+
+238
+00:18:53,080 --> 00:19:00,840
+The edges flexible so you can kind of collapse it down and fold it up over two times and it fits into a nice little bag and then you take it out of that bag and
+
+239
+00:19:01,240 --> 00:19:05,560
+It expands to this big elephant diaphragm look and thing. It's a reflector
+
+240
+00:19:06,680 --> 00:19:12,360
+So I was reflecting the light onto Sharon's face to make her and you know look pretty because they did basically were a hand short
+
+241
+00:19:12,360 --> 00:19:16,600
+And that was it was kind of fun. I hadn't done the diaphragm in a long time
+
+242
+00:19:17,560 --> 00:19:19,560
+Boeing and
+
+243
+00:19:19,560 --> 00:19:24,040
+After that while the crew was packing up that we sat down had a had a coke
+
+244
+00:19:24,600 --> 00:19:27,080
+I'm sorry the girls had died cooks and
+
+245
+00:19:28,360 --> 00:19:34,280
+And then Linda who's been it at CBS as she says for I guess Zillian years
+
+246
+00:19:34,440 --> 00:19:38,680
+Yeah, I know that sounded like magic. I'll get to that in a second and
+
+247
+00:19:39,800 --> 00:19:44,280
+You know, of course there's some well actually how do we come about this?
+
+248
+00:19:45,640 --> 00:19:50,520
+I think during the interview at one point or to the conversation it was we were talking about
+
+249
+00:19:52,040 --> 00:19:56,600
+podcasting how it relates to web logs and and said well, you know web logs
+
+250
+00:19:57,720 --> 00:20:00,840
+You know they're starting to mean something you can just ask Dan Ra
+
+251
+00:20:01,640 --> 00:20:02,840
+I
+
+252
+00:20:02,840 --> 00:20:05,640
+Look at the camera said you know that shit. I'm getting nothing
+
+253
+00:20:06,200 --> 00:20:10,680
+And then like everyone's cracking up like no, I said that's so horrible. That's a restrictive the
+
+254
+00:20:10,680 --> 00:20:16,920
+There's so much you can't do because of corporate politics and of course I totally agreed and I know it's like because I've been in
+
+255
+00:20:17,720 --> 00:20:22,520
+A corporate political corporate political television broadcast situation. It's just the way it is
+
+256
+00:20:23,960 --> 00:20:29,240
+And then it can't fault it. That's just what it what is this way? It's grown and we don't have that those restrictions thank God
+
+257
+00:20:29,480 --> 00:20:34,600
+Because no one owns us if you don't want to be owned as a podcast, you don't have to be owned which makes it beautiful
+
+258
+00:20:34,600 --> 00:20:38,280
+If you want to be on radio or TV your ass is gonna be owned by somebody
+
+259
+00:20:39,080 --> 00:20:45,880
+So of course the conversation turned around or turned quickly to the memo who's it fault? What's happening?
+
+260
+00:20:46,760 --> 00:20:51,720
+You know, I said hey, you know this investigation is supposed to last only a few weeks. You know, hey
+
+261
+00:20:52,360 --> 00:20:55,240
+It's starting to look like a couple of months. You know, it's just taking a long time
+
+262
+00:20:56,200 --> 00:20:59,240
+And all of this was off the record and
+
+263
+00:21:00,280 --> 00:21:03,240
+Linear did tell me a few things and I promise not to talk about it
+
+264
+00:21:03,240 --> 00:21:08,360
+I won't talk about it, but she did give me a little tidbit that she said I could talk about on my podcast
+
+265
+00:21:08,680 --> 00:21:12,040
+And I think this is pretty much it's general knowledge within CBS
+
+266
+00:21:12,680 --> 00:21:17,880
+At least it seems so so it's not like this is coming from only one source, but I certainly had never heard it before
+
+267
+00:21:18,360 --> 00:21:19,880
+That the
+
+268
+00:21:19,880 --> 00:21:21,080
+evening or the
+
+269
+00:21:21,320 --> 00:21:27,560
+Was it the day after the the story broke about the Clinton memos when Dan went on the air
+
+270
+00:21:27,880 --> 00:21:29,880
+He was wearing his
+
+271
+00:21:30,280 --> 00:21:32,280
+Very special shirt
+
+272
+00:21:32,280 --> 00:21:35,320
+And he has a shirt that has monogram cuffs that
+
+273
+00:21:35,960 --> 00:21:37,480
+Have the initials
+
+274
+00:21:37,480 --> 00:21:39,480
+F-E-A
+
+275
+00:21:40,120 --> 00:21:43,160
+Embrouidered on the cuffs and that stands for
+
+276
+00:21:43,720 --> 00:21:45,720
+Fuck-a-Mall
+
+277
+00:21:45,720 --> 00:21:48,920
+So I thought that was a little interesting tidbit that you wouldn't get here on the source code
+
+278
+00:21:49,080 --> 00:21:53,960
+I'm probably nowhere else, but tells you a little bit about Dan rather as well and the CBS
+
+279
+00:21:54,760 --> 00:21:56,120
+Organization
+
+280
+00:21:56,120 --> 00:21:59,560
+Of course also couldn't really talk about Howard Stern, which is a bit unfortunate
+
+281
+00:22:00,760 --> 00:22:01,960
+because
+
+282
+00:22:01,960 --> 00:22:03,960
+Howard Stern and CBS are
+
+283
+00:22:04,760 --> 00:22:09,640
+The same company and of course an embarrassment for the parent company of CBS
+
+284
+00:22:10,040 --> 00:22:15,400
+That Howard Stern is leading so therefore you can't talk about it, which and that's fucked up because I think Howard Stern
+
+285
+00:22:16,360 --> 00:22:18,360
+Leaving for satellite radio
+
+286
+00:22:19,080 --> 00:22:22,520
+Is relevant to the story and to podcasting in some ways
+
+287
+00:22:23,080 --> 00:22:25,560
+It's not just a financial story. There's more to it
+
+288
+00:22:26,120 --> 00:22:30,920
+But they know that also is a show is literally a show stopper
+
+289
+00:22:30,920 --> 00:22:35,720
+So kind of interesting to know that you know that that's the stuff that you will never
+
+290
+00:22:36,920 --> 00:22:38,920
+Here or see on CBS
+
+291
+00:22:39,640 --> 00:22:42,120
+Because it's embarrassing to the to the corporate parent
+
+292
+00:22:42,920 --> 00:22:45,640
+Second don't have me on my lighter broke
+
+293
+00:22:46,920 --> 00:22:50,520
+I have these what is this cafe med the heart of South Beach
+
+294
+00:22:53,000 --> 00:22:56,680
+These matches crack they're wet
+
+295
+00:22:57,720 --> 00:22:59,720
+Which one more time
+
+296
+00:22:59,720 --> 00:23:01,720
+Come on baby light
+
+297
+00:23:02,520 --> 00:23:03,720
+Got it oh
+
+298
+00:23:03,720 --> 00:23:05,720
+No go out. Oh
+
+299
+00:23:05,720 --> 00:23:07,400
+There goes on too high. Okay
+
+300
+00:23:09,320 --> 00:23:11,320
+There we go
+
+301
+00:23:12,680 --> 00:23:14,680
+Good
+
+302
+00:23:14,680 --> 00:23:16,680
+Okay
+
+303
+00:23:16,680 --> 00:23:18,680
+And
+
+304
+00:23:18,680 --> 00:23:21,160
+Got back. Oh, man. I was so tired after that
+
+305
+00:23:21,720 --> 00:23:23,720
+Cultivation Christina
+
+306
+00:23:23,720 --> 00:23:27,080
+Yeah, because they were you know close to getting ready to go to bed actually by that time
+
+307
+00:23:27,480 --> 00:23:31,400
+Had a quick nap how to shower and then went out for for dinner. I like a none
+
+308
+00:23:32,440 --> 00:23:37,800
+A non-business talked dinner with my friend Ron Bloom his lovely wife Marta
+
+309
+00:23:38,760 --> 00:23:46,520
+And it was just nice. We went to actually cruise on a couple of the re i mean Marta knows that she's she's a model or was a model here in Miami
+
+310
+00:23:47,080 --> 00:23:49,080
+Know's everybody
+
+311
+00:23:49,080 --> 00:23:53,480
+All the beautiful people and so we went to some of these you know like the Ian Schrager restaurant and
+
+312
+00:23:54,760 --> 00:24:00,840
+God, I don't remember in the name of all these places, but it was just all you know beautiful people and white flowing curtains and
+
+313
+00:24:01,640 --> 00:24:03,640
+a cool breeze and
+
+314
+00:24:04,200 --> 00:24:07,160
+Food and the right music and you know totally
+
+315
+00:24:07,560 --> 00:24:15,400
+Well, like I walked into an episode of fucking Miami vise, you know except without the drug dealers or at least you know without the blatant drug dealer
+
+316
+00:24:15,400 --> 00:24:21,000
+I'm sure lots of people are drug dealers who go to those places and you know hey they got to eat too
+
+317
+00:24:21,000 --> 00:24:26,520
+And they had her entitled to a nice evening out, but it was really absolutely just at the night the weather was nice
+
+318
+00:24:26,840 --> 00:24:32,840
+The food was excellent. I think this is Robert De Niro's place that we ate at which is ago agio ago ago
+
+319
+00:24:33,560 --> 00:24:35,560
+I think that's a pronounce it ago. I'd say
+
+320
+00:24:37,640 --> 00:24:39,640
+And just nice Italian food
+
+321
+00:24:40,680 --> 00:24:42,360
+I had those see what I have I had
+
+322
+00:24:42,920 --> 00:24:51,000
+Carpacho and then I had a grouper with black olives and hmm just outstanding outstanding
+
+323
+00:24:52,280 --> 00:24:54,280
+Got back
+
+324
+00:24:54,280 --> 00:24:57,560
+And of course, you know, I decided that I'd do a podcast now
+
+325
+00:24:58,760 --> 00:25:03,640
+I did something that I do ever that I've been doing all week long all week long
+
+326
+00:25:04,120 --> 00:25:07,480
+between like 11 and one I would go to
+
+327
+00:25:09,560 --> 00:25:11,080
+My
+
+328
+00:25:11,080 --> 00:25:12,040
+iPodder
+
+329
+00:25:12,040 --> 00:25:16,040
+Which of course really runs only once an hour and I do a manual scan
+
+330
+00:25:17,000 --> 00:25:21,800
+Because I want to see if there was another yeast radio if match wine scene it updated now
+
+331
+00:25:22,200 --> 00:25:26,200
+You probably heard about you know, oh the big controversy boy
+
+332
+00:25:26,760 --> 00:25:27,720
+Well, how to fund a
+
+333
+00:25:28,440 --> 00:25:31,640
+Leave comments everywhere on the on the web logs about magic gate
+
+334
+00:25:32,360 --> 00:25:35,000
+It's a little bit of confusion that crept into all of this
+
+335
+00:25:35,880 --> 00:25:38,200
+First of all, I just got to say right off the bat
+
+336
+00:25:39,080 --> 00:25:45,640
+That if anyone thinks that and I can only talk for myself here, so that's all I'm gonna do if anyone thinks that I did know that
+
+337
+00:25:46,040 --> 00:25:48,040
+A match wine scene wasn't a woman
+
+338
+00:25:48,520 --> 00:25:53,880
+Well, you know, did you really have been listening to anything? Of course, I didn't know that
+
+339
+00:25:54,760 --> 00:25:59,320
+You know, I I figured it was exactly what it sounded like like a 50 year old
+
+340
+00:26:00,280 --> 00:26:06,120
+Either trans sexual trans vestide trans gendered something person
+
+341
+00:26:08,040 --> 00:26:10,040
+Probably Jewish
+
+342
+00:26:10,840 --> 00:26:15,240
+Who had a very outspoken mind and didn't mind, you know
+
+343
+00:26:15,960 --> 00:26:20,200
+Saying it with a whole bunch of nasty words or nasty words, you know
+
+344
+00:26:20,760 --> 00:26:23,400
+It cracks me up. Here someone say Americans
+
+345
+00:26:23,560 --> 00:26:25,560
+And
+
+346
+00:26:26,120 --> 00:26:30,120
+I'd become in a very short amount of time even though I only I guess
+
+347
+00:26:31,560 --> 00:26:36,040
+Yist radio has been around for at least a year maybe maybe even longer
+
+348
+00:26:37,480 --> 00:26:40,440
+Oh, I second can I check that didn't I think match
+
+349
+00:26:42,040 --> 00:26:44,040
+Posted
+
+350
+00:26:44,920 --> 00:26:46,920
+an older
+
+351
+00:26:46,920 --> 00:26:48,920
+show I
+
+352
+00:26:49,240 --> 00:26:52,200
+God fire foxes like why is fire fox?
+
+353
+00:26:52,280 --> 00:26:54,280
+Hosing out like this
+
+354
+00:26:55,480 --> 00:26:57,480
+I don't like it. Okay, hold on
+
+355
+00:26:58,360 --> 00:27:00,360
+Let me just check real quick. Where's
+
+356
+00:27:02,040 --> 00:27:06,200
+He was he's radio. I think my mac is really sick
+
+357
+00:27:06,920 --> 00:27:08,920
+Maybe tomorrow when I go to the apple store
+
+358
+00:27:11,000 --> 00:27:14,840
+Oh, I see if anyone any of the anyone the genius bar has a clue
+
+359
+00:27:17,000 --> 00:27:19,000
+So what is this September now?
+
+360
+00:27:19,960 --> 00:27:29,080
+12 23 so I was before Christmas. I don't think I would was I listening then. No, okay, it doesn't matter
+
+361
+00:27:31,080 --> 00:27:33,080
+Here's what happened
+
+362
+00:27:33,080 --> 00:27:35,080
+So
+
+363
+00:27:35,080 --> 00:27:36,440
+I totally
+
+364
+00:27:36,440 --> 00:27:42,200
+Honest the god had that and we've talked about theater of the mind right I really had that image
+
+365
+00:27:42,840 --> 00:27:44,840
+of match-wine steam in my head
+
+366
+00:27:45,480 --> 00:27:49,000
+You hear the voice you hear a very mature person
+
+367
+00:27:49,640 --> 00:27:52,120
+Speaking about you know political
+
+368
+00:27:53,800 --> 00:28:00,120
+Issues it was yeah, blew me away. It was like to me this was this was what Howard Stern would want to
+
+369
+00:28:00,840 --> 00:28:02,440
+Would want to do
+
+370
+00:28:02,440 --> 00:28:05,000
+Particularly if he could speak his mind freely and
+
+371
+00:28:05,880 --> 00:28:11,160
+You know this got into such a frenzy. I just love this this podcast so much
+
+372
+00:28:11,720 --> 00:28:15,800
+That I you know I did something I've never done before on the source goes
+
+373
+00:28:15,800 --> 00:28:22,120
+It let me let me call this person up and just say hey I'm a big fan and and keep it up and
+
+374
+00:28:23,400 --> 00:28:25,400
+This phone call
+
+375
+00:28:26,280 --> 00:28:27,880
+The person I was
+
+376
+00:28:27,880 --> 00:28:29,400
+Talking to
+
+377
+00:28:29,400 --> 00:28:32,040
+Sounded to me very much like a real person
+
+378
+00:28:34,040 --> 00:28:38,520
+Not with you know all the pissed off magic is a little bit of that which of course made me laugh
+
+379
+00:28:39,480 --> 00:28:44,440
+But because it there was nothing really funny intended and and it was a phone conversation
+
+380
+00:28:44,440 --> 00:28:47,800
+It was not an interview although Madge may have thought it was an interview
+
+381
+00:28:48,920 --> 00:28:53,000
+You heard basically the whole thing right I called up and say hey you know we're recording it
+
+382
+00:28:53,000 --> 00:28:59,640
+We're recording now so you know that to me sounded like mad you asked that question in fact in in this conversation
+
+383
+00:28:59,640 --> 00:29:01,640
+It's how old you I'm 50 you know
+
+384
+00:29:02,600 --> 00:29:05,400
+So two things happen simultaneously
+
+385
+00:29:06,360 --> 00:29:09,640
+Two days later I guess when
+
+386
+00:29:11,160 --> 00:29:21,480
+There was not a regular yeast radio podcast but a podcast which was kind of like a scripted comedy bit and it completely broke down
+
+387
+00:29:23,160 --> 00:29:29,160
+Everything that I had in my head it's shattered this image
+
+388
+00:29:29,400 --> 00:29:36,200
+It's I think I mentioned this before it's kind of my dad one said that you know when he was young
+
+389
+00:29:36,200 --> 00:29:40,200
+There was no television they listened to the radio and they had these plays on the radio
+
+390
+00:29:41,000 --> 00:29:46,680
+And these drama series and it was you know the green hornet and whatever and his dad my grandfather
+
+391
+00:29:47,000 --> 00:29:52,760
+Took him to a radio studio one day to see this and I guess my dad must have had a similar
+
+392
+00:29:53,640 --> 00:29:59,240
+Type of reaction where it totally blew the entire experience form
+
+393
+00:29:59,240 --> 00:30:03,720
+You know it's like never again could he listen to the green horn or the lone ranger god knows what it was
+
+394
+00:30:04,040 --> 00:30:06,760
+Without knowing that these like you know just you know
+
+395
+00:30:07,800 --> 00:30:13,080
+Guys who didn't look anything like superheroes or or you know people who could save your life
+
+396
+00:30:13,320 --> 00:30:17,480
+We you know with sound effects and reading scripts and and it ruins it
+
+397
+00:30:18,120 --> 00:30:24,280
+Or you know you know how that works that blew his his whole theater of the mind image that he had created and I had
+
+398
+00:30:24,840 --> 00:30:28,840
+Totally created this this image of Madge Weinstein
+
+399
+00:30:29,960 --> 00:30:33,160
+Because when I heard Madge Weinstein talk about
+
+400
+00:30:34,040 --> 00:30:36,040
+politics and about
+
+401
+00:30:36,440 --> 00:30:38,440
+World issues
+
+402
+00:30:38,440 --> 00:30:43,000
+I said to myself yeah, it's obvious that's not scripted that's a real person saying real things
+
+403
+00:30:43,160 --> 00:30:50,440
+I don't care if your name is Richard bluestein or greenstein or yellowstein or Madge Weinstein that was a real person
+
+404
+00:30:51,640 --> 00:30:53,160
+And it
+
+405
+00:30:53,160 --> 00:30:55,160
+You know it hit home with me every single time
+
+406
+00:30:55,960 --> 00:30:57,960
+So what happened is first of all
+
+407
+00:30:59,080 --> 00:31:03,640
+There's this whole scripted thing which you know made me immediately think oh my god you know
+
+408
+00:31:04,440 --> 00:31:06,760
+How much of the person I spoke to
+
+409
+00:31:07,720 --> 00:31:10,360
+on the telephone was Madge Weinstein
+
+410
+00:31:11,320 --> 00:31:15,480
+Was it you know this person or not forget what the person is called and forget
+
+411
+00:31:18,360 --> 00:31:20,840
+Yeah, just forget what the person's called that that's irrelevant
+
+412
+00:31:21,560 --> 00:31:25,480
+At the same time and I hadn't gone searching you know Google
+
+413
+00:31:25,480 --> 00:31:29,640
+I don't typically go searching Google for people. I had a great image of what Madge Dean
+
+414
+00:31:29,640 --> 00:31:31,880
+Madge Weinstein looked like in my head and there was like
+
+415
+00:31:32,360 --> 00:31:37,560
+You know all I had was an an RSS 2.0 podcast feed. That's all I needed from Madge
+
+416
+00:31:38,440 --> 00:31:42,360
+And then I get all these pointers and that was pretty obvious pretty quickly that
+
+417
+00:31:43,000 --> 00:31:46,200
+Madge Weinstein certainly does not look like the 50 year old
+
+418
+00:31:47,960 --> 00:31:50,360
+Transgender trans sexual transvestite
+
+419
+00:31:50,920 --> 00:31:57,240
+Whatever person 50 years old ballding Jewish you know that I thought but a much younger guy
+
+420
+00:32:00,760 --> 00:32:03,400
+I'd say late 30s probably
+
+421
+00:32:04,360 --> 00:32:10,920
+Um, and so that that whole image was just like you know scrap and then you know on top of that this
+
+422
+00:32:12,280 --> 00:32:19,160
+This which you're boosting I believe is a performer and the Madge Weinstein character is a character
+
+423
+00:32:19,880 --> 00:32:21,160
+and
+
+424
+00:32:21,160 --> 00:32:23,880
+Here's what I heard I heard a
+
+425
+00:32:24,760 --> 00:32:26,760
+Bit a skit and
+
+426
+00:32:26,760 --> 00:32:29,400
+The first few minutes were were actually pretty funny
+
+427
+00:32:29,560 --> 00:32:34,760
+But then it was kind of like I said one of those saturday night live bits where it just goes nowhere and you just kind of like hope like
+
+428
+00:32:35,720 --> 00:32:42,200
+You know, you know, maybe something brilliant will happen at the end or you know what I mean right? Sometimes it just doesn't work
+
+429
+00:32:42,680 --> 00:32:45,400
+Sometimes it does like you know when you have more cowbell
+
+430
+00:32:46,120 --> 00:32:48,120
+But it wasn't working and
+
+431
+00:32:48,920 --> 00:32:52,680
+And so a whole bunch of things started happening at the same time. I was like oh my god
+
+432
+00:32:53,400 --> 00:32:53,800
+You know
+
+433
+00:32:53,800 --> 00:32:58,840
+Here I was I thought very vulnerable because I was totally open and honest
+
+434
+00:32:59,400 --> 00:33:01,400
+with Madge Weinstein
+
+435
+00:33:02,360 --> 00:33:04,360
+Who I thought I had on the phone
+
+436
+00:33:05,720 --> 00:33:12,680
+Saying you know, I really dig your stuff, you know, and I didn't mean your act or your bit. I mean what you were saying about political issues
+
+437
+00:33:14,680 --> 00:33:19,880
+So it was very confusing very confusing, you know, so who would I talk to how much was an act and?
+
+438
+00:33:24,680 --> 00:33:26,680
+I probably
+
+439
+00:33:26,680 --> 00:33:28,920
+Both probably should have waited before responding to that
+
+440
+00:33:30,040 --> 00:33:31,400
+Probably
+
+441
+00:33:31,400 --> 00:33:35,800
+But doesn't matter because you know, hey, you know, Madge Weinstein says fuck you to people
+
+442
+00:33:35,800 --> 00:33:40,600
+I get to say fuck you to people and it can also be to her it doesn't matter because you know
+
+443
+00:33:41,000 --> 00:33:43,000
+That's just digs and stones
+
+444
+00:33:43,000 --> 00:33:47,240
+But I certainly meant it you fuck you, you know, the fuck is all that about
+
+445
+00:33:48,280 --> 00:33:51,320
+I was it's like little syvees bitty, you know if that would turn out to be
+
+446
+00:33:51,880 --> 00:33:58,920
+Someone completely different than than than who I know and been talking about and you know turns out to be
+
+447
+00:34:01,880 --> 00:34:07,080
+Like the bangles who tried to secretly reinvent themselves, you know, I I'd feel shitty too
+
+448
+00:34:07,080 --> 00:34:11,640
+And it's not a bad that's not a good comparison forget about that anyway, so
+
+449
+00:34:14,920 --> 00:34:18,360
+The next day or maybe was that evening
+
+450
+00:34:18,920 --> 00:34:20,120
+Madge
+
+451
+00:34:20,120 --> 00:34:24,280
+Replayed a podcast from December that was a December 23rd
+
+452
+00:34:25,000 --> 00:34:28,040
+I didn't listen to it. I didn't want to hear anything old. I know you know
+
+453
+00:34:28,680 --> 00:34:32,600
+I got it if if if you if you disclose to you are then I missed it
+
+454
+00:34:33,640 --> 00:34:35,640
+And I apologize then if that was
+
+455
+00:34:35,640 --> 00:34:42,120
+On it was just unclear to me and I was as we say in the lowlands. I was on it put on the wrong foot
+
+456
+00:34:42,120 --> 00:34:47,160
+Basically on my back foot. Is that what yeah? What's that what the saying is here? I put in my back foot and like whoa, you know
+
+457
+00:34:48,040 --> 00:34:52,040
+I'm not quite sure where I'm out here and you know, did I just get used here or
+
+458
+00:34:52,680 --> 00:34:56,360
+Of course, I had nothing to do with it and in fact they've actually talked about this
+
+459
+00:34:56,920 --> 00:35:02,920
+He said you know, did you ask if you know if she's like transsexual or transgender? You know, can you imagine how embarrassed?
+
+460
+00:35:03,720 --> 00:35:05,720
+I would have been
+
+461
+00:35:06,600 --> 00:35:08,760
+If I'd actually ask the question, you know
+
+462
+00:35:09,000 --> 00:35:13,080
+Where's it's I think it's pretty clear that this is just a guy doing this
+
+463
+00:35:13,480 --> 00:35:19,560
+Madge Weinstein character and also that kind of then comes around to the cancer comment where I thought
+
+464
+00:35:19,560 --> 00:35:27,320
+I just really thought when when and if you haven't listened to all of you know all of these things in the podcast and you don't know what the hell I'm talking about but
+
+465
+00:35:28,840 --> 00:35:30,840
+a lot of you have I know so
+
+466
+00:35:32,440 --> 00:35:41,480
+You know, I figured Madge Weinstein really is serious about this yeast business and I probably just don't know enough about yeast and I still don't know if that's serious or not
+
+467
+00:35:41,560 --> 00:35:47,960
+But I guess not I really thought that you know, there's a serious problem with yeast. Hey, I'm gullible. What can I tell you? You know
+
+468
+00:35:48,280 --> 00:35:50,280
+There's all kinds of crappy sicknesses
+
+469
+00:35:52,360 --> 00:35:55,080
+I don't know and you know you've been talked about that on the source code
+
+470
+00:35:55,080 --> 00:35:57,400
+So I guess I just felt violated all around by
+
+471
+00:35:58,200 --> 00:36:00,840
+Some skit and you know, maybe
+
+472
+00:36:01,320 --> 00:36:06,440
+Madge had just just should have said before the phone call that we had hey, you know, by the way and I would have
+
+473
+00:36:07,080 --> 00:36:10,680
+You know, I would have done something with that. Maybe I would have disclosed or but
+
+474
+00:36:11,640 --> 00:36:17,080
+It just would have been better if I'd known a little bit more about it. So maybe that's my fault. Maybe I shouldn't call people up without knowing
+
+475
+00:36:17,800 --> 00:36:19,800
+more about them
+
+476
+00:36:19,800 --> 00:36:21,640
+bottom line. I listened to
+
+477
+00:36:22,760 --> 00:36:25,960
+Madge Weinstein not a regular yeast radio today
+
+478
+00:36:27,000 --> 00:36:31,720
+Which just came out because I still of course you know scan do a manual scan around this time
+
+479
+00:36:32,840 --> 00:36:39,480
+And it was the same person who I spoke to on the telephone. It was you know Madge Weinstein and
+
+480
+00:36:40,040 --> 00:36:45,240
+That's what this person called herself Madge Weinstein and
+
+481
+00:36:46,600 --> 00:36:48,600
+One thing I certainly know is that
+
+482
+00:36:50,920 --> 00:36:55,320
+Madge Weinstein certainly got certainly got them in my message and I think that
+
+483
+00:36:56,200 --> 00:36:58,200
+if we
+
+484
+00:36:58,200 --> 00:37:02,120
+We can probably just leave all that where it is and I'd love to hear
+
+485
+00:37:03,400 --> 00:37:05,400
+The Madge Weinstein that I
+
+486
+00:37:05,640 --> 00:37:07,640
+completely fell in love with
+
+487
+00:37:08,280 --> 00:37:11,800
+And I've been listening to every single time there's a new podcast
+
+488
+00:37:13,800 --> 00:37:16,440
+When it's about you know when it's the yeast radio
+
+489
+00:37:16,840 --> 00:37:19,800
+Madge Weinstein looking at the world talking about our job
+
+490
+00:37:20,520 --> 00:37:25,640
+That's what I I would love to hear and I certainly were made a big fan
+
+491
+00:37:26,920 --> 00:37:32,200
+If there's more a match like that that I can listen to the skits
+
+492
+00:37:32,920 --> 00:37:34,920
+Not totally my deal
+
+493
+00:37:35,720 --> 00:37:39,480
+Nothing wrong with it do whatever you want and you know
+
+494
+00:37:40,120 --> 00:37:44,520
+Maybe they'll get better. I don't know but so that's just my input on all of that is that
+
+495
+00:37:45,960 --> 00:37:48,120
+I like the Madge Weinstein who was sitting there
+
+496
+00:37:49,160 --> 00:37:53,880
+Telling everyone off and going through the news and actually teaching me a little you know
+
+497
+00:37:53,880 --> 00:37:59,160
+Teach you me a few things about what's going on in the world in the United States. I don't certainly don't know
+
+498
+00:38:00,600 --> 00:38:02,600
+a lot about
+
+499
+00:38:03,160 --> 00:38:08,520
+Why don't I'm the element of different country you miss a lot of these cool things and insights and I think that
+
+500
+00:38:09,560 --> 00:38:17,480
+The Madge has a real good good eye for what's going on in the country so hope we get more of that and actually I guess what I should do now is
+
+501
+00:38:18,120 --> 00:38:20,120
+maybe just play a song
+
+502
+00:38:20,840 --> 00:38:22,840
+For y'all
+
+503
+00:38:22,840 --> 00:38:26,120
+Let me see what can I get anything nice that I can play here
+
+504
+00:38:27,000 --> 00:38:30,680
+Or should I just end it more like 40 minutes right that's pretty much it
+
+505
+00:38:33,480 --> 00:38:35,480
+Oh
+
+506
+00:38:36,120 --> 00:38:38,120
+What shall I play
+
+507
+00:38:40,120 --> 00:38:42,120
+Man
+
+508
+00:38:42,760 --> 00:38:44,920
+I don't think I have much in the way of
+
+509
+00:38:45,960 --> 00:38:48,840
+Something that'll fit I told you didn't have anything prepared
+
+510
+00:38:55,000 --> 00:38:57,000
+Shoot
+
+511
+00:38:58,520 --> 00:39:00,520
+Okay
+
+512
+00:39:01,400 --> 00:39:04,440
+Yeah, oh oh wait a minute
+
+513
+00:39:04,440 --> 00:39:09,400
+I was gonna choose something but then I just saw another one of my play. That's a basic looking my eye tunes
+
+514
+00:39:09,960 --> 00:39:13,800
+to myself now hold on this is what I want to play hold on
+
+515
+00:39:16,520 --> 00:39:23,080
+I got patched this through from eye tunes man my Mac is so slow. I hope this doesn't affect the recording
+
+516
+00:39:24,440 --> 00:39:28,600
+Okay, and now we put the earphone in here. Let's see if we can
+
+517
+00:39:29,000 --> 00:39:31,000
+Cut this
+
+518
+00:39:32,280 --> 00:39:34,280
+Yeah
+
+519
+00:39:36,520 --> 00:39:38,520
+This is 10cc
+
+520
+00:39:39,800 --> 00:39:41,800
+The things we do for love
+
+521
+00:39:43,320 --> 00:39:47,800
+Well, we do a lot here on your day in source code
+
+522
+00:39:58,600 --> 00:40:02,120
+But then you'll pay the price the things we do for love
+
+523
+00:40:06,920 --> 00:40:10,680
+I'm unication is the problem during our side
+
+524
+00:40:11,480 --> 00:40:14,920
+You got a number and a hand is on the wrong
+
+525
+00:40:15,960 --> 00:40:19,960
+The weather's time and all the lines are getting the things we do
+
+526
+00:40:21,000 --> 00:40:23,000
+The things we do
+
+527
+00:40:23,400 --> 00:40:26,440
+Like walking in the rain and snow
+
+528
+00:40:26,440 --> 00:40:32,120
+Wembers don't wear to go when you're feeling like a part of you is dying
+
+529
+00:40:33,400 --> 00:40:36,360
+Can you look at all the answer in the eyes
+
+530
+00:40:38,120 --> 00:40:42,360
+You think you're gonna break up and she says you want to make up
+
+531
+00:40:57,320 --> 00:40:59,320
+I
+
+532
+00:41:23,560 --> 00:41:26,360
+Walkin in the rain and snow
+
+533
+00:41:26,440 --> 00:41:28,940
+When there's nowhere to go
+
+534
+00:41:28,940 --> 00:41:32,940
+When you feel it like a part of you is tired
+
+535
+00:41:32,940 --> 00:41:37,440
+And you look it for all the answer in the right
+
+536
+00:41:37,440 --> 00:41:40,440
+You think you got to break out
+
+537
+00:41:40,440 --> 00:41:43,440
+That you said she wants to make up
+
+538
+00:41:56,440 --> 00:42:01,440
+I've got for miles with you all the time
+
+539
+00:42:01,440 --> 00:42:04,440
+I've got for miles with you all the time
+
+540
+00:42:04,440 --> 00:42:10,440
+The situation, a greedy, disciplined, and disciplined Lord
+
+541
+00:42:10,440 --> 00:42:13,440
+Well, after all, it's just a couple lines
+
+542
+00:42:13,440 --> 00:42:17,440
+Of the things we grew along, the things we grew along
+
+543
+00:42:17,440 --> 00:42:22,440
+The things we grew along, the things we grew along
+
+544
+00:42:22,440 --> 00:42:25,440
+The things we grew along, the things we grew along
+
+545
+00:42:26,440 --> 00:42:31,440
+The things we grew along, the things we grew along
+
+546
+00:42:32,440 --> 00:42:36,440
+The things we grew along, the things we grew along
+
+547
+00:42:36,440 --> 00:42:40,440
+The things we grew along, the things we grew along
+
+548
+00:42:40,440 --> 00:42:45,440
+The things we grew along, the things we grew along
+
+549
+00:42:45,440 --> 00:42:48,440
+Oh yeah, nothing like a little tendency scene
+
+550
+00:42:48,440 --> 00:42:50,440
+On what morning everybody?
+
+551
+00:42:50,440 --> 00:42:52,440
+The things we do for love
+
+552
+00:42:52,440 --> 00:42:57,120
+You may have been listening to this song on your Microsoft smartphone.
+
+553
+00:42:57,120 --> 00:43:00,520
+I'm not quite sure what a Microsoft smartphone is or what it looks like, but there's
+
+554
+00:43:00,520 --> 00:43:03,720
+a new iPod around linked into the directory, of course.
+
+555
+00:43:03,720 --> 00:43:06,400
+It's iPod here in that.
+
+556
+00:43:06,400 --> 00:43:07,400
+Oh, shoot.
+
+557
+00:43:07,400 --> 00:43:08,400
+Oh, crap.
+
+558
+00:43:08,400 --> 00:43:09,400
+Sorry.
+
+559
+00:43:09,400 --> 00:43:10,400
+That's iTunes.
+
+560
+00:43:10,400 --> 00:43:14,440
+Of course you heard that iTunes continued to roll.
+
+561
+00:43:14,440 --> 00:43:23,760
+iPod or SP, this is the podcast and client for the MS smartphone.
+
+562
+00:43:23,760 --> 00:43:27,240
+And so basically, I guess the smartphone is kind of like a PDA with a phone and it
+
+563
+00:43:27,240 --> 00:43:31,040
+maybe that's what they call the XDA in Europe.
+
+564
+00:43:31,040 --> 00:43:32,120
+Well, guess what?
+
+565
+00:43:32,120 --> 00:43:35,120
+You can now receive podcasts on that.
+
+566
+00:43:35,120 --> 00:43:36,120
+It's cool.
+
+567
+00:43:36,120 --> 00:43:43,040
+I see that the iPod.org directory is integrated right into it.
+
+568
+00:43:43,040 --> 00:43:50,600
+I see in the screenshots that data source code is linked in, scripting, trade secrets
+
+569
+00:43:50,600 --> 00:43:53,800
+podcast and evil genius chronicles.
+
+570
+00:43:53,800 --> 00:43:56,400
+It has an progress bar.
+
+571
+00:43:56,400 --> 00:44:00,400
+OK, it says that it's still alpha quality.
+
+572
+00:44:00,400 --> 00:44:01,680
+But wow, this is great.
+
+573
+00:44:01,680 --> 00:44:04,800
+This is Andrew Davy, who I presume he did it.
+
+574
+00:44:04,800 --> 00:44:05,600
+He sent me the email.
+
+575
+00:44:05,600 --> 00:44:06,600
+I'm pretty sure he created.
+
+576
+00:44:06,600 --> 00:44:11,440
+This is the, what, so this is version 0.2.
+
+577
+00:44:13,960 --> 00:44:20,080
+And you couldn't get it from equine.co.uk slash iPod or SP.
+
+578
+00:44:20,080 --> 00:44:24,960
+And I'll do this in aviation abbreviations, right?
+
+579
+00:44:24,960 --> 00:44:32,000
+So it's echo, Quebec, uniform, indian november.co.uk slash iPod or SP.
+
+580
+00:44:32,000 --> 00:44:36,760
+That's india poppa, Oscar Delta Delta, echo Romeo, sheriff poppa.
+
+581
+00:44:36,760 --> 00:44:39,800
+Oh boy, I can't wait to get those show notes up, I guess.
+
+582
+00:44:39,800 --> 00:44:42,240
+Maybe I shouldn't do any show notes, just write it down.
+
+583
+00:44:42,280 --> 00:44:45,800
+You know, rewind it, write it down if you want to know what that is.
+
+584
+00:44:45,800 --> 00:44:49,000
+I'm too tired for, I'm too tired to do show notes.
+
+585
+00:44:49,000 --> 00:44:50,560
+So it looks really cool.
+
+586
+00:44:50,560 --> 00:44:56,280
+And now I guess I gotta go see if I can find a Microsoft smartphone.
+
+587
+00:44:56,280 --> 00:44:57,640
+Or is that only one model?
+
+588
+00:44:57,640 --> 00:45:01,280
+I don't know if it's a range of phones or it's just one model.
+
+589
+00:45:01,280 --> 00:45:04,480
+Regardless, very cool.
+
+590
+00:45:04,480 --> 00:45:06,920
+Excellent, excellent job.
+
+591
+00:45:06,920 --> 00:45:09,640
+OK, well, that's it.
+
+592
+00:45:09,680 --> 00:45:14,640
+If you don't mind, I will, uh, leave you with, uh,
+
+593
+00:45:14,640 --> 00:45:16,640
+the power of your intelligence.
+
+594
+00:45:16,640 --> 00:45:19,640
+Yeah, everybody.
+
+595
+00:45:19,640 --> 00:45:22,240
+Uh, what else, now that's it.
+
+596
+00:45:22,240 --> 00:45:24,640
+Adam McCurry.com, that's what we can leave comment.
+
+597
+00:45:24,640 --> 00:45:26,640
+Uh, you can send me, uh,
+
+598
+00:45:26,640 --> 00:45:29,640
+if you want, you can even send me an audio comment.
+
+599
+00:45:29,640 --> 00:45:31,640
+I'll do a little bit behind on the email.
+
+600
+00:45:31,640 --> 00:45:34,640
+So maybe we should hang off for a few tears too.
+
+601
+00:45:34,640 --> 00:45:37,640
+The power of the door is closed.
+
+602
+00:45:38,640 --> 00:45:41,640
+And by the way, I really wish you could do something about the latency,
+
+603
+00:45:41,640 --> 00:45:45,640
+or the delay that is still in built-in doll podcasting systems.
+
+604
+00:45:45,640 --> 00:45:49,640
+Pretty soon, I'm just going to have to get an external mixer and an external recording
+
+605
+00:45:49,640 --> 00:45:55,640
+device and do it all off the computer because it's almost not doing any more.
+
+606
+00:45:55,640 --> 00:45:58,640
+Of course, they add all the crap.
+
+607
+00:45:58,640 --> 00:46:00,640
+Hey, these are my own problems.
+
+608
+00:46:00,640 --> 00:46:04,640
+You know, trying to solve them for your past.
+
+609
+00:46:04,640 --> 00:46:06,640
+Tomorrow, there will be another daily source code.
+
+610
+00:46:06,640 --> 00:46:08,640
+I hope to see you then.
+
+611
+00:46:08,640 --> 00:46:09,640
+Take care, everybody.
+
+612
+00:46:09,640 --> 00:46:11,640
+Good night, Incarnate.
+
