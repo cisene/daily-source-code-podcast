@@ -1,0 +1,2476 @@
+1
+00:00:00,000 --> 00:00:06,800
+Well, hi, everybody. Welcome to the Daily Source Code coming to you from Central Park
+
+2
+00:00:06,800 --> 00:00:14,960
+in New York City. It's Saturday, it is 115 in the afternoon. Today is the 16th of April,
+
+3
+00:00:14,960 --> 00:00:23,840
+2005, and it couldn't be a more beautiful day in the city. This is one of those picture
+
+4
+00:00:23,840 --> 00:00:31,200
+perfect moments, and I've kind of got the right mood for sitting here on a bench central
+
+5
+00:00:31,200 --> 00:00:39,680
+park on the west side, actually. That's I see right off of Fifth Avenue, and so that's
+
+6
+00:00:39,680 --> 00:00:45,520
+the loud was at 57th Street. That's kind of where you enter the park across from the Plaza Hotel.
+
+7
+00:00:46,480 --> 00:00:54,720
+And the sun is shining, I'd say it's about, oh, just a guess, probably about 75, 76 degrees,
+
+8
+00:00:54,720 --> 00:01:01,360
+is it a slight breeze, which just makes it absolutely beautiful. Sun, of course, is bright,
+
+9
+00:01:02,080 --> 00:01:11,840
+and it's the oasis in this madhouse known as madhattan. This is actually one of the few places
+
+10
+00:01:11,920 --> 00:01:18,000
+in the world where I don't feel self-conscious about talking into myself, which I'm not. I'm talking
+
+11
+00:01:18,000 --> 00:01:26,880
+to you. You listening to this in your computer, or maybe you have it in your ears. You're listening
+
+12
+00:01:26,880 --> 00:01:35,120
+on your MP3 player, or perhaps you've got your FM transmitter blasting on your car radio. Maybe
+
+13
+00:01:35,200 --> 00:01:42,880
+you've burned this to a CD. That's all completely valid ways to listen to a podcast.
+
+14
+00:01:44,000 --> 00:01:49,440
+A couple of things, I mean, well, we're at a start, right, and I'm a little bit fuzzy because
+
+15
+00:01:49,440 --> 00:01:54,240
+definitely went to bed way too late last night. Had one night to catch up with a couple of friends,
+
+16
+00:01:54,240 --> 00:01:59,920
+and I'll talk about that, but that's, I got to go back, was it three days now, back to
+
+17
+00:02:00,880 --> 00:02:06,160
+Thursday. Yeah, Thursday, right, when I went to Denver. So I'm just going to try and
+
+18
+00:02:06,160 --> 00:02:11,200
+wrap up a little bit of the week here in New York and talk to you a bit about what's been going on,
+
+19
+00:02:11,200 --> 00:02:16,320
+and some things you can expect in the next couple of weeks. Actually, I was planning on having
+
+20
+00:02:17,040 --> 00:02:24,000
+Ron Bloom do a strategy cast with me. Excuse me, this is a fine cup of Chino that I'm
+
+21
+00:02:24,000 --> 00:02:28,640
+sipping here from Angela's Rock and Roll Delhi. I'm actually looking to look at this cup for a second.
+
+22
+00:02:28,640 --> 00:02:34,800
+We are crazy about great food in Rock and Roll, 1428-6 Avenue, right at the park, open seven days,
+
+23
+00:02:34,800 --> 00:02:42,960
+we deliver, and we cater for all occasions. Corporate accounts, welcome. But we were just so wiped out
+
+24
+00:02:42,960 --> 00:02:48,640
+from from the week, and last night, Ron is here with his wife, Martha. They pretty much,
+
+25
+00:02:48,640 --> 00:02:52,560
+if Ron is out of town for more than a day or two, then she always comes along. They used to live in New York,
+
+26
+00:02:52,560 --> 00:02:56,960
+so she got plenty of friends. And she's been kind of taking care of us every night, making sure
+
+27
+00:02:56,960 --> 00:03:02,880
+that we had a place to eat, and that we were everything. We were taking care of it just so sweet.
+
+28
+00:03:02,880 --> 00:03:05,680
+And last night, she said, no, we're going to go out to dinner, we're going to have our last dinner
+
+29
+00:03:05,680 --> 00:03:11,280
+New York, and I looked at Ron and I knew he was so fucking fried and I said, dude, let's just chill out.
+
+30
+00:03:11,280 --> 00:03:16,400
+It's actually went to sleep for an hour or two before my friends showed up around 1030.
+
+31
+00:03:17,280 --> 00:03:22,560
+So let's go back to Thursday. Thursday, Ron and I flew out for a day trip to Denver.
+
+32
+00:03:23,360 --> 00:03:29,600
+And this is kind of funny because we did this trip 10 years ago, almost to the day, probably.
+
+33
+00:03:30,560 --> 00:03:39,920
+We flew out to meet with Glenn Jones. Glenn Jones is the founder, and I guess he still does.
+
+34
+00:03:39,920 --> 00:03:45,840
+I don't know if he's the solo owner, but it bears his name, and I think he pretty much is the guy
+
+35
+00:03:45,840 --> 00:03:53,200
+calls all the shots of Jones cable, and Jones cable owned a lot of cable networks.
+
+36
+00:03:54,800 --> 00:04:00,160
+And at that at least 10 years ago, he did. And we went out at that time to talk to him about the
+
+37
+00:04:00,160 --> 00:04:05,200
+internet. And I don't remember all of them meeting, but I remember a lot of it, and I think that we met
+
+38
+00:04:05,200 --> 00:04:11,920
+with some other people primarily, you know, like his managers and or what you might call
+
+39
+00:04:12,000 --> 00:04:17,840
+to tenants and pitch this idea of the internet. And at the time he was certainly interested.
+
+40
+00:04:17,840 --> 00:04:24,960
+He's a, either a techno file. He's very interested in technology. He has, well, and he kind of
+
+41
+00:04:24,960 --> 00:04:29,520
+have to be, if you're a certainly 10 years ago cable, even though it may have been perceived by many
+
+42
+00:04:29,520 --> 00:04:33,920
+is trench diggers. You know, there's a lot of technology that has grown up within the cable business.
+
+43
+00:04:33,920 --> 00:04:37,680
+Just look at your cable mode. And you know, that was not something people were thinking of 10 years ago.
+
+44
+00:04:38,320 --> 00:04:45,200
+But I think Glenn Jones might have been. And although he was interested at the time,
+
+45
+00:04:45,200 --> 00:04:52,640
+we were looking at that time for investment. He didn't take any, and he wished us well,
+
+46
+00:04:52,640 --> 00:05:00,480
+and that went very well, as far as I'm concerned. So we had the opportunity to go back and talk
+
+47
+00:05:00,480 --> 00:05:06,240
+to about podcasting, and he was very well prepared. But you kind of got a, and I really wish
+
+48
+00:05:06,240 --> 00:05:10,880
+like I could have done some sound seeing, and maybe one day I'll go back, and then I will do some
+
+49
+00:05:10,880 --> 00:05:17,520
+sound seeing of the offices there, because it's, you know what it is? He's really an American dream
+
+50
+00:05:17,520 --> 00:05:25,760
+come true. He's a, really the epitome of an American entrepreneur. He's, you know, he's got
+
+51
+00:05:25,760 --> 00:05:31,200
+his beautiful offices there in Denver. He's building his legacy, which is Jones University,
+
+52
+00:05:31,920 --> 00:05:37,200
+which is a university by a satellite. He was, he actually, he was just starting that 10 years ago,
+
+53
+00:05:37,200 --> 00:05:42,320
+and I'm not quite sure how it's doing, but I think it's doing very well, just looking all the
+
+54
+00:05:42,320 --> 00:05:48,800
+uplink dishes that are in the scattered amongst the grounds there. And he's also a major contributor
+
+55
+00:05:48,800 --> 00:05:57,840
+to the US, the Congress, the Library of Congress. Is that right? Library of Congress?
+
+56
+00:05:58,560 --> 00:06:01,360
+Oh, here comes a little squirrel. Hey squirrel. How are you doing?
+
+57
+00:06:03,360 --> 00:06:07,680
+There's no tame here. Hey, hey buddy. Just walking right back.
+
+58
+00:06:10,160 --> 00:06:16,000
+And so we, we didn't do a tour of the building, because it, not that much had changed, but
+
+59
+00:06:16,000 --> 00:06:21,840
+what has changed is he sold all of his physical assets. I think he's pretty smart, you know,
+
+60
+00:06:21,840 --> 00:06:24,960
+where people are saying, now you got to buy cable, but one more cable stations, you know,
+
+61
+00:06:24,960 --> 00:06:29,200
+consolidate and he's saying, nah, it's over. He's selling. He's getting, he got rid of it all.
+
+62
+00:06:29,200 --> 00:06:36,640
+He's rebuilding his empire in cyberspace, his virtual empire. He's doing, excuse me for a second.
+
+63
+00:06:39,840 --> 00:06:47,760
+Perhaps I should have warned you. He's doing a building systems and all kinds of
+
+64
+00:06:48,160 --> 00:06:54,240
+interesting projects. But he basically has a big water cache, and he's investing it. As I said,
+
+65
+00:06:54,320 --> 00:06:59,600
+he's building his legacy. And my question of all of his assets, but he's heavy into radio,
+
+66
+00:06:59,600 --> 00:07:04,400
+and he's very interesting. He knows a lot about it. And he's not a, not an extremely young guy.
+
+67
+00:07:04,400 --> 00:07:09,280
+He's 74 years old. It doesn't look 74. But he's got to set up, you know, he's got,
+
+68
+00:07:09,280 --> 00:07:14,640
+right across his offices. He's not quite sure what the name of the airfield is. Of course,
+
+69
+00:07:14,640 --> 00:07:19,040
+not the main-gen airport. There's not an airfield, like five minutes across the way from his office.
+
+70
+00:07:19,040 --> 00:07:24,640
+And he's got his, his hawker 800 jet there. So this is the guy that many guys would like to be.
+
+71
+00:07:25,520 --> 00:07:31,440
+And he has his inner sanctum inside the office, and that, you know, it's kind of,
+
+72
+00:07:31,440 --> 00:07:38,160
+what is it like? The real beautiful shiny wood kind of French 18 layers of lacquer.
+
+73
+00:07:39,840 --> 00:07:46,640
+Just phenomenally beautiful with a library dining room area. He has a bedroom there if he wants to crash
+
+74
+00:07:46,640 --> 00:07:52,720
+out, you know, the private inner sanctum. He also has, and this is so cool. He has a war room.
+
+75
+00:07:53,840 --> 00:07:57,360
+We didn't go in at this time. Remember, 10 years ago, it's, you know, you go through these
+
+76
+00:07:58,080 --> 00:08:03,440
+security revolving doors, only one person at a time, and, you know, you really can't get in or out
+
+77
+00:08:03,440 --> 00:08:08,640
+without, without him, you know, the retinal scan type, the wheel, which is just, it's showy, but it's,
+
+78
+00:08:08,640 --> 00:08:11,760
+it's cool, you know, if you're going to build something, you're going to build a war room,
+
+79
+00:08:11,760 --> 00:08:16,800
+build it anyway, and there he's got, you know, just topped a bottom monitors and, you know,
+
+80
+00:08:16,800 --> 00:08:22,960
+the theater seats, and he can control his entire empire and monitor everything from there,
+
+81
+00:08:22,960 --> 00:08:27,440
+which is, you know, the kind of the, wah-ha-ha, I'll give you a white kitten to pet to what I
+
+82
+00:08:27,440 --> 00:08:33,920
+sit in my war room. But really, now the nowadays, it's a use for his, for his Jones University.
+
+83
+00:08:34,160 --> 00:08:41,760
+So, you know, you kind of want to bring each other up to date, you know, what you've been doing,
+
+84
+00:08:41,760 --> 00:08:51,200
+and he served lunch for us, and it was Ron, myself, Gary Schoenfeld from Media America, who I started
+
+85
+00:08:51,200 --> 00:09:01,920
+on-ramp with 10 years ago, before Ron joined, and I think Gary sold his company to Jones,
+
+86
+00:09:01,920 --> 00:09:11,120
+and so he's a member of the InterSanctum. So, you know, we were kind of talking, and they were
+
+87
+00:09:11,120 --> 00:09:16,960
+sort of, what, what do we get? We first got a nice, pronged cocktail, you know, the jumbo shrimp,
+
+88
+00:09:17,840 --> 00:09:25,360
+and then the main course was this, just, I, I, I, I, I, I, in fact, I actually said, you know,
+
+89
+00:09:25,520 --> 00:09:30,640
+Glenn, I got to tell you this, this, this, this beef, this meat, it's just so wonderful. It's so
+
+90
+00:09:31,600 --> 00:09:37,520
+the texture, the flavor, and I knew that they, I saw on the balcony of, uh, of the offices,
+
+91
+00:09:37,520 --> 00:09:41,360
+of the office suite, that, you know, there was actually a barbecue, and they were, they'd barbecue
+
+92
+00:09:41,360 --> 00:09:49,040
+this lunch for us at the office, go figure. Um, it's just wonderful, and he said, well, that's
+
+93
+00:09:49,120 --> 00:09:56,720
+because it's, uh, Buffalo, and I never had Buffalo before, but, oh, man, it's just, what a great
+
+94
+00:09:56,720 --> 00:10:02,800
+taste, and your knife almost just falls through this meat, you know, like butter almost. So,
+
+95
+00:10:02,800 --> 00:10:08,240
+so we're in this, this, this, this meeting, and again, it's in the InterSanctum, and, you know, it's
+
+96
+00:10:08,240 --> 00:10:15,040
+very chic, and it's, uh, it's very plush. And all I could think of as we're talking, and, you know,
+
+97
+00:10:15,120 --> 00:10:20,880
+catching up on 10 years of history is man. Chris Rockwell from the Daily Download would love to
+
+98
+00:10:20,880 --> 00:10:24,880
+experiment with Buffalo, you know, what comes out the other end after you've had Buffalo.
+
+99
+00:10:26,080 --> 00:10:34,480
+So that was my, my private little joke moment that was going on there. Uh, so then we, uh,
+
+100
+00:10:34,480 --> 00:10:40,400
+and we actually talked for quite a while, and then after that, we had a, uh, a presentation, uh,
+
+101
+00:10:40,400 --> 00:10:47,280
+for several executives within, within the company, uh, to talk about, you know, what podcasting is,
+
+102
+00:10:47,280 --> 00:10:51,680
+what, uh, where we feel it's going to go, what could be done, what the opportunities are,
+
+103
+00:10:51,680 --> 00:10:56,880
+what the industry needs if we really want to turn this into a medium, which believe me is money,
+
+104
+00:10:58,880 --> 00:11:02,320
+but was really exciting. First of all, there's some very smart people there,
+
+105
+00:11:02,320 --> 00:11:07,520
+know a lot about radio and understand the current, uh, dynamics of the radio industry and,
+
+106
+00:11:07,600 --> 00:11:11,840
+and have dreams that have wishes, you know, man, if only we could do this, and I think they got
+
+107
+00:11:11,840 --> 00:11:20,000
+really excited every single time they figured out exactly what they could do. Um, um, one of the
+
+108
+00:11:20,000 --> 00:11:26,400
+things that was exciting to me was, uh, in fact, talking to a couple of people from Jones University,
+
+109
+00:11:27,040 --> 00:11:33,680
+they immediately glammed on to the power of, of podcasting, uh, in the scholastic system, and
+
+110
+00:11:34,000 --> 00:11:38,320
+something that I'd like to bring up, if you haven't heard of it before, if you haven't seen it,
+
+111
+00:11:38,320 --> 00:11:44,640
+a for about, oh, man, I think almost five years now, I've been running schoolblocks.com,
+
+112
+00:11:45,920 --> 00:11:53,280
+and schoolblocks.com is a free weblog service for anyone who's going to use it for scholastic purposes,
+
+113
+00:11:53,840 --> 00:12:00,160
+so that can be teachers, students, uh, administrative personnel, professors,
+
+114
+00:12:00,720 --> 00:12:07,520
+anyone who was going to use this for an educational purpose, uh, is welcome to open up a weblog at schoolblocks.com.
+
+115
+00:12:08,400 --> 00:12:14,080
+And, uh, it's not, you know, the fastest service in the world because, uh, well, it runs on one
+
+116
+00:12:14,080 --> 00:12:20,160
+server, which is as tuned as possible, you know, but there's a lot of support that goes into
+
+117
+00:12:20,160 --> 00:12:25,120
+at Marcus Mowler, who's been working with me for, uh, for as many years at least, um,
+
+118
+00:12:25,200 --> 00:12:31,600
+maintains that 24-7, make sure the server's running provides support to people who kind of fall off the edge.
+
+119
+00:12:31,600 --> 00:12:36,960
+It's, it runs on a vanilla server, so sometimes shit just breaks and fucks up, and, you know, that happens,
+
+120
+00:12:38,000 --> 00:12:42,400
+and stuff that, um, a user can't even fix. I don't know if you've ever seen that with a vanilla site,
+
+121
+00:12:42,400 --> 00:12:47,600
+where somehow something with the calendar and you switch over, or you switch over to the next month,
+
+122
+00:12:48,160 --> 00:12:52,640
+and I'm not quite sure how you can get into the situation, but it can just break, and then you get this,
+
+123
+00:12:52,800 --> 00:12:57,920
+or error at the home page of your weblog. So he fixes all that stuff regularly, and it just helps people
+
+124
+00:12:57,920 --> 00:13:03,040
+when they don't quite understand. Um, we have a donation button on, uh, on all of the
+
+125
+00:13:03,760 --> 00:13:10,320
+school blogs, um, a PayPal donation button. I think that I've received a whopping total of,
+
+126
+00:13:11,120 --> 00:13:17,280
+maybe $500, and now probably $1,000 and five years, but that's not what it's about.
+
+127
+00:13:18,240 --> 00:13:23,760
+It's, uh, maybe it's, we'll just call it one of my ways of, uh, of contributing back.
+
+128
+00:13:25,600 --> 00:13:32,080
+Um, but they completely understand, uh, the power of, uh, of that interactivity. And you know,
+
+129
+00:13:32,080 --> 00:13:36,640
+that was something that started in my daughter's class. And if, if you look at the traditional
+
+130
+00:13:36,640 --> 00:13:41,920
+student teacher relationship, her, her, I'm going to say her, um, fifth grade class. That is with the
+
+131
+00:13:41,920 --> 00:13:46,400
+Peter Ford or teacher. I talked about this in blog about it many, many times. Look up Peter Ford.
+
+132
+00:13:47,200 --> 00:13:54,240
+He's one of the true heroes behind this project. And, um, if you have, you know, if a teacher
+
+133
+00:13:54,240 --> 00:13:58,240
+says, okay, here's your assignment. I want you to write this, you know, story or paper or whatever,
+
+134
+00:13:58,800 --> 00:14:02,960
+then the student will write it and we'll hand it into the teacher, you know, basically saying,
+
+135
+00:14:02,960 --> 00:14:08,240
+okay, teach here it is. And, you know, here's my effort towards you because you're really writing it
+
+136
+00:14:08,240 --> 00:14:14,160
+for the teacher and maybe not for anybody else. Now if the teacher said, if the assignment says,
+
+137
+00:14:14,400 --> 00:14:20,080
+you know, write this on your web blog or write some blog posts about this topic or create a project
+
+138
+00:14:20,960 --> 00:14:28,800
+outlined for this, uh, for this assignment. Um, then it kind of the dynamics change because not only
+
+139
+00:14:28,800 --> 00:14:33,120
+will the teacher be able to see it, they'll be able to see it as you're writing it perhaps as
+
+140
+00:14:33,120 --> 00:14:38,880
+edits occur. Your peers and the classroom will be able to read along and check it out. And, uh,
+
+141
+00:14:38,880 --> 00:14:43,120
+as well as your family and friends and anyone else who give the URL to. So, all of a sudden there's
+
+142
+00:14:43,120 --> 00:14:48,480
+an audience and then the dynamics are writing and reading and the interactivity between the two
+
+143
+00:14:48,480 --> 00:14:55,840
+with comments, uh, really changes the way, you know, the work is done. And, uh, I'm not an educator.
+
+144
+00:14:55,840 --> 00:15:01,200
+I, you know, I don't know anything about teaching. Uh, I wasn't too brilliant in school myself,
+
+145
+00:15:01,200 --> 00:15:07,760
+but I've seen the results and I've seen how incredibly motivated kids got, um, to be a part of
+
+146
+00:15:07,920 --> 00:15:14,720
+something like this. And, essentially, the podcasting part is, you know, we can add just a few
+
+147
+00:15:14,720 --> 00:15:20,000
+bits to it and, you know, you can turn all of these, oh, I don't know how many thousands of school
+
+148
+00:15:20,000 --> 00:15:25,840
+blogs are already created. You know, they all could be podcasting. They could be podcasts, uh, show notes
+
+149
+00:15:25,840 --> 00:15:32,800
+and, uh, and podcast feeds. And, we talked about all the different kinds of opportunities there.
+
+150
+00:15:32,800 --> 00:15:37,040
+And, uh, I think that something might come out of that. I'd be very excited to see if we can, uh,
+
+151
+00:15:37,120 --> 00:15:42,720
+set something up, uh, particularly with Jones University, who knows what else. So, let's see,
+
+152
+00:15:42,720 --> 00:15:50,000
+then we flew back, we flew coach. I mean, I can't, I just can't bring myself anymore to pay for
+
+153
+00:15:50,000 --> 00:15:55,360
+business class or hire. I think we've talked about this a couple times, uh, the price is just so
+
+154
+00:15:55,360 --> 00:16:00,400
+fucking outrageous. It's just, you know, it's not normal anymore. And what do you get? You know,
+
+155
+00:16:00,400 --> 00:16:06,240
+you don't get any real extra benefit, a little bit of legroom perhaps, but, um, you know,
+
+156
+00:16:06,240 --> 00:16:10,400
+what we're talking about, three and a half hours. That's not too bad. And it was an Airbus A319,
+
+157
+00:16:10,400 --> 00:16:15,920
+you know, my favorite. I love the Airbus. That's what easy jet flies. So, I actually discovered now
+
+158
+00:16:15,920 --> 00:16:21,360
+that I could take easy jet for a longer period than, uh, than the regular hour that it takes to get to Amsterdam.
+
+159
+00:16:21,360 --> 00:16:27,040
+So, in total, I was on easy jet for seven hours, uh, easy jet on, uh, United, uh, back and forth
+
+160
+00:16:27,040 --> 00:16:32,160
+from Denver, uh, for total of seven hours. Uh, and it didn't kill me. I wasn't too bad. We did
+
+161
+00:16:32,160 --> 00:16:38,160
+investigate an upgrade, which is going to be $325 per person each way. That's as screw it dude. Well,
+
+162
+00:16:38,160 --> 00:16:43,200
+let's drink $700 worth of wine and we get back, which we haven't done. So, I guess we did pretty good.
+
+163
+00:16:45,440 --> 00:16:49,040
+I was something else I was going to say about the two. Oh yeah, United is the only airline
+
+164
+00:16:49,040 --> 00:16:54,720
+by the way. Uh, and as far as I know, the only airline, uh, ever in the states to have a, on channel nine,
+
+165
+00:16:54,720 --> 00:17:00,880
+they, uh, they do from the flight deck. And essentially, you're just listening into the comms on the radio.
+
+166
+00:17:00,960 --> 00:17:05,280
+So, you're not actually hearing the cockpit, but you're listening to whatever is the, uh, the, the,
+
+167
+00:17:05,280 --> 00:17:10,240
+the captain and, uh, whatever is heard up on the flight deck on the radio. So, you can really follow
+
+168
+00:17:10,240 --> 00:17:16,320
+along air traffic control, um, on the way out, uh, there was only music on channel nine and I said,
+
+169
+00:17:16,320 --> 00:17:20,480
+I asked the, uh, flight attendant, you know, can you please ask the captain to turn it on and
+
+170
+00:17:20,480 --> 00:17:24,640
+say, no, this captain won't do that. I don't like what the fuck. What are you afraid of, dude? You know,
+
+171
+00:17:25,520 --> 00:17:28,560
+afraid that we're going to hear you screw up or something like that? Who told on my battery
+
+172
+00:17:28,640 --> 00:17:35,200
+pack almost fell out? Um, but the way back, um, I was able to track us all the way from Denver,
+
+173
+00:17:35,840 --> 00:17:40,960
+from Denver to, uh, let's see Minneapolis. I think it was Minneapolis first.
+
+174
+00:17:41,680 --> 00:17:48,320
+Minneapolis, then Chicago, it was Chicago Minneapolis. Uh, there's my topology for you.
+
+175
+00:17:50,240 --> 00:17:57,920
+Cleveland and eventually, uh, into New York. Um, and I hadn't really had a chance to
+
+176
+00:17:58,560 --> 00:18:03,760
+really sit there and listen to air traffic control for, you know, the big guys, uh, because usually
+
+177
+00:18:03,760 --> 00:18:09,840
+I'm, um, you know, much, much lower altitude. We're talking, like, between, uh, 500 and, uh, and
+
+178
+00:18:09,840 --> 00:18:16,640
+4,000 feet versus, you know, flight level 35. Oh, it was like 35,000 feet and higher. Uh, but I could, of
+
+179
+00:18:16,640 --> 00:18:21,360
+course, follow along the knew what they were talking about. And, uh, that was quite enjoyable. Uh,
+
+180
+00:18:21,360 --> 00:18:25,520
+that made it, especially because Oceans 12 was the movie and I'd already seen that. So, uh,
+
+181
+00:18:25,520 --> 00:18:30,160
+I was, uh, I was kind of cool just chilling back and just, uh, kind of, uh, flight. It was,
+
+182
+00:18:30,160 --> 00:18:33,600
+you know what it was? It was basically a sound seeing tour for me. That's what it was.
+
+183
+00:18:33,600 --> 00:18:38,880
+Shitty quality, of course, on the, uh, in the, in flight entertainment system, but it was a total
+
+184
+00:18:38,880 --> 00:18:44,240
+sound seeing experience, uh, and I, and I really enjoyed that. I think it was anything funny that I
+
+185
+00:18:44,240 --> 00:18:49,200
+heard them talking about on the way. Not basically, they were just asking for ride reports, you know,
+
+186
+00:18:49,200 --> 00:18:53,360
+well, how's the chop, which means any turbulence? And, uh, if there's turbulence, the
+
+187
+00:18:53,360 --> 00:18:59,280
+pilots will pass that on to air traffic control. And, uh, you know, they can change altitudes accordingly,
+
+188
+00:18:59,840 --> 00:19:03,920
+uh, to kind of avoid it and make the flight for the passengers that much more enjoyable.
+
+189
+00:19:05,280 --> 00:19:08,800
+I knew, I know there's something that I'm forgetting to say about, uh, about the flight back. But
+
+190
+00:19:08,800 --> 00:19:15,280
+anyway, so got in back to LaGuardia, we got in late, completely fried. Uh, so that was the, the first
+
+191
+00:19:16,800 --> 00:19:23,280
+source code that I wasn't able to be able to cut for the week because of, uh, just total fried
+
+192
+00:19:23,520 --> 00:19:29,920
+ness. And I wanted to say something about the elevator cast. Um, so the responses that I received to
+
+193
+00:19:29,920 --> 00:19:36,160
+it, uh, were overwhelmingly positive. Uh, it seems that this theater of the mind and, you know,
+
+194
+00:19:36,160 --> 00:19:41,360
+what's going to happen next and, and just being there and closing your eyes and listening to, you know,
+
+195
+00:19:41,360 --> 00:19:47,360
+whatever I was doing or describing as we're going through steps, uh, is very compelling to people.
+
+196
+00:19:47,360 --> 00:19:51,600
+Uh, and I personally, I'd love to hear lots more sound seeing towards, I love listening to
+
+197
+00:19:51,600 --> 00:19:56,720
+bicycle mark and, you know, match-wine steering going to target, you know, trips me out. Um,
+
+198
+00:19:56,720 --> 00:20:01,920
+but some people made some very, a very valid point which I hadn't thought about. Um, it's one
+
+199
+00:20:01,920 --> 00:20:07,760
+thing I guess to be walking around and have kind of a, a background of noise that you can listen to
+
+200
+00:20:07,760 --> 00:20:13,280
+and follow along with. It's another thing, well, actually, and also, and I feel that if I'm in an
+
+201
+00:20:13,280 --> 00:20:16,960
+elevator and, you know, that's a public space and if people are talking to each other while I'm
+
+202
+00:20:17,040 --> 00:20:21,280
+standing there, then, you know, that's okay. That's a part of background noise and, you know,
+
+203
+00:20:21,280 --> 00:20:26,080
+if someone just, if we just strike up a conversation, I think that's kind of where maybe I did go a
+
+204
+00:20:26,080 --> 00:20:31,440
+little bit overboard, uh, because essentially I'm, I'm recording people illegally, uh, or
+
+205
+00:20:31,440 --> 00:20:36,480
+without their knowledge. And so I talked to, you know, the extra who, um, who was waiting in line
+
+206
+00:20:36,480 --> 00:20:45,120
+for her shot at, uh, being an extra. Uh, there was the auditions. Uh, on the, the WB, uh, pilot
+
+207
+00:20:45,120 --> 00:20:51,360
+for, what is it, the new WB show, the prince? That actually isn't very cool, uh, to do that without
+
+208
+00:20:51,360 --> 00:20:56,640
+someone's consent. Uh, yeah, it's cool to talk and ask people for someone questions and say,
+
+209
+00:20:56,640 --> 00:21:00,800
+hey, what's going on, but it's, I guess, not cool to, to put that on a podcast. There just really
+
+210
+00:21:00,800 --> 00:21:06,480
+wasn't thinking about it. So, uh, there's a good point there, and I, and I won't do that, uh,
+
+211
+00:21:06,480 --> 00:21:10,640
+again, purposely. Now, if I'm just sitting here on the, on the bench, and someone would sit next
+
+212
+00:21:10,640 --> 00:21:14,320
+to me and strike up a conversation, I think I'd probably talk to him for a couple of minutes before I'd
+
+213
+00:21:14,400 --> 00:21:18,800
+say, you know, by the way, this is being podcast, uh, but purposely going out probably wasn't okay.
+
+214
+00:21:18,800 --> 00:21:22,880
+And, and one of two people mentioned it, and, and first I thought, I don't know what's that
+
+215
+00:21:22,880 --> 00:21:30,240
+shit, man. And then I thought, no, that really is kind of a good point. Although, um, it's happened to
+
+216
+00:21:30,240 --> 00:21:38,480
+me in another context. I was, um, at the BBC, um, a while back. Remember I did the BBC sound
+
+217
+00:21:38,480 --> 00:21:43,120
+seeing tour, which I announced I was doing it at that, at that point, so that was cool. And I said,
+
+218
+00:21:43,120 --> 00:21:49,920
+hey, you know, I'm, I'm recording all of this. And that's, uh, uh, uh, that was for click online.
+
+219
+00:21:50,800 --> 00:22:01,200
+And, uh, a couple days later, um, uh, the pieces from the interview that I was doing on camera,
+
+220
+00:22:01,200 --> 00:22:07,280
+showed up in a piece on BBC.com, uh, in a technology piece, which, by the way, I like, I like,
+
+221
+00:22:07,360 --> 00:22:12,640
+was written. I thought it was pretty funny. Uh, Koso wrote that. He's, uh, from the blog cast,
+
+222
+00:22:12,640 --> 00:22:19,760
+VLUG. Um, but he didn't tell me that he was going to, you know, because he was basically sitting
+
+223
+00:22:19,760 --> 00:22:24,400
+next to the camera next to the person interviewing me. Uh, he didn't tell me that that was going
+
+224
+00:22:24,400 --> 00:22:29,280
+to be written up into an interview as if we had sat down and we're doing an interview. And it was
+
+225
+00:22:29,280 --> 00:22:34,240
+kind of surprising. Um, and also, and, and the thing that was really surprising to me is that on
+
+226
+00:22:34,320 --> 00:22:39,600
+camera, um, uh, I was talking about podcasting, you know, a camera, of course,
+
+227
+00:22:39,600 --> 00:22:44,320
+camera, exactly what the question was. But then I said, as a joke on camera, which is a totally
+
+228
+00:22:44,320 --> 00:22:48,960
+different context, I say, you know, I really should be knighting for this stuff. And when you, you know,
+
+229
+00:22:48,960 --> 00:22:52,880
+I was doing it to the camera, you know, doing a play to the audience who would be watching if they
+
+230
+00:22:52,880 --> 00:22:56,400
+were to use, I don't know if they used that in the, in the, in the, in the, in the piece or not.
+
+231
+00:22:56,400 --> 00:23:00,400
+But I did that in a very different context than I would have done it with someone who was doing a
+
+232
+00:23:00,480 --> 00:23:05,600
+written piece. And so when it showed up in writing, I was like, oh, well, that kind of is taking
+
+233
+00:23:05,600 --> 00:23:14,000
+out of context. So, oops, the trash cart passing by. So it was taking a bit out of context.
+
+234
+00:23:14,000 --> 00:23:18,400
+And I was surprised. And, you know, and, and I, and I, and I really said, oh, memo to self, you know,
+
+235
+00:23:18,400 --> 00:23:23,360
+got to be careful about stuff like that because, uh, if you don't know that you're being recorded
+
+236
+00:23:23,360 --> 00:23:28,400
+in a certain context, it can come across pretty weirdly. And so that really struck home with me
+
+237
+00:23:28,560 --> 00:23:32,800
+when people said, you know, hey, dude, maybe you shouldn't be recording people without their consent.
+
+238
+00:23:33,520 --> 00:23:38,480
+Just, I mean, forget the legal standpoint. The ethical standpoint is more important. And I received an email
+
+239
+00:23:38,480 --> 00:23:44,960
+from Dave Slusher, uh, who pointed out to me as well. And I got a degree. So I appreciate you guys
+
+240
+00:23:44,960 --> 00:23:51,200
+sent me straight on that one. You're totally right. Okay. So now we're at Friday. Friday we had
+
+241
+00:23:51,280 --> 00:23:59,200
+planned to kind of spend time in New York. Um, um, we have a relationship with Bear Stearns,
+
+242
+00:23:59,200 --> 00:24:04,960
+which is a big banking company. Uh, there's, uh, they have a private banking, basically it's people
+
+243
+00:24:04,960 --> 00:24:10,960
+who who help you spend your money. And, uh, Ron and I are both clients there. And, uh,
+
+244
+00:24:10,960 --> 00:24:16,640
+it was certainly by no means, you know, the most important clients on the block. But they're very,
+
+245
+00:24:16,720 --> 00:24:21,120
+very nice to us and set us up with a conference room and facilities whenever we're in towns.
+
+246
+00:24:21,120 --> 00:24:26,560
+We basically can have an office. Um, and it's, it's so cool. They have, um, you know, of course,
+
+247
+00:24:26,560 --> 00:24:33,200
+the, you know, banks are basically big, um, databases, you know, that would have database operators.
+
+248
+00:24:33,200 --> 00:24:38,400
+And those would be the, the traders and people who are using the system. That's what it is. It's all
+
+249
+00:24:38,400 --> 00:24:42,560
+about systems. And when banks merge, you know, the offices aren't important. It's merging their
+
+250
+00:24:42,640 --> 00:24:48,000
+incredibly large data systems together, uh, because, you know, there's computations that are
+
+251
+00:24:48,000 --> 00:24:51,920
+being made. And we did some work at a previous company for bankers trust and the derivatives
+
+252
+00:24:51,920 --> 00:24:56,560
+division. So I learned a lot about what goes on in banks. And it's, it's all about computers and
+
+253
+00:24:56,560 --> 00:25:01,360
+data and how fast it can be calculated, computated, how you can apply models and predictions
+
+254
+00:25:01,360 --> 00:25:06,720
+and it's risk management. Um, so of course, you can't just, you know, jacking to a network there.
+
+255
+00:25:06,800 --> 00:25:15,280
+And if you think there's no Wi-Fi networks believe me, um, uh, uh, so they have a conference room for us,
+
+256
+00:25:15,280 --> 00:25:19,920
+which actually has a separate DSL line coming into the building. So it's a very convenient.
+
+257
+00:25:19,920 --> 00:25:24,880
+Oh, I just remembered what I was going to say about, uh, about our flight from Denver. Um,
+
+258
+00:25:26,320 --> 00:25:31,280
+it's, it was, it was about security because, you know, it's now still at New York, every single,
+
+259
+00:25:31,440 --> 00:25:37,680
+office building you walk into, particularly if it, uh, if it has a bank in it, um, there's the equivalent
+
+260
+00:25:37,680 --> 00:25:42,160
+of airport security that you go through and your pictures take. And interestingly enough, by the
+
+261
+00:25:42,160 --> 00:25:47,520
+same Logitech setup, you know, that is used when you come into the country. So there was a big sales
+
+262
+00:25:47,520 --> 00:25:53,760
+job there, man. Someone really made a bunch of dough on, on selling the, uh, the security equipment.
+
+263
+00:25:53,760 --> 00:25:59,360
+And then, you know, you put your bag through a scanner and, uh, you know, it's all basically,
+
+264
+00:25:59,440 --> 00:26:03,440
+I think, just for insurance purposes. But I wanted to point out that it is now illegal
+
+265
+00:26:04,240 --> 00:26:11,200
+to carry a lighter or matches on board of any, uh, US air carrier. Um, and I was,
+
+266
+00:26:12,880 --> 00:26:16,800
+it's actually, I think it's been illegal to carry matches or lighter in your bag or your check
+
+267
+00:26:16,800 --> 00:26:27,360
+baggage for the past 30 years. Nice cigar here. Let me get that cranking. Um, but now you
+
+268
+00:26:27,360 --> 00:26:31,600
+not let allowed to even have one in your pocket, uh, which sucks if you're carrying like a really
+
+269
+00:26:31,600 --> 00:26:36,880
+nice lighter, uh, because they'll confiscate it. And, uh, you cannot take it on board in any way.
+
+270
+00:26:36,880 --> 00:26:41,520
+And the reason for this is, uh, the same reason we're taking our shoes off, ladies and gentlemen,
+
+271
+00:26:41,520 --> 00:26:47,440
+uh, the genesis of the lighters is because of the one guy, uh, and I'm not trying to downplay it,
+
+272
+00:26:47,440 --> 00:26:52,960
+you know, who tried to set off an explosive device in his shoe. So the way to make it, so apparently
+
+273
+00:26:53,040 --> 00:27:00,320
+what the transport security TSA has decided is that the way to eliminate that risk besides taking your
+
+274
+00:27:00,320 --> 00:27:06,800
+shoes off and having those examined is to not allow you to like anything. Uh, which of course makes
+
+275
+00:27:06,800 --> 00:27:11,360
+sense, but you know, why don't we just, uh, take your fucking grain out, okay? So you can't think
+
+276
+00:27:11,360 --> 00:27:14,960
+and can't do anything and then just leave all the damn checks to for what it is, you know,
+
+277
+00:27:14,960 --> 00:27:19,520
+then we don't have to worry about it. It's getting pretty fucking frustrating. And now, uh,
+
+278
+00:27:19,600 --> 00:27:25,200
+the news reports are that, uh, although we've, you know, we've hired and are paying for 45,000
+
+279
+00:27:25,200 --> 00:27:31,200
+people at, uh, airport security. Um, we're pretty much not that much more secure than we were before,
+
+280
+00:27:31,200 --> 00:27:41,120
+yet, duh. Um, um, and, and so now, uh, I think, uh, the administration is saying the solution to
+
+281
+00:27:41,120 --> 00:27:48,800
+that is to put more technology in place. So again, I'm just for a temporary lobotomy, so that you
+
+282
+00:27:49,360 --> 00:27:55,600
+can't think or act like a terrorist. I guess that's the best solution. It's pretty fucking tedious.
+
+283
+00:27:55,600 --> 00:28:01,920
+It really pisses me off. It's a, I just hate being lied to when it's snow job, you know, it's like,
+
+284
+00:28:01,920 --> 00:28:08,000
+it's marketing and has nothing to do with security. You're not any more safe, um, going through
+
+285
+00:28:08,000 --> 00:28:16,800
+the current security than you were, you know, 10 years ago. It's just not true. So in once
+
+286
+00:28:16,800 --> 00:28:21,120
+a do something, there's plenty of ways to do it. And by the way, you can still fly down right through
+
+287
+00:28:21,120 --> 00:28:26,160
+the New York corridor with, you know, with a lightweight aircraft or an aircraft you want, you know,
+
+288
+00:28:26,160 --> 00:28:31,120
+you, it's just don't think that just because they're taking your tax dollars and spending it on
+
+289
+00:28:31,680 --> 00:28:37,760
+people in, uh, in white suits with impressive looking logos that is really any more effective.
+
+290
+00:28:38,720 --> 00:28:48,000
+So Friday, um, we had a conference room all set up at Bear Stearns and we had Brian,
+
+291
+00:28:48,960 --> 00:28:54,400
+Brian Longus. He haven't met yet. Brian is doing, doing operations for us at Pod Show.
+
+292
+00:28:55,840 --> 00:29:00,320
+He lives in DC and he came up. It was a mess because of the trains, you know, the, the high
+
+293
+00:29:00,320 --> 00:29:07,760
+speed trains apparently have faulty brakes. So they're, uh, checking them all out and that just
+
+294
+00:29:07,760 --> 00:29:13,120
+really messed up the train systems. He, he was coming in a lot later. And I got, well, first of all,
+
+295
+00:29:13,120 --> 00:29:22,160
+I got a call from, um, Dave from Rolling Stone Magazine and he wanted to do an interview and I'll tell
+
+296
+00:29:22,160 --> 00:29:27,840
+you that, uh, Rolling Stone Magazine when they call, you know, he kind of want to make some time
+
+297
+00:29:28,800 --> 00:29:34,800
+for him. It's, uh, it's an influential publication and I was just delighted to hear that, uh,
+
+298
+00:29:34,800 --> 00:29:41,200
+that the, the journalist, um, had worked at Sonic Net back in the days when, uh, we were just
+
+299
+00:29:41,200 --> 00:29:45,920
+starting up on ramp and, uh, we were actually looking at Sonic Net. We were pretty jealous because,
+
+300
+00:29:45,920 --> 00:29:49,520
+you know, those guys had some great funding and they were doing all kinds of cool content later.
+
+301
+00:29:49,520 --> 00:29:55,280
+I think that actually was, it was sold to MTV, uh, and we were doing Metaverse.com and the vibe
+
+302
+00:29:55,360 --> 00:30:01,120
+and cyber sleaze and not making a fricking dime with it. Um, and we essentially, uh, in order to
+
+303
+00:30:01,120 --> 00:30:06,800
+create a business, started doing things like that, but uh, worked for hire for companies like
+
+304
+00:30:06,800 --> 00:30:14,560
+Anheuser Bush for Budweiser. We built Budweiser.com and, um, and Reebok.com and did a lot of fun
+
+305
+00:30:15,440 --> 00:30:21,040
+sites that at the, at the time had a lot of entertainment. It was related to, uh, activities the company
+
+306
+00:30:21,120 --> 00:30:26,400
+was involved in. So Reebok, you can only imagine, you know, we went to lots of games, interviewed
+
+307
+00:30:26,400 --> 00:30:31,760
+superstars, like Shaq, for instance, who had signed up with Reebok back then, uh, for Budweiser.
+
+308
+00:30:31,760 --> 00:30:36,000
+We went to a lot of their sporting events and we did, uh, cyber cast, which meant, you know,
+
+309
+00:30:36,000 --> 00:30:41,600
+like, see you see me streaming video, audio recordings of, you know, anything we could get our hands on.
+
+310
+00:30:41,600 --> 00:30:48,400
+And, uh, that was, uh, those were really fun days actually. So he had grown up with, uh, the internet
+
+311
+00:30:48,400 --> 00:30:53,920
+and, uh, and had witnessed all the, the going commercial part. He's actually written, uh, a book.
+
+312
+00:30:53,920 --> 00:30:59,840
+Now, forgetting the title, uh, but it's the story about, uh, the guys that id software,
+
+313
+00:30:59,840 --> 00:31:05,520
+who created Doom and Quake, and now he's writing another book. And, uh, so we, uh,
+
+314
+00:31:05,520 --> 00:31:11,040
+walked a bit on the streets, uh, talked about, you know, the potential of podcasting,
+
+315
+00:31:11,040 --> 00:31:15,920
+certainly in relation to music, which I'm getting really excited about, what, what we can do with
+
+316
+00:31:16,000 --> 00:31:20,480
+pod save music, because the more I'm exposed to what's out there.
+
+317
+00:31:20,480 --> 00:31:24,960
+New York is a great place to get exposed to all kinds of pod save music, because this is where
+
+318
+00:31:24,960 --> 00:31:29,600
+people come to try and make it, you know, it's, uh, this is where people are playing in the clubs,
+
+319
+00:31:29,600 --> 00:31:35,200
+waiting to be discovered. He, uh, pauses you here once in the while, it's been taking a
+
+320
+00:31:35,200 --> 00:31:40,880
+sip of coffee or a choke on the sea guard. 31 minutes into this. I'm going to try and keep it at
+
+321
+00:31:40,880 --> 00:31:49,760
+40. Uh, and I, uh, I kind of squeezed him in because I received a call when I got in, uh,
+
+322
+00:31:49,760 --> 00:31:55,200
+late Thursday night from Denver. There was a call on my voicemail from a music industry legend,
+
+323
+00:31:56,400 --> 00:32:01,280
+his name is Harvey Leeds. And if you've heard us talk about the Ken Clark and I on the MTV
+
+324
+00:32:01,280 --> 00:32:06,800
+Chronicles, heard us talk about, uh, Steve Leeds at MTV. Harvey is his brother, and Harvey has been
+
+325
+00:32:06,880 --> 00:32:13,280
+an epic, uh, which is now Sony records or epic Sony records for 30 years. Um, he was there at the,
+
+326
+00:32:13,280 --> 00:32:18,320
+the very beginning of MTV, you know, when, you know, when no one knew how to promote a video,
+
+327
+00:32:18,320 --> 00:32:23,440
+promote a band through a video. He's always been, uh, in the promotion part of the record industry.
+
+328
+00:32:24,880 --> 00:32:30,080
+And he's, uh, he's just, he's a great guy to know. I mean, he's extremely well-loved, extremely
+
+329
+00:32:30,080 --> 00:32:35,200
+connected. Um, he knows how to, you know, and he loves the music, you know, he'll, he'll fly a million
+
+330
+00:32:35,200 --> 00:32:41,200
+miles in the baggage space of an airplane just to see a band play that he really believes in and
+
+331
+00:32:41,200 --> 00:32:46,880
+and he'll promote the heck out of him. He, he does a great job with that. Um, and he, uh, called me and
+
+332
+00:32:46,880 --> 00:32:53,040
+he said, you know, I don't want to talk about podcasting, you know, can you? He, come on over. And
+
+333
+00:32:53,040 --> 00:32:59,440
+come on over means he invited Ron and I to lunch in the Sony club, which is, this is kind of funny.
+
+334
+00:32:59,440 --> 00:33:04,800
+This is on the, oh god, I don't know, it's what it's like, the 40th or 50th floor of the Sony building
+
+335
+00:33:04,880 --> 00:33:13,680
+it's 55th and, uh, a Madison. And it's a, um, what kind of, it's kind of like an observation deck,
+
+336
+00:33:13,680 --> 00:33:19,680
+only it's one big restaurant with multiple rooms. And it's only for, uh, the big, important meetings.
+
+337
+00:33:19,680 --> 00:33:23,760
+It's, yeah, every band has this as well. It's, you know, when, when either just before you're about
+
+338
+00:33:23,760 --> 00:33:28,560
+to sign the big artist or if you want to celebrate or, you know, if anyone's doing a big deal,
+
+339
+00:33:28,560 --> 00:33:32,000
+then you take him up to the Sony club, that is if you have enough pull, right? If you got the
+
+340
+00:33:32,000 --> 00:33:38,640
+juice of the cloud to, to, to be allowed to eat up in the Sony club, uh, then you, uh, then you go up there
+
+341
+00:33:38,640 --> 00:33:43,520
+and it's very classy and chic. And I've been there, I was there 10 years ago, I think with Sony,
+
+342
+00:33:44,160 --> 00:33:49,280
+it was that it was the hardware division. I'm not quite sure why, but I was invited up there,
+
+343
+00:33:49,280 --> 00:33:54,160
+you know, personal waiters and butlers and, you know, everything's just right in the food is, you know,
+
+344
+00:33:54,160 --> 00:33:59,040
+prepared personally and there's all different types of kitchens and and cuisines and you name it.
+
+345
+00:33:59,600 --> 00:34:05,600
+It's impressive. And it's fun, you know, it's fun to do that because you can, when you're up there,
+
+346
+00:34:05,600 --> 00:34:13,440
+you look out the south side and you can almost reach out to David Copperfield's three-story penthouse
+
+347
+00:34:13,440 --> 00:34:20,960
+apartment, you know, we can basically see him walking up and down his own house. That's kind of
+
+348
+00:34:20,960 --> 00:34:26,480
+funny. I don't know, the wind is picking up a little bit. And Harvey totally has the juice, you know,
+
+349
+00:34:26,480 --> 00:34:31,680
+you can, uh, everyone is like, hey, Harvey, how you doing? The waiter is, hey, Harvey, how are you?
+
+350
+00:34:31,680 --> 00:34:36,800
+Usually table Harvey, you're like your usual iced tea, Harvey, you know, and as I said, you know,
+
+351
+00:34:36,800 --> 00:34:42,320
+if you can be in the industry that long, certainly at one company and he's worked with every single
+
+352
+00:34:42,320 --> 00:34:47,200
+artist you can you can think of and he knows them all personally and he has this little kind of like
+
+353
+00:34:47,200 --> 00:34:53,600
+cubby hole of an office, but it's just it's a shrine to 30 years of music history piled up all over the
+
+354
+00:34:53,680 --> 00:34:58,640
+place and I'm sure he has five times that size somewhere stored away, he just filled with crap that
+
+355
+00:34:58,640 --> 00:35:05,440
+that he can't put in his current configuration. And I'm trying to think which part of the story I want
+
+356
+00:35:05,440 --> 00:35:11,360
+to tell first. Yeah, well, so basically what he wanted and the meeting was not just with Harvey,
+
+357
+00:35:11,360 --> 00:35:21,760
+it was also with the vice president of new media and his name is Corey, Corey Luellen. Yeah,
+
+358
+00:35:21,760 --> 00:35:27,760
+vice president of Epic Records, New Media, that's just getting his business card here.
+
+359
+00:35:29,360 --> 00:35:35,200
+And what it is is, Harvey was saying, you know, dude, I've been listening to these podcasts.
+
+360
+00:35:36,240 --> 00:35:42,080
+I want to podcast, you know, I want to like promote and there he is, right, Harvey promoting stuff,
+
+361
+00:35:42,080 --> 00:35:46,400
+you know, he's he's they're all these records that have to people that so many probably don't
+
+362
+00:35:46,400 --> 00:35:49,680
+even know these signed these artists, you know, and he's like, I kind of want to promote and
+
+363
+00:35:49,680 --> 00:35:55,360
+want people to catch your buzz. You know, Harvey is the guy that when he has new band he wants to promote
+
+364
+00:35:55,360 --> 00:36:00,640
+and one way to do that is through getting them out in front of public, you know, get them playing
+
+365
+00:36:00,640 --> 00:36:07,440
+for people. Then, you know, if he finds out whichever act is performing somewhere and he'll basically
+
+366
+00:36:07,440 --> 00:36:14,160
+beg and plead and do whatever to get one of the newer acts to open up for the successful big act.
+
+367
+00:36:15,120 --> 00:36:21,760
+And it was pretty interesting because he isn't the kind of guy that's thinking about lawyers and,
+
+368
+00:36:21,760 --> 00:36:28,240
+you know, RIA, even though he is essential part of that wheel, he just wants to get good music out there.
+
+369
+00:36:29,040 --> 00:36:36,080
+And we went through a couple scenarios and we talked about, you know, why not a lot of RIA
+
+370
+00:36:36,080 --> 00:36:40,160
+music is being played on podcast. And we can't put a couple of really interesting ideas,
+
+371
+00:36:40,160 --> 00:36:44,720
+some of which would have landed us both in jail and made us beautiful cellmates. I should
+
+372
+00:36:44,720 --> 00:36:50,640
+anyone decide to come down on us. We also can't put some really good ideas of ways to promote
+
+373
+00:36:50,640 --> 00:36:57,280
+basically pod safe music and, you know, some other ways to create sign-off and put some
+
+374
+00:36:58,240 --> 00:37:03,920
+and basically trying to create ways to make some or as much as possible,
+
+375
+00:37:04,880 --> 00:37:10,160
+available for use in podcasting. It really is just a just a question of legality.
+
+376
+00:37:12,160 --> 00:37:16,240
+Which is the same I learned for satellite radio. Here's something I learned.
+
+377
+00:37:16,240 --> 00:37:21,440
+Satellite radios, although not entirely regulated the way it's restory or radio is regulated,
+
+378
+00:37:22,240 --> 00:37:27,200
+does have to adhere to the digital millennium copyright act. And part of the stipulation of the
+
+379
+00:37:27,200 --> 00:37:33,200
+digital millennium copyright act because it does involve digital streams and downloading or a version
+
+380
+00:37:33,280 --> 00:37:38,720
+of downloading from digitally digital copies. Let's put it that way. It's that you cannot,
+
+381
+00:37:38,720 --> 00:37:45,360
+on satellite radio, you cannot play more than two tracks by one artist or I think from the same
+
+382
+00:37:45,360 --> 00:37:52,560
+album after each other. So there has to be a separation there of, I don't know exactly what the
+
+383
+00:37:52,560 --> 00:37:58,560
+separation is. It's hours or channels or whatever, because then essentially the theory is that if
+
+384
+00:37:58,640 --> 00:38:04,400
+you didn't do that, you could cobble together the entire CD, which of course is ludicrous.
+
+385
+00:38:05,600 --> 00:38:10,880
+I'm sure people could do it, but who the heck is doing that? Some, maybe, all, probably not.
+
+386
+00:38:12,480 --> 00:38:19,040
+And so there's, you know, if you want to do like the, what should we say? If you want to do the
+
+387
+00:38:19,040 --> 00:38:24,000
+Bruce Springsteen tribute hour or Bruce Springsteen's coming out with a new record and you want to
+
+388
+00:38:24,080 --> 00:38:29,680
+cut up an interview with Bruce Springsteen with, with tracks with a new record, it's either you
+
+389
+00:38:29,680 --> 00:38:35,120
+can't do it or you have to get an actual sign off for each individual project and Harvey is one
+
+390
+00:38:35,120 --> 00:38:43,920
+of the people who can sign off. So we had a lovely lunch. They had pineapple slushies just perfect.
+
+391
+00:38:43,920 --> 00:38:50,320
+We sat in a nice, you know, curved little booth and a couple of observations. First of all,
+
+392
+00:38:51,280 --> 00:38:59,120
+the lobby downstairs. So you have the Sony lobby, which is, I don't know, it's, you have the public
+
+393
+00:38:59,120 --> 00:39:03,520
+space down in the Sony building. You get up in one elevator bank that only goes to the Sony
+
+394
+00:39:03,520 --> 00:39:08,240
+music lobby and that's basically where you enter into the Sony music realm and you have to
+
+395
+00:39:08,240 --> 00:39:14,240
+check in and, you know, it's a security check once again. And the elevator doors open and it
+
+396
+00:39:14,320 --> 00:39:20,720
+looks like a hip hop convention. There must be 15 different hip hop groups. Some of them
+
+397
+00:39:20,720 --> 00:39:30,960
+cutting a video, others just walking around with cell phones. It was a madhouse essentially and
+
+398
+00:39:30,960 --> 00:39:37,120
+everyone had to wait in line for their name to be taken down and it's like four or five reception
+
+399
+00:39:37,120 --> 00:39:40,960
+is just, you know, going out at all the time and then they have to call up and the way they're
+
+400
+00:39:40,960 --> 00:39:44,480
+doing it because it was, you know, just so crowded and like everybody was there. It seemed like
+
+401
+00:39:44,480 --> 00:39:48,720
+everyone there had a record deal, it was cutting a record deal or it was going to be the next p-ditty.
+
+402
+00:39:51,920 --> 00:39:56,080
+You know, it took a while and what they do is they take down your name and then you wait and
+
+403
+00:39:56,080 --> 00:39:59,840
+then they call out your name really loudly and then you pick up your badge and then you can go through.
+
+404
+00:40:00,640 --> 00:40:05,840
+And it's a madhouse and we're like it's exactly one o'clock and so I call up to Harvey's office and
+
+405
+00:40:05,840 --> 00:40:10,160
+talk to his lovely assistant and I said, you know, we're down in the lobby, it's a madhouse so
+
+406
+00:40:10,240 --> 00:40:14,400
+we're going to probably about 10 minutes late just let, you know. And Simon LeBon is standing right
+
+407
+00:40:14,400 --> 00:40:19,280
+in front of me, Simon from LeBon from Duran Duran who on Wednesday night I think sold out the garden
+
+408
+00:40:19,280 --> 00:40:25,600
+completely sold it out for a concert and he's standing there just like like us two Joe Shmoans
+
+409
+00:40:26,800 --> 00:40:30,400
+waiting in line and you know, the guy says, okay, what's your name? It's his Simon LeBon.
+
+410
+00:40:31,520 --> 00:40:36,320
+You had a picture ID and he says, no, I don't, you know, because, you know, maybe he didn't, you know,
+
+411
+00:40:36,800 --> 00:40:41,280
+in Europe, you don't have pictures on your driver's licenses and I don't, I guess he didn't have his passport with him.
+
+412
+00:40:41,280 --> 00:40:46,560
+I've learned now to carry my passport with me and, you know, and then so he's waiting and Simon,
+
+413
+00:40:46,560 --> 00:40:51,120
+you can just see he's like, oh man, he's getting impatient, but he's taken it with great stride,
+
+414
+00:40:51,120 --> 00:40:55,840
+but it's not like the old days, you know, where you'd have a real vibe and it was cool music playing
+
+415
+00:40:55,840 --> 00:41:00,400
+when you come into a record company and, you know, people were zigging and zagging and getting
+
+416
+00:41:00,400 --> 00:41:06,000
+shit done and now it's just like this huge corporate marble piece of shit structure and he's
+
+417
+00:41:06,000 --> 00:41:11,920
+Simon LeBon, you know, and he's a, to me, he's still a superstar and he's being treated just with
+
+418
+00:41:11,920 --> 00:41:19,600
+as much disrespect as the rest and then they call out his name Simon LeBon so he could pick up his
+
+419
+00:41:19,600 --> 00:41:26,880
+past to get in and then Harvey's assistant came down and actually got us and walked us through
+
+420
+00:41:26,880 --> 00:41:32,640
+as that was kind of cool, I got a better treatment than Simon LeBon, so that was one thing
+
+421
+00:41:32,640 --> 00:41:37,280
+that I noticed right there, I'm like, you know, man, this is really weird, you know, this is not
+
+422
+00:41:37,280 --> 00:41:41,520
+the type of image you want to project of a hip swing and company that knows what it's doing
+
+423
+00:41:41,520 --> 00:41:45,920
+and is really going to, you know, is on the cutting edge of music, take another sip.
+
+424
+00:41:49,360 --> 00:41:55,520
+And as we were upstairs, I always, first went to his office who went up to the Sony club, I noticed
+
+425
+00:41:55,520 --> 00:42:01,840
+that the Sony club is fraying at the edges, my friends, it no longer, the other carpet isn't
+
+426
+00:42:01,840 --> 00:42:08,880
+well, the carpet's probably 15 years old by that this point, it's fraying, you know, it's just,
+
+427
+00:42:08,880 --> 00:42:16,400
+it's not as, they had, you know, it's decaying, it's slowly decaying and we were the only guys in there
+
+428
+00:42:16,400 --> 00:42:23,040
+that were talking about music, all the other tables were lawyers and, you know, the discussion
+
+429
+00:42:23,040 --> 00:42:27,040
+invariably at points is we're talking, then Harvey would lower his voice and say, you know,
+
+430
+00:42:27,040 --> 00:42:31,920
+the lawyers, because that's the culture of these places now, everything is being run by lawyers who are
+
+431
+00:42:31,920 --> 00:42:38,160
+just trying to figure out who can get the most money from each little piece of music and it hit me
+
+432
+00:42:38,160 --> 00:42:44,000
+then that these record companies, they're already, they understand the long-tail concept and they're
+
+433
+00:42:44,000 --> 00:42:48,400
+already applying it, you know what, hold on a second, I want to, the spot where I'm sitting right now
+
+434
+00:42:49,040 --> 00:42:56,160
+is now longer in the sun, so let me just move over two benches to get in the sun like, hold on
+
+435
+00:42:58,880 --> 00:43:04,000
+all the benches, by the way, have placards on and we'll read a couple of them to you,
+
+436
+00:43:04,000 --> 00:43:10,880
+a memory of Benjamin and Estelle Wachtell for Carol E. Holtzmann, in celebration of her 80th birthday
+
+437
+00:43:10,880 --> 00:43:19,520
+with love from her grandchildren, Brooke Alexandra Jackman, a shining star with a radiant smile,
+
+438
+00:43:19,520 --> 00:43:25,760
+compassionate, intelligent and beautiful, always loved the joy of our lives, didn't live very long,
+
+439
+00:43:26,480 --> 00:43:38,000
+82878, of course 9101, wow just hit me when I saw the date, let's sit on this one, shall we?
+
+440
+00:43:38,240 --> 00:43:48,880
+Wow, I just got a chill, I didn't recognize the 9101 because European date would be 11901,
+
+441
+00:43:52,480 --> 00:43:57,680
+quick reflection there people, okay, so now we're sitting back in the sunshine,
+
+442
+00:43:59,680 --> 00:44:01,520
+I was talking about the long-tail concept,
+
+443
+00:44:01,760 --> 00:44:09,840
+the record companies, at least this one, I presume the other three at this point, whatever it is,
+
+444
+00:44:11,280 --> 00:44:16,080
+they're totally applying the long-tail concept, what they're doing is they're just, you know,
+
+445
+00:44:16,080 --> 00:44:20,880
+and so the long-tail concept is, you know, you can have, let's say, one record that will sell
+
+446
+00:44:20,880 --> 00:44:27,840
+10 million copies, doesn't happen that often anymore, or you can have 10 records that sell a million
+
+447
+00:44:28,400 --> 00:44:32,880
+and that's what the record companies are doing, they're just signing up hip-hop groups for
+
+448
+00:44:32,880 --> 00:44:37,200
+predominantly, I think, or at least that's what I saw on the lobby, left and right, given
+
+449
+00:44:37,200 --> 00:44:41,520
+him shitty deals, you know, the first deal is always shitty when it comes to record companies,
+
+450
+00:44:41,520 --> 00:44:46,000
+you get nothing, you'll wind up with nothing, you might get a little advance, you can go buy some
+
+451
+00:44:46,000 --> 00:44:52,160
+bling, but that's pretty much it, and they just pump them out, you know, and each one, if they
+
+452
+00:44:52,160 --> 00:44:57,520
+can sell 100,000 copies, that's a million bucks, you know, and they just keep cranking it out and
+
+453
+00:44:57,520 --> 00:45:03,920
+cranking it out, and what they've done very successfully, which seems unethical, and you could argue
+
+454
+00:45:03,920 --> 00:45:10,560
+about that, is they've just set it up so that if there's no more sales, you drop them, just drop
+
+455
+00:45:10,560 --> 00:45:15,840
+it like it's hot, drop it like it's hot, and you get rid of it, and then just let them disintegrate
+
+456
+00:45:15,840 --> 00:45:18,960
+into nothing, you know, that's what the record business has been really good at, because the
+
+457
+00:45:18,960 --> 00:45:24,080
+record business is all about contracts and laws, et cetera, and a little bit about the creativity,
+
+458
+00:45:25,120 --> 00:45:28,960
+and so that's what's going on there, you know, while the big guys are upstairs fighting about
+
+459
+00:45:28,960 --> 00:45:33,520
+every single penny and trying to squeeze blood from a stone and, and therefore, hampering the
+
+460
+00:45:33,520 --> 00:45:39,040
+distribution of music and hampering, in our case, the discovery of music, that's what podcasting
+
+461
+00:45:39,040 --> 00:45:45,840
+is bringing, I think, is ways to discover new talent, discover new artists, new music, new creative
+
+462
+00:45:45,920 --> 00:45:53,680
+people, that's being stifled, and then doing that themselves, and bully for them, you know,
+
+463
+00:45:53,680 --> 00:46:00,800
+let them do whatever the heck they want. Harvey is, of course, the guy who gave me four CDs of
+
+464
+00:46:00,800 --> 00:46:10,000
+new stuff that no one has ever heard of, particularly sushi su is a name of a girl, I think it's a
+
+465
+00:46:10,080 --> 00:46:15,680
+girl or a group who he's, he's really nuts about, and he has given me the personal Harvey
+
+466
+00:46:15,680 --> 00:46:21,760
+leads permission to play that on the podcast, so I'm going to do that when I get back to the cottage,
+
+467
+00:46:21,760 --> 00:46:24,880
+I'm going to listen to the CDs, and if I like it, I certainly will play it.
+
+468
+00:46:29,120 --> 00:46:39,440
+46 minutes, let's start wrapping this up. So here's what I learned with all the meetings, and we've
+
+469
+00:46:39,520 --> 00:46:44,000
+done, you know, I can't just can't even physically tell you about everything because it's just so much.
+
+470
+00:46:44,000 --> 00:46:49,360
+First of all, New York is great, New York is kicking, New York is alive, and people are,
+
+471
+00:46:51,280 --> 00:46:58,240
+to me, people are just here to get shit done, they're excited, everyone's trying to help each other
+
+472
+00:46:58,240 --> 00:47:02,560
+in business, that's always kind of been that way, New York, but to me it feels like this city is
+
+473
+00:47:02,560 --> 00:47:11,600
+really bounce back. I hooked up with Rick Kalman, the audio guy at MTV was my first,
+
+474
+00:47:11,600 --> 00:47:16,320
+our Patricia and my, our first friend in New York, he was the guy that when we actually started
+
+475
+00:47:16,320 --> 00:47:20,000
+on the same day, I think at MTV, he started doing audio, and I started, of course, on air,
+
+476
+00:47:20,640 --> 00:47:25,360
+and but he'd been in New York for a while doing radio, and doing all kinds of various types of
+
+477
+00:47:25,360 --> 00:47:28,800
+jobs, and he was the first one that said, hey, come on, let's go out to dinner and he took us to a
+
+478
+00:47:28,800 --> 00:47:33,040
+show, which was simply what I think was playing at the Beacon Theatre, and he was just nice and
+
+479
+00:47:33,040 --> 00:47:40,080
+been friends for almost 20 years now, and we lose touch, and then we hook up again, and he came
+
+480
+00:47:40,080 --> 00:47:47,040
+over last night, and we were talking about podcasting, and actually, of course, I said, Rick,
+
+481
+00:47:47,040 --> 00:47:52,080
+he hooked me up, you know, I haven't had anything to smoke in like a week, and he said,
+
+482
+00:47:52,080 --> 00:48:00,480
+no, he's now working for Division of the New Jersey Police, where, of course, he has some
+
+483
+00:48:00,480 --> 00:48:05,920
+tests that he has to take regularly, so he doesn't smoke anymore, but he invited one of
+
+484
+00:48:05,920 --> 00:48:12,080
+two of his friends over who were kind enough to bring some of the holy herb along with them,
+
+485
+00:48:12,160 --> 00:48:22,800
+and one of them was a musician, a nice girl, Shelly, and did I say that right?
+
+486
+00:48:25,200 --> 00:48:34,640
+I'm spacing on the names, and she was showing me where she has her music uploaded on her
+
+487
+00:48:34,720 --> 00:48:42,480
+myspaces.com, they called a weblog, it's kind of a weblog, or you can set it up as a weblog,
+
+488
+00:48:43,360 --> 00:48:46,480
+and that's kind of her community, that's where she gets gigs from, it's how she hooks up
+
+489
+00:48:46,480 --> 00:48:51,360
+with other musicians, she produces and records all her stuff at home, it was a nice fire trek,
+
+490
+00:48:51,360 --> 00:49:00,560
+truck going by the park with a police siren, and we were, you know, there's like three people
+
+491
+00:49:00,560 --> 00:49:04,000
+in the room, and we're just hanging out, it was very much the American party, you know,
+
+492
+00:49:04,000 --> 00:49:09,280
+like, you got a bottle of coke, you got some potato chips, yeah, we got a party, and we're just chilling,
+
+493
+00:49:09,280 --> 00:49:14,640
+and we're talking, and we're hanging out, and we talked about podcasting, and everyone had read about
+
+494
+00:49:14,640 --> 00:49:19,280
+or heard about it, but really hadn't heard of podcast, and so I played a couple of four,
+
+495
+00:49:19,840 --> 00:49:24,560
+I played a bit of East Radio, played a daily download, played some digital slots, some
+
+496
+00:49:25,200 --> 00:49:30,480
+Catholic insider, you know, I tried to do a nice mix of, as an example of all kinds of different
+
+497
+00:49:30,480 --> 00:49:36,800
+stuff, and of course, they were blown away and just loving every single moment of these podcasts,
+
+498
+00:49:38,240 --> 00:49:45,920
+and that's one of the things I really learned while educating people about podcasting,
+
+499
+00:49:48,000 --> 00:49:52,960
+because that's a big part of what I'm still doing is, you know, teaching people
+
+500
+00:49:53,840 --> 00:49:58,160
+within the business community, you know, what it is, how it works, where it's going, what the
+
+501
+00:49:58,160 --> 00:50:04,080
+potential is, what can be done with it, you know, and that varies from, as we've talked about,
+
+502
+00:50:04,080 --> 00:50:10,640
+from the educational system to advertisers. It's the same thing I did 10 years ago, and that's
+
+503
+00:50:10,640 --> 00:50:14,560
+exactly the same thing, so then it was like, you know, people said, what's this internet thing,
+
+504
+00:50:14,560 --> 00:50:18,960
+and now they've kind of got that, and they know what an MP3 player is, or at least an iPod,
+
+505
+00:50:18,960 --> 00:50:26,560
+and so in explaining this, again, I'm realizing that we are not by a long shot doing enough
+
+506
+00:50:26,640 --> 00:50:33,200
+to get people listening. All of this talk, all of these, you know, tools that are being put out there,
+
+507
+00:50:33,200 --> 00:50:39,040
+is really for podcasts, there's, and for people who are already podcasting, and maybe for people
+
+508
+00:50:39,040 --> 00:50:46,480
+who have a real drive to podcast, but want a better tool, what is not being done, and this is,
+
+509
+00:50:46,480 --> 00:50:53,840
+of course, going to be the part of the secret sauce of podshow.com, is people are not helping,
+
+510
+00:50:53,920 --> 00:50:58,400
+the listener, people need to learn how to tune into these things. You know, for me,
+
+511
+00:50:59,840 --> 00:51:05,120
+my contribution to podcasting, or what is now called podcasting, was really creating,
+
+512
+00:51:05,120 --> 00:51:09,920
+you know, the radio receiver portion, making the experience seamless. You know,
+
+513
+00:51:09,920 --> 00:51:16,320
+people that have been recording programs, call them radio programs, or audio blogs, or whatever,
+
+514
+00:51:16,320 --> 00:51:22,720
+and putting them up on the web on HTTP servers for years and years and years, people have been
+
+515
+00:51:22,800 --> 00:51:29,760
+attaching those to RSS files ever since Dave Weiner and I met, and he created the enclosure
+
+516
+00:51:29,760 --> 00:51:38,880
+element in RSS 2.0. You know, that's been done, but what really made it happen, or at least what
+
+517
+00:51:38,880 --> 00:51:45,120
+was the spark, I think, was the magical part, and I still call it magic, and I intended it to be magic.
+
+518
+00:51:45,120 --> 00:51:49,120
+That's why my original iPod, or when I wrote it, was invisible, it was a script, you know,
+
+519
+00:51:49,120 --> 00:51:54,000
+ran in the background, there was no player, no playlists, no organizational tool, it was just,
+
+520
+00:51:54,000 --> 00:52:00,560
+you know, just go download this and put it on my iPod. That was the magical step, was removing,
+
+521
+00:52:00,560 --> 00:52:09,360
+eliminating the waiting part, or any intervention, which gives it the illusion of a radio,
+
+522
+00:52:09,360 --> 00:52:13,920
+a transistor radio that you pick up except the differences, you know, you don't have to
+
+523
+00:52:13,920 --> 00:52:18,240
+tune in to find something, or, you know, or tune in at a certain time to listen to something
+
+524
+00:52:18,320 --> 00:52:23,760
+that you want to, you know, you have the control there, your fingertips, and within a very
+
+525
+00:52:23,760 --> 00:52:29,200
+short amount of time what I'm noticing is that it's gone beyond the MP3 player. It's beyond the box.
+
+526
+00:52:29,200 --> 00:52:34,240
+People are hooked on the shows, on the content, on the creativity. That's what's going on,
+
+527
+00:52:34,240 --> 00:52:38,240
+but we need to help more people learn how to listen, so when it comes to
+
+528
+00:52:39,760 --> 00:52:46,160
+subscribing to a feed, it's still way too difficult. We have to do a hell of a lot more to help
+
+529
+00:52:46,240 --> 00:52:52,640
+people learn how to receive and listen. We have to help listeners. We have to grow the listening
+
+530
+00:52:52,640 --> 00:52:57,680
+audience, and I think there's ways to do it that go beyond the organic nature of it.
+
+531
+00:52:58,960 --> 00:53:03,040
+Particularly because there's so many different ways that you can enjoy great audio.
+
+532
+00:53:03,840 --> 00:53:07,280
+You could, you could buy it from audible, if you wish, you could, you know, that's a
+
+533
+00:53:07,280 --> 00:53:11,760
+service that people know how to use, you know, that's a reasonably simple system.
+
+534
+00:53:12,720 --> 00:53:16,640
+You should be able to get it from the iTunes music store. I'm not saying that you should have to buy it,
+
+535
+00:53:16,640 --> 00:53:19,600
+you know, that's the business part of it. I'm just talking about the ease of use.
+
+536
+00:53:20,880 --> 00:53:27,680
+It would be the most beautiful way is if you had an MP3 player that had everything built in and you
+
+537
+00:53:27,680 --> 00:53:32,240
+just, you know, click and select and you don't have to do any cutting and pasting and, you know,
+
+538
+00:53:32,240 --> 00:53:38,480
+or if there's a, you know, if you want to subscribe to a show, you use a barcode scanner. I don't
+
+539
+00:53:38,480 --> 00:53:41,840
+know what the hell it is, but there's a million more ways to make this easy, because I think for
+
+540
+00:53:41,840 --> 00:53:46,560
+every one person that is subscribed to a podcast and listening to it and enjoying it, there's
+
+541
+00:53:46,560 --> 00:53:53,520
+10 that have fallen off the edge and have not figured out how to do it. Mainly because of it's still
+
+542
+00:53:53,520 --> 00:53:58,960
+unclear, you know, and it's what's this little, why don't orange XML icon? Yeah, there's millions
+
+543
+00:53:58,960 --> 00:54:02,080
+of people who understand what it is, but there's hundreds of millions who don't.
+
+544
+00:54:03,040 --> 00:54:10,800
+So, part of the, the overall mission of podshow.com will be for listeners. In fact,
+
+545
+00:54:10,800 --> 00:54:17,200
+our slogan is going to be, stick it in your ear and we're about making it easier for people
+
+546
+00:54:17,200 --> 00:54:23,120
+to find the shows that want to listen to and actually listen to them and no matter where they
+
+547
+00:54:23,120 --> 00:54:28,640
+are, no matter what system they have and there's going to be a lot of promotion in that and
+
+548
+00:54:28,640 --> 00:54:35,280
+a lot of marketing and getting podcasters exposure. That's the way, you know, that's, that's the
+
+549
+00:54:35,280 --> 00:54:42,720
+words with any of these kids are cute chasing their mom with little sticks. So cute.
+
+550
+00:54:44,000 --> 00:54:49,840
+Oh, maybe it's their nanny who knows. So that's an important part of the mission of podshow.com,
+
+551
+00:54:49,840 --> 00:54:53,840
+and that's what Ron and I were going to talk about in a strategy cast today, but that's going to
+
+552
+00:54:53,840 --> 00:54:58,320
+have to wait until next week when I'm back in the UK at the cottage and we'll get on Skype,
+
+553
+00:54:58,320 --> 00:55:04,880
+because that is one of the things we promised each other to do. It's definitely keep podcasting
+
+554
+00:55:04,880 --> 00:55:12,240
+between the two of us so we can, you know, shit, how can you run a podcasting company in whatever
+
+555
+00:55:12,240 --> 00:55:18,960
+sense of the word it is without, you know, podcasting yourself. So I hope everyone with an
+
+556
+00:55:18,960 --> 00:55:23,520
+or company will be a podcaster or will do some form of podcasting. And of course, that doesn't
+
+557
+00:55:23,600 --> 00:55:29,520
+have to be the salilicoid that I've done now for the past 55 minutes, which is way over my budgeted
+
+558
+00:55:29,520 --> 00:55:36,640
+time. But then again, hey, Dougie, how are you Dougie? That's German Shepherd. That's way over my,
+
+559
+00:55:36,640 --> 00:55:42,400
+my budgeted time for a daily source code. But of course, it's the weekend. So what the hey?
+
+560
+00:55:45,120 --> 00:55:52,400
+Okay, so that will be my final thought for the day. It's
+
+561
+00:55:53,600 --> 00:56:00,320
+as if on Q, let's probably run hold on. No, it's not wrong. Okay, another call.
+
+562
+00:56:01,840 --> 00:56:08,000
+I'm going to wrap this up. It's been great in New York. I'm going to be back pretty soon.
+
+563
+00:56:08,000 --> 00:56:15,280
+We're going to sit here. Actually, I'm going to be back in at the cottage for at least a couple
+
+564
+00:56:15,360 --> 00:56:24,160
+weeks. Patricia is, see, she's going to be away May 12, 15th. I think 12th of the 15th. She's going
+
+565
+00:56:24,160 --> 00:56:30,160
+to 3-8 trip to the south of France. So of course, I'll be home with Christina for that. This week,
+
+566
+00:56:30,160 --> 00:56:34,560
+I believe, with a little bit of luck, if the weather holds out, the wing commander is picking me up
+
+567
+00:56:36,400 --> 00:56:41,600
+at Therrokes, which is about 15 minutes from the cottage, with the, with the Sess No 182RG,
+
+568
+00:56:42,080 --> 00:56:47,040
+we're going to do two days of training. I'm going to fly on Tuesday. We'll make a channel crossing.
+
+569
+00:56:47,680 --> 00:56:52,640
+I'm going to stay overnight and then we'll do more training on Wednesday and then fly back. So
+
+570
+00:56:52,640 --> 00:56:59,360
+that'll be just a little bit of relaxation. Get my mind off of, get my mind off of podcasting and
+
+571
+00:56:59,360 --> 00:57:05,920
+work and the world the issues for a little while and just chill. And we'll be announcing some
+
+572
+00:57:05,920 --> 00:57:12,960
+of the exciting deals that we've put together. Great ways for people to tune into podcast,
+
+573
+00:57:12,960 --> 00:57:18,480
+to find podcasts, to listen to them, to really build some more momentum and excitement. Because I
+
+574
+00:57:18,480 --> 00:57:23,440
+do see that still as my mission as a part of what we've created here in the podcast and community.
+
+575
+00:57:24,480 --> 00:57:29,360
+So now we've, we've all got shows and we're creating and we're tracking probably about almost
+
+576
+00:57:29,360 --> 00:57:37,920
+5,000 now at iPod.org. Popularity is going nuts. Popularity voting on podcast alley in other places
+
+577
+00:57:37,920 --> 00:57:44,720
+like that. It's just phenomenal. But we have to expose this to more people and make it simpler for them
+
+578
+00:57:44,720 --> 00:57:50,880
+to find out about podcasting and listen to podcasts and sample podcasts and and start to understand
+
+579
+00:57:50,880 --> 00:57:55,360
+what it is and evangelize. Another part of that is meetup.com. That's another great place but
+
+580
+00:57:55,360 --> 00:58:00,640
+shouldn't just be for podcasters. It should also be for people interested in podcasting and finding
+
+581
+00:58:00,640 --> 00:58:07,040
+out what it is and listening and finding out how they can participate. That's, and I think that's
+
+582
+00:58:07,040 --> 00:58:13,840
+really the way it goes. Because I asked the girl last night who was at our little party
+
+583
+00:58:14,400 --> 00:58:19,040
+saying, okay, so you have myspaces.com, how do you find people? She says, well really, you just
+
+584
+00:58:19,040 --> 00:58:24,800
+usually, you, you, someone tells you about it, you look at their myspaces, weblog. And this is the
+
+585
+00:58:24,800 --> 00:58:29,920
+way it goes in weblogging, right? And then, you know, you'll join as a friend. So that's kind of
+
+586
+00:58:29,920 --> 00:58:35,360
+the social networking aspect of it. You'll join with your own weblog. And then, you know, you'll
+
+587
+00:58:35,360 --> 00:58:38,880
+find more people and people will find you. And it's how they find you. Well, usually buy your
+
+588
+00:58:38,880 --> 00:58:43,120
+picture. You know, so everyone has beautiful pictures of themselves and sexy pictures and you click
+
+589
+00:58:43,120 --> 00:58:46,880
+on it and then you hear their music and then you get information about them and you see more
+
+590
+00:58:46,880 --> 00:58:50,480
+friends there. So that's kind of the viral aspect of it. And that's how it should be going with
+
+591
+00:58:50,480 --> 00:58:57,200
+podcasting. And it could not only can't work, but it is working. It's just we have to make more
+
+592
+00:58:57,200 --> 00:59:05,040
+of that available. And that's not just going to be tools and, you know, create, listen, synchronize,
+
+593
+00:59:05,040 --> 00:59:10,560
+you know, that's not it. That is part of it, but that's more for people who are already podcasting
+
+594
+00:59:10,560 --> 00:59:15,120
+and already in this medium that we're trying to build. And remember, we're still building this.
+
+595
+00:59:15,120 --> 00:59:21,600
+So if that means, it's funny because Dave Winner is written on scripting news and had heard
+
+596
+00:59:21,600 --> 00:59:26,960
+him say it in a podcast recently that the quote is, Adam Curry has sold out to the dark side.
+
+597
+00:59:27,840 --> 00:59:30,960
+And I'm not quite sure what he means. I haven't sold anything out.
+
+598
+00:59:31,840 --> 00:59:37,680
+That I'm not quite sure if you split that up sold out. I mean, that's like an artist and musician
+
+599
+00:59:37,680 --> 00:59:43,280
+selling out, which basically means going commercial. And the dark side, I'm not quite sure what the
+
+600
+00:59:43,280 --> 00:59:50,560
+dark side means for Dave Winner probably means mainstream media. So I'm not, you know, my action
+
+601
+00:59:50,560 --> 00:59:55,600
+so far, I don't think have shown any selling out of anything. Certainly not anything we've announced.
+
+602
+00:59:55,600 --> 01:00:02,240
+And I don't know what the dark side is. I don't know. Is the dark side Microsoft? You know,
+
+603
+01:00:02,240 --> 01:00:08,640
+I don't think so. I think the people of Microsoft are very intelligent and are very smart.
+
+604
+01:00:08,640 --> 01:00:12,560
+And you know, is that the big record business? No, I don't think so. That's Harvey League, you know,
+
+605
+01:00:12,560 --> 01:00:18,320
+guys who would actually love to podcast themselves and are trying to make it so that we can use
+
+606
+01:00:18,320 --> 01:00:25,760
+RIA music. These are all just people. You know, I think that's, you know what, if something
+
+607
+01:00:25,760 --> 01:00:30,800
+Dave sent me in a private email once, he said, why do you take it up the ass from the mainstream media?
+
+608
+01:00:31,360 --> 01:00:35,280
+And because, you know, I do a lot of interviews when someone wants to, and actually haven't
+
+609
+01:00:35,360 --> 01:00:40,720
+done a lot of them recently, I've been rejecting a lot or not even responding really to the emails
+
+610
+01:00:40,720 --> 01:00:45,120
+for requests because just I don't have enough time in the day to even go through my regular email,
+
+611
+01:00:45,120 --> 01:00:49,440
+let alone all these requests. So I try to fish out ones that I think will be beneficial. We'll get
+
+612
+01:00:49,440 --> 01:00:54,320
+the word out there, get people understanding how cool it is and how you can tune in and how you can
+
+613
+01:00:54,320 --> 01:00:58,480
+listen and what you can expect and what you can get. And if that's selling out to the dark side,
+
+614
+01:00:58,480 --> 01:01:04,640
+my friends, then so be it. I'm proud to be doing it. So this has been the daily source code for
+
+615
+01:01:04,720 --> 01:01:14,160
+April 16th Saturday in the park. That's a great tune by Chicago. I'll have to play that when I get
+
+616
+01:01:14,160 --> 01:01:21,120
+back to the cottage. Atimentcurry.com is where you can send your responses, where you can check out my
+
+617
+01:01:21,120 --> 01:01:27,520
+weblog at www.curry.com. And daily source code.com is where you can pick up the podcast feed to
+
+618
+01:01:27,520 --> 01:01:31,680
+subscribe to this show when you can always find the latest one to listen to it right from your
+
+619
+01:01:31,680 --> 01:01:38,240
+computer or the archives. Take care everybody. Next time we speak, I'll be back at the cottage. Bye-bye.
+
