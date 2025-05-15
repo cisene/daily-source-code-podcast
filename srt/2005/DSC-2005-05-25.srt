@@ -1,0 +1,828 @@
+1
+00:00:00,000 --> 00:00:10,520
+this is the daily source code episode 184 it is well let's see 1239 that's
+
+2
+00:00:10,520 --> 00:00:17,800
+past midnight it is the 25th of May 2005 coming to you from Palo Alto
+
+3
+00:00:17,800 --> 00:00:25,720
+California from the lovely creekside in which is actually a pretty a pretty
+
+4
+00:00:25,720 --> 00:00:32,280
+dynamite little hotel oh boy let me tell you I'm sorry I'm already blowing
+
+5
+00:00:32,280 --> 00:00:39,280
+into the microphone it's been another extremely long day and I apologize that
+
+6
+00:00:39,280 --> 00:00:43,800
+I'm not able to bring you a source code with you know the promos that I
+
+7
+00:00:43,800 --> 00:00:47,920
+that I love to bring you and the pod safe music and the mashups and all
+
+8
+00:00:47,920 --> 00:00:54,080
+the fun stuff but the the hotel that we're in and by the way most hotels are
+
+9
+00:00:54,080 --> 00:01:01,160
+pretty full here in Palo Alto before we stayed in San Francisco of course there's
+
+10
+00:01:01,160 --> 00:01:07,960
+a lot more capacity there for for people staying overnight or a couple of
+
+11
+00:01:07,960 --> 00:01:16,040
+nights Palo Alto just seems to be pretty much booked up and this hotel has a
+
+12
+00:01:16,040 --> 00:01:21,320
+free internet which is great unfortunately you get what you pay for I'm not
+
+13
+00:01:21,320 --> 00:01:26,200
+quite sure what's going on but it seems like the connectivity drops out you
+
+14
+00:01:26,200 --> 00:01:30,080
+know every five minutes or so it'll drop out for a couple of seconds which is
+
+15
+00:01:30,080 --> 00:01:35,680
+just enough to mess up any Skype call you happen to be making requiring a
+
+16
+00:01:35,680 --> 00:01:40,840
+readile team mobile by the way which is what I have here in the states for my
+
+17
+00:01:40,840 --> 00:01:47,840
+cell phone is almost non-existent in this area so I guess we're roaming on what is
+
+18
+00:01:47,840 --> 00:01:54,040
+it singular cellular and the whole on second this is Paris Hilton's new
+
+19
+00:01:54,040 --> 00:02:17,440
+commercial home just check I love Paris Hilton I got to tell you she's
+
+20
+00:02:17,440 --> 00:02:23,000
+she's smart she's really smart now okay so what's the controversy guys she's
+
+21
+00:02:23,000 --> 00:02:27,480
+washing her Bentley
+
+22
+00:02:31,480 --> 00:02:39,200
+okay whatever so because of that it's very difficult to download stuff and because
+
+23
+00:02:39,200 --> 00:02:44,360
+we're pretty much on the road all day there's just no other opportunity and we
+
+24
+00:02:44,360 --> 00:02:49,680
+just got back from dinner about about forty five minutes ago I didn't
+
+25
+00:02:49,680 --> 00:02:54,520
+was Steve Gilmore who was in the neighborhood so whatever one San Francisco
+
+26
+00:02:54,520 --> 00:02:59,640
+Steve seems to be in the neighborhood by the way oh and before I forget to
+
+27
+00:02:59,640 --> 00:03:05,960
+night so that's Wednesday night at seven o'clock there's a San Francisco podcast
+
+28
+00:03:05,960 --> 00:03:11,200
+there's meetup hosted by Michael Butler rock and roll geek I I really would
+
+29
+00:03:11,200 --> 00:03:17,120
+like to go but I think that Ron and I are gonna have to hop a flight for Los
+
+30
+00:03:17,120 --> 00:03:23,440
+Angeles Wednesday night so that's obviously I'm recording this Tuesday night
+
+31
+00:03:23,440 --> 00:03:29,120
+but officially Wednesday morning so we're gonna try but because of all the
+
+32
+00:03:29,120 --> 00:03:35,520
+mess up in with the America West in Phoenix and and we just had to shuffle a
+
+33
+00:03:35,520 --> 00:03:41,960
+whole bunch of stuff around so I just I figured update you know this is
+
+34
+00:03:41,960 --> 00:03:48,040
+sometimes I'd like to post stuff on the blog just in in text and I just
+
+35
+00:03:48,040 --> 00:03:52,920
+have no energy for it so I'm actually lying in bed watching TV or another
+
+36
+00:03:52,920 --> 00:03:58,600
+drawback of this hotel no porn channels that's a wait a minute what's this
+
+37
+00:03:58,600 --> 00:04:04,240
+button ACH what's that just gives you the previous channel no porn
+
+38
+00:04:04,240 --> 00:04:10,400
+channels not that I'd watch that or anything like that I noticed that what is this
+
+39
+00:04:10,400 --> 00:04:14,760
+new program on television I did may not be new CJ I know what stands for
+
+40
+00:04:14,760 --> 00:04:17,440
+it's kind of like an entertainment tonight and now they've got where they
+
+41
+00:04:17,440 --> 00:04:22,080
+got this Phil Spectre trial you don't hear a lot about Michael Jackson these
+
+42
+00:04:22,080 --> 00:04:26,280
+days except from the CJ show I see like a daily update of Michael Jackson
+
+43
+00:04:26,280 --> 00:04:32,720
+trial and now that he seems to have a have an upper hand and that well his
+
+44
+00:04:32,720 --> 00:04:38,320
+team is really attacking his accuser particularly the mother and it's not
+
+45
+00:04:38,320 --> 00:04:43,040
+looking too good for her man and you know what right Lisa I told you I've been
+
+46
+00:04:43,040 --> 00:04:47,480
+supporting Michael Jackson on this all the way and in a sitting till proven
+
+47
+00:04:47,480 --> 00:04:55,640
+guilty right so this morning started off very early we had breakfast with someone
+
+48
+00:04:55,680 --> 00:05:02,080
+who I've known for let's see 12 years but a never met and person so when
+
+49
+00:05:02,080 --> 00:05:11,360
+who was pivotal in my mind pivotal in in early internet days and created created
+
+50
+00:05:11,360 --> 00:05:16,880
+some stuff that has really you know been a big benefit to people all over the
+
+51
+00:05:16,880 --> 00:05:22,680
+world I'll tell you a little before I tell you who it is the story is in 1993 I
+
+52
+00:05:22,720 --> 00:05:27,320
+had registered MTV dot com by the way that was with total approval and knowledge
+
+53
+00:05:27,320 --> 00:05:32,160
+of MTV and I was running something called a go-for server this is before the
+
+54
+00:05:32,160 --> 00:05:38,200
+worldwide web and a go-for server it was basically a text based linking
+
+55
+00:05:38,200 --> 00:05:45,720
+system with menu so you'd have a menu of you could basically determine how
+
+56
+00:05:45,720 --> 00:05:50,240
+how many different options there were on each menu on a screen so you know
+
+57
+00:05:50,240 --> 00:05:55,840
+numbered one through whatever and if you either hit a number key or if you used
+
+58
+00:05:55,840 --> 00:06:00,680
+your cursor keys you could navigate to a link essentially that could take you
+
+59
+00:06:00,680 --> 00:06:05,560
+to another go-for server or to a or to a page of information or picture and it
+
+60
+00:06:05,560 --> 00:06:10,000
+was it was pretty much a hyper linking system and I remember getting an email
+
+61
+00:06:10,000 --> 00:06:14,000
+which of course at the time was something pretty new as well if you ever listened
+
+62
+00:06:14,000 --> 00:06:19,000
+to the MTV Chronicles cast that can Clark and I have done we've done three now
+
+63
+00:06:19,000 --> 00:06:22,960
+we're still another one by the way she's like a fourth wrap up on that
+
+64
+00:06:22,960 --> 00:06:28,600
+I was going to say
+
+65
+00:06:28,600 --> 00:06:34,240
+shoot oh anyway so I had my adamant mtv dot com at the time I received an
+
+66
+00:06:34,240 --> 00:06:37,960
+email and said hey Adam really love what you're doing with the go-for stuff
+
+67
+00:06:37,960 --> 00:06:42,480
+you know you should check this out because this will add pictures and and
+
+68
+00:06:42,480 --> 00:06:48,960
+some layout capabilities for your screen and included with it was
+
+69
+00:06:48,960 --> 00:06:54,120
+I think it was and maybe even an attachment at the time you you encoded if
+
+70
+00:06:54,120 --> 00:06:59,880
+you remember those days some of you might of something called HTTPD I think
+
+71
+00:06:59,880 --> 00:07:06,360
+it was version one dot three and that email was from Mark and Riesen and he
+
+72
+00:07:06,360 --> 00:07:12,120
+many of you remember started at the University of Champagne or Bona and Illinois
+
+73
+00:07:12,120 --> 00:07:18,400
+with the first browser which was Mosaic and later of course he went on to
+
+74
+00:07:18,400 --> 00:07:24,240
+create Netscape and I remember that that day when I was like you know and I
+
+75
+00:07:24,240 --> 00:07:30,960
+actually installed it myself my own server was a headless sun three and there was
+
+76
+00:07:30,960 --> 00:07:34,240
+this mosaic software and you had you know a couple of sites you could go to
+
+77
+00:07:34,240 --> 00:07:39,760
+it also could do go-for links by the way and FTP links it could
+
+78
+00:07:39,760 --> 00:07:44,680
+understood that as well and I remember like you know looking at this page and
+
+79
+00:07:44,680 --> 00:07:48,560
+saw all these boxes with blue outlines and all of a sudden pictures started to
+
+80
+00:07:48,560 --> 00:07:54,200
+appear and it was just a such an eye opener and and of course Mark thought that
+
+81
+00:07:54,200 --> 00:07:57,760
+you know I would be into this because MTV was a highly visual medium and we're
+
+82
+00:07:57,760 --> 00:08:01,260
+moving from text into pictures and it was funny because at breakfast this
+
+83
+00:08:01,260 --> 00:08:06,560
+morning we were talking about that and he said man you know back in those days
+
+84
+00:08:06,560 --> 00:08:12,400
+I had had like a big target on my forehead and people were so angry because
+
+85
+00:08:12,440 --> 00:08:16,600
+they said pictures gonna ruin the web and you're you're ruining our our
+
+86
+00:08:16,600 --> 00:08:22,920
+medium and get out of here and stop this and you're bad and you're evil and I
+
+87
+00:08:22,920 --> 00:08:27,320
+don't think anyone can say that that pictures turned out to be evil on the
+
+88
+00:08:27,320 --> 00:08:32,760
+unit well some pictures arguably but so it was good kind of reminiscing and
+
+89
+00:08:32,760 --> 00:08:40,000
+I never met him and we met at a place in downtown Palo Alto is it downtown I
+
+90
+00:08:40,000 --> 00:08:48,160
+guess yeah called the most at the creamery and this guy's tall he's tall
+
+91
+00:08:48,160 --> 00:08:53,000
+than I am like man you're a big he's like well I didn't know you were this
+
+92
+00:08:53,000 --> 00:08:57,200
+tall either but he's these bigger than I am that was pretty interesting and
+
+93
+00:08:57,200 --> 00:09:02,800
+that was funny you know and he's a big satellite radio fan he has he has
+
+94
+00:09:02,800 --> 00:09:08,920
+serious as well as XM I believe and you know we're talking about music and
+
+95
+00:09:09,400 --> 00:09:13,760
+he's got a new company which I think is actually located above the
+
+96
+00:09:13,760 --> 00:09:17,960
+creamery and he promised me that when he's ready to talk about it he'll come
+
+97
+00:09:17,960 --> 00:09:23,560
+on the source code and he'll do it in person or we'll do it through Skype and
+
+98
+00:09:23,560 --> 00:09:27,000
+he'll let us know what he's up to and what's going on so it was really fun
+
+99
+00:09:27,000 --> 00:09:30,840
+that was just the kind of a feel good meeting you know we're in town and
+
+100
+00:09:30,840 --> 00:09:36,880
+and able to hook up and it was cool it was cool meeting him and let me see
+
+101
+00:09:36,880 --> 00:09:43,640
+oh man what this is so much to talk about throughout the day by the way I had an
+
+102
+00:09:43,640 --> 00:09:49,920
+opportunity to listen to KU radio which is the AM station here in the Bay Area that
+
+103
+00:09:49,920 --> 00:09:54,620
+is broadcasting podcast it's interesting I don't think they're actually doing
+
+104
+00:09:54,620 --> 00:09:59,720
+podcast 100% of the time it's well there's a lot of imaging and and sound
+
+105
+00:09:59,720 --> 00:10:03,520
+stuff that you know kind of positions it has open source radio there's a lot of
+
+106
+00:10:03,520 --> 00:10:09,320
+that a lot of music notice that and it sounded like that there still had some
+
+107
+00:10:09,320 --> 00:10:14,680
+some kind of other stuff in between in fact was very hard for us to I didn't
+
+108
+00:10:14,680 --> 00:10:20,440
+know the frequency off hand was searching around trying to find it and must have
+
+109
+00:10:20,440 --> 00:10:25,160
+skipped over to couple times either because they were in commercials or there
+
+110
+00:10:25,160 --> 00:10:29,920
+was it sounded like a very typical you know dial-in talk show or something that
+
+111
+00:10:29,920 --> 00:10:35,600
+was going on so that was a little bit confusing and most of the podcast and of
+
+112
+00:10:35,600 --> 00:10:40,960
+course in lots of podcasts we we mentioned dates you know it's like 15th of
+
+113
+00:10:40,960 --> 00:10:45,880
+March 20th of March and I guess that's the process of basically the submission
+
+114
+00:10:45,880 --> 00:10:49,520
+process that they have to deal with is you know they have to listen to everything
+
+115
+00:10:49,520 --> 00:10:54,280
+or approve and screen everything before it goes out because of the the
+
+116
+00:10:54,280 --> 00:10:59,080
+the obviously the decency or indecency laws but it was pretty cool it was
+
+117
+00:10:59,080 --> 00:11:03,480
+interesting to listen to that and not not much different from pod show and
+
+118
+00:11:03,480 --> 00:11:08,800
+serious except that's more current and we have you know the concept of
+
+119
+00:11:08,800 --> 00:11:14,760
+promos which is something I don't hear a lot of on KU radio but it was very
+
+120
+00:11:14,760 --> 00:11:24,400
+interesting to listen to it then we met with oh this is interesting a couple of
+
+121
+00:11:25,360 --> 00:11:30,600
+was it last week what's it last week as before I left actually I heard on
+
+122
+00:11:30,600 --> 00:11:34,160
+morning coffee notes the day wine or does he was talking about a gentleman named
+
+123
+00:11:34,160 --> 00:11:38,400
+Randy commissar who is with a venture capital firm
+
+124
+00:11:38,400 --> 00:11:47,200
+kind of Perkins here in San Francisco in the Valley and
+
+125
+00:11:47,200 --> 00:11:53,040
+what Dave was saying I'm paraphrasing of course is that a company like a
+
+126
+00:11:53,040 --> 00:11:59,800
+cleaner person should sponsor some of the legacy of Silicon Valley and a good
+
+127
+00:11:59,800 --> 00:12:05,120
+place to do that would be on the Gilmore gang and so when I met Randy and he
+
+128
+00:12:05,120 --> 00:12:10,360
+said you know I spoke to Dave and we talked for a while about podcasting and I
+
+129
+00:12:10,360 --> 00:12:14,000
+said yeah I know he said oh really yeah because Dave podcast he hadn't heard
+
+130
+00:12:14,000 --> 00:12:18,600
+Dave's podcast so I also know that he suggested you know you sponsor the Gilmore
+
+131
+00:12:18,600 --> 00:12:24,840
+gang and he said yeah yeah that'd be great as well I'll be submitting a proposal
+
+132
+00:12:24,840 --> 00:12:32,960
+for you tomorrow so that actually might pan out and and if it does I'll make sure
+
+133
+00:12:32,960 --> 00:12:37,680
+that the Dave gets a commission on it that was it was it was it was a great loop
+
+134
+00:12:37,680 --> 00:12:44,640
+closing there was a lot of fun let me see what did I write down here oh meanwhile
+
+135
+00:12:44,640 --> 00:12:50,760
+in New York Madge Weinstein was visiting New York you probably saw that Madge
+
+136
+00:12:50,760 --> 00:12:57,120
+did an interview with the famous famous drag queen bunny and I just saw
+
+137
+00:12:57,120 --> 00:13:03,520
+that that was up and posted excuse me but I'd also hooked Madge up with the
+
+138
+00:13:03,520 --> 00:13:10,680
+tour of the serious satellite radio studio facilities and spoke to her as she was
+
+139
+00:13:10,680 --> 00:13:16,840
+on her way back to Chicago and she said oh I'll add him so wonderful I met all
+
+140
+00:13:16,840 --> 00:13:21,600
+these old guys these radio stars and celebrities and she'd basically did a
+
+141
+00:13:21,600 --> 00:13:25,360
+sound seeing tour and hopefully that'll be up in the in the next day or so I
+
+142
+00:13:25,360 --> 00:13:29,760
+cannot wait to hear how that one over just haven't Madge walking through the
+
+143
+00:13:29,760 --> 00:13:37,520
+serious satellite radio studios I must have been pretty interesting let's see I
+
+144
+00:13:37,520 --> 00:13:40,920
+just going through a couple of things I wrote down just because I wanted to
+
+145
+00:13:40,920 --> 00:13:49,760
+update you on everything that's happening tomorrow see tomorrow we have a follow-up
+
+146
+00:13:49,760 --> 00:13:56,720
+meeting at Apple and Cooper T no never been to Apple which is interesting because
+
+147
+00:13:56,720 --> 00:14:02,960
+I've you know I always say that I'm a beta tester for Apple products ever since
+
+148
+00:14:02,960 --> 00:14:08,040
+the Mac Plus essentially and I've always paid for the privilege to be
+
+149
+00:14:08,040 --> 00:14:12,120
+into beta test all the Apple products so it's going to be great to kind of
+
+150
+00:14:12,120 --> 00:14:17,240
+get a little bit of the vibe of the company and of course this is a meeting
+
+151
+00:14:17,240 --> 00:14:22,400
+about you know what's coming in iTunes what I'm going to ask them is since there's
+
+152
+00:14:22,400 --> 00:14:28,360
+so much noise about this and and so much talk going on and I can see that
+
+153
+00:14:28,360 --> 00:14:32,920
+there's a lot of confusion in some cases and some things are just you know
+
+154
+00:14:32,920 --> 00:14:36,600
+it's just not a love information out there but I think there's enough that I
+
+155
+00:14:36,600 --> 00:14:41,200
+I'd like to ask them if I can talk a little bit more about what they're going
+
+156
+00:14:41,200 --> 00:14:47,120
+to be doing and if I look at my calendar I say and this Steve Jobs is pretty
+
+157
+00:14:47,120 --> 00:14:50,200
+good for if he says 60 days when something's going to be released you can
+
+158
+00:14:50,200 --> 00:14:56,600
+pretty much bet it's going to be 60 days so let's say that's T minus 57 and
+
+159
+00:14:56,600 --> 00:15:02,360
+counting so looking forward to being able to talk a little bit more about
+
+160
+00:15:02,360 --> 00:15:08,080
+that just to I think the community deserves the podcast and community deserves
+
+161
+00:15:08,080 --> 00:15:13,080
+note what's going on because it's going to affect us all in very very positive
+
+162
+00:15:13,080 --> 00:15:17,080
+ways so that's tomorrow then we're going to hop on a plane and go to Los Angeles
+
+163
+00:15:17,080 --> 00:15:22,880
+a couple a couple meetings there some some entertainment people that we've
+
+164
+00:15:22,880 --> 00:15:26,520
+been wanting to talk to who are interested in course and and what we're doing
+
+165
+00:15:26,520 --> 00:15:32,760
+I don't know that you know there's a lot that we can do with with with Hollywood
+
+166
+00:15:32,760 --> 00:15:39,920
+in particular but yeah this well besides the fact that it's close and it's just
+
+167
+00:15:39,920 --> 00:15:43,120
+a plane ride away there's lots of people that I know in Los Angeles who I
+
+168
+00:15:43,120 --> 00:15:48,240
+really I want to hook up with and haven't been to LA in a really long time so
+
+169
+00:15:48,240 --> 00:15:52,400
+looking forward to that and then we have another kind of important meeting
+
+170
+00:15:52,400 --> 00:15:55,800
+happening on Tuesday so I talked to Patricia what we're trying to figure out now is
+
+171
+00:15:55,800 --> 00:16:01,400
+you know it's I've been away now since I left on Saturday I'd really like
+
+172
+00:16:01,400 --> 00:16:05,320
+to go home and just spend the weekend with with my girls with Patricia
+
+173
+00:16:05,320 --> 00:16:11,400
+Christina and then I would just come on out I fly out again Monday for for Tuesday
+
+174
+00:16:11,400 --> 00:16:16,320
+meeting and Patricia's always saying and you're not stay out there but I
+
+175
+00:16:16,320 --> 00:16:21,560
+don't know I gotta figure that what we're gonna do and back at the ranch
+
+176
+00:16:21,560 --> 00:16:31,640
+exciting things happening at podcast alley I'd see Chris McIntyre is working
+
+177
+00:16:31,640 --> 00:16:35,480
+on I'll tell you what the name is and you'll understand exactly what what's
+
+178
+00:16:35,480 --> 00:16:39,840
+going on he's working on something called my alley I love the name I just love
+
+179
+00:16:39,840 --> 00:16:44,880
+the whole branding and the whole concept of podcast alley it's if you ever heard
+
+180
+00:16:44,880 --> 00:16:50,160
+John Jet had an album out once called up up my alley up your alley just the
+
+181
+00:16:50,160 --> 00:16:53,440
+word alley is is a great word you only have alleys in the east coast that's
+
+182
+00:16:53,440 --> 00:16:58,080
+new this is a real New York east coast thing is an alley and that's some really
+
+183
+00:16:58,080 --> 00:17:03,440
+cool stuff that he's that he's working on and I find myself using podcast
+
+184
+00:17:03,440 --> 00:17:09,160
+alley more and more these days to find things he's got some you know the the
+
+185
+00:17:09,160 --> 00:17:13,320
+metadata is really starting to come together in the forums man that's where if
+
+186
+00:17:13,320 --> 00:17:16,440
+you want to know what's going on and what's what's happening in podcast and
+
+187
+00:17:16,440 --> 00:17:20,600
+what's popular podcast alley is definitely the place to check it out and I've
+
+188
+00:17:20,600 --> 00:17:27,360
+never asked anyone to vote for me on on podcast alley but I can see how if you
+
+189
+00:17:27,360 --> 00:17:31,480
+have a podcast and and there's many different ways you can get people to to vote
+
+190
+00:17:31,480 --> 00:17:35,840
+for your podcasts it you know if they like it obviously it is a great place to
+
+191
+00:17:35,840 --> 00:17:41,760
+get to get to get exposure for for your podcast and I think that I've got just
+
+192
+00:17:41,760 --> 00:17:48,040
+the bombs I get through everything I want to talk about yeah so 17 almost 18
+
+193
+00:17:48,040 --> 00:17:55,160
+minutes and it is almost one o'clock so I'm gonna shut down for now I'm gonna
+
+194
+00:17:55,160 --> 00:17:59,760
+be waking up in the typical six hour night that's what it seems to be when we're
+
+195
+00:17:59,760 --> 00:18:04,600
+on the road and then from alley I hope to have some better connectivity and
+
+196
+00:18:04,600 --> 00:18:11,800
+more opportunity to bring you a full blown source code because there's so
+
+197
+00:18:11,800 --> 00:18:16,560
+many cool things being sent in for the pod show and serious which is now
+
+198
+00:18:16,560 --> 00:18:23,480
+it's almost become my new show prep PW Fenton is doing a great job at you know
+
+199
+00:18:23,480 --> 00:18:27,960
+basically scheduling everything making sure that everything gets on to the
+
+200
+00:18:27,960 --> 00:18:30,960
+the pod show and that's really where I'm getting all these cool promos from
+
+201
+00:18:30,960 --> 00:18:36,240
+and the and the pod save music if you've got something you want to send in
+
+202
+00:18:36,240 --> 00:18:40,600
+for the source code or for the pod show on a serious satellite send it to
+
+203
+00:18:40,600 --> 00:18:45,960
+submit at podshow.com if you got to pod save music it's pod save at podshow.com
+
+204
+00:18:45,960 --> 00:18:54,080
+and of course mashups send it off to mashup at podshow.com well that's it
+
+205
+00:18:55,080 --> 00:19:03,440
+I'm gonna turn off the light and a sleep and tomorrow sometime we'll be talking
+
+206
+00:19:03,440 --> 00:19:09,200
+to each other so take care and wherever you are talk to you soon right here on
+
+207
+00:19:09,200 --> 00:19:12,400
+the source code bye
+

@@ -1,0 +1,2084 @@
+1
+00:00:00,000 --> 00:00:04,440
+It's your daily source code for Tuesday, May 10, 2005.
+
+2
+00:00:04,440 --> 00:00:10,640
+Well, come to La Paz, oh, we're happy you're here.
+
+3
+00:00:10,640 --> 00:00:16,760
+We recommend that you stick to your ear.
+
+4
+00:00:16,760 --> 00:00:19,440
+Something remarkable is happening here.
+
+5
+00:00:19,440 --> 00:00:24,960
+Radio is springing free of the regulated gatekeepers who've managed what you can hear since
+
+6
+00:00:24,960 --> 00:00:26,560
+radio is invented.
+
+7
+00:00:26,560 --> 00:00:30,920
+It's jumping into the hands of anyone at all with something or nothing to say.
+
+8
+00:00:30,920 --> 00:00:34,440
+Your DJ, are you, John McLean?
+
+9
+00:00:34,440 --> 00:00:37,240
+Your DJ has only just begun.
+
+10
+00:00:37,240 --> 00:00:41,840
+$16 billion worth of airplane strapped to my ass.
+
+11
+00:00:41,840 --> 00:00:45,400
+The next generation radio content in my ears.
+
+12
+00:00:45,400 --> 00:00:50,560
+I like to think I'm flying into the future.
+
+13
+00:00:50,560 --> 00:00:56,440
+Oh, man, it's so automatic, I don't have to do anything.
+
+14
+00:00:56,440 --> 00:00:58,440
+Hey, everybody, welcome to the source code.
+
+15
+00:01:04,440 --> 00:01:05,440
+What was that?
+
+16
+00:01:05,440 --> 00:01:07,240
+No, no, it's not supposed to work that way.
+
+17
+00:01:07,240 --> 00:01:10,840
+It's your daily source code coming to you from Curry Cottage and lovely Gilford.
+
+18
+00:01:10,840 --> 00:01:13,440
+Bit dreary today, actually not as lovely as it could be.
+
+19
+00:01:13,440 --> 00:01:15,440
+I'm sleepy too, man.
+
+20
+00:01:15,440 --> 00:01:18,440
+What you get when the wife's not home, going to bed, way too late.
+
+21
+00:01:20,440 --> 00:01:24,440
+It's currently about 10 minutes to three.
+
+22
+00:01:24,440 --> 00:01:27,440
+Oh, I have my exact 40 minutes to get the show done.
+
+23
+00:01:27,440 --> 00:01:31,440
+Maybe a little bit shorter until Christina comes home.
+
+24
+00:01:31,440 --> 00:01:32,440
+Oh, man.
+
+25
+00:01:32,440 --> 00:01:37,440
+Yeah, telling you, Patricia's on a little business slash personal trip.
+
+26
+00:01:37,440 --> 00:01:42,440
+So it's just me and the princess here at the home, which means I'm doing everything.
+
+27
+00:01:42,440 --> 00:01:46,440
+I'm doing the washing, the cleaning, cooking.
+
+28
+00:01:46,440 --> 00:01:50,440
+Which of course means we had pizza last, right?
+
+29
+00:01:50,440 --> 00:01:54,440
+And the weather's not nice, I've been indoors all day.
+
+30
+00:01:54,440 --> 00:01:56,440
+But I got some cool stuff for you.
+
+31
+00:01:59,440 --> 00:02:02,440
+Once again, everything's lined up in the new software.
+
+32
+00:02:02,440 --> 00:02:07,440
+Apologies for not making the screenshot available yesterday.
+
+33
+00:02:07,440 --> 00:02:10,440
+Actually, let me do a new screenshot as we speak.
+
+34
+00:02:10,440 --> 00:02:11,440
+There we go.
+
+35
+00:02:11,440 --> 00:02:13,440
+Hey, and it kept on playing it perfectly.
+
+36
+00:02:13,440 --> 00:02:19,440
+So I'll post that with today's show notes on dailysourcecode.com.
+
+37
+00:02:21,440 --> 00:02:24,440
+Yeah, it hasn't been very nice at all.
+
+38
+00:02:24,440 --> 00:02:30,440
+As I said, it doesn't matter too much because Patricia's off on a trip.
+
+39
+00:02:30,440 --> 00:02:38,440
+So it gives me a chance to catch up on podcasts that I've been, you know, just keeping
+
+40
+00:02:38,440 --> 00:02:40,440
+to listen to.
+
+41
+00:02:40,440 --> 00:02:45,440
+Do a lot of, actually, did some work with the Cast Blaster developer.
+
+42
+00:02:45,440 --> 00:02:48,440
+I'm going to talk about that a little bit later on the show.
+
+43
+00:02:48,440 --> 00:02:50,440
+And, you know, got some promos.
+
+44
+00:02:50,440 --> 00:02:52,440
+Lots of great promos, actually.
+
+45
+00:02:52,440 --> 00:02:58,440
+And keep them coming if you hadn't seen it already on the show notes for submissions
+
+46
+00:02:58,440 --> 00:02:59,440
+for the daily source code.
+
+47
+00:02:59,440 --> 00:03:03,440
+And also for the pod show on serious, which would be kicking off this coming Friday, Friday
+
+48
+00:03:03,440 --> 00:03:07,440
+the 13th, send it off to submit at podshow.com.
+
+49
+00:03:07,440 --> 00:03:12,440
+If you got a podsafe tune, you want to promote your band or your music or whatever.
+
+50
+00:03:12,440 --> 00:03:14,440
+Send it off to podsafe podshow.com.
+
+51
+00:03:14,440 --> 00:03:17,440
+And of course, always looking for the mashups.
+
+52
+00:03:17,440 --> 00:03:20,440
+And I got a cool one right here.
+
+53
+00:03:20,440 --> 00:03:23,440
+It's the princes of universe remix.
+
+54
+00:03:23,440 --> 00:03:25,440
+Here we are.
+
+55
+00:03:25,440 --> 00:03:28,440
+We're on to the kids.
+
+56
+00:03:28,440 --> 00:03:35,440
+We're the rips, and we're the old, old, old, old, old.
+
+57
+00:03:35,440 --> 00:03:37,440
+We're the old, old, old, old.
+
+58
+00:03:37,440 --> 00:03:41,440
+We're the old, old, old, old.
+
+59
+00:03:41,440 --> 00:03:43,440
+We're the old, old, old, old.
+
+60
+00:03:43,440 --> 00:03:45,440
+Because we're the old, old, old, old.
+
+61
+00:04:08,320 --> 00:04:10,440
+Here we are.
+
+62
+00:04:10,440 --> 00:04:13,880
+With the princes of the universe
+
+63
+00:04:13,880 --> 00:04:16,440
+We'll deal with the love
+
+64
+00:04:16,440 --> 00:04:19,080
+Fight for survival
+
+65
+00:04:19,080 --> 00:04:24,680
+We've got to be the rulers of your life
+
+66
+00:04:34,680 --> 00:04:36,840
+I am the model
+
+67
+00:04:36,840 --> 00:04:39,880
+I have been tracking blood of king
+
+68
+00:04:39,880 --> 00:04:42,680
+And I am the rival
+
+69
+00:04:42,680 --> 00:04:45,880
+And I can't leave my home
+
+70
+00:04:45,880 --> 00:04:49,880
+Take me to the future of the world
+
+71
+00:04:51,880 --> 00:04:54,760
+All to be changed
+
+72
+00:04:54,760 --> 00:04:57,960
+Rinses of the universe
+
+73
+00:04:57,960 --> 00:05:00,920
+Fight in a tree
+
+74
+00:05:00,920 --> 00:05:03,720
+Got you running my hand
+
+75
+00:05:03,720 --> 00:05:06,920
+I'm here for your love and I make my stand
+
+76
+00:05:06,920 --> 00:05:08,920
+We'll deal with the love
+
+77
+00:05:08,920 --> 00:05:12,920
+To be princes of the universe
+
+78
+00:05:12,920 --> 00:05:14,920
+I'm here for your love and I make my stand
+
+79
+00:05:14,920 --> 00:05:18,920
+I'm here for your love and I make my stand
+
+80
+00:05:18,920 --> 00:05:20,920
+I'm here for your love
+
+81
+00:05:20,920 --> 00:05:22,920
+People talk about you
+
+82
+00:05:22,920 --> 00:05:24,920
+People say you're a judge
+
+83
+00:05:24,920 --> 00:05:26,920
+We'll men and we'll go far
+
+84
+00:05:26,920 --> 00:05:30,920
+Trying to move in reach for the star
+
+85
+00:05:30,920 --> 00:05:34,920
+With my sword and I get a pass today
+
+86
+00:05:34,920 --> 00:05:38,920
+For the time
+
+87
+00:05:38,920 --> 00:05:40,920
+Yeah
+
+88
+00:05:40,920 --> 00:05:42,920
+I know that people talk about me
+
+89
+00:05:42,920 --> 00:05:44,920
+I hear it every day
+
+90
+00:05:44,920 --> 00:05:46,920
+But I can run around because I'm right
+
+91
+00:05:46,920 --> 00:05:50,920
+For the time
+
+92
+00:05:50,920 --> 00:05:52,920
+Yeah
+
+93
+00:05:52,920 --> 00:05:54,920
+Yeah
+
+94
+00:05:54,920 --> 00:05:58,920
+All right, let's go, let's go
+
+95
+00:05:58,920 --> 00:06:00,920
+Come on
+
+96
+00:06:00,920 --> 00:06:02,920
+Yeah
+
+97
+00:06:04,920 --> 00:06:06,920
+This is my one of this my final
+
+98
+00:06:06,920 --> 00:06:08,920
+Yeah
+
+99
+00:06:08,920 --> 00:06:12,920
+We're here for your love and I make my stand
+
+100
+00:06:12,920 --> 00:06:14,920
+We'll go far
+
+101
+00:06:14,920 --> 00:06:16,920
+Here we are
+
+102
+00:06:16,920 --> 00:06:20,920
+All to be changed
+
+103
+00:06:20,920 --> 00:06:24,920
+Rinses of the universe
+
+104
+00:06:24,920 --> 00:06:30,920
+I'm here for your love and I make my stand
+
+105
+00:06:30,920 --> 00:06:32,920
+We won't deal with the love
+
+106
+00:06:32,920 --> 00:06:34,920
+To be princes of the universe
+
+107
+00:06:34,920 --> 00:06:38,920
+I'm here for your love and you make my stand
+
+108
+00:06:38,920 --> 00:06:40,920
+I'm here for your love and I make my stand
+
+109
+00:06:40,920 --> 00:06:44,920
+We won't deal with the love and I make my stand
+
+110
+00:06:44,920 --> 00:06:48,920
+We'll mode to be princes of the universe
+
+111
+00:06:48,920 --> 00:06:52,920
+I'm here for your love and I make my stand
+
+112
+00:06:52,920 --> 00:06:53,920
+I'm here for your love and I make my stand
+
+113
+00:06:53,920 --> 00:06:58,920
+Hey, this is where there was a gash or a rock and we had a brand new podcast so they will through our website
+
+114
+00:06:58,920 --> 00:07:00,920
+gash or rock.net.
+
+115
+00:07:00,920 --> 00:07:08,920
+If you're a puzzle by punk or curious about country, we're a bander, we're a little bit country, punk or punk country
+
+116
+00:07:08,920 --> 00:07:14,920
+and I just have to say right now, this probably will be the next big musical way to be the new grunge
+
+117
+00:07:14,920 --> 00:07:18,920
+to be the new metal, to be the new hippie camp band.
+
+118
+00:07:18,920 --> 00:07:19,920
+Yeah, this is it.
+
+119
+00:07:19,920 --> 00:07:20,920
+It's a coming thing.
+
+120
+00:07:20,920 --> 00:07:21,920
+So please give us a listen.
+
+121
+00:07:21,920 --> 00:07:22,920
+We're a podcast.
+
+122
+00:07:22,920 --> 00:07:26,920
+It's sponsored by free web town and we appreciate your attention.
+
+123
+00:07:26,920 --> 00:07:28,920
+Rock all right now.
+
+124
+00:07:28,920 --> 00:07:33,920
+Do you find yourself up all night looking at inappropriate things on the internet?
+
+125
+00:07:33,920 --> 00:07:34,920
+I won't get up.
+
+126
+00:07:34,920 --> 00:07:37,920
+You need to pour on love.
+
+127
+00:07:37,920 --> 00:07:38,920
+You need to pour.
+
+128
+00:07:38,920 --> 00:07:42,920
+Do you find yourself repeatedly showing up late for work?
+
+129
+00:07:42,920 --> 00:07:43,920
+French fries.
+
+130
+00:07:43,920 --> 00:07:46,920
+Do not make themselves unique to be here.
+
+131
+00:07:46,920 --> 00:07:48,920
+One time, every day.
+
+132
+00:07:48,920 --> 00:07:51,920
+Luckily for you, there is an answer.
+
+133
+00:07:51,920 --> 00:07:53,920
+It's the drag me out of bed.
+
+134
+00:07:53,920 --> 00:07:56,920
+Wake up call from one wisdom and lucky bit radio.
+
+135
+00:07:56,920 --> 00:08:01,920
+Yeah, who is it?
+
+136
+00:08:01,920 --> 00:08:04,920
+Get that hell out of bed, you dirty horn.
+
+137
+00:08:04,920 --> 00:08:05,920
+That's right.
+
+138
+00:08:05,920 --> 00:08:07,920
+Wake up calls aren't just for hotel stays anymore.
+
+139
+00:08:07,920 --> 00:08:11,920
+Now YouTube can get a personalized wake up call from America's top podcasting
+
+140
+00:08:11,920 --> 00:08:12,920
+drag queen.
+
+141
+00:08:12,920 --> 00:08:17,920
+You don't get your fan ass out of bed right now, Mary.
+
+142
+00:08:17,920 --> 00:08:19,920
+I'm going to come over there and smack you silly.
+
+143
+00:08:19,920 --> 00:08:21,920
+It's one wisdom's drag me out of bed.
+
+144
+00:08:21,920 --> 00:08:22,920
+Wake up call coming soon.
+
+145
+00:08:22,920 --> 00:08:25,920
+Head over to luckymetsradio.com for more details.
+
+146
+00:08:25,920 --> 00:08:28,920
+If you wouldn't have sat around on the internet all night looking at the horn,
+
+147
+00:08:28,920 --> 00:08:30,920
+I wouldn't have to call your sorry ass now.
+
+148
+00:08:30,920 --> 00:08:33,920
+You've never had a drag queen get you up quite like this.
+
+149
+00:08:33,920 --> 00:08:36,920
+Check it out over at luckymetsradio.com.
+
+150
+00:08:36,920 --> 00:08:37,920
+Yeah, that's a promo.
+
+151
+00:08:37,920 --> 00:08:38,920
+There's some gentlemen.
+
+152
+00:08:38,920 --> 00:08:40,920
+That is a dance of damn promo.
+
+153
+00:08:40,920 --> 00:08:41,920
+I love that.
+
+154
+00:08:42,920 --> 00:08:46,920
+I was talking to a reporter today from a Dutch newspaper.
+
+155
+00:08:46,920 --> 00:08:48,920
+The actually is a well respected newspaper,
+
+156
+00:08:48,920 --> 00:08:50,920
+NSA, Humbles Blot.
+
+157
+00:08:50,920 --> 00:08:51,920
+Right.
+
+158
+00:08:51,920 --> 00:08:53,920
+Like, go pick up a copy right now.
+
+159
+00:08:53,920 --> 00:08:56,920
+Rather young journalist who called me,
+
+160
+00:08:56,920 --> 00:09:01,920
+but actually she was referred to me by Father Roderick from the Catholic Insider
+
+161
+00:09:01,920 --> 00:09:02,920
+Catholicinsider.com.
+
+162
+00:09:02,920 --> 00:09:04,920
+So that's why I said, okay, I'll do this.
+
+163
+00:09:04,920 --> 00:09:09,920
+Actually, I'd swore that that would be my last interview with a Dutch publication
+
+164
+00:09:09,920 --> 00:09:14,920
+because, well, usually, well, usually whenever you give an interview
+
+165
+00:09:14,920 --> 00:09:17,920
+anyway, they never get it right.
+
+166
+00:09:17,920 --> 00:09:18,920
+We've been through that.
+
+167
+00:09:18,920 --> 00:09:19,920
+That's a two-way street.
+
+168
+00:09:19,920 --> 00:09:21,920
+It's how I communicate, how it's being received.
+
+169
+00:09:21,920 --> 00:09:23,920
+That's not necessarily anybody's fault.
+
+170
+00:09:23,920 --> 00:09:26,920
+And now that we have podcasts and web blogs,
+
+171
+00:09:26,920 --> 00:09:27,920
+it's a lot easier.
+
+172
+00:09:27,920 --> 00:09:30,920
+Yeah, I usually point journalists to my web blogs.
+
+173
+00:09:30,920 --> 00:09:31,920
+I'd look here, look here.
+
+174
+00:09:31,920 --> 00:09:32,920
+You want to about this.
+
+175
+00:09:32,920 --> 00:09:33,920
+Check this page out.
+
+176
+00:09:33,920 --> 00:09:34,920
+Just copy it.
+
+177
+00:09:34,920 --> 00:09:35,920
+Copy paste.
+
+178
+00:09:35,920 --> 00:09:36,920
+It's much easier.
+
+179
+00:09:36,920 --> 00:09:38,920
+And then I give them one quote.
+
+180
+00:09:39,920 --> 00:09:41,920
+But she said, you know, let's do the daily source code.
+
+181
+00:09:41,920 --> 00:09:43,920
+I listened to half of the daily source code.
+
+182
+00:09:43,920 --> 00:09:44,920
+Well, thank you.
+
+183
+00:09:44,920 --> 00:09:47,920
+That's a true representative sample of what I'm doing here.
+
+184
+00:09:47,920 --> 00:09:50,920
+I said, yeah, I heard all kinds of promos for other podcasts.
+
+185
+00:09:50,920 --> 00:09:54,920
+I said, yeah, that's exactly what my show was about.
+
+186
+00:09:54,920 --> 00:09:56,920
+It's, you know, it's,
+
+187
+00:09:56,920 --> 00:09:58,920
+I'm, what's they call it?
+
+188
+00:09:58,920 --> 00:09:59,920
+The audio directory.
+
+189
+00:09:59,920 --> 00:10:00,920
+There you go.
+
+190
+00:10:00,920 --> 00:10:01,920
+The audio directory.
+
+191
+00:10:01,920 --> 00:10:04,920
+If I potted out org and then there's the audio version.
+
+192
+00:10:04,920 --> 00:10:07,920
+And I really like the promos that you guys are putting together.
+
+193
+00:10:07,920 --> 00:10:09,920
+You're collecting these in any other manner.
+
+194
+00:10:09,920 --> 00:10:11,920
+Then have I played one, have I played it before?
+
+195
+00:10:11,920 --> 00:10:13,920
+Now they've got mega segue set up.
+
+196
+00:10:13,920 --> 00:10:15,920
+And as I said, you heard me make the screenshot.
+
+197
+00:10:15,920 --> 00:10:18,920
+So hopefully the screenshot will actually appear on the show notes today.
+
+198
+00:10:18,920 --> 00:10:21,920
+This is just so much coming in now.
+
+199
+00:10:21,920 --> 00:10:22,920
+So many different podcasts.
+
+200
+00:10:22,920 --> 00:10:24,920
+But particularly promos.
+
+201
+00:10:24,920 --> 00:10:25,920
+And they're getting really creative.
+
+202
+00:10:25,920 --> 00:10:26,920
+Really, really fun.
+
+203
+00:10:26,920 --> 00:10:28,920
+That I just can't keep track of everything that I've played.
+
+204
+00:10:28,920 --> 00:10:31,920
+So mega segue is really I'm enjoying it very much.
+
+205
+00:10:31,920 --> 00:10:33,920
+Because it keeps track of everything you played.
+
+206
+00:10:33,920 --> 00:10:35,920
+You can set a separation.
+
+207
+00:10:35,920 --> 00:10:38,920
+So basically I say, you know, if I played this yesterday,
+
+208
+00:10:38,920 --> 00:10:39,920
+don't play it again.
+
+209
+00:10:39,920 --> 00:10:41,920
+And it will, I saw it actually happened today.
+
+210
+00:10:41,920 --> 00:10:44,920
+It removed two promos that were automatically scheduled.
+
+211
+00:10:44,920 --> 00:10:48,920
+Pulled it out, replaced them with different ones from the same promo category.
+
+212
+00:10:48,920 --> 00:10:52,920
+So really all the work goes in, you know, in ID3 tag.
+
+213
+00:10:52,920 --> 00:10:55,920
+So I just want to talk about that very briefly.
+
+214
+00:10:55,920 --> 00:10:59,920
+If you're sending a promo or if you're sending a podsafe music or podcast.
+
+215
+00:10:59,920 --> 00:11:02,920
+Any MP3 you send to me or if you send a link to it.
+
+216
+00:11:02,920 --> 00:11:09,920
+Please let's let's all can we all just work together and really do a better job with the ID3 tags.
+
+217
+00:11:09,920 --> 00:11:13,920
+Because mega segue also outputs a log file.
+
+218
+00:11:13,920 --> 00:11:16,920
+And it takes the ID3 tags obviously.
+
+219
+00:11:16,920 --> 00:11:18,920
+And it actually creates an HTML page.
+
+220
+00:11:18,920 --> 00:11:20,920
+I haven't created a template yet for it.
+
+221
+00:11:20,920 --> 00:11:23,920
+So I probably won't be until next week when I have that up and running,
+
+222
+00:11:23,920 --> 00:11:26,920
+which I will do for the for the serious pod show.
+
+223
+00:11:26,920 --> 00:11:29,920
+So you can see what was played.
+
+224
+00:11:29,920 --> 00:11:32,920
+You know, the better we do with ID3 tags.
+
+225
+00:11:32,920 --> 00:11:36,920
+The better it's going to be for basically promoting stuff through your promo.
+
+226
+00:11:36,920 --> 00:11:40,920
+Because it also saves a heck of a lot of work of going back to.
+
+227
+00:11:40,920 --> 00:11:43,920
+Okay, so this came in through an email, let me search for it.
+
+228
+00:11:43,920 --> 00:11:45,920
+Ah, yes, this is the website.
+
+229
+00:11:45,920 --> 00:11:46,920
+Put it right into the ID3 tags.
+
+230
+00:11:46,920 --> 00:11:50,920
+You put it into the into the comment field or, you know, whatever.
+
+231
+00:11:50,920 --> 00:11:54,920
+I mean, it's, yeah, that maybe put it as a part of the album field.
+
+232
+00:11:54,920 --> 00:11:56,920
+You know, something like that.
+
+233
+00:11:56,920 --> 00:12:01,920
+So it will actually show up in the in the log file and in the show notes.
+
+234
+00:12:01,920 --> 00:12:03,920
+Let's see.
+
+235
+00:12:03,920 --> 00:12:05,920
+Let's see what I have here.
+
+236
+00:12:05,920 --> 00:12:08,920
+A couple of things I wanted to talk about today.
+
+237
+00:12:08,920 --> 00:12:14,920
+Oh, yeah, well, I was basically working most of the day before that interview on the cast
+
+238
+00:12:14,920 --> 00:12:16,920
+cast blaster beta.
+
+239
+00:12:16,920 --> 00:12:18,920
+Man, this is going to be so cool.
+
+240
+00:12:18,920 --> 00:12:21,920
+Lots of people are using the cast blaster now.
+
+241
+00:12:21,920 --> 00:12:25,920
+And actually I received a shockwave file, which I will also put up today.
+
+242
+00:12:25,920 --> 00:12:27,920
+It's, it's pretty big.
+
+243
+00:12:27,920 --> 00:12:29,920
+It's like 27 megs or something like that.
+
+244
+00:12:29,920 --> 00:12:34,920
+One of our beta testers who did a screen recording of, you know,
+
+245
+00:12:34,920 --> 00:12:37,920
+right after he installed cast blaster that he turned on the recording,
+
+246
+00:12:37,920 --> 00:12:41,920
+the screen recorder, and he's narrating his way through the entire experience of
+
+247
+00:12:41,920 --> 00:12:44,920
+basically finding out what this thing does.
+
+248
+00:12:44,920 --> 00:12:46,920
+And because, you know, does it come with a manual?
+
+249
+00:12:46,920 --> 00:12:47,920
+No.
+
+250
+00:12:47,920 --> 00:12:49,920
+Well, that would be silly, right?
+
+251
+00:12:49,920 --> 00:12:53,920
+So, you know, it's, you see the mouse moving around and he's narrating.
+
+252
+00:12:53,920 --> 00:12:57,920
+And it's really cool to see, and I also learned a lot, you know,
+
+253
+00:12:57,920 --> 00:13:01,920
+to see how someone interacts with a new piece of software.
+
+254
+00:13:01,920 --> 00:13:03,920
+And learned a lot from it.
+
+255
+00:13:03,920 --> 00:13:07,920
+And I was working with Mike, lead development on the cast blaster.
+
+256
+00:13:07,920 --> 00:13:08,920
+And we're doing all kinds of stuff.
+
+257
+00:13:08,920 --> 00:13:12,920
+Now, the next version, of course, will automatically create your podcast.
+
+258
+00:13:12,920 --> 00:13:14,920
+And, you know, does all the, everything for you.
+
+259
+00:13:14,920 --> 00:13:15,920
+You don't have to do anything.
+
+260
+00:13:15,920 --> 00:13:17,920
+Just, you know, just like you see now.
+
+261
+00:13:17,920 --> 00:13:19,920
+And you'll probably see that shockwave movie.
+
+262
+00:13:19,920 --> 00:13:21,920
+Again, check, oh, sorry about that.
+
+263
+00:13:21,920 --> 00:13:24,920
+The show notes for today's podcast.
+
+264
+00:13:24,920 --> 00:13:27,920
+What was I saying?
+
+265
+00:13:27,920 --> 00:13:29,920
+Oh, yeah, you, you basically hit save.
+
+266
+00:13:29,920 --> 00:13:31,920
+It'll save a copy on your machine.
+
+267
+00:13:31,920 --> 00:13:36,920
+And it'll take care of all of the rest, all of it.
+
+268
+00:13:36,920 --> 00:13:37,920
+Okay.
+
+269
+00:13:37,920 --> 00:13:39,920
+Let me see.
+
+270
+00:13:39,920 --> 00:13:42,920
+Haven't talked to my mom.
+
+271
+00:13:42,920 --> 00:13:46,920
+After her, after her marijuana experience,
+
+272
+00:13:47,920 --> 00:13:51,920
+which we did talk about yesterday with Dr. Joel,
+
+273
+00:13:51,920 --> 00:13:54,920
+who's from the arthritis news and views.
+
+274
+00:13:54,920 --> 00:13:56,920
+But something else did come in today,
+
+275
+00:13:56,920 --> 00:13:59,920
+which showed up in the promo bin.
+
+276
+00:13:59,920 --> 00:14:02,920
+Another doctor doing a podcast.
+
+277
+00:14:02,920 --> 00:14:03,920
+Hi, Adam.
+
+278
+00:14:03,920 --> 00:14:05,920
+This is Dr. Alan Rubin.
+
+279
+00:14:05,920 --> 00:14:09,920
+I wanted to tell you about my new Dr. Rubin's health cast.
+
+280
+00:14:09,920 --> 00:14:14,920
+The purpose of this podcast is to help you and your listeners live a long quality life.
+
+281
+00:14:14,920 --> 00:14:18,920
+You can find my new podcast at DrRubin.com.
+
+282
+00:14:18,920 --> 00:14:22,920
+That's drrubiand.com.
+
+283
+00:14:22,920 --> 00:14:24,920
+I hope you enjoy listening to it,
+
+284
+00:14:24,920 --> 00:14:26,920
+and that it adds years to your life.
+
+285
+00:14:26,920 --> 00:14:30,920
+I hope you enjoy listening to it, and that it adds years to your life.
+
+286
+00:14:30,920 --> 00:14:34,920
+Stay tuned for the UCF Digital Media podcast.
+
+287
+00:14:34,920 --> 00:14:40,920
+Coming the week of May 23rd, 2005, summer semester.
+
+288
+00:14:40,920 --> 00:14:46,920
+Topics will include news and announcements, interviews in the industry,
+
+289
+00:14:46,920 --> 00:14:50,920
+plus a whole lot more, including some class lectures.
+
+290
+00:14:50,920 --> 00:14:57,920
+Check the website for updates, dm.ucf.edu slash till they podcast.
+
+291
+00:15:00,920 --> 00:15:04,920
+So last night, as I was listening through all the podcasts I'm in saving up,
+
+292
+00:15:04,920 --> 00:15:07,920
+I came across a beautiful podcast.
+
+293
+00:15:07,920 --> 00:15:10,920
+And I'm not sure if I can actually play something from it,
+
+294
+00:15:10,920 --> 00:15:14,920
+although there's probably in the public domain by now or close to it.
+
+295
+00:15:14,920 --> 00:15:20,920
+It's the old-time radio vault, and this is, it's at otr.libson.org.
+
+296
+00:15:20,920 --> 00:15:22,920
+Libson is l, I'm sorry.
+
+297
+00:15:22,920 --> 00:15:26,920
+Lima, India, Bravo, Shira, Yankee, November.org.
+
+298
+00:15:26,920 --> 00:15:32,920
+And what this podcast is, is it's old-time radio shows.
+
+299
+00:15:32,920 --> 00:15:35,920
+And the one that I listened to last night, actually as I was going to bed,
+
+300
+00:15:35,920 --> 00:15:40,920
+the crapplet, that's the tablet, laptop that I have, took it with me to the bedroom.
+
+301
+00:15:40,920 --> 00:15:44,920
+And just listen to this, it was the whistle I think is what it was.
+
+302
+00:15:44,920 --> 00:15:46,920
+It was a show from 1945.
+
+303
+00:15:46,920 --> 00:15:52,920
+And it was great writing, fantastic narration, good scary effects, you know,
+
+304
+00:15:52,920 --> 00:15:56,920
+like in your music that just kind of brings into the mood.
+
+305
+00:15:56,920 --> 00:15:58,920
+Ooh, this is suspense here.
+
+306
+00:15:58,920 --> 00:15:59,920
+Excuse me.
+
+307
+00:15:59,920 --> 00:16:02,920
+Yeah, yeah, had a sense out before I started the show.
+
+308
+00:16:03,920 --> 00:16:09,920
+And then there's a fantastic acting, and it's about 40 minutes in length.
+
+309
+00:16:09,920 --> 00:16:13,920
+And I subscribed to the feed immediately and I'm really looking forward to more of those.
+
+310
+00:16:13,920 --> 00:16:18,920
+So I think we can learn so much about what can be done with audio in this thing we call podcasting,
+
+311
+00:16:18,920 --> 00:16:21,920
+whether it's radio or whatever it is.
+
+312
+00:16:21,920 --> 00:16:24,920
+It's, it's, it's, it's fooling around having a good time with audio.
+
+313
+00:16:24,920 --> 00:16:27,920
+Do I hear, what is that sound?
+
+314
+00:16:27,920 --> 00:16:31,920
+Yeah, I see other, the other Mac, the fan is going off.
+
+315
+00:16:31,920 --> 00:16:34,920
+Nice surprise this morning when I woke up.
+
+316
+00:16:34,920 --> 00:16:36,920
+Easy net crapped out again.
+
+317
+00:16:36,920 --> 00:16:37,920
+God, I hate that.
+
+318
+00:16:37,920 --> 00:16:39,920
+It's not actually easy nets fault per se.
+
+319
+00:16:39,920 --> 00:16:42,920
+But that's the big mega pipe that I have coming into the cottage.
+
+320
+00:16:42,920 --> 00:16:43,920
+The four mega bit line.
+
+321
+00:16:43,920 --> 00:16:46,920
+So it runs through a BT British Telecom least line.
+
+322
+00:16:46,920 --> 00:16:49,920
+And these fuckers disconnected every single time.
+
+323
+00:16:49,920 --> 00:16:52,920
+You see, is it actually just reconnected again?
+
+324
+00:16:52,920 --> 00:16:54,920
+And it's like, you know, I don't know what's going on.
+
+325
+00:16:54,920 --> 00:16:58,920
+Maybe, I think what's happening is, you know, they're so not used to this type of
+
+326
+00:16:58,920 --> 00:17:03,920
+connection because it's called local loop unbundled, which means British telecom,
+
+327
+00:17:03,920 --> 00:17:07,920
+who is the phone company, essentially doesn't provide anything over that line.
+
+328
+00:17:07,920 --> 00:17:10,920
+It's just a copper wire going from A to B.
+
+329
+00:17:10,920 --> 00:17:14,920
+And they probably there's something like engineer going like, oh, what's the slow,
+
+330
+00:17:14,920 --> 00:17:15,920
+both?
+
+331
+00:17:15,920 --> 00:17:17,920
+And it just all pulled out of the socket.
+
+332
+00:17:17,920 --> 00:17:20,920
+It disconnects it again, you know, it's driving me fucking crazy.
+
+333
+00:17:20,920 --> 00:17:23,920
+And of course, I get pissed off at easy net and they can't help it.
+
+334
+00:17:23,920 --> 00:17:26,920
+And they're not really, you know, this is an expensive line.
+
+335
+00:17:26,920 --> 00:17:31,920
+This costs like, you know, I was like, was it four, four, five hundred dollars a month?
+
+336
+00:17:31,920 --> 00:17:34,920
+You know, it's a, it's a, it's a real line this company in here.
+
+337
+00:17:34,920 --> 00:17:39,920
+And it's a, and I said, look, I've got a mission critical business running over this line.
+
+338
+00:17:39,920 --> 00:17:40,920
+Gosh, darn it.
+
+339
+00:17:40,920 --> 00:17:45,920
+I got to be uploading the, the pod show to the serious FTP server.
+
+340
+00:17:45,920 --> 00:17:49,920
+And actually, we'll be, I think I mentioned this yesterday.
+
+341
+00:17:49,920 --> 00:17:54,920
+We'll actually be releasing at least one hour of kind of a test run of the pod show.
+
+342
+00:17:54,920 --> 00:17:56,920
+So you can get an idea of what it's going to be.
+
+343
+00:17:56,920 --> 00:18:00,920
+But I think you can probably already tell now that the initial, you know,
+
+344
+00:18:00,920 --> 00:18:06,920
+wave of comments as pass is that, you know, I'm not going to sit there for four hours a day in talk.
+
+345
+00:18:06,920 --> 00:18:07,920
+Shit.
+
+346
+00:18:07,920 --> 00:18:08,920
+That's not what I'm up to.
+
+347
+00:18:08,920 --> 00:18:10,920
+This is about promoting podcasting.
+
+348
+00:18:10,920 --> 00:18:15,920
+And I think that as you see, every single new car come off the assembly line in the United States,
+
+349
+00:18:15,920 --> 00:18:19,920
+which will have CD AM FM and SAT.
+
+350
+00:18:19,920 --> 00:18:21,920
+That's basically their satellite receiver.
+
+351
+00:18:21,920 --> 00:18:25,920
+There may be a lot of satellite radio listeners who may not have an MP3 player or may have one,
+
+352
+00:18:25,920 --> 00:18:28,920
+and may not be in the pod casting just yet.
+
+353
+00:18:28,920 --> 00:18:31,920
+I mean, still a heck of a lot of people who don't know what pod casting is.
+
+354
+00:18:31,920 --> 00:18:34,920
+You know, so the study says six million listeners.
+
+355
+00:18:34,920 --> 00:18:38,920
+Last time I counted this like, was it 350 million Americans?
+
+356
+00:18:38,920 --> 00:18:40,920
+Something like that.
+
+357
+00:18:40,920 --> 00:18:43,920
+Pod save music now on the daily source code.
+
+358
+00:18:43,920 --> 00:18:47,920
+This is instrumental to the, it'll be a change.
+
+359
+00:18:48,920 --> 00:18:51,920
+It's, uh, bicem particle.
+
+360
+00:18:51,920 --> 00:18:53,920
+It's titled Resolve.
+
+361
+00:18:53,920 --> 00:18:55,920
+It's like you sit back, close your eyes.
+
+362
+00:18:55,920 --> 00:18:59,920
+Imagine a white sandy beach.
+
+363
+00:18:59,920 --> 00:19:01,920
+You're on the chair.
+
+364
+00:19:01,920 --> 00:19:04,920
+Lay back, cocktail in your hand.
+
+365
+00:19:04,920 --> 00:19:08,920
+Some are breathe, floating by.
+
+366
+00:19:08,920 --> 00:19:11,920
+Like waving your hair.
+
+367
+00:19:17,920 --> 00:19:19,920
+You're on the chair.
+
+368
+00:19:19,920 --> 00:19:21,920
+You're on the chair.
+
+369
+00:19:21,920 --> 00:19:23,920
+You're on the chair.
+
+370
+00:19:23,920 --> 00:19:25,920
+You're on the chair.
+
+371
+00:19:25,920 --> 00:19:27,920
+You're on the chair.
+
+372
+00:19:27,920 --> 00:19:29,920
+You're on the chair.
+
+373
+00:19:29,920 --> 00:19:31,920
+You're on the chair.
+
+374
+00:19:31,920 --> 00:19:33,920
+You're on the chair.
+
+375
+00:19:33,920 --> 00:19:35,920
+You're on the chair.
+
+376
+00:19:35,920 --> 00:19:37,920
+You're on the chair.
+
+377
+00:19:37,920 --> 00:19:39,920
+You're on the chair.
+
+378
+00:19:39,920 --> 00:19:41,920
+You're on the chair.
+
+379
+00:19:41,920 --> 00:19:43,920
+You're on the chair.
+
+380
+00:19:43,920 --> 00:19:45,920
+You're on the chair.
+
+381
+00:19:45,920 --> 00:19:47,920
+You're on the chair.
+
+382
+00:19:47,920 --> 00:19:49,920
+You're on the chair.
+
+383
+00:19:49,920 --> 00:19:51,920
+You're on the chair.
+
+384
+00:19:51,920 --> 00:19:53,920
+You're on the chair.
+
+385
+00:19:53,920 --> 00:19:55,920
+You're on the chair.
+
+386
+00:19:55,920 --> 00:19:57,920
+You're on the chair.
+
+387
+00:19:57,920 --> 00:19:59,920
+You're on the chair.
+
+388
+00:19:59,920 --> 00:20:01,920
+You're on the chair.
+
+389
+00:20:01,920 --> 00:20:03,920
+You're on the chair.
+
+390
+00:20:03,920 --> 00:20:05,920
+You're on the chair.
+
+391
+00:20:05,920 --> 00:20:07,920
+You're on the chair.
+
+392
+00:20:07,920 --> 00:20:09,920
+You're on the chair.
+
+393
+00:20:09,920 --> 00:20:11,920
+You're on the chair.
+
+394
+00:20:11,920 --> 00:20:13,920
+You're on the chair.
+
+395
+00:20:13,920 --> 00:20:15,920
+You're on the chair.
+
+396
+00:20:15,920 --> 00:20:17,920
+You're on the chair.
+
+397
+00:20:17,920 --> 00:20:19,920
+You're on the chair.
+
+398
+00:20:19,920 --> 00:20:21,920
+You're on the chair.
+
+399
+00:20:21,920 --> 00:20:23,920
+You're on the chair.
+
+400
+00:20:23,920 --> 00:20:25,920
+You're on the chair.
+
+401
+00:20:25,920 --> 00:20:27,920
+You're on the chair.
+
+402
+00:20:27,920 --> 00:20:29,920
+You're on the chair.
+
+403
+00:20:29,920 --> 00:20:31,920
+You're on the chair.
+
+404
+00:20:31,920 --> 00:20:33,920
+You're on the chair.
+
+405
+00:20:33,920 --> 00:20:35,920
+You're on the chair.
+
+406
+00:20:35,920 --> 00:20:37,920
+You're on the chair.
+
+407
+00:20:37,920 --> 00:20:39,920
+You're on the chair.
+
+408
+00:20:39,920 --> 00:20:41,920
+You're on the chair.
+
+409
+00:20:41,920 --> 00:20:43,920
+You're on the chair.
+
+410
+00:20:43,920 --> 00:20:45,920
+You're on the chair.
+
+411
+00:20:45,920 --> 00:20:47,920
+You're on the chair.
+
+412
+00:20:47,920 --> 00:20:49,920
+You're on the chair.
+
+413
+00:20:49,920 --> 00:20:51,920
+You're on the chair.
+
+414
+00:20:51,920 --> 00:20:53,920
+You're on the chair.
+
+415
+00:20:53,920 --> 00:20:55,920
+You're on the chair.
+
+416
+00:20:55,920 --> 00:20:57,920
+You're on the chair.
+
+417
+00:20:57,920 --> 00:20:59,920
+You're on the chair.
+
+418
+00:20:59,920 --> 00:21:01,920
+You're on the chair.
+
+419
+00:21:01,920 --> 00:21:03,920
+You're on the chair.
+
+420
+00:21:03,920 --> 00:21:05,920
+You're on the chair.
+
+421
+00:21:05,920 --> 00:21:07,920
+You're on the chair.
+
+422
+00:21:07,920 --> 00:21:09,920
+You're on the chair.
+
+423
+00:21:09,920 --> 00:21:13,920
+You're on the chair.
+
+424
+00:21:13,920 --> 00:21:15,920
+You're on the chair.
+
+425
+00:21:15,920 --> 00:21:17,920
+You're on the chair.
+
+426
+00:21:17,920 --> 00:21:19,920
+You're on the chair.
+
+427
+00:21:19,920 --> 00:21:21,920
+You're on the chair.
+
+428
+00:21:21,920 --> 00:21:23,920
+You're on the chair.
+
+429
+00:21:23,920 --> 00:21:25,920
+You're on the chair.
+
+430
+00:21:25,920 --> 00:21:27,920
+You're on the chair.
+
+431
+00:21:27,920 --> 00:21:29,920
+You're on the chair.
+
+432
+00:21:29,920 --> 00:21:31,920
+You're on the chair.
+
+433
+00:21:31,920 --> 00:21:33,920
+You're on the chair.
+
+434
+00:21:33,920 --> 00:21:35,920
+You're on the chair.
+
+435
+00:21:35,920 --> 00:21:37,920
+You're on the chair.
+
+436
+00:21:37,920 --> 00:21:39,920
+You're on the chair.
+
+437
+00:21:39,920 --> 00:21:41,920
+You're on the chair.
+
+438
+00:21:41,920 --> 00:21:43,920
+You're on the chair.
+
+439
+00:21:43,920 --> 00:21:45,920
+You're on the chair.
+
+440
+00:21:45,920 --> 00:21:47,920
+You're on the chair.
+
+441
+00:21:47,920 --> 00:21:49,920
+You're on the chair.
+
+442
+00:21:49,920 --> 00:21:51,920
+You're on the chair.
+
+443
+00:21:51,920 --> 00:21:53,920
+You're on the chair.
+
+444
+00:21:53,920 --> 00:21:55,920
+You're on the chair.
+
+445
+00:21:55,920 --> 00:21:57,920
+You're on the chair.
+
+446
+00:21:57,920 --> 00:21:59,920
+You're on the chair.
+
+447
+00:21:59,920 --> 00:22:01,920
+You're on the chair.
+
+448
+00:22:01,920 --> 00:22:03,920
+You're on the chair.
+
+449
+00:22:03,920 --> 00:22:05,920
+You're on the chair.
+
+450
+00:22:05,920 --> 00:22:07,920
+You're on the chair.
+
+451
+00:22:07,920 --> 00:22:09,920
+You're on the chair.
+
+452
+00:22:09,920 --> 00:22:11,920
+You're on the chair.
+
+453
+00:22:11,920 --> 00:22:13,920
+You're on the chair.
+
+454
+00:22:13,920 --> 00:22:15,920
+You're on the chair.
+
+455
+00:22:15,920 --> 00:22:17,920
+You're on the chair.
+
+456
+00:22:17,920 --> 00:22:19,920
+You're on the chair.
+
+457
+00:22:19,920 --> 00:22:21,920
+You're on the chair.
+
+458
+00:22:21,920 --> 00:22:23,920
+You're on the chair.
+
+459
+00:22:23,920 --> 00:22:25,920
+You're on the chair.
+
+460
+00:22:25,920 --> 00:22:27,920
+You're on the chair.
+
+461
+00:22:27,920 --> 00:22:29,920
+You're on the chair.
+
+462
+00:22:29,920 --> 00:22:31,920
+You're on the chair.
+
+463
+00:22:31,920 --> 00:22:36,220
+You're on the chair.
+
+464
+00:22:36,220 --> 00:22:37,920
+You're on the chair.
+
+465
+00:22:37,920 --> 00:22:40,920
+You're on the chair.
+
+466
+00:22:40,920 --> 00:22:42,920
+You're on the chair.
+
+467
+00:22:42,920 --> 00:22:45,920
+You're on the chair.
+
+468
+00:22:45,920 --> 00:22:47,920
+You're on the chair.
+
+469
+00:22:47,920 --> 00:22:49,920
+You're on the chair.
+
+470
+00:22:51,920 --> 00:22:52,920
+You're on the chair.
+
+471
+00:22:52,920 --> 00:22:54,920
+You're on the chair.
+
+472
+00:22:54,920 --> 00:22:55,920
+You're on the chair.
+
+473
+00:22:55,920 --> 00:22:57,920
+You're on the chair.
+
+474
+00:22:57,920 --> 00:22:59,920
+You're on the chair.
+
+475
+00:22:59,920 --> 00:23:00,920
+You're on the chair.
+
+476
+00:23:00,920 --> 00:23:05,960
+podcast podcast podcast podcast
+
+477
+00:23:05,960 --> 00:23:11,080
+this is my call it mdc 2005 and I'm curry leaves in podcasting and so to
+
+478
+00:23:11,080 --> 00:23:18,280
+we join us at www.mdc2005.com, whack, podcast. Check out the people who build
+
+479
+00:23:18,280 --> 00:23:22,000
+the systems that make podcasting possible. At the mobile embedded developer's conference
+
+480
+00:23:22,000 --> 00:23:27,720
+2005 recorded live now through make 12th 2005 the Mandalay Bay Resort in Las Vegas
+
+481
+00:23:27,720 --> 00:23:36,080
+join us online at mdc2005.com slash podcast. Check out the Rumpus Room on safe
+
+482
+00:23:36,080 --> 00:23:41,520
+tracks, discussion of things social, political and cultural and the weekly Hornby Top 5
+
+483
+00:23:41,520 --> 00:23:48,160
+find the feed at austereb.com, OST, ERBY, or look for it on ipodder.org.
+
+484
+00:23:48,160 --> 00:23:55,040
+Right on, ipodder.org, submit your podcast. I was going to say something I was thinking
+
+485
+00:23:55,040 --> 00:24:00,640
+about submissions for, was it promos? I can't remember what it was. Interesting, though,
+
+486
+00:24:00,720 --> 00:24:07,280
+mobile and bedded device, mobile and bedded developers conference. There you go.
+
+487
+00:24:08,080 --> 00:24:12,640
+Man, it's good to see that there's podcasters there and you should check it out.
+
+488
+00:24:12,640 --> 00:24:17,280
+It's actually pretty interesting. They're recording sessions and interviews,
+
+489
+00:24:17,280 --> 00:24:23,280
+no kinds of stuff there and big shout out to the developers. If we can get some ipodder
+
+490
+00:24:23,280 --> 00:24:28,240
+like functionality in cell phones and MP3 players, that would be pretty cool. It's just a thought.
+
+491
+00:24:28,880 --> 00:24:33,280
+Hey, I'll promote it if you send me some specs on something you're doing. I'd love that.
+
+492
+00:24:34,000 --> 00:24:40,640
+All right, that's more or less it for today. As I said earlier, pretty busy week. We're
+
+493
+00:24:40,640 --> 00:24:45,600
+still working hard on getting the first pod shows ready, doing a test run about to call in.
+
+494
+00:24:45,600 --> 00:24:50,640
+It's funny. It's all these radio guys who work over at serious who are responsible for
+
+495
+00:24:51,600 --> 00:24:54,720
+a lot of the technology and there's big boom and voices everybody.
+
+496
+00:24:55,680 --> 00:25:01,120
+So I want to call was it Jeremy Savage. I think he used to work at a Philadelphia radio
+
+497
+00:25:01,120 --> 00:25:07,120
+station. So he's now responsible for receiving files through FTP and then making sure they get
+
+498
+00:25:07,120 --> 00:25:10,160
+up to the side lights. A lot of technology involved and we want to make this stuff sound
+
+499
+00:25:10,160 --> 00:25:17,280
+that's good as possible. If you take MP3s and you re-record them and compress them sometimes,
+
+500
+00:25:17,920 --> 00:25:24,160
+well, sometimes it's just like crap. So working on a lot of that and I'm looking forward to
+
+501
+00:25:24,160 --> 00:25:29,200
+the big launch on Friday, Friday the 13th pod show on serious. Tonight, though, something
+
+502
+00:25:29,200 --> 00:25:33,520
+even more spectacular, I wish I could do a sound seeing tour of this, but I know she'll never let
+
+503
+00:25:33,520 --> 00:25:38,480
+me. I will ask. I really will ask Christina, but I'm pretty confident she won't.
+
+504
+00:25:39,760 --> 00:25:43,680
+Since Patricia's out of town, I said, you know, why don't we go out to dinner tonight? You know,
+
+505
+00:25:43,760 --> 00:25:47,120
+you can go over, you want you to choose. Of course, you know, what's the choice? It's like,
+
+506
+00:25:47,840 --> 00:25:56,080
+TGI Friday is okay. But why don't you invite Benji? That would be her boyfriend who I haven't
+
+507
+00:25:56,080 --> 00:26:02,880
+met yet. And so she called me from school earlier and she said, well, can Ellie come with us?
+
+508
+00:26:02,880 --> 00:26:06,320
+Yeah, of course, Ellie can come with us. Tell her to meet us to meet us there and she said,
+
+509
+00:26:06,320 --> 00:26:12,960
+can Benji come to? And I said, oh, yeah. So I wish I could do a sound seeing tour of that dinner.
+
+510
+00:26:13,680 --> 00:26:21,200
+I'll just have to store it away in one of the fun memories. So I will report back on that tomorrow,
+
+511
+00:26:21,760 --> 00:26:26,880
+the first meeting with him, the other man in my daughter's life. God.
+
+512
+00:26:28,720 --> 00:26:32,960
+Hope you enjoyed the show for today, as always, send your comments to Adamacurie.com.
+
+513
+00:26:36,560 --> 00:26:41,920
+And if you want your pod safe music, your mashups, or your promo is played on a daily source code,
+
+514
+00:26:42,080 --> 00:26:50,960
+send it to submit at podshow.com, podsafe at podshow.com, or mashup at podshow.com.
+
+515
+00:26:52,720 --> 00:26:58,480
+And you can also send your podcasts or I'd rather you send a link to your favorite podcast that
+
+516
+00:26:58,480 --> 00:27:04,560
+you'd like to play it on the podshow. So you've got four hours to fill five days a week.
+
+517
+00:27:12,320 --> 00:27:19,520
+As always, daily source code.com is the place to pick up the podcast feed, subscribe
+
+518
+00:27:19,520 --> 00:27:24,640
+and your iPod or you can click on the link directly for each show. It's where you have the latest
+
+519
+00:27:24,640 --> 00:27:32,720
+show and the archives. And I'll be back tomorrow, same time, same dreary weather, unfortunately.
+
+520
+00:27:33,600 --> 00:27:38,720
+Looking forward to the weekend, doing some flying and with a wink of matter, weather permitting, of course.
+
+521
+00:27:38,720 --> 00:27:41,280
+Take care, everybody. I'll see you tomorrow on the source code. Bye, bye.
+
