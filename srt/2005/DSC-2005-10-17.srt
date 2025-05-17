@@ -1,0 +1,2736 @@
+1
+00:00:00,000 --> 00:00:06,000
+Delta Sierra Charlie 2-6-1
+
+2
+00:00:06,000 --> 00:00:13,000
+I showed that car make no claims regarding the quality of its potchillers or the sanity of its producers.
+
+3
+00:00:13,000 --> 00:00:15,000
+Listen at your own risk.
+
+4
+00:00:15,000 --> 00:00:19,000
+There are no secrets.
+
+5
+00:00:19,000 --> 00:00:24,000
+Only information you don't have.
+
+6
+00:00:25,000 --> 00:00:27,000
+Adam Curry
+
+7
+00:00:28,000 --> 00:00:32,000
+With $16 million worth of airplane strapped to my ass.
+
+8
+00:00:32,000 --> 00:00:35,000
+Then the next generation radio content in my ears.
+
+9
+00:00:37,000 --> 00:00:41,000
+I like to think I'm flying into the future.
+
+10
+00:00:43,000 --> 00:00:48,000
+And it is Monday, October 17, 2005.
+
+11
+00:00:48,000 --> 00:00:50,000
+Good morning everybody.
+
+12
+00:00:51,000 --> 00:00:52,000
+Oh yeah.
+
+13
+00:00:52,000 --> 00:00:55,000
+This is about the earliest source code we've ever done.
+
+14
+00:00:55,000 --> 00:00:59,000
+For the first time I've seen the sunrise and northern California.
+
+15
+00:00:59,000 --> 00:01:02,000
+I've got to tell you people it is beautiful.
+
+16
+00:01:02,000 --> 00:01:03,000
+Good morning.
+
+17
+00:01:03,000 --> 00:01:07,000
+Welcome to the daily source code episode 261 coming to you from the Curry condo
+
+18
+00:01:07,000 --> 00:01:09,000
+in San Francisco, California.
+
+19
+00:01:11,000 --> 00:01:13,000
+Little bit too early for the cup of chinos.
+
+20
+00:01:13,000 --> 00:01:17,000
+I've got a nice cup of tea here.
+
+21
+00:01:18,000 --> 00:01:21,000
+And of course all kinds of crap going wrong with the studio here.
+
+22
+00:01:21,000 --> 00:01:25,000
+I don't know what I think I blew up some kind of input on the Yamaha.
+
+23
+00:01:25,000 --> 00:01:27,000
+It'll be 16 gulf.
+
+24
+00:01:27,000 --> 00:01:35,000
+So if it sounds a little bit funky then you'll know that it's just a little bit of buggies that have to be worked out after international travel.
+
+25
+00:01:35,000 --> 00:01:41,000
+Of course I'm still on the power book with the external drive running two external firewire drives today.
+
+26
+00:01:41,000 --> 00:01:47,000
+One for the playback from Megaseg and one for the recording with audio hijack pros or hopefully no skipping.
+
+27
+00:01:51,000 --> 00:01:55,000
+What a difference just a couple of weeks makes man coming back into the condo.
+
+28
+00:01:55,000 --> 00:02:01,000
+I rolled up the windows yesterday I arrived Sunday afternoon and oh my goodness.
+
+29
+00:02:01,000 --> 00:02:03,000
+I could see the marina.
+
+30
+00:02:03,000 --> 00:02:07,000
+Because the back of America building is completely gone.
+
+31
+00:02:08,000 --> 00:02:13,000
+Of course on the other side of my 180 degree view.
+
+32
+00:02:13,000 --> 00:02:19,000
+The enormous cranes that were rebuilding some other apartment are also gone.
+
+33
+00:02:19,000 --> 00:02:21,000
+So I've got a clear view.
+
+34
+00:02:21,000 --> 00:02:25,000
+I can see a lot of miles and miles.
+
+35
+00:02:25,000 --> 00:02:33,000
+As I said it is 10 after 7 a.m. getting it all cranking up to bring you a wonderful week of data source code.
+
+36
+00:02:33,000 --> 00:02:41,000
+We're going to kick it off with Arty Fuffkin brings a little bit of John Lennon versus Dr Hook versus Steelers wheel power walk right in the middle.
+
+37
+00:03:03,000 --> 00:03:09,000
+We're going to kick it off with Arty Fuffkin.
+
+38
+00:03:09,000 --> 00:03:13,000
+We're going to kick it off with Arty Fuffkin.
+
+39
+00:03:13,000 --> 00:03:17,000
+We're going to kick it off with Arty Fuffkin.
+
+40
+00:03:17,000 --> 00:03:19,000
+We're going to kick it off with Arty Fuffkin.
+
+41
+00:03:19,000 --> 00:03:21,000
+We're going to kick it off with Arty Fuffkin.
+
+42
+00:03:21,000 --> 00:03:23,000
+We're going to kick it off with Arty Fuffkin.
+
+43
+00:03:23,000 --> 00:03:25,000
+We're going to kick it off with Arty Fuffkin.
+
+44
+00:03:25,000 --> 00:03:27,000
+We're going to kick it off with Arty Fuffkin.
+
+45
+00:03:27,000 --> 00:03:29,000
+We're going to kick it off with Arty Fuffkin.
+
+46
+00:03:29,000 --> 00:03:31,000
+We're going to kick it off with Arty Fuffkin.
+
+47
+00:03:31,000 --> 00:03:33,000
+We're going to kick it off with Arty Fuffkin.
+
+48
+00:03:33,000 --> 00:03:35,000
+We're going to kick it off with Arty Fuffkin.
+
+49
+00:03:35,000 --> 00:03:37,000
+We're going to kick it off with Arty Fuffkin.
+
+50
+00:03:37,000 --> 00:03:39,000
+We're going to kick it off with Arty Fuffkin.
+
+51
+00:03:39,000 --> 00:03:41,000
+We're going to kick it off with Arty Fuffkin.
+
+52
+00:03:41,000 --> 00:03:43,000
+We're going to kick it off with Arty Fuffkin.
+
+53
+00:03:43,000 --> 00:03:45,000
+We're going to kick it off with Arty Fuffkin.
+
+54
+00:03:45,000 --> 00:03:47,000
+We're going to kick it off with Arty Fuffkin.
+
+55
+00:03:47,000 --> 00:03:49,000
+We're going to kick it off with Arty Fuffkin.
+
+56
+00:03:49,000 --> 00:03:51,000
+We're going to kick it off with Arty Fuffkin.
+
+57
+00:03:51,000 --> 00:03:53,000
+We're going to kick it off with Arty Fuffkin.
+
+58
+00:03:53,000 --> 00:03:55,000
+We're going to kick it off with Arty Fuffkin.
+
+59
+00:03:55,000 --> 00:03:57,000
+We're going to kick it off with Arty Fuffkin.
+
+60
+00:03:57,000 --> 00:03:59,000
+We're going to kick it off with Arty Fuffkin.
+
+61
+00:03:59,000 --> 00:04:01,000
+We're going to kick it off with Arty Fuffkin.
+
+62
+00:04:01,000 --> 00:04:03,000
+We're going to kick it off with Arty Fuffkin.
+
+63
+00:04:03,000 --> 00:04:05,000
+We're going to kick it off with Arty Fuffkin.
+
+64
+00:04:05,000 --> 00:04:07,000
+We're going to kick it off with Arty Fuffkin.
+
+65
+00:04:07,000 --> 00:04:09,000
+We're going to kick it off with Arty Fuffkin.
+
+66
+00:04:09,000 --> 00:04:11,000
+We're going to kick it off with Arty Fuffkin.
+
+67
+00:04:11,000 --> 00:04:13,000
+We're going to kick it off with Arty Fuffkin.
+
+68
+00:04:13,000 --> 00:04:15,000
+We're going to kick it off with Arty Fuffkin.
+
+69
+00:04:15,000 --> 00:04:17,000
+We're going to kick it off with Arty Fuffkin.
+
+70
+00:04:17,000 --> 00:04:19,000
+We're going to kick it off with Arty Fuffkin.
+
+71
+00:04:19,000 --> 00:04:21,000
+We're going to kick it off with Arty Fuffkin.
+
+72
+00:04:21,000 --> 00:04:23,000
+We're going to kick it off with Arty Fuffkin.
+
+73
+00:04:23,000 --> 00:04:25,000
+We're going to kick it off with Arty Fuffkin.
+
+74
+00:04:25,000 --> 00:04:27,000
+We're going to kick it off with Arty Fuffkin.
+
+75
+00:04:27,000 --> 00:04:29,000
+We're going to kick it off with Arty Fuffkin.
+
+76
+00:04:29,000 --> 00:04:31,000
+We're going to kick it off with Arty Fuffkin.
+
+77
+00:04:31,000 --> 00:04:33,000
+We're going to kick it off with Arty Fuffkin.
+
+78
+00:04:33,000 --> 00:04:35,000
+We're going to kick it off with Arty Fuffkin.
+
+79
+00:04:35,000 --> 00:04:37,000
+We're going to kick it off with Arty Fuffkin.
+
+80
+00:04:37,000 --> 00:04:39,000
+We're going to kick it off with Arty Fuffkin.
+
+81
+00:04:39,000 --> 00:04:41,000
+We're going to kick it off with Arty Fuffkin.
+
+82
+00:04:41,000 --> 00:04:43,000
+We're going to kick it off with Arty Fuffkin.
+
+83
+00:04:43,000 --> 00:04:45,000
+We're going to kick it off with Arty Fuffkin.
+
+84
+00:04:45,000 --> 00:04:47,000
+We're going to kick it off with Arty Fuffkin.
+
+85
+00:04:47,000 --> 00:04:49,000
+We're going to kick it off with Arty Fuffkin.
+
+86
+00:04:49,000 --> 00:04:51,000
+We're going to kick it off with Arty Fuffkin.
+
+87
+00:04:51,000 --> 00:04:53,000
+We're going to kick it off with Arty Fuffkin.
+
+88
+00:04:53,000 --> 00:04:55,000
+We're going to kick it off with Arty Fuffkin.
+
+89
+00:04:55,000 --> 00:04:57,000
+We're going to kick it off with Arty Fuffkin.
+
+90
+00:04:57,000 --> 00:04:59,000
+We're going to kick it off with Arty Fuffkin.
+
+91
+00:04:59,000 --> 00:05:01,000
+We're going to kick it off with Arty Fuffkin.
+
+92
+00:05:01,000 --> 00:05:03,000
+We're going to kick it off with Arty Fuffkin.
+
+93
+00:05:03,000 --> 00:05:05,000
+We're going to kick it off with Arty Fuffkin.
+
+94
+00:05:05,000 --> 00:05:07,000
+We're going to kick it off with Arty Fuffkin.
+
+95
+00:05:07,000 --> 00:05:09,000
+We're going to kick it off with Arty Fuffkin.
+
+96
+00:05:09,000 --> 00:05:11,000
+We're going to kick it off with Arty Fuffkin.
+
+97
+00:05:11,000 --> 00:05:13,000
+We're going to kick it off with Arty Fuffkin.
+
+98
+00:05:13,000 --> 00:05:15,000
+We're going to kick it off with Arty Fuffkin.
+
+99
+00:05:15,000 --> 00:05:17,000
+We're going to kick it off with Arty Fuffkin.
+
+100
+00:05:17,000 --> 00:05:19,000
+We're going to kick it off with Arty Fuffkin.
+
+101
+00:05:19,000 --> 00:05:21,000
+We're going to kick it off with Arty Fuffkin.
+
+102
+00:05:21,000 --> 00:05:23,000
+We're going to kick it off with Arty Fuffkin.
+
+103
+00:05:23,000 --> 00:05:25,000
+We're going to kick it off with Arty Fuffkin.
+
+104
+00:05:25,000 --> 00:05:27,000
+We're going to kick it off with Arty Fuffkin.
+
+105
+00:05:27,000 --> 00:05:29,000
+We're going to kick it off with Arty Fuffkin.
+
+106
+00:05:29,000 --> 00:05:31,000
+We're going to kick it off with Arty Fuffkin.
+
+107
+00:05:31,000 --> 00:05:33,000
+We're going to kick it off with Arty Fuffkin.
+
+108
+00:05:33,000 --> 00:05:35,000
+We're going to kick it off with Arty Fuffkin.
+
+109
+00:05:35,000 --> 00:05:37,000
+We're going to kick it off with Arty Fuffkin.
+
+110
+00:05:37,000 --> 00:05:39,000
+We're going to kick it off with Arty Fuffkin.
+
+111
+00:05:39,000 --> 00:05:41,000
+We're going to kick it off with Arty Fuffkin.
+
+112
+00:05:41,000 --> 00:05:43,000
+We're going to kick it off with Arty Fuffkin.
+
+113
+00:05:43,000 --> 00:05:45,000
+We're going to kick it off with Arty Fuffkin.
+
+114
+00:05:45,000 --> 00:05:47,000
+We're going to kick it off with Arty Fuffkin.
+
+115
+00:05:47,000 --> 00:05:49,000
+We're going to kick it off with Arty Fuffkin.
+
+116
+00:05:49,000 --> 00:05:51,000
+We're going to kick it off with Arty Fuffkin.
+
+117
+00:05:51,000 --> 00:05:53,000
+We're going to kick it off with Arty Fuffkin.
+
+118
+00:05:53,000 --> 00:05:55,000
+We're going to kick it off with Arty Fuffkin.
+
+119
+00:05:55,000 --> 00:05:57,000
+We're going to kick it off with Arty Fuffkin.
+
+120
+00:05:57,000 --> 00:05:59,000
+We're going to kick it off with Arty Fuffkin.
+
+121
+00:05:59,000 --> 00:06:01,000
+We're going to kick it off with Arty Fuffkin.
+
+122
+00:06:01,000 --> 00:06:03,000
+We're going to kick it off with Arty Fuffkin.
+
+123
+00:06:03,000 --> 00:06:05,000
+We're going to kick it off with Arty Fuffkin.
+
+124
+00:06:05,000 --> 00:06:07,000
+We're going to kick it off with Arty Fuffkin.
+
+125
+00:06:07,000 --> 00:06:09,000
+We're going to kick it off with Arty Fuffkin.
+
+126
+00:06:09,000 --> 00:06:11,000
+We're going to kick it off with Arty Fuffkin.
+
+127
+00:06:11,000 --> 00:06:13,000
+We're going to kick it off with Arty Fuffkin.
+
+128
+00:06:13,000 --> 00:06:15,000
+We're going to kick it off with Arty Fuffkin.
+
+129
+00:06:15,000 --> 00:06:17,000
+We're going to kick it off with Arty Fuffkin.
+
+130
+00:06:17,000 --> 00:06:19,000
+We're going to kick it off with Arty Fuffkin.
+
+131
+00:06:19,000 --> 00:06:21,000
+We're going to kick it off with Arty Fuffkin.
+
+132
+00:06:21,000 --> 00:06:23,000
+We're going to kick it off with Arty Fuffkin.
+
+133
+00:06:23,000 --> 00:06:25,000
+We're going to kick it off with Arty Fuffkin.
+
+134
+00:06:25,000 --> 00:06:27,000
+We're going to kick it off with Arty Fuffkin.
+
+135
+00:06:27,000 --> 00:06:41,000
+That's a Monday morning record of what Power Walk, right in the middle,
+
+136
+00:06:41,000 --> 00:06:45,000
+ARD of course, we're bringing that to us.
+
+137
+00:06:45,000 --> 00:06:48,000
+A lot of audio feedback today.
+
+138
+00:06:48,000 --> 00:06:51,000
+A lot of different things we're going to be talking about of course some pod safe
+
+139
+00:06:51,000 --> 00:06:53,000
+Music lined up.
+
+140
+00:06:53,000 --> 00:06:56,000
+I still have the shitty connectivity here at the condo.
+
+141
+00:06:56,000 --> 00:07:01,600
+You can hear by the way I got the windows open. I'm kind of airing the place out. It's been closed shut for two new almost three weeks
+
+142
+00:07:02,360 --> 00:07:06,620
+It actually didn't smell bad when I when I came in, but you know, I had a little bit of that kind of
+
+143
+00:07:07,840 --> 00:07:10,320
+recycled air feel to it if you know what I mean
+
+144
+00:07:12,200 --> 00:07:16,160
+So one of the things that has become very difficult actually, let me see if I can do that is
+
+145
+00:07:17,600 --> 00:07:19,600
+To read audio feedback
+
+146
+00:07:20,160 --> 00:07:25,480
+Because it's all on the Gmail and I have like almost no connectivity. Let me see if I can
+
+147
+00:07:26,160 --> 00:07:30,360
+If I can get to oh, actually, it's I've got like if you know if you have a power book you have that little
+
+148
+00:07:31,280 --> 00:07:36,360
+Kind of that little antenna indicator your signal strength indicator right in the top of your of your menu bar
+
+149
+00:07:36,360 --> 00:07:38,360
+So I've got just a little dot
+
+150
+00:07:38,360 --> 00:07:43,560
+And so when I hit Gmail, it says waiting for mail dot Google dot com, but I can't really do anything
+
+151
+00:07:43,560 --> 00:07:49,560
+Okay, so I'm just let me get rid of that. I will have to wing it then one thing I do know 100% for sure is
+
+152
+00:07:50,280 --> 00:07:52,600
+I got an email from Christina for my daughter
+
+153
+00:07:53,400 --> 00:07:56,400
+It was really funny. She says, hey, can't you help a brother out
+
+154
+00:07:57,640 --> 00:08:02,040
+Apparently my chemical romance is playing at bricks in academies somewhere around the
+
+155
+00:08:03,640 --> 00:08:11,160
+The week of the 6th of November bricks in the Academy of course being in in the hood and in South East London more or less
+
+156
+00:08:11,880 --> 00:08:13,880
+And I'd like to go to actually
+
+157
+00:08:13,880 --> 00:08:20,760
+But of course, everything is completely sold out. So here's our typical plea. Does anyone know if they if there's a way that we can get hooked up
+
+158
+00:08:21,080 --> 00:08:24,120
+Because you know my daughter said can't you help a brother out
+
+159
+00:08:25,400 --> 00:08:31,080
+She's getting very close by the way to wanting to do her own podcast. I can I can I can feel it
+
+160
+00:08:31,080 --> 00:08:34,880
+She's saying she keeps saying like I want to do my podcast, but I have nothing to say
+
+161
+00:08:34,880 --> 00:08:40,200
+So well, how about all those songs you were playing? How about all that emo stuff all that independent stuff you found?
+
+162
+00:08:40,200 --> 00:08:44,920
+Oh, yeah, what I could talk about that. So I'm hoping that by the time I get back
+
+163
+00:08:45,000 --> 00:08:52,600
+She'll be wanting to do her first god save what no pod save the queen was the title of her podcast very cool
+
+164
+00:08:53,640 --> 00:08:55,640
+So I'm gonna be here for the next
+
+165
+00:08:56,200 --> 00:09:00,280
+I'd say 10 12 days kind of depending on what happens. Maybe 14
+
+166
+00:09:01,640 --> 00:09:04,600
+Tough to leave dude. I'll tell you had my sister over
+
+167
+00:09:05,400 --> 00:09:07,160
+She arrived. Let's see. I came back
+
+168
+00:09:07,560 --> 00:09:12,600
+Thursday from the Netherlands from my business trip and of course, you know that because we talked about that on Friday
+
+169
+00:09:13,080 --> 00:09:15,720
+And my sister was there with the friend of hers
+
+170
+00:09:16,120 --> 00:09:19,800
+We had a great time. We actually we didn't get around to doing anything on the podcast
+
+171
+00:09:20,840 --> 00:09:26,040
+We were just having fun, you know we were we went out to dinner and we hung out and we talked and we laughed and
+
+172
+00:09:27,400 --> 00:09:33,640
+It's the first time in a long time that the my sister has come over and hung out with me my other sister willow is an Italy
+
+173
+00:09:34,200 --> 00:09:36,520
+And as two kids there. So it's not quite as easy for her to
+
+174
+00:09:37,160 --> 00:09:41,240
+Just jump on over, but now was it was it was really good fun
+
+175
+00:09:42,760 --> 00:09:44,760
+So of course what that also meant is that
+
+176
+00:09:45,800 --> 00:09:49,080
+You know by the time was it was time for me to leave
+
+177
+00:09:49,080 --> 00:09:51,640
+I left the house month Sunday morning at 830
+
+178
+00:09:52,760 --> 00:09:57,080
+You know Patricia and I and Christina we kind of had the feeling that we hadn't really had our bonding time
+
+179
+00:09:58,520 --> 00:10:02,200
+And it's true, you know how you leave and you and you just haven't had you know you haven't had that
+
+180
+00:10:02,600 --> 00:10:07,400
+Maybe it's that one evening together or whatever it is and and you just feel like
+
+181
+00:10:08,120 --> 00:10:10,120
+a little unsatisfied perhaps but
+
+182
+00:10:10,600 --> 00:10:14,600
+Patricia's rough man. She's she's got the another head cold
+
+183
+00:10:14,840 --> 00:10:18,680
+Which really fucking bites because what she has to have is she has to get one of those
+
+184
+00:10:19,560 --> 00:10:25,640
+Flu shots you know all of Europe is now talking about the the avian flu not the avian flu
+
+185
+00:10:27,000 --> 00:10:29,240
+Which is basically bird flu now we had this
+
+186
+00:10:30,920 --> 00:10:36,120
+Who will let me think when we had the castle the bird flu was was rampant throughout
+
+187
+00:10:36,360 --> 00:10:38,360
+Western Europe and we
+
+188
+00:10:38,840 --> 00:10:43,080
+Actually the the quarantine area came within half a mile of
+
+189
+00:10:44,840 --> 00:10:49,960
+Of the of the castle which meant we might have actually had to
+
+190
+00:10:50,920 --> 00:10:58,520
+Call as they say or kill as I would say our swans and our ducks and luckily it passed just
+
+191
+00:10:59,720 --> 00:11:01,720
+Just kind of before hitting us
+
+192
+00:11:01,720 --> 00:11:07,000
+But now they're talking about this avian flu and of course can be passed on from you know bird to bird but
+
+193
+00:11:07,000 --> 00:11:09,000
+Can also be passed on from bird to human and
+
+194
+00:11:09,880 --> 00:11:11,400
+Although they have no
+
+195
+00:11:11,400 --> 00:11:18,120
+Scientific proof that can be passed from human to human just getting it as human as bad enough because it's really like a bad bad bad bad
+
+196
+00:11:18,120 --> 00:11:25,880
+Flu and can last up to I guess up to 14 days now. This is really dangerous for older people or people who have other
+
+197
+00:11:27,080 --> 00:11:29,320
+Other health issues and of course Patricia has
+
+198
+00:11:30,120 --> 00:11:35,400
+You know has there a heart medication on that crap and it's really not good because coughing strains everything
+
+199
+00:11:35,480 --> 00:11:38,440
+So oh by the way got some great fucking news check this out
+
+200
+00:11:40,040 --> 00:11:42,040
+When I went flying with the wind commander
+
+201
+00:11:43,720 --> 00:11:49,480
+Edicford tenta Patricia's cardiologist of course I he became Patricia's cardiologist when we found out she had a
+
+202
+00:11:50,120 --> 00:11:57,240
+Problem and I went for the best guy. I could find and of course all the the top lawyers and and top physicians
+
+203
+00:11:57,640 --> 00:11:59,160
+They all fly
+
+204
+00:11:59,160 --> 00:12:04,280
+So we got him to help out and and boy that was fantastic and you know, so of course
+
+205
+00:12:05,000 --> 00:12:09,400
+He hadn't seen Patricia for a while. He has new cardiologists, but this guy's like the top of this field
+
+206
+00:12:10,760 --> 00:12:12,040
+and
+
+207
+00:12:12,040 --> 00:12:19,000
+It was a great hospital in Belgium which is in Alsta. They are the one of the top facilities in Western Europe for
+
+208
+00:12:21,400 --> 00:12:25,960
+For a cardiology related illnesses and treatment and he said
+
+209
+00:12:26,440 --> 00:12:28,680
+You know she really should have another
+
+210
+00:12:29,480 --> 00:12:36,280
+Another test done and this by the way is not really a fun test. It's a test where they basically shoot die into your heart valves
+
+211
+00:12:38,840 --> 00:12:43,080
+So they can see how your valves are functioning. He said you know with the cholesterol
+
+212
+00:12:44,040 --> 00:12:49,400
+Medication she's been taking and the beta blockers and all that other crap. He said it's very possible now
+
+213
+00:12:49,720 --> 00:12:53,560
+with some new technologies that have been developed that she could actually
+
+214
+00:12:54,280 --> 00:12:56,280
+have a a stand put into that one
+
+215
+00:12:57,320 --> 00:13:01,560
+bilateral artery that it that it closed up a bit and then she could actually you know
+
+216
+00:13:01,560 --> 00:13:06,760
+Probably stop taking most of the medication and that was a major major highlight of the trip
+
+217
+00:13:10,200 --> 00:13:13,160
+Excuse me just wait too early. So
+
+218
+00:13:14,680 --> 00:13:16,040
+I think we're gonna plan doing that
+
+219
+00:13:16,440 --> 00:13:21,560
+Because if they if they go in there to do the test and I see that the that the artery and this thing
+
+220
+00:13:21,880 --> 00:13:28,360
+It's just one small artery just a very minor one. It's one millimeter thick, but it was blocked for 90% so almost impossible
+
+221
+00:13:29,160 --> 00:13:31,160
+to put a stand in you know that's basically in
+
+222
+00:13:32,360 --> 00:13:35,960
+Angeo Plasti if you will you know little balloon ballooning there
+
+223
+00:13:37,400 --> 00:13:44,280
+If they find out that it's that it's you know less than that 10% open then they can probably put a stand in right there and that would solve just a
+
+224
+00:13:44,280 --> 00:13:47,800
+Shitload of problems but she was very very excited about that. I forgot to tell you guys that
+
+225
+00:13:48,520 --> 00:13:51,240
+Okay, enough of me crap in here
+
+226
+00:13:51,240 --> 00:13:54,360
+Looks like the setup is hanging in there. No skipping so far
+
+227
+00:13:54,760 --> 00:13:57,560
+I've had a back and forth email with podcasts Paul
+
+228
+00:13:58,040 --> 00:14:03,400
+Of course Paul is a lawyer in the United Kingdom and and a very active podcaster and
+
+229
+00:14:04,280 --> 00:14:06,280
+There's this new
+
+230
+00:14:06,280 --> 00:14:09,560
+Well, I thought it was a law. I got some feedback on it about
+
+231
+00:14:10,600 --> 00:14:16,120
+Music licensing and music rights that it's supposed to be rolled out across Europe now, you know the concept of Europe is
+
+232
+00:14:16,600 --> 00:14:18,600
+It's kind of funky these days as you know that
+
+233
+00:14:19,960 --> 00:14:25,080
+The French and the Dutch turned down the referendum for the for the constitution or voted no
+
+234
+00:14:26,120 --> 00:14:30,120
+Which really really stunted the growth of of the of the EU
+
+235
+00:14:31,320 --> 00:14:33,720
+But Paul of course is the guy who can always tell you
+
+236
+00:14:33,720 --> 00:14:41,800
+You know what's going on he has always legal inroads and so I asked them give me some feedback on what these new music licensing issues are in
+
+237
+00:14:42,760 --> 00:14:45,080
+In Europe and
+
+238
+00:14:45,080 --> 00:14:49,880
+Of course I asked them to do it in audio for me. Come on in, Paul
+
+239
+00:14:54,360 --> 00:14:58,200
+Hi, Adam it's Paul Nichols from podcast Paul.com and podloid.com
+
+240
+00:14:58,760 --> 00:15:03,880
+My take at them on the European-wide music license that I've read so much about
+
+241
+00:15:03,880 --> 00:15:06,840
+I'm afraid Adam whenever the word Europe is mentioned
+
+242
+00:15:07,240 --> 00:15:11,880
+I think you know this you know there's going to be trouble and there's going to be a load of old nonsense that follows
+
+243
+00:15:12,520 --> 00:15:14,280
+Europe is made up of 25
+
+244
+00:15:14,280 --> 00:15:19,640
+Disparate nations there are 25 different member states all of which have different laws
+
+245
+00:15:20,120 --> 00:15:25,880
+What we've got to remember as well Adam is the fact that laws don't necessarily cut it with the music industry
+
+246
+00:15:25,880 --> 00:15:29,080
+There are organizations that have their own conventions
+
+247
+00:15:29,080 --> 00:15:34,520
+Their own trade practices and such like and that when you terms up by 25 there's an nonsense
+
+248
+00:15:35,160 --> 00:15:40,200
+Now what you could have done is to bring out something called a regulation
+
+249
+00:15:40,200 --> 00:15:46,840
+That's the most important derived source of community law this becomes directly applicable in every nation
+
+250
+00:15:46,840 --> 00:15:50,360
+So if Europe says right this is a regulation everybody would have to follow it
+
+251
+00:15:50,360 --> 00:15:51,720
+They haven't done that
+
+252
+00:15:51,720 --> 00:15:55,720
+What they could do then is to bring out a directive which isn't quite as good
+
+253
+00:15:55,720 --> 00:16:01,320
+But they simply say to each member state look we want you to do this we want music licensing sorted
+
+254
+00:16:01,400 --> 00:16:07,480
+We want the usage sorted out within a year and here's a directive and then it's binding and then each member states sorts that out through
+
+255
+00:16:07,480 --> 00:16:08,840
+Their own national laws
+
+256
+00:16:08,840 --> 00:16:13,400
+They've not done that either what they've done on the Friday's to give simply something called a
+
+257
+00:16:13,720 --> 00:16:14,920
+Recommendation
+
+258
+00:16:14,920 --> 00:16:19,080
+It does exactly what it says on the tin unfortunately a recommendation is just that
+
+259
+00:16:19,480 --> 00:16:26,040
+What they've said to each member state is look boys we can see there's a problem well we could have told them that couldn't we a year ago
+
+260
+00:16:26,680 --> 00:16:30,920
+And we'd like you to sort it out please what's the result if they don't nothing
+
+261
+00:16:31,320 --> 00:16:33,320
+Some of the fried were bets of the drawing board
+
+262
+00:16:33,320 --> 00:16:36,920
+It is a step in the right direction because they realize that there are problems
+
+263
+00:16:37,240 --> 00:16:44,440
+Brom of fried if the music industry doesn't really take notice then I'm afraid nothing further happens. Yeah, that's my
+
+264
+00:16:45,400 --> 00:16:48,360
+Shit what is going on? It sounds like it's cutting off
+
+265
+00:16:50,680 --> 00:16:55,400
+Like it's cutting off the the end of stuff here. Yeah, man. I got to go through this whole setup
+
+266
+00:16:55,400 --> 00:17:00,360
+You know, this is all legacy issues from from my power book crash
+
+267
+00:17:00,520 --> 00:17:02,520
+Here's the here's the plan by the way on that
+
+268
+00:17:03,560 --> 00:17:08,520
+I'm hoping that around Wednesday or Thursday new power books will be announced and the meantime
+
+269
+00:17:08,520 --> 00:17:14,920
+I'm gonna get a one of those new find gold, you know the kind that I got bombed on new find gold the iMac G5s
+
+270
+00:17:15,400 --> 00:17:19,480
+Kind of get one here for for the condo and I was thinking of getting
+
+271
+00:17:20,200 --> 00:17:25,000
+Some kind of video converter so I can watch TV on that as well. I think there's a 20 inch right
+
+272
+00:17:25,000 --> 00:17:27,960
+So I'll just put the 20 inch up here and I'll use that for televisions
+
+273
+00:17:28,040 --> 00:17:34,200
+Well, I really like the idea of that remote control and kind of the media player that that goes along with that
+
+274
+00:17:34,200 --> 00:17:36,200
+I think that was actually
+
+275
+00:17:36,600 --> 00:17:39,880
+Excuse me. Do I have to tell you oh? Oh, yeah
+
+276
+00:17:41,240 --> 00:17:47,640
+Interesting how Sanseo is pronounced differently in so many different countries in the Netherlands where this thing comes from they say Sanseo
+
+277
+00:17:48,200 --> 00:17:50,200
+I've heard into UK Sancio
+
+278
+00:17:50,520 --> 00:17:52,520
+Sancio
+
+279
+00:17:52,520 --> 00:17:55,000
+San Amelia oh, maybe that's why I like it
+
+280
+00:17:55,880 --> 00:18:01,560
+Anyway, so I'm still running my old power book off of firewire drive
+
+281
+00:18:01,560 --> 00:18:06,600
+I've got two hooked up now one for recording on two and the other one is where the music library lives
+
+282
+00:18:07,560 --> 00:18:13,320
+So they're not reading and writing to the same disc at the same time. That's to keep the the speeds kind of in check
+
+283
+00:18:14,280 --> 00:18:17,880
+Because I'm recording direct to the yeah to the hard drive with audio hijack pro
+
+284
+00:18:17,960 --> 00:18:20,920
+Um, so
+
+285
+00:18:20,920 --> 00:18:25,880
+You know one thing I'm definitely gonna gonna do is I'm going to can I think the speakers on the
+
+286
+00:18:26,680 --> 00:18:31,960
+On the iMac aren't all that great at least not the one that I have at home the new one may have a different speaker set up
+
+287
+00:18:32,520 --> 00:18:33,720
+But I've got that
+
+288
+00:18:33,720 --> 00:18:35,720
+Logitech MM50 thing
+
+289
+00:18:35,720 --> 00:18:37,720
+I told you about
+
+290
+00:18:37,720 --> 00:18:39,720
+Actually, I got it right here. Hold on
+
+291
+00:18:39,880 --> 00:18:41,880
+This
+
+292
+00:18:41,880 --> 00:18:48,040
+Let me turn around so I can look at it. This is what I've been using for sound here in the condo and this thing is unbelievable
+
+293
+00:18:48,680 --> 00:18:54,040
+It's um, it's about the length of a loaf of bread, but it's much much thinner and it has
+
+294
+00:18:54,760 --> 00:18:58,280
+I think as four speakers in it's beautiful white it goes along with my iPod and
+
+295
+00:18:58,680 --> 00:19:04,200
+It has a slot right in the front kind of like a top front loader and you stick your iPod in there
+
+296
+00:19:04,200 --> 00:19:08,360
+It'll take um, it takes my iPod. I have I guess a third generation 30 gig
+
+297
+00:19:09,160 --> 00:19:14,840
+can take a mini and I presume a nano. I don't know if it can take the nano. I think it does
+
+298
+00:19:16,120 --> 00:19:20,760
+And it has a lithium ion battery on board. So what happens is when you plug this thing in
+
+299
+00:19:22,200 --> 00:19:25,480
+It gets power and it actually charges itself because it is portable
+
+300
+00:19:25,480 --> 00:19:30,040
+You don't need to run it on the AC adapter. It also charges up your your iPod
+
+301
+00:19:30,280 --> 00:19:33,560
+You can connect your iPod to your power books so you can synchronize and all that
+
+302
+00:19:33,960 --> 00:19:39,160
+But the sound that comes out of this thing is just so unfricing, believable
+
+303
+00:19:39,720 --> 00:19:43,480
+I mean I had this thing going and it sounds it's hard to explain
+
+304
+00:19:43,720 --> 00:19:48,840
+You know how you can walk into a room and then and you it's almost like the dynamics of the room or just
+
+305
+00:19:48,840 --> 00:19:49,800
+flowing with the
+
+306
+00:19:50,440 --> 00:19:55,880
+With the air coming out of the the speakers that's what it feels like it's really crisp and the low end is
+
+307
+00:19:55,880 --> 00:19:57,880
+unbelievable for such a little box
+
+308
+00:19:58,200 --> 00:20:01,560
+And I think I'm going to because it also has an external
+
+309
+00:20:02,440 --> 00:20:07,400
+An external plug so you can I I've been plugging it into my into my power book
+
+310
+00:20:07,400 --> 00:20:11,880
+You know I've been alternating back and forth because of course this iPod is not synced up to this power book yet
+
+311
+00:20:12,200 --> 00:20:14,520
+So I don't want to lose all of the songs that I brought with me
+
+312
+00:20:15,400 --> 00:20:19,480
+So you know I've been alternating back and forth if I got a little bit of connection that I'll play it off the power book
+
+313
+00:20:19,480 --> 00:20:25,720
+No connection then I yeah then I use the the iPod. It's the Logitech MM50 in case you hadn't noticed
+
+314
+00:20:26,440 --> 00:20:30,280
+They're sponsoring this show so we'll talk about that once in a while today was
+
+315
+00:20:31,320 --> 00:20:36,280
+Was obviously an important one because this is saving my life and it has some kind of
+
+316
+00:20:37,400 --> 00:20:40,040
+Built in surround sound system
+
+317
+00:20:41,080 --> 00:20:43,080
+Which I kind of like
+
+318
+00:20:43,080 --> 00:20:47,240
+On particularly on older tracks you know you click that on you can do it all from a remote control
+
+319
+00:20:48,120 --> 00:20:52,200
+And it gives a little bit more of an expanded stereo stereo sound
+
+320
+00:20:53,160 --> 00:20:58,200
+I was gonna say something else about it. I can't remember I like it. It's it's that you know if it was shit
+
+321
+00:20:58,200 --> 00:21:01,080
+I wouldn't tell it. I would tell you it was shit. I wouldn't talk about it
+
+322
+00:21:01,080 --> 00:21:05,720
+But it's really it's a pretty cool device. Oh, and now. Oh, man. Let me get my camera. Oh
+
+323
+00:21:10,520 --> 00:21:17,000
+Just cracked and it's coming through the window. Oh, you're gonna love this. Wait. Let me get a picture here. Oh shit
+
+324
+00:21:17,960 --> 00:21:19,000
+I got it
+
+325
+00:21:19,000 --> 00:21:21,000
+Let me see what I want
+
+326
+00:21:21,080 --> 00:21:24,440
+Pretty shot now. I just give me a freaking one of my supposed to take here. We go
+
+327
+00:21:25,560 --> 00:21:28,600
+Oh, this is beautiful. Okay. We got my cup of tea there
+
+328
+00:21:33,160 --> 00:21:39,400
+Oh shoot the flash wasn't supposed to go off home. Let me just flash off there. You go now you can really see as the sun
+
+329
+00:21:41,400 --> 00:21:45,160
+Oh, that's pretty my cup of tea in the foreground. Let me do it one more time
+
+330
+00:21:47,400 --> 00:21:50,440
+Okay, I'll post that one up on the show notes. You can look take a look at the yeah
+
+331
+00:21:50,600 --> 00:21:52,600
+At the MM50
+
+332
+00:21:52,600 --> 00:21:59,400
+That is beautiful with the sunlight just kind of a yellow glow wasping right over it. Oh, yes, we go the extra mile
+
+333
+00:22:00,280 --> 00:22:02,280
+Rob Coslo member him
+
+334
+00:22:03,240 --> 00:22:09,560
+Rob Coslo one of the first pod safe music artist certainly from the instrumental realm to really break through in a big way
+
+335
+00:22:10,280 --> 00:22:14,280
+He is doing something very interesting. He's been talking to me about it over email for the past couple of
+
+336
+00:22:15,000 --> 00:22:17,000
+I guess about a week and a half or two weeks
+
+337
+00:22:17,000 --> 00:22:22,440
+He's auctioning off a piano for a good cause of course I could tell you about it
+
+338
+00:22:22,440 --> 00:22:25,240
+But one of my but Robin CC Chapman take the honors
+
+339
+00:22:26,200 --> 00:22:30,200
+Hey everybody this is Rob Coslo and I'm selling one of my pianos on eBay
+
+340
+00:22:30,200 --> 00:22:32,680
+I'm gonna let CC Chapman here tell you more about it
+
+341
+00:22:32,680 --> 00:22:37,240
+Hey everyone it's CC Chapman from accident hash dot com and you turn cafe dot com
+
+342
+00:22:37,240 --> 00:22:41,640
+How's it going? Rob asked me to take a couple minutes and just explain to you about this really cool piano
+
+343
+00:22:41,640 --> 00:22:44,840
+He's selling now as you know Rob is an extremely popular artist
+
+344
+00:22:44,920 --> 00:22:49,240
+He's one of the most popular pod safe artists out there. He's signed record deals his music is everywhere
+
+345
+00:22:49,320 --> 00:22:53,160
+So this is a really cool collectible if you're a fan of the music or if you're just a fan of playing the piano
+
+346
+00:22:53,400 --> 00:22:56,760
+It's a brand new piano. It's five months old and it's in mint condition
+
+347
+00:22:57,000 --> 00:23:01,240
+It's a Yamaha P22 professional upright piano 45 inches in height
+
+348
+00:23:01,240 --> 00:23:03,480
+It's a nice black matte finish and comes with a bench
+
+349
+00:23:03,480 --> 00:23:06,920
+Now what's cool is this isn't just a regular piano this is something that Rob actually used
+
+350
+00:23:06,920 --> 00:23:11,160
+He bought it and used it as his practice piano and he's created several of his songs on this
+
+351
+00:23:11,240 --> 00:23:14,680
+So if you're a fan it's a really kind of a cool thing to have in your house
+
+352
+00:23:14,680 --> 00:23:19,400
+Say you know so when Rob costs those all over the place in touring worldwide and it's a huge thing
+
+353
+00:23:19,400 --> 00:23:23,960
+You can say I've got this from when he first started out and he'll also autographed piano
+
+354
+00:23:23,960 --> 00:23:28,600
+Which is really cool and if you win the auction it's totally up to you how big he signs it and where he signs it
+
+355
+00:23:28,600 --> 00:23:33,480
+No, personally I think you need to get it just this huge autograph right across the front of Rob
+
+356
+00:23:33,480 --> 00:23:35,800
+Costillar that's what I would do if I want it
+
+357
+00:23:35,800 --> 00:23:39,400
+But it's up to you if you win the auction which is really really cool and if the piano does decent
+
+358
+00:23:39,480 --> 00:23:45,720
+Which I think is cool is Rob's not only gonna pocket some of the money. He's gonna donate a huge chunk of it to some very good charities
+
+359
+00:23:45,720 --> 00:23:50,280
+You know things like hurricane Katrina and the Susie beat Coleman, you know breast cancer
+
+360
+00:23:50,600 --> 00:23:55,800
+Charities which is great and cool for Rob to do it because this is eBay and it's such a big item
+
+361
+00:23:56,200 --> 00:23:59,560
+US bidders are preferred but if the bid's go high enough
+
+362
+00:23:59,560 --> 00:24:02,840
+They will ship the other places in the world and the shipping will be different you know obviously
+
+363
+00:24:02,840 --> 00:24:04,760
+This is a piano it's a big shipping item
+
+364
+00:24:04,760 --> 00:24:08,200
+But the UK and her Europe shouldn't be a problem so swing on by and check it out anyways
+
+365
+00:24:08,280 --> 00:24:13,240
+So how do you gonna do is go to ebay.com and search for Rob Costillar that's ROB
+
+366
+00:24:13,880 --> 00:24:15,560
+COST
+
+367
+00:24:15,560 --> 00:24:19,720
+L-O-W and check it out or you got the Rob Costillar.com. I'll have a link out there
+
+368
+00:24:19,960 --> 00:24:24,920
+I know I also put a link up on my site so check it out. This is a really cool way to get a part of
+
+369
+00:24:25,560 --> 00:24:29,160
+podcasting in music history and I think that's really really cool and
+
+370
+00:24:30,040 --> 00:24:34,280
+Hopefully somebody will win it. I'm keep my eye on the auction because I want to see who wins it and Rob's gonna put you know
+
+371
+00:24:34,600 --> 00:24:38,840
+Your picture your link anything you want up on the site as well when you win the stuff so I think it's great
+
+372
+00:24:38,920 --> 00:24:45,080
+So seriously simply going on by ebay.com and put it in Rob Costillar and buy a piece of history
+
+373
+00:24:47,640 --> 00:24:49,640
+Whatever happened
+
+374
+00:24:49,640 --> 00:24:51,640
+To fail
+
+375
+00:24:52,120 --> 00:24:54,120
+Michael and Evo's winning it
+
+376
+00:24:54,120 --> 00:24:56,920
+5 4 3 2 1
+
+377
+00:24:57,720 --> 00:24:59,720
+Good to job curry
+
+378
+00:25:00,360 --> 00:25:05,800
+Yeah, that's out of the pod. We come growing. This is the dragon page winging it
+
+379
+00:25:06,920 --> 00:25:08,920
+The kick ass mystic ninjas
+
+380
+00:25:10,200 --> 00:25:15,720
+Hello everybody this is a joke most important. Oh Mike wants to open up a beer. It's got a little urine flavored
+
+381
+00:25:15,720 --> 00:25:17,800
+Michael, how do you recognize a flavor of your
+
+382
+00:25:21,800 --> 00:25:24,600
+We're lonely. We're so lonely
+
+383
+00:25:25,560 --> 00:25:32,360
+Yeah, they couldn't have showed up at a worst possible time
+
+384
+00:25:33,240 --> 00:25:36,520
+It's irresponsible. It's irreversible. It's irreversible
+
+385
+00:25:37,720 --> 00:25:41,160
+The dragon page what some guys do instead of dating
+
+386
+00:25:41,960 --> 00:25:46,840
+I have so much dick you wouldn't believe it massive amounts of dick. I'm going on a dickathon.
+
+387
+00:25:47,400 --> 00:25:49,400
+Uh-oh, really?
+
+388
+00:25:51,160 --> 00:25:53,160
+Holy cow
+
+389
+00:25:54,600 --> 00:25:56,600
+Oh
+
+390
+00:25:58,520 --> 00:26:07,240
+My word okay time for an Evo cult update Lynn wants to know Michael when you get your cult
+
+391
+00:26:17,560 --> 00:26:20,200
+Oh, you made a lot of people very happy
+
+392
+00:26:24,680 --> 00:26:30,520
+Right, yeah, you can stop it right there at that time. I'm just preparing to go like rub people's bodies for that
+
+393
+00:26:30,840 --> 00:26:35,240
+You have no idea our arms are so tired from our own stroke stop
+
+394
+00:26:36,360 --> 00:26:38,360
+Not touching that
+
+395
+00:26:38,360 --> 00:26:40,360
+Not touching that at all
+
+396
+00:26:44,040 --> 00:26:46,040
+I do not laugh like Scooby-Doo
+
+397
+00:26:54,600 --> 00:27:00,200
+Music now on daily source code episode 261 as I stand here my White House code and my black oak boots
+
+398
+00:27:00,840 --> 00:27:08,120
+Wanting to play this one for a couple of days actually funny got some time love spirals and walk away
+
+399
+00:27:24,680 --> 00:27:32,680
+All bats just want to take it on me
+
+400
+00:27:37,640 --> 00:27:38,440
+記
+
+401
+00:27:49,720 --> 00:27:51,720
+Close to the Fire
+
+402
+00:27:54,600 --> 00:27:59,600
+Really burn our hands
+
+403
+00:28:01,600 --> 00:28:06,600
+I won't believe it at heart
+
+404
+00:28:07,600 --> 00:28:12,600
+So then drop it to the sins
+
+405
+00:28:13,600 --> 00:28:19,600
+I won't go away
+
+406
+00:28:20,600 --> 00:28:26,600
+So now you're on my way
+
+407
+00:28:29,600 --> 00:28:32,600
+I'm on my way
+
+408
+00:28:33,600 --> 00:28:38,600
+So I feel safe again
+
+409
+00:28:49,600 --> 00:28:54,600
+So now you're on my way
+
+410
+00:28:55,600 --> 00:29:00,600
+So now you're on my way
+
+411
+00:29:01,600 --> 00:29:07,600
+So now you're on my way
+
+412
+00:29:08,600 --> 00:29:14,600
+And now you're on my way
+
+413
+00:29:15,600 --> 00:29:21,600
+Take a chance anymore
+
+414
+00:29:22,600 --> 00:29:27,600
+No, I'll go away
+
+415
+00:29:28,600 --> 00:29:33,600
+I'm on my way
+
+416
+00:29:35,600 --> 00:29:39,600
+I'm on my way
+
+417
+00:29:40,600 --> 00:29:45,600
+So now you're on my way
+
+418
+00:29:49,600 --> 00:29:52,600
+I'm on my way
+
+419
+00:29:53,600 --> 00:29:58,600
+So now you're on my way
+
+420
+00:30:01,600 --> 00:30:06,600
+I won't go away
+
+421
+00:30:07,600 --> 00:30:11,600
+So now you're on my way
+
+422
+00:30:20,600 --> 00:30:25,600
+So now you're on my way
+
+423
+00:30:36,600 --> 00:30:45,600
+This is one of the minor drawbacks of podcasting
+
+424
+00:30:46,600 --> 00:30:50,600
+You know when you get to choose the music and get to take care of everything yourself
+
+425
+00:30:51,600 --> 00:30:53,600
+Which is just beautiful
+
+426
+00:30:54,600 --> 00:30:57,600
+People who have worked in radio
+
+427
+00:30:57,600 --> 00:30:59,600
+No one I'm talking about it so nice
+
+428
+00:31:00,600 --> 00:31:02,600
+Not to get handed a list by a producer or a computer
+
+429
+00:31:03,600 --> 00:31:07,600
+Is that used play stuff that kind of fits the mood that you're in at the time you're doing the show
+
+430
+00:31:08,600 --> 00:31:11,600
+And it may not always be the exact same mood for you
+
+431
+00:31:12,600 --> 00:31:13,600
+If we're raining I might play some different songs
+
+432
+00:31:14,600 --> 00:31:15,600
+And it may not be raining when you are
+
+433
+00:31:16,600 --> 00:31:18,600
+So that's kind of a disconnect
+
+434
+00:31:19,600 --> 00:31:21,600
+But yet in a strange way a great connect
+
+435
+00:31:22,600 --> 00:31:24,600
+Because you kind of know what the vibe is
+
+436
+00:31:25,600 --> 00:31:28,600
+And I actually I brought my eyesight along with me
+
+437
+00:31:28,600 --> 00:31:31,600
+I'm contemplated recording recording video
+
+438
+00:31:32,600 --> 00:31:34,600
+I guess what I could do is I could record the entire show
+
+439
+00:31:35,600 --> 00:31:36,600
+Excuse me
+
+440
+00:31:37,600 --> 00:31:40,600
+In quick time if you have quick time I guess you have to have quick time seven
+
+441
+00:31:41,600 --> 00:31:43,600
+And you have to have the pro version but then you can just record a new video clip
+
+442
+00:31:44,600 --> 00:31:50,600
+And records an MPEG video which is of course exactly right and formatted for the iPod
+
+443
+00:31:51,600 --> 00:31:54,600
+And it might be funny to do that
+
+444
+00:31:55,600 --> 00:31:58,600
+I'm particularly funny to see what I do during the songs
+
+445
+00:31:59,600 --> 00:32:01,600
+I'm doing all kinds of stuff
+
+446
+00:32:02,600 --> 00:32:07,600
+So when I get a new power book or maybe if I get the iMac or something has a hard drive built in
+
+447
+00:32:08,600 --> 00:32:09,600
+I'll look into doing that
+
+448
+00:32:10,600 --> 00:32:13,600
+That's what I guess that's what Mary and Carla are doing
+
+449
+00:32:14,600 --> 00:32:16,600
+That Mary and Carla show man I told you about that right
+
+450
+00:32:17,600 --> 00:32:20,600
+So first they had those two guys they were podcast off
+
+451
+00:32:21,600 --> 00:32:23,600
+They were potting off against them
+
+452
+00:32:24,600 --> 00:32:28,600
+They're potting off back and forth with the tipsy girls tipsy chicks
+
+453
+00:32:29,600 --> 00:32:31,600
+You got to check that show out tipsy chicks
+
+454
+00:32:32,600 --> 00:32:34,600
+I think it's tipsy chicks dot com they're an iTunes
+
+455
+00:32:35,600 --> 00:32:36,600
+And it's kind of
+
+456
+00:32:37,600 --> 00:32:41,600
+It's funny because I think they're all they're all really smart and they're all very creative and talented
+
+457
+00:32:42,600 --> 00:32:45,600
+But now it's kind of like okay the tipsy chicks think that Mary and Carla
+
+458
+00:32:46,600 --> 00:32:47,600
+Okay, they're
+
+459
+00:32:48,600 --> 00:32:50,600
+They think that they're kind of dipsy
+
+460
+00:32:50,600 --> 00:32:55,600
+Oh man I've got to play the you know they they responded to me playing the promo and they shook their ass on the show for me
+
+461
+00:32:56,600 --> 00:33:00,600
+I got to play that for you. I'll make sure I do that for tomorrow's source code
+
+462
+00:33:01,600 --> 00:33:06,600
+Okay, we are at seven forty now and the minute I'm done with this show as it's uploading
+
+463
+00:33:07,600 --> 00:33:13,600
+I'm gonna hop on over to the office haven't seen the folks who will I've seen him on on video chat obviously on iChat
+
+464
+00:33:14,600 --> 00:33:17,600
+I'm excited to see everybody again and they have a demo
+
+465
+00:33:17,600 --> 00:33:23,600
+I think today at 2 o'clock they're gonna show me some of the new stuff for podshow dot com very very excited about it
+
+466
+00:33:48,600 --> 00:33:54,600
+To bring the world a steel guitar broadcast
+
+467
+00:33:56,600 --> 00:33:58,600
+Keynote
+
+468
+00:33:59,600 --> 00:34:00,600
+Every week
+
+469
+00:34:01,600 --> 00:34:03,600
+Potsafe steel get to our music
+
+470
+00:34:03,600 --> 00:34:17,600
+And nothing else
+
+471
+00:34:26,600 --> 00:34:30,600
+Potshow content that will make you squeeze the dog and burp your mother
+
+472
+00:34:31,600 --> 00:34:37,400
+Antibity in podcast antiquity the place for the latest down under news and views covering science
+
+473
+00:34:37,600 --> 00:34:40,600
+Knowledge by a tech the occasional weird and one of course
+
+474
+00:34:40,600 --> 00:34:46,600
+Sponsored music each week catch the wave and learn about how the bottom crowd contributes to global science and technology
+
+475
+00:34:47,600 --> 00:34:54,600
+You won't hear stories about sport beer drinking and rural races unless of course they have a techno band and typically in podcast download that and now at
+
+476
+00:34:55,600 --> 00:34:59,600
+Antibity in podcast dot com and while you're there subscribed to the theme hot news from the rest of the world
+
+477
+00:35:01,600 --> 00:35:05,600
+Antipodian anti-podian which I think is antipodian
+
+478
+00:35:06,600 --> 00:35:13,600
+If you're listening to this show on serious satellite channel 103 serious stars
+
+479
+00:35:14,600 --> 00:35:20,600
+This is the daily source code every day 603 Pacific followed by let's see what's today's lineup
+
+480
+00:35:21,600 --> 00:35:28,600
+Match wine steins, yeast radio and I've done a drew show on today after that then Steve Gilmore's attention text deep Gilmore's doing great
+
+481
+00:35:29,600 --> 00:35:33,600
+I don't I can't find the podcast of that show. I thought I was going to put it up on
+
+482
+00:35:34,600 --> 00:35:43,600
+Gilmore daily dot pot show dot com, but I haven't seen it there, so I'll now that I'm on the same time zone with them. I'll find out where they are because this is the show the new show is doing with the Mike Vizard
+
+483
+00:35:44,600 --> 00:35:46,600
+And it's like a half hour show a daily
+
+484
+00:35:47,600 --> 00:35:52,600
+Tech attention show. It's I like it. I've heard just a couple of them, but I want to hear every single one
+
+485
+00:35:52,600 --> 00:35:56,600
+I also haven't seen my serious satellite receiver. I got to see if maybe that was dropped off downstairs
+
+486
+00:35:57,600 --> 00:36:07,600
+Anyway, after a attention tech will have a DVD weekly with Don and Jared followed by CC Chapman's accident hash a full hour of the best in pod safe music
+
+487
+00:36:08,600 --> 00:36:11,600
+More features coming soon to the pod safe music network by the way
+
+488
+00:36:11,600 --> 00:36:20,600
+And we're still working. This is the week that we're actually meeting with a couple people regarding the unlabel concept and we're going to be talking to some folks about
+
+489
+00:36:21,600 --> 00:36:35,600
+About music licensing and boy, I've gotten so much feedback on this and I've been collecting everything and you know, it's stuff from like podcast Paul and and other lawyers people in the entertainment business
+
+490
+00:36:35,600 --> 00:36:40,600
+There's a lot of excitement about this and and as I've said many many times before we are recreating
+
+491
+00:36:41,600 --> 00:36:45,600
+The music business. There's no different than the changes we've seen in in history
+
+492
+00:36:45,600 --> 00:36:51,600
+When technological change came along with social change and new music forms were born and
+
+493
+00:36:52,600 --> 00:36:58,600
+You know, and industries had to more literally overnight in order to you know, or to even be able to keep up
+
+494
+00:36:59,600 --> 00:37:00,600
+Hey, Kurt
+
+495
+00:37:00,600 --> 00:37:08,600
+Digital slot pod the brand new podcast from universal press and get columnist Kurt Brando is already changing lives
+
+496
+00:37:09,600 --> 00:37:13,600
+I heard the first digital slot pod show and I woke up next day with a whole new view on life
+
+497
+00:37:13,600 --> 00:37:18,600
+Plus my surprise this was gone. I mean completely gone
+
+498
+00:37:20,600 --> 00:37:24,600
+I could barely believe it, but digital slot pod made me too much as taller
+
+499
+00:37:24,600 --> 00:37:28,600
+Finally, I could serve the web without my lifts
+
+500
+00:37:29,600 --> 00:37:32,600
+I took the digital slot quiz
+
+501
+00:37:32,600 --> 00:37:35,600
+Then I called my dad and he took it too
+
+502
+00:37:36,600 --> 00:37:39,600
+We we had spoken in eight years
+
+503
+00:37:40,600 --> 00:37:45,600
+Digital slot didn't just give me a good show. He gave me my life back
+
+504
+00:37:47,600 --> 00:37:53,600
+My friend told me to listen to the digital slot pod yesterday, and I said, are you kidding?
+
+505
+00:37:53,600 --> 00:37:58,600
+I don't even speak English, but hey you get me now
+
+506
+00:38:00,600 --> 00:38:07,600
+I know the digital slot called has an officially started yet, but I'm already telling people I'm at level seven
+
+507
+00:38:08,600 --> 00:38:13,600
+Listeners of the digital slot pod come away filled with gratitude
+
+508
+00:38:14,600 --> 00:38:16,600
+Thank you digital slot
+
+509
+00:38:17,600 --> 00:38:22,600
+Thank you digital slot, and please send me some brochures that I can pass out at the airport
+
+510
+00:38:23,600 --> 00:38:25,600
+Here, touch my head, G
+
+511
+00:38:25,600 --> 00:38:26,600
+Go ahead
+
+512
+00:38:26,600 --> 00:38:27,600
+Touch it
+
+513
+00:38:27,600 --> 00:38:29,600
+Speccy by digital slot
+
+514
+00:38:30,600 --> 00:38:31,600
+I love you daddy
+
+515
+00:38:31,600 --> 00:38:33,600
+I love you so much
+
+516
+00:38:34,600 --> 00:38:37,600
+Listen to the digital slot, digital slot.com
+
+517
+00:38:38,600 --> 00:38:40,600
+A better version of your life awaits
+
+518
+00:38:40,600 --> 00:38:42,600
+You just haven't downloaded it yet
+
+519
+00:38:45,600 --> 00:38:48,600
+Is something about Russian that kind of turns me on?
+
+520
+00:38:48,600 --> 00:38:49,600
+I don't know what it is
+
+521
+00:38:49,600 --> 00:38:52,600
+I noticed this when I was in in Russia
+
+522
+00:38:53,600 --> 00:38:57,600
+There's something about Russian girls speaking English that that's kind of cool
+
+523
+00:38:57,600 --> 00:38:59,600
+I wouldn't mind a promo for the source
+
+524
+00:38:59,600 --> 00:39:03,600
+You know, I've realized that I have never made a promo for the daily source code
+
+525
+00:39:03,600 --> 00:39:05,600
+I think it's also because I'm afraid to
+
+526
+00:39:05,600 --> 00:39:09,600
+People will be expecting so much creativity in such great production values
+
+527
+00:39:09,600 --> 00:39:11,600
+I don't think I can live up to the expectations
+
+528
+00:39:12,600 --> 00:39:14,600
+I should do that
+
+529
+00:39:14,600 --> 00:39:17,600
+Maybe I'll do that this week when I get the new, the new Max in
+
+530
+00:39:19,600 --> 00:39:22,600
+Oh, yes podcast expert, that's one I would talk about
+
+531
+00:39:22,600 --> 00:39:23,600
+So I'm definitely going
+
+532
+00:39:23,600 --> 00:39:26,600
+The idea is I'm going to go back in like 12 days
+
+533
+00:39:26,600 --> 00:39:29,600
+Go hang out with the girls for a full week
+
+534
+00:39:29,600 --> 00:39:32,600
+And then go straight to, I guess I'll fly to Los Angeles
+
+535
+00:39:32,600 --> 00:39:36,600
+And then we'll go, I think this place is, although it sounds like it's in Canada
+
+536
+00:39:36,600 --> 00:39:42,600
+It's not all that far from LA, maybe it's a reasonable drive from Los Angeles
+
+537
+00:39:44,600 --> 00:39:46,600
+So definitely going to go
+
+538
+00:39:46,600 --> 00:39:50,600
+And oh, by the way, please stop with all the offers for the helicopters and the
+
+539
+00:39:50,600 --> 00:39:53,600
+Biaches that just way too many offers for that, okay?
+
+540
+00:39:53,600 --> 00:39:54,600
+Stop it
+
+541
+00:39:54,600 --> 00:39:56,600
+Backtracks podcast
+
+542
+00:39:56,600 --> 00:39:58,600
+I think you know your hits backwards and forwards
+
+543
+00:39:58,600 --> 00:40:00,600
+Oh, yeah, you know what
+
+544
+00:40:00,600 --> 00:40:02,600
+Yeah, right
+
+545
+00:40:04,600 --> 00:40:08,600
+You're listening to the Backtracks podcast exclusively on the daily source code with Adam Curry
+
+546
+00:40:08,600 --> 00:40:12,600
+Hey Adam, you did pretty good on last week's Backtracks podcast quiz
+
+547
+00:40:12,600 --> 00:40:14,600
+We might have to make this a little bit more typical
+
+548
+00:40:14,600 --> 00:40:16,600
+Yeah, come on boy
+
+549
+00:40:16,600 --> 00:40:18,600
+Come on
+
+550
+00:40:18,600 --> 00:40:20,600
+Okay, here we go
+
+551
+00:40:20,600 --> 00:40:22,600
+Okay, I'm ready
+
+552
+00:40:22,600 --> 00:40:24,600
+Oh
+
+553
+00:40:34,600 --> 00:40:37,600
+Okay, I'm going to give up on that one
+
+554
+00:40:37,600 --> 00:40:38,600
+Yeah, time's up
+
+555
+00:40:38,600 --> 00:40:39,600
+Number two
+
+556
+00:40:47,600 --> 00:40:49,600
+Hey 19
+
+557
+00:40:49,600 --> 00:40:51,600
+I think that's what it is
+
+558
+00:40:51,600 --> 00:40:53,600
+It sounds very steely down there, so let's see if I'm right on the
+
+559
+00:40:53,600 --> 00:40:54,600
+Day 19
+
+560
+00:40:54,600 --> 00:40:55,600
+Number three
+
+561
+00:40:55,600 --> 00:40:56,600
+Number three
+
+562
+00:41:05,600 --> 00:41:07,600
+I know what boys like
+
+563
+00:41:07,600 --> 00:41:09,600
+I don't know who sings it, but I know what boys
+
+564
+00:41:09,600 --> 00:41:10,600
+God, that's an old one
+
+565
+00:41:10,600 --> 00:41:11,600
+That's a tough thing
+
+566
+00:41:11,600 --> 00:41:12,600
+Give me the answers
+
+567
+00:41:12,600 --> 00:41:13,600
+Okay, here the answers
+
+568
+00:41:13,600 --> 00:41:14,600
+Number one
+
+569
+00:41:21,600 --> 00:41:34,600
+I'm here's number two
+
+570
+00:41:34,600 --> 00:41:45,600
+Yeah, hey 19
+
+571
+00:41:45,600 --> 00:41:47,600
+Yeah
+
+572
+00:41:47,600 --> 00:41:51,600
+Give me some props
+
+573
+00:41:53,600 --> 00:41:55,600
+Number three
+
+574
+00:42:07,600 --> 00:42:09,600
+I know what boys like
+
+575
+00:42:09,600 --> 00:42:11,600
+So do I want it
+
+576
+00:42:11,600 --> 00:42:13,600
+I know what's fun
+
+577
+00:42:14,600 --> 00:42:19,600
+So how did you do out of two out of three
+
+578
+00:42:19,600 --> 00:42:20,600
+My friend
+
+579
+00:42:20,600 --> 00:42:23,600
+Thanks for joining us on this week's Backtracks podcast quiz
+
+580
+00:42:23,600 --> 00:42:26,600
+You can visit Backtracks podcast on the web at
+
+581
+00:42:26,600 --> 00:42:28,600
+Backtrackspodcast.com
+
+582
+00:42:28,600 --> 00:42:32,600
+Again, I have to work on on the cue points
+
+583
+00:42:32,600 --> 00:42:33,600
+All right, thank you very much
+
+584
+00:42:33,600 --> 00:42:35,600
+Awesome Backtracks podcast
+
+585
+00:42:35,600 --> 00:42:39,600
+This is a Carmen Tyler, Carmen with a Y and Tyler with a Y
+
+586
+00:42:39,600 --> 00:42:41,600
+Remember we played a couple of her songs
+
+587
+00:42:41,600 --> 00:42:43,600
+Which turned out to be covers
+
+588
+00:42:43,600 --> 00:42:45,600
+Well, she uploaded one of her own songs
+
+589
+00:42:45,600 --> 00:42:47,600
+This one I guess she wrote and composed that she's got
+
+590
+00:42:47,600 --> 00:42:49,600
+I think she has a team that she does this with
+
+591
+00:42:49,600 --> 00:42:51,600
+And this is just a demo she wanted me to say
+
+592
+00:42:51,600 --> 00:42:53,600
+But I definitely wanted to play it for you
+
+593
+00:42:53,600 --> 00:42:55,600
+Because this is her own work
+
+594
+00:42:55,600 --> 00:42:57,600
+You can find it on the pod save music network
+
+595
+00:42:57,600 --> 00:42:58,600
+at music.podshow.com
+
+596
+00:42:58,600 --> 00:43:00,600
+This is drifting
+
+597
+00:43:12,600 --> 00:43:16,600
+Hey guys
+
+598
+00:43:16,600 --> 00:43:20,600
+Was not so distant
+
+599
+00:43:20,600 --> 00:43:24,600
+But fine
+
+600
+00:43:24,600 --> 00:43:37,600
+You're sweet melody
+
+601
+00:43:37,600 --> 00:43:40,600
+Playing close to me
+
+602
+00:43:41,600 --> 00:43:44,600
+It's gone
+
+603
+00:43:49,600 --> 00:43:53,600
+Now all I have in me
+
+604
+00:43:53,600 --> 00:43:57,600
+Are all those memories
+
+605
+00:43:57,600 --> 00:44:02,600
+Of so long
+
+606
+00:44:02,600 --> 00:44:08,600
+Drifting
+
+607
+00:44:08,600 --> 00:44:21,600
+Far away from me
+
+608
+00:44:21,600 --> 00:44:25,600
+Drifting
+
+609
+00:44:25,600 --> 00:44:38,600
+What am I supposed to do?
+
+610
+00:44:38,600 --> 00:44:42,600
+My heart is still in twine
+
+611
+00:44:42,600 --> 00:44:46,600
+Oh yes, my love was blind
+
+612
+00:44:46,600 --> 00:44:51,600
+But now I realize
+
+613
+00:44:51,600 --> 00:44:56,600
+Where through
+
+614
+00:45:00,600 --> 00:45:04,600
+Come out to me
+
+615
+00:45:04,600 --> 00:45:16,600
+In my mind so distinct
+
+616
+00:45:17,600 --> 00:45:24,600
+You said you would remain
+
+617
+00:45:24,600 --> 00:45:31,600
+Close to me
+
+618
+00:45:33,600 --> 00:45:37,600
+We said our last goodbye
+
+619
+00:45:37,600 --> 00:45:42,600
+With tears in my eyes
+
+620
+00:45:42,600 --> 00:45:44,600
+No
+
+621
+00:45:46,600 --> 00:45:53,600
+I can't be on my stake
+
+622
+00:45:53,600 --> 00:45:58,600
+Oh how my heart is break
+
+623
+00:45:58,600 --> 00:46:03,600
+No
+
+624
+00:46:03,600 --> 00:46:09,600
+Drifting
+
+625
+00:46:09,600 --> 00:46:15,600
+Far away from me
+
+626
+00:46:15,600 --> 00:46:22,600
+Drifting
+
+627
+00:46:22,600 --> 00:46:30,600
+What am I supposed to do?
+
+628
+00:46:30,600 --> 00:46:43,600
+My heart is still in twine
+
+629
+00:46:43,600 --> 00:46:47,600
+Oh yes, my love was blind
+
+630
+00:46:47,600 --> 00:46:52,600
+But now I realize
+
+631
+00:46:52,600 --> 00:47:01,600
+Where through
+
+632
+00:47:01,600 --> 00:47:05,600
+Drifting
+
+633
+00:47:05,600 --> 00:47:12,600
+Far away from me
+
+634
+00:47:13,600 --> 00:47:20,600
+Drifting
+
+635
+00:47:20,600 --> 00:47:29,600
+What am I supposed to do?
+
+636
+00:47:29,600 --> 00:47:31,600
+Carmen Tyler
+
+637
+00:47:31,600 --> 00:47:33,600
+Drifting from the pod safe music network
+
+638
+00:47:33,600 --> 00:47:34,600
+You can find
+
+639
+00:47:34,600 --> 00:47:35,600
+Fuck
+
+640
+00:47:35,600 --> 00:47:37,600
+God damn it, I hate that shit
+
+641
+00:47:37,600 --> 00:47:38,600
+Why is it doing that?
+
+642
+00:47:38,600 --> 00:47:40,600
+Stupid ass mega-seg
+
+643
+00:47:40,600 --> 00:47:42,600
+Carmen Tyler
+
+644
+00:47:42,600 --> 00:47:44,600
+I almost want to do that again
+
+645
+00:47:44,600 --> 00:47:46,600
+Can I do that again?
+
+646
+00:47:46,600 --> 00:47:47,600
+Forget about it
+
+647
+00:47:47,600 --> 00:47:49,600
+That's irritating
+
+648
+00:47:49,600 --> 00:47:50,600
+Miss the end there
+
+649
+00:47:50,600 --> 00:47:52,600
+Okay, I'll fix all that stuff
+
+650
+00:47:52,600 --> 00:47:55,600
+So what am I going to try to do for
+
+651
+00:47:55,600 --> 00:47:57,600
+For the weeks that I'm out here at the condo
+
+652
+00:47:57,600 --> 00:47:59,600
+I'm going to try and keep in the rhythm
+
+653
+00:47:59,600 --> 00:48:01,600
+Now that I'm in the
+
+654
+00:48:01,600 --> 00:48:03,600
+Kind of in the get up very early mode
+
+655
+00:48:03,600 --> 00:48:05,600
+I was up at 515 this morning
+
+656
+00:48:05,600 --> 00:48:07,600
+I had set the alarm for 630
+
+657
+00:48:07,600 --> 00:48:08,600
+I really didn't get going
+
+658
+00:48:08,600 --> 00:48:10,600
+So I started recording the shows as you know
+
+659
+00:48:10,600 --> 00:48:11,600
+Around 10 past 7
+
+660
+00:48:11,600 --> 00:48:13,600
+I'm going to try and keep that up
+
+661
+00:48:13,600 --> 00:48:14,600
+So that we can have the show
+
+662
+00:48:14,600 --> 00:48:15,600
+Nice and early to you
+
+663
+00:48:15,600 --> 00:48:16,600
+That's the problem
+
+664
+00:48:16,600 --> 00:48:19,600
+And being on the west coast is your behind the times
+
+665
+00:48:19,600 --> 00:48:21,600
+You really are
+
+666
+00:48:21,600 --> 00:48:23,600
+Want to thank the sponsor for today's show
+
+667
+00:48:23,600 --> 00:48:24,600
+Logitech
+
+668
+00:48:24,600 --> 00:48:26,600
+On the show notes check out there
+
+669
+00:48:26,600 --> 00:48:27,600
+MM50
+
+670
+00:48:27,600 --> 00:48:28,600
+It's a great box
+
+671
+00:48:28,600 --> 00:48:29,600
+I use it
+
+672
+00:48:29,600 --> 00:48:31,600
+So there's an endorsement for you
+
+673
+00:48:31,600 --> 00:48:33,600
+And thank you Logitech for putting the upper
+
+674
+00:48:33,600 --> 00:48:34,600
+In the upper class
+
+675
+00:48:34,600 --> 00:48:36,600
+When I fly version of landing
+
+676
+00:48:37,600 --> 00:48:39,600
+Everybody have yourself a great week
+
+677
+00:48:39,600 --> 00:48:41,600
+Have yourself a great start of the week
+
+678
+00:48:41,600 --> 00:48:42,600
+This Monday
+
+679
+00:48:42,600 --> 00:48:44,600
+And we'll talk to each other tomorrow morning
+
+680
+00:48:44,600 --> 00:48:45,600
+Right here from the Curry condo
+
+681
+00:48:45,600 --> 00:48:46,600
+So take care
+
+682
+00:48:46,600 --> 00:48:47,600
+And bye bye
+
+683
+00:48:49,600 --> 00:48:51,600
+Need to fill this thing up
+
+684
+00:48:57,600 --> 00:48:59,600
+Talk to you tomorrow
+
