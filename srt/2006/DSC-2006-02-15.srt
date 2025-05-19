@@ -1,0 +1,1964 @@
+1
+00:00:00,000 --> 00:00:03,480
+Delta Sierra Charley, three, three, six.
+
+2
+00:00:03,480 --> 00:00:04,680
+Hey, everybody, how you doing?
+
+3
+00:00:04,680 --> 00:00:11,240
+It's Adam coming to you from the Tribeca Grand Hotel in New York, which is still
+
+4
+00:00:11,240 --> 00:00:15,960
+all slushy and cold yet we had a beautiful day.
+
+5
+00:00:15,960 --> 00:00:22,400
+It was a nice and sunny and a perfect day to go rushing around from office building to office
+
+6
+00:00:22,400 --> 00:00:27,040
+building and planning to talk about in the daily source code.
+
+7
+00:00:27,040 --> 00:00:30,680
+Like, I got to admit, I have not done a lot of preparation.
+
+8
+00:00:30,680 --> 00:00:38,760
+It's really early Wednesday morning and PWFent and I will be off to the serious headquarters
+
+9
+00:00:38,760 --> 00:00:42,400
+in just a little bit and we're going to spend a whole day there.
+
+10
+00:00:42,400 --> 00:00:46,000
+There's lots of exciting things that we're talking about and we're going to get a lot of
+
+11
+00:00:46,000 --> 00:00:52,640
+feedback about how the pod shows have been doing and just a lot of good stuff, which
+
+12
+00:00:52,640 --> 00:00:55,120
+of course will report on on the second.
+
+13
+00:00:55,120 --> 00:00:56,120
+Is that my?
+
+14
+00:00:56,120 --> 00:01:02,480
+Already someone trying to really on the blackberry, my goodness, but I just wanted to start
+
+15
+00:01:02,480 --> 00:01:06,840
+the show off with a couple of words.
+
+16
+00:01:06,840 --> 00:01:15,880
+I really wanted to say how incredibly proud I am to be a member of the podcast community.
+
+17
+00:01:15,880 --> 00:01:24,120
+For all the differences of opinions we have regarding many different aspects of our craft,
+
+18
+00:01:24,200 --> 00:01:35,400
+of our business, of our talents, of our emotions, our criticisms, our flaws, all of it,
+
+19
+00:01:35,400 --> 00:01:38,920
+all the differences that we have and all the things that we sometimes get into very heated
+
+20
+00:01:38,920 --> 00:01:39,920
+debate about.
+
+21
+00:01:39,920 --> 00:01:50,480
+It has been so beautiful to see just the complete outpouring of love for a fellow podcaster,
+
+22
+00:01:50,800 --> 00:01:56,560
+who suffered a great loss in our personal life in the past week.
+
+23
+00:01:56,560 --> 00:02:04,560
+This has been the personal tragedy has really been going on for several months and I've
+
+24
+00:02:04,560 --> 00:02:12,400
+been very, I guess it's close to it as I could have been.
+
+25
+00:02:12,400 --> 00:02:18,720
+Just to see how everyone has put all these differences and opinions and all that crap behind
+
+26
+00:02:19,360 --> 00:02:21,360
+them.
+
+27
+00:02:21,360 --> 00:02:26,960
+I'll probably get to the comment later on as I go through my Gmail on the show today, but
+
+28
+00:02:29,680 --> 00:02:35,520
+I think it was robbed from top of the pods in the UK who sent me just a beautiful email
+
+29
+00:02:35,520 --> 00:02:42,800
+and he said, how amazing it is that if what had happened, the passing of a loved one had
+
+30
+00:02:42,880 --> 00:02:48,560
+happened to a celebrity in the, quote, mainstream world, paparazzi would have been, you know,
+
+31
+00:02:48,560 --> 00:02:54,320
+trying to get horrible pictures and trying to trump up the drama story and really the media just
+
+32
+00:02:54,320 --> 00:03:00,640
+feeds like a frenzy on that stuff. And in pod casting, which of course is the new media, we're
+
+33
+00:03:00,640 --> 00:03:06,240
+seeing something completely different and so beautiful. First of all, the fact that magic would
+
+34
+00:03:06,320 --> 00:03:15,280
+even do a podcast at this time, this time in our life and everything that's going on.
+
+35
+00:03:16,160 --> 00:03:21,520
+And last night, I was literally awake until three in the morning just listening to the the most recent
+
+36
+00:03:21,520 --> 00:03:28,160
+East radio is such a incredibly brave thing that she did and just poured all that love right back to
+
+37
+00:03:28,160 --> 00:03:36,080
+us again. How we've responded, how we reacted really, really, really makes me believe that human
+
+38
+00:03:36,240 --> 00:03:43,840
+scenes definitely can be good. So I wanted to play a song from the pod set music network,
+
+39
+00:03:43,840 --> 00:03:49,600
+which just popped up and seemed so appropriate. It's a good day.
+
+40
+00:04:06,080 --> 00:04:14,400
+I'm going to talk about the bad day of my friend, all the fact that we are here,
+
+41
+00:04:17,120 --> 00:04:27,600
+that makes today a good day, a good day, a good day, a good day. We've got this time to rise and
+
+42
+00:04:27,600 --> 00:04:33,200
+shine just another day in this life of mine and take up a deep breath. My lungs still took
+
+43
+00:04:33,200 --> 00:04:38,240
+past these. We got to be a good day. We got to have to be stretched out. My arms, eyes,
+
+44
+00:04:38,240 --> 00:04:43,760
+hail out, my worries. We too bananas. No end with the possibilities. These are mine, it feels
+
+45
+00:04:43,760 --> 00:04:48,960
+my bloodline. Never so becomes cold as I swing from the fire in my concern with time.
+
+46
+00:04:48,960 --> 00:04:53,920
+I finally feel fine, days as it should be of my own design. There's no alarm clock.
+
+47
+00:04:53,920 --> 00:04:57,520
+He knew when I'll rest, sleep and dream mine, to Katie and rhythm's all.
+
+48
+00:04:57,520 --> 00:05:02,720
+All that I need and I introduce a bad day and I'm on choose to be because you can have a good day
+
+49
+00:05:02,720 --> 00:05:08,320
+unless you believe. Every day good and bad will be around. So let's focus on listening to the
+
+50
+00:05:08,320 --> 00:05:18,880
+path that it sounds a little bit higher. I'm going to talk about the bad day of my friend,
+
+51
+00:05:18,880 --> 00:05:27,920
+all the fact that we are here, that makes today a good day.
+
+52
+00:05:32,720 --> 00:05:46,600
+So let's talk about the bad day in my breath, all the fact that we are here, that makes
+
+53
+00:05:46,600 --> 00:05:54,080
+today a good day.
+
+54
+00:05:54,080 --> 00:06:00,320
+So let's talk about the bad day in my breath, all the fact that we are here, that makes
+
+55
+00:06:00,320 --> 00:06:05,680
+today a good day. So let's talk about the bad day in my breath, all the fact that we are here,
+
+56
+00:06:05,680 --> 00:06:10,480
+that makes today a good day. So let's talk about the bad day of my friend,
+
+57
+00:06:10,480 --> 00:06:15,520
+all the fact that we are here, that makes today a good day. So let's talk about the bad day of my
+
+58
+00:06:15,520 --> 00:06:20,160
+breath, all the fact that we are here, that makes today a good day. So let's talk about the bad day of my
+
+59
+00:06:20,160 --> 00:06:30,160
+breath, all the fact that we are here, that makes today a good day of my breath, all the fact that we are here, that makes today a good day.
+
+60
+00:06:30,160 --> 00:06:36,160
+So let's talk about the bad day of my breath, all the fact that we are here, that makes today a good day of my breath,
+
+61
+00:06:36,160 --> 00:06:52,160
+all the fact that we are here, that makes today a good day of my breath, all the fact that we are here,
+
+62
+00:06:52,160 --> 00:07:18,160
+that makes today a good day of my breath, all the fact that we are here, that makes today a good day.
+
+63
+00:07:18,160 --> 00:07:40,160
+So let's talk about the bad day of my breath, all the fact that we are here, that makes today a good day of my breath,
+
+64
+00:07:40,160 --> 00:07:50,160
+all the fact that we are here, that makes today a good day.
+
+65
+00:08:10,160 --> 00:08:26,160
+So let's talk about the bad day of my breath, all the fact that we are here, that makes today a good day of my breath, all the fact that we are here,
+
+66
+00:08:26,160 --> 00:08:53,160
+that makes today a good day of my breath, all the fact that we are here, that makes today a good day of my breath,
+
+67
+00:08:53,160 --> 00:09:16,160
+all the fact that we are here, that makes today a good day of my breath, all the fact that we are here, that makes today a good day of my breath,
+
+68
+00:09:16,160 --> 00:09:37,160
+all the fact that we are here, that makes today a good day of my breath, all the fact that we are here, that makes today a good day of my breath,
+
+69
+00:09:37,160 --> 00:09:58,160
+all the fact that we are here, that makes today a good day of my breath, all the fact that we are here, that makes today a good day of my breath,
+
+70
+00:09:58,160 --> 00:10:13,160
+all the fact that we are here, that makes today a good day of my breath, all the fact that we are here, that makes today a good day of my breath,
+
+71
+00:10:13,160 --> 00:10:27,160
+just several times that we have a lot of work to do on helping the marketers and advertisers who are interested in working with podcasters and other independent producers,
+
+72
+00:10:27,160 --> 00:10:37,160
+help them understand the same monumental shift that we have already gotten used to and are still seeing happening before a very eyes,
+
+73
+00:10:37,160 --> 00:10:51,160
+there is still a lot of what I call a lot of, I used to call like, we call my God, coffee television,
+
+74
+00:10:51,160 --> 00:10:56,160
+coffee television means when someone is talking about coffee, then you see a cup of coffee on the screen,
+
+75
+00:10:56,160 --> 00:11:06,160
+and for advertising, it is like, well, if we are going to advertise, what is a good example,
+
+76
+00:11:06,160 --> 00:11:18,160
+medicine, then we have to go to medical websites, where now that we have this extremely relevant conversation that podcasters are having with their audience,
+
+77
+00:11:18,160 --> 00:11:27,160
+you know, we need to look way, way, way beyond that, and I have gotten actual offers for sponsorship of the metro sexual moment,
+
+78
+00:11:27,160 --> 00:11:36,160
+I tried out the, I did try out the Gillette Fusion this morning, and God, those guys, I mean,
+
+79
+00:11:36,160 --> 00:11:43,160
+I guess it does make a difference, the difference between three blades and five blades makes it tremendous difference,
+
+80
+00:11:43,160 --> 00:11:52,160
+so as I said, I really don't have anything prepared, but just to kind of talk to you about some of the stuff that I've been learning,
+
+81
+00:11:52,160 --> 00:12:05,160
+last night had a great little hang with Andrew, Andrew is half a rocket boom, if you have not seen this video podcast, then you are missing out on something incredibly exciting,
+
+82
+00:12:05,160 --> 00:12:14,160
+rocket boom.com, Amanda, is the host of the show, but she also works behind the scenes with her business partner Andrew,
+
+83
+00:12:14,160 --> 00:12:21,160
+how they met and everything is just a story by itself, and it was great, we shared some Valentine lobster,
+
+84
+00:12:21,160 --> 00:12:30,160
+which was being served in the hotel lobby like snobbs, but wow, what an interesting guy, and what an interesting project,
+
+85
+00:12:30,160 --> 00:12:38,160
+and just to hear all the thought that has gone into into this and the history behind it was absolutely fascinating,
+
+86
+00:12:38,160 --> 00:12:48,160
+and as I go through my Gmail inbox here, which, by the way, is totally filling up again, let me just see some of the things we got here,
+
+87
+00:12:48,160 --> 00:12:59,160
+right off the bat, what is this, from Tony McNamara, and I have not heard any of these, because I have about 80 different pieces of audio feedback,
+
+88
+00:12:59,160 --> 00:13:08,160
+sitting in my source code in mohux, rocket boom, auction and shaving oil, and century burgers, now that sounds like something I need to listen to.
+
+89
+00:13:08,160 --> 00:13:14,160
+Hi Adam, blog it here, by now you've seen that rocket boom's eBay auction went from 15,000 to 40,000,
+
+90
+00:13:14,160 --> 00:13:22,160
+basically overnight, right as the auction closed, that's how eBay auctions always go, I thought I'd let you know that that's because everybody uses a sniping tool,
+
+91
+00:13:22,160 --> 00:13:29,160
+which is designed to allow you to put in your auction value at the very last second so that nobody else can see it and decide they really want to spend more.
+
+92
+00:13:29,160 --> 00:13:35,160
+It helps keep the prices down, on the meta-sexual front, I don't consider myself a meta-sexual,
+
+93
+00:13:35,160 --> 00:13:43,160
+but I do use the art of shaving oil after you wash before you shave to reduce razor burn, and it is fantastic.
+
+94
+00:13:43,160 --> 00:13:51,160
+And lastly, I'm a lapsed VFR pilot, I like century burgers, which was when you rent an airplane and fly from one city to another,
+
+95
+00:13:51,160 --> 00:14:00,160
+like Los Angeles to Santa Barbara, get yourself a hamburger with some friends, and then fly back, the total thing cost you about a hundred dollars due to plain rental,
+
+96
+00:14:00,160 --> 00:14:07,160
+and any house, so I am a qualified pilot, and I can wish you well and say thanks for the great shows, and hey, tailwinds!
+
+97
+00:14:07,160 --> 00:14:14,160
+That's right, that's so funny, only mention that once or twice that I felt that you can only say tailwinds if you're a pilot,
+
+98
+00:14:14,160 --> 00:14:19,160
+and now I get all these people saying, well listen, my dad was a pilot, so I think I can say tailwinds, okay?
+
+99
+00:14:19,160 --> 00:14:22,160
+So tailwinds back at your buddy, thank you very much.
+
+100
+00:14:23,160 --> 00:14:31,160
+Yes, indeed, saw that, and in addition to that, and this is just fantastic, and I promise you that these changes were coming,
+
+101
+00:14:31,160 --> 00:14:36,160
+EarthLink has purchased a second week of sponsorship on Rocket Boom.
+
+102
+00:14:36,160 --> 00:14:46,160
+EarthLink, the company that you know, started supporting podcasting a couple months ago, primarily on the Pod Show Podcast Network,
+
+103
+00:14:46,160 --> 00:14:53,160
+and through your feedback, and again, we promised that we would be sharing all of this with everyone that we're working with,
+
+104
+00:14:53,160 --> 00:15:01,160
+they have now completely gone in the direction that we have been pointing them.
+
+105
+00:15:01,160 --> 00:15:08,160
+And in this case, very much, and I'm really speaking on behalf of the daily source code in this case,
+
+106
+00:15:08,160 --> 00:15:13,160
+they want to give it a try, they want to give this user-generated advertising,
+
+107
+00:15:13,160 --> 00:15:16,160
+because just basically what we've been talking about, want to give it a try.
+
+108
+00:15:16,160 --> 00:15:22,160
+And let's see if we can come up with some great advertising that sticks, and of course, you're going to be creating it.
+
+109
+00:15:22,160 --> 00:15:29,160
+You, audience, hello, podcasters, listeners, fellow countrymen, and enemies alike.
+
+110
+00:15:29,160 --> 00:15:37,160
+You're going to be judging it, and after a quick conversation with Chris, and we won't actually start with this until, until March.
+
+111
+00:15:37,160 --> 00:15:44,160
+So we have a little time to prepare for it, but the idea is that you give us the best commercial.
+
+112
+00:15:44,160 --> 00:15:50,160
+The winner will actually go into rotation, and we'll get a prize for that, which will include cash,
+
+113
+00:15:50,160 --> 00:15:54,160
+just like you actually worked in the business.
+
+114
+00:15:54,160 --> 00:15:57,160
+Oh my gosh, guess what, it's working.
+
+115
+00:15:57,160 --> 00:16:00,160
+We're able to sustain ourselves.
+
+116
+00:16:00,160 --> 00:16:05,160
+And I said, you know, start thinking about it, start thinking about if you want to participate, what you want to do.
+
+117
+00:16:06,160 --> 00:16:11,160
+This is your chance, and I'm looking for a lot of names who said that this was really wrong.
+
+118
+00:16:11,160 --> 00:16:17,160
+I'm looking for you to really provide some input here, whether it's on the creative side or on the judging side, et cetera.
+
+119
+00:16:17,160 --> 00:16:22,160
+And somehow, I'm going to have to figure out how to produce all this stuff and get it all in there.
+
+120
+00:16:22,160 --> 00:16:27,160
+But immediately, it was a Jennifer Navarret, Navarretti Navarretti.
+
+121
+00:16:27,160 --> 00:16:32,160
+From the morning brew cast, sent me an email.
+
+122
+00:16:32,160 --> 00:16:36,160
+Well, here's our take on a podcaster ad for Earthlink again.
+
+123
+00:16:36,160 --> 00:16:37,160
+I've not heard it.
+
+124
+00:16:37,160 --> 00:16:43,160
+Let me just actually open it up here, and literally opening these files as we speak from Gmail.
+
+125
+00:16:43,160 --> 00:16:45,160
+And let's see what this is.
+
+126
+00:16:45,160 --> 00:16:46,160
+Okay.
+
+127
+00:16:46,160 --> 00:16:47,160
+It's coming.
+
+128
+00:16:47,160 --> 00:16:48,160
+Hi, Adam.
+
+129
+00:16:48,160 --> 00:16:50,160
+This is Jennifer with the morning brew cast.
+
+130
+00:16:50,160 --> 00:16:55,160
+I was listening to DSC334 in reference to podcaster Earthlink commercials.
+
+131
+00:16:55,160 --> 00:17:01,160
+My husband, John and I took up the challenge and have recorded our own Earthlink commercial.
+
+132
+00:17:01,160 --> 00:17:04,160
+Do you believe anything is possible?
+
+133
+00:17:04,160 --> 00:17:05,160
+We do.
+
+134
+00:17:05,160 --> 00:17:06,160
+We're actually...
+
+135
+00:17:06,160 --> 00:17:07,160
+Ugh.
+
+136
+00:17:07,160 --> 00:17:08,160
+Thank goodness.
+
+137
+00:17:08,160 --> 00:17:10,160
+What's wrong, don't you like Earthlink?
+
+138
+00:17:10,160 --> 00:17:11,160
+Well, of course I do.
+
+139
+00:17:11,160 --> 00:17:14,160
+I've had high-speed internet service with Earthlink for over three years.
+
+140
+00:17:14,160 --> 00:17:17,160
+And I even have their phone service.
+
+141
+00:17:17,160 --> 00:17:20,160
+It's just that I'm so tired of those same commercials.
+
+142
+00:17:20,160 --> 00:17:24,160
+Well, how are they supposed to let people know about their service if they don't run commercials?
+
+143
+00:17:24,160 --> 00:17:25,160
+Well, they could ask me.
+
+144
+00:17:25,160 --> 00:17:27,160
+I'm a satisfied Earthlink customer.
+
+145
+00:17:27,160 --> 00:17:29,160
+I'll be glad to tell them all about it.
+
+146
+00:17:29,160 --> 00:17:32,160
+Like I've never had a look at trouble with their service.
+
+147
+00:17:32,160 --> 00:17:33,160
+Yeah, right.
+
+148
+00:17:33,160 --> 00:17:36,160
+Do you imagine who wouldn't call in you about Earthlink?
+
+149
+00:17:38,160 --> 00:17:40,160
+Alright.
+
+150
+00:17:40,160 --> 00:17:42,160
+And the editing done with the...
+
+151
+00:17:42,160 --> 00:17:44,160
+With cut and paste, I guess.
+
+152
+00:17:44,160 --> 00:17:45,160
+Fantastic.
+
+153
+00:17:45,160 --> 00:17:46,160
+Thank you.
+
+154
+00:17:46,160 --> 00:17:50,160
+One thing I have learned from this is the repetitiveness of commercials.
+
+155
+00:17:50,160 --> 00:17:55,160
+Where in traditional media, that works really, really well because let's face it.
+
+156
+00:17:55,160 --> 00:17:59,160
+So you're not listening to a radio state to the same station 24 hours a day.
+
+157
+00:17:59,160 --> 00:18:05,160
+So in a 24-hour period, an advertiser may throw out, I'll just pick a number, maybe 50 commercials.
+
+158
+00:18:05,160 --> 00:18:10,160
+The chance that you're going to hear it is maybe once and maybe the volume will be really soft.
+
+159
+00:18:10,160 --> 00:18:17,160
+And you know, then maybe the second time you hear it, the Dutolim Dume of Earthlink will catch you for a second.
+
+160
+00:18:17,160 --> 00:18:21,160
+You know, it could be any number of times.
+
+161
+00:18:21,160 --> 00:18:26,160
+But you know, that repetition basically starts to grab your attention and maybe it's a hook, maybe it's funny,
+
+162
+00:18:26,160 --> 00:18:29,160
+or maybe it's a product that you're thinking of, of thinking of buying.
+
+163
+00:18:29,160 --> 00:18:39,160
+And then it all starts to come together, but on a podcast where, you know, the serialized nature of it is you're probably going to listen to, you know,
+
+164
+00:18:39,160 --> 00:18:41,160
+listen to the podcast regularly.
+
+165
+00:18:41,160 --> 00:18:46,160
+And if the advertiser is like playing the same song over and over because you'd hear it over and over.
+
+166
+00:18:46,160 --> 00:18:49,160
+It's like playing the same promo over and over.
+
+167
+00:18:49,160 --> 00:18:50,160
+Man, I get enough comments.
+
+168
+00:18:50,160 --> 00:18:55,160
+Just to my opener, please, it wouldn't mind you sending me some more cool ones.
+
+169
+00:18:55,160 --> 00:18:59,160
+So that's, that's just something that definitely does not work.
+
+170
+00:18:59,160 --> 00:19:02,160
+This, this got to be at least variation otherwise.
+
+171
+00:19:02,160 --> 00:19:06,160
+It's just mind numbing completely mind numbing.
+
+172
+00:19:06,160 --> 00:19:11,160
+So that's a big takeaway from what we're learning here in podcasting.
+
+173
+00:19:11,160 --> 00:19:15,160
+Let me just see if there's, oh yeah, what was this?
+
+174
+00:19:15,160 --> 00:19:17,160
+You have a new booty call message.
+
+175
+00:19:17,160 --> 00:19:19,160
+This is probably span.
+
+176
+00:19:19,160 --> 00:19:22,160
+Now it is too bad.
+
+177
+00:19:22,160 --> 00:19:24,160
+Ah, darn it all.
+
+178
+00:19:24,160 --> 00:19:27,160
+Let me see if we got any good stuff here.
+
+179
+00:19:27,160 --> 00:19:30,160
+Sanvertizing promo.
+
+180
+00:19:30,160 --> 00:19:32,160
+Are you at risk?
+
+181
+00:19:32,160 --> 00:19:34,160
+Mm-hmm.
+
+182
+00:19:34,160 --> 00:19:37,160
+Let me see how my goodness,
+
+183
+00:19:37,160 --> 00:19:40,160
+a new song, Danish cartoons.
+
+184
+00:19:40,160 --> 00:19:44,160
+Well, I really don't feel like doing any of that.
+
+185
+00:19:44,160 --> 00:19:46,160
+Nothing from Roger Smalls yet.
+
+186
+00:19:46,160 --> 00:19:49,160
+I'm really missing some, oh, what's this?
+
+187
+00:19:49,160 --> 00:19:50,160
+You're so innocent.
+
+188
+00:19:50,160 --> 00:19:52,160
+Something about Roger.
+
+189
+00:19:52,160 --> 00:19:54,160
+Oh, that's interesting.
+
+190
+00:19:54,160 --> 00:19:57,160
+Just listening to the Valentine's edition of Delhi source code.
+
+191
+00:19:57,160 --> 00:20:00,160
+Love the fact that Roger's ringtone is getting itself out there.
+
+192
+00:20:00,160 --> 00:20:04,160
+And without the need for a million dollars worth of advertising and MTV,
+
+193
+00:20:04,160 --> 00:20:07,160
+we've worked a lot on ringtones and our projects to open up the mobile phone
+
+194
+00:20:07,160 --> 00:20:08,160
+in terms of content.
+
+195
+00:20:08,160 --> 00:20:09,160
+This is interesting.
+
+196
+00:20:09,160 --> 00:20:13,160
+It's www.c21tones.
+
+197
+00:20:13,160 --> 00:20:19,160
+And you can actually find the ring, the Roger Smalls ringtone there.
+
+198
+00:20:19,160 --> 00:20:21,160
+And it's free.
+
+199
+00:20:21,160 --> 00:20:25,160
+Of course, your normal network connection charges apply.
+
+200
+00:20:25,160 --> 00:20:29,160
+And it seems like there's something very interesting there.
+
+201
+00:20:29,160 --> 00:20:33,160
+www.c21tones.com.
+
+202
+00:20:33,160 --> 00:20:35,160
+Now I can play another song.
+
+203
+00:20:35,160 --> 00:20:37,160
+I'm going to keep it relatively short as I said.
+
+204
+00:20:38,160 --> 00:20:40,160
+It's funny.
+
+205
+00:20:40,160 --> 00:20:42,160
+In the time it takes to FTP.
+
+206
+00:20:42,160 --> 00:20:45,160
+All of the pod shows off to serious.
+
+207
+00:20:45,160 --> 00:20:48,160
+We could probably grab a cab and take a couple CDs.
+
+208
+00:20:48,160 --> 00:20:50,160
+And do it that way.
+
+209
+00:20:50,160 --> 00:20:55,160
+Oh, and there's also, oh, wow, this is really exciting.
+
+210
+00:20:55,160 --> 00:21:00,160
+I got a pretty serious interest.
+
+211
+00:21:00,160 --> 00:21:05,160
+And I think we're actually going to be able to get a bio diesel sponsor to come in
+
+212
+00:21:05,160 --> 00:21:07,160
+and start working with us.
+
+213
+00:21:07,160 --> 00:21:12,160
+And maybe sponsoring some segments and getting some more information out there.
+
+214
+00:21:12,160 --> 00:21:16,160
+You know me and the Trinity and the biodiesel.
+
+215
+00:21:16,160 --> 00:21:18,160
+Okay.
+
+216
+00:21:18,160 --> 00:21:20,160
+So we just do one promo then.
+
+217
+00:21:20,160 --> 00:21:21,160
+Let's do one promo.
+
+218
+00:21:21,160 --> 00:21:22,160
+Let's see.
+
+219
+00:21:22,160 --> 00:21:23,160
+What do we have here?
+
+220
+00:21:23,160 --> 00:21:25,160
+Man, it's over to promo.
+
+221
+00:21:25,160 --> 00:21:26,160
+This is horrible.
+
+222
+00:21:26,160 --> 00:21:29,160
+I'm glad we're going to keep this short one.
+
+223
+00:21:29,160 --> 00:21:31,160
+Come on.
+
+224
+00:21:31,160 --> 00:21:32,160
+Come on.
+
+225
+00:21:32,160 --> 00:21:33,160
+Come on.
+
+226
+00:21:33,160 --> 00:21:34,160
+Here it is.
+
+227
+00:21:35,160 --> 00:21:36,160
+Okay.
+
+228
+00:21:36,160 --> 00:21:38,160
+Let's listen to that then.
+
+229
+00:21:38,160 --> 00:21:42,160
+And then we'll play a song or two and we'll get out of here.
+
+230
+00:21:42,160 --> 00:21:43,160
+Oh, man.
+
+231
+00:21:43,160 --> 00:21:45,160
+This is coming from libson.
+
+232
+00:21:45,160 --> 00:21:47,160
+See, this is what I go through when I prepare the show.
+
+233
+00:21:47,160 --> 00:21:49,160
+I have to find all these things.
+
+234
+00:21:49,160 --> 00:21:51,160
+Then I have to download it when I wait for them.
+
+235
+00:21:51,160 --> 00:21:52,160
+Mmm.
+
+236
+00:21:52,160 --> 00:21:54,160
+But better.
+
+237
+00:21:54,160 --> 00:21:56,160
+I don't leave me.
+
+238
+00:21:56,160 --> 00:21:58,160
+I'll be getting her.
+
+239
+00:21:58,160 --> 00:22:01,160
+It's just a couple of guys talking shit.
+
+240
+00:22:01,160 --> 00:22:03,160
+Oh, man.
+
+241
+00:22:03,160 --> 00:22:08,160
+My name's not really Frank.
+
+242
+00:22:08,160 --> 00:22:14,160
+Who puts the odd impod in the ass in cast.
+
+243
+00:22:14,160 --> 00:22:17,160
+The Frank way to podcast.
+
+244
+00:22:17,160 --> 00:22:20,160
+This makes it feel like it's nice to be alive.
+
+245
+00:22:20,160 --> 00:22:23,160
+Try pulling a rusty needle out of your vein.
+
+246
+00:22:23,160 --> 00:22:24,160
+Now that's hard.
+
+247
+00:22:24,160 --> 00:22:25,160
+That's tough.
+
+248
+00:22:25,160 --> 00:22:26,160
+Insightful.
+
+249
+00:22:26,160 --> 00:22:29,160
+I'm going to spank your tongue with my penis.
+
+250
+00:22:30,160 --> 00:22:32,160
+Feel a hot sauce in the dirt.
+
+251
+00:22:32,160 --> 00:22:33,160
+Start.
+
+252
+00:22:33,160 --> 00:22:35,160
+Have a bone or all night.
+
+253
+00:22:35,160 --> 00:22:38,160
+Loose two hours of your life every week.
+
+254
+00:22:38,160 --> 00:22:41,160
+There are some jackasses that wish just mute us.
+
+255
+00:22:41,160 --> 00:22:43,160
+They're not only a revenant.
+
+256
+00:22:43,160 --> 00:22:45,160
+They're irrelevant.
+
+257
+00:22:45,160 --> 00:22:50,160
+We've lost all of our list.
+
+258
+00:22:50,160 --> 00:22:54,160
+Frank way to podcast.
+
+259
+00:22:54,160 --> 00:22:58,160
+Visit frankwit.com to listen to and or subscribe to the show.
+
+260
+00:22:58,160 --> 00:23:00,160
+It's fun like cancer.
+
+261
+00:23:00,160 --> 00:23:02,160
+Oh, that's stupid.
+
+262
+00:23:02,160 --> 00:23:05,160
+Oh, you guys are horrible.
+
+263
+00:23:05,160 --> 00:23:07,160
+Oh, man.
+
+264
+00:23:07,160 --> 00:23:10,160
+Now that's what I get for Jesus Christ.
+
+265
+00:23:10,160 --> 00:23:11,160
+That's what I see.
+
+266
+00:23:11,160 --> 00:23:14,160
+And you wonder why not all promos get played.
+
+267
+00:23:14,160 --> 00:23:16,160
+God darn it.
+
+268
+00:23:16,160 --> 00:23:17,160
+All right.
+
+269
+00:23:17,160 --> 00:23:21,160
+Those of you who enjoyed that lovely moment on serious stars 103.
+
+270
+00:23:21,160 --> 00:23:24,160
+Looks like we're going to be moving channels pretty soon.
+
+271
+00:23:24,160 --> 00:23:27,160
+I think we're moving even closer to God.
+
+272
+00:23:27,160 --> 00:23:28,160
+That's right.
+
+273
+00:23:28,160 --> 00:23:30,160
+We're going from I think 103 to 102.
+
+274
+00:23:30,160 --> 00:23:31,160
+And then 101 is Howard.
+
+275
+00:23:31,160 --> 00:23:33,160
+So we're almost there.
+
+276
+00:23:33,160 --> 00:23:35,160
+We're moving up in the world, everybody.
+
+277
+00:23:35,160 --> 00:23:38,160
+Those of you who are wondering what the heck is going on.
+
+278
+00:23:38,160 --> 00:23:43,160
+And if you only hang this for the first time as you scan through your 120 channels worth of entertainment,
+
+279
+00:23:43,160 --> 00:23:45,160
+this is podcasting.
+
+280
+00:23:45,160 --> 00:23:47,160
+This is where everything goes.
+
+281
+00:23:47,160 --> 00:23:51,160
+And if you want to hear the full experience, if you really want to feel it,
+
+282
+00:23:51,160 --> 00:23:54,160
+then feel free to come over to podshow.com.
+
+283
+00:23:54,160 --> 00:23:58,160
+And if you want to come directly to this show daily source code.com.
+
+284
+00:23:58,160 --> 00:24:03,160
+And that's we can download the entire show because we do continue after you all listening to Pacific Coast
+
+285
+00:24:03,160 --> 00:24:05,160
+Hellway.
+
+286
+00:24:05,160 --> 00:24:07,160
+And we'll have another match.
+
+287
+00:24:07,160 --> 00:24:10,160
+I think one to wisdom is going to be filling in once again.
+
+288
+00:24:10,160 --> 00:24:12,160
+I'd probably for the rest of this week.
+
+289
+00:24:12,160 --> 00:24:14,160
+Send me feedback if you're in your car.
+
+290
+00:24:14,160 --> 00:24:16,160
+And you think of it later on when you get home.
+
+291
+00:24:16,160 --> 00:24:17,160
+Adam at curie.com.
+
+292
+00:24:17,160 --> 00:24:21,160
+And again, daily source code.com where you can find new episodes of this show.
+
+293
+00:24:21,160 --> 00:24:26,160
+The extended versions of what you didn't hear in your motor vehicle.
+
+294
+00:24:26,160 --> 00:24:28,160
+Sidelight window closing for you guys.
+
+295
+00:24:28,160 --> 00:24:29,160
+I'll see you tomorrow.
+
+296
+00:24:29,160 --> 00:24:31,160
+PCH is next.
+
+297
+00:24:31,160 --> 00:24:33,160
+And let's wrap it up.
+
+298
+00:24:33,160 --> 00:24:36,160
+I have a whole bunch of really fun stuff that I'll be able to do tomorrow.
+
+299
+00:24:36,160 --> 00:24:39,160
+I want a little bit more rested.
+
+300
+00:24:39,160 --> 00:24:42,160
+And that'll be just before I go home.
+
+301
+00:24:42,160 --> 00:24:44,160
+So, oh shoot.
+
+302
+00:24:44,160 --> 00:24:45,160
+And then Friday.
+
+303
+00:24:45,160 --> 00:24:48,160
+Well, I want to Friday when I can't be able to do a show.
+
+304
+00:24:48,160 --> 00:24:51,160
+I've completed exactly what we needed to do this week.
+
+305
+00:24:51,160 --> 00:24:54,160
+So, final song comes from the Podsafe Music Network.
+
+306
+00:24:54,160 --> 00:24:57,160
+Just a nice, happy, diddy.
+
+307
+00:24:57,160 --> 00:24:59,160
+Easy car.
+
+308
+00:24:59,160 --> 00:25:00,160
+Easy car.
+
+309
+00:25:11,160 --> 00:25:13,160
+New head.
+
+310
+00:25:13,160 --> 00:25:15,160
+New shoes.
+
+311
+00:25:16,160 --> 00:25:17,160
+Ran new dress.
+
+312
+00:25:17,160 --> 00:25:20,160
+I've got a new attitude.
+
+313
+00:25:20,160 --> 00:25:22,160
+Got a pocket full of money.
+
+314
+00:25:22,160 --> 00:25:25,160
+I'm made and laid down.
+
+315
+00:25:25,160 --> 00:25:27,160
+Watch out if I bite.
+
+316
+00:25:27,160 --> 00:25:29,160
+I'm down.
+
+317
+00:25:29,160 --> 00:25:31,160
+That's right.
+
+318
+00:25:33,160 --> 00:25:35,160
+Easy car.
+
+319
+00:25:35,160 --> 00:25:37,160
+Easy car.
+
+320
+00:25:39,160 --> 00:25:41,160
+They got walked alone.
+
+321
+00:25:41,160 --> 00:25:42,160
+They were.
+
+322
+00:25:42,160 --> 00:25:44,160
+Say how to some friends.
+
+323
+00:25:45,160 --> 00:25:46,160
+Yeah, that house.
+
+324
+00:25:46,160 --> 00:25:47,160
+My home.
+
+325
+00:25:47,160 --> 00:25:49,160
+Where I'm being.
+
+326
+00:25:49,160 --> 00:25:51,160
+I'm in town.
+
+327
+00:25:51,160 --> 00:25:52,160
+Oh.
+
+328
+00:25:52,160 --> 00:25:54,160
+Feel that I'm in town.
+
+329
+00:25:54,160 --> 00:25:56,160
+The head out of the lake.
+
+330
+00:25:56,160 --> 00:25:58,160
+You're down in the cafe.
+
+331
+00:25:58,160 --> 00:26:00,160
+You've got to say.
+
+332
+00:26:00,160 --> 00:26:02,160
+Oh, yeah.
+
+333
+00:26:02,160 --> 00:26:04,160
+Easy car.
+
+334
+00:26:04,160 --> 00:26:06,160
+Easy car.
+
+335
+00:26:09,160 --> 00:26:11,160
+Easy car.
+
+336
+00:26:11,160 --> 00:26:13,160
+Easy car.
+
+337
+00:26:14,160 --> 00:26:18,160
+I can move anywhere that the wind came through.
+
+338
+00:26:18,160 --> 00:26:20,160
+That's right.
+
+339
+00:26:20,160 --> 00:26:22,160
+Yeah.
+
+340
+00:26:22,160 --> 00:26:24,160
+Easy car.
+
+341
+00:26:24,160 --> 00:26:26,160
+Easy car.
+
+342
+00:26:26,160 --> 00:26:29,160
+Oh, yeah.
+
+343
+00:26:43,160 --> 00:26:44,160
+Easy car.
+
+344
+00:26:44,160 --> 00:26:45,160
+Easy car.
+
+345
+00:26:45,160 --> 00:26:46,160
+Easy car.
+
+346
+00:26:46,160 --> 00:26:47,160
+Easy car.
+
+347
+00:26:47,160 --> 00:26:48,160
+Easy car.
+
+348
+00:26:48,160 --> 00:26:49,160
+Easy car.
+
+349
+00:26:49,160 --> 00:26:51,160
+Easy car.
+
+350
+00:26:51,160 --> 00:26:52,160
+Easy car.
+
+351
+00:26:52,160 --> 00:26:53,160
+Easy car.
+
+352
+00:26:53,160 --> 00:26:54,160
+Easy car.
+
+353
+00:26:54,160 --> 00:26:55,160
+Easy car.
+
+354
+00:26:55,160 --> 00:26:56,160
+Easy car.
+
+355
+00:26:56,160 --> 00:26:57,160
+Easy car.
+
+356
+00:26:57,160 --> 00:26:58,160
+Easy car.
+
+357
+00:26:58,160 --> 00:26:59,160
+Easy car.
+
+358
+00:26:59,160 --> 00:27:00,160
+Easy car.
+
+359
+00:27:00,160 --> 00:27:01,160
+Easy car.
+
+360
+00:27:01,160 --> 00:27:02,160
+Easy car.
+
+361
+00:27:02,160 --> 00:27:03,160
+Easy car.
+
+362
+00:27:03,160 --> 00:27:04,160
+Easy car.
+
+363
+00:27:04,160 --> 00:27:05,160
+Easy car.
+
+364
+00:27:05,160 --> 00:27:06,160
+Easy car.
+
+365
+00:27:06,160 --> 00:27:07,160
+Easy car.
+
+366
+00:27:07,160 --> 00:27:08,160
+Easy car.
+
+367
+00:27:08,160 --> 00:27:09,160
+Easy car.
+
+368
+00:27:09,160 --> 00:27:10,160
+Easy car.
+
+369
+00:27:10,160 --> 00:27:11,160
+Easy car.
+
+370
+00:27:11,160 --> 00:27:12,160
+Easy car.
+
+371
+00:27:12,160 --> 00:27:13,160
+Easy car.
+
+372
+00:27:13,160 --> 00:27:14,160
+Easy car.
+
+373
+00:27:14,160 --> 00:27:15,160
+Easy car.
+
+374
+00:27:15,160 --> 00:27:16,160
+Easy car.
+
+375
+00:27:16,160 --> 00:27:17,160
+Easy car.
+
+376
+00:27:17,160 --> 00:27:18,160
+Easy car.
+
+377
+00:27:18,160 --> 00:27:19,160
+Easy car.
+
+378
+00:27:19,160 --> 00:27:20,160
+Easy car.
+
+379
+00:27:20,160 --> 00:27:21,160
+Easy car.
+
+380
+00:27:21,160 --> 00:27:22,160
+Easy car.
+
+381
+00:27:22,160 --> 00:27:23,160
+Easy car.
+
+382
+00:27:23,160 --> 00:27:24,160
+Easy car.
+
+383
+00:27:24,160 --> 00:27:25,160
+Easy car.
+
+384
+00:27:25,160 --> 00:27:26,160
+Easy car.
+
+385
+00:27:26,160 --> 00:27:27,160
+Easy car.
+
+386
+00:27:27,160 --> 00:27:28,160
+Easy car.
+
+387
+00:27:28,160 --> 00:27:29,160
+Easy car.
+
+388
+00:27:29,160 --> 00:27:30,160
+Easy car.
+
+389
+00:27:30,160 --> 00:27:31,160
+Easy car.
+
+390
+00:27:31,160 --> 00:27:32,160
+Easy car.
+
+391
+00:27:32,160 --> 00:27:33,160
+Easy car.
+
+392
+00:27:33,160 --> 00:27:34,160
+Easy car.
+
+393
+00:27:34,160 --> 00:27:35,160
+Easy car.
+
+394
+00:27:35,160 --> 00:27:36,160
+Easy car.
+
+395
+00:27:36,160 --> 00:27:37,160
+Easy car.
+
+396
+00:27:37,160 --> 00:27:38,160
+Easy car.
+
+397
+00:27:38,160 --> 00:27:39,160
+Easy car.
+
+398
+00:27:39,160 --> 00:27:40,160
+Easy car.
+
+399
+00:27:40,160 --> 00:27:41,160
+Easy car.
+
+400
+00:27:41,160 --> 00:27:42,160
+Easy car.
+
+401
+00:27:42,160 --> 00:27:43,160
+Easy car.
+
+402
+00:27:43,160 --> 00:27:44,160
+Easy car.
+
+403
+00:27:44,160 --> 00:27:45,160
+Easy car.
+
+404
+00:27:45,160 --> 00:27:46,160
+Easy car.
+
+405
+00:27:46,160 --> 00:27:47,160
+Easy car.
+
+406
+00:27:47,160 --> 00:27:48,160
+Easy car.
+
+407
+00:27:48,160 --> 00:27:49,160
+Easy car.
+
+408
+00:27:49,160 --> 00:27:50,160
+Easy car.
+
+409
+00:27:50,160 --> 00:27:51,160
+Easy car.
+
+410
+00:27:51,160 --> 00:27:52,160
+Easy car.
+
+411
+00:27:52,160 --> 00:27:53,160
+Easy car.
+
+412
+00:27:53,160 --> 00:27:54,160
+Easy car.
+
+413
+00:27:54,160 --> 00:27:55,160
+Easy car.
+
+414
+00:27:55,160 --> 00:27:56,160
+Easy car.
+
+415
+00:27:56,160 --> 00:27:57,160
+Easy car.
+
+416
+00:27:57,160 --> 00:27:58,160
+Easy car.
+
+417
+00:27:58,160 --> 00:27:59,160
+Easy car.
+
+418
+00:27:59,160 --> 00:28:00,160
+Easy car.
+
+419
+00:28:00,160 --> 00:28:01,160
+Easy car.
+
+420
+00:28:01,160 --> 00:28:02,160
+Easy car.
+
+421
+00:28:02,160 --> 00:28:03,160
+Easy car.
+
+422
+00:28:03,160 --> 00:28:04,160
+Easy car.
+
+423
+00:28:04,160 --> 00:28:05,160
+Easy car.
+
+424
+00:28:05,160 --> 00:28:06,160
+Easy car.
+
+425
+00:28:06,160 --> 00:28:07,160
+Easy car.
+
+426
+00:28:07,160 --> 00:28:08,160
+Easy car.
+
+427
+00:28:08,160 --> 00:28:09,160
+Easy car.
+
+428
+00:28:10,160 --> 00:28:11,160
+Easy car.
+
+429
+00:28:11,160 --> 00:28:13,160
+Easy car.
+
+430
+00:28:13,160 --> 00:28:15,160
+Easy car.
+
+431
+00:28:15,160 --> 00:28:16,160
+Easy car.
+
+432
+00:28:16,160 --> 00:28:17,160
+Easy car.
+
+433
+00:28:17,160 --> 00:28:18,160
+Easy car.
+
+434
+00:28:18,160 --> 00:28:19,160
+Easy car.
+
+435
+00:28:19,160 --> 00:28:21,160
+Easy car.
+
+436
+00:28:21,160 --> 00:28:22,160
+Easy car.
+
+437
+00:28:22,160 --> 00:28:23,160
+Easy car.
+
+438
+00:28:23,160 --> 00:28:24,160
+Easy car.
+
+439
+00:28:24,160 --> 00:28:26,160
+Easy car.
+
+440
+00:28:26,160 --> 00:28:27,160
+Easy car.
+
+441
+00:28:27,160 --> 00:28:29,160
+Easy car.
+
+442
+00:28:29,160 --> 00:28:30,160
+Easy car.
+
+443
+00:28:30,160 --> 00:28:31,160
+Easy car.
+
+444
+00:28:31,160 --> 00:28:33,160
+Easy car.
+
+445
+00:28:33,160 --> 00:28:34,160
+Easy car.
+
+446
+00:28:34,160 --> 00:28:36,160
+Easy car.
+
+447
+00:28:36,160 --> 00:28:37,160
+Easy car.
+
+448
+00:28:37,160 --> 00:28:39,160
+I'm busy.
+
+449
+00:28:39,160 --> 00:28:41,160
+I'm busy.
+
+450
+00:28:41,160 --> 00:28:43,160
+I'm busy.
+
+451
+00:28:43,160 --> 00:28:45,160
+I'm busy.
+
+452
+00:28:45,160 --> 00:28:47,160
+I'm busy.
+
+453
+00:28:47,160 --> 00:28:49,160
+Theresa James and the rhythm traps.
+
+454
+00:28:49,160 --> 00:28:50,160
+Easy come.
+
+455
+00:28:50,160 --> 00:28:51,160
+Easy come.
+
+456
+00:28:51,160 --> 00:28:53,160
+And that is so right.
+
+457
+00:28:53,160 --> 00:28:57,160
+My friend is easy come easy go.
+
+458
+00:28:57,160 --> 00:29:03,160
+And you know, you're 15 megs of fame.
+
+459
+00:29:03,160 --> 00:29:04,160
+Easy come easy go.
+
+460
+00:29:05,160 --> 00:29:06,160
+It's all good.
+
+461
+00:29:06,160 --> 00:29:08,160
+Let's just be happy that we're.
+
+462
+00:29:08,160 --> 00:29:10,160
+Every day that we wake up and we're alive.
+
+463
+00:29:10,160 --> 00:29:14,160
+That that is by definition a really good day.
+
+464
+00:29:14,160 --> 00:29:16,160
+That stuff always keeps me going.
+
+465
+00:29:16,160 --> 00:29:19,160
+That in some of the whole the herb of course.
+
+466
+00:29:19,160 --> 00:29:22,160
+So oh, by the way, I was right.
+
+467
+00:29:22,160 --> 00:29:26,160
+Yesterday was the official announcement of the podcast delivery network.
+
+468
+00:29:26,160 --> 00:29:28,160
+We teamed up with limelight networks.
+
+469
+00:29:28,160 --> 00:29:32,160
+Hit the wires and more details are becoming available.
+
+470
+00:29:32,160 --> 00:29:36,160
+We're going to address releases or press releases and it meant to communicate a lot.
+
+471
+00:29:36,160 --> 00:29:40,160
+But really the most important thing is that we get the interest of.
+
+472
+00:29:40,160 --> 00:29:43,160
+Of other people who want to talk to us about it.
+
+473
+00:29:43,160 --> 00:29:47,160
+So it's going to be a whole new round of interviews.
+
+474
+00:29:47,160 --> 00:29:49,160
+Also, let me see.
+
+475
+00:29:49,160 --> 00:29:52,160
+I'm going to be on.
+
+476
+00:29:52,160 --> 00:29:54,160
+What is it.
+
+477
+00:29:54,160 --> 00:29:56,160
+This week in podcasting.
+
+478
+00:29:56,160 --> 00:29:59,160
+Today in podcasting, I think it is.
+
+479
+00:29:59,160 --> 00:30:01,160
+I believe on the second or third show.
+
+480
+00:30:01,160 --> 00:30:03,160
+So I'm really happy about that.
+
+481
+00:30:03,160 --> 00:30:05,160
+And we'll be talking about the PDN.
+
+482
+00:30:05,160 --> 00:30:07,160
+It wouldn't meet the podcasting.
+
+483
+00:30:07,160 --> 00:30:09,160
+And that's it.
+
+484
+00:30:09,160 --> 00:30:11,160
+I'm out of steam.
+
+485
+00:30:11,160 --> 00:30:12,160
+Have yourself a great day.
+
+486
+00:30:12,160 --> 00:30:13,160
+I'll talk to you tomorrow.
+
+487
+00:30:13,160 --> 00:30:15,160
+Okay, just before I head off.
+
+488
+00:30:15,160 --> 00:30:17,160
+Back home to see the girls just before the weekend.
+
+489
+00:30:17,160 --> 00:30:19,160
+Bye bye everybody.
+
+490
+00:30:19,160 --> 00:30:22,160
+Another pod show podcast.
+
+491
+00:30:22,160 --> 00:30:24,160
+Stick it in your ear.
+
