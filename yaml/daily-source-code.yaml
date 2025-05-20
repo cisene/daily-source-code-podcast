@@ -1,16 +1,41 @@
 ---
 feed:
   filename: daily-source-code.rss
-  version: 2
+  xml:
+    version: 2
+    namespaces:
+      atom: "http://www.w3.org/2005/Atom"
+      itunes: "http://www.itunes.com/dtds/podcast-1.0.dtd"
+      media: "http://search.yahoo.com/mrss/"
+      podcast: "https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md"
 
 # Tagline: Where developers and users party together.
 
 channel:
+  # Atom namespace
   atom:
     link:
       href: https://dailysourcecode.com/rss
       rel: self
       type: application/rss+xml
+      title: Adam Curry's Daily Source Code Podcast
+    id:
+      content: dfbbeceb-eade-5c61-9fcd-130f3661e347
+    title:
+      type: text
+      content: Daily Source Code
+    summary:
+      type: text
+      content: Adam Curry's Daily Source Code Podcast
+    author:
+      type: complex
+      name:
+        content: Adam Curry
+      uri:
+        content: https://curry.com/
+      email:
+        content: adam@curry.com
+
   title: Daily Source Code
   description: Adam Curry's Daily Source Code Podcast
   link: http://curry.com/
@@ -27,6 +52,8 @@ channel:
     description: Adam Curry's Daily Source Code Podcast
     width: 144
     height: 144
+
+  # Itunes namespace
   itunes:
     summary: Adam Curry's Daily Source Code Podcast
     owner:
@@ -42,6 +69,8 @@ channel:
     series_name: Daily Source Code
     keywords: dsc,adam,delta,sierra,charlie
     image: https://dailysourcecode.com/feed.png
+
+  # Podcast namespace
   podcast:
     complete: no
     medium: podcast
