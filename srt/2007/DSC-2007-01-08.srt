@@ -1,0 +1,1604 @@
+1
+00:00:00,000 --> 00:00:07,560
+Hey everybody, daily source code episode 523, how you doing?
+
+2
+00:00:07,560 --> 00:00:09,440
+I got nothing but boxes.
+
+3
+00:00:09,440 --> 00:00:12,200
+Tiny boxes, big boxes, little boxes.
+
+4
+00:00:12,200 --> 00:00:18,080
+The only thing still standing in the studio here at the curry cottage is the desk, is
+
+5
+00:00:18,080 --> 00:00:21,000
+the podcast console.
+
+6
+00:00:21,000 --> 00:00:26,840
+And the big gree ugly green thing, which soon will be just a memory, as it has to go
+
+7
+00:00:26,840 --> 00:00:32,600
+into deep deep storage, since it will not fit through the doorway up to the third floor studio
+
+8
+00:00:32,600 --> 00:00:37,680
+in the brand new cottage, which summer now calling the curry tower, which I got to see
+
+9
+00:00:37,680 --> 00:00:38,960
+if that'll grow on me or not.
+
+10
+00:00:38,960 --> 00:00:43,520
+Anyway, a time for another best of charity today, as we are completing the big move of
+
+11
+00:00:43,520 --> 00:00:48,720
+2007, it's a mess, I gotta tell you.
+
+12
+00:00:48,720 --> 00:00:52,880
+And of course portions of today's show brought to you by Splenda, as well as by Stomp the
+
+13
+00:00:52,880 --> 00:00:58,760
+Yard, brand new movie coming out in just four days from now, yeah, four days from now on
+
+14
+00:00:58,760 --> 00:01:03,000
+the 12th of January, go to StompthePodcast.com to find out more.
+
+15
+00:01:03,000 --> 00:01:08,000
+And by the way, I have had some time to check out some of the CES coverage that's been
+
+16
+00:01:08,000 --> 00:01:09,000
+going on.
+
+17
+00:01:09,000 --> 00:01:10,880
+Pod Show is at CES as well.
+
+18
+00:01:10,880 --> 00:01:18,480
+At the AMD Live booth, as we're presenting the first demo of Pod Show TV, which is essentially
+
+19
+00:01:18,480 --> 00:01:24,760
+a version of Pod Show Plus on IPTV, and it's fucking cool.
+
+20
+00:01:24,760 --> 00:01:27,800
+So that's something we can look forward to to 2007.
+
+21
+00:01:27,800 --> 00:01:33,280
+I saw the Bill Gates keynote, I don't know what, I don't know what, I don't know what
+
+22
+00:01:33,280 --> 00:01:34,880
+it was kind of bland, actually.
+
+23
+00:01:34,880 --> 00:01:43,080
+And you know what the demos when Bill Gates does the demos versus a demo from Steve Jobs,
+
+24
+00:01:43,080 --> 00:01:47,040
+I guess what is it tomorrow or the day after tomorrow, we have another Mac world and so of
+
+25
+00:01:47,040 --> 00:01:50,960
+course we'll have another stellar performance from Steve.
+
+26
+00:01:50,960 --> 00:01:55,240
+Whenever the Microsoft guys do a do demos, it just doesn't feel right, it feels like, yeah,
+
+27
+00:01:55,240 --> 00:01:59,080
+you know, what's going on behind the scenes, they never quite completed to make it feel
+
+28
+00:01:59,080 --> 00:02:02,280
+like this will actually work at your place.
+
+29
+00:02:02,280 --> 00:02:07,120
+Anyway, it's still very happy with my Windows machine, but I, no one has convinced me yet
+
+30
+00:02:07,120 --> 00:02:11,840
+why I need to upgrade to Windows Vista, although I'm sure the next machine I buy will
+
+31
+00:02:11,840 --> 00:02:12,840
+have it built in.
+
+32
+00:02:13,200 --> 00:02:17,320
+Okay, so I'm going to use this best of Charlie since it is a musical theme best
+
+33
+00:02:17,320 --> 00:02:23,160
+of Charlie produced by PD Love, I'm going to use that as some packing music for myself
+
+34
+00:02:23,160 --> 00:02:28,960
+here and the gang from smart movers who are helping us out, I've been packing a lot of
+
+35
+00:02:28,960 --> 00:02:34,040
+my own stuff mainly because as we've gone through this before, it's my stuff.
+
+36
+00:02:34,040 --> 00:02:36,840
+So when else is stuff, well, that's just purely shit.
+
+37
+00:02:36,840 --> 00:02:41,000
+Hey, here we're in, but I, sorry, could resist.
+
+38
+00:02:41,000 --> 00:02:46,800
+Thanks DSC listeners, I am PD Love, the guest host of this best of Charlie, and I just
+
+39
+00:02:46,800 --> 00:02:47,800
+introduce myself.
+
+40
+00:02:47,800 --> 00:02:52,520
+I do several podcasts, namely Love House Radio, for showcasing a mix of pot-sake music
+
+41
+00:02:52,520 --> 00:02:57,960
+artists in genres, and the daddy cast, a podcast for the parenting community focusing on
+
+42
+00:02:57,960 --> 00:03:01,720
+advice for dads and stories of my life with my two boys.
+
+43
+00:03:01,720 --> 00:03:05,080
+Perhaps you've heard my voice a little bit on some of the intros for the daily source code
+
+44
+00:03:05,080 --> 00:03:08,200
+or way back when in the second life talks.
+
+45
+00:03:08,200 --> 00:03:11,880
+But other theme for this show for this best of Charlie is Music of 2006.
+
+46
+00:03:11,880 --> 00:03:15,840
+It's a review of the music that Adam has played over the course of the past year.
+
+47
+00:03:15,840 --> 00:03:19,760
+Basically I went through Adam's show notes and put together a playlist of songs he seemed
+
+48
+00:03:19,760 --> 00:03:23,000
+to enjoy based on the number of times he's played each song.
+
+49
+00:03:23,000 --> 00:03:27,600
+Put it together and based on my research, the best played song of the DSC in 2006 was
+
+50
+00:03:27,600 --> 00:03:28,600
+Liberty Jones.
+
+51
+00:03:28,600 --> 00:03:31,640
+So let's get the show started with the shakes and Liberty Jones.
+
+52
+00:03:31,720 --> 00:03:42,160
+Ever nearly Liberty Jones works in the shop that she owns.
+
+53
+00:03:42,160 --> 00:03:47,840
+Lessons to music like swing.
+
+54
+00:03:47,840 --> 00:03:58,960
+When there's no customer's in, just because she don't like to drive, takes us to see
+
+55
+00:04:29,040 --> 00:04:33,040
+you don't mind back to my face.
+
+56
+00:04:33,040 --> 00:04:43,520
+Music shows something, why don't you go for me, take me away and lie to you.
+
+57
+00:05:13,520 --> 00:05:28,480
+Music shows something, why don't you go for me, take me away and lie to you.
+
+58
+00:05:28,480 --> 00:05:39,960
+Music shows something, why don't you go for me, take me away and lie to you.
+
+59
+00:05:39,960 --> 00:05:48,920
+Music shows something, why don't you go for me, take me away and lie to you.
+
+60
+00:06:09,960 --> 00:06:28,920
+Music shows something, why don't you go for me, take me away and lie to you.
+
+61
+00:06:28,920 --> 00:06:35,560
+Music shows something, why don't you go for me, take me away and lie to you.
+
+62
+00:06:35,560 --> 00:06:39,560
+Music shows something, why don't you go for me, take me away and lie to you.
+
+63
+00:06:40,120 --> 00:06:50,760
+Music shows something, why don't you go for me, take me away and lie to you.
+
+64
+00:06:50,760 --> 00:06:51,520
+Music shows something, why don't you go for me, take me away and lie to you.
+
+65
+00:06:56,520 --> 00:07:00,520
+Music shows something, why don't you go for me, take me away and lie to you.
+
+66
+00:07:00,520 --> 00:07:05,520
+Music shows something, why don't you go for me, take me away and lie to you.
+
+67
+00:07:05,520 --> 00:07:07,520
+If I'm in the country
+
+68
+00:07:08,520 --> 00:07:10,520
+On the island
+
+69
+00:07:10,520 --> 00:07:12,520
+No one is the United Kingdom
+
+70
+00:07:14,520 --> 00:07:15,520
+Liberty Jones
+
+71
+00:07:15,520 --> 00:07:17,520
+You could find them on the podcast music network
+
+72
+00:07:17,520 --> 00:07:18,520
+Gosh, I love that
+
+73
+00:07:18,520 --> 00:07:19,520
+What a great song
+
+74
+00:07:19,520 --> 00:07:21,520
+Really, really good
+
+75
+00:07:22,520 --> 00:07:25,520
+So we're getting some shape done that isn't gentlemen
+
+76
+00:07:25,520 --> 00:07:26,520
+And lacking it very much
+
+77
+00:07:26,520 --> 00:07:30,520
+And keep the comments coming for Shadow Falls, man
+
+78
+00:07:30,520 --> 00:07:32,520
+People are loving this
+
+79
+00:07:32,520 --> 00:07:34,520
+Shadow Falls.podshow.com
+
+80
+00:07:34,520 --> 00:07:37,520
+And part of the appeal is got to be the music
+
+81
+00:07:37,520 --> 00:07:41,520
+Munk has really outclassed himself this time
+
+82
+00:07:41,520 --> 00:07:43,520
+Into a whole new level
+
+83
+00:07:43,520 --> 00:07:46,520
+This song kicks so much ass
+
+84
+00:07:46,520 --> 00:07:48,520
+It's Molly Steen
+
+85
+00:07:48,520 --> 00:07:50,520
+I am
+
+86
+00:07:50,520 --> 00:07:52,520
+From PMM
+
+87
+00:07:52,520 --> 00:07:55,520
+I'm just begun
+
+88
+00:07:57,520 --> 00:07:59,520
+I was dead
+
+89
+00:07:59,520 --> 00:08:04,520
+For us to be
+
+90
+00:08:04,520 --> 00:08:07,520
+That swings both ways
+
+91
+00:08:07,520 --> 00:08:12,520
+You've never asked my name
+
+92
+00:08:12,520 --> 00:08:15,520
+I am here
+
+93
+00:08:15,520 --> 00:08:17,520
+I am here
+
+94
+00:08:17,520 --> 00:08:19,520
+I am here
+
+95
+00:08:19,520 --> 00:08:20,520
+I am here
+
+96
+00:08:20,520 --> 00:08:22,520
+I am here
+
+97
+00:08:22,520 --> 00:08:23,520
+I am here
+
+98
+00:08:23,520 --> 00:08:25,520
+I am alive
+
+99
+00:08:25,520 --> 00:08:28,520
+I am alive
+
+100
+00:08:28,520 --> 00:08:33,520
+I am there for a reason
+
+101
+00:08:33,520 --> 00:08:35,520
+I am here
+
+102
+00:08:35,520 --> 00:08:41,520
+I am here
+
+103
+00:08:41,520 --> 00:08:46,520
+I am here
+
+104
+00:08:46,520 --> 00:08:50,520
+I am here
+
+105
+00:08:50,520 --> 00:08:53,520
+I am here
+
+106
+00:08:53,520 --> 00:08:55,520
+I am here
+
+107
+00:08:55,520 --> 00:08:58,520
+I am there for a reason
+
+108
+00:08:58,520 --> 00:09:00,520
+I am here
+
+109
+00:09:00,520 --> 00:09:02,520
+I am here
+
+110
+00:09:02,520 --> 00:09:04,520
+I am here
+
+111
+00:09:04,520 --> 00:09:06,520
+I am there for a reason
+
+112
+00:09:06,520 --> 00:09:09,520
+I am here
+
+113
+00:09:09,520 --> 00:09:11,520
+I am here
+
+114
+00:09:11,520 --> 00:09:12,520
+I am here
+
+115
+00:09:12,520 --> 00:09:17,520
+I am here
+
+116
+00:09:17,520 --> 00:09:19,520
+I am here
+
+117
+00:09:19,520 --> 00:09:20,520
+I am there
+
+118
+00:09:20,520 --> 00:09:23,520
+You are asleep
+
+119
+00:09:23,520 --> 00:09:53,520
+I am live, I am live, I am live, I am careful of breathing, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live,
+
+120
+00:09:53,520 --> 00:10:23,520
+I am live, I am, I am rains, I am living, I am alive, I am alive, I ameker people, I am elated people, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live i am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am live, I am lives, I am live, I am
+
+121
+00:10:23,520 --> 00:10:25,520
+Let's go, let's go, let's go, let's go.
+
+122
+00:10:53,520 --> 00:11:23,520
+I am here, I am here, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there,
+
+123
+00:11:23,520 --> 00:11:53,520
+I am there, I am there, I'm here, I am there no more than I could do, I am there, mother, I am there Camara, I'm really glad I'm here, I am there, I am there, wife is here, I am here, I'm there, I am there, I am there, I am there,yes, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am there, I am here, I am there, I am there, I am there, I am there, I am there, I am there, I am here, I am there, I am there, I am there, I am there, I am here, I am there, I am there, I am
+
+124
+00:11:53,520 --> 00:11:58,800
+your 2007 with a little splendor. What's your flavor? Now let's change the flavor of our music
+
+125
+00:11:58,800 --> 00:12:05,200
+with a little Howard Jones and Kevin Reed. This is something that really, really tickled me when it
+
+126
+00:12:05,200 --> 00:12:15,600
+came in this came in yesterday morning. Hi Adam. I'm not going to say who, who, um, I'll skip one
+
+127
+00:12:15,600 --> 00:12:20,880
+fight. Hi Adam. I just wanted to say thanks for playing building our own future on your podcast
+
+128
+00:12:20,880 --> 00:12:26,080
+show and big in me up. Thanks for the help with the tour dates as well. If I can be of assistance,
+
+129
+00:12:26,080 --> 00:12:32,240
+best wishes. Howard, that would be Howard Jones. I thought that was so awesome. Um, because of
+
+130
+00:12:32,240 --> 00:12:39,600
+course, Howard Jones, um, I know him from the early 80s, I've played so many of his songs on the
+
+131
+00:12:39,600 --> 00:12:44,640
+radio, played so many of his videos. I know actually that people under certain age don't know who
+
+132
+00:12:44,640 --> 00:12:48,640
+Howard Jones is and they play the song form, which of course is in the pod sitting music network.
+
+133
+00:12:48,720 --> 00:12:52,560
+And go, yeah, that's pretty cool. And, and some of them say, oh yeah, I think, uh, uh, uh,
+
+134
+00:12:52,560 --> 00:12:57,360
+yeah, that's the one. That's the guy. So not only did you just fantastic that he sent that note,
+
+135
+00:12:57,360 --> 00:13:07,040
+but then there's a PS to it. PS, he says, I'm a folder. I never thought about Howard, but make sense.
+
+136
+00:13:07,760 --> 00:13:09,040
+Here's building our own future.
+
+137
+00:13:19,600 --> 00:13:25,040
+I'm crying out the sunbeams. There's a lot of people listening.
+
+138
+00:13:29,200 --> 00:13:35,680
+Time for us to sing down a song. Try to pull them on this and then.
+
+139
+00:13:35,680 --> 00:14:05,680
+yeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeye Yeyyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeveyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyiyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyyyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeye
+
+140
+00:14:05,680 --> 00:14:35,680
+I just know now, day by day, three, two, three, two, three, four, five, six, four, five, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six, six,
+
+141
+00:14:35,680 --> 00:15:05,680
+six, six, six, seven, six, seven, six, six, six, seven, six, six, five, six, six, seven, seven, seven, six, six, six, six, six, seven, six, six, seven, seven, six,
+
+142
+00:15:05,680 --> 00:15:11,680
+Guys, we're going to build a young future
+
+143
+00:15:11,680 --> 00:15:16,680
+Just from now on, day by day
+
+144
+00:15:16,680 --> 00:15:23,680
+We need to choose a life that's better than before
+
+145
+00:15:23,680 --> 00:15:28,680
+Sons and daughters, brothers and daughters
+
+146
+00:15:28,680 --> 00:15:32,680
+Sons and daughters, brothers and daughters
+
+147
+00:15:32,680 --> 00:15:38,680
+Always have been on the road, come to me soon
+
+148
+00:15:40,680 --> 00:15:45,680
+Sons and daughters, brothers and daughters
+
+149
+00:15:45,680 --> 00:15:50,680
+Guys, we're building a young future
+
+150
+00:15:50,680 --> 00:15:55,680
+Just from now on, day by day
+
+151
+00:15:55,680 --> 00:16:00,680
+We need to choose a life that's better
+
+152
+00:16:00,680 --> 00:16:02,680
+Oh mga !
+
+153
+00:16:09,680 --> 00:16:15,080
+Sons and daughters, brothers and daughters
+
+154
+00:16:15,180 --> 00:16:23,480
+While we need to choose a life that's better than before
+
+155
+00:16:23,480 --> 00:16:28,880
+Now on, day by day, we need to choose a life
+
+156
+00:16:28,880 --> 00:16:46,880
+He's a musical genius, I gotta say it.
+
+157
+00:16:46,880 --> 00:16:53,280
+First, it's a folder.
+
+158
+00:16:53,280 --> 00:16:56,280
+For John's building our own future, he's on tour.
+
+159
+00:16:56,280 --> 00:17:00,960
+Two or two dates will be, you can find those in the show notes, dailysourcecode.com, or even
+
+160
+00:17:00,960 --> 00:17:05,320
+on his own page at the Podsign Music Network, which of course you can find a link to in the
+
+161
+00:17:05,320 --> 00:17:06,320
+show notes.
+
+162
+00:17:06,320 --> 00:17:11,040
+I don't know how much of the production Howard does himself, but oh man, that snare is just
+
+163
+00:17:11,040 --> 00:17:12,040
+BAM!
+
+164
+00:17:12,040 --> 00:17:16,880
+It just slaps away so hard, I love it!
+
+165
+00:17:16,880 --> 00:17:22,080
+With $144 worth of MP3 players strapped to my head, and the next generation of radio content
+
+166
+00:17:22,080 --> 00:17:29,080
+being vibrated into my skull, I think I look like a dickhead in the pool.
+
+167
+00:17:29,080 --> 00:17:36,080
+Alright Tom, Podsign Music Network Kevin Reeves on the Daily Sourcecode.
+
+168
+00:17:36,080 --> 00:17:40,080
+It's as late as the man that's in kick-ass.
+
+169
+00:17:40,080 --> 00:17:42,080
+Throw me a line.
+
+170
+00:17:42,080 --> 00:17:44,080
+I don't know.
+
+171
+00:17:44,080 --> 00:17:51,080
+I don't know.
+
+172
+00:17:51,080 --> 00:17:59,080
+I don't know.
+
+173
+00:17:59,080 --> 00:18:03,080
+Is there any way out of here?
+
+174
+00:18:03,080 --> 00:18:08,080
+Is there some way to make this clear?
+
+175
+00:18:14,080 --> 00:18:22,080
+Because of you, I can't sleep anymore, since you walked up the door and you left me.
+
+176
+00:18:22,080 --> 00:18:32,080
+All I do is stare at the wall, and you know from to to all, sempre memory.
+
+177
+00:18:32,080 --> 00:18:40,080
+While you want to try to be insane, while you want to cause me so much pain,
+
+178
+00:18:40,080 --> 00:18:47,080
+I don't think I can't make it on my own, but I don't think I can't make it on my own.
+
+179
+00:18:47,080 --> 00:18:50,080
+I don't think I can't make it on my own, but I don't think I can't make it on my own.
+
+180
+00:18:50,080 --> 00:18:58,080
+I just pray that I'm not dying alone, but I still be silent.
+
+181
+00:18:58,080 --> 00:19:09,080
+Tell me that you'll still live with me, but I don't think I can't.
+
+182
+00:19:10,080 --> 00:19:14,080
+I can't feel so no darkness from light.
+
+183
+00:19:14,080 --> 00:19:18,080
+I don't know daytime from night, on the free set.
+
+184
+00:19:18,080 --> 00:19:20,080
+Isn't real?
+
+185
+00:19:20,080 --> 00:19:27,080
+Oh, I wake up from this, and I miss if you kiss and embrace it.
+
+186
+00:19:27,080 --> 00:19:31,080
+One day I'm in my sports room.
+
+187
+00:19:31,080 --> 00:19:37,080
+I don't think I can make it on my own, but I still be silent.
+
+188
+00:19:37,080 --> 00:19:44,080
+I don't think I can't make it on my own, but I don't think I can't make it on my own.
+
+189
+00:19:44,080 --> 00:19:51,080
+I don't think I can't make it on my own, but I don't think I can't make it on my own.
+
+190
+00:19:51,080 --> 00:19:55,080
+I just pray that I'm not dying alone, but I still be silent.
+
+191
+00:19:55,080 --> 00:20:06,080
+Tell me that you'll still live with me, but I don't think I can't.
+
+192
+00:20:06,080 --> 00:20:11,080
+I can't feel so no darkness from light.
+
+193
+00:20:11,080 --> 00:20:14,080
+I don't think I can defend myself.
+
+194
+00:20:14,080 --> 00:20:20,080
+I don't think I can make it on my own, but I still be silent.
+
+195
+00:20:20,080 --> 00:20:25,080
+Tell me that you'll still live with me, but I still love myself as if you said lie.
+
+196
+00:20:25,080 --> 00:20:30,080
+Oh, I don't think I can make it on my own, but I still can't.
+
+197
+00:20:30,080 --> 00:20:40,080
+I can't make it on my own
+
+198
+00:20:40,080 --> 00:20:43,080
+But throw me the fire
+
+199
+00:20:43,080 --> 00:20:45,080
+What a crazy life
+
+200
+00:20:45,080 --> 00:20:48,080
+My tag is wrong but long
+
+201
+00:20:48,080 --> 00:20:51,080
+But it's still inside
+
+202
+00:20:51,080 --> 00:20:56,080
+Tell me that you're still in love with me
+
+203
+00:20:56,080 --> 00:21:02,080
+What a crazy life
+
+204
+00:21:02,080 --> 00:21:05,080
+My tag is wrong but long
+
+205
+00:21:05,080 --> 00:21:11,080
+But it's still inside
+
+206
+00:21:11,080 --> 00:21:16,080
+What a crazy life
+
+207
+00:21:16,080 --> 00:21:20,080
+My tag is wrong but long
+
+208
+00:21:20,080 --> 00:21:24,080
+My tag is wrong but long
+
+209
+00:21:24,080 --> 00:21:27,080
+My tag is wrong but long
+
+210
+00:21:27,080 --> 00:21:30,080
+My tag is wrong but long
+
+211
+00:21:30,080 --> 00:21:32,080
+My tag is wrong but long
+
+212
+00:21:32,080 --> 00:21:35,080
+My tag is wrong but long
+
+213
+00:21:35,080 --> 00:21:36,080
+Hey man
+
+214
+00:21:36,080 --> 00:21:38,080
+That's a quality shape right there
+
+215
+00:21:38,080 --> 00:21:40,080
+Kevin Reeves throw me a line
+
+216
+00:21:40,080 --> 00:21:41,080
+From the Podsia Music Network
+
+217
+00:21:41,080 --> 00:21:43,080
+Link in the show on today's source code
+
+218
+00:21:43,080 --> 00:21:45,080
+Oh yes a great tune by Kevin Reeves
+
+219
+00:21:45,080 --> 00:21:47,080
+When next time you have a domain name
+
+220
+00:21:47,080 --> 00:21:49,080
+I'll help the curries pay their new mortgage
+
+221
+00:21:49,080 --> 00:21:51,080
+And use the DSC codes at GoDaddy
+
+222
+00:21:51,080 --> 00:21:53,080
+I actually had to move my
+
+223
+00:21:53,080 --> 00:21:55,080
+TheDaddyCast.com domain
+
+224
+00:21:55,080 --> 00:21:57,080
+And registered theDaddyCast.org
+
+225
+00:21:57,080 --> 00:21:59,080
+And theDaddyCast.net
+
+226
+00:21:59,080 --> 00:22:01,080
+To last week using GoDaddy
+
+227
+00:22:01,080 --> 00:22:03,080
+And it was really easy
+
+228
+00:22:03,080 --> 00:22:05,080
+And plus you can enter the different codes
+
+229
+00:22:05,080 --> 00:22:07,080
+See which configuration works best for you
+
+230
+00:22:07,080 --> 00:22:09,080
+What saves you the most money
+
+231
+00:22:09,080 --> 00:22:10,080
+Very good stuff
+
+232
+00:22:10,080 --> 00:22:12,080
+When this last song was submitted by Jersey Todd
+
+233
+00:22:12,080 --> 00:22:14,080
+And happened to be played on a day when Patricia was on the show
+
+234
+00:22:14,080 --> 00:22:17,080
+So take a listen to the unveiling of the wild bunch
+
+235
+00:22:45,080 --> 00:22:47,080
+Let's go up the way
+
+236
+00:22:47,080 --> 00:22:48,080
+Stop it
+
+237
+00:22:48,080 --> 00:22:49,080
+I think you get yourself pumped up
+
+238
+00:22:49,080 --> 00:22:52,080
+I did a little rush until you got a jump up
+
+239
+00:22:52,080 --> 00:22:53,080
+So time up
+
+240
+00:22:53,080 --> 00:22:54,080
+I gotta put the table on my back
+
+241
+00:22:54,080 --> 00:22:56,080
+To make sure that we win and break it back
+
+242
+00:22:56,080 --> 00:22:57,080
+Stop
+
+243
+00:22:57,080 --> 00:22:59,080
+Now let I know you in the building
+
+244
+00:22:59,080 --> 00:23:01,080
+Everybody may win in the children
+
+245
+00:23:01,080 --> 00:23:03,080
+We ain't gonna do the way
+
+246
+00:23:03,080 --> 00:23:04,080
+But more we gon' stop
+
+247
+00:23:04,080 --> 00:23:06,080
+Till we knock the bottom out of the floor
+
+248
+00:23:06,080 --> 00:23:08,080
+To the reader
+
+249
+00:23:08,080 --> 00:23:10,080
+We gon' make one thing real clear
+
+250
+00:23:10,080 --> 00:23:12,080
+So I'm a fucking damn right here
+
+251
+00:23:12,080 --> 00:23:14,080
+We gon' party like this
+
+252
+00:23:14,080 --> 00:23:15,080
+All these
+
+253
+00:23:15,080 --> 00:23:17,080
+So I'm a real patient
+
+254
+00:23:17,080 --> 00:23:18,080
+And a way more money
+
+255
+00:23:18,080 --> 00:23:20,080
+Just don't trade it
+
+256
+00:23:20,080 --> 00:23:21,080
+Everybody in the house
+
+257
+00:23:21,080 --> 00:23:22,080
+And you ready to party
+
+258
+00:23:22,080 --> 00:23:23,080
+And you know
+
+259
+00:23:23,080 --> 00:23:24,080
+Say it out
+
+260
+00:23:24,080 --> 00:23:25,080
+Out
+
+261
+00:23:25,080 --> 00:23:26,080
+Out
+
+262
+00:23:26,080 --> 00:23:27,080
+Out
+
+263
+00:23:27,080 --> 00:23:28,080
+Out
+
+264
+00:23:28,080 --> 00:23:29,080
+Out
+
+265
+00:23:29,080 --> 00:23:30,080
+Out
+
+266
+00:23:30,080 --> 00:23:31,080
+Out
+
+267
+00:23:31,080 --> 00:23:32,080
+Out
+
+268
+00:23:32,080 --> 00:23:33,080
+Out
+
+269
+00:23:33,080 --> 00:23:34,080
+Out
+
+270
+00:23:34,080 --> 00:23:35,080
+Out
+
+271
+00:23:35,080 --> 00:23:36,080
+Out
+
+272
+00:23:36,080 --> 00:23:37,080
+Out
+
+273
+00:23:37,080 --> 00:23:38,080
+Out
+
+274
+00:23:38,080 --> 00:23:39,080
+Out
+
+275
+00:23:39,080 --> 00:23:39,580
+Out
+
+276
+00:23:39,580 --> 00:23:40,580
+Out
+
+277
+00:23:40,580 --> 00:23:41,580
+Out
+
+278
+00:23:41,580 --> 00:23:42,580
+Out
+
+279
+00:23:42,580 --> 00:23:43,580
+Out
+
+280
+00:23:43,580 --> 00:23:44,580
+Out
+
+281
+00:23:44,580 --> 00:23:45,580
+Out
+
+282
+00:23:45,580 --> 00:23:46,580
+Out
+
+283
+00:23:46,580 --> 00:23:47,580
+Out
+
+284
+00:23:47,580 --> 00:23:48,580
+Out
+
+285
+00:23:48,580 --> 00:23:49,580
+Out
+
+286
+00:23:49,580 --> 00:23:50,580
+Out
+
+287
+00:23:50,580 --> 00:23:51,580
+Out
+
+288
+00:23:51,580 --> 00:23:52,580
+Out
+
+289
+00:23:52,580 --> 00:23:53,580
+Out
+
+290
+00:23:53,580 --> 00:23:54,580
+Out
+
+291
+00:23:54,580 --> 00:23:55,580
+Out
+
+292
+00:23:55,580 --> 00:23:56,580
+Out
+
+293
+00:23:56,580 --> 00:23:57,580
+Out
+
+294
+00:23:57,580 --> 00:23:59,580
+Out
+
+295
+00:23:59,580 --> 00:24:00,580
+Out
+
+296
+00:24:00,580 --> 00:24:01,580
+Out
+
+297
+00:24:01,580 --> 00:24:02,580
+Out
+
+298
+00:24:02,580 --> 00:24:03,580
+Out
+
+299
+00:24:03,580 --> 00:24:04,580
+Out
+
+300
+00:24:04,580 --> 00:24:06,580
+Out
+
+301
+00:24:06,580 --> 00:24:08,580
+Out
+
+302
+00:24:08,580 --> 00:24:10,580
+Everybody in the house and you ready to party
+
+303
+00:24:10,580 --> 00:24:12,580
+Let me tell you something, oh, oh, oh
+
+304
+00:24:12,580 --> 00:24:18,580
+Yeah, yeah, yeah, yeah, yeah
+
+305
+00:24:18,580 --> 00:24:24,580
+Yeah, yeah, yeah, yeah, yeah
+
+306
+00:24:24,580 --> 00:24:26,580
+Stop, stop, stop, stop, stop, stop, stop
+
+307
+00:24:26,580 --> 00:24:30,180
+Stop, stop, stop, stop, stop
+
+308
+00:24:30,180 --> 00:24:32,580
+Let's stop the lead out
+
+309
+00:24:32,580 --> 00:24:34,580
+Turn down the sun her wayей
+
+310
+00:24:34,580 --> 00:24:36,340
+Don't call to the alien's on the line
+
+311
+00:24:36,340 --> 00:24:37,460
+Let's take it all off, hold
+
+312
+00:24:37,460 --> 00:24:38,740
+Feel the bad pace to tools
+
+313
+00:24:38,740 --> 00:24:39,860
+So then I'll go through
+
+314
+00:24:39,860 --> 00:24:41,060
+Stop the肉 just singing
+
+315
+00:24:41,380 --> 00:24:42,000
+No one else
+
+316
+00:24:42,080 --> 00:24:43,220
+You're gonna hard to open your mouth
+
+317
+00:24:43,380 --> 00:24:44,580
+You know we been in hard
+
+318
+00:24:44,580 --> 00:24:45,940
+But what's taking the back up
+
+319
+00:24:45,940 --> 00:24:48,100
+And from the 20 yards
+
+320
+00:24:48,100 --> 00:24:49,300
+Pick on the ramps all
+
+321
+00:24:49,380 --> 00:24:50,580
+Give it up for the team
+
+322
+00:24:50,580 --> 00:24:51,860
+An some automanz
+
+323
+00:24:52,660 --> 00:24:53,380
+To the leader
+
+324
+00:24:53,620 --> 00:24:54,900
+We don't make one thing
+
+325
+00:24:54,900 --> 00:24:56,220
+We're playing real clear.
+
+326
+00:24:56,220 --> 00:24:58,700
+So I'm a fucking damn right here.
+
+327
+00:24:58,700 --> 00:25:00,920
+We go party like this all these.
+
+328
+00:25:00,920 --> 00:25:03,560
+So you know, there's an idea.
+
+329
+00:25:03,560 --> 00:25:05,960
+The way you're my just don't care.
+
+330
+00:25:05,960 --> 00:25:09,040
+Everybody in the house is really a part of the deal.
+
+331
+00:25:09,040 --> 00:25:11,040
+So you know, oh, oh.
+
+332
+00:25:11,040 --> 00:25:12,040
+Yeah.
+
+333
+00:25:12,040 --> 00:25:13,040
+Yeah.
+
+334
+00:25:13,040 --> 00:25:14,040
+Yeah.
+
+335
+00:25:14,040 --> 00:25:15,040
+Yeah.
+
+336
+00:25:15,040 --> 00:25:16,040
+Yeah.
+
+337
+00:25:16,040 --> 00:25:17,040
+Yeah.
+
+338
+00:25:17,040 --> 00:25:18,040
+Yeah.
+
+339
+00:25:18,040 --> 00:25:19,040
+Yeah.
+
+340
+00:25:19,040 --> 00:25:20,040
+Yeah.
+
+341
+00:25:20,040 --> 00:25:21,040
+Yeah.
+
+342
+00:25:21,040 --> 00:25:22,040
+Yeah.
+
+343
+00:25:22,040 --> 00:25:23,040
+Woo.
+
+344
+00:25:23,040 --> 00:25:24,040
+Oh, I love that.
+
+345
+00:25:24,120 --> 00:25:26,940
+I love that jersey Todd back with the vengeance.
+
+346
+00:25:26,940 --> 00:25:28,640
+Oh, each your heart, I'd black out.
+
+347
+00:25:28,640 --> 00:25:29,640
+Pete.
+
+348
+00:25:29,640 --> 00:25:30,480
+Yeah, really.
+
+349
+00:25:30,480 --> 00:25:31,240
+That was awesome.
+
+350
+00:25:31,240 --> 00:25:33,880
+I wish we had a better recording.
+
+351
+00:25:33,880 --> 00:25:36,720
+That was of course was an MP3 of an MP3.
+
+352
+00:25:36,720 --> 00:25:37,720
+I'm sure.
+
+353
+00:25:37,720 --> 00:25:39,040
+But that sounds awesome on speed.
+
+354
+00:25:39,040 --> 00:25:39,840
+Good.
+
+355
+00:25:39,840 --> 00:25:40,440
+That was good.
+
+356
+00:25:40,440 --> 00:25:41,480
+Well, that was good.
+
+357
+00:25:41,480 --> 00:25:42,240
+Wild bunch.
+
+358
+00:25:42,240 --> 00:25:43,040
+It was a good for you.
+
+359
+00:25:43,040 --> 00:25:44,440
+It was fucking great, baby.
+
+360
+00:25:47,440 --> 00:25:48,840
+Get him on the positive music network.
+
+361
+00:25:48,840 --> 00:25:50,240
+Cheers, Todd.
+
+362
+00:25:50,240 --> 00:25:53,840
+ASAP do definitely big, big, huge.
+
+363
+00:25:53,840 --> 00:25:54,840
+I agree.
+
+364
+00:25:54,840 --> 00:25:58,280
+I think that could be it's got everything big.
+
+365
+00:25:58,280 --> 00:25:59,280
+It does.
+
+366
+00:25:59,280 --> 00:26:00,280
+Doesn't it?
+
+367
+00:26:00,280 --> 00:26:02,480
+Oh, and you know, you're dancing right away.
+
+368
+00:26:02,480 --> 00:26:03,480
+Even me.
+
+369
+00:26:03,480 --> 00:26:04,480
+Yeah.
+
+370
+00:26:04,480 --> 00:26:05,480
+And you're not dancing.
+
+371
+00:26:05,480 --> 00:26:07,480
+I'm the honkyest white guy you'll ever see.
+
+372
+00:26:07,480 --> 00:26:08,480
+Did you see me dancing?
+
+373
+00:26:08,480 --> 00:26:09,480
+Yeah.
+
+374
+00:26:09,480 --> 00:26:10,480
+Woo-hoo.
+
+375
+00:26:10,480 --> 00:26:11,480
+Wow.
+
+376
+00:26:11,480 --> 00:26:12,480
+It's raining even harder now.
+
+377
+00:26:12,480 --> 00:26:13,480
+Yeah.
+
+378
+00:26:13,480 --> 00:26:14,480
+People would think I'm wearing the shower to get.
+
+379
+00:26:14,480 --> 00:26:15,480
+Listen.
+
+380
+00:26:15,480 --> 00:26:16,480
+Listen.
+
+381
+00:26:16,480 --> 00:26:19,280
+There are a ton of other great artists that were played throughout 2006.
+
+382
+00:26:19,280 --> 00:26:22,160
+I'm not sure why we measured them by weight, but they were a lot.
+
+383
+00:26:22,160 --> 00:26:25,480
+And I couldn't fit them all in on this show, but we'll try to get another best of music
+
+384
+00:26:25,480 --> 00:26:27,480
+theme out before Adam gets back.
+
+385
+00:26:27,480 --> 00:26:31,640
+Also, if you like music, check out Love House Radio at Love House Radio.com, that's my
+
+386
+00:26:31,640 --> 00:26:32,640
+music cast.
+
+387
+00:26:32,640 --> 00:26:36,960
+I actually did a recap of the 2006 year on that show just a few days ago.
+
+388
+00:26:36,960 --> 00:26:41,400
+And if your parent or especially a father comes to the community for fathers and parents,
+
+389
+00:26:41,400 --> 00:26:46,080
+the daddycast, at thedadicast.com, like most ads, I can use all the advice I can get.
+
+390
+00:26:46,080 --> 00:26:47,880
+So, come help me out.
+
+391
+00:26:47,880 --> 00:26:50,640
+Adam thinks we're letting me host the best to Charlie with the music theme.
+
+392
+00:26:50,640 --> 00:26:51,640
+It's been a lot of fun.
+
+393
+00:26:51,640 --> 00:26:55,400
+And I guess we are nearing the satellite window, but always wanted to say that.
+
+394
+00:26:55,400 --> 00:26:59,400
+So we'll take it away and let PW do his mastery, but of course, subscribe to the Daily
+
+395
+00:26:59,400 --> 00:27:03,120
+Source Code at the DailySourceCode.pocho.com.
+
+396
+00:27:03,120 --> 00:27:04,120
+Thanks again, everybody.
+
+397
+00:27:04,120 --> 00:27:05,120
+We'll talk to you soon.
+
+398
+00:27:05,120 --> 00:27:06,120
+Bye-bye.
+
+399
+00:27:06,120 --> 00:27:14,440
+Another pot show pot guest, stick it in your ear.
+
+400
+00:27:14,440 --> 00:27:18,800
+Get this piece of the show and more great ones like it on the BT Pot Show Media Network.
+
+401
+00:27:18,800 --> 00:27:24,400
+Controll your part in the show at btpotshow.com.
+
