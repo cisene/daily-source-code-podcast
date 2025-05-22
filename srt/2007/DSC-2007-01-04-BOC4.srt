@@ -1,0 +1,2520 @@
+1
+00:00:00,000 --> 00:00:06,000
+I, everybody, welcome to the Daily Source Code, best of Charlie episode number four.
+
+2
+00:00:06,000 --> 00:00:11,000
+I'm at him coming to you in a, well, it still is the official curry cottage, although it's
+
+3
+00:00:11,000 --> 00:00:17,000
+starting to get a little bit, um, discombobulated, not empty yet because the move doesn't
+
+4
+00:00:17,000 --> 00:00:21,160
+actually take place until next week, but we're already starting to bring boxes over stuff
+
+5
+00:00:21,160 --> 00:00:26,440
+is getting put into boxes and, uh, and I'm spending a lot of my time changing services, still
+
+6
+00:00:26,440 --> 00:00:31,520
+in the midst of trying to get, uh, broadband all set up before when we move into the new
+
+7
+00:00:31,520 --> 00:00:35,600
+place, which, uh, I can pretty much guarantee won't work, is not going to happen, although
+
+8
+00:00:35,600 --> 00:00:40,680
+the telephone did finally switch over yesterday. So, um, so that part is working. Of course,
+
+9
+00:00:40,680 --> 00:00:45,720
+now we have no home phone here, so I had to do the old star 21 star to forward all, um,
+
+10
+00:00:45,720 --> 00:00:50,520
+by the way, it's not called call forwarding in the UK. It's called call diversion. Took me
+
+11
+00:00:50,600 --> 00:00:57,240
+wild to find that one. Um, so, uh, you know, and we've been, uh, been over the house, uh,
+
+12
+00:00:57,240 --> 00:01:02,280
+a couple of times each day, um, just getting stuff ready, uh, the house is, uh, it's pretty
+
+13
+00:01:02,280 --> 00:01:07,320
+much exactly the way we want it, so we're real happy to move in, uh, other, uh, so for the
+
+14
+00:01:07,320 --> 00:01:11,240
+broadband, uh, what I've decided to do, since I'm sure there's going to be a one to two week
+
+15
+00:01:11,240 --> 00:01:16,280
+overlap before we actually get everything cranking, um, I've decided to get one of those
+
+16
+00:01:16,280 --> 00:01:25,160
+vote of phone, um, broadband via G3, USB dongles. They claim that you can get speeds of up to
+
+17
+00:01:25,160 --> 00:01:32,280
+1.5 megabits per second. I'm pretty sure, uh, that's just the advertised speed in my, uh, my speed
+
+18
+00:01:32,280 --> 00:01:37,080
+may vary due to road and weather conditions. Uh, but it doesn't really matter as long as I can, uh,
+
+19
+00:01:37,080 --> 00:01:41,800
+as long as I can do, you know, the normal email stuff and calendar and just be connected, uh,
+
+20
+00:01:41,880 --> 00:01:47,160
+and particularly for Christina and for Patricia, who also has become quite a connected gal herself,
+
+21
+00:01:47,160 --> 00:01:52,120
+and, uh, and then for the occasional download of, uh, of some, uh, podcasts, but it looks like
+
+22
+00:01:52,120 --> 00:01:56,680
+I'm going to have to be, uh, going off to Starbucks or maybe in December, Cisco to get some true
+
+23
+00:01:56,680 --> 00:02:04,200
+bandwidth while we wait for, um, the broadband to be, uh, to be reconnected in the new GF. Um,
+
+24
+00:02:04,200 --> 00:02:08,520
+so I have another best of Charlie lined up for you today, which is sponsored in part by Stomp
+
+25
+00:02:08,520 --> 00:02:14,440
+the Yard, which is a new movie coming out, um, on January 12th. And if you want to know more about
+
+26
+00:02:14,440 --> 00:02:21,000
+this movie, go to StompThePodcast.com. Tony Costas will tell you all about it, and he's doing regular
+
+27
+00:02:21,000 --> 00:02:26,040
+updates on this movie up until the movie is released. Uh, and of course, uh, the 12th, the 13th and
+
+28
+00:02:26,040 --> 00:02:31,240
+the 14th will be able to see how well it did, uh, uh, that's probably the opening weekend. If, uh,
+
+29
+00:02:31,240 --> 00:02:37,720
+if the little man, uh, exercise, we, uh, we took together. If that's any, um, any precedents, I'm sure this
+
+30
+00:02:37,720 --> 00:02:41,560
+is going to be a big hit as well. Also brought to you, a part by GoDaddy if you want a great deal
+
+31
+00:02:41,560 --> 00:02:47,240
+of the main name, go to GoDaddy.com, and you check out code DSC that's Delta Sierra Charlie. DSC
+
+32
+00:02:47,240 --> 00:02:53,080
+three, uh, for the great savings. And I just want to let you know that just as, uh, I'd pretty much
+
+33
+00:02:53,080 --> 00:02:59,080
+given up on, uh, on TV again here in the UK, we had some pretty good stuff over the holidays. Um, and
+
+34
+00:02:59,080 --> 00:03:06,200
+I do love the BBC. I love the stuff they do, but I got out a little bit lean, um, right after the
+
+35
+00:03:06,280 --> 00:03:13,720
+new years. And yesterday, I'm so happy this show is back on the air. It is, uh, celebrity big brother
+
+36
+00:03:13,720 --> 00:03:19,080
+once again in the UK. And they've got a great lineup that I'm going to be following. Uh, I'm totally
+
+37
+00:03:19,080 --> 00:03:24,120
+hooked on this stuff. As you know, I was there. Would big brother has a concept was born. In fact,
+
+38
+00:03:24,120 --> 00:03:29,160
+it was called Golden Cage back then. Um, so I've always been a fan of the show. And I love
+
+39
+00:03:29,160 --> 00:03:33,800
+with who they have on this year. Check this out. I'm just pulling this from the, uh, what is this?
+
+40
+00:03:33,800 --> 00:03:39,560
+The Daily Mirror. Uh, here are the, uh, the contestants who will be in the house for 25 days.
+
+41
+00:03:40,360 --> 00:03:44,760
+They're not really deal liberties anymore. Well, uh, although we start off with Donnie Turett,
+
+42
+00:03:46,600 --> 00:03:51,080
+you know, what I'll do is a poly Hudson, uh, writes on the celebrity page of the Daily Mirror.
+
+43
+00:03:51,960 --> 00:03:57,320
+I will, I'll just read her little bits next to each of the, yeah, each of the contestants.
+
+44
+00:03:57,880 --> 00:04:03,800
+Uh, you might be thinking, who, but trust me, he's literally a spinal tap-esque hilarious genius.
+
+45
+00:04:03,800 --> 00:04:09,560
+Great, great booking. No, really a great booking. Donnie Turett is the lead singer of Towers of London,
+
+46
+00:04:09,560 --> 00:04:15,480
+uh, Christina knew the band. Then there's Dirk Benedict, the man who's gone from 18 to Z list in
+
+47
+00:04:16,280 --> 00:04:22,040
+expecting 25 days of absolute hell. Here's hoping. I'd also like him to fall in love with Cleo, please.
+
+48
+00:04:22,040 --> 00:04:26,440
+So, you fuck that. She's horrible, what she wrote. Okay. So, Dirk Benedict, better known as
+
+49
+00:04:26,440 --> 00:04:33,080
+face from the 18 and, uh, Han Solo. No, not Han Solo. I'm sorry, that was Harrison Ford.
+
+50
+00:04:33,080 --> 00:04:36,840
+Uh, who, Dirk Benedict was in, uh, was he buck Rogers? That's what it was in. Yeah.
+
+51
+00:04:37,640 --> 00:04:46,360
+Then Cleo Rockus, who, um, was the girl with the nice boots always leaning forward in the, was it
+
+52
+00:04:46,440 --> 00:04:54,440
+the candy ever show? I think, uh, English comedian. Then there's, um, disputed and kind of
+
+53
+00:04:54,440 --> 00:05:00,440
+grumpy old guy, yet perverted grumpy old guy, filmed director Ken Russell, who's in the house.
+
+54
+00:05:02,040 --> 00:05:08,120
+Then there's Carol Malone, who is a gossip magazine reporter and boy, she's enjoying all the
+
+55
+00:05:08,120 --> 00:05:13,240
+celebrity. I always knew it. People who write about celebrities want to be celebrities.
+
+56
+00:05:14,120 --> 00:05:20,440
+Then there's Ian from steps, or better known as H from steps, who coincidentally came out
+
+57
+00:05:20,440 --> 00:05:26,760
+of the closet 24 hours before going into the big brother house. So, uh, let's use that
+
+58
+00:05:26,760 --> 00:05:32,040
+with you to take a, yeah, it's probably the token homosexual. So, obviously, it's how they're putting
+
+59
+00:05:32,040 --> 00:05:38,200
+this together. But a big surprise here. Leo Sayer. Uh, you know, Leo Sayer from the 70s.
+
+60
+00:05:39,160 --> 00:05:43,800
+What was, uh, you know, I can't dance. You know, I can't dance. Uh, you know what tomorrow,
+
+61
+00:05:43,800 --> 00:05:48,040
+I'll, uh, for tomorrow's best of Charlie, I'll find Leo Sayer, so I'm play a bit for you.
+
+62
+00:05:48,040 --> 00:05:55,960
+Then there's a lead singer of S Club 7, Joe Omera. And then there's a girlfriend of a, uh, a
+
+63
+00:05:55,960 --> 00:06:01,320
+well-known, uh, football player, Daniel Lloyd. And then there is an award-winning
+
+64
+00:06:01,320 --> 00:06:07,080
+Bollywood actress, Shilpa Shetty, who's also in the big brother house. Beautiful. Like,
+
+65
+00:06:07,080 --> 00:06:13,560
+I almost like an Indian princess. And her mission is to show the world that, uh, show the world
+
+66
+00:06:13,560 --> 00:06:20,600
+that there are a lot of misconceptions about Indian people. And finally, I love this, germane Jackson
+
+67
+00:06:21,800 --> 00:06:26,360
+of, uh, that's, uh, Michael's older brother who I've met a couple times. It's a really nice guy.
+
+68
+00:06:26,360 --> 00:06:30,520
+But what the heck is he doing in the big brother house? It's going to be, um, a very interesting
+
+69
+00:06:30,520 --> 00:06:36,040
+season for sure. And the gofers are back bringing you today's best of Charlie. Hope you enjoy
+
+70
+00:06:36,040 --> 00:06:41,960
+it's chock full of second-life stuff. So, well, at first I thought, uh, I'm really not interested in
+
+71
+00:06:41,960 --> 00:06:46,120
+hearing all that. But, you know, going back and listening to the enthusiasm is pretty interesting.
+
+72
+00:06:46,120 --> 00:06:47,720
+And thanks to the gofers, of course.
+
+73
+00:07:00,520 --> 00:07:30,360
+Hey, baby.
+
+74
+00:07:30,360 --> 00:07:35,320
+The source code listeners, this is happy again from bedtime stories. My kids love. And again,
+
+75
+00:07:35,320 --> 00:07:43,080
+I'm hosting a best of the Charlie while Adam moves to the new curry, shall I? Or like I said before,
+
+76
+00:07:43,080 --> 00:07:48,360
+whatever he wants to call it. Well, this episode, we're going to talk about something that Adam
+
+77
+00:07:48,360 --> 00:07:53,640
+really got into last year. Second life. And you're going to hear some of the best Adam Curry
+
+78
+00:07:53,640 --> 00:07:56,920
+second life moments on the daily source code. Listen up.
+
+79
+00:08:24,520 --> 00:08:30,040
+What is all this stuff? Ow! Watch out. Can you hear me? Can you learn how to fly?
+
+80
+00:08:32,040 --> 00:08:36,920
+Do I man? No guns. I'm running to the music. Right. The castle is closed.
+
+81
+00:08:39,560 --> 00:08:40,280
+I'm out of here.
+
+82
+00:08:44,120 --> 00:08:45,320
+It's crazy.
+
+83
+00:08:46,280 --> 00:08:53,400
+No, you're crazy. I think that's a Jeff's artistic way of saying, man, I kind of got
+
+84
+00:08:53,400 --> 00:08:57,480
+interested in sucked into that second life thing. You had a big fro. That was pretty cool.
+
+85
+00:08:57,480 --> 00:09:01,320
+But there are more people doing interesting things in second life, though.
+
+86
+00:09:01,560 --> 00:09:12,840
+Comics trip. Comics trip. Comics trip. Comics trip. Comics trip.
+
+87
+00:09:14,840 --> 00:09:20,440
+Hi, Adam Curry. Guess who I have met in person in second life yesterday?
+
+88
+00:09:21,160 --> 00:09:27,560
+It was Jeff Smith, who is making theme songs for Pat Castas for reasonable money.
+
+89
+00:09:28,120 --> 00:09:32,600
+We were chatting about making theme songs for me. And he mentioned that
+
+90
+00:09:33,960 --> 00:09:38,680
+his little daughter is running around the house and singing comics trip blogger,
+
+91
+00:09:38,680 --> 00:09:46,920
+comics trip blogger, Tim Song. Wow, that's scary, don't you think? So, speaking of second life,
+
+92
+00:09:46,920 --> 00:09:56,120
+Adam, matey, please meet Roger Smalls up. You both live in fucking gulfot. And he's now
+
+93
+00:09:56,120 --> 00:10:04,840
+sad and bitter because he has no credit card to join second life fun. So, please meet him in
+
+94
+00:10:04,840 --> 00:10:15,000
+R.L. known as real life and cheer him up. You. You. I've sent an email to Roger. I have
+
+95
+00:10:15,000 --> 00:10:21,240
+not heard back from him. I hope he's okay. It's very unlike him to be silent all this while. So,
+
+96
+00:10:22,120 --> 00:10:28,840
+let's just hope that he's okay. I don't think he was going on holiday. I mean, I just don't know.
+
+97
+00:10:28,840 --> 00:10:33,320
+I really don't know. But it's been weeks now since we've heard from him. So, I'm a bit concerned.
+
+98
+00:10:34,200 --> 00:10:38,840
+Maybe some problem with the draft and darts thing because he said he couldn't make that.
+
+99
+00:10:38,840 --> 00:10:42,920
+And that also didn't seem very Roger like. Maybe he was there after all. Maybe he'd actually
+
+100
+00:10:42,920 --> 00:10:47,240
+met me and thought what a dick. I don't want to send anything to him. So, but anyway,
+
+101
+00:10:47,240 --> 00:10:53,000
+that Roger smalls, I think he's tough at me. And we haven't heard from him for like three weeks now.
+
+102
+00:10:53,000 --> 00:10:59,240
+True. And he put this whole thing on his on his weblog that he can't well, he can't get on this,
+
+103
+00:10:59,880 --> 00:11:04,760
+he just he hates second life. Everything about it. He doesn't want to be part of it. And he
+
+104
+00:11:04,760 --> 00:11:10,280
+feels left out. And it's like, I don't know what to do. But he's not sending in any more stuff.
+
+105
+00:11:10,280 --> 00:11:16,520
+Well, there you go. You're losing friends, honey. Roger, come back. I'll do anything.
+
+106
+00:11:16,520 --> 00:11:23,480
+Yeah, please. Gaining of gaining friends in the air and in your second life, losing them in
+
+107
+00:11:23,480 --> 00:11:26,760
+RL. In real life, could you tell? Didn't I warn you about it?
+
+108
+00:11:34,760 --> 00:11:41,960
+Hello? Hey, Roger. Now, I'm at the go for home in second life. Yeah, yeah, it's pretty cool.
+
+109
+00:11:42,040 --> 00:11:47,720
+Hey, where are you been? It's been three weeks since we heard from you. Yeah, yeah.
+
+110
+00:11:49,000 --> 00:11:54,040
+Sincere. Yeah. Hey, Roger. My cell phone's ringing. I got to go.
+
+111
+00:11:54,840 --> 00:11:58,520
+Yeah, I changed my ringtone. I got to go. Yeah. I got to go. Bye.
+
+112
+00:12:00,360 --> 00:12:06,920
+Hey, CSP. Yeah, and be moved the bedtime story towers you can see curry castle. And now we have
+
+113
+00:12:06,920 --> 00:12:12,600
+a matching sun in a house. Yeah, it's pretty cool. A CSP don't forget to stop by the bedtime
+
+114
+00:12:12,600 --> 00:12:16,760
+stories. My kids love go for home in second life. Yeah, you can't miss this. We're right there
+
+115
+00:12:16,760 --> 00:12:23,480
+by where you live. Right by the tower. Remember CSP. Once you do go for, you never go for anything else.
+
+116
+00:12:25,080 --> 00:12:28,680
+Sorry about that. Just little go for humor. Hey, like I've shown the phone.
+
+117
+00:12:28,680 --> 00:12:31,960
+Check out this cool mashup. I got from the pod save music network.
+
+118
+00:12:37,640 --> 00:12:39,640
+Bro, am spécialating apparently.
+
+119
+00:12:42,120 --> 00:12:44,040
+What is that sound like you are playing this?
+
+120
+00:12:48,680 --> 00:12:50,160
+Yeah, of course.
+
+121
+00:12:51,320 --> 00:12:53,560
+So what are you doing?
+
+122
+00:12:55,320 --> 00:12:57,040
+Have I told you?
+
+123
+00:12:57,280 --> 00:12:59,400
+Yeah, I'm a party of Religion.
+
+124
+00:12:59,400 --> 00:13:01,400
+Don't you think?
+
+125
+00:13:01,400 --> 00:13:04,400
+I am kidding!
+
+126
+00:13:04,400 --> 00:13:06,400
+You!
+
+127
+00:13:06,400 --> 00:13:08,400
+You!
+
+128
+00:13:08,400 --> 00:13:09,400
+You!
+
+129
+00:13:09,400 --> 00:13:11,400
+You!
+
+130
+00:13:11,400 --> 00:13:12,400
+You!
+
+131
+00:13:15,400 --> 00:13:17,400
+Okay!
+
+132
+00:13:17,400 --> 00:13:21,400
+Jeff Tinon, Tinon, excuse me.
+
+133
+00:13:21,400 --> 00:13:24,400
+Sent me an email.
+
+134
+00:13:24,400 --> 00:13:27,400
+And I, you know, for a second there, I thought he might be right.
+
+135
+00:13:27,400 --> 00:13:28,400
+Hello Adam.
+
+136
+00:13:29,400 --> 00:13:31,400
+I have a theory about Rogers absence of late.
+
+137
+00:13:31,400 --> 00:13:35,400
+We're talking about Roger Smalls, of course.
+
+138
+00:13:35,400 --> 00:13:37,400
+I actually think he's got himself a girlfriend.
+
+139
+00:13:37,400 --> 00:13:40,400
+And that's why he hasn't been in touch.
+
+140
+00:13:40,400 --> 00:13:44,400
+I have so many friends who had some point in other have gone quiet after
+
+141
+00:13:44,400 --> 00:13:45,400
+bagging a new squeeze.
+
+142
+00:13:45,400 --> 00:13:46,400
+Leave it a month.
+
+143
+00:13:46,400 --> 00:13:49,400
+I'm sure he'll be back in touch once the novelty is worn off.
+
+144
+00:13:49,400 --> 00:13:51,400
+All the best from Jeff.
+
+145
+00:13:51,400 --> 00:13:54,400
+Oops, and say, oh, excuse me.
+
+146
+00:13:54,400 --> 00:13:57,400
+I know that's disgusting, but I just needed to do that.
+
+147
+00:13:57,400 --> 00:14:02,400
+Well, Jeff, funny enough, I think that your theory may be true,
+
+148
+00:14:02,400 --> 00:14:07,400
+because it has been almost exactly one month since we last heard from him.
+
+149
+00:14:19,400 --> 00:14:20,400
+Hi Adam, Roger.
+
+150
+00:14:20,400 --> 00:14:23,400
+I'm sorry for not sending you any recordings for a while,
+
+151
+00:14:23,400 --> 00:14:24,400
+but I was very upset.
+
+152
+00:14:24,400 --> 00:14:26,400
+My comic suit blogger's Biblings.
+
+153
+00:14:26,400 --> 00:14:29,400
+He drew me in crayon on his website.
+
+154
+00:14:29,400 --> 00:14:32,400
+Now, I'm not sure where he can't go like him as rats call me,
+
+155
+00:14:32,400 --> 00:14:33,400
+actually.
+
+156
+00:14:33,400 --> 00:14:36,400
+I know I'm not actually buried head for anything when it comes to looks.
+
+157
+00:14:36,400 --> 00:14:40,400
+But let's just talk into some girls that go out drinking and go for it.
+
+158
+00:14:40,400 --> 00:14:42,400
+Then he won't know how in the trashes I am.
+
+159
+00:14:42,400 --> 00:14:45,400
+Now, if he's decided to do the same thing that he does,
+
+160
+00:14:45,400 --> 00:14:47,400
+and demand a public apology from him,
+
+161
+00:14:47,400 --> 00:14:49,400
+because I think as long as he's got hold of his ass,
+
+162
+00:14:49,400 --> 00:14:52,400
+he's going to continue to be spiteful and rude people.
+
+163
+00:14:52,400 --> 00:14:54,400
+Which I don't think so any way to get on in life,
+
+164
+00:14:54,400 --> 00:14:56,400
+but it's all I've got to say for now, Adam.
+
+165
+00:14:56,400 --> 00:14:59,400
+I'm not saying another word and silly issues in apology.
+
+166
+00:14:59,400 --> 00:15:01,400
+So, by for now, Roger.
+
+167
+00:15:01,400 --> 00:15:03,400
+And while he's at stake,
+
+168
+00:15:03,400 --> 00:15:05,400
+he can apologize to Russell B.
+
+169
+00:15:05,400 --> 00:15:06,400
+He managed wine, steam,
+
+170
+00:15:06,400 --> 00:15:08,400
+and everyone else on your comments board too,
+
+171
+00:15:08,400 --> 00:15:10,400
+because he's a nasty piece of work.
+
+172
+00:15:10,400 --> 00:15:14,400
+But by the way, will you stop talking about that blessing
+
+173
+00:15:14,400 --> 00:15:15,400
+compete game?
+
+174
+00:15:15,400 --> 00:15:16,400
+I'm sure it's very working,
+
+175
+00:15:16,400 --> 00:15:19,400
+sat down and talked about space invaders for half an hour,
+
+176
+00:15:19,400 --> 00:15:21,400
+then he's losing all his audience.
+
+177
+00:15:21,400 --> 00:15:23,400
+Now, when the people think hard casting is key,
+
+178
+00:15:23,400 --> 00:15:25,400
+the reason people listen to your shows
+
+179
+00:15:25,400 --> 00:15:28,400
+to hear how much pressure your life is compared to theirs,
+
+180
+00:15:28,400 --> 00:15:31,400
+not to talk about dungeons and dragons and high schools.
+
+181
+00:15:31,400 --> 00:15:33,400
+So I am so angry, I should go,
+
+182
+00:15:33,400 --> 00:15:35,400
+I just thought someone should tell you,
+
+183
+00:15:35,400 --> 00:15:37,400
+goodbye.
+
+184
+00:15:37,400 --> 00:15:39,400
+Oh, Roger.
+
+185
+00:15:39,400 --> 00:15:41,400
+You say me my brother?
+
+186
+00:15:41,400 --> 00:15:43,400
+Okay, so I do take this seriously.
+
+187
+00:15:43,400 --> 00:15:47,400
+It sounds like you're angry at comic strip blogger.
+
+188
+00:15:47,400 --> 00:15:49,400
+And now,
+
+189
+00:15:49,400 --> 00:15:52,400
+I think he actually, I think he's been pretty nice.
+
+190
+00:15:52,400 --> 00:15:54,400
+You know, he's said that he's given me advice
+
+191
+00:15:54,400 --> 00:15:57,400
+to do things to help you out.
+
+192
+00:15:57,400 --> 00:15:58,400
+You know, send you money,
+
+193
+00:15:58,400 --> 00:16:00,400
+so you could get on second life.
+
+194
+00:16:00,400 --> 00:16:02,400
+Excuse me, I need to say
+
+195
+00:16:02,400 --> 00:16:04,400
+the virtual world,
+
+196
+00:16:04,400 --> 00:16:05,400
+second life,
+
+197
+00:16:05,400 --> 00:16:09,400
+where I am sometimes to be found at the curry castle.
+
+198
+00:16:09,400 --> 00:16:12,400
+Anyway, it's good to hear your voice.
+
+199
+00:16:12,400 --> 00:16:13,400
+That's for sure.
+
+200
+00:16:13,400 --> 00:16:16,400
+Let us know if it was a girlfriend that distracted you,
+
+201
+00:16:16,400 --> 00:16:18,400
+but if it was really just comic strip blogger
+
+202
+00:16:18,400 --> 00:16:19,400
+that made you so mad,
+
+203
+00:16:19,400 --> 00:16:20,400
+I think we need to,
+
+204
+00:16:20,400 --> 00:16:22,400
+we need to sit down and talk.
+
+205
+00:16:22,400 --> 00:16:23,400
+And you know what, Roger,
+
+206
+00:16:23,400 --> 00:16:24,400
+I would love to get you
+
+207
+00:16:24,400 --> 00:16:26,400
+into the second life virtual world
+
+208
+00:16:26,400 --> 00:16:28,400
+because I think that,
+
+209
+00:16:28,400 --> 00:16:30,400
+you know, you and comics are blogger.
+
+210
+00:16:30,400 --> 00:16:32,400
+You know, maybe you guys could meet on neutral ground,
+
+211
+00:16:32,400 --> 00:16:33,400
+you know, meet over at my place.
+
+212
+00:16:33,400 --> 00:16:35,400
+And let's talk this out.
+
+213
+00:16:35,400 --> 00:16:36,400
+Okay,
+
+214
+00:16:36,400 --> 00:16:38,400
+because I don't like that.
+
+215
+00:16:38,400 --> 00:16:40,400
+You're the original stalker.
+
+216
+00:16:40,400 --> 00:16:41,400
+I'm sorry.
+
+217
+00:16:41,400 --> 00:16:42,400
+It's just what I call it.
+
+218
+00:16:42,400 --> 00:16:44,400
+It's a term of indierment.
+
+219
+00:16:44,400 --> 00:16:46,400
+You're the original stalker.
+
+220
+00:16:46,400 --> 00:16:47,400
+And,
+
+221
+00:16:47,400 --> 00:16:51,400
+please Roger,
+
+222
+00:16:51,400 --> 00:16:53,400
+please come back.
+
+223
+00:16:53,400 --> 00:16:54,400
+I appreciate it.
+
+224
+00:16:54,400 --> 00:16:55,400
+Nice to meet you.
+
+225
+00:16:55,400 --> 00:16:56,400
+Come back anytime now.
+
+226
+00:16:56,400 --> 00:16:57,400
+Comics strip.
+
+227
+00:16:57,400 --> 00:17:00,400
+Comics strip.
+
+228
+00:17:00,400 --> 00:17:01,400
+Comics strip.
+
+229
+00:17:01,400 --> 00:17:03,400
+Comics strip.
+
+230
+00:17:03,400 --> 00:17:04,400
+Comics strip.
+
+231
+00:17:04,400 --> 00:17:05,400
+Comics strip.
+
+232
+00:17:05,400 --> 00:17:07,400
+Comics strip.
+
+233
+00:17:07,400 --> 00:17:08,400
+Comics strip.
+
+234
+00:17:08,400 --> 00:17:09,400
+Controversy.
+
+235
+00:17:09,400 --> 00:17:11,400
+Or should I say controversy?
+
+236
+00:17:11,400 --> 00:17:13,400
+Between.
+
+237
+00:17:13,400 --> 00:17:15,400
+Comics strip blogger and Roger Smalls.
+
+238
+00:17:15,400 --> 00:17:17,400
+Now, we heard yesterday from Roger Smalls,
+
+239
+00:17:17,400 --> 00:17:18,400
+who is back.
+
+240
+00:17:18,400 --> 00:17:21,400
+That he was really, really upset with comics strip blogger.
+
+241
+00:17:21,400 --> 00:17:23,400
+And I saw on thecurry.com comments.
+
+242
+00:17:23,400 --> 00:17:26,400
+CSB had posted an entire apology.
+
+243
+00:17:26,400 --> 00:17:27,400
+And it doesn't stop there.
+
+244
+00:17:27,400 --> 00:17:28,400
+I don't carry.
+
+245
+00:17:28,400 --> 00:17:31,400
+I would like to apologize to Roger Smalls publicly.
+
+246
+00:17:31,400 --> 00:17:32,400
+That's true.
+
+247
+00:17:32,400 --> 00:17:37,400
+That I have drawn a comic strip where it was suggested
+
+248
+00:17:37,400 --> 00:17:41,400
+that Roger is not meeting up with you, Adam.
+
+249
+00:17:41,400 --> 00:17:42,400
+Carry.
+
+250
+00:17:42,400 --> 00:17:45,400
+Because Roger is ugly and all shy.
+
+251
+00:17:45,400 --> 00:17:47,400
+I apologize for that.
+
+252
+00:17:47,400 --> 00:17:51,400
+And I have just removed the part of this comic strip
+
+253
+00:17:51,400 --> 00:17:53,400
+where Roger was featured.
+
+254
+00:17:53,400 --> 00:17:57,400
+I'll buy it as fictional character, called Roger
+
+255
+00:17:57,400 --> 00:17:58,400
+Squalls.
+
+256
+00:17:58,400 --> 00:18:00,400
+Not as Roger Smalls.
+
+257
+00:18:00,400 --> 00:18:02,400
+Anyway, I was wrong.
+
+258
+00:18:02,400 --> 00:18:06,400
+You are one handsome hank Roger.
+
+259
+00:18:06,400 --> 00:18:07,400
+You are not ugly.
+
+260
+00:18:07,400 --> 00:18:09,400
+You are beautiful Roger.
+
+261
+00:18:09,400 --> 00:18:10,400
+Okay.
+
+262
+00:18:10,400 --> 00:18:16,400
+So, dear Roger Smalls, please accept my apology.
+
+263
+00:18:16,400 --> 00:18:17,400
+Sorry mate.
+
+264
+00:18:17,400 --> 00:18:18,400
+Peace.
+
+265
+00:18:18,400 --> 00:18:19,400
+Okay.
+
+266
+00:18:19,400 --> 00:18:25,400
+Finally, anybody who is offended by any of my comic strips
+
+267
+00:18:25,400 --> 00:18:28,400
+or by any of my tabloid style writings,
+
+268
+00:18:28,400 --> 00:18:31,400
+please contact me directly.
+
+269
+00:18:31,400 --> 00:18:35,400
+And I will remove related pieces that are offending you.
+
+270
+00:18:35,400 --> 00:18:38,400
+I will accept, however, requests only from people
+
+271
+00:18:38,400 --> 00:18:42,400
+depicted, not from set parties.
+
+272
+00:18:42,400 --> 00:18:46,400
+Originally of this, sometimes people like art
+
+273
+00:18:46,400 --> 00:18:50,400
+or publicity about themselves, no matter
+
+274
+00:18:50,400 --> 00:18:52,400
+whether it is good or bad.
+
+275
+00:18:52,400 --> 00:18:55,400
+According to the motto, there is no such thing as
+
+276
+00:18:55,400 --> 00:18:57,400
+bad publicity.
+
+277
+00:18:57,400 --> 00:18:59,400
+So, have a nice weekend, Adam.
+
+278
+00:18:59,400 --> 00:19:00,400
+Carry.
+
+279
+00:19:00,400 --> 00:19:06,400
+I wish you sincerely a good health to your whole family.
+
+280
+00:19:07,400 --> 00:19:08,400
+Show Adam.
+
+281
+00:19:08,400 --> 00:19:09,400
+Bye.
+
+282
+00:19:09,400 --> 00:19:10,400
+Yeah.
+
+283
+00:19:10,400 --> 00:19:14,400
+People say to me, what did you do to comic strip blogger?
+
+284
+00:19:14,400 --> 00:19:15,400
+You know what?
+
+285
+00:19:15,400 --> 00:19:17,400
+I just treated him like any other person who shows up
+
+286
+00:19:17,400 --> 00:19:19,400
+at the Daily Source Code front door.
+
+287
+00:19:19,400 --> 00:19:21,400
+And low and behold, there is a pretty nice
+
+288
+00:19:21,400 --> 00:19:24,400
+intelligent guy underneath all that rough exterior.
+
+289
+00:19:24,400 --> 00:19:27,400
+Now, unfortunately, Roger hasn't heard
+
+290
+00:19:27,400 --> 00:19:31,400
+this public apology because he sent me something
+
+291
+00:19:31,400 --> 00:19:34,400
+this morning before I did the show.
+
+292
+00:19:34,400 --> 00:19:37,400
+So, he may have changed his feelings about you.
+
+293
+00:19:37,400 --> 00:19:40,400
+There's CSB after what he just heard.
+
+294
+00:19:40,400 --> 00:19:43,400
+But as of this morning, he was definitely
+
+295
+00:19:43,400 --> 00:19:45,400
+definitely not pleased.
+
+296
+00:19:45,400 --> 00:19:46,400
+Let's listen.
+
+297
+00:19:46,400 --> 00:19:48,400
+Hey, I didn't Roger here.
+
+298
+00:19:48,400 --> 00:19:50,400
+I heard that one of your listeners mentioned
+
+299
+00:19:50,400 --> 00:19:52,400
+on last week's show that's international
+
+300
+00:19:52,400 --> 00:19:54,400
+masturbation months for the moment.
+
+301
+00:19:54,400 --> 00:19:56,400
+Now, I'm not sure how this works.
+
+302
+00:19:56,400 --> 00:19:58,400
+Does it mean I get to enjoy myself for this month,
+
+303
+00:19:58,400 --> 00:20:00,400
+but then have to wait 11 months before I get to
+
+304
+00:20:00,400 --> 00:20:02,400
+squirt my care again.
+
+305
+00:20:02,400 --> 00:20:03,400
+Can you explain?
+
+306
+00:20:03,400 --> 00:20:05,400
+What did you say?
+
+307
+00:20:05,400 --> 00:20:07,400
+Wait 11 months until what?
+
+308
+00:20:07,400 --> 00:20:08,400
+How for this month?
+
+309
+00:20:08,400 --> 00:20:10,400
+But then have to wait 11 months
+
+310
+00:20:10,400 --> 00:20:12,400
+before I get to squirt my care again.
+
+311
+00:20:12,400 --> 00:20:14,400
+Oh, Roger.
+
+312
+00:20:14,400 --> 00:20:17,400
+Did you actually say squirt my curd?
+
+313
+00:20:17,400 --> 00:20:19,400
+Can you explain this, please?
+
+314
+00:20:19,400 --> 00:20:20,400
+Thank you.
+
+315
+00:20:20,400 --> 00:20:22,400
+Oh.
+
+316
+00:20:22,400 --> 00:20:24,400
+You want to say put the send you some songs
+
+317
+00:20:24,400 --> 00:20:27,400
+in about masturbation and I found something.
+
+318
+00:20:27,400 --> 00:20:28,400
+Hey.
+
+319
+00:20:28,400 --> 00:20:30,400
+You know, I think there was a,
+
+320
+00:20:30,400 --> 00:20:32,400
+wasn't there a piece about comics crew?
+
+321
+00:20:32,400 --> 00:20:34,400
+Is this yesterday's piece?
+
+322
+00:20:34,400 --> 00:20:36,400
+I don't know what they had I'm doing.
+
+323
+00:20:36,400 --> 00:20:38,400
+Now I'm all confused.
+
+324
+00:20:38,400 --> 00:20:39,400
+Hold on.
+
+325
+00:20:39,400 --> 00:20:40,400
+Is this still the masturbation?
+
+326
+00:20:40,400 --> 00:20:41,400
+How about a white coat?
+
+327
+00:20:41,400 --> 00:20:42,400
+How about a white coat?
+
+328
+00:20:42,400 --> 00:20:43,400
+How about a white coat?
+
+329
+00:20:43,400 --> 00:20:45,400
+That's the same thing.
+
+330
+00:20:51,400 --> 00:20:53,400
+That's the song about wanking.
+
+331
+00:20:57,400 --> 00:20:59,400
+This is the one he sent me.
+
+332
+00:21:02,400 --> 00:21:03,400
+That's right.
+
+333
+00:21:03,400 --> 00:21:06,400
+If there's one person who knows about easing the lonelyness of an empty life,
+
+334
+00:21:06,400 --> 00:21:08,400
+you can't even remember magazine.
+
+335
+00:21:08,400 --> 00:21:10,400
+Then it's the comic strip blogger.
+
+336
+00:21:10,400 --> 00:21:12,400
+I don't think it's international masturbation
+
+337
+00:21:12,400 --> 00:21:13,400
+month with him now.
+
+338
+00:21:13,400 --> 00:21:15,400
+I think it's more like international masturbation
+
+339
+00:21:15,400 --> 00:21:16,400
+52 years.
+
+340
+00:21:16,400 --> 00:21:19,400
+Because I think that guy's been a tusso roll is like.
+
+341
+00:21:19,400 --> 00:21:20,400
+I'm sorry to say.
+
+342
+00:21:20,400 --> 00:21:21,400
+It's also like the man.
+
+343
+00:21:21,400 --> 00:21:24,400
+Don't agree with his policies or creed.
+
+344
+00:21:24,400 --> 00:21:27,400
+By for now and happy masturbating.
+
+345
+00:21:28,400 --> 00:21:42,400
+I noticed yesterday when looking through that,
+
+346
+00:21:42,400 --> 00:21:48,400
+that I had a much clearer vision of what we could do with the house
+
+347
+00:21:48,400 --> 00:21:50,400
+than previously.
+
+348
+00:21:50,400 --> 00:21:51,400
+Big eyes.
+
+349
+00:21:51,400 --> 00:21:53,400
+And you're going to laugh at me when I say this?
+
+350
+00:21:53,400 --> 00:21:54,400
+Oh, not again.
+
+351
+00:21:54,400 --> 00:21:55,400
+It's true.
+
+352
+00:21:55,400 --> 00:21:58,400
+Because we're building stuff in second life.
+
+353
+00:21:58,400 --> 00:22:02,400
+But isn't it the way they actually do Architex and everything work
+
+354
+00:22:02,400 --> 00:22:05,400
+when they build houses?
+
+355
+00:22:05,400 --> 00:22:06,400
+Well, yeah.
+
+356
+00:22:06,400 --> 00:22:07,400
+You can walk through that.
+
+357
+00:22:07,400 --> 00:22:08,400
+Yeah.
+
+358
+00:22:08,400 --> 00:22:09,400
+So this is very, very similar.
+
+359
+00:22:09,400 --> 00:22:11,400
+And so I'm looking down like, hmm,
+
+360
+00:22:11,400 --> 00:22:14,400
+we could just chop this wall in half and round it off like that.
+
+361
+00:22:14,400 --> 00:22:18,400
+And I find myself almost wanting to move my mouse finger to click
+
+362
+00:22:18,400 --> 00:22:21,400
+and you know, and to move the wall.
+
+363
+00:22:21,400 --> 00:22:22,400
+Oh, yeah.
+
+364
+00:22:22,400 --> 00:22:23,400
+Yeah.
+
+365
+00:22:23,400 --> 00:22:24,400
+That's what they do.
+
+366
+00:22:24,400 --> 00:22:25,400
+Yeah.
+
+367
+00:22:25,400 --> 00:22:27,400
+When they make a designer or something,
+
+368
+00:22:27,400 --> 00:22:28,400
+they do that.
+
+369
+00:22:28,400 --> 00:22:30,400
+You can walk through the house before it's done.
+
+370
+00:22:30,400 --> 00:22:31,400
+But it's really affected me.
+
+371
+00:22:31,400 --> 00:22:33,400
+I'm not making, I'm not making it.
+
+372
+00:22:33,400 --> 00:22:34,400
+I believe you.
+
+373
+00:22:34,400 --> 00:22:35,400
+It's really affected me.
+
+374
+00:22:35,400 --> 00:22:38,400
+Or maybe if we find somebody who can do that.
+
+375
+00:22:38,400 --> 00:22:39,400
+Exactly.
+
+376
+00:22:39,400 --> 00:22:40,400
+In second life.
+
+377
+00:22:40,400 --> 00:22:41,400
+In second life.
+
+378
+00:22:41,400 --> 00:22:42,400
+In real life.
+
+379
+00:22:42,400 --> 00:22:44,400
+We can see what you can do with the house.
+
+380
+00:22:44,400 --> 00:22:45,400
+Yeah.
+
+381
+00:22:45,400 --> 00:22:46,400
+So that's what we're going to try to do.
+
+382
+00:22:46,400 --> 00:22:50,400
+We're thinking about and see what the, the very cool.
+
+383
+00:22:50,400 --> 00:22:51,400
+Yeah.
+
+384
+00:22:51,400 --> 00:22:54,400
+Building things with two different women at the same time.
+
+385
+00:22:54,400 --> 00:22:55,400
+Oh.
+
+386
+00:22:55,400 --> 00:22:56,400
+Yeah.
+
+387
+00:22:56,400 --> 00:22:58,400
+I'm building the Potio Palace with Brittany, remember?
+
+388
+00:22:58,400 --> 00:22:59,400
+Oh, yeah.
+
+389
+00:22:59,400 --> 00:23:00,400
+Brittany.
+
+390
+00:23:00,400 --> 00:23:01,400
+No, not Brittany.
+
+391
+00:23:01,400 --> 00:23:02,400
+Brittany.
+
+392
+00:23:02,400 --> 00:23:03,400
+I say that.
+
+393
+00:23:03,400 --> 00:23:04,400
+But that's incorrect.
+
+394
+00:23:04,400 --> 00:23:05,400
+Yeah.
+
+395
+00:23:05,400 --> 00:23:06,400
+I know a Brittany.
+
+396
+00:23:06,400 --> 00:23:07,400
+But just Brittany.
+
+397
+00:23:07,400 --> 00:23:08,400
+There's no A and.
+
+398
+00:23:08,400 --> 00:23:09,400
+No Brittany.
+
+399
+00:23:09,400 --> 00:23:10,400
+It's Brittany.
+
+400
+00:23:10,400 --> 00:23:11,400
+Oh.
+
+401
+00:23:11,400 --> 00:23:12,400
+Okay.
+
+402
+00:23:12,400 --> 00:23:13,400
+Brittany.
+
+403
+00:23:13,400 --> 00:23:14,400
+Yeah.
+
+404
+00:23:14,400 --> 00:23:15,400
+I know.
+
+405
+00:23:15,400 --> 00:23:16,400
+What is that?
+
+406
+00:23:16,400 --> 00:23:17,400
+A lot of time with Brittany.
+
+407
+00:23:17,400 --> 00:23:18,400
+No.
+
+408
+00:23:18,400 --> 00:23:19,400
+Yes, you do.
+
+409
+00:23:20,400 --> 00:23:22,400
+But it's going to be very cool when it's long as you have fun.
+
+410
+00:23:22,400 --> 00:23:23,400
+Oh, God.
+
+411
+00:23:23,400 --> 00:23:24,400
+I love you so much.
+
+412
+00:23:24,400 --> 00:23:27,400
+Do you know how many guys are listening to this now going like.
+
+413
+00:23:27,400 --> 00:23:29,400
+Like, listen.
+
+414
+00:23:29,400 --> 00:23:31,400
+Why don't I get me one of those?
+
+415
+00:23:31,400 --> 00:23:32,400
+Yeah.
+
+416
+00:23:32,400 --> 00:23:36,400
+It's nice to see that your husband is busy.
+
+417
+00:23:36,400 --> 00:23:37,400
+That's true.
+
+418
+00:23:37,400 --> 00:23:38,400
+Not sitting around.
+
+419
+00:23:38,400 --> 00:23:39,400
+So he can't.
+
+420
+00:23:39,400 --> 00:23:40,400
+He can't.
+
+421
+00:23:40,400 --> 00:23:41,400
+He can't.
+
+422
+00:23:41,400 --> 00:23:43,400
+Or do I ever nag you in the way?
+
+423
+00:23:43,400 --> 00:23:44,400
+Oh, okay.
+
+424
+00:23:44,400 --> 00:23:45,400
+Yes.
+
+425
+00:23:45,400 --> 00:23:46,400
+I'm often often in the way.
+
+426
+00:23:47,400 --> 00:23:52,400
+By the way, there's not a day goes by that I don't get 20 emails.
+
+427
+00:23:52,400 --> 00:23:55,400
+At least of people looking for the castle.
+
+428
+00:23:55,400 --> 00:23:58,400
+So I for some reason I got delisted off of find.
+
+429
+00:23:58,400 --> 00:23:59,400
+I'll put it back in again.
+
+430
+00:23:59,400 --> 00:24:00,400
+You should be able to find it.
+
+431
+00:24:00,400 --> 00:24:05,400
+I'm going to move the whole place today onto right in the middle of four plots.
+
+432
+00:24:05,400 --> 00:24:07,400
+Which I've been able to thank you very much.
+
+433
+00:24:07,400 --> 00:24:08,400
+Gabrielle.
+
+434
+00:24:08,400 --> 00:24:10,400
+Real for letting me buy your land.
+
+435
+00:24:10,400 --> 00:24:15,400
+So now I have enough to really because you have all these limitations.
+
+436
+00:24:16,400 --> 00:24:20,400
+Of how many prims, what they call them, you can put on to a piece of land.
+
+437
+00:24:20,400 --> 00:24:24,400
+So if I'm covering four, then all four corners will count in a different land.
+
+438
+00:24:24,400 --> 00:24:27,400
+And I think you can actually combine all the land together.
+
+439
+00:24:27,400 --> 00:24:31,400
+So all I want is just to have more more place to put stuff down.
+
+440
+00:24:31,400 --> 00:24:32,400
+So we can have more fun.
+
+441
+00:24:32,400 --> 00:24:33,400
+What's up, baby?
+
+442
+00:24:33,400 --> 00:24:34,400
+I was listening.
+
+443
+00:24:34,400 --> 00:24:40,400
+And I thought I think you need to explain every time and over and over that you are not talking about real life.
+
+444
+00:24:40,400 --> 00:24:41,400
+I said second life.
+
+445
+00:24:41,400 --> 00:24:45,400
+Oh yeah, but do people know maybe new listeners.
+
+446
+00:24:45,400 --> 00:24:46,400
+Hey.
+
+447
+00:24:46,400 --> 00:24:47,400
+What did it?
+
+448
+00:24:47,400 --> 00:24:48,400
+Excuse me.
+
+449
+00:24:48,400 --> 00:24:49,400
+And entertainment expert.
+
+450
+00:24:49,400 --> 00:24:50,400
+Okay.
+
+451
+00:24:50,400 --> 00:24:51,400
+The hell is that?
+
+452
+00:24:51,400 --> 00:24:54,400
+Well, because you're talking about plots and buying plots and I think buying plots.
+
+453
+00:24:54,400 --> 00:24:57,400
+People who listen to the show either understand.
+
+454
+00:24:57,400 --> 00:24:58,400
+And what if you have new listeners?
+
+455
+00:24:58,400 --> 00:25:00,400
+Do you want to produce the fucking show?
+
+456
+00:25:00,400 --> 00:25:01,400
+No.
+
+457
+00:25:01,400 --> 00:25:02,400
+Okay.
+
+458
+00:25:02,400 --> 00:25:03,400
+Well, I appreciate it.
+
+459
+00:25:03,400 --> 00:25:07,400
+But that would be like me coming in and saying, I think you should do that in sea instead of
+
+460
+00:25:07,400 --> 00:25:08,400
+D. This is my art.
+
+461
+00:25:08,400 --> 00:25:10,400
+I don't care.
+
+462
+00:25:11,400 --> 00:25:12,400
+Okay.
+
+463
+00:25:12,400 --> 00:25:13,400
+I was curious.
+
+464
+00:25:13,400 --> 00:25:18,400
+Now I understand what you're saying, but I can't reintroduce every single topic that we discuss.
+
+465
+00:25:18,400 --> 00:25:19,400
+No, no.
+
+466
+00:25:19,400 --> 00:25:21,400
+No, come back here, please.
+
+467
+00:25:21,400 --> 00:25:22,400
+Yeah.
+
+468
+00:25:22,400 --> 00:25:24,400
+In front of the microphone where people can hear you.
+
+469
+00:25:24,400 --> 00:25:25,400
+Yes.
+
+470
+00:25:25,400 --> 00:25:26,400
+I understand what you're saying.
+
+471
+00:25:26,400 --> 00:25:27,400
+But first of all, people aren't stupid.
+
+472
+00:25:27,400 --> 00:25:29,400
+Don't underestimate my listeners.
+
+473
+00:25:29,400 --> 00:25:30,400
+The figure.
+
+474
+00:25:30,400 --> 00:25:31,400
+Does it have a name?
+
+475
+00:25:31,400 --> 00:25:33,400
+The whole thing.
+
+476
+00:25:33,400 --> 00:25:35,400
+Not only second life.
+
+477
+00:25:35,400 --> 00:25:39,400
+But when we talk about things, I don't go back and explain everything all the time.
+
+478
+00:25:39,400 --> 00:25:41,400
+I mean, some things weren't re-explanation.
+
+479
+00:25:41,400 --> 00:25:43,400
+But this has been on the cover of business.
+
+480
+00:25:43,400 --> 00:25:45,400
+We people have heard about second life.
+
+481
+00:25:45,400 --> 00:25:46,400
+If not, they're going to look for it.
+
+482
+00:25:46,400 --> 00:25:47,400
+That's how it works.
+
+483
+00:25:47,400 --> 00:25:48,400
+All right.
+
+484
+00:25:48,400 --> 00:25:49,400
+Okay.
+
+485
+00:25:49,400 --> 00:25:50,400
+Okay.
+
+486
+00:25:50,400 --> 00:25:53,400
+And if you ever wanted to disturb the man behind the curtain again.
+
+487
+00:25:53,400 --> 00:25:57,400
+Oh, you called me too in the middle of something.
+
+488
+00:25:57,400 --> 00:25:58,400
+Doesn't matter, does it?
+
+489
+00:25:58,400 --> 00:25:59,400
+No, no.
+
+490
+00:25:59,400 --> 00:26:00,400
+But I'm sure.
+
+491
+00:26:00,400 --> 00:26:03,400
+That's why we're married for 20 years this year.
+
+492
+00:26:03,400 --> 00:26:07,400
+Part of, but part of it is, if I go back into explaining what it is.
+
+493
+00:26:07,400 --> 00:26:11,400
+No, not explaining, but saying real fast, oh, I'm going to talk about it.
+
+494
+00:26:11,400 --> 00:26:12,400
+Second life.
+
+495
+00:26:12,400 --> 00:26:13,400
+Well, they call them virtual worlds.
+
+496
+00:26:13,400 --> 00:26:14,400
+But there you go.
+
+497
+00:26:14,400 --> 00:26:15,400
+That's what I mean.
+
+498
+00:26:15,400 --> 00:26:16,400
+All right.
+
+499
+00:26:16,400 --> 00:26:17,400
+Yeah?
+
+500
+00:26:17,400 --> 00:26:18,400
+No?
+
+501
+00:26:18,400 --> 00:26:19,400
+Okay.
+
+502
+00:26:19,400 --> 00:26:20,400
+Okay.
+
+503
+00:26:20,400 --> 00:26:22,400
+Bye-bye.
+
+504
+00:26:22,400 --> 00:26:25,400
+This is worse than the guy that Howard Stern had to deal with.
+
+505
+00:26:25,400 --> 00:26:28,400
+He went to go WMBC.
+
+506
+00:26:28,400 --> 00:26:30,400
+I guess you stopped listening to me.
+
+507
+00:26:30,400 --> 00:26:32,400
+I don't know what I was saying.
+
+508
+00:26:32,400 --> 00:26:34,400
+Oh, I see how it is.
+
+509
+00:26:34,400 --> 00:26:35,400
+I go away for a week.
+
+510
+00:26:35,400 --> 00:26:37,400
+I'm locked out of curry castle.
+
+511
+00:26:37,400 --> 00:26:38,400
+This is Angie.
+
+512
+00:26:38,400 --> 00:26:40,400
+Just in case you forgot.
+
+513
+00:26:40,400 --> 00:26:41,400
+Hmm.
+
+514
+00:26:41,400 --> 00:26:44,400
+See if you get any blow jobs from this avatar.
+
+515
+00:26:44,400 --> 00:26:46,400
+Angie?
+
+516
+00:26:46,400 --> 00:26:48,400
+Angie?
+
+517
+00:26:48,400 --> 00:26:51,400
+This is all a virtual world stuff we're talking about, of course.
+
+518
+00:26:51,400 --> 00:26:56,400
+Now, actually, I tried to find you because I'd love to have you be one of our first showcases
+
+519
+00:26:56,400 --> 00:26:57,400
+in the palace.
+
+520
+00:26:57,400 --> 00:27:00,400
+And I think I've got all the technology bits figured out.
+
+521
+00:27:00,400 --> 00:27:02,400
+Of course, what we need is a live.
+
+522
+00:27:02,400 --> 00:27:07,400
+I will not say a live live performance, but a live recording of a live performance or something
+
+523
+00:27:07,400 --> 00:27:08,400
+like that.
+
+524
+00:27:08,400 --> 00:27:12,400
+And I'm just messing around with all kinds of permissions and learning myself.
+
+525
+00:27:12,400 --> 00:27:15,400
+And you've only been in this virtual world for two weeks.
+
+526
+00:27:15,400 --> 00:27:17,400
+Don't get all pissed off with me now.
+
+527
+00:27:17,400 --> 00:27:18,400
+Please.
+
+528
+00:27:18,400 --> 00:27:19,400
+Please.
+
+529
+00:27:21,400 --> 00:27:22,400
+And she lives.
+
+530
+00:27:22,400 --> 00:27:23,400
+She has a beautiful man.
+
+531
+00:27:23,400 --> 00:27:24,400
+I gotta tell you.
+
+532
+00:27:24,400 --> 00:27:27,400
+I am so beyond that for myself.
+
+533
+00:27:27,400 --> 00:27:28,400
+Oh, yeah.
+
+534
+00:27:28,400 --> 00:27:30,400
+Then why are you building castles in second life?
+
+535
+00:27:31,400 --> 00:27:33,400
+Well, to accommodate.
+
+536
+00:27:33,400 --> 00:27:34,400
+Why are you castles?
+
+537
+00:27:34,400 --> 00:27:36,400
+Well, why just because I like what a castle looks like.
+
+538
+00:27:36,400 --> 00:27:38,400
+Why not a bunker?
+
+539
+00:27:38,400 --> 00:27:41,400
+For exactly the way you just said a bunker.
+
+540
+00:27:41,400 --> 00:27:44,400
+And besides, curry bunker does not have the same cachet as curry castle.
+
+541
+00:27:44,400 --> 00:27:47,400
+So what I mean is everybody would like to have their own castle.
+
+542
+00:27:47,400 --> 00:27:49,400
+Let me just say, well, we've had a castle.
+
+543
+00:27:49,400 --> 00:27:51,400
+And I miss it still very much.
+
+544
+00:27:51,400 --> 00:27:52,400
+Yeah.
+
+545
+00:27:52,400 --> 00:27:53,400
+That's part of it.
+
+546
+00:27:53,400 --> 00:27:57,400
+Because the castle I'm building in second life is a great place for entertaining.
+
+547
+00:27:57,400 --> 00:27:59,400
+Oh, okay.
+
+548
+00:28:00,400 --> 00:28:01,400
+Yeah.
+
+549
+00:28:01,400 --> 00:28:02,400
+Okay.
+
+550
+00:28:02,400 --> 00:28:03,400
+You want to get into second life now?
+
+551
+00:28:03,400 --> 00:28:05,400
+You want to talk about that?
+
+552
+00:28:05,400 --> 00:28:08,400
+Although, you know, I see that it's.
+
+553
+00:28:08,400 --> 00:28:12,400
+Very, very interesting and it's brilliant.
+
+554
+00:28:12,400 --> 00:28:15,400
+And I see it as a game.
+
+555
+00:28:15,400 --> 00:28:17,400
+But I don't see it.
+
+556
+00:28:17,400 --> 00:28:19,400
+You don't see the purpose of it?
+
+557
+00:28:19,400 --> 00:28:20,400
+No.
+
+558
+00:28:20,400 --> 00:28:23,400
+I mean, people can hardly deal with the first life.
+
+559
+00:28:23,400 --> 00:28:27,400
+And now they escaped to, they want to escape to second life.
+
+560
+00:28:28,400 --> 00:28:31,400
+And then, and then probably somebody that they're not.
+
+561
+00:28:31,400 --> 00:28:37,400
+And then, probably be a girl a chick with big boobs and a very extremely high heels.
+
+562
+00:28:37,400 --> 00:28:39,400
+Have you seen me in second life?
+
+563
+00:28:39,400 --> 00:28:41,400
+Are you the girl with big boobs?
+
+564
+00:28:41,400 --> 00:28:42,400
+No.
+
+565
+00:28:42,400 --> 00:28:43,400
+No.
+
+566
+00:28:43,400 --> 00:28:44,400
+And I've seen you.
+
+567
+00:28:44,400 --> 00:28:45,400
+So everybody's good.
+
+568
+00:28:45,400 --> 00:28:46,400
+Of course.
+
+569
+00:28:46,400 --> 00:28:48,400
+Somebody that they actually are not.
+
+570
+00:28:48,400 --> 00:28:49,400
+Well, you, you can.
+
+571
+00:28:49,400 --> 00:28:50,400
+Is that the fantasy?
+
+572
+00:28:50,400 --> 00:28:54,400
+Well, did you, well, first of all, let's just step back.
+
+573
+00:28:54,400 --> 00:28:57,400
+And then the girl with the big boobs and the extremely high heels.
+
+574
+00:28:57,400 --> 00:28:58,400
+Yes, exactly.
+
+575
+00:28:58,400 --> 00:29:02,400
+And all the girls in all the girls in second life who look anything like you.
+
+576
+00:29:02,400 --> 00:29:04,400
+I immediately have a crush on.
+
+577
+00:29:04,400 --> 00:29:06,400
+The only thing is they're about six feet tall.
+
+578
+00:29:06,400 --> 00:29:10,400
+And if you were in second life, if you were in second life, what would the, the only thing
+
+579
+00:29:10,400 --> 00:29:13,400
+you change about yourself is you make yourself taller.
+
+580
+00:29:13,400 --> 00:29:14,400
+Right.
+
+581
+00:29:14,400 --> 00:29:15,400
+True or not?
+
+582
+00:29:15,400 --> 00:29:16,400
+Yeah.
+
+583
+00:29:16,400 --> 00:29:17,400
+Okay.
+
+584
+00:29:17,400 --> 00:29:19,400
+Now, let me just step back for a second because I said this to you last night.
+
+585
+00:29:19,400 --> 00:29:23,400
+You said, who has, in fact, you, you did want a real Patricia.
+
+586
+00:29:23,400 --> 00:29:24,400
+Who has time for this?
+
+587
+00:29:24,400 --> 00:29:25,400
+Really?
+
+588
+00:29:25,400 --> 00:29:26,400
+And I said, this is.
+
+589
+00:29:26,400 --> 00:29:29,400
+People have hardly time for each other.
+
+590
+00:29:29,400 --> 00:29:30,400
+No.
+
+591
+00:29:30,400 --> 00:29:31,400
+No.
+
+592
+00:29:31,400 --> 00:29:33,400
+Before we get into that, let me just step back.
+
+593
+00:29:33,400 --> 00:29:35,400
+It's replacing television time.
+
+594
+00:29:35,400 --> 00:29:39,400
+It's replacing all that other time that is spent on other entertainment.
+
+595
+00:29:39,400 --> 00:29:41,400
+I don't think that it's in addition.
+
+596
+00:29:41,400 --> 00:29:44,400
+You know, so we spend time on the TV.
+
+597
+00:29:44,400 --> 00:29:47,400
+Have we watched television together?
+
+598
+00:29:47,400 --> 00:29:52,400
+Well, daily source co- listeners, we sure had a bunch of adventures in second life.
+
+599
+00:29:52,400 --> 00:29:55,400
+This past year on the daily source code.
+
+600
+00:29:55,400 --> 00:29:59,400
+And Adam sure had some interesting things to say with Patricia.
+
+601
+00:29:59,400 --> 00:30:02,400
+But trust me, Adam, I've seen you in second life.
+
+602
+00:30:02,400 --> 00:30:04,400
+And you don't look that way.
+
+603
+00:30:04,400 --> 00:30:07,400
+Well, everybody, this is happy from bedtime stories.
+
+604
+00:30:07,400 --> 00:30:08,400
+My kids love.
+
+605
+00:30:08,400 --> 00:30:10,400
+Be sure you check us out at bedtime stories.
+
+606
+00:30:10,400 --> 00:30:13,400
+My kids love dot pod show dot com.
+
+607
+00:30:13,400 --> 00:30:15,400
+We'd love for you to come check out the podcast.
+
+608
+00:30:15,400 --> 00:30:18,400
+Well, this has been another Adam is moving best of the Charlie.
+
+609
+00:30:18,400 --> 00:30:20,400
+Stay tuned for more best of the Charlie's.
+
+610
+00:30:20,400 --> 00:30:22,400
+Adam, hurry back.
+
+611
+00:30:22,400 --> 00:30:23,400
+We miss ya.
+
+612
+00:30:50,400 --> 00:30:51,400
+Come on now.
+
+613
+00:30:51,400 --> 00:30:52,400
+Hit now.
+
+614
+00:30:52,400 --> 00:30:53,400
+Come on now.
+
+615
+00:30:53,400 --> 00:30:54,400
+Tuck him out.
+
+616
+00:30:54,400 --> 00:30:55,400
+Hit now.
+
+617
+00:30:55,400 --> 00:30:56,400
+Hit now.
+
+618
+00:30:56,400 --> 00:30:57,400
+What you see.
+
+619
+00:30:57,400 --> 00:30:58,400
+Hit now.
+
+620
+00:30:58,400 --> 00:30:59,400
+Hit now.
+
+621
+00:30:59,400 --> 00:31:01,400
+That's the best of the Charlie.
+
+622
+00:31:01,400 --> 00:31:03,400
+Best of the Charlie.
+
+623
+00:31:03,400 --> 00:31:05,400
+Best of the Charlie.
+
+624
+00:31:05,400 --> 00:31:08,400
+Another pod show podcast.
+
+625
+00:31:08,400 --> 00:31:14,400
+Stick it in your ear.
+
+626
+00:31:14,400 --> 00:31:16,400
+Get this piece of the show.
+
+627
+00:31:16,400 --> 00:31:19,400
+And more great ones like it on the BT pod show media network.
+
+628
+00:31:19,400 --> 00:31:21,400
+Howard by pod show and limelight network.
+
+629
+00:31:21,400 --> 00:31:23,400
+Control your part in the show.
+
+630
+00:31:23,400 --> 00:31:25,400
+And be the pod show dot com.
+
