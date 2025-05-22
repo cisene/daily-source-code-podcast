@@ -1,0 +1,936 @@
+1
+00:00:00,000 --> 00:00:06,440
+This podcast is brought to you by Pod Show and GoDaddy.
+
+2
+00:00:06,440 --> 00:00:09,440
+Want killer content with a bad ass domain name?
+
+3
+00:00:09,440 --> 00:00:16,880
+This show will give you a special code to get great discounts at GoDaddy.com.
+
+4
+00:00:16,880 --> 00:00:19,960
+Everybody welcome to DevCast Number 2.
+
+5
+00:00:19,960 --> 00:00:23,880
+It's Adam here at the Curry Cottage, just south of London.
+
+6
+00:00:23,880 --> 00:00:28,720
+And it's good to see that we've got a couple hundred developers, I presume most of
+
+7
+00:00:28,720 --> 00:00:32,000
+you are a developer, so we're subscribed to the DevCast.
+
+8
+00:00:32,000 --> 00:00:38,640
+This podcast will actually contain a golden ticket, so if you receive one and you'll
+
+9
+00:00:38,640 --> 00:00:45,280
+know and I'll let you know exactly where that will happen, because you of course may not
+
+10
+00:00:45,280 --> 00:00:46,280
+get one.
+
+11
+00:00:46,280 --> 00:00:51,120
+But if you two then you're in and we're going to get you up and running and working on
+
+12
+00:00:51,120 --> 00:00:54,960
+Pod Show Plus and the podcast that we network ASAP.
+
+13
+00:00:54,960 --> 00:01:02,080
+On the Skype now from Pod Show HQ and San Francisco, Kevin Ostrowski, known as K-O or K-1,
+
+14
+00:01:02,080 --> 00:01:03,080
+how you doing buddy?
+
+15
+00:01:03,080 --> 00:01:04,720
+Not too bad, how you been?
+
+16
+00:01:04,720 --> 00:01:05,720
+We missed you out here.
+
+17
+00:01:05,720 --> 00:01:10,240
+I miss you guys too, it's been the longest time we've been a part honey.
+
+18
+00:01:10,240 --> 00:01:14,680
+I know we've been growing, there's some people that have even met you.
+
+19
+00:01:14,680 --> 00:01:20,200
+I keep seeing the introduction emails, hey, welcome so on, so welcome and I, oh man.
+
+20
+00:01:20,200 --> 00:01:24,760
+So yeah, do we have enough seats and chairs and tables left?
+
+21
+00:01:24,760 --> 00:01:30,040
+We've got one extra desk, but they were all just put in last week, so we're running
+
+22
+00:01:30,040 --> 00:01:32,320
+out quicker than we can to get them.
+
+23
+00:01:32,320 --> 00:01:36,680
+Oh crap, well if you guys need to use my office, you know where it is, just follow the
+
+24
+00:01:36,680 --> 00:01:38,680
+smoke trail.
+
+25
+00:01:38,680 --> 00:01:41,480
+Oh, by the way, happy for 20.
+
+26
+00:01:41,480 --> 00:01:43,560
+Yeah, happy for 20 back at you, my friend.
+
+27
+00:01:43,560 --> 00:01:44,560
+That's right.
+
+28
+00:01:44,560 --> 00:01:46,560
+It's 420 somewhere in the world.
+
+29
+00:01:46,560 --> 00:01:51,360
+I did, you know, I'm a complete idiot, it is indeed for, well, by the time this air
+
+30
+00:01:51,360 --> 00:01:57,520
+is probably will be 421, but the all developers know that or is it only the developers
+
+31
+00:01:57,520 --> 00:01:59,520
+who smoke, who understand that?
+
+32
+00:01:59,520 --> 00:02:03,840
+I think it's a pretty common for the common, so Kevin, why don't you give us a little
+
+33
+00:02:03,840 --> 00:02:07,920
+bit of background about yourself, and because I don't think we've really talked about that
+
+34
+00:02:07,920 --> 00:02:14,520
+a lot, you know, where you were before Pod Show and why the heck you joined this band
+
+35
+00:02:14,520 --> 00:02:16,520
+of freaks?
+
+36
+00:02:16,520 --> 00:02:22,440
+Well, I used to work at a company called Signature Network, which is the leading music
+
+37
+00:02:22,440 --> 00:02:29,000
+merchandising company on the web, core business that I was selling t-shirts, around the
+
+38
+00:02:29,000 --> 00:02:36,080
+online side of that developed a fan club system that is used to this day still on youtube.com,
+
+39
+00:02:36,080 --> 00:02:41,320
+kiss online, we did a site from Adana, Britney Spears, all these pop stars that I don't
+
+40
+00:02:41,320 --> 00:02:42,320
+really care for.
+
+41
+00:02:42,320 --> 00:02:44,520
+Yeah, all your type of music, right?
+
+42
+00:02:44,520 --> 00:02:46,000
+It's right up your alley.
+
+43
+00:02:46,000 --> 00:02:47,000
+It's all rocking out.
+
+44
+00:02:47,000 --> 00:02:49,440
+Did you meet any of them?
+
+45
+00:02:49,440 --> 00:02:50,440
+No.
+
+46
+00:02:50,440 --> 00:02:53,120
+The only person I met was Sammy Hager, which was actually kind of cool.
+
+47
+00:02:53,120 --> 00:02:54,120
+He's pretty cool.
+
+48
+00:02:54,120 --> 00:02:55,120
+I've met him a couple.
+
+49
+00:02:55,120 --> 00:02:56,120
+He's a good guy.
+
+50
+00:02:56,120 --> 00:02:57,120
+Yeah, he seems all right.
+
+51
+00:02:57,120 --> 00:03:03,600
+In fact, he was the guy that convinced me I should go work for MTV, I met him over in Holland
+
+52
+00:03:03,600 --> 00:03:07,120
+and I said, yeah, MTV called me and said, oh dude, you should totally do that, that's right.
+
+53
+00:03:07,120 --> 00:03:09,440
+And this of course was early 80s, right?
+
+54
+00:03:09,440 --> 00:03:15,320
+So when MTV was still playing music, it's still cool, so right on.
+
+55
+00:03:15,320 --> 00:03:18,080
+So you were doing that, how did we find you?
+
+56
+00:03:18,080 --> 00:03:19,080
+Did you find us?
+
+57
+00:03:19,080 --> 00:03:20,080
+I can't really remember.
+
+58
+00:03:20,080 --> 00:03:25,840
+Oh, I was recommended by one of my old bosses at Signatures to come on over and work
+
+59
+00:03:25,840 --> 00:03:29,760
+here and you guys gave me an offer I couldn't refuse here.
+
+60
+00:03:29,760 --> 00:03:30,760
+Who was that person?
+
+61
+00:03:30,760 --> 00:03:31,760
+I got to go thank you.
+
+62
+00:03:31,760 --> 00:03:32,760
+I got to go thank you.
+
+63
+00:03:32,760 --> 00:03:33,760
+John Bellistery?
+
+64
+00:03:33,760 --> 00:03:34,760
+I think you know.
+
+65
+00:03:34,760 --> 00:03:36,760
+Yeah, yeah, of course.
+
+66
+00:03:36,760 --> 00:03:37,760
+Oh, all right.
+
+67
+00:03:37,760 --> 00:03:38,760
+No, I don't know.
+
+68
+00:03:38,760 --> 00:03:39,760
+I don't know.
+
+69
+00:03:39,760 --> 00:03:40,760
+I understand the connection.
+
+70
+00:03:40,760 --> 00:03:48,760
+It was funny, we had like a Friday celebration, our food bar Friday and it was really cool
+
+71
+00:03:48,760 --> 00:03:54,640
+because I was dialed in through the eye chat, so I could see what was going on.
+
+72
+00:03:54,640 --> 00:03:59,880
+And we brought up a picture of the very first, you know, early days when we were right
+
+73
+00:03:59,880 --> 00:04:06,520
+in South Park on when we really had the official podcast, Ali Office, where the homeless
+
+74
+00:04:06,520 --> 00:04:09,080
+people were pooping in the back in the alley there.
+
+75
+00:04:09,400 --> 00:04:10,400
+The good old days.
+
+76
+00:04:10,400 --> 00:04:15,720
+And you know, when we started out, and I think we, I talked about this on daily source
+
+77
+00:04:15,720 --> 00:04:22,080
+code not too long ago, we really were planning to do something of a much smaller scale
+
+78
+00:04:22,080 --> 00:04:23,080
+I think.
+
+79
+00:04:23,080 --> 00:04:24,400
+Was that your impression when we started?
+
+80
+00:04:24,400 --> 00:04:29,440
+Yeah, maybe originally we were going to just kind of make podcasts and easier for
+
+81
+00:04:29,440 --> 00:04:34,880
+podcasts, and it's really been snowballing ever since then.
+
+82
+00:04:34,880 --> 00:04:40,400
+And so from just, well, just, well, from making something for podcasters and making podcasting
+
+83
+00:04:40,400 --> 00:04:45,400
+really simple, we've actually turned a lot of our attention towards the audience.
+
+84
+00:04:45,400 --> 00:04:51,560
+Yeah, we're really gearing stuff up for the listeners themselves, letting people connect
+
+85
+00:04:51,560 --> 00:04:56,960
+with other people, letting them connect with the podcasters and eventually artists.
+
+86
+00:04:56,960 --> 00:04:59,320
+So come a long way, the few months.
+
+87
+00:04:59,320 --> 00:05:04,640
+Now how long have we actually been, because you're really, I would have to say, you
+
+88
+00:05:04,640 --> 00:05:09,640
+know, the core of all of this development of our social media network and all these, and
+
+89
+00:05:09,640 --> 00:05:12,880
+really bringing all these pieces together, what have we, how long have we been working
+
+90
+00:05:12,880 --> 00:05:13,880
+on this now?
+
+91
+00:05:13,880 --> 00:05:14,880
+Eight nine months.
+
+92
+00:05:14,880 --> 00:05:15,880
+Uh, back.
+
+93
+00:05:15,880 --> 00:05:16,880
+That's September.
+
+94
+00:05:16,880 --> 00:05:17,880
+So, dude.
+
+95
+00:05:17,880 --> 00:05:18,880
+Yeah.
+
+96
+00:05:18,880 --> 00:05:19,880
+Yeah.
+
+97
+00:05:19,880 --> 00:05:21,520
+So, uh, are we ready to release yet, Kevin?
+
+98
+00:05:21,520 --> 00:05:22,520
+Okay.
+
+99
+00:05:22,520 --> 00:05:23,520
+Can we get this?
+
+100
+00:05:23,520 --> 00:05:24,520
+I'm ready.
+
+101
+00:05:24,520 --> 00:05:28,440
+I'm ready to push the button any time I get the okay, so we're getting really closely.
+
+102
+00:05:28,440 --> 00:05:29,440
+Yeah.
+
+103
+00:05:29,440 --> 00:05:30,440
+Yeah.
+
+104
+00:05:30,440 --> 00:05:31,440
+A few months to look forward to.
+
+105
+00:05:31,440 --> 00:05:33,440
+How many builds are we doing a day now?
+
+106
+00:05:33,440 --> 00:05:34,440
+Ah, a few.
+
+107
+00:05:34,440 --> 00:05:37,520
+Once or twice a day, I'll push up some stuff.
+
+108
+00:05:37,520 --> 00:05:45,880
+So, so yesterday we talked with, uh, with Andrew Grummit, uh, a little bit about, uh, the developers
+
+109
+00:05:45,880 --> 00:05:50,960
+program that we'll have going on, and, but you really kind of blew us away, you know,
+
+110
+00:05:50,960 --> 00:05:56,160
+early on with the whole concept of the modules, uh, in podshow plus, which is, uh, something
+
+111
+00:05:56,160 --> 00:05:58,680
+that's going to be complete, audience controlled.
+
+112
+00:05:58,680 --> 00:06:03,320
+So, uh, what, why don't you, uh, tell us a bit about the modules and some of the stuff
+
+113
+00:06:03,320 --> 00:06:08,040
+that the developers will be, uh, be able to work on first, the stuff that you would work
+
+114
+00:06:08,040 --> 00:06:10,280
+on because, you know, it really is your brain child.
+
+115
+00:06:10,280 --> 00:06:15,240
+Oh, the way that the modules basically work are, they're just little widgets, so to speak,
+
+116
+00:06:15,240 --> 00:06:20,720
+that, uh, let you put in whatever code you'd like, and, uh, people can add them to their
+
+117
+00:06:20,720 --> 00:06:25,400
+profile page, they can move around, they can add more modules, they can remove their modules,
+
+118
+00:06:25,400 --> 00:06:31,400
+they can, you know, change the color of the page, kind of, give the actual users complete
+
+119
+00:06:31,400 --> 00:06:36,200
+control over how they want to develop their own, their own profile page, uh, and this applies
+
+120
+00:06:36,200 --> 00:06:43,880
+to both shows and to the listeners themselves, um, so, while there is a ton of, uh, podshow
+
+121
+00:06:43,880 --> 00:06:47,960
+exclusive modules that tap into, you know, the different features of the pdn and podshow
+
+122
+00:06:47,960 --> 00:06:53,240
+plus, um, there's also third party modules, uh, like, for instance, uh, bringing in your flicker
+
+123
+00:06:53,320 --> 00:06:58,440
+pictures, uh, bringing in your delicious links, uh, weather modules, all kinds of third party
+
+124
+00:06:58,440 --> 00:07:04,040
+stuff that are just, uh, let you customize and really make your site, what you want it to be.
+
+125
+00:07:04,040 --> 00:07:08,520
+Now, these, um, you said something interesting there because we, we do have a lot of APIs,
+
+126
+00:07:08,520 --> 00:07:14,360
+which will be publishing and all kinds of stuff that ties in, you know, um, you know, one ties into
+
+127
+00:07:14,360 --> 00:07:18,040
+the other, of course, we actually have a whole entity out there, the pod save music network
+
+128
+00:07:18,040 --> 00:07:24,120
+going to be tying that in as well. Um, will developers be able to, uh, work on some of that stuff
+
+129
+00:07:24,120 --> 00:07:28,680
+as well, or, you know, will it, will it be a place where they can, uh, ideate and, and work on ideas
+
+130
+00:07:28,680 --> 00:07:36,440
+of, of integration of existing podshow stuff? That's definitely planned. Uh, this first SDK release
+
+131
+00:07:36,440 --> 00:07:44,760
+is, uh, really limited to third party, uh, applications and bringing in content, uh, but I'm definitely
+
+132
+00:07:44,760 --> 00:07:49,320
+planning on opening up some of the, the core functionality of the PDN, letting people get in there
+
+133
+00:07:49,320 --> 00:07:55,400
+and do stuff with our show data, our user data, um, and really, you know, actually extend
+
+134
+00:07:55,400 --> 00:08:02,280
+podshow plus, uh, completely. Excellent. Hold on, hold on a second, Kevin. Oh, oh my gosh. Oh,
+
+135
+00:08:02,280 --> 00:08:09,800
+that, uh, up. I just saw a golden ticket swoosh by saw a couple of them go. So, if you didn't
+
+136
+00:08:09,880 --> 00:08:15,880
+hear about 30 seconds of me telling you how to get in, then you didn't win. I'm sorry.
+
+137
+00:08:18,680 --> 00:08:23,480
+Ah, some lucky developers are already registering as we speak. So, um,
+
+138
+00:08:26,040 --> 00:08:30,760
+what is your involvement going to be in, um, in, in this process, Kevin, uh, you know,
+
+139
+00:08:30,760 --> 00:08:36,280
+Andrew's really going to be managing, I think, a lot of the, um, the, uh, the source for
+
+140
+00:08:36,440 --> 00:08:41,800
+project, whatever we're going to use for it. Now, I see tons of comments on, uh, the dev cast, uh,
+
+141
+00:08:43,000 --> 00:08:47,400
+show site. What, what are you going to be doing? And will you be accessible to the, to developers
+
+142
+00:08:47,400 --> 00:08:52,440
+who have questions? Uh, I definitely will be, uh, you can reach me at Kevin at podshow.com. If you have
+
+143
+00:08:52,440 --> 00:08:59,000
+any specific technical questions, uh, I'm really the guy that is behind the SDK and the code in the,
+
+144
+00:08:59,560 --> 00:09:05,720
+in podshow plus. So, I'd be the best person to contact on that. Um, my time's pretty limited. So,
+
+145
+00:09:05,720 --> 00:09:10,600
+I can't guarantee I'll get back here right away, but I definitely welcome feedback questions,
+
+146
+00:09:10,600 --> 00:09:15,320
+comments. Uh, you can cost me out if you want to. That's all cool with me. Oh, excellent way.
+
+147
+00:09:15,320 --> 00:09:21,720
+That was Kevin at podshow. I said, right that down for the cursing. Uh, so who else, um,
+
+148
+00:09:21,720 --> 00:09:25,960
+of the dev team should we have next up in the dev cast? I mean, there's so, so many different
+
+149
+00:09:25,960 --> 00:09:30,520
+moving, you know, parts to this that, you know, and as you said, there's even employees that I haven't
+
+150
+00:09:30,520 --> 00:09:35,240
+met yet in the time that I've been back in, uh, in the UK, who, who should we have on next and
+
+151
+00:09:35,240 --> 00:09:40,360
+how will that pertain to the, uh, to the developers who are coming in? Wow, that's a, that's a
+
+152
+00:09:40,360 --> 00:09:46,120
+tough one. Yeah, everybody's doing such cool stuff. Um, you know, we have, uh, saw who's really
+
+153
+00:09:46,120 --> 00:09:52,280
+gearing up our search technologies, uh, letting, letting us expand beyond, uh, you know, normal,
+
+154
+00:09:52,280 --> 00:09:58,680
+PHP, my sequel, text indexing, uh, brought in a, uh, new guy Kurt, who's just really been kicking
+
+155
+00:09:58,680 --> 00:10:05,400
+some ass on, uh, on a lyrics system. Um, we brought a, a Gavin from a, from tag.com. He's,
+
+156
+00:10:05,400 --> 00:10:10,360
+Oh, Gavin? Gavin's Gavin's in? Oh, that's cool. Yes, Gavin is in. He's been here for a couple
+
+157
+00:10:10,360 --> 00:10:15,640
+weeks now. Oh, shit. No, I know, because I personally, uh, and, you know, I call them a couple times,
+
+158
+00:10:15,640 --> 00:10:20,120
+uh, trying to convince him to come and work for us, and I think he, he, like, lost his cell phone or
+
+159
+00:10:20,120 --> 00:10:24,520
+something. I was really bombed, and then, you know, just as I was leaving, we got, we got, we got in touch
+
+160
+00:10:24,520 --> 00:10:29,240
+again. So he's in. That's fantastic. Good. Okay. He's, he's working on our back and admin stuff,
+
+161
+00:10:29,240 --> 00:10:33,800
+which is going to be really cool. Give us a lot of flexibility and control. So I'm,
+
+162
+00:10:33,800 --> 00:10:38,520
+there's, there's all kinds of people here that you, you should be talking to, not just me.
+
+163
+00:10:38,520 --> 00:10:44,440
+How about, how about Erin? I, I'd love to talk to Erin because she's, she, she is so trippy, man. I love,
+
+164
+00:10:44,440 --> 00:10:50,280
+I love it. I love what she's doing. She's, she's great. She's, uh, definitely a trip to work with,
+
+165
+00:10:50,280 --> 00:10:57,320
+but, uh, man, she's a smarker. And she's, uh, our, our DBA, or she's our DBA, and she's also heads up
+
+166
+00:10:57,320 --> 00:11:04,040
+our, um, IT department, essentially, uh, but really focusing on the DBA work and working with a
+
+167
+00:11:04,040 --> 00:11:08,280
+rack space, our managed hosting solution to make sure our servers are off and running.
+
+168
+00:11:09,080 --> 00:11:13,160
+Excellent. And, uh, and doing a good job, except, uh, there's a little hiccup last night on the
+
+169
+00:11:13,160 --> 00:11:18,840
+PMN. Yeah. What, uh, I got, like, ton of emails this morning. Oh, man, something's gone wrong.
+
+170
+00:11:18,840 --> 00:11:22,440
+I can't, and I'll tell you, I was about to do my show and really bummed me out. I'm like,
+
+171
+00:11:22,440 --> 00:11:26,600
+I can't, I can't get any songs. It was really, it was horrible. It was like,
+
+172
+00:11:26,600 --> 00:11:29,960
+but some wiki got set up and it bogged everything down or something like that.
+
+173
+00:11:31,240 --> 00:11:36,840
+Um, it was a combination of that. And I think there's a patch applied to a patchy, that didn't
+
+174
+00:11:36,840 --> 00:11:42,760
+take so well, so we've rolled everything back and things should be good now. So I apologize to all
+
+175
+00:11:42,760 --> 00:11:46,760
+the people that needed to get to it. No, I think everyone understands. And, you know, but it's,
+
+176
+00:11:46,760 --> 00:11:51,160
+I hope there's also a couple of, you know, maybe non-developers who are listening because now you
+
+177
+00:11:51,160 --> 00:11:56,600
+really start to understand how much work goes into doing this. You know, when, when you hear how
+
+178
+00:11:56,600 --> 00:12:01,160
+many people are on it and all the different issues. And of course, we're, we're actually scaling
+
+179
+00:12:01,160 --> 00:12:05,800
+internally pretty quickly, you know, just on podshow plus and the pdm, we've got a lot of shows.
+
+180
+00:12:05,800 --> 00:12:11,240
+We've got a lot of users in there. Of course, you know, all of our, um, uh, a lot of the podcasters
+
+181
+00:12:11,320 --> 00:12:17,400
+that we, that we met at the portable media expo, it's, uh, it's, it's, it's really kind of growing
+
+182
+00:12:17,400 --> 00:12:23,080
+all in, uh, simultaneously. Yeah, definitely. I'm Richard's been doing a great job of bringing
+
+183
+00:12:23,080 --> 00:12:29,160
+in some good quality shows. Um, and I see the, I see the sign-up emails coming by my inbox
+
+184
+00:12:29,160 --> 00:12:34,600
+almost daily if us bringing in these shows and letting them actually use the tools and, you know,
+
+185
+00:12:34,600 --> 00:12:39,560
+put it out into their feed currently, uh, I'd like to turn it on. So, you know, people could start
+
+186
+00:12:39,640 --> 00:12:45,160
+using the podshow plus feeds, but I mean, it's great to see people actually using parts of it.
+
+187
+00:12:45,160 --> 00:12:51,560
+That's a lot of good feedback. That's a question I actually had is, um, will, will be able to
+
+188
+00:12:51,560 --> 00:12:57,240
+selectively turn on some of the show sites before everything is, is publicly available?
+
+189
+00:12:58,600 --> 00:13:04,920
+Um, not necessarily entire show site, but, um, we could start slowly exposed the, you know, the
+
+190
+00:13:05,080 --> 00:13:12,120
+XML, uh, start with that, and then maybe just open up the listener side without, you know,
+
+191
+00:13:12,120 --> 00:13:16,760
+it's up the registrations. I mean, there's a lot of stuff we can do to kind of slowly ramp up
+
+192
+00:13:16,760 --> 00:13:21,160
+and get people in there and isn't it? But, uh, you know, opening the floodgates is an out of the
+
+193
+00:13:21,160 --> 00:13:27,800
+question either. So, uh, as he throws down the gauntlet, I love it. I love it. All right, dude,
+
+194
+00:13:27,800 --> 00:13:32,200
+well, listen, I don't want to keep you too much longer. Um, I'm going to get in touch with, uh,
+
+195
+00:13:32,280 --> 00:13:35,480
+I just saw a mail coming from Andrew, so I guess we can get this when I'll set up for those
+
+196
+00:13:35,480 --> 00:13:42,760
+golden tickets that just flew by. And, um, um, maybe just to tell, uh, tell, if you don't mind
+
+197
+00:13:42,760 --> 00:13:47,320
+tell Aaron that I'd love to talk with her tomorrow, if she has time, just to get your insights into
+
+198
+00:13:47,320 --> 00:13:50,680
+what she's been doing, because that database stuff. That's like, that's art, man. That's not
+
+199
+00:13:50,680 --> 00:13:57,080
+science. That's fucking art. No, that is an art form. But, uh, guys, go over real quick what this
+
+200
+00:13:57,080 --> 00:14:03,400
+SDK is going to, yes, please. So, yeah, let people know what they expect. Um, and basically,
+
+201
+00:14:03,400 --> 00:14:09,720
+it's just a lightweight framework. Um, we'll be providing a first that, you know, we'll just
+
+202
+00:14:09,720 --> 00:14:14,200
+basically let people say preference data to start. So, you know, it's, it's really small lightweight.
+
+203
+00:14:14,200 --> 00:14:20,600
+You get a single class with some helper functions. Um, we do use the script calculus, uh,
+
+204
+00:14:20,600 --> 00:14:26,680
+JavaScript framework, so Ajax all over the place is cool with us. Um, and since this is
+
+205
+00:14:27,240 --> 00:14:33,080
+really just, uh, PHP, straight PHP coding, um, you know, all of our modules are going to have to be
+
+206
+00:14:33,080 --> 00:14:39,640
+reviewed and analyzed and make sure that nobody's trying to hack into us kind of thing. But, um,
+
+207
+00:14:39,640 --> 00:14:44,840
+I mean, I've been trying for months. What are you talking about? It's really, it's really flexible.
+
+208
+00:14:44,840 --> 00:14:52,120
+I mean, it's really just a blank slate for people to, to create on, um, you know, the actual SDK itself
+
+209
+00:14:52,120 --> 00:14:56,680
+will provide you with starting points, um, you know, you enter your module name. It'll create
+
+210
+00:14:56,680 --> 00:15:01,000
+based off of a base template to get you started. So, you don't have to reinvent the wheel there.
+
+211
+00:15:01,560 --> 00:15:06,920
+But then it's really up to the, the developer. And this time goes on, we'll be adding, you know,
+
+212
+00:15:06,920 --> 00:15:11,320
+supporting classes to let you tap into our shows and our, and our users. So,
+
+213
+00:15:11,960 --> 00:15:16,840
+look forward for some really cool stuff. And, uh, you know, you'll have lots of control over
+
+214
+00:15:16,920 --> 00:15:23,560
+what your module stays. So, so, you said, you only mentioned PHP. Does that mean that if I have
+
+215
+00:15:23,560 --> 00:15:28,600
+even, uh, a working knowledge of PHP that I can participate and I can try and create a module,
+
+216
+00:15:28,600 --> 00:15:32,120
+is it something that will eventually, you know, that anyone can do this if they, you're like,
+
+217
+00:15:32,120 --> 00:15:37,800
+on my space, right? They've, you know, my daughter is now hacking up HTML, um, yeah, and, and she's
+
+218
+00:15:37,800 --> 00:15:43,080
+figured out how to change something so she can hide her comments. Yeah, it's pretty basic stuff.
+
+219
+00:15:43,080 --> 00:15:46,440
+But, I mean, will we get to the point where it, where, you know, even someone like that,
+
+220
+00:15:46,440 --> 00:15:51,640
+can, can create a module? Absolutely. I mean, you can make a module that's just a simple
+
+221
+00:15:51,640 --> 00:15:56,200
+hello world module, or you can build a full application. It's really what your work knowledge
+
+222
+00:15:56,200 --> 00:16:01,400
+is. On the other side, that's time goes on. We'll be releasing a client-side SDK as well.
+
+223
+00:16:01,400 --> 00:16:07,960
+That'll let developers use, you know, just JavaScript, uh, XML, and, uh, it's a VHDML.
+
+224
+00:16:07,960 --> 00:16:12,040
+And, and that will be instant, you know, you'll be able to just basically send a module
+
+225
+00:16:12,040 --> 00:16:16,600
+to the developer friend and have them install it. But that's, that's some time out, um, as, you
+
+226
+00:16:16,600 --> 00:16:21,640
+know, we prep up for launch. I've got, uh, lots of other things to worry about. Yeah, I hear you.
+
+227
+00:16:21,640 --> 00:16:28,360
+Right here. Busy, busy, busy, busy, right? I'll code no sleep. That's my model. Yeah, I'm sending
+
+228
+00:16:28,360 --> 00:16:34,360
+some mountain do your way. Sweet. All right, Kevin. Dude, cool. All right, thank you very much.
+
+229
+00:16:34,360 --> 00:16:39,000
+And, uh, we'll check in sometime next week and, uh, just, see how's everything's going on.
+
+230
+00:16:39,000 --> 00:16:43,320
+Keep these, these dev cast relatively short. So I'm going to take too much of any one's time.
+
+231
+00:16:43,320 --> 00:16:48,920
+And, uh, say hi to everyone at, uh, at HQ for me. I will. I'll tell Aaron to expect a call for me.
+
+232
+00:16:48,920 --> 00:16:53,000
+All right. Yes. So, uh, around the same time tomorrow. Sounds good. All right, buddy. Thanks,
+
+233
+00:16:53,000 --> 00:16:58,840
+like, Kevin. Take it easy. Okay, but bye, bye, bye. There you go. Get this podcast and more great ones
+
+234
+00:16:58,840 --> 00:17:03,880
+like it on the high performance podcast delivery network from Pod Show and Lime Light Networks.
+
