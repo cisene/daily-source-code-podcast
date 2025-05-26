@@ -1,0 +1,2552 @@
+1
+00:00:00,000 --> 00:00:23,200
+All right, as promised, we've got a special guest on today's Daily Source Code.
+
+2
+00:00:23,200 --> 00:00:27,200
+First time we've actually turned the Hilltop Watch Tower Crackpot Command Center Studio
+
+3
+00:00:27,200 --> 00:00:34,200
+into something that actually kind of resembles, kind of like a studio, I guess.
+
+4
+00:00:34,200 --> 00:00:35,200
+A little bit.
+
+5
+00:00:35,200 --> 00:00:36,200
+You back and forth, welcome.
+
+6
+00:00:36,200 --> 00:00:37,200
+Hi, thanks.
+
+7
+00:00:37,200 --> 00:00:38,200
+Hey, man.
+
+8
+00:00:38,200 --> 00:00:39,200
+Oh, hold on me.
+
+9
+00:00:39,200 --> 00:00:42,200
+Let me, uh, let me, uh, just take a wee bit of off for a second.
+
+10
+00:00:42,200 --> 00:00:48,200
+It's a little weird when we're talking when you got nothing but reverb.
+
+11
+00:00:48,200 --> 00:00:54,200
+So you, um, actually, uh, I met through, uh, your sister who was working for, uh, for
+
+12
+00:00:54,200 --> 00:00:58,200
+Mickey and San Francisco said, uh, you know, she's like totally hawk and you're totally
+
+13
+00:00:58,200 --> 00:00:59,200
+plugging the shit out of your stuff.
+
+14
+00:00:59,200 --> 00:01:02,200
+Like, oh, you got to listen to CD is really good.
+
+15
+00:01:02,200 --> 00:01:06,200
+And then, uh, and so, uh, me can't listen to, I was like, wow, this guy's really huge.
+
+16
+00:01:06,200 --> 00:01:07,200
+Are you sure he's Dutch?
+
+17
+00:01:07,200 --> 00:01:11,200
+It's like, and the first thing I noticed, man, is your accent is, is impeccable.
+
+18
+00:01:11,200 --> 00:01:14,200
+I mean, you can almost can't tell your Dutch.
+
+19
+00:01:14,200 --> 00:01:15,200
+Right, do I can?
+
+20
+00:01:15,200 --> 00:01:17,200
+But, uh, no, yeah, true, true.
+
+21
+00:01:17,200 --> 00:01:21,200
+So where did you learn to speak with such a great American accent?
+
+22
+00:01:21,200 --> 00:01:22,200
+Uh, TV.
+
+23
+00:01:23,200 --> 00:01:26,200
+Just, we just come a little bit closer to the mic because I can't, it's hard for me to work
+
+24
+00:01:26,200 --> 00:01:28,200
+the board and everything all the same time.
+
+25
+00:01:28,200 --> 00:01:31,200
+I only have two hands and, you know, I got to smoke as well.
+
+26
+00:01:31,200 --> 00:01:36,200
+Um, so now, uh, your, uh, professional musician as in, you do this for a living.
+
+27
+00:01:36,200 --> 00:01:37,200
+I do.
+
+28
+00:01:37,200 --> 00:01:38,200
+I do.
+
+29
+00:01:38,200 --> 00:01:41,200
+And, uh, you're living in the Netherlands, but thinking of maybe giving it a try over here
+
+30
+00:01:41,200 --> 00:01:42,200
+in the States.
+
+31
+00:01:42,200 --> 00:01:45,200
+Uh, I'm fan-to-planning it, fan-to-sizing and planning it.
+
+32
+00:01:45,200 --> 00:01:46,200
+Okay.
+
+33
+00:01:46,200 --> 00:01:47,200
+Good.
+
+34
+00:01:47,200 --> 00:01:48,200
+It's like a little recon mission.
+
+35
+00:01:48,200 --> 00:01:53,200
+And then Mickey actually asked you to come and perform at an art expo that she was doing in Amsterdam.
+
+36
+00:01:53,200 --> 00:01:54,200
+Yes.
+
+37
+00:01:54,200 --> 00:01:57,200
+And I was like, and he had, uh, three guys, right?
+
+38
+00:01:57,200 --> 00:01:58,200
+Yeah.
+
+39
+00:01:58,200 --> 00:01:59,200
+Or was it just one other guy?
+
+40
+00:01:59,200 --> 00:02:01,200
+I had one friend of mine with me in a percussion player from Venezuela.
+
+41
+00:02:01,200 --> 00:02:04,200
+Uh, we've been friends for some time and, uh, you know,
+
+42
+00:02:04,200 --> 00:02:05,200
+whenever I can, I hire him.
+
+43
+00:02:05,200 --> 00:02:09,200
+He was just like banging on some piece of wood like he was sitting on a box, you know.
+
+44
+00:02:09,200 --> 00:02:14,200
+It's called a cahoon and it's, uh, replaces a full drum kit basically and you play.
+
+45
+00:02:14,200 --> 00:02:15,200
+Really?
+
+46
+00:02:15,200 --> 00:02:17,200
+You play with two hands, it's got a little snare inside, so it sounds like a kid.
+
+47
+00:02:17,200 --> 00:02:18,200
+I have two cahoones.
+
+48
+00:02:18,200 --> 00:02:19,200
+Is that kind of the same thing?
+
+49
+00:02:19,200 --> 00:02:21,200
+One cahoon, two cahoones?
+
+50
+00:02:21,200 --> 00:02:22,200
+Yeah, you need big cahoones.
+
+51
+00:02:22,200 --> 00:02:26,200
+So you don't have, uh, any percussion with you today?
+
+52
+00:02:26,200 --> 00:02:27,200
+No, it's just me.
+
+53
+00:02:27,200 --> 00:02:30,200
+And, uh, you've got your fender, uh, strata cast right in my point out.
+
+54
+00:02:30,200 --> 00:02:31,200
+Uh, you've got it.
+
+55
+00:02:31,200 --> 00:02:32,200
+What kind of gear?
+
+56
+00:02:32,200 --> 00:02:34,200
+Because we're plugged directly into the board here, what you got?
+
+57
+00:02:34,200 --> 00:02:35,200
+Yes.
+
+58
+00:02:35,200 --> 00:02:38,200
+I brought a little line six device called the, uh, the pocket pod,
+
+59
+00:02:38,200 --> 00:02:40,200
+which is the smallest version of the, of the line six pod.
+
+60
+00:02:40,200 --> 00:02:41,200
+Uh-huh.
+
+61
+00:02:41,200 --> 00:02:43,200
+So it fits in my gig back, so.
+
+62
+00:02:43,200 --> 00:02:44,200
+Cool.
+
+63
+00:02:44,200 --> 00:02:46,200
+So when you perform, what do you do?
+
+64
+00:02:46,200 --> 00:02:47,200
+Your own stuff?
+
+65
+00:02:47,200 --> 00:02:48,200
+Do you do covers?
+
+66
+00:02:48,200 --> 00:02:52,200
+Uh, basically I pay what people want and I smile when they pay me.
+
+67
+00:02:52,200 --> 00:03:00,200
+It's a real treat to have you here, because I think you're a phenomenal musician.
+
+68
+00:03:00,200 --> 00:03:01,200
+Thank you.
+
+69
+00:03:01,200 --> 00:03:04,200
+And, uh, you know, I've been trying over the, you know, past day trying to, like, kind
+
+70
+00:03:04,200 --> 00:03:08,200
+of spury on that just, uh, give up the lowlands and come over here and, uh,
+
+71
+00:03:08,200 --> 00:03:11,200
+and give it a shot, man, because you, you got a lot of talent, and I think, uh,
+
+72
+00:03:11,200 --> 00:03:14,200
+when people hear this, they'll really, really enjoy what you're doing.
+
+73
+00:03:14,200 --> 00:03:15,200
+Thank you.
+
+74
+00:03:15,200 --> 00:03:16,200
+And, uh, so what are you going to do?
+
+75
+00:03:16,200 --> 00:03:19,200
+Yeah, I'd love you just to play as much as you feel like playing, because this is, uh,
+
+76
+00:03:19,200 --> 00:03:22,200
+you know, we don't have to, like, hit the network news or anything on the show.
+
+77
+00:03:22,200 --> 00:03:23,200
+Yeah.
+
+78
+00:03:23,200 --> 00:03:24,200
+So, uh, what would you like to do?
+
+79
+00:03:24,200 --> 00:03:27,200
+I was thinking of, uh, mixing it up, playing a few covers, um, you know,
+
+80
+00:03:27,200 --> 00:03:30,200
+some well-known stuff, and maybe a few originals as well, just, uh, you know.
+
+81
+00:03:30,200 --> 00:03:31,200
+Okay.
+
+82
+00:03:31,200 --> 00:03:32,200
+Let me, yeah.
+
+83
+00:03:32,200 --> 00:03:34,200
+Just give me a little vocal here, so I can set your reverb back.
+
+84
+00:03:34,200 --> 00:03:35,200
+Okay.
+
+85
+00:03:35,200 --> 00:03:36,200
+Go ahead.
+
+86
+00:03:36,200 --> 00:03:38,200
+Hey.
+
+87
+00:03:38,200 --> 00:03:40,200
+Mmm.
+
+88
+00:03:40,200 --> 00:03:41,200
+Mmm.
+
+89
+00:03:41,200 --> 00:03:42,200
+That's for you.
+
+90
+00:03:42,200 --> 00:03:43,200
+Nice.
+
+91
+00:03:44,200 --> 00:03:45,200
+All right.
+
+92
+00:03:45,200 --> 00:03:46,200
+You better come on.
+
+93
+00:03:46,200 --> 00:03:47,200
+Take it away, man.
+
+94
+00:04:14,200 --> 00:04:18,200
+Say the joke or to the thief.
+
+95
+00:04:18,200 --> 00:04:23,200
+There's too much confusion.
+
+96
+00:04:23,200 --> 00:04:28,200
+I can't get no relief.
+
+97
+00:04:28,200 --> 00:04:32,200
+Business man, they drink my wine.
+
+98
+00:04:32,200 --> 00:04:37,200
+Plow and dig my earth.
+
+99
+00:04:37,200 --> 00:04:41,200
+No, them down the line.
+
+100
+00:04:42,200 --> 00:04:46,200
+Not any other word, no.
+
+101
+00:05:05,200 --> 00:05:09,200
+No reason to get excited, no, no, no.
+
+102
+00:05:09,200 --> 00:05:14,200
+The thief you kind of spoke.
+
+103
+00:05:14,200 --> 00:05:18,200
+There are many here on my nerves.
+
+104
+00:05:18,200 --> 00:05:23,200
+Who know the life is just a joke.
+
+105
+00:05:23,200 --> 00:05:27,200
+But you will not weave Ben through that, yes.
+
+106
+00:05:27,200 --> 00:05:32,200
+And this is not our fate, no, no.
+
+107
+00:05:32,200 --> 00:05:36,200
+So little, snotspeak falls in our arms.
+
+108
+00:05:37,200 --> 00:05:43,200
+Who's the hours getting lay, yeah.
+
+109
+00:05:43,200 --> 00:06:00,200
+Yeah.
+
+110
+00:06:00,200 --> 00:06:04,200
+Along the watch style.
+
+111
+00:06:04,200 --> 00:06:08,200
+Princess kept you.
+
+112
+00:06:08,200 --> 00:06:12,200
+While all the women came and went.
+
+113
+00:06:12,200 --> 00:06:16,200
+They're for serving too.
+
+114
+00:06:16,200 --> 00:06:21,200
+Outside in the cold distance.
+
+115
+00:06:21,200 --> 00:06:25,200
+While can't get grow.
+
+116
+00:06:25,200 --> 00:06:29,200
+To run his reproaching.
+
+117
+00:06:29,200 --> 00:06:35,200
+And the wind, the wind began to haunt.
+
+118
+00:06:42,200 --> 00:06:52,200
+Along the watch style.
+
+119
+00:06:52,200 --> 00:07:00,200
+Along the watch style.
+
+120
+00:07:00,200 --> 00:07:11,200
+Along the watch style.
+
+121
+00:07:11,200 --> 00:07:37,200
+Along the watch style.
+
+122
+00:07:38,200 --> 00:07:46,200
+And of course, you played my theme song here in the watch tower.
+
+123
+00:07:46,200 --> 00:07:47,200
+I love it, man.
+
+124
+00:07:47,200 --> 00:07:48,200
+It's awesome.
+
+125
+00:07:48,200 --> 00:07:51,200
+I just realized we got an audience here.
+
+126
+00:07:51,200 --> 00:07:52,200
+But they only hear you singing.
+
+127
+00:07:52,200 --> 00:07:54,200
+You don't hear as guitar, right?
+
+128
+00:07:54,200 --> 00:07:58,200
+It's like, and it still sounds good.
+
+129
+00:07:58,200 --> 00:08:01,200
+Dude, I was just thinking about this.
+
+130
+00:08:01,200 --> 00:08:03,200
+We got to do something about the name.
+
+131
+00:08:03,200 --> 00:08:04,200
+I want to make it here.
+
+132
+00:08:04,200 --> 00:08:07,200
+You could be like, what can we make it?
+
+133
+00:08:07,200 --> 00:08:12,200
+First of all, I was thinking of cutting off the Birkin and just going with Bosch because it's like a powerful like Bosch.
+
+134
+00:08:12,200 --> 00:08:13,200
+Yeah.
+
+135
+00:08:13,200 --> 00:08:15,200
+Although Birkin has a ring to it though.
+
+136
+00:08:15,200 --> 00:08:18,200
+It's like, you Birkin, you Bosch.
+
+137
+00:08:18,200 --> 00:08:19,200
+Birkin stock.
+
+138
+00:08:19,200 --> 00:08:22,200
+Yeah, you'll be big and Berkeley.
+
+139
+00:08:22,200 --> 00:08:23,200
+Yes.
+
+140
+00:08:23,200 --> 00:08:25,200
+Okay, we'll work on that.
+
+141
+00:08:25,200 --> 00:08:28,200
+I'm sure some of the chuckle heads out there might have some ideas.
+
+142
+00:08:28,200 --> 00:08:30,200
+You want to play one of your own tunes?
+
+143
+00:08:30,200 --> 00:08:31,200
+Absolutely.
+
+144
+00:08:31,200 --> 00:08:33,200
+Alright, hold on.
+
+145
+00:08:33,200 --> 00:08:35,200
+Go for it.
+
+146
+00:08:35,200 --> 00:08:41,200
+This is a song called Something Good.
+
+147
+00:09:01,200 --> 00:09:05,200
+All my life I've been on the run.
+
+148
+00:09:05,200 --> 00:09:09,200
+Killing time getting nothing done.
+
+149
+00:09:09,200 --> 00:09:13,200
+I've spent so many nights on my own bed.
+
+150
+00:09:13,200 --> 00:09:17,200
+I don't want to end up alone.
+
+151
+00:09:17,200 --> 00:09:21,200
+Here the nose, the mistakes I've made.
+
+152
+00:09:21,200 --> 00:09:25,200
+Here the nose, there'll be hell to pay.
+
+153
+00:09:25,200 --> 00:09:30,200
+When I'm with you, I don't know what to say girl.
+
+154
+00:09:30,200 --> 00:09:34,200
+I feel lost, I feel in the way.
+
+155
+00:09:34,200 --> 00:09:38,200
+All I do is think about it.
+
+156
+00:09:38,200 --> 00:09:42,200
+Can't begin to live without it.
+
+157
+00:09:42,200 --> 00:09:48,200
+Hold on to the love you're feeling inside.
+
+158
+00:09:50,200 --> 00:09:54,200
+Baby, you need to get her.
+
+159
+00:09:54,200 --> 00:09:58,200
+Could make it through this heavy weather.
+
+160
+00:09:58,200 --> 00:10:04,200
+I'm not sure I did all that I could.
+
+161
+00:10:04,200 --> 00:10:10,200
+I just want to be a part of something good.
+
+162
+00:10:10,200 --> 00:10:16,200
+Something good, but part of something good.
+
+163
+00:10:16,200 --> 00:10:22,200
+I just want to be a part of something good.
+
+164
+00:10:22,200 --> 00:10:26,200
+Oh.
+
+165
+00:10:26,200 --> 00:10:30,200
+Maybe you could take care of me.
+
+166
+00:10:30,200 --> 00:10:34,200
+You and my heart start a family.
+
+167
+00:10:34,200 --> 00:10:38,200
+I'm afraid now this feeling's getting so strong.
+
+168
+00:10:38,200 --> 00:10:42,200
+Need to find out where long goes.
+
+169
+00:10:42,200 --> 00:10:46,200
+All I do is think about it.
+
+170
+00:10:46,200 --> 00:10:50,200
+Can't begin to live without it.
+
+171
+00:10:50,200 --> 00:10:54,200
+Hold on to the love you're feeling inside.
+
+172
+00:10:58,200 --> 00:11:02,200
+Baby, you need to get her.
+
+173
+00:11:02,200 --> 00:11:06,200
+Could make it through this heavy weather.
+
+174
+00:11:06,200 --> 00:11:10,200
+I'm not sure we did all that we could.
+
+175
+00:11:10,200 --> 00:11:16,200
+I just want to be a part of something good.
+
+176
+00:11:16,200 --> 00:11:24,200
+Something good, but part of something good.
+
+177
+00:11:24,200 --> 00:11:30,200
+I just want to be a part of something good.
+
+178
+00:11:30,200 --> 00:11:34,200
+Oh, I do is think about it.
+
+179
+00:11:34,200 --> 00:11:38,200
+Can't begin to live without it.
+
+180
+00:11:38,200 --> 00:11:44,200
+Hold on to the love you're feeling inside.
+
+181
+00:11:44,200 --> 00:11:50,200
+Baby, you need to get her.
+
+182
+00:11:50,200 --> 00:11:54,200
+Could make it through this heavy weather.
+
+183
+00:11:54,200 --> 00:12:00,200
+I'm not sure I did all that I could.
+
+184
+00:12:00,200 --> 00:12:06,200
+I just want to be a part of something good.
+
+185
+00:12:06,200 --> 00:12:12,200
+Something good, but part of something good.
+
+186
+00:12:12,200 --> 00:12:22,200
+I just want to be a part of something good.
+
+187
+00:12:22,200 --> 00:12:28,200
+Something good, but part of something good.
+
+188
+00:12:28,200 --> 00:12:36,200
+I just want to be a part of something good.
+
+189
+00:12:36,200 --> 00:12:40,200
+Something good.
+
+190
+00:12:40,200 --> 00:12:50,200
+Dude, did you like come out of the womb with that voice and the chops like that?
+
+191
+00:12:50,200 --> 00:12:52,200
+Just like born with it?
+
+192
+00:12:52,200 --> 00:12:54,200
+Yeah, it's awesome.
+
+193
+00:12:54,200 --> 00:12:56,200
+That's a great song.
+
+194
+00:12:56,200 --> 00:12:58,200
+When do you write that?
+
+195
+00:12:58,200 --> 00:13:00,200
+About 2005, I think.
+
+196
+00:13:00,200 --> 00:13:01,200
+Really?
+
+197
+00:13:01,200 --> 00:13:02,200
+Go ahead and have a drink of water.
+
+198
+00:13:02,200 --> 00:13:04,200
+I'll compliment you while you're doing that.
+
+199
+00:13:04,200 --> 00:13:08,200
+I've been picking hit songs all my life on the radio.
+
+200
+00:13:08,200 --> 00:13:10,200
+That is definitely a hit.
+
+201
+00:13:10,200 --> 00:13:12,200
+That's a great song.
+
+202
+00:13:12,200 --> 00:13:14,200
+It's hokey, it's nice, it's what I think people are wanting to hear.
+
+203
+00:13:14,200 --> 00:13:16,200
+You got a record deal or anything like that?
+
+204
+00:13:16,200 --> 00:13:18,200
+I got nothing.
+
+205
+00:13:18,200 --> 00:13:20,200
+Yeah, it's talking musician.
+
+206
+00:13:20,200 --> 00:13:22,200
+We love it.
+
+207
+00:13:22,200 --> 00:13:23,200
+Perfect.
+
+208
+00:13:23,200 --> 00:13:26,200
+I'm basically playing tourist bars and Amsterdam doing cover stuff.
+
+209
+00:13:26,200 --> 00:13:31,200
+I play my own stuff whenever I can, but usually the bartenders like us to play.
+
+210
+00:13:31,200 --> 00:13:35,200
+The stuff that people know, so they buy more drinks, so the bartenders make more money.
+
+211
+00:13:35,200 --> 00:13:36,200
+Right.
+
+212
+00:13:36,200 --> 00:13:39,200
+But yeah, I do a little gigs here and there with my own stuff.
+
+213
+00:13:39,200 --> 00:13:42,200
+I've done a few bigger things.
+
+214
+00:13:42,200 --> 00:13:46,200
+I was a finalist on a pretty big live music competition back home.
+
+215
+00:13:46,200 --> 00:13:47,200
+Yeah, what's that?
+
+216
+00:13:47,200 --> 00:13:49,200
+That's the Hrotoprace.
+
+217
+00:13:49,200 --> 00:13:51,200
+This is a sponsored by the government.
+
+218
+00:13:51,200 --> 00:13:54,200
+It's a cultural department of culture, prize or something.
+
+219
+00:13:54,200 --> 00:13:56,200
+Yes, it's them in Hainick and I think.
+
+220
+00:13:56,200 --> 00:13:59,200
+Yeah, that's a Dutch government works with Hainick.
+
+221
+00:13:59,200 --> 00:14:00,200
+Can you, of course, they do.
+
+222
+00:14:00,200 --> 00:14:01,200
+All right, cool.
+
+223
+00:14:01,200 --> 00:14:02,200
+All right.
+
+224
+00:14:02,200 --> 00:14:04,200
+And did that get you any traction?
+
+225
+00:14:04,200 --> 00:14:05,200
+Did that work for you?
+
+226
+00:14:05,200 --> 00:14:06,200
+No, no.
+
+227
+00:14:06,200 --> 00:14:07,200
+No, no.
+
+228
+00:14:07,200 --> 00:14:08,200
+No, no.
+
+229
+00:14:08,200 --> 00:14:09,200
+And free beer.
+
+230
+00:14:09,200 --> 00:14:12,200
+Well, I got, uh, there was like an events company out there.
+
+231
+00:14:12,200 --> 00:14:15,200
+They scattered me and they hired me for some cool stuff.
+
+232
+00:14:15,200 --> 00:14:16,200
+Uh-huh.
+
+233
+00:14:16,200 --> 00:14:18,200
+For the world famous Johan Krav Foundation.
+
+234
+00:14:18,200 --> 00:14:19,200
+Okay, sure.
+
+235
+00:14:19,200 --> 00:14:20,200
+Stuff like that.
+
+236
+00:14:20,200 --> 00:14:21,200
+Sure.
+
+237
+00:14:21,200 --> 00:14:23,200
+Got hired to do some promotional stuff for, you know.
+
+238
+00:14:23,200 --> 00:14:25,200
+But nothing, nothing serious.
+
+239
+00:14:25,200 --> 00:14:28,200
+So when you look at the music business today, I mean, what do you see the future?
+
+240
+00:14:28,200 --> 00:14:31,200
+What do you think you'll be doing and what, what approach you're taking?
+
+241
+00:14:31,200 --> 00:14:33,200
+Because I presume you want to do this, right?
+
+242
+00:14:33,200 --> 00:14:35,200
+This is what, this is your passion, right?
+
+243
+00:14:35,200 --> 00:14:36,200
+Oh, yeah.
+
+244
+00:14:36,200 --> 00:14:39,200
+Well, I've recently got an in touch with some people back home that are wanting to help
+
+245
+00:14:39,200 --> 00:14:40,200
+me out.
+
+246
+00:14:40,200 --> 00:14:44,200
+There's like a small group of independent people that are trying to conquer the world, as
+
+247
+00:14:44,200 --> 00:14:45,200
+we're all trying to.
+
+248
+00:14:45,200 --> 00:14:46,200
+Sure.
+
+249
+00:14:46,200 --> 00:14:50,200
+And what I really need right now is I still don't have a recording of my own
+
+250
+00:14:50,200 --> 00:14:52,200
+stuff that I'm, you know, fully happy with.
+
+251
+00:14:52,200 --> 00:14:55,200
+So that's the first thing I'm going to do when I go back home.
+
+252
+00:14:55,200 --> 00:14:57,200
+Let's be pretty easy to find people who can know.
+
+253
+00:14:57,200 --> 00:15:00,200
+I mean, these days with, you know, max and pro tools and everything that should be
+
+254
+00:15:00,200 --> 00:15:01,200
+reasonably easy.
+
+255
+00:15:01,200 --> 00:15:03,200
+I mean, this will, this will be something you can enjoy listening to.
+
+256
+00:15:03,200 --> 00:15:06,200
+I don't think it's exactly what you want from a demo.
+
+257
+00:15:06,200 --> 00:15:08,200
+Not quite what you want.
+
+258
+00:15:08,200 --> 00:15:09,200
+Well, with you on it, my hair.
+
+259
+00:15:09,200 --> 00:15:12,200
+Well, do whatever we can.
+
+260
+00:15:12,200 --> 00:15:17,200
+I'd love for you to do a song by request for me, because I heard you do this.
+
+261
+00:15:17,200 --> 00:15:21,200
+Actually, I talked about this on the show a couple of weeks ago.
+
+262
+00:15:21,200 --> 00:15:23,200
+I heard you do this at the, at the art expo.
+
+263
+00:15:23,200 --> 00:15:26,200
+And I was like, oh my god, the first of all, the fact that anyone,
+
+264
+00:15:26,200 --> 00:15:28,200
+under 40 knows this song.
+
+265
+00:15:28,200 --> 00:15:29,200
+Right.
+
+266
+00:15:29,200 --> 00:15:30,200
+Second of all, would play it.
+
+267
+00:15:30,200 --> 00:15:31,200
+I was like, it just blew me away.
+
+268
+00:15:31,200 --> 00:15:32,200
+It's a real mother for you.
+
+269
+00:15:32,200 --> 00:15:34,200
+Johnny Guitar Watson was like, oh, yeah.
+
+270
+00:15:34,200 --> 00:15:38,200
+I mean, if you always had this in your repertoire, pretty much.
+
+271
+00:15:38,200 --> 00:15:41,200
+Johnny Guitar Watson is one of my favorite all-time artists.
+
+272
+00:15:41,200 --> 00:15:42,200
+What happened to him?
+
+273
+00:15:42,200 --> 00:15:43,200
+Is he still alive?
+
+274
+00:15:43,200 --> 00:15:45,200
+I think you had a heart attack in Japan on stage, actually.
+
+275
+00:15:45,200 --> 00:15:46,200
+Really?
+
+276
+00:15:46,200 --> 00:15:47,200
+And he passed away?
+
+277
+00:15:47,200 --> 00:15:48,200
+He died.
+
+278
+00:15:48,200 --> 00:15:49,200
+What a way to go.
+
+279
+00:15:49,200 --> 00:15:50,200
+Mid 90s.
+
+280
+00:15:50,200 --> 00:15:51,200
+Yeah.
+
+281
+00:15:51,200 --> 00:15:52,200
+But it had like sparks coming out of the guitar.
+
+282
+00:15:52,200 --> 00:15:53,200
+That would have been even better.
+
+283
+00:15:53,200 --> 00:15:54,200
+Go down in flames.
+
+284
+00:15:54,200 --> 00:15:55,200
+Yeah.
+
+285
+00:15:55,200 --> 00:15:57,200
+It's either on stage or in bed with a beautiful woman, right?
+
+286
+00:15:57,200 --> 00:15:59,200
+I mean, if you're going to get a heart attack, that's the way to go.
+
+287
+00:15:59,200 --> 00:16:00,200
+Hear that, Mick?
+
+288
+00:16:00,200 --> 00:16:01,200
+Yeah.
+
+289
+00:16:01,200 --> 00:16:03,200
+So who are your heroes?
+
+290
+00:16:03,200 --> 00:16:05,200
+Is Johnny Guitar Watson one of them?
+
+291
+00:16:05,200 --> 00:16:06,200
+Uh, yes.
+
+292
+00:16:06,200 --> 00:16:10,200
+Well, basically, I break my, my musical background down into like three components.
+
+293
+00:16:10,200 --> 00:16:13,200
+Like, there's the stuff I grew up around because my parents had it,
+
+294
+00:16:13,200 --> 00:16:14,200
+owned it or listened to it.
+
+295
+00:16:14,200 --> 00:16:15,200
+Right.
+
+296
+00:16:15,200 --> 00:16:16,200
+Add the same, sure.
+
+297
+00:16:16,200 --> 00:16:17,200
+So that's what was that?
+
+298
+00:16:17,200 --> 00:16:18,200
+What kind of stuff was that?
+
+299
+00:16:18,200 --> 00:16:21,200
+Uh, that's like the late 60s, early 70s rock.
+
+300
+00:16:21,200 --> 00:16:22,200
+Okay.
+
+301
+00:16:22,200 --> 00:16:23,200
+Cool.
+
+302
+00:16:23,200 --> 00:16:24,200
+You see, I grew up with like peppermint twist and crap like that.
+
+303
+00:16:24,200 --> 00:16:26,200
+I know all the 50 songs.
+
+304
+00:16:26,200 --> 00:16:27,200
+No, no.
+
+305
+00:16:27,200 --> 00:16:30,200
+I was like, uh, yeah, I listened to Rolling Stones, Jimmy Hendrix.
+
+306
+00:16:30,200 --> 00:16:31,200
+All right.
+
+307
+00:16:31,200 --> 00:16:32,200
+That kind of stuff.
+
+308
+00:16:32,200 --> 00:16:33,200
+Right.
+
+309
+00:16:33,200 --> 00:16:37,200
+And then, uh, when I was a teenager, I was, I was a big fan of Red Hot Chili
+
+310
+00:16:37,200 --> 00:16:39,200
+Peppers, uh, stuff like that.
+
+311
+00:16:39,200 --> 00:16:40,200
+Funky, funky stuff.
+
+312
+00:16:40,200 --> 00:16:43,200
+And then through the funk I discovered, you know, jazz through players like Marcus
+
+313
+00:16:43,200 --> 00:16:44,200
+Marcus, Marcus, Marcus, Marcus.
+
+314
+00:16:44,200 --> 00:16:45,200
+Sure, sure.
+
+315
+00:16:45,200 --> 00:16:46,200
+Yeah.
+
+316
+00:16:46,200 --> 00:16:47,200
+Yeah.
+
+317
+00:16:47,200 --> 00:16:48,200
+And he mingus?
+
+318
+00:16:48,200 --> 00:16:49,200
+Yeah.
+
+319
+00:16:49,200 --> 00:16:50,200
+Yeah.
+
+320
+00:16:50,200 --> 00:16:51,200
+Yeah.
+
+321
+00:16:51,200 --> 00:16:53,200
+The whole, like, the real series, jazzy jazz stuff.
+
+322
+00:16:53,200 --> 00:16:54,200
+Yes.
+
+323
+00:16:54,200 --> 00:16:55,200
+Okay.
+
+324
+00:16:55,200 --> 00:16:56,200
+Right.
+
+325
+00:16:56,200 --> 00:16:57,200
+I mean, I love it, but I can't do it.
+
+326
+00:16:57,200 --> 00:16:59,200
+So stay away from requires actual talent.
+
+327
+00:16:59,200 --> 00:17:01,200
+And, and a lot of drugs, I think.
+
+328
+00:17:01,200 --> 00:17:03,200
+Those guys must be way high to do that stuff.
+
+329
+00:17:03,200 --> 00:17:04,200
+I think you have to be.
+
+330
+00:17:04,200 --> 00:17:05,200
+Yeah.
+
+331
+00:17:05,200 --> 00:17:06,200
+How about Prince?
+
+332
+00:17:06,200 --> 00:17:07,200
+You're a fan of Prince.
+
+333
+00:17:07,200 --> 00:17:08,200
+Well, a huge fan of Prince.
+
+334
+00:17:08,200 --> 00:17:09,200
+Okay.
+
+335
+00:17:09,200 --> 00:17:10,200
+Yeah.
+
+336
+00:17:10,200 --> 00:17:11,200
+And that guy's amazing.
+
+337
+00:17:11,200 --> 00:17:12,200
+Yeah.
+
+338
+00:17:12,200 --> 00:17:13,200
+Yeah.
+
+339
+00:17:13,200 --> 00:17:14,200
+Yeah.
+
+340
+00:17:14,200 --> 00:17:16,200
+Everybody says you're genius.
+
+341
+00:17:16,200 --> 00:17:17,200
+But he actually is.
+
+342
+00:17:17,200 --> 00:17:18,200
+Yeah.
+
+343
+00:17:18,200 --> 00:17:21,200
+All right.
+
+344
+00:17:49,200 --> 00:17:54,200
+One by a new car.
+
+345
+00:17:54,200 --> 00:17:59,200
+Both the pricing and the right.
+
+346
+00:17:59,200 --> 00:18:01,200
+Be a downside cheaper.
+
+347
+00:18:01,200 --> 00:18:04,200
+Here's the woo.
+
+348
+00:18:04,200 --> 00:18:08,200
+Start right in the bike.
+
+349
+00:18:08,200 --> 00:18:13,200
+The making milk out of powder.
+
+350
+00:18:13,200 --> 00:18:17,200
+Got the biggest crime.
+
+351
+00:18:18,200 --> 00:18:20,200
+The rent's gone up higher.
+
+352
+00:18:20,200 --> 00:18:22,200
+Long, long, long.
+
+353
+00:18:22,200 --> 00:18:24,200
+Got the parents' line.
+
+354
+00:18:24,200 --> 00:18:28,200
+Get to room for the foil.
+
+355
+00:18:28,200 --> 00:18:33,200
+Make you want to run for color.
+
+356
+00:18:33,200 --> 00:18:37,200
+And if you look, you will discover.
+
+357
+00:18:37,200 --> 00:18:40,200
+Get to room for the foil.
+
+358
+00:18:41,200 --> 00:18:55,200
+Get to room for the foil.
+
+359
+00:18:55,200 --> 00:18:59,200
+Got to go to a disco.
+
+360
+00:18:59,200 --> 00:19:04,200
+And throw your troubles away.
+
+361
+00:19:04,200 --> 00:19:08,200
+Got to dance, dance to the music and baby.
+
+362
+00:19:08,200 --> 00:19:13,200
+That's a DJ play.
+
+363
+00:19:13,200 --> 00:19:17,200
+But then the lights come on, alone.
+
+364
+00:19:17,200 --> 00:19:19,200
+Just like a new day would.
+
+365
+00:19:19,200 --> 00:19:22,200
+Like a new day would.
+
+366
+00:19:22,200 --> 00:19:26,200
+You go home, face the music.
+
+367
+00:19:26,200 --> 00:19:31,200
+But don't sound too good, no.
+
+368
+00:19:31,200 --> 00:19:36,200
+Get to room for the foil.
+
+369
+00:19:36,200 --> 00:19:40,200
+Make you want to run for color.
+
+370
+00:19:40,200 --> 00:19:45,200
+And if you look, you will discover.
+
+371
+00:19:45,200 --> 00:19:49,200
+Get to room for the foil.
+
+372
+00:20:01,200 --> 00:20:11,200
+Get to room for the foil.
+
+373
+00:20:11,200 --> 00:20:16,200
+Make you want to run for color.
+
+374
+00:20:16,200 --> 00:20:21,200
+And if you look, you will discover.
+
+375
+00:20:21,200 --> 00:20:25,200
+Get to room for the foil.
+
+376
+00:20:25,200 --> 00:20:30,200
+Get to room for the foil.
+
+377
+00:20:30,200 --> 00:20:35,200
+Get to room for the foil.
+
+378
+00:20:35,200 --> 00:20:44,200
+Get to room for the foil.
+
+379
+00:20:44,200 --> 00:20:45,200
+Oh man.
+
+380
+00:20:45,200 --> 00:20:47,200
+You got to let your own percussion.
+
+381
+00:20:47,200 --> 00:20:48,200
+Everything going on there.
+
+382
+00:20:48,200 --> 00:20:49,200
+The same time is great.
+
+383
+00:20:49,200 --> 00:20:50,200
+It was tricky.
+
+384
+00:20:50,200 --> 00:20:55,200
+And do you consider yourself more a guitarist play a singer or a combo?
+
+385
+00:20:56,200 --> 00:21:01,200
+Generally, I try to stay away from the whole singer songwriter thing, which is technically what I am.
+
+386
+00:21:01,200 --> 00:21:03,200
+People kind of turn that into a genre.
+
+387
+00:21:03,200 --> 00:21:04,200
+Yeah, like jewel.
+
+388
+00:21:04,200 --> 00:21:07,200
+Right, even though it's more of a job description.
+
+389
+00:21:07,200 --> 00:21:09,200
+Technically, Jimmy Hendrix was a singer songwriter.
+
+390
+00:21:09,200 --> 00:21:10,200
+Oh, hell yeah.
+
+391
+00:21:10,200 --> 00:21:11,200
+No, I see.
+
+392
+00:21:11,200 --> 00:21:13,200
+I'm a guitarist singer singer.
+
+393
+00:21:13,200 --> 00:21:14,200
+Yeah.
+
+394
+00:21:14,200 --> 00:21:16,200
+You got to look though, man.
+
+395
+00:21:16,200 --> 00:21:20,200
+I think you know, you do something with like, I don't know.
+
+396
+00:21:20,200 --> 00:21:22,200
+What do you wear on stage?
+
+397
+00:21:23,200 --> 00:21:25,200
+Jeans and shirts.
+
+398
+00:21:25,200 --> 00:21:28,200
+Girls, we need to give this guy a look.
+
+399
+00:21:28,200 --> 00:21:31,200
+Yeah, you got it in you know, you really do.
+
+400
+00:21:31,200 --> 00:21:32,200
+Thank you.
+
+401
+00:21:32,200 --> 00:21:35,200
+People usually say, I'm like, like Michael McDonald meets Eric Laptant type of thing.
+
+402
+00:21:35,200 --> 00:21:36,200
+I don't know.
+
+403
+00:21:36,200 --> 00:21:38,200
+Yeah, I can't see where that comes from.
+
+404
+00:21:38,200 --> 00:21:39,200
+Yeah.
+
+405
+00:21:39,200 --> 00:21:40,200
+Yeah.
+
+406
+00:21:40,200 --> 00:21:41,200
+I'm not old.
+
+407
+00:21:41,200 --> 00:21:42,200
+No.
+
+408
+00:21:42,200 --> 00:21:43,200
+You're saying I don't know the compliment.
+
+409
+00:21:43,200 --> 00:21:45,200
+I'd love to hear some more of your own stuff.
+
+410
+00:21:45,200 --> 00:21:46,200
+Sure, sure.
+
+411
+00:21:46,200 --> 00:21:47,200
+Yeah.
+
+412
+00:21:47,200 --> 00:21:49,200
+Go ahead and have some water there.
+
+413
+00:21:53,200 --> 00:21:56,200
+Can I get some background vocals on this?
+
+414
+00:22:01,200 --> 00:22:04,200
+No, because because my sister's there, she knows the song.
+
+415
+00:22:04,200 --> 00:22:05,200
+But I can't say.
+
+416
+00:22:05,200 --> 00:22:07,200
+Doesn't matter.
+
+417
+00:22:07,200 --> 00:22:11,200
+This is a, this is a song called, called You Should Be Here With Me.
+
+418
+00:22:11,200 --> 00:22:12,200
+And it does.
+
+419
+00:22:15,200 --> 00:22:16,200
+I don't care.
+
+420
+00:22:16,200 --> 00:22:18,200
+I don't care.
+
+421
+00:22:18,200 --> 00:22:20,200
+All right.
+
+422
+00:22:20,200 --> 00:22:21,200
+All right.
+
+423
+00:22:21,200 --> 00:22:23,200
+We're getting the whole family involved now.
+
+424
+00:22:23,200 --> 00:22:24,200
+Exactly.
+
+425
+00:22:26,200 --> 00:22:29,200
+So if you just stand in behind me, but that'll be great.
+
+426
+00:22:29,200 --> 00:22:31,200
+No, a little closer.
+
+427
+00:22:31,200 --> 00:22:33,200
+We're going to be able to hear it.
+
+428
+00:22:33,200 --> 00:22:34,200
+All right.
+
+429
+00:22:34,200 --> 00:22:35,200
+Well, it's, it's real simple.
+
+430
+00:22:35,200 --> 00:22:38,200
+All you have to do is sing along with me on the courses.
+
+431
+00:22:38,200 --> 00:22:39,200
+You should be here with me.
+
+432
+00:22:39,200 --> 00:22:40,200
+You know that song.
+
+433
+00:22:40,200 --> 00:22:43,200
+Yeah, because this, this is the, the audience participation
+
+434
+00:22:43,200 --> 00:22:44,200
+Proclamation song.
+
+435
+00:22:44,200 --> 00:22:45,200
+Yeah.
+
+436
+00:22:45,200 --> 00:22:46,200
+Doesn't work without.
+
+437
+00:22:46,200 --> 00:22:48,200
+All right.
+
+438
+00:22:48,200 --> 00:22:49,200
+So here we go.
+
+439
+00:22:49,200 --> 00:22:50,200
+Here we go.
+
+440
+00:22:50,200 --> 00:23:12,200
+I'm not sure if I remember
+
+441
+00:23:12,200 --> 00:23:19,200
+Your pants are all your face
+
+442
+00:23:19,200 --> 00:23:28,200
+But I'm positive that no one could ever come and take your place
+
+443
+00:23:28,200 --> 00:23:33,200
+I know you never meant to leave me stranded
+
+444
+00:23:33,200 --> 00:23:38,200
+You never planned to leave so soon
+
+445
+00:23:39,200 --> 00:23:44,200
+But I still sit around and picture
+
+446
+00:23:44,200 --> 00:23:48,200
+How you walk back into the room
+
+447
+00:23:48,200 --> 00:23:53,200
+People always talk about us
+
+448
+00:23:53,200 --> 00:23:57,200
+Saying I would could have been so tight
+
+449
+00:23:57,200 --> 00:24:01,200
+The million words would never fix this no
+
+450
+00:24:01,200 --> 00:24:07,200
+Because whatever they say, I still need you here tonight
+
+451
+00:24:08,200 --> 00:24:16,200
+You should be here with me
+
+452
+00:24:16,200 --> 00:24:23,200
+You should be here with me
+
+453
+00:24:23,200 --> 00:24:27,200
+Not alone
+
+454
+00:24:27,200 --> 00:24:32,200
+Little little only came and showed me
+
+455
+00:24:32,200 --> 00:24:37,200
+Just what a man's supposed to be
+
+456
+00:24:37,200 --> 00:24:42,200
+And though you're on my started crackin
+
+457
+00:24:42,200 --> 00:24:46,200
+It still looks pretty good to me
+
+458
+00:24:46,200 --> 00:24:51,200
+I know you never meant to leave me stranded
+
+459
+00:24:51,200 --> 00:24:55,200
+You never planned to leave so soon
+
+460
+00:24:55,200 --> 00:25:00,200
+But I still sit around and picture
+
+461
+00:25:00,200 --> 00:25:05,200
+How you walk back into the room
+
+462
+00:25:05,200 --> 00:25:09,200
+People always talk about us
+
+463
+00:25:09,200 --> 00:25:14,200
+Saying I would could have been so tight
+
+464
+00:25:14,200 --> 00:25:18,200
+The million words would never fix this no
+
+465
+00:25:18,200 --> 00:25:24,200
+Whatever they say, I still need you here tonight
+
+466
+00:25:24,200 --> 00:25:29,200
+Because you should be
+
+467
+00:25:29,200 --> 00:25:34,200
+Here with me
+
+468
+00:25:34,200 --> 00:25:40,200
+You should be here with me
+
+469
+00:25:40,200 --> 00:25:42,200
+Where could I want to?
+
+470
+00:25:42,200 --> 00:25:51,200
+You should be here with me
+
+471
+00:25:51,200 --> 00:25:57,200
+You should be here with me
+
+472
+00:25:57,200 --> 00:26:05,200
+You should be here with me
+
+473
+00:26:05,200 --> 00:26:10,200
+You should be here with me
+
+474
+00:26:10,200 --> 00:26:22,200
+You should be here with me
+
+475
+00:26:22,200 --> 00:26:27,200
+You should be here with me
+
+476
+00:26:27,200 --> 00:26:32,200
+You should be here with me
+
+477
+00:26:32,200 --> 00:26:35,200
+You should be here with me
+
+478
+00:26:35,200 --> 00:26:38,200
+You should be here with me
+
+479
+00:26:38,200 --> 00:26:42,200
+You should be here with me
+
+480
+00:26:42,200 --> 00:26:47,200
+You should be here with me
+
+481
+00:26:47,200 --> 00:26:50,200
+You should be here with me
+
+482
+00:26:50,200 --> 00:26:55,200
+You should be here with me
+
+483
+00:26:55,200 --> 00:26:57,200
+You should be here with me
+
+484
+00:26:57,200 --> 00:27:00,200
+You should be here with me
+
+485
+00:27:00,200 --> 00:27:04,200
+You should be here with me
+
+486
+00:27:04,200 --> 00:27:06,200
+You should be here with me
+
+487
+00:27:06,200 --> 00:27:10,200
+You should be here with me
+
+488
+00:27:10,200 --> 00:27:15,200
+You should be here with me
+
+489
+00:27:15,200 --> 00:27:19,200
+You should be here with me
+
+490
+00:27:19,200 --> 00:27:24,200
+You should be here with me
+
+491
+00:27:24,200 --> 00:27:28,200
+You should be here with me
+
+492
+00:27:28,200 --> 00:27:47,200
+You should be here with me
+
+493
+00:27:47,200 --> 00:28:13,200
+Oh, the love is real, when we touch I can't deny it, I listen with my skin, and that's when I begin to understand it.
+
+494
+00:28:13,200 --> 00:28:40,200
+Your hands speak so true, mine could never reach for others, they would just reveal, a love that can't be real, because I love you.
+
+495
+00:28:40,200 --> 00:28:51,200
+I need your touch so bad, only your hands can't reveal, I feel without you.
+
+496
+00:28:51,200 --> 00:29:03,200
+Then I look for you as real, when you're gone, I ache baby, because I need you close to me, when I run and hide.
+
+497
+00:29:03,200 --> 00:29:29,200
+I need your touch so bad, only your hands can't reveal.
+
+498
+00:29:29,200 --> 00:29:53,200
+I know that love is real, when we touch I can't deny it, I listen with my skin, and that's when I begin to understand it.
+
+499
+00:29:53,200 --> 00:30:17,200
+When I am far away, and wake up to another dark day, you touch me and I know that I love you so, though I might not show it.
+
+500
+00:30:17,200 --> 00:30:27,200
+I need your touch so bad, only your hands can't reveal, I feel without you.
+
+501
+00:30:27,200 --> 00:30:36,200
+Then I look for you as real, when you're gone, I ache baby, because I need you close to me.
+
+502
+00:30:36,200 --> 00:30:54,200
+When I run and hide, need your touch so bad, only your hands can reveal.
+
+503
+00:30:54,200 --> 00:31:11,200
+I'm sitting here, I'm listening with my eyes closed, I can't place your voice, it's really unique, and this is going to sound really weird, but the closest, does anyone ever compare you to anybody, they say you sound like,
+
+504
+00:31:11,200 --> 00:31:21,200
+everyone hates when you do that.
+
+505
+00:31:21,200 --> 00:31:31,200
+When they hear you do stuff, they want to give you compliments, so they like or know, so I usually get, oh, yeah, you have a beard and long hair and a guitar, so you're Eric Clapton,
+
+506
+00:31:31,200 --> 00:31:37,200
+you know you're John Legend, you know you're Michael McDonald, I get those are few names.
+
+507
+00:31:37,200 --> 00:31:47,200
+First of all, John Legend is our neighbor here, and he better watch his house, you'll be moving in, but I have to say a white Stevie Wonder.
+
+508
+00:31:47,200 --> 00:31:55,200
+I had my eyes closed, and it's meant as a compliment, obviously who can be Stevie Wonder, but you've got something,
+
+509
+00:31:55,200 --> 00:32:03,200
+and by the way, it was a beautiful, beautiful chord jazz, that's really, really nice stuff. Do you place Stevie Wonder, do you do any of his stuff?
+
+510
+00:32:03,200 --> 00:32:08,200
+I, yeah. I'm going to put you on the spot or anything.
+
+511
+00:32:08,200 --> 00:32:12,200
+Actually, I used to do superstition.
+
+512
+00:32:12,200 --> 00:32:17,200
+That's really tricky with that percussion, but maybe some handclaps, we can make it happen.
+
+513
+00:32:17,200 --> 00:32:20,200
+How about some cowbell? How about some cowbell?
+
+514
+00:32:20,200 --> 00:32:24,200
+Are you going to glue me into where we do the cowbell, no?
+
+515
+00:32:30,200 --> 00:32:35,200
+Very superstitions.
+
+516
+00:32:35,200 --> 00:32:39,200
+Riding's on the wall.
+
+517
+00:32:39,200 --> 00:32:44,200
+Very superstitions.
+
+518
+00:32:44,200 --> 00:32:48,200
+Letters bound to fall.
+
+519
+00:32:48,200 --> 00:32:52,200
+13 months old baby.
+
+520
+00:32:52,200 --> 00:32:56,200
+Broken looking glass.
+
+521
+00:32:56,200 --> 00:33:01,200
+30 years of bed look.
+
+522
+00:33:01,200 --> 00:33:06,200
+Good things in your past.
+
+523
+00:33:06,200 --> 00:33:14,200
+When you believe in things that you don't understand, you will suffer.
+
+524
+00:33:15,200 --> 00:33:19,200
+Superstition in the way.
+
+525
+00:33:19,200 --> 00:33:24,200
+Hit, hit, hit me.
+
+526
+00:33:24,200 --> 00:33:29,200
+Very superstitions.
+
+527
+00:33:29,200 --> 00:33:33,200
+Wash your face and hands.
+
+528
+00:33:33,200 --> 00:33:37,200
+Read me over the problem.
+
+529
+00:33:37,200 --> 00:33:42,200
+Do all that you can.
+
+530
+00:33:42,200 --> 00:33:46,200
+Keep me in the dead dream.
+
+531
+00:33:46,200 --> 00:33:51,200
+Keep me going strong.
+
+532
+00:33:51,200 --> 00:33:55,200
+You don't want to say me.
+
+533
+00:33:55,200 --> 00:34:00,200
+Sad is my song.
+
+534
+00:34:00,200 --> 00:34:08,200
+When you believe in things that you don't understand, you will suffer.
+
+535
+00:34:09,200 --> 00:34:12,200
+Superstition in the way.
+
+536
+00:34:12,200 --> 00:34:35,200
+Very superstitions.
+
+537
+00:34:35,200 --> 00:34:40,200
+Very superstitions.
+
+538
+00:34:40,200 --> 00:34:45,200
+Nothing more to say.
+
+539
+00:34:45,200 --> 00:34:49,200
+Very superstitions.
+
+540
+00:34:49,200 --> 00:34:53,200
+The devil's on his way.
+
+541
+00:34:53,200 --> 00:34:58,200
+13 months old baby.
+
+542
+00:34:58,200 --> 00:35:02,200
+Broken looking glass.
+
+543
+00:35:03,200 --> 00:35:06,200
+7 years of bed look.
+
+544
+00:35:06,200 --> 00:35:11,200
+Good things in your past.
+
+545
+00:35:11,200 --> 00:35:20,200
+When you believe in things that you don't understand, you will suffer.
+
+546
+00:35:20,200 --> 00:35:26,200
+Superstition in the way.
+
+547
+00:35:33,200 --> 00:35:38,200
+I'm sorry.
+
+548
+00:35:38,200 --> 00:35:45,200
+I'm trying to listen to the strings of the guitar.
+
+549
+00:35:45,200 --> 00:35:50,200
+Now you know why I play the records, not make them.
+
+550
+00:35:50,200 --> 00:35:56,200
+Do you want to do one more just to play his home, your favorite song?
+
+551
+00:35:57,200 --> 00:36:11,200
+One of my favorite songs has to be Marvin Gaseong.
+
+552
+00:36:11,200 --> 00:36:21,200
+Baby, baby.
+
+553
+00:36:41,200 --> 00:36:53,200
+Oh, I bet you wanted how I knew about your plans to make me bloom.
+
+554
+00:36:53,200 --> 00:36:57,200
+With so much God that you're new before.
+
+555
+00:36:57,200 --> 00:37:01,200
+Dreaming to us, guys, you know I love you more.
+
+556
+00:37:01,200 --> 00:37:06,200
+You took me by surprise, I'm gonna say.
+
+557
+00:37:06,200 --> 00:37:10,200
+When I found out yesterday,
+
+558
+00:37:10,200 --> 00:37:15,200
+Don't you know that I heard it through the grapevine.
+
+559
+00:37:15,200 --> 00:37:19,200
+No much longer would you be mine.
+
+560
+00:37:19,200 --> 00:37:23,200
+Said I heard through the grapevine.
+
+561
+00:37:23,200 --> 00:37:27,200
+And I'm just about to lose my mind.
+
+562
+00:37:27,200 --> 00:37:36,200
+How they hung it, yeah.
+
+563
+00:37:36,200 --> 00:37:41,200
+Now I know the man that's supposed to cry,
+
+564
+00:37:41,200 --> 00:37:45,200
+But these tears I can't hold inside.
+
+565
+00:37:45,200 --> 00:37:49,200
+I'm losing you when in my life you see.
+
+566
+00:37:49,200 --> 00:37:54,200
+Because you mean that much to me.
+
+567
+00:37:54,200 --> 00:37:58,200
+And you could have told me yourself.
+
+568
+00:37:58,200 --> 00:38:02,200
+That you loved someone else.
+
+569
+00:38:02,200 --> 00:38:07,200
+Instead, I heard through the grapevine.
+
+570
+00:38:07,200 --> 00:38:11,200
+No much longer would you be mine.
+
+571
+00:38:11,200 --> 00:38:15,200
+Said I heard through the grapevine.
+
+572
+00:38:15,200 --> 00:38:19,200
+And I'm just about to lose my mind.
+
+573
+00:38:19,200 --> 00:38:26,200
+How they hung it, yeah.
+
+574
+00:38:32,200 --> 00:38:37,200
+Now I know the man that's supposed to cry,
+
+575
+00:38:37,200 --> 00:38:42,200
+But these tears I can't hold inside.
+
+576
+00:38:42,200 --> 00:38:47,200
+I'm just about to lose my mind.
+
+577
+00:38:47,200 --> 00:38:52,200
+And I'm just about to lose my mind.
+
+578
+00:38:52,200 --> 00:38:57,200
+And I'm just about to lose my mind.
+
+579
+00:38:57,200 --> 00:39:15,200
+People say they leave half of what you see.
+
+580
+00:39:15,200 --> 00:39:19,200
+You're son and none of what you hear.
+
+581
+00:39:19,200 --> 00:39:24,200
+But I can't help but be confused.
+
+582
+00:39:24,200 --> 00:39:28,200
+If it's true, won't you tell me, dear?
+
+583
+00:39:28,200 --> 00:39:32,200
+When you play and let me go.
+
+584
+00:39:32,200 --> 00:39:36,200
+Follow the guy that you loved before.
+
+585
+00:39:36,200 --> 00:39:41,200
+Don't you know that I heard through the grapevine.
+
+586
+00:39:41,200 --> 00:39:45,200
+No much longer would you be mine.
+
+587
+00:39:45,200 --> 00:39:49,200
+Said I heard through the grapevine.
+
+588
+00:39:49,200 --> 00:39:53,200
+And I'm just about to lose my mind.
+
+589
+00:39:53,200 --> 00:40:02,200
+How they hung it, yeah.
+
+590
+00:40:02,200 --> 00:40:11,200
+How they hung it, I know that you let me go.
+
+591
+00:40:11,200 --> 00:40:15,200
+Cause I heard it in the grapevine.
+
+592
+00:40:15,200 --> 00:40:20,200
+Said I heard through the grapevine.
+
+593
+00:40:20,200 --> 00:40:24,200
+Said I heard through the grapevine.
+
+594
+00:40:24,200 --> 00:40:37,200
+Said I heard it through the grapevine.
+
+595
+00:40:37,200 --> 00:40:39,200
+All right, that's beautiful, man.
+
+596
+00:40:39,200 --> 00:40:40,200
+That's great.
+
+597
+00:40:40,200 --> 00:40:41,200
+Thank you.
+
+598
+00:40:41,200 --> 00:40:42,200
+So I think I figured it out.
+
+599
+00:40:42,200 --> 00:40:45,200
+I think it should be, I think you keep the Birkenboss.
+
+600
+00:40:45,200 --> 00:40:46,200
+Just keep it like Birkenboss.
+
+601
+00:40:46,200 --> 00:40:48,200
+Not Bosch because they can't figure that out here.
+
+602
+00:40:48,200 --> 00:40:50,200
+And they say, but you just gotta be John.
+
+603
+00:40:50,200 --> 00:40:51,200
+Just John Birkenboss.
+
+604
+00:40:51,200 --> 00:40:52,200
+I mean, it sounds good.
+
+605
+00:40:52,200 --> 00:40:56,200
+You know, it sounds like like you've got some years under your belt.
+
+606
+00:40:56,200 --> 00:40:59,200
+You know, you've been around the Mississippi Delta.
+
+607
+00:40:59,200 --> 00:41:00,200
+All right.
+
+608
+00:41:00,200 --> 00:41:01,200
+I'm like that.
+
+609
+00:41:01,200 --> 00:41:03,200
+I'm just saying you see that wall there.
+
+610
+00:41:03,200 --> 00:41:04,200
+And this wall, this brick wall.
+
+611
+00:41:04,200 --> 00:41:05,200
+Yeah.
+
+612
+00:41:05,200 --> 00:41:09,200
+So we got aerosmith, platinum CDs, Michael Jackson, platinum CDs.
+
+613
+00:41:09,200 --> 00:41:12,200
+Next time you come back, we'll have the John Birkenboss CDs there.
+
+614
+00:41:12,200 --> 00:41:13,200
+That's a deal.
+
+615
+00:41:13,200 --> 00:41:14,200
+Yeah.
+
+616
+00:41:14,200 --> 00:41:16,200
+I mean, really appreciate it.
+
+617
+00:41:16,200 --> 00:41:18,200
+It's very cool for you to stop by and do this for us.
+
+618
+00:41:18,200 --> 00:41:19,200
+No, thank you so much.
+
+619
+00:41:19,200 --> 00:41:20,200
+Yeah, you welcome.
+
+620
+00:41:20,200 --> 00:41:21,200
+Anytime come back.
+
+621
+00:41:21,200 --> 00:41:22,200
+And anything we can do for you.
+
+622
+00:41:22,200 --> 00:41:24,200
+Maybe people will be reaching out to who heard the show.
+
+623
+00:41:24,200 --> 00:41:25,200
+Where can they reach in?
+
+624
+00:41:25,200 --> 00:41:26,200
+Do you have email address?
+
+625
+00:41:26,200 --> 00:41:27,200
+Uh, yes.
+
+626
+00:41:27,200 --> 00:41:30,200
+The easiest thing to do would be Google my name, which is J-O-E-P.
+
+627
+00:41:30,200 --> 00:41:31,200
+Yep.
+
+628
+00:41:31,200 --> 00:41:34,200
+B-E-R-K-E-N-B-O-S-E-H.
+
+629
+00:41:34,200 --> 00:41:35,200
+And I got a dot com.
+
+630
+00:41:35,200 --> 00:41:36,200
+I'm on my space.
+
+631
+00:41:36,200 --> 00:41:37,200
+I'm on Facebook.
+
+632
+00:41:38,200 --> 00:41:40,200
+All right, I'll put some links in the show notes as well.
+
+633
+00:41:40,200 --> 00:41:41,200
+DailySourceco.com.
+
+634
+00:41:41,200 --> 00:41:42,200
+Some people can find you.
+
+635
+00:41:42,200 --> 00:41:43,200
+All right.
+
+636
+00:41:43,200 --> 00:41:44,200
+The great you back and bust everybody.
+
+637
+00:41:44,200 --> 00:41:45,200
+Yay.
+
+638
+00:41:45,200 --> 00:41:46,200
+Thank you.
+
