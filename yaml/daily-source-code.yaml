@@ -155,7 +155,7 @@ rss:
     - tag: explicit
       namespace: itunes
       text: True
-    
+
     - tag: complete
       namespace: itunes
       text: False
@@ -191,6 +191,10 @@ rss:
     - tag: medium
       namespace: podcast
       text: podcast
+
+    - tag: explicit
+      namespace: podcast
+      text: True
 
     - tag: locked
       namespace: podcast
