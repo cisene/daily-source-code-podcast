@@ -5,96 +5,257 @@ feed:
     version: 2
     namespaces:
       atom: "http://www.w3.org/2005/Atom"
+      podcast: "https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md"
       itunes: "http://www.itunes.com/dtds/podcast-1.0.dtd"
       media: "http://search.yahoo.com/mrss/"
-      podcast: "https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md"
+      content: "http://purl.org/rss/1.0/modules/content/"
+      #wfw: "http://wellformedweb.org/CommentAPI/"
+      dc: "http://purl.org/dc/elements/1.1/"
+
 
 # Tagline: Where developers and users party together.
 
-channel:
-  # Atom namespace
-  atom:
-    link:
-      href: https://dailysourcecode.com/rss
-      rel: self
-      type: application/rss+xml
-      title: Adam Curry's Daily Source Code Podcast
-    id:
-      content: dfbbeceb-eade-5c61-9fcd-130f3661e347
-    title:
-      type: text
-      content: Daily Source Code
-    summary:
-      type: text
-      content: Adam Curry's Daily Source Code Podcast
-    author:
-      type: complex
-      name:
-        content: Adam Curry
-      uri:
-        content: https://curry.com/
-      email:
-        content: adam@curry.com
+rss:
+  channel:
+    tags:
 
-  title: Daily Source Code
-  description: Adam Curry's Daily Source Code Podcast
-  link: http://curry.com/
-  docs: http://blogs.law.harvard.edu/tech/rss
-  category: News & Politics
-  language: en-us
-  copyright: "Creative Commons Attribution-Noncommercial-ShareAlike 3.0: http://creativecommons.org/licenses/by-nc-sa/3.0/us/"
-  managingEditor: adam@curry.com (Adam Curry)
-  webMaster: adam@curry.com (Adam Curry)
-  image:
-    url: https://dailysourcecode.com/feed.png
-    link: http://dailysourcecode.com/
-    title: Daily Source Code
-    description: Adam Curry's Daily Source Code Podcast
-    width: 144
-    height: 144
+    - tag: link
+      namespace: atom
+      attributes:
+        rel: self
+        type: application/rss+xml
+        href: https://dailysourcecode.com/rss
+        title: Adam Curry's Daily Source Code Podcast
 
-  # Itunes namespace
-  itunes:
-    summary: Adam Curry's Daily Source Code Podcast
-    owner:
-      name: Adam Curry
-      email: adam@curry.com
-    author: Adam Curry
-    category:
-      - News & Politics
-      - Comedy
-    explicit: Yes
-    complete: no
-    type: serial
-    series_name: Daily Source Code
-    keywords: dsc,adam,delta,sierra,charlie
-    image: https://dailysourcecode.com/feed.png
+    - tag: title
+      namespace: dc
+      text: Adam Curry's Daily Source Code Podcast
 
-  # Podcast namespace
-  podcast:
-    complete: no
-    medium: podcast
-    locked:
-      locked: yes
-      owner: adam@curry.com
-    guid: dfbbeceb-eade-5c61-9fcd-130f3661e347
-    images:
-      srcset: null
-    block:
-      - name: global
-        status: no
-      - name: spotify
-        status: yes
-      - name: facebook
-        status: yes
-      - name: threads
-        status: yes
-      - name: fediverse
-        status: no
-      - name: bluesky
-        status: yes
+    - tag: language
+      namespace: dc
+      text: English
+
+    - tag: creator
+      namespace: dc
+      text: Adam Curry
+
+    - tag: author
+      namespace: dc
+      text: Adam Curry
+
+    - tag: publisher
+      namespace: dc
+      text: Adam Curry
+
+    - tag: date
+      namespace: dc
+      text: 2004-08-13
+
+    - tag: dateDigital
+      namespace: dc
+      text: 2004-08-13
+
+    - tag: docs
+      text: https://blogs.law.harvard.edu/tech/rss
+
+    - tag: link
+      text: http://curry.com/
+
+    - tag: title
+      text: Adam Curry's Daily Source Code Podcast
+
+    - tag: description
+      text: Adam Curry's Daily Source Code Podcast
+
+    - tag: category
+      text: News & Politics
+
+    - tag: language
+      text: en-us
+
+    - tag: copyright
+      text: "Creative Commons Attribution-Noncommercial-ShareAlike 3.0: http://creativecommons.org/licenses/by-nc-sa/3.0/us/"
+
+    - tag: managingEditor
+      text: adam@curry.com (Adam Curry)
+
+    - tag: webMaster
+      text: adam@curry.com (Adam Curry)
+
+    - tag: ttl
+      text: 60
+
+    - tag: image
+      tags:
+      
+      - tag: url
+        text: https://dailysourcecode.com/feed.png
+    
+      - tag: link
+        text: http://dailysourcecode.com/
+
+      - tag: title
+        text: Adam Curry's Daily Source Code Podcast
+
+      - tag: description
+        text: Adam Curry's Daily Source Code Podcast
+    
+      - tag: width
+        text: 144
+    
+      - tag: height
+        text: 144
+  
+    - tag: pubDate
+      text: 2004-08-13
+  
+    - tag: lastBuildDate
+      text: __NOW__
+
+    - tag: new-feed-url
+      namespace: itunes
+      text: https://dailysourcecode.com/rss
+
+    - tag: block
+      namespace: itunes
+      text: True
+
+    - tag: summary
+      namespace: itunes
+      text: Adam Curry's Daily Source Code Podcast
+
+    - tag: owner
+      namespace: itunes
+      tags:
+      
+      - tag: name
+        namespace: itunes
+        text: Adam Curry
+      
+      - tag: email
+        namespace: itunes
+        text: adam@curry.com
+    
+    - tag: author
+      namespace: itunes
+      text: Adam Curry
+    
+    - tag: category
+      namespace: itunes
+      tags:
+      
+      - tag: category
+        namespace: itunes
+        text: News & Politics
+
+      - tag: category
+        namespace: itunes
+        text: Comedy
+
+    - tag: explicit
+      namespace: itunes
+      text: True
+    
+    - tag: complete
+      namespace: itunes
+      text: False
+
+    - tag: type
+      namespace: itunes
+      text: serial
+
+    - tag: series_name
+      namespace: itunes
+      text: Daily Source Code
+
+    - tag: keywords
+      namespace: itunes
+      text: dsc,adam,delta,sierra,charlie
+
+    - tag: image
+      namespace: itunes
+      text: https://dailysourcecode.com/feed.png
+
+    - tag: guid
+      namespace: podcast
+      text: dfbbeceb-eade-5c61-9fcd-130f3661e347
+
+    - tag: summary
+      namespace: podcast
+      text: Adam Curry's Daily Source Code Podcast
+
+    - tag: complete
+      namespace: podcast
+      text: False
+    
+    - tag: medium
+      namespace: podcast
+      text: podcast
+
+    - tag: locked
+      namespace: podcast
+      attributes:
+        owner: adam@curry.com
+      text: True
+
+    - tag: images
+      namespace: podcast
+      tags:
+
+      - tag: srcset
+        namespace: podcast
+        text: https://dailysourcecode.com/feed.png
+
+    - tag: block
+      namespace: podcast
+      tags:
+
+      - tag: block
+        namespace: podcast
+        attributes:
+          id: global
+        text: False
+
+      - tag: block
+        namespace: podcast
+        attributes:
+          id: spotify
+        text: True
+
+      - tag: block
+        namespace: podcast
+        attributes:
+          id: facebook
+        text: True
+
+      - tag: block
+        namespace: podcast
+        attributes:
+          id: spotify
+        text: True
+
+      - tag: block
+        namespace: podcast
+        attributes:
+          id: threads
+        text: True
+
+      - tag: block
+        namespace: podcast
+        attributes:
+          id: fediverse
+        text: False
+
+      - tag: block
+        namespace: podcast
+        attributes:
+          id: bluesky
+        text: True
 
 # List is reversed when rendered
 episodes:
 - 001.yaml
 - 002.yaml
+- 003.yaml
+- 004.yaml
+- 005.yaml
