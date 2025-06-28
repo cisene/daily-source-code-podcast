@@ -18,15 +18,26 @@ ITEMS_PATH = '../yaml/episodes/'
 
 RSS_PATH = '../daily-source-code.rss'
 
-APPLICATION_NAME = 'EpilectricalSquirrel'
+APPLICATION_NAME = 'MirrorBallLawnmower'
 APPLICATION_VERSION = '0.1'
 
 
 def writeRSS(filepath, contents):
-  pass
+  s = "\n".join(contents) + "\n"
+  with open(filepath, "w") as f:
+    f.write(contents)
+
 
 def writeYAML(filepath, contents):
   pass
+
+def truefalseTOyesno(booleanvalue):
+  if booleanvalue == True:
+    result = "Yes"
+  else:
+    result = "No"
+
+  return result
 
 
 def readYAML(filepath):
@@ -71,217 +82,205 @@ def main():
   # Open Channel
   channel = etree.SubElement(rss, "channel")
 
-  # Iterate Atom
-  for at in main_config['channel']['atom']:
-    tag_ns = f"{main_config['feed']['xml']['namespaces']['atom']}"
-    tag_name = "".join(["{", f"{tag_ns}", "}", f"{at}"])
-    tag_attribs = main_config['channel']['atom'][at]
+  for tag in main_config['rss']['channel']['tags']:
+    tag_tagname = None
+    tag_namespace = None
+    tag_text = None
+    tag_ns = None
+    tag_elem = None
 
-    elem = etree.Element(tag_name, nsmap = nsmap)
-    for attr in main_config['channel']['atom'][at]:
-      elem.set(attr, main_config['channel']['atom'][at][attr])
-      channel.append(elem)
+    tag_tagname = tag['tag']
 
-  # Title element
-  sube = etree.SubElement(channel, "title")
-  sube.text = main_config['channel']['title']
+    if "namespace" in tag:
+      tag_namespace = tag['namespace']
 
-  # Description element
-  sube = etree.SubElement(channel, "description")
-  sube.text = main_config['channel']['description']
+      if tag_namespace == "atom":
+        tag_ns = main_config['feed']['xml']['namespaces']['atom']
 
-  # Link element
-  sube = etree.SubElement(channel, "link")
-  sube.text = main_config['channel']['link']
+      if tag_namespace == "dc":
+        tag_ns = main_config['feed']['xml']['namespaces']['dc']
 
-  # Generator element
-  sube = etree.SubElement(channel, "generator")
-  sube.text = f"{APPLICATION_NAME}/{APPLICATION_VERSION}"
+      if tag_namespace == "itunes":
+        tag_ns = main_config['feed']['xml']['namespaces']['itunes']
 
-  # pubDate element
-  sube = etree.SubElement(channel, "pubDate")
-  sube.text = "Fri, 13 Aug 2004 21:36:44 +0000"
+      if tag_namespace == "podcast":
+        tag_ns = main_config['feed']['xml']['namespaces']['podcast']
 
-  # LastBuildDate element
-  sube = etree.SubElement(channel, "lastBuildDate")
-  sube.text = "now()"
+    if tag_ns != None:
+      tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
+    else:
+      tag_elem = "".join([f"{tag_tagname}"])
 
-  # Docs element
-  sube = etree.SubElement(channel, "docs")
-  sube.text = main_config['channel']['docs']
+    elem = etree.Element(tag_elem, nsmap = nsmap)
 
-  # Category element
-  sube = etree.SubElement(channel, "category")
-  sube.text = main_config['channel']['category']
+    if "attributes" in tag:
+     for attr in tag['attributes']:
+       elem.set(attr, tag['attributes'][attr])
 
-  # Language element
-  sube = etree.SubElement(channel, "language")
-  sube.text = main_config['channel']['language']
-
-  # Copyright element
-  sube = etree.SubElement(channel, "copyright")
-  sube.text = main_config['channel']['copyright']
-
-  # Managing Editor element
-  sube = etree.SubElement(channel, "managingEditor")
-  sube.text = main_config['channel']['managingEditor']
-
-  # Webmaster element
-  sube = etree.SubElement(channel, "webMaster")
-  sube.text = main_config['channel']['webMaster']
-
-  # TTL element
-  sube = etree.SubElement(channel, "ttl")
-  sube.text = str(main_config['channel']['ttl'])
-
-  # Exception, <image> has structure
-  image = etree.SubElement(channel, "image")
-
-  # Exception, url subelement
-  sube = etree.SubElement(image, "url")
-  sube.text = main_config['channel']['image']['url']
-
-  # Exception, link subelement
-  sube = etree.SubElement(image, "link")
-  sube.text = main_config['channel']['image']['link']
-
-  # Exception, title subelement
-  sube = etree.SubElement(image, "title")
-  sube.text = main_config['channel']['image']['title']
-
-  # Exception, description subelement
-  sube = etree.SubElement(image, "description")
-  sube.text = main_config['channel']['image']['description']
-
-  # Exception, width subelement
-  sube = etree.SubElement(image, "width")
-  sube.text = str(main_config['channel']['image']['width'])
-
-  # Exception, height subelement
-  sube = etree.SubElement(image, "height")
-  sube.text = str(main_config['channel']['image']['height'])
-
-  # Itunes
-  for idx in main_config['channel']['itunes'].keys():
-
-    # Strings
-    if isinstance(main_config['channel']['itunes'][idx], str) == True:
-      tag_ns = f"{main_config['feed']['xml']['namespaces']['itunes']}"
-      tag_name = "".join(["{", f"{tag_ns}", "}", f"{idx}"])
-      elem = etree.Element(tag_name, nsmap = nsmap)
-      elem.text = main_config['channel']['itunes'][idx]
-      channel.append(elem)
-
-    # Dictionaries (nested)
-    if isinstance(main_config['channel']['itunes'][idx], dict) == True:
-      tag_ns = f"{main_config['feed']['xml']['namespaces']['itunes']}"
-      tag_name = "".join(["{", f"{tag_ns}", "}", f"{idx}"])
-      owner = etree.Element(tag_name, nsmap = nsmap)
-      for sidx in main_config['channel']['itunes'][idx]:
-        tag_ns = f"{main_config['feed']['xml']['namespaces']['itunes']}"
-        tag_name = "".join(["{", f"{tag_ns}", "}", f"{sidx}"])
-        selem = etree.Element(tag_name, nsmap = nsmap)
-        selem.text = main_config['channel']['itunes'][idx][sidx]
-        owner.append(selem)
-
-      channel.append(owner)
-
-    # Lists
-    if isinstance(main_config['channel']['itunes'][idx], list) == True:
-      tag_ns = f"{main_config['feed']['xml']['namespaces']['itunes']}"
-      tag_name = "".join(["{", f"{tag_ns}", "}", f"{idx}"])
-      category = etree.Element(tag_name, nsmap = nsmap)
-      for sidx in main_config['channel']['itunes'][idx]:
-        selem = etree.Element(tag_name, nsmap = nsmap)
-        selem.text = str(sidx)
-        category.append(selem)
-
-      channel.append(category)
-
-    # Booleans
-    if isinstance(main_config['channel']['itunes'][idx], bool) == True:
-      tag_ns = f"{main_config['feed']['xml']['namespaces']['itunes']}"
-      tag_name = "".join(["{", f"{tag_ns}", "}", f"{idx}"])
-      selem = etree.Element(tag_name, nsmap = nsmap)
-      if main_config['channel']['itunes'][idx] == True:
-        selem.text = 'yes'
+    if "text" in tag:
+      tag_text = tag['text']
+      if isinstance(tag_text, bool) == True:
+        if tag_text == True:
+          elem.text = 'yes'
+        else:
+          elem.text = 'no'
       else:
-        selem.text = 'no'
+        elem.text = str(tag_text)
 
-      channel.append(selem)
+    if "tags" in tag:
+      for subtag in tag['tags']:
+        subtag_tagname = None
+        subtag_namespace = None
+        subtag_text = None
+        subtag_ns = None
+        subtag_elem = None
 
-  for idx in main_config['channel']['podcast'].keys():
-    print(idx, main_config['channel']['podcast'][idx])
+        subtag_tagname = subtag['tag']
 
-    # Strings
-    if isinstance(main_config['channel']['podcast'][idx], str) == True:
-      tag_ns = f"{main_config['feed']['xml']['namespaces']['podcast']}"
-      tag_name = "".join(["{", f"{tag_ns}", "}", f"{idx}"])
-      elem = etree.Element(tag_name, nsmap = nsmap)
-      elem.text = main_config['channel']['podcast'][idx]
-      channel.append(elem)
+        if "namespace" in subtag:
+          subtag_namespace = subtag['namespace']
 
-    # Dictionaries (nested)
-    if isinstance(main_config['channel']['podcast'][idx], dict) == True:
-      tag_ns = f"{main_config['feed']['xml']['namespaces']['podcast']}"
-      tag_name = "".join(["{", f"{tag_ns}", "}", f"{idx}"])
-      owner = etree.Element(tag_name, nsmap = nsmap)
-      for sidx in main_config['channel']['podcast'][idx]:
-        tag_ns = f"{main_config['feed']['xml']['namespaces']['podcast']}"
-        tag_name = "".join(["{", f"{tag_ns}", "}", f"{sidx}"])
-        selem = etree.Element(tag_name, nsmap = nsmap)
+          if subtag_namespace == "atom":
+            subtag_ns = main_config['feed']['xml']['namespaces']['atom']
 
-        if isinstance(main_config['channel']['podcast'][idx][sidx], str) == True:
-          selem.text = str(main_config['channel']['podcast'][idx][sidx])
+          if subtag_namespace == "dc":
+            subtag_ns = main_config['feed']['xml']['namespaces']['dc']
 
-        if isinstance(main_config['channel']['podcast'][idx][sidx], bool) == True:
-          if main_config['channel']['podcast'][idx][sidx] == True:
-            selem.text = 'yes'
+          if subtag_namespace == "itunes":
+            subtag_ns = main_config['feed']['xml']['namespaces']['itunes']
+
+          if subtag_namespace == "podcast":
+            subtag_ns = main_config['feed']['xml']['namespaces']['podcast']
+
+        if subtag_ns != None:
+          subtag_elem = "".join(["{", f"{subtag_ns}", "}", f"{subtag_tagname}"])
+        else:
+          subtag_elem = "".join([f"{subtag_tagname}"])
+
+        subelem = etree.Element(subtag_elem, nsmap = nsmap)
+
+        if "attributes" in subtag:
+         for attr in subtag['attributes']:
+           subelem.set(attr, subtag['attributes'][attr])
+
+        if "text" in subtag:
+          subtag_text = subtag['text']
+          if isinstance(subtag_text, bool) == True:
+            #subelem.text = subtag_text
+            if subtag_text == True:
+              subelem.text = 'yes'
+            else:
+              subelem.text = 'no'
           else:
-            selem.text = 'no'
-        
+            subelem.text = str(subtag_text)
+        elem.append(subelem)
 
-        owner.append(selem)
-
-      channel.append(owner)
-
-    # Lists
-    if isinstance(main_config['channel']['podcast'][idx], list) == True:
-      tag_ns = f"{main_config['feed']['xml']['namespaces']['podcast']}"
-      tag_name = "".join(["{", f"{tag_ns}", "}", f"{idx}"])
-      category = etree.Element(tag_name, nsmap = nsmap)
-      for sidx in main_config['channel']['podcast'][idx]:
-        selem = etree.Element(tag_name, nsmap = nsmap)
-        selem.text = str(sidx)
-        category.append(selem)
-
-      channel.append(category)
-
-    # Booleans
-    if isinstance(main_config['channel']['podcast'][idx], bool) == True:
-      tag_ns = f"{main_config['feed']['xml']['namespaces']['podcast']}"
-      tag_name = "".join(["{", f"{tag_ns}", "}", f"{idx}"])
-      selem = etree.Element(tag_name, nsmap = nsmap)
-      if main_config['channel']['podcast'][idx] == True:
-        selem.text = 'yes'
-      else:
-        selem.text = 'no'
-
-      channel.append(selem)
-
-
+    channel.append(elem)
   # Close Channel
 
+  # Add generator tag
+  elem = etree.Element("generator", nsmap = nsmap)
+  elem.text = f"{APPLICATION_NAME}/{APPLICATION_VERSION}"
+  channel.append(elem)
+
   # Render Item blocks
+  for episode in reversed(main_config['episodes']):
 
     # Iterate and load episodes dynamically
+    episode_path = f"{ITEMS_PATH}{episode}"
+    print(episode_path)
+    item = readYAML(episode_path)
+    print(item)
+
+    elem_item = etree.Element("item", nsmap = nsmap)
+
+    if item['title'] != None:
+      elem_title = etree.Element("title", nsmap = nsmap)
+      elem_title.text = str(item['title'])
+      elem_item.append(elem_title)
+
+    if item['pubDate'] != None:
+      elem_pubdate = etree.Element("pubDate", nsmap = nsmap)
+      elem_pubdate.text = str(item['pubDate'])
+      elem_item.append(elem_pubdate)
+
+    if item['author'] != None:
+      elem_author = etree.Element("author", nsmap = nsmap)
+      elem_author.text = str(item['author'])
+      elem_item.append(elem_author)
+
+    if item['link'] != None:
+      elem_link = etree.Element("link", nsmap = nsmap)
+      elem_link.text = str(item['link'])
+      elem_item.append(elem_link)
+    
+    if item['category'] != None:
+      elem_category = etree.Element("category", nsmap = nsmap)
+      elem_category.text = str(item['category'])
+      elem_item.append(elem_category)
+
+    if item['language'] != None:
+      elem_language = etree.Element("language", nsmap = nsmap)
+      elem_language.text = str(item['language'])
+      elem_item.append(elem_language)
+
+    if item['description'] != None:
+      elem_description = etree.Element("description", nsmap = nsmap)
+      elem_description.text = str(item['description'])
+      elem_item.append(elem_description)
+
+    if item['guid'] != None:
+      elem_guid = etree.Element("guid", nsmap = nsmap)
+      elem_guid.set("isPermaLink", str(item['guid']['isPermaLink']))
+      elem_guid.text = str(item['guid']['link'])
+      elem_item.append(elem_guid)
+
+    if item['enclosure'] != None:
+      elem_enclosure = etree.Element("enclosure", nsmap = nsmap)
+
+      if item['enclosure']['type'] != None:
+        elem_enclosure.set("type", str(item['enclosure']['type']))
+
+      if item['enclosure']['length'] != None:
+        elem_enclosure.set("length", str(item['enclosure']['length']))
+
+      if item['enclosure']['url'] != None:
+        elem_enclosure.set("url", str(item['enclosure']['url']))
+
+      elem_item.append(elem_enclosure)
+
+    if "itunes" in item:
+      tag_ns = main_config['feed']['xml']['namespaces']['itunes']
+      for tag in item['itunes'].keys():
+        print(tag)
+        tag_tagname = tag
+        tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
+
+        itunes_elem = etree.Element(tag_elem, nsmap = nsmap)
+
+        if isinstance(item['itunes'][tag_tagname], list):
+          pass
+
+        #if item['itunes'][tag] != None:
+        #  print(item['itunes'][tag], len(item['itunes'][tag]))
+
+        itunes_elem.text = str(item['itunes'][tag])
 
 
+        elem_item.append(itunes_elem)
+
+
+    if "podcast" in item:
+      pass
+
+
+    rss.append(elem_item)
   # Close RSS
 
   # Write to file
-  print(etree.tostring(rss, pretty_print=True, xml_declaration=True, encoding='UTF-8').decode())
-
+  rss_contents = etree.tostring(rss, pretty_print=True, xml_declaration=True, encoding='UTF-8').decode()
+  print(rss_contents)
+  writeRSS(RSS_PATH, rss_contents)
 
 if __name__ == '__main__':
   main()
