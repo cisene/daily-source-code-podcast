@@ -114,8 +114,8 @@ def main():
     elem = etree.Element(tag_elem, nsmap = nsmap)
 
     if "attributes" in tag:
-     for attr in tag['attributes']:
-       elem.set(attr, tag['attributes'][attr])
+      for attr in tag['attributes']:
+        elem.set(attr, str(tag['attributes'][attr]))
 
     if "text" in tag:
       tag_text = tag['text']
@@ -160,8 +160,8 @@ def main():
         subelem = etree.Element(subtag_elem, nsmap = nsmap)
 
         if "attributes" in subtag:
-         for attr in subtag['attributes']:
-           subelem.set(attr, subtag['attributes'][attr])
+          for attr in subtag['attributes']:
+            subelem.set(attr, str(subtag['attributes'][attr]))
 
         if "text" in subtag:
           subtag_text = subtag['text']
@@ -190,7 +190,7 @@ def main():
     episode_path = f"{ITEMS_PATH}{episode}"
     print(episode_path)
     item = readYAML(episode_path)
-    print(item)
+    #print(item)
 
     elem_item = etree.Element("item", nsmap = nsmap)
 
@@ -252,26 +252,63 @@ def main():
     if "itunes" in item:
       tag_ns = main_config['feed']['xml']['namespaces']['itunes']
       for tag in item['itunes'].keys():
-        print(tag)
+        if item['itunes'][tag] == None:
+          continue
+
         tag_tagname = tag
         tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
 
         itunes_elem = etree.Element(tag_elem, nsmap = nsmap)
 
-        if isinstance(item['itunes'][tag_tagname], list):
-          pass
+        if isinstance(item['itunes'][tag], dict) == True:
+          for attr in item['itunes'][tag]:
+            itunes_elem.set(attr, str(item['itunes'][tag][attr]))
 
-        #if item['itunes'][tag] != None:
-        #  print(item['itunes'][tag], len(item['itunes'][tag]))
+        if isinstance(item['itunes'][tag], str) == True:
+          itunes_elem.text = str(item['itunes'][tag])
 
-        itunes_elem.text = str(item['itunes'][tag])
+        if isinstance(item['itunes'][tag], int) == True:
+          itunes_elem.text = str(item['itunes'][tag])
 
+        if isinstance(item['itunes'][tag], bool) == True:
+          if item['itunes'][tag] == True:
+            itunes_elem.text = 'yes'
+          else:
+            itunes_elem.text = 'no'
 
         elem_item.append(itunes_elem)
 
-
     if "podcast" in item:
-      pass
+      tag_ns = main_config['feed']['xml']['namespaces']['podcast']
+      for tag in item['podcast'].keys():
+        if item['podcast'][tag] == None:
+          continue
+
+        tag_tagname = tag
+        tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
+        print(tag, type(item['podcast'][tag]))
+
+
+
+        podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
+
+        if isinstance(item['podcast'][tag], dict) == True:
+          for attr in item['podcast'][tag]:
+            podcast_elem.set(attr, str(item['podcast'][tag][attr]))
+
+        if isinstance(item['podcast'][tag], str) == True:
+          podcast_elem.text = str(item['podcast'][tag])
+
+        if isinstance(item['podcast'][tag], int) == True:
+          podcast_elem.text = str(item['podcast'][tag])
+
+        if isinstance(item['podcast'][tag], bool) == True:
+          if item['podcast'][tag] == True:
+            podcast_elem.text = 'yes'
+          else:
+            podcast_elem.text = 'no'
+
+        elem_item.append(podcast_elem)
 
 
     rss.append(elem_item)

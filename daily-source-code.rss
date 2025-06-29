@@ -37,16 +37,23 @@
       <itunes:email>adam@curry.com</itunes:email>
     </itunes:owner>
     <itunes:author>Adam Curry</itunes:author>
-    <itunes:category>
-      <itunes:category>News &amp; Politics</itunes:category>
-      <itunes:category>Comedy</itunes:category>
+    <itunes:category text="Arts">
+      <itunes:category text="Performing Arts"/>
+    </itunes:category>
+    <itunes:category text="Music"/>
+    <itunes:category text="TV &amp; Film"/>
+    <itunes:category text="Technology">
+      <itunes:category text="Gadgets"/>
+      <itunes:category text="Software How-To"/>
+      <itunes:category text="Tech News"/>
+      <itunes:category text="Podcasting"/>
     </itunes:category>
     <itunes:explicit>yes</itunes:explicit>
     <itunes:complete>no</itunes:complete>
     <itunes:type>serial</itunes:type>
     <itunes:series_name>Daily Source Code</itunes:series_name>
     <itunes:keywords>dsc,adam,delta,sierra,charlie</itunes:keywords>
-    <itunes:image>https://dailysourcecode.com/feed.png</itunes:image>
+    <itunes:image href="https://dailysourcecode.com/feed.png"/>
     <podcast:guid>dfbbeceb-eade-5c61-9fcd-130f3661e347</podcast:guid>
     <podcast:summary>Adam Curry's Daily Source Code Podcast</podcast:summary>
     <podcast:complete>no</podcast:complete>
@@ -79,14 +86,21 @@
     <enclosure type="audio/mpeg" length="5679187" url="DSC-2004-08-17.mp3"/>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Tuesday August 17th 2004</itunes:title>
-    <itunes:subtitle>None</itunes:subtitle>
     <itunes:summary>\nDuration: 00:11:53</itunes:summary>
-    <itunes:explicit>True</itunes:explicit>
+    <itunes:explicit>yes</itunes:explicit>
     <itunes:keywords>adam,curry,daily,source,code,delta,sierra,charlie,dsc</itunes:keywords>
     <itunes:duration>713</itunes:duration>
-    <itunes:season>None</itunes:season>
     <itunes:episode>005</itunes:episode>
-    <itunes:image>{'href': '#daily-source-code-episde-itunes-image-href-005'}</itunes:image>
+    <itunes:image href="#daily-source-code-episde-itunes-image-href-005"/>
+    <podcast:episode>005</podcast:episode>
+    <podcast:guid>db3cdf20-3ba7-36d4-9f20-195e648e399a</podcast:guid>
+    <podcast:location geo="51.3480,4.7176" osm="None" name="Curry Castle, Rijkevoorsel, BE"/>
+    <podcast:person/>
+    <podcast:images images="['#daily-source-code-episode-pc20-images-005']"/>
+    <podcast:chapters url="#daily-source-code-episode-pc20-chapters-005" type="application/json"/>
+    <podcast:transcript url="#daily-source-code-episode-pc20-transcript-005" type="application/srt"/>
+    <podcast:socialInteract uri="None" protocol="disabled" accountId="None" accountUrl="None"/>
+    <podcast:alternateEnclosure type="audio/mpeg" length="5679187" bitrate="64000" default="True" title="Standard" source="{'uri': ['DSC-2004-08-17.mp3']}"/>
   </item>
   <item>
     <title>Daily Source Code for Monday August 16 2004</title>
@@ -100,15 +114,27 @@
     <enclosure type="audio/mpeg" length="6845685" url="http://cloud2.urj.nl/gems/dailySourceCode20040816.mp3"/>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Monday August 16 2004</itunes:title>
-    <itunes:subtitle>None</itunes:subtitle>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode20040816.mp3"&gt;mp3&lt;/a&gt;6.5 mb 13 minutes 22 seconds&lt;br&gt;&lt;br&gt;</itunes:summary>
-    <itunes:explicit>True</itunes:explicit>
+    <itunes:explicit>yes</itunes:explicit>
     <itunes:keywords>adam,curry,daily,source,code,delta,sierra,charlie,dsc</itunes:keywords>
     <itunes:duration>860</itunes:duration>
-    <itunes:season>None</itunes:season>
     <itunes:episode>004</itunes:episode>
-    <itunes:image>{'href': 'http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1'}</itunes:image>
+    <itunes:image href="http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1"/>
     <itunes:pubDate>Mon Aug 16 13:31:39 2004 +0000</itunes:pubDate>
+    <podcast:episode>004</podcast:episode>
+    <podcast:title>Daily Source Code august 16 2004</podcast:title>
+    <podcast:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode20040816.mp3"&gt;mp3&lt;/a&gt;6.5 mb 13 minutes 22 seconds&lt;br&gt;&lt;br&gt;</podcast:summary>
+    <podcast:explicit>yes</podcast:explicit>
+    <podcast:pubDate>Mon Aug 16 13:31:39 2004 +0000</podcast:pubDate>
+    <podcast:guid>bc09bf22-9c9d-3c55-99d7-a183bb52e286</podcast:guid>
+    <podcast:keywords>adam,curry,daily,source,code,delta,sierra,charlie,dsc</podcast:keywords>
+    <podcast:location geo="51.3480,4.7176" osm="None" name="Curry Castle, Rijkevoorsel, BE"/>
+    <podcast:person/>
+    <podcast:images images="[{'href': 'http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1'}]"/>
+    <podcast:chapters/>
+    <podcast:transcript/>
+    <podcast:socialInteract/>
+    <podcast:alternateEnclosure/>
   </item>
   <item>
     <title>Daily Source Code for Sunday August 15 2004</title>
@@ -122,15 +148,27 @@
     <enclosure type="audio/mpeg" length="6614480" url="http://cloud2.urj.nl/bt/dailySourceCode-20040815.mp3"/>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Sunday August 15 2004</itunes:title>
-    <itunes:subtitle>None</itunes:subtitle>
     <itunes:summary>&lt;a href="http://freecache.org/http://cloud2.urj.nl/bt/dailySourceCode-20040815.mp3"&gt;mp3&lt;/a&gt;13 minutes, 50 seconds, 6.3 mb&lt;br&gt;&lt;br&gt;</itunes:summary>
-    <itunes:explicit>True</itunes:explicit>
+    <itunes:explicit>yes</itunes:explicit>
     <itunes:keywords>adam,curry,daily,source,code,delta,sierra,charlie,dsc</itunes:keywords>
     <itunes:duration>831</itunes:duration>
-    <itunes:season>None</itunes:season>
     <itunes:episode>003</itunes:episode>
-    <itunes:image>{'href': 'http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1'}</itunes:image>
+    <itunes:image href="http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1"/>
     <itunes:pubDate>Sun Aug 15 13:15:04 2004 +0000</itunes:pubDate>
+    <podcast:episode>003</podcast:episode>
+    <podcast:title>Daily Source Code august 15 2004</podcast:title>
+    <podcast:summary>&lt;a href="http://freecache.org/http://cloud2.urj.nl/bt/dailySourceCode-20040815.mp3"&gt;mp3&lt;/a&gt;13 minutes, 50 seconds, 6.3 mb&lt;br&gt;&lt;br&gt;</podcast:summary>
+    <podcast:explicit>yes</podcast:explicit>
+    <podcast:pubDate>Sun Aug 15 13:15:04 2004 +0000</podcast:pubDate>
+    <podcast:guid>ed7a698a-166a-31c2-bee1-80ad9bb6adc3</podcast:guid>
+    <podcast:keywords>adam,curry,delta,sierra,charlie</podcast:keywords>
+    <podcast:location geo="51.3480,4.7176" osm="None" name="Curry Castle, Rijkevoorsel, BE"/>
+    <podcast:person/>
+    <podcast:images images="[{'href': 'http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1'}]"/>
+    <podcast:chapters/>
+    <podcast:transcript/>
+    <podcast:socialInteract/>
+    <podcast:alternateEnclosure/>
   </item>
   <item>
     <title>Daily Source Code for Saturday August 14 2004</title>
@@ -144,15 +182,27 @@
     <enclosure type="audio/mpeg" length="4586819" url="http://cloud2.urj.nl/bt/dailySourceCode-20040814-183227-388.mp3"/>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Saturday August 14 2004</itunes:title>
-    <itunes:subtitle>None</itunes:subtitle>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/bt/dailySourceCode-20040814-183227-388.mp3"&gt;mp3&lt;/a&gt;10 minutes, 4.3 mb&lt;br&gt;&lt;br&gt;</itunes:summary>
-    <itunes:explicit>True</itunes:explicit>
+    <itunes:explicit>yes</itunes:explicit>
     <itunes:keywords>adam,curry,daily,source,code,delta,sierra,charlie,dsc</itunes:keywords>
     <itunes:duration>658</itunes:duration>
-    <itunes:season>None</itunes:season>
     <itunes:episode>002</itunes:episode>
-    <itunes:image>{'href': 'http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1'}</itunes:image>
+    <itunes:image href="http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1"/>
     <itunes:pubDate>Sat Aug 14 16:51:34 2004 +0000</itunes:pubDate>
+    <podcast:episode>002</podcast:episode>
+    <podcast:title>Daily Source Code august 14 2004</podcast:title>
+    <podcast:summary>&lt;a href="http://cloud2.urj.nl/bt/dailySourceCode-20040814-183227-388.mp3"&gt;mp3&lt;/a&gt;10 minutes, 4.3 mb&lt;br&gt;&lt;br&gt;</podcast:summary>
+    <podcast:explicit>yes</podcast:explicit>
+    <podcast:pubDate>Sat Aug 14 16:51:34 2004 +0000</podcast:pubDate>
+    <podcast:guid>6d1bc6fa-65db-35bf-b005-b808fe7f618b</podcast:guid>
+    <podcast:keywords>adam,curry,delta,sierra,charlie</podcast:keywords>
+    <podcast:location geo="51.3480,4.7176" osm="None" name="Curry Castle, Rijkevoorsel, BE"/>
+    <podcast:person/>
+    <podcast:images images="[{'href': 'http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1'}]"/>
+    <podcast:chapters/>
+    <podcast:transcript/>
+    <podcast:socialInteract/>
+    <podcast:alternateEnclosure/>
   </item>
   <item>
     <title>Daily Source Code for Friday August 13 2004</title>
@@ -166,14 +216,27 @@
     <enclosure type="audio/mpeg" length="9455188" url="http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3"/>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code</itunes:title>
-    <itunes:subtitle>None</itunes:subtitle>
     <itunes:summary>While on&lt;a href="http://schoolblog.urj.nl/actravel/2004/08/09#a6"&gt;vacation&lt;/a&gt;in Sorrento Italy, I was inspired by two audio files my download script had 'plopped' onto my iPod. One was an edition of IT Conversations from OSCON, where&lt;a href="http://www.itconversations.com/shows/detail169.html"&gt;Robert Lefkowitz&lt;/a&gt;discussed the meaning of source code. The other 'program' was Dave Winer's&lt;a href="http://archive.scripting.com/2004/08/12#When:1:50:22PM"&gt;morning coffee notes&lt;/a&gt;about the debates between bloggers and journalists.&lt;br&gt;&lt;br&gt;&lt;br&gt;Today marks the first episode of the&lt;a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/index.html"&gt;Daily Source Code&lt;/a&gt;, available through it's own&lt;a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml"&gt;rss feed&lt;/a&gt;as an enclosure. [direct download&lt;a href="http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3"&gt;here&lt;/a&gt;]&lt;br&gt;&lt;br&gt;</itunes:summary>
-    <itunes:explicit>True</itunes:explicit>
+    <itunes:explicit>yes</itunes:explicit>
     <itunes:keywords>adam,delta,curry,rotterdam,sierra,soundseeing,tour</itunes:keywords>
     <itunes:duration>1357</itunes:duration>
-    <itunes:season>None</itunes:season>
     <itunes:episode>001</itunes:episode>
-    <itunes:image>{'href': 'http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1'}</itunes:image>
+    <itunes:image href="http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1"/>
     <itunes:pubDate>Fri Aug 13 14:04:21 2004 +0000</itunes:pubDate>
+    <podcast:episode>001</podcast:episode>
+    <podcast:title>Daily Source Code for Friday August 13 2004</podcast:title>
+    <podcast:subtitle>SoundSeeing Tour To Rotterdam In The Delta Sierra</podcast:subtitle>
+    <podcast:summary>While on&lt;a href="http://schoolblog.urj.nl/actravel/2004/08/09#a6"&gt;vacation&lt;/a&gt;in Sorrento Italy, I was inspired by two audio files my download script had 'plopped' onto my iPod. One was an edition of IT Conversations from OSCON, where&lt;a href="http://www.itconversations.com/shows/detail169.html"&gt;Robert Lefkowitz&lt;/a&gt;discussed the meaning of source code. The other 'program' was Dave Winer's&lt;a href="http://archive.scripting.com/2004/08/12#When:1:50:22PM"&gt;morning coffee notes&lt;/a&gt;about the debates between bloggers and journalists.&lt;br&gt;&lt;br&gt;&lt;br&gt;Today marks the first episode of the&lt;a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/index.html"&gt;Daily Source Code&lt;/a&gt;, available through it's own&lt;a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml"&gt;rss feed&lt;/a&gt;as an enclosure. [direct download&lt;a href="http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3"&gt;here&lt;/a&gt;]&lt;br&gt;&lt;br&gt;</podcast:summary>
+    <podcast:explicit>yes</podcast:explicit>
+    <podcast:pubDate>Fri Aug 13 14:04:21 2004 +0000</podcast:pubDate>
+    <podcast:guid>0a67d1f4-198c-356a-ac3d-77bcc1b1618b</podcast:guid>
+    <podcast:keywords>adam,curry,delta,sierra,charlie</podcast:keywords>
+    <podcast:location geo="51.3480,4.7176" osm="None" name="Curry Castle, Rijkevoorsel, BE"/>
+    <podcast:person/>
+    <podcast:images images="[{'href': 'http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&amp;width=600&amp;height=337&amp;scheme=1'}]"/>
+    <podcast:chapters/>
+    <podcast:transcript/>
+    <podcast:socialInteract/>
+    <podcast:alternateEnclosure/>
   </item>
 </rss>

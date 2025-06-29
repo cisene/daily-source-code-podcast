@@ -139,18 +139,53 @@ rss:
     - tag: author
       namespace: itunes
       text: Adam Curry
-    
+
     - tag: category
       namespace: itunes
+      attributes:
+        text: Arts
       tags:
-      
-      - tag: category
-        namespace: itunes
-        text: News & Politics
 
       - tag: category
         namespace: itunes
-        text: Comedy
+        attributes:
+          text: Performing Arts
+
+    - tag: category
+      namespace: itunes
+      attributes:
+        text: Music
+
+    - tag: category
+      namespace: itunes
+      attributes:
+        text: TV & Film
+
+    - tag: category
+      namespace: itunes
+      attributes:
+        text: Technology
+      tags:
+
+      - tag: category
+        namespace: itunes
+        attributes:
+          text: Gadgets
+
+      - tag: category
+        namespace: itunes
+        attributes:
+          text: Software How-To
+
+      - tag: category
+        namespace: itunes
+        attributes:
+          text: Tech News
+
+      - tag: category
+        namespace: itunes
+        attributes:
+          text: Podcasting
 
     - tag: explicit
       namespace: itunes
@@ -174,7 +209,8 @@ rss:
 
     - tag: image
       namespace: itunes
-      text: https://dailysourcecode.com/feed.png
+      attributes:
+        href: https://dailysourcecode.com/feed.png
 
     - tag: guid
       namespace: podcast
