@@ -286,11 +286,40 @@ def main():
 
         tag_tagname = tag
         tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
-        print(tag, type(item['podcast'][tag]))
-
-
+        #print(tag, type(item['podcast'][tag]))
 
         podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
+
+        if isinstance(item['podcast'][tag], list) == True:
+          print("podcast: list element")
+          print(item['podcast'][tag], tag)
+
+          if tag == "person":
+
+            person_attributes = [
+              'href',
+              'img',
+              'group',
+              'role',
+            ]
+
+
+            for person in item['podcast'][tag]:
+              tag_tagname = tag
+              tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
+
+              person_elem = etree.Element(tag_elem)
+              person_elem.text = str(person['person'])
+
+              for attr in person_attributes:
+                if attr in person:
+                  if person[attr] != None:
+                    person_elem.set(attr, str(person[attr]))
+
+              podcast_elem.append(person_elem)
+
+          if tag == "socialInteract":
+            pass
 
         if isinstance(item['podcast'][tag], dict) == True:
           for attr in item['podcast'][tag]:
