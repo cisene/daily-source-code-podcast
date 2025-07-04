@@ -260,6 +260,10 @@ def main():
 
         itunes_elem = etree.Element(tag_elem, nsmap = nsmap)
 
+        if isinstance(item['itunes'][tag], list) == True:
+          print("itunes: list element")
+
+
         if isinstance(item['itunes'][tag], dict) == True:
           for attr in item['itunes'][tag]:
             itunes_elem.set(attr, str(item['itunes'][tag][attr]))
@@ -281,7 +285,15 @@ def main():
     if "podcast" in item:
       tag_ns = main_config['feed']['xml']['namespaces']['podcast']
       for tag in item['podcast'].keys():
+
+        # Skip null values
         if item['podcast'][tag] == None:
+          continue
+
+        skip_tags = [
+          'images'
+        ]
+        if tag in skip_tags:
           continue
 
         tag_tagname = tag
@@ -295,7 +307,6 @@ def main():
           print(item['podcast'][tag], tag)
 
           if tag == "person":
-
             person_attributes = [
               'href',
               'img',
@@ -303,30 +314,96 @@ def main():
               'role',
             ]
 
-
             for person in item['podcast'][tag]:
               tag_tagname = tag
               tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
 
-              person_elem = etree.Element(tag_elem)
-              person_elem.text = str(person['person'])
+              podcast_elem.text = str(person['person'])
 
               for attr in person_attributes:
                 if attr in person:
                   if person[attr] != None:
-                    person_elem.set(attr, str(person[attr]))
-
-              podcast_elem.append(person_elem)
+                    podcast_elem.set(attr, str(person[attr]))
 
           if tag == "socialInteract":
-            pass
+            si_attributes = [
+              'protocol',
+              'uri',
+              'accountId',
+              'accountUrl'
+            ]
+            for siAccount in item['podcast'][tag]:
+              if siAccount['protocol'] == 'disabled':
+                podcast_elem.set('protocol', str(siAccount['protocol']))
+              else:
+                for attr in si_attributes:
+                  podcast_elem.set(attr, str(siAccount[attr]))
+
+          if tag == "chapters":
+            # <podcast:chapters url="https://example.com/episode1/chapters.json" type="application/json+chapters" />
+            ch_attributes = [
+              'url',
+              'type',
+            ]
+            for chapt in item['podcast'][tag]:
+              if chapt['url'] != None and chapt['type'] != None:
+                for attr in ch_attributes:
+                  podcast_elem.set(attr, chapt[attr])
+
+          if tag == "alternateEnclosure":
+            # <podcast:alternateEnclosure type="audio/mpeg" length="2490970" bitrate="160707.74">
+            #   <podcast:source uri="https://example.com/file-0.mp3" />
+            #   <podcast:source uri="ipfs://QmdwGqd3d2gFPGeJNLLCshdiPert45fMu84552Y4XHTy4y" />
+            #   <podcast:source uri="https://example.com/file-0.torrent" contentType="application/x-bittorrent" />
+            #   <podcast:source uri="http://example.onion/file-0.mp3" />
+            # </podcast:alternateEnclosure>
+
+            # [
+            #   {
+            #     'type': 'audio/mpeg',
+            #     'length': 9455188,
+            #     'bitrate': 56000,
+            #     'default': True,
+            #     'title': 'Daily Source Code',
+            #     'source': {
+            #       'uri': 'http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3'}
+            #   }
+            # ]
+
+
+            ae_attributes = [
+              'type',
+              'length',
+              'bitrate',
+              'default',
+              'title',
+            ]
+
+            for ae in item['podcast'][tag]:
+              print(ae)
+              if ae['source'] != None:
+                for attr in ae_attributes:
+                  if ae[attr] != None:
+                    podcast_elem.set(attr, str(ae[attr]))
+
+                if isinstance(ae['source'], dict) == True:
+                  tag_tagname = "source"
+                  tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
+                  source_elem = etree.Element(tag_elem, nsmap = nsmap)
+                  source_elem.set('uri', str(ae['source']['uri']))
+                  podcast_elem.append(source_elem)
 
         if isinstance(item['podcast'][tag], dict) == True:
+          #print("podcast: dict element")
+          #print(item['podcast'][tag], tag)
+
           for attr in item['podcast'][tag]:
-            podcast_elem.set(attr, str(item['podcast'][tag][attr]))
+            if item['podcast'][tag][attr] != None:
+              podcast_elem.set(attr, str(item['podcast'][tag][attr]))
 
         if isinstance(item['podcast'][tag], str) == True:
-          podcast_elem.text = str(item['podcast'][tag])
+          if item['podcast'][tag] != None:
+            podcast_elem.text = str(item['podcast'][tag])
 
         if isinstance(item['podcast'][tag], int) == True:
           podcast_elem.text = str(item['podcast'][tag])
