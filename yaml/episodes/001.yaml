@@ -63,10 +63,30 @@ podcast:
   - url: null
     type: null
   socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
+  - uri: https://facebook.com/adamcurry
+    priority: 3
+    protocol: facebook
+    accountId: '@adamcurry'
+    accountUrl: https://facebook.com/adamcurry
+
+  - uri: https://x.com/adamcurry
+    priority: 4
+    protocol: twitter
+    accountId: '@adamcurry'
+    accountUrl: https://x.com/adamcurry
+
+  - uri: https://podcastindex.social/web/@dave/108013847520053258
+    priority: 1
+    protocol: activitypub
+    accountId: '@dave'
+    accountUrl: https://podcastindex.social/web/@dave
+
+  - uri: https://twitter.com/PodcastindexOrg/status/1507120226361647115
+    priority: 2
+    protocol: twitter
+    accountId: '@podcastindexorg'
+    accountUrl: https://twitter.com/PodcastindexOrg
+
   alternateEnclosure:
   - type: audio/mpeg
     length: 9455188

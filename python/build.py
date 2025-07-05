@@ -300,7 +300,14 @@ def main():
         tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
         #print(tag, type(item['podcast'][tag]))
 
-        podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
+        tag_handlers = [
+          'socialInteract',
+          'chapters',
+          'transcript',
+        ]
+
+        if tag_tagname not in tag_handlers:
+          podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
 
         if isinstance(item['podcast'][tag], list) == True:
           print("podcast: list element")
@@ -334,10 +341,29 @@ def main():
             ]
             for siAccount in item['podcast'][tag]:
               if siAccount['protocol'] == 'disabled':
+                podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
+
                 podcast_elem.set('protocol', str(siAccount['protocol']))
               else:
+                podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
                 for attr in si_attributes:
                   podcast_elem.set(attr, str(siAccount[attr]))
+
+              elem_item.append(podcast_elem)
+
+          if tag == "transcript":
+            tr_attributes = [
+              'url',
+              'type',
+            ]
+            for trns in item['podcast'][tag]:
+              if trns['url'] != None and trns['type'] != None:
+                podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
+                for attr in tr_attributes:
+                  podcast_elem.set(attr, trns[attr])
+
+                elem_item.append(podcast_elem)
+
 
           if tag == "chapters":
             # <podcast:chapters url="https://example.com/episode1/chapters.json" type="application/json+chapters" />
@@ -347,30 +373,13 @@ def main():
             ]
             for chapt in item['podcast'][tag]:
               if chapt['url'] != None and chapt['type'] != None:
+                podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
                 for attr in ch_attributes:
                   podcast_elem.set(attr, chapt[attr])
 
+                elem_item.append(podcast_elem)
+
           if tag == "alternateEnclosure":
-            # <podcast:alternateEnclosure type="audio/mpeg" length="2490970" bitrate="160707.74">
-            #   <podcast:source uri="https://example.com/file-0.mp3" />
-            #   <podcast:source uri="ipfs://QmdwGqd3d2gFPGeJNLLCshdiPert45fMu84552Y4XHTy4y" />
-            #   <podcast:source uri="https://example.com/file-0.torrent" contentType="application/x-bittorrent" />
-            #   <podcast:source uri="http://example.onion/file-0.mp3" />
-            # </podcast:alternateEnclosure>
-
-            # [
-            #   {
-            #     'type': 'audio/mpeg',
-            #     'length': 9455188,
-            #     'bitrate': 56000,
-            #     'default': True,
-            #     'title': 'Daily Source Code',
-            #     'source': {
-            #       'uri': 'http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3'}
-            #   }
-            # ]
-
-
             ae_attributes = [
               'type',
               'length',
@@ -392,6 +401,15 @@ def main():
                   source_elem = etree.Element(tag_elem, nsmap = nsmap)
                   source_elem.set('uri', str(ae['source']['uri']))
                   podcast_elem.append(source_elem)
+
+                if isinstance(ae['source'], list) == True:
+                  for uri in ae['source']:
+                    tag_tagname = "source"
+                    tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
+                    source_elem = etree.Element(tag_elem, nsmap = nsmap)
+                    source_elem.set('uri', str(uri))
+                    podcast_elem.append(source_elem)
+
 
         if isinstance(item['podcast'][tag], dict) == True:
           #print("podcast: dict element")
