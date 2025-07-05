@@ -85,11 +85,13 @@ class EpisodeData:
     'license': None,
     'guid': None,
     'keywords': None,
+
     'location': {
       'geo': None,
       'osm': None,
       'name': None
     },
+
     'person': [
       {
         'person': None,
@@ -99,23 +101,25 @@ class EpisodeData:
         'role': None,
       }
     ],
-    'images': {
-      'images': [
-        'href': None,
-      ]
-    },
+
+    'images': [
+      'href': None,
+    ],
+
     'chapters': [
       {
         'url': None,
         'type': None,
       }
     ],
+
     'transcript': [
       {
       'url': None,
       'type': None,
       }
     ],
+
     'socialInteract': [
       {
         'uri': None,
@@ -124,6 +128,7 @@ class EpisodeData:
         'accountUrl': None,
       }
     ],
+
     'alternateEnclosure': [
       {
         'type': None,

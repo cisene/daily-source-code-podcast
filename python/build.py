@@ -298,7 +298,6 @@ def main():
 
         tag_tagname = tag
         tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
-        #print(tag, type(item['podcast'][tag]))
 
         tag_handlers = [
           'socialInteract',
@@ -311,8 +310,6 @@ def main():
           podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
 
         if isinstance(item['podcast'][tag], list) == True:
-          #print("podcast: list element")
-          #print(item['podcast'][tag], tag)
 
           if tag == "person":
             person_attributes = [
@@ -365,7 +362,6 @@ def main():
 
                 elem_item.append(podcast_elem)
 
-
           if tag == "chapters":
             # <podcast:chapters url="https://example.com/episode1/chapters.json" type="application/json+chapters" />
             ch_attributes = [
@@ -395,18 +391,18 @@ def main():
 
                 podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
 
-                for attr in ae_attributes:
+                for attr in sorted(ae_attributes):
                   if ae[attr] != None:
                     podcast_elem.set(attr, str(ae[attr]))
 
-                  if isinstance(ae['source'], dict) == True:
-                    stag_tagname = "source"
-                    stag_elem = "".join(["{", f"{tag_ns}", "}", f"{stag_tagname}"])
-                    source_elem = etree.Element(stag_elem, nsmap = nsmap)
-                    source_elem.set('uri', str(ae['source']['uri']))
+                  #if isinstance(ae['source'], dict) == True:
+                  #  stag_tagname = "source"
+                  #  stag_elem = "".join(["{", f"{tag_ns}", "}", f"{stag_tagname}"])
+                  #  source_elem = etree.Element(stag_elem, nsmap = nsmap)
+                  #  source_elem.set('uri', str(ae['source']['uri']))
   
-                  if isinstance(ae['source'], list) == True:
-                    print(ae)
+                  #if isinstance(ae['source'], list) == True:
+                  #  print(ae)
 
                     stag_tagname = "source"
                     stag_elem = "".join(["{", f"{tag_ns}", "}", f"{stag_tagname}"])
@@ -418,8 +414,6 @@ def main():
               elem_item.append(podcast_elem)
 
         if isinstance(item['podcast'][tag], dict) == True:
-          #print("podcast: dict element")
-          #print(item['podcast'][tag], tag)
 
           for attr in item['podcast'][tag]:
             if item['podcast'][tag][attr] != None:
