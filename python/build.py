@@ -304,6 +304,7 @@ def main():
           'socialInteract',
           'chapters',
           'transcript',
+          'alternateEnclosure',
         ]
 
         if tag_tagname not in tag_handlers:
@@ -389,27 +390,32 @@ def main():
             ]
 
             for ae in item['podcast'][tag]:
-              #print(ae)
+
               if ae['source'] != None:
+
+                podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
+
                 for attr in ae_attributes:
                   if ae[attr] != None:
                     podcast_elem.set(attr, str(ae[attr]))
 
-                if isinstance(ae['source'], dict) == True:
-                  tag_tagname = "source"
-                  tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
-                  source_elem = etree.Element(tag_elem, nsmap = nsmap)
-                  source_elem.set('uri', str(ae['source']['uri']))
-                  podcast_elem.append(source_elem)
+                  if isinstance(ae['source'], dict) == True:
+                    stag_tagname = "source"
+                    stag_elem = "".join(["{", f"{tag_ns}", "}", f"{stag_tagname}"])
+                    source_elem = etree.Element(stag_elem, nsmap = nsmap)
+                    source_elem.set('uri', str(ae['source']['uri']))
+  
+                  if isinstance(ae['source'], list) == True:
+                    print(ae)
 
-                if isinstance(ae['source'], list) == True:
-                  for uri in ae['source']:
-                    tag_tagname = "source"
-                    tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
-                    source_elem = etree.Element(tag_elem, nsmap = nsmap)
-                    source_elem.set('uri', str(uri))
-                    podcast_elem.append(source_elem)
+                    stag_tagname = "source"
+                    stag_elem = "".join(["{", f"{tag_ns}", "}", f"{stag_tagname}"])
+                    source_elem = etree.Element(stag_elem, nsmap = nsmap)
+                    source_elem.set('uri', str(ae['source']['uri']))
 
+                podcast_elem.append(source_elem)
+
+              elem_item.append(podcast_elem)
 
         if isinstance(item['podcast'][tag], dict) == True:
           #print("podcast: dict element")

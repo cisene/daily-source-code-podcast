@@ -95,6 +95,15 @@ podcast:
     title: Daily Source Code
     source:
       uri: http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3
+
+  - type: video/mpeg
+    length: 9455188
+    bitrate: 56000
+    default: true
+    title: Daily Source Code
+    source:
+      uri: http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp4
+
 fileinfo:
   filename: DSC-2004-08-13.mp3
   size: 9455188

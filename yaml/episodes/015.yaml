@@ -56,14 +56,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 18514157
     bitrate: '160000'
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2004-08-27.mp3
+      uri: DSC-2004-08-27.mp3
 fileinfo:
   filename: DSC-2004-08-27.mp3
   size: 18514157
