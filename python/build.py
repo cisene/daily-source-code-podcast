@@ -310,8 +310,8 @@ def main():
           podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
 
         if isinstance(item['podcast'][tag], list) == True:
-          print("podcast: list element")
-          print(item['podcast'][tag], tag)
+          #print("podcast: list element")
+          #print(item['podcast'][tag], tag)
 
           if tag == "person":
             person_attributes = [
@@ -389,7 +389,7 @@ def main():
             ]
 
             for ae in item['podcast'][tag]:
-              print(ae)
+              #print(ae)
               if ae['source'] != None:
                 for attr in ae_attributes:
                   if ae[attr] != None:
@@ -440,7 +440,7 @@ def main():
 
   # Write to file
   rss_contents = etree.tostring(rss, pretty_print=True, xml_declaration=True, encoding='UTF-8').decode()
-  print(rss_contents)
+  #print(rss_contents)
   writeRSS(RSS_PATH, rss_contents)
 
 if __name__ == '__main__':
