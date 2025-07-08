@@ -106,6 +106,9 @@ def main():
       if tag_namespace == "podcast":
         tag_ns = main_config['feed']['xml']['namespaces']['podcast']
 
+      if tag_namespace == "rawvoice":
+        tag_ns = main_config['feed']['xml']['namespaces'][tag_namespace]
+
     if tag_ns != None:
       tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
     else:
@@ -115,7 +118,8 @@ def main():
 
     if "attributes" in tag:
       for attr in tag['attributes']:
-        elem.set(attr, str(tag['attributes'][attr]))
+        if tag['attributes'][attr] != None:
+          elem.set(attr, str(tag['attributes'][attr]))
 
     if "text" in tag:
       tag_text = tag['text']
@@ -152,6 +156,9 @@ def main():
           if subtag_namespace == "podcast":
             subtag_ns = main_config['feed']['xml']['namespaces']['podcast']
 
+          if subtag_namespace == "rawvoice":
+            subtag_ns = main_config['feed']['xml']['namespaces'][subtag_namespace]
+
         if subtag_ns != None:
           subtag_elem = "".join(["{", f"{subtag_ns}", "}", f"{subtag_tagname}"])
         else:
@@ -161,7 +168,8 @@ def main():
 
         if "attributes" in subtag:
           for attr in subtag['attributes']:
-            subelem.set(attr, str(subtag['attributes'][attr]))
+            if subtag['attributes'][attr] != None:
+              subelem.set(attr, str(subtag['attributes'][attr]))
 
         if "text" in subtag:
           subtag_text = subtag['text']
