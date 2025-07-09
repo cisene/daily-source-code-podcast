@@ -11,6 +11,7 @@ feed:
       content: "http://purl.org/rss/1.0/modules/content/"
       #wfw: "http://wellformedweb.org/CommentAPI/"
       dc: "http://purl.org/dc/elements/1.1/"
+      rawvoice: "https://blubrry.com/developer/rawvoice-rss/"
 
 
 # Tagline: Where developers and users party together.
@@ -238,6 +239,10 @@ rss:
         owner: adam@curry.com
       text: True
 
+    - tag: license
+      namespace: podcast
+      text: 
+
     - tag: images
       namespace: podcast
       tags:
@@ -291,6 +296,33 @@ rss:
         attributes:
           id: bluesky
         text: True
+
+    - tag: rating
+      namespace: rawvoice
+      text: TV-MA
+
+    - tag: location
+      namespace: rawvoice
+      text: Austin, Texas, USA
+
+    - tag: subscribe
+      namespace: rawvoice
+      attributes:
+        feed:         https://dailysourcecode.com/rss
+        amazon_music: null
+        anghami:      null
+        blubrry:      null
+        deezer:       null
+        gaana:        null
+        iheart:       null
+        iheartradio:  null
+        itunes:       null
+        pandora:      null
+        pcindex:      null
+        podchaser:    null
+        spotify:      null
+        stitcher:     null
+        tunein:       null
 
 # List is reversed when rendered
 episodes:

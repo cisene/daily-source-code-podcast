@@ -31,6 +31,14 @@ def writeRSS(filepath, contents):
 def writeYAML(filepath, contents):
   pass
 
+def truefalseTOtruefalse(booleanvalue):
+  if booleanvalue == True:
+    result = "True"
+  else:
+    result = "False"
+
+  return result
+
 def truefalseTOyesno(booleanvalue):
   if booleanvalue == True:
     result = "Yes"
@@ -283,10 +291,14 @@ def main():
           itunes_elem.text = str(item['itunes'][tag])
 
         if isinstance(item['itunes'][tag], bool) == True:
-          if item['itunes'][tag] == True:
-            itunes_elem.text = 'yes'
+          if tag in ['explicit']:
+            itunes_elem.text = truefalseTOtruefalse(item['itunes'][tag])
           else:
-            itunes_elem.text = 'no'
+            itunes_elem.text = truefalseTOyesno(item['itunes'][tag])
+            #if item['itunes'][tag] == True:
+            #  itunes_elem.text = 'yes'
+            #else:
+            #  itunes_elem.text = 'no'
 
         elem_item.append(itunes_elem)
 
@@ -435,10 +447,15 @@ def main():
           podcast_elem.text = str(item['podcast'][tag])
 
         if isinstance(item['podcast'][tag], bool) == True:
-          if item['podcast'][tag] == True:
-            podcast_elem.text = 'yes'
+          if tag in ['explicit']:
+            podcast_elem.text = truefalseTOtruefalse(item['podcast'][tag])
           else:
-            podcast_elem.text = 'no'
+            podcast_elem.text = truefalseTOyesno(item['podcast'][tag])
+
+            #if item['podcast'][tag] == True:
+            #  podcast_elem.text = 'yes'
+            #else:
+            #  podcast_elem.text = 'no'
 
         elem_item.append(podcast_elem)
 
