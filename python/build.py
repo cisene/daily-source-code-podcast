@@ -215,6 +215,13 @@ def main():
       elem_title.text = str(item['title'])
       elem_item.append(elem_title)
 
+      # <itunes:title>The Thing About Golf: #142 Bill Fields</itunes:title>
+      tag_ns = main_config['feed']['xml']['namespaces']['itunes']
+      tag_elem = "".join(["{", f"{tag_ns}", "}", f"title"])
+      itunes_elem = etree.Element(tag_elem, nsmap = nsmap)
+      itunes_elem.text = str(item['title'])
+      elem_item.append(itunes_elem)
+
     if item['pubDate'] != None:
       elem_pubdate = etree.Element("pubDate", nsmap = nsmap)
       elem_pubdate.text = str(item['pubDate'])
