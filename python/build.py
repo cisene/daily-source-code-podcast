@@ -266,7 +266,15 @@ def main():
       elem_item.append(elem_enclosure)
 
     if "itunes" in item:
+
       tag_ns = main_config['feed']['xml']['namespaces']['itunes']
+
+      # <itunes:episodeType>full</itunes:episodeType>
+      tag_elem = "".join(["{", f"{tag_ns}", "}", f"episodeType"])
+      itunes_elem = etree.Element(tag_elem, nsmap = nsmap)
+      itunes_elem.text = 'full'
+      elem_item.append(itunes_elem)
+
       for tag in item['itunes'].keys():
         if item['itunes'][tag] == None:
           continue
