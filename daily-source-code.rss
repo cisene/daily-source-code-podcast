@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/" version="2.0">
+<rss xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <atom:link rel="self" type="application/rss+xml" href="https://dailysourcecode.com/rss" title="Adam Curry's Daily Source Code Podcast"/>
     <dc:title>Adam Curry's Daily Source Code Podcast</dc:title>
@@ -88,6 +88,7 @@
     <description>\nDuration: 00:41:09</description>
     <guid isPermaLink="False">#daily-source-code-episode-guid-020</guid>
     <enclosure type="audio/mpeg" length="29588718" url="DSC-2004-09-06.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Monday September 06th 2004</itunes:title>
     <itunes:subtitle>Skype and more...</itunes:subtitle>
@@ -115,6 +116,7 @@
     <description>\nDuration: 00:38:55</description>
     <guid isPermaLink="False">#daily-source-code-episode-guid-019</guid>
     <enclosure type="audio/mpeg" length="27984382" url="DSC-2004-09-03.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Friday September 03rd 2004</itunes:title>
     <itunes:subtitle>40 Birthday Show</itunes:subtitle>
@@ -142,6 +144,7 @@
     <description>mp3 26.6 mb, 39 minutes</description>
     <guid isPermaLink="False">http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/09/03.html#a6490</guid>
     <enclosure type="audio/mpeg" length="27984382" url="http://cloud2.urj.nl/gems/dailySourceCode09032004.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Thursday September 02nd 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode09032004.mp3"&gt;mp3&lt;/a&gt;26.6 mb, 39 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -175,6 +178,7 @@
     <description>\nDuration: 00:27:48</description>
     <guid isPermaLink="False">#daily-source-code-episode-guid-017</guid>
     <enclosure type="audio/mpeg" length="19985270" url="DSC-2004-09-01.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Wednesday September 01st 2004</itunes:title>
     <itunes:summary>\nDuration: 00:27:48</itunes:summary>
@@ -201,6 +205,7 @@
     <description>\nDuration: 00:26:03</description>
     <guid isPermaLink="False">#daily-source-code-episode-guid-016</guid>
     <enclosure type="audio/mpeg" length="18728884" url="DSC-2004-08-30.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Monday August 30 2004</itunes:title>
     <itunes:summary>\nDuration: 00:26:03</itunes:summary>
@@ -227,6 +232,7 @@
     <description>\nDuration: 00:15:26</description>
     <guid isPermaLink="False">#daily-source-code-episode-guid-015</guid>
     <enclosure type="audio/mpeg" length="18514157" url="DSC-2004-08-27.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Friday August 27th 2004</itunes:title>
     <itunes:summary>\nDuration: 00:15:26</itunes:summary>
@@ -253,6 +259,7 @@
     <description>mp3 17.6mb, 15 minutes</description>
     <guid isPermaLink="False">http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/08/27.html#a6456</guid>
     <enclosure type="audio/mpeg" length="18514157" url="http://cloud2.urj.nl/gems/dailySourceCode08272004.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Friday August 27 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode08272004.mp3"&gt;mp3&lt;/a&gt;17.6mb, 15 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -286,6 +293,7 @@
     <description>mp3 28mb, 24 minutes\nDuration: 00:17:36</description>
     <guid isPermaLink="False">http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/08/26.html#a6452</guid>
     <enclosure type="audio/mpeg" length="29582761" url="http://cloud2.urj.nl/gems/dailySourceCode08262004.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Thursday August 26 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode08262004.mp3"&gt;mp3&lt;/a&gt;28mb, 24 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -319,6 +327,7 @@
     <description>mp3 20 mb, 17 minutes\nDuration: 00:15:38</description>
     <guid isPermaLink="False">http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/08/25.html#a6447</guid>
     <enclosure type="audio/mpeg" length="21103937" url="http://cloud2.urj.nl/gems/dailySourceCode08252004.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Wednesday August 25 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode08252004.mp3"&gt;mp3&lt;/a&gt;20 mb, 17 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -352,6 +361,7 @@
     <description>mp3 17.8 mb, 15 minutes\nDuration: 00:14:05</description>
     <guid isPermaLink="False">http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/08/24.html#a6436</guid>
     <enclosure type="audio/mpeg" length="18744557" url="http://cloud2.urj.nl/gems/dailySourceCode08242004.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Tuesday August 24 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode08242004.mp3"&gt;mp3&lt;/a&gt;17.8 mb, 15 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -385,6 +395,7 @@
     <description>mp3\nDuration: 00:00:18</description>
     <guid isPermaLink="False">http://www.blognewsnetwork.com/members/0000001/2004/08/23.html#a6429</guid>
     <enclosure type="audio/mpeg" length="16897178" url="http://cloud2.urj.nl/gems/dailySourceCode08232004.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Sunday August 23 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode08232004.mp3"&gt;mp3&lt;/a&gt;</itunes:summary>
@@ -418,6 +429,7 @@
     <description>mp3 9.8 mb, 21 minutes</description>
     <guid isPermaLink="False">http://www.blognewsnetwork.com/members/0000001/2004/08/22.html#a6395</guid>
     <enclosure type="audio/mpeg" length="10305253" url="http://cloud2.urj.nl/gems/dailySourceCode20040822.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Sunday August 22 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode20040822.mp3"&gt;mp3&lt;/a&gt;9.8 mb, 21 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -451,6 +463,7 @@
     <description>mp3 6.8 mb, 14 minutes\nDuration: 00:14:57</description>
     <guid isPermaLink="False">http://www.blognewsnetwork.com/members/0000001/2004/08/21.html#a6384</guid>
     <enclosure type="audio/mpeg" length="7162338" url="http://cloud2.urj.nl/gems/dailySourceCode200408212004.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Saturday August 21 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode200408212004.mp3"&gt;mp3&lt;/a&gt;6.8 mb, 14 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -484,6 +497,7 @@
     <description>mp3, 6.5 mb, 14 minutes\nDuration: 00:14:26</description>
     <guid isPermaLink="False">http://www.blognewsnetwork.com/members/0000001/2004/08/19.html#a6377</guid>
     <enclosure type="audio/mpeg" length="6913390" url="http://cloud2.urj.nl/gems/dailySourceCode20040819.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Thursday August 19 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode20040819.mp3"&gt;mp3&lt;/a&gt;, 6.5 mb, 14 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -517,6 +531,7 @@
     <description>mp3 4.9 mb 10 minutes\nDuration: 00:10:46</description>
     <guid isPermaLink="False">http://www.blognewsnetwork.com/members/0000001/2004/08/18.html#a6370</guid>
     <enclosure type="audio/mpeg" length="5157572" url="http://cloud2.urj.nl/gems/dailySourceCode20040818.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Wednesday August 18 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode20040818.mp3"&gt;mp3&lt;/a&gt;4.9 mb 10 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -550,6 +565,7 @@
     <description>mp3 5.4 mb 14 minutes\nDuration: 00:11:53</description>
     <guid isPermaLink="False">http://www.blognewsnetwork.com/members/0000001/2004/08/17.html#a6365</guid>
     <enclosure type="audio/mpeg" length="5679187" url="http://cloud2.urj.nl/gems/dailySourceCode20040817.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Tuesday August 17th 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode20040817.mp3"&gt;mp3&lt;/a&gt;5.4 mb 14 minutes&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -583,6 +599,7 @@
     <description>mp3 6.5 mb 13 minutes 22 seconds\nDuration: 00:14:20</description>
     <guid isPermaLink="False">http://www.blognewsnetwork.com/members/0000001/2004/08/16.html#a6352</guid>
     <enclosure type="audio/mpeg" length="6845685" url="http://cloud2.urj.nl/gems/dailySourceCode20040816.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Monday August 16 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/gems/dailySourceCode20040816.mp3"&gt;mp3&lt;/a&gt;6.5 mb 13 minutes 22 seconds&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -616,6 +633,7 @@
     <description>mp3 13 minutes, 50 seconds, 6.3 mb\nDuration: 00:13:51</description>
     <guid isPermaLink="False">http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/08/15.html#a6342</guid>
     <enclosure type="audio/mpeg" length="6614480" url="http://cloud2.urj.nl/bt/dailySourceCode-20040815.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Sunday August 15 2004</itunes:title>
     <itunes:summary>&lt;a href="http://freecache.org/http://cloud2.urj.nl/bt/dailySourceCode-20040815.mp3"&gt;mp3&lt;/a&gt;13 minutes, 50 seconds, 6.3 mb&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -649,6 +667,7 @@
     <description>mp3 10 minutes, 4.3 mb\nDuration: 00:10:58</description>
     <guid isPermaLink="False">http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/08/14.html#a6330</guid>
     <enclosure type="audio/mpeg" length="4586819" url="http://cloud2.urj.nl/bt/dailySourceCode-20040814-183227-388.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code for Saturday August 14 2004</itunes:title>
     <itunes:summary>&lt;a href="http://cloud2.urj.nl/bt/dailySourceCode-20040814-183227-388.mp3"&gt;mp3&lt;/a&gt;10 minutes, 4.3 mb&lt;br&gt;&lt;br&gt;</itunes:summary>
@@ -682,6 +701,7 @@
     <description>While on vacation in Sorrento Italy, I was inspired by two audio files my download script had 'plopped' onto my iPod. One was an edition of IT Conversations from OSCON, where Robert Lefkowitz discussed the meaning of source code. The other 'program' was Dave Winer's morning coffee notes about the debates between bloggers and journalists.&lt;br&gt;Today marks the first episode of the Daily Source Code, available through it's own rss feed as an enclosure. [direct download here]</description>
     <guid isPermaLink="False">http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/08/13.html#a6315</guid>
     <enclosure type="audio/mpeg" length="9455188" url="http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3"/>
+    <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>Adam Curry</itunes:author>
     <itunes:title>Daily Source Code</itunes:title>
     <itunes:summary>While on&lt;a href="http://schoolblog.urj.nl/actravel/2004/08/09#a6"&gt;vacation&lt;/a&gt;in Sorrento Italy, I was inspired by two audio files my download script had 'plopped' onto my iPod. One was an edition of IT Conversations from OSCON, where&lt;a href="http://www.itconversations.com/shows/detail169.html"&gt;Robert Lefkowitz&lt;/a&gt;discussed the meaning of source code. The other 'program' was Dave Winer's&lt;a href="http://archive.scripting.com/2004/08/12#When:1:50:22PM"&gt;morning coffee notes&lt;/a&gt;about the debates between bloggers and journalists.&lt;br&gt;&lt;br&gt;&lt;br&gt;Today marks the first episode of the&lt;a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/index.html"&gt;Daily Source Code&lt;/a&gt;, available through it's own&lt;a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml"&gt;rss feed&lt;/a&gt;as an enclosure. [direct download&lt;a href="http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3"&gt;here&lt;/a&gt;]&lt;br&gt;&lt;br&gt;</itunes:summary>
