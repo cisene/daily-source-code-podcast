@@ -19,7 +19,7 @@ ITEMS_PATH = '../yaml/episodes/'
 RSS_PATH = '../daily-source-code.rss'
 
 APPLICATION_NAME = 'MirrorBallLawnmower'
-APPLICATION_VERSION = '0.1'
+APPLICATION_VERSION = '0.2'
 
 
 def writeRSS(filepath, contents):
@@ -206,7 +206,6 @@ def main():
     episode_path = f"{ITEMS_PATH}{episode}"
     print(episode_path)
     item = readYAML(episode_path)
-    #print(item)
 
     elem_item = etree.Element("item", nsmap = nsmap)
 
@@ -215,7 +214,6 @@ def main():
       elem_title.text = str(item['title'])
       elem_item.append(elem_title)
 
-      # <itunes:title>The Thing About Golf: #142 Bill Fields</itunes:title>
       tag_ns = main_config['feed']['xml']['namespaces']['itunes']
       tag_elem = "".join(["{", f"{tag_ns}", "}", f"title"])
       itunes_elem = etree.Element(tag_elem, nsmap = nsmap)
@@ -276,7 +274,6 @@ def main():
 
       tag_ns = main_config['feed']['xml']['namespaces']['itunes']
 
-      # <itunes:episodeType>full</itunes:episodeType>
       tag_elem = "".join(["{", f"{tag_ns}", "}", f"episodeType"])
       itunes_elem = etree.Element(tag_elem, nsmap = nsmap)
       itunes_elem.text = 'full'
@@ -310,10 +307,6 @@ def main():
             itunes_elem.text = truefalseTOtruefalse(item['itunes'][tag])
           else:
             itunes_elem.text = truefalseTOyesno(item['itunes'][tag])
-            #if item['itunes'][tag] == True:
-            #  itunes_elem.text = 'yes'
-            #else:
-            #  itunes_elem.text = 'no'
 
         elem_item.append(itunes_elem)
 
@@ -398,7 +391,6 @@ def main():
                 elem_item.append(podcast_elem)
 
           if tag == "chapters":
-            # <podcast:chapters url="https://example.com/episode1/chapters.json" type="application/json+chapters" />
             ch_attributes = [
               'url',
               'type',
@@ -429,15 +421,6 @@ def main():
                 for attr in sorted(ae_attributes):
                   if ae[attr] != None:
                     podcast_elem.set(attr, str(ae[attr]))
-
-                  #if isinstance(ae['source'], dict) == True:
-                  #  stag_tagname = "source"
-                  #  stag_elem = "".join(["{", f"{tag_ns}", "}", f"{stag_tagname}"])
-                  #  source_elem = etree.Element(stag_elem, nsmap = nsmap)
-                  #  source_elem.set('uri', str(ae['source']['uri']))
-  
-                  #if isinstance(ae['source'], list) == True:
-                  #  print(ae)
 
                     stag_tagname = "source"
                     stag_elem = "".join(["{", f"{tag_ns}", "}", f"{stag_tagname}"])
