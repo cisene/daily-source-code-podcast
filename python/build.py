@@ -79,6 +79,9 @@ def main():
 
 # xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" xmlns:atom="http://www.w3.org/2005/Atom"
 
+# <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Education</media:category>
+# <media:content fileSize="1294326" type="audio/mpeg" url="https://dovetail.prxu.org/1941/5611623f-2c1f-4a9d-8717-c5e33b29d147/30secondsto_mixdown.mp3"/>
+
   nsmap = { }
   for ns in main_config['feed']['xml']['namespaces']:
     if ns not in nsmap:
