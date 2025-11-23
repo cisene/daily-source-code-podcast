@@ -89,7 +89,7 @@ class EpisodeData:
     'location': {
       'geo': None,
       'osm': None,
-      'name': None
+      'name': None,
     },
 
     'person': [
@@ -102,9 +102,9 @@ class EpisodeData:
       }
     ],
 
-    'images': [
+    'images': {
       'href': None,
-    ],
+    },
 
     'chapters': [
       {
