@@ -217,6 +217,27 @@ def readYAML(filepath):
 
   return data
 
+def parseInteger(data):
+  if data == None:
+    return 0
+
+  if data == "":
+    return 0
+
+  value = 0
+  data = re.sub(r"[^\d]", "", str(data), flags=re.IGNORECASE)
+
+  if data == "":
+    return 0
+
+  try:
+    value = int(data, base=10)
+  finally:
+    pass
+
+  return value
+
+
 
 def listRSSfiles(filepath):
   result = []
@@ -813,7 +834,7 @@ def processFiles(filelist):
 
                     item.enclosure['url'] = link['href']
                     item.enclosure['type'] = link['type']
-                    item.enclosure['length'] = link['length']
+                    item.enclosure['length'] = parseInteger(link['length'])
                     
                     altEnclosure = {
                       'type': link['type'],
