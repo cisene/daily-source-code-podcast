@@ -25,7 +25,7 @@ itunes:
   summary: While on<a href="http://schoolblog.urj.nl/actravel/2004/08/09#a6">vacation</a>in Sorrento Italy, I was inspired by two audio files my download script had 'plopped' onto my iPod. One was an edition of IT Conversations from OSCON, where<a href="http://www.itconversations.com/shows/detail169.html">Robert Lefkowitz</a>discussed the meaning of source code. The other 'program' was Dave Winer's<a href="http://archive.scripting.com/2004/08/12#When:1:50:22PM">morning coffee notes</a>about the debates between bloggers and journalists.<br><br><br>Today marks the first episode of the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/index.html">Daily Source Code</a>, available through it's own<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">rss feed</a>as an enclosure. [direct download<a href="http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3">here</a>]<br><br>
   explicit: true
   keywords: adam,delta,curry,rotterdam,sierra,soundseeing,tour
-  duration: 1357
+  duration: 1350
   season: null
   episode: '001'
   image:
@@ -68,25 +68,21 @@ podcast:
     protocol: facebook
     accountId: '@adamcurry'
     accountUrl: https://facebook.com/adamcurry
-
   - uri: https://x.com/adamcurry
     priority: 4
     protocol: twitter
     accountId: '@adamcurry'
     accountUrl: https://x.com/adamcurry
-
   - uri: https://podcastindex.social/web/@dave/108013847520053258
     priority: 1
     protocol: activitypub
     accountId: '@dave'
     accountUrl: https://podcastindex.social/web/@dave
-
   - uri: https://twitter.com/PodcastindexOrg/status/1507120226361647115
     priority: 2
     protocol: twitter
     accountId: '@podcastindexorg'
     accountUrl: https://twitter.com/PodcastindexOrg
-
   alternateEnclosure:
   - type: audio/mpeg
     length: 9455188
@@ -95,7 +91,6 @@ podcast:
     title: Daily Source Code
     source:
       uri: http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp3
-
   - type: video/mpeg
     length: 9455188
     bitrate: 56000
@@ -103,7 +98,9 @@ podcast:
     title: Daily Source Code
     source:
       uri: http://cloud2.urj.nl/bt/dailySourceCode-20040813-112954-082.mp4
-
 fileinfo:
   filename: DSC-2004-08-13.mp3
   size: 9455188
+  duration: 1350.348
+  bitrate: 56000
+  source: 2004/DSC-2004-08-13.mp3
