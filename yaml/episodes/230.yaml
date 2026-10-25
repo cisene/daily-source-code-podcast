@@ -1,7 +1,7 @@
 episode: '230'
 title: Daily Source Code for Monday August 29th 2005
-link: '#daily-source-code-episode-web-230'
-pubDate: '2005-08-29'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/08/29.html#a7124
+pubDate: Mon Aug 29 15:26:22 2005 +0000
 category: podcast
 description: '\nDuration: 00:48:49'
 author: Adam Curry
@@ -9,16 +9,16 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-230'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/08/29.html#a7124
 enclosure:
-  url: DSC-2005-08-29.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-230-2005-08-29/DSC-230-2005-08-29.mp3
   length: 35161040
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday August 29th 2005
   subtitle: null
-  summary: '\nDuration: 00:48:49'
+  summary: <br><iframe src="http://mp3.dailysourcecode.podshow.com/DSC-230-2005-08-29/index.html" scroll="auto" frameborder="0" height="500" width="500"></iframe><br>
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2929
@@ -56,14 +56,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 35161040
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2005-08-29.mp3
+      uri: DSC-2005-08-29.mp3
 fileinfo:
   filename: DSC-2005-08-29.mp3
   size: 35161040

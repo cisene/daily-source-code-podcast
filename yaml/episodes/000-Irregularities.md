@@ -46,14 +46,29 @@ Not fixed, check by hand:
 ## Audio archive
 
 - [ ] 2005-03-29 is missing: `2005/DSC-2005-03-29.mp3.txt` is a saved ".Mac member site not found" page. `2005/DSC-2005-03-30.mp3` is tagged track 29, possibly the 03-29 show under the wrong name (`144` has no file).
-- [ ] `2005/DSC-2005-07-14.mp3.txt` starts with an ID3 tag (`#208 DSC-2005-07-14`) but ffprobe can't read it, probably truncated. `208` has no usable audio.
-- [ ] `255` points at `DSC-255-2005-10-06-JobCast.mp3`, the archive has both `DSC-2005-10-06-JobCast.mp3` and `DSC-2005-10-06.mp3`. Not matched, which one is episode 255?
+- [x] `2005/DSC-2005-07-14.mp3.txt` is truncated: its 15928 bytes are an exact prefix of `http://mp3.dailysourcecode.podshow.com/DSC-2005-07-14.mp3` on Wayback (captures 20060829213100 and 20120314144149, byte identical, 14691527 bytes, decodes to 00:30:30 without errors, tags `#208 DSC-2005-07-14`, "Daily Source Code for July 14th 2005 #208"). `208` now has size, duration and description from that file; `fileinfo.source` is the Wayback URL.
+  - [ ] Recovered file saved as `mp3/2005/DSC-2005-07-14.mp3`, not copied into the archive (read-only). Place it there yourself and rerun `update-episodes-from-audio.py`, which then sets `fileinfo.source` back to the archive path.
+- [x] `255` pointed at `DSC-255-2005-10-06-JobCast.mp3`. The category posts settle it: post #7159 "Daily Source Code for Thursday October 6th 2005 #255" has `DSC-255-2005-10-06.mp3` (49:05), "JobCast" is a post of its own, #7162 (`DSC-255-2005-10-06-JobCast.mp3`, 2:49). `255` now uses the archive `2005/DSC-2005-10-06.mp3`.
 - [ ] `582` matched to `2007/DSC-2007-04-17-repost.mp3`, confirm it is the 2007-04-17 show.
 - [ ] `818` matched to `2009/818 DSC-818-2009-01-2009.mp3` (date in name broken, tags say #818).
 - [ ] `206` (`DSC-206B-2005-07-11.mp3`) and `770` (`DSC-770-2008-06-18.mp3`) matched to `DSC-2005-07-11.mp3` and `DSC-2008-06-18.mp3`.
 - [ ] `Misc/` holds copies of 2005-01-07, 2005-01-10, 2005-01-19 and numbered copies of 259-262, 336 and 867; `Misc/DSC-2005-01-19.mp3` has the title `2DSC-005-01-19`.
 - [x] Durations in the episode yaml were a few seconds off; now replaced by a full decode (e.g. `001` 1357 → 1350, `020` 2469 → 2466).
-- [ ] Probably truncated or damaged, they decode much shorter than their header says: `2005/DSC-2005-10-02.mp3` (44 min short), `2009/DSC-2009-01-09.mp3` (5.6 min), `2009/DSC-2009-01-07.mp3` (1.5 min). The decoded (playable) length is used.
+- [x] `2005/DSC-2005-10-02.mp3` is damaged: same size as `http://mp3.dailysourcecode.podshow.com/DSC-251-2005-10-02.mp3` on Wayback (capture 20120314150914, 46094223 bytes), but the archive copy is zero-filled from byte ~14.9 MB on (31170634 of 31170646 differing bytes are zeros in the archive), so it decodes to 00:20:12. The Wayback copy decodes to 01:04:00 without errors. `251` now has the full duration; `fileinfo.source` is the Wayback URL.
+  - [ ] Recovered file saved as `mp3/2005/DSC-2005-10-02.mp3`, not copied into the archive (read-only). Replacing the archive copy is your call.
+- [x] `2009/DSC-2009-01-07.mp3` and `2009/DSC-2009-01-09.mp3` are **not** damaged. Their header duration is too long (3696 s and 4290 s), but the decoded audio is bit-identical (PCM MD5) to the podshow files on Wayback (`media.podshow.com/media/21/episodes/138688/dailysourcecode-138688-01-07-2009_pshow_283479.mp3`, `…/138821/dailysourcecode-138821-01-08-2009_pshow_283673.mp3`, captures 2013-06-16/17, which have the same wrong header). The decoded length (01:00:09, 01:05:54) is right.
+- [ ] `815`: file and title say 2009-01-09, the feed item is titled `DSC-815-2009-01-09` but its enclosure is `dailysourcecode-138821-01-08-2009.mp3`, pubDate `Thu, 08 Jan 2009 11:48:44 -0800`, and the mp3 tag title is `DSC-815-2009-01-07`. Which date is the episode date?
+- [x] `homepage.mac.com/dailysourcecode/` on Wayback, all captures with status 200: 30 complete show mp3s from 2004-12 .. 2005-09. Each archive copy decodes without errors to the right length, so none were downloaded. The OPML there (ipodder directories, podSquad) is already in `opml/`. Only `DSC-2005-04-19.mp3` is missing from the archive; see below.
+- [x] `curry.com/xml/rss.xml` on Wayback: 28 captures, 2001-07 .. 2008-05, saved in `rss/` (`curry-com-xml-rss-*.xml`); the 2005-07-17 capture was a "Server Maintenance" page. Manila's feed for curry.com: the DSC items carry no `pubDate`, their guids are curry.com permalinks (`http://www.curry.com/2005/07/28#a41850`), and the enclosures are the same as in the radio.weblogs feeds. Only two enclosures are new, neither a DSC show: No Agenda `NA-030-2008-05-10` and a Trucker Tom promo.
+- [x] `dailysourcecode.com` on Wayback (212 captures) is the PodShow/Mevio show site: page backgrounds and banners, listener thumbnails, `/feed.xml` of 2007-10-20 (the same date as `rss/feed-2007-10-20.xml`), and 2008-09 .. 2009-02 player pages for single episodes. It holds nothing for the episodes still missing data.
+- [ ] Episode artwork: the 2010-2011 items link per-episode art (for example `http://www.curryscloud.com/shownotes/dsc860Art.png`), and the Mevio items have `itunes:image`. Not collected yet.
+- [ ] Media on Wayback that the archive does not have, saved under `mp3/<host>/<original path>`:
+  - `mp3/homepage.mac.com/dailysourcecode/DSC/DSC-2005-04-19.mp3`: tags `DSC-2005-04-19`, album "A quick update from Utrecht", 12:10 (decodes to 11:59 with "Header missing" errors, capture 2005-11-12). Not posted in the Daily Source Code category (#162 is 2005-04-18, #163 2005-04-21) and no archive file for that day: an unpublished or differently published show?
+  - Trade Secrets (Dave & Adam): `mp3/cloud2.urj.nl/gems/TS-2004-09-22.mp3` ("Twinkies & Netflix", post #32 in the numbering), `mp3/homepage.mac.com/adamcurry/TS/TS-2004-09-25.mp3` ("voip setups sux"), `TS-2004-09-28.mp3` ("xten sipcall and 'leakage'").
+  - `mp3/homepage.mac.com/adamcurry/gems/ipodder.mp4` (the DSC Commercial, post #51), `mp3/homepage.mac.com/adamcurry/Default/podcastDefaultWelcome.mp3`, `mp3/homepage.mac.com/adamcurry/gems/to-adam-from-dawn.mp3` (Dawn and Drew, 2004).
+  - 25 files from `mp3.dailysourcecode.podshow.com` in `mp3/mp3.dailysourcecode.podshow.com/`: segments played in #236-#238 (Katrina PSAs, promos, podsafe tracks, HitTest #57), `podshowXmas1-3.mp3`, `xmasPodshow4-5.mp3`, `DSC-VMC-1-2006-03-02.m4v` (DSC Video Music Podcast #1, post #7263), `MyDesktopVideoPodcast.mp4` (post #7282), `EGTF-EHRD-inflight.MP4`, `the_message.mp3.mpg`.
+  - 17 original uploads from `adam.opml.org` (2004-11-13 .. 12-15, Wayback captures 2004-11/12) in `mp3/adam.opml.org/`. Each decodes to the same audio as the archive copy (PCM MD5), with no decode errors; only the tags differ (the archive copies were re-tagged later: iTunNORM, grouping). They are kept as the files as published. The 2004-11-11 capture was truncated (the first 24 minutes, identical to the archive) and was not kept.
+  - Not saved: `static2.podcatch.com/blogs/gems/snedit/` (Dave Winer's).
 - [ ] `018` had size 32195843 (another copy of the file?), now the size of the archive `DSC-2004-09-03.mp3`, 27984382, the same file as `019`.
 
 ### Archive files not used by any episode
@@ -103,8 +118,59 @@ Other shows found in the archive and feed: DevCast 1-6 (2006), PPP-2005-03-13, P
   - `395`: its title and post #7326 say Tuesday May 30th 2006, but the enclosure is `deltasierracharl-5745-05-29-2006.mp3`
   
   Recorded or published a day apart, to check.
-- [ ] No posts on Wayback for 2005-09-24 .. 2005-10-02, 2005-11-07 .. 09 and 2006-03-22 .. 24: the captured day pages are empty shells. These stay RSS hunting periods, together with 2007-03-20 .. 23 and 2010-12 .. 2011-05.
+- [x] No posts on Wayback for 2005-09-24 .. 2005-10-02, 2005-11-07 .. 09 and 2006-03-22 .. 24: filled from the live mirror, see below.
+- [ ] **222 more episodes filled from the live mirror `http://radio-weblogs.com/0001014/`** (a static copy of radio.weblogs.com, last updated 2009-02-16): `json/dsc-posts-mirror.json`, 302 category posts not in the other post files, `source` is the mirror URL. The pages are saved in `html/radio-weblogs.com/0001014/categories/dailySourceCode/` (504 day pages with posts).
+  - 2005-06 .. 2006-06 with `dc:date` (pubDate), 2007-10 and 2008-03 .. 2009-02 (#665 .. #821) without (that template has no RDF, no pubDate written).
+  - 2006-06 .. 2008-02 (except 2007-10): 337 day pages exist but say `[Macro error: The file "2006" wasn't found.]`, the posts were gone when Radio rerendered them in 2008. Radio only writes day pages for days with a post, so these dates are DSC post days without content.
+  - A show posted twice or with an extra on the same day: the post titled "Daily Source Code for …" is used (`239` #7133 not the RePod #7134, `255` #7159 not JobCast #7162, `310` #7222 not DSC-310-v2 #7224, `739` #354 not the Special Announcement #355).
+  - Not filled, dates disagree: `222` (title 2005-08-13, file 2005-08-22, post #7116 has `DSC-222-2005-08-13.mp3`: `222` points at the 08-22 show, which is #225, and the archive `DSC-2005-08-13.mp3` is unused), `357` (post #7276 "Tuesday March 20th", enclosure 03-21), `374`/`375` (posts "April 25th"/"26th", enclosures 04-26/04-27), `668` (post #286 "October 8th 2007", enclosure 10-09), `793` (post #410 "September 23d 2008", enclosure 09-26: title copied from #792?).
+  - Stated numbers that differ from the yaml number: `750` post titled #749, `756` titled #755.
+- [ ] **440 episodes filled from the feed item extracts `rss/episodes/NNN.yaml`** by `python/update-episodes-from-extracts.py`. The extracts come from `update-episodes-from-rss.py`, whose `EPISODE_DIR` typo (`../yaml/epsodes/`) meant it never wrote episode yaml. They are numbered by feed order and drift from the show numbers (extract `019` is show `020` …), so they are matched by date. Only placeholders were replaced: `link`, `guid` (317 + 3 episodes), the `pubDate` timestamp in all three places (406), and the `enclosure`/`alternateEnclosure` url. Enclosure lengths stay the archive size, and descriptions were not touched.
+  - From 2006 on the enclosure url carries the upload day, often a day off the show. 30 items matched no archive date and were matched by the date in their title, which agrees with the episode title in all 30 cases: `450` `474` `529` `574` `579` `581` `618` `669` `682` `683` `692` `693` `699` `714` `794` `797` `800` `843` `847` `850` `851` `852` `853` `855` `857` `858` `861` `863` `864` `865`.
+  - `862`: the item `dailysourcecode-280880-05-15-2011.mp3` is titled "Daily Source Code for Tuesday April 16 3011", a typo for 2011 (`TITLE_FIXES` in the script). It was matched by that date. It was published on 2011-05-15 13:38:50 GMT, a month after the show and on the same day as `863` (`280882`). Its published link keeps the typo (`…/dsc-862-3011-04-16`) and was left as published. The item title is not used by the script; the episode title is unchanged.
+  - **Corrected by the archive tags.** From 2006 on, the archive files carry the original post in their tags (TDES/comment), including "Direct link to the show", and often the item guid (TGID). `python/archive-tag-enclosures.py` lists these in `json/dsc-archive-tag-enclosures.json` (480 files; only `ffprobe` reads the archive). The first date-only pass had put a neighbouring show's item on several episodes, one show off, because Adam often uploaded the evening before. These are now matched by the tags: `561` `562` `583`-`590` `668` `695` `696`, and `408` `565` `582` `617` `680` `681` (the 2006-06-21 and 2007-03-20/04-17/04-26/11-01 double dates). The tag counts only when the file's title number (or else the item's stated "#NNN" or title date) agrees.
+  - `670` was matched by the item's stated "#670" (its tags name it only by id). `815` and `818` were matched by tags only: the items are titled January 8 and January 19 2009, the episodes January 9 and January 20.
+  - `489`: `DSC-2006-10-31.mp3` is tagged "#489 Daily Source Code for Tuesday October 31st 2006", but its embedded post and size (1354 bytes off the published length) are the 2006-11-02 item `34546`, so `489` now has that item. The 2006-10-31 item `34146` is `DSC-2006-10-31-1.mp3` (tagged #488, 1674 bytes off), which no episode uses. `488` is an old format stub.
+  - Not corrected: `629` (`DSC-2007-07-05.mp3` is titled #629, but its tags hold #628's post, copied over; it keeps item `69430`, titled July 5), `750`/`756` (see below), and `121` `129` `132` `135` (2005 tags that link other shows).
+  - **Feed items for shows that are in the archive but have no episode yaml.** These were compared by size; the 2004/2005 files were published unchanged:
+
+    | Item | Archive file | Evidence | Episode |
+    |---|---|---|---|
+    | `DSC-2004-11-02.mp3` | `2004/DSC-2004-11-02.mp3` | same size | none |
+    | `DSC-2004-11-10.mp3` | `2004/DSC-2004-11-10.mp3` | same size | none |
+    | `DSC20041117.mp3` | `2004/DSC-2004-11-17.mp3` | same size, same audio as the adam.opml.org copy | none |
+    | `DSC-2005-03-02.mp3` | `2005/DSC-2005-03-02.mp3` | same size | none (`129` is titled 03-02 but holds 03-25) |
+    | `DSC-2005-03-03.mp3` | `2005/DSC-2005-03-03.mp3` | same size | none |
+    | `DSC-2005-05-06.mp3` | `2005/DSC-2005-05-06.mp3` | 193 bytes off | none |
+    | `DSC-222-2005-08-13.mp3` | `2005/DSC-2005-08-13.mp3` | 46645 bytes off (re-tagged as #222) | `222` holds 08-22 |
+    | `dailysourcecode-34146` (2006-10-31) | `2006/DSC-2006-10-31-1.mp3` | tags #488 and the post, 1674 bytes | `488` stub |
+    | `dailysourcecode-52931` (titled March 8 2007) | `2007/DSC-2007-03-07.mp3` | tags #558 and the post, 1864 bytes | `558` stub |
+    | `dailysourcecode-109679` (2008-04-23) | `2008/DSC-2008-04-25.mp3` | tags #750 and the post | `750` holds `DSC-2008-04-18.mp3`, tagged #749 (item `108360`); `749` is a stub |
+    | `dailysourcecode-111715` (2008-05-09) | `2008/DSC-2008-05-07-1.mp3` | tags #756 and the post | `756` holds `DSC-2008-05-07.mp3`, tagged #755 (item `111444`); `755` is a stub |
+    | `dailysourcecode-137717` (2008-12-28) | `2008/DSC-2008-12-28.mp3` | tags "#813 … Sunday December 28th 2008", 7607 bytes | `813` holds `DSC-2008-12-31.mp3`, also tagged #813 ("DSC Year End Special 12-31-2008"): Adam numbered both #813 |
+    | `dailysourcecode-143729` (2009-02-16) | `2009/821 It's Getting Hot In Here.mp3` | track 821, TGID is the item URL, 10574 bytes | `821` stub |
+
+    Also `2007/DSC-2007-06-19.mp4` is tagged "#621 Daily Source Code VIDEO for Tuesday June 19th 2007" (`621` is a stub). The duplicates `014`/`015` (2004-08-27), `018`/`019` (2004-09-03) and `130`/`146` (2005-03-31) match their items by exact size. Making episodes for these waits on the renumbering decision.
+  - Still unmatched: `DSC-2005-03-29.mp3`, the broken enclosure of `145`.
+  - Descriptions: 23 episodes still had a placeholder description although their feed item has show notes: `216`-`218`, `222` (the notes of the 08-22 file it holds), `836` `837` `839` `841`-`848` `850`-`853` `855` `857` `858` `860`. They now have the item's description and summaries, filled the same way as from posts. Still without a description: the 2010 shows whose items were not saved (`838` `849` `854`), `867`, the stubs, and the duplicates `015` `019` `130` `146`.
+  - `813`: the extract `rss/episodes/813.5.yaml` (item `138006`, 2008-12-31) had been skipped by the file glob. It now fills `813`, whose file is tagged "#813 DSC Year End Special 12-31-2008".
+- [x] `podcast.alternateEnclosure` is a list, one entry per source. 817 episodes had the stub generator's single mapping with a list of uris; rewritten as the list (bitrate `None000` emptied). `update-episodes-from-audio.py` now does the same when it meets the old shape.
+- [x] Stub generator bug: on days where month and day are equal (07-07, 08-08, 12-12 …) `alternateEnclosure` held the month-end show's file and length (`204` had `DSC-2005-07-29.mp3`, 21178506 bytes, #217's). Fixed in 24 episodes (`023` `058` `111` `162` `179` `204` `221` `238` `257` `277` `296` `346` `381` `400` `437` `538` `576` `630` `699` `730` `743` `766` `781` `788`), now the episode's own enclosure with the measured length.
 - [ ] `145` (2005-03-30): the post's own enclosure was broken. `enclosure.url` now points at `DSC-2005-03-30.mp3`, the file linked from the same post on the day page. The summary keeps the published body, which still links `DSC-2005-03-29.mp3`.
+
+
+
+## Show notes (`shownotes/`)
+
+- [x] Show notes are kept as OPML only. The HTML renderings found on Wayback were distilled to OPML with `python/opml-from-html.py`, then removed (they remain in git history and on Wayback).
+- [x] Original OPML found on Wayback:
+  - 2004-11-01, 11-02, 11-03, 11-29 and 12-16 from blognewsnetwork.com/members/0000001/opml/ (the earliest capture; later captures are parked-domain pages).
+  - 2004-11-22, 11-23, 11-24, 11-30, 12-01 and 12-03 from live.curry.com/opml/.
+  - 2005-08-31 .. 09-12 from mp3.dailysourcecode.podshow.com (OmniOutliner).
+- [x] `opml-from-html.py` was checked on the 17 dates that had both a rendering and the original OPML. All 3,113 nodes come back identical (text, depth, links, empty nodes, MacRoman bytes) except on 2004-11-22: there the OPML was edited after the rendering was captured (rendering 11-25, OPML 12-04), and 3 nodes differ (`\'` escapes and `&lt;outlines&gt;` from a comment form). The earlier state is kept as `2004/DSC-2004-11-22-20041125.opml`. Lost in a rendering: Radio's song attributes (artist, album, `f`, `sizeFile`, `whenFileCreated`) and `#title`.
+- [x] Rebuilt from a rendering, because no original OPML was found: 2004-11-05, 11-09, 11-10, 11-11, 11-15, 2005-08-29 and 08-30. Each starts with a `<!-- Reconstructed from the … HTML … -->` comment. NUL characters are left out; they are also in Radio's own OPML, which makes those files invalid XML.
+- [ ] 2004-11-11: the renderer wrote `Casta"eda` (Castañeda), the original byte is lost.
+- [ ] Of the Radio OPML originals, only 11-24 and 12-03 are valid XML. The others carry NUL and MacRoman control bytes as Radio wrote them, and were kept unchanged.
 
 
 

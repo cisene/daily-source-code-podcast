@@ -1,7 +1,7 @@
 episode: '500'
 title: Daily Source Code for Monday November 20 2006
-link: '#daily-source-code-episode-web-500'
-pubDate: '2006-11-20'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/11/20.html#a111
+pubDate: Mon Nov 20 15:44:14 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -35,9 +35,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-500'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/11/20.html#a111
 enclosure:
-  url: DSC-2006-11-20.mp3
+  url: http://m.podshow.com/media/21/episodes/37957/dailysourcecode-37957-11-20-2006.mp3
   length: 25078967
   type: audio/mpeg
 itunes:
@@ -108,14 +108,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 25078967
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-11-20.mp3
+      uri: http://m.podshow.com/media/21/episodes/37957/dailysourcecode-37957-11-20-2006.mp3
 fileinfo:
   filename: DSC-2006-11-20.mp3
   size: 25078967

@@ -110,14 +110,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
-    length: 28024236
-    bitrate: '96000'
+  - type: audio/mpeg
+    length: 64319367
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-03-31.mp3
+      uri: http://mp3.dailysourcecode.podshow.com/DSC-346-2006-03-03e.mp3
 fileinfo:
   filename: DSC-2006-03-03.mp3
   size: 64319367

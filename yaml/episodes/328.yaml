@@ -1,7 +1,7 @@
 episode: '328'
 title: Daily Source Code for Wednesday February 01st 2006
-link: '#daily-source-code-episode-web-328'
-pubDate: '2006-02-01'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/01.html#a7245
+pubDate: Wed Feb  1 13:59:40 2006 +0000
 category: podcast
 description: |-
   - 02_Skimming
@@ -33,9 +33,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-328'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/01.html#a7245
 enclosure:
-  url: DSC-2006-02-01.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-328-2006-02-01z.mp3
   length: 41493449
   type: audio/mpeg
 itunes:
@@ -104,14 +104,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 41493449
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-02-01.mp3
+      uri: DSC-2006-02-01.mp3
 fileinfo:
   filename: DSC-2006-02-01.mp3
   size: 41493449

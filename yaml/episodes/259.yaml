@@ -1,7 +1,7 @@
 episode: '259'
 title: Daily Source Code for Thursday October 13rd 2005
-link: '#daily-source-code-episode-web-259'
-pubDate: '2005-10-13'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/13.html#a7167
+pubDate: Thu Oct 13 01:38:53 2005 +0000
 category: podcast
 description: 'Copyright PodShow, Inc. 2005 adam@curry.com dailysourcecode.com\nDuration: 00:49:10'
 author: Adam Curry
@@ -9,9 +9,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-259'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/13.html#a7167
 enclosure:
-  url: DSC-2005-10-13.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-259-2005-10-13.mp3
   length: 35438943
   type: audio/mpeg
 itunes:
@@ -56,14 +56,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 35438943
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2005-10-13.mp3
+      uri: DSC-2005-10-13.mp3
 fileinfo:
   filename: DSC-2005-10-13.mp3
   size: 35438943

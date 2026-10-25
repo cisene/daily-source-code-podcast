@@ -1,7 +1,7 @@
 episode: '375'
 title: Daily Source Code for Thursday April 27th 2006
-link: '#daily-source-code-episode-web-375'
-pubDate: '2006-04-27'
+link: http://radio.weblogs.com/0001014/2006/04/27.html#a7305
+pubDate: Thu Apr 27 14:04:11 2006 +0000
 category: podcast
 description: |-
   - 01_Crank_It_Out!
@@ -25,9 +25,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-375'
+  link: http://radio.weblogs.com/0001014/2006/04/27.html#a7305
 enclosure:
-  url: DSC-2006-04-27.mp3
+  url: http://m.podshow.com/media/21/episodes/4542/deltasierracharl-4542-04-27-2006.mp3
   length: 35107859
   type: audio/mpeg
 itunes:
@@ -88,14 +88,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 35107859
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-04-27.mp3
+      uri: http://m.podshow.com/media/21/episodes/4542/deltasierracharl-4542-04-27-2006.mp3
 fileinfo:
   filename: DSC-2006-04-27.mp3
   size: 35107859

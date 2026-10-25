@@ -1,7 +1,7 @@
 episode: '414'
 title: Daily Source Code for Thursday June 29th 2006
-link: '#daily-source-code-episode-web-414'
-pubDate: '2006-06-29'
+link: http://curry.podshow.com/?p=204
+pubDate: Thu Jun 29 12:38:17 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -20,9 +20,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-414'
+  link: http://curry.podshow.com/?p=204
 enclosure:
-  url: DSC-2006-06-29.mp3
+  url: http://m.podshow.com/media/21/episodes/8198/deltasierracharl-8198-06-29-2006.mp3
   length: 25795577
   type: audio/mpeg
 itunes:
@@ -78,14 +78,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 25795577
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-06-29.mp3
+      uri: http://m.podshow.com/media/21/episodes/8198/deltasierracharl-8198-06-29-2006.mp3
 fileinfo:
   filename: DSC-2006-06-29.mp3
   size: 25795577

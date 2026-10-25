@@ -1,7 +1,7 @@
 episode: '864'
 title: Daily Source Code for Thursday April 26th 2012
-link: '#daily-source-code-episode-web-864'
-pubDate: '2012-04-26'
+link: http://www.mevio.com/episode/314065/dsc-864-2012-04-26
+pubDate: Fri Apr 27 05:36:20 2012 +0000
 category: podcast
 description: |-
   Daily Source Code for Thursday April 26th 2012
@@ -24,9 +24,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-864'
+  link: http://www.mevio.com/episode/314065/dsc-864-2012-04-26
 enclosure:
-  url: DSC-2012-04-26.mp3
+  url: http://m.podshow.com/media/21/episodes/314065/dailysourcecode-314065-04-27-2012.mp3
   length: 106233165
   type: audio/mpeg
 itunes:
@@ -86,14 +86,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 106233165
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2012-04-26.mp3
+      uri: http://m.podshow.com/media/21/episodes/314065/dailysourcecode-314065-04-27-2012.mp3
 fileinfo:
   filename: DSC-2012-04-26.mp3
   size: 106233165

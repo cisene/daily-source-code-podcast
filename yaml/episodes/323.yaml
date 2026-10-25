@@ -1,7 +1,7 @@
 episode: '323'
 title: Daily Source Code for Wednesday January 25th 2006
-link: '#daily-source-code-episode-web-323'
-pubDate: '2006-01-25'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/25.html#a7238
+pubDate: Wed Jan 25 15:22:54 2006 +0000
 category: podcast
 description: |-
   - sunshine
@@ -28,9 +28,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-323'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/25.html#a7238
 enclosure:
-  url: DSC-2006-01-25.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-323-2006-01-25a.mp3
   length: 34836740
   type: audio/mpeg
 itunes:
@@ -94,14 +94,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 34836740
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-01-25.mp3
+      uri: DSC-2006-01-25.mp3
 fileinfo:
   filename: DSC-2006-01-25.mp3
   size: 34836740

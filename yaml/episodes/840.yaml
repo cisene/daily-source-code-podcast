@@ -1,7 +1,7 @@
 episode: '840'
 title: Daily Source Code for Friday July 30 2010
-link: '#daily-source-code-episode-web-840'
-pubDate: '2010-07-30'
+link: http://www.mevio.com/episode/242485/dsc-840-2010-07-30
+pubDate: Fri Jul 30 21:16:40 2010 +0000
 category: podcast
 description: |-
   #840 Adam Curry's Daily Source Code for Friday July 30th 2010
@@ -25,9 +25,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-840'
+  link: http://www.mevio.com/episode/242485/dsc-840-2010-07-30
 enclosure:
-  url: DSC-2010-07-30.mp3
+  url: http://m.podshow.com/media/21/episodes/242485/dailysourcecode-242485-07-30-2010.mp3
   length: 131239901
   type: audio/mpeg
 itunes:
@@ -88,14 +88,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 131239901
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2010-07-30.mp3
+      uri: http://m.podshow.com/media/21/episodes/242485/dailysourcecode-242485-07-30-2010.mp3
 fileinfo:
   filename: DSC-2010-07-30.mp3
   size: 131239901

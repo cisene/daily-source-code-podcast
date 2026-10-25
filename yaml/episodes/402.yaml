@@ -1,7 +1,7 @@
 episode: '402'
 title: Daily Source Code for Friday June 09th 2006
-link: '#daily-source-code-episode-web-402'
-pubDate: '2006-06-09'
+link: http://curry.podshow.com/?p=177
+pubDate: Fri Jun  9 16:10:23 2006 +0000
 category: podcast
 description: |-
   #402 Daily Source Code for Friday June 9th 2006
@@ -20,9 +20,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-402'
+  link: http://curry.podshow.com/?p=177
 enclosure:
-  url: DSC-2006-06-09.mp3
+  url: http://m.podshow.com/media/21/episodes/7292/deltasierracharl-7292-06-09-2006.mp3
   length: 24220467
   type: audio/mpeg
 itunes:
@@ -78,14 +78,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 24220467
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-06-09.mp3
+      uri: http://m.podshow.com/media/21/episodes/7292/deltasierracharl-7292-06-09-2006.mp3
 fileinfo:
   filename: DSC-2006-06-09.mp3
   size: 24220467

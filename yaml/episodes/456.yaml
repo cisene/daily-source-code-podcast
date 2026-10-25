@@ -1,7 +1,7 @@
 episode: '456'
 title: Daily Source Code for Wednesday September 06th 2006
-link: '#daily-source-code-episode-web-456'
-pubDate: '2006-09-06'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/09/06.html#a66
+pubDate: Wed Sep  6 13:25:40 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -38,9 +38,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-456'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/09/06.html#a66
 enclosure:
-  url: DSC-2006-09-06.mp3
+  url: http://m.podshow.com/media/21/episodes/24939/dailysourcecode-24939-09-06-2006.mp3
   length: 26082913
   type: audio/mpeg
 itunes:
@@ -114,14 +114,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 26082913
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-09-06.mp3
+      uri: http://m.podshow.com/media/21/episodes/24939/dailysourcecode-24939-09-06-2006.mp3
 fileinfo:
   filename: DSC-2006-09-06.mp3
   size: 26082913

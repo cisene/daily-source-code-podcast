@@ -1,7 +1,7 @@
 episode: '565'
 title: Daily Source Code for Tuesday March 20 2007
-link: '#daily-source-code-episode-web-565'
-pubDate: '2007-03-20'
+link: http://curry.podshow.com/?p=568
+pubDate: Tue Mar 20 12:23:02 2007 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -28,9 +28,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-565'
+  link: http://curry.podshow.com/?p=568
 enclosure:
-  url: DSC-2007-03-20.mp3
+  url: http://m-uk.podshow.com/media/21/episodes/54518/dailysourcecode-54518-03-20-2007.mp3
   length: 28563289
   type: audio/mpeg
 itunes:
@@ -94,14 +94,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 28563289
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2007-03-20.mp3
+      uri: http://m-uk.podshow.com/media/21/episodes/54518/dailysourcecode-54518-03-20-2007.mp3
 fileinfo:
   filename: DSC-2007-03-20.mp3
   size: 28563289

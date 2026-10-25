@@ -1,7 +1,7 @@
 episode: '482'
 title: Daily Source Code for Friday October 20 2006
-link: '#daily-source-code-episode-web-482'
-pubDate: '2006-10-20'
+link: http://curry.podshow.com/?p=341
+pubDate: Fri Oct 20 15:40:30 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -42,9 +42,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-482'
+  link: http://curry.podshow.com/?p=341
 enclosure:
-  url: DSC-2006-10-20.mp3
+  url: http://m.podshow.com/media/21/episodes/32190/dailysourcecode-32190-10-20-2006.mp3
   length: 30395610
   type: audio/mpeg
 itunes:
@@ -122,14 +122,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 30395610
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-10-20.mp3
+      uri: http://m.podshow.com/media/21/episodes/32190/dailysourcecode-32190-10-20-2006.mp3
 fileinfo:
   filename: DSC-2006-10-20.mp3
   size: 30395610

@@ -1,7 +1,7 @@
 episode: '207'
 title: Daily Source Code for Wednesday July 13rd 2005
-link: '#daily-source-code-episode-web-207'
-pubDate: '2005-07-13'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/13.html#a7100
+pubDate: Wed Jul 13 14:40:08 2005 +0000
 category: podcast
 description: 'Daily Source Code for July 13th 2005 #207\nDuration: 00:36:05'
 author: Adam Curry
@@ -9,9 +9,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-207'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/13.html#a7100
 enclosure:
-  url: DSC-2005-07-13.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-2005-07-13.mp3
   length: 17358733
   type: audio/mpeg
 itunes:
@@ -56,14 +56,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 17358733
-    bitrate: '64000'
+    bitrate: 64000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2005-07-13.mp3
+      uri: DSC-2005-07-13.mp3
 fileinfo:
   filename: DSC-2005-07-13.mp3
   size: 17358733

@@ -1,7 +1,7 @@
 episode: '865'
 title: Daily Source Code for Thursday May 24th 2012
-link: '#daily-source-code-episode-web-865'
-pubDate: '2012-05-24'
+link: http://www.mevio.com/episode/315568/dsc-865-2012-05-24
+pubDate: Fri May 25 16:09:28 2012 +0000
 category: podcast
 description: |-
   #865 Dail Source Code for Thursday May 24th 2012
@@ -19,9 +19,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-865'
+  link: http://www.mevio.com/episode/315568/dsc-865-2012-05-24
 enclosure:
-  url: DSC-2012-05-24.mp3
+  url: http://m.podshow.com/media/21/episodes/315568/dailysourcecode-315568-05-25-2012.mp3
   length: 104177610
   type: audio/mpeg
 itunes:
@@ -76,14 +76,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 104177610
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2012-05-24.mp3
+      uri: http://m.podshow.com/media/21/episodes/315568/dailysourcecode-315568-05-25-2012.mp3
 fileinfo:
   filename: DSC-2012-05-24.mp3
   size: 104177610

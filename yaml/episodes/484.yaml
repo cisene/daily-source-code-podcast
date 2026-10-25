@@ -1,7 +1,7 @@
 episode: '484'
 title: Daily Source Code for Tuesday October 24th 2006
-link: '#daily-source-code-episode-web-484'
-pubDate: '2006-10-24'
+link: http://curry.podshow.com/?p=345
+pubDate: Tue Oct 24 12:01:08 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -38,9 +38,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-484'
+  link: http://curry.podshow.com/?p=345
 enclosure:
-  url: DSC-2006-10-24.mp3
+  url: http://m.podshow.com/media/21/episodes/32781/dailysourcecode-32781-10-24-2006.mp3
   length: 22880006
   type: audio/mpeg
 itunes:
@@ -114,14 +114,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 22880006
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-10-24.mp3
+      uri: http://m.podshow.com/media/21/episodes/32781/dailysourcecode-32781-10-24-2006.mp3
 fileinfo:
   filename: DSC-2006-10-24.mp3
   size: 22880006

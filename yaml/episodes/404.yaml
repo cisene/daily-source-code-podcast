@@ -1,7 +1,7 @@
 episode: '404'
 title: Daily Source Code for Thursday June 15th 2006
-link: '#daily-source-code-episode-web-404'
-pubDate: '2006-06-15'
+link: http://curry.podshow.com/?p=184
+pubDate: Thu Jun 15 15:34:58 2006 +0000
 category: podcast
 description: |-
   #404 Daily Source Code for Thursday June 15th 2006
@@ -38,9 +38,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-404'
+  link: http://curry.podshow.com/?p=184
 enclosure:
-  url: DSC-2006-06-15.mp3
+  url: http://m.podshow.com/media/21/episodes/7668/deltasierracharl-7668-06-15-2006.mp3
   length: 34771916
   type: audio/mpeg
 itunes:
@@ -114,14 +114,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 34771916
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-06-15.mp3
+      uri: http://m.podshow.com/media/21/episodes/7668/deltasierracharl-7668-06-15-2006.mp3
 fileinfo:
   filename: DSC-2006-06-15.mp3
   size: 34771916

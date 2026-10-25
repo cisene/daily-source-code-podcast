@@ -1,7 +1,7 @@
 episode: '861'
 title: Daily Source Code for Friday April 01st 2011
-link: '#daily-source-code-episode-web-861'
-pubDate: '2011-04-01'
+link: http://www.mevio.com/episode/275399/dsc-861-2011-04-01
+pubDate: Sat Apr  2 15:13:55 2011 +0000
 category: podcast
 description: |-
   #861 The Daily Source Code for Friday April 1st 2011
@@ -15,9 +15,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-861'
+  link: http://www.mevio.com/episode/275399/dsc-861-2011-04-01
 enclosure:
-  url: DSC-2011-04-01.mp3
+  url: http://m.podshow.com/media/21/episodes/275399/dailysourcecode-275399-04-02-2011.mp3
   length: 124340679
   type: audio/mpeg
 itunes:
@@ -68,14 +68,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 124340679
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2011-04-01.mp3
+      uri: http://m.podshow.com/media/21/episodes/275399/dailysourcecode-275399-04-02-2011.mp3
 fileinfo:
   filename: DSC-2011-04-01.mp3
   size: 124340679

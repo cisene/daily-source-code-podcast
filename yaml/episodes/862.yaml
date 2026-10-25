@@ -1,7 +1,7 @@
 episode: '862'
 title: Daily Source Code for Saturday April 16th 2011
-link: '#daily-source-code-episode-web-862'
-pubDate: '2011-04-16'
+link: http://www.mevio.com/episode/280880/dsc-862-3011-04-16
+pubDate: Sun May 15 13:38:50 2011 +0000
 category: podcast
 description: |-
   #862 Adam Curry's Daily Source Code for Saturday April 16th 2011
@@ -11,9 +11,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-862'
+  link: http://www.mevio.com/episode/280880/dsc-862-3011-04-16
 enclosure:
-  url: DSC-2011-04-16.mp3
+  url: http://m.podshow.com/media/21/episodes/280880/dailysourcecode-280880-05-15-2011.mp3
   length: 107862936
   type: audio/mpeg
 itunes:
@@ -60,14 +60,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 107862936
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2011-04-16.mp3
+      uri: http://m.podshow.com/media/21/episodes/280880/dailysourcecode-280880-05-15-2011.mp3
 fileinfo:
   filename: DSC-2011-04-16.mp3
   size: 107862936

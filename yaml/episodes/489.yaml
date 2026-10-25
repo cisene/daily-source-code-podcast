@@ -1,7 +1,7 @@
 episode: '489'
 title: Daily Source Code for Tuesday October 31st 2006
-link: '#daily-source-code-episode-web-489'
-pubDate: '2006-10-31'
+link: http://curry.podshow.com/?p=355
+pubDate: Thu Nov  2 12:27:01 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -38,9 +38,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-489'
+  link: http://curry.podshow.com/?p=355
 enclosure:
-  url: DSC-2006-10-31.mp3
+  url: http://m.podshow.com/media/21/episodes/34546/dailysourcecode-34546-11-02-2006.mp3
   length: 29833104
   type: audio/mpeg
 itunes:
@@ -114,14 +114,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 29833104
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-10-31.mp3
+      uri: http://m.podshow.com/media/21/episodes/34546/dailysourcecode-34546-11-02-2006.mp3
 fileinfo:
   filename: DSC-2006-10-31.mp3
   size: 29833104

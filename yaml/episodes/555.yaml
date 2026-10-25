@@ -1,7 +1,7 @@
 episode: '555'
 title: Daily Source Code for Thursday March 01st 2007
-link: '#daily-source-code-episode-web-555'
-pubDate: '2007-03-01'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2007/03/01.html#a172
+pubDate: Thu Mar  1 09:17:13 2007 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -39,9 +39,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-555'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2007/03/01.html#a172
 enclosure:
-  url: DSC-2007-03-01.mp3
+  url: http://m.podshow.com/media/21/episodes/52068/dailysourcecode-52068-03-01-2007.mp3
   length: 27540019
   type: audio/mpeg
 itunes:
@@ -116,14 +116,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 27540019
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2007-03-01.mp3
+      uri: http://m.podshow.com/media/21/episodes/52068/dailysourcecode-52068-03-01-2007.mp3
 fileinfo:
   filename: DSC-2007-03-01.mp3
   size: 27540019

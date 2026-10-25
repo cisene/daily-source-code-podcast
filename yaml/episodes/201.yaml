@@ -1,7 +1,7 @@
 episode: '201'
 title: Daily Source Code for Tuesday June 28th 2005
-link: '#daily-source-code-episode-web-201'
-pubDate: '2005-06-28'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/06/29.html#a7094
+pubDate: Wed Jun 29 08:12:07 2005 +0000
 category: podcast
 description: |-
   Daily Source Code for June 28th 2005 #201
@@ -14,9 +14,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-201'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/06/29.html#a7094
 enclosure:
-  url: DSC-2005-06-28.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-2005-06-28.mp3
   length: 9155463
   type: audio/mpeg
 itunes:
@@ -66,14 +66,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 9155463
-    bitrate: '64000'
+    bitrate: 64000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2005-06-28.mp3
+      uri: DSC-2005-06-28.mp3
 fileinfo:
   filename: DSC-2005-06-28.mp3
   size: 9155463

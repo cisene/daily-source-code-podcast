@@ -1,7 +1,7 @@
 episode: '351'
 title: Daily Source Code for Friday March 10 2006
-link: '#daily-source-code-episode-web-351'
-pubDate: '2006-03-10'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/10.html#a7269
+pubDate: Fri Mar 10 12:38:06 2006 +0000
 category: podcast
 description: |-
   - ELink
@@ -26,9 +26,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-351'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/10.html#a7269
 enclosure:
-  url: DSC-2006-03-10.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-351-2006-03-10.mp3
   length: 44602397
   type: audio/mpeg
 itunes:
@@ -90,14 +90,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 44602397
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-03-10.mp3
+      uri: DSC-2006-03-10.mp3
 fileinfo:
   filename: DSC-2006-03-10.mp3
   size: 44602397

@@ -1,7 +1,7 @@
 episode: '813'
 title: Daily Source Code for Wednesday December 31st 2008
-link: '#daily-source-code-episode-web-813'
-pubDate: '2008-12-31'
+link: http://www.mevio.com/episode/138006/dsc-year-end-special-12-31-2008
+pubDate: Wed Dec 31 14:08:16 2008 +0000
 category: podcast
 description: '<p><br><strong>#813 Daily Source Code For Sunday December 28th 2008<br></strong></p><p><font size="2"><strong>Call Anytime using the voicemail at<a href="http://drop.io/dailysourcecode">drop.io/dailysourcecode</a>or email me: <a href="mailto:adam@mevio.com">adam@mevio.com</a></p><p>Direct<a href="http://m.podshow.com/media/21/episodes/137717/dailysourcecode-137717-12-28-2008.mp3">Link</a>to the show.</p><p><a href="http://www.btpodshow.com/view/?kId=137717&tId=2">Comment</a></p><br><br>\nDuration: 01:24:13'
 author: Adam Curry
@@ -9,9 +9,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-813'
+  link: http://www.mevio.com/episode/138006/dsc-year-end-special-12-31-2008
 enclosure:
-  url: DSC-2008-12-31.mp3
+  url: http://m.podshow.com/media/21/episodes/138006/dailysourcecode-138006-12-31-2008.mp3
   length: 202125205
   type: audio/mpeg
 itunes:
@@ -56,14 +56,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 202125205
-    bitrate: '320000'
+    bitrate: 320000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2008-12-31.mp3
+      uri: http://m.podshow.com/media/21/episodes/138006/dailysourcecode-138006-12-31-2008.mp3
 fileinfo:
   filename: DSC-2008-12-31.mp3
   size: 202125205

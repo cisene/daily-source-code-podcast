@@ -1,7 +1,7 @@
 episode: '564'
 title: Daily Source Code for Monday March 19th 2007
 link: http://radio.weblogs.com/0001014/2007/03/19.html#a181
-pubDate: '2007-03-19'
+pubDate: Mon Mar 19 13:11:19 2007 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -96,14 +96,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 31677145
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2007-03-19.mp3
+      uri: DSC-2007-03-19.mp3
 fileinfo:
   filename: DSC-2007-03-19.mp3
   size: 31677145

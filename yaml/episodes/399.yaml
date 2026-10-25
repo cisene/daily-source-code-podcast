@@ -1,7 +1,7 @@
 episode: '399'
 title: Daily Source Code for Monday June 05th 2006
-link: '#daily-source-code-episode-web-399'
-pubDate: '2006-06-05'
+link: http://curry.podshow.com/?p=170
+pubDate: Mon Jun  5 13:10:25 2006 +0000
 category: podcast
 description: |-
   03_Cowbell_Song.mp3- Years of Static
@@ -28,9 +28,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-399'
+  link: http://curry.podshow.com/?p=170
 enclosure:
-  url: DSC-2006-06-05.mp3
+  url: http://m.podshow.com/media/21/episodes/6773/deltasierracharl-6773-06-05-2006.mp3
   length: 33484386
   type: audio/mpeg
 itunes:
@@ -94,14 +94,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 33484386
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-06-05.mp3
+      uri: http://m.podshow.com/media/21/episodes/6773/deltasierracharl-6773-06-05-2006.mp3
 fileinfo:
   filename: DSC-2006-06-05.mp3
   size: 33484386

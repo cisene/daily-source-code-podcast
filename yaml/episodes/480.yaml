@@ -1,7 +1,7 @@
 episode: '480'
 title: Daily Source Code for Wednesday October 18th 2006
-link: '#daily-source-code-episode-web-480'
-pubDate: '2006-10-18'
+link: http://curry.podshow.com/?p=338
+pubDate: Wed Oct 18 16:07:36 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -37,9 +37,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-480'
+  link: http://curry.podshow.com/?p=338
 enclosure:
-  url: DSC-2006-10-18.mp3
+  url: http://m.podshow.com/media/21/episodes/31724/dailysourcecode-31724-10-18-2006.mp3
   length: 21699502
   type: audio/mpeg
 itunes:
@@ -112,14 +112,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 21699502
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-10-18.mp3
+      uri: http://m.podshow.com/media/21/episodes/31724/dailysourcecode-31724-10-18-2006.mp3
 fileinfo:
   filename: DSC-2006-10-18.mp3
   size: 21699502

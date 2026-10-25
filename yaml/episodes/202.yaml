@@ -1,7 +1,7 @@
 episode: '202'
 title: Daily Source Code for Sunday July 03rd 2005
-link: '#daily-source-code-episode-web-202'
-pubDate: '2005-07-03'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/04.html#a7095
+pubDate: Mon Jul  4 04:55:13 2005 +0000
 category: podcast
 description: |-
   Daily Source Code for July 3d 2005 #202
@@ -13,9 +13,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-202'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/04.html#a7095
 enclosure:
-  url: DSC-2005-07-03.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-2005-07-03.mp3
   length: 22953400
   type: audio/mpeg
 itunes:
@@ -64,14 +64,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 22953400
-    bitrate: '64000'
+    bitrate: 64000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2005-07-03.mp3
+      uri: DSC-2005-07-03.mp3
 fileinfo:
   filename: DSC-2005-07-03.mp3
   size: 22953400

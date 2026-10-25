@@ -1,7 +1,7 @@
 episode: '441'
 title: Daily Source Code for Monday August 14th 2006
-link: '#daily-source-code-episode-web-441'
-pubDate: '2006-08-14'
+link: http://curry.podshow.com/?p=276
+pubDate: Mon Aug 14 12:59:06 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -36,9 +36,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-441'
+  link: http://curry.podshow.com/?p=276
 enclosure:
-  url: DSC-2006-08-14.mp3
+  url: http://m.podshow.com/media/21/episodes/20976/deltasierracharl-20976-08-14-2006.mp3
   length: 37092228
   type: audio/mpeg
 itunes:
@@ -110,14 +110,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 37092228
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-08-14.mp3
+      uri: http://m.podshow.com/media/21/episodes/20976/deltasierracharl-20976-08-14-2006.mp3
 fileinfo:
   filename: DSC-2006-08-14.mp3
   size: 37092228

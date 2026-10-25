@@ -1,7 +1,7 @@
 episode: '630'
 title: Daily Source Code for Saturday July 7th 2007
-link: '#daily-source-code-episode-web-630'
-pubDate: '2007-07-07'
+link: http://m.podshow.com/media/21/episodes/69818/dailysourcecode-69818-07-07-2007.mp3
+pubDate: Sat Jul  7 18:34:11 2007 +0000
 category: podcast
 description: |-
   <p>From The Curry Manor, Guildford, UK.</p>
@@ -26,9 +26,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-630'
+  link: http://m.podshow.com/media/21/episodes/69818/dailysourcecode-69818-07-07-2007.mp3
 enclosure:
-  url: DSC-2007-07-07.mp3
+  url: http://m.podshow.com/media/21/episodes/69818/dailysourcecode-69818-07-07-2007.mp3
   length: 55098059
   type: audio/mpeg
 itunes:
@@ -90,14 +90,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
-    length: 39900192
-    bitrate: '96000'
+  - type: audio/mpeg
+    length: 55098059
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2007-07-30.mp3
+      uri: http://m.podshow.com/media/21/episodes/69818/dailysourcecode-69818-07-07-2007.mp3
 fileinfo:
   filename: DSC-2007-07-07.mp3
   size: 55098059

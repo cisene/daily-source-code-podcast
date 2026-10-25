@@ -1,7 +1,7 @@
 episode: '666'
 title: Daily Source Code for Tuesday September 25th 2007
-link: '#daily-source-code-episode-web-666'
-pubDate: '2007-09-25'
+link: http://www.mevio.com/view/?kId=80905&tId=2
+pubDate: Tue Sep 25 09:58:12 2007 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -32,9 +32,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-666'
+  link: http://www.mevio.com/view/?kId=80905&tId=2
 enclosure:
-  url: DSC-2007-09-25.mp3
+  url: http://m.podshow.com/media/21/episodes/80905/dailysourcecode-80905-09-25-2007.mp3
   length: 39661654
   type: audio/mpeg
 itunes:
@@ -102,14 +102,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 39661654
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2007-09-25.mp3
+      uri: http://m.podshow.com/media/21/episodes/80905/dailysourcecode-80905-09-25-2007.mp3
 fileinfo:
   filename: DSC-2007-09-25.mp3
   size: 39661654

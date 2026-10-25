@@ -1,7 +1,7 @@
 episode: '330'
 title: Daily Source Code for Monday February 06th 2006
-link: '#daily-source-code-episode-web-330'
-pubDate: '2006-02-06'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/06.html#a7247
+pubDate: Mon Feb  6 12:32:56 2006 +0000
 category: podcast
 description: |-
   - 02_-_Hurricane_Jane_1
@@ -29,9 +29,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-330'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/06.html#a7247
 enclosure:
-  url: DSC-2006-02-06.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-330-2006-02-06g.mp3
   length: 35982963
   type: audio/mpeg
 itunes:
@@ -96,14 +96,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 35982963
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-02-06.mp3
+      uri: DSC-2006-02-06.mp3
 fileinfo:
   filename: DSC-2006-02-06.mp3
   size: 35982963

@@ -1,7 +1,7 @@
 episode: '509'
 title: Daily Source Code for Wednesday December 06th 2006
-link: '#daily-source-code-episode-web-509'
-pubDate: '2006-12-06'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/12/06.html#a120
+pubDate: Wed Dec  6 06:31:46 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -31,9 +31,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-509'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/12/06.html#a120
 enclosure:
-  url: DSC-2006-12-06.mp3
+  url: http://m.podshow.com/media/21/episodes/40533/dailysourcecode-40533-12-06-2006.mp3
   length: 22200354
   type: audio/mpeg
 itunes:
@@ -100,14 +100,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 22200354
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-12-06.mp3
+      uri: http://m.podshow.com/media/21/episodes/40533/dailysourcecode-40533-12-06-2006.mp3
 fileinfo:
   filename: DSC-2006-12-06.mp3
   size: 22200354

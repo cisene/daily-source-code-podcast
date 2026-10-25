@@ -1,7 +1,7 @@
 episode: '350'
 title: Daily Source Code for Thursday March 09th 2006
-link: '#daily-source-code-episode-web-350'
-pubDate: '2006-03-09'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/09.html#a7268
+pubDate: Thu Mar  9 12:10:46 2006 +0000
 category: podcast
 description: |-
   - willie_nelson_stoparresting_30sec
@@ -26,9 +26,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-350'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/09.html#a7268
 enclosure:
-  url: DSC-2006-03-09.mp3
+  url: http://media.podshow.com/media/21/episodes/2305/deltasierracharl-2305-03-09-2006_pshow_1181.mp3
   length: 33185751
   type: audio/mpeg
 itunes:
@@ -90,14 +90,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 33185751
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-03-09.mp3
+      uri: DSC-2006-03-09.mp3
 fileinfo:
   filename: DSC-2006-03-09.mp3
   size: 33185751

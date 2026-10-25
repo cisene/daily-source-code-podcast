@@ -1,7 +1,7 @@
 episode: '212'
 title: Daily Source Code for Friday July 22nd 2005
-link: '#daily-source-code-episode-web-212'
-pubDate: '2005-07-22'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/23.html#a7105
+pubDate: Sat Jul 23 02:42:32 2005 +0000
 category: podcast
 description: 'Daily Source Code for July 22nd 2005 #212\nDuration: 00:42:43'
 author: Adam Curry
@@ -9,9 +9,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-212'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/23.html#a7105
 enclosure:
-  url: DSC-2005-07-22.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-2005-07-22.mp3
   length: 20530522
   type: audio/mpeg
 itunes:
@@ -56,14 +56,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 20530522
-    bitrate: '64000'
+    bitrate: 64000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2005-07-22.mp3
+      uri: DSC-2005-07-22.mp3
 fileinfo:
   filename: DSC-2005-07-22.mp3
   size: 20530522

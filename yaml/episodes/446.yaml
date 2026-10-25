@@ -1,7 +1,7 @@
 episode: '446'
 title: Daily Source Code for Tuesday August 22nd 2006
-link: '#daily-source-code-episode-web-446'
-pubDate: '2006-08-22'
+link: http://curry.podshow.com/?p=283
+pubDate: Tue Aug 22 13:31:54 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -32,9 +32,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-446'
+  link: http://curry.podshow.com/?p=283
 enclosure:
-  url: DSC-2006-08-22.mp3
+  url: http://m.podshow.com/media/21/episodes/22130/dailysourcecode-22130-08-22-2006.mp3
   length: 30830573
   type: audio/mpeg
 itunes:
@@ -102,14 +102,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 30830573
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-08-22.mp3
+      uri: http://m.podshow.com/media/21/episodes/22130/dailysourcecode-22130-08-22-2006.mp3
 fileinfo:
   filename: DSC-2006-08-22.mp3
   size: 30830573

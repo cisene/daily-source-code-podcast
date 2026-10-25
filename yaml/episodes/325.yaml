@@ -1,7 +1,7 @@
 episode: '325'
 title: Daily Source Code for Friday January 27th 2006
-link: '#daily-source-code-episode-web-325'
-pubDate: '2006-01-27'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/27.html#a7240
+pubDate: Fri Jan 27 13:15:18 2006 +0000
 category: podcast
 description: |-
   - stingray - 143
@@ -31,9 +31,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-325'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/27.html#a7240
 enclosure:
-  url: DSC-2006-01-27.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-325-2006-01-27j.mp3
   length: 42733055
   type: audio/mpeg
 itunes:
@@ -100,14 +100,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 42733055
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-01-27.mp3
+      uri: DSC-2006-01-27.mp3
 fileinfo:
   filename: DSC-2006-01-27.mp3
   size: 42733055

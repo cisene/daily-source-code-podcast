@@ -1,7 +1,7 @@
 episode: '450'
 title: Daily Source Code for Monday August 28th 2006
-link: '#daily-source-code-episode-web-450'
-pubDate: '2006-08-28'
+link: http://curry.podshow.com/?p=289
+pubDate: Mon Aug 28 00:44:36 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -31,9 +31,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-450'
+  link: http://curry.podshow.com/?p=289
 enclosure:
-  url: DSC-2006-08-28.mp3
+  url: http://m.podshow.com/media/21/episodes/23342/dailysourcecode-23342-08-27-2006.mp3
   length: 19218638
   type: audio/mpeg
 itunes:
@@ -100,14 +100,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 19218638
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-08-28.mp3
+      uri: http://m.podshow.com/media/21/episodes/23342/dailysourcecode-23342-08-27-2006.mp3
 fileinfo:
   filename: DSC-2006-08-28.mp3
   size: 19218638

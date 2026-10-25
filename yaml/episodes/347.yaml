@@ -1,7 +1,7 @@
 episode: '347'
 title: Daily Source Code for Monday March 06th 2006
-link: '#daily-source-code-episode-web-347'
-pubDate: '2006-03-06'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/06.html#a7265
+pubDate: Mon Mar  6 11:30:11 2006 +0000
 category: podcast
 description: |-
   - OfficeSpace-Final Technorama
@@ -35,9 +35,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-347'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/06.html#a7265
 enclosure:
-  url: DSC-2006-03-06.mp3
+  url: http://mp3.dailysourcecode.podshow.com/DSC-347-2006-03-06g.mp3
   length: 40850257
   type: audio/mpeg
 itunes:
@@ -108,14 +108,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 40850257
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-03-06.mp3
+      uri: DSC-2006-03-06.mp3
 fileinfo:
   filename: DSC-2006-03-06.mp3
   size: 40850257

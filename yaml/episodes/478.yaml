@@ -1,7 +1,7 @@
 episode: '478'
 title: Daily Source Code for Friday October 13rd 2006
-link: '#daily-source-code-episode-web-478'
-pubDate: '2006-10-13'
+link: http://curry.podshow.com/?p=336
+pubDate: Fri Oct 13 15:03:17 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -37,9 +37,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-478'
+  link: http://curry.podshow.com/?p=336
 enclosure:
-  url: DSC-2006-10-13.mp3
+  url: http://m.podshow.com/media/21/episodes/30881/dailysourcecode-30881-10-13-2006.mp3
   length: 30642854
   type: audio/mpeg
 itunes:
@@ -112,14 +112,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 30642854
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-10-13.mp3
+      uri: http://m.podshow.com/media/21/episodes/30881/dailysourcecode-30881-10-13-2006.mp3
 fileinfo:
   filename: DSC-2006-10-13.mp3
   size: 30642854

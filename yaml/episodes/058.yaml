@@ -56,14 +56,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
-    length: 19173058
-    bitrate: '64000'
+  - type: audio/mpeg
+    length: 21007700
+    bitrate: 64000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2004-11-30.mp3
+      uri: http://adam.opml.org/DSC20041111.mp3
 fileinfo:
   filename: DSC-2004-11-11.mp3
   size: 21007700

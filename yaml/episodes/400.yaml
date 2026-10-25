@@ -1,7 +1,7 @@
 episode: '400'
 title: Daily Source Code for Tuesday June 6th 2006
-link: '#daily-source-code-episode-web-400'
-pubDate: '2006-06-06'
+link: http://curry.podshow.com/?p=172
+pubDate: Tue Jun  6 13:40:53 2006 +0000
 category: podcast
 description: |-
   Daily Source Code for Tuesday June 6th 2006<p>
@@ -35,9 +35,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-400'
+  link: http://curry.podshow.com/?p=172
 enclosure:
-  url: DSC-2006-06-06.mp3
+  url: http://m.podshow.com/media/21/episodes/6951/deltasierracharl-6951-06-06-2006.mp3
   length: 44439497
   type: audio/mpeg
 itunes:
@@ -108,14 +108,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
-    length: 27745626
-    bitrate: '96000'
+  - type: audio/mpeg
+    length: 44439497
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-06-30.mp3
+      uri: http://m.podshow.com/media/21/episodes/6951/deltasierracharl-6951-06-06-2006.mp3
 fileinfo:
   filename: DSC-2006-06-06.mp3
   size: 44439497

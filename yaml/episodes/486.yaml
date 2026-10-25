@@ -1,7 +1,7 @@
 episode: '486'
 title: Daily Source Code for Friday October 27th 2006
-link: '#daily-source-code-episode-web-486'
-pubDate: '2006-10-27'
+link: http://curry.podshow.com/?p=350
+pubDate: Fri Oct 27 19:18:16 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -39,9 +39,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-486'
+  link: http://curry.podshow.com/?p=350
 enclosure:
-  url: DSC-2006-10-27.mp3
+  url: http://m.podshow.com/media/21/episodes/33168/dailysourcecode-33168-10-27-2006.mp3
   length: 36736695
   type: audio/mpeg
 itunes:
@@ -116,14 +116,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 36736695
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-10-27.mp3
+      uri: http://m.podshow.com/media/21/episodes/33168/dailysourcecode-33168-10-27-2006.mp3
 fileinfo:
   filename: DSC-2006-10-27.mp3
   size: 36736695

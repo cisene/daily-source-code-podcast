@@ -1,7 +1,7 @@
 episode: '454'
 title: Daily Source Code for Monday September 04th 2006
-link: '#daily-source-code-episode-web-454'
-pubDate: '2006-09-04'
+link: http://curry.podshow.com/?p=294
+pubDate: Mon Sep  4 17:14:31 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -35,9 +35,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-454'
+  link: http://curry.podshow.com/?p=294
 enclosure:
-  url: DSC-2006-09-04.mp3
+  url: http://m.podshow.com/media/21/episodes/24609/dailysourcecode-24609-09-04-2006.mp3
   length: 25766105
   type: audio/mpeg
 itunes:
@@ -108,14 +108,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 25766105
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-09-04.mp3
+      uri: http://m.podshow.com/media/21/episodes/24609/dailysourcecode-24609-09-04-2006.mp3
 fileinfo:
   filename: DSC-2006-09-04.mp3
   size: 25766105

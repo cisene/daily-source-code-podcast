@@ -1,7 +1,7 @@
 episode: '563'
 title: Daily Source Code for Friday March 16th 2007
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2007/03/16.html#a180
-pubDate: '2007-03-16'
+pubDate: Fri Mar 16 05:53:49 2007 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -100,14 +100,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 33804187
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2007-03-16.mp3
+      uri: DSC-2007-03-16.mp3
 fileinfo:
   filename: DSC-2007-03-16.mp3
   size: 33804187

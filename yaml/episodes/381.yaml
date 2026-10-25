@@ -84,14 +84,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
-    length: 27245878
-    bitrate: '96000'
+  - type: audio/mpeg
+    length: 38779758
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-05-31.mp3
+      uri: http://m.podshow.com/media/21/episodes/4938/deltasierracharl-4938-05-05-2006.mp3
 fileinfo:
   filename: DSC-2006-05-05.mp3
   size: 38779758

@@ -1,7 +1,7 @@
 episode: '812'
 title: Daily Source Code for Tuesday December 23rd 2008
-link: '#daily-source-code-episode-web-812'
-pubDate: '2008-12-23'
+link: http://radio.weblogs.com/0001014/2008/12/23.html#a429
+pubDate: Tue Dec 23 20:42:57 2008 +0000
 category: podcast
 description: '<p><font size="2">Call Anytime using the voicemail at<a href="http://drop.io/dailysourcecode">drop.io/dailysourcecode</a>or email me: <a href="mailto:adam@mevio.com">adam@mevio.com</a></p><p>Direct<a href="http://m.podshow.com/media/21/episodes/137354/dailysourcecode-137354-12-23-2008.mp3">Link</a>to the show.</p><p><a href="http://www.btpodshow.com/view/?kId=137354&tId=2">Comment</a></p><br><br>\nDuration: 01:32:05'
 author: Adam Curry
@@ -9,9 +9,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-812'
+  link: http://radio.weblogs.com/0001014/2008/12/23.html#a429
 enclosure:
-  url: DSC-2008-12-23.mp3
+  url: http://m.podshow.com/media/21/episodes/137354/dailysourcecode-137354-12-23-2008.mp3
   length: 88439347
   type: audio/mpeg
 itunes:
@@ -56,14 +56,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 88439347
-    bitrate: '128000'
+    bitrate: 128000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2008-12-23.mp3
+      uri: DSC-2008-12-23.mp3
 fileinfo:
   filename: DSC-2008-12-23.mp3
   size: 88439347

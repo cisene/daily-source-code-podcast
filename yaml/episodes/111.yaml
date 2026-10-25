@@ -314,14 +314,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
-    length: 21328686
-    bitrate: '64000'
+  - type: audio/mpeg
+    length: 22979999
+    bitrate: 64000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2005-02-28.mp3
+      uri: http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-02-02.mp3
 fileinfo:
   filename: DSC-2005-02-02.mp3
   size: 22979999

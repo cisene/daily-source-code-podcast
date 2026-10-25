@@ -1,7 +1,7 @@
 episode: '668'
 title: Daily Source Code for Tuesday October 09th 2007
-link: '#daily-source-code-episode-web-668'
-pubDate: '2007-10-09'
+link: http://www.mevio.com/view/?kId=81544&tId=2
+pubDate: Mon Oct  1 14:54:51 2007 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -32,9 +32,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-668'
+  link: http://www.mevio.com/view/?kId=81544&tId=2
 enclosure:
-  url: DSC-2007-10-09.mp3
+  url: http://m.podshow.com/media/21/episodes/81544/dailysourcecode-81544-10-01-2007.mp3
   length: 26403652
   type: audio/mpeg
 itunes:
@@ -102,14 +102,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 26403652
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2007-10-09.mp3
+      uri: http://m.podshow.com/media/21/episodes/81544/dailysourcecode-81544-10-01-2007.mp3
 fileinfo:
   filename: DSC-2007-10-09.mp3
   size: 26403652

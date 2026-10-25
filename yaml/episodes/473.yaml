@@ -1,7 +1,7 @@
 episode: '473'
 title: Daily Source Code for Wednesday October 04th 2006
-link: '#daily-source-code-episode-web-473'
-pubDate: '2006-10-04'
+link: http://curry.podshow.com/?p=327
+pubDate: Wed Oct  4 11:02:39 2006 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -37,9 +37,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-473'
+  link: http://curry.podshow.com/?p=327
 enclosure:
-  url: DSC-2006-10-04.mp3
+  url: http://m.podshow.com/media/21/episodes/29133/dailysourcecode-29133-10-04-2006.mp3
   length: 19814331
   type: audio/mpeg
 itunes:
@@ -112,14 +112,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 19814331
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2006-10-04.mp3
+      uri: http://m.podshow.com/media/21/episodes/29133/dailysourcecode-29133-10-04-2006.mp3
 fileinfo:
   filename: DSC-2006-10-04.mp3
   size: 19814331

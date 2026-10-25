@@ -1,7 +1,7 @@
 episode: '529'
 title: Daily Source Code for Monday January 22nd 2007
-link: '#daily-source-code-episode-web-529'
-pubDate: '2007-01-22'
+link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2007/01/22.html#a145
+pubDate: Mon Jan 22 03:45:48 2007 +0000
 category: podcast
 description: |-
   <div class="storycontent">
@@ -35,9 +35,9 @@ language: en-us
 comments: null
 guid:
   isPermaLink: false
-  link: '#daily-source-code-episode-guid-529'
+  link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2007/01/22.html#a145
 enclosure:
-  url: DSC-2007-01-22.mp3
+  url: http://m.podshow.com/media/21/episodes/46637/dailysourcecode-46637-01-21-2007.mp3
   length: 25519403
   type: audio/mpeg
 itunes:
@@ -108,14 +108,13 @@ podcast:
     accountId: null
     accountUrl: null
   alternateEnclosure:
-    type: audio/mpeg
+  - type: audio/mpeg
     length: 25519403
-    bitrate: '96000'
+    bitrate: 96000
     default: true
     title: Standard
     source:
-      uri:
-      - DSC-2007-01-22.mp3
+      uri: http://m.podshow.com/media/21/episodes/46637/dailysourcecode-46637-01-21-2007.mp3
 fileinfo:
   filename: DSC-2007-01-22.mp3
   size: 25519403
