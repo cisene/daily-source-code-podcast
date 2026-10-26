@@ -1,1984 +1,3455 @@
 1
-00:00:00,000 --> 00:00:11,080
-Delta Sierra Charlie 2-5-1 Please save me from people who've been told what to like and
+00:00:00,000 --> 00:00:07,000
+Delta Shara Charlie 251
 
 2
-00:00:11,080 --> 00:00:12,720
-then like it.
+00:00:07,000 --> 00:00:12,760
+Please save me from people who've been told what to like and then like it.
 
 3
-00:00:12,720 --> 00:00:17,080
-In my opinion, if you're over six years of age and you're still getting your music
+00:00:12,760 --> 00:00:17,280
+In my opinion, if you're over six years of age and you're still getting your music from
 
 4
-00:00:17,080 --> 00:00:21,680
-from the radio, something is desperately wrong with you.
+00:00:17,280 --> 00:00:21,720
+the radio, something is desperately wrong with you.
 
 5
-00:00:21,680 --> 00:00:28,400
-I can only hope that somehow MP3 players and file sharing will destroy FM radio the way
+00:00:21,720 --> 00:00:28,240
+I can only hope that somehow MP3 players and file sharing will destroy FM radio the
 
 6
-00:00:28,400 --> 00:00:30,800
-they're destroying record companies.
+00:00:28,240 --> 00:00:32,720
+way they're destroying record companies. Then, even though the air will probably
 
 7
-00:00:30,800 --> 00:00:35,720
-Then even though the air will probably never be safe to breathe again, maybe it will
+00:00:32,720 --> 00:00:38,680
+never be safe to breathe again, maybe it will be safer to listen to.
 
 8
-00:00:35,720 --> 00:00:38,800
-be safer to listen to.
+00:00:38,680 --> 00:00:45,320
+Hi everybody, welcome to the Daily Source Code Sunday, today's October 2nd, 2005.
 
 9
-00:00:38,800 --> 00:00:41,960
-Hi everybody, welcome to the Daily Source Code Sunday.
+00:00:45,320 --> 00:00:50,040
+A special source code today. I'm back home.
 
 10
-00:00:41,960 --> 00:00:47,520
-Today's October 2nd, 2005 special source code today.
-
-11
-00:00:47,520 --> 00:00:49,160
-I'm back home.
-
-12
-00:00:49,160 --> 00:00:50,160
+00:00:50,040 --> 00:00:50,920
 Hello.
 
+11
+00:00:50,920 --> 00:00:53,520
+Hello darling. Good to have you home.
+
+12
+00:00:53,520 --> 00:00:56,920
+Thank you dear. This is a horrible, the studio is not set up for this.
+
 13
-00:00:50,160 --> 00:00:51,160
-Hello darling.
+00:00:56,920 --> 00:00:59,960
+Are you basically, because you're looking at my ass.
 
 14
-00:00:51,160 --> 00:00:53,560
-This is not good to have you home.
+00:00:59,960 --> 00:01:02,760
+Oh yeah, well that's nice.
 
 15
-00:00:53,560 --> 00:00:54,560
-Thank you dear.
+00:01:02,760 --> 00:01:06,480
+Been thinking about it all the time and now it's there.
 
 16
-00:00:54,560 --> 00:00:55,560
-This is a horrible.
+00:01:06,480 --> 00:01:10,080
+Oh yeah baby. Do you remember?
 
 17
-00:00:55,560 --> 00:00:56,840
-The studio is not set up for this.
-
-18
-00:00:56,840 --> 00:00:57,840
-Are you the base?
-
-19
-00:00:57,840 --> 00:00:58,840
-Why?
-
-20
-00:00:58,840 --> 00:00:59,840
-Because you're looking at my ass.
-
-21
-00:00:59,840 --> 00:01:00,840
-Oh yeah.
-
-22
-00:01:00,840 --> 00:01:02,840
-Well that's nice.
-
-23
-00:01:02,840 --> 00:01:05,840
-I've been thinking about it all the time and now it's there.
-
-24
-00:01:05,840 --> 00:01:06,840
-Uh-huh.
-
-25
-00:01:06,840 --> 00:01:07,840
-Oh yeah baby.
-
-26
-00:01:07,840 --> 00:01:10,320
-Do you remember?
-
-27
-00:01:10,320 --> 00:01:11,320
+00:01:10,080 --> 00:01:12,080
 What the ass?
 
-28
-00:01:11,320 --> 00:01:13,320
+18
+00:01:12,080 --> 00:01:14,080
 Not the ass.
 
-29
-00:01:13,320 --> 00:01:14,320
-Oh.
-
-30
-00:01:14,320 --> 00:01:16,320
+19
+00:01:14,080 --> 00:01:16,000
 Yesterday when I came home.
 
-31
-00:01:16,320 --> 00:01:19,320
+20
+00:01:16,000 --> 00:01:19,120
 Oh.
 
-32
-00:01:19,320 --> 00:01:21,320
-I Christina, how are you?
+21
+00:01:19,120 --> 00:01:21,000
+Hi Christina, how are you?
 
-33
-00:01:21,320 --> 00:01:22,320
+22
+00:01:21,000 --> 00:01:22,720
 Look at her face.
 
-34
-00:01:22,320 --> 00:01:23,320
+23
+00:01:22,720 --> 00:01:24,160
 What?
 
-35
-00:01:23,320 --> 00:01:24,320
-More to five.
+24
+00:01:24,160 --> 00:01:26,000
+Mortified.
 
-36
-00:01:24,320 --> 00:01:25,320
-More to five.
+25
+00:01:26,080 --> 00:01:27,960
+That's how you get her out of the studio, huh?
 
-37
-00:01:25,320 --> 00:01:26,320
-That's how you get her out of it.
+26
+00:01:27,960 --> 00:01:31,960
+Yeah, goodbye.
 
-38
-00:01:26,320 --> 00:01:27,320
-So you get her out of the studio.
+27
+00:01:31,960 --> 00:01:37,640
+So, I've been gone for like two and a half weeks, we're back.
 
-39
-00:01:27,320 --> 00:01:28,320
-Yeah.
-
-40
-00:01:28,320 --> 00:01:29,320
-Goodbye.
-
-41
-00:01:29,320 --> 00:01:32,320
-Bye.
-
-42
-00:01:32,320 --> 00:01:37,320
-So I've been gone for like two and a half weeks.
-
-43
-00:01:37,320 --> 00:01:38,320
-We're back.
-
-44
-00:01:38,320 --> 00:01:39,320
+28
+00:01:37,640 --> 00:01:38,400
 That was long.
 
-45
-00:01:39,320 --> 00:01:41,320
+29
+00:01:38,400 --> 00:01:41,240
 That was a long time.
 
-46
-00:01:41,320 --> 00:01:42,320
-Yeah.
+30
+00:01:41,240 --> 00:01:44,200
+That sucked. That part sucked, being away sucked.
 
-47
-00:01:42,320 --> 00:01:43,320
-That part sucked.
-
-48
-00:01:43,320 --> 00:01:44,320
-That part sucked.
-
-49
-00:01:44,320 --> 00:01:45,320
-Yeah.
-
-50
-00:01:45,320 --> 00:01:46,320
+31
+00:01:44,200 --> 00:01:45,480
 It was really quiet though.
 
-51
-00:01:46,320 --> 00:01:47,320
-Although.
+32
+00:01:45,480 --> 00:01:53,120
+Although, I think it's always nice to, you know, to just be apart for a while.
 
-52
-00:01:47,320 --> 00:01:53,320
-I think it's always nice to, you know, to just be a part for a while.
+33
+00:01:53,160 --> 00:01:56,880
+Because then, when you come home, it's so much fun.
 
-53
-00:01:53,320 --> 00:01:56,320
-And then when you come home, it's so much fun.
-
-54
-00:01:56,320 --> 00:01:57,320
+34
+00:01:56,880 --> 00:01:58,080
 That's true.
 
-55
-00:01:57,320 --> 00:01:59,320
-You know, it's, it's so happy.
+35
+00:01:58,080 --> 00:02:01,040
+You know, I'm so happy to see you then.
 
-56
-00:01:59,320 --> 00:02:01,320
-I'm so happy to see you then.
+36
+00:02:01,040 --> 00:02:04,880
+Also, when we're together, it's like 24 hours, because I never leave the house.
 
-57
-00:02:01,320 --> 00:02:04,320
-Well also when we're together then we're, it's like 24 hours because I never leave
+37
+00:02:04,880 --> 00:02:05,880
+Well that's it. I never go anywhere.
 
-58
-00:02:04,320 --> 00:02:05,320
-that.
+38
+00:02:05,880 --> 00:02:07,600
+That's it, you're always here.
 
-59
-00:02:05,320 --> 00:02:06,320
-Well that's it.
+39
+00:02:07,600 --> 00:02:10,120
+I'm always here, walking around in my bathrobe.
 
-60
-00:02:06,320 --> 00:02:07,320
-That's it.
+40
+00:02:10,120 --> 00:02:12,840
+Yeah, that's not true.
 
-61
-00:02:07,320 --> 00:02:08,320
-You always hear.
+41
+00:02:12,840 --> 00:02:15,840
+Well, sometimes you do, a little bit too long.
 
-62
-00:02:08,320 --> 00:02:10,320
-I'm always here walking around on my bathrobe.
-
-63
-00:02:10,320 --> 00:02:11,320
-Yeah.
-
-64
-00:02:11,320 --> 00:02:12,320
-That's not true.
-
-65
-00:02:12,320 --> 00:02:13,320
-No.
-
-66
-00:02:13,320 --> 00:02:14,320
-No.
-
-67
-00:02:14,320 --> 00:02:15,320
-Sometimes.
-
-68
-00:02:15,320 --> 00:02:16,320
-I live it too long.
-
-69
-00:02:16,320 --> 00:02:19,320
+42
+00:02:15,840 --> 00:02:19,040
 But now I could spend a little bit more time with Christina.
 
-70
-00:02:19,320 --> 00:02:20,320
-Yeah.
+43
+00:02:19,040 --> 00:02:20,520
+Yeah, that's true.
 
-71
-00:02:20,320 --> 00:02:22,320
-And you know, which is nice.
+44
+00:02:20,520 --> 00:02:22,880
+You know, which is nice, girl talk.
 
-72
-00:02:22,320 --> 00:02:23,320
-Yeah.
+45
+00:02:23,240 --> 00:02:26,800
+Because you always ask for a lot of attention.
 
-73
-00:02:23,320 --> 00:02:26,320
-Because you ask, you always ask for a lot of attention.
+46
+00:02:26,800 --> 00:02:28,360
+No, I receive. I don't ask.
 
-74
-00:02:26,320 --> 00:02:27,320
-No, I receive.
+47
+00:02:28,360 --> 00:02:29,600
+I receive.
 
-75
-00:02:27,320 --> 00:02:28,320
-I don't ask.
+48
+00:02:29,600 --> 00:02:33,360
+Yeah, but you do that in a sort of sneaky way.
 
-76
-00:02:28,320 --> 00:02:29,320
-I don't ask.
+49
+00:02:33,360 --> 00:02:35,880
+Oh, OK.
 
-77
-00:02:29,320 --> 00:02:30,320
-But yeah.
-
-78
-00:02:30,320 --> 00:02:33,320
-But you do that in a sort of sneaky way.
-
-79
-00:02:33,320 --> 00:02:34,320
-Okay.
-
-80
-00:02:34,320 --> 00:02:35,320
-Yeah.
-
-81
-00:02:35,320 --> 00:02:36,320
+50
+00:02:35,880 --> 00:02:36,800
 So we were talking.
 
-82
-00:02:36,320 --> 00:02:39,320
-At first of all, that was the legendary George Carlin from his latest book.
+51
+00:02:36,800 --> 00:02:39,960
+First of all, that was the legendary George Carlin from his latest book.
 
-83
-00:02:39,320 --> 00:02:40,320
+52
+00:02:39,960 --> 00:02:40,800
 I love him.
 
-84
-00:02:40,320 --> 00:02:41,320
-Yeah.
+53
+00:02:40,800 --> 00:02:42,600
+Yeah, what the hell does he say here?
 
-85
-00:02:41,320 --> 00:02:42,320
-What the hell?
-
-86
-00:02:42,320 --> 00:02:43,320
-It doesn't say here.
-
-87
-00:02:43,320 --> 00:02:44,320
+54
+00:02:42,600 --> 00:02:44,080
 Someone sent me this.
 
-88
-00:02:44,320 --> 00:02:45,320
-Yeah.
+55
+00:02:44,080 --> 00:02:47,000
+It's, he has a new audio book out, which I got from Audible.
 
-89
-00:02:45,320 --> 00:02:47,320
-It's he has a new audio book out, which I got from audible.
+56
+00:02:47,000 --> 00:02:49,640
+But this is, it's like, when will Jesus bring the pork, I think,
 
-90
-00:02:47,320 --> 00:02:49,320
-But this is like, when will Jesus bring the pork?
+57
+00:02:49,640 --> 00:02:52,800
+is the name of it.
 
-91
-00:02:49,320 --> 00:02:50,320
-I think is the name of it.
-
-92
-00:02:51,320 --> 00:02:53,320
+58
+00:02:52,800 --> 00:02:53,600
 But it's so true.
 
-93
-00:02:53,320 --> 00:02:56,320
-And the Patricia, I've been talking about pot-safe music for a while.
-
-94
-00:02:56,320 --> 00:03:01,320
-We always talk about music actually because it's our main interest.
-
-95
-00:03:01,320 --> 00:03:02,320
-Yeah.
-
-96
-00:03:02,320 --> 00:03:03,320
-Yeah.
-
-97
-00:03:03,320 --> 00:03:04,320
-Yeah.
-
-98
-00:03:04,320 --> 00:03:06,320
-And it can be enjoyable.
-
-99
-00:03:06,320 --> 00:03:08,320
-It can be very irritating.
-
-100
-00:03:08,320 --> 00:03:11,320
-But in a meanwhile, it's entertainment.
-
-101
-00:03:11,320 --> 00:03:14,320
-Oh, it was last night that we were watching X-factor.
-
-102
-00:03:14,320 --> 00:03:15,320
-Yeah.
-
-103
-00:03:15,320 --> 00:03:19,320
-Sharon Osborn, Simon Cowell, those two.
-
-104
-00:03:19,320 --> 00:03:20,320
-Right?
-
-105
-00:03:20,320 --> 00:03:21,320
-Is that a person?
-
-106
-00:03:21,320 --> 00:03:22,320
-No, it's just those two, right?
-
-107
-00:03:22,320 --> 00:03:23,320
-No, no, no.
-
-108
-00:03:23,320 --> 00:03:24,320
-And the other one.
-
-109
-00:03:24,320 --> 00:03:27,320
-Who's the dude with the orange beret and the green and blue blue?
-
-110
-00:03:27,320 --> 00:03:28,320
-I don't know.
-
-111
-00:03:28,320 --> 00:03:30,320
-That was just a...
-
-112
-00:03:30,320 --> 00:03:31,320
-He's a he's irritating.
-
-113
-00:03:31,320 --> 00:03:32,320
-Yeah.
-
-114
-00:03:32,320 --> 00:03:35,320
-I think that was a special guy.
-
-115
-00:03:35,320 --> 00:03:36,320
-I think so.
-
-116
-00:03:36,320 --> 00:03:41,320
-The X producer or a music authority that helped her.
-
-117
-00:03:41,320 --> 00:03:45,320
-Because they all have categories that they take care of.
-
-118
-00:03:45,320 --> 00:03:46,320
-What?
-
-119
-00:03:46,320 --> 00:03:47,320
-Absolutely.
-
-120
-00:03:47,320 --> 00:03:48,320
-No, that's the other guy.
-
-121
-00:03:48,320 --> 00:03:50,320
-That's what you mean.
-
-122
-00:03:50,320 --> 00:03:52,320
-From the X-factor, that's the other...
-
-123
-00:03:52,320 --> 00:03:54,320
-His name is Louis with the beard?
-
-124
-00:03:54,320 --> 00:03:55,320
-No, no, no.
-
-125
-00:03:55,320 --> 00:03:57,320
-It's not with the beard.
-
-126
-00:03:57,320 --> 00:03:58,320
-Yeah.
-
-127
-00:03:58,320 --> 00:03:59,320
-They're the three of them.
-
-128
-00:03:59,320 --> 00:04:01,320
-Right, but I want to hear the dude with the beard.
-
-129
-00:04:01,320 --> 00:04:02,320
-No, I don't know.
-
-130
-00:04:02,320 --> 00:04:04,320
-It's an English thing.
-
-131
-00:04:04,320 --> 00:04:05,320
-But he's an American.
-
-132
-00:04:05,320 --> 00:04:06,320
-Oh, is he?
-
-133
-00:04:06,320 --> 00:04:08,320
-Oh, maybe he's famous here.
-
-134
-00:04:08,320 --> 00:04:09,320
-I didn't get it.
-
-135
-00:04:09,320 --> 00:04:10,320
-But I know.
-
-136
-00:04:10,320 --> 00:04:11,320
-But I know.
-
-137
-00:04:11,320 --> 00:04:12,320
-Yeah, but I know.
-
-138
-00:04:12,320 --> 00:04:14,320
-He's in a music authority.
-
-139
-00:04:14,320 --> 00:04:15,320
-That's why he was sitting there.
-
-140
-00:04:15,320 --> 00:04:16,320
-But anyway.
-
-141
-00:04:16,320 --> 00:04:21,320
-So we were at one point when Pope Idle started in the Netherlands.
-
-142
-00:04:21,320 --> 00:04:23,320
-Three years ago, two years ago.
-
-143
-00:04:23,320 --> 00:04:24,320
-Yeah.
-
-144
-00:04:24,320 --> 00:04:25,320
-Some things maybe three years ago.
-
-145
-00:04:25,320 --> 00:04:26,320
-Yeah, three years ago.
-
-146
-00:04:26,320 --> 00:04:29,320
-I was asked to be the host of the show, which I declined.
-
-147
-00:04:29,320 --> 00:04:32,320
-But I said, look, if you don't put Patricia in as a judge, you're crazy.
-
-148
-00:04:32,320 --> 00:04:36,320
-And of course, I was right.
-
-149
-00:04:36,320 --> 00:04:37,320
-It was not that big.
-
-150
-00:04:37,320 --> 00:04:38,320
-No, no, but you...
-
-151
-00:04:38,320 --> 00:04:39,320
-I should have chosen me.
-
-152
-00:04:39,320 --> 00:04:41,320
-But you would have loved doing that.
-
-153
-00:04:41,320 --> 00:04:43,320
-Well, they thought it was a bit too much.
-
-154
-00:04:43,320 --> 00:04:44,320
-You and me.
-
-155
-00:04:44,320 --> 00:04:45,320
-I did...
-
-156
-00:04:45,320 --> 00:04:46,320
-I declined anyway.
-
-157
-00:04:46,320 --> 00:04:47,320
-It doesn't matter.
-
-158
-00:04:47,320 --> 00:04:48,320
-That doesn't matter.
-
-159
-00:04:48,320 --> 00:04:49,320
-But you would have thoroughly enjoyed doing that.
-
-160
-00:04:49,320 --> 00:04:54,320
-Because you do know a lot about music.
-
-161
-00:04:54,320 --> 00:04:59,320
-Well, not just music, but performance and styling and the whole packaging.
-
-162
-00:04:59,320 --> 00:05:04,320
-And also, I can always predict when it's something.
-
-163
-00:05:04,320 --> 00:05:06,320
-When it's something, when someone's going to be hit, that's right.
-
-164
-00:05:06,320 --> 00:05:08,320
-Do you have a coat on?
-
-165
-00:05:08,320 --> 00:05:10,320
-My girl's going.
-
-166
-00:05:10,320 --> 00:05:12,320
-My very girl.
-
-167
-00:05:13,320 --> 00:05:15,320
-Be very careful.
-
-168
-00:05:15,320 --> 00:05:18,320
-For bad English man.
-
-169
-00:05:18,320 --> 00:05:20,320
-Be careful.
-
-170
-00:05:20,320 --> 00:05:22,320
-Get your credits first.
-
-171
-00:05:22,320 --> 00:05:23,320
-Be on time, eh?
-
-172
-00:05:23,320 --> 00:05:24,320
-Okay.
-
-173
-00:05:24,320 --> 00:05:27,320
-And don't eat that old crap.
-
-174
-00:05:27,320 --> 00:05:29,320
-Hey, and don't eat all the crap.
-
-175
-00:05:29,320 --> 00:05:30,320
-Yeah.
-
-176
-00:05:30,320 --> 00:05:31,320
-So, throughout...
-
-177
-00:05:31,320 --> 00:05:32,320
-On the food core.
-
-178
-00:05:32,320 --> 00:05:33,320
-On the dogs.
-
-179
-00:05:33,320 --> 00:05:34,320
-This is ruining our show.
-
-180
-00:05:34,320 --> 00:05:35,320
-Oh, it doesn't matter.
-
-181
-00:05:35,320 --> 00:05:36,320
-No one cares about the show.
-
-182
-00:05:36,320 --> 00:05:37,320
-It's real.
-
-183
-00:05:37,320 --> 00:05:39,320
-I just want to say that.
-
-184
-00:05:39,320 --> 00:05:41,320
-No one cares about the show.
-
-185
-00:05:42,320 --> 00:05:43,320
-The dogs don't know.
-
-186
-00:05:43,320 --> 00:05:46,320
-So, during the week on the daily source code,
-
-187
-00:05:46,320 --> 00:05:49,320
-which I might point out Patricia never listens to.
-
-188
-00:05:49,320 --> 00:05:51,320
-That's probably better, by the way.
-
-189
-00:05:51,320 --> 00:05:52,320
-Um.
-
-190
-00:05:52,320 --> 00:05:54,320
-Overdose of anime.
-
-191
-00:05:54,320 --> 00:05:55,320
-Yeah.
-
-192
-00:05:55,320 --> 00:05:58,320
-I play all bunch of, you know, whole bunch of pod safe songs.
-
-193
-00:05:58,320 --> 00:06:02,320
-And songs that I think, you know, that I like or, you know,
-
-194
-00:06:02,320 --> 00:06:04,320
-I think I can pick them too, actually.
-
-195
-00:06:04,320 --> 00:06:05,320
-I guess that's what I'm saying.
-
-196
-00:06:05,320 --> 00:06:07,320
-But Patricia has, you know, she'll look at someone and say,
-
-197
-00:06:07,320 --> 00:06:08,320
-Oh, that person has it.
-
-198
-00:06:08,320 --> 00:06:10,320
-That person has the X factor in fact.
-
-199
-00:06:10,320 --> 00:06:12,320
-That's, uh, that's what you can exactly say now.
-
-200
-00:06:12,320 --> 00:06:13,320
-Yeah, it's just it.
-
-201
-00:06:13,320 --> 00:06:14,320
-But also it.
-
-202
-00:06:14,320 --> 00:06:15,320
-It.
-
-203
-00:06:15,320 --> 00:06:16,320
-Right.
-
-204
-00:06:16,320 --> 00:06:17,320
-The it factor.
-
-205
-00:06:17,320 --> 00:06:18,320
-Yeah.
-
-206
-00:06:18,320 --> 00:06:20,320
-So when I'm playing tunes here in the studio,
-
-207
-00:06:20,320 --> 00:06:22,320
-which is right next door to Patricia's studio.
-
-208
-00:06:22,320 --> 00:06:23,320
-My Padua.
-
-209
-00:06:23,320 --> 00:06:24,320
-Yeah, Padua.
-
-210
-00:06:24,320 --> 00:06:25,320
-Yeah, Padua.
-
-211
-00:06:25,320 --> 00:06:27,320
-Sometimes she'll come in and say, I like that.
-
-212
-00:06:27,320 --> 00:06:29,320
-Yeah, come running in and say, Oh, I like that.
-
-213
-00:06:29,320 --> 00:06:30,320
-Yeah, who's that? Who's that?
-
-214
-00:06:30,320 --> 00:06:31,320
-Beautiful.
-
-215
-00:06:31,320 --> 00:06:33,320
-So I figured I just play a couple of, uh,
-
-216
-00:06:33,320 --> 00:06:36,320
-uh, a couple of the songs that I've been playing in the past week.
-
-217
-00:06:36,320 --> 00:06:39,320
-And then you, you, you tell me what you think about them.
-
-218
-00:06:40,320 --> 00:06:42,320
-You like you, you like the idea?
-
-219
-00:06:42,320 --> 00:06:43,320
-Good.
-
-220
-00:06:43,320 --> 00:06:46,320
-Okay. So I'll put it on the speakers in a second so you can hear a little bit better.
-
-221
-00:06:46,320 --> 00:06:50,320
-This first one is, uh, Natalie Brown is called in my dreams.
-
-222
-00:07:09,320 --> 00:07:22,320
-Even though we said goodbye, quite some time ago,
-
-223
-00:07:22,320 --> 00:07:30,320
-there's a strain of loving my heart.
-
-224
-00:07:30,320 --> 00:07:36,320
-That just came and let you grow.
-
-225
-00:07:36,320 --> 00:07:44,320
-It seems that even when I go to sleep,
-
-226
-00:07:44,320 --> 00:07:50,320
-images of you, my mind's still clear.
-
-227
-00:07:50,320 --> 00:07:56,320
-And I still see you in my dreams.
-
-228
-00:07:56,320 --> 00:08:04,320
-No matter how I try it seems,
-
-229
-00:08:04,320 --> 00:08:11,320
-that it depot of me just can't forget.
-
-230
-00:08:11,320 --> 00:08:17,320
-That it depot of me still has a request.
-
-231
-00:08:17,320 --> 00:08:27,320
-And I can't seem to let all the love I had for you grow.
-
-232
-00:08:28,320 --> 00:08:34,320
-Yes, I still see you in my dreams.
-
-233
-00:08:34,320 --> 00:08:48,320
-Sometimes I wait with your face in my mind.
-
-234
-00:08:48,320 --> 00:09:02,320
-Somehow I thought that I'd left those memories behind.
-
-235
-00:09:02,320 --> 00:09:09,320
-It seems that you have left my heart frustrated
-
-236
-00:09:10,320 --> 00:09:16,320
-with vivid memories of your smile clear.
-
-237
-00:09:16,320 --> 00:09:22,320
-That just came and let me dream.
-
-238
-00:09:22,320 --> 00:09:30,320
-No matter how I try it seems,
-
-239
-00:09:30,320 --> 00:09:37,320
-that it depot of me just can't forget.
-
-240
-00:09:37,320 --> 00:09:43,320
-That it depot of me still has a request.
-
-241
-00:09:43,320 --> 00:09:53,320
-And I can't seem to let all the love I had for you grow.
-
-242
-00:09:53,320 --> 00:10:00,320
-I still see you in my dreams.
-
-243
-00:10:00,320 --> 00:10:06,320
-Yes, I still see you in my dream.
-
-244
-00:10:07,320 --> 00:10:16,320
-Okay, that was not the brown in my dreams.
-
-245
-00:10:16,320 --> 00:10:17,320
-What is her name?
-
-246
-00:10:17,320 --> 00:10:18,320
-Natalie Brown.
-
-247
-00:10:18,320 --> 00:10:20,320
-Natalie Brown.
-
-248
-00:10:20,320 --> 00:10:22,320
-I'll tell you something about her here.
-
-249
-00:10:22,320 --> 00:10:24,320
-Yeah, I don't think she is brown.
-
-250
-00:10:24,320 --> 00:10:26,320
-No, in fact, she is very white.
-
-251
-00:10:26,320 --> 00:10:27,320
-Yes, she is.
-
-252
-00:10:27,320 --> 00:10:30,320
-From the pod-set music that we're biopathes,
-
-253
-00:10:30,320 --> 00:10:32,320
-there's little chance that you'll hear Natalie Brown sing or speak,
-
-254
-00:10:32,320 --> 00:10:35,320
-and not be moved by the refreshing texture in her voice.
-
-255
-00:10:35,320 --> 00:10:40,320
-This emotive singer songwriter with a soulful and powerful 4.5 octave range
-
-256
-00:10:40,320 --> 00:10:45,320
-translates her life experiences into songs that inspire entertain and provoke.
-
-257
-00:10:45,320 --> 00:10:47,320
-Well, what do we have here?
-
-258
-00:10:47,320 --> 00:10:49,320
-It's another Mariah Carey.
-
-259
-00:10:49,320 --> 00:10:51,320
-Yeah, that's Mariah Carey.
-
-260
-00:10:51,320 --> 00:10:52,320
+59
+00:02:53,600 --> 00:02:56,760
+And Patricia and I have been talking about Pod Save music for a while.
+
+60
+00:02:56,760 --> 00:03:02,080
+We always talk about music, actually, because it's our main interest.
+
+61
+00:03:02,520 --> 00:03:04,400
 Yeah, yeah.
 
-261
-00:10:52,320 --> 00:10:54,320
+62
+00:03:04,400 --> 00:03:06,880
+And it can be enjoyable.
+
+63
+00:03:06,880 --> 00:03:08,320
+It can be very irritating.
+
+64
+00:03:08,320 --> 00:03:11,200
+But in the meanwhile, it's it's it's entertainment.
+
+65
+00:03:11,800 --> 00:03:14,200
+Oh, it was last night that we were watching X Factor.
+
+66
+00:03:15,440 --> 00:03:18,920
+Sharon Osborne and Simon Cowell.
+
+67
+00:03:19,280 --> 00:03:19,960
+Those two, right?
+
+68
+00:03:19,960 --> 00:03:20,800
+Is it a third person?
+
+69
+00:03:20,800 --> 00:03:21,840
+No, it's just those two, right?
+
+70
+00:03:21,840 --> 00:03:22,440
+No, no, no.
+
+71
+00:03:22,440 --> 00:03:23,160
+And the other one.
+
+72
+00:03:23,160 --> 00:03:26,840
+Who's the dude with the with the orange beret and the green and blue?
+
+73
+00:03:26,840 --> 00:03:27,280
+I don't know.
+
+74
+00:03:27,280 --> 00:03:29,640
+No, that that was just a.
+
+75
+00:03:29,640 --> 00:03:30,960
+He's he's irritating.
+
+76
+00:03:30,960 --> 00:03:35,600
+Yeah, I think that was an special guy or something.
+
+77
+00:03:35,680 --> 00:03:36,520
+Yeah, I think so.
+
+78
+00:03:36,520 --> 00:03:41,240
+An ex producer or a music authority that helped her
+
+79
+00:03:41,560 --> 00:03:44,840
+because they all have categories that that they take care of.
+
+80
+00:03:45,520 --> 00:03:48,560
+What? No, that's the other guy.
+
+81
+00:03:48,760 --> 00:03:51,240
+That's what you mean from the from the X Factor.
+
+82
+00:03:51,240 --> 00:03:52,960
+That's the other.
+
+83
+00:03:52,960 --> 00:03:54,240
+His name is Louie with the beard.
+
+84
+00:03:54,240 --> 00:03:57,000
+No, no, no, it's not with the beard.
+
+85
+00:03:57,000 --> 00:03:58,920
+Yeah, they're the three of them.
+
+86
+00:03:58,920 --> 00:04:00,600
+But I want to know who the dude with the beard.
+
+87
+00:04:00,600 --> 00:04:01,360
+No, I don't know.
+
+88
+00:04:01,360 --> 00:04:03,880
+I don't know. It's an English thing.
+
+89
+00:04:04,040 --> 00:04:05,280
+But he's American.
+
+90
+00:04:05,280 --> 00:04:06,240
+Oh, is he?
+
+91
+00:04:06,240 --> 00:04:07,440
+Or maybe he's famous.
+
+92
+00:04:07,440 --> 00:04:09,440
+Yeah, I didn't get it.
+
+93
+00:04:09,440 --> 00:04:11,400
+But I know Americans here.
+
+94
+00:04:11,400 --> 00:04:14,000
+Yeah, but I know he's in music authority.
+
+95
+00:04:14,000 --> 00:04:15,440
+That's why he was sitting there.
+
+96
+00:04:15,440 --> 00:04:16,080
+But anyway.
+
+97
+00:04:16,080 --> 00:04:19,080
+So we were at one point
+
+98
+00:04:19,080 --> 00:04:22,880
+when pop idol started in the Netherlands three years ago,
+
+99
+00:04:22,880 --> 00:04:25,040
+two years ago, I think it's maybe three years ago.
+
+100
+00:04:25,040 --> 00:04:26,320
+Yeah, three years ago.
+
+101
+00:04:26,320 --> 00:04:29,240
+I was asked to be the host of the show, which I declined.
+
+102
+00:04:29,240 --> 00:04:32,320
+But I said, look, if you don't put Patricia in as a judge, you're crazy.
+
+103
+00:04:32,320 --> 00:04:34,520
+And of course, I was right.
+
+104
+00:04:36,040 --> 00:04:37,440
+It was not that big.
+
+105
+00:04:37,440 --> 00:04:39,480
+No, no, but you should have chosen me.
+
+106
+00:04:39,480 --> 00:04:40,880
+But you would have loved doing that.
+
+107
+00:04:40,880 --> 00:04:42,840
+Well, they thought it was a bit too much.
+
+108
+00:04:42,840 --> 00:04:43,880
+You and me.
+
+109
+00:04:43,880 --> 00:04:45,480
+Yeah, but I declined anyway.
+
+110
+00:04:45,840 --> 00:04:46,520
+It doesn't matter.
+
+111
+00:04:46,520 --> 00:04:47,400
+That doesn't matter.
+
+112
+00:04:47,400 --> 00:04:49,440
+But you would have thoroughly enjoyed doing that
+
+113
+00:04:49,440 --> 00:04:54,000
+because you do know a lot about music.
+
+114
+00:04:54,200 --> 00:04:57,200
+Well, not just music, but performance and styling
+
+115
+00:04:57,200 --> 00:04:58,640
+and the whole packaging.
+
+116
+00:04:58,640 --> 00:05:04,600
+No, and also I can always predict when it's something.
+
+117
+00:05:04,600 --> 00:05:06,200
+When it's something when someone's going to be a hit.
+
+118
+00:05:06,200 --> 00:05:06,800
+That's right.
+
+119
+00:05:06,800 --> 00:05:09,080
+Do you have a coat on?
+
+120
+00:05:09,080 --> 00:05:10,640
+My my girl is going.
+
+121
+00:05:10,640 --> 00:05:14,280
+So I might be very careful.
+
+122
+00:05:14,280 --> 00:05:17,680
+I'm timing you back for bad Englishman.
+
+123
+00:05:17,680 --> 00:05:19,680
+I love you.
+
+124
+00:05:19,680 --> 00:05:21,240
+Be careful.
+
+125
+00:05:21,240 --> 00:05:22,320
+Get your credits first.
+
+126
+00:05:22,320 --> 00:05:23,680
+Be on time.
+
+127
+00:05:23,680 --> 00:05:24,080
+OK.
+
+128
+00:05:24,080 --> 00:05:27,840
+And don't eat that all that crap.
+
+129
+00:05:27,840 --> 00:05:30,200
+Hey, and don't eat all the crap.
+
+130
+00:05:30,200 --> 00:05:32,280
+So throughout the food court and the dogs,
+
+131
+00:05:32,280 --> 00:05:33,880
+this is ruining our show.
+
+132
+00:05:33,880 --> 00:05:34,560
+Oh, it doesn't mean it's real.
+
+133
+00:05:34,560 --> 00:05:35,960
+No one cares about the show.
+
+134
+00:05:35,960 --> 00:05:38,080
+It's real.
+
+135
+00:05:38,080 --> 00:05:42,520
+I just want to say that no one cares about the show on my show.
+
+136
+00:05:42,520 --> 00:05:43,560
+The dogs don't know.
+
+137
+00:05:43,560 --> 00:05:46,440
+So during the week on the Daily Source Code,
+
+138
+00:05:46,440 --> 00:05:49,120
+which I might point out, Patricia never listens to.
+
+139
+00:05:49,120 --> 00:05:52,920
+That's probably better, by the way.
+
+140
+00:05:52,920 --> 00:05:54,240
+Overdose of Adam.
+
+141
+00:05:54,240 --> 00:05:56,360
+Yeah.
+
+142
+00:05:56,360 --> 00:05:59,000
+I play a whole bunch of Pod Save songs
+
+143
+00:05:59,000 --> 00:06:02,520
+and songs that I think that I like or, you know,
+
+144
+00:06:02,520 --> 00:06:04,160
+I think I can pick them too, actually.
+
+145
+00:06:04,160 --> 00:06:05,600
+I guess that's what I'm saying.
+
+146
+00:06:05,600 --> 00:06:07,480
+But Patricia has, you know, she'll look at someone and say,
+
+147
+00:06:07,480 --> 00:06:08,480
+oh, that person has it.
+
+148
+00:06:08,480 --> 00:06:10,040
+That person has the X factor.
+
+149
+00:06:10,040 --> 00:06:12,000
+In fact, that's what you can exactly say.
+
+150
+00:06:12,040 --> 00:06:13,440
+Yeah, it says it.
+
+151
+00:06:13,440 --> 00:06:15,240
+But also, it has it, right?
+
+152
+00:06:15,240 --> 00:06:16,880
+The it factor.
+
+153
+00:06:16,880 --> 00:06:20,120
+So when I'm playing tunes here in the studio,
+
+154
+00:06:20,120 --> 00:06:23,000
+which is right next door to Patricia's studio.
+
+155
+00:06:23,000 --> 00:06:23,840
+My boudoir.
+
+156
+00:06:23,840 --> 00:06:25,000
+Your boudoir.
+
+157
+00:06:25,000 --> 00:06:27,320
+Sometimes she'll come in and say, I like that.
+
+158
+00:06:27,320 --> 00:06:29,000
+Yeah, come running in and say, oh, I like that.
+
+159
+00:06:29,000 --> 00:06:29,840
+Who's that?
+
+160
+00:06:29,840 --> 00:06:30,680
+Who's that?
+
+161
+00:06:30,680 --> 00:06:31,520
+Right.
+
+162
+00:06:31,520 --> 00:06:35,160
+So I figured I just play a couple of the songs
+
+163
+00:06:35,160 --> 00:06:36,680
+that I've been playing in the past week.
+
+164
+00:06:36,680 --> 00:06:40,320
+And then you tell me what you think about them.
+
+165
+00:06:40,320 --> 00:06:41,960
+You like the idea?
+
+166
+00:06:42,240 --> 00:06:42,720
+Good.
+
+167
+00:06:42,720 --> 00:06:43,360
+OK.
+
+168
+00:06:43,360 --> 00:06:45,200
+So I'll put it on the speakers in a second
+
+169
+00:06:45,200 --> 00:06:46,200
+so you can hear a little bit better.
+
+170
+00:06:46,200 --> 00:06:48,560
+This first one is Natalie Brown.
+
+171
+00:06:48,560 --> 00:06:49,880
+It's called In My Dreams.
+
+172
+00:06:51,250 --> 00:10:07,480
+[ Music ]
+
+173
+00:10:07,480 --> 00:10:16,560
+Okay, that was Natalie Brown in My Dreams.
+
+174
+00:10:16,560 --> 00:10:17,560
+What is her name?
+
+175
+00:10:17,560 --> 00:10:18,560
+Natalie Brown.
+
+176
+00:10:18,560 --> 00:10:19,560
+Natalie Brown.
+
+177
+00:10:19,560 --> 00:10:22,120
+I'll tell you something about her here.
+
+178
+00:10:22,120 --> 00:10:23,920
+I don't think she is Brown.
+
+179
+00:10:23,920 --> 00:10:25,920
+No, in fact, she's very white.
+
+180
+00:10:25,920 --> 00:10:26,920
+Yes, see?
+
+181
+00:10:26,920 --> 00:10:27,920
+Yeah.
+
+182
+00:10:27,920 --> 00:10:30,000
+From the PodSafe Music Network biopay, it says,
+
+183
+00:10:30,000 --> 00:10:32,240
+little chance that you'll hear Natalie Brown sing or speak
+
+184
+00:10:32,240 --> 00:10:35,880
+and not be moved by the refreshing texture in her voice.
+
+185
+00:10:35,880 --> 00:10:41,760
+This emotive singer-songwriter with a soulful and powerful 4.5 octave range translates her
+
+186
+00:10:41,760 --> 00:10:45,760
+life experiences into songs that inspire, entertain and provoke.
+
+187
+00:10:45,760 --> 00:10:49,400
+Well, what we have here is another Mariah Carey.
+
+188
+00:10:49,400 --> 00:10:51,400
+Yeah, that's what I thought actually.
+
+189
+00:10:51,400 --> 00:10:52,400
+Yeah, yeah.
+
+190
+00:10:52,400 --> 00:10:54,920
 But I thought actually kind of nicer than Mariah Carey.
 
-262
-00:10:54,320 --> 00:10:55,320
-How sweeter?
+191
+00:10:54,920 --> 00:11:02,880
+Now, sweeter, yeah, a little bit more sweeter, very warm, very sensitive.
 
-263
-00:10:55,320 --> 00:11:00,320
-Yeah, a little bit more sweeter, very warm, very sensitive.
-
-264
-00:11:01,320 --> 00:11:05,320
+192
+00:11:02,880 --> 00:11:06,600
 It really grabbed me.
 
-265
-00:11:05,320 --> 00:11:07,320
-The song?
+193
+00:11:06,600 --> 00:11:10,360
+The song, no, it's a little bit, it goes on a little bit too long.
 
-266
-00:11:07,320 --> 00:11:08,320
-No, it's a little bit.
+194
+00:11:10,360 --> 00:11:14,360
+Yeah, it's like one of those early Whitney Houston songs from the album.
 
-267
-00:11:08,320 --> 00:11:10,320
-Goes on a little bit too long.
-
-268
-00:11:10,320 --> 00:11:13,320
-It's like one of those early, it's like one of those early Whitney Houston songs.
-
-269
-00:11:13,320 --> 00:11:14,320
+195
+00:11:14,360 --> 00:11:15,360
 Yeah, exactly.
 
-270
-00:11:14,320 --> 00:11:17,320
-I was thinking about how I was thinking about how I was thinking about her voice.
+196
+00:11:15,360 --> 00:11:16,360
+I was thinking that.
 
-271
-00:11:17,320 --> 00:11:18,320
-But her voice?
+197
+00:11:16,360 --> 00:11:17,360
+I was thinking that.
 
-272
-00:11:18,320 --> 00:11:21,320
-I don't know how she looks if she has the looks.
+198
+00:11:17,360 --> 00:11:18,360
+Very Whitney Houston.
 
-273
-00:11:21,320 --> 00:11:23,320
-Yes, she's got huge hudders.
+199
+00:11:18,360 --> 00:11:21,480
+But her voice, I don't know how she looks, if she has the looks.
 
-274
-00:11:23,320 --> 00:11:25,320
+200
+00:11:21,480 --> 00:11:23,480
+Yeah, she's got huge hooters.
+
+201
+00:11:23,480 --> 00:11:25,480
 Oh, that's always nice.
 
-275
-00:11:25,320 --> 00:11:27,320
-No, I can.
+202
+00:11:25,480 --> 00:11:26,480
+Can you see it?
 
-276
-00:11:27,320 --> 00:11:28,320
-That's too far away.
+203
+00:11:26,480 --> 00:11:27,480
+No, I can't.
 
-277
-00:11:28,320 --> 00:11:31,320
+204
+00:11:27,480 --> 00:11:29,320
+That's just too far away.
+
+205
+00:11:29,320 --> 00:11:32,200
 But that's always nice, you know.
 
-278
-00:11:31,320 --> 00:11:34,320
+206
+00:11:32,200 --> 00:11:34,320
 It helps a little bit.
 
-279
-00:11:34,320 --> 00:11:37,320
-But.
+207
+00:11:34,320 --> 00:11:40,560
+But yeah, okay, you know, you need something.
 
-280
-00:11:37,320 --> 00:11:38,320
-Yeah, okay.
+208
+00:11:40,560 --> 00:11:43,040
+We should make that a tag on the PodSafe Music Award.
 
-281
-00:11:38,320 --> 00:11:40,320
-You need something.
+209
+00:11:43,040 --> 00:11:48,560
+Her voice is, I think, very, she's got it totally under control.
 
-282
-00:11:40,320 --> 00:11:42,320
-We should make that a tag on the podcast.
-
-283
-00:11:42,320 --> 00:11:48,320
-But her voice is, I think, very she's, she's, she's got a totally on the control.
-
-284
-00:11:48,320 --> 00:11:49,320
-Yeah.
-
-285
-00:11:49,320 --> 00:11:50,320
+210
+00:11:48,560 --> 00:11:49,560
 I like that.
 
-286
-00:11:50,320 --> 00:11:54,320
-I don't know if she really, if she stopped somewhere and they, you know, did it in part.
+211
+00:11:49,560 --> 00:11:53,960
+I don't know if she really, if she stopped somewhere and they, you know, did it in
 
-287
-00:11:54,320 --> 00:11:56,320
-But the way it sounds.
+212
+00:11:53,960 --> 00:11:59,800
+parts, but the way it sounds, the recording, I don't know that.
 
-288
-00:11:56,320 --> 00:11:57,320
-I mean, the recording.
+213
+00:11:59,800 --> 00:12:00,800
+Interesting question.
 
-289
-00:11:57,320 --> 00:11:58,320
-Yeah, the recording.
+214
+00:12:00,800 --> 00:12:03,200
+It's very, very clear and beautiful.
 
-290
-00:11:58,320 --> 00:11:59,320
-I don't know that.
+215
+00:12:03,200 --> 00:12:04,200
+But does it matter?
 
-291
-00:11:59,320 --> 00:12:00,320
-Interesting.
+216
+00:12:04,200 --> 00:12:06,360
+It doesn't really, I mean, even if you record it that way, that's okay.
 
-292
-00:12:00,320 --> 00:12:02,320
-But it sounds very, very clear.
-
-293
-00:12:02,320 --> 00:12:03,320
-But it doesn't matter.
-
-294
-00:12:03,320 --> 00:12:06,320
-It doesn't, I mean, even if you record it that way, that's okay.
-
-295
-00:12:06,320 --> 00:12:11,320
+217
+00:12:06,360 --> 00:12:11,800
 Well, it matters if you sing live and you cannot do it the way you recorded it.
 
-296
-00:12:11,320 --> 00:12:13,320
-It's a bit of bummer, of course.
+218
+00:12:11,800 --> 00:12:14,200
+It's a bit of a bummer, of course.
 
-297
-00:12:13,320 --> 00:12:14,320
-No.
+219
+00:12:14,200 --> 00:12:17,400
+But no, but it sounded, I like her voice.
 
-298
-00:12:14,320 --> 00:12:17,320
-But it sounded, I like her voice.
-
-299
-00:12:17,320 --> 00:12:19,320
+220
+00:12:17,400 --> 00:12:19,080
 I like her voice very much.
 
-300
-00:12:19,320 --> 00:12:20,320
-Beautiful.
+221
+00:12:19,080 --> 00:12:22,880
+Beautiful, very warm, very sensitive.
 
-301
-00:12:20,320 --> 00:12:21,320
-Very warm.
+222
+00:12:22,880 --> 00:12:25,960
+And she sings with her heart, I can tell.
 
-302
-00:12:21,320 --> 00:12:22,320
-Very sensitive.
+223
+00:12:25,960 --> 00:12:28,160
+The song is a little bit too weepy, too.
 
-303
-00:12:22,320 --> 00:12:24,320
-And she sings with her heart.
+224
+00:12:28,160 --> 00:12:29,160
+Too weepy.
 
-304
-00:12:24,320 --> 00:12:25,320
-I can tell.
+225
+00:12:29,160 --> 00:12:30,160
+Okay.
 
-305
-00:12:25,320 --> 00:12:26,320
-Yeah.
+226
+00:12:30,520 --> 00:12:33,440
+But it's a gorgeous song for an album.
 
-306
-00:12:26,320 --> 00:12:28,320
-The song is a little bit too weepy too.
-
-307
-00:12:28,320 --> 00:12:29,320
-Yeah.
-
-308
-00:12:29,320 --> 00:12:30,320
-Yeah.
-
-309
-00:12:30,320 --> 00:12:31,320
-All right.
-
-310
-00:12:31,320 --> 00:12:33,320
-So the chords you sung for an album.
-
-311
-00:12:33,320 --> 00:12:35,320
+227
+00:12:33,440 --> 00:12:36,080
 So we should keep our eye on her then.
 
-312
-00:12:35,320 --> 00:12:36,320
-Yeah.
+228
+00:12:36,080 --> 00:12:37,080
+Yeah, definitely.
 
-313
-00:12:36,320 --> 00:12:37,320
-Definitely.
-
-314
-00:12:37,320 --> 00:12:38,320
+229
+00:12:37,080 --> 00:12:38,080
 Good.
 
-315
-00:12:38,320 --> 00:12:39,320
-Okay.
+230
+00:12:38,080 --> 00:12:41,080
+Okay, let's play a guy then.
 
-316
-00:12:39,320 --> 00:12:41,320
-Let's play a guide then.
+231
+00:12:41,080 --> 00:12:42,080
+Lee Three Harris?
 
-317
-00:12:41,320 --> 00:12:42,320
-Lee, three Harris.
+232
+00:12:42,080 --> 00:12:44,080
+I don't know when I played this.
 
-318
-00:12:42,320 --> 00:12:43,320
-I don't know when I play this.
-
-319
-00:12:43,320 --> 00:12:45,320
+233
+00:12:44,080 --> 00:12:46,080
 Oh, shit.
 
-320
-00:12:45,320 --> 00:12:46,320
+234
+00:12:46,080 --> 00:12:47,080
 Okay.
 
-321
-00:12:46,320 --> 00:12:47,320
+235
+00:12:47,080 --> 00:12:48,080
 Okay.
 
-322
-00:12:47,320 --> 00:12:48,320
-Okay.
+236
+00:12:48,080 --> 00:12:50,720
+No, actually, I kind of like this one.
 
-323
-00:12:48,320 --> 00:12:49,320
-Okay.
-
-324
-00:12:49,320 --> 00:12:50,320
-Actually, I kind of like this one.
-
-325
-00:12:50,320 --> 00:12:52,320
+237
+00:12:50,720 --> 00:12:52,720
 Nothing to believe it.
 
-326
-00:12:53,320 --> 00:12:56,320
-You got MTV and VH1.
+238
+00:12:53,750 --> 00:14:31,250
+[ Music ]
 
-327
-00:13:00,320 --> 00:13:02,320
-And I'm on planet in Nickelodeon.
+239
+00:14:32,720 --> 00:14:33,720
+Hola.
 
-328
-00:13:06,320 --> 00:13:09,320
-And a net and a satellite dish and a big tanker,
+240
+00:14:33,720 --> 00:14:36,720
+No, that sums up all the things that an American guy needs.
 
-329
-00:13:09,320 --> 00:13:14,320
-Dr. Go Fish and a, you don't have this word you whisper.
+241
+00:14:38,720 --> 00:14:40,720
+I love the words, I love the words.
 
-330
-00:13:14,320 --> 00:13:16,320
-Nothing to believe in.
-
-331
-00:13:16,320 --> 00:13:18,320
-Nothing to believe in.
-
-332
-00:13:18,320 --> 00:13:28,320
-Got a pretty girl friend and a big big car.
-
-333
-00:13:28,320 --> 00:13:33,320
-Everybody knows your name at the bar.
-
-334
-00:13:33,320 --> 00:13:36,320
-Call that a designer sneakers.
-
-335
-00:13:36,320 --> 00:13:39,320
-There we go with fancy speakers.
-
-336
-00:13:39,320 --> 00:13:41,320
-We don't have just what you deserve.
-
-337
-00:13:41,320 --> 00:13:43,320
-Nothing to believe in.
-
-338
-00:13:43,320 --> 00:13:46,320
-Nothing to believe in.
-
-339
-00:13:46,320 --> 00:13:50,320
-Right here's right.
-
-340
-00:13:50,320 --> 00:13:52,320
-When you say you're so.
-
-341
-00:13:52,320 --> 00:13:54,320
-Nothing more to do.
-
-342
-00:13:54,320 --> 00:13:58,320
-When you know to learn all that's to fade in.
-
-343
-00:13:58,320 --> 00:14:01,320
-And ain't gonna say you ain't gonna say you.
-
-344
-00:14:01,320 --> 00:14:07,320
-Books and books are found in the shell.
-
-345
-00:14:07,320 --> 00:14:08,320
-Down on the corner.
-
-346
-00:14:08,320 --> 00:14:13,320
-There's a taco bell.
-
-347
-00:14:13,320 --> 00:14:23,320
-Nothing to believe in.
-
-348
-00:14:23,320 --> 00:14:26,320
-Nothing to believe in.
-
-349
-00:14:26,320 --> 00:14:29,320
-Nothing to believe in.
-
-350
-00:14:29,320 --> 00:14:32,320
-Nothing to believe in.
-
-351
-00:14:32,320 --> 00:14:34,320
-Hold on.
-
-352
-00:14:34,320 --> 00:14:38,320
-That's some of all the things that an American guy needs.
-
-353
-00:14:38,320 --> 00:14:40,320
-I love the words.
-
-354
-00:14:40,320 --> 00:14:41,320
-I love the words.
-
-355
-00:14:41,320 --> 00:14:42,320
+242
+00:14:40,720 --> 00:14:42,720
 I think it's a great song.
 
-356
-00:14:43,320 --> 00:14:44,320
-I love it.
+243
+00:14:42,720 --> 00:14:44,720
+Yeah, it's cool as well.
 
-357
-00:14:44,320 --> 00:14:45,320
-Yeah.
+244
+00:14:44,720 --> 00:14:47,720
+Absolutely true what he's singing.
 
-358
-00:14:45,320 --> 00:14:46,320
-Absolutely true.
-
-359
-00:14:46,320 --> 00:14:48,320
-What are you singing?
-
-360
-00:14:48,320 --> 00:14:50,320
+245
+00:14:47,720 --> 00:14:49,720
 What do you mean by that?
 
-361
-00:14:50,320 --> 00:14:53,320
-Well, we've been there the last time.
+246
+00:14:49,720 --> 00:14:52,720
+Well, we've been there the last time
 
-362
-00:14:53,320 --> 00:14:57,320
-I noticed exactly what he was singing.
+247
+00:14:52,720 --> 00:14:56,720
+and I noticed exactly what he was singing.
 
-363
-00:14:57,320 --> 00:14:58,320
-Yeah.
+248
+00:14:56,720 --> 00:15:00,720
+The sneakers and we've got this and that.
 
-364
-00:14:58,320 --> 00:14:59,320
-The sneakers.
+249
+00:15:00,720 --> 00:15:02,720
+And also on the other side, the emptiness.
 
-365
-00:14:59,320 --> 00:15:01,320
-We've got this one.
+250
+00:15:02,720 --> 00:15:04,720
+That's actually the Lee Harris Three.
 
-366
-00:15:01,320 --> 00:15:02,320
-That's also the other side.
-
-367
-00:15:02,320 --> 00:15:03,320
-The emptiness.
-
-368
-00:15:03,320 --> 00:15:05,320
-That's actually the Lee Harris III.
-
-369
-00:15:05,320 --> 00:15:08,320
+251
+00:15:04,720 --> 00:15:06,720
 It's from Central Virginia.
 
-370
-00:15:08,320 --> 00:15:10,320
-This song.
+252
+00:15:06,720 --> 00:15:08,720
+Let's see.
 
-371
-00:15:10,320 --> 00:15:11,320
-The Lee show.
+253
+00:15:09,720 --> 00:15:11,720
+The Lee Show.
 
-372
-00:15:11,320 --> 00:15:14,320
+254
+00:15:12,720 --> 00:15:14,720
 I think they have a podcast too.
 
-373
-00:15:14,320 --> 00:15:15,320
-Good.
-
-374
-00:15:15,320 --> 00:15:16,320
+255
+00:15:14,720 --> 00:15:16,720
 Very interesting.
 
-375
-00:15:16,320 --> 00:15:17,320
-That's cool.
+256
+00:15:16,720 --> 00:15:17,720
+That's cool, isn't it?
 
-376
-00:15:17,320 --> 00:15:19,320
-You should see the picture here.
+257
+00:15:17,720 --> 00:15:18,720
+Yeah, I love it.
 
-377
-00:15:19,320 --> 00:15:21,320
-These guys have their farm around fits on.
+258
+00:15:18,720 --> 00:15:20,720
+You should see the picture here of these guys.
 
-378
-00:15:21,320 --> 00:15:22,320
-Donkey.
+259
+00:15:20,720 --> 00:15:22,720
+They have their farmer outfits on and donkey.
 
-379
-00:15:22,320 --> 00:15:23,320
-That's typical.
-
-380
-00:15:23,320 --> 00:15:24,320
+260
+00:15:22,720 --> 00:15:24,720
 You know, you're right.
 
-381
-00:15:24,320 --> 00:15:25,320
-It's real American rock.
+261
+00:15:24,720 --> 00:15:26,720
+It's real American rock and roll.
 
-382
-00:15:25,320 --> 00:15:26,320
-Yeah.
-
-383
-00:15:26,320 --> 00:15:27,320
-Yeah.
-
-384
-00:15:27,320 --> 00:15:28,320
+262
+00:15:26,720 --> 00:15:28,720
 I totally dig that.
 
-385
-00:15:28,320 --> 00:15:29,320
-Oh man.
+263
+00:15:28,720 --> 00:15:30,720
+Oh man, I'm going to have to do so much work
 
-386
-00:15:29,320 --> 00:15:31,320
-I have to do so much work and putting the show notes together.
+264
+00:15:30,720 --> 00:15:32,720
+in putting the show notes together
 
-387
-00:15:31,320 --> 00:15:33,320
-Putting all these links in.
+265
+00:15:32,720 --> 00:15:34,720
+and putting all these links in.
 
-388
-00:15:33,320 --> 00:15:34,320
-Yeah.
+266
+00:15:34,720 --> 00:15:36,720
+It doesn't matter.
 
-389
-00:15:34,320 --> 00:15:35,320
-Doesn't matter.
+267
+00:15:36,720 --> 00:15:38,720
+Here's a guy that I think is,
 
-390
-00:15:35,320 --> 00:15:36,320
-Okay.
+268
+00:15:38,720 --> 00:15:40,720
+he's from New York City.
 
-391
-00:15:36,320 --> 00:15:39,320
-Here's a guy that I think is he's from New York City.
+269
+00:15:40,720 --> 00:15:42,720
+I really like this guy.
 
-392
-00:15:39,320 --> 00:15:42,320
-And I really like this guy.
-
-393
-00:15:42,320 --> 00:15:43,320
+270
+00:15:42,720 --> 00:15:44,720
 Don't say anything.
 
-394
-00:15:43,320 --> 00:15:44,320
-Just don't say.
-
-395
-00:15:44,320 --> 00:15:45,320
+271
+00:15:44,720 --> 00:15:46,720
 I'm sorry.
 
-396
-00:15:45,320 --> 00:15:46,320
-Didn't mean to do that.
-
-397
-00:15:46,320 --> 00:15:48,320
+272
+00:15:46,720 --> 00:15:48,720
 His name is Brother Love.
 
-398
-00:15:48,320 --> 00:15:49,320
+273
+00:15:48,720 --> 00:15:50,720
 This is There She Goes.
 
+274
+00:15:58,750 --> 00:17:56,250
+[ Music ]
+
+275
+00:17:56,720 --> 00:17:58,720
+He's such a cutie pie.
+
+276
+00:17:58,720 --> 00:18:00,720
+And I really love your band.
+
+277
+00:18:00,720 --> 00:18:02,720
+But I'm a boyfriend.
+
+278
+00:18:02,720 --> 00:18:03,720
+No.
+
+279
+00:18:03,750 --> 00:20:11,250
+[ Music ]
+
+280
+00:20:12,720 --> 00:20:14,720
+Welcome to my club
+
+281
+00:20:14,720 --> 00:20:16,720
+A table for one
+
+282
+00:20:17,720 --> 00:20:19,720
+Such a ska
+
+283
+00:20:20,720 --> 00:20:21,720
+Bye
+
+284
+00:20:24,720 --> 00:20:25,720
+Love it
+
+285
+00:20:25,720 --> 00:20:26,720
+Isn't that cool?
+
+286
+00:20:26,720 --> 00:20:28,720
+Oh, I love it, it's great
+
+287
+00:20:28,720 --> 00:20:31,720
+I love his voice, it's a great song
+
+288
+00:20:31,720 --> 00:20:36,720
+And his voice reminds me of T-Rex, Mark Bowman
+
+289
+00:20:36,720 --> 00:20:37,720
+Oh, interesting, interesting
+
+290
+00:20:37,720 --> 00:20:38,720
+I was thinking
+
+291
+00:20:38,720 --> 00:20:40,720
+Little Fee Brato, you know that
+
+292
+00:20:40,720 --> 00:20:42,720
+I also thought he had a little Aerosmith vibe there
+
+293
+00:20:42,720 --> 00:20:48,720
+Yes, and the band sounds a little bit like Aerosmith did
+
+294
+00:20:48,720 --> 00:20:53,720
+But the song is great, I love it, I love the voice
+
+295
+00:20:53,720 --> 00:20:55,720
+I think this could be a big hit
+
+296
+00:20:55,720 --> 00:20:57,720
+So this is, I was thinking
+
+297
+00:20:57,720 --> 00:21:00,720
+This is the guy, you know, when we start our unlabel
+
+298
+00:21:00,720 --> 00:21:01,720
+Yeah
+
+299
+00:21:01,720 --> 00:21:03,720
+Which is a record label that's like the Uncola
+
+300
+00:21:03,720 --> 00:21:04,720
+I don't know how they look, but
+
+301
+00:21:04,720 --> 00:21:05,720
+Oh, no, no, look here
+
+302
+00:21:05,720 --> 00:21:06,720
+Does that look good?
+
+303
+00:21:06,720 --> 00:21:09,720
+Look at him, well, come over here, check it out
+
+304
+00:21:11,720 --> 00:21:13,720
+Oh, shit, you gotta be careful
+
+305
+00:21:13,720 --> 00:21:16,720
+Because you can't go that far, the wire is not far
+
+306
+00:21:16,720 --> 00:21:17,720
+Is that the guy?
+
+307
+00:21:17,720 --> 00:21:18,720
+Yeah
+
+308
+00:21:19,720 --> 00:21:21,720
+He looks a bit like Mark Bowman
+
+309
+00:21:22,720 --> 00:21:23,720
+So he knows
+
+310
+00:21:23,720 --> 00:21:25,720
+He's probably touching himself right now
+
+311
+00:21:25,720 --> 00:21:26,720
+I think he knows
+
+312
+00:21:26,720 --> 00:21:28,720
+I don't know, we'll find out
+
+313
+00:21:28,720 --> 00:21:35,720
+Actually, last night I saw an old pop of the pop
+
+314
+00:21:35,720 --> 00:21:36,720
+Pop of the tops?
+
+315
+00:21:36,720 --> 00:21:38,720
+Top of the pops, you know, an old one
+
+316
+00:21:38,720 --> 00:21:40,720
+They show the old ones
+
+317
+00:21:40,720 --> 00:21:43,720
+And you saw Mark Bowman in the beginning when it just started
+
+318
+00:21:43,720 --> 00:21:46,720
+And I love the guy, he's so good
+
+319
+00:21:46,720 --> 00:21:49,720
+And he was actually one of the first guys
+
+320
+00:21:49,720 --> 00:21:51,720
+You know, Glamrock and
+
+321
+00:21:51,720 --> 00:21:53,720
+Did he die in a car crash?
+
+322
+00:21:53,720 --> 00:21:55,720
+Yeah, yeah, he died in the car crash
+
+323
+00:21:55,720 --> 00:21:57,720
+That my sister should have been in
+
+324
+00:21:57,720 --> 00:21:58,720
+What?
+
+325
+00:21:58,720 --> 00:22:00,720
+Actually, because I wanted to pick her up
+
+326
+00:22:00,720 --> 00:22:01,720
+To have dinner with her
+
+327
+00:22:01,720 --> 00:22:02,720
+When she lived in London
+
+328
+00:22:02,720 --> 00:22:03,720
+Yeah
+
+329
+00:22:03,720 --> 00:22:05,720
+And he came to pick her up, Mark Bowman
+
+330
+00:22:05,720 --> 00:22:07,720
+With his girlfriend
+
+331
+00:22:07,720 --> 00:22:08,720
+Yeah
+
+332
+00:22:09,720 --> 00:22:10,720
+And
+
+333
+00:22:12,720 --> 00:22:14,720
+Yvonne, I think they called her
+
+334
+00:22:14,720 --> 00:22:16,720
+And she said, well, actually I don't feel that well
+
+335
+00:22:16,720 --> 00:22:18,720
+I don't want to go
+
+336
+00:22:18,720 --> 00:22:20,720
+So she was a bit late
+
+337
+00:22:20,720 --> 00:22:22,720
+She didn't make up anything
+
+338
+00:22:22,720 --> 00:22:23,720
+She didn't want to go
+
+339
+00:22:23,720 --> 00:22:25,720
+So they went by themselves
+
+340
+00:22:25,720 --> 00:22:27,720
+And had the car crash
+
+341
+00:22:27,720 --> 00:22:28,720
+You're kidding me
+
+342
+00:22:28,720 --> 00:22:31,720
+Yes, and the girlfriend is okay
+
+343
+00:22:31,720 --> 00:22:33,720
+Who, you know, was also, of course,
+
+344
+00:22:33,720 --> 00:22:35,720
+Terrible the way she looked
+
+345
+00:22:35,720 --> 00:22:36,720
+And the things she had
+
+346
+00:22:36,720 --> 00:22:38,720
+But Mark died in it
+
+347
+00:22:38,720 --> 00:22:40,720
+And Yvonne should have been in that car
+
+348
+00:22:40,720 --> 00:22:41,720
+Isn't it amazing?
+
+349
+00:22:41,720 --> 00:22:42,720
+Well, she has an angel
+
+350
+00:22:42,720 --> 00:22:43,720
+Yeah, yeah
+
+351
+00:22:43,720 --> 00:22:45,720
+Because they were, you know,
+
+352
+00:22:45,720 --> 00:22:47,720
+Befriended with, befriended, how you say?
+
+353
+00:22:47,720 --> 00:22:48,720
+Yeah, befriended
+
+354
+00:22:48,720 --> 00:22:49,720
+Befriended with them
+
+355
+00:22:49,720 --> 00:22:51,720
+And a wonderful guy also
+
+356
+00:22:51,720 --> 00:22:53,720
+But to come back to this
+
+357
+00:22:53,720 --> 00:22:54,720
+To brother love, yeah
+
+358
+00:22:54,720 --> 00:22:56,720
+To brother love, I love it
+
+359
+00:22:56,720 --> 00:22:58,720
+Could be a big hit
+
+360
+00:22:58,720 --> 00:22:59,720
+He's got a whole bunch of...
+
+361
+00:22:59,720 --> 00:23:00,720
+Great voice and the harmonies
+
+362
+00:23:00,720 --> 00:23:02,720
+I love the sound of the harmonies
+
+363
+00:23:02,720 --> 00:23:03,720
+Yeah, that's a good, aren't they?
+
+364
+00:23:03,720 --> 00:23:04,720
+Yeah
+
+365
+00:23:04,720 --> 00:23:05,720
+You know I love that
+
+366
+00:23:05,720 --> 00:23:07,720
+I love that big power, power rock-pop sound
+
+367
+00:23:07,720 --> 00:23:08,720
+Yeah
+
+368
+00:23:08,720 --> 00:23:10,720
+That's a Jack Ponty sound, right?
+
+369
+00:23:10,720 --> 00:23:11,720
+Yeah
+
+370
+00:23:12,720 --> 00:23:13,720
+Okay
+
+371
+00:23:13,720 --> 00:23:15,720
+Are you still enjoying yourself?
+
+372
+00:23:15,720 --> 00:23:16,720
+Can we do a couple more?
+
+373
+00:23:16,720 --> 00:23:17,720
+I'm enjoying myself
+
+374
+00:23:17,720 --> 00:23:18,720
+Yeah, okay, good
+
+375
+00:23:18,720 --> 00:23:19,720
+Who am I?
+
+376
+00:23:19,720 --> 00:23:22,720
+You know, don't just think that I know it all
+
+377
+00:23:22,720 --> 00:23:23,720
+Just another voice
+
+378
+00:23:23,720 --> 00:23:25,720
+This is just, I'm very honest about it
+
+379
+00:23:25,720 --> 00:23:26,720
+Okay
+
+380
+00:23:26,720 --> 00:23:27,720
+This is a griddle
+
+381
+00:23:28,750 --> 00:25:38,720
+[ Music ]
+
+382
+00:25:38,720 --> 00:25:54,720
+Grittle preoccupied well early Beatles did you haven't you played more of these
+
+383
+00:25:54,720 --> 00:26:00,200
+guys didn't I hear before you're right and they all I think he must be a great
+
+384
+00:26:00,200 --> 00:26:07,600
+fan and I think John Lennon well it's okay because remember I told you the
+
+385
+00:26:07,600 --> 00:26:13,000
+story about David Bowie was a big big he never I think he never tells you you
+
+386
+00:26:13,000 --> 00:26:18,640
+know he never tells him anybody in interviews that he is but he is a great
+
+387
+00:26:18,640 --> 00:26:28,040
+John Lennon huge Lennon fan yeah reminds me very much but are they
+
+388
+00:26:28,040 --> 00:26:32,480
+American yeah yeah from San Francisco I think hold on let me check I like the
+
+389
+00:26:32,480 --> 00:26:37,320
+sound I like it why not why not what do you think here San Francisco's Grittle
+
+390
+00:26:37,320 --> 00:26:41,560
+just released its second album Grittle turning violet yeah with the Southwestern
+
+391
+00:26:41,560 --> 00:26:47,240
+tour that took the boys across Texas I wonder how they play live here they
+
+392
+00:26:47,240 --> 00:26:51,320
+enjoy their live band they just they had look if you're touring across Texas you
+
+393
+00:26:51,320 --> 00:26:56,080
+got you got your shit down fucking killed got it together it's oh this is
+
+394
+00:26:56,080 --> 00:27:02,680
+interesting members chemo ball Cypher Fortier Chris McGrew and Kevin Seale I'm
+
+395
+00:27:02,680 --> 00:27:06,300
+sure it's not the Kevin Seale now can't be the Kevin Seale I think they
+
+396
+00:27:06,300 --> 00:27:13,220
+know they enjoy volume alcohol melodies and confusion that could be okay sergeant
+
+397
+00:27:13,220 --> 00:27:23,180
+peppers yeah website let's see what they got going on audio video blog who made
+
+398
+00:27:23,180 --> 00:27:29,820
+those who Kevin can't be the Kevin we think Kevin Seale yeah no definitely no
+
 399
-00:15:49,320 --> 00:15:59,320
-So good to you.
+00:27:29,820 --> 00:27:34,620
+it also reminded me that the rhythm reminded me of Moondance
 
 400
-00:15:59,320 --> 00:16:06,320
-Whatever happens, don't leave it so soon.
+00:27:34,940 --> 00:27:41,960
+marvelous night for Moondance you know that too and
 
 401
-00:16:06,320 --> 00:16:14,320
-I'm so good to you.
+00:27:43,580 --> 00:27:51,480
+was that song from the Beatles
 
 402
-00:16:14,320 --> 00:16:18,320
-Whatever happens, don't leave it so soon.
+00:27:51,480 --> 00:27:56,800
+first I can do a little bit of Moondance
 
 403
-00:16:18,320 --> 00:16:21,320
-Ooh.
+00:27:56,800 --> 00:28:02,160
+is that Van Morrison just is that Van Morrison yeah that's Van Morrison it
 
 404
-00:16:21,320 --> 00:16:27,320
-It's so right when it's okay.
+00:28:02,160 --> 00:28:06,880
+just came up I don't know why but I don't have it now it doesn't matter cuz it
 
 405
-00:16:27,320 --> 00:16:28,320
-Yeah.
+00:28:06,880 --> 00:28:12,200
+doesn't look it doesn't sound like no but yeah I like the sound but I don't
 
 406
-00:16:28,320 --> 00:16:29,320
-Yeah.
+00:28:12,200 --> 00:28:16,240
+know if other people are really waiting for this if they still like if they
 
 407
-00:16:29,320 --> 00:16:30,320
-Yeah.
+00:28:16,240 --> 00:28:21,800
+still want to hear Beatles like stuff but do they do they you think the whole
 
 408
-00:16:30,320 --> 00:16:31,320
-Yeah.
+00:28:21,800 --> 00:28:25,640
+sound of this band is like that well you want to check another song yeah let me
 
 409
-00:16:31,320 --> 00:16:32,320
-Yeah.
+00:28:25,640 --> 00:28:28,640
+hear another song that's really easy on the pod safe because maybe this is
 
 410
-00:16:32,320 --> 00:16:34,320
-Yeah.
+00:28:28,640 --> 00:28:33,200
+their sound okay so why not so I'm looking at the pod safe music network I
 
 411
-00:16:34,320 --> 00:16:35,320
-Yeah.
+00:28:33,200 --> 00:28:37,400
+played preoccupied now I'm looking at the ratings that has a four and a half star
 
 412
-00:16:35,320 --> 00:16:36,320
-Yeah.
+00:28:37,400 --> 00:28:41,280
+but they're two five stars Ferris of the mall and positively Jackson I've played
 
 413
-00:16:36,320 --> 00:16:37,320
-Yeah.
+00:28:41,280 --> 00:28:44,720
+Ferris of the mall so you want to hear that one yeah okay so I just click on
 
 414
-00:16:37,320 --> 00:16:38,320
-Yeah.
+00:28:44,720 --> 00:28:51,000
+it and it should start playing I guess at least it's supposed to
 
 415
-00:16:38,320 --> 00:16:39,320
-Yeah.
+00:28:51,250 --> 00:29:13,750
+[ Music ]
 
 416
-00:16:39,320 --> 00:16:40,320
-Yeah.
+00:29:21,920 --> 00:29:29,400
+influenced oh yeah well that's not hard yeah why not
 
 417
-00:16:40,320 --> 00:16:41,320
-Yeah.
+00:29:44,320 --> 00:29:51,160
+okay but tell you lots of new bands have these sort of sounds and and and of
 
 418
-00:16:41,320 --> 00:16:42,320
-Yeah.
+00:29:51,200 --> 00:29:56,360
+course because I'm older I recognize the things that they absolutely have been
 
 419
-00:16:42,320 --> 00:16:43,320
-Yeah.
+00:29:56,360 --> 00:30:02,840
+listening to I hear a lot of small faces you know what I mean and even the hair
 
 420
-00:16:43,320 --> 00:16:44,320
-Yeah.
+00:30:02,840 --> 00:30:09,240
+the hairdos are seen that done that you know been there well that's okay but
 
 421
-00:16:44,320 --> 00:16:45,320
-Yeah.
+00:30:09,240 --> 00:30:14,360
+great yeah come back no because they've it was a great sound you know it was
 
 422
-00:16:45,320 --> 00:16:46,320
-Yeah.
+00:30:14,360 --> 00:30:21,160
+when we here to do heard it all for the first time and so I know also it seems
 
 423
-00:16:46,320 --> 00:16:47,320
-Yeah.
+00:30:21,160 --> 00:30:27,080
+like a lot of bands are really going back to the rock electric sound you know
 
 424
-00:16:47,320 --> 00:16:48,320
-Yeah.
+00:30:27,080 --> 00:30:36,600
+yeah very the standard two guitars maybe a keyboard on the side and if they this
 
 425
-00:16:48,320 --> 00:16:49,320
-Yeah.
+00:30:36,600 --> 00:30:42,440
+is their sound well good all right let's do this was a good one hold on I love
 
 426
-00:16:49,320 --> 00:16:50,320
-Yeah.
+00:30:42,440 --> 00:30:49,920
+the harmonies by the way very good yeah harmony very good this is her name
 
 427
-00:16:50,320 --> 00:16:51,320
-Yeah.
+00:30:49,920 --> 00:30:56,480
+Carmen Tyler think it is check this out
 
 428
-00:16:51,320 --> 00:16:53,320
-Gonna do that.
+00:30:56,480 --> 00:34:03,750
+[ Music ]
 
 429
-00:16:53,320 --> 00:16:54,320
-Yeah.
+00:34:06,680 --> 00:34:10,680
+now I realize that isn't actually a pod safe song that's a cover song yeah it's
 
 430
-00:16:54,320 --> 00:16:55,320
-Yeah.
+00:34:10,680 --> 00:34:16,680
+it's an old song yeah that we shouldn't that shouldn't be on there why not oh no
 
 431
-00:16:55,320 --> 00:16:57,320
-Gonna do that.
+00:34:16,680 --> 00:34:20,680
+of course no no because you know we're playing a song by any of the composer
 
 432
-00:16:57,320 --> 00:17:12,320
-I can't win.
+00:34:20,680 --> 00:34:24,680
+isn't getting compensated what I was thinking I love her voice and the
 
 433
-00:17:12,320 --> 00:17:14,320
-Yeah.
+00:34:24,680 --> 00:34:28,680
+arrangements are very nice doesn't sound a little bit like you here and there
 
 434
-00:17:14,320 --> 00:17:18,220
-Girls, girls, this is girls I can't hear
+00:34:28,680 --> 00:34:37,680
+a little bit in her twang I don't think so I would love to hear here sing
 
 435
-00:17:18,220 --> 00:17:21,300
-Girls, girls, no one knows
+00:34:37,680 --> 00:34:43,680
+sing something new yeah written for her or written by herself I love her voice
 
 436
-00:17:21,300 --> 00:17:23,820
-All of my sins, bad
+00:34:43,680 --> 00:34:50,680
+she has absolutely the feeling for it hate the Hammond organ coming in there
 
 437
-00:17:23,820 --> 00:17:27,320
-And I should know that
+00:34:50,680 --> 00:34:54,680
+but the chords that they use I'm very interested right you like the arrangement
 
 438
-00:17:27,320 --> 00:17:30,320
-I shall be back again
+00:34:54,680 --> 00:34:59,680
+huh yeah she's from Texas yeah and if she did something else you could do
 
 439
-00:17:30,320 --> 00:17:33,320
-This is girls, this is girls
+00:34:59,680 --> 00:35:03,680
+country I love her voice I like I think she could do great country
 
 440
-00:17:33,320 --> 00:17:37,320
-Girls, girls I can't hear
+00:35:03,680 --> 00:35:11,680
+there's something there absolutely but why this song such an old 40 song because
 
 441
-00:17:45,320 --> 00:17:47,320
-There's no stairs
+00:35:11,680 --> 00:35:18,680
+this is old what 40 song old 40 song 40 I don't know
 
 442
-00:17:50,320 --> 00:17:52,320
-She'd like to tell the story
+00:35:18,680 --> 00:35:23,680
+let me see she may as she may be a professional you know she may have to
 
 443
-00:17:52,320 --> 00:17:55,320
-Oh, she'd like to tell the stories
+00:35:23,680 --> 00:35:27,680
+she may have to do all that kind of shit in bars and nightclubs when we were in
 
 444
-00:17:55,320 --> 00:17:58,320
-Girls, girls, this is the key to my
+00:35:27,680 --> 00:35:33,680
+Chicago remember Ron Chris and I went to Chicago to present to the advertising
 
 445
-00:17:58,320 --> 00:17:59,320
-And I'm gonna love you, girl
+00:35:33,680 --> 00:35:39,680
+guys in the hotel that we were in that beautiful hotel lobby somebody was singing
 
 446
-00:17:59,320 --> 00:18:01,320
-I'm a bird friend
+00:35:39,680 --> 00:35:42,680
+yeah in the bar and there was a bar where you could eat and smoke cigars it was
 
 447
-00:18:01,320 --> 00:18:03,320
-No, I don't want to be a loom
+00:35:42,680 --> 00:35:46,680
+freaking great nice for the singer horrible for the singer there was a
 
 448
-00:18:03,320 --> 00:18:05,320
-I don't want to be a loom
+00:35:46,680 --> 00:35:51,680
+guy there who had a harmonica and was drunk so no not good let me see resume and
 
 449
-00:18:05,320 --> 00:18:08,320
-I don't want to be a brother of this toy
+00:35:51,680 --> 00:35:56,680
+as reminds you of this well I said why were you telling this oh because there
 
 450
-00:18:08,320 --> 00:18:10,320
-To set you up
+00:35:56,680 --> 00:35:59,680
+was a there was a singer there you know like a professional lounge singer
 
 451
-00:18:10,320 --> 00:18:11,320
-We'll go outside
+00:35:59,680 --> 00:36:05,680
+sometimes you can find wow she's not a lot of shit she's done commercials
 
 452
-00:18:12,320 --> 00:18:13,320
-I know where that lead
+00:36:05,680 --> 00:36:12,680
+music theater television holy crap yeah voiceovers she is the she is she
 
 453
-00:18:13,320 --> 00:18:14,320
-We're gonna do it
+00:36:12,680 --> 00:36:18,680
+sounds like a professional toyota doing in again yeah interesting oh wait and the
 
 454
-00:18:14,320 --> 00:18:15,320
-Yeah, I know
+00:36:18,680 --> 00:36:22,680
+weight that she lays in every word she sings I can tell she's cute she's kind
 
 455
-00:18:15,320 --> 00:18:17,320
-I've been told
+00:36:22,680 --> 00:36:27,680
+of cute look and she's cute she's beautiful repertoire written written
 
 456
-00:18:17,320 --> 00:18:18,320
-I can't grow up
+00:36:27,680 --> 00:36:32,680
+especially for her okay the unlabeled will take care of all of that I hope so
 
 457
-00:18:18,320 --> 00:18:21,320
-So there it is, a child's child
+00:36:32,680 --> 00:36:38,680
+and if they the people listen wonder why I'm still coughing yeah it's it's I
 
 458
-00:18:21,320 --> 00:18:23,320
-I want to be the guy
+00:36:38,680 --> 00:36:42,680
+have bronchitis and it's the weather in England there's nothing I can do about
 
 459
-00:18:23,320 --> 00:18:25,320
-Because I'm a new to me
+00:36:42,680 --> 00:36:50,680
+it and the moment I'm in the studio Adam is smoking and it's tickling and
 
 460
-00:18:25,320 --> 00:18:27,320
-Oh, my heart
+00:36:50,680 --> 00:36:58,680
+it's nothing I can do about it bad okay so you know I apologize when I'm
 
 461
-00:18:27,320 --> 00:18:29,320
-Oh, do you praise it or not
+00:36:58,680 --> 00:37:05,680
+coughing now how do I look you're not thinking about me
 
 462
-00:18:29,320 --> 00:18:30,320
-Like I don't get it getting
+00:37:06,680 --> 00:37:13,680
+well I already open the window behind I can feel it yeah is that a draft there's
 
 463
-00:18:30,320 --> 00:18:32,320
-Spread all your time
+00:37:13,680 --> 00:37:19,680
+this is a little slow drop drop okay let me see what's so what I was saying name
 
 464
-00:18:34,320 --> 00:18:35,320
-But I'm not up for that
+00:37:19,680 --> 00:37:27,680
+Carmen Tyler wow Carmen Tyler yeah okay these guys this was me there's another
 
 465
-00:18:35,320 --> 00:18:37,320
-But no real man
+00:37:27,680 --> 00:37:32,680
+type of category of music that comes into the pod safe music network and I'd put
 
 466
-00:18:37,320 --> 00:18:39,320
-Oh, this is girls
+00:37:32,680 --> 00:37:37,680
+under you know like fun stuff but this kind of straddles the line between what I
 
 467
-00:18:39,320 --> 00:18:44,320
-This is the key to my
+00:37:37,680 --> 00:37:43,680
+think is a good song or a good idea good lyric funny lyric yeah well you'll listen
 
 468
-00:18:44,320 --> 00:18:46,320
-Girls, girls
+00:37:43,680 --> 00:37:49,680
+to it you'll see if you like it it's step stepford wives
 
 469
-00:18:46,320 --> 00:18:49,320
-Girls, this is the key
+00:38:02,680 --> 00:38:04,680
+you type my hips are shaking
 
 470
-00:18:49,320 --> 00:18:52,320
-And I'm gonna love you
+00:38:04,680 --> 00:38:07,680
+let's get it all
 
 471
-00:18:52,320 --> 00:18:55,320
-I'm a bird friend
+00:38:17,680 --> 00:38:21,680
+taking my price to type my hips are shaking from left to right my
 
 472
-00:18:55,320 --> 00:19:00,320
-This is the key to my
+00:38:21,680 --> 00:38:24,680
+African my saxophone let's get it all
 
 473
-00:19:00,320 --> 00:19:04,320
-And I'm gonna love you
+00:38:32,680 --> 00:38:37,680
+cheese tell me I scream a lot I can't stop eating that chocolate for chocolate
 
 474
-00:19:04,320 --> 00:19:09,320
-Yeah, I know you got a lot to learn
+00:38:38,750 --> 00:39:08,750
+[ Music ]
 
 475
-00:19:09,320 --> 00:19:12,320
-Yeah, I know it's not
+00:39:09,680 --> 00:39:16,680
+the jury has stopped the music no jury has stopped the music I knew you wouldn't
 
 476
-00:19:12,320 --> 00:19:15,320
-I'm a bird friend
+00:39:16,680 --> 00:39:20,680
+like that I don't know nothing I don't know what to say okay so the lyric is my
 
 477
-00:19:15,320 --> 00:19:20,320
-I know you got a lot of faith
+00:39:20,680 --> 00:39:22,840
+So the lyric is, my back's aching, my bra's...
 
 478
-00:19:20,320 --> 00:19:24,320
-Oh, my heart is in charge
+00:39:22,840 --> 00:39:24,800
+I miss the word Botox on it.
 
 479
-00:19:24,320 --> 00:19:27,320
-But please, once you think of your mind
+00:39:24,800 --> 00:39:25,800
+Botox?
 
 480
-00:19:27,320 --> 00:19:30,320
-We're gonna always go in
+00:39:25,800 --> 00:39:30,800
+Yeah, they have, you know, because they're singing about all the tightness and everything.
 
 481
-00:19:30,320 --> 00:19:32,320
-Come on and love me
+00:39:30,800 --> 00:39:35,600
+Well, the singing about it, the lyric is, my back's aching, my bra's too tight.
 
 482
-00:19:33,320 --> 00:19:35,320
-Look up to me
+00:39:35,600 --> 00:39:36,600
+Tight, yeah, exactly.
 
 483
-00:19:41,320 --> 00:19:44,320
-I want to be one
+00:39:36,600 --> 00:39:37,600
+Okay.
 
 484
-00:19:44,320 --> 00:19:46,320
-φο
+00:39:37,600 --> 00:39:38,600
+I don't know.
 
 485
-00:19:47,320 --> 00:19:51,320
-This is the key to my
+00:39:38,600 --> 00:39:39,600
+Hmm.
 
 486
-00:19:51,320 --> 00:19:53,320
-Girls, this is girls
+00:39:39,600 --> 00:39:40,600
+Hmm.
 
 487
-00:19:53,320 --> 00:19:54,320
-This is girls
+00:39:40,600 --> 00:39:43,800
+You gotta be honest, you know, if there's no honesty, then the show's no good.
 
 488
-00:19:54,320 --> 00:19:55,320
-This is girl
+00:39:43,800 --> 00:39:46,560
+Oh, yeah, okay.
 
 489
-00:19:55,320 --> 00:19:57,320
-This is the key to my
+00:39:46,560 --> 00:39:47,560
+People are gonna kill me.
 
 490
-00:19:57,320 --> 00:19:59,320
-Girls, this is the key
+00:39:47,560 --> 00:39:48,560
+No!
 
 491
-00:19:59,320 --> 00:20:00,320
-To my girl
+00:39:48,560 --> 00:39:49,560
+Not at all.
 
 492
-00:20:00,320 --> 00:20:03,220
-Let's get onß 태
+00:39:49,560 --> 00:39:50,560
+Not at all.
 
 493
-00:20:03,220 --> 00:20:04,780
-I'm deciding
+00:39:50,640 --> 00:39:52,640
+Any tips for the step forward?
 
 494
-00:20:04,780 --> 00:20:06,220
-I guess you gotta
+00:39:52,640 --> 00:39:53,640
+I don't know.
 
 495
-00:20:06,220 --> 00:20:10,480
-I disappointing I guess you gotta
+00:39:53,640 --> 00:40:00,640
+I don't even know where to put it, this, you know, category.
 
 496
-00:20:10,480 --> 00:20:11,660
-What did you want...
+00:40:00,640 --> 00:40:02,640
+What is it?
 
+497
+00:40:02,640 --> 00:40:05,640
+I don't know what it is.
+
+498
+00:40:05,640 --> 00:40:06,640
+No.
+
+499
+00:40:06,640 --> 00:40:07,640
+Okay.
+
+500
+00:40:07,640 --> 00:40:08,640
+Let me see.
+
+501
+00:40:08,640 --> 00:40:09,640
+Oh, man.
+
+502
+00:40:09,640 --> 00:40:10,640
+Okay.
+
+503
+00:40:10,640 --> 00:40:11,640
+I'm just gonna pick one.
+
+504
+00:40:11,640 --> 00:40:16,640
+I have no idea what this is, but I've played it.
+
+505
+00:40:16,640 --> 00:40:18,640
+I gotta go find out what it is, so we'll just do it.
+
+506
+00:40:18,720 --> 00:40:22,720
+It says flyhigh.mp3, which means absolutely nothing.
+
+507
+00:40:22,720 --> 00:40:23,720
+Hold on.
+
+508
+00:40:23,720 --> 00:40:24,720
+Let's check it out.
+
+509
+00:40:24,720 --> 00:40:25,720
+Oh, am I boring you?
+
+510
+00:40:25,720 --> 00:40:26,720
+I'm yawning now.
+
+511
+00:40:26,720 --> 00:40:29,720
+Let me see if I want to play this one for you.
+
+512
+00:40:29,800 --> 00:40:48,800
+Oh, you don't want to listen to this?
+
+513
+00:40:48,800 --> 00:40:49,800
+Why not?
+
+514
+00:40:49,800 --> 00:40:50,800
+You do?
+
+515
+00:40:50,800 --> 00:40:52,800
+Oh, you play the Jamaican?
+
+516
+00:40:52,800 --> 00:40:57,800
+Yeah, it's actually kind of reggae.
+
+517
+00:40:57,800 --> 00:41:26,250
+[ Music ]
+
+518
+00:41:27,880 --> 00:41:29,880
+It has to go somewhere.
+
+519
+00:41:29,880 --> 00:41:34,880
+I'm waiting for it when it opens up, and...
+
+520
+00:41:34,880 --> 00:41:36,880
+Here it is.
+
+521
+00:41:36,880 --> 00:41:38,880
+Everybody.
+
+522
+00:41:48,880 --> 00:41:51,880
+It's kind of like reggae chill music.
+
+523
+00:41:51,880 --> 00:41:53,880
+What is he, vomit?
+
+524
+00:41:53,880 --> 00:41:54,880
+What is this thing?
+
+525
+00:41:54,880 --> 00:41:56,880
+I'm vomit, I don't know.
+
+526
+00:41:56,960 --> 00:41:58,960
+I have a vomit stain.
+
+527
+00:42:02,960 --> 00:42:06,960
+I like the rhythm and everything.
+
+528
+00:42:06,960 --> 00:42:09,960
+But I'm waiting for something.
+
+529
+00:42:09,960 --> 00:42:11,960
+Something to happen.
+
+530
+00:42:11,960 --> 00:42:31,250
+[ Music ]
+
+531
+00:42:33,960 --> 00:42:36,960
+I saw the eyes roll.
+
+532
+00:42:36,960 --> 00:42:38,960
+Yeah, well...
+
+533
+00:42:38,960 --> 00:42:41,960
+I can't find out who they were, which kind of sucks.
+
+534
+00:42:41,960 --> 00:42:44,960
+Well, I like the rhythm and everything,
+
+535
+00:42:44,960 --> 00:42:46,960
+and it sounds very original,
+
+536
+00:42:46,960 --> 00:42:48,960
+but then it doesn't go anywhere.
+
+537
+00:42:48,960 --> 00:42:50,960
+You know, there must be something.
+
+538
+00:42:50,960 --> 00:42:52,960
+You think, oh, yeah, that's it.
+
+539
+00:42:52,960 --> 00:42:54,960
+You know, recognize that when it comes back.
+
+540
+00:42:55,040 --> 00:42:57,040
+It just rolls on and rolls on.
+
+541
+00:42:57,040 --> 00:42:58,040
+It's very helpful.
+
+542
+00:42:58,040 --> 00:43:00,040
+No, it is. It is.
+
+543
+00:43:00,040 --> 00:43:01,040
+No, you're right.
+
+544
+00:43:01,040 --> 00:43:03,040
+Because I get so immersed in this stuff,
+
+545
+00:43:03,040 --> 00:43:05,040
+and then I, you know...
+
+546
+00:43:05,040 --> 00:43:07,040
+I appreciate all the songs, I guess.
+
+547
+00:43:07,040 --> 00:43:09,040
+And anytime someone makes a song, I appreciate it.
+
+548
+00:43:09,040 --> 00:43:12,040
+You know, sometimes you see those videos on MTV,
+
+549
+00:43:12,040 --> 00:43:15,040
+and you recognize the girl's butt.
+
+550
+00:43:15,040 --> 00:43:18,040
+But the song sounds the same.
+
+551
+00:43:18,040 --> 00:43:20,040
+It's nothing happening.
+
+552
+00:43:20,040 --> 00:43:22,040
+But you say, oh, I know that song.
+
+553
+00:43:22,040 --> 00:43:23,040
+I see the same...
+
+554
+00:43:23,040 --> 00:43:24,040
+I know that song.
+
+555
+00:43:24,120 --> 00:43:26,120
+I know that song.
+
+556
+00:43:26,120 --> 00:43:27,120
+Yeah, right.
+
+557
+00:43:27,120 --> 00:43:29,120
+I know that move.
+
+558
+00:43:29,120 --> 00:43:31,120
+Okay, this is...
+
+559
+00:43:31,120 --> 00:43:33,120
+Yeah, this is something I played.
+
+560
+00:43:33,120 --> 00:43:35,120
+46 Bliss.
+
+561
+00:43:35,120 --> 00:43:37,120
+This is titled In A Long Time.
+
+562
+00:43:37,120 --> 00:43:40,120
+You want me to leave the mic open so you can comment?
+
+563
+00:43:40,120 --> 00:43:42,120
+Okay.
+
+564
+00:43:42,120 --> 00:43:44,120
+I can sing alone.
+
+565
+00:43:46,250 --> 00:45:56,250
+[ Music ]
+
+566
+00:46:22,040 --> 00:46:51,040
+In a long time, in a long time, I will see you
+
+567
+00:46:52,040 --> 00:47:21,040
+In a long time, in a long time, in a long time, I will see you
+
+568
+00:47:22,040 --> 00:47:51,040
+In a long time, in a long time, in a long time, I will see you
+
+569
+00:47:52,040 --> 00:48:13,040
+In a long time, in a long time, in a long time, in a long time, I will see you
+
+570
+00:48:13,750 --> 00:50:27,040
+[ Music ]
+
+571
+00:50:27,040 --> 00:50:36,040
+I hope you don't feel just like me
+
+572
+00:50:51,250 --> 00:51:23,750
+[ Music ]
+
+573
+00:51:25,040 --> 00:51:28,040
+Mmm, yeah baby
+
+574
+00:51:28,040 --> 00:51:29,040
+It's good isn't it?
+
+575
+00:51:29,040 --> 00:51:30,040
+Oh yeah
+
+576
+00:51:30,040 --> 00:51:31,040
+Oh that shit
+
+577
+00:51:31,040 --> 00:51:32,040
+So you thought the guitar should start?
+
+578
+00:51:32,040 --> 00:51:34,040
+Well yeah, I was waiting for that
+
+579
+00:51:34,040 --> 00:51:36,040
+I was anxious to hear the guitars
+
+580
+00:51:36,040 --> 00:51:38,040
+And the drums
+
+581
+00:51:38,040 --> 00:51:43,040
+Yeah, it should start one part earlier on the guitars
+
+582
+00:51:43,040 --> 00:51:44,040
+Exactly
+
+583
+00:51:44,040 --> 00:51:47,040
+Because you know it should build up
+
+584
+00:51:47,040 --> 00:51:50,040
+Build up, build up, build up, it's wonderful
+
+585
+00:51:50,040 --> 00:51:52,040
+Yeah I love that song, I really like that
+
+586
+00:51:52,040 --> 00:51:55,040
+We gotta get that listed on the PodSafe Music Network
+
+587
+00:51:55,040 --> 00:51:56,040
+Absolutely
+
+588
+00:51:56,040 --> 00:51:58,040
+Great voice
+
+589
+00:51:58,040 --> 00:52:01,040
+And he's like Nelly's size
+
+590
+00:52:01,040 --> 00:52:02,040
+Oh yeah?
+
+591
+00:52:02,040 --> 00:52:04,040
+He's very small
+
+592
+00:52:05,040 --> 00:52:08,040
+Big voice, big big voice
+
+593
+00:52:08,040 --> 00:52:10,040
+Okay, here's one that you'll appreciate
+
+594
+00:52:10,040 --> 00:52:12,040
+Because you've got, and we'll do like two more
+
+595
+00:52:12,040 --> 00:52:14,040
+And then we should stop
+
+596
+00:52:14,040 --> 00:52:17,040
+You'll appreciate this because you hate computers too
+
+597
+00:52:18,040 --> 00:52:20,040
+This is not true
+
+598
+00:52:20,040 --> 00:52:22,040
+Computer, computer
+
+599
+00:52:22,040 --> 00:55:11,250
+[ Music ]
+
+600
+00:55:18,040 --> 00:55:20,040
+Okay, okay, fantastic
+
+601
+00:55:23,040 --> 00:55:27,040
+Do you know that remember we had a poor man who lost his wife?
+
+602
+00:55:27,040 --> 00:55:30,040
+Oh that's right, it was Mike, Mike the poor man
+
+603
+00:55:30,040 --> 00:55:33,040
+Mike the poor man lost his wife to an affair
+
+604
+00:55:33,040 --> 00:55:35,040
+On the AOL chatroom
+
+605
+00:55:35,040 --> 00:55:37,040
+No, web TV, it was web TV
+
+606
+00:55:37,040 --> 00:55:38,040
+I don't know what
+
+607
+00:55:38,040 --> 00:55:41,040
+Yeah, it was web TV, I remember because he was bitching about it
+
+608
+00:55:41,040 --> 00:55:44,040
+Yeah, it was because he always complained about it, she was on the internet
+
+609
+00:55:44,040 --> 00:55:48,040
+Every day, every night, spent no time with him and the kids anymore
+
+610
+00:55:48,040 --> 00:55:52,040
+And then one day he came and he said, she's gone
+
+611
+00:55:52,040 --> 00:55:54,040
+She's gone
+
+612
+00:55:54,040 --> 00:55:58,040
+Mike could get you anything, you want some firearms, you could get it from Mike
+
+613
+00:55:58,040 --> 00:55:59,040
+Mike the poor man
+
+614
+00:55:59,040 --> 00:56:02,040
+Mike was totally frustrated from this
+
+615
+00:56:02,040 --> 00:56:05,040
+I love this song, it's true
+
+616
+00:56:05,040 --> 00:56:07,040
+It's good, isn't it? That's real blues
+
+617
+00:56:07,040 --> 00:56:12,040
+Remember we once sat in a bed with the laptop in the middle
+
+618
+00:56:12,040 --> 00:56:14,040
+I said now that's it, see?
+
+619
+00:56:14,040 --> 00:56:16,040
+Now we're in the bed, the three of us
+
+620
+00:56:16,040 --> 00:56:18,040
+That was the last time
+
+621
+00:56:18,040 --> 00:56:20,040
+Yeah, I know, I'm worried about it
+
+622
+00:56:20,040 --> 00:56:22,040
+No laptop in the bed anymore
+
+623
+00:56:22,040 --> 00:56:25,040
+We've watched movies on the laptop, porn on the laptop
+
+624
+00:56:26,040 --> 00:56:28,040
+That's not true
+
+625
+00:56:28,040 --> 00:56:30,040
+Patricia Pied
+
+626
+00:56:30,040 --> 00:56:33,040
+I don't know who that was, but not with me
+
+627
+00:56:33,040 --> 00:56:36,040
+Of course we've watched, well maybe it's just me by myself
+
+628
+00:56:36,040 --> 00:56:38,040
+I think you, that's what I think
+
+629
+00:56:38,040 --> 00:56:40,040
+Just me by myself
+
+630
+00:56:40,040 --> 00:56:43,040
+Me, my laptop and porn
+
+631
+00:56:43,040 --> 00:56:46,040
+Exactly, that's the other woman
+
+632
+00:56:46,040 --> 00:56:49,040
+So I feel exactly what he's saying
+
+633
+00:56:49,040 --> 00:56:51,040
+She's pretty beat up, the other woman
+
+634
+00:56:51,040 --> 00:56:54,040
+How many times does it happen when I come closer?
+
+635
+00:56:54,040 --> 00:56:56,040
+When you come closer?
+
+636
+00:56:56,040 --> 00:56:58,040
+It breaks, absolutely
+
+637
+00:56:58,040 --> 00:57:01,040
+Yeah, that's right, that's just fabulous
+
+638
+00:57:01,040 --> 00:57:03,040
+Okay, one last song
+
+639
+00:57:03,040 --> 00:57:06,040
+Do you like doing this? We'll do it again next week
+
+640
+00:57:06,040 --> 00:57:08,040
+Okay
+
+641
+00:57:08,040 --> 00:57:10,040
+You're now signed up, you're now part of the
+
+642
+00:57:10,040 --> 00:57:11,040
+Oh am I?
+
+643
+00:57:11,040 --> 00:57:13,040
+The PodShow Podcast Network
+
+644
+00:57:14,040 --> 00:57:15,040
+For the unlabeled
+
+645
+00:57:15,040 --> 00:57:17,040
+This is Jennifer Helene
+
+646
+00:57:17,040 --> 00:57:19,040
+Swallow me
+
+647
+00:57:20,040 --> 00:57:21,040
+What?
+
+648
+00:57:21,040 --> 00:57:23,040
+Swallow me
+
+649
+00:57:23,750 --> 00:58:58,750
+[ Music ]
+
+650
+00:59:01,040 --> 00:59:03,040
+Okay
+
+651
+00:59:03,040 --> 00:59:05,040
+You're done
+
+652
+00:59:05,040 --> 00:59:07,040
+I'm done
+
+653
+00:59:08,040 --> 00:59:11,040
+I think it's very interesting what she's singing
+
+654
+00:59:11,040 --> 00:59:13,040
+I've never heard words like that
+
+655
+00:59:13,040 --> 00:59:14,040
+That's kind of sexy
+
+656
+00:59:14,040 --> 00:59:15,040
+That's very sexy
+
+657
+00:59:15,040 --> 00:59:16,040
+Uh huh
+
+658
+00:59:16,040 --> 00:59:17,040
+I like that
+
+659
+00:59:17,040 --> 00:59:18,040
+Yeah
+
+660
+00:59:18,040 --> 00:59:22,040
+Pity is that the whole thing behind her
+
+661
+00:59:22,040 --> 00:59:24,040
+Is too mild
+
+662
+00:59:24,040 --> 00:59:26,040
+It's just ain't got it
+
+663
+00:59:26,040 --> 00:59:28,040
+Well listen he's kind of rocking out now
+
+664
+00:59:29,040 --> 00:59:31,040
+Too late now
+
+665
+00:59:32,040 --> 00:59:34,040
+Okay
+
+666
+00:59:34,040 --> 00:59:36,040
+You know
+
+667
+00:59:36,040 --> 00:59:37,040
+That's what I mean
+
+668
+00:59:37,040 --> 00:59:40,040
+It should be a little more fire behind her
+
+669
+00:59:40,040 --> 00:59:42,040
+Because it's a very sexy song
+
+670
+00:59:42,040 --> 00:59:43,040
+Yeah
+
+671
+00:59:43,040 --> 00:59:45,040
+And I've never heard words like this
+
+672
+00:59:45,040 --> 00:59:46,040
+So that's new
+
+673
+00:59:46,040 --> 00:59:47,040
+So what would you suggest
+
+674
+00:59:47,040 --> 00:59:48,040
+Would you suggest that they do a
+
+675
+00:59:48,040 --> 00:59:49,040
+Do another version
+
+676
+00:59:49,040 --> 00:59:50,040
+Another version of the song
+
+677
+00:59:50,040 --> 00:59:51,040
+Absolutely
+
+678
+00:59:51,040 --> 00:59:52,040
+Oh interesting
+
+679
+00:59:52,040 --> 00:59:53,040
+Yeah
+
+680
+00:59:53,040 --> 00:59:55,040
+And let something happen when the chorus comes
+
+681
+00:59:55,040 --> 00:59:57,040
+People sometimes forget that
+
+682
+00:59:57,040 --> 00:59:59,040
+I think that's kind of the problem
+
+683
+00:59:59,040 --> 01:00:01,040
+With a lot of independent artists
+
+684
+01:00:01,040 --> 01:00:02,040
+See I wrote a song
+
+685
+01:00:02,040 --> 01:00:03,040
+You like it
+
+686
+01:00:03,040 --> 01:00:04,040
+But you know
+
+687
+01:00:04,040 --> 01:00:06,040
+No take it a little bit further
+
+688
+01:00:08,040 --> 01:00:09,040
+Being an independent artist
+
+689
+01:00:09,040 --> 01:00:10,040
+Is kind of like being a podcaster
+
+690
+01:00:10,040 --> 01:00:11,040
+You know it's like
+
+691
+01:00:11,040 --> 01:00:12,040
+How often have I not made
+
+692
+01:00:12,040 --> 01:00:14,040
+My microphone sound
+
+693
+01:00:14,040 --> 01:00:15,040
+And then you come in and say
+
+694
+01:00:15,040 --> 01:00:16,040
+Man that sounds like shit
+
+695
+01:00:16,040 --> 01:00:18,040
+Yeah you gotta change that
+
+696
+01:00:18,040 --> 01:00:20,040
+So if you don't have a producer
+
+697
+01:00:20,040 --> 01:00:22,040
+Then I think it becomes very difficult
+
+698
+01:00:22,040 --> 01:00:23,040
+Or a couple other ears
+
+699
+01:00:23,040 --> 01:00:24,040
+You know
+
+700
+01:00:24,040 --> 01:00:25,040
+Listen to
+
+701
+01:00:25,040 --> 01:00:26,040
+Yeah you presume you've got the whole band
+
+702
+01:00:26,040 --> 01:00:27,040
+Doesn't mean we know it all
+
+703
+01:00:27,040 --> 01:00:28,040
+But
+
+704
+01:00:28,040 --> 01:00:29,040
+No no no
+
+705
+01:00:29,040 --> 01:00:30,040
+But you presume you've got the whole band
+
+706
+01:00:30,040 --> 01:00:31,040
+And they've got their ears on
+
+707
+01:00:31,040 --> 01:00:32,040
+Yeah
+
+708
+01:00:32,040 --> 01:00:33,040
+I think
+
+709
+01:00:33,040 --> 01:00:35,040
+It's a great week behind her
+
+710
+01:00:35,040 --> 01:00:37,040
+But her words are so strong
+
+711
+01:00:37,040 --> 01:00:39,040
+That you could do something with it
+
+712
+01:00:39,040 --> 01:00:41,040
+Don't you think so
+
+713
+01:00:41,040 --> 01:00:42,040
+I hadn't thought of it that way
+
+714
+01:00:42,040 --> 01:00:43,040
+But I think you're right
+
+715
+01:00:43,040 --> 01:00:44,040
+And her voice is nice
+
+716
+01:00:44,040 --> 01:00:45,040
+But a little bit more
+
+717
+01:00:45,040 --> 01:00:46,040
+Come on
+
+718
+01:00:46,040 --> 01:00:47,040
+That's very interesting
+
+719
+01:00:47,040 --> 01:00:49,040
+But I like the words very
+
+720
+01:00:49,040 --> 01:00:50,040
+I've never heard that
+
+721
+01:00:50,040 --> 01:00:51,040
+And anybody seeing this
+
+722
+01:00:51,040 --> 01:00:52,040
+Swallow me
+
+723
+01:00:52,040 --> 01:00:53,040
+Swallow me
+
+724
+01:00:53,040 --> 01:00:54,040
+Swallow me
+
+725
+01:00:54,040 --> 01:00:55,040
+And what comes down
+
+726
+01:00:55,040 --> 01:00:56,040
+Can't come up
+
+727
+01:00:56,040 --> 01:00:57,040
+Whoa
+
+728
+01:00:58,040 --> 01:00:59,040
+Yeah
+
+729
+01:00:59,040 --> 01:01:00,040
+And swallow why
+
+730
+01:01:00,040 --> 01:01:01,040
+Swallow me
+
+731
+01:01:02,040 --> 01:01:03,040
+It's like
+
+732
+01:01:03,040 --> 01:01:04,040
+Swallow the whole thing
+
+733
+01:01:04,040 --> 01:01:05,040
+But the hook
+
+734
+01:01:06,040 --> 01:01:07,040
+Come on
+
+735
+01:01:07,040 --> 01:01:08,040
+Say that again
+
+736
+01:01:08,040 --> 01:01:10,040
+Swallow the whole thing
+
+737
+01:01:10,040 --> 01:01:11,040
+Everything
+
+738
+01:01:11,040 --> 01:01:12,040
+Everything
+
+739
+01:01:12,040 --> 01:01:13,040
+Swallow me
+
+740
+01:01:16,040 --> 01:01:17,040
+Interesting
+
+741
+01:01:17,040 --> 01:01:18,040
+But the hook kind of sticks it
+
+742
+01:01:18,040 --> 01:01:19,040
+Swallow me
+
+743
+01:01:19,040 --> 01:01:20,040
+Swallow me
+
+744
+01:01:20,040 --> 01:01:21,040
+Swallow me
+
+745
+01:01:21,040 --> 01:01:22,040
+Swallow me
+
+746
+01:01:22,040 --> 01:01:23,040
+Yeah I like that
+
+747
+01:01:23,040 --> 01:01:24,040
+Okay so that was one hour
+
+748
+01:01:24,040 --> 01:01:25,040
+That was fun
+
+749
+01:01:25,040 --> 01:01:26,040
+Yeah
+
+750
+01:01:27,040 --> 01:01:28,040
+Everybody hates you
+
+751
+01:01:28,040 --> 01:01:29,040
+No
+
+752
+01:01:29,040 --> 01:01:30,040
+I sure hope not
+
+753
+01:01:30,040 --> 01:01:31,040
+No of course not
+
+754
+01:01:31,040 --> 01:01:32,040
+I really mean well
+
+755
+01:01:33,040 --> 01:01:34,040
+What we're doing basically
+
+756
+01:01:34,040 --> 01:01:35,040
+Is we're
+
+757
+01:01:35,040 --> 01:01:36,040
+So now we're looking for the hits
+
+758
+01:01:36,040 --> 01:01:37,040
+I know what it is
+
+759
+01:01:37,040 --> 01:01:38,040
+Now we're looking for the hits
+
+760
+01:01:38,040 --> 01:01:39,040
+What are we going to
+
+761
+01:01:39,040 --> 01:01:40,040
+What are we going to play
+
+762
+01:01:40,040 --> 01:01:41,040
+What are the hits
+
+763
+01:01:41,040 --> 01:01:42,040
+So many times
+
+764
+01:01:42,040 --> 01:01:44,040
+I've been to a radio station
+
+765
+01:01:44,040 --> 01:01:45,040
+And somebody would say
+
+766
+01:01:45,040 --> 01:01:46,040
+It's not a hit
+
+767
+01:01:46,040 --> 01:01:47,040
+I'm sorry
+
+768
+01:01:47,040 --> 01:01:49,040
+I like your cover better than
+
+769
+01:01:49,040 --> 01:01:50,040
+Really
+
+770
+01:01:50,040 --> 01:01:51,040
+Yeah
+
+771
+01:01:51,040 --> 01:01:53,040
+The cover of the record
+
+772
+01:01:53,040 --> 01:01:54,040
+Or the CD
+
+773
+01:01:54,040 --> 01:01:56,040
+It's better than the CD itself
+
+774
+01:01:56,040 --> 01:01:57,040
+That's interesting
+
+775
+01:01:57,040 --> 01:01:58,040
+And then what's that
+
+776
+01:01:58,040 --> 01:01:59,040
+They wouldn't play it
+
+777
+01:01:59,040 --> 01:02:01,040
+Well then goodbye
+
+778
+01:02:01,040 --> 01:02:03,040
+Go back to the drawing board
+
+779
+01:02:03,040 --> 01:02:05,040
+But the difference is
+
+780
+01:02:05,040 --> 01:02:06,040
+If someone said
+
+781
+01:02:06,040 --> 01:02:07,040
+Well I like it
+
+782
+01:02:07,040 --> 01:02:09,040
+But it should be more fire
+
+783
+01:02:09,040 --> 01:02:11,040
+And you agreed with it maybe
+
+784
+01:02:11,040 --> 01:02:12,040
+Yeah
+
+785
+01:02:12,040 --> 01:02:14,040
+These days you can just
+
+786
+01:02:14,040 --> 01:02:15,040
+Turn your computer back on
+
+787
+01:02:15,040 --> 01:02:16,040
+You don't have to go back into the studio
+
+788
+01:02:16,040 --> 01:02:17,040
+You just turn your computer on
+
+789
+01:02:17,040 --> 01:02:18,040
+And say
+
+790
+01:02:18,040 --> 01:02:19,040
+Okay what can I do with that
+
+791
+01:02:19,040 --> 01:02:20,040
+Yeah exactly
+
+792
+01:02:20,040 --> 01:02:21,040
+That's kind of cool
+
+793
+01:02:21,040 --> 01:02:22,040
+Yeah
+
+794
+01:02:22,040 --> 01:02:23,040
+But you know
+
+795
+01:02:24,040 --> 01:02:26,040
+Say years and years and years ago
+
+796
+01:02:26,040 --> 01:02:27,040
+You had your producer
+
+797
+01:02:27,040 --> 01:02:29,040
+Actually he
+
+798
+01:02:29,040 --> 01:02:30,040
+You know
+
+799
+01:02:30,040 --> 01:02:32,040
+Was actually the last one
+
+800
+01:02:32,040 --> 01:02:33,040
+Who said
+
+801
+01:02:33,040 --> 01:02:34,040
+We're gonna do it like this
+
+802
+01:02:34,040 --> 01:02:35,040
+Well I think
+
+803
+01:02:35,040 --> 01:02:36,040
+But I think that's
+
+804
+01:02:36,040 --> 01:02:38,040
+And in these days you were a little bit thankful
+
+805
+01:02:38,040 --> 01:02:39,040
+You know
+
+806
+01:02:39,040 --> 01:02:40,040
+I don't think they are like that anymore
+
+807
+01:02:40,040 --> 01:02:41,040
+Well
+
+808
+01:02:41,040 --> 01:02:42,040
+This is my sound
+
+809
+01:02:42,040 --> 01:02:43,040
+Look at what happened
+
+810
+01:02:43,040 --> 01:02:44,040
+Take it or leave it
+
+811
+01:02:44,040 --> 01:02:45,040
+Look at what happened to Michael Jackson
+
+812
+01:02:45,040 --> 01:02:46,040
+When he left Quincy Jones
+
+813
+01:02:46,040 --> 01:02:47,040
+Yeah
+
+814
+01:02:47,040 --> 01:02:48,040
+Goodbye
+
+815
+01:02:48,040 --> 01:02:49,040
+Yeah sometimes a combination
+
+816
+01:02:49,040 --> 01:02:50,040
+Never should have left Quincy Jones
+
+817
+01:02:50,040 --> 01:02:51,040
+That was a magical
+
+818
+01:02:51,040 --> 01:02:52,040
+Yeah
+
+819
+01:02:52,040 --> 01:02:53,040
+And
+
+820
+01:02:53,040 --> 01:02:54,040
+Never changed
+
+821
+01:02:54,040 --> 01:02:55,040
+So Janet for instance
+
+822
+01:02:55,040 --> 01:02:57,040
+She's doing a new record with
+
+823
+01:02:58,040 --> 01:02:59,040
+With whom?
+
+824
+01:02:59,040 --> 01:03:00,040
+Terry Lewis
+
+825
+01:03:00,040 --> 01:03:01,040
+Yeah
+
+826
+01:03:01,040 --> 01:03:02,040
+Jimmy Jam, Terry Lewis
+
+827
+01:03:02,040 --> 01:03:03,040
+Yeah
+
+828
+01:03:03,040 --> 01:03:04,040
+For famous
+
+829
+01:03:04,040 --> 01:03:05,040
+Well sometimes you
+
+830
+01:03:05,040 --> 01:03:08,040
+You have that magical thing going
+
+831
+01:03:08,040 --> 01:03:09,040
+Yeah
+
+832
+01:03:09,040 --> 01:03:10,040
+You know
+
+833
+01:03:10,040 --> 01:03:11,040
+With a team that you have
+
+834
+01:03:11,040 --> 01:03:12,040
+And sometimes don't change it
+
+835
+01:03:12,040 --> 01:03:13,040
+And sometimes you need to change it
+
+836
+01:03:13,040 --> 01:03:14,040
+So
+
+837
+01:03:14,040 --> 01:03:15,040
+Yeah
+
+838
+01:03:15,040 --> 01:03:16,040
+You never know
+
+839
+01:03:16,040 --> 01:03:17,040
+Interesting
+
+840
+01:03:17,040 --> 01:03:18,040
+Yeah
+
+841
+01:03:18,040 --> 01:03:19,040
+Okay
+
+842
+01:03:19,040 --> 01:03:20,040
+Well thank you very much Miss Pi
+
+843
+01:03:20,040 --> 01:03:21,040
+You're ever so welcomed
+
+844
+01:03:21,040 --> 01:03:22,040
+Yes
+
+845
+01:03:22,040 --> 01:03:23,040
+And we'll leave you again
+
+846
+01:03:23,040 --> 01:03:24,040
+With those legendary words
+
+847
+01:03:24,040 --> 01:03:26,040
+From Marlin because it is so true
+
+848
+01:03:26,040 --> 01:03:27,040
+Isn't it?
+
+849
+01:03:27,040 --> 01:03:28,040
+Yeah
+
+850
+01:03:28,040 --> 01:03:29,040
+Alright bye
+
+851
+01:03:29,040 --> 01:03:30,040
+Bye
+
+852
+01:03:30,040 --> 01:03:32,040
+Please save me from people who've been told
+
+853
+01:03:32,040 --> 01:03:35,040
+What to like and then like it
+
+854
+01:03:35,040 --> 01:03:36,040
+In my opinion
+
+855
+01:03:36,040 --> 01:03:38,040
+If you're over six years of age
+
+856
+01:03:38,040 --> 01:03:40,040
+And you're still getting your music from the radio
+
+857
+01:03:40,040 --> 01:03:44,040
+Something is desperately wrong with you
+
+858
+01:03:44,040 --> 01:03:46,040
+I can only hope that somehow
+
+859
+01:03:46,040 --> 01:03:48,040
+MP3 players and file sharing
+
+860
+01:03:48,040 --> 01:03:50,040
+Will destroy FM radio
+
+861
+01:03:50,040 --> 01:03:53,040
+The way they're destroying record companies
+
+862
+01:03:53,040 --> 01:03:55,040
+And then even though the air will probably
+
+863
+01:03:55,040 --> 01:03:57,040
+Never be safe to breathe again
+
+864
+01:03:57,040 --> 01:04:00,040
+Maybe it will be safer to listen to
