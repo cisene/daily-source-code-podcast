@@ -1,0 +1,2319 @@
+1
+00:00:00,000 --> 00:00:05,000
+Delta-share a Charlie 208.
+
+2
+00:00:05,000 --> 00:00:11,000
+Something remarkable is happening here. Radio is springing free of the regulated
+
+3
+00:00:11,000 --> 00:00:16,000
+gatekeepers who've managed what you can hear since radio was invented. It's jumping
+
+4
+00:00:16,000 --> 00:00:21,000
+into the hands of anyone at all with something or nothing to say.
+
+5
+00:00:21,000 --> 00:00:24,000
+With $16 million worth of airplanes strapped to my ass.
+
+6
+00:00:25,000 --> 00:00:28,000
+Then the next generation radio content in my ears.
+
+7
+00:00:31,000 --> 00:00:33,000
+I like to think I'm flying into the future.
+
+8
+00:00:36,000 --> 00:00:41,000
+Hey everybody, how you doing? This is the Daily Source Code for July 14.
+
+9
+00:00:43,000 --> 00:00:45,000
+Wow. What a day it's been.
+
+10
+00:00:46,000 --> 00:00:51,000
+Another scorcher. I mean really, really, really hot. Probably as hot as my microphone
+
+11
+00:00:51,000 --> 00:00:53,000
+is right now. Hold on, let me just turn that down.
+
+12
+00:00:55,000 --> 00:01:00,000
+What you'll hear in the background from time to time during the show is the Convair.
+
+13
+00:01:03,000 --> 00:01:08,000
+I've got the shade drawn down all the way in front of the cottage studio here.
+
+14
+00:01:08,000 --> 00:01:13,000
+I've got the Convair full blast filled up with water, trying its best to circulate
+
+15
+00:01:13,000 --> 00:01:18,000
+a little bit of air. Earlier today I had to record some stuff that actually
+
+16
+00:01:18,000 --> 00:01:21,000
+could not have any background noise. I had to turn the Convair off.
+
+17
+00:01:21,000 --> 00:01:27,000
+It took like 33 seconds for sweat to start pouring down all over my body.
+
+18
+00:01:27,000 --> 00:01:29,000
+It's unbelievably hot.
+
+19
+00:01:29,000 --> 00:01:34,000
+How you doing? It's the Source Code for Thursday, July 14, 2005.
+
+20
+00:01:34,000 --> 00:01:37,000
+Coming to you from Curry Cottage, my name's Adam Curry.
+
+21
+00:01:42,000 --> 00:01:47,000
+So yet again a new setup. Yesterday I talked about possibly sitting up at desk.
+
+22
+00:01:48,000 --> 00:01:52,000
+A stand-up desk. And thank you very much. I've received a ton of links from people
+
+23
+00:01:52,000 --> 00:01:58,000
+with all different kinds of products ranging from like $5,000 with electric motors
+
+24
+00:01:58,000 --> 00:02:03,000
+that automatically rise and lower the table to an IKEA solution which is only about $500,
+
+25
+00:02:03,000 --> 00:02:07,000
+which also by the way, I think that even has a motor for that money.
+
+26
+00:02:07,000 --> 00:02:10,000
+But of course, you have to wind the coil in the engine yourself.
+
+27
+00:02:12,000 --> 00:02:14,000
+Where's the rimshot when you need it?
+
+28
+00:02:14,000 --> 00:02:17,000
+The power of your intellect.
+
+29
+00:02:17,000 --> 00:02:21,000
+So the format for today is laid back on the big ugly green thing.
+
+30
+00:02:21,000 --> 00:02:24,000
+I've got the Convair to my left.
+
+31
+00:02:24,000 --> 00:02:28,000
+I've got the microphone just flowing right over the armrest.
+
+32
+00:02:28,000 --> 00:02:32,000
+I'm using the crapplet to record. Of course that means we're using Casplaster
+
+33
+00:02:32,000 --> 00:02:38,000
+and yet a different config. Yesterday turns out I was recording everything in mono.
+
+34
+00:02:38,000 --> 00:02:41,000
+I need a better machine. That's what it is.
+
+35
+00:02:41,000 --> 00:02:44,000
+So once I get the desk done, then I'm going to get a machine
+
+36
+00:02:44,000 --> 00:02:47,000
+which will be dedicated to recording the daily source code
+
+37
+00:02:47,000 --> 00:02:50,000
+and I want Casplaster to be a part of the whole chain of events
+
+38
+00:02:50,000 --> 00:02:53,000
+and so now that I know how to do it, I just need a better sound card
+
+39
+00:02:53,000 --> 00:02:56,000
+than the one provided in the crapplet. But we've been through that before
+
+40
+00:02:56,000 --> 00:02:58,000
+and I haven't.
+
+41
+00:02:58,000 --> 00:03:02,000
+Mashup of the day is a world premiere actually sent to me
+
+42
+00:03:02,000 --> 00:03:10,000
+by Adub from mashuptown.com
+
+43
+00:03:10,000 --> 00:03:13,000
+Yeah man, I'm going to shut up. It's DJ Cheezy.
+
+44
+00:03:31,000 --> 00:03:36,000
+You get it? Mysterious tweet.
+
+45
+00:03:36,000 --> 00:06:56,250
+[ Music ]
+
+46
+00:06:58,000 --> 00:07:00,000
+Man, I don't know what kind of weather it is where you are
+
+47
+00:07:00,000 --> 00:07:03,000
+But this is the perfect song for a day like today
+
+48
+00:07:03,000 --> 00:07:06,000
+DJ Cheesy, mysterious tweet
+
+49
+00:07:06,000 --> 00:07:09,000
+You can find that at mashuptown.com
+
+50
+00:07:09,000 --> 00:07:11,000
+Thank you, A-dub, for sending that along
+
+51
+00:07:11,000 --> 00:07:13,000
+He's been feeding me with great mashups recently
+
+52
+00:07:13,000 --> 00:07:15,000
+Totally appreciate it
+
+53
+00:07:15,000 --> 00:07:18,000
+Man, that makes me wanna go back to Jamaica
+
+54
+00:07:18,000 --> 00:07:20,000
+Man, Patricia and I were just talking
+
+55
+00:07:20,000 --> 00:07:22,000
+Oops
+
+56
+00:07:24,000 --> 00:07:26,000
+Oops, see, that's something I promised myself
+
+57
+00:07:26,000 --> 00:07:29,000
+Not to have Skype open when...
+
+58
+00:07:29,000 --> 00:07:31,000
+When running Cast Blaster
+
+59
+00:07:31,000 --> 00:07:34,000
+Ah, good, tomorrow Mike and I
+
+60
+00:07:34,000 --> 00:07:36,000
+Cast Blaster, Mike and I have a conversation
+
+61
+00:07:36,000 --> 00:07:37,000
+With the Skype guys
+
+62
+00:07:37,000 --> 00:07:39,000
+Hopefully we'll be able to integrate
+
+63
+00:07:39,000 --> 00:07:42,000
+Skype recording into Cast Blaster
+
+64
+00:07:42,000 --> 00:07:43,000
+In a future version
+
+65
+00:07:43,000 --> 00:07:45,000
+And everyone's willing to make it work
+
+66
+00:07:45,000 --> 00:07:46,000
+So that's the good news
+
+67
+00:07:46,000 --> 00:07:48,000
+Now it's up to us to fail
+
+68
+00:07:48,000 --> 00:07:50,000
+I think we'll do fine
+
+69
+00:07:50,000 --> 00:07:51,000
+Anyway, I was saying
+
+70
+00:07:51,000 --> 00:07:53,000
+Patricia and I were talking about Jamaica
+
+71
+00:07:53,000 --> 00:07:54,000
+Just the other day
+
+72
+00:07:54,000 --> 00:07:55,000
+Wouldn't it be great to go back there?
+
+73
+00:07:55,000 --> 00:07:56,000
+Not right now actually
+
+74
+00:07:56,000 --> 00:07:59,000
+Because now is probably the worst time in the world
+
+75
+00:07:59,000 --> 00:08:01,000
+But we've been to Jamaica
+
+76
+00:08:01,000 --> 00:08:02,000
+I don't know, maybe 15 times
+
+77
+00:08:02,000 --> 00:08:05,000
+And we haven't gone for maybe two years
+
+78
+00:08:05,000 --> 00:08:07,000
+And this year we're not going to Jamaica
+
+79
+00:08:07,000 --> 00:08:08,000
+We're gonna go to the States
+
+80
+00:08:08,000 --> 00:08:10,000
+So the plan is in August
+
+81
+00:08:10,000 --> 00:08:12,000
+To go first to New York
+
+82
+00:08:12,000 --> 00:08:14,000
+Then maybe Las Vegas
+
+83
+00:08:14,000 --> 00:08:17,000
+We're thinking of a couple days in Vegas
+
+84
+00:08:17,000 --> 00:08:19,000
+Then out west
+
+85
+00:08:19,000 --> 00:08:21,000
+Hopefully to stop by Portland
+
+86
+00:08:21,000 --> 00:08:24,000
+So Patricia and Ken can catch up as well
+
+87
+00:08:24,000 --> 00:08:26,000
+Then to San Francisco
+
+88
+00:08:26,000 --> 00:08:30,000
+Neither Patricia Cristino San Francisco
+
+89
+00:08:30,000 --> 00:08:33,000
+And of course I'm gonna be there a lot
+
+90
+00:08:33,000 --> 00:08:36,000
+And they're always welcome to come along
+
+91
+00:08:36,000 --> 00:08:38,000
+And I think they'll enjoy that
+
+92
+00:08:38,000 --> 00:08:40,000
+And I'm gonna drive up north
+
+93
+00:08:40,000 --> 00:08:41,000
+Up the coast
+
+94
+00:08:41,000 --> 00:08:43,000
+And then eventually we'll fly back
+
+95
+00:08:43,000 --> 00:08:45,000
+So that's kind of the plan
+
+96
+00:08:45,000 --> 00:08:46,000
+For today though
+
+97
+00:08:46,000 --> 00:08:48,000
+I really just, it's so warm
+
+98
+00:08:48,000 --> 00:08:50,000
+As I said I already did some work
+
+99
+00:08:50,000 --> 00:08:52,000
+It's just it's too much
+
+100
+00:08:52,000 --> 00:08:55,000
+So I didn't have enough energy
+
+101
+00:08:55,000 --> 00:08:57,000
+Really to go and look through promos
+
+102
+00:08:57,000 --> 00:08:58,000
+And stuff like that
+
+103
+00:08:58,000 --> 00:08:59,000
+Of course the match up
+
+104
+00:08:59,000 --> 00:09:01,000
+And I got a pod safe music tune
+
+105
+00:09:01,000 --> 00:09:02,000
+I want to play for you
+
+106
+00:09:02,000 --> 00:09:05,000
+But there's such a huge amount of email
+
+107
+00:09:05,000 --> 00:09:07,000
+That I've been saving to discuss on the show
+
+108
+00:09:07,000 --> 00:09:08,000
+Let's just run through the mailbox
+
+109
+00:09:08,000 --> 00:09:09,000
+I'm sitting here with a crap
+
+110
+00:09:09,000 --> 00:09:10,000
+But this is pretty cool
+
+111
+00:09:10,000 --> 00:09:12,000
+Because now Casblast is running in the background
+
+112
+00:09:12,000 --> 00:09:14,000
+But everything's working I hope
+
+113
+00:09:14,000 --> 00:09:15,000
+Let me just check
+
+114
+00:09:15,000 --> 00:09:16,000
+Bring it to the front there
+
+115
+00:09:16,000 --> 00:09:18,000
+Yeah everything's fine
+
+116
+00:09:18,000 --> 00:09:22,000
+So my shoulder and my left arm
+
+117
+00:09:22,000 --> 00:09:24,000
+I've been talking about that
+
+118
+00:09:24,000 --> 00:09:26,000
+You know I gotta bitch about it to somebody right
+
+119
+00:09:26,000 --> 00:09:29,000
+No one else here wants to hear about it anymore
+
+120
+00:09:29,000 --> 00:09:31,000
+The only real once in a while
+
+121
+00:09:31,000 --> 00:09:32,000
+Just spasms you know
+
+122
+00:09:32,000 --> 00:09:33,000
+And so everything starts to hurt
+
+123
+00:09:33,000 --> 00:09:34,000
+I can kind of deal with that
+
+124
+00:09:34,000 --> 00:09:36,000
+But what really sucks
+
+125
+00:09:36,000 --> 00:09:39,000
+Is it feels like my index finger
+
+126
+00:09:39,000 --> 00:09:42,000
+And the tip of my thumb
+
+127
+00:09:42,000 --> 00:09:44,000
+As if they're they fall in asleep
+
+128
+00:09:44,000 --> 00:09:46,000
+Not completely I can still feel through it
+
+129
+00:09:46,000 --> 00:09:48,000
+You know it's like novocaine that's
+
+130
+00:09:48,000 --> 00:09:50,000
+That's wearing off
+
+131
+00:09:50,000 --> 00:09:52,000
+And everyone I talked to
+
+132
+00:09:52,000 --> 00:09:54,000
+Says yeah you know it was a pinched nerve
+
+133
+00:09:54,000 --> 00:09:55,000
+Or whatever it'll go away
+
+134
+00:09:55,000 --> 00:09:56,000
+And I'm just feeling pretty sorry for myself
+
+135
+00:09:56,000 --> 00:09:58,000
+And I got an email from
+
+136
+00:09:58,000 --> 00:10:01,000
+I think Steve Smetters
+
+137
+00:10:01,000 --> 00:10:04,000
+And it's really nice
+
+138
+00:10:04,000 --> 00:10:06,000
+He says I'll just read from this
+
+139
+00:10:06,000 --> 00:10:08,000
+I have a very blue collar aviation job
+
+140
+00:10:08,000 --> 00:10:10,000
+I fly an aerial survey aircraft
+
+141
+00:10:10,000 --> 00:10:12,000
+Cessna Turbo 206 in Columbus Ohio
+
+142
+00:10:12,000 --> 00:10:14,000
+Most of our flying occurs in the cold months
+
+143
+00:10:14,000 --> 00:10:16,000
+Between November 1st and June 1st
+
+144
+00:10:16,000 --> 00:10:18,000
+When the leaves are off the trees
+
+145
+00:10:18,000 --> 00:10:20,000
+Easier to make maps when you can see through the trees
+
+146
+00:10:20,000 --> 00:10:22,000
+7 to 9 hour days in the aircraft
+
+147
+00:10:22,000 --> 00:10:25,000
+Wow 7 to 9 hour days in the aircraft
+
+148
+00:10:25,000 --> 00:10:27,000
+Smashing through the turbulence
+
+149
+00:10:27,000 --> 00:10:28,000
+Right because you have to stay low
+
+150
+00:10:28,000 --> 00:10:30,000
+He says we rarely get above it
+
+151
+00:10:30,000 --> 00:10:32,000
+Has often given me the same numbness
+
+152
+00:10:32,000 --> 00:10:34,000
+And tingling not to mention soreness
+
+153
+00:10:34,000 --> 00:10:36,000
+That you have mentioned especially in the left arm
+
+154
+00:10:36,000 --> 00:10:38,000
+Since I do not have attitude hold
+
+155
+00:10:38,000 --> 00:10:40,000
+On my autopilot yeah I don't have that in the 182 either
+
+156
+00:10:40,000 --> 00:10:42,000
+That's the that's the
+
+157
+00:10:42,000 --> 00:10:44,000
+The next upgrade I want to get when it's all slave
+
+158
+00:10:44,000 --> 00:10:46,000
+To the GPS
+
+159
+00:10:46,000 --> 00:10:48,000
+So anyway his left arm
+
+160
+00:10:48,000 --> 00:10:50,000
+Is left to absorb most of the bumps
+
+161
+00:10:50,000 --> 00:10:52,000
+Multiply this over the course of 20 years
+
+162
+00:10:52,000 --> 00:10:54,000
+I've been doing this type of flying
+
+163
+00:10:54,000 --> 00:10:56,000
+I'm 41 he says it sucks
+
+164
+00:10:56,000 --> 00:10:58,000
+Okay and the only way he says
+
+165
+00:10:58,000 --> 00:11:00,000
+He's found to alleviate the pain is lifting weights
+
+166
+00:11:00,000 --> 00:11:02,000
+Interesting because my I was told
+
+167
+00:11:02,000 --> 00:11:04,000
+Specifically not to do that
+
+168
+00:11:04,000 --> 00:11:06,000
+Maybe I'll wait another week before I
+
+169
+00:11:06,000 --> 00:11:08,000
+Because I do like to work out now
+
+170
+00:11:08,000 --> 00:11:10,000
+I've been forced to the gym
+
+171
+00:11:10,000 --> 00:11:12,000
+Steve thank you very much and
+
+172
+00:11:12,000 --> 00:11:14,000
+I guess that's it you know just a life
+
+173
+00:11:14,000 --> 00:11:16,000
+Of yoke yankers that
+
+174
+00:11:16,000 --> 00:11:18,000
+That will live with numbness in our left
+
+175
+00:11:18,000 --> 00:11:20,000
+Arms
+
+176
+00:11:20,000 --> 00:11:22,000
+Let's see
+
+177
+00:11:22,000 --> 00:11:24,000
+I wanted to play this later on for you
+
+178
+00:11:24,000 --> 00:11:26,000
+I got an email I'll play this
+
+179
+00:11:26,000 --> 00:11:28,000
+Near the end of the show Mark
+
+180
+00:11:28,000 --> 00:11:30,000
+Kelso sent me an email
+
+181
+00:11:30,000 --> 00:11:32,000
+I said you have to listen to this
+
+182
+00:11:32,000 --> 00:11:34,000
+IT conversations podcast
+
+183
+00:11:34,000 --> 00:11:36,000
+Of David Corsi you know David
+
+184
+00:11:36,000 --> 00:11:38,000
+I'll talk about David Corsi in a moment
+
+185
+00:11:38,000 --> 00:11:40,000
+Let me get back to that let me see what the next email is
+
+186
+00:11:40,000 --> 00:11:42,000
+Okay so that was
+
+187
+00:11:42,000 --> 00:11:44,000
+This is from art with the
+
+188
+00:11:44,000 --> 00:11:46,000
+Peter Andre versus yeah whatever
+
+189
+00:11:46,000 --> 00:11:48,000
+Surprise mystery tweet
+
+190
+00:11:52,000 --> 00:11:54,000
+Dudley Beale
+
+191
+00:11:54,000 --> 00:11:56,000
+I'm a presenter on a hospital radio station
+
+192
+00:11:56,000 --> 00:11:58,000
+Of course dear to my heart since that's how I started
+
+193
+00:11:58,000 --> 00:12:00,000
+You have a very captive audience I bet
+
+194
+00:12:00,000 --> 00:12:02,000
+Based at the Royal National Orthopedic
+
+195
+00:12:02,000 --> 00:12:04,000
+Hospital in Stanmore
+
+196
+00:12:04,000 --> 00:12:06,000
+Radio Broccoli
+
+197
+00:12:06,000 --> 00:12:08,000
+Broccoli
+
+198
+00:12:08,000 --> 00:12:10,000
+B-R-O-C-K-L-E-Y Broccoli
+
+199
+00:12:10,000 --> 00:12:12,000
+Oh man
+
+200
+00:12:12,000 --> 00:12:14,000
+Radio Broccoli but it sounds like
+
+201
+00:12:14,000 --> 00:12:16,000
+Radio Broccoli doesn't it
+
+202
+00:12:16,000 --> 00:12:18,000
+There I present and produce a program
+
+203
+00:12:18,000 --> 00:12:20,000
+Called the midweek pick and mix
+
+204
+00:12:20,000 --> 00:12:22,000
+And to be honest the voiceover that I'm using for the program
+
+205
+00:12:22,000 --> 00:12:24,000
+Is getting a little old on not of the best audio quality
+
+206
+00:12:24,000 --> 00:12:26,000
+Would it be possible to say
+
+207
+00:12:26,000 --> 00:12:28,000
+On the daily source code the following
+
+208
+00:12:28,000 --> 00:12:30,000
+So I used it in my program
+
+209
+00:12:30,000 --> 00:12:32,000
+You listen to the midweek pick and mix on radio brock
+
+210
+00:12:32,000 --> 00:12:34,000
+Okay you know I'll even turn off
+
+211
+00:12:34,000 --> 00:12:36,000
+There for you okay here you go
+
+212
+00:12:36,000 --> 00:12:38,000
+Get ready to snip this piece out there Dudley
+
+213
+00:12:40,000 --> 00:12:42,000
+You're listening to the midweek pick and mix
+
+214
+00:12:42,000 --> 00:12:44,000
+On radio broccoli
+
+215
+00:12:46,000 --> 00:12:48,000
+Would you like some mayonnaise with your broccoli
+
+216
+00:12:50,000 --> 00:12:52,000
+What a great name for a radio station
+
+217
+00:12:52,000 --> 00:12:54,000
+At college we had K-I-T-B-W
+
+218
+00:12:54,000 --> 00:12:56,000
+No no I'm sorry
+
+219
+00:12:56,000 --> 00:12:58,000
+W-I-T-B that's what it was
+
+220
+00:12:58,000 --> 00:13:00,000
+Which officially stood for
+
+221
+00:13:00,000 --> 00:13:02,000
+We're in the basement where the original studio was
+
+222
+00:13:02,000 --> 00:13:04,000
+But of course by the time I got there it was
+
+223
+00:13:04,000 --> 00:13:06,000
+We're into bong hits
+
+224
+00:13:06,000 --> 00:13:08,000
+See Polly Shore doing a podcast
+
+225
+00:13:08,000 --> 00:13:10,000
+No we'll skip over that man
+
+226
+00:13:10,000 --> 00:13:12,000
+We work with Polly Shore at MTV
+
+227
+00:13:12,000 --> 00:13:14,000
+And he was oh man he was irritating
+
+228
+00:13:18,000 --> 00:13:20,000
+I thought there was a lot more here
+
+229
+00:13:20,000 --> 00:13:22,000
+OSX has an update
+
+230
+00:13:22,000 --> 00:13:24,000
+10.4 this is all technical stuff
+
+231
+00:13:24,000 --> 00:13:26,000
+I don't want to talk about that right now
+
+232
+00:13:28,000 --> 00:13:30,000
+Wow okay well I guess
+
+233
+00:13:30,000 --> 00:13:32,000
+That was the email then I thought I had a lot more
+
+234
+00:13:34,000 --> 00:13:36,000
+No that's it
+
+235
+00:13:36,000 --> 00:13:38,000
+Okay well good then we have
+
+236
+00:13:38,000 --> 00:13:40,000
+Enough
+
+237
+00:13:40,000 --> 00:13:42,000
+As said way too warm today
+
+238
+00:13:42,000 --> 00:13:44,000
+To really do a lot of preparation
+
+239
+00:13:44,000 --> 00:13:46,000
+Why don't we do this
+
+240
+00:13:46,000 --> 00:13:48,000
+The David Corsi thing
+
+241
+00:13:48,000 --> 00:13:50,000
+Let's just roll through that because this is so amazing
+
+242
+00:13:50,000 --> 00:13:52,000
+David Corsi is a columnist
+
+243
+00:13:54,000 --> 00:13:56,000
+And I really only started reading his stuff
+
+244
+00:13:56,000 --> 00:13:58,000
+But it was a while ago it must have been
+
+245
+00:13:58,000 --> 00:14:00,000
+I want to say 10 years ago
+
+246
+00:14:00,000 --> 00:14:02,000
+And he was one of the few people that would write about
+
+247
+00:14:02,000 --> 00:14:04,000
+Mac stuff
+
+248
+00:14:04,000 --> 00:14:06,000
+I mean Windows there really was no Windows then
+
+249
+00:14:06,000 --> 00:14:08,000
+You know you had
+
+250
+00:14:08,000 --> 00:14:10,000
+Windows 95
+
+251
+00:14:10,000 --> 00:14:12,000
+It kind of went a whole bunch of magazines
+
+252
+00:14:12,000 --> 00:14:14,000
+Sprouted and he was around there that time too
+
+253
+00:14:14,000 --> 00:14:16,000
+But he's kind of an industry pundit
+
+254
+00:14:16,000 --> 00:14:18,000
+Pundit, pundit, pundit
+
+255
+00:14:18,000 --> 00:14:20,000
+But I've never found him to be very
+
+256
+00:14:20,000 --> 00:14:22,000
+Informative to me at least
+
+257
+00:14:22,000 --> 00:14:24,000
+But very opinionated
+
+258
+00:14:24,000 --> 00:14:26,000
+And
+
+259
+00:14:26,000 --> 00:14:28,000
+I don't know if
+
+260
+00:14:28,000 --> 00:14:30,000
+He's not like a guy that
+
+261
+00:14:30,000 --> 00:14:32,000
+The new David Corsi is out
+
+262
+00:14:32,000 --> 00:14:34,000
+I have to go read him
+
+263
+00:14:34,000 --> 00:14:36,000
+But he does have a wide
+
+264
+00:14:36,000 --> 00:14:38,000
+Distribution network
+
+265
+00:14:38,000 --> 00:14:40,000
+And he was interviewed on
+
+266
+00:14:40,000 --> 00:14:42,000
+An IT Conversations
+
+267
+00:14:42,000 --> 00:14:44,000
+Podcast
+
+268
+00:14:44,000 --> 00:14:46,000
+And
+
+269
+00:14:46,000 --> 00:14:48,000
+I couldn't even pull an excerpt from it
+
+270
+00:14:48,000 --> 00:14:50,000
+Because some of the stuff he was saying
+
+271
+00:14:50,000 --> 00:14:52,000
+Was just so amazing
+
+272
+00:14:52,000 --> 00:14:54,000
+I'll turn down the Convair
+
+273
+00:14:54,000 --> 00:14:56,000
+Just a notch there
+
+274
+00:14:56,000 --> 00:14:58,000
+So it still stays cool and we can listen to this
+
+275
+00:14:58,000 --> 00:15:00,000
+Together and I can leave the mic over
+
+276
+00:15:00,000 --> 00:15:02,000
+My name is Rob Greenlee and I appreciate you listening today
+
+277
+00:15:02,000 --> 00:15:04,000
+We are joined right now by David Corsi
+
+278
+00:15:04,000 --> 00:15:06,000
+Who is an industry analyst and consultant
+
+279
+00:15:06,000 --> 00:15:08,000
+He is a former executive editor at ZDNet
+
+280
+00:15:08,000 --> 00:15:10,000
+Anchor Desk
+
+281
+00:15:10,000 --> 00:15:12,000
+And a former editor published at PC Letter
+
+282
+00:15:12,000 --> 00:15:14,000
+And a former radio show host at CNET Radio
+
+283
+00:15:14,000 --> 00:15:16,000
+And is now a contributor
+
+284
+00:15:16,000 --> 00:15:18,000
+He's a former a lot of everything isn't he
+
+285
+00:15:18,000 --> 00:15:20,000
+Published.com and he has spent two decades
+
+286
+00:15:20,000 --> 00:15:22,000
+Writing about hardware, software
+
+287
+00:15:22,000 --> 00:15:24,000
+Publications for business customers
+
+288
+00:15:24,000 --> 00:15:26,000
+He is also president of David Corsi Consulting
+
+289
+00:15:26,000 --> 00:15:28,000
+Incorporated. David is going to talk
+
+290
+00:15:28,000 --> 00:15:30,000
+Extensively about his background
+
+291
+00:15:30,000 --> 00:15:32,000
+In print journalism, radio broadcasting
+
+292
+00:15:32,000 --> 00:15:34,000
+And he also talks about some recent articles
+
+293
+00:15:34,000 --> 00:15:36,000
+Expressing skepticism
+
+294
+00:15:36,000 --> 00:15:38,000
+About journalistic web logs
+
+295
+00:15:38,000 --> 00:15:40,000
+And the long-term growth of grassroots podcasting
+
+296
+00:15:40,000 --> 00:15:42,000
+Okay so apparently he wrote some columns
+
+297
+00:15:42,000 --> 00:15:44,000
+Which I have not read as I already pointed out
+
+298
+00:15:44,000 --> 00:15:46,000
+But let's just
+
+299
+00:15:46,000 --> 00:15:48,000
+I'm going to let this go along because
+
+300
+00:15:48,000 --> 00:15:50,000
+Man he
+
+301
+00:15:50,000 --> 00:15:52,000
+Think about maybe ten minutes
+
+302
+00:15:52,000 --> 00:15:54,000
+But I think well worth it and I'll jump into
+
+303
+00:15:54,000 --> 00:15:56,000
+Comment once in a while but it's really
+
+304
+00:15:56,000 --> 00:15:58,000
+Amazing the things that he has to say
+
+305
+00:15:58,000 --> 00:16:00,000
+Particularly because I feel we have very similar
+
+306
+00:16:00,000 --> 00:16:02,000
+Backgrounds. I've been in radio
+
+307
+00:16:02,000 --> 00:16:04,000
+Since I was fifteen
+
+308
+00:16:04,000 --> 00:16:06,000
+Been in mainstream media all of my adult life
+
+309
+00:16:08,000 --> 00:16:10,000
+He has different ideas
+
+310
+00:16:10,000 --> 00:16:12,000
+Very much good to be here
+
+311
+00:16:12,000 --> 00:16:14,000
+Why don't you tell us something about your background
+
+312
+00:16:14,000 --> 00:16:16,000
+In media and technology and
+
+313
+00:16:16,000 --> 00:16:18,000
+You've actually done a broadcast radio
+
+314
+00:16:18,000 --> 00:16:20,000
+I've been watching that radio for a few years
+
+315
+00:16:20,000 --> 00:16:22,000
+Want to tell us kind of about your media background
+
+316
+00:16:22,000 --> 00:16:24,000
+Well my background is basically
+
+317
+00:16:24,000 --> 00:16:26,000
+Starting in radio
+
+318
+00:16:26,000 --> 00:16:28,000
+When I guess I was fifteen years old
+
+319
+00:16:28,000 --> 00:16:30,000
+Which is quite a while ago now
+
+320
+00:16:30,000 --> 00:16:32,000
+In Dallas at a radio station
+
+321
+00:16:32,000 --> 00:16:34,000
+That doesn't exist anymore
+
+322
+00:16:34,000 --> 00:16:36,000
+At least the AM doesn't WRR
+
+323
+00:16:36,000 --> 00:16:38,000
+I stayed in broadcasting in the Dallas area
+
+324
+00:16:38,000 --> 00:16:40,000
+Doing news for
+
+325
+00:16:40,000 --> 00:16:42,000
+About I guess ten years
+
+326
+00:16:42,000 --> 00:16:44,000
+And slowly as radio
+
+327
+00:16:44,000 --> 00:16:46,000
+Changed due to deregulation
+
+328
+00:16:46,000 --> 00:16:48,000
+News departments went away etc
+
+329
+00:16:48,000 --> 00:16:50,000
+I got into print
+
+330
+00:16:50,000 --> 00:16:52,000
+I was working at
+
+331
+00:16:52,000 --> 00:16:54,000
+Suburban newspaper
+
+332
+00:16:54,000 --> 00:16:56,000
+At writing for USA Today
+
+333
+00:16:56,000 --> 00:16:58,000
+For several years
+
+334
+00:16:58,000 --> 00:17:00,000
+Then in 1985
+
+335
+00:17:00,000 --> 00:17:02,000
+Got into the computer trade
+
+336
+00:17:02,000 --> 00:17:04,000
+Went to work for a publication
+
+337
+00:17:04,000 --> 00:17:06,000
+Again no longer exists
+
+338
+00:17:06,000 --> 00:17:08,000
+Called FIS week
+
+339
+00:17:08,000 --> 00:17:10,000
+Published by CapCities out of New York
+
+340
+00:17:10,000 --> 00:17:12,000
+Then went to Info World
+
+341
+00:17:12,000 --> 00:17:14,000
+And the rest is history
+
+342
+00:17:14,000 --> 00:17:16,000
+Stuart Alsop asked me to take over
+
+343
+00:17:16,000 --> 00:17:18,000
+PC letter when he was
+
+344
+00:17:18,000 --> 00:17:20,000
+Leading back to go on and do some other things
+
+345
+00:17:20,000 --> 00:17:22,000
+I basically become editor-in-chief
+
+346
+00:17:22,000 --> 00:17:24,000
+Of the Info World
+
+347
+00:17:24,000 --> 00:17:26,000
+He's just going to go on and on a bit here
+
+348
+00:17:26,000 --> 00:17:28,000
+About everything he's done
+
+349
+00:17:28,000 --> 00:17:30,000
+We'll get into the meat of the conversation
+
+350
+00:17:30,000 --> 00:17:32,000
+In a second though
+
+351
+00:17:32,000 --> 00:17:34,000
+They get dearly departed
+
+352
+00:17:34,000 --> 00:17:36,000
+Everywhere he worked
+
+353
+00:17:36,000 --> 00:17:38,000
+Is dead
+
+354
+00:17:38,000 --> 00:17:40,000
+Everywhere I go doesn't work anymore
+
+355
+00:17:40,000 --> 00:17:42,000
+I spent three years
+
+356
+00:17:42,000 --> 00:17:44,000
+As you pointed out, three happy years
+
+357
+00:17:44,000 --> 00:17:46,000
+At CNET
+
+358
+00:17:46,000 --> 00:17:48,000
+Left there while I was doing radio
+
+359
+00:17:48,000 --> 00:17:50,000
+And television and broadband
+
+360
+00:17:50,000 --> 00:17:52,000
+CNET has gone through some changes
+
+361
+00:17:52,000 --> 00:17:54,000
+Getting rid of television and radio
+
+362
+00:17:54,000 --> 00:17:56,000
+I really should have queued some of this up
+
+363
+00:17:56,000 --> 00:17:58,000
+I feel
+
+364
+00:17:58,000 --> 00:18:00,000
+Just turning down a little bit there
+
+365
+00:18:00,000 --> 00:18:02,000
+Having lots of fun
+
+366
+00:18:02,000 --> 00:18:04,000
+It certainly sounds like you're staying busy
+
+367
+00:18:04,000 --> 00:18:06,000
+What is going on in the whole
+
+368
+00:18:06,000 --> 00:18:08,000
+Sector of news
+
+369
+00:18:08,000 --> 00:18:10,000
+In relation to
+
+370
+00:18:10,000 --> 00:18:12,000
+Technology right now
+
+371
+00:18:12,000 --> 00:18:14,000
+It seems like it's changing all
+
+372
+00:18:14,000 --> 00:18:16,000
+Towards blogs and things like that
+
+373
+00:18:16,000 --> 00:18:18,000
+What's your perspective on how things are
+
+374
+00:18:18,000 --> 00:18:20,000
+Evolving in that sector?
+
+375
+00:18:20,000 --> 00:18:22,000
+You say it's changing
+
+376
+00:18:22,000 --> 00:18:24,000
+Towards blogs
+
+377
+00:18:24,000 --> 00:18:26,000
+Maybe you're abating me just a bit
+
+378
+00:18:26,000 --> 00:18:28,000
+Like blogs
+
+379
+00:18:28,000 --> 00:18:30,000
+Almost as much as I like
+
+380
+00:18:30,000 --> 00:18:32,000
+But actually
+
+381
+00:18:32,000 --> 00:18:34,000
+Right now I already get it
+
+382
+00:18:34,000 --> 00:18:36,000
+He wrote a couple of articles that were
+
+383
+00:18:36,000 --> 00:18:38,000
+I guess anti-weblog
+
+384
+00:18:38,000 --> 00:18:40,000
+Anti-podcasting
+
+385
+00:18:40,000 --> 00:18:42,000
+It's not really going to mean anything
+
+386
+00:18:42,000 --> 00:18:44,000
+And this is what
+
+387
+00:18:44,000 --> 00:18:46,000
+He's now garnering a lot of attention
+
+388
+00:18:46,000 --> 00:18:48,000
+And so he's loving it
+
+389
+00:18:48,000 --> 00:18:50,000
+That by the way
+
+390
+00:18:50,000 --> 00:18:52,000
+Is how it works
+
+391
+00:18:52,000 --> 00:18:54,000
+Once you get the attention
+
+392
+00:18:54,000 --> 00:18:56,000
+You decide whether you want to go for it
+
+393
+00:18:56,000 --> 00:18:58,000
+He's going for it with the negative stuff
+
+394
+00:18:58,000 --> 00:19:00,000
+If you're going to do it
+
+395
+00:19:00,000 --> 00:19:02,000
+Essentially is a hobby
+
+396
+00:19:02,000 --> 00:19:04,000
+When I look at a blog
+
+397
+00:19:04,000 --> 00:19:06,000
+I'm a columnist
+
+398
+00:19:06,000 --> 00:19:08,000
+And it used to write
+
+399
+00:19:08,000 --> 00:19:10,000
+More of a bloggy thing
+
+400
+00:19:10,000 --> 00:19:12,000
+Okay
+
+401
+00:19:12,000 --> 00:19:14,000
+Bloggy thing
+
+402
+00:19:14,000 --> 00:19:16,000
+And I found that it took me just as long
+
+403
+00:19:16,000 --> 00:19:18,000
+To write a blog entry as it did
+
+404
+00:19:18,000 --> 00:19:20,000
+A column
+
+405
+00:19:20,000 --> 00:19:22,000
+And fewer people saw the blog entry
+
+406
+00:19:22,000 --> 00:19:24,000
+Yeah, interesting
+
+407
+00:19:24,000 --> 00:19:26,000
+So that was
+
+408
+00:19:26,000 --> 00:19:28,000
+Rob Greenlee, what was that
+
+409
+00:19:28,000 --> 00:19:30,000
+Interesting, come on man
+
+410
+00:19:30,000 --> 00:19:32,000
+Slice him right there
+
+411
+00:19:32,000 --> 00:19:34,000
+Well let me write columns instead
+
+412
+00:19:34,000 --> 00:19:36,000
+But it can take
+
+413
+00:19:36,000 --> 00:19:38,000
+By time you do research
+
+414
+00:19:38,000 --> 00:19:40,000
+And whatever most of the day to do a column
+
+415
+00:19:40,000 --> 00:19:42,000
+Yeah
+
+416
+00:19:42,000 --> 00:19:44,000
+For people who
+
+417
+00:19:44,000 --> 00:19:46,000
+You know
+
+418
+00:19:46,000 --> 00:19:48,000
+It just seems like it's an awful lot of work
+
+419
+00:19:48,000 --> 00:19:50,000
+For something that isn't
+
+420
+00:19:50,000 --> 00:19:52,000
+Going to be somebody's job
+
+421
+00:19:52,000 --> 00:19:54,000
+Oh man
+
+422
+00:19:54,000 --> 00:19:56,000
+But this is like the oldest
+
+423
+00:19:56,000 --> 00:19:58,000
+Argument that I've heard
+
+424
+00:19:58,000 --> 00:20:00,000
+About weblogging
+
+425
+00:20:00,000 --> 00:20:02,000
+This is the oldest one
+
+426
+00:20:02,000 --> 00:20:04,000
+This is not even a new way to say weblogs are no good
+
+427
+00:20:04,000 --> 00:20:06,000
+This is
+
+428
+00:20:06,000 --> 00:20:08,000
+This is amazing to me
+
+429
+00:20:08,000 --> 00:20:10,000
+That's why I wanted to share this with you
+
+430
+00:20:10,000 --> 00:20:12,000
+Let's just listen to a little bit more
+
+431
+00:20:12,000 --> 00:20:14,000
+Because if you think you can dig the hole any deeper
+
+432
+00:20:14,000 --> 00:20:16,000
+Oh man, it goes all the way to China
+
+433
+00:20:16,000 --> 00:20:18,000
+All the media
+
+434
+00:20:18,000 --> 00:20:20,000
+They're all jumping on this bandwagon
+
+435
+00:20:20,000 --> 00:20:22,000
+And offering blogs and those kind of things
+
+436
+00:20:22,000 --> 00:20:24,000
+And is it kind of pulling away from the
+
+437
+00:20:24,000 --> 00:20:26,000
+Long form type of writing
+
+438
+00:20:26,000 --> 00:20:28,000
+That's been going on for a long time
+
+439
+00:20:28,000 --> 00:20:30,000
+I guess blog proponents
+
+440
+00:20:30,000 --> 00:20:32,000
+Would say so
+
+441
+00:20:32,000 --> 00:20:34,000
+But I don't see it
+
+442
+00:20:34,000 --> 00:20:36,000
+I mean I think if you're involved in something
+
+443
+00:20:36,000 --> 00:20:38,000
+It looks a lot bigger and a lot more important
+
+444
+00:20:38,000 --> 00:20:40,000
+Than it really is
+
+445
+00:20:40,000 --> 00:20:42,000
+I don't think blogs are going to
+
+446
+00:20:42,000 --> 00:20:44,000
+Oh, hugely change
+
+447
+00:20:44,000 --> 00:20:46,000
+The way we do things
+
+448
+00:20:46,000 --> 00:20:48,000
+Okay
+
+449
+00:20:48,000 --> 00:20:50,000
+That's a wager I'm willing to take
+
+450
+00:20:50,000 --> 00:20:52,000
+No problemo
+
+451
+00:20:52,000 --> 00:20:54,000
+Of course they're changing the way we do
+
+452
+00:20:54,000 --> 00:20:56,000
+Or maybe he meant we as in
+
+453
+00:20:56,000 --> 00:20:58,000
+People who are paid
+
+454
+00:20:58,000 --> 00:21:00,000
+The limitations both of the medium
+
+455
+00:21:00,000 --> 00:21:02,000
+And of the people who created
+
+456
+00:21:02,000 --> 00:21:04,000
+Yeah, I'm always a little concerned
+
+457
+00:21:04,000 --> 00:21:06,000
+And now by the way
+
+458
+00:21:06,000 --> 00:21:08,000
+I'm speaking in terms of
+
+459
+00:21:08,000 --> 00:21:10,000
+Big national affairs
+
+460
+00:21:10,000 --> 00:21:12,000
+Kinds of blogs
+
+461
+00:21:12,000 --> 00:21:14,000
+I'm not about somebody who is
+
+462
+00:21:14,000 --> 00:21:16,000
+Microsoft engineer writing about
+
+463
+00:21:16,000 --> 00:21:18,000
+Microsoft stuff and sharing some of their experiences
+
+464
+00:21:18,000 --> 00:21:20,000
+These sorts of specialized
+
+465
+00:21:20,000 --> 00:21:22,000
+You know, sorts of blogs
+
+466
+00:21:22,000 --> 00:21:24,000
+But in terms of
+
+467
+00:21:24,000 --> 00:21:26,000
+Being part of
+
+468
+00:21:26,000 --> 00:21:28,000
+The debate of major issues
+
+469
+00:21:28,000 --> 00:21:30,000
+Blogs tend to be
+
+470
+00:21:30,000 --> 00:21:32,000
+By people who have an agenda
+
+471
+00:21:32,000 --> 00:21:34,000
+That they want to push
+
+472
+00:21:34,000 --> 00:21:36,000
+And are read by people who want to see that agenda
+
+473
+00:21:36,000 --> 00:21:38,000
+Who want to read about it
+
+474
+00:21:38,000 --> 00:21:40,000
+I wish Dave Weiner were here
+
+475
+00:21:40,000 --> 00:21:42,000
+Because this is what he sometimes does
+
+476
+00:21:42,000 --> 00:21:44,000
+On scripting news
+
+477
+00:21:44,000 --> 00:21:46,000
+He pulls stuff apart
+
+478
+00:21:46,000 --> 00:21:48,000
+But this is so
+
+479
+00:21:48,000 --> 00:21:50,000
+Oh man
+
+480
+00:21:50,000 --> 00:21:52,000
+Professional writers
+
+481
+00:21:52,000 --> 00:21:54,000
+Don't have an agenda
+
+482
+00:21:54,000 --> 00:21:56,000
+Write to a certain audience
+
+483
+00:21:56,000 --> 00:21:58,000
+Come on, David, please
+
+484
+00:21:58,000 --> 00:22:00,000
+Circle is best I know
+
+485
+00:22:00,000 --> 00:22:02,000
+Like Fox News, I guess
+
+486
+00:22:02,000 --> 00:22:04,000
+Yeah, I guess people are going to enjoy doing it
+
+487
+00:22:04,000 --> 00:22:06,000
+But I think it's going to be a little bit like
+
+488
+00:22:06,000 --> 00:22:08,000
+Early websites
+
+489
+00:22:08,000 --> 00:22:10,000
+In which the web happened
+
+490
+00:22:10,000 --> 00:22:12,000
+HTML, anyone can have a website
+
+491
+00:22:12,000 --> 00:22:14,000
+And then
+
+492
+00:22:14,000 --> 00:22:16,000
+It kind of falls off as people realize
+
+493
+00:22:16,000 --> 00:22:18,000
+Well, not everyone
+
+494
+00:22:18,000 --> 00:22:20,000
+Can do the arts and crafts
+
+495
+00:22:20,000 --> 00:22:22,000
+Necessary to have an interesting website
+
+496
+00:22:22,000 --> 00:22:24,000
+Not everyone has the amount of time
+
+497
+00:22:24,000 --> 00:22:26,000
+That it takes to maintain a website
+
+498
+00:22:26,000 --> 00:22:28,000
+Now blogs are a solution
+
+499
+00:22:28,000 --> 00:22:30,000
+To that problem for lots of people
+
+500
+00:22:30,000 --> 00:22:32,000
+Because it's a website that you can manage very easily
+
+501
+00:22:32,000 --> 00:22:34,000
+But that's still
+
+502
+00:22:34,000 --> 00:22:36,000
+Content creation is still tough
+
+503
+00:22:36,000 --> 00:22:38,000
+It is hard work for people
+
+504
+00:22:38,000 --> 00:22:40,000
+Certainly it seems like
+
+505
+00:22:40,000 --> 00:22:42,000
+What you're saying in reference to blogs
+
+506
+00:22:42,000 --> 00:22:44,000
+Also applies to podcast
+
+507
+00:22:44,000 --> 00:22:46,000
+It's a very similar type of a
+
+508
+00:22:46,000 --> 00:22:48,000
+Process that's going on online
+
+509
+00:22:48,000 --> 00:22:50,000
+I think that's fascinating when you extend it out
+
+510
+00:22:50,000 --> 00:22:52,000
+To blogs and if you're looking at content creation
+
+511
+00:22:52,000 --> 00:22:54,000
+With podcasting
+
+512
+00:22:54,000 --> 00:22:56,000
+Looking at it from the perspective
+
+513
+00:22:56,000 --> 00:22:58,000
+Of what we've seen happen with blogs
+
+514
+00:22:58,000 --> 00:23:00,000
+And is that a good
+
+515
+00:23:00,000 --> 00:23:02,000
+Way of looking at it
+
+516
+00:23:02,000 --> 00:23:04,000
+That what happened to blogs is probably
+
+517
+00:23:04,000 --> 00:23:06,000
+What's going to happen with podcasting as well
+
+518
+00:23:06,000 --> 00:23:08,000
+Or is podcasting in your view different
+
+519
+00:23:08,000 --> 00:23:10,000
+Ask one question
+
+520
+00:23:10,000 --> 00:23:12,000
+I think they are close enough to be treated the same
+
+521
+00:23:12,000 --> 00:23:14,000
+Yeah, I think at the end of the day
+
+522
+00:23:14,000 --> 00:23:16,000
+There are going to be
+
+523
+00:23:16,000 --> 00:23:18,000
+Just as Matt Drudge showed up
+
+524
+00:23:18,000 --> 00:23:20,000
+There are going to be some people
+
+525
+00:23:20,000 --> 00:23:22,000
+Who are going to create
+
+526
+00:23:22,000 --> 00:23:24,000
+I don't think I can handle any more of this
+
+527
+00:23:24,000 --> 00:23:26,000
+But it is so good
+
+528
+00:23:26,000 --> 00:23:28,000
+There is so much more that follows this
+
+529
+00:23:28,000 --> 00:23:30,000
+You have to listen to this
+
+530
+00:23:30,000 --> 00:23:32,000
+You really have to listen to this interview
+
+531
+00:23:32,000 --> 00:23:34,000
+And
+
+532
+00:23:34,000 --> 00:23:36,000
+It's one total viewpoint
+
+533
+00:23:36,000 --> 00:23:38,000
+But I'm just amazed
+
+534
+00:23:38,000 --> 00:23:40,000
+I was kind of amazed by this whole conversation
+
+535
+00:23:40,000 --> 00:23:42,000
+That Rob Greenley didn't really jump in
+
+536
+00:23:42,000 --> 00:23:44,000
+And defend any of this
+
+537
+00:23:44,000 --> 00:23:46,000
+Or go against the grain
+
+538
+00:23:46,000 --> 00:23:48,000
+It was just phenomenal to me
+
+539
+00:23:48,000 --> 00:23:50,000
+Anyway, let's
+
+540
+00:23:50,000 --> 00:23:52,000
+Roll out some pod safe music that really kicks ass
+
+541
+00:23:52,000 --> 00:23:54,000
+Okay, crowd surfing
+
+542
+00:23:54,000 --> 00:23:56,000
+Is permitted by the way
+
+543
+00:23:58,000 --> 00:24:00,000
+Transfer Romanics
+
+544
+00:24:00,000 --> 00:24:02,000
+How hazardous we are
+
+545
+00:24:03,750 --> 00:26:41,250
+[ Music ]
+
+546
+00:26:42,000 --> 00:26:44,000
+You are
+
+547
+00:27:08,000 --> 00:27:10,000
+I would like to say that
+
+548
+00:27:10,000 --> 00:27:12,000
+I've been working on my podcast
+
+549
+00:27:12,000 --> 00:27:14,000
+I'm going to Skype with him
+
+550
+00:27:14,000 --> 00:27:16,000
+During the daily source code
+
+551
+00:27:16,000 --> 00:27:18,000
+Some really exciting stuff to talk about
+
+552
+00:27:20,000 --> 00:27:22,000
+Finally time for some damn announcements
+
+553
+00:27:24,000 --> 00:27:26,000
+The launch of the Podsafe Music Network
+
+554
+00:27:26,000 --> 00:27:28,000
+Which brings podcasters
+
+555
+00:27:32,000 --> 00:27:34,000
+And podsafe artists together
+
+556
+00:27:34,000 --> 00:27:36,000
+And the listener of course benefits
+
+557
+00:27:36,000 --> 00:27:40,960
+names you know have worked on this. We've really been, yeah, been working very hard. I mean,
+
+558
+00:27:40,960 --> 00:27:49,440
+I haven't been working hard. And I'm just sitting here melting. But CC and Chris and Sue and well,
+
+559
+00:27:49,440 --> 00:27:54,960
+you're going to hear about a lot of these people tomorrow as we roll out. And it's obviously we're
+
+560
+00:27:54,960 --> 00:28:00,320
+doing this in beta so that we can work out all the bugs and the kinks. But I think you'll
+
+561
+00:28:00,320 --> 00:28:07,360
+like it. It's finally, it's you know, we're closing the gap on creating our own music industry
+
+562
+00:28:08,080 --> 00:28:13,360
+with podcasting as a big part of it. So tune in tomorrow. That'll be the Friday's edition of the
+
+563
+00:28:13,360 --> 00:28:19,760
+Daily Source Code. And I'm going to rev the Conner up to full speed and lay down a bit.
+
+564
+00:28:22,480 --> 00:28:25,680
+You know, now I'm tired. I feel like I've earned my keep for today.
+
+565
+00:28:26,400 --> 00:28:32,560
+Okay, DailySourceCode.com is where you can find the podcast feed. It's where you can find
+
+566
+00:28:32,560 --> 00:28:36,720
+new episode and the archives, all that moving over to new servers. I don't know if it's
+
+567
+00:28:36,720 --> 00:28:40,000
+going to happen over the weekend or beginning of next week, but it is happening.
+
+568
+00:28:43,360 --> 00:28:49,040
+And then we're going to fixcurry.com, which will also be moving over to a new server. And
+
+569
+00:28:49,040 --> 00:28:57,040
+then finally we'll be able to really get to work on iPodder.org. And we've got a big plan drawn up
+
+570
+00:28:57,040 --> 00:29:01,920
+for that, which of course I'll be talking about here on the source code. But first order of
+
+571
+00:29:01,920 --> 00:29:06,320
+business is to make it, you know, really be able to handle the loads. It is getting hit an awful
+
+572
+00:29:06,320 --> 00:29:12,320
+lot. And then hopefully we can get some new tools. Maybe Dave Weiner's OPML tool will be
+
+573
+00:29:12,320 --> 00:29:16,320
+ready by then we get them into the hands of the node managers and we'll be kicking ass.
+
+574
+00:29:21,520 --> 00:29:26,640
+If you want to send me a voice comment, feel free to do so, adamantcurry.com.
+
+575
+00:29:27,920 --> 00:29:36,480
+One more plea to the Google guys. Where's my Gmail infinity plus one? I'm now at 99% of
+
+576
+00:29:36,480 --> 00:29:41,120
+my two gigs. Please. I don't want to have to delete stuff. I don't want to set up forwards
+
+577
+00:29:41,120 --> 00:29:44,480
+other accounts. Please. Please. Please. I beg of you.
+
+578
+00:29:46,640 --> 00:29:52,160
+All right. Your promos are welcome. Submitted podshow.com, podsafe at podshow.com.
+
+579
+00:29:54,800 --> 00:30:00,400
+For all of your pod save music and mashup at podshow.com for the mashups. I'll talk to you
+
+580
+00:30:00,400 --> 00:30:02,400
+tomorrow, y'all. Bye bye.
