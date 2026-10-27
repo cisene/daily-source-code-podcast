@@ -58,12 +58,14 @@ podcast:
   license: null
   guid: e62f4669-51f0-3761-8afd-f1256fb4c0f0
   location:
-    geo: null
-    osm: null
-    name: null
+    rel: creator
+    geo: geo:40.756502,-73.973362
+    osm: W85393997
+    country: US
+    name: Waldorf Astoria, New York, US
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host

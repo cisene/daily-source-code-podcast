@@ -36,12 +36,14 @@ podcast:
   license: null
   guid: 3a8ec1e9-7c96-3753-9537-4e361d3d41cd
   location:
-    geo: null
-    osm: null
-    name: null
+    rel: creator
+    geo: geo:37.7749,-122.4194
+    osm: R111968
+    country: US
+    name: Curry Condo, San Francisco, US
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host

@@ -25,11 +25,11 @@
 |  488 | Not matched |
 |  558 | Not matched |
 |  621 | Not matched |
-|  687 | Not matched |
-|  688 | Not matched |
+|  687 | Skipped number, no episode (removed 2026-10-27) |
+|  688 | Skipped number, no episode (removed 2026-10-27) |
 |  749 | Not matched |
 |  755 | Not matched |
 |  821 | Not matched |
-|  856 | Not matched |
-|  859 | Not matched |
+|  856 | Skipped number, no episode (removed 2026-10-27) |
+|  859 | Skipped number, no episode (removed 2026-10-27) |
 

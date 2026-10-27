@@ -42,12 +42,14 @@ podcast:
   license: null
   guid: fb84eb23-1d2e-3445-b8a7-3050f4d85ee8
   location:
-    geo: null
-    osm: null
-    name: null
+    rel: creator
+    geo: geo:45.52345,-122.67621
+    osm: R186579
+    country: US
+    name: Portland, US
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host

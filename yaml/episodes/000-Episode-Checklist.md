@@ -693,8 +693,8 @@
 |     684 | 2007-11-12 06:37:28-08:00 | DSC-684-2007-11-12                                      |
 |     685 | 2007-11-15 01:54:36-08:00 | DSC-685-2007-11-15                                      |
 |     686 | 2007-11-16 05:35:30-08:00 | DSC-686-2007-11-16                                      |
-|     687 | -                         | Daily Source Code                                       |
-|     688 | -                         | Daily Source Code                                       |
+|     687 | -                         | (skipped number, no episode)                            |
+|     688 | -                         | (skipped number, no episode)                            |
 |     689 | 2007-11-19 06:28:18-08:00 | DSC-689-2007-11-19                                      |
 |     690 | 2007-11-20 04:09:04-08:00 | DSC-690-2007-11-20                                      |
 |     691 | 2007-11-23 05:57:18-08:00 | DSC-691-2007-11-23                                      |
@@ -862,10 +862,10 @@
 |     853 | 2010-11-26                | Daily Source Code                                       |
 |     854 | 2010-12-04                | Daily Source Code                                       |
 |     855 | 2010-12-17                | Daily Source Code                                       |
-|     856 | -                         | Daily Source Code                                       |
+|     856 | -                         | (skipped number, no episode)                            |
 |     857 | 2011-01-06                | Daily Source Code                                       |
 |     858 | 2011-01-17                | Daily Source Code                                       |
-|     859 | -                         | Daily Source Code                                       |
+|     859 | -                         | (skipped number, no episode)                            |
 |     860 | 2011-02-05                | Daily Source Code                                       |
 |     861 | 2011-04-01                | Daily Source Code                                       |
 |     862 | 3011-04-16                | Daily Source Code                                       |

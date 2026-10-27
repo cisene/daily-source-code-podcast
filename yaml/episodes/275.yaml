@@ -32,12 +32,14 @@ podcast:
   license: null
   guid: 1bb44a0e-a2b5-39ee-ae88-c063a7b51dc7
   location:
-    geo: null
-    osm: null
-    name: null
+    rel: creator
+    geo: geo:50.85045,4.34878
+    osm: R58274
+    country: BE
+    name: Brussels, BE
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host

@@ -76,12 +76,14 @@ podcast:
   license: null
   guid: 8c60e6f6-29c0-3b44-b02f-97397eecba97
   location:
-    geo: null
-    osm: null
-    name: null
+    rel: creator
+    geo: geo:40.71427,-74.00597
+    osm: R175905
+    country: US
+    name: W Hotel New York, New York, US
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host

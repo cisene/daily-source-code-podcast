@@ -34,12 +34,14 @@ podcast:
   license: null
   guid: 31ace0d8-6706-3124-9a3e-3b5f44577534
   location:
-    geo: null
-    osm: null
-    name: null
+    rel: creator
+    geo: geo:60.16952,24.93545
+    osm: R34914
+    country: FI
+    name: Helsinki, FI
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host

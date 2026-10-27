@@ -34,10 +34,17 @@ podcast:
   license: null
   guid: 0cf44962-76e7-3e8a-823d-998e5ec1fc30
   location:
-    geo: 51.3895,-0.0766
-    osm: null
-    name: Curry Manor, South London, UK
-  person: []
+    rel: creator
+    geo: geo:51.23536,-0.57427
+    osm: N1688821544
+    country: GB
+    name: Curry Manor, Guildford, UK
+  person:
+  - person: Adam Curry
+    href: https://en.wikipedia.org/wiki/Adam_Curry
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    group: cast
+    role: host
   images:
     images:
     - '#daily-source-code-episode-pc20-images-581'

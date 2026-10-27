@@ -90,10 +90,17 @@ podcast:
   license: null
   guid: 7f927d10-9dc0-34b9-93c6-1bad3f4061ec
   location:
-    geo: null
-    osm: null
-    name: null
-  person: []
+    rel: creator
+    geo: geo:37.7749,-122.4194
+    osm: R111968
+    country: US
+    name: Curry Condo, San Francisco, US
+  person:
+  - person: Adam Curry
+    href: https://en.wikipedia.org/wiki/Adam_Curry
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    group: cast
+    role: host
   images:
     images:
     - '#daily-source-code-episode-pc20-images-423'

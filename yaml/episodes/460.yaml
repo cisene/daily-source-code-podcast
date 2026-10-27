@@ -82,12 +82,14 @@ podcast:
   license: null
   guid: c2f75a0e-7707-3652-b34a-2131deccd3de
   location:
-    geo: null
-    osm: null
-    name: null
+    rel: creator
+    geo: geo:51.50735,-0.16571
+    osm: W372975520
+    country: GB
+    name: Hyde Park, London, UK
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host

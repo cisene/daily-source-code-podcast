@@ -70,10 +70,17 @@ podcast:
   license: null
   guid: dd98ac5d-8636-36d5-86a9-cad2c53a01bb
   location:
-    geo: null
-    osm: null
-    name: null
-  person: []
+    rel: creator
+    geo: geo:40.798073,-73.946251
+    osm: W1071929277
+    country: US
+    name: Madison Avenue, New York, US
+  person:
+  - person: Adam Curry
+    href: https://en.wikipedia.org/wiki/Adam_Curry
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    group: cast
+    role: host
   images:
     images:
     - '#daily-source-code-episode-pc20-images-699'

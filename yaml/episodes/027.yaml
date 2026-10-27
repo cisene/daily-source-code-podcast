@@ -32,12 +32,14 @@ podcast:
   license: null
   guid: dcf6824f-ea0b-336b-9a78-6522e996f505
   location:
-    geo: 51.3480,4.7176
-    osm: null
-    name: Curry Castle, Rijkevoorsel, BE
+    rel: creator
+    geo: geo:50.75,4.5
+    osm: R52411
+    country: BE
+    name: Belgium
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host

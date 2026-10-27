@@ -88,12 +88,14 @@ podcast:
   license: null
   guid: e7e81a0b-358a-3ce2-b23f-d4ce2d1a9b94
   location:
-    geo: null
-    osm: null
-    name: null
+    rel: creator
+    geo: geo:51.239562,-0.545813
+    osm: N1688821544
+    country: GB
+    name: Curry Cottage, Guildford, UK
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host

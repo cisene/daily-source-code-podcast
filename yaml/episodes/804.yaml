@@ -38,12 +38,14 @@ podcast:
   license: null
   guid: 07c45f7f-7bf2-37c6-9b68-e14f4e643b65
   location:
-    geo: null
-    osm: null
-    name: null
+    rel: creator
+    geo: geo:40.71427,-74.00597
+    osm: R175905
+    country: US
+    name: New York City, US
   person:
   - person: Adam Curry
-    href: http://curry.com/
+    href: https://en.wikipedia.org/wiki/Adam_Curry
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
     group: cast
     role: host
