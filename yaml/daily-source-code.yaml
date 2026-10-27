@@ -1,6 +1,10 @@
 ---
 feed:
   filename: daily-source-code.rss
+  # Host of the renovated feed and its images, filled in for __BASE_URL__.
+  # Not decided yet: dailysourcecode.com is not ours; hoping for dsc.curry.com
+  # or similar (Adam).
+  base_url: https://dsc.curry.com
   xml:
     version: 2
     namespaces:
@@ -25,7 +29,7 @@ rss:
       attributes:
         rel: self
         type: application/rss+xml
-        href: https://dailysourcecode.com/rss
+        href: __BASE_URL__/rss
         title: Adam Curry's Daily Source Code Podcast
 
     - tag: title
@@ -90,10 +94,10 @@ rss:
       tags:
       
       - tag: url
-        text: https://dailysourcecode.com/feed.png
+        text: __BASE_URL__/img/channel/dsc-logo-144.png
     
       - tag: link
-        text: http://dailysourcecode.com/
+        text: __BASE_URL__/
 
       - tag: title
         text: Adam Curry's Daily Source Code Podcast
@@ -115,7 +119,7 @@ rss:
 
     - tag: new-feed-url
       namespace: itunes
-      text: https://dailysourcecode.com/rss
+      text: __BASE_URL__/rss
 
     - tag: block
       namespace: itunes
@@ -211,7 +215,7 @@ rss:
     - tag: image
       namespace: itunes
       attributes:
-        href: https://dailysourcecode.com/feed.png
+        href: __BASE_URL__/img/itunes/dsc-logo-3000.png
 
     - tag: guid
       namespace: podcast
@@ -243,13 +247,50 @@ rss:
       namespace: podcast
       text: 
 
-    - tag: images
+    # podcast:image, one per purpose (podcast:images is deprecated)
+    - tag: image
       namespace: podcast
-      tags:
+      attributes:
+        href: __BASE_URL__/img/itunes/dsc-logo-3000.png
+        alt: "Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show's first logo, 2004, reconstructed)"
+        aspect-ratio: 1/1
+        width: 3000
+        height: 3000
+        type: image/png
+        purpose: artwork
 
-      - tag: srcset
-        namespace: podcast
-        text: https://dailysourcecode.com/feed.png
+    - tag: image
+      namespace: podcast
+      attributes:
+        href: __BASE_URL__/img/podcast/dsc-logo-circle-3000.png
+        alt: "Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show's first logo, 2004, reconstructed)"
+        aspect-ratio: 1/1
+        width: 3000
+        height: 3000
+        type: image/png
+        purpose: circular
+
+    - tag: image
+      namespace: podcast
+      attributes:
+        href: __BASE_URL__/img/podcast/dsc-logo-16x9-1920.png
+        alt: "Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show's first logo, 2004, reconstructed)"
+        aspect-ratio: 16/9
+        width: 1920
+        height: 1080
+        type: image/png
+        purpose: social banner
+
+    - tag: image
+      namespace: podcast
+      attributes:
+        href: __BASE_URL__/img/podcast/dsc-logo-9x16-1080.png
+        alt: "Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show's first logo, 2004, reconstructed)"
+        aspect-ratio: 9/16
+        width: 1080
+        height: 1920
+        type: image/png
+        purpose: canvas
 
     - tag: block
       namespace: podcast
@@ -308,7 +349,7 @@ rss:
     - tag: subscribe
       namespace: rawvoice
       attributes:
-        feed:         https://dailysourcecode.com/rss
+        feed:         __BASE_URL__/rss
         amazon_music: null
         anghami:      null
         blubrry:      null

@@ -8,6 +8,13 @@ Status: `[ ]` open, `[x]` resolved.
 
 ## Numbering
 
+- [x] **Renumbering applied 2026-10-26**: `001`-`179` as proven below, `180`-`199` moved up 10, and the fixes above #200 (`222`/`225`, `362`/`363`, `749`/`750`, `755`/`756`). 33 new episodes built from archive audio and the original posts (6 missing shows, the 18 s test clip, the 8 other audio posts in the feed, and `222` `362` `488` `558` `621` `750` `756` `821`). 863 of 867 episodes now have audio; the other 4 are the skipped numbers. Old → new table: [`000-Renumbering-2026-10-26.md`](000-Renumbering-2026-10-26.md). **Episode numbers in the items below are the old numbers** unless they say otherwise.
+- [ ] **Two shows tagged #813**: `2008/DSC-2008-12-28.mp3` ("#813 … Sunday December 28th 2008", not in any episode) and `2008/DSC-2008-12-31.mp3` ("#813 DSC Year End Special", episode `813`; the lookup calls it `813.5`). Decide how to number the 12-28 show.
+- [ ] No transcript yet for 10 of the new episodes: `032` `051` `052` `137` `142` `168` `172` `179` `621` (video) `821`.
+- [ ] `032` (Trade Secrets 2004-09-22): the recovered copy is partial, 8.2 of the published 60.1 MB, decodes to 10:55.
+- [ ] `750` / `756`: the archive files are misnamed (`DSC-2008-04-25.mp3` is DSC-750 of 2008-04-23, its tag title copies #749's; `DSC-2008-05-07-1.mp3` is DSC-756 of 2008-05-09). Episode titles and dates follow the feed items.
+- [x] `update-episodes-from-audio.py`: an exact enclosure length no longer takes a file another episode holds. The 2004-09-20 item was published with 2004-09-19's length (29880248), which would have moved `030` onto the 09-19 file.
+
 - [ ] **Adam renumbered on 2005-05-20.** Before that no episode carries a number. 2005-05-18 is announced as "show number 250" (*"I haven't counted. Let's say this is show number 250"*), 2005-05-20 as *"officially show number 180 … as calculated by the people who track … I have lost count so long ago"*. From #180 the stated numbers (RSS titles, transcripts) run unbroken to #866 (2012-08-29).
 - [ ] Episodes `170`-`189` (mp3 2005-05-20 .. 2005-06-24) are officially #180-#199, our numbering is 10 low in that range. From `200` (2005-06-25, Gnomedex 5.0 keynote, *"It's actually number 200"*) numbering agrees with the official numbers.
 - [ ] Episodes `190`-`199` are old format stubs without mp3, dated 2005-06-25 .. 2005-07-15, overlapping 200-209. They look like filler bridging the jump. `196` holds the shownotes of 2005-06-17 (official #196, our `186`).
@@ -22,6 +29,7 @@ Status: `[ ]` open, `[x]` resolved.
 - [x] Stated numbers in post titles agree with the episode yaml for every numbered post found (#316-#398 in 2006, #563 and #564 in 2007), except the known `170`-`189` = #180-#199 and `362` above.
 - [ ] `yaml/episode-lookup.yaml` drifts from the mp3 dates from 2004-08-23 on, up to ~2 months in 2005 (e.g. `110` = 2005-02-14, mp3 is 2005-02-01; `180` = 2005-06-25). It numbered the extracted fragments in `rss/episodes/`, so 85 fragments sit under the wrong episode number.
 - [x] `010`-`013`: the fragments were right, the audio files were one show early. The enclosure lengths match the archive byte for byte (`DSC-2004-08-23.mp3` .. `DSC-2004-08-26.mp3`) and the corrected durations agree with Adam's notes ("15 minutes" 00:15:37, "17 minutes" 00:17:35, "24 minutes" 00:24:39). Fixed by `update-episodes-from-audio.py`, which now prefers an exact enclosure length match over `fileinfo.filename`. From `014` on, enclosure and file agree.
+- [x] `687`, `688`, `856`, `859` are skipped numbers, not lost shows: the original feeds go #686 (2007-11-16) → #689 (2007-11-19), and `rss/dailysourcecode-2011-02-04.xml` / `-2012-04-05.xml` list DSC-855 (2010-12-17), 857 (2011-01-06), 858 (2011-01-17), 860 (2011-02-05); the archive mp3 tags agree and has no file between. Decide whether the stubs stay as numbered gaps or go.
 - [ ] `yaml/episode-lookup.yaml` has an episode `813.5` (2008-12-31).
 - [ ] mp3 `track` tags are not episode numbers before mid 2005 (day of month) and unreliable after, not used.
 - [ ] Transcripts also carry spoken numbers in the jingle, e.g. "Delta Sierra Charlie 384" (2006-05-10), not harvested yet. Useful for the renumbering.
@@ -76,13 +84,10 @@ Not fixed, check by hand:
 
 ### Archive files not used by any episode
 
-Regular show dates, most likely missing or misnumbered episodes:
+Regular show dates (updated after the renumbering of 2026-10-26):
 
-- [ ] 2004-08-26, 2004-09-02, 2004-11-02, 2004-11-04, 2004-11-09, 2004-11-10, 2004-11-17
-- [ ] 2005-03-02, 2005-03-03, 2005-04-21, 2005-05-06, 2005-08-13, 2005-10-06
-- [ ] 2006-03-29, 2006-05-06, 2006-03-20/21/22/25 (`.m4v`, video versions?)
-- [ ] 2007-03-07, 2007-06-19 (`.mp4`)
-- [ ] 2008-04-25, 2008-12-28
+- [x] Now linked: 2004-08-26, 2004-09-02, 2004-11-02, 2004-11-04, 2004-11-09, 2004-11-10, 2004-11-17, 2005-03-02, 2005-03-03, 2005-04-21, 2005-05-06, 2005-08-13, 2005-10-06, 2006-03-29, 2006-10-31-1, 2007-03-07, 2007-06-19 (`.mp4`, #621 VIDEO), 2008-04-25 (#750), 2008-05-07-1 (#756), `821 It's Getting Hot In Here.mp3`, the 2005 PPP, Podshow20, RVZR-2005-06-08 and PSS-2005-05-19-2 files.
+- [ ] Still unused: `2006/DSC-2006-05-06.mp3` ("DSC_Rewind_Week_Of_5-5-06", a weekly rewind), `2006/DSC-2006-03-20/21/22/25.m4v` (video versions?), `2008/DSC-2008-12-28.mp3` (the second #813, see Numbering).
 
 Specials and extra parts, decide whether they belong in the feed:
 
@@ -98,18 +103,38 @@ Other shows found in the archive and feed: DevCast 1-6 (2006), PPP-2005-03-13, P
 
 
 
+## Release: render for Adam (hosting, DNS)
+
+Goal: render the feed with real-world values, hand it to Adam with what the
+hosting needs, so he can put the show back online (e.g. dsc.curry.com). Not
+rendered yet (sifting first). Open before rendering:
+
+- [ ] 2026-10-26: Adam has been messaged about the progress and the hosting; waiting for his answer.
+- [ ] Host: `feed: base_url` in `yaml/daily-source-code.yaml` (tentatively `https://dsc.curry.com`).
+- [ ] Audio: 863 of 867 episodes have audio (archive, or a recovered copy in `mp3/` for `032` `051` `052` `208` `251`); the 4 others are skipped numbers. The enclosures still point at the dead original hosts (`m.podshow.com`, `mp3.dailysourcecode.podshow.com`, `m-uk.podshow.com`, `homepage.mac.com`, ...). Make release copies with all embedded images stripped (never touching the archive), served as `__BASE_URL__/mp3/...`, with `length` from the copies. The archive is 899 mp3s, 32 GB.
+- [ ] Transcripts: 869 `srt/`, 16 `vtt/`; per-episode `podcast:transcript` url is a placeholder (`#daily-source-code-episode-pc20-transcript-NNN`, 822 episodes) to become `__BASE_URL__/srt/...` (`application/x-subrip`).
+- [ ] Chapters: `chapters/` is empty; the 823 placeholders (`#daily-source-code-episode-pc20-chapters-NNN`) must be filled or the tag left out.
+- [ ] Episode `itunes:image`: 824 placeholders (`#daily-source-code-episde-itunes-image-href-NNN`); leave out (channel art applies) unless an episode has its own art.
+- [ ] Channel values to settle with Adam: `itunes:block` is True (hides the show from Apple), `podcast:block` per platform, `itunes:new-feed-url`, `podcast:locked` owner, `podcast:license` (empty; copyright says CC BY-NC-SA 3.0 US), `rawvoice:location` (Austin, Texas).
+- [ ] `podcast:guid` `dfbbeceb-...` is not the UUIDv5 of `dailysourcecode.com/rss` (nor of `dsc.curry.com/rss`); fix it once the feed URL is final, and never change it after publishing.
+- [ ] For Adam: storage about 32 GB plus transcripts and images; HTTPS; byte-range requests for the mp3s; correct MIME types (`audio/mpeg`, `application/x-subrip`, `image/png`); a DNS name (CNAME) for the host.
+
 ## Channel art (`img/channel/`)
 
 - [ ] For the renovated feed the channel image must be 1400-3000 px square; the show's own images were 170-300 px. Overview, credits and status in [`img/channel/README.md`](../../img/channel/README.md).
+  - [x] Choice: a stylised logo, not a photo. The first logo (`img/channel/dsc-logo.svg`, 3000 px PNG) is the channel image (decided 2026-10-26, a callback to the first episodes), Marchel's logo the alternative.
+  - [x] Rendered for all feed uses: 3000/1400/144 px square, circle-safe, 16:9 and 9:16 (table in the README): SVG sources in `img/channel/`, iTunes renders in `img/itunes/`, podcast namespace renders in `img/podcast/`; `art-logo-2004.py` takes ASPECT and SCALE.
+  - [ ] Hosting not decided: dailysourcecode.com is not ours (hoping for dsc.curry.com or similar, ask Adam). All feed URLs in `yaml/daily-source-code.yaml` use `__BASE_URL__`, filled from `feed: base_url` (tentatively `https://dsc.curry.com`) by `build.py`.
+  - [ ] At render time: `<itunes:image>`, RSS `<image>` and `<podcast:image>` per purpose on the channel, episode art per item; re-released mp3s with all embedded images stripped (copies only, never the archive).
   - [x] The first logo (navy bands; an animated GIF on the blog's image host 2004-09-09, in the tags 2004-11 .. 12) and Marchel's logo (2004-12 .. 2005-10, purple 3D) reconstructed as SVG (`python/art-logo-2004.py`, `python/art-logo-2004-12.py`), with 3000 px PNG renders.
-  - [ ] The Podfather picture (2005-06 .. 2008-03, by Craig Maloney per the show of 2005-06-17) is a photo montage; no larger original in the Wayback Machine (not on Craig's decafbad.net). Ask Adam or Craig.
+  - [ ] The Podfather picture (2005-06 .. 2008-03, by Craig Maloney per the show of 2005-06-17) is a photo montage of a Radio Veronica banner ("Dominee Curry live from Las Vegas", May 2004, 673x278), which Adam linked in the blog post "photoshop opportunity" (2005-06-17). The tag image is already at the banner's resolution; a large version needs Veronica's 2004 press photo (ask Adam; Veronica/SBS 2004 promo, photographer not credited anywhere found: file metadata, Dutch blog 2004-04-20 .. 06-02, web search). A black and white print ad of the same shoot ("Dominee Curry & the Crew", other pose) is on SoundCloud as cover art at 2172x2172, AI-upscaled; saved in `img/channel/found/`. Alternative photo: Adam with a microphone on an iPod (440x440 via geeksandbeats.com, 2014), source unknown.
   - [ ] The PodShow / Mevio show image (2006-07 .. 2013, painted portrait, "Daily Source Code with Adam Curry"): 300x300 at most (`psstatic.podshow.com/.../shows/med/deltasierracharl.png`, saved in `img/channel/found/`). Artist unknown; the lettering could be redrawn, the portrait needs a larger original.
   - [ ] Episode art 2010-2013 by the No Agenda art community (Randy Asher, Raymond Hagedoorn, Silicon Spin, CitizenX): larger originals may exist there; not searched yet.
 
 ## Episode yaml
 
 - [x] `196.yaml` was invalid yaml (line 6, the apostrophe in "Breathe Don't Stop" ended the single-quoted description); the quote is now doubled.
-- [ ] 27 old format stubs without `podcast`/`fileinfo`: `059` `063` `143` `144` `156` `163` `190`-`195` `197`-`199` `225` `363` `488` `558` `621` `687` `688` `749` `755` `821` `856` `859`. Not decorated from audio.
+- [x] 27 old format stubs without `podcast`/`fileinfo` (old numbers `059` `063` `143` `144` `156` `163` `190`-`195` `197`-`199` `225` `363` `488` `558` `621` `687` `688` `749` `755` `821` `856` `859`): resolved by the renumbering of 2026-10-26, except `687` `688` `856` `859` (skipped numbers).
 - [ ] `111` and the other fixed episodes had a subtitle copied from the wrong file, replaced from the right file's tags.
 - [ ] Episode numbers `008`, `009`, `018`, `028` .. are unquoted in some files; rewritten files quote them.
 - [ ] **144 episodes `001`-`170` filled from the original posts** by `python/update-episodes-from-posts.py`, from `json/dsc-posts-2004-2005.json`. That file holds all 186 Daily Source Code category posts up to the #180 post: 138 from saved feeds in `rss/`, 48 from Wayback day pages and category captures. `source` gives the feed file or the Wayback capture URL. Only placeholders were replaced:
@@ -205,7 +230,9 @@ Other shows found in the archive and feed: DevCast 1-6 (2006), PPP-2005-03-13, P
 Recording locations only: where each show was recorded, not the places Adam talks about. Pipeline (scripts in `python/`):
 `locations-extract.py` (spaCy over transcripts, show notes, descriptions) → `locations-geocode.py` (GeoNames dump, offline; the names are only used to recognise places) → `locations-timeline.py` (per show: a hand-set `recorded` period, else the show notes "From …", else the transcript intro "coming to you from …" / "I'm at the …"; "here in the UK" only confirms or breaks a carried location; for a show with no place or only a country, Adam's blog post of the same day or the day before, from `json/blog-posts.json` collected by `blog-posts.py` from the saved feeds and Wayback day pages: "I'm in …", "live from …", "back in …") → `locations-build.py` (Nominatim for venues, Wikidata for OSM ids, OpenTopoData SRTM for altitude; curated entries are kept, generated ones rebuilt). The episode yaml is not touched.
 
-- [x] 854 show dates: 352 located by the show notes, 215 by the transcript, 6 by the blog, 5 by a country or region only (1 of them from the blog), 1 by hand; 240 carried from the show before; 35 confirmed (a country/continent statement that fits, a region within 400 km, or a town within 25 km of the residence or venue carried, e.g. "here in Guildford" at the Curry Manor). Every show date has a location. `locations.yaml`: 59 locations, 51 with WGS-84 coordinates.
+- [x] After the renumbering (2026-10-26, rerun of extract, geocode, timeline and build): 860 show dates: 356 located by the show notes, 213 by the transcript, 6 by the blog, 5 by a country or region only, 1 by hand; 244 carried, 35 confirmed; 168 periods, 60 locations (38 curated, 52 with coordinates, 8 to resolve). New: Cannes (2007-06-19, #621 "From Cannes, French Riviera", the notes now taken raw from the feed item), #750 San Francisco on its real date 2008-04-23 (blog), #756 Curry Manor 2008-05-09 (confirmed); the new episodes without a stated place are carried. 2005-03-29 is gone (the broken upload, not a show). Paris Hill, Street and Tulsa fell below the two-mention threshold (the duplicate yaml are gone); none was a recording location.
+- [x] `locations-timeline.py`: the show date is the date in the audio file name, else the title, else the pubDate (`821`, `051`, `052` have none in the name); `SHOW_DATE_FIXES` maps the misnamed `2008/DSC-2008-04-25.mp3` (#750, 2008-04-23) and `2008/DSC-2008-05-07-1.mp3` (#756, 2008-05-09), transcripts included. `locations-build.py` now waits `PACE` = 12 s between web requests (was 1.5-2 s).
+- [x] Before the renumbering: 854 show dates: 352 located by the show notes, 215 by the transcript, 6 by the blog, 5 by a country or region only (1 of them from the blog), 1 by hand; 240 carried from the show before; 35 confirmed (a country/continent statement that fits, a region within 400 km, or a town within 25 km of the residence or venue carried, e.g. "here in Guildford" at the Curry Manor). Every show date has a location. `locations.yaml`: 59 locations, 51 with WGS-84 coordinates.
 - [x] Transcript patterns besides "coming to you from": "the town of Utrecht", "in Berkeley, California" (a town with its state or country), "on British Airways flight 442" (the "In flight" vehicle: 2004-11-09 and 2005-02-26, both San Francisco to London). Whisper's "Starbox ... Guildford" is the Starbucks on Market Street (2004-12-03), "the career manager" is the Curry Manor (2008-04-29). "Coming to you from San Francisco, last time we spoke ... I was in Curry Cottage" (2005-07-22): the phrase is cut at back-references ("last time", "when I was", "yesterday").
 - [x] 2006 show notes start with the template line "From Curry Cottage, Guildford, UK" even when the show was elsewhere; a later "live from ..." in the notes wins: 2006-10-03 "we are live from Roundhouse in London!" (Digital Music Awards; Roundhouse added as a venue). Not 2006-10-02, where only the blog says "Live From London. We're still building our set" (the notes win over the blog), nor 10-04 ("the day after our Live From London extravaganza").
 - [ ] Blog posts (`json/blog-posts.json`, 2241 posts): from the saved feeds, plus Wayback day pages for the shows without a stated place and the day before (radio.weblogs.com 2001-11 .. 2008, www.curry.com 2004-12 .. 2006-02, curry.podshow.com `?p=N` posts dated by interpolation from 46 known ids). Status 2026-10-26: all 506 pages fetched (paced, 10-15 s apart; 2649 posts): radio.weblogs and curry.com day pages (Manila day pages mark posts like Radio), 251 podshow posts (WordPress: date from "Posted on", comments left out). Some 2008 radio.weblogs captures are labelled gzip but are plain HTML; several 2008 day pages are truncated captures (3 KB, no post text). A post counts for the show of its day or the day after; for a show that would otherwise be carried, up to 2 days after. Used: "First day back in Belgium" (2004-08-13), "I'm in SF, arrived safely yesterday afternoon" (2006-02-20, podshow ?p=8), "I'm in San Francisco again for a few days" (2008-01-24, ?p=942), "Live from the Curry Condo" (2008-02-22), "I'm back in San Francisco, and have a show to be done this evening" (2008-04-23, ?p=1067; the show is 04-25). Rejected: "Live from the infield at the Kentucky Derby" (a clip in the show), "the power comes back in South Park" (the office), "Father Vonhögen is a priest from the Netherlands" (a guest).
