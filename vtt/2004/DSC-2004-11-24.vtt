@@ -1,0 +1,2426 @@
+WEBVTT
+
+00:00.000 --> 00:04.000
+Koji is folks wide. It's so
+time.
+
+00:04.000 --> 00:06.000
+That is curry.
+
+00:06.000 --> 00:08.000
+The power of the door.
+
+00:10.000 --> 00:12.000
+Yeah.
+
+00:12.000 --> 00:14.000
+How did everybody welcome to the
+Daily Source code?
+
+00:14.000 --> 00:16.000
+It's Wednesday.
+
+00:16.000 --> 00:18.000
+November 24th, 2004.
+
+00:18.000 --> 00:20.000
+Coming to you from Curry Cottage
+in the United Kingdom.
+
+00:20.000 --> 00:22.000
+This is the Daily Source code.
+
+00:22.000 --> 00:24.000
+It's hard to say that.
+
+00:24.000 --> 00:26.000
+Good morning. Good evening. Good
+afternoon.
+
+00:26.000 --> 00:28.000
+Good evening.
+
+00:30.000 --> 00:32.000
+I've got a grit, you know.
+
+00:32.000 --> 00:34.000
+Someone called me the It's all
+going to podcast me out of the
+day.
+
+00:34.000 --> 00:36.000
+So I guess it's fair for me to
+say.
+
+00:36.000 --> 00:38.000
+We've got a really great shoe
+for everybody.
+
+00:38.000 --> 00:40.000
+It's all going to ever say it
+ever.
+
+00:40.000 --> 00:42.000
+I wonder if it's the ever.
+
+00:42.000 --> 00:44.000
+Oh man.
+
+00:44.000 --> 00:46.000
+Still no bandwidth to speak of.
+
+00:46.000 --> 00:50.000
+Looks like that's going to be
+another seven days from this
+moment on.
+
+00:50.000 --> 00:54.000
+Although my phone line now has
+officially been verified.
+
+00:54.000 --> 00:56.000
+So we're no longer on the
+professional thing.
+
+00:56.000 --> 00:58.000
+We're official, which means.
+
+00:58.000 --> 01:02.000
+Eventually we're going to get
+build for having a
+
+01:02.000 --> 01:04.000
+A diet of connection open for 23
+hours of the day.
+
+01:04.000 --> 01:06.000
+Now we're on the door.
+
+01:08.000 --> 01:10.000
+We've got a couple of things
+lined up for you today,
+
+01:10.000 --> 01:12.000
+which I think are kind of cool.
+
+01:12.000 --> 01:16.000
+We've got some non-RIA music for
+you.
+
+01:16.000 --> 01:20.000
+Which actually comes from the
+cottage itself.
+
+01:20.000 --> 01:22.000
+So talk about that later on.
+
+01:22.000 --> 01:24.000
+Got a couple of comments.
+
+01:24.000 --> 01:26.000
+Come on, the net.
+
+01:26.000 --> 01:30.000
+Oh, and tonight.
+
+01:30.000 --> 01:32.000
+At least it's tonight here.
+
+01:32.000 --> 01:34.000
+It's 1026 p.m.
+
+01:34.000 --> 01:36.000
+We're going to get Patricia in
+here to talk about.
+
+01:36.000 --> 01:38.000
+Well, another one of Patricia's
+hippie stories.
+
+01:38.000 --> 01:40.000
+Actually, I don't think it's a
+hippie story.
+
+01:40.000 --> 01:42.000
+Actually, we were even married.
+
+01:42.000 --> 01:48.000
+I think when this particular
+instance occurred.
+
+01:48.000 --> 01:52.000
+Which should be talking about on
+today's source code.
+
+01:52.000 --> 01:54.000
+Something that I've teased
+before.
+
+01:54.000 --> 01:58.000
+It is a her story about Stevie
+Nix.
+
+02:00.000 --> 02:02.000
+So, I'm going to break the rules
+for just a second here,
+
+02:02.000 --> 02:04.000
+while we get into the mood.
+
+02:04.000 --> 02:06.000
+A lot of little bit of feet
+would make.
+
+02:06.000 --> 02:08.000
+Did you learn so bad?
+
+02:08.750 --> 05:36.250
+[ Music ]
+
+05:39.720 --> 05:41.680
+I thought there's going to be
+the full version.
+
+05:41.680 --> 05:46.480
+It's like the single version,
+three minutes, forty-six
+seconds.
+
+05:46.480 --> 05:47.480
+Damn.
+
+05:47.480 --> 05:48.480
+Did you love so bad?
+
+05:48.480 --> 05:54.040
+Fleetwood Mac on your daily
+source code for Wednesday,
+November 24th, 2004.
+
+05:54.040 --> 05:57.520
+Oh man, so much stuff happening
+today.
+
+05:57.520 --> 06:01.280
+There were some actually a
+friend of ours, was in the
+neighborhood you called up
+
+06:01.280 --> 06:02.280
+today.
+
+06:02.280 --> 06:08.440
+I'm visiting someone else in the
+neighborhood, had some tea with
+them, Patricia and I went
+
+06:08.440 --> 06:09.440
+out.
+
+06:09.440 --> 06:10.440
+Oh man.
+
+06:10.440 --> 06:11.440
+What do we do?
+
+06:11.440 --> 06:24.000
+We got all kinds of trash, waste
+baskets, dog food bowls, we had
+some grocery shopping
+
+06:24.000 --> 06:30.600
+and I'm still totally tripping
+from the flueberg, although it's
+much better, I had a sweaty
+
+06:30.600 --> 06:38.880
+ass night, literally a sweaty
+ass night, not good and Patricia
+just put a clean sheets on
+
+06:38.880 --> 06:39.880
+the bed too.
+
+06:39.880 --> 06:46.000
+Okay, so let me get Patricia,
+I'm going to turn on the roving
+mic here, I'll know
+
+06:46.000 --> 06:47.000
+what to say.
+
+06:47.000 --> 06:48.000
+On?
+
+06:48.000 --> 06:53.600
+It's a big advantage of smaller
+dwellings, there's even here
+each other when you call
+
+06:53.600 --> 06:54.600
+on.
+
+06:54.600 --> 06:55.600
+Huh?
+
+06:55.600 --> 06:59.040
+Are you there?
+
+06:59.040 --> 07:00.440
+Showtime baby.
+
+07:00.440 --> 07:03.240
+Come on, we're on the air.
+
+07:03.240 --> 07:06.800
+Yeah, come on up.
+
+07:06.800 --> 07:12.320
+I have a mic just for you, it's
+like really professional.
+
+07:12.320 --> 07:20.160
+We should take a picture of this
+right now, that's horrible.
+
+07:20.160 --> 07:26.440
+Yes, of course, he is sitting
+chair, this is like the guest
+chair, so it's like the
+
+07:26.440 --> 07:27.440
+tonight's show.
+
+07:27.440 --> 07:29.920
+Can I just put the microphone on
+you?
+
+07:29.920 --> 07:30.920
+Yep.
+
+07:30.920 --> 07:32.920
+Who do I say tonight?
+
+07:33.000 --> 07:33.920
+Show.
+
+07:33.920 --> 07:38.920
+Let's make sure I can hear you.
+
+07:38.920 --> 07:39.920
+Hello?
+
+07:39.920 --> 07:40.920
+Hello.
+
+07:40.920 --> 07:43.480
+Okay, let me turn you up just a
+little bit there, let's say.
+
+07:43.480 --> 07:50.320
+Okay, so I actually just played
+the flueberg mic, you do your
+love so bad.
+
+07:50.320 --> 07:58.760
+First of all, what do you think
+about the United Kingdom, but
+living here?
+
+07:58.760 --> 08:09.000
+Well, so far, I think if I
+compare it to Holland, I think a
+lot of Americans think
+
+08:09.000 --> 08:16.000
+that Dutch people are so nice,
+don't you think so and so
+friendly and we always look like
+
+08:16.000 --> 08:17.000
+yeah?
+
+08:17.000 --> 08:19.840
+Well, that's because they're
+confused with Scandinavians.
+
+08:19.840 --> 08:20.840
+I think so.
+
+08:20.840 --> 08:21.840
+Yeah, or German.
+
+08:21.840 --> 08:25.040
+Well, actually, it's the higher
+up you go the nicer they get
+when I think they say.
+
+08:25.040 --> 08:28.280
+Yeah, Swedes are really nice,
+and we're dealing with you
+talking.
+
+08:28.280 --> 08:29.280
+Well, it's Dutch.
+
+08:29.280 --> 08:30.280
+Oh, he said Dutch now.
+
+08:30.280 --> 08:31.280
+No, it's Dutch.
+
+08:31.280 --> 08:32.280
+Oh, Holland days.
+
+08:32.280 --> 08:33.280
+Oh, yeah.
+
+08:33.280 --> 08:34.280
+That's probably confused.
+
+08:34.280 --> 08:37.280
+It's the Holland days sauce from
+Holland?
+
+08:37.280 --> 08:38.280
+Yeah, yeah, yeah.
+
+08:38.280 --> 08:39.280
+Is it?
+
+08:39.280 --> 08:43.280
+But it's so far because we
+haven't been out a lot.
+
+08:43.280 --> 08:44.280
+No, no.
+
+08:44.280 --> 08:45.280
+No, because we're unpacking.
+
+08:45.280 --> 08:46.280
+Yeah, we've been out.
+
+08:46.280 --> 08:53.280
+Between boxes and boxes, we
+dream of boxes and everybody who
+moved knows that it's a pain
+
+08:53.280 --> 08:54.280
+in the air.
+
+08:54.280 --> 08:55.280
+Yeah.
+
+08:55.280 --> 08:56.280
+Well, especially international
+moves.
+
+08:56.280 --> 08:57.280
+It's time you're unaware.
+
+08:57.280 --> 08:59.280
+You don't know which box it is.
+
+08:59.280 --> 09:00.280
+Yeah.
+
+09:00.280 --> 09:04.280
+You can't read the things as on
+it, you know, written by the
+movers.
+
+09:04.280 --> 09:09.280
+See, people just don't
+understand how horrible that is,
+particularly for you.
+
+09:09.280 --> 09:10.280
+Yeah.
+
+09:10.280 --> 09:12.280
+Well, particularly, I think for
+you.
+
+09:12.280 --> 09:16.280
+Yeah, but that's your, you're,
+you're, you're working very,
+very organized.
+
+09:16.280 --> 09:17.280
+Yeah.
+
+09:17.280 --> 09:18.280
+I'm organized.
+
+09:18.280 --> 09:20.280
+I am a perfectionist.
+
+09:20.280 --> 09:22.280
+I have to say.
+
+09:22.280 --> 09:25.280
+And you look lovely in that
+outfit.
+
+09:26.280 --> 09:27.280
+Thank you.
+
+09:27.280 --> 09:36.280
+And so it's so hard to sit
+between all those boxes and,
+and, can't, it's just not, it
+doesn't look good.
+
+09:36.280 --> 09:38.280
+I, on the other hand, feel right
+at home.
+
+09:38.280 --> 09:41.280
+And we have to say, and they
+know that we're coming from a
+castle.
+
+09:41.280 --> 09:42.280
+Yeah.
+
+09:42.280 --> 09:44.280
+And we try to put the castle in
+the house.
+
+09:44.280 --> 09:45.280
+In the house.
+
+09:45.280 --> 09:46.280
+Very difficult.
+
+09:46.280 --> 09:47.280
+That's hard.
+
+09:47.280 --> 09:49.280
+You know, you can do that.
+
+09:49.280 --> 09:50.280
+To say the least.
+
+09:50.280 --> 09:54.280
+So what we're going to do is
+sort of a charity.
+
+09:54.280 --> 09:56.280
+We're going to look it up in the
+yellow pages.
+
+09:56.280 --> 09:57.280
+Yeah.
+
+09:57.280 --> 10:00.280
+And see if we can, you know, we
+have to give things away.
+
+10:00.280 --> 10:01.280
+Yeah.
+
+10:01.280 --> 10:03.280
+Because I was just talking to a
+friend.
+
+10:03.280 --> 10:11.280
+I said, isn't it strange that if
+you go, say, on vacation or you
+go in for a weekend, you take
+one bag.
+
+10:11.280 --> 10:13.280
+You have your, you know, your
+stuff in there.
+
+10:13.280 --> 10:17.280
+Your t-shirts and your jeans
+and, and sort of, and a toilet
+bag.
+
+10:17.280 --> 10:18.280
+And that's it.
+
+10:18.280 --> 10:21.280
+And again, and all those days,
+you never miss anything.
+
+10:22.280 --> 10:24.280
+No, you know, well, maybe some
+clothes, but other stuff.
+
+10:24.280 --> 10:26.280
+No, but she don't miss anything.
+
+10:26.280 --> 10:27.280
+No.
+
+10:27.280 --> 10:30.280
+And look, you know, you're
+schlepping all this stuff with
+you.
+
+10:30.280 --> 10:31.280
+And find nothing.
+
+10:31.280 --> 10:32.280
+Yeah.
+
+10:32.280 --> 10:33.280
+Why?
+
+10:33.280 --> 10:35.280
+You know, we, we are ants.
+
+10:35.280 --> 10:36.280
+Yeah.
+
+10:36.280 --> 10:37.280
+Yep.
+
+10:37.280 --> 10:38.280
+Yeah.
+
+10:38.280 --> 10:39.280
+Money can buy me love.
+
+10:39.280 --> 10:40.280
+Exactly.
+
+10:40.280 --> 10:41.280
+Okay.
+
+10:41.280 --> 10:42.280
+That too.
+
+10:42.280 --> 10:46.280
+We brought you here tonight on
+the daily source code.
+
+10:46.280 --> 10:50.280
+And the last time we spoke, we
+had a hippie story.
+
+10:51.280 --> 10:53.280
+The early seven days David
+Bowie.
+
+10:53.280 --> 10:59.280
+And man, thank you again for
+letting the world know that I
+am, um, better endowed than,
+
+10:59.280 --> 11:01.280
+than David Bowie.
+
+11:01.280 --> 11:04.280
+Let me tell you that that has
+been an incredible go boost.
+
+11:04.280 --> 11:05.280
+Yes.
+
+11:05.280 --> 11:06.280
+It's very important for me.
+
+11:06.280 --> 11:10.280
+And I know there are lots of
+guys out there who understand
+exactly what I'm talking about.
+
+11:10.280 --> 11:11.280
+Yeah.
+
+11:11.280 --> 11:14.280
+And tonight, we have another
+story from Patricia's archives.
+
+11:14.280 --> 11:16.280
+Uh, and this is a nice one.
+
+11:16.280 --> 11:17.280
+Which one too?
+
+11:17.280 --> 11:19.280
+This is, well, thank you.
+
+11:19.280 --> 11:20.280
+We have many more, right?
+
+11:20.280 --> 11:21.280
+Yeah.
+
+11:21.280 --> 11:22.280
+We have plenty.
+
+11:22.280 --> 11:23.280
+Right.
+
+11:23.280 --> 11:25.280
+So when I run out of shit to say
+on this show, then I could just
+bring you in.
+
+11:25.280 --> 11:27.280
+Uh, Stevie Nix was, uh, a store.
+
+11:27.280 --> 11:28.280
+It's a short one.
+
+11:28.280 --> 11:29.280
+Oh.
+
+11:29.280 --> 11:30.280
+Okay.
+
+11:30.280 --> 11:31.280
+A shorty but goody.
+
+11:31.280 --> 11:32.280
+Uh, yeah.
+
+11:32.280 --> 11:33.280
+Okay.
+
+11:33.280 --> 11:35.280
+It's very short action.
+
+11:35.280 --> 11:41.280
+It's, it's, it's not, not
+really, uh, something, uh,
+really important.
+
+11:41.280 --> 11:43.280
+Am I better endowed than Stevie
+Nix?
+
+11:43.280 --> 11:45.280
+Oh, that's, yeah.
+
+11:45.280 --> 11:46.280
+Well, no.
+
+11:46.280 --> 11:50.280
+So you have to, this is also
+about, about size.
+
+11:50.280 --> 11:53.280
+Um, I, how long has to go?
+
+11:53.280 --> 11:55.280
+We were in LA.
+
+11:55.280 --> 11:56.280
+Mm-hmm.
+
+11:56.280 --> 11:58.280
+And you had to tape a show for
+MTV.
+
+11:58.280 --> 11:59.280
+Mm-hmm.
+
+11:59.280 --> 12:00.280
+Remember that?
+
+12:00.280 --> 12:01.280
+We were not married yet.
+
+12:01.280 --> 12:02.280
+Oh, we weren't.
+
+12:02.280 --> 12:04.280
+Also, this was 1987, 88.
+
+12:04.280 --> 12:06.280
+I think it was in the beginning.
+
+12:06.280 --> 12:07.280
+Oh, yes.
+
+12:07.280 --> 12:09.280
+We just moved to, uh, to New
+York.
+
+12:09.280 --> 12:10.280
+Okay.
+
+12:10.280 --> 12:11.280
+So that was 87.
+
+12:11.280 --> 12:12.280
+Yeah.
+
+12:12.280 --> 12:15.280
+And you had to go out to LA and
+you took me with you.
+
+12:15.280 --> 12:18.280
+Because it was better weather
+there.
+
+12:18.280 --> 12:20.280
+So it was very nice.
+
+12:20.280 --> 12:27.280
+And we went out to a lovely
+restaurant that was one of the
+famous hot spots that we needed
+to see.
+
+12:27.280 --> 12:29.280
+Which one was that?
+
+12:29.280 --> 12:30.280
+The dome?
+
+12:30.280 --> 12:31.280
+The dome.
+
+12:31.280 --> 12:32.280
+Right.
+
+12:32.280 --> 12:34.280
+Oh, it wasn't Lionel Richie
+there that night as well.
+
+12:34.280 --> 12:35.280
+Yeah.
+
+12:35.280 --> 12:36.280
+I was so proud of this.
+
+12:36.280 --> 12:40.280
+They always said, like, you have
+to go there because lots, lots
+and lots.
+
+12:40.280 --> 12:41.280
+Yeah.
+
+12:41.280 --> 12:42.280
+I don't think it's like that
+anymore.
+
+12:42.280 --> 12:44.280
+I think it's completely, it may
+not even be there anymore.
+
+12:44.280 --> 12:45.280
+Right.
+
+12:45.280 --> 12:48.280
+But in these days, you know, it
+was that day with the sheep.
+
+12:48.280 --> 12:49.280
+She hot spot.
+
+12:49.280 --> 12:50.280
+Right.
+
+12:50.280 --> 12:51.280
+And there we were.
+
+12:51.280 --> 12:52.280
+So we were there.
+
+12:52.280 --> 12:53.280
+We were in the restaurant.
+
+12:53.280 --> 12:54.280
+And who do we with?
+
+12:54.280 --> 12:55.280
+Do you remember?
+
+12:55.280 --> 12:57.280
+Was it just MTV people Charlie
+Midnight?
+
+12:57.280 --> 12:58.280
+Maybe.
+
+12:58.280 --> 12:59.280
+No, no, no, no, no.
+
+12:59.280 --> 13:00.280
+I wasn't Charlie Midnight.
+
+13:00.280 --> 13:01.280
+I think it was only.
+
+13:01.280 --> 13:02.280
+Scott Shannon, maybe.
+
+13:02.280 --> 13:03.280
+Dana Miller.
+
+13:03.280 --> 13:05.280
+Now, I probably Scott Shannon.
+
+13:05.280 --> 13:06.280
+I don't know.
+
+13:06.280 --> 13:07.280
+Scott Shannon, everybody.
+
+13:07.280 --> 13:08.280
+If I would have.
+
+13:08.280 --> 13:09.280
+Back and see you.
+
+13:09.280 --> 13:12.280
+Well, maybe it was only the two
+of us because I told you right
+away.
+
+13:12.280 --> 13:15.280
+You mean just the two of us.
+
+13:15.280 --> 13:16.280
+Just the two of us.
+
+13:16.280 --> 13:19.280
+Now, so we said there.
+
+13:19.280 --> 13:22.280
+And while you ordered, I said
+have to go to the bathroom
+quickly.
+
+13:22.280 --> 13:23.280
+Ladies, really.
+
+13:23.280 --> 13:26.280
+So I have to go to the ladies
+room.
+
+13:26.280 --> 13:31.280
+And while I'm in the ladies
+room, there were, I think, three
+doors.
+
+13:31.280 --> 13:33.280
+And there were all locked.
+
+13:33.280 --> 13:36.280
+One of the doors went open.
+
+13:36.280 --> 13:38.280
+And out came Stephen X.
+
+13:38.280 --> 13:40.280
+Okay, let me just reset this.
+
+13:40.280 --> 13:42.280
+So you walk into the ladies
+room.
+
+13:42.280 --> 13:43.280
+There's three stalls.
+
+13:43.280 --> 13:45.280
+All three are busy.
+
+13:45.280 --> 13:46.280
+This is it.
+
+13:46.280 --> 13:47.280
+Up here.
+
+13:47.280 --> 13:48.280
+Did you look underneath to see
+the fee?
+
+13:48.280 --> 13:49.280
+No, no, no, no.
+
+13:49.280 --> 13:51.280
+I don't think the doors like
+that.
+
+13:51.280 --> 13:53.280
+No, we don't do that.
+
+13:53.280 --> 13:54.280
+Oh, guys do that.
+
+13:54.280 --> 13:55.280
+No, no, no, no.
+
+13:55.280 --> 13:56.280
+Who the hell?
+
+13:56.280 --> 13:58.280
+No, but when you walk in, you
+want to make sure there's no one
+in there.
+
+13:58.280 --> 13:59.280
+So you look underneath.
+
+13:59.280 --> 14:00.280
+No, no, no, no.
+
+14:00.280 --> 14:01.280
+They were closed.
+
+14:01.280 --> 14:03.280
+So Stephen X.
+
+14:03.280 --> 14:04.280
+Stephen X.
+
+14:04.280 --> 14:05.280
+I'm like, oh, Stephen X.
+
+14:05.280 --> 14:06.280
+I'm just going to do like.
+
+14:06.280 --> 14:07.280
+What was she wearing?
+
+14:07.280 --> 14:09.280
+No, I don't remember.
+
+14:09.280 --> 14:10.280
+It's something black.
+
+14:10.280 --> 14:11.280
+I remember that.
+
+14:11.280 --> 14:12.280
+Okay.
+
+14:12.280 --> 14:13.280
+Was it like her flowing clothes?
+
+14:13.280 --> 14:14.280
+Of course.
+
+14:14.280 --> 14:15.280
+Of course.
+
+14:15.280 --> 14:16.280
+And so she came out of there.
+
+14:16.280 --> 14:17.280
+The door went out.
+
+14:17.280 --> 14:18.280
+Oh, oh, oh.
+
+14:18.280 --> 14:19.280
+Oh, she taller than you.
+
+14:19.280 --> 14:20.280
+She taller than you.
+
+14:20.280 --> 14:21.280
+No, she's tiny.
+
+14:21.280 --> 14:22.280
+She's not that big.
+
+14:22.280 --> 14:23.280
+Really?
+
+14:23.280 --> 14:24.280
+Well, I can't remember.
+
+14:24.280 --> 14:25.280
+She's not not a very tall name.
+
+14:25.280 --> 14:26.280
+Really?
+
+14:26.280 --> 14:27.280
+I thought you were.
+
+14:27.280 --> 14:28.280
+No.
+
+14:28.280 --> 14:29.280
+Okay.
+
+14:29.280 --> 14:30.280
+So she came out.
+
+14:30.280 --> 14:34.280
+And actually behind her came
+sort of a roofed.
+
+14:34.280 --> 14:38.280
+So the way terrible smell.
+
+14:38.280 --> 14:42.280
+She was like, yeah, she was
+coming out of the straw.
+
+14:42.280 --> 14:43.280
+I was coming out of the straw.
+
+14:43.280 --> 14:45.280
+That's the way she came out.
+
+14:45.280 --> 14:48.280
+But I had no choice because the
+other door was.
+
+14:48.280 --> 14:50.280
+Stinky Nicks.
+
+14:50.280 --> 14:53.280
+Stinky Nicks.
+
+14:53.280 --> 14:54.280
+So.
+
+14:54.280 --> 14:56.280
+Why are you going?
+
+14:56.280 --> 14:59.280
+I had to, you know, go into that
+door.
+
+14:59.280 --> 15:01.280
+You know, in that bathroom.
+
+15:01.280 --> 15:03.280
+Because the other one, the other
+one,
+
+15:03.280 --> 15:04.280
+They'll do.
+
+15:04.280 --> 15:05.280
+And who was the other one?
+
+15:05.280 --> 15:06.280
+Like Oprah.
+
+15:06.280 --> 15:09.760
+I don't know if I'm a waltz or
+something.
+
+15:09.760 --> 15:14.760
+So I went into that one and the
+seat was still hot.
+
+15:14.760 --> 15:17.240
+I don't know if I felt very
+warm.
+
+15:17.240 --> 15:20.840
+But we have to say, before I sat
+down,
+
+15:20.840 --> 15:21.680
+I thought you were a...
+
+15:21.680 --> 15:26.680
+I saw that it hadn't, she
+flushed, but it was still there.
+
+15:26.680 --> 15:28.760
+So that was a big...
+
+15:28.760 --> 15:30.160
+It was a hair.
+
+15:30.160 --> 15:31.360
+It was a hair.
+
+15:31.360 --> 15:35.920
+Turling, probably too heavy
+
+15:35.920 --> 15:37.600
+to flunk.
+
+15:37.600 --> 15:48.440
+And then I said, I'm like,
+Jesus, you know, you're flushed
+in these turds.
+
+15:48.440 --> 15:49.720
+Yeah, right.
+
+15:49.720 --> 15:50.720
+Yeah.
+
+15:50.720 --> 15:54.040
+So every time I see her, I have
+to think, too.
+
+15:54.040 --> 15:55.040
+Turd.
+
+15:55.040 --> 15:57.040
+Excellent.
+
+15:57.040 --> 15:58.040
+Hold on a second.
+
+15:58.040 --> 15:59.040
+That was excellent.
+
+15:59.040 --> 16:00.040
+Thank you.
+
+16:00.040 --> 16:01.640
+That was an excellent story.
+
+16:01.640 --> 16:03.640
+Aren't you proud of yourself?
+
+16:03.640 --> 16:05.640
+Well, you know.
+
+16:05.960 --> 16:10.440
+OK, we have some other exciting
+news that happened today.
+
+16:10.440 --> 16:17.720
+Today, we bought the masters of
+Mamboitulliano, the song that
+you recorded.
+
+16:17.720 --> 16:20.600
+Just two months ago, three
+months ago.
+
+16:20.600 --> 16:23.960
+So I was thinking, first time
+I'm going to play it on the
+show.
+
+16:23.960 --> 16:27.960
+I was thinking, why don't we
+make it available for anyone to
+play on a podcast?
+
+16:27.960 --> 16:28.960
+Yeah.
+
+16:28.960 --> 16:29.960
+It's a good idea.
+
+16:29.960 --> 16:31.400
+So it's a big band.
+
+16:31.400 --> 16:32.960
+It's one of the different bands.
+
+16:33.000 --> 16:34.200
+Yeah, it's up to tell me about
+the song.
+
+16:34.200 --> 16:37.040
+Tell me about how you got it all
+set up and...
+
+16:37.040 --> 16:44.480
+Well, actually, it is from
+Mamboitulliano's thing.
+
+16:44.480 --> 16:46.240
+That was Dutch.
+
+16:46.240 --> 16:48.640
+Yeah, yeah, yeah.
+
+16:48.640 --> 16:50.080
+What do you want to say?
+
+16:50.080 --> 16:51.040
+It's so clear.
+
+16:51.040 --> 16:51.680
+Rose made a clue.
+
+16:51.680 --> 16:52.680
+Rose made a clue.
+
+16:52.680 --> 16:54.520
+Yeah, it's late.
+
+16:54.520 --> 16:57.080
+Yeah, I also have Frank Sinatra
+did it, too.
+
+16:57.080 --> 16:58.400
+I don't think, I don't know.
+
+16:58.400 --> 16:59.520
+No, Dean Martin.
+
+16:59.520 --> 17:00.440
+I have Frank Sinatra.
+
+17:00.440 --> 17:01.440
+No, Dean Martin.
+
+17:01.440 --> 17:02.440
+I have Frank Sinatra.
+
+17:02.480 --> 17:04.680
+It's a very famous song.
+
+17:04.680 --> 17:05.680
+Yeah.
+
+17:05.680 --> 17:06.680
+And it's...
+
+17:06.680 --> 17:07.480
+I think I have that.
+
+17:07.480 --> 17:09.440
+I think a 50's song.
+
+17:12.000 --> 17:13.480
+It's always a great.
+
+17:13.480 --> 17:15.720
+It's a wonderful, wonderful
+song.
+
+17:15.720 --> 17:16.560
+It's a...
+
+17:16.560 --> 17:19.680
+It's a Mambo, which is, of
+course, more Spanish.
+
+17:19.680 --> 17:22.560
+But it's an Italian Mambo.
+
+17:22.560 --> 17:24.240
+It's Italian Mambo.
+
+17:24.240 --> 17:26.040
+It's an Italian Mambo, yeah.
+
+17:26.040 --> 17:27.240
+Okay.
+
+17:27.240 --> 17:28.720
+And it's called Mambo.
+
+17:28.720 --> 17:29.720
+Well, that...
+
+17:30.520 --> 17:33.600
+First of all, this isn't just
+like some little thing you did
+here.
+
+17:33.600 --> 17:37.440
+You had like everything that all
+the instruments are real.
+
+17:37.440 --> 17:38.440
+Played by the music.
+
+17:38.440 --> 17:39.440
+Yeah, it's not like...
+
+17:39.440 --> 17:40.440
+It's not like...
+
+17:40.440 --> 17:41.440
+It was in real time.
+
+17:41.440 --> 17:43.440
+You guys are overdubs.
+
+17:43.440 --> 17:44.800
+I thought you recorded that
+whole thing.
+
+17:44.800 --> 17:45.960
+I thought you recorded that
+whole thing.
+
+17:45.960 --> 17:46.960
+Yeah, yeah, yeah.
+
+17:46.960 --> 17:47.960
+Life.
+
+17:47.960 --> 17:48.960
+I sang it live with it.
+
+17:48.960 --> 17:49.960
+Yeah.
+
+17:49.960 --> 17:54.360
+And afterwards, I did some
+backing vocals with Ivan, my
+sister.
+
+17:54.360 --> 17:55.360
+Right.
+
+17:55.360 --> 17:57.080
+But I sang it right away with
+the band.
+
+17:57.080 --> 17:59.520
+Like, Frank Sinatra used to do
+first studio.
+
+17:59.920 --> 18:00.760
+That was the band.
+
+18:00.760 --> 18:01.920
+That was me.
+
+18:01.920 --> 18:02.760
+And...
+
+18:02.760 --> 18:03.760
+You did some pickups here.
+
+18:03.760 --> 18:05.080
+You must have done some pickups.
+
+18:05.080 --> 18:06.080
+Just some insert.
+
+18:06.080 --> 18:07.080
+No, no.
+
+18:07.080 --> 18:08.080
+I don't know.
+
+18:08.080 --> 18:09.080
+No, I don't need some.
+
+18:09.080 --> 18:10.080
+I don't know.
+
+18:10.080 --> 18:11.080
+That's right, baby.
+
+18:11.080 --> 18:12.080
+That's right.
+
+18:12.080 --> 18:13.080
+And you're a turd's flush.
+
+18:13.080 --> 18:14.080
+All right.
+
+18:14.080 --> 18:15.080
+See you.
+
+18:15.080 --> 18:16.080
+All right.
+
+18:16.080 --> 18:18.560
+So we'll be sure to put this up
+for download.
+
+18:18.560 --> 18:19.560
+Mambo, if you don't know.
+
+18:19.560 --> 18:20.560
+I just shot.
+
+18:20.560 --> 18:21.560
+Thanks, honey.
+
+18:21.560 --> 18:22.560
+Thanks.
+
+18:23.750 --> 20:37.760
+[ Music ]
+
+20:37.760 --> 20:38.760
+Mambo, if you don't know.
+
+20:38.760 --> 20:39.760
+Mambo, if you don't know.
+
+20:39.760 --> 20:40.760
+Mambo, if you don't know.
+
+20:40.760 --> 20:41.760
+Mambo, if you don't know.
+
+20:41.760 --> 20:42.760
+Mambo, if you don't know.
+
+20:42.760 --> 20:43.760
+Mambo, if you don't know.
+
+20:43.760 --> 20:44.760
+Mambo, if you don't know.
+
+20:44.760 --> 20:46.760
+Mambo, if you don't know.
+
+20:46.760 --> 20:47.760
+Mambo, if you don't know.
+
+20:47.760 --> 20:48.760
+Mambo, if you don't know.
+
+20:48.760 --> 20:50.120
+We're gonna go here on the daily
+source code.
+
+20:50.120 --> 20:51.880
+You know, you should do
+something with your voice, huh?
+
+20:51.880 --> 20:53.840
+Oh, I don't know that.
+
+20:53.840 --> 20:56.080
+That's awesome.
+
+20:56.080 --> 20:57.880
+Oh, my mic.
+
+20:57.880 --> 20:58.880
+It's okay, here's another one.
+
+20:58.880 --> 21:03.120
+So we'll at least that under the
+Creative Commons license,
+
+21:03.120 --> 21:08.120
+which means anyone can use it
+non-commercialy.
+
+21:08.120 --> 21:09.360
+We'll choose for that one, not
+no.
+
+21:09.360 --> 21:11.920
+Oh, we're gonna have a DVD out
+soon.
+
+21:11.920 --> 21:12.760
+You know what I'm just saying?
+
+21:12.760 --> 21:14.320
+Anyone can use this song in
+their podcast
+
+21:14.320 --> 21:17.480
+that can use it non-commercial
+as long as they create it.
+
+21:17.480 --> 21:19.800
+It's ours, so we can do whatever
+you want to do.
+
+21:19.800 --> 21:20.800
+Isn't that fun?
+
+21:20.800 --> 21:21.800
+Isn't that fun?
+
+21:21.800 --> 21:22.800
+Yeah, I love that.
+
+21:22.800 --> 21:23.800
+That's cool.
+
+21:23.800 --> 21:24.800
+No.
+
+21:24.800 --> 21:25.800
+No.
+
+21:25.800 --> 21:26.800
+We cannot do that.
+
+21:26.800 --> 21:27.800
+That's cool.
+
+21:27.800 --> 21:28.800
+No.
+
+21:28.800 --> 21:30.800
+That's cool, baby.
+
+21:30.800 --> 21:31.800
+Anything else?
+
+21:31.800 --> 21:32.800
+No.
+
+21:32.800 --> 21:33.800
+No.
+
+21:33.800 --> 21:34.800
+Okay.
+
+21:34.800 --> 21:35.800
+It's nice here in your studio.
+
+21:35.800 --> 21:36.800
+Yeah, it's nice.
+
+21:36.800 --> 21:37.800
+It's very nice.
+
+21:37.800 --> 21:39.800
+Why don't you take off your
+dress?
+
+21:39.800 --> 21:40.800
+Oh.
+
+21:40.800 --> 21:41.800
+Okay.
+
+21:41.800 --> 21:42.800
+Oops.
+
+21:42.800 --> 21:44.800
+I'm gonna have a nice cup of
+tea.
+
+21:44.800 --> 21:45.800
+Yes.
+
+21:45.800 --> 21:46.800
+Okay.
+
+21:46.800 --> 21:47.800
+All right, see?
+
+21:47.800 --> 21:48.800
+You take off.
+
+21:48.800 --> 21:50.440
+Let's speak something English
+here.
+
+21:50.440 --> 21:51.440
+Oh, but...
+
+21:51.440 --> 21:52.440
+Crazy American.
+
+21:52.440 --> 21:53.440
+Yeah.
+
+21:53.440 --> 21:54.440
+Yeah.
+
+21:54.440 --> 21:55.440
+Yeah.
+
+21:55.440 --> 21:56.440
+I have to learn some English
+here.
+
+21:56.440 --> 21:57.440
+Well, sweetie, darling.
+
+21:57.440 --> 21:58.440
+Go downstairs.
+
+21:58.440 --> 21:59.440
+Okay, yeah.
+
+21:59.440 --> 22:01.000
+Could you make me a cup or two?
+
+22:01.000 --> 22:02.000
+A cup or two?
+
+22:02.000 --> 22:03.000
+A cup or two?
+
+22:03.000 --> 22:04.000
+A cup or two?
+
+22:04.000 --> 22:05.000
+A cup or two?
+
+22:05.000 --> 22:06.000
+All right.
+
+22:06.000 --> 22:07.480
+All right, then.
+
+22:07.480 --> 22:10.680
+Patricia Pi, everybody.
+
+22:10.680 --> 22:11.680
+Alrighty.
+
+22:11.680 --> 22:13.320
+Source code continues.
+
+22:13.320 --> 22:14.320
+Let's see.
+
+22:14.320 --> 22:15.320
+More comedy.
+
+22:16.320 --> 22:21.000
+Hello, and welcome to Adam
+Curry's One Minute Moving Tip.
+
+22:21.000 --> 22:24.360
+Things you need to know when
+you're moving.
+
+22:24.360 --> 22:28.560
+First of all, put all of your
+worldly belongings into
+cardboard boxes.
+
+22:28.560 --> 22:32.360
+Now be sure to tape them up a
+nice and tight and the way all
+the way.
+
+22:32.360 --> 22:33.360
+What was that?
+
+22:33.360 --> 22:34.360
+Look at the...
+
+22:34.360 --> 22:38.760
+Well, it looks like that box
+needs just a little bit more
+tailor.
+
+22:38.760 --> 22:39.760
+Hmm.
+
+22:39.760 --> 22:43.280
+More you're gonna have problems
+getting that through customs.
+
+22:43.280 --> 22:47.400
+Just a little something for you,
+Adam, to help you get through
+through this crazy move
+
+22:47.400 --> 22:48.400
+to the UK.
+
+22:48.400 --> 22:49.400
+Good luck.
+
+22:49.400 --> 22:50.400
+Boy on.
+
+22:50.640 --> 22:55.520
+When you walked in the door and
+you changed your shoes, you
+switched to a sweater
+
+22:55.520 --> 23:00.120
+and said, how do you do
+neighbor?
+
+23:00.120 --> 23:02.720
+How do you do?
+
+23:02.720 --> 25:37.720
+[ Music ]
+
+25:37.720 --> 25:39.840
+Thank you, friend.
+
+25:39.840 --> 25:44.680
+She was so pretty.
+
+25:44.680 --> 25:48.320
+Hey, Adam, I just want to give
+you the quote unquote shout out
+from Nashville, Tennessee.
+
+25:48.320 --> 25:51.600
+Love your show, love what you're
+doing, love this whole podcast
+thing.
+
+25:51.600 --> 25:53.080
+Keep up the good work.
+
+25:53.080 --> 25:54.200
+Oh, I am boy online.
+
+25:54.200 --> 25:57.520
+Yeah, before that, you heard
+Lassipia's Bitties.
+
+25:57.520 --> 25:58.920
+Yeah, my favorite.
+
+25:58.920 --> 26:01.440
+I had their whole new album and
+I'm allowed to play every single
+track.
+
+26:01.440 --> 26:05.160
+So my does all work through
+them, digging it that was
+neighbor.
+
+26:05.240 --> 26:06.320
+And you know, you should do
+that.
+
+26:06.320 --> 26:08.400
+You go over and say, how do your
+neighbor once in a while?
+
+26:08.400 --> 26:09.960
+We've got new neighbors now.
+
+26:09.960 --> 26:12.120
+We've met the neighbors on the
+left.
+
+26:12.120 --> 26:15.240
+Hope to meet the neighbors on
+the right pretty soon.
+
+26:15.240 --> 26:16.240
+Neighbors are a good thing.
+
+26:16.240 --> 26:17.880
+Neighbors are important.
+
+26:17.880 --> 26:23.480
+Quick plug for those of you that
+are new subscribers or, well,
+actually, the reason I'm doing
+this
+
+26:23.480 --> 26:27.800
+is because, you know, you may
+only be hearing this on Thursday
+by the time it gets uploaded.
+
+26:27.800 --> 26:33.240
+The BBC's Culture Show will be
+on BBC 2 Thursday night.
+
+26:33.320 --> 26:35.880
+So that's tomorrow night at 7
+p.m.
+
+26:35.880 --> 26:36.720
+UK time.
+
+26:36.720 --> 26:38.280
+So 8 p.m.
+
+26:38.280 --> 26:39.880
+You're central European time.
+
+26:39.880 --> 26:45.960
+And if you go to bbc.co.uk slash
+culture, I think that's the
+link.
+
+26:45.960 --> 26:50.760
+I'll make sure I put the correct
+link in the production notes for
+today's show.
+
+26:50.760 --> 26:55.360
+Then you can probably see a
+reasonable online archive.
+
+26:55.360 --> 26:59.200
+What they do with the BBC is
+they're kind of in the middle of
+trying to figure out what
+
+26:59.200 --> 27:00.200
+they want to do with download.
+
+27:00.240 --> 27:03.920
+So they make a download of a
+show available for about seven
+days and they take it off,
+
+27:03.920 --> 27:07.880
+which is, I guess, is, you know,
+some kind of loophole in their
+own policy.
+
+27:07.880 --> 27:12.200
+There's also a couple of people
+who'll be recording a high
+quality digital version.
+
+27:12.200 --> 27:15.720
+And as soon as I get some links,
+we'll be sure to put that up so
+you can see it.
+
+27:15.720 --> 27:16.720
+I'm pumped.
+
+27:16.720 --> 27:17.880
+I'm hoping that it's going to be
+good.
+
+27:17.880 --> 27:19.520
+You never know.
+
+27:19.520 --> 27:28.360
+And I talked yesterday about
+extending RSS and how I was
+working with August and
+
+27:28.360 --> 27:35.400
+Ray of iPod Rex and of course
+with Dave on coming up with
+some, you know, some interesting
+
+27:35.400 --> 27:41.040
+ways of, you know, adding stuff
+that we really need for our
+podcast.
+
+27:41.040 --> 27:44.800
+One of them is, of course, what
+I'm working on is these OPML
+production notes.
+
+27:44.800 --> 27:50.040
+And how do we include that and
+how can we make iPoders aware
+that there's a show notes
+
+27:50.040 --> 27:52.320
+included with the show.
+
+27:52.320 --> 27:56.120
+And I haven't been able to
+respond yet because of my
+bandwidth woes.
+
+27:56.360 --> 27:59.560
+By the way, tomorrow, right
+after the trash guy comes and I
+help him load up all the
+
+27:59.560 --> 28:04.960
+ship we were accumulated, I'm
+going to go into town and, and
+really hop on the, on the
+
+28:04.960 --> 28:10.600
+high speed, high Wi-Fi because
+I'm, I really need to catch up
+with my podcast.
+
+28:10.600 --> 28:18.520
+So we now have, yeah, we're
+working on and I'm looking at it
+right now, the podcast RSS
+
+28:18.520 --> 28:24.440
+module, which will be a name
+space, which I think is going to
+be really great.
+
+28:24.440 --> 28:27.960
+It's really going to give us a
+lot of the tools that we've been
+looking for on the
+
+28:27.960 --> 28:33.440
+development side of, of ease of
+use and ease of production and
+connecting more bits
+
+28:33.440 --> 28:35.040
+together in podcasting.
+
+28:35.040 --> 28:40.360
+And I guess we'll be releasing
+this to the iPod of developers
+list pretty soon.
+
+28:40.360 --> 28:43.040
+At first, I, even I had to like,
+you know, look at this.
+
+28:43.040 --> 28:44.040
+Hey, is this right?
+
+28:44.040 --> 28:45.040
+Is it really that simple?
+
+28:45.040 --> 28:48.800
+This is giving us, if it's
+giving us everything we want,
+then it must be wrong.
+
+28:48.800 --> 28:50.440
+No, but it was right.
+
+28:50.440 --> 28:52.400
+So I'm, I'm way excited about
+that.
+
+28:52.400 --> 28:55.880
+And I just need to get some more
+bandwidth so I can concentrate a
+little bit more on this
+
+28:55.880 --> 28:58.600
+stuff instead of watching, you
+know, shit download.
+
+28:58.600 --> 28:59.600
+Oh, it's horrible.
+
+28:59.600 --> 29:00.600
+Okay.
+
+29:00.600 --> 29:03.720
+Boy, we've gone through almost
+everything I want to do.
+
+29:03.720 --> 29:06.400
+Oh, no, there's one thing I
+wanted to play for you.
+
+29:06.400 --> 29:10.160
+And we're currently, what are we
+at, almost 30 minutes into the
+show, perfect timing for
+
+29:10.160 --> 29:11.160
+today.
+
+29:11.160 --> 29:13.520
+And I'll have to look up who
+sent this to me.
+
+29:13.520 --> 29:19.120
+This is like a new, in your
+face, hard edge kind of poetry.
+
+29:19.120 --> 29:22.360
+It's called disillusioned
+filibuster.
+
+29:22.360 --> 29:26.680
+And it's a, I'm pretty sure it's
+a live performance piece.
+
+29:26.680 --> 29:29.840
+It's totally, you know,
+performance poetry art.
+
+29:29.840 --> 29:34.240
+So it's a little bit distorted,
+so I'll have to work on the
+levels.
+
+29:34.240 --> 29:38.600
+But listen to it and then,
+you'll catch on pretty quick.
+
+29:38.600 --> 29:44.320
+It's, there's no real title to
+it, but the whole theme of this
+disillusioned filibuster
+
+29:44.320 --> 29:46.120
+is America, your panties are
+showing.
+
+29:46.360 --> 29:49.240
+They're the night outside, we'll
+be talking about the life in
+times of really
+
+29:49.240 --> 29:53.120
+cars, where one friend checked
+another friend and said, yo,
+you're slick of saying
+
+29:53.120 --> 29:58.120
+you're saying, well, I'm telling
+my friend, my country, America,
+I can't, I can't, I can't
+
+29:58.120 --> 29:59.120
+see.
+
+29:59.120 --> 30:00.120
+Your slip is hanging.
+
+30:00.120 --> 30:05.560
+Somebody is looking at your ass,
+nation building in Iraq, regime
+changing in Africa,
+
+30:05.560 --> 30:11.120
+closing your eyes to genocide in
+the far, you are showing, you're
+ass, you showed it, you
+
+30:11.120 --> 30:15.160
+showed it, you showed your ass
+in territory of war, as when you
+let refugees from
+
+30:15.160 --> 30:19.160
+Cuba come to Miami, but you
+repatriate the Haitians, what
+they want to come here, you
+
+30:19.160 --> 30:24.160
+said, no, back home, told them
+they couldn't stay, your slip is
+hanging America, your
+
+30:24.160 --> 30:28.360
+slip is hanging right, you ain't
+got no problems with Mexicans
+crossing the barrel
+
+30:28.360 --> 30:32.560
+because they can work for you
+for less than minimum wage, they
+can get involved in rights
+
+30:32.560 --> 30:37.160
+labor, they can get involved in
+being slaves and indentured
+servants and that's in
+
+30:37.160 --> 30:41.840
+your best interest and number
+one, they can vote for you, the
+Mexican vote can get you
+
+30:41.840 --> 30:45.840
+elected, so you don't have no
+problem with them crossing the
+borders and coming over to
+
+30:45.840 --> 30:50.840
+Arizona, no, you don't have no
+problem with that, America, I
+can't, I can't, I can't, I can't
+see,
+
+30:50.840 --> 30:51.840
+your slip is hanging.
+
+30:51.840 --> 30:56.840
+And you think you think I'm the
+only one that sees your ass,
+America, look out the window,
+
+30:56.840 --> 31:01.840
+I know this is your house in
+that, you think you can walk
+around naked and think you can
+walk around
+
+31:01.840 --> 31:05.840
+disrespecting people, think you
+can act like you want to, do
+what you want to because you
+
+31:05.840 --> 31:10.840
+in your own house, but America,
+I can, I can, I can't, I can
+see, your slip is hanging
+
+31:10.840 --> 31:15.840
+and America, I'm not the only
+one who sees your ass, world of
+news tonight, so I'll show
+
+31:15.840 --> 31:19.840
+you, show your ass in front of
+the morgue, when you commit a
+war crimes, breaking the Geneva
+
+31:19.840 --> 31:24.840
+contract, show your independence
+of war on TV, show your
+independence of war on naked,
+show
+
+31:24.840 --> 31:29.840
+your independence of war being
+disrespected, show your
+independence of war, maximize
+your
+
+31:29.840 --> 31:35.840
+slip, your slip is showing
+America, your slip is showing
+women, when you capture the
+president of
+
+31:35.840 --> 31:40.840
+Iraq and and show them all TV
+being interrogated, show them
+all TV appearing weak and
+
+31:40.840 --> 31:45.840
+right, right, when he showed us
+all TV, when they show us all
+TV, it becomes a
+
+31:45.840 --> 31:51.840
+world crime, from America,
+America, America, I can, I can,
+I can, I can see, your slip
+
+31:51.840 --> 31:56.840
+is hanging, you are showing your
+ass to the world, and you are
+showing your ass to the
+
+31:56.840 --> 32:00.840
+black caucus too, every time you
+will meet with you, you are to
+wrap up, dial up,
+
+32:01.840 --> 32:05.840
+take it up in your whole empire,
+they're lost to it, service can
+come to the king unless
+
+32:05.840 --> 32:10.840
+they are selling, they're
+showing them respect, instead of
+showing them kindness, America,
+
+32:10.840 --> 32:14.840
+I show them the black caucus,
+they are ass, and still we are
+still so vulnerable
+
+32:14.840 --> 32:18.840
+to believe that America is the
+leading authority of morality,
+do people of morality go
+
+32:18.840 --> 32:22.840
+around stripping in front of
+people, no, no, people of
+morality go around showing
+
+32:22.840 --> 32:27.840
+their ass to everybody they
+don't like, hey, no, somebody
+somewhere needs to say
+
+32:27.840 --> 32:32.840
+something, somebody somewhere
+needs to do something, America,
+America, your slip is
+
+32:32.840 --> 32:37.840
+hanging, America, you are
+showing your ass like you didn't
+hate it, when a
+
+32:37.840 --> 32:42.840
+democratically elected president
+of Haiti was told he had to
+leave a coup d'état
+
+32:42.840 --> 32:47.840
+maxi, you want to speak this to
+this, he was told he had to
+leave, they, America,
+
+32:47.840 --> 32:52.840
+got together with guy for leap
+and committed a coup d'état and
+took the
+
+32:52.840 --> 32:57.840
+credit of Haiti out to him and
+his wife, Milquid, you got to
+leave or die,
+
+32:57.840 --> 33:04.840
+or die, or die, or die, America,
+America, America, America, I can
+see, I can see,
+
+33:04.840 --> 33:09.840
+your slip is hanging, you have a
+fight another country for
+democracy and yet
+
+33:09.840 --> 33:14.840
+when we have democracy, a
+democratically elected president
+in another country, you
+
+33:14.840 --> 33:18.840
+don't support him, you would
+join your truth because he's not
+doing what you
+
+33:18.840 --> 33:23.840
+want him to, he's not being
+manipulated, he want him to, and
+because of that,
+
+33:23.840 --> 33:29.840
+because of that, you commit a
+coup d'état, America, America,
+America,
+
+33:29.840 --> 33:34.840
+man, man, can see, I can see
+your slip, your slip, your slip
+is hanging,
+
+33:34.840 --> 33:38.840
+and I'm not doing it, I'm not
+doing it, I'm not doing it,
+peace, peace.
+
+33:38.840 --> 33:42.840
+Man, that's some powerful stuff,
+now that is exactly what Paul
+
+33:42.840 --> 33:49.840
+Boutin, Boutin, Boutin, Boutin,
+meant when he was talking about
+why doesn't
+
+33:49.840 --> 33:56.840
+Bano use his incredible voice
+and power through podcasting to
+start to change
+
+33:56.840 --> 33:57.840
+the world.
+
+33:57.840 --> 34:02.840
+Yeah, sure it's great that we
+can sell a black eye pod with
+all the YouTube
+
+34:02.840 --> 34:06.840
+songs on it, but why don't we
+add a little something else
+there, Bano?
+
+34:06.840 --> 34:09.840
+Shoot dude, you've got your own
+freaking eye pod.
+
+34:09.840 --> 34:13.840
+Is it just a thought maybe to
+put something on there?
+
+34:13.840 --> 34:18.840
+You know, like, hey, feed the
+world or something, just put a
+couple MP3,
+
+34:18.840 --> 34:23.840
+I'll do good with you Bano, put
+an AAC file on there, you know,
+so it's bookmarkable
+
+34:23.840 --> 34:28.840
+and it's D-R-M, perfect, go for
+it, dude, that would be awesome.
+
+34:28.840 --> 34:33.840
+That just blew me away, I mean
+it's more about Haiti at the end
+there, but just the whole,
+
+34:33.840 --> 34:37.840
+yeah, you know, disillusioned
+filibuster, pretty interesting
+stuff.
+
+34:37.840 --> 34:39.840
+And that's it for today's source
+code.
+
+34:39.840 --> 34:43.840
+More bandwidth tomorrow as we
+slipper away the Wi-Fi.
+
+34:45.840 --> 34:49.840
+I want to thank you very much
+for tuning in and subscribing.
+
+34:49.840 --> 34:52.840
+I want to thank our guest for
+today, the Trish and Pie.
+
+34:52.840 --> 35:00.840
+By the way, we are married and
+she does sometimes use my last
+name, but, yeah, she's a modern
+woman.
+
+35:00.840 --> 35:09.840
+As always, comments are welcome
+at the Prairie.com.
+
+35:09.840 --> 35:13.840
+You know, don't send it to me,
+you know, just send a link
+that's probably better,
+
+35:13.840 --> 35:15.840
+until I get some real bandwidth.
+
+35:15.840 --> 35:18.840
+And again, I'll be downloading
+lots of stuff.
+
+35:18.840 --> 35:20.840
+Tomorrow's, we'll play on the
+show.
+
+35:20.840 --> 35:21.840
+Comments.
+
+35:21.840 --> 35:24.840
+You can also leave them on the
+weblog at Prairie.com.
+
+35:24.840 --> 35:28.840
+And of course, the latest source
+code on the archives or data
+source code.com.
+
+35:28.840 --> 35:34.840
+We can also find out about
+cast-feed data source
+code.mums-carSS.com.
+
+35:34.840 --> 35:37.840
+We'll check out tomorrow on the
+source code.
+
+35:37.840 --> 35:38.840
+Bye-bye.

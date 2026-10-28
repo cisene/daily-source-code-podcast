@@ -1,0 +1,4456 @@
+WEBVTT
+
+00:00.000 --> 00:14.000
+Okay, this is, hi everybody.
+Welcome to a special edition of
+the Daily Source Code. This is
+for Tuesday, February 15, 2005,
+which it really is.
+
+00:14.000 --> 00:23.000
+It's just that here. I'm in the
+lovely town of Utrecht in
+Holland. It's 10 minutes to one
+in the morning.
+
+00:23.000 --> 00:29.000
+Tomorrow, I'm leaving it eight
+for a conference where I'm
+speaking.
+
+00:29.000 --> 00:35.000
+It sounds really funky. It
+sounds kind of shitty, actually.
+Anyway.
+
+00:35.000 --> 00:41.000
+I don't know what you're doing
+there, Ken, but you're messing
+up your intro dude.
+
+00:41.000 --> 00:47.000
+It's Ken Clark, everybody. You
+made me laugh.
+
+00:48.000 --> 00:51.000
+Hey Ken, how are you doing? Have
+we haven't talked in like two or
+three weeks?
+
+00:51.000 --> 00:55.000
+I know we were going to try to
+do this more frequently, and
+then life caught up with both of
+this.
+
+00:55.000 --> 01:00.000
+I liked it. Life got in the way.
+I have been working.
+
+01:00.000 --> 01:06.000
+Yeah, we're supposed to meet
+this morning. I got up. I was on
+the computer at like 7.45 and
+you're like, where you been?
+
+01:06.000 --> 01:11.000
+Yeah, exactly. I was just about
+ready to leave because I'm, so I
+have this thing tomorrow.
+
+01:11.000 --> 01:16.000
+I was going to have to be this
+early, so I took the 930 easy
+jet flight.
+
+01:16.000 --> 01:19.000
+I love fucking easy jet Ken. I
+don't know if you can.
+
+01:19.000 --> 01:23.000
+It's an easy jet. It sounds like
+a disposable jet plane.
+
+01:23.000 --> 01:29.000
+Yeah. Well, it's a budget
+airline. The service is Europe,
+but it's just, it's so perfect.
+
+01:29.000 --> 01:33.000
+Everything about it is right. I
+bought stock in the company. I
+love it so much.
+
+01:33.000 --> 01:35.000
+So it's like a European jet
+blue.
+
+01:36.000 --> 01:40.000
+Yeah, I don't know. Probably. I
+don't know. It's something about
+the attitude though.
+
+01:40.000 --> 01:45.000
+They're whole four minutes
+right. That's very, very good
+service. Good attitude as well.
+
+01:45.000 --> 01:49.000
+But this has no service. They
+promise you no service. So
+anything you get you love, you
+know,
+
+01:49.000 --> 01:53.000
+and even the little smile from
+the flight attendant is just
+like, oh, I love you.
+
+01:53.000 --> 01:58.000
+You know, and that's, that's the
+guy flight attendant. I'm
+telling you, it's crazy.
+
+01:58.000 --> 02:03.000
+I don't know. If my voice, it
+sounds like I'm like I'm coming
+through triple on this.
+
+02:03.000 --> 02:07.000
+I don't know what's going on.
+Anyway. If you sound fine, I'm
+okay with that.
+
+02:07.000 --> 02:10.000
+Yeah, but I don't know what I
+hear is what everyone else will
+hear.
+
+02:10.000 --> 02:16.000
+Well, whatever. I don't,
+actually. Yeah. Who knows? It
+doesn't matter.
+
+02:16.000 --> 02:27.000
+So Ken, last time we spoke, we
+were catching up on the 37
+different MTD air talents that
+you worked with.
+
+02:27.000 --> 02:32.000
+So here I had forgotten. You
+reminded me of a couple like
+Trixie and Trixie.
+
+02:32.000 --> 02:36.000
+Yep. People I had completely
+forgotten about Wendy Westbrook.
+
+02:36.000 --> 02:43.000
+But so I had somewhere around 30
+mids, some that we talked about.
+
+02:43.000 --> 02:47.000
+And we barely got to, to when
+you and Julie both got hired.
+
+02:47.000 --> 02:49.000
+Oh, Jesus.
+
+02:49.000 --> 02:53.000
+Wait a minute. But it wasn't
+like four people at once.
+
+02:53.000 --> 02:56.000
+We talked about Kevin Seal. How
+he got us auditioned.
+
+02:56.000 --> 02:58.000
+There was only much college
+campus.
+
+02:58.000 --> 03:03.000
+Yeah. I mean, I mean, we stayed
+on Thursday, by the way.
+
+03:03.000 --> 03:06.000
+I'm having dinner with him with
+Steve Leads.
+
+03:06.000 --> 03:08.000
+Oh, cool. Yeah. Yeah.
+
+03:08.000 --> 03:11.000
+Oh, that's right. You're going
+to New York this week.
+
+03:11.000 --> 03:13.000
+Yeah. The big, the big US trip,
+baby.
+
+03:13.000 --> 03:15.000
+Well, tell Steve. I said hello.
+
+03:15.000 --> 03:18.000
+Yeah. We'll do. Okay. I'm sorry.
+Interrupted you.
+
+03:19.000 --> 03:24.000
+Well, I was just going to say JJ
+left and Julie came and then
+Nina left and you came.
+
+03:24.000 --> 03:27.000
+Right. And then Carolyn Helben.
+
+03:27.000 --> 03:31.000
+Carolyn Helben came shortly
+thereafter and replaced
+somebody.
+
+03:31.000 --> 03:33.000
+Mark or Alan.
+
+03:33.000 --> 03:34.000
+Hmm.
+
+03:34.000 --> 03:38.000
+And then Kevin Seal. Alan. Alan
+because Mark was one of the last
+ones to leave.
+
+03:38.000 --> 03:40.000
+He was still there when I was
+there.
+
+03:40.000 --> 03:42.000
+It was like really weird.
+
+03:42.000 --> 03:46.000
+Nina was actual. I'm not Nina.
+Martha Quinn was the last of the
+original.
+
+03:46.000 --> 03:49.000
+And she came back. She kept
+coming back. Yeah. Yeah.
+
+03:49.000 --> 03:51.000
+Once you got hungry.
+
+03:51.000 --> 03:55.000
+We got a funny piece of mail
+after we did that last show to
+remind me that she had
+
+03:55.000 --> 04:02.000
+had the dubious honor of playing
+Tracy Brady Bobby's wife in the
+1990s TV movie.
+
+04:02.000 --> 04:03.000
+That's right.
+
+04:03.000 --> 04:05.000
+That was great.
+
+04:05.000 --> 04:09.000
+It was an adult drama or it had
+Brady's in which Bobby is ever
+called
+
+04:09.000 --> 04:12.000
+a quadriplead.
+
+04:12.000 --> 04:15.000
+It's horrible.
+
+04:15.000 --> 04:19.000
+Instead of, you know, Mama was
+said never to play ball in the
+house.
+
+04:19.000 --> 04:23.000
+They were dealing with topics
+like Bobby's erectile distance.
+
+04:23.000 --> 04:25.000
+It didn't really make it.
+
+04:25.000 --> 04:27.000
+It did all right though, didn't
+it?
+
+04:27.000 --> 04:29.000
+Must have done pretty good on
+DVD.
+
+04:29.000 --> 04:30.000
+I don't know.
+
+04:30.000 --> 04:31.000
+I did.
+
+04:31.000 --> 04:32.000
+I watched it.
+
+04:32.000 --> 04:34.000
+It was hilarious.
+
+04:34.000 --> 04:35.000
+And Martha was cute.
+
+04:35.000 --> 04:37.000
+Even though in person.
+
+04:38.000 --> 04:41.000
+She's a little bone. She's too
+bony for me.
+
+04:41.000 --> 04:42.000
+Of course.
+
+04:42.000 --> 04:44.000
+Very, very teeny girl.
+
+04:44.000 --> 04:46.000
+I mean, that's one thing we've
+never mentioned.
+
+04:46.000 --> 04:47.000
+Martha's probably what?
+
+04:47.000 --> 04:48.000
+Four foot eight.
+
+04:48.000 --> 04:49.000
+Yeah.
+
+04:49.000 --> 04:51.000
+It's like 90 pounds.
+
+04:51.000 --> 04:52.000
+Yeah.
+
+04:52.000 --> 04:54.000
+That's right. It's snappled like
+a twig.
+
+04:54.000 --> 04:56.000
+Well, I feel tall next to
+Martha.
+
+04:56.000 --> 04:59.000
+You're, you know, six and a half
+feet tall to begin with.
+
+04:59.000 --> 05:00.000
+Yeah.
+
+05:00.000 --> 05:02.000
+But she had like a putter beat
+my beer right on top of her
+head.
+
+05:02.000 --> 05:04.000
+Can was beautiful.
+
+05:05.000 --> 05:07.000
+So that was a horrible show in
+the show.
+
+05:07.000 --> 05:09.000
+Bro, basketball player came in
+at one point.
+
+05:09.000 --> 05:11.000
+And she barely came to his
+waist.
+
+05:11.000 --> 05:12.000
+I think that was shack.
+
+05:12.000 --> 05:14.000
+It was shack, wasn't it?
+
+05:14.000 --> 05:15.000
+I think it was.
+
+05:15.000 --> 05:16.000
+Look, I barely count the shack's
+waist.
+
+05:16.000 --> 05:17.000
+I hugged him one.
+
+05:17.000 --> 05:20.000
+I said, excuse me, Mr. Shack.
+
+05:20.000 --> 05:22.000
+You know, I'm tall in my world.
+
+05:22.000 --> 05:24.000
+Like, can I hug you?
+
+05:24.000 --> 05:26.000
+And he was like, yeah, that's
+cool.
+
+05:26.000 --> 05:27.000
+That's what the reboc.
+
+05:27.000 --> 05:28.000
+That was great.
+
+05:28.000 --> 05:30.000
+You know, we've already, our
+digressing,
+
+05:30.000 --> 05:31.000
+but it made me think,
+
+05:31.000 --> 05:34.000
+didn't you do a photo shoot with
+Michael Jackson one time
+
+05:34.000 --> 05:36.000
+whereby he had to stand on a
+box?
+
+05:36.000 --> 05:38.000
+Oh, yeah, I've told that story
+many times.
+
+05:38.000 --> 05:41.000
+Yeah, well, I've been on a whole
+Michael Jackson support rampage,
+
+05:41.000 --> 05:42.000
+you know.
+
+05:42.000 --> 05:43.000
+Oh, I have nothing.
+
+05:43.000 --> 05:45.000
+I, I, I, I withhold all opinion.
+
+05:45.000 --> 05:46.000
+I really do.
+
+05:46.000 --> 05:47.000
+I mean, I've met this guy.
+
+05:47.000 --> 05:50.000
+If anything is asexual, you
+know, he just loves hugging
+people
+
+05:50.000 --> 05:52.000
+and loving people and he's a
+kid, you know?
+
+05:52.000 --> 05:55.000
+Oh, I, I, I, I don't, I would
+like to think very much that
+
+05:55.000 --> 05:56.000
+it's not true.
+
+05:56.000 --> 05:58.000
+I do think that perhaps he has a
+screw loose
+
+05:58.000 --> 06:00.000
+from being too famous and too
+protected
+
+06:00.000 --> 06:01.000
+for too long.
+
+06:01.000 --> 06:03.000
+But no, you know what, even
+that's not true.
+
+06:03.000 --> 06:07.000
+I'm telling you that even that
+is it's all just media
+
+06:07.000 --> 06:09.000
+and what they've made him.
+
+06:09.000 --> 06:11.000
+He's played to it, of course,
+but dude,
+
+06:11.000 --> 06:15.000
+this is like a really well
+rounded, nice,
+
+06:15.000 --> 06:17.000
+well brought up human being.
+
+06:17.000 --> 06:18.000
+I'm telling you.
+
+06:18.000 --> 06:20.000
+It's, it's a, it's a big joke.
+
+06:20.000 --> 06:22.000
+And we just, we, we don't want
+to see it.
+
+06:22.000 --> 06:23.000
+We don't want to believe it.
+
+06:23.000 --> 06:25.000
+Well, I tend to always, you
+know,
+
+06:25.000 --> 06:27.000
+I sure they're a little, the
+whole family's had a fit
+
+06:27.000 --> 06:28.000
+with us.
+
+06:28.000 --> 06:30.000
+But, you know, it's just back to
+the end of time.
+
+06:30.000 --> 06:32.000
+I hear an allegation of this
+nature against anyone
+
+06:32.000 --> 06:35.000
+that, you know, money is often a
+very motivating factor.
+
+06:35.000 --> 06:38.000
+Fuck, I, I, I tried it with
+whole chess.
+
+06:38.000 --> 06:39.000
+Yeah.
+
+06:39.000 --> 06:41.000
+Well, you should watch that
+Haraldo thing.
+
+06:41.000 --> 06:42.000
+It was pretty good.
+
+06:42.000 --> 06:45.000
+Haraldo did interview and, and
+some of the pieces of it.
+
+06:45.000 --> 06:46.000
+Yeah.
+
+06:46.000 --> 06:47.000
+I haven't seen the whole thing.
+
+06:47.000 --> 06:50.000
+You know, speaking of
+interviews, I saw,
+
+06:50.000 --> 06:53.000
+we talked a little bit about
+Daisy Fuente's last time.
+
+06:53.000 --> 06:54.000
+She came.
+
+06:54.000 --> 06:56.000
+Well, she did fill in work there
+for a while.
+
+06:56.000 --> 06:58.000
+She was the weather girl on a
+channel,
+
+06:58.000 --> 06:59.000
+something or other, right?
+
+06:59.000 --> 07:00.000
+Tell him window.
+
+07:00.000 --> 07:01.000
+My new jersey.
+
+07:01.000 --> 07:03.000
+I've got to see if I could turn
+you up any louder.
+
+07:03.000 --> 07:04.000
+You're really soft.
+
+07:04.000 --> 07:05.000
+You got to talk to me, you're
+like,
+
+07:05.000 --> 07:08.000
+Oh, my mic is strapped to my
+face.
+
+07:08.000 --> 07:10.000
+It's strapped down.
+
+07:10.000 --> 07:13.000
+Maybe my mouth is strapped down.
+
+07:13.000 --> 07:14.000
+Is it strapped down?
+
+07:14.000 --> 07:15.000
+Oh, it's strapped.
+
+07:15.000 --> 07:16.000
+Okay.
+
+07:16.000 --> 07:17.000
+Yeah.
+
+07:17.000 --> 07:18.000
+That's better.
+
+07:18.000 --> 07:19.000
+Yeah.
+
+07:19.000 --> 07:21.000
+Daisy was doing the weather at
+Tell him window.
+
+07:21.000 --> 07:23.000
+Channel 49 or Channel 47.
+
+07:23.000 --> 07:25.000
+She was the, the Latin weather
+babe.
+
+07:26.000 --> 07:27.000
+Oh, I love his team.
+
+07:27.000 --> 07:30.000
+And Steve Leaves was there
+because I remember watching the
+tape
+
+07:30.000 --> 07:33.000
+and thinking that there was
+something interesting about her.
+
+07:33.000 --> 07:35.000
+But, you know, she was just at
+the time.
+
+07:35.000 --> 07:39.000
+MTV was very, very milk toast
+and Daisy was very exotic.
+
+07:39.000 --> 07:40.000
+Yeah.
+
+07:40.000 --> 07:42.000
+And that just wasn't hip at the
+end.
+
+07:42.000 --> 07:44.000
+Jungle fever on the channel.
+
+07:44.000 --> 07:47.000
+So she went and did MTV int on
+the nasty one.
+
+07:47.000 --> 07:48.000
+I mean, not till now.
+
+07:48.000 --> 07:49.000
+That's right.
+
+07:49.000 --> 07:50.000
+And she could barely speak
+Spanish herself.
+
+07:50.000 --> 07:51.000
+That was hilarious.
+
+07:51.000 --> 07:52.000
+Yeah.
+
+07:52.000 --> 07:53.000
+She, she, she, she.
+
+07:53.000 --> 07:54.000
+That's great.
+
+07:54.000 --> 07:55.000
+Something about Daisy this week.
+
+07:55.000 --> 07:58.000
+I was going to say, I saw a
+great interview show with her.
+
+07:58.000 --> 08:01.000
+But I didn't know that Daisy had
+lived in Spain as a child.
+
+08:01.000 --> 08:02.000
+Yeah.
+
+08:02.000 --> 08:03.000
+She was Cuban.
+
+08:03.000 --> 08:06.000
+But I think she had lived in
+Spain before moving to New York.
+
+08:06.000 --> 08:09.000
+And what's the difference,
+really?
+
+08:09.000 --> 08:10.000
+But yeah.
+
+08:10.000 --> 08:12.000
+She, she, Spain, New York.
+
+08:12.000 --> 08:15.000
+Spent most of her time speaking
+and learning to speak in New
+York.
+
+08:15.000 --> 08:16.000
+Cause Daisy had quite a mouth on
+her.
+
+08:16.000 --> 08:19.000
+But Daisy was on Rachel,
+
+08:19.000 --> 08:23.000
+got the chick from the food
+network that's got that new talk
+show.
+
+08:23.000 --> 08:25.000
+That's a variety of nice, Rachel
+Ray.
+
+08:25.000 --> 08:27.000
+And network showers on the food
+network.
+
+08:27.000 --> 08:28.000
+Food network.
+
+08:28.000 --> 08:29.000
+Okay.
+
+08:29.000 --> 08:31.000
+And that's pretty happened.
+
+08:31.000 --> 08:32.000
+That's just like, right.
+
+08:32.000 --> 08:33.000
+Yes, it is.
+
+08:33.000 --> 08:37.000
+And Rachel does this Friday
+night talk show where she
+interviews celebrities.
+
+08:37.000 --> 08:42.000
+This last week with it was
+Dennis Franz from NYPD who last
+week.
+
+08:42.000 --> 08:44.000
+We before was Daisy went this.
+
+08:44.000 --> 08:46.000
+And they were in her apartment
+in California.
+
+08:46.000 --> 08:52.000
+Making some kind of Daisy was
+showing her some Cuban dish.
+
+08:52.000 --> 08:54.000
+And it was a really cool
+interview.
+
+08:54.000 --> 08:56.000
+So you should, if you happen to
+catch it, you should.
+
+08:56.000 --> 08:58.000
+It was like a cool to.
+
+08:58.000 --> 09:01.000
+I remember how with Daisy and
+see what she was up to.
+
+09:01.000 --> 09:05.000
+She was just engaged or getting
+married again to some.
+
+09:05.000 --> 09:07.000
+Guy was my star guy.
+
+09:07.000 --> 09:08.000
+Yeah.
+
+09:08.000 --> 09:09.000
+English pop star guy.
+
+09:09.000 --> 09:12.000
+That should be up in your London
+then.
+
+09:12.000 --> 09:13.000
+Yeah.
+
+09:13.000 --> 09:14.000
+Actually, that is true.
+
+09:14.000 --> 09:16.000
+She said she was spending quite
+a bit of it.
+
+09:16.000 --> 09:18.000
+She likes going to London
+because people don't know her.
+
+09:18.000 --> 09:19.000
+Right.
+
+09:19.000 --> 09:21.000
+And he likes coming here because
+people don't know him.
+
+09:21.000 --> 09:22.000
+What is he going to find out who
+it is?
+
+09:22.000 --> 09:23.000
+Can.
+
+09:23.000 --> 09:24.000
+All right.
+
+09:24.000 --> 09:25.000
+I've got to get a name.
+
+09:25.000 --> 09:26.000
+I remember one time was coming.
+
+09:26.000 --> 09:29.000
+I remember that I saw it.
+
+09:29.000 --> 09:30.000
+Right.
+
+09:30.000 --> 09:34.000
+I remember one time was coming
+down.
+
+09:34.000 --> 09:36.000
+The corkscrew into the, what do
+you call that?
+
+09:36.000 --> 09:39.000
+The corkscrew into the Lincoln
+tunnel.
+
+09:39.000 --> 09:40.000
+You know what that's called?
+
+09:40.000 --> 09:41.000
+On the Jersey side.
+
+09:41.000 --> 09:42.000
+On the Jersey side.
+
+09:42.000 --> 09:43.000
+Yeah.
+
+09:43.000 --> 09:44.000
+Can't remember.
+
+09:44.000 --> 09:45.000
+They had some cute name for it.
+
+09:45.000 --> 09:46.000
+Yeah.
+
+09:46.000 --> 09:47.000
+And there was some.
+
+09:47.000 --> 09:48.000
+Remember I had the roles.
+
+09:48.000 --> 09:49.000
+We talked about that.
+
+09:50.000 --> 09:51.000
+Right.
+
+09:51.000 --> 09:52.000
+You were waiting in line in the
+12 booth.
+
+09:52.000 --> 09:53.000
+Yeah.
+
+09:53.000 --> 09:56.000
+Well, it was kind of like on
+that ramp going down towards the
+toll booth.
+
+09:56.000 --> 09:58.000
+And it was before easy pass.
+
+09:58.000 --> 09:59.000
+Exactly.
+
+09:59.000 --> 10:00.000
+Yeah.
+
+10:00.000 --> 10:01.000
+So I had to pay four bucks.
+
+10:01.000 --> 10:03.000
+Maybe it was still 350 there.
+
+10:03.000 --> 10:04.000
+I don't know.
+
+10:04.000 --> 10:05.000
+And I was like this.
+
+10:05.000 --> 10:06.000
+Hongken next to me.
+
+10:06.000 --> 10:07.000
+And I look over on this.
+
+10:07.000 --> 10:11.000
+This little white little
+Japanese thing.
+
+10:11.000 --> 10:12.000
+It was no way.
+
+10:12.000 --> 10:14.000
+It was a Daisy had a hot.
+
+10:14.000 --> 10:15.000
+This is funny.
+
+10:15.000 --> 10:16.000
+She'll be embarrassed.
+
+10:16.000 --> 10:17.000
+Daisy had a hot.
+
+10:17.000 --> 10:18.000
+Pontiac Fero.
+
+10:19.000 --> 10:20.000
+Oh, that's right.
+
+10:20.000 --> 10:21.000
+It was a Pontiac Fero.
+
+10:21.000 --> 10:22.000
+Right.
+
+10:22.000 --> 10:23.000
+Yeah.
+
+10:23.000 --> 10:24.000
+That's right.
+
+10:24.000 --> 10:25.000
+It was white.
+
+10:25.000 --> 10:26.000
+It was white.
+
+10:26.000 --> 10:27.000
+That was.
+
+10:27.000 --> 10:28.000
+That was her weather car.
+
+10:28.000 --> 10:29.000
+Yeah.
+
+10:29.000 --> 10:30.000
+Moved up.
+
+10:30.000 --> 10:31.000
+Right.
+
+10:31.000 --> 10:32.000
+So.
+
+10:32.000 --> 10:33.000
+And then she rolls down the
+window.
+
+10:33.000 --> 10:34.000
+And I'm in the rolls.
+
+10:34.000 --> 10:35.000
+And I rolled down my window.
+
+10:35.000 --> 10:36.000
+She says.
+
+10:36.000 --> 10:37.000
+Pardon me.
+
+10:37.000 --> 10:39.000
+Do you have any gray proposal?
+
+10:39.000 --> 10:41.000
+She thought she was being cute.
+
+10:41.000 --> 10:42.000
+Yeah.
+
+10:42.000 --> 10:43.000
+Well, she was.
+
+10:43.000 --> 10:44.000
+And then I reached over to my
+dashboard.
+
+10:44.000 --> 10:45.000
+Yeah.
+
+10:45.000 --> 10:46.000
+And I pulled out some gray
+proposal.
+
+10:46.000 --> 10:47.000
+But of course.
+
+10:48.000 --> 10:49.000
+That's what made it all the
+funnier.
+
+10:49.000 --> 10:50.000
+She had a jar of it.
+
+10:50.000 --> 10:51.000
+Did there.
+
+10:51.000 --> 10:54.000
+Did you do somebody was going to
+have to say that to you sooner
+or later?
+
+10:54.000 --> 10:55.000
+All right.
+
+10:55.000 --> 10:56.000
+So from Daisy.
+
+10:56.000 --> 10:57.000
+From Daisy.
+
+10:57.000 --> 10:58.000
+From Daisy.
+
+10:58.000 --> 10:59.000
+Carolyn Healthman.
+
+10:59.000 --> 11:00.000
+Yeah.
+
+11:00.000 --> 11:03.000
+She was supposed to be the the
+chicken eggs door from Colorado.
+
+11:03.000 --> 11:05.000
+She came and went pretty quickly
+though.
+
+11:05.000 --> 11:06.000
+She was there for two years.
+
+11:06.000 --> 11:10.000
+And that last year was a
+constant argument between her
+and the powers to be.
+
+11:10.000 --> 11:11.000
+Yeah.
+
+11:11.000 --> 11:12.000
+But it was horrible.
+
+11:12.000 --> 11:16.000
+I felt so bad for her because
+she had thick legs.
+
+11:17.000 --> 11:18.000
+And big hips.
+
+11:18.000 --> 11:19.000
+I'm just being honest.
+
+11:19.000 --> 11:20.000
+You know, she was beautiful.
+
+11:20.000 --> 11:22.000
+She was a beautiful person.
+
+11:22.000 --> 11:24.000
+She was very cute.
+
+11:24.000 --> 11:25.000
+She was big.
+
+11:25.000 --> 11:26.000
+She was big bone to can.
+
+11:26.000 --> 11:27.000
+Now that they wanted.
+
+11:27.000 --> 11:28.000
+They wanted some glam chick.
+
+11:28.000 --> 11:29.000
+And she wasn't.
+
+11:29.000 --> 11:30.000
+No, that's not true.
+
+11:30.000 --> 11:31.000
+They wanted.
+
+11:31.000 --> 11:32.000
+That's not true.
+
+11:32.000 --> 11:33.000
+They wanted to have a girl next
+door.
+
+11:33.000 --> 11:34.000
+And that's totally what she was.
+
+11:34.000 --> 11:35.000
+But then.
+
+11:35.000 --> 11:36.000
+Then they wanted a glam chick.
+
+11:36.000 --> 11:39.000
+And instead of just saying, hey,
+we want a glam chick at the fuck
+out.
+
+11:39.000 --> 11:41.000
+They told her like, oh, you
+know, don't wear this.
+
+11:41.000 --> 11:43.000
+Cause it, you know, you look too
+fat in it.
+
+11:44.000 --> 11:47.000
+I said, I tried to make her
+into, they wouldn't let her wear
+her glasses.
+
+11:47.000 --> 11:48.000
+She had to.
+
+11:48.000 --> 11:50.000
+I felt so bad.
+
+11:50.000 --> 11:53.000
+That was because I, it was kind
+of happening as we were just
+getting there.
+
+11:53.000 --> 11:54.000
+And it was, I got a whiff of
+that.
+
+11:54.000 --> 11:58.000
+And I was like, man, this is
+fucked up.
+
+11:58.000 --> 12:00.000
+She, uh, she was a Colorado
+girl.
+
+12:00.000 --> 12:01.000
+I was like Carolyn.
+
+12:01.000 --> 12:02.000
+I think she went back to
+Colorado.
+
+12:02.000 --> 12:05.000
+And last I heard and last I saw
+an interview.
+
+12:05.000 --> 12:06.000
+She was producing.
+
+12:06.000 --> 12:08.000
+Local television.
+
+12:08.000 --> 12:10.000
+Really sing, not on camera.
+
+12:11.000 --> 12:14.000
+Colorado and was married and had
+kids and is an avid ski bum.
+
+12:14.000 --> 12:15.000
+Yeah, of course she is.
+
+12:15.000 --> 12:16.000
+Yeah.
+
+12:16.000 --> 12:17.000
+Good for her.
+
+12:17.000 --> 12:18.000
+Excellent.
+
+12:18.000 --> 12:20.000
+She came in, did her thing and
+got out.
+
+12:20.000 --> 12:21.000
+And that was it.
+
+12:21.000 --> 12:22.000
+Yeah.
+
+12:22.000 --> 12:23.000
+A New York was not for her.
+
+12:23.000 --> 12:24.000
+It was killing her.
+
+12:24.000 --> 12:25.000
+It was killing her.
+
+12:25.000 --> 12:26.000
+Really cared for New York.
+
+12:26.000 --> 12:28.000
+Hey, look, I only spent a year
+in New York.
+
+12:28.000 --> 12:30.000
+And then moved to fucking
+Jersey.
+
+12:30.000 --> 12:35.000
+I do remember a young, smitten
+Keanu Reeves, though,
+
+12:35.000 --> 12:38.000
+showing up at the studio and
+hanging out with Carolyn.
+
+12:38.000 --> 12:39.000
+Really?
+
+12:39.000 --> 12:40.000
+Yeah.
+
+12:40.000 --> 12:41.000
+Keanu had a crush on Carolyn,
+helping.
+
+12:41.000 --> 12:43.000
+But during that first year.
+
+12:43.000 --> 12:44.000
+Really?
+
+12:44.000 --> 12:45.000
+Oh man.
+
+12:45.000 --> 12:46.000
+It's happened to think of that.
+
+12:46.000 --> 12:47.000
+Forgot about that.
+
+12:47.000 --> 12:48.000
+Interesting.
+
+12:48.000 --> 12:50.000
+He has a new movie out doesn't
+he?
+
+12:50.000 --> 12:51.000
+Keanu?
+
+12:51.000 --> 12:52.000
+Keanu.
+
+12:52.000 --> 12:53.000
+I don't know.
+
+12:53.000 --> 13:00.000
+He was at the, uh, at the
+Baptist, the British Academy
+film awards.
+
+13:00.000 --> 13:03.000
+And he was being like, I'll
+trippy.
+
+13:03.000 --> 13:05.000
+I don't know what I make of him.
+
+13:05.000 --> 13:07.000
+Sometimes I say movies and I
+really like him.
+
+13:07.000 --> 13:08.000
+Sometimes.
+
+13:08.000 --> 13:11.000
+Sometimes I say movies, but in
+real life he's kind of weird.
+
+13:11.000 --> 13:13.000
+We talked about Kevin last time.
+
+13:13.000 --> 13:14.000
+I think Kevin, the whole thing.
+
+13:14.000 --> 13:16.000
+And he's back in Seattle when
+he's married.
+
+13:16.000 --> 13:18.000
+And I think pursuing
+engineering.
+
+13:18.000 --> 13:19.000
+Right.
+
+13:19.000 --> 13:23.000
+He was being built, nuclear, a
+nuclear facility or a bridge or
+something.
+
+13:23.000 --> 13:24.000
+Your facilities are bridges.
+
+13:24.000 --> 13:26.000
+I can't remember which.
+
+13:26.000 --> 13:28.000
+You know, I was waiting for easy
+jet.
+
+13:28.000 --> 13:32.000
+They, of course, they were
+delayed with that's part of the
+charm.
+
+13:32.000 --> 13:34.000
+Not like, I tried to record it
+with myself.
+
+13:34.000 --> 13:35.000
+I didn't catch it.
+
+13:35.000 --> 13:40.000
+Like, three times they
+announced, will the atomic
+physicists translate
+
+13:40.000 --> 13:42.000
+Amsterdam on easy jet?
+
+13:42.000 --> 13:43.000
+Easy, why?
+
+13:43.000 --> 13:46.000
+If I won one one, please contact
+our company.
+
+13:46.000 --> 13:48.000
+You could use some assistance.
+
+13:48.000 --> 13:51.000
+Like, will the atomic
+physicists?
+
+13:51.000 --> 13:55.000
+He was trying to figure out how
+to tighten the rubber band back
+up.
+
+13:55.000 --> 13:57.000
+It must have been a joke.
+
+13:57.000 --> 13:58.000
+They do it three times.
+
+13:58.000 --> 13:59.000
+It was great.
+
+13:59.000 --> 14:00.000
+That was great.
+
+14:00.000 --> 14:01.000
+All right.
+
+14:01.000 --> 14:03.000
+Back to MTV's slime.
+
+14:03.000 --> 14:04.000
+This is a part two.
+
+14:04.000 --> 14:05.000
+We're the way boon units.
+
+14:05.000 --> 14:06.000
+Oh my goodness.
+
+14:06.000 --> 14:07.000
+Yes.
+
+14:07.000 --> 14:08.000
+Yes.
+
+14:08.000 --> 14:11.000
+We've got about very regularly
+during that period of time.
+
+14:11.000 --> 14:12.000
+Dweezle and moon unit.
+
+14:12.000 --> 14:13.000
+Right.
+
+14:13.000 --> 14:14.000
+Oh, they were really nice.
+
+14:14.000 --> 14:17.000
+I always really liked moon unit.
+
+14:17.000 --> 14:18.000
+I dug moon.
+
+14:18.000 --> 14:20.000
+I thought you was really cool.
+
+14:20.000 --> 14:22.000
+Dweezle, I can't say I didn't
+like.
+
+14:22.000 --> 14:23.000
+Dweezle was just so...
+
+14:23.000 --> 14:24.000
+He was out of his mind.
+
+14:24.000 --> 14:25.000
+He was in New York.
+
+14:25.000 --> 14:27.000
+He was in the chicks and drugs.
+
+14:27.000 --> 14:30.000
+And he was totally living rock
+and roll.
+
+14:30.000 --> 14:31.000
+My mic sound.
+
+14:31.000 --> 14:32.000
+Yeah.
+
+14:32.000 --> 14:33.000
+I'm not sure.
+
+14:33.000 --> 14:34.000
+He's only where he was at the
+time.
+
+14:34.000 --> 14:35.000
+No.
+
+14:35.000 --> 14:36.000
+No.
+
+14:36.000 --> 14:37.000
+He probably did.
+
+14:37.000 --> 14:40.000
+And it was during that same
+period of time that China can't.
+
+14:40.000 --> 14:42.000
+They're gray slick and Paul
+canner's daughter.
+
+14:42.000 --> 14:45.000
+Guess VJ every summer for like
+three years there.
+
+14:45.000 --> 14:46.000
+Yep.
+
+14:46.000 --> 14:47.000
+And remember China?
+
+14:47.000 --> 14:48.000
+Yep.
+
+14:48.000 --> 14:49.000
+I do remember that.
+
+14:49.000 --> 14:54.000
+Because I know it's probably 14,
+15 years old when she first
+walked in the door and started
+
+14:54.000 --> 14:55.000
+doing summers.
+
+14:55.000 --> 14:59.000
+And the thing with China, first
+of all, her mom was nuts.
+
+15:00.000 --> 15:02.000
+China was a sweet, relatively
+unaffected.
+
+15:02.000 --> 15:03.000
+Yes.
+
+15:03.000 --> 15:04.000
+Yeah.
+
+15:04.000 --> 15:05.000
+But her mom was nuts.
+
+15:05.000 --> 15:06.000
+Her dad was nuts.
+
+15:06.000 --> 15:07.000
+And they would cross by.
+
+15:07.000 --> 15:08.000
+All up all the time.
+
+15:08.000 --> 15:10.000
+And I got to talk to Grace.
+
+15:10.000 --> 15:11.000
+For hours.
+
+15:11.000 --> 15:12.000
+For hours.
+
+15:12.000 --> 15:13.000
+For hours.
+
+15:13.000 --> 15:15.000
+You were talking to Grace Slick
+for hours.
+
+15:15.000 --> 15:16.000
+Love Grace.
+
+15:16.000 --> 15:17.000
+She was wacky.
+
+15:17.000 --> 15:18.000
+She was out of her mind.
+
+15:18.000 --> 15:19.000
+Yeah.
+
+15:19.000 --> 15:20.000
+But she was very sweet and very
+nice.
+
+15:20.000 --> 15:24.000
+And kind of like they're both
+like Drew Barrymore kind of
+people.
+
+15:24.000 --> 15:25.000
+Yeah.
+
+15:25.000 --> 15:26.000
+You know what I mean?
+
+15:26.000 --> 15:28.000
+She ended up a potty mouth.
+
+15:28.000 --> 15:29.000
+Yeah.
+
+15:29.000 --> 15:31.000
+And she had Steve.
+
+15:31.000 --> 15:35.000
+Now, Kain and Littman were the
+George Michaels managers at the
+time.
+
+15:35.000 --> 15:40.000
+And this was big fucking, you
+know, shaking your butt.
+
+15:40.000 --> 15:44.000
+George Michael, mega, mega fame
+days.
+
+15:44.000 --> 15:48.000
+And she was all his hanging out
+with George Michael.
+
+15:48.000 --> 15:51.000
+So how he was pretending not to
+be gay.
+
+15:51.000 --> 15:52.000
+That was the big secret.
+
+15:52.000 --> 15:56.000
+I think last week you asked me
+about Bernsey, who first.
+
+15:56.000 --> 15:59.000
+The number of years answered the
+phones there at the MTV studio.
+
+15:59.000 --> 16:00.000
+Yeah.
+
+16:00.000 --> 16:05.000
+George Michael, we want your sex
+was the I want your sex hit of
+the week.
+
+16:05.000 --> 16:06.000
+Yeah.
+
+16:06.000 --> 16:07.000
+I want your sex.
+
+16:07.000 --> 16:11.000
+Bernsey got in trouble on
+numerous occasions by the
+management for picking up the
+phone
+
+16:11.000 --> 16:12.000
+and saying hello.
+
+16:12.000 --> 16:13.000
+MTV.
+
+16:13.000 --> 16:15.000
+We want your sex.
+
+16:15.000 --> 16:18.000
+Those are the days that we do
+before John.
+
+16:18.000 --> 16:19.000
+And he had to.
+
+16:19.000 --> 16:20.000
+Yeah.
+
+16:20.000 --> 16:21.000
+Had to.
+
+16:21.000 --> 16:22.000
+Of course.
+
+16:22.000 --> 16:24.000
+Somebody got that complaint.
+
+16:24.000 --> 16:25.000
+Those were the days.
+
+16:25.000 --> 16:29.000
+When I look at MTV now and I see
+that studio overlooking Times
+Square.
+
+16:29.000 --> 16:34.000
+It's not somehow, you know, the
+whole vibe of sitting in the
+fucking basement, which really
+was,
+
+16:34.000 --> 16:36.000
+even though it wasn't a
+basement, we were next door to
+it.
+
+16:36.000 --> 16:37.000
+We were on the ground floor.
+
+16:37.000 --> 16:38.000
+Yes.
+
+16:38.000 --> 16:40.000
+In the balls of a big brick
+building.
+
+16:40.000 --> 16:41.000
+Right.
+
+16:41.000 --> 16:42.000
+No signage out front.
+
+16:42.000 --> 16:46.000
+Next to Sally Jesse Raphael and
+all her degenerates walking down
+the hallway.
+
+16:46.000 --> 16:49.000
+On 57th, we had CBS Street.
+
+16:49.000 --> 16:50.000
+Yeah.
+
+16:50.000 --> 16:52.000
+No one knew that that's where
+MTV was.
+
+16:52.000 --> 16:53.000
+That was a great thing.
+
+16:54.000 --> 16:56.000
+We had the biggest rock stars in
+and out of there.
+
+16:56.000 --> 16:57.000
+No one ever knew.
+
+16:57.000 --> 16:58.000
+No spark.
+
+16:58.000 --> 16:59.000
+Nobody knew where it was.
+
+16:59.000 --> 17:00.000
+And no one was that.
+
+17:00.000 --> 17:04.000
+The only thing that was near
+there was the Rolls dealership,
+which is how I got trapped.
+
+17:04.000 --> 17:06.000
+There was nothing to him.
+
+17:06.000 --> 17:08.000
+What was the name of that dyno?
+
+17:08.000 --> 17:10.000
+We'd always go to it on the
+corner.
+
+17:10.000 --> 17:11.000
+Oh, God.
+
+17:11.000 --> 17:12.000
+No.
+
+17:12.000 --> 17:13.000
+The oldest grace.
+
+17:13.000 --> 17:14.000
+No.
+
+17:14.000 --> 17:15.000
+The great.
+
+17:15.000 --> 17:16.000
+The flame.
+
+17:16.000 --> 17:17.000
+The grace was by on Ram.
+
+17:17.000 --> 17:18.000
+Yeah.
+
+17:18.000 --> 17:19.000
+Wasn't the grace?
+
+17:19.000 --> 17:20.000
+Yeah.
+
+17:20.000 --> 17:21.000
+Wasn't that.
+
+17:21.000 --> 17:22.000
+It was the flame.
+
+17:22.000 --> 17:23.000
+I don't remember.
+
+17:23.000 --> 17:24.000
+And there was a way.
+
+17:24.000 --> 17:25.000
+But there was Tony's Delhi.
+
+17:25.000 --> 17:26.000
+It was next door, right?
+
+17:26.000 --> 17:28.000
+Tony's Delhi was the little.
+
+17:28.000 --> 17:29.000
+Yeah.
+
+17:29.000 --> 17:31.000
+I wonder if he's still there.
+
+17:31.000 --> 17:32.000
+Tony is.
+
+17:32.000 --> 17:33.000
+I think not.
+
+17:33.000 --> 17:36.000
+I haven't been down that block
+in a long time.
+
+17:36.000 --> 17:37.000
+But you'll see.
+
+17:37.000 --> 17:40.000
+When was the last time you were
+roaming around Manhattan?
+
+17:40.000 --> 17:42.000
+Dude, it was before 9.11.
+
+17:42.000 --> 17:44.000
+You're going to trip.
+
+17:44.000 --> 17:49.000
+I mean, if you just go anywhere
+near like the whole time square
+42nd Street.
+
+17:49.000 --> 17:50.000
+It's Disneyland.
+
+17:50.000 --> 17:51.000
+It's like a whole new city.
+
+17:51.000 --> 17:52.000
+Is it like Disneyland?
+
+17:52.000 --> 17:53.000
+It's cool.
+
+17:53.000 --> 17:54.000
+I mean, I'm like Tokyo.
+
+17:54.000 --> 17:55.000
+It's like like Tokyo.
+
+17:55.000 --> 17:58.000
+I go back as frequently as I
+can.
+
+17:58.000 --> 18:05.000
+But yes, time square is is, you
+know, when I first got to New
+York in 84 times square
+
+18:05.000 --> 18:08.000
+was, you know, prostitutes and
+drug dealers.
+
+18:08.000 --> 18:09.000
+That was cool.
+
+18:09.000 --> 18:11.000
+And it was cool.
+
+18:11.000 --> 18:15.000
+And then Patricia and I would
+walk in the middle of the night
+to light FM to go see
+
+18:15.000 --> 18:18.000
+Rick as she flash your boots,
+which was a right on time
+square.
+
+18:18.000 --> 18:21.000
+We do that at like one o'clock
+in the morning.
+
+18:21.000 --> 18:25.000
+You remember when Rick was, was
+that when Rick was DJing there?
+
+18:25.000 --> 18:26.000
+Yeah.
+
+18:26.000 --> 18:28.000
+He probably still is somewhere,
+right?
+
+18:28.000 --> 18:31.000
+You know that he's, he's Rick
+come on the audio guy.
+
+18:31.000 --> 18:36.000
+He was basically any light FM
+station you hear with that guy
+in the middle of the night.
+
+18:36.000 --> 18:37.000
+That's Rick.
+
+18:37.000 --> 18:40.000
+Well, and the funny thing is
+Rick didn't sound like that in
+person.
+
+18:40.000 --> 18:41.000
+No.
+
+18:41.000 --> 18:42.000
+And you could do anything.
+
+18:42.000 --> 18:45.000
+You first guy and he'd get in
+there and it would be like the
+light at the end.
+
+18:45.000 --> 18:46.000
+Yeah.
+
+18:47.000 --> 18:48.000
+And you could do anything.
+
+18:48.000 --> 18:49.000
+You call him up.
+
+18:49.000 --> 18:51.000
+You call him up on the hot line
+and you be talking right.
+
+18:51.000 --> 18:54.000
+And like, and you go, you have
+to go, I'm smoking a joint.
+
+18:54.000 --> 18:55.000
+No.
+
+18:55.000 --> 18:56.000
+No.
+
+18:56.000 --> 18:57.000
+No.
+
+18:57.000 --> 18:58.000
+Yeah.
+
+18:58.000 --> 19:00.000
+We got to set coming up here.
+
+19:00.000 --> 19:03.000
+And then we, WLTW, let FM.
+
+19:03.000 --> 19:04.000
+Yeah.
+
+19:04.000 --> 19:07.000
+He would never crack.
+
+19:07.000 --> 19:08.000
+I was fucking great.
+
+19:08.000 --> 19:10.000
+Then they put in that whole
+computer system.
+
+19:10.000 --> 19:13.000
+Like the entire day was wrapped
+up automatically and computers.
+
+19:13.000 --> 19:17.000
+You didn't have to do anything
+but sit there and talk every few
+seconds.
+
+19:17.000 --> 19:21.000
+And enter the beginnings of the
+need for podcasting my friend.
+
+19:21.000 --> 19:23.000
+Exactly.
+
+19:23.000 --> 19:25.000
+I haven't heard the new kind of
+in the script show.
+
+19:25.000 --> 19:27.000
+By the way, haven't heard it
+yet.
+
+19:27.000 --> 19:29.000
+The Valentine's Day show.
+
+19:29.000 --> 19:31.000
+I did hear the Valentine's Day
+show.
+
+19:31.000 --> 19:32.000
+I did.
+
+19:32.000 --> 19:33.000
+Half of it.
+
+19:33.000 --> 19:34.000
+I've heard.
+
+19:34.000 --> 19:35.000
+Okay.
+
+19:35.000 --> 19:36.000
+It went this morning.
+
+19:36.000 --> 19:37.000
+And you know what?
+
+19:37.000 --> 19:38.000
+We were stationary.
+
+19:38.000 --> 19:39.000
+We didn't travel anywhere.
+
+19:39.000 --> 19:40.000
+Nothing complicated.
+
+19:40.000 --> 19:41.000
+No.
+
+19:41.000 --> 19:42.000
+I heard the promo.
+
+19:43.000 --> 19:44.000
+Okay.
+
+19:44.000 --> 19:45.000
+Yeah.
+
+19:45.000 --> 19:46.000
+Just a little.
+
+19:46.000 --> 19:48.000
+I just want to curse Don and
+Drew for a second.
+
+19:48.000 --> 19:50.000
+I have to curse them.
+
+19:50.000 --> 19:53.000
+Because I got the today show.
+
+19:53.000 --> 19:57.000
+And I, you know, it came in just
+as I was leaving for the
+airport.
+
+19:57.000 --> 20:00.000
+Right after I skype you, like,
+you're a fool.
+
+20:00.000 --> 20:01.000
+And.
+
+20:01.000 --> 20:03.000
+730 in the morning.
+
+20:03.000 --> 20:04.000
+And so I'm.
+
+20:04.000 --> 20:06.000
+So yeah, this is like three.
+
+20:06.000 --> 20:08.000
+It's like 430 my time.
+
+20:08.000 --> 20:09.000
+And so I'm ready.
+
+20:09.000 --> 20:11.000
+You know, the taxi's almost in
+front of the door.
+
+20:11.000 --> 20:13.000
+Toon is home.
+
+20:13.000 --> 20:15.000
+I'm leaving.
+
+20:15.000 --> 20:16.000
+Sorry.
+
+20:16.000 --> 20:17.000
+And.
+
+20:17.000 --> 20:20.000
+So I'm listening to Don and Drew
+on the way to the airport.
+
+20:20.000 --> 20:24.000
+And, and I hear them say, like,
+well, you know, because it's
+show number 68.
+
+20:24.000 --> 20:26.000
+We want to do 69 on Valentine's
+Day.
+
+20:26.000 --> 20:29.000
+And you have to take, it's a
+brilliant idea, by the way.
+
+20:29.000 --> 20:31.000
+You have to take the survey on
+the site.
+
+20:31.000 --> 20:34.000
+And then you get the secret
+hidden link to show number 69,
+which is.
+
+20:34.000 --> 20:38.000
+Completely foul mouth just weird
+ass.
+
+20:38.000 --> 20:40.000
+But, you know, so I'm sitting on
+the plane the whole way.
+
+20:40.000 --> 20:41.000
+I think, and we had a delay.
+
+20:41.000 --> 20:44.000
+Like, oh, man, I could have been
+listening to show 69.
+
+20:44.000 --> 20:45.000
+Swallow.
+
+20:45.000 --> 20:46.000
+Swallow.
+
+20:46.000 --> 20:47.000
+Baby, where are you?
+
+20:47.000 --> 20:48.000
+And so I curse you.
+
+20:48.000 --> 20:51.000
+You actually like the idea of
+having to go do a quiz.
+
+20:51.000 --> 20:52.000
+Great idea.
+
+20:52.000 --> 20:53.000
+I was blown away.
+
+20:53.000 --> 20:54.000
+And it's all these questions.
+
+20:54.000 --> 20:55.000
+Like, who do you love more?
+
+20:55.000 --> 20:57.000
+Don, Drew, myself or God?
+
+20:57.000 --> 20:58.000
+Yeah.
+
+20:58.000 --> 20:59.000
+It's like perfect.
+
+20:59.000 --> 21:00.000
+Yeah.
+
+21:00.000 --> 21:01.000
+That was a great idea.
+
+21:01.000 --> 21:05.000
+Those guys are smart and
+talented and funny.
+
+21:05.000 --> 21:08.000
+I love them.
+
+21:08.000 --> 21:09.000
+Okay.
+
+21:09.000 --> 21:13.000
+So, we've got to do some more
+here.
+
+21:13.000 --> 21:18.000
+Who else do we have?
+
+21:18.000 --> 21:20.000
+Andrew Datto.
+
+21:20.000 --> 21:23.000
+The great white hope from Dan.
+
+21:23.000 --> 21:25.000
+He was very cool.
+
+21:25.000 --> 21:27.000
+Very oblivious to everything
+that was going on.
+
+21:27.000 --> 21:29.000
+He just came in and did his
+thing.
+
+21:29.000 --> 21:31.000
+Andrew was very cool.
+
+21:31.000 --> 21:33.000
+And I think only there for what
+a couple of years.
+
+21:33.000 --> 21:36.000
+But there was friction between
+him and I.
+
+21:36.000 --> 21:37.000
+There was friction.
+
+21:37.000 --> 21:38.000
+It wasn't between.
+
+21:38.000 --> 21:41.000
+It wasn't because, you know, we
+had a problem with one of the
+other.
+
+21:41.000 --> 21:42.000
+But I never knew that.
+
+21:42.000 --> 21:43.000
+Yeah.
+
+21:43.000 --> 21:44.000
+There was a little bit of
+friction.
+
+21:44.000 --> 21:48.000
+But it wasn't really like, um,
+not that we didn't like each
+other.
+
+21:48.000 --> 21:51.000
+It was friction like because
+they, they'd fuck around with
+everything.
+
+21:51.000 --> 21:52.000
+Okay.
+
+21:52.000 --> 21:55.000
+Now, let's, Andrew's going to do
+headbangers ball and then he'll
+do this.
+
+21:55.000 --> 21:57.000
+So he's basically doing all my
+shows.
+
+21:57.000 --> 21:58.000
+Of course, they were testing him
+out.
+
+21:58.000 --> 22:01.000
+But, you know, it was weird
+between the two of us.
+
+22:01.000 --> 22:03.000
+He knew it was going on.
+
+22:03.000 --> 22:04.000
+Trying to shake things.
+
+22:04.000 --> 22:05.000
+Oh, God.
+
+22:05.000 --> 22:08.000
+Because I haven't my list of
+people that came in around that
+same time.
+
+22:08.000 --> 22:13.000
+Were the pair of Jonathan
+Solomon and Lisa Edelstein awake
+on the wild side.
+
+22:13.000 --> 22:15.000
+Oh, my goodness.
+
+22:15.000 --> 22:17.000
+With the fucking with the
+breakfast set?
+
+22:17.000 --> 22:18.000
+Yeah.
+
+22:18.000 --> 22:22.000
+Several set pieces of which
+still grace my living room and
+everybody always comments on
+them.
+
+22:22.000 --> 22:23.000
+Dude, do you remember?
+
+22:23.000 --> 22:24.000
+Okay.
+
+22:24.000 --> 22:25.000
+Here's one for you.
+
+22:25.000 --> 22:30.000
+So in the early days, I'm
+talking 88, 89 from me early
+days.
+
+22:30.000 --> 22:31.000
+Okay.
+
+22:31.000 --> 22:35.000
+That's when Sam's set we still
+had, which was like the Sam's
+diner.
+
+22:35.000 --> 22:36.000
+Sam's diner, right?
+
+22:36.000 --> 22:39.000
+And then we had the the booth.
+
+22:39.000 --> 22:40.000
+Right.
+
+22:40.000 --> 22:42.000
+And then so this was this
+theater seats.
+
+22:42.000 --> 22:43.000
+Right.
+
+22:43.000 --> 22:44.000
+Right.
+
+22:44.000 --> 22:45.000
+That was a stairway.
+
+22:45.000 --> 22:46.000
+That was a really cool set.
+
+22:46.000 --> 22:49.000
+So this is the height of MTV
+exploding creativity.
+
+22:49.000 --> 22:52.000
+We were just breaking through on
+the 40 million households.
+
+22:52.000 --> 22:53.000
+Cable was popping wide open.
+
+22:53.000 --> 22:54.000
+It was a big deal.
+
+22:54.000 --> 22:59.000
+And all of a sudden, all these
+idiot motherfuckers would come
+through and change everything.
+
+22:59.000 --> 23:04.000
+Come with this great new
+concepts to shake things up a
+little bit.
+
+23:04.000 --> 23:10.000
+And at one point, we had this
+set designer who for an exor,
+
+23:10.000 --> 23:16.000
+I'm sure was an exorbitant
+amount of money created the sand
+set.
+
+23:16.000 --> 23:17.000
+Oh my god.
+
+23:17.000 --> 23:19.000
+Let's just bring it back.
+
+23:19.000 --> 23:22.000
+Everybody come to sleep for a
+second.
+
+23:22.000 --> 23:24.000
+Do you remember that dude?
+
+23:24.000 --> 23:25.000
+Well, it was a nightmare.
+
+23:25.000 --> 23:26.000
+But I don't remember what
+happened.
+
+23:26.000 --> 23:28.000
+Didn't it involve sand and like
+gallons and gallons?
+
+23:28.000 --> 23:29.000
+That's glue.
+
+23:29.000 --> 23:32.000
+And it was sand.
+
+23:32.000 --> 23:33.000
+Everything.
+
+23:33.000 --> 23:37.000
+It was like a couch and a chair
+and all covered with glue.
+
+23:37.000 --> 23:38.000
+It was sand.
+
+23:38.000 --> 23:39.000
+Totally.
+
+23:39.000 --> 23:40.000
+Forgot that's right.
+
+23:40.000 --> 23:41.000
+They covered all this furniture.
+
+23:41.000 --> 23:43.000
+They like dipped the shit and
+glue.
+
+23:43.000 --> 23:44.000
+And then just cut off the sand.
+
+23:44.000 --> 23:45.000
+So stupid.
+
+23:45.000 --> 23:46.000
+Oh, you'd sit on it.
+
+23:46.000 --> 23:48.000
+No, this sand and shit was.
+
+23:48.000 --> 23:49.000
+That's right.
+
+23:49.000 --> 23:50.000
+And that's right.
+
+23:50.000 --> 23:51.000
+You would have to.
+
+23:51.000 --> 23:55.000
+And it was like, I think at one
+point, Julie revolted and would
+know and refuse to sit on
+
+23:55.000 --> 23:56.000
+sand set.
+
+23:57.000 --> 23:59.000
+I'm not sitting on that fucking
+thing.
+
+23:59.000 --> 24:00.000
+Yeah.
+
+24:00.000 --> 24:02.000
+The sand might get a lot of hair
+and kiss me puns.
+
+24:02.000 --> 24:06.000
+We're like too old.
+
+24:06.000 --> 24:07.000
+Whatever.
+
+24:07.000 --> 24:09.000
+I think of Julie yelling out of
+the make-up room.
+
+24:09.000 --> 24:11.000
+They'd say, we're ready for you
+on the set, Julie.
+
+24:11.000 --> 24:13.000
+And you'd hear her yell down the
+hall.
+
+24:13.000 --> 24:14.000
+Right.
+
+24:14.000 --> 24:16.000
+I'm just rinsing me, no need.
+
+24:16.000 --> 24:19.000
+Just rinsing me.
+
+24:19.000 --> 24:21.000
+Oh my goodness.
+
+24:21.000 --> 24:22.000
+Oh my.
+
+24:22.000 --> 24:23.000
+Yeah.
+
+24:23.000 --> 24:24.000
+So there's a great period of
+time.
+
+24:24.000 --> 24:26.000
+We're Julie was dating Billy
+Idol.
+
+24:26.000 --> 24:28.000
+That was fodder for all sorts.
+
+24:28.000 --> 24:29.000
+That was.
+
+24:29.000 --> 24:30.000
+Yeah.
+
+24:30.000 --> 24:31.000
+That was pretty funny.
+
+24:31.000 --> 24:34.000
+That was Billy was big on MTV at
+the time and he was up there.
+
+24:34.000 --> 24:35.000
+He was huge.
+
+24:35.000 --> 24:36.000
+He was huge.
+
+24:36.000 --> 24:37.000
+Yeah.
+
+24:37.000 --> 24:38.000
+Oh, yeah, boy.
+
+24:38.000 --> 24:39.000
+Billy had the best work.
+
+24:39.000 --> 24:40.000
+There was some great.
+
+24:40.000 --> 24:43.000
+And Julie wasn't that big apart
+really.
+
+24:43.000 --> 24:44.000
+No.
+
+24:44.000 --> 24:47.000
+I think had to put up with some
+serious shenanigans.
+
+24:47.000 --> 24:50.000
+Let's see who else is on my
+list.
+
+24:50.000 --> 24:53.000
+Well, Ricky Rackman, who came in
+when you stopped doing head
+bangers.
+
+24:53.000 --> 24:54.000
+You were just doing.
+
+24:54.000 --> 24:57.000
+I think dial MTV and the top 20
+video count down at the point.
+
+24:57.000 --> 24:58.000
+Right.
+
+24:58.000 --> 25:00.000
+Rackman came in to do head
+bangers ball.
+
+25:00.000 --> 25:01.000
+Right.
+
+25:01.000 --> 25:02.000
+I think people liked Ricky as
+well.
+
+25:02.000 --> 25:07.000
+Well, the reason what happened
+was that tattooed Narlie had
+been.
+
+25:07.000 --> 25:08.000
+Right.
+
+25:08.000 --> 25:12.000
+Well, no, but at that point at
+that point in time, he was a
+co-owner.
+
+25:12.000 --> 25:14.000
+I think of the cat house in LA.
+
+25:14.000 --> 25:15.000
+Yeah.
+
+25:15.000 --> 25:21.000
+And that was where Guns and
+Roses or specifically Axle Rose
+would hang out a lot.
+
+25:21.000 --> 25:23.000
+And so he was buddies with Axle.
+
+25:23.000 --> 25:26.000
+And that is pretty much what got
+him the gig.
+
+25:26.000 --> 25:29.000
+And honestly, he was right in
+the middle of that scene.
+
+25:29.000 --> 25:33.000
+And he was kind of right for the
+LA hairband rock scene.
+
+25:33.000 --> 25:36.000
+But not for what he was
+pretending to be.
+
+25:36.000 --> 25:41.000
+I mean, I was, even though I was
+a fucking poser and had just a
+whole bunch of pretty
+
+25:41.000 --> 25:43.000
+leather jackets and attitude.
+
+25:43.000 --> 25:44.000
+I bought it for leather jacket.
+
+25:44.000 --> 25:47.000
+I really was always into the
+music.
+
+25:47.000 --> 25:48.000
+You know, I really was.
+
+25:48.000 --> 25:52.000
+And in the beginning, I know a
+lot of guys that would come on
+on the head bangers ball
+
+25:52.000 --> 25:54.000
+and go like, oh, dude, like, you
+really care.
+
+25:54.000 --> 25:56.000
+I was like, yeah, I'm totally
+into this shit.
+
+25:56.000 --> 25:58.000
+But I could also digs in the
+other stuff.
+
+25:58.000 --> 26:02.000
+You know, but we're friends with
+like the guys and deaf leopard
+and stuff.
+
+26:02.000 --> 26:05.000
+And Ricky was hanging out with
+Molly crew and Guns and Roses.
+
+26:05.000 --> 26:10.000
+And it was a period of time when
+LA, you know, that metal scene
+was all that.
+
+26:10.000 --> 26:12.000
+And Ricky was right in the thick
+of it.
+
+26:12.000 --> 26:16.000
+So years later, when we had the
+office in Los Angeles,
+
+26:16.000 --> 26:20.000
+Ken, I bumped into Ricky Rackman
+at the airport at LAX.
+
+26:20.000 --> 26:24.000
+And he was, say, it's what you
+do, man.
+
+26:24.000 --> 26:26.000
+And he said, wow, you know, I
+took my company public, like,
+fuck you,
+
+26:26.000 --> 26:28.000
+Rackman.
+
+26:28.000 --> 26:30.000
+Like, it's like my company
+public.
+
+26:30.000 --> 26:31.000
+And I'm like, fuck it.
+
+26:31.000 --> 26:32.000
+It's some set man.
+
+26:32.000 --> 26:33.000
+Look at me.
+
+26:33.000 --> 26:34.000
+I'm wearing a suit.
+
+26:34.000 --> 26:35.000
+Yeah.
+
+26:35.000 --> 26:40.000
+And, and Ricky's like, yeah, you
+know, this is a manager now.
+
+26:40.000 --> 26:41.000
+I'm managing her.
+
+26:41.000 --> 26:43.000
+It's like porn star.
+
+26:44.000 --> 26:48.000
+And at that point, I thought,
+man, your job don't suck.
+
+26:48.000 --> 26:49.000
+Yeah.
+
+26:49.000 --> 26:50.000
+Well, yeah.
+
+26:50.000 --> 26:54.000
+But I mean, you know, what would
+a former metal people do in LA?
+
+26:54.000 --> 26:55.000
+Yeah.
+
+26:55.000 --> 26:56.000
+Hook up with porn stars.
+
+26:56.000 --> 26:59.000
+It's Molly crew was not back
+together in hot again.
+
+26:59.000 --> 27:00.000
+Yeah.
+
+27:00.000 --> 27:02.000
+What the hell would Vince Neil
+be doing?
+
+27:02.000 --> 27:04.000
+Right on.
+
+27:04.000 --> 27:06.000
+What was he managing a strip
+club or something?
+
+27:06.000 --> 27:10.000
+See how I'd do that until
+they're getting fat.
+
+27:11.000 --> 27:13.000
+There was a TV show on this
+year.
+
+27:13.000 --> 27:14.000
+It was a riot.
+
+27:14.000 --> 27:15.000
+I can't remember what channel it
+was on.
+
+27:15.000 --> 27:17.000
+It may have been like the
+learning channel or something.
+
+27:17.000 --> 27:20.000
+But it was a complete physical
+makeover.
+
+27:20.000 --> 27:24.000
+And every week, I don't, it's
+usually not a celebrity, but
+they were doing it.
+
+27:24.000 --> 27:30.000
+It was probably about four or
+five, six months before Molly
+crew announced they were back
+together and going out in the
+road.
+
+27:30.000 --> 27:36.000
+And it was a complete physical
+makeover of Vince Neil over a
+period of, like, four or five
+months.
+
+27:36.000 --> 27:37.000
+Really?
+
+27:37.000 --> 27:39.000
+And he had, like, plastic
+surgery.
+
+27:39.000 --> 27:40.000
+He started drinking.
+
+27:40.000 --> 27:41.000
+He got a personal trainer.
+
+27:41.000 --> 27:43.000
+He went to vocal coaching.
+
+27:43.000 --> 27:44.000
+Freaks.
+
+27:44.000 --> 27:45.000
+Style is hair cutters.
+
+27:45.000 --> 27:46.000
+I mean, they fought.
+
+27:46.000 --> 27:48.000
+They filmed the whole thing for
+reality show.
+
+27:48.000 --> 27:49.000
+Oh, yeah.
+
+27:49.000 --> 27:50.000
+Totally.
+
+27:50.000 --> 27:53.000
+I mean, he looked like hell when
+he walked in the door.
+
+27:53.000 --> 27:55.000
+It was like, that's Vince Neil.
+
+27:55.000 --> 27:56.000
+Oh, my God.
+
+27:56.000 --> 27:59.000
+And by the time it was done, he
+did it.
+
+27:59.000 --> 28:02.000
+He was doing a solo set at the
+hard rock in Vegas.
+
+28:02.000 --> 28:03.000
+And he had a shit together.
+
+28:03.000 --> 28:06.000
+It looked like Vince Neil was
+totally back.
+
+28:06.000 --> 28:08.000
+And then he was a few minutes
+after that.
+
+28:08.000 --> 28:09.000
+They're crewing out.
+
+28:09.000 --> 28:10.000
+They were going back on the
+road.
+
+28:10.000 --> 28:12.000
+So unfucking believable.
+
+28:12.000 --> 28:16.000
+Although I'm not sure about the
+drinking because he's already
+been arrested once on the tour
+
+28:16.000 --> 28:18.000
+for pounding the daylight side
+of somebody.
+
+28:18.000 --> 28:22.000
+He is a baby party and just a
+little bit of a kid.
+
+28:22.000 --> 28:26.000
+I can't imagine the crew on the
+road without partying.
+
+28:26.000 --> 28:28.000
+So let me see.
+
+28:28.000 --> 28:30.000
+Do you remember curry?
+
+28:30.000 --> 28:32.000
+You know, I really like curry.
+
+28:32.000 --> 28:33.000
+I really did too.
+
+28:33.000 --> 28:35.000
+I, you know, I liked her.
+
+28:35.000 --> 28:36.000
+She was cool.
+
+28:36.000 --> 28:38.000
+And then when she got her
+breast, she was even better.
+
+28:38.000 --> 28:40.000
+Well, she came from remote
+control.
+
+28:40.000 --> 28:43.000
+Curry started on remote control
+with Ken Ober.
+
+28:43.000 --> 28:45.000
+Ken Ober, Colin Quinn.
+
+28:45.000 --> 28:48.000
+Curry were Adam Sandler.
+
+28:48.000 --> 28:49.000
+Yeah.
+
+28:49.000 --> 28:50.000
+Dude.
+
+28:50.000 --> 28:52.000
+He was on the channel all the
+time.
+
+28:52.000 --> 28:53.000
+Yeah.
+
+28:53.000 --> 28:54.000
+I mean, it's amazing.
+
+28:54.000 --> 28:56.000
+He got a lot of support from a
+TV.
+
+28:56.000 --> 28:59.000
+But yeah, curry was really,
+really funny.
+
+28:59.000 --> 29:02.000
+And went on to make a bunch of
+pretty good.
+
+29:03.000 --> 29:06.000
+Well, she made a bunch of like,
+big, great horror movies.
+
+29:06.000 --> 29:09.000
+But they were like, good, big,
+great horror movies.
+
+29:09.000 --> 29:10.000
+Yeah.
+
+29:10.000 --> 29:12.000
+She'd like really got maimed and
+killed and stuff.
+
+29:12.000 --> 29:13.000
+It was good.
+
+29:13.000 --> 29:14.000
+But she was sexy.
+
+29:14.000 --> 29:17.000
+You know, she was played like a
+scientist too.
+
+29:17.000 --> 29:18.000
+Yeah.
+
+29:18.000 --> 29:19.000
+Yeah.
+
+29:19.000 --> 29:20.000
+I wanted it.
+
+29:20.000 --> 29:22.000
+Well, you had to take the
+glasses off and the hair just
+comes full swing down.
+
+29:22.000 --> 29:23.000
+Chumbling down.
+
+29:23.000 --> 29:24.000
+Yeah.
+
+29:24.000 --> 29:25.000
+My librarian.
+
+29:25.000 --> 29:26.000
+That's, that's what Curry were.
+
+29:26.000 --> 29:27.000
+Is it?
+
+29:27.000 --> 29:28.000
+Typecast librarian.
+
+29:28.000 --> 29:29.000
+Sexy librarian.
+
+29:29.000 --> 29:31.000
+Who was Steve?
+
+29:32.000 --> 29:33.000
+Steve Trikas.
+
+29:33.000 --> 29:34.000
+Steve Trikas.
+
+29:34.000 --> 29:35.000
+We almost forgot Steve Trikas.
+
+29:35.000 --> 29:36.000
+Steve Trikas.
+
+29:36.000 --> 29:37.000
+I forgot.
+
+29:37.000 --> 29:38.000
+He was the dad.
+
+29:38.000 --> 29:40.000
+He was the Paul Schaefer of
+remote control.
+
+29:40.000 --> 29:42.000
+And you know.
+
+29:42.000 --> 29:43.000
+Sorry.
+
+29:43.000 --> 29:45.000
+Let me finish all the coughing
+at once.
+
+29:45.000 --> 29:46.000
+You can then edit it out.
+
+29:46.000 --> 29:47.000
+No.
+
+29:47.000 --> 29:48.000
+I'm editing nothing.
+
+29:48.000 --> 29:49.000
+This goes out like this.
+
+29:49.000 --> 29:50.000
+You never fucking lazy.
+
+29:50.000 --> 29:51.000
+No.
+
+29:51.000 --> 29:52.000
+Why?
+
+29:52.000 --> 29:54.000
+It's all the, all the, all the,
+all the fun stuff.
+
+29:54.000 --> 29:55.000
+And you know what?
+
+29:55.000 --> 29:56.000
+Let me just say something.
+
+29:56.000 --> 29:58.000
+You guys, you edit that too.
+
+29:58.000 --> 30:00.000
+Someone's editing on your show.
+
+30:00.000 --> 30:01.000
+I wanted to edit it.
+
+30:01.000 --> 30:02.000
+Don't edit it.
+
+30:02.000 --> 30:04.000
+Well, I want to hear when you
+fuck up.
+
+30:04.000 --> 30:07.000
+Each show would be an hour and a
+half long.
+
+30:07.000 --> 30:10.000
+Well, started timer, you know.
+
+30:10.000 --> 30:12.000
+Then you started timer.
+
+30:12.000 --> 30:13.000
+I know.
+
+30:13.000 --> 30:14.000
+You, you pull out shit.
+
+30:14.000 --> 30:15.000
+That's not interesting.
+
+30:15.000 --> 30:17.000
+Then you have an, an interesting
+conversation.
+
+30:17.000 --> 30:18.000
+Yeah.
+
+30:18.000 --> 30:20.000
+Typically you record for an hour
+and a half to two hours.
+
+30:20.000 --> 30:21.000
+And you end up with.
+
+30:21.000 --> 30:22.000
+You're kidding me.
+
+30:22.000 --> 30:23.000
+And it's of comedy.
+
+30:23.000 --> 30:24.000
+It's some five good editing.
+
+30:24.000 --> 30:25.000
+Good editing.
+
+30:25.000 --> 30:26.000
+Yeah.
+
+30:26.000 --> 30:27.000
+Good editing.
+
+30:27.000 --> 30:29.000
+Think of it as audio theater.
+
+30:29.000 --> 30:30.000
+Oh, I do it.
+
+30:30.000 --> 30:31.000
+See it to the mind.
+
+30:31.000 --> 30:32.000
+All right.
+
+30:32.000 --> 30:34.000
+Now I listen to a two secret,
+
+30:34.000 --> 30:36.000
+Lissiveous bitties.
+
+30:36.000 --> 30:37.000
+The bitty cast.
+
+30:37.000 --> 30:39.000
+One of, it's a fucking great.
+
+30:39.000 --> 30:40.000
+One of them is in the van.
+
+30:40.000 --> 30:43.000
+It's van talk with the chicks on
+the road.
+
+30:43.000 --> 30:44.000
+Dude.
+
+30:44.000 --> 30:45.000
+I'm like.
+
+30:45.000 --> 30:46.000
+I love it.
+
+30:46.000 --> 30:47.000
+Bitty cast.
+
+30:47.000 --> 30:48.000
+Hey.
+
+30:48.000 --> 30:50.000
+On Wednesday, Joe's pub or Joe's
+cafe.
+
+30:50.000 --> 30:52.000
+Fuck, I can't remember what it
+is.
+
+30:52.000 --> 30:55.000
+At nine thirty that they're
+premiering the bitty cast.
+
+30:55.000 --> 30:57.000
+I'm, I'm so there.
+
+30:58.000 --> 30:59.000
+And in the big apple.
+
+30:59.000 --> 31:00.000
+Mm-hmm.
+
+31:00.000 --> 31:01.000
+Mm-hmm.
+
+31:01.000 --> 31:03.000
+That is the debut bitty cast.
+
+31:03.000 --> 31:04.000
+That's the debut.
+
+31:04.000 --> 31:06.000
+But anyway, so, you know, I
+think,
+
+31:06.000 --> 31:09.000
+Deedra, she keeps saying, well,
+we'll edit that out.
+
+31:09.000 --> 31:12.000
+You know, and I don't know who
+did the, who did the bitty cast.
+
+31:12.000 --> 31:13.000
+But it's in there.
+
+31:13.000 --> 31:14.000
+They left it in.
+
+31:14.000 --> 31:15.000
+It's great.
+
+31:15.000 --> 31:16.000
+You're like, don't even say.
+
+31:16.000 --> 31:17.000
+You have to say that it's
+boring.
+
+31:17.000 --> 31:18.000
+It's not boring.
+
+31:18.000 --> 31:19.000
+It's fun.
+
+31:19.000 --> 31:21.000
+Well, I leave certain things in.
+
+31:21.000 --> 31:23.000
+You know, some weeks like this
+last week,
+
+31:23.000 --> 31:24.000
+the Valentine's Day show.
+
+31:24.000 --> 31:26.000
+Very, very, very little editing.
+
+31:26.000 --> 31:28.000
+Because we're getting better
+about coming in.
+
+31:28.000 --> 31:29.000
+Right amount of time.
+
+31:29.000 --> 31:30.000
+Right.
+
+31:30.000 --> 31:32.000
+Sometimes we just get carried
+away and also,
+
+31:32.000 --> 31:34.000
+and you're like, holy, shit, we
+recorded an hour and a half.
+
+31:34.000 --> 31:35.000
+Yeah.
+
+31:35.000 --> 31:36.000
+Oh, oh, oh, oh.
+
+31:36.000 --> 31:37.000
+Oh, oh, oh, oh, oh, oh, oh, oh,
+oh.
+
+31:37.000 --> 31:39.000
+Yeah.
+
+31:39.000 --> 31:40.000
+Yeah, you know, so that's, so
+that's,
+
+31:40.000 --> 31:41.000
+all right.
+
+31:41.000 --> 31:43.000
+Speaking of which, let's do, uh,
+
+31:43.000 --> 31:45.000
+good about ten more minutes,
+eight more minutes.
+
+31:45.000 --> 31:46.000
+Let's do couple more.
+
+31:46.000 --> 31:47.000
+Okay.
+
+31:47.000 --> 31:48.000
+All right.
+
+31:48.000 --> 31:50.000
+I was going to say before I
+gagged before
+
+31:50.000 --> 31:53.000
+who is Steve masters?
+
+31:53.000 --> 31:55.000
+Cause he's on my list of people.
+
+31:55.000 --> 32:05.000
+Steve Masters, of course, and by
+the way, I found out his real
+name. Steve Masters was running
+MTV
+
+32:07.000 --> 32:12.000
+and was eventually fired and
+replaced by John Reardon.
+
+32:13.000 --> 32:15.000
+Yeah, I remember John Reardon.
+
+32:15.000 --> 32:16.000
+Yeah.
+
+32:16.000 --> 32:17.000
+Hold on a second.
+
+32:17.000 --> 32:23.000
+And then he went off and he
+started the E Entertainment
+Network because it was the movie
+channel.
+
+32:23.000 --> 32:24.000
+Yeah.
+
+32:24.000 --> 32:25.000
+Yeah.
+
+32:25.000 --> 32:28.000
+And he was, Lee was a pretty
+interesting guy.
+
+32:28.000 --> 32:32.000
+He looked like he had been in
+like a Columbia drug cartel.
+
+32:32.000 --> 32:34.000
+Well, him and Bob Pittman.
+
+32:34.000 --> 32:35.000
+Oh.
+
+32:35.000 --> 32:38.000
+Bob Pittman always used to scare
+me.
+
+32:38.000 --> 32:40.000
+Bob Pittman was pretty cool.
+
+32:40.000 --> 32:43.000
+When we first got to New York,
+we're still living at the
+Mayflower.
+
+32:43.000 --> 32:45.000
+Mayflower Hotel.
+
+32:45.000 --> 32:46.000
+Yeah.
+
+32:46.000 --> 32:47.000
+Well, who ate?
+
+32:47.000 --> 32:48.000
+No, one of the cats.
+
+32:48.000 --> 32:50.000
+Somebody was either a dog or a
+cat.
+
+32:50.000 --> 32:51.000
+It was the cat.
+
+32:51.000 --> 32:53.000
+I lost in the Mayflower Hotel.
+
+32:53.000 --> 32:54.000
+Stop.
+
+32:54.000 --> 32:57.000
+But, um, and it was where we
+were still there.
+
+32:57.000 --> 32:58.000
+And he said, come on.
+
+32:58.000 --> 32:59.000
+We'll go to John Cook and
+Melancham show.
+
+32:59.000 --> 33:01.000
+We went to, you know, it was
+cool.
+
+33:01.000 --> 33:02.000
+He picked up a pick up in the
+limo.
+
+33:02.000 --> 33:03.000
+Went to the show.
+
+33:03.000 --> 33:07.000
+Went backstage, hung out with
+John Cook there.
+
+33:07.000 --> 33:09.000
+And, uh, he was nice.
+
+33:09.000 --> 33:13.000
+But he was definitely like a
+major league mover and a shaker.
+
+33:13.000 --> 33:14.000
+He was like, Bob Pittman.
+
+33:14.000 --> 33:15.000
+Yeah.
+
+33:15.000 --> 33:16.000
+Oh, yeah.
+
+33:16.000 --> 33:17.000
+Big time.
+
+33:17.000 --> 33:18.000
+No.
+
+33:19.000 --> 33:20.000
+Yeah.
+
+33:20.000 --> 33:24.000
+I mean, I, I worked at the
+channel for almost 10 years.
+
+33:24.000 --> 33:26.000
+I met Tom Preston so many times.
+
+33:26.000 --> 33:27.000
+It's not even funny.
+
+33:27.000 --> 33:30.000
+I, you know, 20, 30 times over
+the period of time.
+
+33:30.000 --> 33:31.000
+I was there.
+
+33:31.000 --> 33:34.000
+And every single time Tom would
+come to the studio or something.
+
+33:34.000 --> 33:36.000
+He'd come into the room and he'd
+say, hi, Adam.
+
+33:36.000 --> 33:37.000
+Hi, Julie.
+
+33:37.000 --> 33:38.000
+How are you?
+
+33:38.000 --> 33:39.000
+Yeah.
+
+33:39.000 --> 33:40.000
+He was good at that.
+
+33:40.000 --> 33:41.000
+Nice to meet you.
+
+33:41.000 --> 33:42.000
+Yeah.
+
+33:42.000 --> 33:44.000
+And how long have you been here,
+son?
+
+33:44.000 --> 33:45.000
+I would have been every time.
+
+33:45.000 --> 33:46.000
+And they'd say, this is Ken
+Clark.
+
+33:46.000 --> 33:48.000
+He's the, the VJ talent manager.
+
+33:48.000 --> 33:49.000
+You know, you remember him?
+
+33:49.000 --> 33:50.000
+You met him two years ago.
+
+33:50.000 --> 33:51.000
+Oh, yeah.
+
+33:51.000 --> 33:52.000
+Yeah.
+
+33:52.000 --> 33:53.000
+Fine.
+
+33:53.000 --> 33:54.000
+Guarantees, six months later.
+
+33:54.000 --> 33:55.000
+He's good.
+
+33:55.000 --> 33:56.000
+And who are you?
+
+33:56.000 --> 34:01.000
+You know, well, you know, but a
+cloud follows Tom Preston in my
+book.
+
+34:01.000 --> 34:03.000
+Hmm.
+
+34:03.000 --> 34:04.000
+Oh, yeah.
+
+34:04.000 --> 34:07.000
+There's a cloud that follows
+him, boy.
+
+34:07.000 --> 34:09.000
+I think I know what cloud we're
+talking about.
+
+34:09.000 --> 34:10.000
+Johnny Abbott.
+
+34:10.000 --> 34:11.000
+Yeah.
+
+34:11.000 --> 34:12.000
+Yeah.
+
+34:12.000 --> 34:13.000
+Well, let's talk about that
+another time.
+
+34:13.000 --> 34:14.000
+I don't want to talk about that.
+
+34:14.000 --> 34:16.000
+And I was going to say that's a
+sad story because Johnny's
+
+34:16.000 --> 34:19.000
+somebody that I really, really
+liked and got a bit screwed
+over.
+
+34:19.000 --> 34:21.000
+I loved her.
+
+34:21.000 --> 34:23.000
+She was, she was beautiful
+person.
+
+34:23.000 --> 34:25.000
+She committed suicide is
+basically what happened.
+
+34:25.000 --> 34:27.000
+But that's for another show.
+
+34:27.000 --> 34:28.000
+That's a teaser.
+
+34:28.000 --> 34:29.000
+Ken, that's a fucking clip.
+
+34:29.000 --> 34:30.000
+I was MTV's fault.
+
+34:30.000 --> 34:31.000
+Yes.
+
+34:31.000 --> 34:33.000
+I totally blame Tom Preston.
+
+34:33.000 --> 34:34.000
+I said it.
+
+34:34.000 --> 34:36.000
+I said it.
+
+34:36.000 --> 34:37.000
+I said it.
+
+34:37.000 --> 34:38.000
+God damn it.
+
+34:38.000 --> 34:39.000
+Well, all right.
+
+34:39.000 --> 34:40.000
+Ken Ober and Colin Quinn.
+
+34:40.000 --> 34:41.000
+We glossed right over him.
+
+34:41.000 --> 34:42.000
+I don't know what happened.
+
+34:42.000 --> 34:44.000
+I'm going to cover Colin Quinn's
+done quite well for himself.
+
+34:44.000 --> 34:47.000
+Finally, there was a long dry
+spell there.
+
+34:47.000 --> 34:49.000
+But then he wasn't through HBO.
+
+34:49.000 --> 34:51.000
+He started to make some shit for
+HBO.
+
+34:51.000 --> 34:53.000
+And then he hooked up with Ted
+Demi.
+
+34:53.000 --> 34:54.000
+He was also passed away.
+
+34:54.000 --> 34:55.000
+Yeah.
+
+34:55.000 --> 34:56.000
+Yes.
+
+34:56.000 --> 34:57.000
+Unfortunately.
+
+34:57.000 --> 34:59.000
+And then it's Saturday Night
+Live for a few years.
+
+34:59.000 --> 35:01.000
+Colin Quinn did the news, right?
+
+35:01.000 --> 35:02.000
+Right.
+
+35:02.000 --> 35:04.000
+Well, that was also because Beth
+McCarthy,
+
+35:04.000 --> 35:08.000
+who was a director at MTV for a
+hundred million years,
+
+35:08.000 --> 35:10.000
+wound up directing SNL.
+
+35:10.000 --> 35:11.000
+She probably still does.
+
+35:11.000 --> 35:12.000
+Oh, she does.
+
+35:12.000 --> 35:13.000
+Yeah.
+
+35:13.000 --> 35:15.000
+Beth and I were interns at the
+same time.
+
+35:15.000 --> 35:18.000
+She actually worked for Steve
+Leads for a little while.
+
+35:18.000 --> 35:19.000
+That's right.
+
+35:19.000 --> 35:20.000
+Production.
+
+35:20.000 --> 35:22.000
+We have a lovely relationship.
+
+35:22.000 --> 35:23.000
+Beth and I.
+
+35:23.000 --> 35:25.000
+And then she went into the
+control room at one point.
+
+35:25.000 --> 35:26.000
+Is it?
+
+35:26.000 --> 35:27.000
+I can't remember.
+
+35:27.000 --> 35:32.000
+You know, she ended up a
+assistant director and then
+later a senior director
+
+35:32.000 --> 35:35.000
+and has now been at Saturday
+Night Live for a couple of
+years.
+
+35:35.000 --> 35:37.000
+Maybe five, six.
+
+35:37.000 --> 35:39.000
+More than five, six years.
+
+35:39.000 --> 35:43.000
+And primarily, I think they
+brought Beth in because she was
+really good with live music
+
+35:43.000 --> 35:44.000
+and MTV.
+
+35:44.000 --> 35:45.000
+Saturday Night Live's.
+
+35:45.000 --> 35:46.000
+Yep.
+
+35:46.000 --> 35:48.000
+Music performances had never
+been.
+
+35:48.000 --> 35:49.000
+But she learned everything from
+Milton.
+
+35:49.000 --> 35:50.000
+But that's a.
+
+35:50.000 --> 35:51.000
+From the Lage.
+
+35:51.000 --> 35:52.000
+Yeah.
+
+35:52.000 --> 35:54.000
+No, it was the King of Ditty.
+
+35:54.000 --> 35:55.000
+DV.
+
+35:55.000 --> 35:57.000
+I mean, it club MTV, baby.
+
+35:57.000 --> 35:58.000
+So wait a minute.
+
+35:58.000 --> 36:00.000
+So there's a great connection.
+
+36:00.000 --> 36:01.000
+So club MTV.
+
+36:01.000 --> 36:02.000
+There was this big thing.
+
+36:02.000 --> 36:04.000
+It was Milton.
+
+36:04.000 --> 36:05.000
+Lage.
+
+36:05.000 --> 36:06.000
+Lage.
+
+36:06.000 --> 36:07.000
+Lage.
+
+36:07.000 --> 36:10.000
+And he was, he was Greek, right?
+
+36:10.000 --> 36:11.000
+Wasn't he Greek?
+
+36:11.000 --> 36:12.000
+Yeah.
+
+36:12.000 --> 36:13.000
+And he was.
+
+36:13.000 --> 36:14.000
+And really cool Greek.
+
+36:14.000 --> 36:15.000
+Yeah.
+
+36:15.000 --> 36:18.000
+And he was like he was smooth
+and slick.
+
+36:18.000 --> 36:21.000
+You know, like, you wanted to
+hang out with him because he was
+kind of cool.
+
+36:21.000 --> 36:24.000
+And he was, you know, who would
+laugh, kind of like that Mafio
+so way.
+
+36:24.000 --> 36:25.000
+And very calm.
+
+36:25.000 --> 36:27.000
+And he was direct.
+
+36:27.000 --> 36:28.000
+Yeah.
+
+36:28.000 --> 36:29.000
+But when he was directing, he
+was like boom boom boom boom.
+
+36:29.000 --> 36:31.000
+But he was funny about he wasn't
+an asshole.
+
+36:31.000 --> 36:32.000
+He was a boom boom is right.
+
+36:32.000 --> 36:33.000
+Right.
+
+36:33.000 --> 36:36.000
+Because he was doing club MTV,
+which was basically that was
+Julie talking about
+
+36:36.000 --> 36:39.000
+some music and then, you know,
+tits.
+
+36:39.000 --> 36:42.000
+That's a best in angelating
+bodies.
+
+36:42.000 --> 36:43.000
+And what was the club?
+
+36:43.000 --> 36:44.000
+What was the club?
+
+36:44.000 --> 36:45.000
+What was the name of that?
+
+36:45.000 --> 36:47.000
+We used to shoot that at the
+play team, the play team.
+
+36:47.000 --> 36:48.000
+Right.
+
+36:48.000 --> 36:49.000
+Down on 14th.
+
+36:49.000 --> 36:50.000
+Right.
+
+36:50.000 --> 36:51.000
+It was for real.
+
+36:51.000 --> 36:53.000
+And it was all the, it was like
+club MTV.
+
+36:53.000 --> 36:56.000
+And, you know, then once a month
+they do four days of club MTV.
+
+36:56.000 --> 36:58.000
+I think it was once every six
+weeks.
+
+36:58.000 --> 36:59.000
+They would run out there.
+
+36:59.000 --> 37:00.000
+Yeah.
+
+37:00.000 --> 37:01.000
+And for three days.
+
+37:01.000 --> 37:02.000
+And awesome.
+
+37:02.000 --> 37:03.000
+Yeah.
+
+37:03.000 --> 37:04.000
+And they would do back to back
+to back.
+
+37:04.000 --> 37:05.000
+You know, all day.
+
+37:05.000 --> 37:06.000
+Yeah.
+
+37:06.000 --> 37:08.000
+Believe me by the 8th or 9th
+show.
+
+37:08.000 --> 37:10.000
+Julie's Waba was dragging.
+
+37:10.000 --> 37:11.000
+Yeah.
+
+37:11.000 --> 37:12.000
+It was out of baby.
+
+37:12.000 --> 37:13.000
+Yeah.
+
+37:13.000 --> 37:14.000
+But anyway.
+
+37:14.000 --> 37:15.000
+So there was this one chick.
+
+37:15.000 --> 37:17.000
+And she was kind of like the
+leader of the dancers.
+
+37:17.000 --> 37:18.000
+And her name was Camille.
+
+37:18.000 --> 37:19.000
+Camille.
+
+37:19.000 --> 37:20.000
+Camille.
+
+37:20.000 --> 37:21.000
+Yeah.
+
+37:21.000 --> 37:22.000
+And Camille at one point.
+
+37:22.000 --> 37:23.000
+Doing well for yourself.
+
+37:23.000 --> 37:24.000
+Yeah.
+
+37:24.000 --> 37:25.000
+Wait.
+
+37:25.000 --> 37:26.000
+I'm getting to that.
+
+37:26.000 --> 37:27.000
+Don't blow.
+
+37:27.000 --> 37:28.000
+I'll let you do the punchline.
+
+37:28.000 --> 37:30.000
+I'll let you go.
+
+37:31.000 --> 37:32.000
+And she had.
+
+37:32.000 --> 37:34.000
+She had plastic surgery done on
+her face.
+
+37:34.000 --> 37:35.000
+She had her breasts.
+
+37:35.000 --> 37:41.000
+It just blown up to enormous
+proportion, which, you know,
+Milton totally egged on.
+
+37:41.000 --> 37:44.000
+And once she first had her
+cheekbone implants put in.
+
+37:44.000 --> 37:45.000
+She hadn't taken out later.
+
+37:45.000 --> 37:46.000
+She looked like she couldn't.
+
+37:46.000 --> 37:47.000
+Yeah.
+
+37:47.000 --> 37:48.000
+It was awesome.
+
+37:48.000 --> 37:50.000
+It was really bad.
+
+37:50.000 --> 37:52.000
+But, you know, she was endearing
+somehow.
+
+37:52.000 --> 37:59.000
+And actually, boy, was she
+because what happened to little
+old Camille, the club MTV
+dancer,
+
+38:00.000 --> 38:01.000
+Ken.
+
+38:01.000 --> 38:03.000
+Oh, she married Kelsey Grammar.
+
+38:03.000 --> 38:06.000
+Fucking crazy.
+
+38:06.000 --> 38:08.000
+And she's now.
+
+38:08.000 --> 38:09.000
+Isn't she hold on?
+
+38:09.000 --> 38:10.000
+Wait.
+
+38:10.000 --> 38:14.000
+She is a lead spokesperson for,
+um, it's something disgusting.
+
+38:14.000 --> 38:16.000
+And I have to do it with your
+butt.
+
+38:16.000 --> 38:19.000
+Like you're at a bolt irritable
+bowel syndrome.
+
+38:19.000 --> 38:22.000
+What's he's posh now?
+
+38:22.000 --> 38:26.000
+You know, and she shows up in
+these people magazine
+pictorials.
+
+38:27.000 --> 38:28.000
+Oh, yeah.
+
+38:28.000 --> 38:30.000
+They're California mansion.
+
+38:30.000 --> 38:31.000
+They're mans.
+
+38:31.000 --> 38:32.000
+Right.
+
+38:32.000 --> 38:34.000
+And you know, and Kelsey Grammar
+is, of course,
+
+38:34.000 --> 38:37.000
+Kelsey rolled his brand new
+Viper over, pulling into the
+driveway.
+
+38:37.000 --> 38:38.000
+That's wrong.
+
+38:38.000 --> 38:41.000
+He's, but he, you know, he's
+having a good time.
+
+38:41.000 --> 38:42.000
+He's got that English accent
+going.
+
+38:42.000 --> 38:44.000
+So you think, like, you know,
+he's all proper and shit.
+
+38:44.000 --> 38:47.000
+But he's like drinking and he's
+boozing.
+
+38:47.000 --> 38:50.000
+And he's, you know, and he's
+having a good time in Camille.
+
+38:50.000 --> 38:51.000
+Oh, please.
+
+38:51.000 --> 38:55.000
+At the time, he, he went out and
+bought a brand new Dodge Viper
+when they first came out.
+
+38:56.000 --> 38:58.000
+Rolled it over, pulling into his
+own driveway.
+
+39:00.000 --> 39:01.000
+Oh, yeah.
+
+39:01.000 --> 39:03.000
+She did quite well for herself,
+didn't she?
+
+39:03.000 --> 39:04.000
+That was nice.
+
+39:04.000 --> 39:05.000
+Oh, Lord.
+
+39:05.000 --> 39:07.000
+Well, you know, we're at, like,
+40 minutes.
+
+39:07.000 --> 39:09.000
+So we should, we should leave.
+
+39:09.000 --> 39:11.000
+You know, we got to cut it
+short.
+
+39:11.000 --> 39:13.000
+We need people to keep coming
+back.
+
+39:13.000 --> 39:14.000
+For more.
+
+39:14.000 --> 39:18.000
+So we're going to do more on
+the, on the mysterious Tom
+Freston cloud.
+
+39:18.000 --> 39:20.000
+Okay.
+
+39:20.000 --> 39:22.000
+I got to talk about that.
+
+39:22.000 --> 39:24.000
+I really feel bad about that
+one.
+
+39:24.000 --> 39:25.000
+Well, shit.
+
+39:25.000 --> 39:26.000
+Yeah.
+
+39:26.000 --> 39:28.000
+I want anybody to have a think
+I'm making light of that
+situation.
+
+39:28.000 --> 39:29.000
+No.
+
+39:29.000 --> 39:30.000
+But, you know, I've only written
+Camille.
+
+39:30.000 --> 39:31.000
+Yeah.
+
+39:31.000 --> 39:32.000
+It is quite a scandal.
+
+39:32.000 --> 39:33.000
+And it got buried.
+
+39:33.000 --> 39:34.000
+They got buried.
+
+39:34.000 --> 39:35.000
+I don't know.
+
+39:35.000 --> 39:37.000
+Well, big media company.
+
+39:37.000 --> 39:39.000
+We should pop the car for that
+stuff.
+
+39:39.000 --> 39:40.000
+Yeah.
+
+39:40.000 --> 39:41.000
+We should pop that one.
+
+39:41.000 --> 39:42.000
+We don't have a scoop.
+
+39:42.000 --> 39:43.000
+All right.
+
+39:43.000 --> 39:49.000
+Well, we can talk about that one
+another day.
+
+39:49.000 --> 39:50.000
+All right.
+
+39:50.000 --> 39:51.000
+It's 130 here.
+
+39:51.000 --> 39:52.000
+I got to go to bed.
+
+39:52.000 --> 39:54.000
+And you've got a big day
+tomorrow.
+
+39:54.000 --> 39:55.000
+Big day.
+
+39:55.000 --> 39:57.000
+And then I'm going home flying
+home.
+
+39:57.000 --> 40:00.000
+And I still have to listen to
+the Don Andrew Show.
+
+40:00.000 --> 40:02.000
+Number 69.
+
+40:02.000 --> 40:04.000
+And the Kenan script show
+number.
+
+40:04.000 --> 40:05.000
+What it is.
+
+40:05.000 --> 40:06.000
+Oh.
+
+40:06.000 --> 40:08.000
+It's the Valentine's Day
+special.
+
+40:08.000 --> 40:09.000
+We don't number him.
+
+40:09.000 --> 40:10.000
+Yes.
+
+40:10.000 --> 40:11.000
+Indeed.
+
+40:11.000 --> 40:12.000
+Okay.
+
+40:12.000 --> 40:15.000
+And I can just hear Patricia
+saying, Oh, no.
+
+40:15.000 --> 40:16.000
+Not a Valentine.
+
+40:16.000 --> 40:17.000
+Exactly.
+
+40:17.000 --> 40:19.000
+You said you had to fly up
+there.
+
+40:19.000 --> 40:20.000
+Yeah.
+
+40:20.000 --> 40:21.000
+Yeah.
+
+40:22.000 --> 40:23.000
+Well, happy Valentine's Day.
+
+40:23.000 --> 40:24.000
+Thank you.
+
+40:24.000 --> 40:25.000
+You too, counting me.
+
+40:25.000 --> 40:26.000
+Okay.
+
+40:26.000 --> 40:27.000
+I will speak to you soon.
+
+40:27.000 --> 40:28.000
+It's always fun.
+
+40:28.000 --> 40:29.000
+Chanting.
+
+40:29.000 --> 40:30.000
+It's good to remember old time.
+
+40:30.000 --> 40:31.000
+Good times.
+
+40:31.000 --> 40:32.000
+It is.
+
+40:32.000 --> 40:33.000
+And talking to you and doing
+this.
+
+40:33.000 --> 40:36.000
+Always remember things that I
+had long since forgotten.
+
+40:36.000 --> 40:37.000
+So it's good.
+
+40:37.000 --> 40:38.000
+Okay.
+
+40:38.000 --> 40:40.000
+So you got your plugs in, right?
+
+40:40.000 --> 40:41.000
+Yeah.
+
+40:41.000 --> 40:42.000
+For the Kenan script show.
+
+40:42.000 --> 40:43.000
+Yeah.
+
+40:43.000 --> 40:45.000
+Dusting my brain.com slash KSS.
+
+40:45.000 --> 40:46.000
+Every Monday, new show.
+
+40:46.000 --> 40:47.000
+Okay.
+
+40:47.000 --> 40:48.000
+All right.
+
+40:48.000 --> 40:49.000
+I'll talk to you soon.
+
+40:49.000 --> 40:51.000
+And another daily source code
+tomorrow.
+
+40:51.000 --> 40:52.000
+Y'all.
+
+40:52.000 --> 40:53.000
+Bye.
+
+40:53.000 --> 40:54.000
+Bye.

@@ -1,0 +1,1822 @@
+WEBVTT
+
+00:00.000 --> 00:08.080
+Well, hello everybody. Welcome
+to Camp Curry, third floor in my
+inner sanctum. This is the
+
+00:08.080 --> 00:14.760
+daily source code episode number
+525. How you doing everybody?
+It's been two days since
+
+00:14.760 --> 00:20.360
+I've posted a show and I
+apologize profusely, of course,
+I'm behind on my best of
+
+00:20.360 --> 00:24.960
+Charlie's but, no worries,
+because I'm just going to carry
+on throughout the weekend.
+
+00:25.040 --> 00:30.880
+I have not been able to build
+the studio, as you can hear, I'm
+not on my regular setup right
+
+00:30.880 --> 00:39.360
+now, I'm just on the Sony Vio
+using my sound blaster PCM PCM
+CIA card, Jack the wireless
+
+00:39.360 --> 00:44.640
+microphone into it, so I'm going
+straight in old school, you
+know, the mobile setup,
+essentially.
+
+00:47.600 --> 00:53.520
+San seo, excuse me. Oh, by the
+way, since seo with a little bit
+of splendor, I heard the guys
+
+00:53.600 --> 00:59.360
+just renewed their contracts
+another three months of splendor
+on the network, happy to have
+them
+
+00:59.360 --> 01:06.720
+aboard for another 90 days. The
+girls are gone, Christina's at
+school, Patricia is at the other
+house
+
+01:07.440 --> 01:13.200
+working with the cleanup crew at
+the cottage, of course, and I
+would have to say we're just
+about
+
+01:13.200 --> 01:18.720
+moved in. That doesn't mean that
+anything's unpacked and there
+are some problems we've run
+into.
+
+01:19.440 --> 01:25.200
+The biggest problem being that
+the podcast console, essentially
+the piece of furniture my father
+
+01:25.200 --> 01:32.160
+and law, my 81-year-old
+father-in-law made for me,
+doesn't fit. It does not fit up
+the staircase
+
+01:32.160 --> 01:41.520
+to the third floor in her
+sanctum, and it really can't
+take it apart. It would be a
+real shame to
+
+01:41.520 --> 01:48.960
+saw it up. I'm just completely
+in limbo over what I'm going to
+do with that. I really didn't
+have
+
+01:48.960 --> 01:54.000
+one second of time to even build
+up a temporary setup. We were
+just really, really, but if
+you've
+
+01:54.000 --> 01:58.720
+moved, you know what it's like.
+Now, of course, we just have
+tons and tons of shit. And
+Monday,
+
+01:58.720 --> 02:02.560
+believe they're not, there's
+more stuff coming from, there's
+a truck coming from storage,
+
+02:02.560 --> 02:06.480
+and there will be a truck going
+back with stuff from storage,
+but Patricia's doing some kind
+of swap
+
+02:06.720 --> 02:12.560
+out. Anyway, really like in the
+new place. Still sounds a little
+bit hollow. I'll tell you what,
+
+02:12.560 --> 02:16.720
+I'm going to stick the
+microphone out the window for a
+second so you can just listen to
+the nature
+
+02:16.720 --> 02:31.280
+here on the west side of
+Gilford. Actually, here's some,
+oops, hold on. Don't want to
+lose my
+
+02:31.280 --> 02:40.960
+microphone clip. Well, you can
+actually hear the road when you
+amplify with the mic.
+
+02:45.840 --> 02:51.520
+Trying to get you a good sound
+scene tour here. I forgot about
+it.
+
+02:53.360 --> 02:59.040
+Anyway, oh, before I forget, I
+promised I'd play a promo, and
+I'll tell you why right after it
+rolls.
+
+02:59.120 --> 03:06.400
+I'm Andrew. I'm Andrew. We do a
+podcast call just one more book.
+
+03:06.400 --> 03:10.560
+A podcast about the children's
+books we love, and why we love
+them. Because we're crazy about
+
+03:10.560 --> 03:16.080
+kids' books. Three times a week,
+we go to a coffee shop in our
+neighborhood, and we bring
+
+03:16.080 --> 03:20.080
+a children's book that we love
+from our own collection. The
+amazing style, the way she puts
+her
+
+03:20.080 --> 03:24.080
+words together. We talk about
+why we love the book and how our
+daughters experience that book.
+
+03:24.080 --> 03:28.240
+And they just show themselves
+nothing, and they're just in
+total suspense, and it's a
+complete
+
+03:28.240 --> 03:32.480
+page turner. We interview
+authors and illustrators. Hey,
+this is E.B. McKenley.
+
+03:32.480 --> 03:37.680
+Lee Edward Foley. Shane Evans.
+Sheriffette. E. Wipe out. Played
+listener, submitted reviews.
+
+03:37.680 --> 03:42.720
+My favorite book. Talk about how
+and where to find great books.
+One of the big secrets to our
+
+03:42.720 --> 03:47.360
+gorgeous book collection. The
+great book Shamina of Hurt of
+the ones that aren't prominently
+displayed
+
+03:47.360 --> 03:51.680
+at big box stores are on
+Amazon.com. They were just so in
+love with this book. Oh, yeah.
+
+03:51.680 --> 03:56.240
+We're just hanging off every
+word. And all the characters.
+Oh, yeah. You can find our
+podcast at
+
+03:56.240 --> 04:06.000
+just one more book.com. Julian
+Smith asked me to play that
+promo. And I'm happy to oblige.
+
+04:06.000 --> 04:10.480
+He tried to get it into the show
+the best of Charlie today, which
+I guess you forgot.
+
+04:11.280 --> 04:17.360
+And today's best of Charlie is
+from Julian Smith from
+inovierhead.net. He worked
+
+04:18.080 --> 04:21.280
+kind of payment in the last
+minute, but worked really hard
+on putting this together. And
+I'm
+
+04:21.920 --> 04:27.200
+completely chuffed about this
+particular best of Charlie
+because he really went back in
+the
+
+04:27.200 --> 04:33.200
+archives. And if you want to
+hear when we discover Don and
+Drew together, when we
+discovered
+
+04:33.200 --> 04:38.320
+Michael Butler together and
+much, much more. Even before it
+was called the Daily Source
+Code,
+
+04:38.320 --> 04:41.120
+I believe. And I haven't
+listened to the whole thing. I
+listened to the first half and I
+said,
+
+04:41.120 --> 04:45.840
+oh shit, I got to stop. I want
+to listen to this fresh. And I
+want to be surprised. I don't
+want
+
+04:45.840 --> 04:50.800
+to get anything away while I'm
+introwing it. I'm really, really
+pleased. And I think you will be
+
+04:50.800 --> 04:56.160
+as well. It's a bit of podcast
+history. Today, of course, is
+the 12th of January. Let me just
+double
+
+04:56.160 --> 05:02.000
+check. Yes, 12th of January. The
+day that stomped the yard, the
+brand new movie opens up. If you
+
+05:02.000 --> 05:07.680
+want to know all about that
+movie, go to
+stompedthepodcast.com. Tony
+Costa will be more than
+
+05:07.680 --> 05:12.160
+happy to tell you all about it.
+He's got a couple of episodes. I
+think he even has some
+interviews
+
+05:12.160 --> 05:19.600
+with some of the stars, or at
+least they're coming up,
+perhaps. So this will be the
+
+05:20.880 --> 05:27.760
+Fubar Friday edition. And it's
+quite fitting because everything
+my friends is Fubar.
+
+05:29.520 --> 05:34.880
+I'm going to take a couple of
+snaps of all the boxes and what
+it looks like up here. And maybe
+a
+
+05:34.880 --> 05:40.240
+couple of shots around the house
+were really, really happy.
+Thanks for all the nice emails
+and words
+
+05:40.240 --> 05:44.080
+of encouragement that you send.
+I mean, it's not like the end of
+the world, but yeah, it has been
+
+05:44.640 --> 05:53.440
+quite a bit of work, I'll say.
+When we moved to the cottage two
+years ago, it was like a pick-up
+
+05:53.440 --> 05:58.960
+and move. We just want to get
+out of the, get off the
+continent, come over to the
+island. And we
+
+05:58.960 --> 06:04.000
+stuffed a lot of stuff in a lot
+of places. And now it was really
+the time to go back and say,
+
+06:04.000 --> 06:10.400
+all right, what is this stuff?
+Or is it shit? And can we get
+rid of it? And actually we have,
+
+06:10.400 --> 06:16.480
+I'm still still getting my stuff
+together for the big eBay sale.
+That's gonna be fun.
+
+06:17.360 --> 06:22.720
+All right, I'm going to shut up
+now. I want you to enjoy this
+best of Charlie. I think you're
+really
+
+06:22.720 --> 06:27.840
+really going to like it. Once
+again, thanks to Julian Smith in
+over your head.net. And I'll
+talk to you
+
+06:27.840 --> 06:34.800
+guys over the weekend. Enjoy. I
+have recorded this intro so many
+times that it is, I am becoming
+
+06:34.800 --> 06:39.440
+almost obsessive-compulsive with
+this best of Charlie that we're
+producing here. Hello,
+
+06:39.520 --> 06:44.400
+good evening. Good morning. Good
+night. This is Julian from In
+Over Your Head. I produce a
+podcast.
+
+06:44.400 --> 06:50.160
+Well, I just told you what the
+podcast was. So I'm not going to
+say it again. But today,
+
+06:50.160 --> 06:56.800
+I've got a little bit of a treat
+for you. Old podcast, man. Old
+podcast. I went digging in the
+
+06:56.800 --> 07:00.960
+crates and man that I ever go
+digging. I was up to four on the
+morning yesterday. I listened to
+
+07:00.960 --> 07:07.600
+about 20 daily source codes in
+the past three days. And so I
+think I've got some really cool
+gems for you.
+
+07:08.080 --> 07:13.680
+Mostly podcasts from 2004. Times
+when I started listening to
+podcasts, when things were
+different,
+
+07:13.680 --> 07:22.160
+everybody knew who each other
+were. There were dozens, maybe
+hundreds of podcasts and not
+tens of
+
+07:22.160 --> 07:26.960
+thousands like there are now.
+There was a very different world
+from what it is that we're
+experiencing
+
+07:26.960 --> 07:32.160
+these days with podcasting in
+2007. So I'm just going to let
+my clips talk for me, man. I've
+got
+
+07:32.160 --> 07:37.760
+some really cool stuff. You
+know, all sorts of stuff. They
+speak for themselves. And I hope
+that
+
+07:37.760 --> 07:41.840
+you enjoy what it is that I
+found. Because for me, this is a
+golden age of podcasting. This
+got me
+
+07:41.840 --> 07:47.920
+started. So check it out. Daily
+source code best of Charlie
+number eight. One of you are
+listening.
+
+07:47.920 --> 07:53.760
+If you want to check it out, my
+website in over your head.net.
+And I'm sure you'll find some
+good stuff
+
+07:53.760 --> 07:57.600
+there. So that's pretty much it.
+Let's start off with a track.
+And then afterwards, we're just
+going to
+
+07:57.680 --> 08:03.280
+go on with the clips. Tell the
+end. All right. I'll see you
+there. So I want you to hear the
+song
+
+08:03.280 --> 08:08.560
+and tell me what you think about
+it. Because I like it. But I was
+just blown away by, and this is
+maybe
+
+08:09.280 --> 08:15.520
+just 2% of all the stuff that
+people were sending about this
+particular song. Deathcab for
+QD.
+
+08:15.520 --> 08:17.760
+Title and Registration, please.
+
+08:21.250 --> 11:17.760
+[ Music ]
+
+11:17.760 --> 11:25.040
+When I'm lying, I'm regretting
+that I was just like it was a
+shame.
+
+11:25.840 --> 11:33.920
+Wait, think. That's not your
+style. I know.
+
+11:34.480 --> 11:40.640
+Well, we got to comment from
+Holland Hunt. Oh. Yeah, it's
+cool.
+
+11:40.640 --> 11:47.280
+Dear Adam and Patricia. This is
+Ray from Holland. Adam, you
+know, I'm a big fan of yours.
+
+11:47.280 --> 11:53.200
+Although I'm not in the
+situation to listen every day. I
+really love to hear you on the
+Charlie and especially
+
+11:53.200 --> 12:00.000
+the shows with Patricia. You're
+to really make it you're the
+complete. Anyway, last
+Wednesday,
+
+12:00.000 --> 12:06.480
+you were talking about all the
+burping and the senseo.
+Actually, you blamed it on the
+senseo,
+
+12:06.560 --> 12:12.800
+but come on, Adam, you know
+better than that. Really dear
+Charlie, friends, way back in
+the 80s,
+
+12:12.800 --> 12:18.640
+even before the workoffing
+machines, Adam hosted a radio
+show in Holland on Friday night
+with.
+
+12:18.640 --> 12:23.280
+Do you remember this? I remember
+this. I remember the moment.
+Okay, I'll let you tell the
+moment
+
+12:23.280 --> 12:29.200
+after he plays the segment.
+Well, I think three million
+listeners. He was already doing
+these
+
+12:29.200 --> 12:35.840
+things on air. It's not new.
+He's just a boy with a big mouth
+burping on air. When it
+
+12:35.840 --> 12:43.760
+was a dream, you had an
+Amsterdam. You're doing it.
+You're doing it, you're doing
+it, you're doing it.
+
+12:45.760 --> 12:49.760
+I was even better with the
+senseo. I was the one who came
+out of the house and didn't find
+it.
+
+12:50.800 --> 12:56.560
+That was the four, four, four.
+Yeah, M. C. It was the M. C.
+It's the midday. Yeah, I don't
+know.
+
+12:57.520 --> 13:05.440
+That was bad in these days. So
+this was 1984, I think, or 85.
+And on Friday, there was only
+one
+
+13:05.440 --> 13:10.400
+popular radio station that was
+legal. We both come this, do
+they do that on the BBC right
+now?
+
+13:10.400 --> 13:15.680
+Burping? Yeah, can they? Yeah.
+Can Terry Burp? I don't think
+that doesn't fit with Terry. But
+
+13:15.680 --> 13:22.000
+Chris Moiles, I'm sure, I'm sure
+would do that. But in 84, I
+mean, there's just no way. No
+way.
+
+13:22.000 --> 13:25.680
+And so this was my co-host who
+was reading a story and then he
+couldn't find the words and all
+
+13:25.920 --> 13:31.280
+and I just, I remember, I had
+this big gulp of coke and I
+went, and then I immediately
+blamed him.
+
+13:31.280 --> 13:35.440
+Yeah, yeah, yeah, it sounded
+like he did it. Yeah, and I
+remember, I was in the car.
+
+13:35.440 --> 13:40.080
+Because we were having a secret
+affair at the time, right? I
+know, I was driving to you to
+your house already.
+
+13:40.080 --> 13:45.200
+Like 180 in your poor. In my
+purse, I had to park the car. I
+was in shock.
+
+13:46.480 --> 13:49.920
+I was in shock. I had to park
+the car and I was thinking, did
+I hear that well?
+
+13:50.880 --> 13:58.640
+God, he was burping. I couldn't
+believe it because that was,
+that was no, not done. Not done
+at all.
+
+13:58.640 --> 14:03.200
+No. No, I've never, and it was
+my, the first time I heard it
+from him. I'm such a visionary,
+aren't I?
+
+14:03.200 --> 14:04.800
+You are the first with
+everything.
+
+14:06.080 --> 14:10.880
+In my boss at the time, Lex
+Harding was on a boat. Right,
+but he was on a boat when he
+heard it. And he
+
+14:10.880 --> 14:15.760
+almost fell overboard. But it
+was called you, right? Yeah,
+yeah, right in your heart, you
+sure? Yeah.
+
+14:15.840 --> 14:20.720
+Yeah, he said, dude. The red
+telephone dude. Not only can you
+not do that, but you almost got
+me really
+
+14:20.720 --> 14:24.960
+wet. But that was it. It was no
+problem. This one, you might
+want to sit down for.
+
+14:26.240 --> 14:31.600
+So I listened to some really
+good shows. And obviously, I was
+able to start the sniffing
+
+14:31.600 --> 14:37.760
+to tears song. And I probably
+can do the, uh, I probably can
+do the theme song at the end of
+the show with a
+
+14:37.760 --> 14:44.240
+little too much to be cruising
+through segments and pulling out
+bits today. But I do have my,
+
+14:44.320 --> 14:48.480
+my iPod handy. And what I'll do
+is I just want to talk about a
+few of these podcast
+
+14:48.480 --> 14:54.080
+because it's just, oh, lovely.
+And then when I get home, I'll,
+I'll edit it in just a couple of
+
+14:54.080 --> 15:01.040
+bits so you can, so you can hear
+what's up. So it's almost live.
+It's, uh, well, it's live on
+tape, right?
+
+15:01.600 --> 15:07.360
+So, uh, first there's the Don
+and Drew Show, a husband and
+wife teen, which just cracked me
+up.
+
+15:07.360 --> 15:12.960
+Um, and it's good to hear a
+woman's voice on, uh, on a
+podcast. And so far it's been,
+uh, men, men,
+
+15:13.520 --> 15:17.760
+men, men, men. Um, and so
+they're just kind of shoot the
+breeze, uh, but they're funny
+together.
+
+15:17.760 --> 15:23.360
+You know, when, when you have a
+husband and wife teen, that, um,
+have known each other for a
+while,
+
+15:23.360 --> 15:27.840
+when they talk, they kind of
+fill in the blanks and they can
+also rank on each other a bit
+from the
+
+15:27.840 --> 15:33.360
+Don and Drew Show. Welcome to
+the Don and Drew Show. I'm Don
+Micelli. And I'm Drew Donkis.
+
+15:33.360 --> 15:39.280
+And this is, I show. That's
+right. So listen up, bitches.
+Enjoy.
+
+15:40.240 --> 15:44.160
+For this evening, the role of
+Drew Donkis will be played by
+James.
+
+15:44.160 --> 15:49.120
+Welcome to the Don and Drew
+Show. I am Drew Donkis. And
+broadcasting live from the
+
+15:49.120 --> 15:54.880
+satellite of love. That's right.
+I'm Don Micelli. For this
+evening, the role of Don Micelli
+
+15:54.880 --> 15:59.040
+will be played by Chris Moore.
+The Don and Drew Show, and if
+you want to subscribe to that
+podcast,
+
+15:59.040 --> 16:04.640
+really easy, just go to
+iPod.org. Go into the download
+and shows directory. And, uh,
+you can find it
+
+16:04.640 --> 16:08.880
+right there. And the way I'm
+doing it now, though, I'm going
+to start to split up into
+different categories.
+
+16:10.000 --> 16:15.360
+Is every single time, as a new,
+uh, new show added to the
+directory. It'll be listed on
+top.
+
+16:15.360 --> 16:19.920
+So it's kind of reverse
+chronological order. Oops. I
+just, I'm going to leave this. I
+just
+
+16:19.920 --> 16:26.720
+remember that I have to make a
+pit stop in between here and
+home. So basically, I'm driving
+from
+
+16:26.720 --> 16:36.240
+Amsterdam via Rotterdam to
+Belgium. It's one straight line.
+But I have to stop off about
+three
+
+16:36.240 --> 16:43.520
+quarters of the way in Brida.
+That's where, if you ever in
+Brida, be our EDA in the
+Netherlands,
+
+16:43.520 --> 16:50.640
+Brida, lovely town. There's a
+coffee shop there called Purple
+Rain. That's where my, my
+Moroccan
+
+16:50.640 --> 16:58.800
+buddies are. And, uh, well, it's
+time for another refill. Moving
+on with some cool podcasts.
+
+16:59.040 --> 17:06.000
+Um, I found, uh, oh, I didn't
+just find it. Of course, you
+know, every single one I
+
+17:06.000 --> 17:10.640
+add to the directory. I pretty
+much subscribed to it, at least
+to get the show in and listen to
+it.
+
+17:10.640 --> 17:19.040
+The rock and roll, uh, geek
+show. Now, this is hosted by,
+uh, Michael Butler. And Michael
+Butler is
+
+17:19.040 --> 17:24.080
+the base player for a band, uh,
+which I don't, I think I might
+have heard them before. American
+
+17:24.160 --> 17:28.160
+heartbreak. They've been around
+for about seven years. And when
+I liked about this podcast,
+
+17:28.160 --> 17:32.800
+is what Michael's doing, uh, and
+by the way, what is it with base
+players who are named Butler?
+
+17:32.800 --> 17:40.080
+You know, every year of geyser
+Butler? Black Sabbath. So, um,
+Michael is doing it a little bit
+
+17:40.080 --> 17:45.040
+differently. Instead of
+recording a complete show, he
+records little bits and they'll
+just pick it
+
+17:45.040 --> 17:50.320
+up. So it's kind of like a
+diary. And, um, well, uh,
+here's, here's a bit of him, uh,
+in the morning,
+
+17:50.640 --> 17:56.720
+after, um, after, uh, he went to
+a show the night before for the
+New York Dolls. And here's how
+
+17:56.720 --> 18:06.640
+he was feeling. It's Tuesday
+morning, the day after the New
+York Dolls show. I am so tired.
+
+18:08.480 --> 18:15.600
+I'm on my way to work and I do
+not want to be here. Now, of
+course, always not lost. Uh,
+
+18:15.600 --> 18:21.040
+he might have felt really
+crappy. But he also got a great
+ID for the show. And when we
+talk
+
+18:21.040 --> 18:25.840
+about IDs in the radio business,
+that basically means, hi, I'm
+fill on the blank celebrity
+name.
+
+18:25.840 --> 18:32.160
+You're listening to fill on the
+blank radio program name. And
+our buddy Michael got one from
+David
+
+18:32.160 --> 18:39.040
+Gioyance, and the New York
+Dolls. This is David Gioyance,
+and then you're listening to
+unfortunately
+
+18:39.120 --> 18:46.480
+the record roll geek show. The
+only thing that was, that was
+missing from that is he should
+have
+
+18:46.480 --> 18:51.280
+said you're listening to the,
+uh, the rock and roll geek
+podcast, but all right, close
+enough. So
+
+18:51.280 --> 18:56.160
+anyway, so Michael really does
+this whole thing. And I don't
+know what it is with him and his
+wife,
+
+18:56.160 --> 19:02.320
+but he keeps threatening that,
+you know, his wife, uh, who he
+says doesn't understand what
+he's
+
+19:02.320 --> 19:06.400
+doing and why doesn't agree what
+he's doing. He's taping it all
+in his bedroom. Whenever she
+comes in,
+
+19:07.360 --> 19:12.880
+they start nagging each other
+and he keeps threatening to
+record all session. So we still
+have
+
+19:12.880 --> 19:20.240
+that to look forward to. But
+really nice was a bit that he
+added onto the show, which was a
+recording
+
+19:20.240 --> 19:25.840
+of him and a couple of the band
+members on KSFU, which is a
+college radio station, promoting
+a show
+
+19:25.840 --> 19:30.400
+that they were doing. And also
+played a couple of songs from
+their album, which I think
+they're
+
+19:30.480 --> 19:36.640
+at, they may be on some
+independent labels, uh, in
+Europe, they've toured Europe,
+um, here's the
+
+19:36.640 --> 19:42.320
+traffic jam I'm already seeing
+that we're slowing down to a
+crawl. That's good. I'll get me
+some, uh,
+
+19:43.360 --> 19:50.080
+maybe some time to queue up some
+stuff even if we really come to
+a standstill. What was nice
+about
+
+19:50.080 --> 19:55.360
+hearing the college radio show
+interview was that all of a
+sudden that hit me, you know,
+
+19:55.360 --> 20:01.040
+do you remember, and many of you
+will, back in the 80s, certainly
+at MTV, and at MTV,
+
+20:01.040 --> 20:06.560
+primarily college radio was
+always cool, you know, the buzz.
+It's, you know, college radio is
+playing
+
+20:06.560 --> 20:10.800
+this. This is up and coming. And
+college radio is cool to listen
+to because it's, you know, it's
+
+20:10.800 --> 20:16.480
+on, uh, it's basically almost
+unsensored. It's, you know, it's
+non-commercial. It's just kids
+haven't
+
+20:16.480 --> 20:21.360
+fun and people, uh, saying the
+truth and playing the hard out.
+And, uh, hey, it's someone,
+
+20:22.320 --> 20:25.920
+someone's holding up his iPod.
+Hold on, roll down your window.
+
+20:27.360 --> 20:31.920
+Eggs, you didn't think you
+opened the name, uh, here, come
+here. Who hate you?
+
+20:31.920 --> 20:39.280
+It ain't on boards, but ain't on
+boards, okay dude. Yeah, what?
+Dude, we checked out a guy just
+drove
+
+20:39.280 --> 20:44.800
+up next to me, and he's honking
+his horn and he's holding his
+iPod off. And he's saying,
+
+20:44.800 --> 20:49.600
+I'm listening to the podcast.
+God damn, and I said, uh, I'm
+recording one right now. So,
+
+20:49.600 --> 20:56.080
+Raymond, buddy. Oh, that's very
+cool. See, this is what I mean.
+This is what it's all about.
+
+20:56.080 --> 20:58.480
+Oh, that gives me a boost of
+energy. That's fucking great.
+
+21:19.600 --> 21:24.800
+Started singing before her lips
+arrived in the position to match
+the words of the song.
+
+21:25.680 --> 21:29.040
+So she's lung off stage and said
+her bed played it wrong.
+
+21:29.680 --> 21:35.920
+57% of Americans have sex
+outdoors. 51% and sex on the
+first date.
+
+21:36.960 --> 21:43.280
+48% they don't get them, but
+they're not horse. 12% and sex
+and work. They couldn't wait.
+
+21:44.240 --> 21:49.440
+Halloween has been canceled out
+of Washington State School,
+because it takes time from their
+
+21:49.440 --> 21:56.560
+studies and the scientists just
+so cool dirt the feelings of
+real life, which is it makes
+them sad
+
+21:57.360 --> 22:04.080
+to sing up some lead and pointy
+hats and noses cackling at high
+pitches, state tune for late
+
+22:04.160 --> 22:17.920
+Viking Pop Dates. That's the tap
+dance and podcast. I guess maybe
+one of the things that you
+
+22:17.920 --> 22:22.880
+need to know about all these
+cliffs is that they maybe out of
+context, it may not be as
+significant
+
+22:22.880 --> 22:30.080
+as to somebody who who maybe has
+been following progression of
+podcasting for a very long time.
+
+22:30.720 --> 22:36.320
+All these are clips from early
+daily source codes dating back
+from 2004. The clip that you
+just
+
+22:36.320 --> 22:42.560
+heard before that was the first
+time that Adam ever mentioned
+the Dawn and Drew show on his
+podcast.
+
+22:42.560 --> 22:46.160
+And obviously the first time he
+had also mentioned Michael
+Butler. Like I was saying at the
+time,
+
+22:46.160 --> 22:52.480
+you know what I mean? It was
+just you could go ahead and you
+could just find whatever podcast
+you
+
+22:52.480 --> 22:56.640
+wanted on on director. He said,
+you know what I mean? They
+weren't so overwhelming as they
+are now.
+
+22:56.720 --> 23:07.920
+And before that clips from Adam
+burping on on Dutch radio in
+1984. And the tap dancing is
+
+23:07.920 --> 23:15.280
+another clip. I mean just one
+after the other. These are just
+amazing bits that I probably
+amongst
+
+23:15.280 --> 23:19.760
+other people thought was lost.
+And so I guess one of the last
+things that I want to play right
+now
+
+23:19.760 --> 23:27.200
+because there's so little time
+is the clip that really got me
+into podcasting. And that is,
+
+23:27.200 --> 23:32.400
+I remember I was sitting in a
+cafe on a rainy day. I think it
+was even a Friday night and I
+
+23:32.400 --> 23:36.560
+felt like kind of a loser for
+not hanging out with my friends
+or whatever. And what ended up
+happening
+
+23:36.560 --> 23:43.600
+was I listened to this daily
+source code where Patricia talks
+about her affair with, well I
+
+23:43.600 --> 23:48.400
+wouldn't call it an affair, her
+encounter with David Bowie. And
+I remember sitting there,
+
+23:48.880 --> 23:54.560
+I was sitting at a loan at a
+table and just listening to this
+clip blew my mind.
+
+23:55.440 --> 24:01.120
+And I was like this, I have to
+do this. I have to get involved
+in this podcasting thing. This
+thing
+
+24:01.120 --> 24:07.200
+is going to be huge, it's going
+to be incredible. And I started
+my podcast like probably days
+after that.
+
+24:07.760 --> 24:12.080
+And so that's it. So I mean I
+found this clip. It was one of
+the first clips that I found.
+
+24:12.080 --> 24:17.760
+And I'm going to play as much as
+I can over the next couple of
+minutes. So you guys get an idea
+
+24:17.760 --> 24:23.200
+of, uh, I guess really what
+podcasting was like in its
+heyday. There is so much more
+that I
+
+24:23.200 --> 24:27.840
+wish I could share with you
+guys. And I'm trying not to go
+over the 24 minutes. We'll see
+how it goes.
+
+24:27.840 --> 24:33.680
+All right. If I don't, I'll see
+you guys maybe soon. See you
+later. Peace.
+
+24:35.440 --> 24:40.880
+I didn't think he was sexy at
+all. He didn't look sexy at all.
+He was very strange. He was he
+was
+
+24:40.880 --> 24:49.920
+his guitar was hanging around
+his neck the whole day. And he
+was playing it. And so everybody
+said,
+
+24:49.920 --> 24:53.280
+oh can you please tell the guy
+to stop? What was he playing?
+What was he playing? Oh,
+
+24:53.280 --> 24:58.400
+sort of things. And he was
+always saying, um, so we went to
+the, I remember when we went to
+
+24:58.400 --> 25:03.680
+for a walk on the beach. And he
+was singing songs from me
+because he was making,
+
+25:03.680 --> 25:08.240
+one is a good, a good, a good, a
+good, a good, a good, a good, a
+good, a good, a good. He was
+trying to make
+
+25:08.240 --> 25:16.080
+an impression. And we was quite
+boring. And what song was he
+playing? He was playing, um, I
+remember
+
+25:16.080 --> 25:20.480
+he said, do you like this song?
+Listen, I'm going to play. And I
+thought I heard it already, but
+
+25:20.480 --> 25:29.600
+okay. And he played ground
+control to major time. And I,
+and I thought, oh man, and it
+never ended.
+
+25:30.160 --> 25:35.760
+And he was based on it. Yeah,
+and he said, and he said, and he
+said, and we don't
+
+25:35.760 --> 25:40.800
+you think I sound like John
+Lennon? Oh, really? Yeah, he
+thought he sounded like John
+Lennon.
+
+25:40.800 --> 25:44.800
+That's what he was his big idol.
+Yeah, he was a sound like it.
+But that was based on it. And
+
+25:44.800 --> 25:49.840
+but for him, he wasn't a star
+yet, but he was actually, I
+think they sent it because I
+thought
+
+25:49.840 --> 25:55.040
+there is something going on, but
+we don't know what to do for
+color eyes. So, and he said, I
+just got
+
+25:56.000 --> 26:02.400
+a record deal. And that's
+probably going to record this
+song. And I thought, man, I
+hated already.
+
+26:03.520 --> 26:10.720
+It sounded horrible. And you had
+to see him because he was, he
+was not wearing swimming
+
+26:10.720 --> 26:17.360
+trunks or anything. He was
+wearing diapers. He had sort of,
+you know, he wanted to be
+different.
+
+26:17.360 --> 26:22.400
+And that's, you know, he still
+was wearing diaper. He was so
+different from the rest. He was
+wearing
+
+26:22.480 --> 26:27.840
+a sort of, you know, what you
+see when Jesus in, you know,
+he's seen the Bible there.
+
+26:27.840 --> 26:33.680
+Like a joint cloth? Yeah, a
+joint cloth. Yeah. Really? So,
+it looked like a diaper.
+
+26:33.680 --> 26:38.720
+Like a Roman thing or just
+nothing on. He was very skinny,
+very pale.
+
+26:38.720 --> 26:43.600
+To like it, it turned his eyes
+off. He needed to slide it up,
+you know. He was so white.
+
+26:45.040 --> 26:49.920
+And he was singing, and proud,
+and proud, and controlled the
+whole day. And I thought, man,
+
+26:49.920 --> 26:56.560
+just shut the fuck up. So, and
+he tried, and of course, he
+tried to kiss me, you know,
+
+26:56.560 --> 27:00.640
+these things. Wait, what was it?
+Did he have the orange hair? Was
+that the Ziggy hair?
+
+27:00.640 --> 27:06.240
+No, no, just blonde hair,
+nothing, nothing. He said, no,
+he was not attractive at all.
+
+27:06.240 --> 27:11.600
+Okay, and he had the two
+different color eyes, one brown
+and one blue. Yeah, green and
+one blue.
+
+27:11.600 --> 27:17.280
+No, he always had. And it's
+teeth were like horrible.
+Horrible. Horrible. One, two,
+three.
+
+27:17.360 --> 27:22.960
+You were even, you were even
+considering kissing that mouth?
+Well, I kissed a little, but I
+thought,
+
+27:22.960 --> 27:28.240
+geez, no. And you could feel
+like the jagged edges against
+your tongue. Yeah, I guess so. I
+guess so.
+
+27:28.240 --> 27:33.120
+And then I remember his
+girlfriend. He said, yeah, my
+American girlfriend is coming
+over,
+
+27:33.120 --> 27:40.720
+and like, she's very nice, and
+we could have... We could get
+together. And maybe have a trio,
+
+27:40.800 --> 27:46.000
+or maybe she's so much. Yeah,
+and I thought, geez, and I saw
+her coming, I thought, oh, no,
+no,
+
+27:46.000 --> 27:51.360
+not Barbara Streisand. So they
+were trying and trying with
+nothing happens. So, but years
+later,
+
+27:52.240 --> 27:57.760
+when I was really, really
+famous, well, you skipped, well,
+that was that. It was the song
+festival,
+
+27:57.760 --> 28:04.000
+and he didn't win, I didn't win,
+I don't know, it's enough for
+that. No, no, he was not,
+
+28:04.560 --> 28:11.680
+you kissed it. He tried. And he
+was actually trying at the whole
+time that I was there.
+
+28:11.680 --> 28:17.040
+Yeah, he was more. I was way too
+pretty for him. And he was the
+star, and he had a shitty song.
+
+28:17.040 --> 28:22.400
+No, no, he was the star. So what
+happened was after that, it was
+really a hit.
+
+28:22.400 --> 28:26.320
+Yeah, he was like, you came in,
+he's not the star, he was like,
+geez, I thought, that's a song.
+
+28:26.320 --> 28:35.040
+That's a fucking song that I
+heard. So a couple of years
+later, after he had a couple of
+hits,
+
+28:37.040 --> 28:40.640
+there was the... Is that a
+question you had when he had his
+first hit, you think?
+
+28:40.640 --> 28:44.640
+Yeah, I should have done him.
+No, no, no, no, no, no, no, no,
+no, no, no, no, no, no, no, no,
+no, no, no, no, no, no,
+
+28:44.640 --> 28:51.200
+but then then he had, after one,
+he had that red hair, and he
+started, he came out and
+everything,
+
+28:51.360 --> 28:58.160
+and I had to do a big event that
+is, that was every year, that's
+called Kangala Dudes.
+
+28:58.160 --> 29:03.680
+Kangala Dudes? Yeah, it's a
+great gala, no, it's an
+Amsterdam, and it was very
+famous,
+
+29:04.480 --> 29:12.160
+Barry White was there, Dobby
+Gray, the three degrees. So this
+was like 74, 75, maybe?
+
+29:12.160 --> 29:19.280
+Yeah, I see, so no, 74, 74, and
+the gangala Dudes, and they
+asked me and my sister because
+
+29:19.600 --> 29:24.560
+we were also doing a lot of
+backing vocals because we were
+in the best backing vocals you
+can get,
+
+29:25.120 --> 29:31.520
+to back up, to back up some some
+ex from America. You guys were
+cute. And we were very cute,
+
+29:31.520 --> 29:38.240
+and so we did, there was a big
+orchestra there, and Barry
+White, we had to do the backing
+vocals
+
+29:38.240 --> 29:44.320
+for Barry White, his backing
+vocals, but they couldn't sing
+that well, so we were behind the
+
+29:44.320 --> 29:53.040
+curtains, doing them, and we
+backed up, he had to be backing
+up them, and we did some backing
+
+29:53.040 --> 29:57.840
+vocals for the three degrees,
+just to make it a little bit
+fuller, because when they, you
+know,
+
+29:57.840 --> 30:01.440
+on the record, it sounds better.
+But that was like a reo honor,
+because that was cool, because
+
+30:01.440 --> 30:05.840
+you were, we thought it was a
+good gig, yeah, and it was fun,
+it was very musical, and you
+know,
+
+30:05.840 --> 30:11.840
+you were your own star. Yeah,
+sure. And then I was standing,
+we had to do a couple of things
+in front
+
+30:11.920 --> 30:19.920
+of the, the solo stage of the,
+the audience could see us, and I
+knew I heard that David Bowie
+
+30:19.920 --> 30:27.040
+came in, because he was one of
+the guests too. He was
+performing on the show. Now he
+was performing
+
+30:27.040 --> 30:33.280
+somewhere now, Amsterdam, but he
+was a guest in the audience, and
+with his wife. You sure you
+don't want
+
+30:33.280 --> 30:37.120
+to drink a water? No, no, no,
+no, no, no, no, no. You want to
+take a sip of coffee? Yeah, it's
+okay.
+
+30:37.120 --> 30:41.520
+It's good. You've never told us.
+Oh, you're dribbling. You're so
+excited about David.
+
+30:41.520 --> 30:50.320
+No, yeah, I am. No, so I was
+working, and he probably saw me
+standing there and said to
+Angie,
+
+30:50.320 --> 30:57.200
+isn't that, Patricia, we met a
+couple of years ago. She thinks
+he's lesbian, but she's just
+stuck
+
+30:57.200 --> 31:03.920
+out for me. Let's, let's go
+snobber. So afterwards, there
+was drink, of course, with all
+the,
+
+31:04.400 --> 31:11.520
+all the stars. And this was
+still a seven. And I was walking
+around there, and, and I bumped
+into him,
+
+31:11.520 --> 31:18.160
+and he said, I thought he was
+you. How are you? Oh, it's so
+good to see you, and you look so
+pretty,
+
+31:18.160 --> 31:23.360
+and even pretty, and he didn't
+have, what did he fix? It's very
+hot, very hot. Because he was,
+you know,
+
+31:23.360 --> 31:27.840
+he was Ziggy Stardis with his
+suit. So he had the orange hair,
+right here. And he had this
+little thing
+
+31:27.840 --> 31:34.560
+over his head. He had that out
+of the party. Yes. No way.
+Because you know why, because he
+told me
+
+31:34.560 --> 31:40.960
+later, because he had a, and
+he's no one of his, you know,
+one of his eyes had a, uh,
+cataract,
+
+31:40.960 --> 31:44.720
+yeah, something, something,
+because one of the, you know,
+they're the different color. The
+different
+
+31:44.720 --> 31:48.560
+color, there was something going
+on. Cool. So that wasn't just a
+thing. And he had a sort of an
+infection.
+
+31:48.560 --> 31:54.160
+So it was not even, but it
+looked so, of course, cool. And
+his teeth were also still fucked
+up, right?
+
+31:54.160 --> 31:59.440
+Yeah, teeth were still crooked.
+Not anymore. I've seen. Yeah.
+But it's in white. Yeah.
+
+31:59.440 --> 32:05.600
+Yeah. Yeah. That's why it's. I
+think she demanded to do. Yeah.
+He said, dude, I'm not going to
+run
+
+32:05.600 --> 32:13.760
+on a high degree. I think this
+is the time to fix your teeth.
+So, um, uh, someone, we, we met
+each other
+
+32:13.760 --> 32:17.600
+and he said, you would, you'd
+like to come to the hotel and
+have a drink with me. So we, it
+down
+
+32:17.600 --> 32:23.120
+says we had a drink in the
+lobby. And Angie was there too.
+But in the meanwhile, I heard,
+and I've
+
+32:23.200 --> 32:29.360
+seen a little bit of it, uh, he
+had quite a fight with the Angie
+downstairs. She was very drunk.
+
+32:29.360 --> 32:36.560
+As she said, I'm so pissed. I'm
+so pissed. And, uh, she was
+right. Yeah. Yeah, I'm pissed.
+I'm pissed.
+
+32:36.560 --> 32:44.000
+Now pissed drunk. And she
+behaved horribly, because she's,
+she's a rough lady. And he was
+very
+
+32:44.000 --> 32:48.080
+ashamed of her. And that's why
+he wants to go back to the hotel
+and he said, would you like to
+
+32:48.080 --> 32:53.040
+come with me in the limo? And,
+uh, I said, well, I actually
+have to go home, but, you know,
+
+32:53.040 --> 32:57.520
+I haven't seen you for a long
+time. So, that might be nice.
+So, I went for a drink.
+
+32:57.520 --> 33:03.120
+Oh, and you didn't think of that
+moment? No, no, no, no, no, no,
+no, I didn't know. I mean, I
+
+33:03.120 --> 33:09.200
+had to slay thee with him. So,
+um, I'm a decent girl. Of course
+not. So, we went upstairs and I
+had
+
+33:09.200 --> 33:15.920
+a lovely, uh, talk about it
+during your, in his room, you
+know. Yeah, it was, it was in a
+big,
+
+33:16.000 --> 33:21.440
+the biggest sweets in the am
+store hotel. And we had a drink
+and we were talking about the
+
+33:21.440 --> 33:25.440
+early days, because what
+happened in the meanwhile, and I
+was telling you, did you tell
+him that
+
+33:25.440 --> 33:30.240
+fucking son can't believe it?
+Oh, yeah, I told him that he had
+to kind of believe it. Really,
+
+33:30.240 --> 33:39.440
+you were right. It was it. And,
+um, and did he say, yeah, told
+you so? And he was really sweet.
+
+33:39.440 --> 33:43.280
+And he was smoking really his
+head off. You know, cigarettes?
+
+33:43.360 --> 33:48.000
+A joints, of course. He was an
+Amsterdam's, uh, problem. And
+you're ready to just get
+
+33:48.000 --> 33:53.040
+high just for being in the room.
+A little bit with him. Oh, no,
+no, no, I smoked. And he, of
+course,
+
+33:53.040 --> 33:58.720
+he loved that. So, it was just,
+it was very romantic. And he
+started to, you know,
+
+33:59.920 --> 34:05.520
+just touch my hair, my, my, my
+shoulders, my, you know, my
+whole body. And I thought, boy,
+
+34:05.680 --> 34:15.120
+okay, his fame is now. And that
+was nice. I know he's much
+nicer. I mean, I thought he is
+David Bowie,
+
+34:15.120 --> 34:20.640
+of course, you know. And I said,
+if I tell my sister, I walked
+away and I didn't do it.
+
+34:20.640 --> 34:27.680
+She'll never say, are you crazy?
+So I went along and we, and he's
+a great lover. I have to say,
+
+34:27.760 --> 34:34.240
+Anna. Really? Yeah, don't want
+to hear that. But he's a great
+lover. He has a lot of,
+
+34:34.240 --> 34:41.200
+so full of the girls that are
+done and done, done, done this.
+Are you listening? He is a great
+
+34:41.200 --> 34:48.800
+lover. He's unbelievable
+patient. And he wants to give
+you everything you want. He led
+you from
+
+34:48.800 --> 35:01.200
+me to you to your head. He's not
+afraid, not at all. His penis
+size is medium. Not, not, not
+
+35:01.200 --> 35:04.800
+that. Thank you for answering
+that question. So my speaker,
+Dave Bowie. Oh, absolutely. Boy,
+
+35:07.200 --> 35:12.400
+I think he's calling. That's
+right. Hi, David. I'm sorry.
+We're going to finish the penis
+size
+
+35:12.400 --> 35:18.320
+conversation. I have to say
+nothing special. Nothing else
+matters. Nothing special.
+
+35:18.480 --> 35:26.400
+Very nice, nicely shaped, but
+nothing. Is he circumcised? No.
+No. I remember that. Yeah.
+
+35:26.400 --> 35:40.160
+No, no, no. Just a normal
+English dick. And it was nice.
+He went, oh, and he went on and
+went for a second time.
+
+35:40.960 --> 35:43.760
+There he is calling again. He
+was going to say it was actually
+three times.
+
+35:43.760 --> 35:53.600
+Yeah, yeah, I remember that. And
+after that, I brushed my teeth
+with his toothbrush because
+
+35:53.600 --> 35:59.600
+I always liked brushing my teeth
+afterwards. And then, you know,
+when I know that you hate to
+hear
+
+35:59.600 --> 36:04.640
+this, I know that. No, because
+knowing that my penis is bigger
+makes a world of difference. Oh,
+okay,
+
+36:04.880 --> 36:10.720
+no, no, no, no. Another pod show
+podcast. Stick it in your ear.
+
+36:19.360 --> 36:23.920
+Get this piece of the show and
+more great ones like it on the
+BT Pod Show Media Network.
+
+36:23.920 --> 36:27.280
+Howard by Pod Show and Limelight
+Network. Control your part in
+the show.

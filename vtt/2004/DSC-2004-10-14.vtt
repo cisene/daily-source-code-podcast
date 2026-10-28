@@ -1,0 +1,2075 @@
+WEBVTT
+
+00:00.000 --> 00:14.560
+How are you, everybody? Good
+afternoon. Welcome to the Daily
+Source Code for Dan. Thursday,
+October
+
+00:14.560 --> 00:20.480
+14th, 2004. This is the low
+bandwidth edition of the show
+because I've been cut off by
+
+00:20.480 --> 00:25.000
+my provider. I'm back to 56K so
+I'll probably upload it at a gas
+station somewhere.
+
+00:25.000 --> 00:33.400
+Either that or I've waited until
+past midnight when my bandwidth
+quota drops down below
+
+00:33.400 --> 00:40.120
+it's 30 to eight, 30 gig levels.
+So the show is no problem.
+Creating the show is pretty
+
+00:40.120 --> 00:44.280
+easy today but actually getting
+it up on the server and getting
+everything published is a
+
+00:44.280 --> 00:50.680
+little bit more challenging.
+Regardless today, thank god I
+was able to get some stuff
+
+00:50.680 --> 00:54.520
+with iPod overnight before the
+bandwidth cut off and I'll talk
+about that a little bit later
+on.
+
+00:54.600 --> 00:59.800
+We got a viewer's final listener
+response from Australia. We've
+got some news about
+
+00:59.800 --> 01:04.680
+St. Helens. We've got listener
+response from Japan and a
+history of the commercial
+internet.
+
+01:07.480 --> 01:13.320
+And because I've been so low on
+on pipe in the past, it was the
+past 10 hours. It's now three
+
+01:13.320 --> 01:19.160
+in the afternoon. This is coming
+to you from Curry Castle in
+Flanders. I had a lot more
+chance
+
+01:19.160 --> 01:23.560
+to catch up on email and check
+out some core respondents and I
+really have to say,
+
+01:23.640 --> 01:32.440
+it's been so nice. All of the
+work that we've done together,
+developers and people who are
+just
+
+01:32.440 --> 01:38.280
+podcasting. So here's a song for
+you guys for everyone who's been
+helping out with this really fun
+
+01:41.250 --> 06:03.750
+[ Music ]
+
+06:06.520 --> 06:11.560
+Andrew Gold, for all the iPod or
+developers and all the
+podcasters parting with us today
+on
+
+06:11.560 --> 06:16.680
+the source code. Thank you for
+being a friend. Isn't that just
+a sweet song?
+
+06:16.680 --> 06:22.280
+So this is the source code for
+Thursday, October 14, 2004. You
+probably saw the posting on my
+
+06:22.360 --> 06:27.960
+weblog if not. Here's what
+happened or what has happened in
+the past and I thought I was
+over this
+
+06:27.960 --> 06:34.040
+with my internet provider here
+in Belgium. The good news about
+living in a castle is that you
+live
+
+06:34.040 --> 06:39.480
+far away from everybody and
+you've got just nature
+surrounding you. And of course
+that's also
+
+06:39.480 --> 06:45.400
+the bad news because that means
+that ADSL is not possible. We're
+too far from the head office.
+
+06:45.400 --> 06:58.840
+Now we do have cable mode from
+tailonet.be and oops. It's me
+wifey poo. Hold on a sec, I got
+to take
+
+06:58.920 --> 07:16.840
+this. Hello. Hi. Yeah. Yeah. My
+happy-happy passport, though. No
+need, I'm going to
+
+07:16.840 --> 07:26.760
+walk the new. Okay. Jamie
+Nayser. Okay. Exhibit in the
+show. This is like a shelterous
+bella.
+
+07:31.160 --> 07:39.960
+Okay. Rusta Khan. Love you. Bye.
+Right. So that was my wife.
+She's in Brussels right now.
+
+07:39.960 --> 07:43.720
+That's about an hour's drive
+from from our house from the
+castle.
+
+07:44.680 --> 07:52.520
+Because Christina's passport
+actually expires in what like
+five days or something like
+that.
+
+07:52.520 --> 07:58.040
+So seeing as we're moving to the
+UK, she had to go get the
+passport taken care of.
+
+07:58.040 --> 08:03.480
+I have jobs too. Obviously, I'll
+get her on to the bandwidth in a
+second. Let's see.
+
+08:03.480 --> 08:08.520
+The getting the new bed that job
+was taken away from me. I'm
+looking at the note on the wall
+here.
+
+08:09.160 --> 08:13.560
+I'm supposed to look for
+schools. Found a lot of schools.
+Here's a problem. If you want to
+put
+
+08:13.560 --> 08:20.920
+your kid into a public school in
+the UK, you can't apply until
+you actually are living in the
+UK.
+
+08:20.920 --> 08:26.040
+So I'm making good friends with
+Audrey, who happens at the same
+birth date as Christina.
+
+08:26.040 --> 08:31.400
+And we'll probably be able to
+smuggle maybe a week or two. But
+it's also very, very full.
+
+08:31.400 --> 08:35.560
+All the schools are full. And so
+it's going to be interesting to
+get Christina in midterm.
+
+08:35.560 --> 08:39.320
+But I'm sure we'll work that
+out. Another thing I was
+supposed to take care of was the
+piano.
+
+08:39.320 --> 08:46.840
+We have a discleaveer. DSC was
+it three or something like that
+from Yamaha. It's a baby grand
+piano.
+
+08:46.840 --> 08:51.800
+A midsize baby grand piano. It's
+white, which there's only like
+three of them in the entire
+world.
+
+08:51.800 --> 08:57.160
+It's one of these pianos that
+plays itself. You can also
+record your playing and it'll
+play it back.
+
+08:57.160 --> 09:01.640
+And it doesn't play it back as a
+recording. It plays it back.
+Really playing it on the keys.
+
+09:02.200 --> 09:07.080
+And we decided that now that
+we're moving, time to get rid of
+some stuff.
+
+09:07.080 --> 09:11.720
+And this is one of those pieces
+of stuff that we haven't used.
+No one plays anymore.
+
+09:11.720 --> 09:17.080
+Christina and I took lessons for
+two years and then we said, hey,
+screw it. She wanted to ride
+horses.
+
+09:17.080 --> 09:21.880
+And I wanted to fly out like
+copters. So I'm trying to get
+rid of that.
+
+09:21.880 --> 09:26.920
+I found a place that will put it
+up for consignment in their
+showroom. But it's, oh man, I'm
+moved like this.
+
+09:26.920 --> 09:31.640
+An international move is not
+easy. So anyway, back to the
+bandwidth. I've had this with
+this provider before.
+
+09:31.640 --> 09:39.560
+So I've cable. And what happens
+is they have a limit. They have
+a total bandwidth limit and an
+upstream limit.
+
+09:39.560 --> 09:45.720
+Now I've surpassed the upstream
+limit before because, of course,
+in their asynchronous
+money-making scam,
+
+09:46.440 --> 09:52.440
+they let you upload only a third
+of what you can download. So
+that's part of the big scam. The
+man has over us.
+
+09:53.400 --> 09:58.760
+And I said, look, I've said this
+many times. Just let me buy
+whatever ban with, you'll sell
+me.
+
+09:58.760 --> 10:03.880
+Just give it to me. And so
+finally they found that I have
+like now the top level account,
+
+10:03.880 --> 10:08.600
+which is the super duper gamers
+account. I have 30 gigs. You
+can't get more. There's no
+business account.
+
+10:08.600 --> 10:14.840
+They can get you more. You can
+only get more IP addresses or
+email addresses or something
+like that or more web space.
+
+10:14.920 --> 10:20.200
+Whatever. Let me see how my
+battery is doing here all on.
+Now we look to be doing okay.
+
+10:21.960 --> 10:28.920
+So with all this podcasting, and
+it's not the upstream bandwidth
+because I didn't even come near
+
+10:28.920 --> 10:34.040
+to half of that, it's the
+download bandwidth. You know,
+I've subscribed to everything
+I'm putting into the
+
+10:34.040 --> 10:39.080
+directories to check it out,
+listen to it, listen to bits.
+And of course I have to listen
+to every single
+
+10:39.160 --> 10:43.000
+dawn and drew show now that I
+know that dawn doesn't love with
+me. Right, Dawn?
+
+10:45.160 --> 10:50.280
+So I exceeded my maximum. That
+what happens is automatically
+they cut down your modem speed
+
+10:50.280 --> 10:56.920
+to from a cable modem literally
+to like 56k. And they do it in a
+really nasty way by destroying
+
+10:56.920 --> 11:03.960
+about 40% of your packets, which
+makes all kinds of applications
+not work reliably. And just
+really
+
+11:03.960 --> 11:09.000
+crappy. And the thing is, they
+will not sell me more bandwidth.
+I'm sitting here saying tell me
+
+11:09.000 --> 11:13.400
+what it costs, give me another
+30 gigs, give me another three
+terabytes, whatever. Now I'm
+sorry.
+
+11:13.400 --> 11:19.880
+We just, we don't have the
+application to sell you more.
+And this is like, it's like the
+electric company
+
+11:19.880 --> 11:24.360
+saying, oh, we're sorry, Mr.
+Curry. You have used too much
+electricity this month already.
+We're
+
+11:24.360 --> 11:29.000
+cutting you down. In fact, you
+can only leave half your lights
+on from now on until the end of
+the month.
+
+11:29.000 --> 11:34.200
+You know, so it sucks. It's just
+really fucking blows. So what I
+will probably wind up doing
+
+11:34.200 --> 11:40.760
+is driving, well, people have
+been very helpful. They've given
+me all kinds of hotspot lists.
+
+11:40.760 --> 11:47.160
+Now, I installed a couple of
+Wi-Fi base stations and four
+computers in the local grade
+school.
+
+11:47.160 --> 11:52.200
+When Christina will still go
+into that school and I donated
+all this MAC stuff, all the new
+
+11:52.200 --> 11:56.040
+e-max. So I'm going to drive by
+there because I did leave it
+open on purpose. I'm going to
+drive
+
+11:56.040 --> 12:00.920
+by there, see if that's still
+open. Otherwise, I left to go to
+a gas station on the highway,
+
+12:00.920 --> 12:07.480
+which has an official hotspot
+operated by Bellhacom. And I'll
+probably upload from there.
+
+12:07.480 --> 12:13.480
+So I'm probably going to encode
+a little lower bit rate than
+normal, just to lower the
+
+12:13.480 --> 12:19.240
+file size a bit more because
+even, you know, if I'm on a good
+line, it can still take quite a
+while
+
+12:19.240 --> 12:22.840
+to upload the show. And I also
+want to be downloading. So I'm
+going to be sitting the parking
+
+12:22.920 --> 12:28.200
+lot for about an hour and a half
+watching, you know, half go up
+and watching stuff come in.
+
+12:28.200 --> 12:33.720
+It should be very entertaining.
+And if that doesn't work out,
+then somewhere around,
+
+12:33.720 --> 12:37.640
+well, somewhere after one AM,
+I'll be able to get my bandwidth
+back. And then, of course, it'll
+
+12:37.640 --> 12:43.560
+still be limited. So it sucks.
+It just sucks. Oh, look at my,
+looking at my list here. I also
+have
+
+12:43.560 --> 12:51.080
+to figure out the stables.
+Stabiling for the horse. Oh,
+man, my life. Okay. Let's see.
+One of the
+
+12:51.160 --> 12:56.520
+things that's been circling
+around on the net for the past
+few days is this theory that
+
+12:56.520 --> 13:03.400
+George W. Bush during the
+debates had an earpiece in and
+was being tutored or coached
+throughout
+
+13:03.400 --> 13:07.960
+the debate. Now, I've talked
+about this before. I think we've
+even talked about it on trade
+
+13:07.960 --> 13:14.120
+secrets, not necessarily related
+to the debates, but just in
+general. So it's so often seems
+
+13:14.120 --> 13:18.920
+like George W. He's sitting
+there and these long pauses,
+like he's listening to someone,
+you know,
+
+13:19.000 --> 13:23.560
+prompting him and giving him
+the, you know, the next line
+that he should say. And it's
+sometimes
+
+13:23.560 --> 13:28.280
+he just comes across that way.
+So now, of course, and I'm going
+to play the piece that Dave
+
+13:28.280 --> 13:35.320
+Winer pointed to first, because
+I got, you know, it's so easy to
+do this. That's why I'm sure
+
+13:35.320 --> 13:39.560
+that there's more than just the
+two that are going to play for
+you. But here's some actual
+audio
+
+13:39.560 --> 13:44.520
+from the prompting of George
+Bush. Not doing the debate. I
+have that for you in a second. I
+have
+
+13:44.600 --> 13:51.000
+a secret audio recorded from
+the, from his prompting service
+in his earpiece. First, this
+
+13:51.000 --> 14:05.240
+is just from a general speech.
+Mr. Chairman, delegates, foul
+citizens, farmers, fellow
+citizens,
+
+14:06.200 --> 14:16.680
+Americans have been given hills
+to climb and found the strength
+to climb them to climb them.
+
+14:18.680 --> 14:25.720
+When I, when I said those words
+26 years ago, four years ago,
+four years ago,
+
+14:26.600 --> 14:33.080
+now we can see the valley below.
+My father surveyed years at the
+side of another great American,
+
+14:34.040 --> 14:41.720
+Laura Bush. Ronald Reagan.
+Ronald Reagan. Pinching plans,
+worker training. We're created
+for the
+
+14:41.720 --> 14:47.640
+world of yesterday. Tomorrow.
+Not tomorrow. Not tomorrow.
+Yesterday. Yesterday. Oh, I give
+up.
+
+14:49.160 --> 14:53.640
+I could listen to that over and
+over again. I think this one's
+even better. And I haven't heard
+
+14:53.640 --> 14:58.040
+it seen this one around on the
+night yet. So I think you'll
+appreciate it. Here's actual
+recorded footage
+
+14:58.040 --> 15:03.960
+recorded tape of the president's
+earpiece during the second
+presidential debate.
+
+15:28.040 --> 15:34.440
+He said he was $487 billion and
+voted against it right before he
+voted for it. voted for
+confusing.
+
+15:34.440 --> 15:39.720
+But it works. That's since they
+confusing single people. He said
+he thought Saddam Hussein was a
+great
+
+15:39.720 --> 15:44.760
+threat. Now said it was a
+mistake to remove Saddam Hussein
+from power. Now, I can't see why
+
+15:44.760 --> 15:50.440
+that. Because he got that. He
+changed his position quite often
+because he does. Now you don't
+find George.
+
+15:51.240 --> 15:55.400
+You know, for a while, he was a
+strong supporter of getting the
+Saddam Hussein. No, it's not a
+god.
+
+15:55.400 --> 15:59.640
+There is a system until the
+Democrat primary came along.
+
+15:59.640 --> 16:03.800
+How are they? They don't like
+him any. And how are they in the
+anti-war can it began to gain on
+him?
+
+16:05.800 --> 16:13.160
+He changed positions. I don't
+say you can leave this country
+in a time of war, in a time of
+
+16:13.160 --> 16:19.240
+uncertainty. You change your
+mind because of politics. He
+just brought up the tax. There
+you go.
+
+16:20.200 --> 16:24.280
+You remember that? We preached
+that child credit by $1,000.
+
+16:26.280 --> 16:31.160
+We reduced the marriage penalty.
+You spent a little bit of a 10%
+tax bracket for the low-income
+
+16:31.160 --> 16:36.760
+Americans. That's right at the
+middle class. There you go. He
+voted against it. And he tells
+you
+
+16:36.760 --> 16:42.280
+he's for middle class tax
+customers. You've got to be
+consistent. There's a lot of
+pressures.
+
+16:43.080 --> 16:48.600
+You've got to be firm. This
+president, I would follow up.
+
+16:49.400 --> 16:53.480
+We have a series of questions on
+Iraq. And so I would turn to the
+next questioner.
+
+16:53.480 --> 16:56.920
+It's a question to President
+Bush. And the questioner is
+Robin?
+
+16:56.920 --> 16:58.280
+Just not. We practiced it.
+
+17:00.280 --> 17:01.800
+Can you get him like a water or
+something?
+
+17:01.800 --> 17:04.360
+Just drink water or something.
+George, it's just water.
+
+17:04.360 --> 17:08.600
+Just a president. Yes, he is.
+Don't. We'll get more. He's not
+asking the question. Look at the
+
+17:08.920 --> 17:12.520
+audience. Master structure. Just
+like we practiced it. But just
+apply to the
+
+17:12.520 --> 17:16.120
+education by stating, I think
+you have a real hard question in
+the knowledge. We'll
+
+17:16.120 --> 17:20.600
+carry out our needs. That is
+down to reduce weapons of mass
+destruction.
+
+17:20.600 --> 17:23.560
+Booting could have passed this
+knowledge to our Dutch enemies.
+
+17:23.560 --> 17:28.360
+Okay. That blank is just not
+believe. This to be a reasonable
+justification for being
+
+17:28.360 --> 17:32.600
+yourself. I'll charge you to.
+For invasion. When this
+statement applies to so many of
+the
+
+17:32.600 --> 17:37.800
+centuries, including North
+Korea. Each situation is
+different. Each situation is
+different,
+
+17:37.800 --> 17:43.000
+Robin. And obviously we hope
+that diplomacy works before you
+ever use
+
+17:43.000 --> 17:46.760
+a position. Hardest decision for
+those who make his paper to use
+force.
+
+17:46.760 --> 17:49.640
+I don't know about it. 9-11.
+9-11. There you go.
+
+17:49.640 --> 17:55.400
+Well, differently. 9-11. We had
+to recognize, we saw threat.
+
+17:55.400 --> 17:57.800
+I'm going to let you go here and
+get my notes. We must take a
+series of
+
+17:57.800 --> 18:01.240
+graphic. I don't know if it's 5
+days. We'll see a threat.
+
+18:03.240 --> 18:09.800
+Oh, man. 9-11 bullshit. No,
+yeah. Just think about your
+favorite salad dressing.
+
+18:09.800 --> 18:13.640
+Please vote for John Kerry.
+Believe me. It's the best thing
+to do.
+
+18:13.640 --> 18:17.000
+We've been along with a source
+code for today. As we're about
+18 minutes into the show,
+
+18:17.000 --> 18:23.000
+I was listening to a fine IT
+Conversations podcast, memory
+lane with Halle suit. By the
+way,
+
+18:23.080 --> 18:28.040
+got a mail from Doug K, who told
+me that there is a way to get
+just the feeds that you want.
+
+18:28.040 --> 18:35.400
+You don't have to subscribe to
+the main feed. I just didn't
+look closely enough at the
+website.
+
+18:35.400 --> 18:40.360
+And quite honestly, I like
+subscribing to everything that
+comes from IT Conversations.
+
+18:41.240 --> 18:46.680
+Oh, there was one thing. During
+this particular interview, Doug,
+I could hear your hybrid,
+
+18:46.680 --> 18:49.960
+your phone hybrid bleeding over
+and you were talking to someone
+else and you could just
+
+18:49.960 --> 18:54.440
+barely hear it in the
+background, but I had it really
+loud on the iPod. In this
+particular
+
+18:54.440 --> 19:00.680
+memory lane with Halle suit,
+what Halle does she talks to,
+you know, pioneers of our
+industry,
+
+19:00.680 --> 19:06.920
+of technology, of networking, of
+computers. And she interviewed
+Len Kleinrock, in that inventor
+of
+
+19:06.920 --> 19:14.360
+packet switching. So arguably,
+one of the guys who founded the
+internet. And I've mentioned
+before
+
+19:15.000 --> 19:21.960
+in both trade secrets. And I
+think also on the source code
+that I was, you know, without a
+doubt,
+
+19:22.600 --> 19:27.400
+partially responsible for the
+commercial internet. And there
+was so much pushback at the time
+
+19:27.400 --> 19:34.840
+when the commercial internet
+started, people hated us for
+doing that. And I was interested
+to hear
+
+19:34.840 --> 19:41.320
+what Len Kleinrock's take would
+be on that. And I was probably
+even more surprised by what
+
+19:41.400 --> 19:44.760
+his actual take was. He's going
+to explain it a little bit. He's
+going to kind of set it up
+
+19:45.640 --> 19:50.120
+as we drop into the story after
+the Arpenads already been
+founded. And NSF comes into the
+picture.
+
+19:50.920 --> 19:57.560
+National Science Foundation was
+now governing who could use the
+network. They had an acceptable
+
+19:57.560 --> 20:03.000
+use policy. And it was a very
+liberal policy. They allowed all
+of their constituents in
+
+20:03.720 --> 20:08.840
+the biologist, the physicist,
+the chemist, the meteorologist,
+the geologist, the
+oceanographers,
+
+20:09.560 --> 20:15.480
+all manner of science when else
+don't see the network. So it's
+great to expand it the user's
+
+20:15.480 --> 20:22.920
+base. Now, again, it was
+researcher oriented. But many of
+these research organizations
+
+20:22.920 --> 20:29.720
+lived inside large corporations.
+For example, the research group
+that IBM, the research group
+
+20:29.720 --> 20:34.680
+at major chemical companies, all
+exploration companies. And what
+were these guys doing with the
+
+20:34.680 --> 20:39.480
+net besides moving down to the
+data back and forth? You said it
+before, Hally, they would do an
+email.
+
+20:40.280 --> 20:47.240
+An email was a terrific
+application. What you have to
+realize that those researchers
+inside this
+
+20:47.240 --> 20:53.560
+large corporation couldn't keep
+the secret of email from the
+others in the organization. So
+the
+
+20:53.560 --> 20:59.560
+production people saw it,
+development people, the sales
+folks, top management, pretty
+soon,
+
+21:00.280 --> 21:07.160
+the internet usability and
+applications leaked out from the
+research organization
+
+21:07.160 --> 21:12.680
+into the entire commercial
+organization. And that's when
+the dot com's began to appear.
+
+21:12.680 --> 21:19.400
+Right. And I know that was the
+big issue at that time, is the
+net should the net be
+commercialized.
+
+21:19.400 --> 21:23.960
+And the academic community had a
+lot of different ideas about it.
+Right. Can you tell me about
+that?
+
+21:24.920 --> 21:31.160
+Well, as I said in the very
+early days, we were small
+community of people who trusted
+each other.
+
+21:31.160 --> 21:39.240
+We didn't put in restrictions as
+to how the network would be used
+or what would travel over the
+
+21:39.240 --> 21:47.080
+network. Because there was an
+unwritten rule of engagement
+that we all adhere to among
+which were
+
+21:47.080 --> 21:55.240
+this network was for scientific
+purposes and not for commercial
+purposes. As these dot com's
+came
+
+21:55.240 --> 22:02.760
+on, we didn't see a problem with
+them using the network. In fact,
+to look forward,
+
+22:04.040 --> 22:09.640
+I'm very pleased that dot com's
+came in because it never would
+not have grown to reach out
+
+22:09.640 --> 22:13.960
+in all the applications and all
+the people in all the countries
+of the world had not the dot
+com's
+
+22:14.040 --> 22:21.080
+come in and begun to provide
+some commercial services,
+commercial applications, and
+deploying
+
+22:21.080 --> 22:27.720
+infrastructure that the open net
+at that time could not afford to
+do. But getting back to the
+
+22:29.000 --> 22:39.960
+approach of these dot com people
+in 1988, the first worm appeared
+came from Robert Morris.
+
+22:40.680 --> 22:46.120
+He launched the worm and it
+totally took down a large
+portion of the network. We were
+very
+
+22:46.120 --> 22:53.720
+unhappy about that. But that
+seemed to be an isolated
+incident until in 1994, the two
+most hated
+
+22:53.720 --> 23:00.200
+people on the internet, Canton,
+Seagull, who were running a
+small, small legal firm,
+
+23:01.320 --> 23:08.520
+sent out the first spam. They
+sent out an advertisement to all
+the news groups offering to help
+
+23:08.600 --> 23:16.040
+users get green cards if they
+were not citizens. Now, this
+went out, it's flooded the
+network.
+
+23:17.160 --> 23:22.040
+Now, those on the other side,
+people like myself said, what
+the heck was that? The network
+
+23:22.040 --> 23:28.120
+is not supposed to be used for
+advertising purposes. So we'd
+launched email back to the
+Canton
+
+23:28.120 --> 23:33.720
+Seagull saying, you can't do
+that, that's wrong. And
+everybody without being
+coordinated sent
+
+23:33.720 --> 23:39.880
+these information back, these
+emails back, as it was full. We
+created the first denial of
+service
+
+23:39.880 --> 23:47.000
+of that network. I like that. It
+is hard to imagine what it's
+even looked like in those days
+
+23:47.000 --> 23:52.120
+and when it switched. Actually,
+well, you get the idea there.
+And there's even a piece of the
+
+23:52.120 --> 23:57.720
+end where he goes in a little
+bit more about the dot coms.
+Really good to hear Len
+Klein-Rofka talk
+
+23:57.720 --> 24:01.720
+that way, because I do think it
+was good. The commercialization
+of the internet did bring it
+
+24:01.720 --> 24:06.200
+to every single corner of the
+world, or at least close to it.
+And still, we're only like what,
+
+24:06.200 --> 24:11.640
+you know, 6% of the entire
+population that has access to
+the internet. Good show to
+subscribe to
+
+24:11.640 --> 24:17.080
+great podcast. It's memory lane
+with Halle Suit. You can find it
+at IT Conversations.com.
+
+24:17.080 --> 24:21.080
+Today, the source code, I'm Adam
+Curry reaching out to the far
+corners of the earth myself,
+
+24:21.080 --> 24:25.800
+including Australia. Hi, Adam.
+This is Les Pose and Melbourne
+of Australia. Thanks for the
+great
+
+24:25.800 --> 24:30.360
+work that you and Dave and the
+others are doing with
+podcasting. There was something
+that happened
+
+24:30.360 --> 24:36.840
+in yesterday's trade secrets for
+the 12th, where Dave spoke about
+a friend of his Les Williams,
+
+24:36.840 --> 24:43.960
+talking about blogs and by
+extension podcasts, being like
+Chinese meals, small tidbits,
+
+24:43.960 --> 24:49.320
+who delicately eat them with
+chopsticks, rather than just
+having a big meal in front of
+you.
+
+24:49.320 --> 24:53.160
+Can I send that metaphor a
+little further to get some extra
+meaning out of that?
+
+24:53.160 --> 24:57.640
+Sort of bad metaphor, because it
+reminds of what happens when you
+go to Chinese yam chat.
+
+24:57.720 --> 25:01.880
+Very popular in Australia, and
+I'm sure in Europe. And of
+course, in any good China town
+in
+
+25:01.880 --> 25:08.040
+the United States, yam chat
+doors is where the waiters serve
+you every couple of minutes,
+
+25:08.040 --> 25:11.960
+something you pop out on the
+trolley and you have a choice.
+Could be Chinese broccoli,
+
+25:11.960 --> 25:16.360
+could be fish, could be seafood.
+There's usually something for
+everybody and it's usually in
+
+25:16.360 --> 25:22.360
+serves for three people. And
+this way, it reminds you of
+podcasts, because if you don't
+like something,
+
+25:22.360 --> 25:25.880
+you just say, no, I'll wait for
+something better comes along.
+That's really good. Well,
+
+25:25.880 --> 25:30.680
+all have that, or no, any
+summers will have that, will
+have something else. So that's
+how
+
+25:30.680 --> 25:35.000
+reminds you of podcasting. Just
+a little bit for everything.
+You're happy to, they're happy
+if you
+
+25:35.000 --> 25:39.800
+reject. There's always something
+coming along. And that's going
+to be better than what you had
+just
+
+25:39.800 --> 25:45.560
+before. So look, guys, keep it
+up and really enjoying it here
+in Melbourne, Australia. Bye for
+now.
+
+25:45.560 --> 25:49.160
+All right, Les, thank you very
+much. And I'm noticing that
+there are a lot of podcasts
+coming
+
+25:49.160 --> 25:54.120
+out of Australia currently. I
+don't know. You guys must be
+star for good radio for good
+entertainment.
+
+25:54.200 --> 25:58.680
+It's just those Mad Max movies.
+That's all you see on TV. And
+then, you know, I can only
+imagine
+
+25:58.680 --> 26:03.640
+it's, it's Molly, whatever,
+who's no longer doing the
+countdown shows on every, every
+radio station.
+
+26:03.640 --> 26:07.560
+You must be so starved. And of
+course, it's so much so vast.
+You know, it's only the cities,
+
+26:07.560 --> 26:11.480
+I guess, that really have radio
+stations. And if you're not
+anywhere near a city, it's going
+to
+
+26:11.480 --> 26:16.840
+it's old, the coat hanger
+antenna time. And something that
+Les was talking about triggered,
+
+26:16.840 --> 26:21.640
+well, it's like, I mean, just
+bring him my email here for a
+second, triggered something that
+I found
+
+26:22.600 --> 26:30.520
+which as it relates to
+podcasting. Oh, my second. Let
+me see why this is.
+
+26:31.960 --> 26:36.120
+I have to look at my scent box.
+At least my setup is going to be
+able to handle
+
+26:37.240 --> 26:45.720
+handle me doing this or it
+should be able to handle me
+doing this. Okay, let me see.
+Here we go.
+
+26:45.720 --> 26:54.040
+Yeah, I got this from in Karta.
+That's MSN's encyclopedia. And I
+was looking, because I was
+interested
+
+26:54.040 --> 27:01.080
+in the total market that radio
+is in the United States. That's
+all I have as US numbers. So,
+
+27:01.080 --> 27:04.680
+because I think that what we're
+doing here is no different from
+radio broadcasting. So, I wanted
+to
+
+27:04.680 --> 27:11.640
+see, what's the size of this
+market and what can we do with
+it? Radio attracted about 8% or
+17.2
+
+27:11.640 --> 27:18.120
+billion of all US advertising
+dollars making it the fourth
+largest advertising medium in
+1999.
+
+27:18.120 --> 27:23.560
+Although national advertisers
+can buy national network radio
+time, here it comes. 90% of all
+radio
+
+27:23.560 --> 27:28.360
+advertising is local. Unlike
+television, which reaches abroad
+audience, the specialized
+
+27:28.360 --> 27:33.080
+programming of radio stations
+enables advertisers to reach a
+narrow, highly specific
+audience,
+
+27:33.080 --> 27:37.560
+such as people who like sports
+or urban teenagers who listen to
+the latest styles of popular
+music.
+
+27:38.520 --> 27:45.400
+Because many people listen to
+radio while in their cars, radio
+also enables advertisers to
+reach
+
+27:45.400 --> 27:50.120
+prospects just before they go
+shopping. But because people
+listen to the radio while doing
+something
+
+27:50.120 --> 27:55.000
+else, such as driving or
+working, radio commercials can
+be easily misunderstood. As a
+result,
+
+27:55.000 --> 27:59.480
+radio ads work best when the
+messages are relatively simple
+ones for familiar, easily
+understood
+
+27:59.480 --> 28:05.000
+products or, and I'll add to
+this, which it was a wiki, or if
+you can just rewind and listen
+to
+
+28:05.000 --> 28:08.840
+the commercial again, because
+you're actually interested in
+the advertisement, or maybe
+because
+
+28:08.840 --> 28:15.080
+it was actually entertaining. So
+I'm quite sure I can't be too
+far off pace with that theory.
+
+28:15.640 --> 28:21.880
+Okay, even though I'm living
+here in Belgium at the castle,
+we still have the house in
+Amsterdam,
+
+28:21.880 --> 28:27.880
+my mind is already left in
+Netherlands and left Belgium. I
+mean, I'm barely skimming the
+front
+
+28:27.880 --> 28:33.480
+page of the newspaper these
+days. It's just like, you know,
+why bother? I'm already gone.
+Although
+
+28:33.560 --> 28:39.640
+certainly, my mind have not yet
+arrived in the UK. In fact, for
+the past three days, I've
+probably
+
+28:39.640 --> 28:44.840
+been living more in the
+northeastern part of America, or
+northwestern corner of America,
+mainly
+
+28:44.840 --> 28:52.120
+because Dave Winner lives in
+Seattle now. Let's see, I've
+been listening to Northwest
+Noise, which is
+
+28:52.120 --> 28:58.440
+a great podcast. You can get it
+from the iPod.org directory.
+It's, I mean, there's lots of
+history
+
+28:58.520 --> 29:04.040
+about the logging industry and
+how tech came in and saved stuff
+and about coffee history.
+
+29:04.040 --> 29:09.720
+It's really, it's just fun to
+listen to and all the local
+news. And I'm also listening to
+Koma 1000.
+
+29:09.720 --> 29:13.320
+And of course, they have a
+podcast, which you can also
+subscribe to with iPod or.
+
+29:13.320 --> 29:18.840
+And, you know, Mount St. Helens
+has been in the news. I heard
+about it before it was
+mainstream
+
+29:18.840 --> 29:24.680
+on the northwest noise, because
+it was of course local news. And
+it may have drawn to a little
+bit
+
+29:24.680 --> 29:29.320
+out of the mainstream now, I
+think as well, except on the
+local Seattle station, who,
+
+29:29.320 --> 29:33.320
+you know, they picked up a nice
+human interstory about Mount St.
+Helens. Meet Billy Jonas,
+
+29:33.320 --> 29:37.960
+singer, songwriter, and
+musician. He loves to entertain
+kids. And 15 years ago, he wrote
+a song
+
+29:37.960 --> 29:43.640
+about the 1980 eruption of Mount
+St. Helens. 1990, I was hiking
+on Mount St. Helens with a group
+
+29:43.640 --> 29:47.400
+of campers. He says it was like
+the song just came from the
+mountain.
+
+29:55.400 --> 30:00.680
+The kids that were walking with
+me at the time immediately just
+started dancing and
+
+30:00.680 --> 30:04.920
+popping along. Ever since it's
+been part of his show, who's
+year Billy decided to put the
+song
+
+30:04.920 --> 30:09.560
+on his new CD before the volcano
+began burping again. When I
+heard about it, I just said,
+
+30:09.560 --> 30:11.800
+oh, that's funny. What do you
+know?
+
+30:11.800 --> 30:17.400
+Truman lived by Spirit Lake. Oh,
+St. Helens. They told him to
+leave. He said,
+
+30:17.400 --> 30:22.760
+give me a break. Oh, St. Helens
+says he's working on a new verse
+for old St. Helens.
+
+30:22.760 --> 30:29.560
+Now she's gone on blow again.
+Old St. Helens. If this is a
+proud election, old St. Helens,
+
+30:29.560 --> 30:34.200
+maybe she'll shed light on this
+election. Old St. Helens. Billy,
+I'm not sure you can't
+
+30:34.200 --> 30:37.640
+shoot the true spirit of things.
+I mean, the volcano has just
+been belching up steam. You
+know,
+
+30:37.640 --> 30:42.600
+burping. Think of the kids, man.
+I hereby pledge that burping
+belts will be in the next
+
+30:42.600 --> 30:46.840
+verse. I personally can't wait
+to hear a Brian Kelp, a couple
+of 1000 names.
+
+30:53.320 --> 30:58.680
+All right. Some light
+entertainment on your source
+code. And from the north,
+
+30:58.680 --> 31:03.240
+western part of the United
+States, we go to the other side
+of the globe to West,
+
+31:03.240 --> 31:09.320
+nowhere, Japan. Greetings from
+West, nowhere, Japan. I don't
+know. My name is Steve
+
+31:09.320 --> 31:13.400
+Henryburn. I've been tuning into
+your podcast for more for a
+little while now. And I think
+you're
+
+31:13.400 --> 31:19.960
+doing a fantastic job. Your work
+is really building a strong
+foundation. I got to blow in our
+podcast
+
+31:19.960 --> 31:25.400
+and community and kind of
+organized around in really to
+grow on. So, tears to you. Thank
+you.
+
+31:25.400 --> 31:29.080
+Thank you. Wait, but do you
+think that Steve being in West,
+nowhere, Japan, that he's
+actually
+
+31:29.080 --> 31:33.160
+he's actually in a pod? Could he
+be in one of those pods? You
+know, where you can only lie
+down and
+
+31:33.160 --> 31:38.440
+you've got just light and a
+mirror and a bed. And then he's
+really pod casting from a pod?
+
+31:39.640 --> 31:43.960
+I was especially happy to see
+the directory that you've been
+focusing on lately. And it's
+
+31:43.960 --> 31:49.640
+really, it's increasing the
+exposure and the availability of
+all the pod casts that are out
+there.
+
+31:50.680 --> 31:55.640
+I took a look through there here
+the day and added a bunch to my
+list. And it was great help.
+
+31:55.640 --> 32:00.840
+Okay, so Steve is talking about
+the ipodder.org directory. And I
+am amazed about this.
+
+32:00.840 --> 32:05.320
+This is an OPML directory, which
+stands for Outline Processor
+Markup Language.
+
+32:05.320 --> 32:09.560
+I thought this was going to be
+difficult, but I am amazed at
+how many people know what OPML
+is,
+
+32:09.640 --> 32:14.440
+have an application that outputs
+OPML. And how many people are,
+frankly, just willing to
+
+32:14.440 --> 32:20.120
+write it up by hand in VI or
+text that. It's great. And we
+have now, I think 11 people
+maintaining
+
+32:20.120 --> 32:26.680
+their own nodes. We even have a
+documentation node being set up
+as we speak. And it's blowing
+
+32:26.680 --> 32:31.880
+my mind because there's no
+single entry point. You know,
+anyone could make their own top
+level
+
+32:31.880 --> 32:39.400
+and link in my nodes. It's a
+complete world outline, if you
+will. One thing is right now.
+
+32:39.880 --> 32:46.520
+Adding new feeds is a bit of a
+hidden mis situation. You really
+have only the category
+
+32:46.920 --> 32:51.400
+and the title of the feed itself
+to go on. So it's hard to really
+get a good idea of what the
+
+32:51.400 --> 32:56.920
+pod casts is about. Okay, so
+this is true. What we're doing
+now is we're the links that you
+see
+
+32:56.920 --> 33:02.760
+in the ipodder.org directory are
+links to the pod casts feed
+itself to the RSS feed. So it's
+not
+
+33:02.760 --> 33:07.320
+really easy for newbies who come
+along and click on that. And
+then maybe their browser parses
+
+33:07.400 --> 33:12.680
+it and they see an XML outline
+or maybe it doesn't. They just
+see some letters at the top.
+
+33:13.400 --> 33:17.000
+Luckily a lot of people are used
+to seeing this because that's
+how we're currently still
+
+33:17.000 --> 33:23.800
+kind of doing RSS except for
+some aggregators, some
+centralized one like blog lines.
+And if you
+
+33:23.800 --> 33:28.040
+have a blog lines little button
+on your homepage, people can
+click and automatically
+subscribe to
+
+33:28.040 --> 33:33.960
+it and you know, coffee cup for
+radio user land. But we don't
+have all the stuff, all the
+
+33:34.040 --> 33:37.640
+groovy stuff you'd want in
+there. And I'm sure that's what
+Steve's about to mention.
+
+33:37.640 --> 33:42.040
+I would like to see a brief
+description of each feed just to
+get a better idea of what the
+feed
+
+33:42.040 --> 33:47.240
+is actually about, what the pod
+casts is actually about. Now
+that info is usually right in
+the source
+
+33:47.240 --> 33:53.880
+code of the RSS feed itself. For
+example, in your own RSS feed,
+the description reads
+
+33:53.880 --> 34:02.200
+a daily audio blog post by Adam
+Curry in mp3. That's a daily
+audio podcast in mp3
+
+34:03.160 --> 34:11.160
+Now, this certainly is not all
+inclusive, but it at least gives
+me the who's and for how often.
+
+34:11.160 --> 34:18.200
+So I've got that to work on.
+Now, as the description is right
+in the source code, shouldn't
+
+34:18.200 --> 34:22.200
+be a way to parse that data out?
+Absolutely. And Steve, I'm
+really glad you brought that up.
+
+34:22.200 --> 34:26.360
+And Steve's audio comment goes
+on for at least another two
+minutes. But it's really
+important
+
+34:26.360 --> 34:30.840
+to stuff that you're saying
+here. And we do have that. And
+in fact last night, day one or
+
+34:30.840 --> 34:35.800
+night, we had a very historic
+moment together. It was last
+night for me yesterday,
+
+34:35.800 --> 34:41.960
+I early afternoon for him, maybe
+even still morning. And we both
+simultaneously bought a new
+
+34:41.960 --> 34:45.320
+server. You know, that's kind of
+like what women do when they go
+shoe shopping, we're like,
+
+34:45.320 --> 34:49.160
+oh, that's go buy a server. And
+we, you know, we, I'm going to
+look at all the options.
+
+34:49.160 --> 34:54.360
+And it's an IDE drive on IDE,
+raid one, and which, like, get
+and how many how big should the
+
+34:54.360 --> 34:58.760
+hard drives be? And we're kind
+of bandwidth. And what are we
+going to name the machines? And
+it's just
+
+34:58.920 --> 35:04.120
+porn, you know, it's total porn
+the way women love shoe
+shopping. Some women, most
+women,
+
+35:04.120 --> 35:10.680
+lots of women love shoe
+shopping. And we're going to
+really get, get serious on
+attacking these
+
+35:10.680 --> 35:16.520
+issues. And one of the things
+that is high priority on the
+list is for the directory, the
+submit
+
+35:16.520 --> 35:20.920
+links should be a lot easier. If
+you're maintaining a node, you
+should basically just receive an
+email
+
+35:20.920 --> 35:25.880
+and you click somewhere and all
+the fields are filled in. It
+pulls in that data from the RSS
+
+35:25.880 --> 35:30.920
+feed, you're right for the
+channel title and description.
+Even the logo, and that should
+automatically
+
+35:30.920 --> 35:37.080
+be posted to the iPod.org
+homepage, totally right there.
+And we're working on it. So
+everyone's
+
+35:37.080 --> 35:40.840
+thinking about the same thing.
+And I'm so happy to see this
+come together. And anyone who
+wants to
+
+35:40.840 --> 35:45.880
+help with this outline stuff,
+you're more than welcome to
+contribute. There's a link on
+the iPod.org
+
+35:45.880 --> 35:51.000
+directory right there under
+podcasts. How you can contribute
+and how you can maintain a node
+or
+
+35:51.000 --> 35:56.680
+multiple nodes of branches of
+this entire tree that we're
+making right now. All right, one
+more
+
+35:56.680 --> 36:06.680
+bushism. It's a topic we've
+discussed before. Repetition
+works. If I say to you, buy this
+soap,
+
+36:06.680 --> 36:10.840
+it's better than all the rest.
+And I say it really loudly and
+with big orange and yellow
+colors
+
+36:10.840 --> 36:15.480
+and white colors. And I tell
+you, over and over and over and
+over again, you're going to buy
+it.
+
+36:15.560 --> 36:21.000
+I promise you. And that is part
+of the Republican strategy. So
+here it is. Once again,
+
+36:21.000 --> 36:25.160
+prepare for a mine control.
+Repetition becomes truth. In the
+heart of this great city,
+
+36:25.160 --> 36:29.960
+we saw tragedy arrive. In the
+heart of this great city, we saw
+tragedy arrive.
+
+36:29.960 --> 36:59.960
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September
+
+36:59.960 --> 37:29.960
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+October 11th, March 11th,
+September 11th, September 11th,
+healthy health outcomes,
+December 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 9th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th,
+September 11th, September 11th
+and September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 27th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September 11th, September
+11th, September
+
+37:29.960 --> 37:49.400
+very caring oil or framing very
+very very critical of a
+triedising murder
+
+37:49.400 --> 37:50.400
+That's what you're laughing at.
+
+37:50.400 --> 37:51.400
+Terrible.
+
+37:51.400 --> 37:52.400
+That's what you're talking
+about.
+
+37:52.400 --> 37:53.400
+That's what you're talking
+about.
+
+37:53.400 --> 37:54.400
+That's what you're talking
+about.
+
+37:54.400 --> 37:55.400
+That's what you're talking
+about.
+
+37:55.400 --> 37:56.400
+That's what you're talking
+about.
+
+37:56.400 --> 37:57.400
+That's what you're talking
+about.
+
+37:57.400 --> 37:58.400
+That's what you're talking
+about.
+
+37:58.400 --> 37:59.400
+That's what you're talking
+about.
+
+37:59.400 --> 38:00.400
+That's what you're talking
+about.
+
+38:00.400 --> 38:01.400
+That's what you're talking
+about.
+
+38:01.400 --> 38:02.400
+That's what you're talking
+about.
+
+38:02.400 --> 38:03.400
+That's what you're talking
+about.
+
+38:03.400 --> 38:04.400
+That's what you're talking
+about.
+
+38:04.400 --> 38:05.400
+That's what you're talking
+about.
+
+38:05.400 --> 38:06.400
+That's what you're talking
+about.
+
+38:06.400 --> 38:07.400
+That's what you're talking
+about.
+
+38:07.400 --> 38:08.400
+That's what you're talking
+about.
+
+38:08.400 --> 38:09.400
+That's what you're talking
+about.
+
+38:09.400 --> 38:10.400
+That's what you're talking
+about.
+
+38:10.400 --> 38:11.400
+That's what you're talking
+about.
+
+38:11.400 --> 38:39.400
+What you're talking about.
+
+38:39.400 --> 38:40.400
+When I snap by fingers,
+
+38:40.400 --> 38:44.640
+fingers, you'll wake up and vote
+for John Kerry.
+
+38:44.640 --> 38:45.640
+And, wake, wake, wake, wake,
+wake, wake.
+
+38:45.640 --> 38:47.280
+Yes, Stella, everybody, welcome
+back.
+
+38:47.280 --> 38:48.840
+You listen to the Daily Source
+Code.
+
+38:48.840 --> 38:49.640
+I'm Adam Curry.
+
+38:49.640 --> 38:51.640
+We have one more song to play
+for you before I
+
+38:51.640 --> 38:54.120
+have to go off and find the gas
+station or the hot spot
+somewhere
+
+38:54.120 --> 38:55.920
+to go and upload all this stuff.
+
+38:55.920 --> 38:59.120
+It is by popular request, Droma
+Douchy.
+
+38:59.120 --> 39:03.840
+This is Here You Are, The World
+Fingers, the Lumisol.
+
+39:06.250 --> 40:55.120
+[ Music ]
+
+40:55.120 --> 41:14.080
+You're not just a dream that
+financials in the midst.
+
+41:14.080 --> 42:11.250
+[ Music ]
+
+42:14.240 --> 42:16.440
+Don't worry, do shade here you
+are.
+
+42:16.440 --> 42:19.880
+It's a lot of me song, and I've
+got to thank Ivan Roxy for
+turning me on to do her
+
+42:19.880 --> 42:20.880
+do shade.
+
+42:20.880 --> 42:25.520
+I ripped the CD off of them, but
+if you like what you hear,
+there's a whole CD full
+
+42:25.520 --> 42:27.120
+of it, so go out and buy it.
+
+42:27.120 --> 42:34.800
+And that's it for the source
+code for today, Thursday,
+October 14th, 2004, and I'm
+
+42:34.800 --> 42:35.800
+off.
+
+42:35.800 --> 42:41.920
+I'm going to see if I can upload
+this puppy for dinner time as
+always you can respond.
+
+42:41.920 --> 42:42.920
+That was interesting.
+
+42:42.920 --> 42:50.600
+You can respond by sending email
+to Adam at curie.com or leaving
+a comment on my weblog
+live.cure.com
+
+42:50.600 --> 42:56.680
+and of course the archives
+available at dailystoresco.com.
+
+42:56.680 --> 43:03.680
+In the podcast feed, RSS 2.0 at
+dailystoresco.com slash RSS.xml.
+
+43:03.680 --> 43:06.680
+All right, everybody see you
+tomorrow for the thank God it's
+Friday edition.
+
+43:06.680 --> 43:07.200
+Bye-bye.
+
+43:08.750 --> 43:33.750
+[ Music ]

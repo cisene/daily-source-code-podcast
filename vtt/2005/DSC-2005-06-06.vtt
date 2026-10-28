@@ -1,0 +1,1765 @@
+WEBVTT
+
+00:00.000 --> 00:10.000
+Daily source code, episode 189
+
+00:10.000 --> 00:15.000
+Okay everyone, quiet everyone,
+simmer down, simmer down.
+
+00:15.000 --> 00:18.000
+I just want to say thank you for
+all the hard work you've done.
+
+00:18.000 --> 00:21.000
+We couldn't have done it without
+you.
+
+00:22.000 --> 00:34.000
+Okay, quiet, static check,
+light, ready, sound, sound, boom
+man, ready.
+
+00:34.000 --> 00:37.000
+Is that a mint position?
+
+00:37.000 --> 00:42.000
+Ready? Okay, 10 seconds people.
+
+00:42.000 --> 00:45.000
+Let's do this right.
+
+00:46.000 --> 00:51.000
+Five, four, three, two, cue
+music, lights up.
+
+00:52.000 --> 00:58.000
+Let's do this right now.
+
+01:14.000 --> 01:17.000
+Ladies and gentlemen, for many
+years us and announcer,
+
+01:17.000 --> 01:21.000
+it has been my privilege to
+introduce a number of very
+important people.
+
+01:21.000 --> 01:25.000
+But never have I felt the pride
+that is glowing within me today
+
+01:25.000 --> 01:30.000
+as I introduced the gracious and
+beloved star of our show.
+
+01:34.000 --> 01:37.000
+Yes ladies and gentlemen, it
+gives me extreme pleasure
+
+01:37.000 --> 01:40.000
+to present to you a man whose
+very benevolence has earned for
+him
+
+01:40.000 --> 01:44.000
+the admiration, respect and
+everlasting love of millions.
+
+01:44.000 --> 01:45.000
+And here he is!
+
+01:48.000 --> 01:52.000
+Sixty million dollars worth of
+airplane strap to my ass.
+
+01:52.000 --> 01:55.000
+Than the next generation radio
+content in my ears.
+
+02:03.000 --> 02:06.000
+Hey everybody, it is June 6th
+2005.
+
+02:06.000 --> 02:08.000
+Welcome to the source code.
+
+02:10.000 --> 02:15.000
+And this show is created
+entirely on the cast blaster.
+
+02:15.000 --> 02:18.000
+We're on data number 14 right
+now.
+
+02:18.000 --> 02:20.000
+So things could go a little bit
+of rye.
+
+02:20.000 --> 02:22.000
+Hold on, let me just lower the
+microphone a little bit
+
+02:22.000 --> 02:26.000
+to make sure we don't
+overmodulate which seems to be
+the biggest problem
+
+02:26.000 --> 02:27.000
+on the crap.
+
+02:27.000 --> 02:29.000
+Okay, I think we're good to go.
+
+02:31.000 --> 02:34.000
+Man, a lot of cool changes in
+the software.
+
+02:34.000 --> 02:39.000
+Okay, so we've got automatic
+ducking on,
+
+02:39.000 --> 02:42.000
+which means that the minute you
+hit the talk button,
+
+02:42.000 --> 02:44.000
+the music starts to fade down a
+little bit.
+
+02:44.000 --> 02:47.000
+Which now actually has a
+shortcut by hitting the space
+bar
+
+02:47.000 --> 02:49.000
+it turns on or it turns off.
+
+02:51.000 --> 02:55.000
+You see, so that's on, and
+that's on, and then it was off.
+
+02:56.000 --> 02:59.000
+Okay, so we've got to figure out
+the ducking system here.
+
+02:59.000 --> 03:01.000
+But at least it's working, and
+there's lots of cool features
+
+03:01.000 --> 03:04.000
+which we'll talk about on
+today's source code.
+
+03:10.000 --> 03:13.000
+Okay, so one of the first things
+I noticed
+
+03:13.000 --> 03:17.000
+is that the headphone monitor is
+really soft, but man,
+
+03:17.000 --> 03:19.000
+I gotta tell you, I've been
+talking to Mike,
+
+03:19.000 --> 03:22.000
+who's the lead developer on cast
+blaster.
+
+03:23.000 --> 03:28.000
+Just understanding the inner
+workings of windows
+
+03:29.000 --> 03:31.000
+and the way it handles sound is,
+man,
+
+03:31.000 --> 03:35.000
+that's a whole education by
+itself, that's pretty twisted.
+
+03:35.000 --> 03:41.000
+No mash up today, although I do
+have a cool pod safe music
+track.
+
+03:44.000 --> 03:48.000
+Which is from Iraq, so it's an
+Iraq pod safe music track.
+
+03:48.000 --> 03:51.000
+I've got a couple things to talk
+about, and of course we've got
+
+03:51.000 --> 03:54.000
+all the effects are loaded up.
+
+03:54.000 --> 03:56.000
+I love the standard effects that
+come with,
+
+03:56.000 --> 03:59.000
+this is just fantastic hold on a
+second.
+
+03:59.000 --> 04:03.000
+Now, one I think is probably
+better is if I just raise up the
+level
+
+04:03.000 --> 04:06.000
+there, let me just check for a
+second.
+
+04:06.000 --> 04:09.000
+Okay, that's better, so I'll
+just leave it like that,
+
+04:09.000 --> 04:10.000
+and then I can talk over it.
+
+04:11.000 --> 04:14.000
+I don't think the auto duck
+works that well.
+
+04:14.000 --> 04:18.000
+When you really want to bring
+the level up real quick,
+
+04:18.000 --> 04:20.000
+like you just heard in the
+opening there,
+
+04:20.000 --> 04:22.000
+when I do the power of pure
+intellect,
+
+04:22.000 --> 04:24.000
+I want that to be highlighted,
+
+04:24.000 --> 04:27.000
+it takes a little bit too long
+for the auto ducking to pop up
+there,
+
+04:27.000 --> 04:28.000
+so I'll just leave it as it is.
+
+04:28.000 --> 04:30.000
+Cool electronic effects though.
+
+04:35.000 --> 04:38.000
+So I wonder if that was over
+modulated at all.
+
+04:38.000 --> 04:40.000
+You know, I'll just turn the
+auto feature on.
+
+04:40.000 --> 04:41.000
+There we go.
+
+04:41.000 --> 04:43.000
+I'm going to keep this one
+relatively short,
+
+04:43.000 --> 04:46.000
+because I'm not too sure of the
+quality.
+
+04:46.000 --> 04:50.000
+The biggest problem being the
+sound card in the,
+
+04:50.000 --> 04:53.000
+in the, what is this, a very
+tech tablet that I have.
+
+04:53.000 --> 04:55.000
+Also, to make it completely
+fair,
+
+04:55.000 --> 04:58.000
+what I've done is I'm using the
+headset
+
+04:58.000 --> 05:02.000
+that I usually use for Skype on
+the tablet.
+
+05:02.000 --> 05:05.000
+So it's not the normal
+processing that you have on the,
+
+05:05.000 --> 05:07.000
+on the big microphone through
+the big setup.
+
+05:07.000 --> 05:09.000
+So please don't go emailing me
+saying,
+
+05:09.000 --> 05:11.000
+oh, it sounds like shit compared
+to other stuff,
+
+05:11.000 --> 05:13.000
+because, you know, there's no
+way that this microphone
+
+05:13.000 --> 05:17.000
+can sound as good as the, as the
+pure SM7 does.
+
+05:17.000 --> 05:20.000
+But I actually had listened to a
+little test,
+
+05:20.000 --> 05:21.000
+and it sounded pretty good.
+
+05:21.000 --> 05:24.000
+Well, I want to lower the
+microphone just a little bit
+more,
+
+05:24.000 --> 05:28.000
+just to make sure that we're
+absolutely not over modulating.
+
+05:28.000 --> 05:30.000
+Okay, there we go.
+
+05:30.000 --> 05:32.000
+Let me just go grab my paper.
+
+05:32.000 --> 05:33.000
+That, of course, is really nice,
+
+05:33.000 --> 05:36.000
+is that I can now walk around
+with this thing.
+
+05:36.000 --> 05:39.000
+And, you know, I have the mic
+strapped to my head,
+
+05:39.000 --> 05:41.000
+so I think going nowhere.
+
+05:41.000 --> 05:45.000
+Here we go, sit down on the
+couch, perfect.
+
+05:45.000 --> 05:47.000
+Okay, so today is Monday.
+
+05:47.000 --> 05:50.000
+It's a dreary once again in the
+UK.
+
+05:50.000 --> 05:52.000
+What can I say?
+
+05:52.000 --> 05:54.000
+That's what you get.
+
+05:54.000 --> 05:56.000
+It's supposed to be actually
+nicer
+
+05:56.000 --> 05:57.000
+or the rest of this week,
+
+05:57.000 --> 05:59.000
+but so far, no evidence of that.
+
+05:59.000 --> 06:02.000
+Let me tell you a little bit
+about cast blaster.
+
+06:02.000 --> 06:03.000
+This is, as I said,
+
+06:03.000 --> 06:05.000
+I'll lower the mic just a little
+bit more.
+
+06:05.000 --> 06:08.000
+This is beta number 14.
+
+06:08.000 --> 06:11.000
+So we've had 14 versions to play
+with so far.
+
+06:11.000 --> 06:13.000
+And we've got a lot of testers,
+
+06:13.000 --> 06:15.000
+and a lot of people have been
+putting in their,
+
+06:15.000 --> 06:16.000
+their beta reports,
+
+06:16.000 --> 06:19.000
+and we've really gotten this
+most excellent features
+
+06:19.000 --> 06:22.000
+and fixes and stuff is really
+rocking from what I can see.
+
+06:22.000 --> 06:25.000
+We actually have a little menu
+bar now.
+
+06:25.000 --> 06:27.000
+One that has says create,
+
+06:27.000 --> 06:29.000
+which I'm looking at right now,
+
+06:29.000 --> 06:32.000
+which is the interface that
+you've probably seen a
+screenshot of before.
+
+06:32.000 --> 06:34.000
+Then we have described, this is
+interesting.
+
+06:34.000 --> 06:37.000
+This is basically the ID3 tags,
+
+06:37.000 --> 06:41.000
+and we now have a field for show
+notes.
+
+06:41.000 --> 06:44.000
+Although, when I highlight the
+show notes,
+
+06:44.000 --> 06:47.000
+field, the cursor does show up,
+
+06:47.000 --> 06:49.000
+but I can't type anything in
+there.
+
+06:49.000 --> 06:51.000
+So, must be something I'm doing
+wrong,
+
+06:51.000 --> 06:53.000
+or maybe that's a bug somewhere,
+
+06:53.000 --> 06:54.000
+so I'll have to look at that.
+
+06:54.000 --> 06:56.000
+I've got a picture in there.
+
+06:56.000 --> 07:01.000
+Now, publish is a relatively new
+tab.
+
+07:02.000 --> 07:04.000
+Yeah, because we'll just call
+them tabs,
+
+07:04.000 --> 07:08.000
+where you can give your podcast
+a file name,
+
+07:08.000 --> 07:10.000
+and save it to disk,
+
+07:10.000 --> 07:12.000
+and also upload to server,
+
+07:12.000 --> 07:14.000
+which you configure under the
+configure tab,
+
+07:14.000 --> 07:18.000
+and right there's an FTP server
+with a path,
+
+07:18.000 --> 07:19.000
+the login password,
+
+07:19.000 --> 07:22.000
+so it'll shoot it right up to
+the server,
+
+07:22.000 --> 07:23.000
+and all I need to do then,
+
+07:23.000 --> 07:25.000
+of course, is to create your RSS
+file,
+
+07:25.000 --> 07:28.000
+and that will be the next step
+in the beta process,
+
+07:28.000 --> 07:30.000
+but I think we're going to
+concentrate on this first.
+
+07:30.000 --> 07:33.000
+It's kind of cool that you can
+do all the stuff on the flywall,
+
+07:33.000 --> 07:35.000
+it's playing, by the way.
+
+07:35.000 --> 07:36.000
+Let's see.
+
+07:36.000 --> 07:38.000
+So yesterday, which was Sunday,
+
+07:38.000 --> 07:40.000
+took the girls, Patricia and
+Christina,
+
+07:40.000 --> 07:42.000
+who London's West End,
+
+07:42.000 --> 07:43.000
+we had not been,
+
+07:43.000 --> 07:44.000
+well, we've been to the West
+End,
+
+07:44.000 --> 07:47.000
+but we've never been to a show
+in the West End,
+
+07:47.000 --> 07:49.000
+and we went to see a classic,
+
+07:49.000 --> 07:51.000
+Chitty Chitty Bang Bang,
+
+07:51.000 --> 07:55.000
+which you may think,
+
+07:55.000 --> 07:57.000
+at first hand, you might say,
+
+07:57.000 --> 07:59.000
+well, that's, isn't that for
+kids?
+
+08:00.000 --> 08:04.000
+Okay, just close the studio door
+here.
+
+08:04.000 --> 08:07.000
+Studio door, the bedroom door,
+
+08:07.000 --> 08:10.000
+converted to an office slash
+studio.
+
+08:10.000 --> 08:12.000
+Yeah, of course it's for kids,
+
+08:12.000 --> 08:14.000
+and of course it was a matinee
+show,
+
+08:14.000 --> 08:16.000
+so there were lots of kids and
+adults there as well,
+
+08:16.000 --> 08:20.000
+but as you'd expect from a
+typical kids play or a musical,
+
+08:20.000 --> 08:23.000
+there was plenty of jokes in
+there for adults.
+
+08:23.000 --> 08:26.000
+Interesting to see, was it Brian
+Connelly,
+
+08:26.000 --> 08:28.000
+I think, played the lead role?
+
+08:28.000 --> 08:31.000
+I mean, I have the official
+program here,
+
+08:31.000 --> 08:33.000
+let me tell you, was that his
+name?
+
+08:33.000 --> 08:35.000
+I think it was, he was really
+good,
+
+08:35.000 --> 08:37.000
+great singer,
+
+08:37.000 --> 08:39.000
+let me go cast,
+
+08:39.000 --> 08:42.000
+cast in order of appearance,
+
+08:42.000 --> 08:45.000
+no, we don't want in order of
+appearance.
+
+08:45.000 --> 08:47.000
+Here it is,
+
+08:47.000 --> 08:49.000
+yes, Brian Connelly,
+
+08:49.000 --> 08:51.000
+correcticus pots,
+
+08:51.000 --> 08:54.000
+Tony Adams, as Grand Poppots,
+
+08:54.000 --> 08:56.000
+Joe Gibb, who was truly
+scrumptious,
+
+08:56.000 --> 08:59.000
+she was great, beautiful voice,
+
+08:59.000 --> 09:00.000
+and very interesting,
+
+09:00.000 --> 09:04.000
+the child catcher is a guy named
+Alvin Stardust,
+
+09:04.000 --> 09:07.000
+and Alvin Stardust in the 70s
+
+09:07.000 --> 09:10.000
+was like a really,
+
+09:10.000 --> 09:11.000
+which I say,
+
+09:11.000 --> 09:14.000
+flamboyant kind of trippy pop
+singer,
+
+09:14.000 --> 09:15.000
+who had a couple of hits,
+
+09:15.000 --> 09:19.000
+actually he, he was critically
+acclaimed,
+
+09:19.000 --> 09:21.000
+really, he's done a lot of,
+
+09:21.000 --> 09:24.000
+a lot of TV work, a lot of other
+musical work,
+
+09:25.000 --> 09:27.000
+and so now he is the child
+catcher,
+
+09:27.000 --> 09:30.000
+and he was getting plenty of
+booze and hisses,
+
+09:30.000 --> 09:33.000
+and yeah,
+
+09:33.000 --> 09:35.000
+so maybe it's a kid's play,
+
+09:35.000 --> 09:36.000
+but there's a really,
+
+09:36.000 --> 09:38.000
+you know, actually there are a
+couple of great morals
+
+09:38.000 --> 09:40.000
+to this, to the story,
+
+09:40.000 --> 09:41.000
+and I'd have to say,
+
+09:41.000 --> 09:43.000
+one embodies itself in,
+
+09:43.000 --> 09:45.000
+you know what,
+
+09:45.000 --> 09:46.000
+let me see,
+
+09:46.000 --> 09:47.000
+maybe I can,
+
+09:47.000 --> 09:50.000
+I was looking for this earlier
+on iTunes,
+
+09:50.000 --> 09:52.000
+because the moral of the story
+to me
+
+09:52.000 --> 09:55.000
+is embodying the song,
+
+09:55.000 --> 09:58.000
+the roses,
+
+09:58.000 --> 09:59.000
+what is it?
+
+09:59.000 --> 10:01.000
+From the ashes of destruction,
+
+10:01.000 --> 10:04.000
+rise the roses of success.
+
+10:04.000 --> 10:05.000
+I'm just going to go to iTunes,
+
+10:05.000 --> 10:08.000
+and see if I can find it in the
+iTunes music store.
+
+10:08.000 --> 10:10.000
+Here's what happened earlier
+today
+
+10:10.000 --> 10:11.000
+on a different computer,
+
+10:11.000 --> 10:12.000
+on one of my max,
+
+10:12.000 --> 10:14.000
+I wanted to get a hold of that
+song,
+
+10:14.000 --> 10:15.000
+I wanted to buy it,
+
+10:15.000 --> 10:18.000
+and it wouldn't allow me to
+purchase the song,
+
+10:19.000 --> 10:22.000
+I'll just see the roses,
+
+10:22.000 --> 10:24.000
+see if we can find it.
+
+10:24.000 --> 10:27.000
+Because my credit card is still
+built
+
+10:27.000 --> 10:29.000
+to the Netherlands,
+
+10:29.000 --> 10:30.000
+shoot, see,
+
+10:30.000 --> 10:32.000
+now I won't even show it.
+
+10:32.000 --> 10:34.000
+And I guess because they don't
+have the rights,
+
+10:34.000 --> 10:38.000
+or they haven't cleared the
+rights to that song yet,
+
+10:38.000 --> 10:42.000
+you can't purchase it if you
+live in the Netherlands,
+
+10:42.000 --> 10:44.000
+which is just so fucking crazy.
+
+10:44.000 --> 10:46.000
+That's all right,
+
+10:47.000 --> 10:49.000
+shitty bang bang.
+
+10:49.000 --> 10:51.000
+And you also,
+
+10:51.000 --> 10:53.000
+now you can't see what I did.
+
+10:53.000 --> 10:56.000
+I checked it out on a fresh
+install of iTunes,
+
+10:56.000 --> 10:58.000
+that didn't have me registered
+
+10:58.000 --> 11:00.000
+through my account,
+
+11:00.000 --> 11:03.000
+which is through a Netherlands
+build credit card.
+
+11:03.000 --> 11:05.000
+So it did show me the song,
+
+11:05.000 --> 11:07.000
+I couldn't purchase it by
+itself,
+
+11:07.000 --> 11:09.000
+could only purchase it as the
+entire album.
+
+11:09.000 --> 11:11.000
+So I wanted to purchase the
+entire album,
+
+11:11.000 --> 11:12.000
+and then it said,
+
+11:12.000 --> 11:13.000
+oh, we're sorry,
+
+11:13.000 --> 11:15.000
+since your account is linked to
+
+11:15.000 --> 11:17.000
+a credit card building through
+the Netherlands,
+
+11:17.000 --> 11:19.000
+we can't sell it to you.
+
+11:19.000 --> 11:21.000
+And now we're not going to show
+it to you anymore.
+
+11:21.000 --> 11:23.000
+So that sucks because I wanted
+to,
+
+11:23.000 --> 11:25.000
+at least play the little preview
+snippet.
+
+11:25.000 --> 11:29.000
+But you've probably heard the
+song from the ashes of
+destruction,
+
+11:29.000 --> 11:31.000
+rise the roses of success,
+
+11:31.000 --> 11:34.000
+which to me was a great moral to
+that story.
+
+11:34.000 --> 11:36.000
+Had a great time seeing it,
+
+11:36.000 --> 11:39.000
+and can't wait to take the girls
+to see another show very soon.
+
+11:39.000 --> 11:41.000
+We have great connections we've
+found out now.
+
+11:41.000 --> 11:43.000
+You just hop on the train and go
+for it.
+
+11:43.000 --> 11:47.000
+The 35 minutes you arrive at
+Waterloo Station.
+
+11:47.000 --> 11:49.000
+You can hop on the tube,
+
+11:49.000 --> 11:51.000
+or really just like a seven
+minute cab ride,
+
+11:51.000 --> 11:55.000
+and it takes you right to any of
+the famous theaters there.
+
+11:55.000 --> 11:56.000
+And it was a lot of fun.
+
+11:56.000 --> 11:57.000
+We had a great time,
+
+11:57.000 --> 11:59.000
+especially after having been
+away for so long.
+
+11:59.000 --> 12:01.000
+It was really nice to just hang
+out
+
+12:01.000 --> 12:03.000
+and do some fun stuff with the
+ladies.
+
+12:03.000 --> 12:04.000
+Hold on a second.
+
+12:04.000 --> 12:05.000
+Let me do a little.
+
+12:05.000 --> 12:08.000
+See, I've got that auto ducking
+on.
+
+12:08.000 --> 12:10.000
+It sounds a little bit soft.
+
+12:10.000 --> 12:12.000
+I just don't have enough hands
+to control all the controls
+
+12:12.000 --> 12:15.000
+and cast blaster, or really only
+have one mouse.
+
+12:15.000 --> 12:17.000
+I wish I could have two mice to
+do that.
+
+12:17.000 --> 12:21.000
+A couple of things I just wanted
+to chat about again.
+
+12:21.000 --> 12:25.000
+I'm not going to make this too
+long in case the quality is just
+too crappy.
+
+12:25.000 --> 12:27.000
+You're going to see it more as a
+kind of like a test
+
+12:27.000 --> 12:30.000
+and an a source code mixed into
+one.
+
+12:30.000 --> 12:32.000
+Sound seeing tours.com now has a
+manager.
+
+12:32.000 --> 12:34.000
+Her name is Katya.
+
+12:34.000 --> 12:35.000
+She is from Holland.
+
+12:35.000 --> 12:37.000
+I worked with her on a number of
+things,
+
+12:37.000 --> 12:39.000
+including our reality TV show.
+
+12:39.000 --> 12:41.000
+And she just got back from a
+trip.
+
+12:41.000 --> 12:42.000
+She went to...
+
+12:42.000 --> 12:44.000
+What the hell is she going
+Malaysia?
+
+12:44.000 --> 12:46.000
+I think she went to Malaysia.
+
+12:46.000 --> 12:50.000
+And she is completely bitten by
+the sound seeing tour bug
+
+12:50.000 --> 12:54.000
+and she recorded plenty of sound
+seeing tours there.
+
+12:54.000 --> 12:57.000
+She was so excited about the
+prospects of it
+
+12:57.000 --> 13:00.000
+that she asked if she could
+manage sound seeing tours.com
+
+13:00.000 --> 13:02.000
+and of course I was happy to
+give that up.
+
+13:02.000 --> 13:03.000
+So check it out.
+
+13:03.000 --> 13:05.000
+It's the brand new sound seeing
+tours.com.
+
+13:05.000 --> 13:07.000
+Katya is managing that.
+
+13:07.000 --> 13:10.000
+And you want to subscribe if you
+want to hear all the
+
+13:10.000 --> 13:14.000
+awesome sound seeing tours that
+are being produced out there.
+
+13:14.000 --> 13:17.000
+And of course, if you subscribe
+to the podcast feed,
+
+13:17.000 --> 13:21.000
+the RSS 2.0 feed, you'll receive
+those in your iPod
+
+13:21.000 --> 13:24.000
+or whatever you're using to
+subscribe to these shows
+automatically.
+
+13:24.000 --> 13:27.000
+It's very, very cool and look
+for some developments
+
+13:27.000 --> 13:29.000
+as we move along with that.
+
+13:29.000 --> 13:35.000
+I received a couple of emails
+from
+
+13:36.000 --> 13:38.000
+Exit50.com.
+
+13:38.000 --> 13:40.000
+It was that.
+
+13:40.000 --> 13:44.000
+It was names completely,
+completely looted me.
+
+13:44.000 --> 13:49.000
+Not have to go back and look at
+my Gmail.
+
+13:49.000 --> 13:51.000
+Actually, I will.
+
+13:51.000 --> 13:53.000
+I want a second.
+
+13:53.000 --> 13:54.000
+Let's do that.
+
+13:54.000 --> 13:56.000
+See now I can do all this stuff
+off from one screen.
+
+13:56.000 --> 13:57.000
+That is kind of cool.
+
+13:57.000 --> 14:00.000
+Let's see, exit 50.
+
+14:00.000 --> 14:02.000
+Now Gmail, you know it's great
+search.
+
+14:02.000 --> 14:03.000
+Andre there you go.
+
+14:03.000 --> 14:04.000
+Andrew coffee.
+
+14:04.000 --> 14:05.000
+That's right.
+
+14:05.000 --> 14:09.000
+And if you go to exit 50.com,
+you'll see right there
+
+14:09.000 --> 14:14.000
+that he is promoting live from
+Iraq the 425th,
+
+14:14.000 --> 14:18.000
+which is, I guess, the Infantry
+Division.
+
+14:18.000 --> 14:22.000
+He interviewed them because they
+have put together
+
+14:22.000 --> 14:27.000
+an album of music that was
+actually recorded in Iraq.
+
+14:27.000 --> 14:30.000
+The lyrics are written in Iraq
+and it really,
+
+14:31.000 --> 14:34.000
+yeah, it's pretty heavy stuff.
+
+14:34.000 --> 14:37.000
+The whole story is there on the
+exit 50.com website.
+
+14:37.000 --> 14:43.000
+And they have their own website,
+which is www.425.com.
+
+14:43.000 --> 14:46.000
+Let's see if there's any info I
+can read.
+
+14:46.000 --> 14:47.000
+It has made a couple.
+
+14:47.000 --> 14:49.000
+Okay, so I'm seeing here fresh
+off the press live from Iraq.
+
+14:49.000 --> 14:52.000
+Makes the front page of the
+killing daily Harold.
+
+14:52.000 --> 14:53.000
+Okay.
+
+14:53.000 --> 14:55.000
+Well, I think they should get a
+little more,
+
+14:55.000 --> 14:57.000
+a little more press than that.
+
+14:58.000 --> 14:59.000
+You can actually buy the album.
+
+14:59.000 --> 15:01.000
+It is shipping now.
+
+15:01.000 --> 15:04.000
+And I was fortunate enough to
+receive a track,
+
+15:04.000 --> 15:06.000
+which I want to share with you
+now.
+
+15:06.000 --> 15:08.000
+It's pretty much a wrap album.
+
+15:08.000 --> 15:13.000
+But again, created in Iraq by
+the 425th Infantry Division.
+
+15:13.000 --> 15:16.000
+And let me just check and see if
+that's Infantry Division.
+
+15:16.000 --> 15:20.000
+I don't really have the website
+as cool,
+
+15:20.000 --> 15:25.000
+but it doesn't have like an
+about.
+
+15:25.000 --> 15:26.000
+Let me see.
+
+15:26.000 --> 15:29.000
+Let's see what the article says
+in the Colleen Daily Harold.
+
+15:29.000 --> 15:30.000
+That'll be interesting.
+
+15:30.000 --> 15:33.000
+Fort Hood troops tell a soldier
+story.
+
+15:33.000 --> 15:38.000
+Well, waging a verbal war in the
+first wrap album is the
+headline.
+
+15:38.000 --> 15:40.000
+Title is live from Iraq.
+
+15:40.000 --> 15:41.000
+Let's go right to it.
+
+15:41.000 --> 15:44.000
+And let's play the fourth track
+off of that CD,
+
+15:44.000 --> 15:47.000
+which you can also purchase at
+CDBaby.com.
+
+15:47.000 --> 15:49.000
+This is titled Holding My
+Breath.
+
+15:56.000 --> 15:58.000
+And I can feel myself dying.
+
+15:58.000 --> 16:00.000
+To norm it, I might as it's in
+my lungs.
+
+16:00.000 --> 16:01.000
+For maybe I'm tired.
+
+16:01.000 --> 16:03.000
+Maybe it's time for me to
+breathe in.
+
+16:03.750 --> 18:48.750
+[ Music ]
+
+18:49.000 --> 18:51.000
+So let's see.
+
+18:51.000 --> 18:52.000
+So let's see.
+
+18:52.000 --> 18:53.000
+So let's have.
+
+18:53.000 --> 18:54.000
+So let's see.
+
+18:54.000 --> 18:55.000
+So let's see.
+
+18:55.000 --> 18:57.000
+So let's see.
+
+18:57.000 --> 18:59.000
+So let's see.
+
+18:59.000 --> 19:00.000
+Now let's.
+
+19:00.000 --> 19:01.000
+So let's see.
+
+19:01.000 --> 19:03.000
+So let's see.
+
+19:03.000 --> 19:04.000
+So let's see.
+
+19:04.000 --> 19:05.000
+And let's see.
+
+19:05.000 --> 19:06.000
+So let's see.
+
+19:06.000 --> 19:07.000
+So let's see.
+
+19:07.000 --> 19:08.000
+So let's see.
+
+19:08.000 --> 19:09.000
+So let's see.
+
+19:09.000 --> 19:11.000
+So let's see.
+
+19:11.000 --> 19:12.000
+So let's see.
+
+19:12.000 --> 19:14.000
+Let's see.
+
+19:14.000 --> 19:16.000
+And let's see.
+
+19:16.000 --> 19:21.760
+stuff. So I'm liking this. The
+cast blaster is, it's work and
+it's not exactly the type of
+
+19:21.760 --> 19:28.000
+sound that I'd like, but of
+course this is the basic setup
+that anyone should be able to
+use
+
+19:28.000 --> 19:33.440
+with a computer and with a
+headphone and a microphone jack
+and at least a headset or you
+could
+
+19:33.440 --> 19:37.360
+use a separate microphone. You
+could probably use a USB
+microphone. Actually I don't
+even know if you
+
+19:37.360 --> 19:41.440
+could use a USB microphone.
+That's something I don't have to
+write that down. Make sure we
+test that out.
+
+19:42.000 --> 19:47.440
+And it's really completely
+mobile on the fly. It has all
+your stuff in there so I'm
+really
+
+19:47.440 --> 19:55.120
+digging it. This is cool. The
+two other things I need to
+mention, the podcast
+specification
+
+19:55.120 --> 20:05.840
+working group, PSWG, who you can
+find at pswg.blogspot.com, seem
+to have come to consensus on
+
+20:05.840 --> 20:12.080
+one click subscriptions. And
+Andrew Grummet, who was one of
+the iPod or lemon developers,
+
+20:14.640 --> 20:18.880
+had an announcement about that
+on his weblog Grummet.net. Of
+course all of this will be in
+the
+
+20:18.880 --> 20:24.720
+in the show notes if today's
+podcast at dailysourcecode.com
+as well as at www.curry.com.
+
+20:26.320 --> 20:32.960
+I'm not quite sure how it works.
+In fact, it's very confusing to
+me. All I care about is, hey,
+
+20:32.960 --> 20:36.880
+it appears to be working or they
+have some consensus on how they
+want to do it.
+
+20:38.720 --> 20:43.200
+And there seem to be some
+interim steps. So if you're not
+a technologist, you should be
+able to
+
+20:43.200 --> 20:50.240
+set this up and make it work.
+But it's funny because it
+includes a version of the atom
+ATOM,
+
+20:50.240 --> 20:57.680
+atom specification. And I guess
+it, it'll download a little
+thing to your desktop and then
+it will
+
+20:57.680 --> 21:04.640
+automatically subscribe you to
+whatever iPod or aggregator
+you're using that understands
+this.
+
+21:04.640 --> 21:10.240
+So it seems like there's like
+there's a lot of work involved
+to get it up and rolling, but it
+doesn't
+
+21:10.240 --> 21:15.600
+matter because of, you know, I'm
+just looking at their website
+now, how many different
+aggregator
+
+21:15.600 --> 21:25.040
+and iPod or developers have
+joined the pswg, cpodraiser,
+audio blog.com, podcast 411,
+portlet dev,
+
+21:25.680 --> 21:34.160
+castfire, podster.de, libson. So
+it looks like everybody's in
+there. So that's good.
+
+21:34.800 --> 21:39.920
+If everyone's in there,
+everyone's going to support this
+and not know fantastic. I did
+read on the
+
+21:39.920 --> 21:45.520
+iPod or developers list now that
+there seem to be some confusion
+about, you know, the consensus
+on this,
+
+21:45.520 --> 21:50.880
+whatever, you know, the minute
+it's working, you know, show me,
+help me and you know, I'll be
+happy to
+
+21:50.880 --> 21:57.840
+put any kind of links or
+anything on my website to get
+people comfortable with the idea
+if we actually
+
+21:57.840 --> 22:02.880
+have a solution, I would love
+it. I don't quite understand how
+it works, but then again, I'm
+just
+
+22:02.880 --> 22:09.920
+the disjockey, right? What else
+did I want to talk about? I want
+to talk about Google's site map,
+
+22:09.920 --> 22:18.800
+another great technical
+development that I understand
+very little about. Apparently
+you can set up your
+
+22:19.760 --> 22:27.440
+you can set up a file. Boy, let
+me see if I get this right. You
+can take your weblog and you can
+create a
+
+22:27.440 --> 22:32.880
+file, an XML file, which seems
+kind of strange because I think
+I'm already creating an XML
+file,
+
+22:32.880 --> 22:42.880
+namely an RSS file, but they
+want a new type of XML file that
+Google can then index, you can
+tell Google,
+
+22:42.880 --> 22:47.920
+okay, here's the XML version of
+my site, the more I think about
+it, the crazier it sounds,
+
+22:47.920 --> 22:56.080
+that it's not just an RSS file,
+which already is created by
+every weblog in the world almost
+and
+
+22:56.880 --> 23:01.440
+is automatic. So I guess now we
+have to have new functionality
+baked into our weblogging
+software
+
+23:01.440 --> 23:07.600
+to create this new Google site
+map XML file. Whenever that
+changes, then instead of
+traversing
+
+23:07.600 --> 23:13.200
+through your entire site, Google
+will read just that one file, I
+guess pick up any differences
+and
+
+23:13.200 --> 23:19.040
+we'll know what to index, which
+is a fantastic, it makes so much
+sense. I mean, it really does.
+
+23:19.680 --> 23:23.760
+But of course, I have no idea
+how to make this file. Yeah,
+there's all kinds of
+
+23:24.640 --> 23:32.800
+unix programs and sources
+available to do that. I was
+thinking, would it be
+interesting if you could
+
+23:32.800 --> 23:40.000
+create like a converter that
+would convert either your RSS
+feed to this new site map file,
+
+23:40.080 --> 23:45.280
+or maybe even better an OPML
+file that you could then convert
+to this site map file because
+
+23:45.280 --> 23:50.880
+that would make directories
+indexable as well, almost
+immediately, and wouldn't be
+cool to have
+
+23:50.880 --> 23:58.560
+places like podcastali and
+iPotter.org and other OPML based
+directories automatically
+indexed by Google
+
+23:58.560 --> 24:05.600
+and those reflections, those
+changes reflected the minute
+that they're changed and that
+Google
+
+24:05.600 --> 24:10.000
+would know about them and would
+be searchable. I think they'll
+be fantastic. So, call out to
+all
+
+24:10.000 --> 24:15.760
+the developers out there to see
+if they can hook us up with
+that. 23, 24 minutes into the
+show right now.
+
+24:16.560 --> 24:20.800
+I've been waiting for it. It was
+sitting in my email. I just
+overlooked that I guess, but
+what
+
+24:20.800 --> 24:25.680
+do you want? With four and a
+half thousand unread mails, time
+once again for the hit test.
+
+24:36.080 --> 24:39.360
+Three intros and three answers
+and this is intro number one.
+
+24:46.960 --> 24:52.480
+Okay, that's one of my
+favorites. I know it very well.
+That is Kaylee by Meridian.
+
+24:53.520 --> 24:54.480
+And this is number two.
+
+24:54.560 --> 25:05.600
+Okay, and it's that Skype call
+there. That's Prince. I would
+die for you.
+
+25:06.320 --> 25:08.560
+And the final one for today.
+This is number three.
+
+25:15.200 --> 25:20.480
+Uh, two. The heat of the night?
+No. I want somebody.
+
+25:20.480 --> 25:23.200
+Time's up and these are the
+answers. This is answer number
+one.
+
+25:28.240 --> 25:32.720
+And that's number one. It's
+Meridian with Kaylee. Yeah, got
+it.
+
+25:36.250 --> 26:06.250
+[ Music ]
+
+26:08.000 --> 26:12.160
+Answer number one, Kaylee. And
+this is answer number two.
+
+26:12.720 --> 26:16.720
+It's Prince and the Revolution.
+The song is titled, I would die
+for you.
+
+26:16.960 --> 26:20.640
+Oh, yeah, another point.
+
+26:38.960 --> 26:40.640
+Prince answer number two.
+
+26:40.960 --> 26:44.720
+And this is the third and final
+answer for today's hit test.
+
+26:44.720 --> 26:48.720
+Number 40 by the way, so it's
+more than 120. I know the song.
+
+26:48.720 --> 26:53.760
+In your hit test, Adam. That's a
+survivor. The burning heart of
+course.
+
+26:55.760 --> 26:56.560
+A little boy.
+
+26:58.750 --> 27:23.750
+[ Music ]
+
+27:32.640 --> 27:37.840
+Okay, that's it for today. I
+hope you enjoyed this one. Of
+course, feedback is welcome
+
+27:37.840 --> 27:41.760
+to hittest.gmail.com and you can
+find information about this
+hittest.
+
+27:41.760 --> 27:49.760
+And also the separate hittest
+podcast on www.yompolet.nl
+that's Jay and P-O-L-E-T.nl and
+also.com.
+
+27:50.400 --> 27:53.040
+Well, thank you for listening.
+See you next time. Bye-bye.
+
+27:53.040 --> 27:56.400
+Okay, young. Thank you very
+much. Like to like it a lot as
+always.
+
+27:56.400 --> 28:03.440
+And sucked just a little bit as
+usual. Okay, that's it for
+today's source code. Thank you
+for listening.
+
+28:04.320 --> 28:13.760
+I've got to crank this up a bit.
+That's the only thing I really
+need to have it just as I need
+
+28:13.760 --> 28:20.400
+more volume on the headphones
+when I'm doing this. I can just
+barely hear the mix, which is
+
+28:20.400 --> 28:28.080
+difficult for the way I like to
+produce the show. But it seems
+to work. Okay, it shouldn't be
+too long
+
+28:28.080 --> 28:35.600
+before we have the cast blast or
+website up and we can go to a
+broader beta. Hopefully this
+show
+
+28:35.600 --> 28:42.080
+turned out okay. If there aren't
+too many crappy bits in it,
+besides the actual content of
+the show,
+
+28:42.080 --> 28:49.360
+with as it pertains to the
+technical production, then I'll
+just upload it as today's source
+code
+
+28:49.440 --> 28:59.520
+189. As always, you can find the
+latest show, the archives and
+the podcast feed at
+dailysourcecode.com.
+
+29:04.960 --> 29:13.200
+Feedback always welcome
+adamaccurry.com. If you want to
+send in a promo, which I didn't
+play any of
+
+29:13.200 --> 29:19.840
+today, actually, the email
+address to do that is submit at
+podshow.com. If you have podsafe
+music that
+
+29:19.840 --> 29:28.720
+you want to put in for, for
+payment, for payment. That's
+podsafe podshow.com. And should
+you have a
+
+29:28.720 --> 29:34.960
+mashup somewhere nearby mashup
+at podshow.com really appreciate
+anything you send in. And
+that'll
+
+29:34.960 --> 29:42.800
+do it for me for today. Thank
+you very much for staying
+subscribed. I'll be back
+tomorrow as we
+
+29:43.200 --> 29:48.880
+have the weekend full gear with
+all the tapping in podcast land.
+Take care, everybody. Bye-bye.

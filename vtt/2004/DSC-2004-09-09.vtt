@@ -1,0 +1,1442 @@
+WEBVTT
+
+00:00.000 --> 00:16.000
+It's the Daily Source Code! Good
+afternoon from Curry Castle in
+Belgium!
+
+00:27.000 --> 00:33.000
+I discovered yesterday although
+a little bit too late that I had
+lowered my mic volume
+
+00:33.000 --> 00:38.000
+instead of the opening tune, the
+Rachmaninoff-Burris remix.
+
+00:38.000 --> 00:42.000
+Anyway, today is September, what
+is it?
+
+00:42.000 --> 00:44.000
+September 9th, 2004.
+
+00:44.000 --> 00:45.000
+I'm Adam Curry.
+
+00:45.000 --> 00:52.000
+This is the source code
+available at DailySourceCode.com
+and via subscription with RSS
+2.0 enclosures
+
+00:52.000 --> 00:56.000
+at DailySourceCode.com slash
+RSS.XML.
+
+00:56.000 --> 01:02.000
+This is the place where users
+and developers party together
+and great news, we have a logo.
+
+01:02.000 --> 01:04.000
+Yeah.
+
+01:04.000 --> 01:08.000
+Thanks to Jaco van at
+skipintro.nl.
+
+01:08.000 --> 01:13.000
+I actually worked with Jaco a
+couple of years ago when we were
+doing the jammedy stuff at
+
+01:13.000 --> 01:20.000
+Amsterdam and he now has his
+office right at the backside of
+the garage where I parked
+
+01:20.000 --> 01:22.000
+my car whenever I'm in
+Amsterdam.
+
+01:22.000 --> 01:28.000
+He actually had to walk to the
+garage to get to their office
+which I've never been to
+unfortunately.
+
+01:28.500 --> 01:32.500
+I cooked up a daily source code
+logo, a little animated GIF, and
+I'm really happy with it,
+
+01:32.500 --> 01:34.500
+so thank you very much, Jaco.
+
+01:34.500 --> 01:39.500
+And a technical mistake that I
+made yesterday, I really messed
+up.
+
+01:39.500 --> 01:45.500
+I was talking about Murphy's Law
+and how Murphy struck on the
+Genesis probe that went
+
+01:45.500 --> 01:49.500
+to collect dust from the sun or
+dust particles.
+
+01:49.500 --> 01:53.500
+So it wasn't two helicopters
+that had a net struck between
+them.
+
+01:53.500 --> 01:58.500
+By the way, that was the way it
+was reported here in the press
+in the Netherlands.
+
+01:58.500 --> 02:02.500
+But it was one helicopter, maybe
+they had a backup helicopter
+flying around as well.
+
+02:02.500 --> 02:10.500
+It was supposed to catch the
+Genesis, well, let's just call
+it a disk, by its parachute
+
+02:10.500 --> 02:13.500
+and with a grappling hook, which
+seems like a real tough maneuver
+to me.
+
+02:13.500 --> 02:16.500
+But anyway, they didn't get to
+try it out for real,
+unfortunately.
+
+02:16.500 --> 02:21.500
+And I do hope that there's
+something left of the
+experiments that they did and
+they'll
+
+02:21.500 --> 02:23.500
+be able to use some of the data.
+
+02:23.500 --> 02:25.500
+I want to talk briefly today
+about Skype.
+
+02:25.500 --> 02:29.500
+I know I've talked about it
+before, but this program is so
+beautiful.
+
+02:30.000 --> 02:35.000
+And it's really just boggling my
+mind, particularly the more I
+look into voice over IP and
+what's
+
+02:35.000 --> 02:40.000
+available now and what's
+inevitably coming in the very
+near future.
+
+02:40.000 --> 02:44.000
+So first of all, I don't know if
+Skype seems to be a pretty
+closed environment and I don't
+
+02:44.000 --> 02:51.000
+know if anyone can let me know
+if this works the same as SIP,
+which is what seems to be
+
+02:51.000 --> 02:56.000
+a standard that's out there
+amongst voice over IP providers.
+
+02:56.000 --> 03:00.000
+Not really, not, but what are
+they doing?
+
+03:00.000 --> 03:07.000
+What is the peer-to-peer part of
+Skype that is so important that
+gives it an advantage
+
+03:07.000 --> 03:10.000
+over using the SIP protocol?
+
+03:10.000 --> 03:15.000
+I can't see any from a user's
+perspective and it may not make
+any difference the way
+
+03:15.000 --> 03:17.000
+telephony is working right now
+in voice over IP.
+
+03:17.000 --> 03:22.000
+It could of course change with
+some of the services, but if you
+have any idea please
+
+03:22.000 --> 03:25.000
+let me know at adamantcurry.com.
+
+03:25.000 --> 03:30.000
+And I'm still looking for a
+voice over IP provider and a lot
+of people sent me different
+
+03:30.000 --> 03:31.000
+links, most of the stuff I'd
+already...
+
+03:31.500 --> 03:36.500
+you've found is one actually in
+the Netherlands called Rits
+Taylor-Kolm who almost offer
+what
+
+03:36.500 --> 03:40.500
+I'm looking for but I'll just go
+through one more time and maybe
+you can help me out.
+
+03:40.500 --> 03:42.500
+I'm looking for a provider.
+
+03:42.500 --> 03:48.500
+It doesn't matter where the
+provider is located, as long as
+I can get a local dial-up line,
+
+03:48.500 --> 03:54.500
+so my own dedicated number in
+the Netherlands, that could be
+anywhere, preferably Amsterdam,
+
+03:54.500 --> 03:58.500
+in Belgium, which is, that's
+only optional since we'll only
+be here for a couple more
+
+03:58.500 --> 04:01.500
+months and definitely one or two
+in the States.
+
+04:01.500 --> 04:03.500
+I'd love to have a California
+number and a New York number.
+
+04:03.500 --> 04:09.500
+That way I can call just about
+anybody I want and they can also
+call me at the very low
+
+04:09.500 --> 04:16.500
+cost of voice over IP because
+all the pricing seems to be more
+or less the same.
+
+04:16.500 --> 04:21.500
+Interestingly enough, each
+country has its own specific
+rates for the mobile telephony
+in
+
+04:21.500 --> 04:22.500
+that country.
+
+04:22.500 --> 04:27.500
+So if I want to call Amsterdam
+via Skype, for instance, it
+doesn't matter where I'm
+
+04:27.500 --> 04:32.500
+calling from, of course, since
+I'm doing that over the
+internet, then it winds up
+costing
+
+04:33.000 --> 04:38.000
+me to a landline in Amsterdam I
+think four cents a minute and if
+I call a mobile phone
+
+04:38.000 --> 04:41.000
+it all of a sudden it bops up to
+like thirty seven cents a
+minute.
+
+04:41.000 --> 04:44.000
+Then again a mobile phone in
+Belgium is cheaper.
+
+04:44.000 --> 04:48.000
+So there's all different rates
+going on in the mobile industry
+for sure.
+
+04:48.000 --> 04:53.000
+But again that's all I'm looking
+for a voice over IP provider
+that can give me that and
+
+04:53.000 --> 05:01.000
+I guess I'd want to have a SIP
+compatible provider and I'm only
+presuming that SIP
+
+05:01.000 --> 05:05.000
+works just as well as Skype if
+it doesn't then I'll wait until
+Skype gets more
+
+05:05.000 --> 05:10.000
+of their services together
+because it blows me away.
+
+05:10.000 --> 05:14.000
+Every single time I call someone
+I'm calling people now from
+Skype exclusively
+
+05:14.000 --> 05:18.000
+because it's just cheaper and
+actually people comment on the
+quality they say
+
+05:18.000 --> 05:24.000
+it sounds much better I got my
+headphones on it works and I'm
+in front of the
+
+05:24.000 --> 05:28.000
+computer anyway usually when I'm
+on the phone looking at stuff
+for reference
+
+05:28.000 --> 05:32.000
+material when I'm talking to
+someone so it's perfect just
+would like to see if I
+
+05:32.000 --> 05:36.000
+can do even better by getting
+local over.
+
+05:34.500 --> 05:41.500
+local dial-up numbers in the
+states and in the Netherlands
+and in Belgium as well, if it
+all possible.
+
+05:42.500 --> 05:48.500
+Now, on to iPodder. First of
+all, my apologies to Dave
+Slusher.
+
+05:50.500 --> 05:55.500
+I had commented and I'd given
+some feedback on the
+Get-Enclosures Perl script
+iPodder.
+
+05:56.500 --> 06:00.500
+You can find all of these
+different versions of iPodder.
+They're all designed to do the
+same
+
+06:00.500 --> 06:04.500
+thing to bring in content into
+your iPodder or other mobile mp3
+player.
+
+06:06.500 --> 06:10.500
+So I've been using his script
+instead of my own Apple script
+and I'd said that I'm getting
+all
+
+06:10.500 --> 06:17.500
+kinds of duplicates and all
+kinds of crap flying around and
+the problem was that I had
+incorrectly
+
+06:17.500 --> 06:24.500
+entered my cron job. So I had
+the hour right and I told you to
+run it only these hours,
+
+06:25.500 --> 06:31.500
+run it on any day and so I
+thought I'd done all the entries
+right except at the very
+beginning
+
+06:31.500 --> 06:35.500
+you have to also specify a
+minute otherwise it's going to
+run every single minute.
+
+06:36.000 --> 06:41.000
+for that entire hour that you
+specified and that's why I was
+getting all these duplicates and
+everything was freaking out.
+
+06:41.000 --> 06:49.000
+So it was totally my fault and I
+apologize for any implications
+that the script was buggy
+because it's not. Now it's
+working perfectly.
+
+06:49.000 --> 07:00.000
+But here's another great
+example. I mean the fact that I
+even know what a cron job is
+puts me way ahead of any user
+that you can think of in the
+stuff, the people we're making
+this stuff for.
+
+07:00.000 --> 07:09.000
+And we need to hide that and I
+don't mean hide it as much as we
+don't want to tell anyone what
+we're doing but we need to mask
+and just set it up in a much
+easier fashion.
+
+07:09.000 --> 07:18.000
+So on that very first run it
+should say, oh okay I'm going to
+install this and it's going to
+run every night at 1am and every
+morning at 6am.
+
+07:18.000 --> 07:24.000
+Is this okay? And you can say
+yes for the defaults or you
+could specify maybe a couple
+different hours.
+
+07:24.000 --> 07:27.000
+Maybe just with checkboxes.
+Doesn't have to be anything
+super big.
+
+07:27.000 --> 07:37.000
+Another script that has been
+released, another iPodder script
+which is now also on the
+download directory on
+ipodder.org is PyPodder.
+
+07:37.500 --> 07:42.500
+And I tried this one out. I like
+it very much.
+
+07:42.500 --> 07:48.500
+The best part about it, I guess,
+is you don't have to download
+any other additional software.
+
+07:48.500 --> 07:53.500
+If you have Python running on
+your machine, and just about
+every computer these days,
+
+07:53.500 --> 07:57.500
+I think maybe Windows even comes
+pre-installed with Python.
+
+07:57.500 --> 08:02.500
+I believe my Mac came with it
+pre-installed, but if not, it's
+very simple.
+
+08:02.500 --> 08:07.500
+You can get Mac Python, you
+download and you install that
+once.
+
+08:07.500 --> 08:10.500
+But again, that's where the
+install process should check.
+
+08:10.500 --> 08:14.500
+Is Python in the environment if
+not download and install?
+
+08:14.500 --> 08:20.500
+Then Pipotter goes on to
+actually do a little bit of
+installation for you.
+
+08:20.500 --> 08:25.500
+It creates a folder on the Mac
+that is in your library folder
+
+08:25.500 --> 08:31.500
+and puts all of the feeds into a
+feed file.
+
+08:31.500 --> 08:37.500
+That's a little bit hard to
+find. If you want to adjust the
+feeds or remove a feed or add
+one,
+
+08:37.500 --> 08:39.500
+you have to kind of go hunting.
+
+08:39.000 --> 08:42.000
+for that feed file, so that's
+something that could be
+presented a little bit better to
+
+08:42.000 --> 08:44.000
+the user.
+
+08:44.000 --> 08:51.000
+Additionally, it's kind of a
+shame that the downloads before
+they're added to the iTunes
+
+08:51.000 --> 09:01.000
+playlist that they're all
+crammed into one directory
+called Pipodder in your iTunes
+music
+
+09:01.000 --> 09:08.000
+directory or in the music
+directory of your hard drive,
+which is a shame because I
+really
+
+09:08.000 --> 09:14.000
+like folders being created with
+the name of the channel that the
+downloads came from.
+
+09:14.000 --> 09:20.000
+But otherwise, a great script,
+really efficient, and it's up on
+the download directory now as
+well.
+
+09:20.000 --> 09:21.000
+Excellent.
+
+09:21.000 --> 09:26.000
+I got some comments on the bit
+we were talking about yesterday
+about radio.
+
+09:26.000 --> 09:34.000
+How MSN Radio is copying
+terrestrial radio broadcast
+stations formats and trying to,
+
+09:34.000 --> 09:40.000
+you know, I'm trying to present
+a clutter free quote unquote
+radio station with the same
+music.
+
+09:40.500 --> 09:48.500
+mix, well, I saw an email,
+actually I saw a track back from
+Peter Rucavina and I posted
+
+09:48.500 --> 09:49.500
+to that.
+
+09:49.500 --> 09:53.500
+And he says, you know, my main
+problem is I have no drive time.
+
+09:53.500 --> 09:59.500
+He has no commute or very little
+commute and therefore he feels
+that he can't catch
+
+09:59.500 --> 10:05.500
+up on some of the programs and
+audio blog posts that he would
+like to.
+
+10:05.500 --> 10:10.500
+But as he astutely points out,
+you know, there is some
+television he could spend
+
+10:10.500 --> 10:13.500
+little less time watching since
+it's really just not worth it.
+
+10:13.500 --> 10:16.500
+I don't know, you have to make
+those choices yourself.
+
+10:16.500 --> 10:17.500
+That's your own priorities.
+
+10:17.500 --> 10:22.500
+But yeah, of course, you know,
+if we're shooting for drive time
+people were, you know,
+
+10:22.500 --> 10:23.500
+we're going to miss out on other
+people.
+
+10:23.500 --> 10:29.500
+But I'm sure that, you know, if
+the shows are compelling enough,
+people will find time
+
+10:29.500 --> 10:30.500
+to listen to them.
+
+10:30.500 --> 10:36.500
+Admittedly, I'm even having a
+little more trouble since I
+don't have that daily commute
+
+10:36.500 --> 10:40.500
+an hour and six minutes up and
+an hour and a half back.
+
+10:40.500 --> 10:41.500
+So I'm missing out.
+
+10:42.000 --> 10:48.000
+finding it harder to catch stuff
+on the first day, I definitely
+have to plan and say, okay,
+
+10:48.000 --> 10:53.000
+I'm going to go out and work out
+and do some exercises, walk
+around and then I'll listen
+
+10:53.000 --> 10:56.000
+to whatever I have queued up.
+
+10:56.000 --> 11:00.000
+But also some of the stuff that
+came down in the past two days
+wasn't particularly that
+
+11:00.000 --> 11:01.000
+interesting.
+
+11:01.000 --> 11:05.000
+Two IT conversations that I
+didn't care to care for that
+much.
+
+11:05.000 --> 11:09.000
+Yeah, that was an interesting
+legal terminology in there.
+
+11:09.000 --> 11:14.000
+But it didn't catch me this time
+around.
+
+11:14.000 --> 11:23.000
+And see Halley Suit had Bob
+Metcalf inventor of Ethernet on
+memory lane.
+
+11:23.000 --> 11:24.000
+I don't care about that.
+
+11:24.000 --> 11:26.000
+I've just been given a glass of
+orange juice.
+
+11:26.000 --> 11:26.000
+Hold on.
+
+11:30.000 --> 11:36.000
+It's eight minutes past one
+Thursday afternoon and I'm not
+even dressed yet.
+
+11:36.000 --> 11:39.000
+Hey, that is the life of a guy
+without a job.
+
+11:39.000 --> 11:47.000
+So yeah, added another feed to
+the directory on iPodder.org.
+
+11:47.000 --> 11:49.000
+It's the mix of the week feed.
+
+11:49.000 --> 11:54.000
+It's an MP3 mixed with new and
+older tunes all together.
+
+11:54.000 --> 11:59.000
+So if you're into cool mixes,
+definitely subscribe to that and
+that will work with
+
+11:59.000 --> 12:01.000
+iPodder, that feed.
+
+12:01.000 --> 12:08.000
+And came across another program
+because you can't call it an
+audio blog post
+
+12:08.000 --> 12:10.000
+through reinvented.net.
+
+12:10.000 --> 12:13.000
+It's a program called Live from
+the Formosa Tea House.
+
+12:13.000 --> 12:15.000
+And I'll just let you hear a
+little bit of it.
+
+12:15.000 --> 12:17.000
+It's an interesting format.
+
+12:17.000 --> 12:22.000
+I think it's three guys who sat
+down and had lunch at the
+Formosa Tea House,
+
+12:22.000 --> 12:23.000
+apparently.
+
+12:23.000 --> 12:26.000
+And you can hear the kind of the
+Muse act going in the
+background.
+
+12:26.000 --> 12:31.000
+And they're just discussing all
+kinds of general topics,
+politics, their food.
+
+12:31.500 --> 12:36.500
+What is a blog post like this
+supposed to, how is it supposed
+to work, what's supposed
+
+12:36.500 --> 12:37.500
+to sound like?
+
+12:37.500 --> 12:41.500
+I'll just let you hear a little
+bit just to get the feel of what
+they were putting together
+
+12:41.500 --> 12:43.500
+because I think it definitely
+has potential.
+
+12:43.500 --> 12:44.500
+Check this out.
+
+12:44.500 --> 12:45.500
+Great, insightful post.
+
+12:45.500 --> 12:48.500
+You'll get one comment and I
+like that idea.
+
+12:48.500 --> 12:50.500
+We're no comments whatsoever.
+
+12:50.500 --> 12:51.500
+Who knows?
+
+12:51.500 --> 12:52.500
+Maybe you post on a Sunday.
+
+12:52.500 --> 12:53.500
+You get that post.
+
+12:53.500 --> 12:54.500
+People do things.
+
+12:54.500 --> 12:59.500
+I find that the replies, like
+the reader comments, that
+they're not going to be a
+comment.
+
+12:59.500 --> 13:06.500
+So you probably noticed right
+off the bat what I noticed the
+first, when I listened to this,
+
+13:06.500 --> 13:11.500
+is it's really hard to hear
+their voices and so that's a
+shame but that's just something
+
+13:11.500 --> 13:14.500
+that can be solved with maybe
+two microphones.
+
+13:14.500 --> 13:20.500
+That should be possible on most
+setups and maybe a little bit of
+sound processing on the
+
+13:20.500 --> 13:22.500
+recording end.
+
+13:22.500 --> 13:27.500
+It's a lot of stuff that we've
+got to figure out to make this
+work but the natural mix
+
+13:27.500 --> 13:30.500
+of the environment, I think they
+had right on with a little bit
+of background music going
+
+13:30.500 --> 13:31.500
+on there.
+
+13:31.500 --> 13:32.500
+And it was a...
+
+13:33.000 --> 13:35.000
+It was kind of fun to listen
+into what they were talking
+about.
+
+13:35.000 --> 13:39.000
+So you can check that out
+through reinvented.net.
+
+13:39.000 --> 13:40.000
+Something else I came across.
+
+13:40.000 --> 13:46.000
+Oh, this is from one of my
+favorite feeds, which of course
+is the Blog Digger Media Feed.
+
+13:46.000 --> 13:50.000
+And I heard this, actually I
+heard it on the radio this
+morning, bright and early, and
+
+13:50.000 --> 13:53.000
+I was like, wow, that's really
+good, and I had no idea where it
+came from.
+
+13:53.000 --> 13:54.000
+And I was about to go look for
+it.
+
+13:54.000 --> 13:59.000
+When lo and behold, I checked
+iTunes and it was already
+sitting right there.
+
+13:59.000 --> 14:02.000
+It's a classic, and we'll
+actually do this as the song of
+the day for today.
+
+14:02.000 --> 14:08.000
+It's a classic from YouTube,
+although with a new vocalist.
+
+14:08.000 --> 14:10.000
+And the editing on this is just
+simply amazing.
+
+14:10.000 --> 14:14.000
+Check out George W with Sunday
+Bloody Sunday.
+
+14:14.000 --> 14:16.000
+There's been a lot of talk about
+this next song.
+
+14:28.500 --> 14:31.500
+I can't believe the news today.
+
+14:32.500 --> 14:35.500
+I can't close my eyes and make
+it go away.
+
+14:36.500 --> 14:41.500
+Hello! Hello! Let's taste this
+sauce! Hello! Too, too, too
+long! Too long!
+
+14:43.500 --> 14:45.500
+We can be as one tonight.
+
+14:45.500 --> 14:46.500
+Tonight.
+
+14:46.500 --> 14:47.500
+Tonight.
+
+14:48.500 --> 14:50.500
+Broken models of your children's
+feats.
+
+14:51.500 --> 14:53.500
+Body stone across the dead end's
+feats.
+
+14:54.500 --> 14:56.500
+But it won't need the battle
+hall.
+
+14:57.500 --> 14:58.500
+It puts my back on the ground.
+
+15:00.000 --> 15:02.000
+Sunday, what do you sound?
+
+15:02.000 --> 15:04.000
+Sunday, what do you sound?
+
+15:06.000 --> 15:08.000
+Sunday, bloody Sunday
+
+15:09.000 --> 15:11.000
+Sunday, bloody Sunday
+
+15:11.000 --> 15:12.000
+Let's roll
+
+15:18.000 --> 15:20.000
+And the battle has just begun
+
+15:21.000 --> 15:23.000
+This mini lost in him
+
+15:23.000 --> 15:24.000
+He has won
+
+15:24.000 --> 15:26.000
+The Tracer's War for their
+hearts
+
+15:27.000 --> 15:28.000
+Mother's sh**
+
+15:31.500 --> 15:32.500
+Thank you so much.
+
+15:34.500 --> 15:36.500
+What's your song, babe?
+
+15:37.500 --> 15:38.500
+Hello!
+
+15:40.500 --> 15:40.500
+Hello.
+
+15:40.500 --> 15:41.500
+Two long.
+
+15:41.500 --> 15:41.500
+Two long.
+
+15:41.500 --> 15:42.500
+Two long.
+
+15:42.500 --> 15:42.500
+Two long.
+
+15:45.000 --> 15:50.000
+We can be as one tonight,
+tonight, tonight.
+
+15:50.000 --> 15:56.000
+Sunday, Sunday, Sunday, Sunday,
+Sunday.
+
+15:56.000 --> 15:58.000
+Let's roll this.
+
+16:00.000 --> 16:04.000
+If anyone wants more details, I
+can if you find them online.
+
+16:04.000 --> 16:08.000
+The web address is not very easy
+to remember.
+
+16:08.000 --> 16:10.000
+Park, park, don't know.
+
+16:11.000 --> 16:14.000
+Walk the tears from your eyes.
+
+16:14.000 --> 16:17.000
+Walk your tears away.
+
+16:34.500 --> 16:36.500
+Sunday Bloody Sunday
+
+16:37.500 --> 16:39.500
+Sunday Bloody Sunday
+
+16:39.500 --> 16:40.500
+Let's go!
+
+16:43.750 --> 17:11.250
+[ Music ]
+
+17:13.500 --> 17:22.500
+Brilliant. Not too sure who
+created this, unfortunately. The
+metadata only states the artist
+as Rx and it's from the album
+The Party Party.
+
+17:22.500 --> 17:31.500
+It's Sunday Bloody Sunday here
+on Source Code. Moving along, I
+got an email in response to my
+question is where you listen to
+the source code.
+
+17:31.500 --> 17:37.500
+Is it indeed during your
+commute? Is it at work? Is it at
+home? Is it while you're working
+out? Is it in the bathtub?
+
+17:37.500 --> 17:46.500
+I got one from Hedzers Hotsmann
+from the Netherlands. He's
+studying part-time at the Freit
+Universiteit, the Free
+University of Amsterdam.
+
+17:46.500 --> 17:54.500
+He says what he always does is
+he always records lectures on
+his iPod. I guess he's using a
+Gryphon i-mic or something like
+that.
+
+17:54.500 --> 18:03.500
+So that he can review them again
+and go back and listen to pieces
+later on if he so wishes.
+
+18:03.500 --> 18:14.500
+He says a great idea for the
+iPod would be for either a
+lecture room or you could do it
+by course, which would make
+sense.
+
+18:15.000 --> 18:21.000
+RSS feed with all of the
+lectures so that if you couldn't
+go, if you're sick or if you
+
+18:21.000 --> 18:26.000
+didn't feel like going, or if
+you just want to keep a record
+of it, all you have to do
+
+18:26.000 --> 18:29.000
+is subscribe once to a certain
+lecture feed and they'll keep
+flowing in.
+
+18:29.000 --> 18:33.000
+So a great use and an excellent
+idea.
+
+18:33.000 --> 18:37.000
+So it's kind of, yeah,
+everything's kind of cool around
+here.
+
+18:37.000 --> 18:38.000
+We're starting to wrap things
+up.
+
+18:38.000 --> 18:44.000
+We plan to be out of the country
+by the first of the year or
+before.
+
+18:44.000 --> 18:48.000
+So house hunting in the UK is
+going to start seriously in
+about a week or two.
+
+18:48.000 --> 18:50.000
+Patricia has one more show she's
+going to do.
+
+18:50.000 --> 18:56.000
+It's a fashion show and she's
+designing the makeup and the
+models.
+
+18:56.000 --> 18:58.000
+So she's still pretty busy with
+that.
+
+18:58.000 --> 19:02.000
+But then she'll be off to the UK
+to find us a house.
+
+19:02.000 --> 19:08.000
+And so my quest will be besides
+working on the iPodder and the
+daily source code and
+
+19:08.000 --> 19:13.000
+whatever other trouble I can get
+into and trying to make the
+world a better place.
+
+19:13.000 --> 19:16.000
+I'll be working on my fixed wing
+license as you know I have a.
+
+19:16.500 --> 19:21.500
+I'm a helicopter pilot. I plan
+on hopefully on my way to
+blogger con in
+
+19:21.500 --> 19:24.500
+November I hope to go through
+Florida, Pasadena, Florida
+
+19:25.500 --> 19:27.500
+to do my check ride for my
+commercial
+
+19:28.500 --> 19:32.500
+Pilots license for helicopter
+and then as I said I want to get
+my fixed-wing license
+
+19:33.500 --> 19:36.500
+The flying bit is you know the
+navigation everything is pretty
+much the same
+
+19:38.500 --> 19:40.500
+But flying a
+
+19:41.500 --> 19:45.500
+Regular airplane versus a
+helicopter there are some
+definite differences and I need
+to really build up
+
+19:46.500 --> 19:51.500
+Some hours so I feel confident
+enough because I plan on
+definitely flying back and forth
+between
+
+19:51.500 --> 19:53.500
+the mainland and the UK
+
+19:54.500 --> 19:59.500
+Pretty regularly certainly for
+the first year and it's much
+
+19:59.500 --> 20:04.500
+It's just much much cheaper to
+do that with an airplane than
+with a helicopter helicopter
+doesn't even go that much slower
+
+20:04.500 --> 20:11.500
+But it's still it's using a
+fixed-wing is just much more
+efficient for that. So I've been
+looking into
+
+20:11.500 --> 20:13.500
+An interesting category of
+
+20:13.500 --> 20:17.500
+Aircraft you know, so what I'm
+learning on now is it
+
+20:18.000 --> 20:26.000
+like a Cessna 172. It's a very
+standard airplane. It's like all
+of your typical little plane
+
+20:26.000 --> 20:32.000
+that people fly around on the
+weekends. But there's a whole
+new category called VLA,
+
+20:32.000 --> 20:38.000
+Very Light Aircraft. And these
+used to be known as the, I guess
+it came originally
+
+20:38.000 --> 20:42.000
+from the ultra lights, which are
+pretty much like those
+broomsticks that fly. You just
+
+20:42.000 --> 20:48.000
+sit on them one after another.
+But the very lights are, many of
+them I believe are
+
+20:48.000 --> 20:53.000
+now certified, which means you
+can land at a regular airport
+with them, maybe not
+
+20:53.000 --> 20:59.000
+just confined to certain
+hobbyist airfields. And some of
+them are just
+
+20:59.000 --> 21:04.000
+absolutely stunningly beautiful.
+I think it was the velocity that
+I saw that has
+
+21:04.000 --> 21:09.000
+a canard wing that's a small
+wing in the front of the nose.
+Canard meaning
+
+21:09.000 --> 21:14.000
+duck, so it has kind of a duck
+bill, which has all kinds of
+safety advantages.
+
+21:14.000 --> 21:19.000
+You can't, it's almost
+impossible to pull it into a
+stall because the first wing
+
+21:19.000 --> 21:21.000
+will stall.
+
+21:19.500 --> 21:28.500
+all before the main wings. But
+anyway, I mean gull wing doors,
+seats, four or five, attractable
+
+21:28.500 --> 21:34.500
+landing gear. Now you're
+supposed to build them yourself
+because these are kits. But
+
+21:34.500 --> 21:39.500
+I'm pretty sure you can work
+something out where you get it
+pretty much pre-built. But
+
+21:39.500 --> 21:45.500
+they're really efficient,
+they're very fast and they're
+just looking really, really
+
+21:45.500 --> 21:52.500
+good. Great machines. Tony, if
+you have any suggestions about
+excellent
+
+21:52.500 --> 21:59.500
+DLAs for going back and forth
+from the UK to the mainland, let
+me know. And I want to
+
+21:59.500 --> 22:04.500
+wind it up today. Inevitably,
+we're almost at the eve of 9-11.
+Today is the
+
+22:04.500 --> 22:07.500
+ninth. You may be listening to
+this on the 10th or the 11th
+itself. So there's
+
+22:07.500 --> 22:14.500
+all kinds of media attention
+surrounding the anniversary of
+
+22:14.500 --> 22:22.500
+this tragic event. And Dave
+pointed out something on
+American radio works.
+
+22:21.000 --> 22:27.000
+which is a special they did
+called Witnesses to Terror.
+
+22:27.000 --> 22:34.000
+And that's something you should
+check out. It's available on
+real audio only as far as I
+could tell.
+
+22:34.000 --> 22:42.000
+What I like about it, and I'll
+play a little bit for you here.
+I think I have a bit cued up
+with some of the real audio
+footage as it were,
+
+22:42.000 --> 22:47.000
+is they do have a lot of the
+calls between the control
+centers and, you know, the
+questions.
+
+22:47.000 --> 22:51.000
+Hey, do we need to scramble
+planes? Well, who's going to
+make that call?
+
+22:51.000 --> 22:56.000
+It's really a fascinating radio
+documentary. Listen to a little
+piece of it.
+
+23:03.000 --> 23:08.000
+Okay, so immediately we go into
+buffering mode. This is one
+problem I've noticed.
+
+23:08.000 --> 23:12.000
+It's very hard to get a free
+feed from them.
+
+23:12.000 --> 23:15.000
+Presumably because it's really
+good and a lot of people are
+hammering their server,
+
+23:15.000 --> 23:21.000
+but they may have a little light
+load. Oops. Well, that actually
+just crashed my real player.
+
+23:21.000 --> 23:23.000
+Okay, well, you go listen to it
+for your-
+
+23:22.500 --> 23:25.500
+yourself,
+AmericanRadioWorks.publicRadio.org.
+
+23:25.500 --> 23:27.500
+Well worth it.
+
+23:27.500 --> 23:28.500
+Excellent document.
+
+23:28.500 --> 23:32.500
+Not that it's going to change
+your mind about anything.
+
+23:32.500 --> 23:33.500
+It doesn't go in any conspiracy
+theories,
+
+23:33.500 --> 23:35.500
+but it does give a whole new
+angle
+
+23:35.500 --> 23:38.500
+to the events that unfolded that
+day
+
+23:38.500 --> 23:40.500
+that you probably haven't seen
+or certainly
+
+23:40.500 --> 23:42.500
+haven't heard before.
+
+23:42.500 --> 23:47.500
+With that, 23 or 24 minutes
+almost, time to wrap it up.
+
+23:47.500 --> 23:49.500
+So if you have any comments on
+the source code for today,
+
+23:49.500 --> 23:50.500
+just send me an email.
+
+23:50.500 --> 23:52.500
+It's adamantcurry.com.
+
+23:52.500 --> 23:56.500
+Or leave a comment on the web
+blog, live.curry.com.
+
+23:56.500 --> 23:58.500
+You can always catch the latest
+source code right here
+
+23:58.500 --> 24:00.500
+on dailysourcecode.com.
+
+24:00.500 --> 24:05.500
+Subscribable through RSS at
+dailysourcecode.com.rss.xml.
+
+24:06.500 --> 24:07.500
+Slash RSS.xml.
+
+24:09.500 --> 24:10.500
+I butchered that.
+
+24:10.500 --> 24:13.500
+DailySourceCode.com.rss.xml.
+
+24:13.500 --> 24:15.500
+Oh, that's better.
+
+24:16.500 --> 24:17.500
+All right, I'll see you tomorrow
+
+24:17.500 --> 24:19.500
+for the Thank God It's Friday
+edition of the Source Code
+
+24:19.500 --> 24:20.500
+Bye-bye!
+
+24:23.750 --> 24:43.750
+[ Music ]

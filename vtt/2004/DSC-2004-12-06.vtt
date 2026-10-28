@@ -1,0 +1,4593 @@
+WEBVTT
+
+00:00.000 --> 00:13.000
+Hey everybody, who listens to
+the Daily Source Code?
+
+00:13.000 --> 00:28.000
+The Daily Source Code podcast.
+
+00:28.000 --> 00:31.000
+It's for everybody.
+
+00:31.000 --> 00:32.000
+Testing.
+
+00:32.000 --> 00:33.000
+All's live.
+
+00:33.000 --> 00:34.000
+Adam Curry.
+
+00:34.000 --> 00:35.000
+Yeah.
+
+00:35.000 --> 00:38.000
+Monday, everybody good
+afternoon.
+
+00:38.000 --> 00:41.000
+I you're doing and welcome to
+the Daily Source Code.
+
+00:41.000 --> 00:42.000
+Today is Monday.
+
+00:42.000 --> 00:44.000
+It's December 6, 2004.
+
+00:44.000 --> 00:48.000
+I'm out of curry coming to you
+from Curry Cottage in the United
+Kingdom.
+
+00:48.000 --> 00:49.000
+That's right.
+
+00:49.000 --> 00:52.000
+With a brand new set of new
+sounds.
+
+00:52.000 --> 00:56.000
+And lots of reverb by special
+requests.
+
+00:56.000 --> 01:03.000
+I'm not even going to get into
+the entire set up and exactly
+what I've changed.
+
+01:03.000 --> 01:06.000
+But boy, a lot of thought went
+into it.
+
+01:06.000 --> 01:11.000
+In fact, Patricia actually spent
+a lot of time with me coming up
+with the microphone sound.
+
+01:11.000 --> 01:12.000
+It's pretty good.
+
+01:12.000 --> 01:14.000
+In fact, it could be a hell of a
+lot worse.
+
+01:14.000 --> 01:16.000
+You know, I could be at
+Starbucks right now.
+
+01:16.000 --> 01:17.000
+That's how bad it could be.
+
+01:17.000 --> 01:25.000
+That's interesting.
+
+01:25.000 --> 01:27.000
+Still kind of working on the
+entire set up.
+
+01:27.000 --> 01:28.000
+All the pieces and bits.
+
+01:28.000 --> 01:29.000
+Everything that goes together.
+
+01:29.000 --> 01:30.000
+It's all right here.
+
+01:30.000 --> 01:37.000
+This is where users and
+developers party together.
+
+01:37.000 --> 01:40.000
+And I kind of feel like a little
+bit of a developer.
+
+01:40.000 --> 01:43.000
+If you look at the setup that
+I've got going here.
+
+01:43.000 --> 01:46.000
+And part of the reason for this
+entire setup is
+
+01:46.000 --> 01:51.000
+I've been catching some some
+flack about the sound.
+
+01:51.000 --> 01:56.000
+The, you know, basically the big
+room that I had at the castle.
+
+01:56.000 --> 02:01.000
+Some folks seem to actually miss
+the kind of echoey reverb thing.
+
+02:01.000 --> 02:05.000
+And sometimes they even are
+pretty vocal about it.
+
+02:05.000 --> 02:08.000
+Listen to this that came in on
+my iPod or just over the
+weekend.
+
+02:08.000 --> 02:09.000
+Hey.
+
+02:09.000 --> 02:10.000
+How are you?
+
+02:10.000 --> 02:11.000
+Okay, how are you?
+
+02:11.000 --> 02:12.000
+Very well.
+
+02:12.000 --> 02:15.000
+So are we recording?
+
+02:15.000 --> 02:16.000
+We are.
+
+02:16.000 --> 02:17.000
+Okay.
+
+02:17.000 --> 02:18.000
+So.
+
+02:18.000 --> 02:23.000
+Oh, this is the sound of
+excitement in the background.
+
+02:23.000 --> 02:25.000
+Yeah, exactly.
+
+02:25.000 --> 02:28.000
+So what do you want to say?
+
+02:28.000 --> 02:29.000
+Uh, I don't know.
+
+02:29.000 --> 02:31.000
+I'm not a podcaster, you know.
+
+02:31.000 --> 02:33.000
+So here we are.
+
+02:33.000 --> 02:34.000
+You're not?
+
+02:34.000 --> 02:35.000
+No.
+
+02:35.000 --> 02:36.000
+Are you a podcaster?
+
+02:36.000 --> 02:37.000
+No.
+
+02:37.000 --> 02:38.000
+Okay.
+
+02:38.000 --> 02:39.000
+So we're not good at this off
+the coast all the way.
+
+02:39.000 --> 02:40.000
+No.
+
+02:40.000 --> 02:42.000
+We're not going to sit there and
+do a David Adam.
+
+02:42.000 --> 02:43.000
+No.
+
+02:43.000 --> 02:44.000
+And did that our way?
+
+02:44.000 --> 02:45.000
+No.
+
+02:45.000 --> 02:46.000
+No.
+
+02:46.000 --> 02:47.000
+Okay.
+
+02:47.000 --> 02:48.000
+So are we here?
+
+02:48.000 --> 02:58.000
+Because Adam insists upon having
+some sort of a seat for his iPod
+or network.
+
+02:58.000 --> 02:59.000
+Right.
+
+02:59.000 --> 03:00.000
+All right.
+
+03:00.000 --> 03:01.000
+So Adam.
+
+03:01.000 --> 03:02.000
+This will have to do.
+
+03:02.000 --> 03:03.000
+This will have to do.
+
+03:03.000 --> 03:04.000
+All right.
+
+03:04.000 --> 03:12.000
+So, you know, one of those of
+you who haven't heard the last
+week show down low that one.
+
+03:12.000 --> 03:14.000
+That was a show with Jonathan
+Schwartz, right?
+
+03:14.000 --> 03:15.000
+Yeah.
+
+03:15.000 --> 03:22.000
+It got a lot of good reviews
+except for people like, you
+know, who are concerned about,
+
+03:22.000 --> 03:27.000
+how am I, big ego or HP?
+
+03:27.000 --> 03:33.000
+Well, those complaints happen no
+matter what.
+
+03:33.000 --> 03:34.000
+Yeah.
+
+03:34.000 --> 03:40.000
+So I think it was a good show
+and I hope people will listen to
+all the way through because some
+of the stuff towards the end of
+some of the best as well.
+
+03:40.000 --> 03:41.000
+All right.
+
+03:41.000 --> 03:42.000
+The point about me, come on.
+
+03:42.000 --> 03:43.000
+Get to me.
+
+03:43.000 --> 03:45.000
+That's what the second I am.
+
+03:45.000 --> 03:47.000
+Stephen, I'm great except.
+
+03:47.000 --> 03:48.000
+Right.
+
+03:48.000 --> 03:49.000
+Yeah.
+
+03:49.000 --> 03:50.000
+Well.
+
+03:50.000 --> 03:51.000
+Okay.
+
+03:51.000 --> 03:52.000
+So what are we going to do next
+week?
+
+03:52.000 --> 03:54.000
+We're going to try and do the
+full show next week, right?
+
+03:54.000 --> 03:55.000
+Yeah.
+
+03:55.000 --> 03:57.000
+We're going to try and record it
+on Monday.
+
+03:57.000 --> 04:02.000
+But we'll have to leave that one
+for perhaps another little down
+low.
+
+04:02.000 --> 04:03.000
+Okay.
+
+04:03.000 --> 04:04.000
+We're good.
+
+04:04.000 --> 04:05.000
+All right.
+
+04:05.000 --> 04:06.000
+All right.
+
+04:06.000 --> 04:08.000
+So let's hope everybody does go
+back.
+
+04:08.000 --> 04:11.000
+Listen to last week's Gilmour
+Gang with Jonathan Schwartz,
+great show.
+
+04:11.000 --> 04:12.000
+I know I will.
+
+04:12.000 --> 04:14.000
+You know, I will too.
+
+04:14.000 --> 04:15.000
+Okay.
+
+04:15.000 --> 04:17.000
+When Friday rolls around, that's
+what I'm going to do.
+
+04:17.000 --> 04:19.000
+Get to the part about me.
+
+04:19.000 --> 04:20.000
+Thanks.
+
+04:20.000 --> 04:21.000
+Yeah.
+
+04:21.000 --> 04:26.000
+Let's hope he gets his broadband
+as of noon here on Thursday,
+which is when we're recording
+this.
+
+04:26.000 --> 04:34.000
+Adam just said email that the
+British telecom people have not,
+no, whoever it is is not come
+through with his DSL line.
+
+04:34.000 --> 04:42.000
+Not as this saying because, you
+know, there's just something
+different about the sound of
+this voice when he's got dial
+up.
+
+04:42.000 --> 04:43.000
+Not the attention here.
+
+04:43.000 --> 04:44.000
+It's the bit.
+
+04:44.000 --> 04:47.000
+You know, he needs more reverb.
+
+04:47.000 --> 04:48.000
+Yeah.
+
+04:48.000 --> 04:49.000
+That's it.
+
+04:49.000 --> 04:50.000
+That's it.
+
+04:50.000 --> 04:51.000
+There's something about that
+Mike changed that he's done.
+
+04:51.000 --> 04:52.000
+It's just not right.
+
+04:52.000 --> 04:53.000
+We missed the castle.
+
+04:53.000 --> 04:54.000
+It's just not right.
+
+04:54.000 --> 04:57.000
+Well, I, you know, when the
+jury's out on the cottage.
+
+04:57.000 --> 04:59.000
+But it doesn't really matter.
+
+04:59.000 --> 05:02.000
+It's what, uh, Adam thinks.
+
+05:02.000 --> 05:03.000
+That's true.
+
+05:03.000 --> 05:04.000
+Oh.
+
+05:04.000 --> 05:05.000
+Okay.
+
+05:05.000 --> 05:06.000
+Steve, have a great weekend.
+
+05:06.000 --> 05:07.000
+And we'll talk to you on Monday.
+
+05:07.000 --> 05:08.000
+Okay.
+
+05:08.000 --> 05:09.000
+Thanks for that.
+
+05:09.000 --> 05:11.000
+So nice of you guys to be
+thinking of me.
+
+05:11.000 --> 05:14.000
+And so nice to say that it
+sounds like shit now that I'm in
+the cottage.
+
+05:14.000 --> 05:15.000
+So I've cranked up the reverb.
+
+05:15.000 --> 05:17.000
+Make sure you guys got plenty of
+it.
+
+05:17.000 --> 05:18.000
+Oops.
+
+05:18.000 --> 05:19.000
+Sorry about that.
+
+05:19.000 --> 05:21.000
+Still don't have the windscreen
+happening on the new microphone.
+
+05:21.000 --> 05:23.000
+So I think we kind of got this
+vibe going.
+
+05:23.000 --> 05:26.000
+You know, I've got the drum
+cadence now on the background.
+
+05:26.000 --> 05:31.000
+This is the last time I played
+that drum drum line, the drum
+cadence.
+
+05:31.000 --> 05:39.000
+I got so many responses that
+actually started up an email
+thread with Joel Hawksley.
+
+05:39.000 --> 05:42.000
+He said, uh, actually I'll read
+this email to you.
+
+05:42.000 --> 05:44.000
+Because I said it was really
+awesome.
+
+05:44.000 --> 05:47.000
+A lot of people had commented on
+these cadences.
+
+05:47.000 --> 05:48.000
+And I said, you know, how did
+you record it?
+
+05:48.000 --> 05:50.000
+He says it turns out the file.
+
+05:50.000 --> 05:51.000
+I sent you a record a while ago.
+
+05:51.000 --> 05:54.000
+My friend Sony microphone and
+Sony mini disc recorder.
+
+05:54.000 --> 05:56.000
+And, uh, what it is, he sent me
+another one.
+
+05:56.000 --> 05:59.000
+And this is of our shoot.
+
+05:59.000 --> 06:00.000
+What was this?
+
+06:01.000 --> 06:04.000
+I think this is the Michigan
+Michigan State drum band.
+
+06:04.000 --> 06:08.000
+Hold on, I'm trying to get my
+show notes to scroll up,
+
+06:08.000 --> 06:11.000
+which apparently is going to be
+a problem today.
+
+06:11.000 --> 06:12.000
+Let's see.
+
+06:12.000 --> 06:13.000
+Yeah.
+
+06:13.000 --> 06:15.000
+Come on everybody.
+
+06:17.000 --> 06:19.000
+Oh, there we go. Okay.
+
+06:19.000 --> 06:20.000
+Um, right.
+
+06:20.000 --> 06:23.000
+So of course, doesn't tell me
+anything about that in the show
+notes.
+
+06:23.000 --> 06:28.000
+Uh, before that, uh, as we
+opened up, you heard a little
+bit of, uh,
+
+06:29.000 --> 06:31.000
+Steve Gilmore and Doug K.
+
+06:31.000 --> 06:35.000
+Apparently there was no Gilmore
+gang to be recorded this week.
+
+06:35.000 --> 06:39.000
+And, uh, so that you don't go
+running off and start checking
+your, uh,
+
+06:39.000 --> 06:42.000
+your iPodder and, uh, your
+scripts to see if something
+broke.
+
+06:42.000 --> 06:44.000
+You know, there actually just
+was no show recorded.
+
+06:44.000 --> 06:47.000
+So hopefully they'll have one,
+uh, one up pretty soon.
+
+06:47.000 --> 06:48.000
+Um, okay.
+
+06:48.000 --> 06:50.000
+So this, oh, there we go.
+
+06:50.000 --> 06:51.000
+Uh, street beats.
+
+06:51.000 --> 06:52.000
+It's Florida State.
+
+06:52.000 --> 06:54.000
+Florida State drum line.
+
+06:54.000 --> 06:57.000
+The license is non-R-I-A-A.
+
+06:57.000 --> 06:59.000
+Why did these cats crank?
+
+06:59.000 --> 07:00.000
+Check it out.
+
+07:06.000 --> 07:07.000
+I love that.
+
+07:07.000 --> 07:09.000
+No, I used to love it.
+
+07:09.000 --> 07:12.000
+I really used to love it when,
+um, when they'd be doing a, um,
+a parade.
+
+07:12.000 --> 07:15.000
+And then they'd walk by and
+they'd do, um,
+
+07:15.000 --> 07:17.000
+the theme from entertainment
+tonight.
+
+07:17.000 --> 07:20.000
+Have you ever heard of a high
+school or college drum band
+
+07:20.000 --> 07:22.000
+or the theme to entertainment?
+
+07:24.000 --> 07:26.000
+Uh, anyway, I'm kind of getting
+into drum, uh, drum band.
+
+07:27.000 --> 07:29.000
+Uh, should we be concerned about
+me?
+
+07:29.000 --> 07:31.000
+Possibly.
+
+07:33.000 --> 07:38.000
+Good morning and welcome to
+today's podcast for December
+3rd, 2004.
+
+07:38.000 --> 07:42.000
+This is a brief daily offering
+of words for the wise and the
+other wise.
+
+07:42.000 --> 07:47.000
+Today's words from an article
+Adam Curry read on his
+abbreviated daily source code.
+
+07:47.000 --> 07:51.000
+The article by Felicity Lawrence
+is a wake-up call for the
+Western world's food
+
+07:51.000 --> 07:52.000
+humorous.
+
+07:52.000 --> 07:55.000
+The way we eat is not just
+ecologically unsustainable,
+
+07:55.000 --> 08:00.000
+but also morally and even
+biologically unsustainable.
+
+08:00.000 --> 08:02.000
+The word is profligate.
+
+08:02.000 --> 08:03.000
+Let's listen.
+
+08:05.000 --> 08:10.000
+Food is flown around the world
+to meet the supermarkets
+requirements for just in time
+ordering.
+
+08:10.000 --> 08:14.000
+Their demand for cosmetic
+perfection and a perpetual glow.
+
+08:14.000 --> 08:18.000
+In case you had noticed, this
+is, uh, basically me, um,
+
+08:18.000 --> 08:22.000
+fucking up the read that I did
+on, uh, what was it, um,
+
+08:22.000 --> 08:26.000
+what was I supposed to get my
+broadband? Was that, um, on the
+first of December?
+
+08:26.000 --> 08:28.000
+So that was, was that Wednesday,
+I think?
+
+08:28.000 --> 08:30.000
+When I, when was I really pissed
+off?
+
+08:30.000 --> 08:31.000
+Yeah, something like that.
+
+08:31.000 --> 08:33.000
+And then instead of doing a
+daily source code,
+
+08:33.000 --> 08:36.000
+I'd read this article from the
+Guardian,
+
+08:36.000 --> 08:38.000
+which I've actually linked to on
+ipodder.org.
+
+08:38.000 --> 08:41.000
+And I couldn't get this, this
+word right.
+
+08:41.000 --> 08:43.000
+Well, you'll, you'll hear it.
+
+08:43.000 --> 08:49.000
+We'll summer can be met by
+producers only if they use
+agrochemicals intensively
+
+08:49.000 --> 08:54.000
+and allow for a, uh, prof, uh, a
+big fucking word,
+
+08:54.000 --> 08:56.000
+degree of waste.
+
+08:56.000 --> 09:01.000
+A third of Kenyan green beans
+are thrown away because they are
+the wrong size or shape.
+
+09:01.000 --> 09:02.000
+Prophligate.
+
+09:03.000 --> 09:06.000
+PRO, FLI, G-A-T-E.
+
+09:06.000 --> 09:10.000
+Volume is an adjective that, in
+this context,
+
+09:10.000 --> 09:13.000
+means recklessly wasteful,
+wildly extravagant.
+
+09:13.000 --> 09:17.000
+It can also be used as a noun to
+describe a profligate person.
+
+09:17.000 --> 09:20.000
+Adam, I want to thank you for
+reading this editorial to us.
+
+09:20.000 --> 09:25.000
+I think you and Felicity draw
+much needed attention to the
+very serious problem.
+
+09:25.000 --> 09:30.000
+Um, hope all of your listeners
+read this article and hope a few
+of mine do too.
+
+09:31.000 --> 09:36.000
+You can find a link to this
+article as well as Adam's
+reading of it at today's
+podcast.com.
+
+09:36.000 --> 09:38.000
+Please email me with questions.
+
+09:38.000 --> 09:45.000
+Scott at today's podcast.com or
+send me a voice mail at
+435-514-4859.
+
+09:45.000 --> 09:48.000
+Thanks for listening and please
+tell your friends about podcast.
+
+09:48.000 --> 09:49.000
+Yeah, right on.
+
+09:49.000 --> 09:50.000
+Okay.
+
+09:50.000 --> 09:51.000
+Thank you very much Scott.
+
+09:51.000 --> 09:52.000
+Send me straight there.
+
+09:52.000 --> 09:53.000
+Profligate.
+
+09:53.000 --> 09:54.000
+I can do that.
+
+09:54.000 --> 09:55.000
+Profligate.
+
+09:55.000 --> 09:57.000
+And it's good to know what words
+mean once in a while.
+
+09:57.000 --> 09:58.000
+Profligate.
+
+09:58.000 --> 10:02.000
+So we're sitting here in my new
+office in the castle.
+
+10:02.000 --> 10:03.000
+A couple things still wrong with
+it.
+
+10:03.000 --> 10:07.000
+I've got this beautiful desk
+that's antique desk that's Louis
+the 14th desk.
+
+10:07.000 --> 10:09.000
+But my chair doesn't fit under
+it.
+
+10:09.000 --> 10:14.000
+I guess the Louis guys were
+really small back in the Louis
+the 14th day.
+
+10:14.000 --> 10:18.000
+So I kind of like my knees are
+banging against the bottom of
+the desk.
+
+10:18.000 --> 10:22.000
+So we've got to figure a way to
+raise that up to give me a
+little more.
+
+10:22.000 --> 10:25.000
+A little more breathing room
+perhaps would be good.
+
+10:25.000 --> 10:30.000
+And as you can hear, I'm still
+using the new mega mic, the the
+sure SM7.
+
+10:30.000 --> 10:33.000
+I've got my reverb set up,
+Steve, and Doug, hope you like
+that.
+
+10:33.000 --> 10:38.000
+So I get a little bit of that
+castle vibe regardless of the
+size of the room these days.
+
+10:38.000 --> 10:42.000
+And even though I still don't
+have my broadband and you know,
+
+10:42.000 --> 10:44.000
+I'm so past the pissed off
+stage.
+
+10:44.000 --> 10:47.000
+I'm just kind of rolling with
+the flow on all of that.
+
+10:47.000 --> 10:54.000
+I've kind of relearned how much
+I love the concept of
+enclosures.
+
+10:54.000 --> 11:02.000
+And the whole iPod or concept
+because basically what I've done
+now is I've thrown out all my
+subscriptions completely.
+
+11:02.000 --> 11:07.000
+All I have is just basically the
+pod squad that I subscribe to.
+
+11:07.000 --> 11:13.000
+And of course link to the pod
+squad is on the production notes
+for today's show.
+
+11:13.000 --> 11:17.000
+And I only have that download
+the minute I go to bed.
+
+11:18.000 --> 11:23.000
+So actually the computer wakes
+up at 2 a.m. at 2 a.m. at wakes
+up.
+
+11:23.000 --> 11:26.000
+And the first thing it does, it
+fires up iPodder.
+
+11:26.000 --> 11:30.000
+And it goes off and downloads
+the pod squad.
+
+11:30.000 --> 11:36.000
+So pretty much every single day
+I've been lucky enough to have
+all of the all the files sitting
+there waiting for me.
+
+11:36.000 --> 11:39.000
+Because it's not so much that
+the bandwidth is slow.
+
+11:39.000 --> 11:46.000
+Because you know, some some
+podcasts really because they're
+so crunched just by so many
+people
+
+11:46.000 --> 11:49.000
+requesting the MP3 files. They
+come in pretty slow as is.
+
+11:49.000 --> 11:53.000
+The problem with not having the
+bandwidth is that you can't
+multitask.
+
+11:53.000 --> 11:56.000
+You can't download two things at
+the same time.
+
+11:56.000 --> 11:58.000
+Because that really of course is
+just no bandwidth.
+
+11:58.000 --> 12:01.000
+So it's not so much that's about
+the speed of stuff coming in.
+
+12:01.000 --> 12:05.000
+But it's about being able to do
+multiple simultaneous parallel
+processes.
+
+12:05.000 --> 12:10.000
+Like get your email at the same
+time check a web page.
+
+12:10.000 --> 12:14.000
+So I'm shifting all that stuff
+off into the middle of the
+night.
+
+12:14.000 --> 12:19.000
+So actually where I was telling
+you to please send me just a
+link to an MP3 file instead of
+an attachment.
+
+12:19.000 --> 12:21.000
+I'm back now to attachments.
+
+12:21.000 --> 12:27.000
+Please, if you're sending me
+something, if you're sending me
+a promo to your podcast and I
+love playing people's promos.
+
+12:27.000 --> 12:29.000
+Send it to me as an attachment.
+
+12:29.000 --> 12:34.000
+As long as it fits within, I
+think it's three or five megs
+that my email server allows in.
+
+12:34.000 --> 12:40.000
+Because that, you know,
+basically I just look at the
+headers and look at the body of
+the messages.
+
+12:40.000 --> 12:45.000
+And at night once again, I say
+go out and cash all of all of
+the attachments.
+
+12:45.000 --> 12:49.000
+So by the time I'm up and we're
+going to bed late, you know,
+
+12:49.000 --> 12:52.000
+I'm we're going to bed around 1
+a.m. for some reason.
+
+12:52.000 --> 12:54.000
+Of course, we're seeing a still
+isn't in school.
+
+12:54.000 --> 12:57.000
+Hopefully this coming week looks
+like she'll be able to start and
+boy,
+
+12:57.000 --> 12:59.000
+she really wants to start.
+
+12:59.000 --> 13:00.000
+This is a great kid.
+
+13:00.000 --> 13:01.000
+She's like, I want to go to
+school.
+
+13:01.000 --> 13:02.000
+I'm so bored.
+
+13:02.000 --> 13:08.000
+So I then will obviously be
+going to bed a little bit more
+in a more timely fashion.
+
+13:09.000 --> 13:11.000
+Probably before midnight.
+
+13:11.000 --> 13:18.000
+So there's a good nine hours,
+you know, of just time for the
+computer to do what's work.
+
+13:18.000 --> 13:20.000
+And it's really not that bad.
+
+13:20.000 --> 13:23.000
+What sucks, of course, is when
+someone says, hey, check this
+out.
+
+13:23.000 --> 13:25.000
+And I can't do that in real
+time.
+
+13:25.000 --> 13:27.000
+I can't really do Skype calls.
+
+13:27.000 --> 13:30.000
+I can, but the Skype calls like
+four or five second delay.
+
+13:30.000 --> 13:32.000
+So, in fact, what I'm going to
+suggest today,
+
+13:32.000 --> 13:34.000
+if now that he more or less has
+his voice back,
+
+13:34.000 --> 13:37.000
+I'm going to ask if he'll do a
+trade secrets with me later this
+week.
+
+13:37.000 --> 13:40.000
+And what we're going to do is
+we're going to do a double
+ender,
+
+13:40.000 --> 13:42.000
+the way Don and Drew taught us.
+
+13:42.000 --> 13:44.000
+So Dave will basically record on
+his end.
+
+13:44.000 --> 13:45.000
+I'll record on my end.
+
+13:45.000 --> 13:48.000
+We'll have a communication like
+a phone.
+
+13:48.000 --> 13:50.000
+Probably, I think that'll be the
+best one,
+
+13:50.000 --> 13:51.000
+phone to communicate.
+
+13:51.000 --> 13:53.000
+And we'll both record our
+individual sides.
+
+13:53.000 --> 13:55.000
+We'll slap those two bits
+together.
+
+13:55.000 --> 13:58.000
+And we'll have a trade secrets
+and boys time for one.
+
+13:58.000 --> 14:00.000
+So much has happened.
+
+14:00.000 --> 14:05.000
+A lot of email, a lot of cool
+links to non-RIA-based music,
+
+14:05.000 --> 14:09.000
+which, of course, is what we try
+to play most of here on the
+daily source code.
+
+14:09.000 --> 14:12.000
+For instance, and again, all of
+these emails that I'm reading to
+you,
+
+14:12.000 --> 14:15.000
+all that information is in the
+podcast show notes,
+
+14:15.000 --> 14:18.000
+email from Joshua.
+
+14:18.000 --> 14:22.000
+Josh on the train, actually,
+who's listened to the source
+code on the train
+
+14:22.000 --> 14:24.000
+and it's called me about that
+before.
+
+14:24.000 --> 14:25.000
+He says, a thought here.
+
+14:25.000 --> 14:30.000
+Non-RIA music should be freer,
+freer, freer,
+
+14:30.000 --> 14:33.000
+F-R-E-F-R-I-A-A,
+
+14:34.000 --> 14:38.000
+which stands for F-R-I-A-A,
+freer, freer,
+
+14:38.000 --> 14:39.000
+I don't know Josh.
+
+14:39.000 --> 14:40.000
+I think we've got to work on
+that.
+
+14:40.000 --> 14:43.000
+I don't know if that's going to
+work.
+
+14:43.000 --> 14:45.000
+Some freer music that we have
+been playing,
+
+14:45.000 --> 14:48.000
+that I played a couple times, is
+the lascivious bitis.
+
+14:48.000 --> 14:51.000
+Bittisforever.com is their
+website.
+
+14:51.000 --> 14:56.000
+Excuse me, and I've had kind of
+an ongoing email conversation
+
+14:56.000 --> 15:00.000
+with Leanne from the lascivious
+bitis.
+
+15:00.000 --> 15:03.000
+And what was really nice is, she
+sent me an email,
+
+15:03.000 --> 15:05.000
+and she said, I want you to
+know,
+
+15:05.000 --> 15:07.000
+we've sold a ton of CDs,
+
+15:07.000 --> 15:10.000
+and have gotten much more fan
+mail than usual
+
+15:10.000 --> 15:13.000
+after your podcast of the list
+of these bitis.
+
+15:13.000 --> 15:15.000
+We've done plenty of radio and
+TV,
+
+15:15.000 --> 15:17.000
+and I think the only other thing
+that got people going
+
+15:17.000 --> 15:19.000
+like that was when we did the
+Bobby Flasho
+
+15:19.000 --> 15:21.000
+on the Food Network.
+
+15:21.000 --> 15:24.000
+All right, we're up there.
+
+15:24.000 --> 15:28.000
+Podcasting equals Food Network.
+
+15:29.000 --> 15:32.000
+Hey, the Food Network's all
+right.
+
+15:32.000 --> 15:34.000
+And I haven't had the courage
+actually
+
+15:34.000 --> 15:36.000
+to ask what a ton of CDs means,
+
+15:36.000 --> 15:40.000
+but just the fact that by
+playing someone's band
+
+15:40.000 --> 15:42.000
+on the daily source code that
+people are going out
+
+15:42.000 --> 15:44.000
+and buying that CD.
+
+15:44.000 --> 15:46.000
+They're probably buying it from
+the website.
+
+15:46.000 --> 15:48.000
+I cannot tell you how good that
+makes me feel.
+
+15:48.000 --> 15:50.000
+It's the same thing with Leanne
+Wilkins,
+
+15:50.000 --> 15:53.000
+who we'll talk about later on in
+the show.
+
+15:53.000 --> 15:55.000
+And Jenny, they're two dogs.
+
+15:55.000 --> 15:57.000
+You've probably heard this from
+the Friday podcast,
+
+15:57.000 --> 15:59.000
+where I basically had him on the
+show,
+
+15:59.000 --> 16:02.000
+and he's trying to get his dogs
+out of jail.
+
+16:02.000 --> 16:04.000
+In Atlanta, I total fuck up,
+
+16:04.000 --> 16:08.000
+and he's really just too much
+money for them to cough up.
+
+16:08.000 --> 16:10.000
+I spoke to him this morning,
+
+16:10.000 --> 16:12.000
+already they had like $700,
+
+16:12.000 --> 16:15.000
+and it was so incredibly cool
+that people don't know.
+
+16:15.000 --> 16:17.000
+I mean, people are doing $10,
+
+16:17.000 --> 16:21.000
+$20, $25 to help them out.
+
+16:21.000 --> 16:24.000
+And really, I cannot tell you
+how much I appreciate that.
+
+16:24.000 --> 16:26.000
+And most people really
+understood the,
+
+16:26.000 --> 16:30.000
+the issue and really understood
+what it means to have
+
+16:30.000 --> 16:34.000
+your dogs in jail, basically.
+
+16:34.000 --> 16:37.000
+And the people really understood
+it donated quite generously,
+
+16:37.000 --> 16:39.000
+and that's so incredibly nice.
+
+16:39.000 --> 16:41.000
+And what it tells me is that,
+
+16:41.000 --> 16:43.000
+hey, wait a minute, we have a
+business model.
+
+16:43.000 --> 16:46.000
+We have an absolute fucking
+business model for podcasting.
+
+16:46.000 --> 16:48.000
+I know how to make other people
+money.
+
+16:48.000 --> 16:49.000
+That's what I know.
+
+16:49.000 --> 16:51.000
+I know how to make those serious
+bitties money.
+
+16:51.000 --> 16:54.000
+I know how to make money for
+worthy causes.
+
+16:54.000 --> 16:58.000
+That's a real serious business
+model that we cannot overlook.
+
+16:58.000 --> 17:01.000
+And quite honestly, I'm pretty
+fucking proud.
+
+17:01.000 --> 17:04.000
+I was sitting to Adam Curry show
+last week,
+
+17:04.000 --> 17:05.000
+the Tuesday show,
+
+17:05.000 --> 17:07.000
+and I was surprised to hear him
+play Battalica.
+
+17:07.000 --> 17:13.000
+Battalica are a band that take
+Battalica as a sort of a style,
+
+17:13.000 --> 17:18.000
+and then take the riffs and the
+backing music of the Beatles,
+
+17:18.000 --> 17:20.000
+in this case it was, hey, Jude,
+
+17:20.000 --> 17:22.000
+and sort of mash them together.
+
+17:22.000 --> 17:23.000
+He introduced it as a mashup,
+
+17:23.000 --> 17:26.000
+although mashups are usually
+working with a crawled at works.
+
+17:26.000 --> 17:30.000
+And in this case, I would call
+it more of a live mashup.
+
+17:30.000 --> 17:34.000
+So I thought it'd be interesting
+to play a band that I know of in
+San Francisco,
+
+17:34.000 --> 17:37.000
+called Smashup Derby, who are
+actually doing live mashups.
+
+17:37.000 --> 17:40.000
+They're doing these actually
+live,
+
+17:40.000 --> 17:42.000
+and actually playing events,
+
+17:42.000 --> 17:44.000
+whereas Battalica, a very
+secretive,
+
+17:44.000 --> 17:47.000
+and friends I know only do
+recordings.
+
+17:47.000 --> 17:51.000
+So, here they are taking Franz
+Ferdinand,
+
+17:51.000 --> 17:54.000
+mixing it with talking heads.
+I'll see what you think.
+
+18:03.000 --> 18:05.000
+By the way, this is pretty
+fucked up, chef.
+
+18:05.000 --> 18:07.000
+But I think you're like it.
+
+18:13.750 --> 21:41.250
+[ Music ]
+
+21:42.480 --> 21:45.480
+That was talking friends by
+SmashUp Derby
+
+21:45.480 --> 21:48.480
+Now if you want to find out more
+about SmashUp Derby
+
+21:48.480 --> 21:53.480
+They have their websites, which
+is at www. SmashUp Derby.com
+
+21:53.480 --> 21:56.480
+That's Derby or the need Derby
+as in Derby and Joan
+
+21:56.480 --> 22:00.480
+Now I love that song, I love the
+idea of sort of mashing things
+
+22:00.480 --> 22:04.480
+That were live, because so often
+I'm messing around in acid
+
+22:04.480 --> 22:07.480
+Or not on acid, I mean in acid
+the problem
+
+22:07.480 --> 22:10.480
+And actually trying to get
+things to work
+
+22:10.480 --> 22:14.480
+And you can do so much more with
+a real band
+
+22:14.480 --> 22:19.480
+And of course Adrian and Matti C
+are both involved with
+
+22:20.480 --> 22:22.480
+The club in San Francisco
+
+22:22.480 --> 22:25.480
+So they're quite heavily
+involved in the bootleg scene
+
+22:25.480 --> 22:28.480
+And it's really nice to sort of
+hear something that's sort of
+live
+
+22:28.480 --> 22:30.480
+And something that's quite
+dynamic like that
+
+22:30.480 --> 22:32.480
+And I would love to see them
+alive at some point
+
+22:39.480 --> 22:40.480
+Shit
+
+22:41.480 --> 22:43.480
+Let me just explain what
+happened
+
+22:43.480 --> 22:44.480
+Can you take this question
+there?
+
+22:44.480 --> 22:46.480
+Oh, cool
+
+22:47.480 --> 22:50.480
+But I want that, I don't want a
+free mouse pad, I want my mouse
+
+22:50.480 --> 22:51.480
+By mouse and Matt
+
+22:51.480 --> 22:56.480
+Okay, so I was so enthusiastic
+about that live mashup
+
+22:56.480 --> 22:59.480
+That essentially in my entire
+cup of tea
+
+22:59.480 --> 23:02.480
+Spilled all over the desk, all
+over the Louis 14
+
+23:02.480 --> 23:04.480
+The Louis Qatar's
+
+23:04.480 --> 23:05.480
+Shit
+
+23:07.480 --> 23:11.480
+And Christina was nice enough to
+get me a big roll of paper towel
+
+23:11.480 --> 23:14.480
+It didn't spill on the keyboard
+
+23:14.480 --> 23:19.480
+Fuck, all over the desk, all
+over the breakout box
+
+23:19.480 --> 23:23.480
+Over the mouse pad
+
+23:23.480 --> 23:24.480
+Christina
+
+23:24.480 --> 23:27.480
+Okay
+
+23:27.480 --> 23:29.480
+All right
+
+23:31.480 --> 23:34.480
+Okay, so sometimes shit just
+sucks
+
+23:34.480 --> 23:37.480
+Let me see what can I do with
+like continue to clean up here
+
+23:37.480 --> 23:39.480
+Listen to the sports pod, okay?
+
+23:39.480 --> 23:41.480
+Yeah, you'll enjoy that
+
+23:44.480 --> 23:46.480
+Oh, it's fun, who goes crazy
+
+23:46.480 --> 23:48.480
+Down goes crazy
+
+23:48.480 --> 23:49.480
+Oh, it's fun
+
+23:49.480 --> 23:52.480
+I don't believe what I just
+thought
+
+23:52.480 --> 23:53.480
+Oh, it's fun
+
+23:53.480 --> 23:55.480
+And check the ball
+
+23:55.480 --> 23:57.480
+And check the ball
+
+23:57.480 --> 23:58.480
+Oh, it's fun
+
+23:58.480 --> 24:00.480
+You believe in miracles
+
+24:00.480 --> 24:02.480
+Yeah
+
+24:02.480 --> 24:04.480
+Okay, we're going to the sports
+pod for Friday
+
+24:04.480 --> 24:07.480
+December 2,000 and four
+
+24:07.480 --> 24:11.480
+Sports pod on demand through pod
+task technology
+
+24:12.480 --> 24:14.480
+I'm good, it's talking to you at
+9
+
+24:14.480 --> 24:15.480
+15
+
+24:15.480 --> 24:16.480
+10
+
+24:16.480 --> 24:18.480
+Yeah, yeah, it's just a good
+time
+
+24:18.480 --> 24:20.480
+And I want to hear from you
+
+24:20.480 --> 24:21.480
+Tech that voice emails
+
+24:21.480 --> 24:22.480
+Go to
+
+24:22.480 --> 24:23.480
+Curtis
+
+24:23.480 --> 24:24.480
+At these sports pod
+
+24:24.480 --> 24:27.480
+Okay, so basically I just wanted
+to give you a little
+
+24:27.480 --> 24:30.480
+Just a little bit of promo there
+about the sports pod
+
+24:30.480 --> 24:32.480
+I didn't want to play the whole
+thing for you. Okay
+
+24:32.480 --> 24:34.480
+Hold on, let me just reset the
+microphone
+
+24:34.480 --> 24:35.480
+Okay, that's better
+
+24:35.480 --> 24:36.480
+There we go
+
+24:37.480 --> 24:38.480
+Shoot
+
+24:38.480 --> 24:39.480
+I hate that
+
+24:39.480 --> 24:40.480
+So rocking, man
+
+24:40.480 --> 24:43.480
+I was like totally jamming out
+to that mashup
+
+24:43.480 --> 24:45.480
+And then it's like this huge cup
+
+24:45.480 --> 24:47.480
+It's not like a little teensy
+weeny
+
+24:47.480 --> 24:50.480
+You know, a little wanky tea cup
+
+24:50.480 --> 24:52.480
+It's a big, I love my pony
+coffee cup
+
+24:52.480 --> 24:54.480
+You know, and the whole thing
+
+24:54.480 --> 24:56.480
+I just like, I think my
+headphone
+
+24:56.480 --> 24:58.480
+Wire caught on it or something
+
+24:58.480 --> 25:00.480
+Oh, man, totally sucked
+
+25:00.480 --> 25:03.480
+Okay, you're still tuned into
+the daily source code
+
+25:03.480 --> 25:05.480
+Madam Curry coming to you from
+the United Kingdom
+
+25:05.480 --> 25:07.480
+We're in Guildford
+
+25:07.480 --> 25:10.480
+And it disclosed cottage
+location
+
+25:10.480 --> 25:12.480
+And
+
+25:12.480 --> 25:15.480
+I'm still getting lots of email
+about
+
+25:15.480 --> 25:19.480
+You know, UK culture and who
+invented what?
+
+25:19.480 --> 25:21.480
+Another email here from
+
+25:21.480 --> 25:23.480
+Let's see
+
+25:23.480 --> 25:25.480
+I would this email come from
+
+25:25.480 --> 25:28.480
+Oh man, it's a long email
+
+25:28.480 --> 25:30.480
+That's for sure
+
+25:30.480 --> 25:34.480
+Okay, well, can I even tell who
+the email is from
+
+25:34.480 --> 25:37.480
+But the gist of the email is
+
+25:37.480 --> 25:39.480
+Inventors of the TV
+
+25:39.480 --> 25:42.480
+Remember we were talking about
+this on a previous source code
+
+25:42.480 --> 25:44.480
+Well, it's a tie
+
+25:44.480 --> 25:46.480
+Okay, Adam, you won't remember
+me
+
+25:46.480 --> 25:50.480
+But I love when people start off
+the emails to me like that
+
+25:50.480 --> 25:52.480
+Adam, you won't remember me
+
+25:52.480 --> 25:54.480
+However
+
+25:54.480 --> 25:55.480
+Oh, a number of years ago
+
+25:55.480 --> 25:57.480
+When you needed assistance with
+your power book
+
+25:57.480 --> 25:58.480
+At Media Plaza
+
+25:58.480 --> 26:01.480
+I was the new Mac headed
+American webmaster there
+
+26:01.480 --> 26:02.480
+Of course I remember
+
+26:03.480 --> 26:07.480
+So whoever said that low-key
+barred was the inventor of the
+television
+
+26:07.480 --> 26:10.480
+Only told you part of the truth
+apparently
+
+26:10.480 --> 26:12.480
+You see it's a little more
+complicated than that
+
+26:12.480 --> 26:14.480
+Barred invented a technique for
+television
+
+26:14.480 --> 26:16.480
+Referred to his mechanical
+television
+
+26:16.480 --> 26:19.480
+And publicly display that in
+1924
+
+26:19.480 --> 26:21.480
+Now what it is, it used huge
+hungs of wood
+
+26:21.480 --> 26:24.480
+And a spinning disk kind of like
+a flat
+
+26:24.480 --> 26:27.480
+Zoatrop to collect the image
+
+26:27.480 --> 26:29.480
+Oh, there's all kinds of links
+to this shit
+
+26:29.480 --> 26:31.480
+So at the same time in 1923
+
+26:31.480 --> 26:32.480
+In 1923
+
+26:32.480 --> 26:34.480
+A first up towards electronic
+television
+
+26:34.480 --> 26:37.480
+Developed into today's cathode
+rate
+
+26:37.480 --> 26:39.480
+Toot patented in 1924
+
+26:39.480 --> 26:41.480
+And he called it at the time
+
+26:41.480 --> 26:42.480
+The kinoscope
+
+26:42.480 --> 26:45.480
+Meanwhile in 22 in the town of
+Rigby, Idaho
+
+26:45.480 --> 26:48.480
+Philo T. Farnsworth, the high
+school science teacher
+
+26:48.480 --> 26:50.480
+With no history of electronics
+
+26:50.480 --> 26:51.480
+Engineering sketched his design
+
+26:51.480 --> 26:52.480
+For electrical engineering
+
+26:52.480 --> 26:55.480
+Toot and the high school science
+teacher
+
+26:55.480 --> 26:56.480
+With no history of electronics
+
+26:56.480 --> 26:57.480
+Engineering sketched his design
+
+26:57.480 --> 27:00.480
+For electrical engineering
+
+27:00.480 --> 27:02.480
+Design for electronic television
+
+27:02.480 --> 27:04.480
+The model we used today
+
+27:04.480 --> 27:06.480
+So you've got to go through this
+email
+
+27:06.480 --> 27:08.480
+It's in the podcast show notes
+
+27:08.480 --> 27:11.480
+It's just it continues to bugle
+my mind
+
+27:11.480 --> 27:13.480
+How you grow up
+
+27:13.480 --> 27:15.480
+Depending on where you grow up
+
+27:15.480 --> 27:17.480
+Thinking that certain people
+
+27:17.480 --> 27:20.480
+Usually of your own country,
+origin and culture
+
+27:20.480 --> 27:22.480
+Discovered certain things
+
+27:22.480 --> 27:24.480
+And when you really get down to
+it
+
+27:24.480 --> 27:26.480
+There seems to be some dispute
+about stuff
+
+27:26.480 --> 27:27.480
+Some people say, well
+
+27:27.480 --> 27:29.480
+Yeah, it depends on how you look
+at it
+
+27:30.480 --> 27:33.480
+So check that out in the podcast
+show notes for today's
+
+27:33.480 --> 27:34.480
+DailySource Code
+
+27:34.480 --> 27:37.480
+Which can find on
+dailySourcecode.com
+
+27:37.480 --> 27:40.480
+Hey Adam, hope you're settled in
+at the Prairie Cottage
+
+27:40.480 --> 27:43.480
+Well, yeah kind of
+
+27:43.480 --> 27:45.480
+Patricia said yesterday
+
+27:45.480 --> 27:48.480
+She said, we finally unpacked
+
+27:48.480 --> 27:50.480
+It doesn't mean we're completely
+settled
+
+27:50.480 --> 27:51.480
+But we're unpacked
+
+27:51.480 --> 27:54.480
+I just wanted to go and tell you
+a few things
+
+27:54.480 --> 27:56.480
+One struggle comments
+
+27:56.480 --> 27:58.480
+Love in your show
+
+27:58.480 --> 27:59.480
+You can work ass
+
+27:59.480 --> 28:01.480
+Maybe back in MTV
+
+28:01.480 --> 28:03.480
+Didn't see her for a while
+
+28:03.480 --> 28:05.480
+And I'll get them not seen you
+now
+
+28:05.480 --> 28:07.480
+But definitely hearing a loud
+and clear
+
+28:07.480 --> 28:08.480
+Thanks
+
+28:08.480 --> 28:10.480
+Number two
+
+28:10.480 --> 28:12.480
+I got a little behind on my
+podcasts
+
+28:12.480 --> 28:14.480
+And so I thought I'd just listen
+to them
+
+28:14.480 --> 28:16.480
+Oh man, this sounds kind of
+crappy
+
+28:16.480 --> 28:17.480
+What are you using?
+
+28:17.480 --> 28:18.480
+On the plane ride
+
+28:18.480 --> 28:22.480
+Well, I was listening to one of
+your podcast
+
+28:22.480 --> 28:24.480
+And it was you on a plane
+
+28:24.480 --> 28:26.480
+On your way to Amsterdam
+
+28:26.480 --> 28:28.480
+And that's where I was headed to
+
+28:28.480 --> 28:30.480
+Just a little funny deja vu
+
+28:30.480 --> 28:32.480
+I guess that's the word for it
+
+28:32.480 --> 28:34.480
+And number three
+
+28:34.480 --> 28:36.480
+I've seen one of you talking
+about
+
+28:36.480 --> 28:39.480
+The idea of being able to do
+podcasts
+
+28:39.480 --> 28:41.480
+From like your iPod
+
+28:41.480 --> 28:42.480
+Thought I'd let you know
+
+28:42.480 --> 28:45.480
+That there is a non iPod
+alternative
+
+28:45.480 --> 28:46.480
+Okay
+
+28:46.480 --> 28:47.480
+Hard to I've played
+
+28:47.480 --> 28:48.480
+Not like the little yups
+
+28:48.480 --> 28:50.480
+It's the I River
+
+28:50.480 --> 28:51.480
+I HP
+
+28:51.480 --> 28:52.480
+So
+
+28:52.480 --> 28:54.480
+And I'm doing it from that
+
+28:54.480 --> 28:56.480
+Actually, I think I ordered one
+of those
+
+28:56.480 --> 28:58.480
+And are you recording it on the
+on the I River?
+
+28:58.480 --> 28:59.480
+Damn
+
+28:59.480 --> 29:00.480
+I hope it's
+
+29:00.480 --> 29:02.480
+I wonder what the is it like
+
+29:02.480 --> 29:05.480
+32k or is it 64k?
+
+29:05.480 --> 29:06.480
+You need to
+
+29:06.480 --> 29:08.480
+Wait, that maybe I can see that
+
+29:08.480 --> 29:10.480
+From the info on the file
+
+29:10.480 --> 29:11.480
+Let's see
+
+29:11.480 --> 29:12.480
+Oh
+
+29:12.480 --> 29:13.480
+Data rate
+
+29:13.480 --> 29:14.480
+4.8k
+
+29:14.480 --> 29:15.480
+Bites per second
+
+29:15.480 --> 29:16.480
+Ah
+
+29:16.480 --> 29:17.480
+Okay
+
+29:17.480 --> 29:19.480
+That explains the quality
+
+29:19.480 --> 29:20.480
+So
+
+29:20.480 --> 29:22.480
+If you think it sounds like crap
+
+29:22.480 --> 29:24.480
+Maybe it's not good for you to
+use
+
+29:24.480 --> 29:26.480
+But does have a digital
+
+29:26.480 --> 29:28.480
+And a analog
+
+29:28.480 --> 29:30.480
+Lines and line out
+
+29:30.480 --> 29:32.480
+It's pretty nice tool
+
+29:32.480 --> 29:34.480
+Okay, that's it
+
+29:34.480 --> 29:35.480
+Just wanted to go
+
+29:35.480 --> 29:36.480
+And main point was
+
+29:36.480 --> 29:38.480
+Thank you for the killer cast
+
+29:38.480 --> 29:39.480
+Oh man
+
+29:39.480 --> 29:40.480
+Degadise
+
+29:40.480 --> 29:42.480
+No, you don't have to thank me
+
+29:42.480 --> 29:43.480
+Thank you
+
+29:43.480 --> 29:44.480
+Boy or only
+
+29:44.480 --> 29:45.480
+Thank you all so very much
+
+29:45.480 --> 29:48.480
+More on the source code now
+
+29:48.480 --> 29:50.480
+Um
+
+29:50.480 --> 29:52.480
+Let's listen to the latest Don
+and Drew
+
+29:52.480 --> 29:54.480
+Uh show
+
+29:54.480 --> 29:56.480
+And a couple things
+
+29:56.480 --> 29:57.480
+First of all, it turns out
+
+29:57.480 --> 29:59.480
+They're banned in Finland
+
+29:59.480 --> 30:01.480
+Apparently
+
+30:01.480 --> 30:03.480
+Uh one or multiple
+
+30:03.480 --> 30:05.480
+Finish ISPs no longer
+
+30:05.480 --> 30:09.480
+Allow access to the
+Donandrew.com
+
+30:09.480 --> 30:11.480
+Man those fins, you know
+
+30:11.480 --> 30:12.480
+There's there
+
+30:12.480 --> 30:14.480
+They're so politically correct
+
+30:14.480 --> 30:17.480
+Don't try and show a nipple in
+Finland
+
+30:17.480 --> 30:19.480
+Either everybody
+
+30:20.480 --> 30:22.480
+But Dons get really pissed about
+all this press
+
+30:22.480 --> 30:23.480
+That they're getting
+
+30:23.480 --> 30:26.480
+And basically, and this happens
+all the time
+
+30:26.480 --> 30:28.480
+With people who are married
+
+30:28.480 --> 30:30.480
+You know, they'll kind of
+
+30:30.480 --> 30:32.480
+Assume or presume
+
+30:32.480 --> 30:34.480
+Certainly the press will assume
+that you have
+
+30:34.480 --> 30:35.480
+Your husband's last name
+
+30:35.480 --> 30:36.480
+So
+
+30:36.480 --> 30:38.480
+So she's being quoted as
+
+30:38.480 --> 30:40.480
+Don Dunkus
+
+30:40.480 --> 30:42.480
+So it's Drew
+
+30:42.480 --> 30:43.480
+Dunkus
+
+30:43.480 --> 30:45.480
+And Don Miss Sally
+
+30:45.480 --> 30:46.480
+And she's getting pissed
+
+30:46.480 --> 30:48.480
+And we got to watch out, you
+know
+
+30:48.480 --> 30:49.480
+Journalists out there
+
+30:49.480 --> 30:50.480
+Because you know she's going to
+stop
+
+30:50.480 --> 30:51.480
+She's getting into a half
+
+30:51.480 --> 30:52.480
+And then you show a puff off
+
+30:52.480 --> 30:53.480
+And she
+
+30:53.480 --> 30:55.480
+And she won't want to do any
+more podcast
+
+30:55.480 --> 30:57.480
+So we got to be careful
+
+30:57.480 --> 30:58.480
+Don Miss Sally
+
+30:58.480 --> 30:59.480
+It's Don Miss Sally
+
+30:59.480 --> 31:00.480
+Everybody
+
+31:00.480 --> 31:02.480
+And
+
+31:02.480 --> 31:04.480
+There's something else that I
+don't
+
+31:04.480 --> 31:05.480
+Don't have a queue up for you
+
+31:05.480 --> 31:07.480
+But there's something that Don
+says
+
+31:07.480 --> 31:09.480
+In, uh, let's see
+
+31:09.480 --> 31:11.480
+That is the December second
+podcast
+
+31:11.480 --> 31:12.480
+So the Don and Drew show
+
+31:12.480 --> 31:14.480
+Where she says something
+
+31:14.480 --> 31:15.480
+There's been haunting my mind
+
+31:15.480 --> 31:17.480
+For the longest time
+
+31:17.480 --> 31:19.480
+Because it works
+
+31:19.480 --> 31:21.480
+You know in order to stop
+smoking
+
+31:21.480 --> 31:23.480
+And I'm talking about evil smoke
+
+31:23.480 --> 31:25.480
+Right cigarette smoke
+
+31:25.480 --> 31:26.480
+Let's just forget all other
+types of smoke
+
+31:26.480 --> 31:28.480
+For the time being
+
+31:28.480 --> 31:31.480
+You have to have some kind of
+incentive
+
+31:31.480 --> 31:32.480
+Death is a good one
+
+31:32.480 --> 31:34.480
+That works for a lot of people
+
+31:34.480 --> 31:36.480
+It's really hard to stay off
+smoking
+
+31:36.480 --> 31:39.480
+And I guess for me
+
+31:39.480 --> 31:41.480
+The worst part is
+
+31:41.480 --> 31:43.480
+In the Netherlands
+
+31:43.480 --> 31:45.480
+If you go by a
+
+31:45.480 --> 31:47.480
+Prefabricated split
+
+31:47.480 --> 31:49.480
+They basically mix the
+
+31:49.480 --> 31:51.480
+Marijuana with tobacco
+
+31:51.480 --> 31:53.480
+And that's not good
+
+31:53.480 --> 31:55.480
+It tastes really good
+
+31:55.480 --> 31:56.480
+I got to tell you that
+
+31:56.480 --> 31:57.480
+It tastes wonderful
+
+31:57.480 --> 31:59.480
+And I can dream about that
+
+31:59.480 --> 32:00.480
+But I can't have it
+
+32:00.480 --> 32:01.480
+I can't have it
+
+32:01.480 --> 32:03.480
+Because I'm an addict
+
+32:03.480 --> 32:04.480
+I am a
+
+32:04.480 --> 32:05.480
+Nicotine addict
+
+32:05.480 --> 32:06.480
+And if I have one of those
+
+32:06.480 --> 32:07.480
+Then I basically fall off the
+wagon
+
+32:07.480 --> 32:09.480
+And then I want to smoke again
+
+32:09.480 --> 32:10.480
+And Don said something to me
+
+32:10.480 --> 32:11.480
+At a blogger con
+
+32:11.480 --> 32:12.480
+Hey, hon
+
+32:12.480 --> 32:13.480
+Hello
+
+32:13.480 --> 32:14.480
+Can I help you?
+
+32:14.480 --> 32:17.480
+No, no, no
+
+32:17.480 --> 32:19.480
+It only spilled on the Louis
+Cetsware desk
+
+32:19.480 --> 32:20.480
+Oh, shit
+
+32:20.480 --> 32:22.480
+It did spill on the carpet
+
+32:22.480 --> 32:23.480
+Yes
+
+32:23.480 --> 32:24.480
+Fuck
+
+32:24.480 --> 32:27.480
+It was this whole thing spilled
+
+32:27.480 --> 32:29.480
+I'm sorry
+
+32:29.480 --> 32:30.480
+I didn't even see it on that
+
+32:30.480 --> 32:32.480
+Yeah, that was a bonfire
+
+32:32.480 --> 32:34.480
+It's just a little bit
+
+32:34.480 --> 32:36.480
+Will that come out?
+
+32:36.480 --> 32:38.480
+A T
+
+32:38.480 --> 32:39.480
+No, a T won't come
+
+32:39.480 --> 32:40.480
+It's like pain
+
+32:40.480 --> 32:41.480
+It's like pain
+
+32:42.480 --> 32:44.480
+Hold on
+
+32:44.480 --> 32:45.480
+We can't hear you
+
+32:45.480 --> 32:46.480
+We used to die
+
+32:46.480 --> 32:47.480
+Are underwear in there
+
+32:47.480 --> 32:48.480
+In T
+
+32:48.480 --> 32:49.480
+You're underwear?
+
+32:49.480 --> 32:51.480
+Yeah, if you want to have sort
+of
+
+32:51.480 --> 32:53.480
+Well, who's going to see
+underwear?
+
+32:53.480 --> 32:55.480
+Skin collar underwear
+
+32:55.480 --> 32:57.480
+Well, sometimes you need it
+under
+
+32:57.480 --> 32:59.480
+Under something that's a little
+bit
+
+32:59.480 --> 33:00.480
+Yeah, see you
+
+33:00.480 --> 33:01.480
+See you through
+
+33:01.480 --> 33:03.480
+So you wear something
+
+33:03.480 --> 33:04.480
+Wait everybody
+
+33:04.480 --> 33:06.480
+Here's clothing tips from
+Patricia
+
+33:06.480 --> 33:08.480
+You put it in the T
+
+33:08.480 --> 33:09.480
+Well
+
+33:09.480 --> 33:10.480
+You can now wear my carpet
+
+33:11.480 --> 33:13.480
+You can steep it a little bit
+
+33:13.480 --> 33:15.480
+And then after we're afterwards
+
+33:15.480 --> 33:17.480
+You got beautiful skin color
+
+33:17.480 --> 33:18.480
+Underwear
+
+33:18.480 --> 33:20.480
+But it's not good on the carpet
+
+33:20.480 --> 33:21.480
+No
+
+33:21.480 --> 33:22.480
+No
+
+33:22.480 --> 33:23.480
+That's not good
+
+33:23.480 --> 33:24.480
+That's not going to come out
+
+33:24.480 --> 33:25.480
+Is it?
+
+33:25.480 --> 33:26.480
+That's going to suck
+
+33:26.480 --> 33:27.480
+Ah
+
+33:27.480 --> 33:30.480
+It's probably already in there
+
+33:30.480 --> 33:32.480
+Oh yeah, it's already leaking
+
+33:32.480 --> 33:33.480
+Down towards the very good
+
+33:33.480 --> 33:34.480
+I did a good job, huh?
+
+33:34.480 --> 33:35.480
+Yeah
+
+33:35.480 --> 33:36.480
+I did a good job
+
+33:36.480 --> 33:37.480
+Stepping on it with my big boots
+
+33:37.480 --> 33:38.480
+You know, and I was in the
+shower
+
+33:38.480 --> 33:40.480
+I took a nice and relaxed shower
+
+33:40.480 --> 33:41.480
+I didn't do anything
+
+33:41.480 --> 33:42.480
+I didn't do anything
+
+33:42.480 --> 33:43.480
+I didn't do anything
+
+33:43.480 --> 33:44.480
+I didn't do anything
+
+33:44.480 --> 33:45.480
+I didn't do anything
+
+33:45.480 --> 33:46.480
+I didn't do anything
+
+33:46.480 --> 33:47.480
+Nothing
+
+33:47.480 --> 33:48.480
+Nothing, dear
+
+33:48.480 --> 33:49.480
+Okay, thank you
+
+33:49.480 --> 33:51.480
+I'll continue with my show now
+
+33:51.480 --> 33:52.480
+Love you, mean it
+
+33:52.480 --> 33:53.480
+Bye
+
+33:53.480 --> 33:56.480
+So Dawn
+
+33:56.480 --> 33:58.480
+Let's get back to Dawn for a
+second
+
+33:58.480 --> 33:59.480
+My other wife
+
+33:59.480 --> 34:01.480
+She
+
+34:01.480 --> 34:03.480
+She said something that haunted
+me
+
+34:03.480 --> 34:05.480
+And it just works so well as an
+incentive
+
+34:05.480 --> 34:07.480
+And I've been to Amsterdam in
+the meantime
+
+34:07.480 --> 34:09.480
+She said
+
+34:09.480 --> 34:11.480
+Smoking cigarettes
+
+34:11.480 --> 34:12.480
+Smoking tobacco
+
+34:12.480 --> 34:14.480
+Is like sucking on
+
+34:14.480 --> 34:16.480
+The man's dick
+
+34:16.480 --> 34:18.480
+The man being the man
+
+34:18.480 --> 34:20.480
+Not a man, but the man
+
+34:20.480 --> 34:23.480
+And she says it again in that
+podcast
+
+34:23.480 --> 34:25.480
+December 2nd podcast
+
+34:25.480 --> 34:27.480
+I'm going to have to drag that
+up
+
+34:27.480 --> 34:29.480
+Because it's going to work for
+other people
+
+34:29.480 --> 34:30.480
+I really will
+
+34:30.480 --> 34:31.480
+When you hear the way she says
+it, it's just like
+
+34:31.480 --> 34:33.480
+Whoa, you know, and it makes so
+much sense
+
+34:33.480 --> 34:35.480
+Because totally, you know, like
+you're being addicted
+
+34:36.480 --> 34:38.480
+And it's, you know, and it's
+
+34:38.480 --> 34:41.480
+They're putting shit in there to
+keep you addicted
+
+34:41.480 --> 34:45.480
+Okay, so anyway, just want to
+
+34:45.480 --> 34:48.480
+Just want to say hi to my other
+wife Dawn
+
+34:48.480 --> 34:52.480
+And more helpful hints from
+around town
+
+34:52.480 --> 34:54.480
+People trying to help me out
+
+34:54.480 --> 34:56.480
+With my ADSL problems
+
+34:56.480 --> 34:59.480
+I actually posted it pretty long
+
+34:59.480 --> 35:01.480
+Outline of
+
+35:01.480 --> 35:04.480
+What's gone wrong and what my
+options are
+
+35:04.480 --> 35:07.480
+And it will get fixed obviously,
+but it's just
+
+35:07.480 --> 35:09.480
+It's a pain, you know, two weeks
+without
+
+35:09.480 --> 35:12.480
+Any type of real connectivity
+sucks
+
+35:12.480 --> 35:14.480
+People who have been there can
+feel my pain
+
+35:14.480 --> 35:16.480
+But I got a great comment
+
+35:16.480 --> 35:19.480
+Again on the podcast show notes
+
+35:19.480 --> 35:20.480
+Here's all you have to do
+
+35:20.480 --> 35:22.480
+Step one, get a shovel
+
+35:22.480 --> 35:25.480
+Step two, dig around until you
+find a trunk line
+
+35:25.480 --> 35:27.480
+Step three, tap into the green
+blue yellow
+
+35:27.480 --> 35:29.480
+And move white stripe wires
+
+35:29.480 --> 35:33.480
+Number four, run those to an RJ
+45
+
+35:33.480 --> 35:36.480
+On pins 1, 2, 3, 6
+
+35:36.480 --> 35:39.480
+And then plug into your switch
+
+35:39.480 --> 35:41.480
+Plug into your switch in the
+house
+
+35:41.480 --> 35:44.480
+And then cover everything with
+dirt
+
+35:44.480 --> 35:46.480
+Maybe a couple of ferns
+
+35:46.480 --> 35:48.480
+And you're good to go
+
+35:48.480 --> 35:49.480
+I'm like, uh-huh
+
+35:49.480 --> 35:51.480
+Yeah, I want to dry that
+
+35:51.480 --> 35:53.480
+Seriously, there are some of
+those options
+
+35:53.480 --> 35:55.480
+That are pretty similar, there's
+the SDSL
+
+35:55.480 --> 35:57.480
+I mean, I'm getting a real
+education
+
+35:57.480 --> 36:00.480
+Different ways you can get
+connected to the internet
+
+36:01.480 --> 36:04.480
+When I'm hoping most will happen
+
+36:04.480 --> 36:07.480
+Just for a short interim is this
+WDSL
+
+36:07.480 --> 36:09.480
+Which is wireless DSL
+
+36:09.480 --> 36:11.480
+Which is should be hearing about
+today
+
+36:11.480 --> 36:14.480
+So perhaps more on the podcast
+tomorrow
+
+36:14.480 --> 36:16.480
+And see a gaff
+
+36:16.480 --> 36:19.480
+Which means a fuck up on my part
+high Adam
+
+36:19.480 --> 36:21.480
+Says Tim Biedle
+
+36:21.480 --> 36:22.480
+Really enjoying your show
+
+36:22.480 --> 36:24.480
+Especially your experiences
+adjusting to UK life
+
+36:24.480 --> 36:26.480
+So many things we take for
+granted
+
+36:27.480 --> 36:30.480
+And also I'm sorry I do that
+again
+
+36:30.480 --> 36:32.480
+So many things we take for
+granted
+
+36:32.480 --> 36:34.480
+Take on new meaning when we see
+it through the eyes of a
+stranger
+
+36:34.480 --> 36:35.480
+There you go
+
+36:35.480 --> 36:36.480
+Just one thing though
+
+36:36.480 --> 36:40.480
+BBC SCR does not stand for South
+Coast radio
+
+36:40.480 --> 36:43.480
+As I said, I was really in my
+American mode
+
+36:43.480 --> 36:46.480
+I guess it stands for Southern
+Counties radio
+
+36:46.480 --> 36:48.480
+Love your cockney accent
+
+36:48.480 --> 36:50.480
+Better than Dick Van Dykes
+
+36:50.480 --> 36:53.480
+I feel so incredibly special
+
+36:53.480 --> 36:55.480
+Time for another promo
+
+36:55.480 --> 36:58.480
+If you have any promos that you
+want to air it on a daily source
+code
+
+36:58.480 --> 37:01.480
+Which basically just kind of
+promotes your podcast
+
+37:01.480 --> 37:02.480
+Happy to play them
+
+37:02.480 --> 37:04.480
+The more creative, the better
+obviously
+
+37:04.480 --> 37:06.480
+Just email them to
+atamercurry.com
+
+37:11.480 --> 37:12.480
+Hey podcast world, this is Greg
+
+37:12.480 --> 37:13.480
+And Lisa
+
+37:13.480 --> 37:15.480
+And we want to tell you about a
+great new podcast
+
+37:15.480 --> 37:18.480
+Coming to you from the Deserts
+of New Mexico
+
+37:18.480 --> 37:21.480
+It's called Viva podcast
+
+37:21.480 --> 37:23.480
+So for more information visit us
+
+37:23.480 --> 37:26.480
+at vivapodcast.com
+
+37:26.480 --> 37:29.480
+That's vivapodcast.com
+
+37:29.480 --> 37:30.480
+Adios
+
+37:30.480 --> 37:33.480
+Right on
+
+37:33.480 --> 37:36.480
+The vivapodcast vivapodcast.com
+
+37:36.480 --> 37:39.480
+I don't know if you know who a
+peeper del is
+
+37:39.480 --> 37:42.480
+Pete is actually the guy who I
+think I don't
+
+37:42.480 --> 37:43.480
+And Drew started on podcasting
+
+37:43.480 --> 37:44.480
+It's all his fault
+
+37:44.480 --> 37:48.480
+He responded to the guardian
+article
+
+37:48.480 --> 37:51.480
+Actually he talked about a lot
+about
+
+37:51.480 --> 37:53.480
+I call him produce Pete now
+
+37:53.480 --> 37:55.480
+About how he cooks
+
+37:55.480 --> 37:57.480
+A lot of people took this
+article to heart
+
+37:57.480 --> 37:59.480
+They were really thinking about
+
+37:59.480 --> 38:01.480
+What are we stuffing into our
+face these days
+
+38:01.480 --> 38:03.480
+And what are we eating and where
+is it coming from
+
+38:03.480 --> 38:06.480
+And how is it being produced and
+how is it being processed
+
+38:06.480 --> 38:09.480
+And shoot, it's kind of scary
+
+38:09.480 --> 38:12.480
+Just food is basic
+
+38:12.480 --> 38:15.480
+If we can get past this idea of
+putting
+
+38:15.480 --> 38:17.480
+Burning tobacco in our face
+
+38:17.480 --> 38:19.480
+We should certainly look at
+
+38:19.480 --> 38:21.480
+At all the other things we stuff
+in there
+
+38:21.480 --> 38:23.480
+Dawn
+
+38:23.480 --> 38:25.480
+No, what I mean girl
+
+38:25.480 --> 38:28.480
+Here's Pete with the rastery
+body
+
+38:32.480 --> 38:35.480
+This is rastery body of four
+
+38:35.480 --> 38:36.480
+2004
+
+38:36.480 --> 38:38.480
+Well, oh two
+
+38:38.480 --> 38:41.480
+So why did the British guy
+
+38:41.480 --> 38:43.480
+Bring two of hookers into his
+robot
+
+38:43.480 --> 38:47.480
+Someone told him he needed a
+pair of arms
+
+38:47.480 --> 38:49.480
+He said
+
+38:49.480 --> 38:51.480
+Thank you
+
+38:51.480 --> 38:53.480
+And good night
+
+38:53.480 --> 38:55.480
+People are living
+
+38:55.480 --> 38:57.480
+Rastery body
+
+38:57.480 --> 38:59.480
+That is the show for December
+2nd 2004
+
+38:59.480 --> 39:01.480
+This is the daily source code
+
+39:01.480 --> 39:05.480
+I'm out of curry coming to you
+from the curry cottage in the UK
+and lovely
+
+39:05.480 --> 39:07.480
+Guildford and sorry
+
+39:07.480 --> 39:09.480
+And not far from here
+
+39:09.480 --> 39:11.480
+Todd Maffin was in Berlin
+
+39:11.480 --> 39:13.480
+Looking for the Berlin Wall
+
+39:13.480 --> 39:15.480
+I've got to play a bit of this
+because this is like the tower
+of
+
+39:15.480 --> 39:16.480
+Where
+
+39:16.480 --> 39:18.480
+And you have to listen to this
+whole thing
+
+39:18.480 --> 39:19.480
+I've put a link to the show
+
+39:19.480 --> 39:20.480
+Well, just listen to a bit of it
+
+39:20.480 --> 39:22.480
+And then we'll explain what
+happens
+
+39:27.480 --> 39:28.480
+Hi, I'm Todd Maffin
+
+39:28.480 --> 39:31.480
+Thanks for tuning into the
+iLoveReadyow.org podcast
+
+39:31.480 --> 39:34.480
+Today we are coming to you from
+Berlin Germany
+
+39:34.480 --> 39:36.480
+And my goal today is to find
+
+39:36.480 --> 39:37.480
+The Wall
+
+39:37.480 --> 39:39.480
+Or what's left of the Berlin
+Wall anyway
+
+39:39.480 --> 39:41.480
+Which I understand is not very
+much
+
+39:41.480 --> 39:43.480
+But I'm
+
+39:43.480 --> 39:45.480
+Basically in the wander around
+the streets
+
+39:45.480 --> 39:47.480
+The Concierge is pointed me
+toward the right
+
+39:47.480 --> 39:49.480
+Which
+
+39:49.480 --> 39:51.480
+Good as the instructions as he
+was able to give me
+
+39:51.480 --> 39:54.480
+So I'm going to walk along here
+and
+
+39:54.480 --> 39:56.480
+Follow along as we try and find
+the wall
+
+40:01.480 --> 40:03.480
+So besides I'm the kick-in
+
+40:03.480 --> 40:05.480
+John Lymus
+
+40:05.480 --> 40:07.480
+He listened to the cab driver
+
+40:07.480 --> 40:09.480
+I think this is it
+
+40:10.480 --> 40:11.480
+Oh, who is this English?
+
+40:13.480 --> 40:14.480
+We're going to terminate
+
+40:14.480 --> 40:15.480
+Do you speak English?
+
+40:22.480 --> 40:23.480
+Hello
+
+40:23.480 --> 40:24.480
+Do you speak English?
+
+40:24.480 --> 40:26.480
+No, but I'm going to kick your
+ass
+
+40:26.480 --> 40:27.480
+You fucking American
+
+40:28.480 --> 40:30.480
+Can you tell me how to find the
+wall?
+
+40:33.480 --> 40:34.480
+I wonder if did the
+
+40:34.480 --> 40:36.480
+Todd, you have to let us know
+
+40:36.480 --> 40:38.480
+Did you have like a big fucking
+microphone while you're doing
+this?
+
+40:38.480 --> 40:40.480
+Hi, I'm a fucking American
+tourist
+
+40:40.480 --> 40:42.480
+Do you know where the fucking
+wall is?
+
+40:42.480 --> 40:44.480
+The wall, what's left of the
+wall?
+
+40:44.480 --> 40:46.480
+The wall? What's left of the
+wall?
+
+40:46.480 --> 40:48.480
+The wall?
+
+40:48.480 --> 40:49.480
+It's not here.
+
+40:49.480 --> 40:50.480
+Okay, we're in food
+
+40:50.480 --> 40:52.480
+And
+
+40:52.480 --> 40:54.480
+You see the mirror?
+
+40:54.480 --> 40:56.480
+Is he the mirror right here?
+
+40:56.480 --> 40:59.480
+He's 50 meters here
+
+40:59.480 --> 41:02.480
+How many euros is that for you
+to take me?
+
+41:02.480 --> 41:04.480
+Okay, now this is the beautiful
+part
+
+41:04.480 --> 41:06.480
+The cab driver says
+
+41:06.480 --> 41:07.480
+And I'm good at this
+
+41:07.480 --> 41:08.480
+Because I've lived in Europe
+
+41:08.480 --> 41:09.480
+Most of my life
+
+41:09.480 --> 41:11.480
+The cab driver is having a real
+hard time explaining
+
+41:11.480 --> 41:14.480
+But he's saying it's only like
+50 meters from here
+
+41:14.480 --> 41:18.480
+And Todd says, how many euros
+will it cost to get me there?
+
+41:18.480 --> 41:23.480
+Now, 50 meters is about, you
+know, 55 yards
+
+41:23.480 --> 41:24.480
+Basically
+
+41:24.480 --> 41:27.480
+So this whole podcast and you
+have to listen to this
+
+41:27.480 --> 41:28.480
+Because it's hilarious
+
+41:28.480 --> 41:30.480
+And I can just imagine him
+walking around
+
+41:30.480 --> 41:32.480
+With this big ass microphone
+
+41:32.480 --> 41:34.480
+Asking people where the wall are
+
+41:34.480 --> 41:36.480
+And they're like, oh, the fucker
+
+41:36.480 --> 41:37.480
+It's like right there
+
+41:37.480 --> 41:38.480
+That's where it was
+
+41:38.480 --> 41:40.480
+So of course he finds out
+
+41:40.480 --> 41:42.480
+In the end that he really only
+had to walk
+
+41:42.480 --> 41:44.480
+Like, you know, half a football
+field to get there
+
+41:44.480 --> 41:46.480
+But an excellent podcast
+
+41:46.480 --> 41:48.480
+And I'm considering moving
+
+41:48.480 --> 41:50.480
+I love radio
+
+41:50.480 --> 41:52.480
+The podcast into the comedy
+section
+
+41:52.480 --> 41:54.480
+Because it's just really, really
+good
+
+41:54.480 --> 41:56.480
+All right, time for some free
+music
+
+41:56.480 --> 42:00.480
+This, let's see, I played
+
+42:00.480 --> 42:03.480
+Something a while ago
+
+42:03.480 --> 42:06.480
+From, let's see, what was it?
+
+42:06.480 --> 42:08.480
+From chosen
+
+42:08.480 --> 42:10.480
+I think it was chosen
+
+42:10.480 --> 42:13.480
+And I got a whole email
+
+42:13.480 --> 42:15.480
+Going on with
+
+42:15.480 --> 42:18.480
+The manager
+
+42:18.480 --> 42:21.480
+Or the actually the management
+and marketing guy
+
+42:21.480 --> 42:24.480
+Who does this for these bands
+
+42:24.480 --> 42:25.480
+And you just have to read the
+email
+
+42:25.480 --> 42:27.480
+To get all the background on it
+
+42:27.480 --> 42:29.480
+Sent me another song
+
+42:29.480 --> 42:31.480
+And I think this is the right
+one
+
+42:31.480 --> 42:33.480
+I don't know if I have the right
+track queue
+
+42:33.480 --> 42:34.480
+I'm so frazzled now with all
+this tea
+
+42:34.480 --> 42:36.480
+Spilling all over the carpet
+
+42:36.480 --> 42:37.480
+Here's a track from
+
+42:37.480 --> 42:39.480
+Remained to one, our artist
+
+42:39.480 --> 42:41.480
+He says, let me know what you
+think
+
+42:41.480 --> 42:43.480
+The track is called I Candy
+
+42:46.250 --> 44:26.250
+[ Music ]
+
+44:26.480 --> 44:27.480
+I'm not sure what's going on
+
+44:27.480 --> 44:28.480
+I'm going to let you play
+
+44:28.480 --> 44:29.480
+For another time
+
+44:29.480 --> 44:30.480
+It keeps crapping out
+
+44:30.480 --> 44:31.480
+That's no good
+
+44:31.480 --> 44:32.480
+I don't know what's up with that
+
+44:32.480 --> 44:34.480
+I've heard that her up on a
+couple of times
+
+44:34.480 --> 44:35.480
+Was it with MP3's
+
+44:35.480 --> 44:36.480
+Okay
+
+44:36.480 --> 44:37.480
+I can't you will get to that
+
+44:37.480 --> 44:38.480
+Another time in the source code
+
+44:38.480 --> 44:39.480
+Hope you didn't put the
+automatic
+
+44:39.480 --> 44:40.480
+Three minutes skip in there
+
+44:40.480 --> 44:42.480
+Because now you probably missed
+this
+
+44:42.480 --> 44:43.480
+Bit and you're already off into
+
+44:43.480 --> 44:44.480
+Something else
+
+44:44.480 --> 44:46.480
+I got to remember
+
+44:46.480 --> 44:47.480
+What was this?
+
+44:47.480 --> 44:50.480
+Was this the last Starbucks
+podcast
+
+44:50.480 --> 44:51.480
+I guess that must have been
+
+44:51.480 --> 44:52.480
+Must have been Fridays
+
+44:53.480 --> 44:56.480
+I was trying to get a hold of
+Lee Wilkins
+
+44:56.480 --> 44:58.480
+Wilkins to talk about his dogs
+
+44:58.480 --> 45:00.480
+And I was looking for some
+
+45:00.480 --> 45:02.480
+Dialing music and I just
+basically hit the first thing
+
+45:02.480 --> 45:03.480
+That came up in iTunes
+
+45:03.480 --> 45:05.480
+And it was a king of the road
+
+45:05.480 --> 45:07.480
+By was it Roger Miller
+
+45:07.480 --> 45:09.480
+And I came up with this
+
+45:09.480 --> 45:10.480
+With a little lyric
+
+45:10.480 --> 45:13.480
+Which was Prince of the pod
+
+45:13.480 --> 45:15.480
+And of course you got to figure
+
+45:15.480 --> 45:16.480
+Someone wrote lyrics to it
+
+45:16.480 --> 45:18.480
+Kim Black did a great job
+
+45:18.480 --> 45:19.480
+She says
+
+45:19.480 --> 45:21.480
+I'm no songwriter
+
+45:21.480 --> 45:23.480
+But here it is
+
+45:23.480 --> 45:26.480
+And and I for a long time I
+thought
+
+45:26.480 --> 45:28.480
+You know what I'm going to do
+with this
+
+45:28.480 --> 45:30.480
+I should maybe I should
+
+45:30.480 --> 45:32.480
+Maybe I should try and do
+something
+
+45:32.480 --> 45:33.480
+Do a song
+
+45:33.480 --> 45:36.480
+Patricia hates it when I sing
+
+45:36.480 --> 45:37.480
+And she's right
+
+45:37.480 --> 45:39.480
+Because you know it's like I
+can't sing
+
+45:39.480 --> 45:41.480
+I really cannot sing
+
+45:41.480 --> 45:42.480
+I suck at singing
+
+45:42.480 --> 45:44.480
+And if you really do know how to
+sing
+
+45:44.480 --> 45:45.480
+Like she does then
+
+45:45.480 --> 45:47.480
+You know that's like painful
+
+45:47.480 --> 45:49.480
+And by the way I think most
+
+45:49.480 --> 45:50.480
+These jockeys
+
+45:50.480 --> 45:52.480
+Really are frustrated singers
+
+45:52.480 --> 45:53.480
+Or performers
+
+45:53.480 --> 45:54.480
+And whenever
+
+45:54.480 --> 45:55.480
+You'll notice this
+
+45:55.480 --> 45:56.480
+Whenever DJs
+
+45:56.480 --> 45:57.480
+Radio DJs
+
+45:57.480 --> 45:58.480
+Have a chance
+
+45:58.480 --> 45:59.480
+To sing
+
+45:59.480 --> 46:00.480
+They jump right in boy
+
+46:00.480 --> 46:01.480
+They love singing
+
+46:01.480 --> 46:02.480
+And I have to admit
+
+46:02.480 --> 46:03.480
+I have some of that
+
+46:03.480 --> 46:05.480
+Not what's not a frustration
+
+46:05.480 --> 46:06.480
+But I don't know what to do
+
+46:06.480 --> 46:07.480
+I think
+
+46:07.480 --> 46:09.480
+Most of it's just the whole
+process
+
+46:09.480 --> 46:11.480
+Of putting a song together
+
+46:11.480 --> 46:12.480
+That is fascinating
+
+46:12.480 --> 46:13.480
+Because when you're DJ
+
+46:13.480 --> 46:14.480
+You're already into sound
+
+46:14.480 --> 46:15.480
+You're into
+
+46:15.480 --> 46:16.480
+Into mixing boards
+
+46:16.480 --> 46:17.480
+You're into
+
+46:17.480 --> 46:18.480
+You know just put
+
+46:18.480 --> 46:19.480
+Really your it's in life
+
+46:19.480 --> 46:20.480
+It's performance art
+
+46:20.480 --> 46:22.480
+It's just what podcasting is
+
+46:22.480 --> 46:23.480
+So
+
+46:23.480 --> 46:26.480
+When I saw the lyrics
+
+46:26.480 --> 46:28.480
+I said well you know all I
+really need
+
+46:28.480 --> 46:30.480
+And I have garage band
+
+46:30.480 --> 46:32.480
+And you know I should be able to
+
+46:32.480 --> 46:33.480
+I thought no I can't do that
+
+46:33.480 --> 46:34.480
+Because I don't know how to
+
+46:34.480 --> 46:35.480
+Fucking play
+
+46:35.480 --> 46:36.480
+Yeah
+
+46:36.480 --> 46:37.480
+I studied piano for two years
+
+46:37.480 --> 46:38.480
+But no way
+
+46:38.480 --> 46:39.480
+Am I going to be able to
+
+46:39.480 --> 46:41.480
+Even figure out how to do
+
+46:41.480 --> 46:42.480
+King of the Road
+
+46:42.480 --> 46:43.480
+By the way the piano
+
+46:43.480 --> 46:44.480
+Was still sitting in the empty
+castle
+
+46:44.480 --> 46:45.480
+Life
+
+46:45.480 --> 46:46.480
+If you want a piano
+
+46:46.480 --> 46:47.480
+Let me know
+
+46:47.480 --> 46:48.480
+I need to sell it
+
+46:48.480 --> 46:50.480
+Or I have to send it somewhere
+
+46:50.480 --> 46:51.480
+Within two weeks
+
+46:51.480 --> 46:52.480
+So it's going to be safe
+
+46:52.480 --> 46:53.480
+Anyway so
+
+46:53.480 --> 46:54.480
+Why not
+
+46:54.480 --> 46:55.480
+And Google for
+
+46:55.480 --> 46:57.480
+For a MIDI version of King of
+the Road
+
+46:57.480 --> 47:00.480
+And I actually found something
+
+47:00.480 --> 47:01.480
+That was
+
+47:01.480 --> 47:02.480
+Let me see
+
+47:02.480 --> 47:03.480
+Sequenced
+
+47:03.480 --> 47:04.480
+By
+
+47:04.480 --> 47:05.480
+Here comes
+
+47:05.480 --> 47:06.480
+I'm playing for you now
+
+47:06.480 --> 47:08.480
+Harry Todd
+
+47:08.480 --> 47:10.480
+I put a link to these original
+
+47:10.480 --> 47:12.480
+Page in there as well
+
+47:12.480 --> 47:13.480
+And I listen to this
+
+47:13.480 --> 47:14.480
+So yeah
+
+47:14.480 --> 47:15.480
+That's kind of like
+
+47:16.480 --> 47:17.480
+Harps Accord
+
+47:17.480 --> 47:19.480
+Like
+
+47:19.480 --> 47:20.480
+I like that
+
+47:20.480 --> 47:21.480
+If I'm going to do this
+
+47:21.480 --> 47:22.480
+I'm going to do it right
+
+47:22.480 --> 47:23.480
+Now what I found is
+
+47:23.480 --> 47:25.480
+There's a way to
+
+47:25.480 --> 47:27.480
+Take a MIDI file
+
+47:27.480 --> 47:29.480
+And through another little
+program
+
+47:29.480 --> 47:31.480
+Which I forget what it's called
+
+47:31.480 --> 47:33.480
+Montemedi
+
+47:33.480 --> 47:34.480
+Something like that
+
+47:34.480 --> 47:35.480
+Montemedi
+
+47:35.480 --> 47:36.480
+I mean you could just
+
+47:36.480 --> 47:37.480
+Search Google for
+
+47:37.480 --> 47:39.480
+Import MIDI into Garage Band
+
+47:39.480 --> 47:40.480
+Because Garage Band
+
+47:40.480 --> 47:41.480
+Doesn't do it natively
+
+47:41.480 --> 47:42.480
+For some reason
+
+47:42.480 --> 47:44.480
+So you take this MIDI file
+
+47:44.480 --> 47:46.480
+Drag it onto this application
+
+47:46.480 --> 47:48.480
+And it does all kinds of magic
+
+47:48.480 --> 47:49.480
+And it creates a folder for you
+
+47:49.480 --> 47:50.480
+And in that folder
+
+47:50.480 --> 47:53.480
+Is all the instruments in
+separate files
+
+47:53.480 --> 47:55.480
+And you drag that into a Garage
+Band
+
+47:55.480 --> 47:57.480
+Song and new project
+
+47:57.480 --> 47:59.480
+And low and behold
+
+47:59.480 --> 48:00.480
+It gives you all these tracks
+
+48:00.480 --> 48:02.480
+In this case it had like ten
+tracks
+
+48:02.480 --> 48:04.480
+And it gave me the opportunity
+
+48:04.480 --> 48:06.480
+To then go and select
+
+48:06.480 --> 48:07.480
+Different instruments
+
+48:07.480 --> 48:08.480
+Because I wanted to
+
+48:08.480 --> 48:09.480
+I already had the score
+
+48:09.480 --> 48:10.480
+Right
+
+48:10.480 --> 48:11.480
+But I needed
+
+48:11.480 --> 48:13.480
+I just needed a little more
+
+48:14.480 --> 48:16.480
+And just some kick and stuff
+
+48:16.480 --> 48:18.480
+A little heavier bass
+
+48:18.480 --> 48:20.480
+And some guitars in there
+
+48:20.480 --> 48:21.480
+And I'll shut up
+
+48:21.480 --> 48:22.480
+And you know
+
+48:22.480 --> 48:24.480
+Well, see for yourself
+
+48:24.480 --> 48:26.480
+Cast your phone
+
+48:26.480 --> 48:28.480
+See your rent
+
+48:28.480 --> 48:30.480
+Cut it just left
+
+48:30.480 --> 48:32.480
+For 50 cents
+
+48:32.480 --> 48:34.480
+No Wi-Fi
+
+48:34.480 --> 48:36.480
+And almost no mess
+
+48:36.480 --> 48:37.480
+And John
+
+48:37.480 --> 48:38.480
+Look, girl
+
+48:38.480 --> 48:39.480
+No cigarettes
+
+48:39.480 --> 48:40.480
+So that
+
+48:40.480 --> 48:42.480
+Two hours of
+
+48:42.480 --> 48:43.480
+And whatever money
+
+48:43.480 --> 48:45.480
+Makes me a podcast
+
+48:46.250 --> 49:56.250
+[ Music ]
+
+49:56.480 --> 49:57.480
+And some other
+
+49:57.480 --> 49:58.480
+And some other
+
+49:58.480 --> 49:59.480
+And some other
+
+49:59.480 --> 50:00.480
+And some other
+
+50:00.480 --> 50:01.480
+And some other
+
+50:01.480 --> 50:02.480
+And some other
+
+50:02.480 --> 50:03.480
+And some other
+
+50:03.480 --> 50:04.480
+And some other
+
+50:04.480 --> 50:06.480
+And some other
+
+50:06.480 --> 50:07.480
+And some other
+
+50:07.480 --> 50:08.480
+And some other
+
+50:08.480 --> 50:10.480
+And some other
+
+50:10.480 --> 50:11.480
+And some other
+
+50:11.480 --> 50:12.480
+And some other
+
+50:12.480 --> 50:13.480
+And some other
+
+50:13.480 --> 50:14.480
+And some other
+
+50:14.480 --> 50:15.480
+And other
+
+50:15.480 --> 50:16.480
+And some other
+
+50:16.480 --> 50:17.480
+And some other
+
+50:17.480 --> 50:18.480
+And other
+
+50:18.480 --> 50:19.480
+And some other
+
+50:19.480 --> 50:20.480
+And other
+
+50:20.480 --> 50:21.480
+And other
+
+50:21.480 --> 50:22.480
+And other
+
+50:22.480 --> 50:23.480
+So other
+
+50:23.480 --> 50:24.480
+And other
+
+50:24.480 --> 50:25.480
+And...
+
+50:25.480 --> 50:26.480
+And...
+
+50:26.480 --> 50:46.250
+[ Music ]
+
+50:47.960 --> 50:55.160
+Okay, Prince of the Pod,
+everybody. This will never air
+again and no, I'm not going to
+put up an MP3
+
+50:55.160 --> 50:56.400
+No
+
+50:56.400 --> 50:59.260
+Just did it because people were
+so nice to do the lyrics and
+
+50:59.740 --> 51:06.140
+And basically so nice to put a
+MIDI file up there and share and
+so I thought I'd share something
+back. Don't you love it?
+
+51:08.300 --> 51:11.420
+Good and interesting comment
+came in from Bill Kennedy from
+
+51:11.820 --> 51:15.180
+Indianapolis who of course
+followed the Lee will Lee and
+Jenny
+
+51:15.900 --> 51:22.620
+Story of their of their two, you
+know, they're two beautiful
+little doggies who have been
+caught up in the airline and
+quarantine
+
+51:23.020 --> 51:25.660
+Hell and he had an interesting
+idea. I said
+
+51:26.140 --> 51:30.540
+Couldn't a podcast listener in
+Atlanta get the dogs out of the
+kennel hold them for
+
+51:33.260 --> 51:36.060
+For Lee and Jenny until they get
+all the money
+
+51:37.500 --> 51:39.500
+To get them back to United
+Kingdom
+
+51:40.220 --> 51:45.260
+In fact, they also could you
+know if they could find like a
+really good you have family
+
+51:46.060 --> 51:50.620
+Because he has the way it works
+basically you have to the
+animals have to have a rabies
+shot
+
+51:50.620 --> 51:55.340
+Forget all the other stuff the
+passport and the chip and the
+neck but they have a rabies shot
+and then they have to wait for
+
+51:55.420 --> 52:01.980
+Six months before they can enter
+the United Kingdom. So six
+months after the rabies shot
+
+52:01.980 --> 52:07.740
+I presume they've probably had
+that rabies shot by now and
+they've probably so it's about
+like a week or two
+
+52:08.620 --> 52:10.620
+Maybe just a full week
+
+52:10.620 --> 52:15.420
+But they would have to stay in
+the states for another six
+months. Maybe there's a really
+great family who would want to
+
+52:16.220 --> 52:18.620
+You know take care of them
+instead of
+
+52:19.260 --> 52:23.900
+Bring them over to the United
+Kingdom and curing huge costs. I
+think it's for two dogs
+
+52:23.980 --> 52:29.420
+It'll probably be about five
+thousand dollars for the six
+months. They have to stay in
+quarantine. I'm not kidding you
+about this
+
+52:30.940 --> 52:36.540
+And you know sure you can visit
+them, but they're basically in
+jail. You know, so it's just a
+thought anyway
+
+52:37.180 --> 52:42.540
+But again really cool that
+everyone has helping out on at
+least getting something going
+and getting it back
+
+52:43.500 --> 52:44.860
+to the UK
+
+52:44.860 --> 52:48.860
+If it all possible within the
+next way have another ten days
+to go or something
+
+52:49.340 --> 52:54.220
+Another email I wanted to share
+with you. Hi Adam. I've been
+listening to the daily source
+code for a few weeks
+
+52:54.220 --> 52:56.220
+I've been following the growth
+of podcasting
+
+52:56.620 --> 53:01.420
+My addiction to podcast will
+have to stop cold turkey for a
+while since I was strong armed
+and my
+
+53:01.420 --> 53:08.140
+iPod was stolen this evening
+while yes, indeed listening to
+your star-bucky and Skype
+adventures on the daily source
+code
+
+53:09.180 --> 53:15.340
+Incidentally says this occurred
+on a quiet street in Residential
+Menlo Park about two miles away
+from the blogger
+
+53:15.420 --> 53:18.620
+on three location at Stanford
+University. This is freaking me
+out
+
+53:22.700 --> 53:26.780
+It goes into explaining exactly
+how this happened. This is will
+by the way
+
+53:28.140 --> 53:31.820
+And it's horrible. He was
+walking along with his iPod
+
+53:32.380 --> 53:36.620
+He said actually a realize later
+must have been following me
+because I was unaware
+
+53:37.820 --> 53:43.900
+And couldn't hear anything over
+the exciting beat of the rockman
+enough, which of course is the
+power of your intellect
+
+53:44.860 --> 53:51.100
+And they basically grabbed the
+iPod ripped you know ripped it
+right off of right off of them
+
+53:51.100 --> 53:56.460
+Kind of ripping the headphones
+out and boom took off with that.
+So, you know
+
+53:57.820 --> 53:59.820
+Menlo Park
+
+54:00.620 --> 54:01.660
+Sox
+
+54:01.660 --> 54:05.100
+Sorry about that dude. I'm
+really sorry. Oh good news
+
+54:05.980 --> 54:11.820
+The new Jay Potter is out. Jay
+Potter is an iPod are variant.
+It's based on Java, so it works
+
+54:12.300 --> 54:15.900
+On anything that will run Java,
+at least that's the promise of
+Java, right?
+
+54:16.460 --> 54:20.380
+Couple of new features in that
+though, and the thing that I
+like the most is
+
+54:22.940 --> 54:24.940
+The vacation switch
+
+54:25.660 --> 54:29.980
+Oh, so I'm just trying to look
+at a different email here. I was
+talking about this
+
+54:31.580 --> 54:35.020
+On the source code. I might even
+post it something about it on on
+my weblog is
+
+54:35.820 --> 54:39.900
+When you have a loss of
+connection for a couple days.
+You could be on vacation or
+
+54:40.460 --> 54:45.420
+Like me you could be without
+bandwidth when you go to start
+you know syncing up with your
+shows
+
+54:45.420 --> 54:49.020
+iPod or is going to bring in
+everything. Every single iPod
+has done this to date
+
+54:49.020 --> 54:54.300
+It'll go and try and bring in
+every single show that that
+you've missed and what we need
+is some more
+
+54:55.260 --> 54:59.100
+Intelligent content management
+and Jay Potter as well as
+
+54:59.820 --> 55:03.420
+What is that the bottom feeder
+something that I found
+
+55:04.140 --> 55:06.140
+Through email
+
+55:06.140 --> 55:09.900
+Actually, it's on Apple's
+website Apple was had a link to
+it
+
+55:10.460 --> 55:12.460
+If then soft.com
+
+55:12.460 --> 55:16.460
+Also has this feature and you
+know, it's it's great to see
+that
+
+55:17.100 --> 55:23.260
+You know, we're we're helping me
+help and a brother out need who
+has like no fucking bandwidth
+
+55:25.660 --> 55:27.900
+What's this in the daily source
+code comment?
+
+55:28.460 --> 55:31.900
+What are we? We're like 55
+minutes shoot. It's gonna be an
+hour long show
+
+55:32.060 --> 55:34.060
+That's for sure. Let's check out
+the comment
+
+55:34.780 --> 55:42.060
+Yeah, this is Kurt from
+Minnesota first off. Thank you
+for podcasting in the daily
+source code
+
+55:42.060 --> 55:45.260
+I really enjoyed listening to it
+well just about every day
+
+55:46.300 --> 55:52.700
+Right now I had downloaded it
+onto my i-book and I'm sitting
+in a car in a parking ramp in
+herndon Virginia
+
+55:53.420 --> 55:56.220
+And what you would talked about
+with regards to
+
+55:56.380 --> 55:59.260
+All nations which I'm like right
+please. Please tell me
+
+55:59.980 --> 56:01.980
+You have your pants on
+
+56:02.700 --> 56:07.420
+Rank true in my situation. I
+have no bandwidth during the day
+and then I've got great
+bandwidth at night
+
+56:08.300 --> 56:13.100
+And I thought would really be
+great as a feature instead of
+having you have a vacation
+switch
+
+56:13.420 --> 56:15.020
+Is have a bandwidth slider
+
+56:15.020 --> 56:22.860
+So you can slide it all over do.
+I've got nothing no net to I've
+got dial up in which case it'll
+prioritize what it downloads up
+to
+
+56:22.940 --> 56:26.300
+I've got my normal full net set
+up so just a thought
+
+56:27.020 --> 56:34.220
+I thought I'd voice it as a as a
+sound file here. I'm using
+garage band for the first time
+and it's kind of an interesting
+experience
+
+56:34.220 --> 56:38.860
+Turning off like the metronome
+and some other things, but
+anyway, it was just my thought
+up for a feature
+
+56:38.860 --> 56:43.420
+I thought that would be more
+useful than something that just
+toggles on and off for vacation
+
+56:43.980 --> 56:50.540
+Anyway again, thanks for daily
+source code and keep at it. It
+sounds great. Yeah, that's a
+good idea
+
+56:50.540 --> 56:53.180
+So that's actually a very good
+interface
+
+56:55.740 --> 57:01.420
+So oh, yeah, just say okay,
+right now I have X bandwidth and
+it's gonna make decisions based
+upon your bandwidth
+
+57:01.420 --> 57:05.820
+What to do that would be really
+cool. I don't know how you set
+it up if that's a
+
+57:06.380 --> 57:11.180
+Pre-determined matrix that we
+come up with or if that's
+something you can you should
+always be able to configure it
+yourself
+
+57:11.180 --> 57:13.180
+But good idea
+
+57:13.180 --> 57:15.180
+very cool very cool
+
+57:15.580 --> 57:19.500
+It's I was like he's sitting in
+this in the parking lot in the
+car
+
+57:19.580 --> 57:25.020
+You know, what is he doing
+there? Is he hijacking someone's
+Wi-Fi or jacking something else?
+
+57:25.820 --> 57:31.260
+You know, we got to get out of
+here. It's almost time it's
+almost an hour for this show and
+and I'm
+
+57:31.260 --> 57:33.820
+I have so much to do well
+tomorrow
+
+57:33.820 --> 57:36.780
+I already have tomorrow show
+almost planned and when I look
+at it this way
+
+57:38.380 --> 57:42.140
+I'm gonna leave you with a
+little piece that was sent to me
+by
+
+57:42.540 --> 57:46.620
+Well, I can't tell you who sent
+it to me because he basically
+broke the wall by sharing this
+with me
+
+57:47.580 --> 57:52.220
+And it's definitely I'm breaking
+the law too. I'm gonna play it
+play it for you. It's a classic
+
+57:53.260 --> 57:58.140
+I'm gonna end the show with this
+so don't wait for the rock money
+off power up your intellect
+
+57:59.100 --> 58:01.500
+I'm just gonna play the last
+minute of this song
+
+58:01.820 --> 58:09.820
+Please listen to the foresight
+that these genius musicians had
+and I what I mean songwriters
+producers musicians
+
+58:10.620 --> 58:15.260
+Genius when they wrote this and
+they recorded this they knew
+that one day
+
+58:15.260 --> 58:19.420
+podcasting would be for ever
+body

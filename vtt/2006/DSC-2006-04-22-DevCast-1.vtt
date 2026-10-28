@@ -1,0 +1,1793 @@
+WEBVTT
+
+00:00.000 --> 00:07.000
+This podcast is brought to you
+by Pancho and GoDaddy.
+
+00:07.000 --> 00:10.000
+Want to hear our content with a
+bad ass domain name?
+
+00:10.000 --> 00:12.000
+This show will give you a
+special code.
+
+00:12.000 --> 00:16.000
+Get great discounts at
+GoDaddy.com.
+
+00:16.000 --> 00:18.000
+Well, hello, everybody.
+
+00:18.000 --> 00:21.000
+Welcome to the very first
+Devcast.
+
+00:21.000 --> 00:23.000
+Which you can find and
+hopefully,
+
+00:23.000 --> 00:26.000
+Did find at
+developers.podshow.com.
+
+00:27.000 --> 00:31.000
+With me, I'm in Gilford in the
+Curry Cottage with me today.
+
+00:31.000 --> 00:33.000
+Joining us via Skype is Andrew
+Grommett,
+
+00:33.000 --> 00:35.000
+who is at Pod Show HQ in San
+Francisco,
+
+00:35.000 --> 00:36.000
+Morning Andrew.
+
+00:36.000 --> 00:38.000
+Good morning, Adam.
+
+00:38.000 --> 00:39.000
+So, here we go, bro.
+
+00:39.000 --> 00:41.000
+We're getting real close now.
+
+00:41.000 --> 00:43.000
+Getting real.
+
+00:43.000 --> 00:46.000
+So, excuse me, I'm eating a
+cheese and grapes.
+
+00:46.000 --> 00:51.000
+Which is a rocket fuel for
+developers in England.
+
+00:51.000 --> 00:53.000
+It's not a diet coke.
+
+00:53.000 --> 00:55.000
+No, no, no, no, no.
+
+00:55.000 --> 00:58.000
+I don't drink diet coke.
+
+00:58.000 --> 01:01.000
+Okay, so here's the concept.
+
+01:01.000 --> 01:05.000
+We want to allow the first
+audience members to come into
+Pod Show
+
+01:05.000 --> 01:09.000
+Plus and, you know, snoop around
+and see what's going on
+
+01:09.000 --> 01:12.000
+and work with the podcast
+delivery network as well.
+
+01:12.000 --> 01:16.000
+And since we have lots of cool
+stuff that we already planning
+for developers,
+
+01:16.000 --> 01:18.000
+we thought it was a logical,
+
+01:18.000 --> 01:20.000
+yeah, really a logical step to
+say,
+
+01:20.000 --> 01:22.000
+well, why don't we let the
+developers in first?
+
+01:22.000 --> 01:24.000
+Who, of course, are fantastic
+listeners.
+
+01:24.000 --> 01:28.000
+Andrew is you and I, or as I
+know, having worked with you.
+
+01:28.000 --> 01:31.000
+I mean, those early days of, of
+podcasting when,
+
+01:31.000 --> 01:35.000
+literally, you know, I'd create
+a show and then you guys would
+adapt your code.
+
+01:35.000 --> 01:37.000
+You know, what was it like from
+your end,
+
+01:37.000 --> 01:41.000
+back in the day, developing
+with, with users who were
+creating podcasts?
+
+01:41.000 --> 01:44.000
+It was pretty amazing.
+
+01:44.000 --> 01:47.000
+The thing, it's, it's, uh,
+
+01:47.000 --> 01:50.000
+when you can build your own code
+and then,
+
+01:50.000 --> 01:54.000
+have that, you know, influence
+your daily life, build the tools
+that are,
+
+01:54.000 --> 01:58.000
+you know, improving your, your
+data day experience.
+
+01:58.000 --> 02:00.000
+That's, that's one of the best
+things you can do,
+
+02:00.000 --> 02:02.000
+I think, uh, as an engineer.
+
+02:02.000 --> 02:05.000
+Maybe just short of building
+stuff for other people,
+
+02:05.000 --> 02:07.000
+which, of course, we were doing
+it the same time.
+
+02:07.000 --> 02:10.000
+But, uh, I do have a great
+memory of the first.
+
+02:10.000 --> 02:11.000
+I don't know if you remember
+this,
+
+02:11.000 --> 02:12.000
+you remember the first.
+
+02:12.000 --> 02:16.000
+I think you played a clip from a
+coverville of the Abba.
+
+02:16.000 --> 02:18.000
+Um, do you remember this?
+
+02:18.000 --> 02:20.000
+They did Abba covers in the
+early days.
+
+02:20.000 --> 02:21.000
+Trying to think, I don't know.
+
+02:21.000 --> 02:25.000
+I just have this incredible
+memory of, of walking down the
+street,
+
+02:25.000 --> 02:28.000
+and listening to this cover of
+an Abba song,
+
+02:28.000 --> 02:31.000
+uh, and thinking, wow, okay,
+we're really onto something
+here.
+
+02:31.000 --> 02:34.000
+Um, yeah.
+
+02:34.000 --> 02:37.000
+Covers of Abba, we've really
+improved the universe.
+
+02:37.000 --> 02:39.000
+Haven't we, Andrew?
+
+02:39.000 --> 02:41.000
+That's great.
+
+02:41.000 --> 02:42.000
+Okay.
+
+02:42.000 --> 02:44.000
+Now, we've had, um,
+
+02:44.000 --> 02:47.000
+developer.podshow.com up for a
+while.
+
+02:47.000 --> 02:50.000
+Um, we actually haven't really
+been able to add much to it.
+
+02:50.000 --> 02:52.000
+Since we haven't really opened
+up yet,
+
+02:52.000 --> 02:54.000
+and I guess, uh, we're working
+to happen here.
+
+02:54.000 --> 02:57.000
+We'll eventually flow over into,
+uh, into that site.
+
+02:57.000 --> 02:58.000
+Yeah, right on.
+
+02:58.000 --> 03:01.000
+That's, uh, where we're
+collecting all of the, uh,
+ideas.
+
+03:01.000 --> 03:03.000
+Right now, of course, it's heavy
+on ideas.
+
+03:03.000 --> 03:06.000
+But, uh, as we release SDKs,
+
+03:06.000 --> 03:11.000
+we will have, um, you know,
+downloads and web visible,
+
+03:11.000 --> 03:15.000
+the HTML documentation for
+everything that we release,
+
+03:15.000 --> 03:17.000
+uh, trying to make it really
+easy.
+
+03:17.000 --> 03:19.000
+Collect code examples, um,
+
+03:19.000 --> 03:21.000
+uh, pointers to, uh,
+
+03:21.000 --> 03:23.000
+people who might have put things
+up on their own sites.
+
+03:23.000 --> 03:25.000
+Just try to make it, uh,
+
+03:25.000 --> 03:27.000
+you know, the place to get
+started,
+
+03:27.000 --> 03:31.000
+if you're a developer and want
+to build something around the
+PDN.
+
+03:31.000 --> 03:32.000
+Right.
+
+03:32.000 --> 03:34.000
+Now, there's, there's really two
+sides.
+
+03:34.000 --> 03:35.000
+There is the PDN.
+
+03:35.000 --> 03:37.000
+The podcast will be network and
+actually, uh,
+
+03:37.000 --> 03:39.000
+there isn't API for that now,
+which, uh,
+
+03:39.000 --> 03:40.000
+is pretty standard.
+
+03:40.000 --> 03:41.000
+I don't think we've published it
+yet,
+
+03:41.000 --> 03:42.000
+and so we can get to it.
+
+03:42.000 --> 03:44.000
+But, uh, we're going to publish
+that
+
+03:44.000 --> 03:47.000
+for these developers as well,
+who will be playing with that?
+
+03:47.000 --> 03:48.000
+Absolutely.
+
+03:48.000 --> 03:49.000
+Yeah.
+
+03:49.000 --> 03:52.000
+So, um, I've actually, uh,
+
+03:52.000 --> 03:55.000
+there's a couple of the recent
+posts sort of hint at where
+we're going,
+
+03:55.000 --> 03:57.000
+and, um, actually, I made you,
+
+03:57.000 --> 03:59.000
+maybe that maybe I should do a
+dev cast to actually talk
+
+03:59.000 --> 04:01.000
+through some of the stuff we,
+uh,
+
+04:01.000 --> 04:03.000
+you know, figure it out, uh,
+
+04:03.000 --> 04:05.000
+doing some of that
+implementation, um,
+
+04:05.000 --> 04:08.000
+uh, as a, you know, a way to,
+
+04:08.000 --> 04:11.000
+test the water and see what
+people's reactions are.
+
+04:11.000 --> 04:13.000
+Uh, before, you know, what
+happens when you commit things,
+
+04:13.000 --> 04:15.000
+too, uh, writing on the web
+suddenly,
+
+04:15.000 --> 04:17.000
+they become stack.
+
+04:17.000 --> 04:18.000
+Yeah.
+
+04:18.000 --> 04:19.000
+Before, you know, even if you
+say,
+
+04:19.000 --> 04:21.000
+even if you say, this is not
+stack,
+
+04:21.000 --> 04:23.000
+so maybe a podcast is the way
+to, uh,
+
+04:23.000 --> 04:26.000
+uh, you know, put some ideas out
+there for feedback.
+
+04:26.000 --> 04:27.000
+Excellent.
+
+04:27.000 --> 04:28.000
+Well, yeah, that would be good,
+
+04:28.000 --> 04:30.000
+and then we'll just include it
+in this feed as well.
+
+04:30.000 --> 04:33.000
+And then we have a pod show
+plus.
+
+04:33.000 --> 04:35.000
+And this is where I think
+there's a lot of exciting stuff
+
+04:35.000 --> 04:36.000
+to be done as well.
+
+04:36.000 --> 04:38.000
+This is really the, the
+experience side.
+
+04:38.000 --> 04:40.000
+This is what we built for the
+audience.
+
+04:40.000 --> 04:42.000
+This is what really is taking
+the most time.
+
+04:43.000 --> 04:44.000
+To really get it right.
+
+04:44.000 --> 04:46.000
+And we have a concept of
+modules.
+
+04:46.000 --> 04:49.000
+You want to get into that a
+little bit and explain what that
+is and,
+
+04:49.000 --> 04:52.000
+and how they work and how the
+developers are mess around with
+them.
+
+04:52.000 --> 04:53.000
+Yeah.
+
+04:53.000 --> 04:54.000
+Absolutely.
+
+04:54.000 --> 04:59.000
+Modules are segments of every
+user and show on the on pod show
+plus
+
+04:59.000 --> 05:00.000
+will have a page.
+
+05:00.000 --> 05:02.000
+We're calling it a profile page
+where you can, you know,
+
+05:02.000 --> 05:04.000
+sort of like a homepage, uh,
+
+05:04.000 --> 05:06.000
+where you can, uh,
+
+05:06.000 --> 05:08.000
+uh, view information, uh,
+
+05:08.000 --> 05:10.000
+about a person or a show.
+
+05:11.000 --> 05:13.000
+And the person or the, you know,
+
+05:13.000 --> 05:14.000
+if it's a show maintainer,
+
+05:14.000 --> 05:16.000
+they arrange content on that
+page,
+
+05:16.000 --> 05:18.000
+sort of like a blog page,
+
+05:18.000 --> 05:20.000
+um, or a sort of a my,
+
+05:20.000 --> 05:21.000
+you know,
+
+05:21.000 --> 05:22.000
+Yahoo type page.
+
+05:22.000 --> 05:25.000
+And what we'll be doing with
+modules is,
+
+05:25.000 --> 05:26.000
+um,
+
+05:26.000 --> 05:30.000
+modules just our name for
+different areas on the page,
+
+05:30.000 --> 05:31.000
+um,
+
+05:31.000 --> 05:35.000
+that you can fill with flicker
+feeds or,
+
+05:35.000 --> 05:37.000
+you know, any RSS feed or,
+
+05:37.000 --> 05:38.000
+yeah,
+
+05:38.000 --> 05:40.000
+who weather or, um,
+
+05:40.000 --> 05:41.000
+you know,
+
+05:41.000 --> 05:42.000
+recent shows from the,
+
+05:42.000 --> 05:43.000
+uh,
+
+05:43.000 --> 05:44.000
+I'm sorry,
+
+05:44.000 --> 05:45.000
+recent, uh,
+
+05:45.000 --> 05:47.000
+additions to the pod safe music
+network.
+
+05:47.000 --> 05:51.000
+So we've come up with a handful
+of modules,
+
+05:51.000 --> 05:53.000
+uh, for people to put on their
+pages.
+
+05:53.000 --> 05:55.000
+And what we'll be doing is
+opening an up,
+
+05:55.000 --> 05:58.000
+up in SDK that lets developers
+create,
+
+05:58.000 --> 06:02.000
+uh, new modules that people can
+put on their pages.
+
+06:02.000 --> 06:03.000
+So, uh,
+
+06:03.000 --> 06:04.000
+that, you know,
+
+06:04.000 --> 06:07.000
+within kind of reasonable limits
+of security and,
+
+06:07.000 --> 06:08.000
+and machine, you know,
+
+06:08.000 --> 06:09.000
+resource use,
+
+06:09.000 --> 06:13.000
+you'll be able to put pretty
+much anything on your page that
+you want.
+
+06:13.000 --> 06:14.000
+So, uh,
+
+06:14.000 --> 06:15.000
+we'll make it, uh,
+
+06:15.000 --> 06:16.000
+you know,
+
+06:16.000 --> 06:17.000
+you know,
+
+06:17.000 --> 06:18.000
+let a thousand flowers bloom,
+
+06:18.000 --> 06:19.000
+as they say,
+
+06:19.000 --> 06:20.000
+you know,
+
+06:20.000 --> 06:21.000
+let's see what people come up
+with.
+
+06:21.000 --> 06:22.000
+Yeah, we will actually have,
+
+06:22.000 --> 06:23.000
+uh,
+
+06:23.000 --> 06:24.000
+almost a user version of that,
+
+06:24.000 --> 06:25.000
+which, of course,
+
+06:25.000 --> 06:26.000
+a module that eats HTML.
+
+06:26.000 --> 06:27.000
+You can, you know,
+
+06:27.000 --> 06:28.000
+jam any HTML in there,
+
+06:28.000 --> 06:30.000
+which users have gotten pretty
+good at.
+
+06:30.000 --> 06:33.000
+And you'll be able to put that
+on your page as well.
+
+06:33.000 --> 06:34.000
+So, it's,
+
+06:34.000 --> 06:35.000
+it's kind of hard to explain.
+
+06:35.000 --> 06:36.000
+So, that's why, you know,
+
+06:36.000 --> 06:39.000
+I'm happy that now people are
+going to be able to come in and
+take a look at it.
+
+06:39.000 --> 06:40.000
+Um,
+
+06:40.000 --> 06:42.000
+how are we actually going to
+manage the,
+
+06:42.000 --> 06:43.000
+uh, this development process,
+
+06:43.000 --> 06:44.000
+Andrew, I mean,
+
+06:44.000 --> 06:45.000
+who do people talk to,
+
+06:45.000 --> 06:46.000
+uh,
+
+06:46.000 --> 06:47.000
+I know we don't,
+
+06:47.000 --> 06:49.000
+we don't have everything set up
+yet with URLs,
+
+06:49.000 --> 06:50.000
+etc.
+
+06:50.000 --> 06:51.000
+Obviously,
+
+06:51.000 --> 06:52.000
+um,
+
+06:52.000 --> 06:54.000
+we're not going to give them out
+on the public podcast.
+
+06:54.000 --> 06:55.000
+How,
+
+06:55.000 --> 06:56.000
+how will the feedback loop work,
+
+06:56.000 --> 06:58.000
+is it going to be a CVS,
+
+06:58.000 --> 06:59.000
+or what,
+
+06:59.000 --> 07:00.000
+what have you set up for all
+that?
+
+07:00.000 --> 07:01.000
+Yeah,
+
+07:01.000 --> 07:02.000
+we're looking at,
+
+07:02.000 --> 07:03.000
+actually right now,
+
+07:03.000 --> 07:04.000
+we're looking at,
+
+07:04.000 --> 07:05.000
+uh,
+
+07:05.000 --> 07:06.000
+using a source forage project.
+
+07:06.000 --> 07:07.000
+Um,
+
+07:07.000 --> 07:08.000
+we've talked internally about,
+
+07:08.000 --> 07:09.000
+uh,
+
+07:09.000 --> 07:10.000
+you know,
+
+07:10.000 --> 07:11.000
+managing the CVS ourselves,
+
+07:11.000 --> 07:12.000
+but, um,
+
+07:12.000 --> 07:13.000
+I think,
+
+07:13.000 --> 07:14.000
+there's sort of,
+
+07:14.000 --> 07:15.000
+this is a well understood,
+
+07:15.000 --> 07:16.000
+you know,
+
+07:16.000 --> 07:18.000
+problem set as long as people
+are developing open source
+stuff.
+
+07:18.000 --> 07:19.000
+We,
+
+07:19.000 --> 07:20.000
+there's plenty of tools out
+there,
+
+07:20.000 --> 07:21.000
+uh,
+
+07:21.000 --> 07:22.000
+that we can,
+
+07:22.000 --> 07:23.000
+you know,
+
+07:23.000 --> 07:24.000
+so we can use for,
+
+07:24.000 --> 07:25.000
+uh,
+
+07:25.000 --> 07:26.000
+saving people's code.
+
+07:26.000 --> 07:27.000
+I mean,
+
+07:27.000 --> 07:28.000
+the key thing is just that,
+
+07:28.000 --> 07:29.000
+you know,
+
+07:29.000 --> 07:31.000
+and there's a place to point to
+it,
+
+07:31.000 --> 07:33.000
+and stuff doesn't fall through
+the cracks.
+
+07:33.000 --> 07:34.000
+Um,
+
+07:34.000 --> 07:35.000
+but,
+
+07:35.000 --> 07:36.000
+K1 and myself,
+
+07:36.000 --> 07:37.000
+Kevin Strausky,
+
+07:37.000 --> 07:38.000
+will be,
+
+07:38.000 --> 07:39.000
+in the points of contact.
+
+07:39.000 --> 07:41.000
+We actually have a,
+
+07:41.000 --> 07:42.000
+a little used currently,
+
+07:42.000 --> 07:43.000
+uh,
+
+07:43.000 --> 07:44.000
+Gmail address,
+
+07:44.000 --> 07:45.000
+uh,
+
+07:45.000 --> 07:46.000
+podshow developer at Gmail.com.
+
+07:46.000 --> 07:47.000
+So we'll either use that or,
+
+07:47.000 --> 07:49.000
+or whatever tools are available
+on,
+
+07:49.000 --> 07:50.000
+say source forage,
+
+07:50.000 --> 07:51.000
+or,
+
+07:51.000 --> 07:52.000
+you know,
+
+07:52.000 --> 07:53.000
+wherever we host it.
+
+07:53.000 --> 07:54.000
+So now it,
+
+07:54.000 --> 07:55.000
+it being on source force.
+
+07:55.000 --> 07:56.000
+That means we can keep it close.
+
+07:56.000 --> 07:58.000
+We can keep it password
+protected.
+
+07:58.000 --> 07:59.000
+Well,
+
+07:59.000 --> 08:00.000
+that's a good point.
+
+08:00.000 --> 08:01.000
+Uh,
+
+08:01.000 --> 08:02.000
+source forage is,
+
+08:02.000 --> 08:03.000
+is for open source,
+
+08:03.000 --> 08:04.000
+um,
+
+08:04.000 --> 08:05.000
+you know,
+
+08:05.000 --> 08:06.000
+code,
+
+08:06.000 --> 08:07.000
+which I don't actually,
+
+08:07.000 --> 08:08.000
+that's a good question.
+
+08:08.000 --> 08:09.000
+I don't think we've,
+
+08:09.000 --> 08:10.000
+um,
+
+08:10.000 --> 08:11.000
+technically if it's running on
+our servers,
+
+08:11.000 --> 08:12.000
+we could keep it closed.
+
+08:12.000 --> 08:13.000
+But if you mean,
+
+08:13.000 --> 08:14.000
+you know,
+
+08:14.000 --> 08:15.000
+we need a password,
+
+08:15.000 --> 08:16.000
+you know,
+
+08:16.000 --> 08:17.000
+in order to commit code,
+
+08:17.000 --> 08:18.000
+sure that's how source forage
+works.
+
+08:18.000 --> 08:19.000
+Um,
+
+08:19.000 --> 08:21.000
+but the code itself up there
+would be out in the open.
+
+08:21.000 --> 08:22.000
+Okay.
+
+08:22.000 --> 08:23.000
+Well,
+
+08:23.000 --> 08:24.000
+that's,
+
+08:24.000 --> 08:25.000
+that's not,
+
+08:25.000 --> 08:27.000
+that's not an issue.
+
+08:27.000 --> 08:28.000
+Well,
+
+08:28.000 --> 08:29.000
+and I think probably,
+
+08:29.000 --> 08:30.000
+um,
+
+08:30.000 --> 08:33.000
+and so we're going to issue
+golden tickets on these dev
+cast.
+
+08:33.000 --> 08:35.000
+So it could be that you'd hear
+in this show,
+
+08:35.000 --> 08:36.000
+could be in the next show,
+
+08:36.000 --> 08:37.000
+could be the one after that.
+
+08:37.000 --> 08:38.000
+But really,
+
+08:38.000 --> 08:40.000
+the intention is to get all the
+developer's in,
+
+08:40.000 --> 08:41.000
+but instead of having,
+
+08:41.000 --> 08:42.000
+you know,
+
+08:42.000 --> 08:43.000
+a couple hundred show up in,
+
+08:43.000 --> 08:44.000
+in one day,
+
+08:44.000 --> 08:45.000
+we're going to stagger it.
+
+08:45.000 --> 08:47.000
+So you'll hear in one of these
+dev cast,
+
+08:47.000 --> 08:49.000
+you'll hear instructions on
+where to go.
+
+08:49.000 --> 08:50.000
+And I'm thinking that that makes
+sense,
+
+08:50.000 --> 08:52.000
+that we give instructions,
+
+08:52.000 --> 08:54.000
+or maybe there's a pre
+registered,
+
+08:54.000 --> 08:55.000
+um,
+
+08:55.000 --> 08:56.000
+that's a good,
+
+08:56.000 --> 08:57.000
+that's an interesting one.
+
+08:57.000 --> 08:58.000
+We can give more.
+
+08:58.000 --> 09:00.000
+We're also going to have a wiki
+else that I mentioned,
+
+09:00.000 --> 09:03.000
+as a place for information,
+
+09:03.000 --> 09:05.000
+and putting up code samples.
+
+09:05.000 --> 09:07.000
+Yeah, my favorite technology.
+
+09:07.000 --> 09:10.000
+Okay.
+
+09:10.000 --> 09:12.000
+So instructions,
+
+09:12.000 --> 09:15.000
+how to get into this particular
+developer program,
+
+09:15.000 --> 09:18.000
+we'll be included in the golden
+ticket.
+
+09:18.000 --> 09:19.000
+And of course,
+
+09:19.000 --> 09:20.000
+over the course of the next,
+
+09:20.000 --> 09:21.000
+I don't know,
+
+09:21.000 --> 09:22.000
+we'll probably do five of these,
+
+09:22.000 --> 09:24.000
+and then as they go along as you
+and Kevin and other people have
+stuff to say,
+
+09:25.000 --> 09:26.000
+we'll just do more,
+
+09:26.000 --> 09:27.000
+which I think is kind of cool
+
+09:27.000 --> 09:29.000
+if we have the audio feedback
+portion
+
+09:29.000 --> 09:30.000
+to what's going on,
+
+09:30.000 --> 09:32.000
+then eventually everyone will
+get in.
+
+09:32.000 --> 09:34.000
+Just so everyone is clear on the
+intent there.
+
+09:34.000 --> 09:35.000
+Oh, I see.
+
+09:35.000 --> 09:36.000
+Okay, right.
+
+09:36.000 --> 09:38.000
+And Andrew,
+
+09:38.000 --> 09:39.000
+by the way,
+
+09:39.000 --> 09:40.000
+is the guy behind D-gap?
+
+09:40.000 --> 09:42.000
+We can actually do this, right?
+
+09:42.000 --> 09:44.000
+Oh, yeah, absolutely.
+
+09:44.000 --> 09:46.000
+So, well,
+
+09:46.000 --> 09:47.000
+do you want me to talk about
+that?
+
+09:47.000 --> 09:48.000
+Yeah, absolutely.
+
+09:48.000 --> 09:50.000
+This is my favorite,
+
+09:50.000 --> 09:51.000
+favorite stuff that we built.
+
+09:51.000 --> 09:52.000
+This is cool.
+
+09:52.000 --> 09:54.000
+Okay, so with D-gap,
+
+09:54.000 --> 09:59.000
+we basically have a system where
+you can set up a flag that says,
+
+09:59.000 --> 10:00.000
+you know,
+
+10:00.000 --> 10:04.000
+the next episode that comes
+through on show X,
+
+10:04.000 --> 10:05.000
+you know,
+
+10:05.000 --> 10:07.000
+should be flagged to get an
+insertion.
+
+10:07.000 --> 10:08.000
+And then there's a pointer to,
+
+10:08.000 --> 10:09.000
+you know,
+
+10:09.000 --> 10:11.000
+the file that will be inserted.
+
+10:11.000 --> 10:13.000
+And as you recall,
+
+10:13.000 --> 10:17.000
+we'd come up with a convention
+for passing the information into
+the system about,
+
+10:17.000 --> 10:20.000
+where in the middle of the cast,
+
+10:20.000 --> 10:23.000
+the insertion should be made and
+with what probability, right?
+
+10:23.000 --> 10:26.000
+This was the coin toss idea with
+each downloader.
+
+10:26.000 --> 10:29.000
+We pick a random number and,
+
+10:29.000 --> 10:32.000
+you know, subject to some
+probability,
+
+10:32.000 --> 10:35.000
+decide whether that user will
+get a goal to take it.
+
+10:35.000 --> 10:36.000
+And then if they do,
+
+10:36.000 --> 10:38.000
+we bump the counter and,
+
+10:38.000 --> 10:39.000
+and, you know,
+
+10:39.000 --> 10:43.000
+check to make sure that we're
+only serving these golden
+tickets up to a certain point.
+
+10:43.000 --> 10:44.000
+And after that,
+
+10:44.000 --> 10:45.000
+we don't serve anymore.
+
+10:45.000 --> 10:47.000
+So we're eventually going to
+open up an API for that as well.
+
+10:47.000 --> 10:48.000
+I would presume.
+
+10:49.000 --> 10:51.000
+We definitely can, right?
+
+10:51.000 --> 10:53.000
+It, uh,
+
+10:53.000 --> 10:54.000
+excuse me,
+
+10:54.000 --> 10:55.000
+but all I'm saying all,
+
+10:55.000 --> 10:56.000
+yeah,
+
+10:56.000 --> 10:57.000
+I had my own,
+
+10:57.000 --> 10:58.000
+you know,
+
+10:58.000 --> 10:59.000
+I was thinking about that.
+
+10:59.000 --> 11:00.000
+You know,
+
+11:00.000 --> 11:01.000
+we're not,
+
+11:01.000 --> 11:02.000
+we need to get this in sale.
+
+11:02.000 --> 11:03.000
+Love here over HQ.
+
+11:03.000 --> 11:04.000
+Really.
+
+11:04.000 --> 11:06.000
+Um,
+
+11:06.000 --> 11:07.000
+uh,
+
+11:07.000 --> 11:09.000
+so we can APIize that
+absolutely.
+
+11:09.000 --> 11:10.000
+Um,
+
+11:10.000 --> 11:12.000
+I think the sky's the limit,
+really.
+
+11:12.000 --> 11:13.000
+Cool.
+
+11:13.000 --> 11:14.000
+We have to,
+
+11:14.000 --> 11:15.000
+you know,
+
+11:15.000 --> 11:16.000
+figure out what people like and,
+
+11:16.000 --> 11:17.000
+you know,
+
+11:18.000 --> 11:19.000
+okay.
+
+11:19.000 --> 11:20.000
+Um,
+
+11:20.000 --> 11:23.000
+just,
+
+11:23.000 --> 11:24.000
+oh, yeah,
+
+11:24.000 --> 11:26.000
+I wanted to touch briefly on,
+
+11:26.000 --> 11:27.000
+because I,
+
+11:27.000 --> 11:28.000
+in the source code,
+
+11:28.000 --> 11:29.000
+I said that,
+
+11:29.000 --> 11:30.000
+really,
+
+11:30.000 --> 11:32.000
+the only skills you need are
+knowledge of HTML,
+
+11:32.000 --> 11:33.000
+PHP.
+
+11:33.000 --> 11:35.000
+Am I correct in that assumption?
+
+11:35.000 --> 11:37.000
+It doesn't seem like there's
+much more there, is there?
+
+11:37.000 --> 11:38.000
+Yeah.
+
+11:38.000 --> 11:39.000
+It's, uh,
+
+11:39.000 --> 11:40.000
+there's actually,
+
+11:40.000 --> 11:41.000
+a sort of build-up function that
+will set up a skeleton for you
+as well.
+
+11:41.000 --> 11:43.000
+So you don't even have to know
+the file structure,
+
+11:43.000 --> 11:44.000
+all that deeply.
+
+11:44.000 --> 11:45.000
+Um,
+
+11:45.000 --> 11:47.000
+but you give it a name for your
+module.
+
+11:47.000 --> 11:48.000
+And, uh,
+
+11:48.000 --> 11:49.000
+it's sort of what the,
+
+11:49.000 --> 11:50.000
+you know, a gentle slope.
+
+11:50.000 --> 11:51.000
+You can just put in some,
+
+11:51.000 --> 11:54.000
+some static text and you're
+often running,
+
+11:54.000 --> 11:55.000
+uh,
+
+11:55.000 --> 11:57.000
+but what we'll do is we'll
+provide docs on,
+
+11:57.000 --> 11:58.000
+you know,
+
+11:58.000 --> 12:01.000
+how to get deeper and create
+custom variables and so forth.
+
+12:01.000 --> 12:02.000
+Excellent.
+
+12:02.000 --> 12:03.000
+So yeah,
+
+12:03.000 --> 12:04.000
+I don't think we,
+
+12:04.000 --> 12:07.000
+we're not going to require any
+sequel programming or anything
+like that.
+
+12:07.000 --> 12:08.000
+Okay.
+
+12:08.000 --> 12:10.000
+Good, because then I can't
+participate.
+
+12:10.000 --> 12:13.000
+I want to get in there and mess
+around and screw some shit up.
+
+12:14.000 --> 12:16.000
+I know just enough to be really
+dangerous.
+
+12:16.000 --> 12:17.000
+I was going to say,
+
+12:17.000 --> 12:18.000
+can you, you know,
+
+12:18.000 --> 12:19.000
+tunnel out your,
+
+12:19.000 --> 12:21.000
+your second life identity
+somehow.
+
+12:21.000 --> 12:22.000
+Dude,
+
+12:22.000 --> 12:24.000
+that stuff is outrageous.
+
+12:24.000 --> 12:25.000
+Have you been,
+
+12:25.000 --> 12:26.000
+but tried second life?
+
+12:26.000 --> 12:27.000
+I haven't.
+
+12:27.000 --> 12:28.000
+I'm scared of it.
+
+12:28.000 --> 12:29.000
+If I do it,
+
+12:29.000 --> 12:30.000
+that'll be it.
+
+12:30.000 --> 12:31.000
+It'll eat your time.
+
+12:31.000 --> 12:33.000
+It takes away your life.
+
+12:33.000 --> 12:34.000
+It, it,
+
+12:34.000 --> 12:35.000
+it becomes first life almost.
+
+12:35.000 --> 12:36.000
+It's amazing.
+
+12:36.000 --> 12:37.000
+I've already,
+
+12:37.000 --> 12:38.000
+um,
+
+12:38.000 --> 12:39.000
+someone already gave me a,
+
+12:39.000 --> 12:40.000
+um, a penis.
+
+12:40.000 --> 12:42.000
+So I can use that now and all
+the,
+
+12:42.000 --> 12:43.000
+you know,
+
+12:43.000 --> 12:44.000
+the sex area is,
+
+12:44.000 --> 12:45.000
+it's crazy.
+
+12:45.000 --> 12:46.000
+It's like,
+
+12:46.000 --> 12:47.000
+it's really nice.
+
+12:47.000 --> 12:48.000
+What did I hear that they're,
+
+12:48.000 --> 12:49.000
+they're prostitutes now?
+
+12:49.000 --> 12:50.000
+Oh, yeah.
+
+12:50.000 --> 12:51.000
+Excuse me.
+
+12:51.000 --> 12:52.000
+Escorts Andrew.
+
+12:52.000 --> 12:53.000
+Escorts.
+
+12:53.000 --> 12:54.000
+Oh, sorry.
+
+12:54.000 --> 12:55.000
+All right.
+
+12:55.000 --> 12:56.000
+All right.
+
+12:56.000 --> 12:57.000
+Good man.
+
+12:57.000 --> 12:58.000
+So let's leave it at this.
+
+12:58.000 --> 12:59.000
+And tomorrow,
+
+12:59.000 --> 13:01.000
+I think I'll connect with,
+
+13:01.000 --> 13:02.000
+uh,
+
+13:02.000 --> 13:03.000
+with Kevin and, uh,
+
+13:03.000 --> 13:04.000
+who walk us through,
+
+13:04.000 --> 13:05.000
+uh,
+
+13:05.000 --> 13:06.000
+some more of the module stuff.
+
+13:06.000 --> 13:07.000
+And as of tomorrow,
+
+13:07.000 --> 13:08.000
+um,
+
+13:08.000 --> 13:09.000
+hopefully we'll have it all set
+up so that we can,
+
+13:09.000 --> 13:10.000
+uh,
+
+13:10.000 --> 13:11.000
+and so this is this first one.
+
+13:11.000 --> 13:12.000
+I'll just make sure that,
+
+13:12.000 --> 13:13.000
+uh,
+
+13:13.000 --> 13:14.000
+everyone is receiving it that,
+
+13:14.000 --> 13:15.000
+uh,
+
+13:15.000 --> 13:16.000
+we've got,
+
+13:16.000 --> 13:17.000
+uh,
+
+13:17.000 --> 13:18.000
+everyone is hooked up and
+subscribed.
+
+13:18.000 --> 13:19.000
+I think this probably going to
+be about,
+
+13:19.000 --> 13:21.000
+30 to 40 people who will,
+
+13:21.000 --> 13:23.000
+who are subscribed already.
+
+13:23.000 --> 13:24.000
+I mean,
+
+13:24.000 --> 13:25.000
+it's, uh,
+
+13:25.000 --> 13:26.000
+excellent.
+
+13:26.000 --> 13:27.000
+Yeah.
+
+13:27.000 --> 13:28.000
+Now I'm looking forward to this.
+
+13:28.000 --> 13:29.000
+Because there's a lot of
+excitement on,
+
+13:29.000 --> 13:30.000
+on the,
+
+13:30.000 --> 13:31.000
+on the,
+
+13:31.000 --> 13:32.000
+on the first post,
+
+13:32.000 --> 13:34.000
+mainly because people are just
+waiting and waiting
+
+13:34.000 --> 13:37.000
+and waiting for me to get my ass
+in care and get this stuff up.
+
+13:37.000 --> 13:38.000
+All right,
+
+13:38.000 --> 13:39.000
+um,
+
+13:39.000 --> 13:41.000
+what's up for you today at HQ?
+
+13:41.000 --> 13:42.000
+And well,
+
+13:42.000 --> 13:43.000
+uh,
+
+13:43.000 --> 13:44.000
+I've just about got the,
+
+13:44.000 --> 13:45.000
+the wiki set up.
+
+13:45.000 --> 13:47.000
+I think I was mentioning that
+the,
+
+13:47.000 --> 13:48.000
+um,
+
+13:48.000 --> 13:49.000
+so this will be uh,
+
+13:49.000 --> 13:50.000
+tied in with the pdn,
+
+13:50.000 --> 13:52.000
+so that the login will carry
+over and,
+
+13:52.000 --> 13:53.000
+um,
+
+13:53.000 --> 13:55.000
+uh,
+
+13:55.000 --> 13:56.000
+uh,
+
+13:56.000 --> 13:57.000
+uh,
+
+13:57.000 --> 13:58.000
+got a call with a big,
+
+13:58.000 --> 13:59.000
+uh,
+
+13:59.000 --> 14:01.000
+unnamed company coming up here
+in about a half an hour
+
+14:01.000 --> 14:03.000
+to talk about some joint
+projects.
+
+14:03.000 --> 14:04.000
+And,
+
+14:04.000 --> 14:05.000
+uh,
+
+14:05.000 --> 14:06.000
+uh,
+
+14:06.000 --> 14:07.000
+yeah.
+
+14:07.000 --> 14:08.000
+So we'll keep,
+
+14:08.000 --> 14:09.000
+better as well.
+
+14:09.000 --> 14:10.000
+Keep em busy.
+
+14:10.000 --> 14:11.000
+All right, man,
+
+14:11.000 --> 14:12.000
+fantastic.
+
+14:12.000 --> 14:13.000
+Um,
+
+14:13.000 --> 14:14.000
+well,
+
+14:14.000 --> 14:15.000
+that's it for dev cast number
+one.
+
+14:15.000 --> 14:17.000
+Be on the lookout for dev cast
+number two by tomorrow.
+
+14:17.000 --> 14:18.000
+And of course,
+
+14:18.000 --> 14:19.000
+uh,
+
+14:19.000 --> 14:20.000
+be on the lookout for your
+golden ticket.
+
+14:20.000 --> 14:21.000
+Andrew,
+
+14:21.000 --> 14:22.000
+thank you very much,
+
+14:22.000 --> 14:23.000
+man.
+
+14:23.000 --> 14:24.000
+I'll talk to you later in the
+week.
+
+14:24.000 --> 14:25.000
+All righty.
+
+14:25.000 --> 14:28.000
+Get this podcast and we're great
+ones like it.
+
+14:28.000 --> 14:30.000
+On the high performance podcast,
+
+14:30.000 --> 14:33.000
+delivery network from podjo and
+line white networks.
+
+14:33.000 --> 14:35.000
+I love it.

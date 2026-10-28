@@ -1,0 +1,2545 @@
+WEBVTT
+
+00:00.000 --> 00:07.640
+Well, good morning everybody
+from Seattle, Washington in the
+north-western part of the
+
+00:07.640 --> 00:08.640
+United States.
+
+00:08.640 --> 00:10.080
+Welcome to the Daily Source
+Code.
+
+00:10.080 --> 00:13.240
+Today is June 23rd, 2005.
+
+00:13.240 --> 00:18.960
+It is 1120 in the morning here
+in Seattle, which I have this
+great watch I told you about
+
+00:18.960 --> 00:26.280
+the Patricia Bach for me, which
+means it's 220 in New York and
+720 in the United Kingdom,
+
+00:26.280 --> 00:28.080
+820 in the rest of Europe.
+
+00:28.160 --> 00:30.440
+Now that you know that I'm your
+world clock, welcome.
+
+00:30.440 --> 00:32.120
+I am really excited.
+
+00:32.120 --> 00:35.320
+Excuse me, I just opened the
+windows here.
+
+00:35.320 --> 00:40.920
+Got in last night, Flu Direct,
+we're not direct on force, and
+the Flu from London to
+
+00:40.920 --> 00:47.640
+to Seattle via Chicago, which
+made for a very interesting
+flight.
+
+00:47.640 --> 00:54.840
+Was nice about it, it was United
+Airlines, and United Airlines on
+Channel 9 has, if it's
+
+00:54.840 --> 01:00.440
+gone, and usually you can listen
+to the cockpit and listen
+basically to the communications
+
+01:00.440 --> 01:05.960
+between air traffic control and
+all aircraft, including the one
+you're on, and also aircraft
+
+01:05.960 --> 01:12.240
+to aircraft communications, and
+that was actually funny because
+I was pretty tired and we
+
+01:12.240 --> 01:19.600
+left like one PM, and I liked
+you know, down one glass of
+champagne, which of course they
+
+01:19.600 --> 01:23.600
+always hand you in a little
+plastic cups, and then I fall
+asleep just about as the engines
+
+01:23.680 --> 01:28.360
+are revving up on the runway,
+and I had my headphones on,
+actually my ear buds, my
+
+01:28.360 --> 01:33.640
+Sony in earphones, listening to
+Channel 9, so I knew it was
+going on, I could hear about
+
+01:33.640 --> 01:38.960
+all the bad weather in New York,
+and I actually woke up two hours
+later because something
+
+01:38.960 --> 01:44.160
+some instinct in me said, oh
+wow, hold on, I'm not hearing
+anything else, and I'm hearing
+
+01:44.160 --> 01:48.680
+the radio, and of course we were
+over the, over the ocean at that
+point, so it was logical
+
+01:48.680 --> 01:52.600
+that there was a lot of air
+communication going on.
+
+01:52.600 --> 01:57.880
+But here for Numbdix, which
+today it's seven o'clock as
+registration, a little
+pre-party,
+
+01:57.880 --> 02:03.880
+and then Friday and Saturday is
+the big, well it turns out it's
+going to be quite a big
+
+02:03.880 --> 02:07.680
+conference, I don't think it's
+actually, I don't think it's a,
+I don't know how many attendees
+
+02:07.680 --> 02:11.760
+there are, I don't think it's
+really big, it's been sold out,
+they actually had to get
+
+02:11.760 --> 02:16.240
+another room to be able to
+handle some of the overflow and
+be able to let more people
+
+02:16.240 --> 02:21.400
+into the conference, but I feel
+that we're at a tipping point,
+and really the million
+
+02:21.400 --> 02:26.160
+listener March has begun, and
+we're going to see a lot of
+announcements coming out,
+
+02:26.160 --> 02:32.560
+some of them already happening
+today, which just made me so
+incredibly happy because we're
+
+02:32.560 --> 02:39.280
+at this tipping point that I've
+been working towards my entire
+life, or most of my, certainly
+
+02:39.280 --> 02:45.440
+all of my adult life, where the
+listeners are coming, and this
+is something that we've
+
+02:45.520 --> 02:50.640
+talked about before on the
+source code, and Ron and I have
+talked about it in our strategy
+
+02:50.640 --> 02:56.720
+cast, it's all about getting the
+listeners in, that is step one.
+Oh, but actually there's
+
+02:56.720 --> 03:03.040
+something much more important
+than I'm excited about,
+congratulations to our
+operations officer
+
+03:03.040 --> 03:08.720
+Brian Longus, a pod show, his
+lovely wife Jennifer, their twin
+boys, because they have another
+
+03:08.800 --> 03:16.080
+addition to the family, Mason
+Andrew Longus was born
+yesterday, eight and a half
+pounds,
+
+03:16.080 --> 03:22.800
+woohoo, for Jennifer, Lociento
+is what Brian will be saying,
+fantastic, couldn't be happier
+for
+
+03:22.800 --> 03:29.440
+you guys, that's great news, so
+our pod show family has been
+expanded by one in just
+overnight,
+
+03:29.440 --> 03:37.200
+so that is really one of the
+most exciting things. In order
+to understand why I'm so excited
+about
+
+03:38.160 --> 03:43.920
+what is happening right now, I
+think I should go back a little
+bit and just tell you a bit
+
+03:43.920 --> 03:50.480
+about myself, which I don't
+think I've really done the whole
+story in chronological order on
+the source
+
+03:50.480 --> 04:01.120
+code, but I've been a
+broadcaster all my life, it's
+funny, it's a day-winder,
+throughout a
+
+04:01.120 --> 04:06.400
+comment on his web blog a couple
+weeks ago, you know, Adam's just
+a DJ. Well, in many ways,
+
+04:06.400 --> 04:14.720
+I am just a just a DJ, but my
+experience in radio and
+broadcasting goes back much,
+much further,
+
+04:14.720 --> 04:20.080
+and I want to talk a little bit
+about that so you can understand
+why I'm so excited about
+
+04:20.080 --> 04:24.160
+what is happening right now, and
+what the reasons are for the
+excitement, because there's a
+
+04:24.160 --> 04:28.240
+whole bunch of things just
+happening in succession, boom,
+boom, boom, one after the other
+is,
+
+04:28.400 --> 04:33.920
+just stuff is just spitting out
+right now. When I was, well,
+first of all, I've always been
+into
+
+04:35.200 --> 04:44.240
+into sound, and when I was six
+years old, I can recall two
+things from my, from my past,
+
+04:44.240 --> 04:49.600
+I'm just loading something up
+here, I want to share with you
+in a minute, and there's
+actually
+
+04:49.680 --> 04:57.920
+a picture somewhere of me
+sitting in my parents' closet,
+and I'd found an old
+real-to-real
+
+04:57.920 --> 05:02.480
+recorder, and I don't think it
+actually worked, but I was
+sitting there with a microphone,
+
+05:03.520 --> 05:08.400
+just in the closet with the
+doors open sitting in between
+clothes that are hanging up and
+playing
+
+05:08.400 --> 05:15.600
+with this real-to-real recorder.
+And I also remember there was a
+kid on my blog, he was 13,
+
+05:15.600 --> 05:20.640
+I think I was seven, and this
+was when you're still living in
+the States, and he had a
+miniature,
+
+05:20.640 --> 05:26.640
+it was a red plastic
+real-to-real recorder. These,
+these reels were no more than
+dollar
+
+05:26.640 --> 05:34.160
+pancake size, really, and
+actually you could turn it on,
+you could record your voice,
+
+05:34.160 --> 05:37.600
+you could then rewind it and
+listen back to it. And that was
+the first time I heard my own
+voice
+
+05:37.600 --> 05:42.080
+on tape, and I'm sure that
+anyone who's heard their own
+voice played back from recording
+
+05:42.080 --> 05:45.760
+for the first time is always
+like kind of freaked out,
+because like, wow, I sound like
+that,
+
+05:45.760 --> 05:49.360
+I sound like a girl, which of
+course at the time I'm sure I
+did sound like, because I was
+just a
+
+05:49.360 --> 05:55.840
+little, little take. I actually
+remember saving up four weeks'
+worth of allowance to buy this
+tape
+
+05:55.840 --> 06:03.200
+recorder off of this kid, and it
+was a messed up little machine,
+because the batteries that would
+pop
+
+06:03.200 --> 06:07.200
+out, and if they popped out, it
+was almost impossible to get it
+to work properly again, so I had
+to go
+
+06:07.200 --> 06:12.080
+back to him five or six times,
+until he got fed up with me, and
+then he wouldn't help me any
+more,
+
+06:12.080 --> 06:17.680
+with fixing it. But after that
+we moved to the Netherlands
+pretty quickly, so the tape
+recorder
+
+06:17.680 --> 06:21.600
+got lost somewhere in the mix.
+By the way, I'm pacing around
+the room, this is what I like to
+do
+
+06:21.600 --> 06:26.160
+when I'm just yapping away, and
+this is going to be pretty much
+just a talk source code.
+
+06:27.200 --> 06:31.840
+So we moved to the Netherlands,
+the Netherlands up until the
+1990s, so the Netherlands,
+
+06:31.840 --> 06:35.440
+you know, Amsterdam, we lived
+right underneath Amsterdam about
+10 miles south.
+
+06:36.400 --> 06:43.760
+Up until the 1990s, the
+Netherlands had government or
+state run radio and television,
+
+06:45.040 --> 06:52.400
+which is not easy to conceive if
+you've grown up in the states
+with commercial broadcasting,
+
+06:52.400 --> 06:58.560
+but most of the world actually
+still to this day works in this
+manner, where the government
+controls
+
+06:58.640 --> 07:06.240
+the air waves, and they
+determine who is going to
+utilize those. And in most
+cases, in the
+
+07:06.240 --> 07:10.080
+Netherlands, it's a very small
+country, you know, size of Rhode
+Island, probably a little bit
+smaller,
+
+07:10.880 --> 07:16.080
+completely packed, 17 million
+people, all speaking one
+language, by the way,
+
+07:16.080 --> 07:20.880
+certainly at the time when there
+was like 12 or 11 or 12 million
+people many years ago,
+
+07:20.880 --> 07:26.640
+it's all Dutch. And the way the
+Netherlands chose to do it is
+they said, okay, we're kind of
+like
+
+07:27.040 --> 07:33.360
+a social democratic country
+here, what we're going to do is
+we're going to let, we're going
+to
+
+07:34.080 --> 07:42.080
+parcel up the air time on these
+frequencies based upon
+popularity of religious groups,
+
+07:43.280 --> 07:48.080
+which is just an amazing concept
+when you think about it. And to
+this day, they still have all
+these
+
+07:48.080 --> 07:54.880
+different broadcast
+organizations who are allowed
+to, who are allocated time on
+these television
+
+07:54.960 --> 08:00.640
+and radio frequencies. And at
+the time, there are only two
+television stations and four
+radio
+
+08:00.640 --> 08:04.000
+stations that you could listen
+to, but they were national, so
+there were transmitters all over
+the
+
+08:04.000 --> 08:10.000
+place. And to this day, you
+still have at least five or six
+different religious groups
+
+08:10.720 --> 08:16.000
+who have time allocated to them
+based upon membership. And
+membership, interestingly
+enough,
+
+08:16.000 --> 08:22.000
+was measured by subscribers to
+your TV guide. So here's the
+wacky thing, I don't want to go
+into
+
+08:22.000 --> 08:26.400
+that too much, but you know, the
+TV guide is the TV guide,
+everyone knows what's going to
+come on
+
+08:26.400 --> 08:31.680
+because everyone publishes their
+information. But all the
+articles and the additional
+information
+
+08:31.680 --> 08:39.040
+and really the concept of
+becoming a member, a member of a
+group that would allow your
+group
+
+08:39.040 --> 08:44.160
+by having more membership to
+actually get more air time was
+very compelling at the time. And
+
+08:45.120 --> 08:52.080
+it worked well for many, many
+years. But you can understand
+that at a certain point as the
+
+08:52.080 --> 08:58.000
+world started to open up and
+more communications became
+possible and people started to
+cross borders,
+
+08:58.000 --> 09:04.640
+that there was a real need, a
+real demand for other types of
+programming than what we're
+available
+
+09:04.640 --> 09:10.240
+at the time. Now, please
+understand, as a kid, one is
+only one radio channel, one
+frequency
+
+09:10.320 --> 09:16.160
+you can tune into that had the,
+quote, popular music and it
+started at 7am and ended at
+midnight
+
+09:16.160 --> 09:22.240
+and it was basically controlled
+by all these different religious
+groups that that wasn't
+necessarily
+
+09:22.240 --> 09:26.720
+compelling for everybody. And
+quite honestly, that just wasn't
+enough. There wasn't enough
+choice
+
+09:26.720 --> 09:34.800
+or enough diversity for it to
+really work for anyone. So
+although that model I think was
+probably
+
+09:34.880 --> 09:41.280
+valid at the time, what we have
+to look at is the frequency
+distribution. That's really what
+
+09:41.280 --> 09:46.880
+it's changing here underneath
+our feet and from this
+distribution change comes many,
+many, many
+
+09:46.880 --> 09:51.840
+derivatives which is going to
+make life extremely exciting. So
+I, without really knowing it was
+probably
+
+09:51.840 --> 09:59.040
+one of these frustrated
+teenagers and I was very
+interested in broadcasting.
+Don't ask me why
+
+09:59.040 --> 10:05.120
+don't ask me where, you know, if
+that's a gene that you're born
+with or if it's a reditary or
+
+10:05.120 --> 10:10.320
+if it's something, I don't know,
+I just, I always like
+broadcasting and I certainly was
+no looker.
+
+10:10.320 --> 10:15.200
+So I always felt that radio was
+perfect for me, you know, the
+old, the old adage of the
+perfect
+
+10:15.200 --> 10:23.360
+face for radio. Well, that's
+totally how I felt. In the 70s,
+there were a number of
+
+10:23.440 --> 10:31.360
+older people, I'm talking 20,
+20, 30 year olds who were also
+very frustrated with the media
+
+10:31.360 --> 10:35.600
+landscape, not just in the
+Netherlands, but all over
+Europe. And believe me, this is
+still to this
+
+10:35.600 --> 10:43.600
+day is happening. The airwaves
+are regulated by the owners of
+the airwaves. That is the
+country
+
+10:43.600 --> 10:49.200
+that the airwaves are broadcast
+in i.e. the government and of
+course having that type of
+
+10:49.200 --> 10:55.600
+power to decide who uses the
+media landscape is power. It's
+big power. It's political power.
+
+10:55.600 --> 11:00.240
+It's very, very important to the
+government to know what is being
+said and who's saying what.
+
+11:01.440 --> 11:06.800
+But there were a number of, you
+know, so the music scene was
+just, that's really where it
+came from.
+
+11:06.800 --> 11:12.640
+It was exploding. We had, you
+know, we're just coming off of
+kind of flower power hippie,
+
+11:12.640 --> 11:19.920
+you know, the Beatles, and I
+didn't really, you know, I got
+into the Beatles very late
+because I'm
+
+11:19.920 --> 11:26.640
+just not old enough. The purple,
+Led Zeppelin, you know, heavy,
+heavy ass rock, and then of
+course
+
+11:26.640 --> 11:31.440
+disco came along. But music was
+changing very rapidly and lot
+was going on. And it wasn't
+getting
+
+11:31.440 --> 11:40.640
+the exposure. Now we didn't
+have, you know, iPods and iTunes
+and digital radios and satellite
+radios.
+
+11:40.720 --> 11:45.200
+You know, we had, you had a
+radio. You probably had a
+transistor radio and you had a
+record player.
+
+11:45.200 --> 11:50.480
+And, you know, you have parties
+and you bring over your suitcase
+full of records and you take
+turns
+
+11:50.480 --> 11:58.560
+playing, playing the music. So
+it was a frustrating time or
+unsatisfying. Let's put it that
+way.
+
+11:58.560 --> 12:06.720
+So a number of people who felt
+that they also had some kind of
+calling or mission to be
+broadcasters
+
+12:07.200 --> 12:16.240
+with the help of interestingly
+enough and backing, financial
+backing of radio manufacturers
+started
+
+12:16.240 --> 12:21.120
+these pirate radioships in the
+North Sea. The North Sea sits
+right off the coast of the
+
+12:21.120 --> 12:27.280
+Netherlands between the
+Netherlands and the United
+Kingdom. And they had found kind
+of a loophole in the
+
+12:27.280 --> 12:35.040
+law, which was if you're on, if
+you're on international coastal
+waters, then there's no law
+
+12:35.120 --> 12:41.920
+that applies to you. And so they
+were there broadcasting on
+mediumwave AM, basically
+broadcasting to
+
+12:41.920 --> 12:47.280
+well, like radio Caroline, we
+were broadcasting to the United
+Kingdom who had similar issues
+with their
+
+12:47.280 --> 12:52.640
+BBC public, you know, their
+government-controlled airwaves.
+And there was radio Veronica and
+me and
+
+12:52.640 --> 12:58.080
+me go and radio North Sea and
+these guys were all sitting on
+shitty ass boats and some great
+
+12:58.080 --> 13:02.880
+radio to listen to, by the way,
+you know, when big storms on the
+North Sea and the anchor
+
+13:02.960 --> 13:08.640
+broke loose and they were made a
+call and then these guys the
+competition got so fierce
+between them.
+
+13:08.640 --> 13:13.520
+They started throwing bombs at
+these other ships and it was
+pandemonium. And of course,
+
+13:13.920 --> 13:19.040
+eventually they figured out a
+way to outlaw that. And the
+North Sea is not that big so
+it's kind of
+
+13:19.040 --> 13:26.800
+hard to outrun and you know, and
+believe me again, the awesome
+power of airwaves is a very
+important
+
+13:26.800 --> 13:37.360
+issue to any type of government.
+So they came on shore and radio
+Veronica basically did something
+
+13:37.360 --> 13:41.360
+really smart as they said, you
+know what, we think that we have
+enough power, we have enough
+people
+
+13:41.360 --> 13:48.000
+who are interested in our type
+of programming which is
+religion, agnostic, you know,
+it's all about
+
+13:48.000 --> 13:53.040
+entertainment, fun, music, being
+there, being a part of it, being
+a part of this cool club,
+
+13:53.040 --> 14:00.000
+we think we have enough to
+qualify to get a broadcast
+license and they mobilized on
+the 18th of
+
+14:00.000 --> 14:09.200
+April 1970, Paul, I forget the
+actual 70 year, they mobilized,
+I think more than a million
+people,
+
+14:09.200 --> 14:15.200
+I believe, to march on the
+government in the Hague and the
+Netherlands to demand that radio
+Veronica
+
+14:15.200 --> 14:20.160
+receive a slice of this airtime.
+Now there's a whole bunch of,
+you know, there's a whole
+
+14:20.160 --> 14:24.400
+lineage that keeps on going from
+there, but that was really the
+start for me, where hey wait
+
+14:24.400 --> 14:29.280
+and then here's something new on
+radio, they only had a couple
+hours a week on the public
+broadcast
+
+14:29.280 --> 14:33.840
+frequencies but it was exciting
+and it was fun and these guys
+were yelling and screaming and
+playing
+
+14:33.840 --> 14:38.880
+great songs and just having a
+good time and I totally felt I
+want to be a part of that and
+the
+
+14:38.880 --> 14:45.680
+mystique of the man behind the
+microphone for some reason just
+really struck me. Now of course
+I was
+
+14:45.760 --> 14:51.520
+14 years old, there was no way
+in hell, I was going to get on
+the radio, but I had received
+from
+
+14:51.520 --> 14:58.560
+my parents a radio shack 101
+project kit and I'd probably
+still sell something very
+similar to this,
+
+14:58.560 --> 15:03.200
+which you know, then it was just
+transistors and diodes and
+capacitors and now it probably
+
+15:03.200 --> 15:09.440
+includes integrated chips that
+you can manipulate and build
+applications with, but it really
+was an
+
+15:09.440 --> 15:14.880
+application kit and you had
+little wires, different lengths,
+red, white and blue for a
+different length
+
+15:14.960 --> 15:21.840
+of wire and you could clip these
+into little springs and create
+things and one of the things
+
+15:21.840 --> 15:27.600
+that could be created was an AM
+transmitter and the transmitter
+was very, very weak, it didn't
+go
+
+15:27.600 --> 15:34.080
+far at all but I had learned
+enough through this project kit
+to understand that I could
+probably
+
+15:34.080 --> 15:38.640
+also build an FM transmitter
+which I did and I built a little
+FM transmitter which really
+doesn't take
+
+15:38.720 --> 15:45.440
+a lot of components to create
+that and it can run off a
+nine-volt battery and then of
+course
+
+15:45.440 --> 15:51.280
+it all comes down to how good is
+your antenna to really get your
+signal out and the distributed.
+
+15:52.000 --> 15:56.400
+So I'll be tinkering away and
+also at the time I was heavy
+into CB radio so I knew a little
+bit
+
+15:56.400 --> 16:01.120
+about again there's that radio
+thing, I knew a little bit about
+antennas and how they worked and
+
+16:01.120 --> 16:08.240
+and just had learned a lot just
+by fooling around with it and
+using it and I built an FM
+transmitter
+
+16:08.240 --> 16:12.800
+and immediately told my mom,
+come on mom jump in the car we
+got a drive around and see how
+far
+
+16:12.800 --> 16:17.680
+the signal reaches and man it
+was good you know I could see
+where there were some dead spots
+in
+
+16:17.680 --> 16:22.080
+in my broadcast but it was cool
+and what I would do is I'd just
+try to cassette player plug that
+
+16:22.080 --> 16:27.360
+straight into the transmitter
+and you know so it would roll on
+for a bit and would listen to it
+
+16:27.360 --> 16:32.960
+and so my mom was nice enough to
+drag me to drive me around and
+see that a couple of times she
+
+16:32.960 --> 16:38.880
+got tired of that eventually of
+course but um a day or two later
+I heard through the neighborhood
+
+16:38.880 --> 16:43.040
+and then we lived in a small
+village maybe only 800 people
+lived in this village just south
+of
+
+16:43.040 --> 16:48.000
+Amsterdam that other kids had
+heard this because the frequency
+the dial wasn't jammed you know
+
+16:48.000 --> 16:52.400
+there was there was only a
+couple of stations so there's
+lots of free spectrum
+interestingly enough
+
+16:52.400 --> 16:59.120
+just unused at the time and they
+were listening and they said hey
+that's pretty cool man we
+
+16:59.200 --> 17:06.240
+we heard the signal that you've
+been putting out and so
+immediately I was I was I was I
+was hooked
+
+17:07.120 --> 17:13.840
+and I was the next thing I did
+oh that's right then I figured
+well wouldn't be nice if I could
+
+17:13.840 --> 17:17.840
+you know do just like the big
+guys and I could play a record
+and talk and then play another
+record
+
+17:17.840 --> 17:22.240
+and I had a microphone so that
+was no problem but essentially I
+had to figure out how to mix
+
+17:22.240 --> 17:27.760
+all this together so bought a
+couple more books you know got
+the soldering iron out bought
+some
+
+17:27.760 --> 17:33.120
+a few components some potential
+meters basically faders slider
+faders and built them into a
+
+17:33.120 --> 17:38.160
+wooden cabinet I was no
+woodworker by any means but it
+kind of worked and I had a mixer
+and I
+
+17:38.160 --> 17:43.040
+could mix stuff and I started
+doing broadcast and you know and
+it was totally harmless so I
+didn't
+
+17:43.040 --> 17:48.880
+have to really worry about any
+local FCC getting on my butt
+about it but I was I was I was I
+was
+
+17:48.880 --> 17:53.680
+like wow look at this feedback
+people are listening to what I'm
+saying they're hearing the
+
+17:53.680 --> 17:58.240
+music I'm playing they're
+responding to it and that gave
+me a great feeling and I really
+wanted
+
+17:58.240 --> 18:04.480
+to do something with this when I
+was 15 I saw an ad in the local
+newspaper that they were looking
+
+18:04.480 --> 18:17.120
+for on air talent and
+engineering talent for the the
+nearby located hospital the
+tulip
+
+18:17.120 --> 18:22.960
+possible hospital in umstulfane
+again south of Amsterdam I
+jumped on you had to be 16 but I
+
+18:22.960 --> 18:26.480
+cleared it when my parents had
+said yeah I just lied to them
+you know you can just say or 16
+if
+
+18:26.480 --> 18:30.480
+they ask if you get caught well
+then you're out of luck but we
+think it's it's a close circuit
+
+18:30.480 --> 18:35.440
+radio station which means you
+have a very captive audience it
+was it was quite a trip but they
+
+18:35.440 --> 18:39.920
+had a professional studio and
+they had you know a big mixer
+and they had you know they had
+
+18:39.920 --> 18:44.320
+everything except the
+transmitter actually transmitter
+was just wires running through
+the entire
+
+18:44.400 --> 18:48.400
+hospital so people would listen
+in on an earphone they had a
+choice of you know the four
+
+18:48.400 --> 18:55.200
+national uh nationally run uh
+stations and then a fifth
+station which was this radio
+tulip
+
+18:55.200 --> 19:00.480
+power tulip radio and it would
+come on at six p.m. and it would
+go off the air around nine or
+
+19:00.480 --> 19:08.080
+ten and we had different groups
+working that and it was all um
+volunteer work and I was
+accepted
+
+19:08.080 --> 19:13.120
+I wasn't accepted as an on air
+host I was accepted as an
+engineer first off and so I was
+
+19:13.200 --> 19:18.960
+running the board as we say it
+for um and stringy at
+microphones for the different
+shows and I do it
+
+19:18.960 --> 19:23.920
+as much as possible in between
+homework and and school work and
+I'd go to the station I really
+
+19:23.920 --> 19:29.920
+learned my chops there and
+that's where I was introduced to
+many different techniques of
+presenting
+
+19:29.920 --> 19:34.960
+there were a number of people
+there who were very very
+influential on me and as I was
+building my own
+
+19:34.960 --> 19:39.760
+craft but it was a great place
+to get my chops down and I met a
+guy there called Yurumfen
+
+19:39.840 --> 19:45.600
+who I'd later I went on to
+create many many great radio
+shows with who was working at a
+pirate
+
+19:45.600 --> 19:51.920
+radio station in Amsterdam now
+so here and this time I'm 1617
+and you know mobile had a had a
+
+19:51.920 --> 20:02.880
+a moped which kind of looked
+more like a motorcycle and oh
+boy who's this oh boy oh no one
+second
+
+20:02.880 --> 20:08.880
+I just got to take this I'll be
+right back and go anywhere okay
+sorry about that uh interrupted
+my flow
+
+20:10.160 --> 20:17.600
+okay um right so I met this guy
+and um and he was working for a
+pirate radio station
+
+20:17.600 --> 20:24.960
+in Amsterdam and this was a much
+bigger operation these guys had
+150 watt FM sender
+
+20:24.960 --> 20:31.360
+sender transmitter they had a
+huge antenna on top one of these
+canal houses and they were
+broadcasting
+
+20:31.360 --> 20:39.040
+from Friday afternoon until
+Sunday morning and it was the
+rhythm of the city it was
+decibel radio
+
+20:39.120 --> 20:45.440
+it was fucking amazing and we
+had a tremendous reach because
+of the height of our antenna and
+
+20:45.440 --> 20:51.600
+we were playing and this is you
+know eighty eighty one I think
+yeah eighty eighty one and we
+were playing
+
+20:51.600 --> 20:56.480
+Madonna when the one her her
+record first came out that
+included borderline in holiday
+and it wasn't
+
+20:56.480 --> 21:01.280
+until two years later that that
+became a hit we were playing and
+this is in the days of fun boy
+
+21:01.280 --> 21:06.720
+three in banana ramma it was
+Johnny Gill and Stacy Lada saw
+it was really music you just
+could not
+
+21:06.800 --> 21:12.800
+get anywhere else and we were
+major heroes we were all fucking
+geeks and we were you know
+basically
+
+21:12.800 --> 21:18.640
+shun you know from from social
+life but we would all converge
+on this little station which you
+know
+
+21:18.640 --> 21:23.360
+we had we had advertisers local
+advertisers we had enough money
+to pay rent and we had enough
+
+21:23.360 --> 21:28.080
+money to kind of keep the
+operation going we still had the
+all pony up for the drinks and
+for the coffee
+
+21:29.200 --> 21:34.880
+but it was one of the most fun
+periods of my life we were just
+creating complete free form
+radio
+
+21:34.880 --> 21:39.200
+doing whatever we wanted the
+only restriction we had
+basically was our own lives and
+there was
+
+21:39.200 --> 21:43.840
+no way that we were making
+enough money to pay ourselves to
+do any of this but man we were
+having
+
+21:43.840 --> 21:48.640
+a great time and the feedback
+loop through the to the phone
+line and through just people on
+the
+
+21:48.640 --> 21:56.560
+street it was great and from
+that day I you know I knew this
+is well I already knew it but
+
+21:56.560 --> 22:03.360
+I wanted to be a broadcaster
+parallel track I was a oh man
+what do I have I have like ten I
+
+22:03.360 --> 22:08.960
+went to I'm at the pause this
+and continue a little bit later
+but it'll be worth it because
+
+22:08.960 --> 22:14.560
+I really want to get some of the
+story out so parallel track I
+was working at a computer
+electronic
+
+22:14.560 --> 22:20.960
+store on on weekends on Saturday
+selling components and stuff and
+the first computer started
+
+22:20.960 --> 22:27.280
+to come out and I'd already been
+introduced to the Apple 2 my dad
+had one which I didn't
+
+22:27.280 --> 22:33.040
+really use but I kind of tinker
+to run with it the common or VIC
+20 came out and I learned a
+
+22:33.040 --> 22:40.640
+lot about you know just how data
+flows through a through a
+computer and there was another
+guy there
+
+22:40.640 --> 22:45.600
+who was a friend of mine he was
+a little more technical than I
+was but together we came up with
+
+22:46.400 --> 22:53.200
+our own modems that we built so
+essentially it was a 75-bod
+modem which and it was acoustic
+
+22:54.080 --> 22:58.480
+and he said I had a little kind
+of like acoustic coupler made
+out of cardboard boxes and you
+
+22:58.560 --> 23:03.440
+we dial each other up and then
+we put the phones on to our
+cardboard box acoustic couplers
+
+23:03.440 --> 23:09.360
+and if I hit the A key on my
+terminal like a second later or
+so it would show up on his
+terminal
+
+23:09.360 --> 23:15.280
+and so we had a way to
+communicate and I think it was
+from that day because I keep
+coming back
+
+23:15.280 --> 23:21.920
+to the modem story that I knew
+that there was going to be a way
+to broadcast remember I've been
+
+23:21.920 --> 23:27.680
+doing everything illegally or at
+least not on real frequencies up
+until that point I knew that
+there
+
+23:27.760 --> 23:34.480
+would be an alternative way to
+distribute that would allow for
+radio to happen in different
+ways
+
+23:34.480 --> 23:38.560
+what we'll just call it radio
+it's really audio distribution
+of audio but we'll just call it
+
+23:38.560 --> 23:49.600
+radio to make it much easier and
+it was throughout the next 15
+almost 20 years that this just
+
+23:49.600 --> 23:56.000
+kept staying in the back of my
+mind I knew that there was going
+to be ways to do this when the
+internet
+
+23:56.400 --> 24:02.080
+happened when it started to to
+pop onto the scene and I was
+introduced to the internet in
+1980
+
+24:03.680 --> 24:10.160
+788 when it was you know there
+was no worldwide web yet to get
+a slip account in order to dial
+in
+
+24:10.160 --> 24:14.880
+it was all unix it was something
+completely different than what
+we see it today although
+
+24:14.880 --> 24:19.040
+structurally not really that
+different just it was presented
+in a different way we hadn't
+developed the
+
+24:19.120 --> 24:27.280
+web browser etc. I kept playing
+with ways to distribute audio
+was the most logical one because
+
+24:27.280 --> 24:32.960
+I've been a Mac guy all my life
+and I've been playing around
+with quick time for a long long
+time
+
+24:32.960 --> 24:38.720
+and understood editing and
+digital editing I got it
+completely you know it's a copy
+paste right
+
+24:38.720 --> 24:44.960
+that's that's really what
+editing is you don't need much
+more so since I since I was 14
+I've
+
+24:44.960 --> 24:50.400
+basically been honing my chops
+on on this audio stuff and I
+remember when higher speed
+modems
+
+24:50.400 --> 24:57.440
+came out and my first company
+had just started up it was
+called on-ramp and the
+technology portion
+
+24:57.440 --> 25:04.480
+was based in an apartment in San
+Francisco where the guy who I'd
+met from son micro systems
+
+25:04.480 --> 25:11.360
+called Jacob and his brother
+Chris and so they had a couple
+of sun servers with a T1 line
+which
+
+25:11.360 --> 25:16.560
+was a big deal to get it into
+their apartment there and on in
+barca deero and we were you know
+
+25:16.560 --> 25:22.080
+serving up at that point not
+even yeah I think we just
+started serving up mosaic web
+pages that's
+
+25:22.080 --> 25:32.000
+right mosaic was out and I
+remember when the first 9600
+bought modem came out and Carl
+would sit in
+
+25:32.000 --> 25:39.520
+San Francisco and through the I
+think was the PCM codec was
+basically streaming in real time
+audio
+
+25:39.520 --> 25:43.840
+to me now it would come through
+you know choppy and it would
+have to re-buffer and it would
+break
+
+25:43.840 --> 25:47.920
+but you know he had him on the
+phone he said okay check this
+out and he would start up a
+little
+
+25:47.920 --> 25:53.440
+units process they would be
+blasting out this you know in a
+one song or whatever I think I
+think
+
+25:53.440 --> 25:58.000
+was this I got I wish I remember
+what song it was and it would
+come through on the other end
+
+25:58.000 --> 26:04.160
+I was like god this is fantastic
+we just went across the country
+and it was transmitted through
+
+26:04.160 --> 26:08.320
+you know through these wires and
+I was freaking out I loved it I
+knew that it was going to happen
+
+26:08.320 --> 26:13.440
+now of course I didn't have any
+of the technical knowledge or
+understanding of what that you
+know
+
+26:13.440 --> 26:19.040
+what that really meant you know
+what the bandwidth
+considerations are what the
+scalability was
+
+26:19.040 --> 26:25.680
+of it all but it wasn't long
+after that that you know I had
+actual an actual office in New
+York
+
+26:25.680 --> 26:32.480
+had one employee Brad Sirling
+who we were sitting in an office
+together I got a call one day
+
+26:33.760 --> 26:36.720
+yeah I'm gonna finish this part
+of the story then I'm gonna have
+a quick lunch and I'll come back
+
+26:36.800 --> 26:41.360
+and I'll finish it I got a call
+one day from a guy he said hey
+look my name's Ron Bloom
+
+26:43.760 --> 26:51.600
+I'm in Los Angeles I think I
+have an idea and this is 1994 so
+I think I have an idea of how we
+can
+
+26:53.120 --> 26:58.080
+do something with the Grammys
+because I know the guys over at
+Narris the National Court
+Academy
+
+26:58.080 --> 27:03.360
+of Recording Arts and Sciences
+and I think that we could put
+together what he called a
+cybercast
+
+27:03.440 --> 27:07.360
+which was at the time you had
+simulcast remember those from
+the 80s we could watch the
+
+27:07.360 --> 27:13.040
+concert on TV and the radio
+station would broadcast it in a
+beautiful stereo sound
+
+27:13.760 --> 27:17.840
+said we could do something
+really cool where the Grammys
+are on TV and we'll provide a
+
+27:17.840 --> 27:23.920
+separate broadcast which will
+consist of web pages it will
+consist of pictures Casio just
+come out with
+
+27:23.920 --> 27:30.080
+their first digital consumer
+camera that they were trying to
+get into the marketplace and I
+said
+
+27:30.320 --> 27:36.960
+I think we can also interview
+and do some audio I'd also
+hooked up with progressive
+
+27:36.960 --> 27:45.760
+networks which was Rob Glazer's
+company before it became real
+networks and so he came into New
+York
+
+27:45.760 --> 27:50.160
+the next day you know we talked
+about the idea I said it's great
+I'll see you tomorrow in LA so
+we flew
+
+27:50.160 --> 27:56.400
+out to LA we went to the Grammys
+and we said hey you know we want
+the license to be able to do
+this
+
+27:56.480 --> 28:05.040
+cybercast and and really at the
+time the Grammys was you know
+there weren't troubles a very
+broken
+
+28:05.040 --> 28:10.640
+brand it was all you know
+considered old fashioned and
+certainly not hip and so they
+liked the idea
+
+28:10.640 --> 28:14.960
+and they said well that's
+fantastic we'll give you a
+license for a million dollars
+and we said hey
+
+28:14.960 --> 28:20.720
+that's really cool but we were
+thinking zero dollars because we
+have no money and we talked them
+into it
+
+28:20.800 --> 28:26.880
+and we were thinking that the
+way we would monetize it is that
+we could go to their existing
+
+28:26.880 --> 28:32.000
+sponsors and sell on a little
+sponsor ship and as we're
+walking out the door with our
+free license
+
+28:32.000 --> 28:38.880
+they said oh one more thing you
+can't approach our existing
+advertiser so we had a couple of
+months
+
+28:38.880 --> 28:45.440
+of real you know real starvation
+there trying to figure out how
+we were going to make this
+happen
+
+28:45.440 --> 28:54.320
+and we teamed up with a great
+sales company who media america
+who helped us sell this to
+advertisers
+
+28:54.320 --> 29:02.480
+of course was a lot of it was
+experimental budget at the time
+but we got it done and we had to
+drop
+
+29:02.480 --> 29:07.760
+a T1 into the shrine auditorium
+these days I'm sure the shrine
+auditorium has plenty of fiber
+all on
+
+29:07.760 --> 29:13.680
+its own you know we flew like a
+team of seven or eight out there
+all people who are you know
+
+29:13.760 --> 29:18.160
+still very dear to my heart and
+we've worked together for a long
+long time we had a great time
+three
+
+29:18.160 --> 29:24.720
+days of the Grammys and we were
+actually streaming audio and we
+were doing CUCMe if you recall
+that
+
+29:24.720 --> 29:32.400
+CUCMe video it was it was it was
+it was just fucking phenomenal
+we were creating content on the
+
+29:32.400 --> 29:38.560
+fly that was written it was
+pictures it was captions with
+the pictures it was streaming
+audio it was
+
+29:38.560 --> 29:44.000
+CUCMe it was all little bits and
+pieces but together it really
+made a beautiful broadcast
+environment
+
+29:44.000 --> 29:49.440
+it was a very exciting time for
+us and we went back after the
+Grammys and we just you know
+okay
+
+29:49.440 --> 29:54.800
+now everyone's gonna call every
+record producer all the artists
+all the labels the television
+
+29:54.800 --> 29:59.600
+stations anybody who has
+anything to do with content is
+going to is gonna start calling
+and we sat
+
+29:59.600 --> 30:05.360
+by the phone four days and heard
+nothing but fucking crickets not
+a single person called
+
+30:06.320 --> 30:11.120
+now we did actually start a
+company from that because we did
+at one call from a gentleman
+
+30:11.120 --> 30:16.240
+called Bob McColley who worked
+at the Anheiser Bush and he said
+he'd called up and he said hey
+
+30:16.240 --> 30:20.960
+I saw you guys at the Grammys
+we're really interested in some
+of this stuff and we'd like to
+know more
+
+30:20.960 --> 30:25.200
+and do you have you know do you
+provide these services and of
+course we put on our other
+
+30:25.200 --> 30:30.880
+hat and said well yes of course
+Mr. McColley we provide these
+services for you and we we
+essentially
+
+30:31.040 --> 30:36.080
+went out and to St. Louis and
+created Budweiser dot com that
+was the first of many
+initiatives
+
+30:36.080 --> 30:40.000
+but we were creating content we
+had the Bud guy on the road who
+went to all the races
+
+30:41.360 --> 30:47.760
+we had the born on date if you
+look at your Budweiser bottle or
+can you see that it says this
+
+30:47.760 --> 30:53.040
+beer was born on that was
+something that we that we came
+up with by um there's always
+been a
+
+30:53.040 --> 31:00.320
+barcode which can tell you down
+to the quarter hour when that
+actual beer rolled off the the
+assembly
+
+31:00.400 --> 31:04.560
+line and you could input that
+code into a little web app we
+had made and would tell you when
+
+31:04.560 --> 31:10.560
+your beer was born and that
+turned into an actual branded
+thing on the on the Budweiser
+cans and
+
+31:10.560 --> 31:16.720
+bottles so but that's beside the
+point there was it was just it
+was not going to happen we were
+
+31:16.720 --> 31:22.080
+not going to be able to create
+our own content and distributed
+and at that time I'd after MTV
+dot
+
+31:22.080 --> 31:26.880
+com we had metaverse dot com the
+vibe which was you know just all
+kinds of great stuff that we
+
+31:26.960 --> 31:33.040
+were putting together ourselves
+we had no way to monetize it
+except selling it through to
+corporate
+
+31:33.760 --> 31:38.560
+corporate entities who wanted to
+use that to make themselves more
+attractive to their core
+audience
+
+31:39.360 --> 31:45.680
+now that was what eleven years
+ago ten years ago and now and of
+course the the big problem was
+
+31:45.680 --> 31:51.920
+we really didn't have the
+audience there was no audience
+to speak of and now as we fast
+forward
+
+31:52.400 --> 31:58.000
+I think it was Peter Day
+actually let me I think I have
+this bit Peter Day the BBC
+
+31:59.200 --> 32:02.400
+he really said it right I'm
+going to you've heard this in a
+million times I'm going to play
+it for you
+
+32:02.400 --> 32:07.760
+again because I don't always
+think get that listen to what he
+says it is so true this is this
+is
+
+32:09.040 --> 32:12.720
+you know this guy's been in
+broadcasting for thirty five
+years listen to what he says
+
+32:14.160 --> 32:20.400
+something remarkable is
+happening here radio is
+springing free of the regulated
+gatekeepers who
+
+32:20.480 --> 32:26.720
+managed what you can hear since
+radio is invented it's jumping
+into the hands of anyone at all
+with
+
+32:26.720 --> 32:33.680
+something or nothing to say so
+exactly the gatekeepers and
+they're called gatekeepers but I
+don't
+
+32:33.680 --> 32:39.200
+think you know anyone who
+controls the frequencies that
+were allowed to broadcast on
+allowed to use
+
+32:39.200 --> 32:44.400
+for distribution they're not
+necessarily all evil but it's a
+big power game there's a lot of
+
+32:44.400 --> 32:50.480
+things that's stake in that so
+now with what we have we have
+the bandwidth to be able to do
+audio
+
+32:50.480 --> 32:54.080
+we certainly have the bandwidth
+for audio but only barely I'm
+telling you we're going to run
+into
+
+32:54.080 --> 32:58.480
+some interesting situations with
+bandwidth and we still have to
+figure out how to handle that
+better
+
+32:58.480 --> 33:05.040
+because there is a very definite
+cost attached to distributing
+this audio over the internet
+
+33:05.920 --> 33:15.040
+we have the iPods MP3 players we
+have this mobile mobile radio
+that we can take along and it's
+
+33:15.040 --> 33:21.360
+almost like history is repeating
+itself you see companies who
+have the radios they're
+investing in the
+
+33:21.360 --> 33:30.560
+pirates so you're seeing Apple
+trying to get podcasting into
+the mainstream audible is
+actually a
+
+33:30.640 --> 33:35.440
+pirate by themselves I would say
+initially they're you know but
+they have done a lot of work on
+
+33:36.800 --> 33:42.400
+on creating a lot of these well
+creating the first the first
+real player I think auto
+
+33:42.400 --> 33:46.000
+will can be credited with and
+bookmarking and all kinds of
+stuff like that but they really
+
+33:46.000 --> 33:55.520
+pioneered that space Microsoft
+real networks the distribution
+is about to blow open wide and
+what's
+
+33:55.520 --> 34:01.600
+interesting is that they're
+still and I think certainly also
+hear it at nomdex a lot of it's
+
+34:01.600 --> 34:07.040
+still about the technology audio
+just launched a public beta
+yesterday and I of course I'd
+
+34:07.040 --> 34:10.560
+signed up for an invite and I
+got in and although their
+creation tool isn't working yet
+
+34:11.920 --> 34:20.320
+they're providing a way for you
+to it's a sample to browse to
+sample and to subscribe to
+podcast
+
+34:20.880 --> 34:24.720
+and what was the most enjoyable
+thing you think oh well you know
+he's this is a competitor
+
+34:24.800 --> 34:28.880
+and I'm not gonna like what I
+see and how do we go and you
+know how do you fight these guys
+
+34:28.880 --> 34:35.360
+not true at all oh no way I've
+always said we have to bring in
+the listeners it has to be made
+
+34:35.360 --> 34:41.840
+easier we have to bring in the
+hundred million listeners in
+order for this to really start
+
+34:41.840 --> 34:47.360
+to to be something exciting and
+we're at that tipping point
+because what do I see on Odeo's
+home
+
+34:47.360 --> 34:52.320
+page I see the daily source code
+I see three other shows that
+were involved with all being
+
+34:52.320 --> 34:57.360
+distributed through Odeo so it's
+fantastic I couldn't be more
+happy about this stuff
+
+35:01.760 --> 35:06.400
+Apple is what they announced are
+doing something with the
+Sundance Festival
+
+35:07.920 --> 35:13.600
+Robert Redford and you know of
+course Apple has all these big
+Hollywood contacts that's great
+
+35:13.600 --> 35:21.440
+I want hundreds of millions of
+people to hear about podcasting
+and to go sample it wherever you
+can
+
+35:21.520 --> 35:28.960
+because my mission and our
+mission has always been to get
+this great content in to nurture
+this
+
+35:28.960 --> 35:34.800
+content help people who don't
+who have something to say who
+are communicators but don't know
+how to
+
+35:34.800 --> 35:42.880
+handle the technology don't know
+what to do with it maybe are
+just a bit intimidated by
+creating it
+
+35:43.840 --> 35:50.240
+that is that is where the magic
+is finally we can create our own
+content and get wide
+distribution
+
+35:50.320 --> 35:55.280
+and the good stuff does always
+rise to the top and when I say
+good stuff it's good stuff to
+you
+
+35:55.280 --> 36:00.000
+if you're looking for something
+and you're interested in a
+particular topic very much like
+
+36:00.000 --> 36:04.800
+web logs you'll find it it's
+going to flow through through a
+number of different ways of
+course
+
+36:04.800 --> 36:09.920
+there'll be some traditional
+marketing and advertising that
+that always helps I've been
+working
+
+36:09.920 --> 36:14.960
+very hard on pushing podcasting
+out to the public thank God we
+got a name for thank you
+
+36:15.040 --> 36:20.640
+Danny Grigwar we got a name that
+you know helped the the
+traditional press glam onto it
+
+36:21.840 --> 36:27.680
+and you're going to see in the
+next few weeks an incredible
+amount of traditional already
+existing
+
+36:27.680 --> 36:33.600
+content or people who are
+already stars and celebrities
+they will be podcasting they're
+
+36:33.600 --> 36:40.240
+it trust me I think the clear
+channel who own many thousands
+of radio stations
+
+36:41.200 --> 36:46.080
+that they're going to do a deal
+with it could be Apple I don't
+know that would make sense
+
+36:46.080 --> 36:50.560
+and they'll be podcasting all
+their stuff and that's great I
+want lots of people to come in
+
+36:51.280 --> 36:55.840
+where we're going to shine is
+when we start bringing stuff
+that you've never heard before
+
+36:56.720 --> 37:02.800
+and that's of course what people
+have really glomed on to
+particularly in the United
+States is
+
+37:03.760 --> 37:13.200
+this fresh content fresh ideas
+exciting ideas unregulated ideas
+boy that's a real big one there
+
+37:13.920 --> 37:20.000
+but also there's no time
+constraint except for the fact
+that I have a lunch hold on a
+second
+
+37:20.000 --> 37:31.120
+let me see what this is hello
+hello be right down okay shoot
+you know what you're just going
+to
+
+37:31.120 --> 37:38.720
+have to wait for another three
+seconds before I finish this up
+wow so what was only three
+seconds
+
+37:38.720 --> 37:44.720
+for you this is double
+time-shifting technology it
+worked my friends was three and
+a half hours for me
+
+37:44.720 --> 37:52.880
+I'm now back in my room the
+phone call you heard me get was
+uh Don Katz uh from audible and
+uh he's
+
+37:52.960 --> 38:00.160
+in Seattle and so we had a quick
+a well quick yeah like an hour
+long meeting over a quick lunch
+
+38:01.360 --> 38:06.800
+and after that I went to real
+networks who are located
+headquartered actually in
+Seattle
+
+38:07.440 --> 38:13.920
+Rob Glazer who well we talked
+about that earlier who have
+known for many many years and
+there's
+
+38:13.920 --> 38:20.560
+another company let's add a
+fourth to our list who are going
+to help us with our 100 million
+subscriber
+
+38:20.640 --> 38:27.760
+March 100 million listener March
+and we have a ways to go but I
+can't tell you how excited I am
+
+38:27.760 --> 38:36.400
+about all these companies that
+are basically going to open up
+the path to listeners and it's
+going to
+
+38:36.400 --> 38:43.360
+be very interesting let me give
+you some numbers here for a
+second um and we're already at
+about 37
+
+38:43.360 --> 38:50.320
+30 eight minutes I think yeah 38
+almost 39 minutes I want to wrap
+it up pretty quick um according
+
+38:50.320 --> 39:02.240
+to a article I read today Apple
+iTunes so this iTunes music
+store reached 1.7 million
+households
+
+39:02.240 --> 39:09.360
+in March okay seems like a big
+number it's a spit in the bucket
+when it comes to what broadcast
+
+39:09.360 --> 39:14.320
+radio and television networks
+reach it's really nothing I
+think we've discussed the Wall
+Street
+
+39:14.320 --> 39:20.640
+journals reporting earlier that
+all online music sales all
+online music sales that includes
+
+39:20.640 --> 39:27.360
+rhapsody that includes iTunes
+music store it's it's anything
+you can find that sells music
+online
+
+39:27.920 --> 39:34.320
+is only about 2% of the entire
+sales of the whole music
+business so we've got quite a
+ways to go
+
+39:35.200 --> 39:40.960
+and what we're going to see is
+that as listenership opens up
+and it's going to be up to you I
+mean
+
+39:41.040 --> 39:47.120
+this is the beauty of it is if
+you want to just create a show I
+think every every podcast has a
+minimum
+
+39:47.120 --> 39:53.280
+of 10 listeners because that's
+going to be your friends your
+family you know your your boy
+scout
+
+39:53.280 --> 39:58.560
+group whatever it is you know
+and which of course will be very
+feasible to do very economical
+
+39:59.520 --> 40:04.480
+because you just it's you know
+those prices are coming down
+fast enough and there's some
+great
+
+40:04.480 --> 40:12.320
+services out there of which pod
+show also would be providing
+services but if you want to
+
+40:13.440 --> 40:21.120
+really go out aggressively and
+get listeners and it's one thing
+to do it in a if you're like a
+
+40:21.120 --> 40:25.520
+a common entertainment base show
+and you just want to have a
+broad appeal which I think is
+very hard
+
+40:25.520 --> 40:31.760
+to do by the way it's very hard
+to appeal to a big mass audience
+or if you're doing a beer cast
+
+40:31.920 --> 40:36.480
+and you just want to talk about
+beer your your listenership is
+going to grow let me just give
+you
+
+40:36.480 --> 40:42.080
+some other numbers the daily
+source code which has currently
+approximately a hundred thousand
+
+40:42.080 --> 40:48.000
+downloads per show a hundred
+thousand downloads per show of
+which the numbers actually
+increased a little
+
+40:48.000 --> 40:56.400
+bit now it's about 25 to 27
+percent of the daily downloads
+are through subscription which
+means
+
+40:56.400 --> 41:03.760
+it's automatic that costs me or
+pod show in this case about
+three hundred fifty dollars a
+day
+
+41:04.800 --> 41:12.080
+okay so it's not free and and
+there's many many ways that that
+can be dealt with and many many
+
+41:12.080 --> 41:18.080
+economic models that can be put
+into place lots of them and
+that's exactly what we're
+working on
+
+41:18.080 --> 41:22.880
+with all of these companies
+which is why I'm happy to talk
+to all these companies and
+
+41:23.840 --> 41:30.880
+people have different motives
+different reasons for going out
+and doing podcasts and actually
+going for a bigger
+
+41:30.880 --> 41:38.720
+audience some is for promotion
+of something some will be
+because of the nature of it you
+can say
+
+41:38.720 --> 41:44.480
+what you want be free and some
+will maybe you know have
+ulterior motives and deals
+actually let me I
+
+41:44.480 --> 41:51.040
+want to you know give you a
+quick little taste of a podcast
+that is a co-production that
+we're doing
+
+41:51.120 --> 42:00.080
+that will be launching in the
+next week or so it's Spike Lee
+just listen to a little bit of
+the Spike Lee
+
+42:00.480 --> 42:06.240
+podcast and I think he'll he'll
+totally get it how what how he's
+using this medium here he comes
+
+42:07.120 --> 42:14.000
+we want to make the best fucking
+film post wait a minute what did
+that stop oh is that my
+
+42:14.000 --> 42:22.640
+Mac again acting up of course
+this is interesting I mean
+people ask me what's the worst
+thing
+
+42:22.640 --> 42:28.480
+as a director and a lot of times
+I make a knowledge between
+sports and films because also
+two
+
+42:28.480 --> 42:34.720
+of my interest but the worst
+thing in sports is when you have
+an athlete only cares about his
+
+42:34.720 --> 42:41.520
+statistics the team is about me
+me me how many points I'm gonna
+shoot I'm gonna shoot
+
+42:42.000 --> 42:47.200
+Kobe Bryant it's pretty cool how
+many balls that don't me now
+listen carefully because in this
+is this is really
+
+42:47.200 --> 42:52.640
+Spike Lee doing a podcast you
+know he's just talking in the
+unedited voice of Spike and it's
+in his
+
+42:53.040 --> 42:58.240
+production office in Brooklyn
+and you can hear the air
+conditioner running in the
+background so I can
+
+42:58.240 --> 43:08.320
+like a hot summer day and act
+and then film it's like the act
+who so Spike is another person
+who is
+
+43:09.280 --> 43:14.240
+sorry about that that was my
+microphone and I just just don't
+want to put that right on oh
+
+43:14.960 --> 43:21.280
+there's another guy who is who's
+on a mission and I think that
+we're we're here at nomdex
+
+43:21.280 --> 43:27.600
+and there's a lot of excitement
+building it's a very geeky a lot
+of it's about RSS
+
+43:29.040 --> 43:35.600
+Microsoft will be announcing
+their plans with RSS now I know
+exactly what it is I was asked
+not to
+
+43:35.680 --> 43:40.240
+talk about it it seems that it's
+pretty much common knowledge and
+a lot of people were told with
+their plans were
+
+43:42.320 --> 43:49.600
+audible will be making an
+interesting announcement also
+involving podcasts subscriptions
+and RSS
+
+43:51.680 --> 43:58.000
+look for big big big Hollywood
+companies to come in I don't
+know if I can't remember if we
+talk about this
+
+43:58.000 --> 44:02.800
+but I'm sure that clear channel
+yeah I do we talk we did talk
+about this who own all these
+
+44:02.960 --> 44:08.560
+radio stations they're going to
+be taking their content and
+podcasting it that's great you
+know that's
+
+44:08.560 --> 44:15.040
+fantastic but if you look at
+those numbers and you see that
+we have an audience that is
+growing but we
+
+44:15.040 --> 44:23.760
+need to move towards the hundred
+million listeners where is the
+next great content going to come
+from
+
+44:24.800 --> 44:30.960
+it's going to come from you it's
+going to come from all of us who
+have ideas who want to get those
+
+44:30.960 --> 44:37.360
+ideas out who want to share with
+people and you know it may you
+may be intimidated by the
+technology
+
+44:38.000 --> 44:45.760
+you may not have all the pieces
+together for the format and if
+you want to monetize it
+commercialize it
+
+44:47.280 --> 44:53.760
+that's what I want you to come
+to us for come to pod show for
+that send an email to
+atamercareer.com
+
+44:53.760 --> 45:01.040
+and be more than happy to help
+help you out because the
+listeners are coming the hundred
+million
+
+45:01.040 --> 45:07.920
+listener march is on its way I
+think it has already been
+underway but after nomdex
+there's going to be a
+
+45:07.920 --> 45:13.760
+lot of heat and a lot of big
+companies mentioned them all in
+this podcast who will all be
+moving
+
+45:13.760 --> 45:21.600
+towards bringing their existing
+listeners in exciting new
+listeners to come in and when
+they come in
+
+45:21.680 --> 45:26.480
+it's not going to be just about
+content you could have heard on
+the radio it's going to be about
+
+45:26.480 --> 45:36.560
+this fresh new exciting group of
+voices that have great ideas and
+just haven't had the opportunity
+
+45:36.560 --> 45:43.680
+to get it out there or may not
+even have known that the
+opportunity existed so that said
+we're going
+
+45:43.680 --> 45:51.520
+to wrap this up we have the
+registration party which I think
+Google is throwing and kind of
+the
+
+45:51.520 --> 45:55.360
+get together the evening around
+seven or eight o'clock so I'm
+going to go to that and of
+course
+
+45:55.360 --> 46:00.400
+I will have more to report as I
+will be podcasting from from
+nomdex in Seattle
+
+46:02.320 --> 46:07.520
+stay subscribed daily source
+code dot com if if you haven't
+done so already you can
+definitely send me
+
+46:07.520 --> 46:11.120
+feedback because I said add them
+at curie dot com and if you got
+some ideas and you want to
+
+46:12.080 --> 46:17.200
+be there for the hundred million
+listeners that are going to show
+up soon then
+
+46:18.560 --> 46:23.360
+you know who to contact and with
+that I will end with our
+signature
+
+46:33.040 --> 46:36.640
+another pod show podcast stick
+it in your ear
+
+46:41.120 --> 46:51.600
+you

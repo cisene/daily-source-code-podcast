@@ -1,0 +1,3319 @@
+WEBVTT
+
+00:00.000 --> 00:07.000
+Hey everybody, it's Sunday the
+3rd.
+
+00:07.000 --> 00:18.000
+Oh my goodness, once again time
+for a daily source code coming
+to you from the balcony
+
+00:18.000 --> 00:22.000
+of Kri Kondo here in Lovely
+South Beach, Florida.
+
+00:22.000 --> 00:26.000
+It's 930 on Sunday night.
+
+00:26.000 --> 00:34.000
+Okay, so immediately you're
+probably saying hey, wait a
+minute something sounds a little
+
+00:34.000 --> 00:35.000
+bit different.
+
+00:35.000 --> 00:38.000
+This doesn't sound like the
+typical daily source code sound
+we're used to.
+
+00:38.000 --> 00:44.000
+That is because I have been
+officially assimilated and this
+podcast is being produced
+
+00:44.000 --> 00:47.000
+on a Windows XP tablet.
+
+00:47.000 --> 00:50.000
+I never thought I'd actually see
+the day.
+
+00:50.000 --> 00:54.000
+Of course the sound difference
+is not just because of the
+tablet although someone
+
+00:54.000 --> 00:59.000
+I don't come from there, but I'm
+also recording this on a headset
+with a microphone
+
+00:59.000 --> 01:01.000
+to reduce background noise.
+
+01:01.000 --> 01:08.000
+This is of course also reduces
+quality.
+
+01:08.000 --> 01:13.000
+It also seems like the sound
+card is just so different in
+this laptop.
+
+01:13.000 --> 01:15.000
+It's really the sound is
+booming.
+
+01:15.000 --> 01:19.000
+It already turned off the extra
+bass or whatever it is that it
+is all kinds.
+
+01:19.000 --> 01:24.000
+I mean I have learned so
+incredibly much in the past
+couple of days.
+
+01:24.000 --> 01:31.000
+I'd posted on my weblog that I
+had purchased a tablet PC and
+was learning the
+
+01:31.000 --> 01:33.000
+joys of Windows.
+
+01:33.000 --> 01:35.000
+Of course I worked with Windows
+before.
+
+01:35.000 --> 01:42.000
+It's not like I don't know how
+Windows works and you can kind
+of figure it out.
+
+01:42.000 --> 01:47.000
+But boy, there's a lot of stuff
+that has changed since the last
+time I...
+
+01:47.000 --> 01:54.000
+I guess my last Windows install
+was what Windows 2000
+professional or something like
+that
+
+01:54.000 --> 01:56.000
+or maybe Server 2003.
+
+01:56.000 --> 02:01.000
+I'm not quite sure clearly some
+older version of Windows.
+
+02:01.000 --> 02:04.000
+It's amazing when all the stuff
+I'm finding here.
+
+02:04.000 --> 02:08.000
+There's mixers and all kinds of
+extra sound controls.
+
+02:08.000 --> 02:11.000
+And boy, boy is there a lot of
+software available.
+
+02:11.000 --> 02:13.000
+Of course I knew that.
+
+02:13.000 --> 02:16.000
+Being a Mac guy usually wind up.
+
+02:16.000 --> 02:20.000
+You know, going to a couple
+places like a version tracker if
+you want to find something
+
+02:20.000 --> 02:22.000
+but for Windows.
+
+02:22.000 --> 02:24.000
+Dude, there's so much software
+available.
+
+02:24.000 --> 02:28.000
+So I spent a lot of time looking
+at recording software.
+
+02:28.000 --> 02:30.000
+Actually not just recording.
+
+02:30.000 --> 02:33.000
+Maybe I should step back a
+little bit.
+
+02:33.000 --> 02:40.000
+First of all, I wanted to get a
+small laptop and I wanted to be
+specifically
+
+02:40.000 --> 02:42.000
+Windows based for a number of
+reasons.
+
+02:42.000 --> 02:48.000
+One is I wanted to make this
+laptop my communications laptop
+and leave the power book
+
+02:48.000 --> 02:51.000
+kind of as the content machine.
+
+02:51.000 --> 02:54.000
+Which of course kind of flows
+back and forth.
+
+02:54.000 --> 02:56.000
+It's not really one or the
+other, right?
+
+02:56.000 --> 02:59.000
+So the first thing I had to
+figure out is, okay, how do I
+connect things?
+
+02:59.000 --> 03:01.000
+Wait, I'm getting ahead of
+myself again.
+
+03:01.000 --> 03:06.000
+So when I was looking around,
+what is it?
+
+03:06.000 --> 03:11.000
+Comp USA and circuit city and
+looking at different laptops and
+loving the prices of course.
+
+03:11.000 --> 03:17.000
+You know, $1,000 laptop is 500
+pounds and you can't get
+anything for 500 pounds
+
+03:17.000 --> 03:19.000
+in the way of laptops in the UK.
+
+03:19.000 --> 03:21.000
+So the conversion rate really
+works in my favor.
+
+03:21.000 --> 03:25.000
+And I looked at the Sony VIO and
+then, you know, it seems like
+there's a whole bunch
+
+03:25.000 --> 03:30.000
+of these tablet PCs that people
+really aren't buying anymore and
+kind of gone out of
+
+03:30.000 --> 03:32.000
+Vogue.
+
+03:32.000 --> 03:37.000
+And therefore, they're probably
+their price better and they come
+with a whole bunch of stuff.
+
+03:37.000 --> 03:40.000
+So I went to software included
+and I'd seen them before.
+
+03:40.000 --> 03:43.000
+Actually, it was a Werner
+Fogels.
+
+03:43.000 --> 03:45.000
+I think it is.
+
+03:45.000 --> 03:47.000
+Fogels are Fogels.
+
+03:47.000 --> 03:54.000
+Well, Werner, who actually now I
+think believe he's, no, I know
+his chief technology officer
+over at Amazon.
+
+03:54.000 --> 03:59.000
+And I saw him working on a
+tablet PC and I was pretty
+impressed.
+
+03:59.000 --> 04:05.000
+It was a big one and this is a
+small, you know, it's like a 14
+inch screen, which for a
+
+04:05.000 --> 04:06.000
+whole time.
+
+04:06.000 --> 04:08.000
+Now, of course, the screen goes
+blank.
+
+04:08.000 --> 04:09.000
+There we go.
+
+04:09.000 --> 04:12.000
+Everything's still working.
+
+04:12.000 --> 04:14.000
+So when you use it in, what is
+it?
+
+04:14.000 --> 04:16.000
+Portrait mode, I guess it is.
+
+04:16.000 --> 04:20.000
+So you have kind of the, as a
+rectangle up and down.
+
+04:20.000 --> 04:22.000
+That's portrait mode, isn't it?
+
+04:22.000 --> 04:23.000
+Yeah, portrait.
+
+04:23.000 --> 04:25.000
+Yeah, then it's really quite
+handy.
+
+04:25.000 --> 04:27.000
+It fits in the palm of your
+hand.
+
+04:27.000 --> 04:31.000
+Of course, the screen turns
+around, folds back over the
+keyboard.
+
+04:31.000 --> 04:37.000
+It can't be underestimated, but
+I am very impressed with the
+handwriting recognition,
+
+04:37.000 --> 04:41.000
+different ways of inputting.
+
+04:41.000 --> 04:43.000
+Very impressed with this
+application.
+
+04:43.000 --> 04:46.000
+It comes bundled with what is it
+called?
+
+04:46.000 --> 04:52.000
+It's the Microsoft Office
+OneNote 2003.
+
+04:52.000 --> 04:58.000
+All the software in here is from
+2003, which is basically note
+taking software.
+
+04:58.000 --> 05:00.000
+And you can just write jot down
+notes by hand.
+
+05:00.000 --> 05:03.000
+You can transcribe that to turn
+it into text.
+
+05:03.000 --> 05:04.000
+It does a pretty good job.
+
+05:04.000 --> 05:06.000
+When I found out it was really
+cool.
+
+05:06.000 --> 05:09.000
+You don't have to translate it
+to text, but then you do a
+search looking for something.
+
+05:09.000 --> 05:14.000
+It'll still go through and find
+the text in your handwriting,
+which is pretty damn
+
+05:14.000 --> 05:16.000
+spiffy, actually.
+
+05:16.000 --> 05:19.000
+So I like that a lot.
+
+05:19.000 --> 05:24.000
+I don't know, what other things,
+you know, it just been, oh, I
+was able to connect
+
+05:24.000 --> 05:25.000
+to the Mac pretty easily.
+
+05:25.000 --> 05:28.000
+Just turned Windows, file
+sharing on on the Mac.
+
+05:28.000 --> 05:32.000
+And once you figure out this
+black slash stuff, which seems
+so counter-intuitive
+
+05:32.000 --> 05:36.000
+to anything internet related, it
+looks like you're making a
+mistake.
+
+05:36.000 --> 05:42.000
+You can actually, I mounted my
+account, my drive from the
+laptop that we brought
+
+05:42.000 --> 05:43.000
+with us the Mac.
+
+05:43.000 --> 05:47.000
+So I was able to bring over like
+the rock money and off opener.
+
+05:47.000 --> 05:50.000
+I was able to just suck that
+over.
+
+05:50.000 --> 05:51.000
+That works fine.
+
+05:52.000 --> 05:56.000
+And of course, then, you start
+to set up a couple things.
+
+05:56.000 --> 06:03.000
+Skype, the Skype Windows client
+is without a doubt superior to
+the Mac.
+
+06:03.000 --> 06:06.000
+You can add people in chats.
+
+06:06.000 --> 06:10.000
+Just the whole way at works is,
+at the same much nicer.
+
+06:10.000 --> 06:14.000
+Of course, the development curve
+is probably a little bit ahead
+on the Windows side
+
+06:14.000 --> 06:15.000
+if not a lot.
+
+06:15.000 --> 06:20.000
+And it makes a perfect big cell
+phone, actually, because now
+this tablet,
+
+06:20.000 --> 06:24.000
+you can walk around, you can
+take notes, you can answer the
+phone calls.
+
+06:24.000 --> 06:26.000
+Email works.
+
+06:26.000 --> 06:29.000
+I've been writing out emails
+with the tablet by hand.
+
+06:29.000 --> 06:32.000
+If you're just writing off
+little notes, it's great.
+
+06:32.000 --> 06:35.000
+I think once you get into a
+little more structured writing,
+
+06:35.000 --> 06:37.000
+it's not just about the way you,
+I mean,
+
+06:37.000 --> 06:41.000
+the typing is an essential part
+of the creative process somehow.
+
+06:41.000 --> 06:43.000
+So it's kind of necessary.
+
+06:43.000 --> 06:47.000
+But I could see where I could
+slip over a little bit and do
+more and more
+
+06:47.000 --> 06:50.000
+hand writing just with the pen
+on the tablet.
+
+06:50.000 --> 06:53.000
+I have horrible hand writing,
+and it still turns out pretty
+nice.
+
+06:53.000 --> 06:58.000
+So, of course, the next thing
+that is logical that I was going
+to do is
+
+06:58.000 --> 07:04.000
+record a podcast with this and
+start to learn what it takes,
+
+07:04.000 --> 07:06.000
+what kind of software is out
+there.
+
+07:06.000 --> 07:09.000
+There is a lot of software.
+
+07:09.000 --> 07:12.000
+But the first thing I
+discovered, which no one really
+talked about that much,
+
+07:12.000 --> 07:14.000
+I think it's something that's
+always been in Windows,
+
+07:14.000 --> 07:17.000
+is this is the volume control
+panel.
+
+07:17.000 --> 07:21.000
+If you have a speaker icon, the
+bottom of your system tray,
+
+07:21.000 --> 07:26.000
+a double click on it, it'll open
+up a mixer window with
+
+07:26.000 --> 07:30.000
+faders, with sliders, slider
+controls, which is very familiar
+to me.
+
+07:30.000 --> 07:33.000
+You'll have volume control wave,
+which is essentially
+
+07:33.000 --> 07:36.000
+every output from every
+application.
+
+07:36.000 --> 07:41.000
+Then you can have CD drive, line
+in a microphone,
+
+07:42.000 --> 07:44.000
+and the microphone has its own
+little slider here.
+
+07:44.000 --> 07:47.000
+I'll just tap the pen on it and
+I can move it down and move it
+back up
+
+07:47.000 --> 07:52.000
+and it has a little mute, I can
+turn on and off and that works
+great.
+
+07:52.000 --> 07:57.000
+And particularly with the pen,
+it's almost like you're grabbing
+the fader
+
+07:57.000 --> 08:00.000
+like you would in a radio studio
+situation.
+
+08:00.000 --> 08:03.000
+So, it feels really familiar.
+
+08:03.000 --> 08:06.000
+Of course, no software that
+really doesn't.
+
+08:06.000 --> 08:09.000
+There's a Windows sound
+recorder, I think.
+
+08:10.000 --> 08:15.000
+I just hunted around and came up
+with something really simple.
+
+08:15.000 --> 08:21.000
+It was a super MP3 recorder pro,
+cost 29 bucks if you want to
+record
+
+08:21.000 --> 08:26.000
+over 41 seconds worth of audio,
+which is all the free version
+does.
+
+08:26.000 --> 08:30.000
+Basically, it's a very, very
+simple application you set it up
+
+08:30.000 --> 08:32.000
+and you set up what source it's
+supposed to record,
+
+08:32.000 --> 08:34.000
+so you could say record only the
+microphone,
+
+08:34.000 --> 08:36.000
+or in this case it said record
+the stereo out.
+
+08:36.000 --> 08:41.000
+So everything that normally
+would be passed off to the
+speaker
+
+08:41.000 --> 08:45.000
+is now in addition to going
+through the headphones for great
+monitoring
+
+08:45.000 --> 08:47.000
+really like the fact that I can
+hear myself
+
+08:47.000 --> 08:51.000
+is also being recorded by the
+Super MP3 recorder pro
+
+08:51.000 --> 08:54.000
+and it has a beautiful extra
+feature to it
+
+08:54.000 --> 08:57.000
+where once you're done recording
+you click stop
+
+08:57.000 --> 08:59.000
+and then you can actually edit
+the file.
+
+08:59.000 --> 09:01.000
+It's kind of the one stop thing
+you're looking for.
+
+09:01.000 --> 09:04.000
+What it doesn't include is a
+whole bunchet,
+
+09:04.000 --> 09:07.000
+like it a real good ID3 tag
+editor, and of course
+
+09:07.000 --> 09:11.000
+doesn't know how to upload
+anything to a server yet.
+
+09:11.000 --> 09:13.000
+But I found a lot of these
+programs.
+
+09:13.000 --> 09:14.000
+It seems like a lot of them
+actually
+
+09:14.000 --> 09:16.000
+with different just different
+skins, but very similar.
+
+09:16.000 --> 09:19.000
+In fact, they're probably built
+to the same company
+
+09:19.000 --> 09:22.000
+but they're called something
+different.
+
+09:22.000 --> 09:25.000
+And it's essence, that's all you
+really need
+
+09:25.000 --> 09:28.000
+now that I was not that I
+realized
+
+09:28.000 --> 09:31.000
+that you have this little mixer
+built right into Windows
+
+09:31.000 --> 09:35.000
+that you can use to determine
+what goes into this recording
+device.
+
+09:35.000 --> 09:37.000
+I like that a lot.
+
+09:37.000 --> 09:42.000
+So now on my screen, I have the
+MP3 recorder pro open.
+
+09:42.000 --> 09:44.000
+Actually, I can just minimize
+that because
+
+09:44.000 --> 09:47.000
+it shows a handy little task bar
+icon
+
+09:47.000 --> 09:49.000
+up there's Patricia boiling the
+water.
+
+09:49.000 --> 09:54.000
+Hand little task bar icon that
+has little view meters
+
+09:54.000 --> 09:57.000
+so you know that you're actually
+still recording.
+
+09:57.000 --> 09:58.000
+I can't want minimize now.
+
+09:58.000 --> 09:59.000
+Let's see, there we go.
+
+09:59.000 --> 10:00.000
+Minimize.
+
+10:00.000 --> 10:01.000
+Still recording.
+
+10:01.000 --> 10:02.000
+Yeah.
+
+10:02.000 --> 10:04.000
+I have the notebook open
+
+10:04.000 --> 10:07.000
+so that I have my notes.
+
+10:07.000 --> 10:08.000
+Literally.
+
+10:08.000 --> 10:09.000
+I have my show notes.
+
+10:09.000 --> 10:12.000
+I've written up show notes
+tonight
+
+10:12.000 --> 10:15.000
+which I guess I'll go back and
+do some work on now
+
+10:15.000 --> 10:16.000
+that I don't know.
+
+10:16.000 --> 10:18.000
+It may really change the whole
+production process.
+
+10:18.000 --> 10:20.000
+It's just pretty cool.
+
+10:20.000 --> 10:23.000
+But it's also given me a lot of
+thought.
+
+10:23.000 --> 10:25.000
+A lot to think about really is
+to,
+
+10:25.000 --> 10:29.000
+what do you need to create a
+podcast?
+
+10:29.000 --> 10:32.000
+And it seems like this recording
+part
+
+10:32.000 --> 10:34.000
+is really much simpler.
+
+10:34.000 --> 10:37.000
+Only you have to kind of know
+where to find everything.
+
+10:37.000 --> 10:40.000
+So I'll put a link obviously to
+the software.
+
+10:40.000 --> 10:42.000
+So you can take a look at that.
+
+10:42.000 --> 10:45.000
+And again, if it's just double
+clicking on the speaker icon
+
+10:45.000 --> 10:47.000
+for your volume, normally you
+click once
+
+10:47.000 --> 10:50.000
+and it opens up a little control
+fader
+
+10:50.000 --> 10:52.000
+so you can turn the volume up or
+down.
+
+10:52.000 --> 10:56.000
+So in this case, double click it
+opens up this volume control
+
+10:56.000 --> 10:58.000
+and under options.
+
+10:58.000 --> 11:00.000
+You can, what is it?
+
+11:00.000 --> 11:01.000
+Let me see.
+
+11:01.000 --> 11:04.000
+I can also do it live on here
+with the under options.
+
+11:04.000 --> 11:06.000
+It's properties.
+
+11:06.000 --> 11:10.000
+And then properties you can
+select which controls you want
+on this window.
+
+11:10.000 --> 11:12.000
+So now I only have three open.
+
+11:12.000 --> 11:14.000
+I could have the line in if I
+added it.
+
+11:14.000 --> 11:16.000
+But it's the main volume control
+out.
+
+11:16.000 --> 11:17.000
+It's the wave.
+
+11:17.000 --> 11:19.000
+So that's everything from the
+applications.
+
+11:19.000 --> 11:20.000
+And it's microphone.
+
+11:20.000 --> 11:21.000
+And that's really all you need.
+
+11:21.000 --> 11:24.000
+Of course, what it lacks is a
+way to process
+
+11:24.000 --> 11:26.000
+the microphone sound.
+
+11:26.000 --> 11:29.000
+So you kind of get whatever you
+put into it,
+
+11:29.000 --> 11:31.000
+which is what you hear right
+now.
+
+11:31.000 --> 11:33.000
+I read ping-win.com.
+
+11:33.000 --> 11:37.000
+I are a TE ping-win.com.
+
+11:37.000 --> 11:39.000
+Check it out.
+
+11:39.000 --> 11:42.000
+I could use the little old
+cowbell and G.
+
+11:42.000 --> 11:46.000
+Really explore the studio space
+this time.
+
+11:46.000 --> 11:49.000
+Okay, you can tell I just picked
+up a couple of promos here
+
+11:50.000 --> 11:54.000
+I had to tag them all in my
+Gmail as daily source code
+stuff.
+
+11:54.000 --> 11:57.000
+And I figured I just got as much
+out of the way as I possibly
+could.
+
+11:57.000 --> 12:02.000
+What I'm doing now is I'm
+literally using the pen on the
+tablet.
+
+12:02.000 --> 12:07.000
+So at the see the next promo is
+it says podcast promo with
+little Charlie.
+
+12:07.000 --> 12:10.000
+So all I do is just double tap
+on it and it plays.
+
+12:11.000 --> 12:15.000
+Hey, I can move Charlie.
+
+12:15.000 --> 12:16.000
+I can leave my microphone.
+
+12:16.000 --> 12:19.000
+I'm Charlie and I catch on out
+here records.
+
+12:19.000 --> 12:22.000
+And then I get tired of trying
+to surf and have looking for
+
+12:22.000 --> 12:24.000
+worthless sites that don't help
+me at all.
+
+12:24.000 --> 12:26.000
+I want to hear the real blues.
+
+12:26.000 --> 12:29.000
+I check out Burdo on Bandanna
+Blues.
+
+12:29.000 --> 12:31.000
+That's here.
+
+12:31.000 --> 12:32.000
+I think that about Seth.
+
+12:32.000 --> 12:33.000
+Burdo here.
+
+12:33.000 --> 12:36.000
+Senior contributing editor for
+Burdo's wax magazine.
+
+12:36.000 --> 12:39.000
+Bringing you the best in 21st
+century blues.
+
+12:39.000 --> 12:41.000
+And the old masters.
+
+12:41.000 --> 12:46.000
+Subscribe to the podcast and
+find out about our 15th Annual
+Bandanna Blues.
+
+12:46.000 --> 12:50.000
+I'll near Philly August 6th.
+
+12:50.000 --> 12:52.000
+Right.
+
+12:52.000 --> 12:53.000
+Okay.
+
+12:53.000 --> 12:54.000
+So it works.
+
+12:54.000 --> 12:55.000
+Clearly.
+
+12:55.000 --> 12:56.000
+Now it shouldn't play on.
+
+12:56.000 --> 12:57.000
+Right.
+
+12:57.000 --> 12:58.000
+Okay.
+
+12:58.000 --> 12:59.000
+So actually it's cool.
+
+12:59.000 --> 13:00.000
+It actually queues up the next
+one.
+
+13:00.000 --> 13:01.000
+So then I'll have to do it.
+
+13:01.000 --> 13:02.000
+Just hit play.
+
+13:02.000 --> 13:03.000
+Oh, that's beautiful.
+
+13:03.000 --> 13:04.000
+So I'm learning more about
+Windows.
+
+13:04.000 --> 13:06.000
+Media player as well.
+
+13:06.000 --> 13:11.000
+And I just got to reconnect to
+my Wi-Fi here.
+
+13:11.000 --> 13:14.000
+That's kind of lame though in
+Windows web.
+
+13:14.000 --> 13:18.000
+And when you got a low battery
+or if you lose your Wi-Fi
+connectivity,
+
+13:18.000 --> 13:22.000
+when it comes back in, it'll
+tell you that with a little
+balloon that pops up.
+
+13:22.000 --> 13:25.000
+But I think the battery should
+say, you know,
+
+13:25.000 --> 13:28.000
+plug in your power supply or
+recharge your battery whatever.
+
+13:28.000 --> 13:30.000
+And when you plug it in like on
+the Mac, then that just,
+
+13:30.000 --> 13:33.000
+that that warning dialogue goes
+away.
+
+13:33.000 --> 13:36.000
+It doesn't do that on Windows,
+which is kind of sad.
+
+13:36.000 --> 13:38.000
+I'd written something down here
+in the show notes.
+
+13:38.000 --> 13:39.000
+Let me see.
+
+13:39.000 --> 13:40.000
+Oh, yeah.
+
+13:40.000 --> 13:41.000
+The pilot review is shoot.
+
+13:41.000 --> 13:42.000
+I'm sorry.
+
+13:42.000 --> 13:43.000
+I didn't do my well.
+
+13:43.000 --> 13:44.000
+Good.
+
+13:44.000 --> 13:45.000
+And then you get a little sound
+seeing tour here.
+
+13:45.000 --> 13:47.000
+So I've got the tablet on my
+left arm.
+
+13:47.000 --> 13:50.000
+And I'm just walking on the
+balcony.
+
+13:50.000 --> 13:52.000
+It's like a new way to do a
+sound seeing tour.
+
+13:52.000 --> 13:54.000
+I just need a different set of
+headphones.
+
+13:54.000 --> 13:55.000
+It's a plane going up overhead.
+
+13:55.000 --> 14:00.000
+I'm at the edge of the balcony
+here.
+
+14:01.000 --> 14:03.000
+You can hear the sounds of South
+Beach at night.
+
+14:03.000 --> 14:04.000
+It's a beautiful night.
+
+14:04.000 --> 14:07.000
+It was kind of chilly today by
+floor to standards.
+
+14:07.000 --> 14:11.000
+It was like 70, low 70s.
+
+14:11.000 --> 14:14.000
+We had a rainy day yesterday.
+
+14:14.000 --> 14:16.000
+This is actually not bad.
+
+14:16.000 --> 14:18.000
+I just wish I had a less
+conspicuous headset.
+
+14:18.000 --> 14:20.000
+I've got like, you know, pilot
+headset on.
+
+14:20.000 --> 14:21.000
+It's literally what this looks
+like.
+
+14:21.000 --> 14:24.000
+Speaking of which, let me get
+that magazine home on a second.
+
+14:24.000 --> 14:30.000
+Let me see, which one it was.
+
+14:30.000 --> 14:35.000
+It was a really funny article I
+wanted to share with you.
+
+14:35.000 --> 14:38.000
+Was this the one?
+
+14:38.000 --> 14:41.000
+Oh, in a second.
+
+14:41.000 --> 14:45.000
+See now I have to look at.
+
+14:45.000 --> 14:47.000
+It's not in the index.
+
+14:47.000 --> 14:50.000
+The condo we're renting.
+
+14:50.000 --> 14:53.000
+See if there's just 10 minutes
+and time.
+
+14:54.000 --> 14:59.000
+Is owned by a quite a famous
+architect actually.
+
+14:59.000 --> 15:01.000
+And she is a fixed wing pilot.
+
+15:01.000 --> 15:07.000
+And she was nice enough to leave
+a couple of her AOPA pilot
+magazines laying around,
+
+15:07.000 --> 15:10.000
+which he said she did
+intentionally because she knew I
+was a pilot.
+
+15:10.000 --> 15:14.000
+And there was an article in here
+that I really wanted to share
+with you
+
+15:14.000 --> 15:20.000
+because it was absolutely
+fascinating stuff all along.
+
+15:21.000 --> 15:23.000
+Well, fascinating maybe.
+
+15:23.000 --> 15:26.000
+A little bit over the top.
+
+15:26.000 --> 15:28.000
+Damn.
+
+15:28.000 --> 15:30.000
+What the hell?
+
+15:30.000 --> 15:34.000
+Okay, let me look in the index
+here for a second.
+
+15:34.000 --> 15:37.000
+Um.
+
+15:37.000 --> 15:40.000
+Well, that's probably why you're
+never again.
+
+15:40.000 --> 15:42.000
+But for a test pilot, hang or
+talk.
+
+15:42.000 --> 15:44.000
+No, no, no, no.
+
+15:44.000 --> 15:46.000
+Shoot.
+
+15:46.000 --> 15:49.000
+Shoot if prep this better for
+you.
+
+15:50.000 --> 15:53.000
+Um.
+
+15:53.000 --> 15:55.000
+Hold on.
+
+15:55.000 --> 15:57.000
+Let me just check the other
+index.
+
+15:57.000 --> 16:05.000
+I'm going to wash up the skip
+that and do it the next time.
+
+16:05.000 --> 16:06.000
+Do.
+
+16:06.000 --> 16:08.000
+I like so can't find this.
+
+16:08.000 --> 16:10.000
+I hate that.
+
+16:10.000 --> 16:12.000
+Okay.
+
+16:12.000 --> 16:14.000
+I promise I'll prep better the
+next time.
+
+16:14.000 --> 16:16.000
+Okay, I'll tell you what it was.
+
+16:17.000 --> 16:21.000
+Um, so this is a pilot's
+magazine and they put all kinds
+of stuff in there.
+
+16:21.000 --> 16:25.000
+Like, you know, the stuff, the
+10 minutes I'll never forget the
+thing that I did really wrong
+
+16:25.000 --> 16:27.000
+fucked up and lived to tell the
+story.
+
+16:27.000 --> 16:29.000
+You know, basic stuff like that.
+
+16:29.000 --> 16:32.000
+And in there, and I'll, and I'll
+look it up after after the show.
+
+16:32.000 --> 16:35.000
+And I'll do it on tomorrow's
+podcast, I promise.
+
+16:35.000 --> 16:43.000
+Um, it was a story about
+different superstar clients who
+fly on private jets.
+
+16:43.000 --> 16:48.000
+Basically, the pilot's kissing
+and telling about who was really
+nice and who's a real shithead.
+
+16:48.000 --> 16:54.000
+Now, I can give you one guess
+about one superstar performer
+who is considered the worst
+human being by all
+
+16:54.000 --> 16:56.000
+an aviation who have ever flown
+her.
+
+16:56.000 --> 16:58.000
+That would be Mariah Carey.
+
+16:58.000 --> 17:00.000
+So I'll make sure I find that.
+
+17:00.000 --> 17:01.000
+I'm sorry.
+
+17:01.000 --> 17:02.000
+I should have prep that better.
+
+17:02.000 --> 17:05.000
+Um, but it's an excellent
+excellent article.
+
+17:05.000 --> 17:07.000
+Uh, so I'll make sure I find
+that.
+
+17:07.000 --> 17:11.000
+And we'll talk about on
+tomorrow's podcast.
+
+17:12.000 --> 17:16.000
+My name is Patrick McLean, and
+every week I write and produce
+the shoniki.
+
+17:16.000 --> 17:20.000
+It's a podcast that takes its
+name from a Celtic word, meaning
+storyteller.
+
+17:20.000 --> 17:25.000
+And to give you an idea of what
+it's like, I've written a 28
+second episode.
+
+17:25.000 --> 17:29.000
+It's called Rusty Bender.
+
+17:29.000 --> 17:35.000
+The 10 man goes out drinking
+with a scarecrow and wakes up in
+the cornfield covered in dew.
+
+17:35.000 --> 17:40.000
+And he realizes the reason the
+scarecrow always drinks him
+under the table is that his
+belly is filled with straw.
+
+17:40.000 --> 17:43.000
+Alcohol, soap, straw.
+
+17:43.000 --> 17:46.000
+So he creaks off in search of a
+match.
+
+17:46.000 --> 17:49.000
+He's going to show that
+scarecrow.
+
+17:49.000 --> 17:55.000
+If a good story sounds like
+something you're interested in,
+then please check out the
+shoniki
+
+17:55.000 --> 17:58.000
+at goodwordsrightorder.com.
+
+17:58.000 --> 18:01.000
+Okay.
+
+18:01.000 --> 18:04.000
+Lots of cool podcasts to check
+out.
+
+18:05.000 --> 18:08.000
+Why does that sound so nice?
+
+18:08.000 --> 18:10.000
+Okay.
+
+18:10.000 --> 18:13.000
+That's kind of cool.
+
+18:13.000 --> 18:14.000
+Okay.
+
+18:14.000 --> 18:16.000
+So I made a mistake there on
+Windows Media Play.
+
+18:16.000 --> 18:21.000
+If you double tap the song, then
+it just plays that track.
+
+18:21.000 --> 18:24.000
+If you hit play, then it will
+actually play the one after
+that.
+
+18:24.000 --> 18:26.000
+Like it's starting a playlist.
+
+18:26.000 --> 18:31.000
+Something I got in was like
+recordings of old AM radio
+stations from the 70s.
+
+18:31.000 --> 18:32.000
+Yeah.
+
+18:32.000 --> 18:33.000
+That's a big stuff.
+
+18:33.000 --> 18:35.000
+That's pretty cool.
+
+18:35.000 --> 18:40.000
+All right.
+
+18:40.000 --> 18:45.000
+Okay.
+
+18:45.000 --> 18:47.000
+So fine.
+
+18:47.000 --> 18:48.000
+Let's see.
+
+18:48.000 --> 18:51.000
+What else did I learn while
+we're here in the States?
+
+18:51.000 --> 18:58.000
+Oh, had a little interesting
+experience with Simphone Locks.
+
+18:59.000 --> 19:03.000
+I don't know if you've ever had
+a cell phone, a GSM phone, and
+wanted to use a different
+
+19:03.000 --> 19:04.000
+service provider.
+
+19:04.000 --> 19:06.000
+Actually, I believe it's
+outlawed.
+
+19:06.000 --> 19:10.000
+Or now I found out what the real
+law is in Europe.
+
+19:10.000 --> 19:14.000
+You know, the phones for many,
+many years in most countries
+were subsidized.
+
+19:14.000 --> 19:19.000
+So you'd pay your monthly phone
+rental time or whatever.
+
+19:19.000 --> 19:21.000
+And then you pay by minute,
+obviously.
+
+19:21.000 --> 19:26.000
+And you could sometimes get a
+phone for free or at a reduced
+rate.
+
+19:26.000 --> 19:30.000
+And the way they do that is you
+couldn't basically switch to a
+different provider if you did.
+
+19:30.000 --> 19:34.000
+Then the phone will just say
+it's locked and it won't accept
+a different SIM card.
+
+19:34.000 --> 19:41.000
+The SIM card is basically all
+the little chip card that
+contains all the data about you
+in your account.
+
+19:41.000 --> 19:46.000
+And often, of course, it
+contains phone numbers, limited
+amount, but it contains, you
+know, some phone numbers.
+
+19:46.000 --> 19:50.000
+And we all have GSM phones with
+Virgin Mobile.
+
+19:50.000 --> 19:53.000
+And while we're in, you know,
+here's the pricing.
+
+19:53.000 --> 19:57.000
+It's one pound, what was it?
+
+19:57.000 --> 20:07.000
+There's one pound 40 per minute
+to call anywhere using your
+Virgin Mobile while roaming in
+the states.
+
+20:07.000 --> 20:09.000
+89 pens, I think.
+
+20:09.000 --> 20:11.000
+So that's almost $2.
+
+20:11.000 --> 20:17.000
+It's like a dollar, a dollar or
+80 per minute incoming.
+
+20:18.000 --> 20:22.000
+It was like, you know, it's
+money, you know, that's an
+incredible amount.
+
+20:22.000 --> 20:25.000
+And of course, he was Skype all
+the time.
+
+20:25.000 --> 20:28.000
+My in-laws are staying back at
+the cottage.
+
+20:28.000 --> 20:31.000
+They've been taking care of the
+pets and looking after
+everything.
+
+20:31.000 --> 20:33.000
+And we just call them on Skype.
+
+20:33.000 --> 20:37.000
+Patricia puts the headphones on
+and they've got the Skype
+telephone over there.
+
+20:37.000 --> 20:38.000
+So it rings with them.
+
+20:38.000 --> 20:43.000
+It's just like a regular phone,
+you know, nothing special.
+
+20:43.000 --> 20:46.000
+But we still wanted to have US
+numbers while we're here.
+
+20:46.000 --> 20:47.000
+So we could call each other.
+
+20:47.000 --> 20:49.000
+So I went to T Mobile.
+
+20:49.000 --> 20:54.000
+And they allowed it to just
+purchase a SIM card with a phone
+number on it.
+
+20:54.000 --> 20:55.000
+And it was great.
+
+20:55.000 --> 20:57.000
+You know, that was a reasonably
+simple process.
+
+20:57.000 --> 21:02.000
+Although I couldn't buy three
+SIM cards at once had to buy and
+pay for each one each time,
+
+21:02.000 --> 21:04.000
+which totally sucked.
+
+21:04.000 --> 21:07.000
+And then I put it into my Sony.
+
+21:07.000 --> 21:11.000
+The Sony Ericsson, the, was it
+the 700i.
+
+21:11.000 --> 21:12.000
+And no problem.
+
+21:12.000 --> 21:13.000
+Booted right up.
+
+21:13.000 --> 21:14.000
+And I was often calling.
+
+21:14.000 --> 21:19.000
+And then I put it into Christina
+and Patricia's phone and it got
+SIM locked.
+
+21:19.000 --> 21:22.000
+And I thought that that was
+illegal.
+
+21:22.000 --> 21:28.000
+It turns out the actual law is
+if you've spent a minimum of 30
+pounds with the current
+provider.
+
+21:28.000 --> 21:31.000
+They have to unlock your phone
+by law.
+
+21:31.000 --> 21:35.000
+So I called them up and they
+said, yeah, no problem
+explaining the situation.
+
+21:35.000 --> 21:36.000
+Yeah, no problem.
+
+21:36.000 --> 21:37.000
+And they checked.
+
+21:37.000 --> 21:39.000
+And of course, we spent more
+than 30 pounds on both of those
+accounts.
+
+21:39.000 --> 21:43.000
+By the way, mine was not locked
+because it's much harder
+apparently to SIM lock.
+
+21:43.000 --> 21:46.000
+So in Ericsson, that is a Nokia.
+
+21:46.000 --> 21:50.000
+So that's, that's a little, a
+little clue for you for the
+future.
+
+21:50.000 --> 21:53.000
+And then Christina's unlocked
+with the code the gaming book.
+
+21:53.000 --> 21:56.000
+It could never get Patricia's to
+unlock, which sucked.
+
+21:56.000 --> 21:58.000
+And I sent her to another email,
+didn't hear back from.
+
+21:58.000 --> 21:59.000
+So whatever.
+
+21:59.000 --> 22:03.000
+But man, that wasn't quite as
+simple as I thought it would be.
+
+22:03.000 --> 22:10.000
+And I discovered, as I said,
+that the law is not that they
+have to open it up to you,
+
+22:10.000 --> 22:12.000
+and to use with a different
+provider.
+
+22:12.000 --> 22:17.000
+They only have to do that if
+you've spent a minimum of 30
+pounds in order for them.
+
+22:17.000 --> 22:24.000
+So that's a $60 in order for
+them to recoup their investment
+on the phone, I guess.
+
+22:24.000 --> 22:30.000
+So of course, Pope John Paul,
+the second passed away.
+
+22:30.000 --> 22:36.000
+I've, you know, here in the
+States is so much television,
+including the high definition
+channels,
+
+22:36.000 --> 22:38.000
+which is kind of trippy.
+
+22:38.000 --> 22:42.000
+It looks kind of like, you know,
+European television.
+
+22:42.000 --> 22:44.000
+Quality wise.
+
+22:44.000 --> 22:46.000
+Not content wise.
+
+22:46.000 --> 22:53.000
+But knowing that we have a
+Catholic podcast amongst us, I
+was paying particular attention
+
+22:53.000 --> 22:58.000
+to the Catholic insider and to
+Father Roderick's Catholic
+insider.com podcast.
+
+22:58.000 --> 23:03.000
+Let's just listen to a little
+bit of that because it really
+was, it really was quite
+special.
+
+23:03.000 --> 23:11.000
+Just to hear, to hear someone be
+so involved physically because
+he jumped on a plane and went to
+Rome,
+
+23:11.000 --> 23:13.000
+but also emotionally.
+
+23:17.000 --> 23:20.000
+Oh, hold on. Let's screw that
+up. Let me try that again.
+
+23:20.000 --> 23:22.000
+Darn.
+
+23:22.000 --> 23:23.000
+Okay.
+
+23:23.000 --> 23:27.000
+Problem here is I didn't have
+the fader open. Let's try it
+again.
+
+23:27.000 --> 23:37.000
+Catholic insider April 2, 2005,
+midnight edition.
+
+23:37.000 --> 23:41.000
+Thank you very much.
+
+23:41.000 --> 23:47.000
+Thank you very much.
+
+23:47.000 --> 23:53.000
+Thank you very much.
+
+23:53.000 --> 23:57.000
+Hi everybody. Welcome to this
+extra podcast from Rome.
+
+23:57.000 --> 23:59.000
+I am Father Roderick.
+
+23:59.000 --> 24:05.000
+This evening, I will take you to
+the Vatican where we will
+witness the reaction of the
+50,000 people
+
+24:05.000 --> 24:15.000
+gathered there to the news that
+Pope John Paul II has passed
+away.
+
+24:21.000 --> 24:31.000
+I am standing on the roof of the
+Dutch college and in the
+distance you can hear the bells
+of Rome.
+
+24:31.000 --> 24:39.000
+The Pope has died. The
+announcement has been made a
+couple of minutes ago.
+
+24:39.000 --> 24:47.000
+The bells of the St. Peter have
+started and now all the churches
+follow the example.
+
+24:47.000 --> 24:59.000
+And soon all the bells in Rome
+and all over the world will be
+ringing to honor this great Pope
+
+24:59.000 --> 25:05.000
+that has passed away.
+
+25:05.000 --> 25:09.000
+That's a part I like best man
+where you hear the dog barking
+in the car driving by in the
+distance.
+
+25:09.000 --> 25:28.000
+In the distance I can see the
+dome of the St. Peter of the
+Basilica and there the people
+mourn the departure of this
+great man.
+
+25:28.000 --> 25:36.000
+And it can hear more and more
+bells starting to ring.
+
+25:36.000 --> 25:42.000
+It's everywhere.
+
+25:42.000 --> 25:48.000
+So I suggest you definitely go
+over and check out the Catholic
+Insider Catholic Insider.com
+
+25:48.000 --> 25:54.000
+Father Roderick really, you
+know, actually when I hear this
+podcast or podcast like this,
+
+25:54.000 --> 26:00.000
+it reminds me a lot of before we
+had the word podcast and Dave
+Slusher was doing evil genius
+chronicles
+
+26:00.000 --> 26:04.000
+and we're going back and forth.
+He would say something on his
+show and then I would say
+something on mine.
+
+26:04.000 --> 26:08.000
+Talking about the name was an
+audio blog.
+
+26:08.000 --> 26:11.000
+I think Dave Slusher at the time
+said bundles of passion.
+
+26:11.000 --> 26:16.000
+And I was thinking, you know,
+that's really, it is a good,
+it's not a sexy marketing like
+word,
+
+26:16.000 --> 26:20.000
+but it's a very good description
+of what that kind of podcast is.
+
+26:20.000 --> 26:26.000
+You know, it really truly is a
+bundle of passion, just
+absolutely beautiful to listen
+to that.
+
+26:26.000 --> 26:32.000
+So thanks to all for not
+berating me about barely doing
+any podcast this week.
+
+26:32.000 --> 26:42.000
+I'll probably do another one
+with Ron on the balcony tomorrow
+night before we take off because
+on Tuesday we go back to London.
+
+26:42.000 --> 26:45.000
+I'm going to be there for
+actually I'm going to be there
+for just a couple days.
+
+26:45.000 --> 26:46.000
+I'm coming back again.
+
+26:46.000 --> 26:52.000
+Back in New York on Monday
+because things are heating up
+and we're getting ready to, you
+know,
+
+26:52.000 --> 26:54.000
+to come out as it were.
+
+26:54.000 --> 26:56.000
+Yeah, that's the right word to
+come out.
+
+26:56.000 --> 26:58.000
+So thank you very much.
+
+26:58.000 --> 27:00.000
+It's been a beautiful vacation
+for us.
+
+27:00.000 --> 27:02.000
+The weather has been great.
+
+27:02.000 --> 27:08.000
+Long live wireless, you know,
+that let's you kind of still be
+a part of the family and
+
+27:08.000 --> 27:16.000
+the gapingings and and still,
+you know, get some stuff done.
+
+27:16.000 --> 27:18.000
+Really, my two girls have been
+great.
+
+27:18.000 --> 27:26.000
+Patricia and Christina, they've
+let me slip off and have secret
+meetings with Ron and, you know,
+run around and get on Skype
+conference calls.
+
+27:26.000 --> 27:29.000
+God, I have to say it again,
+man, Skype, what an invention.
+
+27:29.000 --> 27:31.000
+I hope those guys become
+billionaires.
+
+27:31.000 --> 27:33.000
+It's so incredibly cool what
+they've done.
+
+27:33.000 --> 27:36.000
+What's Patricia, she's coming
+out here and see what she's got
+going on.
+
+27:37.000 --> 27:39.000
+What you got there?
+
+27:39.000 --> 27:42.000
+Oh, thank you.
+
+27:42.000 --> 27:45.000
+A cup of tea and a candle.
+
+27:45.000 --> 27:47.000
+Yeah, it's lovely.
+
+27:47.000 --> 27:50.000
+That's a problem with this
+microphone is when I want to
+drink something.
+
+27:50.000 --> 27:51.000
+Yeah.
+
+27:51.000 --> 27:53.000
+It kind of gets in the way.
+
+27:53.000 --> 27:56.000
+What do you think of my, my
+setup here?
+
+27:56.000 --> 27:57.000
+Hot, oh shit.
+
+27:57.000 --> 27:58.000
+Oh, is your nose.
+
+27:58.000 --> 27:59.000
+Huh?
+
+27:59.000 --> 28:00.000
+Oh, is your nose.
+
+28:00.000 --> 28:01.000
+My nose.
+
+28:01.000 --> 28:02.000
+That's not my nose.
+
+28:02.000 --> 28:03.000
+That's not my nose.
+
+28:03.000 --> 28:04.000
+That's not my nose.
+
+28:04.000 --> 28:07.000
+Thank you, hon.
+
+28:07.000 --> 28:09.000
+Yeah.
+
+28:09.000 --> 28:10.000
+It's beautiful.
+
+28:10.000 --> 28:11.000
+Yeah, now it's perfect.
+
+28:11.000 --> 28:14.000
+It's the perfect night for a
+podcast.
+
+28:14.000 --> 28:15.000
+Yes.
+
+28:15.000 --> 28:17.000
+We have to do another PPP.
+
+28:17.000 --> 28:18.000
+Yes.
+
+28:18.000 --> 28:19.000
+Yes, we do that.
+
+28:19.000 --> 28:20.000
+We can get back home.
+
+28:20.000 --> 28:22.000
+PPP is on vacation.
+
+28:22.000 --> 28:24.000
+PPP is on vacation.
+
+28:24.000 --> 28:27.000
+H to the sea is out here.
+
+28:27.000 --> 28:28.000
+Pizza, pizza.
+
+28:28.000 --> 28:30.000
+Pizza, pizza.
+
+28:30.000 --> 28:31.000
+Okay.
+
+28:31.000 --> 28:32.000
+There you go.
+
+28:32.000 --> 28:35.000
+That's the difference between my
+wife and me.
+
+28:35.000 --> 28:36.000
+Hmm.
+
+28:36.000 --> 28:37.000
+Okay.
+
+28:37.000 --> 28:39.000
+So what I'm going to do is I'm
+going to drink a little bit of
+my tea here.
+
+28:39.000 --> 28:41.000
+And the meantime, let me play a
+mashup for you.
+
+28:41.000 --> 28:43.000
+This is one that came in.
+
+28:43.000 --> 28:44.000
+Oh, man.
+
+28:44.000 --> 28:47.000
+I'll go have to go look that up
+again in the show notes.
+
+28:47.000 --> 28:49.000
+It's done by a fault side.
+
+28:49.000 --> 28:51.000
+And it's called let keen in.
+
+28:51.000 --> 28:54.000
+It is basically a mashup.
+
+28:54.000 --> 28:55.000
+Whoa.
+
+28:55.000 --> 28:59.000
+Of Paul McCartney and keen.
+
+28:59.000 --> 29:00.000
+No catch on when you hear him.
+
+29:00.000 --> 29:03.000
+The mix is just absolutely
+phenomenal.
+
+29:06.250 --> 32:23.750
+[ Music ]
+
+32:26.000 --> 32:28.000
+I don't know whether it's just
+my headphones
+
+32:28.000 --> 32:32.000
+or a sound like it was
+completely out of phase
+
+32:32.000 --> 32:34.000
+This is something new we'll
+learn here
+
+32:34.000 --> 32:40.000
+It also sounds maybe like a 3D
+effect on window's media player
+
+32:40.000 --> 32:47.760
+on. That's kind of weird. Let
+keen in, done by a fault side on
+your daily source code.
+
+32:47.760 --> 32:49.960
+And let me hit you with another
+promo here.
+
+32:49.960 --> 32:56.000
+Hello and welcome to
+NapervilleCommerce.com, your
+community on the internet.
+
+32:56.000 --> 33:00.480
+I'm Jeff Namesher, the host of
+the program here, and I'll be
+bringing you the news, views,
+
+33:00.480 --> 33:05.000
+reviews and events that are
+happening in Naperville, along
+with interviews with the people
+
+33:06.000 --> 33:07.000
+who help make our community
+great.
+
+33:07.000 --> 33:12.000
+Be sure to check out the site at
+www.napervilleCommerce.com.
+
+33:12.000 --> 33:16.000
+Subscribe to the RSS feed in
+order to automatically receive
+the news shows.
+
+33:16.000 --> 33:18.000
+And thanks for tuning in.
+
+33:18.000 --> 33:23.000
+That's when radio is really at
+its best man, when it's in a
+geographic community.
+
+33:23.000 --> 33:27.000
+I mean, that's at least the way
+I learned how to make radio.
+
+33:27.000 --> 33:30.000
+And now that we have this
+alternative distribution form,
+
+33:30.000 --> 33:33.000
+if you're making radio at least,
+which is kind of a community
+feedback mechanism,
+
+33:34.000 --> 33:39.000
+they of course can go beyond the
+geographical community and go to
+the community of interest.
+
+33:39.000 --> 33:42.000
+But still, when you do that for
+a geographical community,
+
+33:42.000 --> 33:43.000
+it's even better.
+
+33:43.000 --> 33:44.000
+I love it.
+
+33:44.000 --> 33:48.000
+So that's the
+NapervilleCommerce.com and the
+podcast.
+
+33:48.000 --> 33:49.000
+Something else.
+
+33:49.000 --> 33:50.000
+I just have one more promo to
+play for you.
+
+33:50.000 --> 33:52.000
+This is a great idea.
+
+33:52.000 --> 33:58.000
+We actually, one time Lawrence
+Lessick released his book.
+
+33:59.000 --> 34:01.000
+I'm forgetting the name of it.
+
+34:01.000 --> 34:03.000
+The culture.
+
+34:03.000 --> 34:05.000
+Okay, I'll look that up.
+
+34:05.000 --> 34:08.000
+And a whole bunch of podcasts.
+
+34:08.000 --> 34:09.000
+I don't know if there weren't
+even podcasts,
+
+34:09.000 --> 34:11.000
+so just people who were
+interested jumped in
+
+34:11.000 --> 34:14.000
+and each recorded an audio book
+chapter.
+
+34:14.000 --> 34:18.000
+And a couple people, I even, I
+made an RSS feed out of it
+
+34:18.000 --> 34:20.000
+and a couple other people did
+that as well.
+
+34:20.000 --> 34:25.000
+And now comes the very first
+novel to be published as a
+podcast.
+
+34:25.000 --> 34:29.000
+Deep below a desolate Utah
+mountain lies the largest platen
+
+34:29.000 --> 34:31.000
+deposit ever discovered.
+
+34:31.000 --> 34:33.000
+A billion dollar fine.
+
+34:33.000 --> 34:36.000
+It waits for any company that
+can draw a world record
+
+34:36.000 --> 34:38.000
+three mile deep mine shaft.
+
+34:38.000 --> 34:41.000
+Perth Corps is the company with
+the technology,
+
+34:41.000 --> 34:45.000
+the resources, and the guts to
+go after the mother load.
+
+34:45.000 --> 34:49.000
+Young executive Colonel Kirkland
+is the company's driving force,
+
+34:49.000 --> 34:53.000
+pushing himself and those are on
+him to uncover the mass of
+treasure.
+
+34:53.000 --> 34:57.000
+But at three miles below the
+surface where the rocks are so
+hot
+
+34:57.000 --> 35:01.000
+they burn bare skin, something
+has been waiting for centuries.
+
+35:01.000 --> 35:03.000
+Waiting and guarding.
+
+35:03.000 --> 35:07.000
+Kirkland and Earth Corps are
+about to find out first hand
+just why
+
+35:07.000 --> 35:10.000
+this treasure hasn't ever been
+on earth.
+
+35:10.000 --> 35:13.000
+Earth Corps is the world's first
+podcast only novel.
+
+35:13.000 --> 35:16.000
+You can't buy in stores and you
+can't peek at the end.
+
+35:16.000 --> 35:20.000
+This serialized action suspense
+novel with a new episode
+
+35:20.000 --> 35:23.000
+which will have you at the Edge
+of your aggregator.
+
+35:23.000 --> 35:28.000
+Subscribe directly at
+feeds.feedburner.com slash earth
+corps.
+
+35:28.000 --> 35:34.000
+Learn more about the book at
+www.scotsegler.net slash earth
+corps.
+
+35:34.000 --> 35:36.000
+Okay, I got to remember that
+one.
+
+35:36.000 --> 35:38.000
+It'll have you on the edge of
+your aggregator.
+
+35:38.000 --> 35:40.000
+I love that. What a great turn.
+
+35:40.000 --> 35:42.000
+Definitely going to use that.
+
+35:42.000 --> 35:48.000
+Hey, and thanks to the guys over
+at Gmail for doubling the
+storage.
+
+35:48.000 --> 35:50.000
+Now what a great marketing
+campaign that was.
+
+35:50.000 --> 35:53.000
+All of a sudden you get that
+little red tab at the top of
+your Gmail that says
+
+35:53.000 --> 35:57.000
+new features and it says, hey,
+we're going to infinity plus
+one.
+
+35:57.000 --> 36:01.000
+If you click on the link and it
+takes this page where you see
+the actual
+
+36:01.000 --> 36:06.000
+storage size growing and kind of
+like a national debt clock and
+you go
+
+36:06.000 --> 36:07.000
+quick back to your Gmail
+account.
+
+36:07.000 --> 36:12.000
+You can see you have got 1.7
+gigs and of course it went up to
+two gigabytes
+
+36:12.000 --> 36:15.000
+and not a moment too soon.
+
+36:15.000 --> 36:19.000
+What has it been like six weeks
+since I haven't been able to do
+anything with
+
+36:19.000 --> 36:22.000
+MP3 feedback at gmail.com.
+
+36:22.000 --> 36:23.000
+So I guess it's wide open again.
+
+36:23.000 --> 36:26.000
+Send send in your promo sending
+your stuff.
+
+36:26.000 --> 36:30.000
+But please send it to MP3
+feedback at gmail.com.
+
+36:30.000 --> 36:33.000
+Since you all have been sending
+it to adamaccurry.com.
+
+36:33.000 --> 36:36.000
+That's great, but now I want to
+try and keep that for just pure
+text
+
+36:36.000 --> 36:37.000
+communications.
+
+36:37.000 --> 36:41.000
+But man, those guys are another
+bunch of guys I hope become
+
+36:41.000 --> 36:43.000
+billionaires or wait a minute.
+
+36:43.000 --> 36:44.000
+Maybe.
+
+36:44.000 --> 36:45.000
+Yes.
+
+36:45.000 --> 36:47.000
+They already are billionaires.
+
+36:47.000 --> 36:49.000
+It's time.
+
+36:49.000 --> 36:50.000
+Once again.
+
+36:50.000 --> 36:52.000
+Hey, young.
+
+36:52.000 --> 36:53.000
+Hello.
+
+36:53.000 --> 36:54.000
+Hey, Adam.
+
+36:54.000 --> 36:56.000
+It's time for another hit edge.
+
+36:56.000 --> 36:58.000
+Then this one is a special
+version.
+
+36:58.000 --> 36:59.000
+Oh, okay.
+
+36:59.000 --> 37:00.000
+It's a themed one.
+
+37:00.000 --> 37:01.000
+So a themed one.
+
+37:01.000 --> 37:04.000
+Let's see if you can figure out
+what the theme is.
+
+37:04.000 --> 37:06.000
+This is number one.
+
+37:07.000 --> 37:10.000
+Oh, I just, well, of course.
+
+37:10.000 --> 37:13.000
+How do you like your eggs in the
+morning?
+
+37:13.000 --> 37:16.000
+Uh, Dean Martin and Helen
+O'Connell.
+
+37:16.000 --> 37:19.000
+The theme from my morning radio
+show on radio.
+
+37:19.000 --> 37:20.000
+Number two.
+
+37:20.000 --> 37:23.000
+What?
+
+37:23.000 --> 37:30.000
+I don't know what idea what that
+was.
+
+37:30.000 --> 37:33.000
+Was that sounded like the, like,
+the 18th.
+
+37:33.000 --> 37:34.000
+And the final one.
+
+37:34.000 --> 37:35.000
+Number three.
+
+37:35.000 --> 37:38.000
+Two thousand.
+
+37:38.000 --> 37:44.000
+Uh, I don't even know what the
+theme is, young.
+
+37:44.000 --> 37:46.000
+I'm sorry.
+
+37:46.000 --> 37:48.000
+Maybe it's the out of phase
+headphones.
+
+37:48.000 --> 37:50.000
+But I have no idea what the ones
+were.
+
+37:50.000 --> 37:52.000
+The theme is not very hard to
+guess.
+
+37:52.000 --> 37:54.000
+Here are the answers.
+
+37:54.000 --> 37:55.000
+Curry and the crew.
+
+37:55.000 --> 37:56.000
+Right.
+
+37:56.000 --> 37:58.000
+Well, Adam, I haven't seen you
+for a long time.
+
+37:58.000 --> 38:00.000
+Oh, Adam is appointed.
+
+38:01.000 --> 38:05.000
+However, I've been disappointed
+more often in my life,
+
+38:05.000 --> 38:08.000
+especially in sexual things.
+
+38:08.000 --> 38:11.000
+Uh, these are.
+
+38:11.000 --> 38:14.000
+That is the news reader, Adam
+Lungabar,
+
+38:14.000 --> 38:17.000
+who I worked with for a year
+doing the morning show.
+
+38:17.000 --> 38:19.000
+Take a check out the pipes on
+that guy.
+
+38:19.000 --> 38:21.000
+Well, she didn't get interested
+in something.
+
+38:21.000 --> 38:23.000
+Problem with getting hot.
+
+38:23.000 --> 38:25.000
+She's in full school time.
+
+38:25.000 --> 38:27.000
+I'm over bonus with this.
+
+38:27.000 --> 38:28.000
+I'm necessary.
+
+38:28.000 --> 38:29.000
+Um, yes.
+
+38:29.000 --> 38:30.000
+The music.
+
+38:30.000 --> 38:31.000
+We're going to talk about the
+music.
+
+38:31.000 --> 38:34.000
+I think it had something to do
+with chicken.
+
+38:34.000 --> 38:35.000
+Right?
+
+38:35.000 --> 38:36.000
+Chicken wings.
+
+38:36.000 --> 38:37.000
+Eggs.
+
+38:37.000 --> 38:38.000
+Yes.
+
+38:38.000 --> 38:39.000
+Good to be eggs.
+
+38:39.000 --> 38:40.000
+Oh, actually.
+
+38:40.000 --> 38:41.000
+In the morning.
+
+38:41.000 --> 38:42.000
+Yeah.
+
+38:42.000 --> 38:43.000
+Eggs in the morning.
+
+38:43.000 --> 38:44.000
+Bye.
+
+38:44.000 --> 38:46.000
+The voice you hear in the
+background is, uh,
+
+38:46.000 --> 38:47.000
+methyl fainstrap.
+
+38:47.000 --> 38:48.000
+He was, uh,
+
+38:48.000 --> 38:49.000
+another part of the curry in the
+crew.
+
+38:49.000 --> 38:52.000
+And I'm sure Alex on their
+statements is there as well.
+
+38:52.000 --> 38:53.000
+I don't know.
+
+38:53.000 --> 38:54.000
+Um,
+
+38:54.000 --> 38:55.000
+Good morning, Adam.
+
+38:55.000 --> 38:56.000
+Good morning.
+
+38:56.000 --> 38:57.000
+Good morning.
+
+38:57.000 --> 39:00.000
+Very end the crew without curry
+because we're the crew.
+
+39:00.000 --> 39:01.000
+We agree.
+
+39:01.000 --> 39:02.000
+Yes.
+
+39:02.000 --> 39:03.000
+Yeah.
+
+39:03.000 --> 39:05.000
+Well, I can tell the listeners
+who we are.
+
+39:05.000 --> 39:06.000
+Yeah.
+
+39:06.000 --> 39:07.000
+Well, as we deal with with Adam.
+
+39:07.000 --> 39:08.000
+Mr. Curry.
+
+39:08.000 --> 39:09.000
+Yes.
+
+39:09.000 --> 39:10.000
+Mr. Curry.
+
+39:10.000 --> 39:11.000
+Um, well, I'm Mike.
+
+39:11.000 --> 39:13.000
+And this is Alex.
+
+39:13.000 --> 39:14.000
+Hi there.
+
+39:14.000 --> 39:15.000
+And as Alan's.
+
+39:15.000 --> 39:16.000
+Hello.
+
+39:16.000 --> 39:18.000
+So we're the crew.
+
+39:18.000 --> 39:21.000
+And the morning show already
+over on a guy.
+
+39:21.000 --> 39:24.000
+Starting September 2003.
+
+39:24.000 --> 39:25.000
+Yeah.
+
+39:25.000 --> 39:27.000
+We're still September 2004.
+
+39:27.000 --> 39:30.000
+It was called Curry in the crew
+with Curry being curry.
+
+39:30.000 --> 39:32.000
+And us being the crew.
+
+39:32.000 --> 39:33.000
+Okay.
+
+39:33.000 --> 39:35.000
+So the songs were typical for
+our show.
+
+39:35.000 --> 39:39.000
+And well, they're the ones
+featured in this episode of the
+hit.
+
+39:39.000 --> 39:40.000
+All right. So that's it.
+
+39:40.000 --> 39:41.000
+Thanks for the morning.
+
+39:41.000 --> 39:43.000
+Thanks for the morning.
+
+39:43.000 --> 39:44.000
+From now on.
+
+39:44.000 --> 40:06.250
+[ Music ]
+
+40:07.000 --> 40:08.000
+I'll do that.
+
+40:08.000 --> 40:09.000
+I'm telling you.
+
+40:09.000 --> 40:12.000
+I love songs from that genre.
+
+40:12.000 --> 40:15.000
+I'm totally gay when it comes to
+that stuff.
+
+40:15.000 --> 40:18.000
+I can't have enough show tunes.
+
+40:18.000 --> 40:20.000
+And Dean Martin, hello, no.
+
+40:20.000 --> 40:21.000
+All right.
+
+40:21.000 --> 40:24.000
+I'm telling you.
+
+40:24.000 --> 40:26.000
+Cool.
+
+40:26.000 --> 40:27.000
+Excellent.
+
+40:27.000 --> 40:28.000
+Okay.
+
+40:28.000 --> 40:30.000
+What do you got to say?
+
+40:30.000 --> 40:32.000
+I was going to say.
+
+40:32.000 --> 40:34.000
+It sounds like it's easy to talk
+with Viva Las Vegas.
+
+40:34.000 --> 40:35.000
+Now I get it.
+
+40:35.000 --> 40:36.000
+Yeah.
+
+40:36.000 --> 40:38.000
+We took the whole crew to Las
+Vegas.
+
+40:38.000 --> 40:40.000
+And we married 10 of our
+listeners.
+
+40:40.000 --> 40:42.000
+I'm sure they'll talk about that
+one.
+
+40:42.000 --> 40:43.000
+We had there.
+
+40:43.000 --> 40:44.000
+Yes.
+
+40:44.000 --> 40:47.000
+We spent a week in Vegas for a
+special action.
+
+40:47.000 --> 40:48.000
+We did with the listeners.
+
+40:48.000 --> 40:53.000
+People got bright in and asked
+to be married by Adam in Las
+Vegas.
+
+40:53.000 --> 40:55.000
+So we went there for a week.
+
+40:55.000 --> 40:58.000
+In the morning show from the
+rock, my club.
+
+40:58.000 --> 40:59.000
+It looks like a hotel.
+
+40:59.000 --> 41:00.000
+We had a blast.
+
+41:00.000 --> 41:01.000
+Yeah, it was cool.
+
+41:01.000 --> 41:02.000
+Five couples.
+
+41:02.000 --> 41:03.000
+Yeah.
+
+41:03.000 --> 41:04.000
+Yeah.
+
+41:04.000 --> 41:05.000
+Five couples come here.
+
+41:05.000 --> 41:06.000
+And nice to know.
+
+41:06.000 --> 41:07.000
+They're still married.
+
+41:07.000 --> 41:08.000
+Yeah.
+
+41:08.000 --> 41:09.000
+My record's still perfect.
+
+41:09.000 --> 41:18.000
+You know, how cool is it that we
+can do this, man?
+
+41:18.000 --> 41:20.000
+I mean, this is just so
+outrageous.
+
+41:20.000 --> 41:36.000
+I'm sitting here in a balcony in
+South Beach, Florida.
+
+41:36.000 --> 41:39.000
+There's a hit test that has been
+put together by young polette.
+
+41:39.000 --> 41:42.000
+A guy I have never met in
+person.
+
+41:42.000 --> 41:45.000
+And he's reached out to the guys
+I used to work with on the
+radio.
+
+41:45.000 --> 41:46.000
+They put that together.
+
+41:46.000 --> 41:48.000
+And now I'm sharing it with you.
+
+41:48.000 --> 41:49.000
+It's just amazing.
+
+41:49.000 --> 41:50.000
+The first record.
+
+41:50.000 --> 41:51.000
+The third record.
+
+41:51.000 --> 41:52.000
+Yes.
+
+41:52.000 --> 41:53.000
+It's Nutty.
+
+41:53.000 --> 41:54.000
+Fritado.
+
+41:54.000 --> 41:55.000
+I think so.
+
+41:55.000 --> 41:56.000
+Okay.
+
+41:56.000 --> 41:57.000
+Okay.
+
+41:57.000 --> 41:58.000
+Nelly Furtado.
+
+41:58.000 --> 42:03.000
+I'll see if Mike Alexor or Adam
+tell the story behind that song.
+
+42:03.000 --> 42:08.000
+That is, indeed, one of the
+songs that we played over and
+over in the morning.
+
+42:08.000 --> 42:11.000
+And it's got a Dutch title as
+well.
+
+42:11.000 --> 42:13.000
+We had a song which sounds like
+a test.
+
+42:13.000 --> 42:14.000
+It is that right.
+
+42:14.000 --> 42:16.000
+And it's called a form of main
+verse.
+
+42:16.000 --> 42:18.000
+And what does it mean?
+
+42:18.000 --> 42:21.000
+Eacculate on my breast.
+
+42:21.000 --> 42:22.000
+Okay.
+
+42:22.000 --> 42:25.000
+So this Nelly Furtado song.
+
+42:25.000 --> 42:30.000
+What she sings sounds very much
+like the Dutch sentence.
+
+42:31.000 --> 42:34.000
+And Adam just explained what
+that means.
+
+42:34.000 --> 42:37.000
+So of course when you do a wacky
+morning show everybody.
+
+42:37.000 --> 42:41.000
+You got to do a takeoff version
+of the song.
+
+42:41.000 --> 42:46.000
+Well, we did a spoof on this
+record.
+
+42:46.000 --> 42:47.000
+What it was a hit.
+
+42:47.000 --> 42:52.000
+Because in Dutch foreside sounds
+just like Borsa which is tits.
+
+42:52.000 --> 42:54.000
+So, well, you know, we love
+tits.
+
+42:54.000 --> 42:55.000
+Yeah.
+
+42:55.000 --> 42:57.000
+We really big tits.
+
+42:57.000 --> 42:59.000
+Oh God, you know this.
+
+43:01.250 --> 43:28.000
+[ Music ]
+
+43:28.000 --> 43:33.000
+Oh man, that just got a lot of
+this.
+
+43:33.000 --> 43:35.000
+So that's it basically.
+
+43:35.000 --> 43:39.000
+One thing young for the
+opportunity to do this.
+
+43:39.000 --> 43:40.000
+Thank you young.
+
+43:40.000 --> 43:42.000
+Thank you young.
+
+43:42.000 --> 43:45.000
+And thank you young for me as
+well.
+
+43:45.000 --> 43:47.000
+And we'll become famous now.
+
+43:47.000 --> 43:48.000
+We're sent to young.
+
+43:48.000 --> 43:49.000
+On Danish source code.
+
+43:49.000 --> 43:50.000
+Yeah.
+
+43:50.000 --> 43:51.000
+Yeah, I reckon.
+
+43:51.000 --> 43:53.000
+Yeah, perhaps more listeners
+than on the radio.
+
+43:53.000 --> 43:55.000
+I have to go in.
+
+43:55.000 --> 43:56.000
+I have to go in.
+
+43:56.000 --> 43:57.000
+I know.
+
+43:57.000 --> 43:59.000
+I've got a very, very, very,
+very touchy on.
+
+43:59.000 --> 44:00.000
+Yeah, yeah.
+
+44:00.000 --> 44:01.000
+You're as famous.
+
+44:01.000 --> 44:02.000
+Well, you're as famous.
+
+44:02.000 --> 44:03.000
+Well, we're going to go in.
+
+44:03.000 --> 44:04.000
+Okay.
+
+44:04.000 --> 44:05.000
+My arms.
+
+44:05.000 --> 44:06.000
+Oh, my arms.
+
+44:06.000 --> 44:08.000
+And I'm fine.
+
+44:08.000 --> 44:09.000
+Okay.
+
+44:09.000 --> 44:11.000
+The crew from Korea and the
+crew.
+
+44:11.000 --> 44:13.000
+Alex Stevens.
+
+44:13.000 --> 44:14.000
+Mike Venge Stride.
+
+44:14.000 --> 44:16.000
+And of course, Alan Longabed.
+
+44:16.000 --> 44:17.000
+The news guy here in the
+Netherlands.
+
+44:17.000 --> 44:18.000
+Thanks a lot guys.
+
+44:18.000 --> 44:20.000
+It was fun and thanks for the
+tour of the studios.
+
+44:20.000 --> 44:22.000
+Hope to see you again soon.
+
+44:22.000 --> 44:25.000
+Well, I'm this wraps up the
+special edition of the hit test.
+
+44:25.000 --> 44:27.000
+I really hope you enjoyed it.
+
+44:27.000 --> 44:30.000
+See you next time for a regular
+edition of the hit test.
+
+44:30.000 --> 44:33.000
+And in the meantime, the
+information about the hit test
+and the hit test
+
+44:33.000 --> 44:35.000
+can be found at yompoled.net.
+
+44:35.000 --> 44:38.000
+That's J-A-N-B-O-L-E-T-D-O-N-L
+
+44:38.000 --> 44:41.000
+and feedback can be sent to
+hittest.gmail.com.
+
+44:41.000 --> 44:43.000
+See you next time, bye-bye.
+
+44:43.000 --> 44:44.000
+Alright, thank you very much.
+
+44:44.000 --> 44:47.000
+Yompolet always surprising me
+with something new
+
+44:47.000 --> 44:48.000
+and of course the crew.
+
+44:48.000 --> 44:51.000
+I'm longer better than my heel
+fainst than Alex on the stay.
+
+44:51.000 --> 44:52.000
+That was great guys.
+
+44:52.000 --> 44:54.000
+I really, really, really
+appreciate it.
+
+44:54.000 --> 44:56.000
+And I'm looking forward to
+seeing you guys again real soon.
+
+44:56.000 --> 45:00.000
+We're doing a little reunion
+because we also went to a rack
+and broadcast
+
+45:00.000 --> 45:04.000
+from Camp Smitty for, was it for
+a full week?
+
+45:04.000 --> 45:07.000
+And we left our transmitter
+behind.
+
+45:07.000 --> 45:09.000
+Transmida!
+
+45:09.000 --> 45:12.000
+The Marines needed a stand-in
+transmitter.
+
+45:12.000 --> 45:15.000
+And we also left the dish
+behind.
+
+45:15.000 --> 45:18.000
+So they could basically hear the
+hometown radio station
+
+45:18.000 --> 45:19.000
+throughout Camp.
+
+45:19.000 --> 45:22.000
+And now that the Dutch
+officially left Iraq
+
+45:22.000 --> 45:24.000
+and took their place.
+
+45:24.000 --> 45:27.000
+Was it...
+
+45:27.000 --> 45:29.000
+I remember it was Italian
+Spaniards?
+
+45:29.000 --> 45:32.000
+Well, anyway, the Dutch are out
+
+45:32.000 --> 45:34.000
+and they're back home.
+
+45:34.000 --> 45:37.000
+And I guess they want to hand
+over the transmitter
+
+45:37.000 --> 45:39.000
+officially and thank us for
+that.
+
+45:39.000 --> 45:41.000
+And then with one fell swoop,
+
+45:41.000 --> 45:43.000
+we're going to hand it right
+back to them because
+
+45:43.000 --> 45:45.000
+they're going to use it for
+their next mission,
+
+45:45.000 --> 45:47.000
+which is Afghanistan.
+
+45:47.000 --> 45:49.000
+So, just goes to show.
+
+45:49.000 --> 45:51.000
+Great hit test.
+
+45:51.000 --> 45:53.000
+I really appreciate it.
+
+45:53.000 --> 45:55.000
+Alrighty, that was it.
+
+45:55.000 --> 45:57.000
+Another daily source code.
+
+45:57.000 --> 45:59.000
+I have no idea how this sounds.
+
+45:59.000 --> 46:02.000
+I have a feeling the microphone
+sounds pretty shitty.
+
+46:02.000 --> 46:07.000
+But maybe it's just me shivering
+from the cold
+
+46:07.000 --> 46:09.000
+but it's now gotten a little bit
+chilly
+
+46:09.000 --> 46:13.000
+or it's 10 past 10 in the
+evening on Sunday night.
+
+46:14.000 --> 46:16.000
+Comments at americancurry.com.
+
+46:16.000 --> 46:19.000
+We'll leave a comment on
+www.curry.com.
+
+46:19.000 --> 46:23.000
+From us, other stuff for the MP3
+stuff
+
+46:23.000 --> 46:27.000
+send it off to MP3feedback at
+gmail.com.
+
+46:27.000 --> 46:31.000
+If you want to subscribe to this
+podcast
+
+46:31.000 --> 46:33.000
+if you're not already, you can
+pick up the podcast feed
+
+46:33.000 --> 46:35.000
+at dailysourcecode.com.
+
+46:35.000 --> 46:37.000
+We can find the latest show and
+most recent archives.
+
+46:37.000 --> 46:41.000
+That's it from South Beach,
+Florida,
+
+46:41.000 --> 46:43.000
+from the curry condo.
+
+46:43.000 --> 46:47.000
+Back tomorrow night with another
+two guys on the balcony.
+
+46:47.000 --> 46:49.000
+Take care everybody. Bye bye.

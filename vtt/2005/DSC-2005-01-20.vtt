@@ -1,0 +1,2894 @@
+WEBVTT
+
+00:00.000 --> 00:07.000
+The Daily Source Code Thursday,
+January 20, 2005.
+
+00:07.000 --> 00:14.760
+Yes, Mr. Corey. Yes, this is ten
+from Starbucks on the manager
+here, sir. And I'm calling
+
+00:14.760 --> 00:21.800
+to apologize, this is somewhat
+embarrassing. So the actions of
+one of our former, and I do
+
+00:21.800 --> 00:29.560
+emphasize former assistant
+managers. Apparently, this
+person who I will remain
+
+00:29.560 --> 00:39.080
+nameless had a mate at BT. And
+the two of them conspired to
+interfere with your efforts
+
+00:39.080 --> 00:49.440
+to get broadband at your home.
+So according to my notes here,
+they were misguided to say
+
+00:49.440 --> 00:57.440
+the least in their efforts to
+prolong the exposure our store
+was getting on your show.
+
+00:57.440 --> 01:02.960
+I'm not quite sure what that
+means, but that's what it says
+here. In any case, I do
+
+01:02.960 --> 01:10.680
+apologize and I'd love to offer
+you three Starbucks for the next
+year, but this is England
+
+01:10.680 --> 01:16.560
+and I'm afraid the best I can do
+is offer you my sincere
+apologies. So I hope you all
+
+01:16.560 --> 01:22.560
+accept them. And now I'm afraid
+I've got to get on the phone
+with BT because apparently
+
+01:22.560 --> 01:27.560
+there's several homes on your
+street that are now receiving
+broadband who never ordered
+
+01:27.560 --> 01:34.560
+them. So have a good day, sir,
+and cheers.
+
+01:34.560 --> 01:41.560
+I'm proud of you casting with
+Adam Curry.
+
+01:41.560 --> 01:48.080
+Hey everybody, it's the source
+code for Thursday. Thursday,
+January 20, 2005, coming to you
+
+01:48.080 --> 01:57.640
+from the Ocaro hotel. In
+Amsterdam, boy, this is maybe a
+little bit funky. So we're in
+
+01:57.640 --> 02:01.560
+the Laughalier microphone, so I
+cut down on the baggage rate on
+the plane.
+
+02:01.560 --> 02:13.560
+It's been a weird day. It's
+really got some interesting news
+on telephone calls today.
+
+02:13.560 --> 02:21.560
+I've kind of been enjoying this
+room that I scored completely
+through the weblog.
+
+02:21.560 --> 02:28.560
+Watch some of the inauguration,
+like I could watch anything else
+on television.
+
+02:28.560 --> 02:43.560
+And yeah, just chilled out a
+little bit. Got a little
+re-energized.
+
+02:43.560 --> 02:49.760
+Okay, so I actually didn't start
+to record. I did a little bit
+of... I tried to do some
+
+02:49.760 --> 02:55.560
+sound seeing recording this
+morning, but it just didn't work
+out. It was a real hassle
+
+02:55.560 --> 03:00.560
+because I think at first I
+thought, it's actually really
+easy to put the receiver,
+
+03:00.560 --> 03:07.560
+while it's receiver in my bag
+along with the I River recording
+everything.
+
+03:07.560 --> 03:11.560
+But then I thought, really, when
+it comes to the sound seeing
+stuff, I want to be able to hear
+exactly
+
+03:11.560 --> 03:16.560
+what it is that you're going to
+hear, because it's totally
+different that you're ears
+
+03:16.560 --> 03:22.560
+here without listening,
+listening all the way through
+the recording device.
+
+03:22.560 --> 03:27.560
+So yeah, and that would mean
+that I'd have to have all this
+stuff with me and have to take
+
+03:27.560 --> 03:32.560
+it off going through security,
+and I just decided to ask for
+it. I don't know how to do that.
+
+03:32.560 --> 03:39.560
+But maybe another time, another
+flight. It was another
+un-eventful, easy jet
+experience.
+
+03:39.560 --> 03:44.560
+Although there's always that, I
+don't know where it is. Maybe
+the, well, you know,
+
+03:44.560 --> 03:48.560
+actually they're just a very
+well-run airline, I guess. And
+at the very last minute,
+
+03:48.560 --> 03:53.560
+I was thinking like, wow, it's
+10 o'clock, 10, 10, 10, 10, 10,
+15.
+
+03:53.560 --> 03:58.560
+Maybe they should change the,
+you know, weight for gate
+announcement to either delayed
+
+03:58.560 --> 04:02.560
+or to give us the gate. And then
+all of a sudden, it just, you
+know, does pop up,
+
+04:02.560 --> 04:04.560
+and then it's real efficient,
+boom, you're on board.
+
+04:04.560 --> 04:09.560
+Loved it again, completely. And,
+you know, that whole thing, you
+know, you throw out
+
+04:09.560 --> 04:12.560
+your own trash and they come
+through the aisles with the
+trash bags.
+
+04:12.560 --> 04:16.560
+And, you know, so even with your
+fellow passengers, like, hey,
+can I borrow your newspaper,
+
+04:16.560 --> 04:20.560
+a guy next to me said, yeah,
+sure, go ahead. You know, here's
+the pieces that I've already
+read.
+
+04:20.560 --> 04:25.560
+And then he said, yeah, the,
+some candy, whatever, you know,
+can I offer you some?
+
+04:25.560 --> 04:29.560
+It looks like you're kind of
+like, you're all buddies, you
+know, on easy jet.
+
+04:29.560 --> 04:35.560
+Totally digging that. So, what's
+it? Well, of course, I have a
+lot of stuff written
+
+04:35.560 --> 04:41.560
+down and stuff in, in my outline
+for show notes that we can do
+today.
+
+04:42.560 --> 04:45.560
+I want to say a little bit about
+this, about this hotel room.
+
+04:45.560 --> 04:49.560
+First of all, what happened is,
+I posted on my weblog as I've
+been doing recently,
+
+04:49.560 --> 04:54.560
+you know, who knows a decent
+hotel room in X, X being the
+place
+
+04:54.560 --> 04:58.560
+that I'm going to travel that
+has good Wi-Fi.
+
+04:58.560 --> 05:04.560
+And so far, the web is always
+steered me in the right
+direction, both for the room
+
+05:04.560 --> 05:12.560
+and for the connectivity. And
+through this blog post, the PR
+manager for the
+
+05:12.560 --> 05:17.560
+Akura Hotel in Amsterdam, which
+is, it's beautiful hotel. I
+mean, I've been here many times.
+
+05:17.560 --> 05:20.560
+There were actually, I don't
+think I've actually, oh, yeah,
+no, Patricia and I actually
+stayed here
+
+05:20.560 --> 05:27.560
+when we had our first night
+together. Oh, yeah, that's
+right, baby.
+
+05:27.560 --> 05:35.560
+And so they rebuilt a number of
+floors and the 22nd floors, the
+first one that's done.
+
+05:35.560 --> 05:39.560
+These are junior sweets. And no
+one has ever slept in them
+before.
+
+05:39.560 --> 05:44.560
+In fact, there's no one else on
+the entire floor, which is kind
+of creepy at the same time.
+
+05:44.560 --> 05:48.560
+But they really did this right.
+I mean, so I got an incredible
+deal on this.
+
+05:48.560 --> 05:52.560
+I'm not, not free, but I got a
+great deal.
+
+05:52.560 --> 06:00.560
+This is exactly the kind of room
+you want if you're away from
+home.
+
+06:00.560 --> 06:06.560
+And you need your kind of like
+your office space, you need to
+really comfortable bed, you want
+to be.
+
+06:06.560 --> 06:09.560
+And this is, it's also a guy
+room, you know, it's got this
+wood paneling.
+
+06:09.560 --> 06:12.560
+It's totally, that's actually,
+that's something I just noticed.
+
+06:12.560 --> 06:16.560
+This is a very much a guy
+interior, not a chick room at
+all.
+
+06:16.560 --> 06:20.560
+But they got the nice, the
+tulips, very nice touch there.
+
+06:20.560 --> 06:29.560
+And it's very cute. But you
+know, then they've got the
+massive plasma screen flat
+screen, which, you know, I have
+a flat screen company.
+
+06:29.560 --> 06:36.560
+But I'm definitely not a 16 by 9
+guy, which, you know, is the
+extended stretched out screen.
+
+06:36.560 --> 06:44.560
+Because many of the broadcasts
+that I watch are 4 by 3, which
+is the regular television screen
+size.
+
+06:44.560 --> 06:47.560
+And then these plasma screens,
+they stretch it out.
+
+06:48.560 --> 06:53.560
+And I don't like it. I don't
+like seeing down. I want to see
+what people really look like.
+It's weird to look at that.
+
+06:53.560 --> 06:59.560
+So then if you switch it to 4 by
+3, then of course you have these
+black banners on the side either
+side of the screen.
+
+06:59.560 --> 07:03.560
+So anyway, I'm not going to mess
+with the settings. It's fine.
+
+07:03.560 --> 07:08.560
+And there's also, I thought it
+was an LCD, but it is a little
+mini plasma that's in the
+bathroom as well. It's cool.
+
+07:08.560 --> 07:15.560
+And the service is great. And
+I'm able to crack a window open.
+It's really windy. It's been
+very windy in Europe.
+
+07:15.560 --> 07:20.560
+It's been windy in the back in
+the UK, which I was telling me
+today.
+
+07:20.560 --> 07:26.560
+I got a great view of the entire
+city. That's really nice. It was
+foggier earlier on.
+
+07:26.560 --> 07:31.560
+So this is, yes, this is like
+the ultimate dorm room. You
+know, it couldn't be any better.
+
+07:31.560 --> 07:34.560
+So I'm totally enjoying that.
+
+07:34.560 --> 07:40.560
+How to meeting up with the
+bunker today with Crystal my PA
+assistant, well she's one of PA.
+
+07:40.560 --> 07:43.560
+She really does a lot of crap.
+
+07:43.560 --> 07:48.560
+Take care of a lot of shit.
+
+07:48.560 --> 07:53.560
+And see, well, there's a phone
+call that I got, which I want to
+talk about later on.
+
+07:53.560 --> 08:00.560
+First, let's just give you a
+little quick little sound seeing
+two or of the room.
+
+08:00.560 --> 08:04.560
+Because I hold on.
+
+08:04.560 --> 08:06.560
+There we go.
+
+08:06.560 --> 08:09.560
+So I'm going to go with the
+window here for a second.
+
+08:09.560 --> 08:22.560
+If you can hear the wind
+holling.
+
+08:22.560 --> 08:26.560
+It's quite a down a little bit.
+
+08:26.560 --> 08:29.560
+So this is the bed.
+
+08:29.560 --> 08:33.560
+And walking past the desk into
+the hallway.
+
+08:33.560 --> 08:35.560
+This is the entrance hallway.
+
+08:35.560 --> 08:38.560
+Now I'm walking into the
+bathroom.
+
+08:38.560 --> 08:41.560
+And you can hear the little
+flat.
+
+08:41.560 --> 08:44.560
+It was a matchline, Philips,
+matchline, flat TV.
+
+08:44.560 --> 08:47.560
+It's a, I don't know if I made
+it.
+
+08:47.560 --> 08:48.560
+There's LCD.
+
+08:48.560 --> 08:50.560
+It's definitely not plastic.
+
+08:50.560 --> 08:52.560
+Or it is plastic.
+
+08:52.560 --> 08:54.560
+Yeah, there's LCD.
+
+08:54.560 --> 08:55.560
+Cute though.
+
+08:55.560 --> 08:59.560
+I have snook her all.
+
+08:59.560 --> 09:01.560
+Yeah, it's really nice.
+
+09:01.560 --> 09:04.560
+It might actually take a bath.
+
+09:04.560 --> 09:11.560
+Now what they also did very well
+in this room is, the plasma is,
+and it's a very,
+
+09:11.560 --> 09:12.560
+it is a guy room.
+
+09:12.560 --> 09:15.560
+It was totally business room.
+
+09:15.560 --> 09:22.560
+So the first channel when you
+boot up the plasma screen is an
+info channel for the hotel.
+
+09:22.560 --> 09:24.560
+The next channel is CNN.
+
+09:24.560 --> 09:25.560
+Smart.
+
+09:25.560 --> 09:27.560
+That's what everyone wants right
+when you walk in.
+
+09:27.560 --> 09:29.560
+Next one is CNBC.
+
+09:30.560 --> 09:33.560
+The Sally Crochet City Group
+CFO.
+
+09:33.560 --> 09:35.560
+She's kind of cute.
+
+09:35.560 --> 09:37.560
+Maria Bartaromo.
+
+09:37.560 --> 09:39.560
+Have you ever seen her?
+
+09:39.560 --> 09:41.560
+On CNBC.
+
+09:41.560 --> 09:44.560
+She's cute.
+
+09:44.560 --> 09:45.560
+Hmm.
+
+09:45.560 --> 09:47.560
+Talk numbers to me, baby.
+
+09:47.560 --> 09:50.560
+But now she looks all like flat
+and pudgy.
+
+09:50.560 --> 09:53.560
+Because of the plasma.
+
+09:53.560 --> 09:55.560
+Hmm, okay.
+
+09:56.560 --> 09:59.560
+So the next one is Sky News.
+
+09:59.560 --> 10:03.560
+Then it's the hell this is.
+
+10:03.560 --> 10:04.560
+This is BBC.
+
+10:04.560 --> 10:07.560
+They probably got a lot of
+English people staying here.
+
+10:07.560 --> 10:08.560
+It makes sense.
+
+10:08.560 --> 10:09.560
+They're at right.
+
+10:09.560 --> 10:10.560
+So here's BBC 2.
+
+10:10.560 --> 10:11.560
+Okay.
+
+10:11.560 --> 10:13.560
+Then BBC World.
+
+10:13.560 --> 10:20.560
+Now of course the BBC has their
+16 by nine shit all straightened
+out.
+
+10:20.560 --> 10:22.560
+So the screen immediately went
+to the right proportion.
+
+10:23.560 --> 10:25.560
+That's a big problem with this
+stuff.
+
+10:25.560 --> 10:26.560
+These guys saving money.
+
+10:26.560 --> 10:32.560
+Most of the commercial stations
+don't do it just because it's
+expensive to install that shit.
+
+10:32.560 --> 10:36.560
+You know, the encoders or
+whatever the hell it is.
+
+10:36.560 --> 10:37.560
+Okay.
+
+10:37.560 --> 10:38.560
+So now this is where they fucked
+up.
+
+10:38.560 --> 10:40.560
+So I got like four empty
+channels.
+
+10:40.560 --> 10:44.560
+Then we hit the local commercial
+RTL RTL 5,
+
+10:44.560 --> 10:47.560
+SPS6, our old station.
+
+10:47.560 --> 10:50.560
+Here's Jamie Oliver's that's RTL
+or net 5.
+
+10:50.560 --> 10:52.560
+Then we go to German.
+
+10:52.560 --> 10:54.560
+The German net works.
+
+10:54.560 --> 10:56.560
+This is Spanish.
+
+10:56.560 --> 10:57.560
+TV is Spanish.
+
+10:57.560 --> 11:00.560
+Oh, then of course we have an
+Asian channel.
+
+11:00.560 --> 11:01.560
+I don't know.
+
+11:01.560 --> 11:04.560
+It's got like 15 different
+subtitles.
+
+11:04.560 --> 11:09.560
+Okay.
+
+11:09.560 --> 11:10.560
+TV 5.
+
+11:10.560 --> 11:12.560
+That's French.
+
+11:12.560 --> 11:13.560
+Right.
+
+11:13.560 --> 11:14.560
+We know Italian.
+
+11:14.560 --> 11:16.560
+Discovery channel.
+
+11:16.560 --> 11:18.560
+We're like no audio.
+
+11:19.560 --> 11:21.560
+Then we got audio.
+
+11:22.560 --> 11:23.560
+Okay.
+
+11:23.560 --> 11:24.560
+Lane.
+
+11:24.560 --> 11:26.560
+Then we have, what's this?
+
+11:29.560 --> 11:30.560
+Okay.
+
+11:30.560 --> 11:31.560
+Some kind of info channel.
+
+11:31.560 --> 11:33.560
+Then we have MTV.
+
+11:33.560 --> 11:35.560
+Not playing music videos, of
+course.
+
+11:35.560 --> 11:36.560
+The music factory.
+
+11:36.560 --> 11:38.560
+Not playing music videos, of
+course.
+
+11:38.560 --> 11:40.560
+Then there's the Snooker game,
+Euro Sport.
+
+11:40.560 --> 11:42.560
+Then there's Bloomberg.
+
+11:42.560 --> 11:43.560
+Bloomberg's kind of cool.
+
+11:43.560 --> 11:46.560
+It's kind of like a weblog with
+a video blog in it.
+
+11:47.560 --> 11:48.560
+Oops.
+
+11:48.560 --> 11:50.560
+Just lost our host.
+
+11:50.560 --> 11:53.560
+I was like, Bloomberg TV is kind
+of interesting to watch.
+
+11:53.560 --> 11:55.560
+Maybe a movie channel.
+
+11:55.560 --> 11:57.560
+What is this?
+
+11:57.560 --> 11:59.560
+Oh, porn.
+
+11:59.560 --> 12:01.560
+Yep.
+
+12:01.560 --> 12:03.560
+Yeah, baby.
+
+12:03.560 --> 12:05.560
+Oh, cool.
+
+12:07.560 --> 12:08.560
+Okay.
+
+12:08.560 --> 12:10.560
+I'm not going to tell you what
+I'm seeing.
+
+12:10.560 --> 12:13.560
+Do you have your own little
+fantasy there?
+
+12:17.560 --> 12:21.560
+This is a good sound seeing
+experience.
+
+12:26.560 --> 12:28.560
+Alright. Let's see if there's
+more.
+
+12:28.560 --> 12:31.560
+Oh, there's another one.
+
+12:33.560 --> 12:35.560
+Oh, hold on.
+
+12:35.560 --> 12:38.560
+You got to get some better sound
+here.
+
+12:47.560 --> 12:48.560
+Yeah.
+
+12:54.560 --> 12:56.560
+It's cool. I don't have to pay
+for it.
+
+12:56.560 --> 12:58.560
+See, these guys are smart.
+
+12:58.560 --> 13:00.560
+Just give that shit away
+exactly.
+
+13:04.560 --> 13:06.560
+There's more channels.
+
+13:06.560 --> 13:07.560
+Alright.
+
+13:07.560 --> 13:09.560
+This is the boring part of the
+porn movie.
+
+13:09.560 --> 13:11.560
+Now it looks like that was it
+for porn.
+
+13:11.560 --> 13:12.560
+What?
+
+13:12.560 --> 13:13.560
+What?
+
+13:13.560 --> 13:14.560
+Back to porn?
+
+13:14.560 --> 13:15.560
+Okay.
+
+13:16.560 --> 13:18.560
+We'll back up.
+
+13:18.560 --> 13:20.560
+Let's back up to the first one.
+
+13:20.560 --> 13:21.560
+No.
+
+13:21.560 --> 13:22.560
+I want to go back.
+
+13:22.560 --> 13:24.560
+How'd that cost you?
+
+13:26.250 --> 13:53.750
+[ Music ]
+
+13:59.560 --> 14:01.560
+Alright, that's enough of that.
+
+14:01.560 --> 14:03.560
+You've had just about enough.
+
+14:03.560 --> 14:05.560
+Okay.
+
+14:05.560 --> 14:06.560
+Right.
+
+14:06.560 --> 14:07.560
+Good.
+
+14:07.560 --> 14:11.560
+Well, I've wasted about 14
+minutes of your time so far.
+
+14:11.560 --> 14:14.560
+Let's have someone else help us
+out with some
+
+14:14.560 --> 14:15.560
+stuff.
+
+14:15.560 --> 14:16.560
+Let me see.
+
+14:16.560 --> 14:18.560
+What was this?
+
+14:18.560 --> 14:19.560
+Oh, I think.
+
+14:19.560 --> 14:20.560
+Yeah.
+
+14:20.560 --> 14:21.560
+If this is what I think it is,
+then.
+
+14:21.560 --> 14:22.560
+Yep.
+
+14:22.560 --> 14:25.560
+The security is planned for the
+balls in the parade.
+
+14:25.560 --> 14:30.560
+Characters will be positioned by
+presidential motorcade when
+George Bush is
+
+14:30.560 --> 14:32.560
+sworn in for his second tour.
+
+14:32.560 --> 14:36.560
+That is told just like the first
+says Michael Moore.
+
+14:36.560 --> 14:38.560
+Brad and Jen may not divorce.
+
+14:38.560 --> 14:40.560
+Just have a trial separation.
+
+14:40.560 --> 14:42.560
+Brad still wears his wedding
+ring.
+
+14:42.560 --> 14:44.560
+That could be another care of
+the invocation.
+
+14:44.560 --> 14:48.560
+Unless Brad did have an affair
+with Angelina.
+
+14:48.560 --> 14:51.560
+That would remove the but they
+were so in love with Tina.
+
+14:51.560 --> 14:55.560
+A 67 year old woman had a baby.
+
+14:55.560 --> 14:58.560
+The oldest mother in his story.
+
+14:58.560 --> 15:01.560
+She took fertility pills for
+nine years.
+
+15:01.560 --> 15:04.560
+They be she lied about her age
+of his own.
+
+15:04.560 --> 15:06.560
+Lazy 63.
+
+15:06.560 --> 15:12.560
+The inauguration will go ahead
+to spline plan protests against
+the Warren Iraq and the cost
+
+15:12.560 --> 15:14.560
+of wanting and dining Bush's
+guests.
+
+15:14.560 --> 15:17.560
+Not one damn dime will be spend
+on January 20th.
+
+15:17.560 --> 15:19.560
+A professor's money.
+
+15:19.560 --> 15:21.560
+There knows maybe money.
+
+15:21.560 --> 15:23.560
+But they won't buy cleanest.
+
+15:23.560 --> 15:25.560
+Whether the weather is cold or
+sunny.
+
+15:25.560 --> 15:28.560
+Stay tuned for late breaking.
+
+15:28.560 --> 15:32.560
+That's the tap dancing.
+
+15:33.560 --> 15:37.560
+Yeah, baby.
+
+15:37.560 --> 15:39.560
+Love to hear that.
+
+15:39.560 --> 15:41.560
+The tap dancing podcast news.
+
+15:41.560 --> 15:44.560
+I'm sure there's going to be a
+new one after the inauguration
+today.
+
+15:44.560 --> 15:46.560
+So I'll try to get that on
+tomorrow's daily source code.
+
+15:46.560 --> 15:48.560
+Or you can pick it up on open
+podcast.
+
+15:48.560 --> 15:51.560
+It doesn't ever come through
+with ID three tags identified.
+
+15:51.560 --> 15:55.560
+So you're going to like catch it
+and search through all that
+stuff.
+
+15:55.560 --> 15:59.560
+Let me see.
+
+15:59.560 --> 16:01.560
+It's like late for me here.
+
+16:01.560 --> 16:03.560
+It's 9.38 p.m.
+
+16:03.560 --> 16:04.560
+Oh, I'm sorry.
+
+16:04.560 --> 16:05.560
+That's UK time.
+
+16:05.560 --> 16:07.560
+So here it's 10.38.
+
+16:07.560 --> 16:09.560
+And I'm just kind of tired.
+
+16:09.560 --> 16:11.560
+You know, I had room service.
+
+16:11.560 --> 16:13.560
+It's kind of weird.
+
+16:13.560 --> 16:15.560
+It's hotel rooms.
+
+16:15.560 --> 16:17.560
+I'm not a big hotel room fan.
+
+16:17.560 --> 16:18.560
+So it is nice.
+
+16:18.560 --> 16:20.560
+You know, I had this hotel room.
+
+16:20.560 --> 16:22.560
+Because I'll trick it out.
+
+16:22.560 --> 16:24.560
+But in essence, it's like,
+
+16:24.560 --> 16:26.560
+I like having people around.
+
+16:27.560 --> 16:28.560
+And there's no one here.
+
+16:28.560 --> 16:30.560
+And I had a lonely dinner all by
+myself.
+
+16:30.560 --> 16:32.560
+I had a steak sandwich.
+
+16:32.560 --> 16:37.560
+Let me just remove the porn for
+a moment.
+
+16:37.560 --> 16:40.560
+That's a little bit distracting.
+
+16:40.560 --> 16:45.560
+Just a little bit.
+
+16:45.560 --> 16:50.560
+So I don't know how much of the
+following story I've ever told.
+
+16:50.560 --> 16:53.560
+But I'm not going to go into it
+too in depth.
+
+16:53.560 --> 16:55.560
+A number of years ago,
+
+16:55.560 --> 16:57.560
+I had a partner.
+
+16:57.560 --> 16:59.560
+His name,
+
+16:59.560 --> 17:01.560
+a Simon Cavendish.
+
+17:01.560 --> 17:03.560
+Or so we thought his name was.
+
+17:03.560 --> 17:06.560
+And I'd known him for a number
+of years.
+
+17:06.560 --> 17:09.560
+And he had made some money.
+
+17:09.560 --> 17:12.560
+And with an ISP that he sold.
+
+17:12.560 --> 17:14.560
+And, you know, I'd made some
+money with my company.
+
+17:14.560 --> 17:15.560
+And I sold.
+
+17:15.560 --> 17:17.560
+And, you know, we'd always
+wanted to work together.
+
+17:17.560 --> 17:21.560
+And so we created a number of
+companies,
+
+17:21.560 --> 17:24.560
+including an aviation company.
+
+17:24.560 --> 17:26.560
+And, you know, we had a lot of
+interest.
+
+17:26.560 --> 17:29.560
+Writing on, you know, some
+trust.
+
+17:29.560 --> 17:33.560
+And all of a sudden one day he
+freaked out.
+
+17:33.560 --> 17:35.560
+And it was like, you know, I
+don't have any money anymore.
+
+17:35.560 --> 17:36.560
+Okay.
+
+17:36.560 --> 17:37.560
+So he's broke.
+
+17:37.560 --> 17:38.560
+That's one thing to deal with.
+
+17:38.560 --> 17:40.560
+But my name isn't Simon.
+
+17:40.560 --> 17:42.560
+It's, you know, it was
+irrelevant.
+
+17:42.560 --> 17:45.560
+I've been wanted by the Scotland
+yard.
+
+17:45.560 --> 17:46.560
+He was a British guy.
+
+17:46.560 --> 17:50.560
+You know, I've done jail time
+for Grand Theft Auto.
+
+17:50.560 --> 17:55.560
+And manufacturing MDMA in a
+whole country graph.
+
+17:55.560 --> 17:58.560
+And he sent this email to
+everybody.
+
+17:58.560 --> 18:01.560
+You know, all employees,
+bankers, financial contacts,
+
+18:01.560 --> 18:03.560
+the aviation industry.
+
+18:03.560 --> 18:05.560
+So that pretty much destroyed a
+lot of shit.
+
+18:05.560 --> 18:08.560
+And I'm still dealing with a lot
+of throwback from that.
+
+18:08.560 --> 18:12.560
+And so, of course, we were in
+all kinds of legal hassle.
+
+18:12.560 --> 18:14.560
+It was all bullshit.
+
+18:14.560 --> 18:17.560
+I mean, he was, it was bullshit.
+
+18:17.560 --> 18:19.560
+But anyway, took out a call
+today.
+
+18:19.560 --> 18:20.560
+He died.
+
+18:20.560 --> 18:21.560
+Motherfucker died.
+
+18:21.560 --> 18:24.560
+In Cambodia, where he was
+hiding,
+
+18:24.560 --> 18:26.560
+like God dammit, you
+motherfucker.
+
+18:26.560 --> 18:29.560
+You couldn't even, you know,
+can't finish anything,
+
+18:29.560 --> 18:31.560
+including this, you know.
+
+18:31.560 --> 18:35.560
+So it was funny because I got
+the call and I was like, you
+know,
+
+18:35.560 --> 18:38.560
+I've gotten the someone died
+call before,
+
+18:38.560 --> 18:40.560
+but I didn't have any kind of
+shock reaction with this.
+
+18:40.560 --> 18:42.560
+I was just like, fucker.
+
+18:42.560 --> 18:46.560
+So, and of course, then I felt a
+little different later on.
+
+18:46.560 --> 18:47.560
+You know, you go, it's weird.
+
+18:47.560 --> 18:48.560
+It's just weird.
+
+18:48.560 --> 18:49.560
+That's something you don't
+expect.
+
+18:49.560 --> 18:52.560
+And the weird thing is, he has a
+claim against me,
+
+18:52.560 --> 18:55.560
+which continues because he sold
+that claim to some fucking
+lawyer.
+
+18:55.560 --> 18:57.560
+He's a weird ass country man.
+
+18:57.560 --> 19:00.560
+So the dead guy is still suing
+me,
+
+19:00.560 --> 19:04.560
+and though he has no leg to
+stand on literally.
+
+19:04.560 --> 19:14.560
+Some other guy should, should
+the, should they win a suit?
+
+19:14.560 --> 19:17.560
+Which won't happen.
+
+19:17.560 --> 19:19.560
+Would actually get the dead
+guy's money.
+
+19:19.560 --> 19:21.560
+Is that a fucked up world?
+
+19:21.560 --> 19:24.560
+Anyway, I've written that off,
+fuck it.
+
+19:24.560 --> 19:26.560
+So tomorrow I'm going to go up
+to Grandmaster View.
+
+19:26.560 --> 19:27.560
+That'll be good.
+
+19:27.560 --> 19:28.560
+Hang out with some of the guys.
+
+19:28.560 --> 19:30.560
+You know, hard-working.
+
+19:30.560 --> 19:31.560
+That's a tough business.
+
+19:31.560 --> 19:33.560
+This flat screen business is
+telling you.
+
+19:33.560 --> 19:35.560
+Got this fucking podcast.
+
+19:35.560 --> 19:37.560
+Just telling you that, whether
+they're no good.
+
+19:37.560 --> 19:40.560
+And let's see.
+
+19:40.560 --> 19:42.560
+Let's play another promo here.
+
+19:42.560 --> 19:43.560
+This is one of my favorite
+podcasts.
+
+19:43.560 --> 19:46.560
+I really like this one a lot.
+
+19:46.560 --> 19:47.560
+So everybody else.
+
+19:47.560 --> 19:50.560
+This is Richard Smith from
+yesterday at Radio Ball.
+
+19:50.560 --> 19:54.560
+And we have moved to our brand
+new web address on the internet.
+
+19:54.560 --> 20:00.560
+You can reach us at www.rjs.com.
+
+20:00.560 --> 20:04.560
+That's www.rjs.com.
+
+20:04.560 --> 20:07.560
+Tune in for some great old-time
+radio.
+
+20:07.560 --> 20:10.560
+Gotta tell you, I've really
+gotten my,
+
+20:10.560 --> 20:12.560
+now that the broadband is back
+and cranked.
+
+20:12.560 --> 20:14.560
+I've been able to listen to so
+much more.
+
+20:14.560 --> 20:16.560
+I feel so good.
+
+20:16.560 --> 20:18.560
+And of course, I'm glad that
+this hotel has excellent
+
+20:18.560 --> 20:20.560
+connectivity as well.
+
+20:20.560 --> 20:22.560
+Just so much to listen to and
+there's so much coming
+
+20:22.560 --> 20:24.560
+through on audio.weblogs.com.
+
+20:24.560 --> 20:27.560
+And even email goes so much
+faster,
+
+20:27.560 --> 20:29.560
+although I'm still kind of swamp
+with that shit.
+
+20:29.560 --> 20:32.560
+Oh, man.
+
+20:32.560 --> 20:36.560
+I finally caught up on Madge
+Weinstein podcast.
+
+20:36.560 --> 20:38.560
+Oh, man. I love it so much.
+
+20:38.560 --> 20:40.560
+When it's Madge Weinstein and
+it's not scripted,
+
+20:40.560 --> 20:43.560
+you know, this guy is great.
+
+20:43.560 --> 20:45.560
+What was that?
+
+20:45.560 --> 20:48.560
+Someone in the hallway?
+
+20:48.560 --> 20:53.560
+I'm going to try and call Madge
+Slash Richard
+
+20:53.560 --> 20:58.560
+around midnight Amsterdam time.
+
+20:58.560 --> 21:00.560
+I think, yeah, right.
+
+21:00.560 --> 21:03.560
+That's the only time that we can
+really connect.
+
+21:03.560 --> 21:05.560
+So, because I've just been, I've
+been dying.
+
+21:05.560 --> 21:06.560
+Some of this stuff.
+
+21:06.560 --> 21:08.560
+I mean, the quote over the week
+definitely was
+
+21:08.560 --> 21:10.560
+Madge Weinstein saying,
+
+21:10.560 --> 21:12.560
+Gentlody and some crowning.
+
+21:12.560 --> 21:14.560
+That was just too much.
+
+21:14.560 --> 21:16.560
+Again, I'm kind of sick.
+
+21:16.560 --> 21:20.560
+And I've been totally digging
+using these,
+
+21:20.560 --> 21:23.560
+or playing the podcast on my eye
+river,
+
+21:23.560 --> 21:27.560
+which is getting tremendous
+mileage to one double-a battery.
+
+21:27.560 --> 21:29.560
+Storage is sufficient.
+
+21:29.560 --> 21:32.560
+In fact, I kind of because I've
+set it up so that
+
+21:32.560 --> 21:34.560
+it can't go over like a
+gigabyte,
+
+21:34.560 --> 21:36.560
+which is exactly what I have,
+
+21:36.560 --> 21:38.560
+and it works perfectly.
+
+21:38.560 --> 21:40.560
+It really does.
+
+21:40.560 --> 21:42.560
+And I've been talking about the
+eye river.
+
+21:42.560 --> 21:44.560
+I've got an email from Michael
+Ellsdiffer,
+
+21:44.560 --> 21:47.560
+who says that there's the
+rock-box,
+
+21:47.560 --> 21:50.560
+rock-box project,
+
+21:50.560 --> 21:52.560
+which is at rock-box.org,
+
+21:52.560 --> 21:54.560
+ROCKBOCK.org.
+
+21:54.560 --> 21:57.560
+Of course, find this in the
+production show notes
+
+21:57.560 --> 21:59.560
+for today's podcast.
+
+21:59.560 --> 22:02.560
+And they are actually doing some
+interesting stuff,
+
+22:02.560 --> 22:04.560
+hacking the firmware.
+
+22:04.560 --> 22:06.560
+I think what I've seen is that
+essentially,
+
+22:06.560 --> 22:08.560
+they've created an open-source
+version of firmware
+
+22:08.560 --> 22:10.560
+that will let you play back and
+record.
+
+22:10.560 --> 22:13.560
+It's fucked up.
+
+22:13.560 --> 22:15.560
+We'll have to recreate the wheel
+here,
+
+22:15.560 --> 22:18.560
+because the playback and record
+that I river already
+
+22:18.560 --> 22:19.560
+does is great.
+
+22:19.560 --> 22:22.560
+Just like to have a couple of
+different functions,
+
+22:22.560 --> 22:24.560
+and have a few other things
+hacked in there.
+
+22:24.560 --> 22:26.560
+And I'm seeing more and more
+people
+
+22:26.560 --> 22:30.560
+figuring out how to do
+bookmarking,
+
+22:30.560 --> 22:33.560
+and then Doug K is put up some
+script that I've heard about,
+
+22:33.560 --> 22:36.560
+which seems complicated for me
+to put anywhere
+
+22:36.560 --> 22:38.560
+as a PHP script or whatever.
+
+22:38.560 --> 22:40.560
+But you can actually point to a
+piece of an MP3 file.
+
+22:40.560 --> 22:44.560
+I haven't tried it out, but
+apparently it works.
+
+22:44.560 --> 22:47.560
+And the eye river also,
+
+22:47.560 --> 22:50.560
+if you turn it off or it goes
+off or powers down,
+
+22:50.560 --> 22:51.560
+it power back up,
+
+22:51.560 --> 22:53.560
+it remembers the spot that you
+were at,
+
+22:53.560 --> 22:54.560
+and it stays right there,
+
+22:54.560 --> 22:57.560
+which I'm sure has something to
+do with it being flash-based,
+
+22:57.560 --> 23:02.560
+instead of a hard disk.
+
+23:02.560 --> 23:04.560
+And if you notice at the
+beginning of the show,
+
+23:04.560 --> 23:07.560
+and now everyone's kind of doing
+this new show tags.
+
+23:07.560 --> 23:10.560
+This was something that I don't
+know who started this.
+
+23:10.560 --> 23:12.560
+It was when the Apple shuffle
+came out,
+
+23:12.560 --> 23:14.560
+which of course has no screen,
+
+23:14.560 --> 23:17.560
+you don't know which podcasts
+you're listening to.
+
+23:17.560 --> 23:21.560
+So if you have more than one
+daily source code on your iPod
+shuffle,
+
+23:21.560 --> 23:24.560
+then you can't always tell from
+how it starts off,
+
+23:24.560 --> 23:25.560
+which show it is.
+
+23:25.560 --> 23:26.560
+So I'm doing these show tags.
+
+23:26.560 --> 23:27.560
+I'm hearing Don and Drew do
+them.
+
+23:27.560 --> 23:30.560
+And Don and Drew, if you haven't
+heard their episode
+
+23:30.560 --> 23:33.560
+where they received a shuffle
+from one of their listeners,
+
+23:33.560 --> 23:34.560
+they got a great audience.
+
+23:34.560 --> 23:36.560
+So you got great fucking
+listeners sent,
+
+23:36.560 --> 23:39.560
+sent them straight from the
+Apple store,
+
+23:39.560 --> 23:40.560
+an iPod shuffle,
+
+23:40.560 --> 23:41.560
+and they reviewed it.
+
+23:41.560 --> 23:45.560
+And these were the first people
+that I've heard
+
+23:45.560 --> 23:48.560
+talk about who actually used it
+and played with it,
+
+23:48.560 --> 23:49.560
+and turned it around,
+
+23:49.560 --> 23:52.560
+and Don tried to threaten to
+turn it into a barret
+
+23:53.560 --> 23:55.560
+for a hair.
+
+23:55.560 --> 23:58.560
+But it sounds like a pretty
+decent machine actually.
+
+23:58.560 --> 24:01.560
+And that is, I think, the
+verdict that Don and Drew gave
+
+24:01.560 --> 24:04.560
+on the iPod shuffle is it's
+okay.
+
+24:04.560 --> 24:10.560
+It's a good little box for the
+money.
+
+24:10.560 --> 24:13.560
+And it also remembers where you
+left off
+
+24:13.560 --> 24:15.560
+in a podcast.
+
+24:15.560 --> 24:19.560
+That was definitely something
+that was worth mentioning.
+
+24:20.560 --> 24:22.560
+So that's a coffee,
+
+24:22.560 --> 24:24.560
+which is cold by now,
+
+24:24.560 --> 24:27.560
+but I need to get something
+running through my veins.
+
+24:27.560 --> 24:28.560
+Because, of course, you know,
+
+24:28.560 --> 24:30.560
+the minute I hit Amsterdam,
+
+24:30.560 --> 24:33.560
+taxi Eric who picking up he
+always has,
+
+24:33.560 --> 24:35.560
+has something to smoke ready to
+go.
+
+24:35.560 --> 24:37.560
+So if I don't have meetings,
+
+24:37.560 --> 24:38.560
+which I suppose I have a
+meeting,
+
+24:38.560 --> 24:39.560
+but I got canceled,
+
+24:39.560 --> 24:42.560
+and then so I just went to do
+all the admin stuff
+
+24:42.560 --> 24:43.560
+with Crystal,
+
+24:43.560 --> 24:46.560
+and then came over to the hotel
+on the afternoon.
+
+24:46.560 --> 24:51.560
+So, yeah, I've baked it up a
+bit.
+
+24:51.560 --> 24:54.560
+That's Amsterdam for you.
+
+24:54.560 --> 24:57.560
+From Amsterdam, let's go over to
+London.
+
+24:57.560 --> 24:59.560
+Email from Chris,
+
+24:59.560 --> 25:01.560
+as he just started listening to
+the Daily Source Coden
+
+25:01.560 --> 25:02.560
+as iPod,
+
+25:02.560 --> 25:04.560
+bloody fantastic and weirdly
+addictive.
+
+25:04.560 --> 25:06.560
+Yeah, you'll get over it.
+
+25:06.560 --> 25:08.560
+Anyway, it seems that other
+people send you funny stuff
+
+25:08.560 --> 25:10.560
+for the show you may have heard
+this already.
+
+25:10.560 --> 25:12.560
+So, Bennett, if not, Bennett,
+
+25:12.560 --> 25:14.560
+throw it toss it in the bin.
+
+25:14.560 --> 25:16.560
+If not, if not enjoy,
+
+25:16.560 --> 25:17.560
+not sure who did it.
+
+25:17.560 --> 25:18.560
+It made sense to me,
+
+25:18.560 --> 25:20.560
+but if you ever use the tubes,
+
+25:20.560 --> 25:22.560
+I'm sure you have, it's bloody
+hilarious.
+
+25:22.560 --> 25:23.560
+This is about the tube,
+
+25:23.560 --> 25:25.560
+is the subway in London.
+
+25:25.560 --> 25:26.560
+It's titled London Underground,
+
+25:26.560 --> 25:28.560
+and it's from Adaption.
+
+25:31.250 --> 27:18.750
+[ Music ]
+
+27:21.560 --> 27:23.560
+London Underground.
+
+27:23.560 --> 27:24.560
+What was that?
+
+27:24.560 --> 27:26.560
+That was really good.
+
+27:26.560 --> 27:28.560
+I quite like that.
+
+27:28.560 --> 27:29.560
+Adaption.
+
+27:29.560 --> 27:31.560
+Thank you very much for sending
+that in.
+
+27:31.560 --> 27:32.560
+And please, if you've got
+
+27:32.560 --> 27:35.560
+tunes, podsafe music,
+
+27:35.560 --> 27:37.560
+audio comments,
+
+27:37.560 --> 27:40.560
+let me know in the comments.
+
+27:40.560 --> 27:42.560
+I'm going to show you
+
+27:42.560 --> 27:44.560
+some of the things I've got to
+do
+
+27:44.560 --> 27:45.560
+in London Underground.
+
+27:45.560 --> 27:46.560
+I've got some,
+
+27:46.560 --> 27:48.560
+now I'm getting some cool ead
+Gmail
+
+27:48.560 --> 27:50.560
+addresses that I'm going to be
+able to use
+
+27:50.560 --> 27:51.560
+pretty soon.
+
+27:51.560 --> 27:53.560
+I'm working on the sound seeing
+stuff.
+
+27:53.560 --> 27:55.560
+I haven't quite figured out how
+I want to do
+
+27:55.560 --> 27:56.560
+or how we can work,
+
+27:56.560 --> 27:57.560
+you know, work this together,
+
+27:57.560 --> 27:59.560
+or maybe just become a human
+aggregator
+
+27:59.560 --> 28:01.560
+and just provide an RSS feed of,
+
+28:01.560 --> 28:04.560
+you know, cool sound seeing
+podcas.
+
+28:04.560 --> 28:06.560
+Because I've received so many,
+
+28:06.560 --> 28:08.560
+you know,
+
+28:08.560 --> 28:09.560
+you know,
+
+28:09.560 --> 28:10.560
+you know,
+
+28:10.560 --> 28:11.560
+I do want there to be a place
+
+28:11.560 --> 28:12.560
+where you can find it.
+
+28:12.560 --> 28:14.560
+So maybe we make that a separate
+feed.
+
+28:14.560 --> 28:15.560
+In fact,
+
+28:15.560 --> 28:16.560
+that's exactly what I'm going to
+do.
+
+28:16.560 --> 28:17.560
+Maybe I'll even do that tonight.
+
+28:17.560 --> 28:18.560
+So,
+
+28:18.560 --> 28:19.560
+okay,
+
+28:19.560 --> 28:23.560
+we'll definitely just write that
+down.
+
+28:23.560 --> 28:25.560
+Hold on.
+
+28:25.560 --> 28:27.560
+If I don't write it down,
+
+28:27.560 --> 28:30.560
+RSS feed or
+
+28:30.560 --> 28:32.560
+sound seeing.
+
+28:32.560 --> 28:34.560
+And I'm not going to do a
+website.
+
+28:34.560 --> 28:36.560
+I'm just going to do an RSS
+feed.
+
+28:36.560 --> 28:37.560
+Right.
+
+28:37.560 --> 28:40.560
+And the notes for it will be in
+the description field.
+
+28:40.560 --> 28:44.560
+Make it just real, real simple
+for everybody.
+
+28:44.560 --> 28:46.560
+If you're new to the daily
+source code,
+
+28:46.560 --> 28:47.560
+and by the way,
+
+28:47.560 --> 28:48.560
+you know,
+
+28:48.560 --> 28:49.560
+I've gotten into the habit now
+
+28:49.560 --> 28:50.560
+if someone said me email
+
+28:50.560 --> 28:52.560
+that I were a corresponding
+about the show
+
+28:52.560 --> 28:53.560
+and you know,
+
+28:53.560 --> 28:55.560
+whereas in
+
+28:55.560 --> 28:56.560
+back in the day,
+
+28:56.560 --> 28:58.560
+when I was doing radio,
+
+28:58.560 --> 28:59.560
+you'd say,
+
+28:59.560 --> 29:00.560
+hey,
+
+29:00.560 --> 29:01.560
+hey,
+
+29:01.560 --> 29:02.560
+what do you keep listening?
+
+29:02.560 --> 29:03.560
+Well, you'll think,
+
+29:03.560 --> 29:04.560
+hey,
+
+29:04.560 --> 29:05.560
+now I'm like,
+
+29:05.560 --> 29:06.560
+hey,
+
+29:06.560 --> 29:07.560
+stay subscribed,
+
+29:07.560 --> 29:08.560
+really?
+
+29:08.560 --> 29:10.560
+Because that's really what it
+is.
+
+29:10.560 --> 29:12.560
+Keep in people subscribe.
+
+29:12.560 --> 29:13.560
+Interesting word,
+
+29:13.560 --> 29:14.560
+by the way,
+
+29:14.560 --> 29:16.560
+subscriber.
+
+29:16.560 --> 29:18.560
+Subscribers are a big measure
+
+29:18.560 --> 29:21.560
+of a lot of internet companies.
+
+29:21.560 --> 29:24.560
+Yahoo is measured by
+subscribers.
+
+29:24.560 --> 29:25.560
+And subscribers don't,
+
+29:25.560 --> 29:27.560
+hotmail subscribers,
+
+29:27.560 --> 29:28.560
+you know,
+
+29:28.560 --> 29:29.560
+MSN,
+
+29:29.560 --> 29:31.560
+messenger,
+
+29:31.560 --> 29:32.560
+God.
+
+29:32.560 --> 29:33.560
+You know,
+
+29:33.560 --> 29:34.560
+it's interesting,
+
+29:34.560 --> 29:35.560
+is that messenger,
+
+29:35.560 --> 29:36.560
+I think everyone has a messenger
+account,
+
+29:36.560 --> 29:37.560
+everyone I know,
+
+29:37.560 --> 29:38.560
+and it's like,
+
+29:38.560 --> 29:40.560
+it must still be the
+
+29:40.560 --> 29:41.560
+raining,
+
+29:41.560 --> 29:42.560
+instant message client.
+
+29:42.560 --> 29:43.560
+I even have,
+
+29:43.560 --> 29:44.560
+you know,
+
+29:44.560 --> 29:45.560
+someone wants to,
+
+29:45.560 --> 29:46.560
+I don't use it,
+
+29:46.560 --> 29:47.560
+but if someone wants to,
+
+29:47.560 --> 29:49.560
+I can certainly fire it up.
+
+29:49.560 --> 29:51.560
+And it does keep all of your
+contacts
+
+29:51.560 --> 29:52.560
+in its accounts.
+
+29:52.560 --> 29:53.560
+So whenever you,
+
+29:53.560 --> 29:54.560
+I've seen people log back in
+
+29:54.560 --> 29:55.560
+after two years,
+
+29:55.560 --> 29:56.560
+and all of a sudden,
+
+29:56.560 --> 29:57.560
+they've been re-acquainted with
+all
+
+29:57.560 --> 29:58.560
+their old buddies from work,
+
+29:58.560 --> 30:00.560
+whenever they last used that MSN
+accounts,
+
+30:00.560 --> 30:01.560
+they've been really interesting,
+
+30:01.560 --> 30:03.560
+pretty damn interesting stuff.
+
+30:03.560 --> 30:04.560
+But,
+
+30:04.560 --> 30:06.560
+so those of you who have just
+joined
+
+30:06.560 --> 30:07.560
+the source code of start
+listening,
+
+30:07.560 --> 30:09.560
+or maybe you started podcasting,
+
+30:09.560 --> 30:11.560
+one thing we talk about here,
+
+30:11.560 --> 30:13.560
+a lot on the show is,
+
+30:13.560 --> 30:14.560
+is Cowbell.
+
+30:14.560 --> 30:15.560
+Morning, Adam.
+
+30:15.560 --> 30:16.560
+This is Tunnel 2,
+
+30:16.560 --> 30:18.560
+from the LSN podcast,
+
+30:18.560 --> 30:19.560
+over at,
+
+30:19.560 --> 30:20.560
+blog,
+
+30:20.560 --> 30:21.560
+blog,
+
+30:21.560 --> 30:22.560
+hashtag,
+
+30:22.560 --> 30:23.560
+smartman.
+
+30:23.560 --> 30:24.560
+And,
+
+30:24.560 --> 30:25.560
+well,
+
+30:25.560 --> 30:26.560
+I'm not going to talk about
+that,
+
+30:26.560 --> 30:27.560
+now,
+
+30:27.560 --> 30:28.560
+basically,
+
+30:28.560 --> 30:29.560
+what I'm going to,
+
+30:29.560 --> 30:30.560
+So,
+
+30:30.560 --> 30:31.560
+is this Stigginson,
+
+30:31.560 --> 30:32.560
+yes,
+
+30:32.560 --> 30:33.560
+the Bruce Dickinson,
+
+30:33.560 --> 30:34.560
+is a TV show,
+
+30:34.560 --> 30:36.560
+an L4 Discovery channel,
+
+30:36.560 --> 30:38.560
+its called Flying Heavy Metal,
+
+30:38.560 --> 30:41.560
+its on a Wednesday,
+
+30:41.560 --> 30:43.560
+is Wednesdays and it's
+Wednesday.
+
+30:43.560 --> 30:45.560
+So it's on on Wednesday,
+
+30:45.560 --> 30:48.560
+9 o'clock from 9 o'clock from 9
+o'clock,
+
+30:48.560 --> 30:49.560
+about topic of planes,
+
+30:49.560 --> 30:50.560
+jet engines,
+
+30:50.560 --> 30:52.560
+and the like,
+
+30:52.560 --> 30:53.560
+today,
+
+30:53.560 --> 30:54.560
+you start at the 707,
+
+30:54.560 --> 30:55.560
+or
+
+30:55.560 --> 30:57.560
+kind of remember the first thing
+is,
+
+30:57.560 --> 30:58.560
+But that is totally cool.
+
+30:58.560 --> 31:04.220
+Bruce Dickinson of Iron Maiden
+is doing a show about planes and
+jet engines and cool
+
+31:04.220 --> 31:05.220
+shit like that.
+
+31:05.220 --> 31:07.060
+So, I'm going to see if I can
+record that.
+
+31:07.060 --> 31:14.180
+I guess this is from the UK, I
+mean, okay, so who is Bruce
+Dickinson of Bruce Dickinson
+
+31:14.180 --> 31:18.180
+of course is from the Skit from
+Saturday Night Live with Will
+Ferrell and Christopher
+
+31:18.180 --> 31:23.220
+Walken, which is the Skit by
+itself is great in the videos
+floating out there, I think
+
+31:23.220 --> 31:25.780
+of linked to it before on the
+source code.
+
+31:25.780 --> 31:29.860
+But what I love even more is the
+original More Cowbell, don't
+fear the reaper, the
+
+31:29.860 --> 31:35.260
+Coventry mix and it was recent
+to me, I've had it before
+because that was the first time
+
+31:35.260 --> 31:41.940
+I was introduced to the whole
+Cowbell concept, Chris Copeland
+sent it to me and I just got
+
+31:41.940 --> 31:45.940
+to play it for you right now
+because even if you've heard it
+a thousand times, you just
+
+31:45.940 --> 31:47.940
+can't get enough of fucking
+Cowbell.
+
+31:47.940 --> 31:52.540
+Don't fear the reaper, take one,
+roll, run, one, two, three,
+four.
+
+31:52.540 --> 32:13.740
+You sure that was sounding okay?
+
+32:13.740 --> 32:14.740
+I've been honest!
+
+32:14.740 --> 32:18.920
+Fellars, sounding great..
+
+32:18.920 --> 32:40.720
+I could use the little more
+calmer, I could use the little
+more calmer, I got to have
+
+32:40.720 --> 32:57.040
+more calmer, I got to have more
+calmer, I could use the little
+more calmer, we're going
+
+33:01.250 --> 33:24.680
+[ Music ]
+
+33:24.680 --> 33:53.960
+I got to have more calmer, I got
+to have more calmer, I got to
+have more calmer,
+
+34:01.250 --> 34:58.750
+[ Music ]
+
+34:59.620 --> 35:01.620
+Yes, what?
+
+35:01.620 --> 35:03.620
+I got a fever.
+
+35:03.620 --> 35:15.620
+And the only person who's more
+Caldas.
+
+35:15.620 --> 35:16.620
+Oh, man.
+
+35:16.620 --> 35:18.620
+That is just so legendary.
+
+35:18.620 --> 35:20.620
+I love it so much.
+
+35:20.620 --> 35:21.620
+Excellent.
+
+35:21.620 --> 35:23.620
+Great to hear that again.
+
+35:23.620 --> 35:25.620
+I am just totally wiped out.
+
+35:25.620 --> 35:26.620
+I've got to tell you.
+
+35:26.620 --> 35:28.620
+I'm really, really tired.
+
+35:28.620 --> 35:34.620
+I'm just going to turn the big
+fat ass plasma towards the bed.
+
+35:34.620 --> 35:35.620
+Hop in.
+
+35:35.620 --> 35:37.620
+I'm going to cruise through the
+channels a little bit.
+
+35:37.620 --> 35:39.620
+Get some sleep.
+
+35:39.620 --> 35:42.620
+I'm big picked up tomorrow at
+11.
+
+35:42.620 --> 35:45.620
+And I don't know.
+
+35:45.620 --> 35:49.620
+Everything that kind of messed
+up on my first appointment got
+canceled today.
+
+35:49.620 --> 35:53.620
+And then the weather has been so
+shitty that even though it would
+be nice to do a
+
+35:53.620 --> 35:59.620
+sound seeing tour of parts of
+Amsterdam, even in bad weather,
+the wind is just too strong.
+
+35:59.620 --> 36:05.620
+Even the wind screen I have on
+this lovely or mic would just
+wouldn't cut it.
+
+36:05.620 --> 36:07.620
+I know it wouldn't work.
+
+36:07.620 --> 36:09.620
+So we'll see how it is tomorrow.
+
+36:09.620 --> 36:15.620
+Maybe we can do something
+because we're getting towards
+the weekend.
+
+36:15.620 --> 36:19.620
+And we're going to kind of slow
+the mood down just a little bit.
+
+36:19.620 --> 36:21.620
+But wait first, let's do some of
+this.
+
+36:21.620 --> 36:26.620
+This is always fun to be a
+trivia before we close out the
+show.
+
+36:26.620 --> 36:29.620
+Hello everyone and welcome to
+mostly trivial.
+
+36:29.620 --> 36:31.620
+I'm your host Brian Pippa.
+
+36:31.620 --> 36:34.620
+Today's category is one hit
+wonders.
+
+36:34.620 --> 36:40.620
+In 1982, what band had a number
+one hit with the song, Come On
+Ileens?
+
+36:40.620 --> 36:45.620
+For bonus points, here's a
+question only the band members,
+Dick Clark and Adam Curry will
+know.
+
+36:45.620 --> 36:49.620
+What number one song did come on
+Ileens knock off the top spot?
+
+36:49.620 --> 36:52.620
+Okay, Dexie's midnight runners.
+
+36:52.620 --> 36:55.620
+Come on Ileens.
+
+36:55.620 --> 36:57.620
+I guess I'm stuck.
+
+36:57.620 --> 37:00.620
+I'm no Dick Clark.
+
+37:00.620 --> 37:03.620
+The answer is Dexie's midnight
+runners.
+
+37:03.620 --> 37:07.620
+Ileens was a girl that
+songwriter and band member Kevin
+Rollen grew up with.
+
+37:07.620 --> 37:09.620
+I just loved that song.
+
+37:09.620 --> 37:11.620
+I mean, come on, let's be
+honest.
+
+37:11.620 --> 37:15.620
+First of all, remember the video
+for that and they were wearing
+like these,
+
+37:15.620 --> 37:19.620
+they were these whacked out guys
+from down under who actually, I
+think they look kind of,
+
+37:19.620 --> 37:23.620
+they had a good vibe going on,
+but the thing that was weird was
+the, you know,
+
+37:23.620 --> 37:27.620
+Mr. Greengene's suspender pants,
+you know, the overalls.
+
+37:27.620 --> 37:28.620
+That sucked.
+
+37:28.620 --> 37:30.620
+That looked stupid and lame.
+
+37:30.620 --> 37:31.620
+I hated that.
+
+37:31.620 --> 37:35.620
+And the whole thing about that
+song was it was like, come on
+Ileens, right?
+
+37:35.620 --> 37:38.620
+You're like, you know, come on,
+come on.
+
+37:38.620 --> 37:39.620
+Everyone knows it.
+
+37:39.620 --> 37:42.620
+That's why that song became a
+hit to start off with.
+
+37:42.620 --> 37:45.620
+It got the attention because it
+had that hook in it, you know,
+it's like everyone
+
+37:45.620 --> 37:46.620
+to come on Ileens.
+
+37:46.620 --> 37:48.620
+We're all singing it, you know,
+come on Ileens.
+
+37:48.620 --> 37:50.620
+And we're laughing and we're
+smiling.
+
+37:50.620 --> 37:53.620
+Our parents are going, oh, the
+kids have a nice little song
+with the
+
+37:53.620 --> 37:57.620
+Congolung to their relationship
+became romantic when the pair
+was 13.
+
+37:57.620 --> 37:58.620
+The band.
+
+37:58.620 --> 37:59.620
+Ooh.
+
+37:59.620 --> 38:00.620
+I'm boy.
+
+38:00.620 --> 38:04.620
+This name was inspired by the
+infediment drug Dexie drink.
+
+38:04.620 --> 38:06.620
+Okay, that I did not know.
+
+38:06.620 --> 38:08.620
+You said, you got me on that.
+
+38:08.620 --> 38:12.620
+Now, about who who was bumped
+off the top spot.
+
+38:12.620 --> 38:13.620
+Who did that?
+
+38:13.620 --> 38:14.620
+What was the question?
+
+38:14.620 --> 38:15.620
+Who were they bumped off?
+
+38:15.620 --> 38:17.620
+And the song knocked off the
+number one spot.
+
+38:17.620 --> 38:20.620
+The song knocked off the number
+one spot.
+
+38:20.620 --> 38:24.620
+Gosh.
+
+38:24.620 --> 38:26.620
+Here the wind.
+
+38:26.620 --> 38:28.620
+Yeah, now's really picking up.
+
+38:28.620 --> 38:30.620
+All right, I give up.
+
+38:30.620 --> 38:31.620
+Michael Jackson.
+
+38:31.620 --> 38:32.620
+Oh, Billy Jean.
+
+38:32.620 --> 38:33.620
+Yeah, of course.
+
+38:33.620 --> 38:34.620
+You should ask him any more.
+
+38:34.620 --> 38:37.620
+Can you found it songfacts.com?
+
+38:37.620 --> 38:41.620
+To suggest a trivia question,
+leave me feedback.
+
+38:41.620 --> 38:42.620
+Comments.
+
+38:42.620 --> 38:43.620
+Questions?
+
+38:43.620 --> 38:46.620
+Is it mostly trivial.com?
+
+38:46.620 --> 38:47.620
+Thanks for listening.
+
+38:47.620 --> 38:51.620
+So before I leave you for today
+and we're almost at the perfect
+weight.
+
+38:51.620 --> 38:53.620
+Almost 40 minutes.
+
+38:53.620 --> 39:02.620
+I've been privy to a couple of
+screenshots of the new iPod or
+lemon version.
+
+39:02.620 --> 39:05.620
+And here there's also a new iPod
+or X version coming out.
+
+39:05.620 --> 39:07.620
+I haven't seen anything from
+that yet.
+
+39:07.620 --> 39:09.620
+But stuff's looking really good.
+
+39:09.620 --> 39:11.620
+And there's some great features.
+
+39:11.620 --> 39:14.620
+And I can't wait to try them
+out.
+
+39:14.620 --> 39:17.620
+In fact, I'm also buying a
+Windows machine for a number
+of...
+
+39:17.620 --> 39:18.620
+I don't know if I told you about
+this.
+
+39:18.620 --> 39:20.620
+But one is to get the Skype
+phone for Patricia.
+
+39:20.620 --> 39:25.620
+And also, I want to try out some
+of these Windows iPodters
+because, you know, shoot.
+
+39:25.620 --> 39:28.620
+And I'm still in the minority
+here.
+
+39:28.620 --> 39:30.620
+And I'm really not seeing a lot
+of progress.
+
+39:30.620 --> 39:34.620
+And a lot of the stuff that we
+need to make podcasting really
+fucking simple.
+
+39:34.620 --> 39:37.620
+You know, we've seen some
+interesting tools.
+
+39:37.620 --> 39:39.620
+I haven't had an update on
+Maccast Live.
+
+39:39.620 --> 39:40.620
+I really like that.
+
+39:40.620 --> 39:42.620
+And I really want to try that
+out.
+
+39:42.620 --> 39:44.620
+But, you know, go to have a
+Windows machine.
+
+39:44.620 --> 39:46.620
+And I guess I got to figure
+out.net.
+
+39:46.620 --> 39:48.620
+I guess I just kind of installed
+that like Java or whatever.
+
+39:48.620 --> 39:50.620
+So that should be too hard.
+
+39:50.620 --> 39:52.620
+But I'm definitely going to get
+a Windows machine.
+
+39:52.620 --> 39:57.620
+Because I feel like I'm not
+totally living in the world
+where a lot of people are.
+
+39:57.620 --> 40:02.620
+And we still got to figure out,
+you know, how to make it easier
+to just create a podcast.
+
+40:02.620 --> 40:05.620
+Including your podcast feed and
+everything just kind of work.
+
+40:05.620 --> 40:08.620
+So I've been thinking about
+that.
+
+40:08.620 --> 40:11.620
+So I'm thinking about you,
+y'all.
+
+40:11.620 --> 40:13.620
+You know, that's just the love
+I'm saying.
+
+40:13.620 --> 40:14.620
+I'm excited.
+
+40:14.620 --> 40:15.620
+I'm so excited.
+
+40:15.620 --> 40:17.620
+I'm so excited.
+
+40:17.620 --> 40:18.620
+I'm so excited.
+
+40:18.620 --> 40:19.620
+So I'm so excited.
+
+40:19.620 --> 40:21.620
+I'm so excited.
+
+40:21.620 --> 40:23.620
+I'm so excited.
+
+40:23.620 --> 40:24.620
+I'm so excited.
+
+40:24.620 --> 40:25.620
+Oh, yeah.
+
+40:25.620 --> 40:33.020
+For the Thursday, January 20th,
+and it was a fun hangin' out
+with you for a couple of minutes
+here tonight.
+
+40:36.020 --> 40:37.220
+Okay, hope you had a good time.
+
+40:37.220 --> 40:39.220
+Tomorrow, I'll figure something
+fun to do.
+
+40:39.220 --> 40:41.220
+We'll come up with some shit
+that we get into.
+
+40:41.220 --> 40:44.220
+Right now, I just got to go to
+bed at this time.
+
+40:44.220 --> 40:47.620
+Actually, I'm gonna see if I can
+get an earlier flight back to
+our night.
+
+40:47.620 --> 40:50.420
+Maybe I'll figure out a way to
+record that.
+
+40:50.420 --> 40:53.420
+They will put the microphone
+through the X-ray machine for
+our time.
+
+40:53.420 --> 41:01.220
+And once I'm through that, then
+I pretty much can just go on the
+plane with a transmitter, right?
+
+41:01.220 --> 41:11.020
+I know it doesn't interfere with
+any of the antibiotics because
+we've tried that in all kinds of
+airplanes.
+
+41:13.020 --> 41:14.020
+I guess.
+
+41:15.020 --> 41:20.220
+Alright, feedback was np3
+feedback at gmail.com.
+
+41:20.620 --> 41:23.820
+And out of the Prairie.com, I
+just want to send out an email.
+
+41:23.820 --> 41:28.020
+And of course, the weblog is
+www.prairie.com.
+
+41:28.020 --> 41:31.620
+I'll see you tomorrow for the
+thank god it's Friday edition of
+the Daily Source Go.
+
+41:31.620 --> 41:32.620
+Bye-bye.

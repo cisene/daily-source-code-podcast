@@ -1,0 +1,4257 @@
+WEBVTT
+
+00:00.000 --> 00:06.500
+Are you tired of that yet?
+
+00:06.500 --> 00:08.000
+Me too.
+
+00:08.000 --> 00:12.720
+This is Matt DiTilo of Matt's
+Today in History, and on this
+day in 2007, I helped
+
+00:12.720 --> 00:18.160
+pod show suck a little less by
+putting together a shorter blur
+of asking you, a podcast
+
+00:18.160 --> 00:24.200
+producer and listener, to visit
+suckless.podshow.com, and sign
+up to participate in some
+
+00:24.200 --> 00:27.000
+pod show surveys that will make
+a difference.
+
+00:27.000 --> 00:31.000
+Once the last time a media
+company asks for your opinion,
+never?
+
+00:31.000 --> 00:34.000
+Well then, let's make some
+history together.
+
+00:34.000 --> 00:46.000
+Visit suckless.podshow.com, and
+get involved.
+
+00:46.000 --> 00:51.000
+Ladies and gentlemen, boys and
+girls, welcome to the best show
+on the internet.
+
+00:51.000 --> 00:54.000
+It's the DSE6203.
+
+00:55.000 --> 00:59.000
+With $60 million worth of
+airplane strapped to my ass,
+
+00:59.000 --> 01:02.000
+then the next generation radio
+content in my ears.
+
+01:04.000 --> 01:07.000
+I like to think I'm flying you
+to the future.
+
+01:12.000 --> 01:18.000
+Adam Curry was just a guy with
+big hair who sold his first
+company and thought he'd
+
+01:18.000 --> 01:23.000
+just kick back and take it easy,
+but he never counted on this.
+
+01:24.000 --> 01:30.000
+Adam and Patricia, the king and
+queen of the matter, or just the
+lady and the
+
+01:30.000 --> 01:34.000
+tramp, only on the daily source
+code.
+
+01:36.250 --> 02:19.000
+[ Music ]
+
+02:19.000 --> 02:23.000
+Adam and the lady Patricia.
+
+02:23.000 --> 02:26.000
+You sure are a birding man,
+Adam.
+
+02:26.000 --> 02:29.000
+If I was poor, I bet I was
+looking for you.
+
+02:31.250 --> 06:59.420
+[ Music ]
+
+06:59.420 --> 07:01.420
+Oh, c'mon, c'mon, c'mon, c'mon
+
+07:01.420 --> 07:03.420
+Now let's take it back
+
+07:03.420 --> 07:04.420
+Oh, c'mon, c'mon
+
+07:04.420 --> 07:05.420
+Now let's take it back
+
+07:05.420 --> 07:06.420
+Now let's take it back
+
+07:06.420 --> 07:07.420
+Now let's take it back
+
+07:07.420 --> 07:08.420
+now let's take it back
+
+07:08.420 --> 07:09.420
+Now let's take it back
+
+07:09.420 --> 07:10.420
+Now let's take it back
+
+07:10.420 --> 07:11.420
+Now let's take it back
+
+07:11.420 --> 07:12.420
+Well well well well
+
+07:12.420 --> 07:13.420
+Will'll take it back
+
+07:13.420 --> 07:15.420
+They never stop.
+
+07:15.420 --> 07:17.420
+No, they don't. It just keeps on
+going.
+
+07:17.420 --> 07:19.420
+I think it's a real life band
+probably.
+
+07:19.420 --> 07:21.420
+At the end, they just run away
+from you.
+
+07:21.420 --> 07:23.420
+But isn't that an awesome song?
+
+07:23.420 --> 07:25.420
+It is a great song.
+
+07:25.420 --> 07:26.420
+I love those guys.
+
+07:26.420 --> 07:27.420
+Yeah, a little bit too much at
+the end.
+
+07:27.420 --> 07:29.420
+What do you mean too much?
+
+07:29.420 --> 07:31.420
+It runs away suddenly.
+
+07:31.420 --> 07:32.420
+It just runs away.
+
+07:32.420 --> 07:33.420
+It runs away from you.
+
+07:33.420 --> 07:34.420
+What is it?
+
+07:34.420 --> 07:36.420
+It's 60, 70s, stones,
+
+07:36.420 --> 07:38.420
+a donko-gumala game melting pot.
+
+07:38.420 --> 07:41.420
+The band sound can be described
+as high energy rock and roll,
+
+07:41.420 --> 07:44.420
+drawing heavily from mod, soul,
+garage,
+
+07:44.420 --> 07:46.420
+and British invasion influences.
+
+07:46.420 --> 07:47.420
+Oh, absolutely.
+
+07:47.420 --> 07:48.420
+Yeah.
+
+07:48.420 --> 07:49.420
+Hey, everybody, how you doing?
+
+07:49.420 --> 07:50.420
+Daily source code episode,
+
+07:50.420 --> 07:53.420
+623 coming to you from the curry
+manner.
+
+07:53.420 --> 07:55.420
+And as promised,
+
+07:55.420 --> 07:58.420
+the lady Patricia on the
+microphone.
+
+07:58.420 --> 07:59.420
+Hi, everybody.
+
+07:59.420 --> 08:00.420
+Hi, Adam.
+
+08:00.420 --> 08:02.420
+Hey, baby. Good to have you on
+the show.
+
+08:02.420 --> 08:04.420
+Oh, nice.
+
+08:04.420 --> 08:07.420
+Nice to hear somebody so happy.
+
+08:07.420 --> 08:08.420
+Yeah, well, I am very happy.
+
+08:08.420 --> 08:10.420
+It's been, uh, how long has it
+been?
+
+08:10.420 --> 08:14.420
+A month, maybe even longer than
+since the last time you appeared
+on this program.
+
+08:14.420 --> 08:15.420
+Right.
+
+08:15.420 --> 08:20.420
+And it's so good to see you
+because I was basically on, uh,
+on tour.
+
+08:20.420 --> 08:21.420
+On tour, yes.
+
+08:21.420 --> 08:23.420
+A three-wing, a three-wing.
+
+08:23.420 --> 08:24.420
+A three-wing.
+
+08:24.420 --> 08:25.420
+A three-wing.
+
+08:25.420 --> 08:27.420
+A three-wing.
+
+08:27.420 --> 08:30.420
+It was much more wanked than
+that during the three weeks that
+I was on the road.
+
+08:30.420 --> 08:33.420
+It was a three-week world tour.
+
+08:33.420 --> 08:35.420
+Did you miss me?
+
+08:35.420 --> 08:37.420
+Yeah, I went.
+
+08:38.420 --> 08:39.420
+You wank?
+
+08:39.420 --> 08:42.420
+Ah, righty.
+
+08:42.420 --> 08:44.420
+How many times?
+
+08:46.420 --> 08:48.420
+Shut up.
+
+08:48.420 --> 08:50.420
+But so, so...
+
+08:50.420 --> 08:52.420
+I really missed you.
+
+08:52.420 --> 08:53.420
+I know.
+
+08:53.420 --> 08:54.420
+It was so long this time.
+
+08:54.420 --> 08:55.420
+It failed very long.
+
+08:55.420 --> 08:59.420
+Well, it was a long time
+because, uh, normally, um,
+
+08:59.420 --> 09:01.420
+normally it's a week, but, uh,
+
+09:01.420 --> 09:03.420
+um, on longer trips it's 10 or
+11 days.
+
+09:03.420 --> 09:06.420
+And this time it was, it was
+like 10 days for me to get back
+from,
+
+09:06.420 --> 09:09.420
+New York, San Francisco, Los
+Angeles, and Washington.
+
+09:09.420 --> 09:11.420
+And then I was home for, like, a
+day and a half,
+
+09:11.420 --> 09:13.420
+and then went straight to Con.
+
+09:13.420 --> 09:15.420
+And you did a couple of shows?
+
+09:15.420 --> 09:16.420
+Did a couple of...
+
+09:16.420 --> 09:18.420
+Yeah, you always called it you
+show.
+
+09:18.420 --> 09:20.420
+Yeah, well, I came home and I
+had to do a show.
+
+09:20.420 --> 09:23.420
+Yeah, that was very difficult,
+uh, Friday night, right?
+
+09:23.420 --> 09:25.420
+Yeah, because I came home
+Thursday, Thursday,
+
+09:25.420 --> 09:27.420
+and I had no energy left.
+
+09:27.420 --> 09:28.420
+I was, I was, like, passing out
+everywhere.
+
+09:28.420 --> 09:31.420
+But also, the things that you do
+when you're on the road,
+
+09:31.420 --> 09:34.420
+you know, it's showing somebody
+or something.
+
+09:34.420 --> 09:36.420
+Oh, you mean the showing.
+
+09:36.420 --> 09:37.420
+Good show, you're doing on the
+road.
+
+09:37.420 --> 09:38.420
+Well, okay.
+
+09:38.420 --> 09:40.420
+Well, that was, um, it wasn't
+really a show.
+
+09:40.420 --> 09:41.420
+I was on a panel.
+
+09:41.420 --> 09:42.420
+I know that.
+
+09:42.420 --> 09:44.420
+Do you know the woman that I had
+dinner with?
+
+09:44.420 --> 09:45.420
+Yeah.
+
+09:45.420 --> 09:46.420
+When did the Lord?
+
+09:46.420 --> 09:47.420
+Yes.
+
+09:47.420 --> 09:48.420
+Oh.
+
+09:48.420 --> 09:49.420
+I thought I told you.
+
+09:49.420 --> 09:52.420
+You know, I told you it's the
+chief sales officer of Yahoo,
+
+09:52.420 --> 09:56.420
+really powerful, uh, force in
+the advertising business.
+
+09:56.420 --> 09:57.420
+Yeah.
+
+09:57.420 --> 10:00.420
+And I told you that I had, you
+know, like an argument with her
+on the panel.
+
+10:00.420 --> 10:01.420
+Did I tell you that?
+
+10:01.420 --> 10:02.420
+No.
+
+10:02.420 --> 10:03.420
+Well, I had, you know, like a
+good argument, though.
+
+10:03.420 --> 10:04.420
+Yeah.
+
+10:04.420 --> 10:06.420
+And then, uh, and, and that's
+what she said, oh, you have to
+come to dinner.
+
+10:06.420 --> 10:07.420
+I was like, okay.
+
+10:07.420 --> 10:09.420
+And then we'll couple other
+people there.
+
+10:09.420 --> 10:13.420
+Um, and I said, look, this
+argument that we had could have
+only ended in, in one way.
+
+10:13.420 --> 10:15.420
+I said, I, and I'll still do the
+same thing.
+
+10:15.420 --> 10:17.420
+Uh, I, I want to offer you a
+job.
+
+10:17.420 --> 10:18.420
+You have to come.
+
+10:18.420 --> 10:20.420
+Come and work at Pod Show.
+
+10:20.420 --> 10:21.420
+And she's laughing.
+
+10:21.420 --> 10:22.420
+She was, you know, she's, oh,
+that's right.
+
+10:22.420 --> 10:23.420
+You know, flattering.
+
+10:23.420 --> 10:26.420
+And today, I read that she
+actually left Yahoo.
+
+10:26.420 --> 10:28.420
+And she's now gone to work from
+Martha Stewart.
+
+10:28.420 --> 10:29.420
+No.
+
+10:29.420 --> 10:30.420
+Yes.
+
+10:30.420 --> 10:31.420
+She's still different.
+
+10:31.420 --> 10:32.420
+Exactly.
+
+10:32.420 --> 10:33.420
+Oh, my God.
+
+10:33.420 --> 10:34.420
+I was like, man, if you had the
+excuse.
+
+10:34.420 --> 10:36.420
+She was because of the argument?
+
+10:36.420 --> 10:38.420
+No, no, no, no, nothing to do
+with it.
+
+10:38.420 --> 10:40.420
+She was probably, I mean, that
+was probably also.
+
+10:40.420 --> 10:41.420
+I don't know.
+
+10:41.420 --> 10:42.420
+You went all the bad thing.
+
+10:42.420 --> 10:44.420
+I was about to, it was just, you
+know, about advertising.
+
+10:44.420 --> 10:45.420
+It was fun.
+
+10:45.420 --> 10:46.420
+It was just bantering back and
+forth.
+
+10:46.420 --> 10:47.420
+Yeah.
+
+10:47.420 --> 10:48.420
+Keeping the audience awake.
+
+10:48.420 --> 10:49.420
+Yeah.
+
+10:49.420 --> 10:51.420
+Uh, but she, uh, she, uh, she
+left.
+
+10:51.420 --> 10:52.420
+She left.
+
+10:52.420 --> 10:53.420
+Yeah.
+
+10:53.420 --> 10:57.420
+So she knew probably when I was,
+when I was kind of half
+jokingly, but, of course,
+
+10:57.420 --> 10:58.420
+very seriously offering a job.
+
+10:58.420 --> 11:01.420
+She probably had already
+accepted the job with Martha
+Stewart.
+
+11:01.420 --> 11:02.420
+Oh, okay.
+
+11:02.420 --> 11:07.420
+And I'm thinking, if you had the
+choose between working with Adam
+Curry and Ron Bloom or Martha
+Stewart,
+
+11:07.420 --> 11:09.420
+I think you, you guys are so
+cool.
+
+11:09.420 --> 11:11.420
+It seems like a very obvious
+choice to me.
+
+11:11.420 --> 11:12.420
+Yeah.
+
+11:12.420 --> 11:13.420
+Anywho.
+
+11:13.420 --> 11:16.420
+Because you don't want to smell
+like ham, would you always say?
+
+11:16.420 --> 11:19.420
+I'm telling me, yeah, when we
+had our office in the same
+building as Martha Stewart,
+
+11:19.420 --> 11:20.420
+I remember that.
+
+11:20.420 --> 11:23.420
+Whenever Martha Stewart was in
+the elevator, it smelled like
+ham.
+
+11:23.420 --> 11:26.420
+And yeah, I said, if you didn't
+let me say, but she smells like
+ham.
+
+11:26.420 --> 11:27.420
+She does.
+
+11:28.420 --> 11:31.420
+I think Ken would say that even
+better.
+
+11:31.420 --> 11:32.420
+Really?
+
+11:32.420 --> 11:33.420
+She's not like ham.
+
+11:33.420 --> 11:34.420
+Oh.
+
+11:34.420 --> 11:36.420
+It's strange, isn't it?
+
+11:36.420 --> 11:38.420
+So what did you do while I was
+gone?
+
+11:38.420 --> 11:42.420
+Well, actually, I'm exercising
+my voice a little bit.
+
+11:42.420 --> 11:49.420
+Because I noticed that if you
+don't sing that much, that
+distracts in your vocal cords.
+
+11:49.420 --> 11:50.420
+Get on stretch.
+
+11:50.420 --> 11:52.420
+Yeah, get on stretch a little
+bit.
+
+11:52.420 --> 11:53.420
+Steph.
+
+11:53.420 --> 11:55.420
+Why are you planning on using
+your vocal cords?
+
+11:55.420 --> 11:57.420
+Anything, lady Patricia?
+
+11:57.420 --> 12:00.420
+Everybody's always asking, when
+is Patricia going to sing?
+
+12:00.420 --> 12:01.420
+Yeah.
+
+12:01.420 --> 12:09.420
+And so I thought, you know,
+after the dancing and feeling
+feeling a lot of energy in my
+body,
+
+12:09.420 --> 12:11.420
+why not try to sing a little
+bit?
+
+12:11.420 --> 12:16.420
+So after I did, you know, what
+we spoke about the last time in
+the last show,
+
+12:16.420 --> 12:17.420
+we did together.
+
+12:17.420 --> 12:18.420
+What was that?
+
+12:18.420 --> 12:20.420
+We talked about dancing with the
+stars.
+
+12:20.420 --> 12:22.420
+And I did the star sisters,
+remember?
+
+12:22.420 --> 12:23.420
+Yeah.
+
+12:24.420 --> 12:25.420
+Well, that was a great success.
+
+12:25.420 --> 12:26.420
+Everybody liked it.
+
+12:26.420 --> 12:28.420
+And it was like a party.
+
+12:28.420 --> 12:31.420
+Everybody was standing up, the
+audience.
+
+12:31.420 --> 12:34.420
+And it was like we never left.
+
+12:34.420 --> 12:35.420
+It was fun.
+
+12:35.420 --> 12:36.420
+It was a lot of fun.
+
+12:36.420 --> 12:37.420
+It was like a warm blanket of
+love.
+
+12:37.420 --> 12:39.420
+It was like just rolled over
+you.
+
+12:39.420 --> 12:41.420
+Yes.
+
+12:41.420 --> 12:42.420
+Yeah.
+
+12:42.420 --> 12:45.420
+One of my colleagues, Yelik
+Arbetti always says,
+
+12:45.420 --> 12:47.420
+It's like a warm blanket.
+
+12:47.420 --> 12:49.420
+You can't live without it.
+
+12:49.420 --> 12:50.420
+Yes.
+
+12:50.420 --> 12:52.420
+I don't feel like that you know
+that.
+
+12:53.420 --> 12:54.420
+But the moment you did it.
+
+12:54.420 --> 12:55.420
+You liked it.
+
+12:55.420 --> 12:56.420
+You liked it.
+
+12:56.420 --> 13:01.420
+What I always liked, I noticed
+that I missed the tension.
+
+13:01.420 --> 13:02.420
+No, no, no.
+
+13:02.420 --> 13:03.420
+It's not all about the tension.
+
+13:03.420 --> 13:04.420
+No, no.
+
+13:04.420 --> 13:06.420
+It's the fun that you have from
+it.
+
+13:06.420 --> 13:10.420
+And the moving around and the
+energy that you put in it.
+
+13:10.420 --> 13:15.420
+And I think also, let me think.
+
+13:15.420 --> 13:17.420
+Don't hurt yourself.
+
+13:17.420 --> 13:18.420
+Being creative.
+
+13:18.420 --> 13:19.420
+Being creative.
+
+13:19.420 --> 13:20.420
+That I can understand.
+
+13:21.420 --> 13:27.420
+You know, being creative because
+of the TV gig that we did.
+
+13:27.420 --> 13:30.420
+You've got like all kinds of
+offers coming up.
+
+13:30.420 --> 13:31.420
+Yeah, we've got offers.
+
+13:31.420 --> 13:34.420
+So I'm thinking about doing a
+couple of gigs.
+
+13:34.420 --> 13:36.420
+Why don't you once you just move
+back to Holland.
+
+13:36.420 --> 13:38.420
+Oh, my god.
+
+13:38.420 --> 13:39.420
+My god.
+
+13:39.420 --> 13:40.420
+You have really.
+
+13:40.420 --> 13:42.420
+I mean, it's like, no, life used
+to.
+
+13:42.420 --> 13:43.420
+I'm about it.
+
+13:43.420 --> 13:45.420
+Life used to evolve around me.
+
+13:45.420 --> 13:46.420
+You have to.
+
+13:46.420 --> 13:47.420
+Now we have to.
+
+13:47.420 --> 13:49.420
+Now we have to think about your
+agenda.
+
+13:49.420 --> 13:52.420
+But you are always the person is
+that you have to sing.
+
+13:52.420 --> 13:53.420
+You don't forget.
+
+13:53.420 --> 13:54.420
+Yes, sure.
+
+13:54.420 --> 13:55.420
+But not in Holland.
+
+13:55.420 --> 13:56.420
+He was happy.
+
+13:56.420 --> 13:59.420
+Well, that's where there's, you
+know, where I'm famous.
+
+13:59.420 --> 14:02.420
+So that's easier for me than
+somewhere else and starting all
+over.
+
+14:02.420 --> 14:05.420
+Although we have a couple of
+things going on here in the.
+
+14:05.420 --> 14:06.420
+Oh, you say.
+
+14:06.420 --> 14:07.420
+Yeah, we're not for bid.
+
+14:07.420 --> 14:08.420
+We're not for bid.
+
+14:08.420 --> 14:10.420
+You actually catch a fire.
+
+14:10.420 --> 14:11.420
+Oh, man.
+
+14:11.420 --> 14:12.420
+We're not going to tell our.
+
+14:12.420 --> 14:14.420
+How are we ever going to
+coordinate our careers here?
+
+14:14.420 --> 14:15.420
+I mean, you know.
+
+14:15.420 --> 14:18.420
+We've got some invitations for
+maybe.
+
+14:18.420 --> 14:22.420
+We, um, some shows in here in,
+um, um,
+
+14:22.420 --> 14:23.420
+English television.
+
+14:23.420 --> 14:24.420
+We'll see.
+
+14:24.420 --> 14:25.420
+We'll see.
+
+14:25.420 --> 14:26.420
+Yeah, we'll see.
+
+14:26.420 --> 14:28.420
+So, um, we had a, a really nice
+weekend.
+
+14:28.420 --> 14:30.420
+We played together a lot.
+
+14:30.420 --> 14:31.420
+Yeah.
+
+14:31.420 --> 14:32.420
+Didn't we?
+
+14:32.420 --> 14:33.420
+It's up for Saturday.
+
+14:33.420 --> 14:34.420
+Yeah.
+
+14:34.420 --> 14:35.420
+Yeah.
+
+14:35.420 --> 14:36.420
+I was waiting here for you to
+come back.
+
+14:36.420 --> 14:38.420
+Oh, that night was a wonderful
+night because we went out for
+dinner.
+
+14:38.420 --> 14:41.420
+Well, first of all, our daughter
+decided to have a sleepover at
+some
+
+14:41.420 --> 14:42.420
+friend's house.
+
+14:42.420 --> 14:43.420
+Yeah.
+
+14:43.420 --> 14:44.420
+So that's always good news.
+
+14:44.420 --> 14:45.420
+Yeah.
+
+14:45.420 --> 14:46.420
+Because then we have the house
+all to ourselves.
+
+14:46.420 --> 14:49.420
+And I have to say she is hurting
+this month.
+
+14:49.420 --> 14:50.420
+You know, the last couple of.
+
+14:50.420 --> 14:51.420
+Yeah.
+
+14:51.420 --> 14:54.420
+That you have to elaborate on
+that because I have not to
+discuss this in the show.
+
+14:54.420 --> 14:55.420
+Oh, is enough.
+
+14:55.420 --> 14:56.420
+No, no, no working.
+
+14:56.420 --> 14:57.420
+I didn't.
+
+14:57.420 --> 14:59.420
+Well, you, you, you started it.
+
+14:59.420 --> 15:01.420
+So what I mean, you so now you
+have to, you have to finish it.
+
+15:01.420 --> 15:04.420
+Well, all the parents know that
+if your teenage daughter,
+
+15:04.420 --> 15:08.420
+uh, is in love was in love who
+are, you know, has,
+
+15:08.420 --> 15:10.420
+or whatever they think love is.
+
+15:10.420 --> 15:11.420
+They think love is.
+
+15:11.420 --> 15:15.420
+Um, and, uh, they have some
+problems with that with the
+relationship.
+
+15:15.420 --> 15:18.420
+Oh, the first one.
+
+15:18.420 --> 15:20.420
+They don't want to listen to
+you.
+
+15:20.420 --> 15:24.420
+Whatever you say, it's like
+almost it's not going into the
+brain.
+
+15:24.420 --> 15:25.420
+Yeah.
+
+15:25.420 --> 15:29.420
+Well, did you accept anything
+your parents told you when you
+were 17
+
+15:29.420 --> 15:30.420
+years old?
+
+15:30.420 --> 15:31.420
+No.
+
+15:31.420 --> 15:32.420
+Absolutely.
+
+15:32.420 --> 15:33.420
+You left the house.
+
+15:33.420 --> 15:35.420
+You were so non-acceptive of
+what they had to say.
+
+15:35.420 --> 15:36.420
+Yeah.
+
+15:36.420 --> 15:38.420
+But I keep telling her the whole
+story.
+
+15:38.420 --> 15:39.420
+What happened.
+
+15:39.420 --> 15:44.420
+And, and I, I took so much
+differently to her than my
+parents did.
+
+15:44.420 --> 15:45.420
+And she knows.
+
+15:45.420 --> 15:46.420
+She tells me everything.
+
+15:46.420 --> 15:47.420
+I couldn't tell my parents.
+
+15:47.420 --> 15:48.420
+She certainly does tell you
+everything.
+
+15:48.420 --> 15:49.420
+Yeah.
+
+15:49.420 --> 15:51.420
+I mean, she always hates me
+because I'll tell you.
+
+15:51.420 --> 15:52.420
+And then you tell me.
+
+15:52.420 --> 15:54.420
+And then I do say, I'm not
+alone.
+
+15:54.420 --> 15:55.420
+Oh, what?
+
+15:55.420 --> 15:56.420
+How come I can't know
+everything.
+
+15:56.420 --> 15:58.420
+I want to know all of this.
+
+15:58.420 --> 15:59.420
+Actually, I don't want to know
+everything.
+
+15:59.420 --> 16:00.420
+Yeah.
+
+16:00.420 --> 16:01.420
+Don't want to know.
+
+16:01.420 --> 16:02.420
+No.
+
+16:02.420 --> 16:03.420
+There's more that you haven't
+told me.
+
+16:03.420 --> 16:04.420
+No, no, no, no.
+
+16:04.420 --> 16:07.420
+I mean, you always very
+flabbergasted.
+
+16:07.420 --> 16:09.420
+Completely fabricized.
+
+16:09.420 --> 16:10.420
+Yeah.
+
+16:10.420 --> 16:12.420
+But so, um, uh,
+
+16:13.420 --> 16:17.420
+So anyway, so she, so she needed
+to be with her friends and eat
+ice cream with, uh, you know,
+
+16:17.420 --> 16:19.420
+you know, on the couch, watch
+and tell her vision.
+
+16:19.420 --> 16:20.420
+Yeah.
+
+16:20.420 --> 16:21.420
+Curl up and, and, uh, disgusty.
+
+16:21.420 --> 16:25.420
+I think it's all going to be a,
+it'll be okay with our love
+birds or, or not.
+
+16:25.420 --> 16:26.420
+I don't know.
+
+16:26.420 --> 16:27.420
+Who knows.
+
+16:27.420 --> 16:28.420
+Yeah.
+
+16:28.420 --> 16:29.420
+I don't know.
+
+16:29.420 --> 16:30.420
+I'm hard broken.
+
+16:30.420 --> 16:31.420
+Yeah.
+
+16:31.420 --> 16:32.420
+I'm hard broken too from it.
+
+16:32.420 --> 16:33.420
+Yeah.
+
+16:33.420 --> 16:34.420
+Yeah.
+
+16:34.420 --> 16:35.420
+We knew that.
+
+16:35.420 --> 16:38.420
+Well, you said to see your
+daughter like that because she's
+so much, you know,
+
+16:38.420 --> 16:43.420
+but it's, she's so young and she
+thinks that this is the end of
+the world.
+
+16:43.420 --> 16:48.420
+I keep telling her. I said, you
+know, it's like, you know, how
+coincidental is it,
+
+16:48.420 --> 16:53.420
+that of all the guys in the
+world, all the places we've
+lived, that the one guy that is
+the,
+
+16:53.420 --> 16:56.420
+the man for the rest of her life
+is in Guilford.
+
+16:56.420 --> 16:57.420
+Yeah.
+
+16:57.420 --> 17:00.420
+You know, it's possible there
+may be some,
+
+17:00.420 --> 17:03.420
+maybe there's some other stuff
+out there you don't want to look
+at.
+
+17:03.420 --> 17:04.420
+You don't know.
+
+17:04.420 --> 17:05.420
+You never know.
+
+17:05.420 --> 17:06.420
+You never can tell.
+
+17:06.420 --> 17:08.420
+That's what I keep telling her.
+
+17:08.420 --> 17:09.420
+That's what I keep saying.
+
+17:09.420 --> 17:10.420
+You're only starting.
+
+17:10.420 --> 17:13.420
+You have to test drive a lot of
+cars.
+
+17:13.420 --> 17:14.420
+You know, like that.
+
+17:14.420 --> 17:16.420
+How many test drives did you do?
+
+17:16.420 --> 17:17.420
+My dear.
+
+17:17.420 --> 17:18.420
+Can you count them?
+
+17:18.420 --> 17:19.420
+Not mine.
+
+17:19.420 --> 17:20.420
+I think not many.
+
+17:20.420 --> 17:21.420
+If you, if you.
+
+17:21.420 --> 17:22.420
+I saw an study.
+
+17:22.420 --> 17:23.420
+I saw an study.
+
+17:23.420 --> 17:27.420
+The teenagers these days, they
+count like 30, 40.
+
+17:27.420 --> 17:29.420
+Oh, I already had 30.
+
+17:29.420 --> 17:30.420
+Oh, God.
+
+17:30.420 --> 17:34.420
+I read in a study somewhere that
+the average number of pre,
+
+17:35.420 --> 17:39.420
+marital sexual relations that
+women have had in.
+
+17:39.420 --> 17:42.420
+Gosh, I think it was, I think it
+was the United States.
+
+17:42.420 --> 17:43.420
+Mm.
+
+17:43.420 --> 17:44.420
+Was four.
+
+17:44.420 --> 17:46.420
+Which seems really low to me.
+
+17:46.420 --> 17:47.420
+Wow.
+
+17:47.420 --> 17:48.420
+Yeah.
+
+17:48.420 --> 17:49.420
+Seems really low.
+
+17:49.420 --> 17:50.420
+Now for me, I think it was,
+
+17:50.420 --> 17:52.420
+and maybe that were a couple of
+that.
+
+17:52.420 --> 17:54.420
+Stop counting on your toes.
+
+17:54.420 --> 17:57.420
+I don't know anymore because
+it's not,
+
+17:57.420 --> 17:59.420
+I was so not impressed.
+
+17:59.420 --> 18:01.420
+So probably,
+
+18:01.420 --> 18:03.420
+maybe eight.
+
+18:03.420 --> 18:04.420
+Really?
+
+18:04.420 --> 18:05.420
+Be 10.
+
+18:05.420 --> 18:06.420
+Not much than that.
+
+18:06.420 --> 18:07.420
+That's it.
+
+18:07.420 --> 18:09.420
+And I wish I did more, you know.
+
+18:09.420 --> 18:10.420
+Really?
+
+18:10.420 --> 18:11.420
+Yeah.
+
+18:11.420 --> 18:12.420
+Well, dear.
+
+18:12.420 --> 18:14.420
+But as long as I can watch,
+
+18:14.420 --> 18:16.420
+you can have as many more as you
+want.
+
+18:16.420 --> 18:17.420
+I was so proud of them.
+
+18:17.420 --> 18:20.420
+See, I was busy with music and
+other things.
+
+18:20.420 --> 18:24.420
+And when you are, you know, when
+I was at my age,
+
+18:24.420 --> 18:28.420
+I was about 16 when I did my
+first recording.
+
+18:28.420 --> 18:31.420
+And from that moment on,
+
+18:31.420 --> 18:32.420
+actually,
+
+18:32.420 --> 18:33.420
+famous in my country,
+
+18:33.420 --> 18:35.420
+which was different than now,
+
+18:35.420 --> 18:36.420
+of course.
+
+18:36.420 --> 18:37.420
+But when you were famous,
+
+18:37.420 --> 18:40.420
+then there were only maybe a
+couple of people
+
+18:40.420 --> 18:42.420
+that were really, really famous
+in these.
+
+18:42.420 --> 18:44.420
+And you couldn't go anywhere.
+
+18:44.420 --> 18:45.420
+Yeah.
+
+18:45.420 --> 18:46.420
+You weren't TV and if you
+weren't TV,
+
+18:46.420 --> 18:48.420
+everybody's seen it.
+
+18:48.420 --> 18:49.420
+And that was actually.
+
+18:49.420 --> 18:52.420
+So you were like, you're kind of
+like Michael Jackson.
+
+18:52.420 --> 18:53.420
+Yeah, a little bit.
+
+18:53.420 --> 18:54.420
+Well, not, you can't.
+
+18:54.420 --> 18:55.420
+Michael Jackson, of course,
+
+18:55.420 --> 18:56.420
+these.
+
+18:56.420 --> 18:57.420
+He's never, I mean,
+
+18:57.420 --> 18:59.420
+a sexual like Michael Jackson.
+
+18:59.420 --> 19:00.420
+He's, you know,
+
+19:00.420 --> 19:01.420
+famous all over the world.
+
+19:01.420 --> 19:02.420
+He cannot.
+
+19:02.420 --> 19:03.420
+I'm from Holland.
+
+19:03.420 --> 19:04.420
+Yeah.
+
+19:04.420 --> 19:06.420
+He's the jury will disregard.
+
+19:06.420 --> 19:07.420
+So, you know,
+
+19:07.420 --> 19:08.420
+I couldn't go out.
+
+19:08.420 --> 19:09.420
+I couldn't go out.
+
+19:09.420 --> 19:11.420
+Couldn't have fun with
+teenagers.
+
+19:11.420 --> 19:13.420
+So I actually skipped that a
+little bit.
+
+19:13.420 --> 19:15.420
+That's why I always stayed a
+teenager.
+
+19:15.420 --> 19:16.420
+I think in my head.
+
+19:16.420 --> 19:18.420
+So how do we get from Christina
+to you again?
+
+19:18.420 --> 19:19.420
+I don't know.
+
+19:19.420 --> 19:20.420
+Once again, it's about me.
+
+19:20.420 --> 19:22.420
+How many did I have?
+
+19:22.420 --> 19:23.420
+Right.
+
+19:23.420 --> 19:24.420
+That was the question.
+
+19:24.420 --> 19:25.420
+So I said,
+
+19:25.420 --> 19:27.420
+I didn't have the time for it.
+
+19:27.420 --> 19:29.420
+So that's why I wasn't that
+much.
+
+19:29.420 --> 19:31.420
+I think I had more than 10.
+
+19:31.420 --> 19:33.420
+Well, thank God for that.
+
+19:33.420 --> 19:34.420
+That's very important.
+
+19:34.420 --> 19:35.420
+Yes, it is.
+
+19:35.420 --> 19:38.420
+I wouldn't like to have a geek
+that didn't do it that much.
+
+19:38.420 --> 19:39.420
+You know what I mean?
+
+19:39.420 --> 19:40.420
+But I was good out of the gate.
+
+19:40.420 --> 19:41.420
+Wasn't I?
+
+19:41.420 --> 19:42.420
+Very good.
+
+19:42.420 --> 19:46.420
+So we had a play date.
+
+19:46.420 --> 19:47.420
+Yeah.
+
+19:47.420 --> 19:48.420
+So we, that's.
+
+19:48.420 --> 19:49.420
+Right.
+
+19:49.420 --> 19:50.420
+We had a lovely dinner.
+
+19:50.420 --> 19:51.420
+I have to say it was,
+
+19:51.420 --> 19:54.420
+we usually sit in the restaurant
+much shorter than that.
+
+19:54.420 --> 19:56.420
+We really, we stayed for like
+more than an hour,
+
+19:56.420 --> 19:58.420
+which for us is a long time.
+
+19:58.420 --> 20:00.420
+Well, the thing is when we sit
+in the restaurant,
+
+20:00.420 --> 20:02.420
+we actually have something to
+say to each other.
+
+20:02.420 --> 20:03.420
+We always talk.
+
+20:03.420 --> 20:04.420
+I have to constantly say,
+
+20:04.420 --> 20:05.420
+you're not alone.
+
+20:05.420 --> 20:06.420
+And next to the aga,
+
+20:06.420 --> 20:08.420
+to tone it down a little bit.
+
+20:08.420 --> 20:09.420
+You're really fucking loud.
+
+20:09.420 --> 20:10.420
+Talking.
+
+20:10.420 --> 20:12.420
+And your phone's gone.
+
+20:12.420 --> 20:14.420
+Baby, baby, baby.
+
+20:14.420 --> 20:15.420
+Really?
+
+20:15.420 --> 20:16.420
+That's my daughter.
+
+20:16.420 --> 20:19.420
+You are like a one big noise
+box.
+
+20:19.420 --> 20:21.420
+Oh, you know.
+
+20:21.420 --> 20:23.420
+I can't take you anywhere.
+
+20:23.420 --> 20:25.420
+Very loud and happy.
+
+20:25.420 --> 20:26.420
+But anyway, so we had a little
+bit.
+
+20:26.420 --> 20:28.420
+And she's, and we're sitting
+there.
+
+20:28.420 --> 20:30.420
+And after the art derves,
+
+20:30.420 --> 20:31.420
+you know, the,
+
+20:31.420 --> 20:32.420
+the waitress said,
+
+20:32.420 --> 20:33.420
+I was Chinese.
+
+20:33.420 --> 20:34.420
+Is that you finish?
+
+20:34.420 --> 20:35.420
+No, she's no Chinese.
+
+20:35.420 --> 20:36.420
+She's a Vietnamese.
+
+20:36.420 --> 20:37.420
+Vietnamese.
+
+20:37.420 --> 20:38.420
+Are you finished?
+
+20:38.420 --> 20:39.420
+And you said,
+
+20:39.420 --> 20:40.420
+yes.
+
+20:40.420 --> 20:41.420
+What?
+
+20:42.420 --> 20:43.420
+You kept selling her everything.
+
+20:43.420 --> 20:44.420
+No, you can have it.
+
+20:44.420 --> 20:45.420
+She actually looked off.
+
+20:45.420 --> 20:46.420
+I looked a little bit for you.
+
+20:46.420 --> 20:47.420
+And she actually went,
+
+20:47.420 --> 20:48.420
+oh, thank you.
+
+20:48.420 --> 20:50.420
+Like, fuck you.
+
+20:50.420 --> 20:52.420
+I just took.
+
+20:52.420 --> 20:54.420
+I just took that girl up your
+ass.
+
+20:54.420 --> 20:55.420
+She just didn't want that.
+
+20:55.420 --> 20:56.420
+Did you?
+
+20:56.420 --> 20:57.420
+No.
+
+20:57.420 --> 20:59.420
+It's for you.
+
+20:59.420 --> 21:00.420
+And you have it then.
+
+21:00.420 --> 21:01.420
+But then you asked,
+
+21:01.420 --> 21:02.420
+you asked for tea.
+
+21:02.420 --> 21:03.420
+And they gave you Chinese tea,
+
+21:03.420 --> 21:05.420
+which were convinced is actually
+
+21:05.420 --> 21:07.420
+dish washing water.
+
+21:07.420 --> 21:08.420
+Yeah.
+
+21:08.420 --> 21:09.420
+And I did that.
+
+21:09.420 --> 21:10.420
+If they put you,
+
+21:10.420 --> 21:11.420
+you know,
+
+21:11.420 --> 21:13.420
+they give a big part of
+
+21:13.420 --> 21:14.420
+Chinese,
+
+21:14.420 --> 21:15.420
+or Vietnamese,
+
+21:15.420 --> 21:17.420
+or whatever of Thai tea.
+
+21:17.420 --> 21:19.420
+It has no color.
+
+21:19.420 --> 21:20.420
+Yes.
+
+21:20.420 --> 21:21.420
+It's brownish.
+
+21:21.420 --> 21:22.420
+It really leaves in it
+somewhere.
+
+21:22.420 --> 21:23.420
+And I think.
+
+21:23.420 --> 21:25.420
+Which could be like chives from
+someone's
+
+21:25.420 --> 21:26.420
+between someone's tea.
+
+21:26.420 --> 21:28.420
+And we always think that
+somebody in the kitchen
+
+21:28.420 --> 21:29.420
+is, you know,
+
+21:29.420 --> 21:30.420
+looking at us and see.
+
+21:30.420 --> 21:31.420
+They think.
+
+21:31.420 --> 21:33.420
+They're drinking the dish water
+again.
+
+21:33.420 --> 21:35.420
+They think they drink,
+
+21:35.420 --> 21:36.420
+you know,
+
+21:36.420 --> 21:37.420
+oriental tea.
+
+21:38.420 --> 21:39.420
+It's just water.
+
+21:39.420 --> 21:42.420
+It doesn't taste like anything.
+
+21:42.420 --> 21:43.420
+It doesn't.
+
+21:43.420 --> 21:45.420
+Oh, God.
+
+21:45.420 --> 21:47.420
+So we had a play day.
+
+21:47.420 --> 21:48.420
+Yeah.
+
+21:48.420 --> 21:49.420
+Anyway, so we came home.
+
+21:49.420 --> 21:50.420
+And Patricia,
+
+21:50.420 --> 21:51.420
+you know,
+
+21:51.420 --> 21:52.420
+who has become this like surfing
+
+21:52.420 --> 21:53.420
+mevan,
+
+21:53.420 --> 21:55.420
+found this website called
+
+21:55.420 --> 21:58.420
+SingShot.com.
+
+21:58.420 --> 21:59.420
+This is awesome.
+
+21:59.420 --> 22:01.420
+And you'd have remembered the
+name.
+
+22:01.420 --> 22:03.420
+How did you remember the name?
+
+22:03.420 --> 22:04.420
+The song.
+
+22:04.420 --> 22:06.420
+SingShot.com.
+
+22:07.420 --> 22:08.420
+She was like,
+
+22:08.420 --> 22:09.420
+What was the name of that site?
+
+22:09.420 --> 22:10.420
+I said,
+
+22:10.420 --> 22:12.420
+Well, singShot.com.
+
+22:12.420 --> 22:14.420
+And you said.
+
+22:14.420 --> 22:15.420
+And you said,
+
+22:15.420 --> 22:16.420
+Oh, I remember that.
+
+22:16.420 --> 22:18.420
+I just think about calm show.
+
+22:18.420 --> 22:21.420
+I'm glad you're laughing about
+your own.
+
+22:21.420 --> 22:22.420
+I'm glad you're laughing about
+your own.
+
+22:22.420 --> 22:23.420
+You see.
+
+22:23.420 --> 22:24.420
+Yes.
+
+22:24.420 --> 22:25.420
+CalmShot.com.
+
+22:25.420 --> 22:26.420
+You're right.
+
+22:26.420 --> 22:27.420
+But this is awesome.
+
+22:27.420 --> 22:28.420
+They have.
+
+22:28.420 --> 22:29.420
+Don't tell everybody.
+
+22:29.420 --> 22:31.420
+It's great sight.
+
+22:31.420 --> 22:32.420
+Now it's a great sight.
+
+22:32.420 --> 22:33.420
+Yeah, it is a great sight.
+
+22:33.420 --> 22:34.420
+It's kind of like a karaoke.
+
+22:34.420 --> 22:35.420
+Yeah.
+
+22:35.420 --> 22:38.420
+It sounds a bit better than the
+other karaoke.
+
+22:38.420 --> 22:39.420
+Well, yeah.
+
+22:39.420 --> 22:41.420
+So all the tracks are actually
+really good.
+
+22:41.420 --> 22:44.420
+And then you can hook up your
+microphone or even your webcam.
+
+22:44.420 --> 22:45.420
+And then you can sing along.
+
+22:45.420 --> 22:46.420
+Yeah.
+
+22:46.420 --> 22:47.420
+And you can compete.
+
+22:47.420 --> 22:48.420
+Yeah.
+
+22:48.420 --> 22:50.420
+It's like an American Idol
+social network.
+
+22:50.420 --> 22:51.420
+It's fun.
+
+22:51.420 --> 22:52.420
+Yeah.
+
+22:52.420 --> 22:53.420
+It's an awesome, awesome.
+
+22:53.420 --> 22:54.420
+Awesome.
+
+22:54.420 --> 22:56.420
+And we had a lot of fun.
+
+22:56.420 --> 22:57.420
+Didn't we?
+
+22:57.420 --> 22:59.420
+In fact.
+
+22:59.420 --> 23:01.420
+You have to.
+
+23:01.420 --> 23:02.420
+You have to.
+
+23:02.420 --> 23:03.420
+You want to.
+
+23:03.420 --> 23:04.420
+Do you want to sing with one of
+them right now?
+
+23:04.420 --> 23:05.420
+Yeah.
+
+23:05.420 --> 23:06.420
+Okay.
+
+23:06.420 --> 23:08.420
+I'll give you another example.
+
+23:08.420 --> 23:09.420
+Hold on.
+
+23:09.420 --> 23:10.420
+Then I have to give you a little
+bit of, uh,
+
+23:10.420 --> 23:12.420
+I have to give you some, uh,
+some.
+
+23:12.420 --> 23:13.420
+Let's take one of,
+
+23:13.420 --> 23:15.420
+some that we did last night.
+
+23:15.420 --> 23:16.420
+Hold on.
+
+23:16.420 --> 23:17.420
+I need to hook up your echo.
+
+23:17.420 --> 23:18.420
+Give me some.
+
+23:18.420 --> 23:19.420
+Okay.
+
+23:19.420 --> 23:20.420
+Check.
+
+23:20.420 --> 23:21.420
+Check.
+
+23:21.420 --> 23:22.420
+Check.
+
+23:22.420 --> 23:23.420
+Check.
+
+23:23.420 --> 23:24.420
+Check.
+
+23:24.420 --> 23:25.420
+I mean, no more.
+
+23:26.250 --> 26:26.250
+[ Music ]
+
+26:27.420 --> 26:31.420
+Nice stretching of the vocal
+cords, baby
+
+26:31.420 --> 26:39.420
+It's almost an ocean
+
+26:39.420 --> 26:42.420
+An ocean
+
+26:42.420 --> 26:46.420
+I love the way those lyrics go
+across the screen
+
+26:46.420 --> 26:48.420
+That's an awesome sight
+
+26:48.420 --> 26:50.420
+I think your vocal cords work
+fine
+
+26:50.420 --> 26:55.420
+No, no, no, I'm still a little
+bit too low here in there, I can
+tell
+
+26:55.420 --> 27:00.420
+You know, the vocal cords don't
+listen to me right away
+
+27:00.420 --> 27:03.420
+But it's getting there, it's
+coming back
+
+27:03.420 --> 27:05.420
+So what's happening next week?
+
+27:05.420 --> 27:10.420
+And I did the last week, I think
+about ignore whatever I said
+
+27:10.420 --> 27:16.420
+Whatever you say, I'm used to do
+that on TV in the talk shows
+
+27:16.420 --> 27:19.420
+Do you interview any questions?
+
+27:19.420 --> 27:23.420
+Any questions that I don't like,
+I just asked you what you're
+doing next week
+
+27:23.420 --> 27:28.420
+No, I was telling that I just
+wanted to say that last week we
+did about
+
+27:28.420 --> 27:34.420
+I think 38 interviews Ivana and
+I for a local radio station in
+Holland
+
+27:34.420 --> 27:36.420
+Really? How many?
+
+27:36.420 --> 27:38.420
+I think 38.
+
+27:38.420 --> 27:40.420
+Also you have nothing left to
+say, is that what you're saying?
+
+27:40.420 --> 27:43.420
+No, what I mean is that my
+brains are a little bit mushy
+
+27:43.420 --> 27:45.420
+A little bit Dutch
+
+27:45.420 --> 27:47.420
+Oh, I see
+
+27:47.420 --> 27:50.420
+That's another byproduct that
+keep warning you about that
+
+27:51.420 --> 27:53.420
+You're English is deteriorating
+
+27:53.420 --> 27:56.420
+I know, especially when I speak
+so much Dutch
+
+27:56.420 --> 27:57.420
+Yeah, yeah
+
+27:57.420 --> 28:03.420
+So because I heard that a lot of
+people say that if I speak
+English, I speak a lot of
+
+28:03.420 --> 28:07.420
+No, I speak a lot
+
+28:07.420 --> 28:11.420
+Lazyer and a lot of slower
+
+28:11.420 --> 28:16.420
+That's because my brain are not
+catching up
+
+28:17.420 --> 28:23.420
+Yeah, because they saw me on the
+internet talk my own language
+
+28:23.420 --> 28:27.420
+And that goes a lot faster, I
+have to say
+
+28:27.420 --> 28:31.420
+So we have a new Prime Minister
+coming in, I wanted to ask you
+your opinion
+
+28:31.420 --> 28:36.420
+Not that you necessarily follow
+all of the ins and outs of
+British politics
+
+28:36.420 --> 28:39.420
+But you can see the two guys, we
+have Tony Blair going out
+
+28:39.420 --> 28:43.420
+And Gordon Brown coming in, your
+thoughts, lady Patricia
+
+28:43.420 --> 28:47.420
+Well, of course, I don't know
+what they expect from their new
+leadership
+
+28:47.420 --> 28:51.420
+Leadership, I think leadership
+is a good leadership
+
+28:51.420 --> 28:55.420
+But what I can say as a human
+being listening to this guy
+
+28:55.420 --> 28:57.420
+To Gordon Brown
+
+28:57.420 --> 29:00.420
+I also always have to think
+about it
+
+29:00.420 --> 29:03.420
+So Gordon Brown
+
+29:03.420 --> 29:04.420
+The strongest
+
+29:04.420 --> 29:06.420
+Let me see if I can find that
+
+29:06.420 --> 29:08.420
+Gordon Brown
+
+29:08.420 --> 29:12.420
+Someone should do that, that's
+an awesome school
+
+29:13.420 --> 29:17.420
+But if I listen to his voice,
+which is very important
+
+29:17.420 --> 29:19.420
+I agree
+
+29:19.420 --> 29:23.420
+I think he has sort of a
+fatherly sound in his voice
+
+29:23.420 --> 29:25.420
+Which is very, very good
+
+29:25.420 --> 29:27.420
+He sounds very trustful
+
+29:27.420 --> 29:28.420
+Kind of comforting
+
+29:28.420 --> 29:30.420
+Yeah, comforting, that's it,
+yeah
+
+29:30.420 --> 29:32.420
+So that's good, that's good
+thing
+
+29:32.420 --> 29:37.420
+You did some good things, I
+think as Chancellor that he
+basically stopped the UK
+
+29:37.420 --> 29:41.420
+Well, they could have had the
+referendum, but he made sure
+that the UK didn't go
+
+29:41.420 --> 29:42.420
+To the Euro
+
+29:42.420 --> 29:43.420
+Yeah
+
+29:43.420 --> 29:44.420
+And stayed with the non-stirling
+
+29:44.420 --> 29:46.420
+Which I think is really, I think
+that's very smart
+
+29:46.420 --> 29:48.420
+Look at the economy here, it's
+unbelievable
+
+29:48.420 --> 29:49.420
+Unbelievable
+
+29:49.420 --> 29:50.420
+Yeah
+
+29:50.420 --> 29:54.420
+So it's probably, maybe a good
+politician
+
+29:54.420 --> 29:56.420
+I don't understand it, what's
+you keep
+
+29:56.420 --> 29:57.420
+One second
+
+29:57.420 --> 29:59.420
+Stranglers
+
+29:59.420 --> 30:00.420
+Yeah
+
+30:00.420 --> 30:02.420
+Want to be funny if I could find
+it
+
+30:02.420 --> 30:05.420
+And somebody has to do this,
+Gordon Brown
+
+30:05.420 --> 30:08.420
+Give up what's the rest of the
+lyrics
+
+30:08.420 --> 30:12.420
+What can we moving from 11
+Downing to 10
+
+30:12.420 --> 30:13.420
+10
+
+30:13.420 --> 30:15.420
+Gordon Brown
+
+30:15.420 --> 30:17.420
+It's not going very fast
+
+30:17.420 --> 30:19.420
+Napster still says search
+
+30:19.420 --> 30:21.420
+And he has a nice face
+
+30:21.420 --> 30:23.420
+You see, I look at these things
+
+30:23.420 --> 30:26.420
+Sometimes you get somebody's
+saying, oh, I don't like his
+face
+
+30:26.420 --> 30:31.420
+And I'm like his voice, it just
+doesn't work
+
+30:31.420 --> 30:33.420
+Well, Blair didn't have such a
+great voice
+
+30:33.420 --> 30:35.420
+I thought he was sexy
+
+30:35.420 --> 30:36.420
+Blair
+
+30:36.420 --> 30:37.420
+Here it is
+
+30:37.420 --> 30:39.420
+You have Blair with sexy?
+
+30:39.420 --> 30:40.420
+Yes, I thought so
+
+30:40.420 --> 30:41.420
+Was or still is
+
+30:41.420 --> 30:42.420
+Still is
+
+30:42.420 --> 30:45.420
+I'm going to do the live live
+with me
+
+30:45.420 --> 30:46.420
+I don't know
+
+30:46.420 --> 30:49.420
+We should write some lyrics
+
+30:49.420 --> 30:51.420
+And then get the karaoke version
+
+30:51.420 --> 30:52.420
+Yeah
+
+30:52.420 --> 30:54.420
+Here comes
+
+30:54.420 --> 30:56.420
+Gordon Brown
+
+30:56.420 --> 30:58.420
+Text you like that
+
+30:58.420 --> 31:00.420
+He lays me down
+
+31:00.420 --> 31:01.420
+He lays me down
+
+31:01.420 --> 31:05.420
+You're going from 11 Downing to
+10
+
+31:06.420 --> 31:07.420
+Never a friend
+
+31:07.420 --> 31:09.420
+Never a friend
+
+31:13.420 --> 31:15.420
+Every time
+
+31:15.420 --> 31:16.420
+Just like that
+
+31:16.420 --> 31:18.420
+That was a great song, wasn't
+it?
+
+31:18.420 --> 31:19.420
+I love that song
+
+31:19.420 --> 31:20.420
+Yeah
+
+31:20.420 --> 31:22.420
+That totally totally springs for
+someone
+
+31:22.420 --> 31:24.420
+Do that, you're so right
+
+31:24.420 --> 31:26.420
+There's never a friend
+
+31:26.420 --> 31:28.420
+That Gordon Brown
+
+31:32.420 --> 31:33.420
+That's funny
+
+31:33.420 --> 31:34.420
+Yeah
+
+31:34.420 --> 31:37.420
+So the names here are so
+fantastic
+
+31:37.420 --> 31:38.420
+You didn't you say
+
+31:38.420 --> 31:40.420
+I heard somebody doing the
+
+31:40.420 --> 31:42.420
+The weather and she says
+
+31:42.420 --> 31:43.420
+This is Fennelafar
+
+31:43.420 --> 31:44.420
+Fennelafar
+
+31:44.420 --> 31:45.420
+Fennelafar
+
+31:45.420 --> 31:46.420
+Yeah, that's on radio too
+
+31:46.420 --> 31:47.420
+With Steve right in the
+afternoon
+
+31:47.420 --> 31:48.420
+Fennelafar
+
+31:48.420 --> 31:50.420
+Should we hear Fennelafar
+
+31:50.420 --> 31:51.420
+So Miss Fudge
+
+31:51.420 --> 31:53.420
+This is Fennelafar
+
+31:53.420 --> 31:55.420
+She has a wonderful voice
+
+31:55.420 --> 31:56.420
+She does
+
+31:56.420 --> 31:57.420
+She has a great voice
+
+31:57.420 --> 32:00.420
+You know, she's going to be
+really really beat-looking
+
+32:00.420 --> 32:01.420
+She has a great voice
+
+32:01.420 --> 32:03.420
+She has the perfect voice for
+radio
+
+32:03.420 --> 32:04.420
+Good
+
+32:04.420 --> 32:05.420
+Yeah, vanilla Fudge
+
+32:05.420 --> 32:06.420
+I'm so hot
+
+32:06.420 --> 32:08.420
+I'm vanilla Fudge
+
+32:08.420 --> 32:10.420
+You can judge my Fudge
+
+32:10.420 --> 32:11.420
+No, no, no
+
+32:11.420 --> 32:13.420
+It is time for you to touch the
+Fudge
+
+32:13.420 --> 32:14.420
+Fudge
+
+32:14.420 --> 32:15.420
+Exactly
+
+32:15.420 --> 32:16.420
+You want your another song?
+
+32:16.420 --> 32:17.420
+What do you want to do?
+
+32:17.420 --> 32:18.420
+Some music?
+
+32:18.420 --> 32:20.420
+Yeah, I have a new Howard Jones
+
+32:20.420 --> 32:22.420
+Which you're probably proud of
+
+32:22.420 --> 32:24.420
+Yeah, he puts all that stuff out
+pod save
+
+32:24.420 --> 32:25.420
+How would Jones?
+
+32:25.420 --> 32:26.420
+I would not
+
+32:26.420 --> 32:27.420
+Yeah
+
+32:27.420 --> 32:28.420
+Over the last one
+
+32:28.420 --> 32:29.420
+Don't give me that face
+
+32:29.420 --> 32:30.420
+Be arch
+
+32:30.420 --> 32:31.420
+Don't say that
+
+32:31.420 --> 32:32.420
+You're not
+
+32:32.420 --> 32:33.420
+Make fun of the pod save
+
+32:33.420 --> 32:34.420
+Music Revolution
+
+32:34.420 --> 32:36.420
+You
+
+32:36.420 --> 32:38.420
+You make fun of our songs
+running away
+
+32:38.420 --> 32:39.420
+I know
+
+32:39.420 --> 32:41.420
+The pod save music revolution is
+also there for you
+
+32:41.420 --> 32:43.420
+When you're ready to embrace it
+
+32:43.420 --> 32:45.420
+When you're ready to embrace
+
+32:45.420 --> 32:46.420
+Pod save
+
+32:46.420 --> 32:48.420
+Then you will be welcome into
+our world
+
+32:48.420 --> 32:49.420
+With open arms
+
+32:49.420 --> 32:51.420
+I know, I'm still in the old
+world
+
+32:51.420 --> 32:52.420
+Oh
+
+32:52.420 --> 32:54.420
+All right
+
+32:54.420 --> 32:57.420
+Like our friend Howard has done
+
+32:57.420 --> 33:00.420
+He's opened his arms to the
+revolution
+
+33:00.420 --> 33:03.420
+How sounds a bit like the
+weather girl's kind of doesn't
+it?
+
+33:03.420 --> 33:05.420
+It's called Revolution of the
+Heart
+
+33:05.420 --> 33:07.420
+Howard Jones
+
+33:07.420 --> 33:09.420
+Fuck, I crashed
+
+33:09.420 --> 33:12.420
+It's a beautiful world
+
+33:12.420 --> 33:15.420
+Feel me, isn't it?
+
+33:15.420 --> 35:34.420
+[ Music ]
+
+35:34.420 --> 35:36.420
+I like it
+
+35:43.420 --> 35:45.420
+That's awesome
+
+35:45.420 --> 35:48.420
+It sounds just like the weather
+girls
+
+35:48.420 --> 35:50.420
+No
+
+35:50.420 --> 35:52.420
+I see your mallets
+
+35:52.420 --> 35:54.420
+I see your mallets
+
+35:54.420 --> 35:57.420
+I see your mallets
+
+36:04.420 --> 36:06.420
+Okay, excuse me
+
+36:06.420 --> 36:09.420
+Who's the man of the time tables
+
+36:09.420 --> 36:11.420
+Yeah
+
+36:11.420 --> 36:13.420
+I'm feeling a fuck
+
+36:18.420 --> 36:20.420
+Back the foot
+
+36:23.420 --> 36:25.420
+Yeah, that's awesome
+
+36:25.420 --> 36:26.420
+Hi
+
+36:26.420 --> 36:28.420
+Hi, you're a weather girl
+
+36:28.420 --> 36:29.420
+Yeah, the weather girl
+
+36:29.420 --> 36:32.420
+We've got a lot of great things
+
+36:33.420 --> 36:36.420
+I bet you can go from the
+weather girls into Howard Jones
+
+36:54.420 --> 36:57.420
+Okay, the mixed the other way
+was fantastic
+
+36:57.420 --> 36:58.420
+Who?
+
+36:58.420 --> 37:00.420
+We're having fun again
+
+37:01.420 --> 37:03.420
+Dude, I'm sorry that was like an
+awesome mix
+
+37:03.420 --> 37:05.420
+Yeah, yeah, yeah
+
+37:05.420 --> 37:06.420
+I'm sorry
+
+37:06.420 --> 37:07.420
+You can do gigs now
+
+37:07.420 --> 37:09.420
+Everybody has joined
+
+37:09.420 --> 37:10.420
+DJAC
+
+37:10.420 --> 37:11.420
+Into the sea
+
+37:11.420 --> 37:13.420
+Yeah, raise the roof
+
+37:13.420 --> 37:14.420
+Y'all
+
+37:14.420 --> 37:15.420
+Yeah, excuse me
+
+37:15.420 --> 37:16.420
+Raise the roof
+
+37:16.420 --> 37:17.420
+Y'all
+
+37:17.420 --> 37:19.420
+It's like I think the wrong
+week, please smoke
+
+37:21.420 --> 37:22.420
+Raise the roof
+
+37:22.420 --> 37:23.420
+Y'all
+
+37:25.420 --> 37:26.420
+That felt good
+
+37:26.420 --> 37:27.420
+Yeah
+
+37:27.420 --> 37:29.420
+We have fun when we play with
+music tonight
+
+37:29.420 --> 37:30.420
+Yes, we do
+
+37:30.420 --> 37:33.420
+It's very childish, but it's
+like
+
+37:33.420 --> 37:34.420
+Yeah
+
+37:34.420 --> 37:35.420
+That's true
+
+37:35.420 --> 37:37.420
+So you said to me, what are you
+going to do?
+
+37:37.420 --> 37:39.420
+My plans are for next week
+
+37:39.420 --> 37:42.420
+You're going to fly me over to
+Holland
+
+37:42.420 --> 37:43.420
+Fly me to Holland
+
+37:43.420 --> 37:44.420
+Yes
+
+37:44.420 --> 37:45.420
+And get your hair cut
+
+37:45.420 --> 37:46.420
+The favors country
+
+37:46.420 --> 37:47.420
+And while you're there too
+
+37:47.420 --> 37:48.420
+I know
+
+37:48.420 --> 37:49.420
+Get rid of that mullet
+
+37:49.420 --> 37:50.420
+Your favors country
+
+37:50.420 --> 37:52.420
+Where people clap on the one in
+the three
+
+37:52.420 --> 37:54.420
+They're so rhythmic
+
+37:54.420 --> 37:56.420
+We've got the funk
+
+37:56.420 --> 37:58.420
+It's in the man, Diana
+
+37:58.420 --> 38:00.420
+Who will Greg has got the funk
+
+38:00.420 --> 38:05.420
+And we're going to do a couple
+of TV shows
+
+38:05.420 --> 38:08.420
+I probably the last one before
+the holiday
+
+38:08.420 --> 38:10.420
+I wish you came on this show
+every day
+
+38:10.420 --> 38:12.420
+It's so much more fun when
+you're here
+
+38:12.420 --> 38:13.420
+Do you think so?
+
+38:13.420 --> 38:14.420
+I love it
+
+38:14.420 --> 38:16.420
+My English is not good enough
+
+38:16.420 --> 38:18.420
+Yeah, but it would improve
+overnight
+
+38:18.420 --> 38:20.420
+I mean look
+
+38:20.420 --> 38:21.420
+Yeah, that's true
+
+38:21.420 --> 38:23.420
+If they offered us a morning
+television show
+
+38:23.420 --> 38:24.420
+Would you say yes?
+
+38:24.420 --> 38:25.420
+Okay
+
+38:25.420 --> 38:27.420
+I can't even read the
+
+38:27.420 --> 38:28.420
+You can't
+
+38:28.420 --> 38:29.420
+What?
+
+38:29.420 --> 38:30.420
+The teleprompter
+
+38:30.420 --> 38:31.420
+Oh God
+
+38:31.420 --> 38:33.420
+You don't have to read the
+teleprompter
+
+38:33.420 --> 38:34.420
+You just have to read what they
+do
+
+38:34.420 --> 38:35.420
+They're reading the
+
+38:35.420 --> 38:36.420
+I'll do all the reading part
+
+38:36.420 --> 38:37.420
+I'll do all the serious part
+
+38:37.420 --> 38:39.420
+You do the vanilla-fudge part
+
+38:39.420 --> 38:41.420
+We did a show that everybody did
+
+38:41.420 --> 38:43.420
+Like
+
+38:43.420 --> 38:45.420
+We did a show that everybody
+didn't like
+
+38:45.420 --> 38:46.420
+I didn't count
+
+38:46.420 --> 38:47.420
+That wasn't that wasn't a
+
+38:47.420 --> 38:48.420
+An award show
+
+38:48.420 --> 38:50.420
+And so I think we did a very
+good job
+
+38:50.420 --> 38:52.420
+I think the people, all ten
+people who saw it
+
+38:52.420 --> 38:53.420
+Like it
+
+38:53.420 --> 38:54.420
+It was crazy
+
+38:54.420 --> 38:56.420
+That was a very expensive
+production
+
+38:56.420 --> 38:57.420
+There's no one's no one
+
+38:57.420 --> 38:58.420
+A beautiful show
+
+38:58.420 --> 38:59.420
+With lots of great things
+
+38:59.420 --> 39:01.420
+Was it like a football game on
+or something?
+
+39:01.420 --> 39:02.420
+I don't know
+
+39:02.420 --> 39:03.420
+You got to fuck them
+
+39:03.420 --> 39:04.420
+So, of course we got to fuck
+them
+
+39:04.420 --> 39:05.420
+We got to really fuck them
+
+39:05.420 --> 39:06.420
+Put us
+
+39:06.420 --> 39:07.420
+The story of our life
+
+39:07.420 --> 39:09.420
+But we had to present it
+
+39:09.420 --> 39:11.420
+And of course you're the
+professional
+
+39:11.420 --> 39:14.420
+And I did everything just from
+hard
+
+39:14.420 --> 39:16.420
+So let me ask you a question
+
+39:16.420 --> 39:17.420
+Are you still like in your
+
+39:17.420 --> 39:19.420
+Now that you're putting your toe
+back in the
+
+39:19.420 --> 39:21.420
+In the frigid waters of show
+business
+
+39:21.420 --> 39:23.420
+Are you liking it?
+
+39:23.420 --> 39:24.420
+Well in a different way
+
+39:24.420 --> 39:25.420
+Because you don't give a shit
+
+39:26.420 --> 39:27.420
+In a different way
+
+39:27.420 --> 39:29.420
+I think I enjoyed more
+
+39:29.420 --> 39:32.420
+Because I see you differently
+
+39:32.420 --> 39:33.420
+You know
+
+39:33.420 --> 39:36.420
+And it's not that I don't think
+
+39:36.420 --> 39:37.420
+Let me see
+
+39:37.420 --> 39:39.420
+Now I just, yeah I just enjoyed
+
+39:39.420 --> 39:41.420
+Because everything that I do now
+
+39:41.420 --> 39:42.420
+Is just
+
+39:42.420 --> 39:43.420
+You know
+
+39:43.420 --> 39:44.420
+Unbelievable
+
+39:44.420 --> 39:46.420
+That I still can do it
+
+39:46.420 --> 39:48.420
+And especially my age
+
+39:48.420 --> 39:50.420
+Let's be honest about it
+
+39:50.420 --> 39:52.420
+And that I still can do it
+
+39:52.420 --> 39:54.420
+Especially after I've been sick
+
+39:54.420 --> 39:57.420
+And thought that I, I was almost
+dying
+
+39:57.420 --> 39:59.420
+So there's nothing that's
+irritating me
+
+39:59.420 --> 40:02.420
+Well I see I don't let it
+
+40:02.420 --> 40:03.420
+You don't let it irritate you
+
+40:03.420 --> 40:04.420
+I got to check up on you
+
+40:04.420 --> 40:06.420
+And make sure that you don't get
+irritated
+
+40:06.420 --> 40:07.420
+I don't
+
+40:07.420 --> 40:08.420
+Nothing irritate you
+
+40:08.420 --> 40:09.420
+It's just that
+
+40:09.420 --> 40:11.420
+I left my head off
+
+40:11.420 --> 40:12.420
+I think it's funny
+
+40:12.420 --> 40:15.420
+And I'm, I'm still standing
+
+40:15.420 --> 40:17.420
+Yeah, yeah, yeah
+
+40:17.420 --> 40:19.420
+All right, so what do you do?
+
+40:19.420 --> 40:20.420
+So you have three shows
+
+40:20.420 --> 40:23.420
+I think these one in
+Blankhamburg and Bergen in Bill
+
+40:23.420 --> 40:24.420
+That's Belgium
+
+40:24.420 --> 40:25.420
+That's a big show
+
+40:25.420 --> 40:26.420
+That's a big show
+
+40:26.420 --> 40:27.420
+That's a big show
+
+40:27.420 --> 40:28.420
+With a whole bunch of different
+artists
+
+40:28.420 --> 40:29.420
+Who are here
+
+40:29.420 --> 40:30.420
+Okay, that's cool
+
+40:30.420 --> 40:32.420
+And that'll be on what, for what
+television station
+
+40:32.420 --> 40:34.420
+That's for the VRT
+
+40:34.420 --> 40:35.420
+VRT, isn't it?
+
+40:35.420 --> 40:36.420
+VRT
+
+40:36.420 --> 40:37.420
+Yeah, the Vlamsa
+
+40:37.420 --> 40:38.420
+Glad you're televised
+
+40:38.420 --> 40:39.420
+Televised
+
+40:39.420 --> 40:40.420
+Yeah
+
+40:40.420 --> 40:42.420
+And then I have one for the
+truss
+
+40:42.420 --> 40:43.420
+Truss
+
+40:43.420 --> 40:44.420
+And I have one for the nuss
+
+40:44.420 --> 40:45.420
+What's the truss?
+
+40:45.420 --> 40:47.420
+Well, you know what
+
+40:47.420 --> 40:48.420
+T-R-O-S
+
+40:48.420 --> 40:49.420
+No, I know, but what is the
+show?
+
+40:49.420 --> 40:50.420
+Uh, it's like...
+
+40:50.420 --> 40:51.420
+Do you hear the birds?
+
+40:51.420 --> 40:52.420
+Yeah
+
+40:52.420 --> 40:53.420
+You're singing for you
+
+40:53.420 --> 40:54.420
+Yeah, I know
+
+40:54.420 --> 40:56.420
+Why do birds?
+
+40:56.420 --> 40:58.420
+Suddenly a piece
+
+40:58.420 --> 41:00.420
+See that everything is wrong
+
+41:00.420 --> 41:01.420
+Every time
+
+41:01.420 --> 41:02.420
+Everything is a song
+
+41:02.420 --> 41:04.420
+You wanna be
+
+41:04.420 --> 41:05.420
+Every mood that you are in
+
+41:05.420 --> 41:07.420
+Just like me
+
+41:07.420 --> 41:10.420
+They want to be long to be
+
+41:10.420 --> 41:12.420
+They long to be
+
+41:12.420 --> 41:15.420
+Close to you
+
+41:15.420 --> 41:17.420
+On the day that
+
+41:17.420 --> 41:18.420
+You were born
+
+41:18.420 --> 41:20.420
+The angels came together
+
+41:20.420 --> 41:21.420
+And the scientists
+
+41:21.420 --> 41:23.420
+You created dreams come true
+
+41:23.420 --> 41:24.420
+I'm true
+
+41:24.420 --> 41:25.420
+I'm true
+
+41:25.420 --> 41:26.420
+Oh man
+
+41:26.420 --> 41:27.420
+Some dreams
+
+41:27.420 --> 41:29.420
+Yeah, everything is a song
+
+41:29.420 --> 41:30.420
+Everything is a song
+
+41:30.420 --> 41:31.420
+Like monomona
+
+41:31.420 --> 41:33.420
+And also your memories
+
+41:33.420 --> 41:35.420
+Isn't it funny how your memories
+
+41:35.420 --> 41:37.420
+Always sing another song
+
+41:37.420 --> 41:39.420
+Go together with
+
+41:39.420 --> 41:40.420
+I said
+
+41:40.420 --> 41:42.420
+Well, no, no, this is what we
+call the soundtrack to your life
+
+41:42.420 --> 41:43.420
+Exactly
+
+41:43.420 --> 41:46.420
+And we're creating a new one
+right here
+
+41:47.420 --> 41:48.420
+And if you hear a song
+
+41:48.420 --> 41:49.420
+You think about
+
+41:49.420 --> 41:51.420
+You see all the
+
+41:51.420 --> 41:53.420
+The movie actually
+
+41:53.420 --> 41:54.420
+Yeah
+
+41:54.420 --> 41:55.420
+You see the movie
+
+41:55.420 --> 41:56.420
+It's a soundtrack to your life
+
+41:56.420 --> 41:57.420
+Thank you
+
+41:57.420 --> 41:58.420
+Oh
+
+41:58.420 --> 41:59.420
+That's philosophical
+
+41:59.420 --> 42:01.420
+Well, so
+
+42:01.420 --> 42:02.420
+Yeah, I'm gonna do a couple of
+TV
+
+42:02.420 --> 42:04.420
+All right, so what kind of show
+
+42:04.420 --> 42:05.420
+You didn't tell me yet
+
+42:05.420 --> 42:06.420
+What kind of show is that
+
+42:06.420 --> 42:07.420
+For tea
+
+42:07.420 --> 42:08.420
+The last one
+
+42:08.420 --> 42:09.420
+And the T.R.O.S.
+
+42:09.420 --> 42:11.420
+Is a whole bunch of
+
+42:11.420 --> 42:13.420
+Idiots
+
+42:13.420 --> 42:15.420
+It is like me
+
+42:15.420 --> 42:16.420
+Still think
+
+42:16.420 --> 42:18.420
+You know, you can really some
+records
+
+42:18.420 --> 42:19.420
+What is it?
+
+42:19.420 --> 42:20.420
+They'll tell me what's the show
+
+42:20.420 --> 42:21.420
+It's a pop show
+
+42:21.420 --> 42:22.420
+It's a show
+
+42:22.420 --> 42:23.420
+What's the name of the show?
+
+42:25.420 --> 42:27.420
+I don't know, actually
+
+42:27.420 --> 42:28.420
+Hey, dude, I let you on the show
+
+42:28.420 --> 42:29.420
+To promote your shit
+
+42:29.420 --> 42:30.420
+And you
+
+42:30.420 --> 42:31.420
+No, no, no, no, no
+
+42:31.420 --> 42:32.420
+It's just
+
+42:32.420 --> 42:33.420
+Well, who else is on it then?
+
+42:33.420 --> 42:35.420
+Everybody who has anything
+
+42:35.420 --> 42:36.420
+Out at the moment
+
+42:36.420 --> 42:37.420
+Oh, so
+
+42:37.420 --> 42:39.420
+Okay, is it like a one-off show
+
+42:39.420 --> 42:40.420
+So it's a
+
+42:40.420 --> 42:41.420
+You don't know
+
+42:41.420 --> 42:43.420
+It's probably a lot of people in
+there
+
+42:43.420 --> 42:44.420
+All right, what's the other one?
+
+42:44.420 --> 42:46.420
+Then the other one is about
+
+42:46.420 --> 42:47.420
+Me feel the router
+
+42:47.420 --> 42:49.420
+A famous admiral
+
+42:49.420 --> 42:51.420
+In the Dutch Navy
+
+42:51.420 --> 42:53.420
+In this 1670
+
+42:53.420 --> 42:54.420
+Something like that
+
+42:54.420 --> 42:55.420
+Yeah, yeah
+
+42:55.420 --> 42:56.420
+And that's the me feel
+
+42:56.420 --> 42:57.420
+That out a day
+
+42:57.420 --> 42:58.420
+Mm-hmm
+
+42:58.420 --> 42:59.420
+And you're going to have a lot
+of
+
+42:59.420 --> 43:01.420
+Ships and boats
+
+43:01.420 --> 43:03.420
+And parades
+
+43:03.420 --> 43:04.420
+Okay, so that's where your
+
+43:04.420 --> 43:05.420
+Marines fit in, right?
+
+43:05.420 --> 43:06.420
+And there
+
+43:06.420 --> 43:07.420
+It's mine
+
+43:09.420 --> 43:10.420
+What's so funny?
+
+43:10.420 --> 43:11.420
+Oh, because you
+
+43:11.420 --> 43:13.420
+You hated
+
+43:14.420 --> 43:16.420
+No, I like the whole Marine
+thing
+
+43:16.420 --> 43:17.420
+Just, okay
+
+43:17.420 --> 43:18.420
+What do you mean?
+
+43:18.420 --> 43:19.420
+I hate it
+
+43:19.420 --> 43:20.420
+As it's fun, but they think it
+really suits
+
+43:20.420 --> 43:22.420
+With the real Marines
+
+43:22.420 --> 43:24.420
+All right, a bunch of gay guys
+running around
+
+43:24.420 --> 43:25.420
+And white suits
+
+43:25.420 --> 43:27.420
+Yeah, we've got the densest with
+us
+
+43:27.420 --> 43:29.420
+Yeah, that's fun
+
+43:29.420 --> 43:30.420
+Yeah, yeah
+
+43:30.420 --> 43:31.420
+So it's going to be great
+
+43:31.420 --> 43:32.420
+And what's so you're performing
+on a ship?
+
+43:32.420 --> 43:33.420
+On a
+
+43:33.420 --> 43:34.420
+Fliftex ship
+
+43:34.420 --> 43:35.420
+An aircraft carrier
+
+43:35.420 --> 43:36.420
+Yeah, really
+
+43:36.420 --> 43:37.420
+Yeah, yeah
+
+43:37.420 --> 43:39.420
+Do the Dutch even have an
+aircraft carrier
+
+43:39.420 --> 43:40.420
+I guess so
+
+43:40.420 --> 43:41.420
+Yeah, of course
+
+43:41.420 --> 43:42.420
+Why not?
+
+43:43.420 --> 43:45.420
+I don't know, I've never heard
+of it
+
+43:45.420 --> 43:47.420
+I've never heard of Dutch having
+a carrier
+
+43:47.420 --> 43:50.420
+Oh, no, I'll be performing on a
+ship
+
+43:50.420 --> 43:51.420
+In a zodiac
+
+43:51.420 --> 43:52.420
+In a rubber boat
+
+43:52.420 --> 43:56.420
+Maybe they just push us away on
+the ocean
+
+43:56.420 --> 43:57.420
+Oh, my gosh
+
+43:57.420 --> 43:58.420
+Oh, my gosh
+
+43:58.420 --> 44:01.420
+Okay, so that sounds like you'll
+be there the whole week
+
+44:01.420 --> 44:02.420
+It might be a lot of fun
+
+44:02.420 --> 44:04.420
+That means I'm here with the
+heartbroken teenage
+
+44:04.420 --> 44:05.420
+Yeah, we do
+
+44:05.420 --> 44:06.420
+That's like really
+
+44:06.420 --> 44:07.420
+I don't know what to do with it
+
+44:07.420 --> 44:08.420
+No, I do
+
+44:08.420 --> 44:09.420
+I'm going to
+
+44:09.420 --> 44:11.420
+I can solve her, I try to make
+her feel better
+
+44:11.420 --> 44:13.420
+But you know whatever you say
+
+44:13.420 --> 44:14.420
+Doesn't matter
+
+44:14.420 --> 44:15.420
+It doesn't matter
+
+44:15.420 --> 44:16.420
+As long as you're there for them
+
+44:16.420 --> 44:17.420
+I am
+
+44:17.420 --> 44:18.420
+You're there
+
+44:18.420 --> 44:19.420
+I'm here taking care of the
+whole fucking house
+
+44:19.420 --> 44:21.420
+And you can get some of her car
+
+44:21.420 --> 44:23.420
+You bought it in this car
+
+44:23.420 --> 44:24.420
+Yeah, I hope so
+
+44:24.420 --> 44:25.420
+The weather has to get better
+
+44:25.420 --> 44:26.420
+I'd like to get
+
+44:26.420 --> 44:27.420
+Well, that'll be this week
+
+44:27.420 --> 44:28.420
+And you're not going to tell
+next week
+
+44:28.420 --> 44:30.420
+So hopefully I can have a visit
+
+44:30.420 --> 44:31.420
+So she's going to be happy with
+that
+
+44:31.420 --> 44:32.420
+That's going to be very easy
+
+44:32.420 --> 44:33.420
+Yeah, but she can't drive it
+
+44:33.420 --> 44:34.420
+She can look at it
+
+44:34.420 --> 44:35.420
+Yeah
+
+44:35.420 --> 44:36.420
+Yeah, and that's my pink mini
+
+44:36.420 --> 44:37.420
+I'm going to drive around
+
+44:37.420 --> 44:39.420
+Yeah, but I'm going to give her
+some lessons
+
+44:40.420 --> 44:41.420
+You're in the mountain
+
+44:41.420 --> 44:42.420
+Oh my god
+
+44:42.420 --> 44:44.420
+You might want to find some
+other place
+
+44:44.420 --> 44:45.420
+Than here in the mountains
+
+44:45.420 --> 44:47.420
+This is not a good idea
+
+44:47.420 --> 44:48.420
+Why not
+
+44:48.420 --> 44:50.420
+The hell is that all about
+
+44:50.420 --> 44:51.420
+I'm a great driver
+
+44:51.420 --> 44:53.420
+No, no, you just want to find a
+spot where there's no traffic
+
+44:53.420 --> 44:55.420
+Yeah, I know then
+
+44:55.420 --> 44:57.420
+At the end of the end of Gulfert
+
+44:57.420 --> 44:58.420
+I know where that is
+
+44:58.420 --> 44:59.420
+Going to go
+
+44:59.420 --> 45:00.420
+This doesn't
+
+45:00.420 --> 45:02.420
+I mean, why don't we just let it
+go to professional lessons
+
+45:02.420 --> 45:04.420
+Yeah, this is not a good idea
+
+45:04.420 --> 45:06.420
+Of course, she's going to have
+professional lessons
+
+45:06.420 --> 45:07.420
+Of course
+
+45:07.420 --> 45:10.420
+Somehow even though I know that
+I couldn't pass up the
+opportunity
+
+45:10.420 --> 45:11.420
+For getting this beautiful car
+
+45:11.420 --> 45:12.420
+It's a bad idea to have
+
+45:12.420 --> 45:14.420
+Why did you say yes anyway
+
+45:14.420 --> 45:15.420
+Because I'm a sucker
+
+45:15.420 --> 45:17.420
+Yeah, no, it's like you'll never
+find it
+
+45:17.420 --> 45:18.420
+It's perfect
+
+45:18.420 --> 45:19.420
+You'll never find a crime
+
+45:19.420 --> 45:21.420
+Did you tell the listeners?
+
+45:21.420 --> 45:22.420
+Oh, yes many times
+
+45:22.420 --> 45:24.420
+It's pink, of course
+
+45:24.420 --> 45:26.420
+Yeah, no, it's as cute as button
+
+45:26.420 --> 45:27.420
+You know, it's like
+
+45:27.420 --> 45:29.420
+You just will not find a car
+like that
+
+45:29.420 --> 45:31.420
+But to have it before she has
+her license
+
+45:31.420 --> 45:32.420
+And have it sitting in the car
+
+45:32.420 --> 45:34.420
+We have this kind of cruel
+
+45:34.420 --> 45:36.420
+We have to sort of take two
+pictures
+
+45:36.420 --> 45:37.420
+Put them together
+
+45:37.420 --> 45:38.420
+Yeah
+
+45:38.420 --> 45:39.420
+That is Christina
+
+45:39.420 --> 45:41.420
+When she was four years old in
+her
+
+45:41.420 --> 45:43.420
+Oh, and her pink carpet
+
+45:43.420 --> 45:44.420
+Her pink carpet
+
+45:44.420 --> 45:45.420
+And then pink
+
+45:45.420 --> 45:46.420
+Isn't it fantastic?
+
+45:46.420 --> 45:47.420
+Dude, you live in such a
+
+45:47.420 --> 45:50.420
+Fucking 1950s white-picked fence
+world
+
+45:50.420 --> 45:51.420
+Don't you?
+
+45:51.420 --> 45:52.420
+Well
+
+45:52.420 --> 45:53.420
+What the
+
+45:53.420 --> 45:54.420
+Yeah
+
+45:54.420 --> 45:55.420
+Yeah
+
+45:55.420 --> 45:56.420
+Yeah, that's it
+
+45:56.420 --> 45:57.420
+Yeah, that's it
+
+45:57.420 --> 45:58.420
+Yeah, that's it
+
+45:58.420 --> 45:59.420
+Yeah, that's it
+
+46:01.420 --> 46:02.420
+Well, play one more song
+
+46:02.420 --> 46:03.420
+Get out of here
+
+46:03.420 --> 46:07.420
+This one's good on Monday, but
+two days are fine
+
+46:07.420 --> 48:53.460
+[ Music ]
+
+48:53.460 --> 48:58.460
+Five, six, five with me.
+
+49:01.460 --> 49:03.460
+Fire it, choose this fine.
+
+49:03.460 --> 49:07.460
+This summer, when you buy Coke,
+you get music.
+
+49:07.460 --> 49:11.460
+You can win an iPod or
+Freaksongs on iTunes.
+
+49:11.460 --> 49:13.460
+So you just like a real show.
+
+49:13.460 --> 49:15.460
+I got commercials and
+everything.
+
+49:15.460 --> 49:17.460
+Cool.
+
+49:17.460 --> 49:21.460
+Alright, baby, hey, almost 48,
+four, yeah, almost 49 minutes.
+
+49:21.460 --> 49:23.460
+So I'm wishing you can end this.
+
+49:23.460 --> 49:26.460
+I think I've got a pullback now,
+because the people have had
+enough of you for that.
+
+49:26.460 --> 49:29.460
+Oh, I think so, yeah, overdue.
+
+49:29.460 --> 49:30.460
+All right.
+
+49:30.460 --> 49:31.460
+Send the woman away.
+
+49:31.460 --> 49:34.460
+Well, you know how much I enjoy
+it when you come on the show.
+
+49:34.460 --> 49:36.460
+Well, thank you, Han.
+
+49:36.460 --> 49:37.460
+That's very sweet of you.
+
+49:37.460 --> 49:39.460
+So please come back anytime.
+
+49:39.460 --> 49:40.460
+Really?
+
+49:40.460 --> 49:43.460
+Even this week, if you're
+thinking, I'll look at the poor
+boy struggling to put the show
+together.
+
+49:43.460 --> 49:46.460
+Maybe she goes stairs and hit
+her with a little dude.
+
+49:46.460 --> 49:48.460
+Well, I didn't put a smile on
+your face, huh?
+
+49:48.460 --> 49:49.460
+Yes.
+
+49:49.460 --> 49:50.460
+Last night as well.
+
+49:51.460 --> 49:52.460
+Let's see.
+
+49:52.460 --> 49:53.460
+Put a smile on my knob.
+
+49:53.460 --> 49:54.460
+I'm not a puke.
+
+49:56.460 --> 49:57.460
+Yeah, really?
+
+49:57.460 --> 49:58.460
+Yeah.
+
+49:58.460 --> 49:59.460
+Okay.
+
+49:59.460 --> 50:01.460
+So what are you going to do?
+
+50:01.460 --> 50:02.460
+You out?
+
+50:02.460 --> 50:03.460
+You going to do something today?
+
+50:03.460 --> 50:04.460
+Uh, yeah.
+
+50:04.460 --> 50:05.460
+Get some groceries.
+
+50:05.460 --> 50:06.460
+Okay.
+
+50:06.460 --> 50:07.460
+Cool.
+
+50:07.460 --> 50:08.460
+Yeah.
+
+50:08.460 --> 50:09.460
+I think I'm going to make some
+Italian food.
+
+50:09.460 --> 50:10.460
+Oh, yeah.
+
+50:10.460 --> 50:11.460
+It's very hot.
+
+50:11.460 --> 50:12.460
+It's what I want to.
+
+50:12.460 --> 50:13.460
+Maybe a nice spaghetti with my
+beautiful.
+
+50:13.460 --> 50:14.460
+Oh.
+
+50:14.460 --> 50:15.460
+Oh, yes.
+
+50:15.460 --> 50:17.460
+Oh, I really need you.
+
+50:17.460 --> 50:18.460
+I need that.
+
+50:18.460 --> 50:19.460
+What's your secret ingredient?
+
+50:19.460 --> 50:20.460
+I'm going to tell you.
+
+50:20.460 --> 50:23.460
+You put, uh, you do put
+everything sugar in the sauce.
+
+50:23.460 --> 50:24.460
+And everything.
+
+50:24.460 --> 50:25.460
+And it's a scoop of sugar.
+
+50:25.460 --> 50:28.460
+Lots of garlic and lots of fresh
+basil.
+
+50:28.460 --> 50:31.460
+And a little bit of oregano and
+a bit of tears and a bit of
+that.
+
+50:31.460 --> 50:32.460
+A little bit of love.
+
+50:32.460 --> 50:33.460
+Lots of love.
+
+50:33.460 --> 50:34.460
+Okay.
+
+50:34.460 --> 50:36.460
+No, I don't think you're so much
+for being on the show.
+
+50:36.460 --> 50:37.460
+I thank you for having me.
+
+50:37.460 --> 50:39.460
+And I know my listeners thank
+you too.
+
+50:39.460 --> 50:40.460
+And they're your listeners too.
+
+50:40.460 --> 50:41.460
+I hope so.
+
+50:41.460 --> 50:42.460
+Thank you so much.
+
+50:42.460 --> 50:43.460
+Okay.
+
+50:43.460 --> 50:46.460
+Oh, and if you want to download
+the stars.
+
+50:46.460 --> 50:47.460
+Is this please do?
+
+50:47.460 --> 50:48.460
+Oh, you have a hive's account.
+
+50:49.460 --> 50:50.460
+Which is in people there.
+
+50:50.460 --> 50:51.460
+Yeah.
+
+50:51.460 --> 50:52.460
+Well, the Dutch, of course.
+
+50:52.460 --> 50:53.460
+No, no, no.
+
+50:53.460 --> 50:54.460
+This thing is version.
+
+50:54.460 --> 50:55.460
+Oh, yes.
+
+50:55.460 --> 50:56.460
+It's completely in my space.
+
+50:56.460 --> 50:57.460
+Okay.
+
+50:57.460 --> 50:58.460
+But they can download it.
+
+50:58.460 --> 51:00.460
+Star-sisters.
+
+51:00.460 --> 51:02.460
+Hives.nl.
+
+51:02.460 --> 51:05.460
+Hives is H.y.v.s.
+
+51:05.460 --> 51:06.460
+Hives.
+
+51:06.460 --> 51:08.460
+I put a link in the show.
+
+51:08.460 --> 51:13.460
+A new CD single is star sisters,
+proud to present a 2007.
+
+51:13.460 --> 51:15.460
+And we know that's part safe.
+
+51:15.460 --> 51:17.460
+I mean, it's still being played.
+
+51:17.460 --> 51:18.460
+Yeah.
+
+51:18.460 --> 51:19.460
+So, you know, we need it.
+
+51:19.460 --> 51:20.460
+We need it.
+
+51:20.460 --> 51:21.460
+And you need, you need some pod
+play.
+
+51:21.460 --> 51:22.460
+Yeah, I do.
+
+51:22.460 --> 51:23.460
+Oh.
+
+51:23.460 --> 51:24.460
+Yeah.
+
+51:24.460 --> 51:25.460
+You artists of the day.
+
+51:25.460 --> 51:26.460
+Yeah.
+
+51:26.460 --> 51:27.460
+I know.
+
+51:27.460 --> 51:28.460
+I'm such a lucky woman.
+
+51:28.460 --> 51:29.460
+What was that?
+
+51:29.460 --> 51:30.460
+The pod show radio?
+
+51:30.460 --> 51:31.460
+Yeah.
+
+51:31.460 --> 51:32.460
+I think it was pod show radio.
+
+51:32.460 --> 51:33.460
+Yeah.
+
+51:33.460 --> 51:34.460
+You are.
+
+51:34.460 --> 51:36.460
+And I thank everybody for that.
+
+51:36.460 --> 51:37.460
+Of course.
+
+51:37.460 --> 51:38.460
+Your peeps.
+
+51:38.460 --> 51:39.460
+Shout out.
+
+51:39.460 --> 51:40.460
+Shout out to your peeps.
+
+51:40.460 --> 51:41.460
+All right.
+
+51:41.460 --> 51:42.460
+Data source code.com.
+
+51:42.460 --> 51:43.460
+Adam and pod show.com.
+
+51:43.460 --> 51:44.460
+Thank you very much.
+
+51:44.460 --> 51:45.460
+I love you.
+
+51:45.460 --> 51:46.460
+I love you.
+
+51:47.460 --> 51:49.460
+Another pod show pod guest.
+
+51:49.460 --> 51:52.460
+Stick it in your ear.

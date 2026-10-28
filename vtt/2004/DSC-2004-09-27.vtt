@@ -1,0 +1,4694 @@
+WEBVTT
+
+00:00.000 --> 00:26.000
+This is the Daily Source Code,
+and now here's Adam Curry.
+
+00:26.000 --> 00:37.300
+Hey, well, good afternoon
+everybody. A brand new opening
+for the show, this
+listener-supported
+
+00:37.300 --> 00:41.600
+show where users and developers
+party together at your Daily
+Source Code, thanks to Howard
+
+00:41.600 --> 00:51.600
+Greensteen, Howard from New
+York, who's also requested that
+I play some Barry Corral on
+
+00:51.600 --> 00:54.720
+the show, which I'll certainly
+do once I can find my exclusive
+live recording
+
+00:54.720 --> 01:01.500
+over. So, welcome to the Source
+Code for Monday. Today is the
+27th of September 2004.
+
+01:01.500 --> 01:05.520
+It's quarter to four in the
+afternoon, coming to you from
+Flanders, Belgium,
+
+01:05.520 --> 01:09.800
+from Curry Castle, and we have a
+lot to talk about today. So much
+has happened
+
+01:09.800 --> 01:13.840
+over the weekend and it was
+several times I was just itching
+to jump
+
+01:13.840 --> 01:20.940
+behind the machine and come on
+in, huh? It's okay, I'm
+recording. Alright? Yeah. I just
+
+01:20.940 --> 01:25.020
+wanted to jump behind the
+machine and cut a Source Code,
+but I really, you know,
+
+01:25.020 --> 01:28.780
+there was just so much else
+going on, and Christina, who
+just walked into the
+
+01:28.780 --> 01:35.320
+bar slash studio area, who has
+the day off today from school,
+she won bronze
+
+01:35.320 --> 01:41.460
+medal with her, that was the
+national championships with her
+dressage, horse
+
+01:41.520 --> 01:49.920
+riding team. Congratulations,
+Christina. She's very talkative
+today. Thank you. So, I
+
+01:49.920 --> 01:54.720
+did have a couple chats with
+different people over the
+weekend. Let's see, with
+
+01:54.720 --> 01:59.400
+Steve Gilmore, that was a Skype
+chat. I've spoke to Dave Weiner
+a couple of
+
+01:59.400 --> 02:03.240
+times, and I've had lots of
+email conversation with people,
+because
+
+02:03.240 --> 02:06.160
+stuff was just happening over
+the weekend. It was amazing.
+Things are
+
+02:06.160 --> 02:11.280
+going so quickly. And the first
+thing I wanted to play for you
+today was, and
+
+02:11.300 --> 02:16.460
+I don't think I played this on
+Friday. If I did, I apologize.
+But remember Dr. Dave
+
+02:16.460 --> 02:22.540
+from Las Vegas gave me all the
+tips and pointers on how to
+record the daily
+
+02:22.540 --> 02:27.420
+Source Code at the equal or
+close to equal quality of sound,
+but with half
+
+02:27.420 --> 02:32.140
+the file size. And as you
+probably noticed from Friday's
+Source Code, the
+
+02:32.140 --> 02:35.380
+file was indeed about half the
+file size. And I think the audio
+was still
+
+02:35.400 --> 02:43.600
+reasonably good. So props go out
+to Dr. Dave. There was a couple
+of
+
+02:43.600 --> 02:46.800
+discrepancies, and I thought I
+caught it, and I thought that I
+also thought,
+
+02:46.800 --> 02:52.280
+well, maybe he's confusing bits
+with Hertz and whatever. But
+Doug Kay, who is
+
+02:52.280 --> 02:58.480
+the producer of
+ITConversations.com, the whole
+outfit is his as far as I
+
+02:58.480 --> 03:03.680
+know. By the way, Mia Culpa,
+during the first or second trade
+secrets, I
+
+03:03.980 --> 03:08.060
+said that I didn't think that
+Doug Kay was a streaming guy,
+and he sent me a
+
+03:08.060 --> 03:13.860
+very friendly email explaining
+exactly how much of a streaming
+guy he is. So I
+
+03:13.860 --> 03:20.020
+stand corrected big time. And of
+course, he's hosting all the
+ITConversations
+
+03:20.020 --> 03:24.880
+and he's also, he's in with us
+here, and on the loop on the
+iPod
+
+03:24.880 --> 03:28.740
+platform, and he's a content
+producer. It's great. And he has
+a lot of
+
+03:28.740 --> 03:32.260
+experience with file sizes and
+recordings, and he came back
+with
+
+03:32.260 --> 03:36.800
+the response, which is an audio,
+that's very nice, to Dr. Dave.
+So without
+
+03:36.800 --> 03:41.320
+further ado, here's Doug Kay
+with more tips on how to reduce
+your file size.
+
+03:41.720 --> 03:45.120
+Hello, Adam and listeners to the
+Daily Source Code. This is Doug
+Kay, the
+
+03:45.120 --> 03:49.000
+host and producer of
+ITConversations. And I just
+wanted to respond to
+
+03:49.000 --> 03:53.640
+something you broadcast in your
+show on Friday. It was a clip
+from Dr. Dave
+
+03:53.640 --> 03:57.280
+of Las Vegas, and Dr. Dave was
+trying to answer the question
+about
+
+03:57.280 --> 04:00.360
+what bit rates to use. And
+unfortunately, he made a fairly
+significant
+
+04:00.380 --> 04:06.220
+error. He said, for example,
+that a 32K bit rate was totally
+adequate
+
+04:06.220 --> 04:09.900
+for voice that it reproduced 16
+kilohertz audio that it was as
+good
+
+04:09.900 --> 04:13.340
+as FM. And that's not the case.
+Dr. Dave is confusing a couple
+of
+
+04:13.340 --> 04:17.340
+different technological issues.
+He's confusing the bit rate of
+the
+
+04:17.340 --> 04:22.660
+MP3 audio with the sample rate.
+The sample rate is controlled by
+
+04:22.660 --> 04:25.740
+something called the sub nyquist
+theorem. The sub nyquist theorem
+
+04:25.740 --> 04:29.220
+says that if you want to sample
+analog data and reproduce it
+
+04:29.220 --> 04:33.400
+accurately, that you must sample
+at twice the highest frequency
+
+04:33.400 --> 04:36.600
+you want to reproduce. So for
+example, if you want to
+reproduce
+
+04:36.600 --> 04:42.240
+16 kilohertz audio, you need to
+have 32,000 samples per second.
+Now
+
+04:42.240 --> 04:46.280
+in WAV file format, which is a
+lossless format, those are
+
+04:46.280 --> 04:50.600
+typically 16 bit samples or two
+byte samples. So sampling at
+
+04:50.640 --> 04:56.360
+32,000 samples per second is
+actually 64,000 bytes per
+
+04:56.380 --> 05:02.060
+second, which is in fact 512,000
+bits per second. So that's the
+
+05:02.060 --> 05:05.300
+sample rate, but it has
+relatively little to do with the
+bit
+
+05:05.300 --> 05:09.220
+rate of the MP3 encoder MP3 is a
+lossy compression technique
+
+05:09.340 --> 05:12.460
+similar to JPEG. We're going to
+throw away a lot of data when
+
+05:12.460 --> 05:15.860
+we get these compression ratios
+of 2030 40 to one and so forth.
+
+05:16.340 --> 05:21.220
+A 64K bit per second MP3 is
+generally considered the
+
+05:21.220 --> 05:26.180
+equivalent of FM. It's arguable.
+I think that a 64K MP3
+
+05:26.180 --> 05:30.000
+doesn't sound quite as good as
+good FM. I think a 96K bit per
+
+05:30.000 --> 05:33.800
+second MP3 is closer to a good
+FM signal, but that depends on
+the
+
+05:33.800 --> 05:37.440
+program material. Here's a brief
+history of the MP3 encoding
+
+05:37.440 --> 05:40.400
+rates we've used here at IT
+Conversations. When I started
+
+05:40.400 --> 05:43.680
+a year and a half ago, I encoded
+everything at 32K bits per
+
+05:43.680 --> 05:47.040
+second. The quality wasn't good,
+but I still got a number of
+
+05:47.040 --> 05:50.160
+complaints that the files were
+too big. The reason was that
+
+05:50.160 --> 05:53.600
+the MP3 players in those days
+could not take very large
+
+05:53.600 --> 05:57.460
+files. Over time things have
+changed quite quickly. Until
+
+05:57.460 --> 06:01.180
+recently we encoded everything
+at 48K bits per second. We got
+
+06:01.180 --> 06:05.620
+very few complaints. But now
+people who have MP3 players that
+
+06:05.620 --> 06:09.660
+have quite a bit more storage,
+such as a 40 gigabyte iPod, are
+
+06:09.660 --> 06:13.220
+asking us to use higher quality
+bit rates. They don't mind the
+
+06:13.220 --> 06:16.820
+larger files. So just within the
+past week, I've started
+
+06:16.820 --> 06:21.500
+encoding our files at 64K bits
+per second. That results in
+
+06:21.500 --> 06:24.840
+about 30 megabytes for one hour
+of audio. And that's my
+
+06:24.840 --> 06:27.760
+current recommendation for what
+people should be using for
+
+06:27.760 --> 06:32.000
+audio blogs, daily source code
+and the like. By the way, it's
+
+06:32.000 --> 06:36.560
+also not true that you need a
+higher bit rate for music than
+
+06:36.560 --> 06:40.400
+for voice. The waveform of human
+voice is very, very
+
+06:40.400 --> 06:43.560
+complex. And in fact, you will
+hear distortion in the
+
+06:43.560 --> 06:47.320
+human voice before you can
+detect it in most music. The
+
+06:47.320 --> 06:50.360
+reason being that you may not
+know how to predict the
+
+06:50.360 --> 06:53.300
+waveform in music, whereas with
+voice, if you know the
+
+06:53.300 --> 06:55.700
+person, you have certain
+expectations of what their
+
+06:55.700 --> 06:58.900
+voice will sound like. Another
+question that comes up is
+
+06:58.900 --> 07:01.700
+stereo versus mono. And do you
+need double the bit rate
+
+07:01.700 --> 07:05.300
+for stereo? Or are stereo files
+twice as large as
+
+07:05.300 --> 07:08.500
+mono files? In wave files, they
+are twice as large
+
+07:08.500 --> 07:12.500
+because it is a lossless format.
+But in MP3, one of the
+
+07:12.500 --> 07:15.060
+things that you're encoding is
+the difference between the
+
+07:15.060 --> 07:17.300
+left and right channels. So for
+example, if you're
+
+07:17.300 --> 07:19.900
+recording voice from a single
+microphone, it really
+
+07:19.900 --> 07:24.400
+doesn't matter whether you use a
+stereo MP3 at 64K or a
+
+07:24.400 --> 07:27.500
+mono MP3 at 64K bits per second
+because they'll be
+
+07:27.500 --> 07:30.600
+essentially the same. The only
+time that it really
+
+07:30.600 --> 07:33.100
+matters is when you have program
+material where the
+
+07:33.100 --> 07:36.300
+left and right channels are
+substantially different. As
+
+07:36.300 --> 07:39.900
+to the question of VBR or
+variable bit rate, this
+
+07:39.900 --> 07:43.000
+is a technique that does allow
+the MP3 to vary the
+
+07:43.000 --> 07:46.000
+bit rate from one frame to the
+next, but it's not
+
+07:46.000 --> 07:48.340
+supported by certain players. So
+I do not recommend
+
+07:48.340 --> 07:51.440
+recording VBR for audio blogs
+and the like. There's
+
+07:51.440 --> 07:53.540
+really nothing to gain. Anyway,
+if you have any
+
+07:53.540 --> 07:57.640
+questions, send me email dug at
+itconversations.com
+
+07:57.940 --> 08:00.440
+or you might want to check out a
+wiki page that I just
+
+08:00.440 --> 08:06.640
+posted to deal with this topic.
+Go to www.itconversations.com
+
+08:06.640 --> 08:10.940
+slash wiki, W-I-K-I. And
+somewhere there, you'll find
+
+08:10.940 --> 08:14.140
+a link to the page that deals
+with MP3 encoders
+
+08:14.140 --> 08:17.140
+and file formats and things like
+that. I hope this
+
+08:17.140 --> 08:19.240
+has been helpful. Keep up your
+great work on the
+
+08:19.240 --> 08:21.740
+daily source code. So far, I
+haven't missed a single
+
+08:21.740 --> 08:24.440
+show and I hope not to. Thanks.
+Alrighty, thank you
+
+08:24.440 --> 08:27.840
+very much. Doug Kay from
+itconversations.com. Wow,
+
+08:27.840 --> 08:29.940
+that was some excellent,
+excellent source code he
+
+08:29.940 --> 08:34.540
+dumped on us. Indeed, after
+listening to Dr.
+
+08:34.540 --> 08:38.840
+Dave from Vegas and the response
+from Doug Kay,
+
+08:38.840 --> 08:41.840
+I did get my file size down to
+about half and
+
+08:41.840 --> 08:45.240
+I am running also about 15 megs
+per half hour,
+
+08:45.240 --> 08:47.740
+so about 30 megs for an hour.
+And there was
+
+08:47.740 --> 08:49.740
+some mail that came in. Hold on
+a second, I'm
+
+08:49.740 --> 08:51.840
+going to switch applications
+here. Now, we've had
+
+08:51.840 --> 08:53.940
+bad luck with that in the past.
+It's working out.
+
+08:53.940 --> 08:56.440
+From Eric Elliott, I just want
+to share that
+
+08:56.440 --> 08:57.840
+with you. He said, I had a
+chance to catch up
+
+08:57.840 --> 08:59.640
+listening to you this past
+week's daily source
+
+08:59.640 --> 09:01.540
+code, also trade secret show
+with Dave.
+
+09:01.540 --> 09:03.140
+Want to address one topic that
+you mentioned
+
+09:03.140 --> 09:04.640
+both in one of your daily source
+codes and
+
+09:04.640 --> 09:08.240
+on trade secrets is about the
+AAC audio format.
+
+09:08.240 --> 09:10.140
+He says, now I certainly don't
+have any arguments
+
+09:10.140 --> 09:12.740
+against using MP3 and that would
+be my choice
+
+09:12.740 --> 09:14.340
+too since it's the most widely
+universally
+
+09:14.340 --> 09:16.440
+accepted format right now, but I
+wanted to
+
+09:16.440 --> 09:19.740
+clear up a misconception about
+AAC. AAC is
+
+09:19.740 --> 09:22.640
+not Apple's proprietary format.
+It's a
+
+09:22.640 --> 09:24.540
+standard that was basically
+developed by the
+
+09:24.540 --> 09:27.640
+MPEG group as the successor to
+MP3. It is
+
+09:27.640 --> 09:30.240
+actually the audio component to
+MPEG-4
+
+09:30.240 --> 09:33.940
+video. However, what is
+proprietary is the
+
+09:33.940 --> 09:36.540
+fair play DRM, that's digital
+rights
+
+09:36.540 --> 09:38.740
+management, that Apple has put
+on top of
+
+09:38.740 --> 09:42.340
+AAC in the iTunes music store.
+The reason
+
+09:42.340 --> 09:44.440
+that the iTunes purchase from
+
+09:44.440 --> 09:46.540
+iTunes music store only work on
+iTunes and
+
+09:46.540 --> 09:49.940
+the iPod is because the DRM, not
+AAC, but
+
+09:49.940 --> 09:52.340
+a non-fair play AAC will play on
+a
+
+09:52.340 --> 09:55.240
+variety of players. Just wanted
+to clear
+
+09:55.240 --> 09:57.640
+that up. That's Eric Elliott.
+Thank you
+
+09:57.640 --> 10:00.640
+very much Eric and he also posts
+a link
+
+10:00.640 --> 10:04.440
+Apple.com slash MPEG-4 slash AAC
+for
+
+10:04.440 --> 10:06.840
+some more information on that.
+Excellent.
+
+10:06.840 --> 10:10.340
+So I still think we should stick
+with
+
+10:10.440 --> 10:12.840
+MP3, but I'd like to hear a
+little bit more
+
+10:12.840 --> 10:14.240
+if people have more information.
+You know,
+
+10:14.240 --> 10:17.840
+this is a format that is just
+as, I don't
+
+10:17.840 --> 10:19.140
+know if it's just, if it can be
+just as
+
+10:19.140 --> 10:21.840
+open as MP3. Who controls MP3?
+No one.
+
+10:21.840 --> 10:23.440
+Is there a standards body or
+something? I
+
+10:23.440 --> 10:25.540
+don't think so. Well, there
+probably is
+
+10:25.540 --> 10:28.540
+and I'm sure by now people will
+already
+
+10:28.540 --> 10:30.840
+be hacking away the email. Set
+me straight.
+
+10:30.840 --> 10:32.840
+What I'm going to do right now
+is
+
+10:32.840 --> 10:34.840
+probably inviting Murphy in, but
+I just
+
+10:34.840 --> 10:37.340
+wanted to take a screenshot of
+my setup
+
+10:37.340 --> 10:39.340
+so you can see how I've got the
+show
+
+10:39.340 --> 10:41.340
+lined up for today because I
+don't have
+
+10:41.340 --> 10:43.340
+notes. I used to keep an
+outliner handy
+
+10:43.340 --> 10:46.840
+with notes and now I just have
+all of my
+
+10:46.840 --> 10:48.840
+my different sound clips and I
+have quite
+
+10:48.840 --> 10:50.840
+quite a few all set up and ready
+to fire
+
+10:50.840 --> 10:52.840
+and they're in a chronological
+order.
+
+10:52.840 --> 10:54.840
+So it may screw up the recording
+but
+
+10:54.840 --> 10:56.840
+I'm just going to try this. Hold
+on.
+
+10:59.340 --> 11:01.340
+It's thinking about it.
+
+11:03.340 --> 11:05.840
+Okay. Let me just see.
+
+11:06.840 --> 11:09.340
+Yep. It took a picture. Okay.
+Great.
+
+11:09.340 --> 11:10.840
+So we've got that and I'll post
+that
+
+11:10.840 --> 11:14.340
+because great excitement for me
+over
+
+11:14.340 --> 11:17.340
+the weekend. Just as I was, you
+know,
+
+11:17.340 --> 11:19.840
+about to give up on the Rubik's
+Cube
+
+11:19.840 --> 11:21.840
+of how we can route audio back
+and forth
+
+11:21.840 --> 11:24.340
+particularly like a radio
+station does
+
+11:24.340 --> 11:26.340
+where you call into a show, in
+this
+
+11:26.340 --> 11:28.340
+case the call in is through
+iChat or
+
+11:28.340 --> 11:31.840
+AOL Intim Messenger or Skype or
+
+11:31.840 --> 11:35.840
+SIP phone and we hear you on the
+air
+
+11:35.840 --> 11:37.340
+and we can control your volume,
+turn
+
+11:37.340 --> 11:39.340
+you on or off, but you also hear
+
+11:39.340 --> 11:40.840
+everything we're doing on the
+air
+
+11:40.840 --> 11:42.840
+minus your voice. So you can't
+be
+
+11:42.840 --> 11:44.340
+sending back a total signal
+because
+
+11:44.340 --> 11:46.340
+then you get this feedback loop
+and
+
+11:46.340 --> 11:48.840
+to me that was a Rubik's Cube
+I've
+
+11:48.840 --> 11:50.840
+been struggling with for two
+weeks
+
+11:50.840 --> 11:54.340
+now and I ran across actually
+through
+
+11:54.340 --> 11:58.840
+my referral log Hugo Schottmann.
+
+11:58.840 --> 12:01.840
+He's from, see he lives in
+Zurich
+
+12:01.840 --> 12:03.840
+and you can check out his weblog
+at
+
+12:03.840 --> 12:06.840
+log.hugoschottmann.com
+
+12:06.840 --> 12:10.840
+slash Hugo probably just
+www.hugoschottmann.com
+
+12:10.840 --> 12:16.840
+will work and that's
+H-U-G-O-S-C-H-O-T-M-A-N
+
+12:16.840 --> 12:19.840
+dot com and Hugo had been
+
+12:19.840 --> 12:21.840
+he posted this whole bit on his
+blog
+
+12:21.840 --> 12:23.840
+about how he'd been listening to
+me
+
+12:23.840 --> 12:25.340
+trying to figure it out and
+check out
+
+12:25.340 --> 12:27.340
+the trade secrets and he came up
+
+12:27.340 --> 12:29.340
+with a proof of concept and he
+
+12:29.340 --> 12:31.340
+actually recorded both sides of
+the
+
+12:31.340 --> 12:33.340
+conversation. I thought for a
+second
+
+12:33.340 --> 12:35.340
+there that he had also run into
+the
+
+12:35.340 --> 12:37.340
+echo problem, but it turns out
+he
+
+12:37.340 --> 12:39.340
+didn't and he had indeed found
+the
+
+12:39.340 --> 12:41.340
+perfect setup and posted a
+diagram
+
+12:41.340 --> 12:43.340
+and it was beautiful. Now I had
+
+12:43.340 --> 12:45.340
+downloaded the Soundflower
+virtual
+
+12:45.340 --> 12:47.340
+audio device a while ago in the
+
+12:47.340 --> 12:49.340
+beginning of my quest to figure
+out
+
+12:49.340 --> 12:51.340
+the perfect setup and just
+around
+
+12:51.340 --> 12:53.340
+when you know he's doing this
+
+12:53.340 --> 12:55.340
+setup all of a sudden things
+start
+
+12:55.340 --> 12:57.340
+to click in my head. Maybe it
+was just
+
+12:57.340 --> 12:59.340
+from listening to his MP3
+because he
+
+12:59.340 --> 13:01.340
+hadn't posted it to a site yet
+but I
+
+13:01.340 --> 13:03.340
+was listening and like I think
+he
+
+13:03.340 --> 13:05.340
+might be you know maybe he did
+it
+
+13:05.340 --> 13:07.340
+this way and even though we came
+up
+
+13:07.340 --> 13:09.340
+with a different way of doing it
+I'm
+
+13:09.340 --> 13:11.340
+using Audio Hijack Pro and he's
+
+13:11.340 --> 13:13.340
+using a different, see what
+
+13:13.340 --> 13:15.340
+application is he using to
+record
+
+13:15.340 --> 13:17.340
+and he's also using GarageBand
+
+13:17.340 --> 13:19.340
+which I used to use and now
+
+13:19.340 --> 13:21.340
+longer he's just posted a whole
+
+13:21.340 --> 13:23.340
+bunch of updates with great
+
+13:23.340 --> 13:25.340
+soundtracks I think, yeah
+
+13:25.340 --> 13:27.340
+soundtrack to record
+
+13:27.340 --> 13:29.340
+and you know what you need no
+external
+
+13:29.340 --> 13:31.340
+gear and the Soundflower
+
+13:31.340 --> 13:33.340
+virtual device
+
+13:33.340 --> 13:35.340
+it's open source
+
+13:35.340 --> 13:37.340
+it's freely available so please
+check out
+
+13:37.340 --> 13:39.340
+Hugo's weblog it is
+
+13:39.340 --> 13:41.340
+phenomenal I'm so
+
+13:41.340 --> 13:43.340
+pleased that we have someone
+who's
+
+13:43.340 --> 13:45.340
+all over this and is helping us
+
+13:45.340 --> 13:47.340
+set it up. Now granted this is
+all still on a
+
+13:47.340 --> 13:49.340
+Mac and actually when I did a
+test call
+
+13:49.340 --> 13:51.340
+with Dave he was crying saying
+you know
+
+13:51.340 --> 13:53.340
+I want to play music too
+
+13:53.340 --> 13:55.340
+I was jamming tunes down the
+pipe too
+
+13:55.340 --> 13:57.340
+and it was great
+
+13:57.340 --> 13:59.340
+so we will keep working
+
+13:59.340 --> 14:01.340
+at it. Let me see
+
+14:01.340 --> 14:03.340
+actually I just got back
+
+14:03.340 --> 14:05.340
+from a quick trip up to Breda
+
+14:05.340 --> 14:07.340
+it's about 30 minutes from our
+house
+
+14:07.340 --> 14:09.340
+by car that's in the Netherlands
+
+14:09.340 --> 14:11.340
+where coffee shops are legal I
+had to
+
+14:11.340 --> 14:13.340
+go get a new supply
+
+14:13.340 --> 14:15.340
+I have actually the harvest that
+I had
+
+14:15.340 --> 14:17.340
+here at home for those of you
+following
+
+14:17.340 --> 14:19.340
+I have tried it it's
+
+14:19.340 --> 14:21.340
+okay but it's saying because
+
+14:21.340 --> 14:23.340
+it's all totally organic and I
+didn't
+
+14:23.340 --> 14:25.340
+really use anything
+
+14:25.340 --> 14:27.340
+special on it you got to smoke
+an awful
+
+14:27.340 --> 14:29.340
+lot before it has
+
+14:29.340 --> 14:31.340
+the desired effect so anyways
+
+14:31.340 --> 14:33.340
+I went up to get a little supply
+these guys
+
+14:33.340 --> 14:35.340
+that run the coffee shop from
+Morocco so
+
+14:35.340 --> 14:37.340
+they're all Arabs
+
+14:37.340 --> 14:39.340
+and I know them really well and
+we hang
+
+14:39.340 --> 14:41.340
+out and we drink
+
+14:41.340 --> 14:43.340
+Chinese tea, Moroccan tea
+
+14:43.340 --> 14:45.340
+which is basically Chinese tea
+with mint leaves
+
+14:45.340 --> 14:47.340
+and a ton of sugar in there
+
+14:47.340 --> 14:49.340
+and so we're just chilling out
+and we're
+
+14:49.340 --> 14:51.340
+talking and he was reading a
+Moroccan
+
+14:51.340 --> 14:53.340
+newspaper and it was a picture
+of Bush
+
+14:53.340 --> 14:55.340
+and Kerry on the front page
+
+14:55.340 --> 14:57.340
+and we got to talking
+
+14:57.340 --> 14:59.340
+and it was just
+
+14:59.340 --> 15:01.340
+I think what we concluded and it
+would have really made for
+
+15:01.340 --> 15:03.340
+a good podcast
+
+15:03.340 --> 15:05.340
+although it was in
+
+15:05.340 --> 15:07.340
+like four different languages it
+was
+
+15:07.340 --> 15:09.340
+in Morocco besides
+
+15:09.340 --> 15:11.340
+Arabic they also speak French
+
+15:11.340 --> 15:13.340
+so it was French it was Dutch
+
+15:13.340 --> 15:15.340
+it was English it was
+
+15:15.340 --> 15:17.340
+some Arabic words
+
+15:17.340 --> 15:19.340
+some general high Arabic
+
+15:19.340 --> 15:21.340
+which is generally
+
+15:21.340 --> 15:23.340
+understood and so
+
+15:23.340 --> 15:25.340
+I think what we
+
+15:25.340 --> 15:27.340
+concluded was that
+
+15:27.340 --> 15:29.340
+all politicians
+
+15:29.340 --> 15:31.340
+everyone in government is
+
+15:31.340 --> 15:33.340
+they're all in it for the money
+
+15:33.340 --> 15:35.340
+most of them are in it for the
+money
+
+15:35.340 --> 15:37.340
+all the big guys are
+
+15:37.340 --> 15:39.340
+what was he telling me he's
+saying the new president
+
+15:39.340 --> 15:41.340
+of
+
+15:41.340 --> 15:43.340
+Palestine so there's a new guy
+
+15:43.340 --> 15:45.340
+he apparently owns a huge
+factory in Israel
+
+15:45.340 --> 15:47.340
+you know it's like everyone's
+
+15:47.340 --> 15:49.340
+just in the game for
+
+15:49.340 --> 15:51.340
+for a lot of their own
+
+15:51.340 --> 15:53.340
+interests and certainly we know
+Bush is and he said
+
+15:53.340 --> 15:55.340
+you know
+
+15:55.340 --> 15:57.340
+maybe if we get Kerry then
+
+15:57.340 --> 15:59.340
+we have a chance at figuring out
+what he's about
+
+15:59.340 --> 16:01.340
+before
+
+16:01.340 --> 16:03.340
+he can really get his hoax in
+but Kerry
+
+16:03.340 --> 16:05.340
+is the same there's big money
+there
+
+16:05.340 --> 16:07.340
+there's his wife with Heinz
+
+16:07.340 --> 16:09.340
+there's all kinds of
+
+16:09.340 --> 16:11.340
+cronyism and nepotism
+
+16:11.340 --> 16:13.340
+and everything going on in
+government
+
+16:13.340 --> 16:15.340
+at all different levels
+
+16:15.340 --> 16:17.340
+and I think what we basically
+concluded is
+
+16:17.340 --> 16:19.340
+you know in 30 years
+
+16:19.340 --> 16:21.340
+there will be a new generation
+
+16:21.340 --> 16:23.340
+there'll be our kids and they'll
+hopefully have grown up a little
+bit
+
+16:23.340 --> 16:25.340
+differently and they'll have
+different
+
+16:25.340 --> 16:27.340
+values and we'll think about
+religion
+
+16:27.340 --> 16:29.340
+differently and won't hate each
+other
+
+16:29.340 --> 16:31.340
+kind of like
+
+16:31.340 --> 16:33.340
+the Germans now
+
+16:33.340 --> 16:35.340
+Germany completely
+
+16:35.340 --> 16:37.340
+flattened the Netherlands
+
+16:37.340 --> 16:39.340
+occupied it outright just killed
+people
+
+16:39.340 --> 16:41.340
+shipped off a million Jews
+
+16:41.340 --> 16:43.340
+flattened Rotterdam
+
+16:43.340 --> 16:45.340
+and the Germans
+
+16:45.340 --> 16:47.340
+still come to Holland on
+vacation
+
+16:47.340 --> 16:49.340
+they sit on our beaches and we
+get along fine
+
+16:49.340 --> 16:51.340
+and all the young German
+
+16:51.340 --> 16:53.340
+generation of my generation
+
+16:53.340 --> 16:55.340
+30 to 40 years old
+
+16:55.340 --> 16:57.340
+we don't give a fuck about what
+happened then
+
+16:57.340 --> 16:59.340
+we hope we can learn from it and
+we get along
+
+16:59.340 --> 17:01.340
+and there's no animosity and
+that eventually will probably
+happen
+
+17:01.340 --> 17:03.340
+in other parts
+
+17:03.340 --> 17:05.340
+of the world where huge conflict
+
+17:05.340 --> 17:07.340
+is abound at this time
+
+17:09.340 --> 17:11.340
+there was a couple other points
+
+17:11.340 --> 17:13.340
+that we came up with
+
+17:13.340 --> 17:15.340
+well I said that
+
+17:15.340 --> 17:17.340
+clearly this is where the
+
+17:17.340 --> 17:19.340
+internet probably will speed up
+that cycle
+
+17:19.340 --> 17:21.340
+I'm hoping 10 years maybe
+
+17:21.340 --> 17:23.340
+because we're just not buying it
+anymore
+
+17:23.340 --> 17:25.340
+we're not buying what's in the
+media
+
+17:25.340 --> 17:27.340
+we're not buying what's in
+
+17:27.340 --> 17:29.340
+what's being shown on television
+the speeches
+
+17:29.340 --> 17:31.340
+we're being lied to, you know
+you're being lied to
+
+17:31.340 --> 17:33.340
+read the small print, read the
+fine letters
+
+17:33.340 --> 17:35.340
+that go by
+
+17:35.340 --> 17:37.340
+within a millisecond that you're
+
+17:37.340 --> 17:39.340
+supposed to read that disclaimer
+
+17:39.340 --> 17:41.340
+and know that your actual
+results will vary
+
+17:41.340 --> 17:43.340
+due to road and weather
+conditions
+
+17:43.340 --> 17:45.340
+but anyway
+
+17:45.340 --> 17:47.340
+it was always fun to have a
+political conversation
+
+17:47.340 --> 17:49.340
+in four different languages
+
+17:49.340 --> 17:51.340
+while drinking some
+
+17:51.340 --> 17:53.340
+Moroccan tea and
+
+17:53.340 --> 17:55.340
+smoking some wonderful
+
+17:55.340 --> 17:57.340
+plant of mother earth
+
+17:59.340 --> 18:01.340
+but when I got back I checked
+
+18:01.340 --> 18:03.340
+my iPod or inbox better known as
+
+18:03.340 --> 18:05.340
+my iPod and I saw
+
+18:05.340 --> 18:07.340
+a whole bunch of interesting new
+bush clips
+
+18:07.340 --> 18:09.340
+that had come up and I figured I
+might as well
+
+18:09.340 --> 18:11.340
+just do a little bush block here
+
+18:11.340 --> 18:13.340
+including a political poem
+
+18:13.340 --> 18:15.340
+so first let me get to this
+first one
+
+18:15.340 --> 18:17.340
+it's probably been circulating
+around the internet
+
+18:17.340 --> 18:19.340
+that's why it shows up on the
+blog digger MP3 feed
+
+18:19.340 --> 18:21.340
+this is
+
+18:21.340 --> 18:23.340
+and it's Bush basically
+
+18:23.340 --> 18:25.340
+fucking up whatever he's saying
+
+18:25.340 --> 18:27.340
+he's trying to say peace
+
+18:27.340 --> 18:29.340
+but it comes out a little bit
+differently
+
+18:29.340 --> 18:31.340
+listen to this little clip
+
+18:31.340 --> 18:33.340
+it's in the interest of
+
+18:33.340 --> 18:35.340
+a long-term peace in the world
+
+18:35.340 --> 18:37.340
+that we work for
+
+18:37.340 --> 18:39.340
+a free and secure
+
+18:39.340 --> 18:41.340
+and peaceful Iraq
+
+18:41.340 --> 18:43.340
+a peon's free and secure
+
+18:43.340 --> 18:45.340
+Iraq in the midst of the Middle
+East
+
+18:45.340 --> 18:47.340
+will have enormous historical
+impact
+
+18:47.340 --> 18:49.340
+a peon's free and
+
+18:49.340 --> 18:51.340
+George hold on I'll roll that
+back
+
+18:51.340 --> 18:53.340
+so you don't have to do it okay
+
+18:53.340 --> 18:55.340
+let's listen that again
+
+18:57.340 --> 18:59.340
+and secure
+
+18:59.340 --> 19:01.340
+and peaceful Iraq
+
+19:01.340 --> 19:03.340
+a peon's free and secure Iraq
+
+19:03.340 --> 19:05.340
+in the midst of the Middle East
+
+19:05.340 --> 19:07.340
+will have enormous historical
+impact
+
+19:07.340 --> 19:09.340
+a peon's free and secure Iraq
+
+19:09.340 --> 19:11.340
+so that was one guffaw that
+
+19:11.340 --> 19:13.340
+I don't know where that came
+from
+
+19:13.340 --> 19:15.340
+this is my favorite one
+
+19:15.340 --> 19:17.340
+and I'm sure this is going to
+come back
+
+19:17.340 --> 19:19.340
+to haunt George W
+
+19:19.340 --> 19:21.340
+during his many years as
+ex-president
+
+19:21.340 --> 19:23.340
+and they want us to leave
+
+19:23.340 --> 19:25.340
+that's what they want us to do
+
+19:25.340 --> 19:27.340
+and I think the world would be
+better off
+
+19:27.340 --> 19:29.340
+if we did leave
+
+19:29.340 --> 19:31.340
+the world would be worse
+
+19:31.340 --> 19:33.340
+the world is better off if it's
+not leaving
+
+19:33.340 --> 19:35.340
+what?
+
+19:35.340 --> 19:37.340
+okay as the source code
+continues
+
+19:37.340 --> 19:39.340
+for Monday the 27th
+
+19:39.340 --> 19:41.340
+I've got a political poem for
+you
+
+19:41.340 --> 19:43.340
+and it just showed up in my iPod
+
+19:43.340 --> 19:45.340
+it's pretty good listen to it
+
+19:59.340 --> 20:01.340
+so they said something that
+
+20:01.340 --> 20:03.340
+maybe they shouldn't have said
+now
+
+20:03.340 --> 20:05.340
+I'm not saying it was you
+
+20:05.340 --> 20:07.340
+and I'm not saying it was me
+
+20:07.340 --> 20:09.340
+and I'm not saying that maybe it
+was somebody else
+
+20:09.340 --> 20:11.340
+maybe it wasn't
+
+20:11.340 --> 20:13.340
+I'm not saying anything anymore
+
+20:17.340 --> 20:19.340
+man I'm sorry this is nice music
+
+20:19.340 --> 20:21.340
+and I don't want to spoil it
+with another
+
+20:21.340 --> 20:23.340
+political tirade cause
+
+20:23.340 --> 20:25.340
+I don't even like political
+poetry
+
+20:25.340 --> 20:27.340
+cause most of it sucks and most
+of the
+
+20:27.340 --> 20:29.340
+political stuff that comes to me
+is even worse
+
+20:29.340 --> 20:31.340
+than the stuff that usually
+comes to me
+
+20:31.340 --> 20:33.340
+but
+
+20:33.340 --> 20:35.340
+I hate this president even more
+now
+
+20:35.340 --> 20:37.340
+than I did before 9-11
+
+20:37.340 --> 20:39.340
+a cancer on the world and in my
+soul
+
+20:39.340 --> 20:41.340
+we have met the evil empire
+
+20:41.340 --> 20:43.340
+and it is us every one of us who
+didn't vote
+
+20:43.340 --> 20:45.340
+maybe worse than I will vote
+
+20:45.340 --> 20:47.340
+from I hate everybody
+
+20:47.340 --> 20:49.340
+anyway I wrote this poem
+
+20:49.340 --> 20:51.340
+it's short it's me and spirited
+
+20:51.340 --> 20:53.340
+and I feel kind of bad about it
+
+20:53.340 --> 20:55.340
+but I mean I'm just so
+
+20:55.340 --> 20:57.340
+calm it goes like this
+
+21:25.340 --> 21:27.340
+die painfully slow with slow
+pain
+
+21:27.340 --> 21:29.340
+John Ashcroft
+
+21:29.340 --> 21:31.340
+die slowly
+
+21:31.340 --> 21:33.340
+painfully
+
+21:33.340 --> 21:35.340
+you are all criminals
+
+21:35.340 --> 21:37.340
+you will never go to jail
+
+21:37.340 --> 21:39.340
+so just die as soon as possible
+
+21:39.340 --> 21:41.340
+with great pain slowly
+
+21:41.340 --> 21:43.340
+I would die the slowest
+
+21:43.340 --> 21:45.340
+most painful death of all of you
+
+21:45.340 --> 21:47.340
+if it meant that just half of
+you
+
+21:47.340 --> 21:49.340
+would die now
+
+21:49.340 --> 21:51.340
+call me liberal call me twisted
+
+21:51.340 --> 21:53.340
+and sick I don't care
+
+21:53.340 --> 21:55.340
+I hate you all and I hope you
+all die
+
+21:57.340 --> 21:59.340
+and that's the poem
+
+21:59.340 --> 22:01.340
+and that's fine except
+
+22:01.340 --> 22:03.340
+I mean what's the difference
+anyway
+
+22:03.340 --> 22:05.340
+they die
+
+22:05.340 --> 22:07.340
+worse ones come take their place
+
+22:11.250 --> 22:38.750
+[ Music ]
+
+22:39.340 --> 22:41.340
+you know I really like poetry
+
+22:41.340 --> 22:43.340
+that doesn't sugarcoat it
+
+22:43.340 --> 22:45.340
+another political poem
+
+22:45.340 --> 22:47.340
+that was king missile 3
+
+22:47.340 --> 22:49.340
+I'm reading this from the id3
+tags
+
+22:49.340 --> 22:51.340
+from the album royal lunch
+
+22:51.340 --> 22:53.340
+and oh man that's
+
+22:53.340 --> 22:55.340
+exercising your free speech
+there isn't it
+
+22:55.340 --> 22:57.340
+damn but I think that
+
+22:57.340 --> 22:59.340
+just listening to that
+
+22:59.340 --> 23:01.340
+the point is maybe just like
+
+23:01.340 --> 23:03.340
+we had Hitler we had Stalin
+
+23:03.340 --> 23:05.340
+we had Mussolini and they're all
+gone
+
+23:05.340 --> 23:07.340
+and new ones come with Idi Amin
+
+23:07.340 --> 23:09.340
+and they're dictators the world
+over
+
+23:09.340 --> 23:11.340
+Gaddafi and
+
+23:11.340 --> 23:13.340
+they'll go eventually we all go
+
+23:13.340 --> 23:15.340
+and then new ones pop up
+
+23:15.340 --> 23:17.340
+and let's just hope that
+
+23:17.340 --> 23:19.340
+we can steer
+
+23:19.340 --> 23:21.340
+our leaders and I think that
+
+23:21.340 --> 23:23.340
+that's a lot about what
+
+23:23.340 --> 23:25.340
+what blogs are about and
+podcasting
+
+23:25.340 --> 23:27.340
+it's exactly the same it's all
+freedom of speech
+
+23:27.340 --> 23:29.340
+and it's really really important
+
+23:29.340 --> 23:31.340
+okay let me just go back to the
+mail bag
+
+23:31.340 --> 23:33.340
+because I had a lot of mail
+
+23:33.340 --> 23:35.340
+that came in
+
+23:35.340 --> 23:37.340
+Jonathan Green sent me a note
+about
+
+23:37.340 --> 23:39.340
+Mars edit I was raving about
+that
+
+23:39.340 --> 23:41.340
+the other day hoping that
+
+23:41.340 --> 23:43.340
+they'll build in
+
+23:43.340 --> 23:45.340
+enclosure support pretty soon I
+mean
+
+23:45.340 --> 23:47.340
+I've been using it now for the
+past well
+
+23:47.340 --> 23:49.340
+it feels like about a week
+
+23:49.340 --> 23:51.340
+I like it very very much it's
+really
+
+23:51.340 --> 23:53.340
+I have a central place for all
+of my weblog publishing
+
+23:53.340 --> 23:55.340
+it's easy to edit
+
+23:55.340 --> 23:57.340
+there's just no waiting involved
+
+23:57.340 --> 23:59.340
+no waiting for browsers to
+render
+
+23:59.340 --> 24:01.340
+it probably stores a local copy
+of stuff
+
+24:01.340 --> 24:03.340
+in its own cache
+
+24:03.340 --> 24:05.340
+it's great it's really good
+stuff
+
+24:05.340 --> 24:07.340
+and he suggested
+
+24:07.340 --> 24:09.340
+installing the book market
+
+24:09.340 --> 24:11.340
+because
+
+24:11.340 --> 24:13.340
+I said there was a script that
+you can post from Safari
+
+24:13.340 --> 24:15.340
+it's called the script
+
+24:15.340 --> 24:17.340
+it goes from Safari in the Mars
+edit
+
+24:17.340 --> 24:19.340
+scripts menu
+
+24:19.340 --> 24:21.340
+and the book market is cool
+
+24:21.340 --> 24:23.340
+because it does the same thing
+
+24:23.340 --> 24:25.340
+it also gives you a routing tag
+
+24:25.340 --> 24:27.340
+like via and then you put in
+whoever it came from
+
+24:27.340 --> 24:29.340
+and
+
+24:29.340 --> 24:31.340
+just more good stuff smart
+
+24:31.340 --> 24:33.340
+smart user stuff that I'm really
+enjoying using
+
+24:35.340 --> 24:37.340
+let me see
+
+24:37.340 --> 24:39.340
+what is this here
+
+24:39.340 --> 24:41.340
+this is just a shout out
+
+24:41.340 --> 24:43.340
+from Kurt Wendelkin
+
+24:43.340 --> 24:45.340
+IT Pro working for the U.S. Navy
+
+24:45.340 --> 24:47.340
+it says in case you've been
+noticing
+
+24:47.340 --> 24:49.340
+the dot navy dot mill hits
+
+24:49.340 --> 24:51.340
+in your logs yet didn't go
+unnoticed
+
+24:51.340 --> 24:53.340
+I try every day to move tech
+users
+
+24:53.340 --> 24:55.340
+in my giant organization forward
+
+24:55.340 --> 24:57.340
+your stuff certainly helps me to
+keep thinking
+
+24:57.340 --> 24:59.340
+I'm happy to hear it
+
+24:59.340 --> 25:01.340
+that's a lot about
+
+25:01.340 --> 25:03.340
+what the source code is for
+
+25:03.340 --> 25:05.340
+try to get users and developers
+to party together
+
+25:07.340 --> 25:09.340
+hold on
+
+25:09.340 --> 25:11.340
+let me see I had a couple other
+comments
+
+25:11.340 --> 25:13.340
+that came in through the web log
+
+25:13.340 --> 25:15.340
+oh yeah there is
+
+25:15.340 --> 25:17.340
+there have been some comments
+about
+
+25:17.340 --> 25:19.340
+I posted that I'm pushing about
+9 gigs
+
+25:19.340 --> 25:21.340
+a day out
+
+25:21.340 --> 25:23.340
+through my servers for
+
+25:23.340 --> 25:25.340
+for the daily source code and
+trade secrets
+
+25:25.340 --> 25:27.340
+and I called that a bump in the
+road
+
+25:27.340 --> 25:29.340
+and I mean that you know it is a
+bump in the road
+
+25:29.340 --> 25:31.340
+we're going to fix this
+
+25:31.340 --> 25:33.340
+and I think the first and most
+important
+
+25:33.340 --> 25:35.340
+thing we can do before we get it
+
+25:35.340 --> 25:37.340
+to the ISP level is getting bit
+torrent
+
+25:37.340 --> 25:39.340
+fully integrated
+
+25:39.340 --> 25:41.340
+I played with that I finally
+subscribed
+
+25:41.340 --> 25:43.340
+to my first bit torrent feed
+
+25:43.340 --> 25:45.340
+what is it
+
+25:45.340 --> 25:47.340
+it's the Air America archives
+
+25:47.340 --> 25:49.340
+they have an archive
+
+25:49.340 --> 25:51.340
+an RSS 2.0
+
+25:51.340 --> 25:53.340
+podcast feed for you to
+subscribe to
+
+25:53.340 --> 25:55.340
+and
+
+25:55.340 --> 25:57.340
+it brings in recent shows
+
+25:57.340 --> 25:59.340
+through bit torrent
+
+25:59.340 --> 26:01.340
+as OGG files
+
+26:01.340 --> 26:03.340
+which is another compression
+
+26:03.340 --> 26:05.340
+standard which
+
+26:05.340 --> 26:07.340
+I think it's a pretty geeky
+standard
+
+26:07.340 --> 26:09.340
+it compresses stuff incredibly
+
+26:09.340 --> 26:11.340
+I think it compresses about
+twice as much as mp3
+
+26:11.340 --> 26:13.340
+at least it seems that way from
+the file size
+
+26:13.340 --> 26:15.340
+iTunes doesn't support it out of
+the box
+
+26:15.340 --> 26:17.340
+you have to download a plug in
+
+26:17.340 --> 26:19.340
+but anyway
+
+26:19.340 --> 26:21.340
+so if that's the way it's coming
+
+26:21.340 --> 26:23.340
+I still want to listen to it
+
+26:23.340 --> 26:25.340
+and
+
+26:25.340 --> 26:27.340
+iPod or X successfully
+
+26:27.340 --> 26:29.340
+got the bit torrents, downloaded
+the show
+
+26:29.340 --> 26:31.340
+it created the folder
+
+26:31.340 --> 26:33.340
+I didn't quite put the files
+into the folder
+
+26:33.340 --> 26:35.340
+and renamed them as mp.mp3
+
+26:35.340 --> 26:37.340
+instead of its original dot OGG
+format
+
+26:37.340 --> 26:39.340
+we'll get all that worked out
+
+26:39.340 --> 26:41.340
+but the iPod or concept is there
+
+26:41.340 --> 26:43.340
+and it's working
+
+26:43.340 --> 26:45.340
+and what we need to do now
+
+26:45.340 --> 26:47.340
+is make the publishing of mp3
+
+26:47.340 --> 26:49.340
+a little more easier
+
+26:49.340 --> 26:51.340
+so that you don't have to go
+through the process
+
+26:51.340 --> 26:53.340
+and I've done it myself just in
+
+26:53.340 --> 26:55.340
+local bench testing of
+
+26:55.340 --> 26:57.340
+okay here we go, first
+
+26:57.340 --> 26:59.340
+create the mp3 tags
+
+26:59.340 --> 27:01.340
+then I'm going to make a bit
+torrent out of it
+
+27:01.340 --> 27:03.340
+then I have to upload the
+torrent
+
+27:03.340 --> 27:05.340
+upload the file
+
+27:05.340 --> 27:07.340
+it's just
+
+27:07.340 --> 27:09.340
+a lot of
+
+27:09.340 --> 27:11.340
+a lot of steps to go through
+
+27:11.340 --> 27:13.340
+and then just briefly at the ISP
+level
+
+27:13.340 --> 27:15.340
+I also did a test I threw up the
+latest trade secrets
+
+27:15.340 --> 27:17.340
+on my .mac account
+
+27:17.340 --> 27:19.340
+where I bought a gigabyte of
+disk space
+
+27:19.340 --> 27:21.340
+if you want to publish
+
+27:21.340 --> 27:23.340
+there's going to be pain
+somewhere
+
+27:23.340 --> 27:25.340
+even if you have a weblog
+
+27:25.340 --> 27:27.340
+if you get slash dotted
+
+27:27.340 --> 27:29.340
+eventually you have to pay for
+bandwidth
+
+27:29.340 --> 27:31.340
+now bandwidth is being
+commoditized
+
+27:31.340 --> 27:33.340
+that can really help you
+
+27:33.340 --> 27:35.340
+but we want to make sure that
+we're not
+
+27:35.340 --> 27:37.340
+victims of our own success here
+
+27:37.340 --> 27:39.340
+and shouldn't be
+
+27:39.340 --> 27:41.340
+that every single time your show
+takes off
+
+27:41.340 --> 27:43.340
+and people are listening to you
+
+27:43.340 --> 27:45.340
+and you've got a popular show
+that your bandwidth
+
+27:45.340 --> 27:47.340
+bill goes up that's not the
+economy
+
+27:47.340 --> 27:49.340
+of scale that traditional
+
+27:49.340 --> 27:51.340
+radio or television have
+
+27:51.340 --> 27:53.340
+and I think that's where bit
+torrent is going to
+
+27:53.340 --> 27:55.340
+is going to help us
+
+27:55.340 --> 27:57.340
+and that's mainly because this
+is not streaming
+
+27:57.340 --> 27:59.340
+it's time shifting it's
+downloading
+
+27:59.340 --> 28:01.340
+we can effectively distribute
+the load
+
+28:01.340 --> 28:03.340
+and I think we're doing a pretty
+good job
+
+28:03.340 --> 28:05.340
+so far with the integration of
+bit torrent
+
+28:05.340 --> 28:07.340
+from what I've seen
+
+28:07.340 --> 28:09.340
+in iPod or X
+
+28:11.340 --> 28:13.340
+also Danny
+
+28:13.340 --> 28:15.340
+Gregor
+
+28:15.340 --> 28:17.340
+Gregory
+
+28:17.340 --> 28:19.340
+we've been emailing back and
+forth
+
+28:19.340 --> 28:21.340
+and I mentioned him before on
+the source code
+
+28:21.340 --> 28:23.340
+he's submitting a proposal
+
+28:23.340 --> 28:25.340
+with
+
+28:25.340 --> 28:27.340
+our buddy Dave Slusher from Evil
+Genius Chronicles
+
+28:27.340 --> 28:29.340
+for the O'Reilly
+
+28:29.340 --> 28:31.340
+E-Tech conference
+
+28:31.340 --> 28:33.340
+and they're going to do it about
+
+28:33.340 --> 28:35.340
+podcasting
+
+28:35.340 --> 28:37.340
+and the iPod platform
+
+28:37.340 --> 28:39.340
+see if they actually have a
+
+28:39.340 --> 28:41.340
+I guess they're calling it
+podcasting
+
+28:41.340 --> 28:43.340
+and they invited me to go along
+with them
+
+28:43.340 --> 28:45.340
+now that's not going to work
+
+28:45.340 --> 28:47.340
+schedule wise with the move and
+everything
+
+28:47.340 --> 28:49.340
+excuse me
+
+28:49.340 --> 28:51.340
+hold on let me just get rid of
+this
+
+28:53.340 --> 28:55.340
+ah there we go that's better
+
+28:55.340 --> 28:57.340
+so I said but no please
+
+28:57.340 --> 28:59.340
+you guys go have a ball
+
+28:59.340 --> 29:01.340
+and let's see
+
+29:01.340 --> 29:03.340
+apparently that's the conference
+to be at
+
+29:03.340 --> 29:05.340
+I don't know I don't really do a
+lot of
+
+29:05.340 --> 29:07.340
+conferences
+
+29:07.340 --> 29:09.340
+certainly not conference
+conferences
+
+29:09.340 --> 29:11.340
+but they're submitting a
+proposal and I guess
+
+29:11.340 --> 29:13.340
+they're going to get out there
+and
+
+29:13.340 --> 29:15.340
+we'll keep an eye on them
+
+29:15.340 --> 29:17.340
+and they'll be reporting to us
+of course
+
+29:17.340 --> 29:19.340
+regarding
+
+29:19.340 --> 29:21.340
+conferences blogger con 3
+
+29:21.340 --> 29:23.340
+coming up the 6th of November
+
+29:23.340 --> 29:25.340
+in Palo Alto
+
+29:25.340 --> 29:27.340
+bloggercon.org is where you want
+to
+
+29:27.340 --> 29:29.340
+check it out and I'll be leading
+a discussion
+
+29:29.340 --> 29:31.340
+on podcasting myself
+
+29:31.340 --> 29:33.340
+and I wrote up a description
+today
+
+29:33.340 --> 29:35.340
+you can check it out it's on the
+web
+
+29:35.340 --> 29:37.340
+blog at bloggercon.com
+
+29:37.340 --> 29:39.340
+and if anyone listening to
+
+29:39.340 --> 29:41.340
+this podcast
+
+29:41.340 --> 29:43.340
+you know can
+
+29:43.340 --> 29:45.340
+come or is planning on coming
+let me know
+
+29:45.340 --> 29:47.340
+you know let's get some stuff
+set up
+
+29:47.340 --> 29:49.340
+I really hope we can have a
+massive jam
+
+29:49.340 --> 29:51.340
+parties we're all bringing our
+mobile studios
+
+29:51.340 --> 29:53.340
+and we need to talk about setups
+
+29:53.340 --> 29:55.340
+and how it works and all the
+stuff
+
+29:55.340 --> 29:57.340
+that we're talking about on the
+iPod or dev list
+
+29:57.340 --> 29:59.340
+you can hear by the way that
+
+29:59.340 --> 30:01.340
+our good buddy Luke is blowing
+the leaves
+
+30:01.340 --> 30:03.340
+outside the castle
+
+30:03.340 --> 30:05.340
+at the moment outside of the bar
+
+30:05.340 --> 30:07.340
+door where we are
+
+30:07.340 --> 30:09.340
+alright let's play some more fun
+stuff
+
+30:09.340 --> 30:11.340
+I got an
+
+30:11.340 --> 30:13.340
+email from
+
+30:13.340 --> 30:15.340
+Tony
+
+30:15.340 --> 30:17.340
+and now my email there we go
+
+30:17.340 --> 30:19.340
+Tony Khan
+
+30:19.340 --> 30:21.340
+he was another fan of the source
+code
+
+30:21.340 --> 30:23.340
+he's in Boston
+
+30:23.340 --> 30:25.340
+and he's working at
+
+30:25.340 --> 30:27.340
+Public Radio at WGBH
+
+30:27.340 --> 30:29.340
+and
+
+30:29.340 --> 30:31.340
+he does let me see if he
+
+30:31.340 --> 30:33.340
+yeah I think he produces I don't
+know if he hosts it
+
+30:33.340 --> 30:35.340
+but he produces a series of
+short stories
+
+30:35.340 --> 30:37.340
+called Morning Stories
+
+30:37.340 --> 30:39.340
+and
+
+30:39.340 --> 30:41.340
+he pointed me to them and you
+can get them in streaming
+
+30:41.340 --> 30:43.340
+there's also a download
+
+30:43.340 --> 30:45.340
+MP3 archive and they're really
+good
+
+30:45.340 --> 30:47.340
+and so I suggested well you know
+
+30:47.340 --> 30:49.340
+dude why don't you get it
+
+30:49.340 --> 30:51.340
+an RSS 2.0
+
+30:51.340 --> 30:53.340
+podcasting feed together and
+I'll point to it
+
+30:53.340 --> 30:55.340
+and then everyone can enjoy this
+so it'll be that much better
+
+30:55.340 --> 30:57.340
+and so he said well yep
+
+30:57.340 --> 30:59.340
+certainly what is this
+
+30:59.340 --> 31:01.340
+quote here hi Adam wish there
+was
+
+31:01.340 --> 31:03.340
+an RSS feed you're way ahead of
+us that makes
+
+31:03.340 --> 31:05.340
+you such a force in changing
+
+31:05.340 --> 31:07.340
+the face of radio I'll see if I
+can
+
+31:07.340 --> 31:09.340
+make it happen you know how hard
+it is to make
+
+31:09.340 --> 31:11.340
+an elephant sized operation like
+WGBH
+
+31:11.340 --> 31:13.340
+remember it can still dance
+
+31:13.340 --> 31:15.340
+Tony I'm sure you are teaching
+
+31:15.340 --> 31:17.340
+at New Steps as we speak
+
+31:17.340 --> 31:19.340
+and I want to play this bit
+
+31:19.340 --> 31:21.340
+which is one of the
+
+31:21.340 --> 31:23.340
+Morning Stories series
+
+31:23.340 --> 31:25.340
+and meanwhile hopefully by the
+time we get back
+
+31:25.340 --> 31:27.340
+the leaf blowing will have
+diminished a little bit
+
+31:27.340 --> 31:29.340
+check this one out
+
+31:29.340 --> 31:31.340
+it's titled one eight hundred
+your dad
+
+31:45.340 --> 31:47.340
+a meaningful relationship
+
+31:47.340 --> 31:49.340
+press one if you call to chat
+
+31:49.340 --> 31:51.340
+press two if you call
+
+31:51.340 --> 31:53.340
+to apologize for not having
+
+31:53.340 --> 31:55.340
+phoned in months
+
+31:55.340 --> 31:57.340
+press three if you really called
+
+31:57.340 --> 31:59.340
+for money one
+
+31:59.340 --> 32:01.340
+you call to
+
+32:01.340 --> 32:03.340
+shoot the breeze press one
+
+32:03.340 --> 32:05.340
+if you want to hear about my
+problems
+
+32:05.340 --> 32:07.340
+press two if you want
+
+32:07.340 --> 32:09.340
+us to hear about your problems
+
+32:09.340 --> 32:11.340
+or press three at any time
+
+32:11.340 --> 32:13.340
+if what you really called about
+
+32:13.340 --> 32:15.340
+was money
+
+32:15.340 --> 32:17.340
+come on one
+
+32:17.340 --> 32:19.340
+you want to hear about my
+problems
+
+32:19.340 --> 32:21.340
+how thoughtful
+
+32:21.340 --> 32:23.340
+press one to hear what we think
+
+32:23.340 --> 32:25.340
+about your girlfriend Yolanda
+
+32:25.340 --> 32:27.340
+press two to hear
+
+32:27.340 --> 32:29.340
+what we think about your plan to
+motorcycle
+
+32:29.340 --> 32:31.340
+around the world with your
+barbarian
+
+32:31.340 --> 32:33.340
+friends on with them press three
+
+32:33.340 --> 32:35.340
+if what you really called about
+
+32:35.340 --> 32:37.340
+was money
+
+32:37.340 --> 32:39.340
+you finally press three
+
+32:39.340 --> 32:41.340
+please enter now the
+
+32:41.340 --> 32:43.340
+dollar amount you are requesting
+
+32:43.340 --> 32:45.340
+followed by the pound sign
+
+32:45.340 --> 32:47.340
+at the bottom of the dial
+
+32:47.340 --> 32:49.340
+one
+
+32:49.340 --> 32:51.340
+two
+
+32:51.340 --> 32:53.340
+the heck I won't get it anyway
+
+32:53.340 --> 32:55.340
+one
+
+32:55.340 --> 32:57.340
+pound sign
+
+32:57.340 --> 32:59.340
+five thousand
+
+32:59.340 --> 33:01.340
+dollars
+
+33:01.340 --> 33:03.340
+are you out of your mind
+
+33:03.340 --> 33:05.340
+press one to hear my lecture
+
+33:05.340 --> 33:07.340
+on how I am not far nuts
+
+33:07.340 --> 33:09.340
+press two to hear your mother
+
+33:09.340 --> 33:11.340
+weeping inconsolably about
+
+33:11.340 --> 33:13.340
+where she went wrong with you
+
+33:13.340 --> 33:15.340
+press three if you are willing
+
+33:15.340 --> 33:17.340
+to settle for one hundred
+dollars cash
+
+33:17.340 --> 33:19.340
+no questions asked by return
+mail
+
+33:19.340 --> 33:21.340
+hmm
+
+33:21.340 --> 33:23.340
+please hold your request is
+being
+
+33:23.340 --> 33:25.340
+processed now
+
+33:25.340 --> 33:27.340
+near time
+
+33:27.340 --> 33:29.340
+dad
+
+33:29.340 --> 33:31.340
+get with it
+
+33:31.340 --> 33:33.340
+oh what a guy has got to do
+
+33:33.340 --> 33:35.340
+five hundred bucks
+
+33:35.340 --> 33:37.340
+hmm
+
+33:37.340 --> 33:41.340
+your request has just been
+
+33:41.340 --> 33:43.340
+electronically rooted to my bank
+
+33:43.340 --> 33:45.340
+thanks for calling and next time
+
+33:45.340 --> 33:47.340
+consider dropping by
+
+33:47.340 --> 33:49.340
+we really do miss you
+
+33:49.340 --> 33:51.340
+press one now to hear your
+mother tell you
+
+33:51.340 --> 33:53.340
+she loves you too
+
+33:53.340 --> 33:55.340
+press two to hear duke bark hi
+
+33:55.340 --> 33:57.340
+or press three to hear your
+little sister
+
+33:57.340 --> 33:59.340
+judy tell you
+
+33:59.340 --> 34:01.340
+we don't understand her either
+
+34:01.340 --> 34:03.340
+bye
+
+34:03.340 --> 34:05.340
+some choice
+
+34:05.340 --> 34:07.340
+dog
+
+34:07.340 --> 34:09.340
+hi duke
+
+34:09.340 --> 34:11.340
+dog's got to be eating
+
+34:11.340 --> 34:13.340
+there you go one eight hundred
+
+34:13.340 --> 34:15.340
+um
+
+34:15.340 --> 34:17.340
+your dad from WGBH
+
+34:17.340 --> 34:19.340
+and as soon as they get
+
+34:19.340 --> 34:21.340
+a feed together I will most
+definitely point to it
+
+34:21.340 --> 34:23.340
+okay so there's still a little
+bit of leaf
+
+34:23.340 --> 34:25.340
+blowing going on but
+
+34:25.340 --> 34:27.340
+you know maybe we'll make this a
+double shot
+
+34:27.340 --> 34:29.340
+source code today
+
+34:29.340 --> 34:31.340
+playing a full hours
+
+34:31.340 --> 34:33.340
+worth of all the best that I've
+
+34:33.340 --> 34:35.340
+tripped across on the net
+
+34:35.340 --> 34:37.340
+let's listen to the Isles right
+now
+
+34:37.340 --> 34:39.340
+who's that lady
+
+34:41.250 --> 39:41.250
+[ Music ]
+
+39:48.260 --> 39:53.980
+until the iTunes Music Store
+comes to Europe, the European
+Union, where it is end of
+October,
+
+39:53.980 --> 39:59.740
+because then I can download and
+happily pay for a good version
+of the Isley Brothers, who
+
+39:59.740 --> 40:00.740
+is that lady?
+
+40:00.740 --> 40:06.740
+This had a dropout somewhere in
+the middle there, you know, come
+on people.
+
+40:06.740 --> 40:11.620
+Yeah, so I wonder how many of
+you skipped ahead to this part
+and didn't listen to the Isley
+
+40:11.620 --> 40:12.620
+Brothers?
+
+40:12.620 --> 40:14.300
+Does everyone always listen to
+all the songs?
+
+40:14.300 --> 40:16.380
+Let me know, adamantcurry.com.
+
+40:16.380 --> 40:19.020
+So yeah, we're going to make
+this a double shot of the source
+code for today because
+
+40:19.020 --> 40:28.260
+there's just so much to talk
+about, and what's the worst is
+when great stuff happens on
+Friday,
+
+40:28.260 --> 40:31.460
+and then I sit there all weekend
+thinking, oh man, I got to talk
+about this stuff.
+
+40:31.460 --> 40:32.460
+I don't remember what to talk
+about.
+
+40:32.460 --> 40:33.460
+I'm writing stuff down.
+
+40:33.460 --> 40:34.460
+I've got outlines all over the
+place.
+
+40:34.460 --> 40:35.460
+I've got bits, notes.
+
+40:35.460 --> 40:39.180
+I mean, I've never, I haven't
+been this active since the first
+time I hosted the
+
+40:39.180 --> 40:41.620
+morning show on Z100 in New
+York.
+
+40:41.620 --> 40:44.580
+You know, I'm just totally,
+everything is show prep mode,
+which is great.
+
+40:44.580 --> 40:48.980
+I love it because I have so much
+to talk about, and it's my
+version of web-logging.
+
+40:48.980 --> 40:51.100
+On Friday, there was a new
+Gilmore Gang that was put up.
+
+40:51.100 --> 40:52.340
+You know how much I love this
+show?
+
+40:52.340 --> 40:57.700
+It's at itconversations.com, the
+Gilmore Gang, Steve Gilmore,
+John Udell, Doc Searls,
+
+40:57.700 --> 41:01.020
+and they always have some guests
+on there.
+
+41:01.020 --> 41:06.820
+And I have to say, a lot of this
+show was about iPodder, and I
+mentioned this on Trade
+
+41:06.820 --> 41:10.820
+Secrets because Dave called up,
+and so we might have said, well
+shoot, we're talking
+
+41:10.820 --> 41:14.460
+and we want to talk about this
+Gilmore Gang thing, and so we
+recorded a show out
+
+41:14.460 --> 41:19.500
+of it and put it up, if you
+haven't heard it,
+secrets.scripting.com.
+
+41:19.500 --> 41:28.140
+And it was, you know, they kept
+wandering away to talk about
+suns, you know, buy computer
+
+41:28.140 --> 41:34.420
+cycles, buy the hour offering, I
+actually posted a link to that
+on my web-log, and
+
+41:34.420 --> 41:38.500
+they kept coming back to
+iPodder, and it was great to
+hear, you know, they were
+clearly
+
+41:38.500 --> 41:42.220
+excited about it, and it was
+wonderful to hear it, but there
+were some errors in
+
+41:42.260 --> 41:46.260
+there that, you know, I was
+listening, you have to
+understand that, you know, if
+you
+
+41:46.260 --> 41:49.460
+read a newspaper and you read an
+interview, an article about
+yourself, and
+
+41:49.460 --> 41:52.820
+there's something wrong, like,
+oh man, shit. And then you see
+it on TV, you know,
+
+41:52.820 --> 41:56.620
+sometimes you feel like throwing
+the remote, and you hear stuff
+on radio or
+
+41:56.620 --> 41:59.860
+your iPod, and I'm like, I'm
+jumping up and down, like, no,
+that's not right,
+
+41:59.860 --> 42:04.420
+that's not right. So I did get
+some interesting points wrong,
+and I was
+
+42:04.420 --> 42:09.660
+thinking about, you know,
+playing back the show, stopping
+it, and talking
+
+42:09.660 --> 42:14.700
+about, you know, exactly what
+they said, but I didn't have to,
+because Saturday
+
+42:14.700 --> 42:18.740
+morning on my iPod, waiting for
+me, was a new evil genius
+Chronicles, Dave Slusher
+
+42:18.740 --> 42:24.260
+had done exactly that, he did it
+in post-production, in edit, but
+I figured,
+
+42:24.260 --> 42:27.820
+I'll just play you a little bit,
+a clip, and then the response
+that Dave gives
+
+42:27.820 --> 42:31.940
+to that clip, because his
+response is, it's just
+excellent, it was, it just
+
+42:31.940 --> 42:36.380
+really cracked me up. So this is
+a bit of the evil genius
+Chronicles from
+
+42:36.380 --> 42:41.820
+September 25th, 2004, regarding
+the Gilmore gang of the same
+date.
+
+42:41.820 --> 42:47.340
+Well there's an optional
+portion, effectively, of RSS
+called Enclosures,
+
+42:47.340 --> 42:50.620
+that bear the greatest
+similarity to email attachment.
+
+42:50.620 --> 42:53.260
+Hold on a second, you know what
+I should do, I should probably
+rewind this just a
+
+42:53.260 --> 42:57.220
+little bit, just so that you can
+hear Dave's intro and who's
+talking here,
+
+42:57.220 --> 42:59.100
+hold on a second.
+
+42:59.100 --> 43:01.620
+And, I'll rewind this.
+
+43:01.980 --> 43:05.500
+Here's what he had to say about
+it.
+
+43:05.500 --> 43:10.420
+Okay, hold on, we're almost
+there.
+
+43:10.420 --> 43:12.540
+It's also actually important,
+okay.
+
+43:12.540 --> 43:20.260
+Okay, I'll play, because he also
+does a mea culpa here, which is
+important for context.
+
+43:20.260 --> 43:24.140
+You and I are hearing this at
+different times, and I wrote
+down everything I wanted to say,
+
+43:24.140 --> 43:28.140
+so hopefully I'm not
+misremembering as I do this.
+
+43:28.140 --> 43:32.740
+But we're going to hear the
+first piece, and this is Scott
+Rafer from who's the CEO
+
+43:32.740 --> 43:35.260
+of Feedster. Here's what he had
+to say about it.
+
+43:35.260 --> 43:40.260
+Well there's an optional
+portion, effectively, of RSS
+called Enclosures,
+
+43:40.260 --> 43:45.540
+that bear the greatest
+similarity to email attachments,
+than anything else.
+
+43:45.540 --> 43:52.140
+And with the restriction, you
+can only have one per RSS entry.
+
+43:52.140 --> 44:00.220
+And, they've been gaining
+popularity recently, and Adam
+Curry, the former VH1
+
+44:00.220 --> 44:05.620
+VJ, who's now sort of done a lot
+with RSS over from the
+Netherlands,
+
+44:05.620 --> 44:11.940
+put together a piece of software
+called iPodder, I-P-O-D-D-E-R
+dot org,
+
+44:11.940 --> 44:17.540
+where you can go straight from
+RSS enclosures onto your iPod.
+
+44:17.540 --> 44:23.300
+And he's got his little daily
+radio show, you know, similar to
+a certain extent.
+
+44:23.300 --> 44:25.700
+You know, to this one goes up
+digital files on the web and
+whatever.
+
+44:25.700 --> 44:31.100
+It's a soliloquy mainly. But he
+put it out there and started
+distributing
+
+44:31.100 --> 44:35.460
+his own radio show this way, and
+listenership took off.
+
+44:35.460 --> 44:39.780
+And so they put out the piece of
+software as a, you know,
+
+44:39.780 --> 44:44.180
+come one, come all kind of
+little attachment to drop onto
+your Mac.
+
+44:44.220 --> 44:46.660
+I don't believe there's a
+Windows version yet.
+
+44:46.660 --> 44:52.340
+And what Scott Johnson did was
+he reacted to this,
+
+44:52.340 --> 44:57.420
+and the growing popularity of
+enclosures, putting together
+some master feeds
+
+44:57.420 --> 45:03.660
+up on Feaster's site, so that
+you can have an RSS feed of all
+the MP3s
+
+45:03.660 --> 45:07.420
+that come through the system,
+all the JPEGs, all the video
+files,
+
+45:07.420 --> 45:09.420
+all the calendar events, even.
+
+45:09.420 --> 45:12.660
+So he had, you know, his
+advocacy and, you know, his
+company,
+
+45:12.660 --> 45:15.660
+obviously is supporting things
+to help this platform out.
+
+45:15.660 --> 45:19.380
+A couple annoying little errors
+in there, which as I posted
+about this
+
+45:19.380 --> 45:23.500
+earlier in the weblog, I
+ascribed him as working for
+Technorati.
+
+45:23.500 --> 45:26.460
+So I make the annoying little
+errors myself, too.
+
+45:26.460 --> 45:28.180
+I don't think Adam ever worked
+for VH1.
+
+45:28.180 --> 45:29.780
+It was, I think, only MTV.
+
+45:29.780 --> 45:31.140
+Right, right, right. That's not
+a biggie.
+
+45:31.140 --> 45:34.460
+No, whoa, whoa, whoa, whoa, hold
+on, hold on, hold on.
+
+45:34.460 --> 45:35.740
+To me, that is a biggie.
+
+45:38.860 --> 45:41.380
+I used to host Headbangers Ball,
+dude.
+
+45:41.420 --> 45:45.620
+I mean, it's like, oh, man,
+that's so rough.
+
+45:45.620 --> 45:50.420
+The only real VJ that was ever
+on VH1, besides Rosie O'Donnell,
+
+45:50.420 --> 45:53.220
+by the way, and I did her
+audition,
+
+45:53.220 --> 45:58.340
+and she got hired because of me,
+was Tim Bird, the Bird Mom.
+
+45:58.340 --> 46:00.620
+You're probably still here to
+see him somewhere
+
+46:00.620 --> 46:03.020
+around your media market, Rodale
+Station,
+
+46:03.020 --> 46:05.180
+Tim Bird, the Bird Mom.
+
+46:05.180 --> 46:08.220
+So no, that's actually quite
+insulting to say that I
+
+46:08.220 --> 46:09.140
+was from VH1.
+
+46:09.140 --> 46:10.620
+And I was jumping up and down
+when
+
+46:10.660 --> 46:13.980
+I heard that, I'm like, oh, come
+on, man, that's unfair.
+
+46:13.980 --> 46:16.420
+But of course, maybe that's
+because MTV no longer
+
+46:16.420 --> 46:18.980
+actually plays music videos and
+VH1 does,
+
+46:18.980 --> 46:21.260
+so it may just be a very honest
+mistake.
+
+46:21.260 --> 46:24.220
+Let's continue now with Dave
+Slush's analysis
+
+46:24.220 --> 46:25.500
+of this statement.
+
+46:25.500 --> 46:28.340
+This isn't really an error, but
+something about the way
+
+46:28.340 --> 46:30.980
+he said stuff kind of rubbed me
+the wrong way.
+
+46:30.980 --> 46:33.820
+You notice that he uses the word
+little like three times.
+
+46:33.820 --> 46:36.180
+Adam's little radio show and
+this little program
+
+46:36.180 --> 46:38.860
+that you put on there and it
+runs on its little subscription.
+
+46:38.860 --> 46:41.780
+To me, I don't know, it just
+sounds like
+
+46:41.780 --> 46:46.780
+derogation and kind of
+diminution of what we're doing
+here.
+
+46:48.220 --> 46:52.020
+I mean, it's not something to be
+so thin skin
+
+46:52.020 --> 46:53.580
+that bothers you about, but I
+don't know why
+
+46:53.580 --> 46:55.700
+he's using that adjective to
+describe this.
+
+46:55.700 --> 46:57.100
+Dave, I think I can tell you
+why,
+
+46:57.100 --> 46:59.460
+because people who talk like
+that,
+
+46:59.460 --> 47:00.980
+and I listen, I caught that as
+well.
+
+47:00.980 --> 47:03.900
+I was like, whoa, man, why is he
+saying little this
+
+47:03.900 --> 47:08.260
+and little that, and usually
+people who say that
+
+47:08.940 --> 47:11.420
+it's a psychological thing, and
+of course,
+
+47:11.420 --> 47:13.780
+everything you say is always
+based upon your own psyche
+
+47:13.780 --> 47:17.020
+and your own frustration, so it
+probably has a small penis.
+
+47:17.020 --> 47:18.900
+Stuff, it seems kind of out of
+place.
+
+47:18.900 --> 47:21.660
+As does soliloquy, because it
+sounds almost,
+
+47:22.980 --> 47:24.420
+I don't know, accusatory.
+
+47:24.420 --> 47:27.080
+Like, Adam's show is a
+soliloquy,
+
+47:27.080 --> 47:30.060
+and guess what, this shows a
+soliloquy, too.
+
+47:30.060 --> 47:33.460
+Is that, I mean, any one person
+radio,
+
+47:33.460 --> 47:35.260
+talk radio show is like that,
+you know?
+
+47:36.220 --> 47:39.500
+And I replayed that bit four
+times,
+
+47:39.500 --> 47:41.860
+like what does he say, I
+couldn't understand it,
+
+47:41.860 --> 47:44.940
+and it wasn't until I heard
+Dave's analysis
+
+47:44.940 --> 47:48.620
+that I heard it was soliloquy,
+and I had to look it up.
+
+47:48.620 --> 47:51.260
+I had to look it up on
+dictionary.com.
+
+47:51.260 --> 47:53.100
+Hold on a second, let me bring
+up
+
+47:53.100 --> 47:54.620
+the definition of soliloquy.
+
+47:54.620 --> 47:57.740
+I think I posted to my web log
+about that as well.
+
+47:58.980 --> 48:01.980
+Hold on a second, let's just get
+that.
+
+48:01.980 --> 48:04.420
+Soliloquy, it's even hard to
+say.
+
+48:04.460 --> 48:08.020
+Soliloquy, damn, it's the word
+of the day.
+
+48:08.020 --> 48:10.260
+Soliloquy, let me see.
+
+48:12.380 --> 48:14.620
+Where is it, where, here,
+soliloquy.
+
+48:16.220 --> 48:18.740
+A dramatic or literary form of
+discourse
+
+48:18.740 --> 48:21.900
+in which a character talks to
+himself or herself
+
+48:21.900 --> 48:23.740
+or reveals his or her thoughts
+
+48:23.740 --> 48:26.300
+without addressing a listener.
+
+48:27.420 --> 48:29.620
+That's not true, that's just not
+true.
+
+48:29.620 --> 48:32.860
+I'm totally 100% addressing
+listeners here.
+
+48:33.060 --> 48:34.460
+And the only reason I'm stopping
+by,
+
+48:34.460 --> 48:36.260
+and I'm just making light of the
+situation,
+
+48:36.260 --> 48:38.980
+I'm tickled to death that these
+guys talked about it,
+
+48:38.980 --> 48:41.980
+really am, and I'm so happy that
+Feedster is supporting us.
+
+48:43.140 --> 48:45.740
+But shit, I got a whole hour to
+fill here, you know what I'm
+saying?
+
+48:45.740 --> 48:48.220
+Let's just see if Dave has
+anything left here.
+
+48:48.220 --> 48:50.260
+Any talk radio show in the
+period
+
+48:50.260 --> 48:52.980
+between they're taking calls,
+that's a soliloquy.
+
+48:52.980 --> 48:55.460
+That's just the way it goes,
+why?
+
+48:55.460 --> 48:59.380
+So, but it is interesting that
+Feedster is behind this.
+
+48:59.380 --> 49:01.740
+I don't know that I would ever
+use a Feedster feed
+
+49:01.740 --> 49:03.940
+to aggregate for the same
+reason, you know,
+
+49:03.940 --> 49:04.780
+when we were going around.
+
+49:04.780 --> 49:06.300
+All right, so that's a whole
+different conversation.
+
+49:06.300 --> 49:08.100
+You should listen to Dave's show
+
+49:08.100 --> 49:10.100
+if you wanna check out all of
+that.
+
+49:10.100 --> 49:12.020
+But anyway, it's a hilarious
+analysis
+
+49:12.020 --> 49:14.300
+of that conversation on the
+Gilmore Gang,
+
+49:14.300 --> 49:16.060
+which is still one of my
+favorite shows.
+
+49:16.060 --> 49:19.660
+So, just saying howdy guys,
+we're listening to you.
+
+49:19.660 --> 49:21.580
+I don't miss one of your shows
+either.
+
+49:21.580 --> 49:24.700
+In fact, I'm really upset when I
+miss one of your shows.
+
+49:24.700 --> 49:27.900
+Let me see, what else do we have
+left?
+
+49:27.900 --> 49:32.900
+Well, I ran across an
+interesting podcast.
+
+49:33.500 --> 49:35.300
+Let me just see, look at the
+metadata here.
+
+49:35.300 --> 49:37.060
+This is from Peter Overbaker.
+
+49:37.060 --> 49:39.100
+It's called Ghost in the
+Machine.
+
+49:39.100 --> 49:42.780
+And well, you should just listen
+to it for yourself
+
+49:42.780 --> 49:44.940
+and you'll understand what he's
+doing immediately.
+
+49:44.940 --> 49:47.860
+I've taken off the first bit of
+the theme song
+
+49:47.860 --> 49:51.300
+and it almost goes straight into
+the actual
+
+49:51.300 --> 49:52.660
+start of the podcast.
+
+49:53.580 --> 49:56.620
+Ghost in the Machine audio blog
+
+49:56.620 --> 50:00.540
+for Sunday, September 26th,
+2004.
+
+50:00.540 --> 50:03.860
+Hi, all welcome to my very first
+audio blog,
+
+50:03.860 --> 50:07.420
+read to you by ReadPlease 2003.
+
+50:07.420 --> 50:09.300
+Because my own voice sucks,
+
+50:09.300 --> 50:12.540
+I thought this might be a fun
+solution.
+
+50:12.540 --> 50:14.980
+Well, it might not be as
+successful
+
+50:14.980 --> 50:16.780
+as Adam's or Dave's show.
+
+50:16.780 --> 50:18.900
+Okay, well, anyway, I'll shoot
+now.
+
+50:18.900 --> 50:21.020
+There's Luke again with the leaf
+blower.
+
+50:21.020 --> 50:24.660
+So clearly, you're not gonna
+listen to a voice like that
+
+50:24.660 --> 50:26.620
+for very long, but I have to say
+this,
+
+50:26.620 --> 50:28.900
+and this can't be Apple speech
+synthesis
+
+50:28.900 --> 50:30.060
+that's built into OS X
+
+50:30.060 --> 50:31.460
+because it doesn't sound that
+good.
+
+50:31.460 --> 50:35.420
+I don't think, maybe it is, but
+Peter should let us know.
+
+50:35.420 --> 50:38.180
+But it does seem like it could
+be appropriate.
+
+50:38.180 --> 50:39.740
+If I have a playlist of stuff
+
+50:39.740 --> 50:41.540
+that I wanna listen to in the
+morning,
+
+50:41.540 --> 50:44.020
+which includes a local weather
+report,
+
+50:44.020 --> 50:47.220
+it includes a sports update,
+unlikely, right?
+
+50:47.220 --> 50:49.900
+Okay, so let's take a political
+update.
+
+50:49.900 --> 50:51.780
+Then I wanna listen to a show
+
+50:51.780 --> 50:53.860
+that plays two new songs for the
+day,
+
+50:53.860 --> 50:55.220
+and then maybe there's something
+else
+
+50:55.220 --> 50:57.620
+that's totally automated that
+someone doesn't feel
+
+50:57.620 --> 51:02.380
+like setting up, like doing a
+voice track
+
+51:02.380 --> 51:03.220
+every single day.
+
+51:03.220 --> 51:04.300
+You could automate that with
+text.
+
+51:04.300 --> 51:06.260
+I mean, even maybe the weather
+report is like that.
+
+51:06.260 --> 51:07.660
+I think it'd be pretty boring,
+
+51:07.660 --> 51:09.860
+but I think it's certainly
+useful.
+
+51:09.860 --> 51:11.860
+I think there's a spot for it
+
+51:11.860 --> 51:13.300
+in everything that we're doing.
+
+51:13.300 --> 51:17.380
+And again, this could be used
+for so many things.
+
+51:17.380 --> 51:18.580
+Just look at the telephone.
+
+51:18.580 --> 51:21.180
+Look at a weblog and say what
+can this be used
+
+51:21.180 --> 51:22.020
+to make money?
+
+51:22.020 --> 51:24.020
+How can I use this to make
+money?
+
+51:24.020 --> 51:24.980
+And forget the weblog.
+
+51:24.980 --> 51:26.180
+Look at a telephone.
+
+51:26.180 --> 51:27.020
+You know, it's the same thing.
+
+51:27.020 --> 51:29.980
+And just think about what we're
+doing with radio.
+
+51:29.980 --> 51:31.460
+We're doing too radio.
+
+51:31.460 --> 51:34.140
+I mean, the spot where radio
+makes its money
+
+51:34.140 --> 51:37.140
+is during drive time, in the
+morning and the afternoon.
+
+51:37.140 --> 51:40.700
+And it's a very different way of
+consuming information
+
+51:40.700 --> 51:43.420
+because you're not going
+anywhere physically.
+
+51:43.420 --> 51:45.020
+I mean, sure, you're moving
+along the road.
+
+51:45.020 --> 51:46.300
+Hopefully, maybe you're in
+traffic.
+
+51:46.300 --> 51:47.180
+You're moving along slowly,
+
+51:47.180 --> 51:48.620
+you're not getting out of your
+car.
+
+51:48.620 --> 51:49.980
+And besides the cell phone,
+
+51:49.980 --> 51:54.260
+there's not much else to do in
+the way of entertainment.
+
+51:54.260 --> 51:56.620
+And so you're kind of stuck
+there.
+
+51:56.620 --> 51:58.260
+And the most entertaining thing
+for you
+
+51:58.260 --> 52:00.420
+will keep you going, and you're
+going to get marketed to.
+
+52:00.420 --> 52:02.620
+And there's money there.
+
+52:02.620 --> 52:05.220
+There's money to be made.
+
+52:05.220 --> 52:07.460
+And we're totally competing with
+that market.
+
+52:07.460 --> 52:08.780
+And I tell you, look out.
+
+52:08.780 --> 52:09.980
+Look out.
+
+52:09.980 --> 52:13.780
+Because the NAB is one powerful
+organization,
+
+52:13.780 --> 52:16.220
+10 times more, maybe 100 times
+more powerful
+
+52:16.260 --> 52:17.780
+than the RIAA.
+
+52:17.780 --> 52:19.820
+And once they, that's the record
+lobby,
+
+52:19.820 --> 52:22.420
+once they know what we're up to,
+
+52:22.420 --> 52:24.820
+it's going to get really, really
+interesting.
+
+52:24.820 --> 52:27.100
+And they have it, they brought
+it upon themselves.
+
+52:27.100 --> 52:28.540
+They've made radio boring.
+
+52:28.540 --> 52:32.140
+Clear Channel owns so many radio
+stations.
+
+52:32.140 --> 52:34.100
+And it's just, it's boring.
+
+52:34.100 --> 52:35.340
+It's the same playlist.
+
+52:35.340 --> 52:37.380
+It's the same cookie cutter
+stuff.
+
+52:37.380 --> 52:41.020
+It's not about the emotion of
+communicating stuff anymore.
+
+52:41.020 --> 52:42.580
+It's just about making money,
+
+52:42.580 --> 52:44.820
+which is the same for the music
+business.
+
+52:44.820 --> 52:46.340
+And I think that's what we're
+all about.
+
+52:46.340 --> 52:48.220
+Damn, I'm already doing my
+blogger con thing.
+
+52:48.220 --> 52:49.060
+I got to stop this.
+
+52:49.060 --> 52:52.180
+Okay, let me play you a bit from
+another show that I found,
+
+52:52.180 --> 52:53.260
+who I contacted and said,
+
+52:53.260 --> 52:55.180
+please, please, please, please
+make this
+
+52:55.180 --> 52:57.900
+into a podcast compatible feed,
+
+52:57.900 --> 53:00.260
+RSS 2.0 with enclosures.
+
+53:00.260 --> 53:01.100
+They got back to me and said,
+
+53:01.100 --> 53:02.420
+sure, they're definitely going
+to do that.
+
+53:02.420 --> 53:04.220
+It's the Link Linux show.
+
+53:05.300 --> 53:08.100
+And I've never heard this
+before.
+
+53:08.100 --> 53:10.020
+I think this is their 50th
+anniversary show,
+
+53:10.020 --> 53:12.820
+or it's around their 50th
+episode, maybe even more.
+
+53:12.820 --> 53:13.860
+But it's really cool.
+
+53:13.860 --> 53:15.900
+It's just a couple of guys
+talking geek talk,
+
+53:15.900 --> 53:18.540
+just like Dave and I might do.
+
+53:18.540 --> 53:21.220
+And they also chatted about
+iPodder.
+
+53:21.220 --> 53:22.660
+From a geek perspective,
+
+53:22.660 --> 53:25.380
+I'll just play a little bit of
+this just to point it out.
+
+53:25.380 --> 53:28.540
+And I'll let you know as soon as
+they have their iPodder
+
+53:28.540 --> 53:30.020
+feed up and ready to go.
+
+53:30.020 --> 53:31.620
+Here's a little bit from the
+Link Linux show.
+
+53:31.620 --> 53:33.740
+This is from two weeks ago.
+
+53:33.740 --> 53:35.100
+Pods, what?
+
+53:35.100 --> 53:37.100
+Dan's shiny iPod there.
+
+53:37.100 --> 53:39.460
+I was playing with an
+application last week
+
+53:39.460 --> 53:42.460
+called iPodder, excuse me.
+
+53:43.860 --> 53:44.900
+Let's find it here.
+
+53:46.060 --> 53:50.980
+It's iPodder, which allows you
+to do audio downloads
+
+53:50.980 --> 53:52.140
+for like the audio blogs.
+
+53:52.140 --> 53:54.260
+I know you were listening to
+some earlier
+
+53:54.260 --> 53:55.620
+a couple of months ago.
+
+53:55.620 --> 54:00.620
+Basically, it allows, you embed
+it in your RSS.
+
+54:01.220 --> 54:04.060
+Honestly, every day or whenever
+you put another audio feed
+
+54:04.060 --> 54:06.860
+up there on it, you get an
+application
+
+54:06.860 --> 54:08.100
+which automatically downloads.
+
+54:08.100 --> 54:09.460
+Automatically downloads the
+thing you're iPodder.
+
+54:09.460 --> 54:10.300
+If you have an iPodder,
+
+54:10.300 --> 54:13.140
+it'll actually store it on your
+iPod for you.
+
+54:13.140 --> 54:15.860
+On that, I've obviously had them
+work for me.
+
+54:15.860 --> 54:17.700
+But I don't have one.
+
+54:17.700 --> 54:19.020
+It doesn't work for me either.
+
+54:19.020 --> 54:20.700
+But it does put everything on
+the disk
+
+54:20.700 --> 54:22.780
+and I can burn it off onto a CD
+
+54:22.780 --> 54:24.820
+to listen at work and whatever.
+
+54:24.820 --> 54:26.300
+It's pretty neat.
+
+54:26.300 --> 54:28.660
+If you go to iPodder.org,
+
+54:28.660 --> 54:31.420
+if you're into listening to what
+other people have to say,
+
+54:31.420 --> 54:33.900
+obviously, could you listen to
+our show
+
+54:33.900 --> 54:35.300
+and maybe have an interest in
+that.
+
+54:35.300 --> 54:37.300
+Yeah, which, you know, that
+brings up a good point.
+
+54:37.300 --> 54:39.100
+Like, there's...
+
+54:39.100 --> 54:40.620
+It's actually something we may
+want to do
+
+54:40.620 --> 54:44.180
+with embedding some of this into
+our tech show page.
+
+54:44.180 --> 54:45.980
+So isn't it great to hear the
+difference
+
+54:45.980 --> 54:48.980
+between how users talk about
+this
+
+54:48.980 --> 54:50.540
+and how techies talk about it?
+
+54:51.420 --> 54:54.500
+You know, we'll embed it into
+the RSS of the show.
+
+54:55.580 --> 54:56.660
+Exactly.
+
+54:56.660 --> 54:59.260
+You know, iPodder is nothing
+more
+
+54:59.260 --> 55:01.140
+than an iPod filling station.
+
+55:01.140 --> 55:02.660
+That's what it's all about.
+
+55:03.620 --> 55:05.660
+Just briefly, listening to those
+past two clips.
+
+55:05.660 --> 55:07.940
+So there's actually this one big
+thing
+
+55:07.940 --> 55:10.140
+that I really want to focus on.
+
+55:10.140 --> 55:13.260
+We need to get the Windows
+version of iPodder
+
+55:13.260 --> 55:14.540
+kind of out there.
+
+55:14.540 --> 55:16.700
+We've got all kinds of scripts
+that run on Windows.
+
+55:16.700 --> 55:19.860
+We've got the connection to the
+Windows media player,
+
+55:19.860 --> 55:22.940
+which means we can connect to
+all these devices
+
+55:22.940 --> 55:24.980
+that sync up to the media
+player.
+
+55:24.980 --> 55:27.620
+And I know the work is going on.
+
+55:27.620 --> 55:29.420
+I just, you know, I can't wait.
+
+55:29.420 --> 55:32.100
+I'm so anxious to really give
+this a go
+
+55:32.100 --> 55:33.460
+because right now it's being...
+
+55:33.460 --> 55:35.500
+And that's of course because I
+started with Apple Script.
+
+55:35.500 --> 55:37.900
+It's kind of being deemed a Mac
+only thing
+
+55:37.940 --> 55:40.460
+and the fact that it's also
+being used with iPods.
+
+55:40.460 --> 55:44.300
+So, you know, now is the time to
+see if we can move that
+
+55:44.300 --> 55:45.860
+and just let me know what I
+could do to help.
+
+55:45.860 --> 55:48.660
+Unfortunately, I'm totally
+useless
+
+55:48.660 --> 55:51.820
+when it comes to programming
+anything for Windows
+
+55:51.820 --> 55:52.660
+or even using Windows.
+
+55:52.660 --> 55:53.500
+I know how to use it.
+
+55:53.500 --> 55:54.900
+I have Windows 2000 here.
+
+55:54.900 --> 55:57.180
+I'll gladly throw anything on
+there to test it
+
+55:57.180 --> 56:00.420
+and try and beat it to shreds.
+
+56:00.420 --> 56:01.980
+But it's all it is.
+
+56:01.980 --> 56:05.460
+It's just the GUI in the setup
+and the timed...
+
+56:05.460 --> 56:06.820
+Just look at iPod or X.
+
+56:06.860 --> 56:08.940
+That's exactly what it should
+be.
+
+56:08.940 --> 56:11.820
+And then, you know, then I see
+there's a whole market
+
+56:11.820 --> 56:15.020
+just waiting there for
+developers
+
+56:15.020 --> 56:20.020
+to create special iPoders with
+built to spec
+
+56:20.900 --> 56:22.180
+or special features.
+
+56:22.180 --> 56:25.460
+There's gonna be lots of people
+looking for different ways
+
+56:25.460 --> 56:27.580
+to use the iPod or from the
+academic field
+
+56:27.580 --> 56:32.580
+for lectures to the music
+business.
+
+56:33.140 --> 56:35.620
+They're gonna, believe me,
+they're gonna be shows
+
+56:35.620 --> 56:38.060
+that you'll have the Warner
+Brothers music show.
+
+56:38.060 --> 56:40.620
+And it'll be total commercial
+for Warner Brothers.
+
+56:40.620 --> 56:41.460
+But you know what?
+
+56:41.460 --> 56:43.220
+You're gonna get a show and
+you're gonna get your music
+
+56:43.220 --> 56:45.180
+and it's gonna come to you
+automatically.
+
+56:45.180 --> 56:49.500
+And I do believe in Ken
+Ortowski's speech
+
+56:49.500 --> 56:52.700
+which I spoke about on Trade
+Secrets
+
+56:52.700 --> 56:57.060
+and also on Daily Source Code,
+
+56:57.060 --> 56:59.300
+the music business is going to
+start figuring out
+
+56:59.300 --> 57:01.380
+how to repackage music and sell
+music.
+
+57:01.380 --> 57:05.540
+And they're going to treat the
+iPod platform as radio
+
+57:05.540 --> 57:07.980
+and we're gonna get the same
+benefits.
+
+57:07.980 --> 57:10.940
+We're gonna be able to use
+unlimited amounts of music
+
+57:10.940 --> 57:12.980
+on the iPod platform.
+
+57:12.980 --> 57:15.420
+Of course, if we start making
+money,
+
+57:15.420 --> 57:19.260
+then you're gonna have to pay
+some of that in royalty fees
+
+57:19.260 --> 57:23.300
+and usually that's about 6% of
+your gross revenue.
+
+57:23.300 --> 57:25.860
+No problem, no fucking problem.
+
+57:25.860 --> 57:28.100
+Cut me that deal.
+
+57:28.100 --> 57:29.060
+Cut me the deal today.
+
+57:29.060 --> 57:30.820
+I'll sign immediately.
+
+57:30.820 --> 57:32.740
+I'd like it to be 4%, but it's
+okay.
+
+57:32.740 --> 57:34.180
+We'll go for six if you want.
+
+57:34.940 --> 57:39.500
+And 6% of zero is still zero at
+the moment.
+
+57:39.500 --> 57:40.860
+But the minute I start making
+money,
+
+57:40.860 --> 57:44.260
+as long as I can play unlimited
+ASCAP BMI licensed music,
+
+57:44.260 --> 57:45.300
+you better believe it.
+
+57:45.300 --> 57:47.020
+You better believe it all over
+that.
+
+57:47.020 --> 57:49.420
+And it will make you more money
+
+57:49.420 --> 57:52.460
+if you're in the record selling
+business.
+
+57:52.460 --> 57:55.220
+Of course, I doubt that record
+companies will,
+
+57:55.220 --> 57:56.300
+well, some will get desperate
+
+57:56.300 --> 57:57.620
+and some are small enough to do
+it,
+
+57:57.620 --> 57:58.820
+but I think that we're just
+gonna see
+
+57:58.820 --> 58:00.500
+new companies springing up,
+
+58:00.500 --> 58:03.140
+grabbing this opportunity with
+both hands
+
+58:03.140 --> 58:05.700
+and all the rest is in there.
+
+58:05.700 --> 58:10.180
+We'll gladly use iTunes Music
+Store for the one-off sales,
+
+58:10.180 --> 58:12.380
+but there's so much more to be
+done in packaging
+
+58:12.380 --> 58:15.580
+with the multimedia capabilities
+that we have today.
+
+58:16.860 --> 58:19.700
+One more note, final closing
+thought
+
+58:19.700 --> 58:21.460
+as we roll up on the full hour
+
+58:21.460 --> 58:23.460
+of the Daily Source Code for
+this Monday
+
+58:23.460 --> 58:26.380
+is for Dave Slusher who threw a
+question out there
+
+58:26.380 --> 58:27.740
+on Friday.
+
+58:27.740 --> 58:30.620
+It's not a convenient day for me
+certainly to respond
+
+58:30.620 --> 58:32.500
+because I don't tape until
+Monday,
+
+58:32.500 --> 58:36.860
+but I did remember to mention
+this.
+
+58:36.860 --> 58:37.700
+He says, well, you know,
+
+58:37.700 --> 58:40.940
+someone offered to put
+advertisements on his weblog
+
+58:40.940 --> 58:42.540
+and pay him for it and he's
+saying,
+
+58:42.540 --> 58:44.100
+well, let's say that they're on
+the up and up,
+
+58:44.100 --> 58:45.620
+you know, what should I do?
+
+58:45.620 --> 58:48.220
+Should I only take
+advertisements for stuff
+
+58:48.220 --> 58:53.220
+that I believe in for products
+that I believe in
+
+58:53.980 --> 58:57.060
+or should I just take the money
+and, you know,
+
+58:57.060 --> 58:58.980
+let it be that?
+
+58:58.980 --> 59:02.380
+You know, these are really,
+really hard questions.
+
+59:02.380 --> 59:04.060
+And it depends on what kind of
+content
+
+59:04.060 --> 59:05.940
+or what kind of show you're
+putting together.
+
+59:05.940 --> 59:08.260
+When it comes to a show like
+this,
+
+59:08.260 --> 59:10.580
+I'll gladly tell you, but all
+the products that I love
+
+59:10.580 --> 59:13.020
+and that I use and I'm happy
+that those people
+
+59:13.020 --> 59:15.980
+will benefit from that
+endorsement.
+
+59:17.460 --> 59:21.780
+If I were to get paid for it,
+
+59:21.780 --> 59:23.500
+you know, I'd have to let you
+know about it.
+
+59:23.500 --> 59:26.580
+And I think that that's fair and
+everyone understands
+
+59:26.580 --> 59:29.740
+that there's time and money
+involved in production.
+
+59:30.420 --> 59:32.860
+I think everyone understands
+that, you know,
+
+59:32.860 --> 59:35.620
+every chimney has to be a
+smoking.
+
+59:35.620 --> 59:38.100
+So I don't think there's a
+problem there.
+
+59:38.100 --> 59:40.780
+But let me just give you my two
+rules of business,
+
+59:40.780 --> 59:44.260
+which I have actually borrowed
+from a former partner of mine.
+
+59:46.380 --> 59:49.420
+Rule number one, don't negotiate
+against yourself
+
+59:49.420 --> 59:50.340
+because that's what you're
+doing.
+
+59:50.340 --> 59:51.900
+Now, granted, you put it out
+there for us,
+
+59:51.900 --> 59:53.980
+but don't negotiate against
+yourself.
+
+59:53.980 --> 59:56.060
+And then number two,
+
+59:56.060 --> 59:58.220
+if there's something you just
+really don't feel like doing,
+
+59:58.220 --> 59:59.860
+then indeed, raise the price
+
+59:59.860 --> 01:00:02.100
+because it will eventually
+become attractive.
+
+01:00:02.100 --> 01:00:04.860
+And that's it for the source
+code for today.
+
+01:00:04.860 --> 01:00:07.140
+Monday, the 27th of September,
+2004.
+
+01:00:07.140 --> 01:00:07.980
+I'm Adam Curry.
+
+01:00:07.980 --> 01:00:09.500
+I am out of here.
+
+01:00:09.500 --> 01:00:10.660
+Thanks for listening.
+
+01:00:10.660 --> 01:00:12.660
+Power of your intelligence.
+
+01:00:16.100 --> 01:00:17.940
+And as always, if you want to
+respond,
+
+01:00:17.940 --> 01:00:19.940
+send me an email to adam at
+curry.com
+
+01:00:19.940 --> 01:00:23.540
+or leave a comment on my weblog,
+live.curry.com.
+
+01:00:23.540 --> 01:00:25.940
+Check out the archives of the
+daily source code
+
+01:00:25.940 --> 01:00:27.380
+at dailysourcecode.com.
+
+01:00:27.420 --> 01:00:29.300
+You can also pick up the podcast
+or feed.
+
+01:00:29.300 --> 01:00:30.140
+I'll see you tomorrow.
+
+01:00:30.140 --> 01:00:30.980
+Bye-bye.
+
+01:00:30.980 --> 01:00:33.820
+The power of your intelligence.
+
+01:00:33.820 --> 01:00:36.820
+The power of your intelligence.

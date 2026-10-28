@@ -1,0 +1,2323 @@
+WEBVTT
+
+00:01.500 --> 00:16.500
+Hi everybody, good morning, good
+afternoon, or good evening,
+wherever you're checking
+
+00:16.500 --> 00:17.500
+in from.
+
+00:22.500 --> 00:26.500
+I'm Adam Curry coming to you
+from a rather balmy Belgium.
+
+00:26.500 --> 00:29.500
+It's a power of the door.
+
+00:29.500 --> 00:32.500
+I like the way that sounds.
+Balmy Belgium.
+
+00:32.500 --> 00:36.500
+And actually just as I said
+that, the sun's starting to
+shine through.
+
+00:36.500 --> 00:43.500
+We had a beautiful day
+yesterday, about 26 degrees
+centigrade,
+
+00:43.500 --> 00:44.500
+until the very end around 7
+o'clock.
+
+00:44.500 --> 00:47.500
+And all of a sudden I knew what
+was going to happen
+
+00:47.500 --> 00:49.500
+because our satellite reception
+went out and I said,
+
+00:49.500 --> 00:52.500
+oops, we got a real big
+depression here.
+
+00:52.500 --> 00:58.500
+And we just had a cloud burst
+almost directly above the
+castle.
+
+00:58.500 --> 01:02.500
+And it apparently rained through
+most of last night.
+
+01:02.500 --> 01:05.500
+So really, and let me start off
+with this, actually.
+
+01:05.500 --> 01:09.500
+I apologize about yesterday not
+getting a source code up on
+time,
+
+01:09.500 --> 01:12.500
+but I'll walk you through just
+some of the events of the day
+
+01:12.500 --> 01:15.500
+and then hopefully you'll
+understand.
+
+01:15.500 --> 01:18.500
+So it's the source code where
+users and developers party
+together.
+
+01:18.500 --> 01:21.500
+Today we're going to be talking
+about Howard Stern.
+
+01:21.500 --> 01:23.500
+I'll listen to a couple of audio
+blog posts.
+
+01:24.000 --> 01:29.000
+that I've picked up. Also I'm
+going to give you finally my
+review of John Stewart's audio
+
+01:29.000 --> 01:36.000
+book. Look at the iPodder. Oh, I
+finally I can say this word the
+iPodder space because
+
+01:36.000 --> 01:41.000
+now next to iPodder I found
+there's another company doing
+something or actually a company
+
+01:41.000 --> 01:45.000
+not another but a company doing
+something very similar. I got a
+song of the day that
+
+01:45.000 --> 01:52.000
+I picked up from from around the
+net and some quick feedback on
+Skype. So yesterday
+
+01:52.000 --> 02:01.000
+and I had all the full
+intentions to do a source code
+either from the road or once
+
+02:01.000 --> 02:05.000
+I got home but you know because
+I had to go to Amsterdam sit
+down with the with
+
+02:05.000 --> 02:10.000
+the bank and financial advisors
+and some tax lawyers because of
+our move to the
+
+02:10.000 --> 02:17.000
+UK there's certain benefits that
+stem from that financial
+benefits obviously.
+
+02:17.000 --> 02:21.000
+You know so it's kind of an
+important meeting and also you
+know the bank will
+
+02:21.000 --> 02:25.000
+help me make that move.
+
+02:25.500 --> 02:29.500
+It's, I just don't, I don't look
+forward to changing all that
+stuff.
+
+02:30.500 --> 02:31.500
+What a pain in the ass.
+
+02:31.500 --> 02:33.500
+So anyway, so hopefully they're
+going to take care of it for me.
+
+02:33.500 --> 02:34.500
+Oh, they will take care of it
+for me.
+
+02:36.500 --> 02:40.500
+And so I can concentrate on fun
+things, which was, you know, I
+wanted to do my
+
+02:40.500 --> 02:41.500
+source code yesterday.
+
+02:41.500 --> 02:42.500
+Didn't work out.
+
+02:42.500 --> 02:47.500
+I drove back after swinging by,
+uh, swinging by Amsterdam.
+
+02:47.500 --> 02:52.500
+Um, I was home around five
+o'clock, uh, Patricia wanted to
+eat early.
+
+02:52.500 --> 02:53.500
+So we had dinner.
+
+02:53.500 --> 02:57.500
+And then I got to put together
+the exercise bike.
+
+02:57.500 --> 03:02.500
+Man, talk about developers who
+make these things and don't
+really think
+
+03:02.500 --> 03:04.500
+about users who have to put them
+together.
+
+03:04.500 --> 03:08.500
+Uh, it took me a little while,
+but I finally got all the pieces
+to
+
+03:08.500 --> 03:10.500
+fit together exactly as they
+should.
+
+03:10.500 --> 03:12.500
+And all the pieces were there
+and it did fit perfectly.
+
+03:13.500 --> 03:16.500
+Um, but that took me in, uh,
+into the good part of the
+evening.
+
+03:16.500 --> 03:19.500
+And then I just, uh, you know, I
+just didn't have the energy
+left.
+
+03:19.500 --> 03:20.500
+Hey, it was Friday.
+
+03:20.500 --> 03:21.500
+What can I say?
+
+03:21.500 --> 03:22.500
+So I do apologize.
+
+03:22.500 --> 03:23.500
+I'll try to do a better job on
+that.
+
+03:23.500 --> 03:26.500
+Um, as a, um,
+
+03:27.000 --> 03:31.000
+I'm a former member of the
+Bridge and Tunnel crowd in New
+York City.
+
+03:31.000 --> 03:37.000
+I really came to appreciate
+Howard Stern on the radio, on
+K-Rock.
+
+03:37.000 --> 03:41.000
+If you sit in traffic for an
+hour and a half or two hours in
+front of the Lincoln Tunnel
+
+03:41.000 --> 03:46.000
+every single morning, then even
+the best of Sterns start to grow
+on you.
+
+03:46.000 --> 03:49.000
+And I've always really liked the
+stuff he's doing in the morning.
+
+03:49.000 --> 03:54.000
+I feel that particularly, and
+it's totally a guy's show.
+
+03:54.000 --> 03:59.000
+I don't think it's necessarily
+intended for women, female
+listeners at all.
+
+03:59.000 --> 04:03.000
+But there's something that I
+think, and lots of guys like,
+
+04:03.000 --> 04:08.000
+is just giggling about stupid
+stuff, which of course usually
+is about farting
+
+04:08.000 --> 04:11.000
+and about sexual stuff.
+
+04:11.000 --> 04:14.000
+But it does kind of get you day
+off started right.
+
+04:14.000 --> 04:17.000
+And his audience numbers prove
+that.
+
+04:17.000 --> 04:28.000
+He truly has an amazing
+audience, very large, and a very
+valuable audience.
+
+04:28.500 --> 04:32.500
+because Howard Stern is without
+a doubt, no matter what you want
+to say, very very successful
+
+04:32.500 --> 04:34.500
+and I happen to like his show.
+
+04:34.500 --> 04:43.500
+So I was elated when I read that
+Howard Stern had struck a deal
+with movielink.com to distribute
+
+04:43.500 --> 04:50.500
+uncensored versions of his
+E-Channel television show which
+is basically his radio show,
+
+04:50.500 --> 04:52.500
+only the cameras are hanging up
+in the studio.
+
+04:52.500 --> 04:57.500
+So they do the radio show, they
+shoot that with multiple cameras
+and that's
+
+04:57.500 --> 05:03.500
+aired on each channel so it's a
+great reappropriation of the
+content they're already making.
+
+05:03.500 --> 05:09.500
+And obviously lots of stuff that
+goes on in the Howard Stern
+studio is censored.
+
+05:09.500 --> 05:13.500
+So making an uncensored version
+available over the internet I
+was like,
+
+05:13.500 --> 05:19.500
+way to go and of course I'll pay
+4.95 for the privilege of
+watching that.
+
+05:19.500 --> 05:23.500
+So I went to movielink.com, now
+remember I'm in Belgium and just
+entering the URL
+
+05:23.500 --> 05:28.500
+movielink.com brings up the
+following page that says thanks
+for your interest in movielink,
+
+05:28.500 --> 05:29.500
+the leading source for movies
+del-
+
+05:30.000 --> 05:31.000
+delivered directly over the
+internet.
+
+05:31.000 --> 05:36.000
+We want you to enjoy our
+powerful movie download
+experience, but it is presently
+unavailable
+
+05:36.000 --> 05:38.000
+to users outside of the United
+States.
+
+05:38.000 --> 05:42.000
+Well, that blows.
+
+05:42.000 --> 05:47.000
+I kind of forgot about it, and
+then as I was looking through my
+aggregator, and this is
+
+05:47.000 --> 05:54.000
+how these things work these
+days, I have keywords put in
+there for all kinds of stuff
+that
+
+05:54.000 --> 05:56.000
+I'm looking forward to catching.
+
+05:56.000 --> 06:02.000
+Once in a while, there is a
+Howard Stern eShow taped right
+off the air from the e-channel
+
+06:02.000 --> 06:06.000
+that will come by as a bit
+torrent in one of the TV torrent
+RSS feeds.
+
+06:06.000 --> 06:11.000
+So it's automatically downloaded
+to my directory where I have all
+the new stuff that comes
+
+06:11.000 --> 06:12.000
+in.
+
+06:12.000 --> 06:18.000
+And lo and behold, someone had
+taken the movie link video, I
+presume, and I don't know
+
+06:18.000 --> 06:24.000
+if they copied it or transcribed
+it or what they did, or if they
+just took it verbatim
+
+06:24.000 --> 06:26.000
+if it's not copied or protected.
+
+06:26.000 --> 06:29.000
+I don't know how movie link
+works, obviously, so I can't get
+to the site.
+
+06:29.000 --> 06:31.000
+But it downloaded, it was
+sitting there on my...
+
+06:31.500 --> 06:38.500
+drive for free. And I'm thinking
+to myself, you know, A, outfits
+like movielink.com should
+
+06:38.500 --> 06:43.500
+be looking at how they're
+delivering stuff, because this
+works, you know, connecting RSS
+
+06:43.500 --> 06:48.500
+with enclosures and BitTorrent.
+It is actually just kind of
+working. It's bringing stuff
+
+06:48.500 --> 06:53.500
+to me that I'm interested in. So
+it's a very, very, very poor
+man's very primitive
+
+06:53.500 --> 07:00.500
+Tivo version of a network Tivo,
+but it is working. And, you
+know, and I'd still
+
+07:00.500 --> 07:03.500
+gladly pay if there was a way
+for me to say, hey, you know,
+thank you very much. I got
+
+07:03.500 --> 07:10.500
+this. I'll pay a subscription,
+I'll pay whatever, no matter how
+I receive it. But,
+
+07:10.500 --> 07:15.500
+you know, that's up for the
+business model makers of the
+future to figure
+
+07:15.500 --> 07:19.500
+out. Of course, the same goes
+for the iTunes music store,
+although available
+
+07:19.500 --> 07:25.500
+in Germany and the United
+Kingdom, I believe. And I'm not
+quite sure how Germany
+
+07:25.500 --> 07:31.500
+snuck in there, because the rest
+of the European Union can't
+download from the
+
+07:31.500 --> 07:32.500
+iTunes music store.
+
+07:33.000 --> 07:40.000
+store yet. They say that the EU,
+in the last keynote speech that
+Apple held in Paris, they
+
+07:40.000 --> 07:48.000
+said that the EU was coming in,
+I think, the first half of 2005.
+But still, these copyright
+
+07:48.000 --> 07:54.000
+boundaries that are very, very,
+very complicated legal
+situations. And we're just
+routing
+
+07:54.000 --> 08:00.000
+around it. And I'm not even
+doing it intentionally. This
+stuff just floated into me. I
+didn't
+
+08:00.000 --> 08:05.000
+go out looking for the Howard
+Stern e-show uncensored version.
+It came to me just through
+
+08:05.000 --> 08:11.000
+technology. So this stuff's
+tough to pay attention to. And I
+read something horrible this
+morning
+
+08:11.000 --> 08:19.000
+that Catherine Zeta-Jones, the
+beautiful actress who was
+married to Michael Douglas, that
+she's
+
+08:19.000 --> 08:27.000
+shooting a movie in Mexico and
+that a gang of kidnappers tried
+to ram her limousine off
+
+08:27.000 --> 08:32.000
+the road and her bodyguards,
+which she had, you know, were
+able to foil the kidnap attempt.
+
+08:32.000 --> 08:34.000
+I mean, damn, what's going on
+there?
+
+08:34.500 --> 08:40.500
+And they say that in the report
+that I was reading that about
+2,000 people a year are abducted
+
+08:40.500 --> 08:41.500
+in this fashion.
+
+08:41.500 --> 08:45.500
+Of course, you only really think
+about it or hear about it when
+someone of celebrity status
+
+08:45.500 --> 08:48.500
+is abducted or kidnapped.
+
+08:48.500 --> 08:49.500
+And then it becomes an issue.
+
+08:49.500 --> 08:51.500
+We've got to do something about
+it.
+
+08:51.500 --> 08:56.500
+In the meantime, there's 1,999
+other people a year being
+abducted, which is happening
+
+08:56.500 --> 08:57.500
+all over the world.
+
+08:57.500 --> 08:59.500
+It's happening in the Middle
+East.
+
+08:59.500 --> 09:02.500
+It's happening in Iraq.
+
+09:02.500 --> 09:07.500
+With the discussions that I had
+with people over there, it was
+already a common place
+
+09:07.500 --> 09:16.500
+at the beginning of, I'm sorry,
+the First Gulf War when things
+were just really falling
+
+09:16.500 --> 09:19.500
+to shit in that country.
+
+09:19.500 --> 09:26.500
+And sometimes you'd be kidnapped
+and if the person who was
+kidnapped, if their family
+
+09:26.500 --> 09:32.500
+was influential enough, they
+could actually scare the
+kidnappers with all kinds of
+connections
+
+09:32.500 --> 09:35.500
+and family networks into...
+
+09:36.000 --> 09:41.000
+giving the person back and
+actually paying a fine to them.
+
+09:41.000 --> 09:43.000
+It's crazy what's going on.
+
+09:43.000 --> 09:51.000
+The value of human life is
+anywhere from zero to a million
+dollars or more.
+
+09:51.000 --> 09:52.000
+It's crazy.
+
+09:52.000 --> 09:56.000
+So anyway, we're happy that
+Catherine Zeta-Jones is okay,
+
+09:56.000 --> 10:00.000
+but man, she's probably going to
+be a little bit shaken up about
+that episode for a while
+
+10:00.000 --> 10:08.000
+and I think she has to stay
+there in Mexico until the
+shooting for the movie is done,
+
+10:08.000 --> 10:10.000
+which won't be until the end of
+the year.
+
+10:10.000 --> 10:16.000
+Okay, cruising around the net,
+listening to some programs, some
+audio blogs,
+
+10:16.000 --> 10:23.000
+and as you know, my blog digger
+media subscription, that's the
+blogdigger.com media feed,
+
+10:23.000 --> 10:28.000
+brings in, and actually I did
+look it up, what Blog Digger
+does
+
+10:28.000 --> 10:34.000
+is it basically crawls through
+RSS feeds and I presume that
+when it either finds a URL,
+
+10:34.000 --> 10:37.000
+whether it's not entirely clear
+if it'll take any URL that...
+
+10:37.500 --> 10:43.500
+comes across an RSS feed or only
+ones that are encapsulated as an
+enclosure, it'll then
+
+10:43.500 --> 10:48.500
+bring that in and publish it or
+publish it into a separate feed.
+
+10:48.500 --> 10:54.500
+And so it's all kinds of
+interesting stuff that comes in
+and I have a couple of bits
+
+10:54.500 --> 10:56.500
+lined up for you today.
+
+10:56.500 --> 10:59.500
+But first I want to take
+something from Raster Web.
+
+10:59.500 --> 11:02.500
+Now we've listened to Raster
+Web's audio blog post before.
+
+11:03.500 --> 11:09.500
+He says something really
+interesting about how iPodder is
+working for him and what his
+
+11:09.500 --> 11:12.500
+media client is now turning
+into.
+
+11:12.500 --> 11:14.500
+Let's just listen to this for a
+second and then we'll discuss it
+after.
+
+11:14.500 --> 11:16.500
+And the important thing is we're
+automated.
+
+11:22.500 --> 11:24.500
+Can you hear me?
+
+11:24.500 --> 11:25.500
+Can you play?
+
+11:25.500 --> 11:26.500
+Play what?
+
+11:28.500 --> 11:31.500
+more and more as I'm using my
+version of the iPod
+
+11:31.500 --> 11:34.500
+that curry calls it, mine's
+called Braco.
+
+11:34.500 --> 11:37.500
+Some pro code I whipped up that
+I'm seeing iTunes
+
+11:37.500 --> 11:41.500
+being more and more like an
+email application.
+
+11:41.500 --> 11:45.500
+I mean, I sort it by, you know,
+they add it,
+
+11:45.500 --> 11:48.500
+so every time I pull it to the
+front,
+
+11:48.500 --> 11:50.500
+I basically see whatever it's
+been downloaded
+
+11:50.500 --> 11:52.500
+and stuck into iTunes.
+
+11:52.500 --> 11:56.500
+Later I sit down, iTunes comes,
+I bring iTunes to the front,
+
+11:56.500 --> 11:58.500
+and I go, oh look, there's a new
+daily source code.
+
+11:58.500 --> 12:01.500
+There's a new evil genius
+Chronicles or whatever.
+
+12:01.500 --> 12:03.500
+So, kind of cool.
+
+12:03.500 --> 12:06.500
+And again, you know, I see
+conversations,
+
+12:06.500 --> 12:11.500
+which again, great stuff that
+Ducay and his buddies are doing.
+
+12:11.500 --> 12:13.500
+That's all good stuff.
+
+12:13.500 --> 12:17.500
+Okay, so this is interesting.
+
+12:17.500 --> 12:21.500
+When your iTunes or your Windows
+Media player
+
+12:21.500 --> 12:24.500
+starts to become an email-like
+application
+
+12:24.500 --> 12:26.500
+where you look at that and say,
+
+12:26.500 --> 12:28.500
+oh, something new has been
+added,
+
+12:28.500 --> 12:30.500
+and think about the interface,
+at least I've seen it.
+
+12:30.000 --> 12:37.000
+iTunes is very, very similar if
+not if it probably uses a lot of
+the same classes, object classes
+
+12:37.000 --> 12:44.000
+as the male client on
+Macintosh's OS X. And same goes
+for Outlook and Windows Media
+Player,
+
+12:44.000 --> 12:49.000
+I'm sure a lot of the same
+technology should be leveraged
+at least underneath the hood.
+
+12:49.000 --> 12:53.000
+And I've come to learn that if
+something new on the Internet
+looks or feels or works
+
+12:53.000 --> 12:57.000
+like something that already
+exists on the Internet, then
+we've probably got a good
+
+12:57.000 --> 13:02.000
+thing going because the same
+things were being said with RSS
+news readers.
+
+13:02.000 --> 13:07.000
+So that's interesting. Even
+though we're working on getting
+new types of content
+
+13:07.000 --> 13:12.000
+and bundles of passion and
+whatever we call it, you know,
+programs, shows,
+
+13:12.000 --> 13:15.000
+discussions, interviews,
+audiobooks, we want to get them
+directly onto the
+
+13:15.000 --> 13:20.000
+mobile devices. Now we're seeing
+that our media players are
+becoming kind of
+
+13:20.000 --> 13:24.000
+the database. And of course
+we're addressing them exactly
+like that.
+
+13:24.000 --> 13:31.000
+When the iPod or code, when that
+code runs and it adds something
+to either the iTunes or the
+Windows
+
+13:31.500 --> 13:36.500
+media player database. It's
+actually doing that. It's doing
+a very informal type of call
+saying,
+
+13:36.500 --> 13:40.500
+add this to that database so
+you'll be able to search it and
+find it, retrieve it, etc.
+
+13:40.500 --> 13:44.500
+So interesting observation there
+from Raster Web.
+
+13:44.500 --> 13:50.500
+Okay, John Stewart. Since I did
+do some driving over the past,
+actually yesterday as I told
+
+13:50.500 --> 13:56.500
+you, I had a chance to finish
+up. The John Stewart presents
+America Audio Book, which
+
+13:56.500 --> 14:01.500
+is an excellent, excellent piece
+of work. It is produced
+specifically as an audio book.
+
+14:01.500 --> 14:05.500
+I don't even know if it's
+available in a paper version. I
+don't think a paper version
+could do it
+
+14:05.500 --> 14:15.500
+justice. We listen to it. It's
+put together almost like an
+old-fashioned radio show with
+bells
+
+14:15.500 --> 14:20.500
+and whistles and sound effects,
+different voices. Clearly
+everything is script, but
+it's...
+
+14:20.500 --> 14:24.500
+And of course this edited wasn't
+done live as they used to do in
+the old days.
+
+14:24.500 --> 14:30.500
+Oh, listen, we've got Pittsburgh
+on the wireless. But it's an
+excellent piece of work.
+
+14:30.500 --> 14:32.500
+It takes you through the...
+
+14:33.000 --> 14:40.000
+history of the United States,
+how democracy was born and came
+about.
+
+14:40.000 --> 14:44.000
+And of course he does get some
+historical perspective back to
+ancient Rome on that.
+
+14:44.000 --> 14:50.000
+And then also explains the three
+branches of government, goes
+into all different parts
+
+14:50.000 --> 14:55.000
+and aspects, but in a very
+humorous way.
+
+14:55.000 --> 14:59.000
+And listening to it, having
+worked with John a little bit in
+the MTV days when he still
+
+14:59.000 --> 15:03.000
+had the John Stuart show and we
+were hanging out at the beach
+house doing some stuff together.
+
+15:03.000 --> 15:06.000
+It really, you can tell it
+really is John Stuart.
+
+15:06.000 --> 15:13.000
+It is totally from, I'm sure
+many people worked on this, but
+it is totally John Stuart to the
+core.
+
+15:13.000 --> 15:19.000
+And here's a little bit where
+the Congress is being discussed.
+
+15:19.000 --> 15:26.000
+And you listen to this one
+snippet and I think it will just
+blow your mind in its humor, its
+insight.
+
+15:26.000 --> 15:28.000
+And it's perhaps its accuracy.
+
+15:31.500 --> 15:36.500
+The Strom Thurman filibuster
+August 28, 1957
+
+15:37.500 --> 15:40.500
+Senator Strom Thurman,
+Republican South Carolina,
+
+15:40.500 --> 15:42.500
+set the record for longest
+filibuster
+
+15:42.500 --> 15:45.500
+with this 24-hour 18-minute
+speech
+
+15:45.500 --> 15:47.500
+railing against a civil rights
+bill.
+
+15:47.500 --> 15:50.500
+The marathon-speaking session
+left Thurman so drained
+
+15:50.500 --> 15:51.500
+he could barely have sex
+
+15:51.500 --> 15:55.500
+with the underaged black woman
+in his family's employ.
+
+15:55.500 --> 15:57.500
+Thurman's oration obliterated
+
+15:57.500 --> 15:59.500
+the previous filibuster record,
+
+15:59.500 --> 16:01.500
+a 13-hour description by Daniel
+Webster
+
+16:01.500 --> 16:03.500
+of the massive dump he had just
+taken.
+
+16:06.000 --> 16:07.000
+Discussion questions.
+
+16:07.000 --> 16:08.000
+One.
+
+16:08.000 --> 16:15.000
+If Khan is the opposite of pro,
+then isn't Congress the opposite
+of progress?
+
+16:15.000 --> 16:18.000
+Or did we just fucking blow your
+mind?
+
+16:18.000 --> 16:22.000
+I mean, that did blow my mind.
+
+16:22.000 --> 16:23.000
+I was listening to that on the
+road.
+
+16:23.000 --> 16:27.000
+I was like, whoa, progress,
+Congress.
+
+16:27.000 --> 16:29.000
+Okay, point taken, point made.
+
+16:29.000 --> 16:30.000
+Excellent.
+
+16:30.000 --> 16:34.000
+I'm going to play a little bit
+more of the John Stuart Presents
+America audiobook
+
+16:34.000 --> 16:35.000
+in a second.
+
+16:35.000 --> 16:39.000
+First, another bit I picked up
+online from the blog digger
+media feed.
+
+16:39.000 --> 16:44.000
+Unfortunately, there's no title
+other than 1933.mp3.
+
+16:44.000 --> 16:46.000
+Clearly it's from an audio
+blogging service.
+
+16:46.000 --> 16:49.000
+It's done through a telephone.
+
+16:49.000 --> 16:53.000
+And this is a gentleman who is
+extremely pissed off at George
+W. Bush.
+
+16:53.000 --> 16:56.000
+And the reason why I want you to
+hear this, and I'm also going to
+do something, another
+
+16:56.000 --> 17:01.000
+piece of John Stuart, is as
+opposed to when you would write
+about how pissed off you
+
+17:01.000 --> 17:07.000
+are about the current
+administration or perhaps about
+anybody, it doesn't really
+matter.
+
+17:07.500 --> 17:12.500
+This is very hard to convey the
+emotions that you can with the
+human voice, or at least
+
+17:12.500 --> 17:17.500
+to receive the emotions, even
+though they're probably not even
+intended to be transmitted
+
+17:17.500 --> 17:18.500
+that way.
+
+17:18.500 --> 17:19.500
+They are transmitted.
+
+17:19.500 --> 17:30.500
+And this gentleman is definitely
+angry.
+
+17:33.000 --> 17:38.000
+So it's a different world today
+than it was yesterday because he
+has now been caught and
+
+17:38.000 --> 17:40.000
+his administration has been
+caught.
+
+17:40.000 --> 17:41.000
+And you know what?
+
+17:41.000 --> 17:48.000
+George Bush's allies have made
+an issue of John Kerry service
+and we are going to make
+
+17:48.000 --> 17:55.000
+an issue of the president's
+credibility as it relates to his
+service, to the conduct
+
+17:55.000 --> 18:01.000
+of what he has done in Iraq, on
+the issues of his credibility on
+jobs, healthcare and
+
+18:01.000 --> 18:02.000
+education.
+
+18:02.000 --> 18:08.000
+So this is on the table and it's
+going to be on the table from
+now until November 2nd.
+
+18:10.500 --> 18:14.500
+So think about reading that as a
+web blog post.
+
+18:14.500 --> 18:17.500
+You could certainly receive the
+same type of intensity
+
+18:17.500 --> 18:20.500
+that you heard there, but
+probably not.
+
+18:20.500 --> 18:23.500
+And I think this is a definite
+advantage
+
+18:23.500 --> 18:25.500
+of what audio blogs can do.
+
+18:25.500 --> 18:28.500
+All we need now is different
+ways for these to be aggregated.
+
+18:28.500 --> 18:31.500
+And I think the most obvious way
+
+18:31.500 --> 18:35.500
+is to have people do that, have
+people be content routers.
+
+18:35.500 --> 18:36.500
+Like what I'm trying to do here
+
+18:36.500 --> 18:39.500
+is let you hear different
+aspects of what can be done,
+
+18:39.500 --> 18:42.500
+how we can produce things on our
+desktop,
+
+18:42.500 --> 18:44.500
+how we can distribute them
+ourselves.
+
+18:44.500 --> 18:47.500
+Because I think there is a valid
+place for audio
+
+18:47.500 --> 18:50.500
+within the internet being a
+communications device,
+
+18:50.500 --> 18:53.500
+certainly in the manner that
+we're using it.
+
+18:53.500 --> 18:55.500
+So, and I'll be on the lookout
+for anything
+
+18:55.500 --> 18:57.500
+that comes from the other side
+
+18:57.500 --> 18:59.500
+of the political equation in the
+States.
+
+18:59.500 --> 19:01.500
+If that shows up on the blog
+digger media feed,
+
+19:01.500 --> 19:04.500
+I'll be sure to give them equal
+time.
+
+19:04.500 --> 19:07.500
+Back to John Stewart's book,
+John Stewart Presents America.
+
+19:07.500 --> 19:09.500
+Now this is a little longer
+piece,
+
+19:09.500 --> 19:11.500
+about three and a half minutes,
+but I think it's...
+
+19:12.000 --> 19:16.000
+Well worth listening to first of
+all I'm trying to entice you to
+listen to the entire things you
+can go off to
+
+19:17.000 --> 19:20.000
+I'm sure I don't know if Amazon
+has it. They probably do
+
+19:21.000 --> 19:23.000
+Otherwise audible.com to buy
+this book
+
+19:24.000 --> 19:30.000
+Prices range from 495 to 795.
+That's Dave. Dave. Why are paid
+495? I paid 795
+
+19:31.000 --> 19:32.000
+this next
+
+19:32.000 --> 19:36.000
+piece from the book really is
+the core of what John Stewart
+and
+
+19:36.000 --> 19:40.000
+We all know him from the Daily
+Show what he is all about about
+the media
+
+19:40.000 --> 19:45.000
+What the media's role is in the
+democracy how it's supposed to
+function?
+
+19:45.000 --> 19:50.000
+And of course we know that John
+Stewart sees this and the Daily
+Show
+
+19:50.000 --> 19:55.000
+Really plays off the fact that
+we don't get what we deserve as
+a democracy
+
+19:56.000 --> 19:58.000
+What the free press should be
+delivering to us?
+
+20:01.000 --> 20:03.000
+I'll just let me just back this
+up a second
+
+20:05.000 --> 20:07.000
+And and again you'll hear a very
+
+20:07.000 --> 20:13.000
+Passionate John Stewart of
+course none of this is safe for
+work, but
+
+20:13.500 --> 20:15.500
+But, you know, we've discussed
+that before.
+
+20:15.500 --> 20:20.500
+Oh, by the way, I'll talk about
+the copy protection in a second.
+
+20:20.500 --> 20:22.500
+First let's listen to John
+Stuart.
+
+20:22.500 --> 20:28.500
+He says it's about three and a
+half minutes talking about the
+media and the free press
+
+20:28.500 --> 20:29.500
+in a democracy.
+
+20:31.500 --> 20:50.500
+Chapter 7. The Media.
+Democracy's Guardian Angel.
+
+20:54.000 --> 20:59.000
+chapter you will learn how to
+identify political bias in
+today's liberal
+
+20:59.000 --> 21:05.000
+bleeding heart Jew and gay run
+media become an unnamed source
+create your
+
+21:05.000 --> 21:13.000
+own no-spin zone discover which
+media conglomerate now owns you
+not have your
+
+21:13.000 --> 21:18.000
+opinion of Geraldo Rivera
+particularly improved upon
+
+21:18.000 --> 21:22.000
+A free and independent press is
+essential to the health of a
+functioning democracy.
+
+21:22.000 --> 21:27.000
+It serves to inform the voting
+public on matters relevant to
+its well-being.
+
+21:27.000 --> 21:29.000
+Why they've stopped doing that
+is a mystery.
+
+21:29.000 --> 21:33.000
+I mean 300 camera crews outside
+of courthouse to see what Kobe
+Bryant is wearing, when the
+
+21:33.000 --> 21:38.000
+judge sets his hearing date
+while false information used to
+send our country to war goes
+unchecked.
+
+21:38.000 --> 21:40.000
+What the fuck happened?
+
+21:40.000 --> 21:42.000
+The spineless cowards in the
+press have finally gone too far.
+
+21:42.000 --> 21:45.000
+They have violated a trust.
+
+21:45.000 --> 21:47.000
+Was the president successful in
+convincing the country?
+
+21:47.000 --> 21:49.000
+Who gives a shit?
+
+21:49.000 --> 21:52.000
+Why not tell us if what he said
+was true and the excuses?
+
+21:52.000 --> 21:53.000
+My god, the excuses!
+
+21:53.000 --> 21:56.000
+Hey, we just give the people
+what they want.
+
+21:56.000 --> 21:57.000
+What can we do?
+
+21:57.000 --> 21:59.000
+This administration is
+secretive.
+
+21:59.000 --> 22:01.000
+But the last season of Friends
+really is news.
+
+22:01.000 --> 22:04.000
+The unmitigated gall of these
+weak willed.
+
+22:04.000 --> 22:08.000
+You're supposed to be helping
+us, you indecent piles of shit!
+
+22:08.000 --> 22:09.000
+I- Fuck it!
+
+22:09.000 --> 22:12.000
+Just fuck it!
+
+22:12.000 --> 22:14.000
+This is the editor again.
+
+22:14.000 --> 22:16.000
+We sincerely apologize for this
+false start.
+
+22:16.000 --> 22:19.000
+The authors have assured us it
+was a momentary lapse.
+
+22:19.500 --> 22:24.500
+restrained caused by a
+deadline-induced red bull binge.
+In no way was it meant to
+
+22:24.500 --> 22:27.500
+portray any sense of anger and
+or disappointment in the
+behavior and
+
+22:27.500 --> 22:30.500
+standards of the modern media.
+
+22:32.500 --> 22:38.500
+Chapter 7. The Media.
+Democracies Guardian Angel.
+
+22:43.500 --> 22:48.500
+What's the role of a free and
+independent press in a
+democratic society?
+
+22:48.500 --> 22:52.500
+Is it to be a passive conduit
+responsible only for the
+delivery of information between
+
+22:52.500 --> 22:54.500
+a government and its people?
+
+22:54.500 --> 22:59.500
+Is it to aggressively print
+allegation and rumor independent
+of accuracy or fairness?
+
+22:59.500 --> 23:00.500
+Is it to show boobies?
+
+23:00.500 --> 23:02.500
+No.
+
+23:02.500 --> 23:06.500
+The role of a free press is to
+be the people's eyes and ears,
+providing not just information
+
+23:06.500 --> 23:11.500
+but access, insight, and most
+importantly, context.
+
+23:11.500 --> 23:14.500
+It must devote its time and
+resources to monitoring the
+government, permeating the
+
+23:14.500 --> 23:18.500
+halls of power to determine who
+is doing the people's work, who
+is corrupting the
+
+23:18.500 --> 23:22.500
+process, and who will promise to
+be a mole in the State
+Department if their
+
+23:22.500 --> 23:24.500
+homosexuality is kept secret.
+
+23:24.500 --> 23:28.500
+Only after that, and only with
+time permitting, should it move
+on to high
+
+23:28.500 --> 23:30.500
+speed freeway cases.
+
+23:30.500 --> 23:34.500
+For government to truly be for
+the people, inner workings must
+be exposed for
+
+23:34.500 --> 23:36.500
+the public to see.
+
+23:36.500 --> 23:39.500
+This lofty goal is known as
+transparency, and while this
+could be
+
+23:39.500 --> 23:43.500
+accomplished by sheathing all
+elected officials in public
+buildings in
+
+23:43.500 --> 23:44.500
+Saran Wrap, this is
+
+23:45.000 --> 23:51.000
+has been deemed unwieldy,
+expensive and creepy. Instead
+transparency is achieved via a
+free
+
+23:51.000 --> 23:56.000
+press, something so vital to
+democracy it has historically
+been given equal stature
+
+23:56.000 --> 24:01.000
+to the three branches of
+government, hence its nickname,
+the Fourth Estate.
+
+24:01.000 --> 24:03.000
+No less an authority than Thomas
+Jefferson wrote,
+
+24:03.000 --> 24:07.000
+If it were left to me to decide
+whether we should have a
+government without a free
+
+24:07.000 --> 24:11.000
+press or a free press without a
+government, I would prefer the
+latter. Now if you'll
+
+24:11.000 --> 24:15.000
+excuse me, I have a lunchtime
+appointment with a fine slice of
+brown sugar.
+
+24:15.000 --> 24:22.000
+So the audiobook is titled John
+Stewart Presents America and
+well worth the
+
+24:22.000 --> 24:26.000
+three and a half hours that
+you'll be listening to it.
+Excellent, excellent
+
+24:26.000 --> 24:30.000
+stuff and actually a very good
+refresher course in in what this
+great country is
+
+24:30.000 --> 24:34.000
+all about. And oh yeah,
+something about a little bit
+about DRM and copy
+
+24:34.000 --> 24:40.000
+protection. Of course I
+purchased the book off of
+audible.com. It downloads
+
+24:40.000 --> 24:48.000
+as an Apple AAC file which has
+the advantage of bookmarking.
+
+24:46.500 --> 24:49.500
+which work automatically with
+your iPod, but also should
+include
+
+24:51.000 --> 24:58.000
+And instead of, since I can't
+really queue anything up in
+iTunes, except for like one
+bookmark,
+
+24:58.000 --> 25:00.000
+I wanted to play two different
+clips.
+
+25:00.000 --> 25:08.000
+What I did was I recorded it
+through wiretap, which is a
+beautiful little application for
+the Mac OS X, OS X 10.
+
+25:08.000 --> 25:13.000
+I just played the bits that I
+wanted, recorded them, which are
+then recorded as AIFF files,
+
+25:13.000 --> 25:15.000
+and just opened those in
+QuickTime.
+
+25:15.000 --> 25:22.000
+And it worked perfectly, so much
+for the big DRM and
+impossibility of copying.
+
+25:22.000 --> 25:27.000
+Not of course that I want to
+encourage any of you to do that,
+but it's that simple,
+
+25:27.000 --> 25:34.000
+and they really want to stop
+copying copyright protected
+works.
+
+25:34.000 --> 25:37.000
+We've got to find a device of
+different schema.
+
+25:37.000 --> 25:40.000
+Okay, let's talk about iPod, or
+just briefly, of course,
+
+25:40.000 --> 25:44.000
+iPod.org is where you can
+download one of many different
+applications and scripts
+
+25:44.000 --> 25:50.000
+that will enable you to
+automatically download programs
+like this one onto your mobile
+device.
+
+25:50.000 --> 25:52.000
+We have it set up for iPods, we
+have it set up for...
+
+25:52.500 --> 25:57.500
+anything that works with Windows
+Media Player and even have a
+version for Linux.
+
+25:57.500 --> 25:59.500
+That'll at least bring
+everything in for you.
+
+25:59.500 --> 26:05.500
+And someone, a couple people
+actually pointed me to a company
+called Audio Feast.
+
+26:05.500 --> 26:08.500
+Let me just bring this up now.
+
+26:08.500 --> 26:15.500
+Here we go, Audio Feast, which
+you can find at
+
+26:15.500 --> 26:22.500
+serenadesms.com, so
+S-E-R-E-N-A-D-E-S-M-S.com
+
+26:22.500 --> 26:31.500
+Audio Feast, I'll just read this
+to you, delivers 300 plus news,
+sports and entertainment radio
+programs to your MP3 player and
+PC.
+
+26:31.500 --> 26:36.500
+Sync all the programs you want,
+listen whenever and wherever
+you'd like.
+
+26:36.500 --> 26:39.500
+So essentially they have exactly
+the same idea.
+
+26:39.500 --> 26:46.500
+In fact, when I go to the What
+Is It page, which I'll surf to
+now and I'll read along with
+you,
+
+26:46.500 --> 26:51.500
+Audio Feast is a service that
+delivers extensive programming
+choices for MP3 players.
+
+26:51.500 --> 26:53.500
+It's easy to use and deliver
+time shifting.
+
+26:54.000 --> 26:59.000
+flexibility at an affordable all
+you can listen prize.
+Subscribers can choose to listen
+
+26:59.000 --> 27:04.000
+to their favorite programs
+directly from their desktop or
+sync to their portable audio
+devices
+
+27:04.000 --> 27:10.000
+and listen on the go. So it is
+exactly what we're doing here
+only I think these guys
+
+27:10.000 --> 27:15.000
+have it completely backwards and
+upside down. What they're doing
+is they've created
+
+27:15.000 --> 27:21.000
+another gateway, they're
+gatekeepers to getting stuff
+onto your mobile device and
+
+27:21.000 --> 27:25.000
+that's what you pay for. You
+basically pay for their
+technology to work on your
+
+27:25.000 --> 27:30.000
+system whereas we've created you
+know little scripts some fewer
+than a hundred
+
+27:30.000 --> 27:35.000
+lines long which do exactly the
+same thing. Now here's the
+here's what I
+
+27:35.000 --> 27:38.000
+really don't understand and
+these guys are funded they have
+VCs on the board
+
+27:38.000 --> 27:44.000
+so they've got money. They have
+providers so you can become a
+
+27:44.000 --> 27:50.000
+provider which means you
+probably pay a license to use
+their technology to
+
+27:50.000 --> 27:57.000
+get onto their distribution
+system and they have here as
+providers A&E
+
+27:55.500 --> 28:02.500
+AARP, Animal Talk Radio, BBC,
+Beatles Arama, Blue, Bloomberg,
+Cape Cod Radio, Consumer
+
+28:02.500 --> 28:07.500
+Reports, C-SPAN, Discovery
+Channel, Dow Jones, Fox,
+Grateful Dead, John Hopkins.
+
+28:07.500 --> 28:11.500
+They've got some smaller
+providers in there as well, but
+the fact that you have to become
+
+28:11.500 --> 28:14.500
+a provider and register with
+them just makes no sense to me.
+
+28:14.500 --> 28:18.500
+We already have this technology
+available at our fingertips and
+it's working now and
+
+28:18.500 --> 28:20.500
+it's free.
+
+28:20.500 --> 28:24.500
+All you have to do is work out
+your own copyright issues.
+
+28:24.500 --> 28:28.500
+So although I applaud them for
+what they're doing and for the
+thought behind it,
+
+28:28.500 --> 28:32.500
+it just doesn't make any sense
+to me because we're doing
+exactly what Audio
+
+28:32.500 --> 28:34.500
+Feast is offering here.
+
+28:34.500 --> 28:37.500
+Only we're using the existing
+technology.
+
+28:37.500 --> 28:41.500
+You know, I don't think we
+should be locked into anything
+that gives them
+
+28:41.500 --> 28:43.500
+power over access to whatever we
+want to have.
+
+28:43.500 --> 28:47.500
+Also, I don't want to have to
+pay anyone more than my provider
+for
+
+28:47.500 --> 28:50.500
+whatever bandwidth I use to
+publish something.
+
+28:50.500 --> 28:56.500
+But I linked to this on my
+weblog at curate.com, so check
+it out.
+
+28:57.000 --> 29:01.000
+And if anyone actually decides
+to sign up, subscribe and use
+it,
+
+29:01.000 --> 29:06.000
+we'd love to have a review and
+see if there's anything that we
+can use in our own system.
+
+29:06.000 --> 29:10.000
+Okay, time for our song of the
+day. Already 30 minutes into
+this,
+
+29:10.000 --> 29:13.000
+so I have a few more things I
+want to talk about after the
+song of the day,
+
+29:13.000 --> 29:15.000
+which will be about iPhoto and
+about Skype.
+
+29:15.000 --> 29:18.000
+And this one came in through the
+Blog Digger Media Feed.
+
+29:18.000 --> 29:21.000
+It's a classic song from the
+80s.
+
+29:21.000 --> 29:25.000
+I wouldn't have chosen this one
+if it hadn't come in
+automatically,
+
+29:25.000 --> 29:30.000
+but I've decided to try and do
+as many sounds around the net as
+possible.
+
+29:34.500 --> 29:38.500
+I don't know if they're doing
+another reunion so I can do it
+about once every year.
+
+29:43.750 --> 33:27.000
+[ Music ]
+
+33:27.000 --> 33:36.000
+Kiss! I was made for loving you.
+I think that was 1979. Maybe the
+right time now to tell
+
+33:36.000 --> 33:45.000
+my one of my kiss stories. I was
+working at MTV. Let's see, this
+was 1987 or 1988 at
+
+33:45.000 --> 33:52.000
+the time I believe. And I was
+one of the, actually I was the
+only air talent as they
+
+33:52.000 --> 33:56.000
+called it, who wanted to sit in
+the music meetings which is
+basically where we
+
+33:56.000 --> 34:01.000
+decided what we're gonna play
+and what rotation videos are
+gonna be played. Very
+
+34:01.000 --> 34:06.000
+much in fact it was run exactly
+like a radio station certainly
+in those days
+
+34:06.000 --> 34:10.000
+using the same type of music
+scheduling software and there
+were radio
+
+34:10.000 --> 34:14.000
+people who were basically doing
+the programming lineup. Of
+course this was
+
+34:14.000 --> 34:19.000
+MTV played videos right and we
+had our music meeting I want to
+say it was
+
+34:19.000 --> 34:26.000
+Tuesdays and Kiss had a video
+out. God I can't remember what
+it was now but we were
+
+34:26.000 --> 34:29.000
+all sitting in the music
+meeting.
+
+34:28.500 --> 34:33.500
+and all of a sudden the door
+bursts open and in comes Gene
+Simmons
+
+34:33.500 --> 34:36.500
+and he's got knee pads on
+
+34:36.500 --> 34:39.500
+and he jumps up onto this big
+conference room table
+
+34:39.500 --> 34:41.500
+and we're all sitting around it
+right being really serious
+
+34:41.500 --> 34:45.500
+picking the music videos
+deciding whose career we're
+going to make or break
+
+34:45.500 --> 34:49.500
+and he hops up and he goes over
+to Abbie Konowicz
+
+34:49.500 --> 34:54.500
+who later went on to co-found
+Madonna's record label Maverick
+
+34:54.500 --> 35:01.500
+and he's on all fours and he's
+right in front of Abbie Konowicz
+
+35:01.500 --> 35:05.500
+and says alright who do I have
+to blow around here to get this
+video played
+
+35:05.500 --> 35:10.500
+hilarity ensued and of course
+the video was added goes without
+saying
+
+35:10.500 --> 35:15.500
+so to wind up things for today's
+source code
+
+35:15.500 --> 35:20.500
+I want to thank everyone for the
+feedback I've received on Skype
+
+35:20.500 --> 35:27.500
+so no Skype and SIP, those are
+two different protocols used for
+voiceover IP
+
+35:27.500 --> 35:30.500
+they're also not compatible with
+each other, at least not yet
+
+35:30.000 --> 35:38.000
+can't talk to each other.
+There's no super advantage
+behind using Skype versus some
+of
+
+35:38.000 --> 35:46.000
+the other VoVIP systems from
+what I gather. Other than that
+it does just seem to work,
+
+35:46.000 --> 35:50.000
+which is exactly what they
+advertised. You can't get any
+inbound service, that I already
+
+35:50.000 --> 35:54.000
+knew. They have the Skype out,
+which I'm fairly happy with,
+works very well. Because
+
+35:54.000 --> 35:59.000
+the peer-to-peer nature of how
+they do things, it is suggested
+in some cases, although
+
+35:59.000 --> 36:03.000
+I haven't witnessed it
+personally, that there can be a
+lot of latency in the
+
+36:03.000 --> 36:10.000
+phone calls. And also so far no
+one has really been able to give
+me any solution
+
+36:10.000 --> 36:16.000
+for what I'm looking for, which
+is a voice over IP provider that
+will let
+
+36:16.000 --> 36:23.000
+me use a software phone as well
+as a voice over IP hardware to
+connect my
+
+36:23.000 --> 36:28.000
+analog phone. And I want a local
+dial-up number in Los Angeles,
+in New York, in
+
+36:28.000 --> 36:32.000
+Amsterdam, in Antwerp, and in
+London.
+
+36:31.500 --> 36:36.500
+That's what I want and I'm
+willing to pay for it. So
+please, if you're working on a
+service,
+
+36:36.500 --> 36:44.500
+just keep my wishes in mind,
+will you? And the largest
+advantage that Skype has over
+all the
+
+36:44.500 --> 36:49.500
+voice over IP setups that I've
+come to understand is that they
+have the firewall issue solved.
+
+36:49.500 --> 36:53.500
+And of course, they were able to
+solve this because they're using
+their kaza technology.
+
+36:53.500 --> 36:58.500
+It's made by the same guys who
+created kaza. And they had the
+firewall issues all sorted
+
+36:58.500 --> 37:04.500
+out there. So that's the number
+one thing that Skype is really
+good at.
+
+37:05.500 --> 37:11.500
+And to wrap it up for today, I
+wanted to talk about iPhoto.
+Don't know if you recall that I
+was
+
+37:11.500 --> 37:15.500
+really running out of disk
+space. I was continuously
+deleting stuff from caches.
+
+37:17.500 --> 37:22.500
+We all know the drill, right?
+You go searching for files
+larger than 5 megs.
+
+37:22.500 --> 37:26.500
+What can I do with this? And
+either way to move some stuff
+off. And the two largest
+
+37:26.500 --> 37:32.500
+collections of data that I have,
+excuse me, are without a doubt
+my music folder.
+
+37:33.000 --> 37:38.000
+and my pictures folder. And the
+decision about music was pretty
+easy because I really need
+
+37:38.000 --> 37:43.000
+access to that at a moment's
+notice on my hard drive for the
+type of work that I'm producing
+
+37:43.000 --> 37:49.000
+like the source code. So I've
+been cleaning up my iTunes
+library as I go, you know, just
+
+37:49.000 --> 37:55.000
+pulling out old shit, old
+audiobooks that I don't need
+anymore, which are huge files.
+
+37:55.000 --> 37:58.000
+You know, we're talking 80 megs
+for some of them, and that's
+just, you know, in
+
+37:58.000 --> 38:01.000
+three different parts. So I've
+been able to find a lot of space
+there, but the pictures,
+
+38:01.000 --> 38:09.000
+which is all in the iPhoto album
+folder, that was about six gigs.
+No, a little less,
+
+38:09.000 --> 38:13.000
+I'm sorry, about four and a half
+gigs. And I knew that, you know,
+if I could move those
+
+38:13.000 --> 38:17.000
+off, at least if I have them on
+some kind of safe storage
+device, I know that I'll be
+
+38:17.000 --> 38:22.000
+able to use them later on. I
+wasn't too sure how easy that
+was going to be, but I
+
+38:22.000 --> 38:27.000
+just wanted to say that with
+iPhoto it's really phenomenal.
+Now I'd never used the DVD
+
+38:27.000 --> 38:33.000
+burning capabilities of my power
+book. So I didn't know, you
+know, I was total newbie at
+
+38:33.000 --> 38:34.000
+this and went to...
+
+38:34.500 --> 38:39.500
+the store and of course promptly
+bought the wrong DVDs there is a
+difference between plus R or
+plus
+
+38:39.500 --> 38:46.500
+RW and minus R or minus RW for
+two different technologies of
+how the DVDs are burned and if
+
+38:46.500 --> 38:51.500
+you you know do it incorrectly
+then they won't play on
+different machines and God knows
+what.
+
+38:53.500 --> 38:57.500
+So I went back same place by the
+way where we bought the exercise
+bike.
+
+38:58.500 --> 39:06.500
+It's a great store and I got the
+minus RW because I can actually
+use optical discs that are
+
+39:06.500 --> 39:12.500
+rewritable. Now this was pretty
+cool I've never erased a DVD and
+I actually practiced with that
+and
+
+39:12.500 --> 39:17.500
+it worked and worked perfectly
+and so then in iPhoto there's a
+little button you just select
+all your
+
+39:17.500 --> 39:22.500
+pictures and I couldn't get all
+of them onto one DVD because it
+would it just it would take up
+
+39:22.500 --> 39:29.500
+too much space and I guess it's
+4.7 gigs that fit onto a DVD and
+with some overhead I couldn't
+quite
+
+39:29.500 --> 39:35.500
+get everything on there from
+1999 to 2004 to date so I split
+it up into 99 through 2003.
+
+39:36.000 --> 39:39.000
+three, just click the burn
+button out to select those
+pictures.
+
+39:39.000 --> 39:43.000
+Actually, I made a little smart
+playlist that says, you know,
+select all photos between these
+
+39:43.000 --> 39:44.000
+two dates.
+
+39:44.000 --> 39:50.000
+Burn that to DVD, popped it out,
+did the other one for 2004.
+
+39:50.000 --> 39:52.000
+And of course, I checked and
+made sure everything was
+working.
+
+39:52.000 --> 39:58.000
+I had a whole backup copy on a
+firewire drive before I deleted
+the iTunes, the picture,
+
+39:58.000 --> 40:02.000
+the iPhoto library references.
+
+40:02.000 --> 40:07.000
+And what's cool about it is now
+when I insert one of those two
+DVDs, it automatically fires
+
+40:07.000 --> 40:11.000
+up iTunes and presents me with
+the pictures exactly the way
+they were when they were on
+
+40:11.000 --> 40:12.000
+my hard drive.
+
+40:12.000 --> 40:16.000
+And the speed between getting
+them off the DVD and the hard
+drive is slower, but it's
+
+40:16.000 --> 40:21.000
+certainly manageable and I can
+whip up a slideshow and all the
+albums are still intact.
+
+40:21.000 --> 40:24.000
+So that is absolutely well done,
+very happy.
+
+40:24.000 --> 40:27.000
+And again, I think that
+sometimes those guys at Apple,
+man, they're probably smoking
+
+40:27.000 --> 40:30.000
+the same stuff that we are here
+down on Earth.
+
+40:30.000 --> 40:32.000
+And that's it for source code
+for today.
+
+40:32.000 --> 40:34.000
+We'll be back on Monday.
+
+40:37.500 --> 40:41.500
+If you want a response, send me
+email to adamanturi.com or leave
+a comment on my web
+
+40:54.000 --> 40:56.000
+The power of the author.
+
+40:56.000 --> 41:01.000
+Daily source code dot com slash
+rss dot xml.
+
+41:01.000 --> 41:03.000
+See you Monday!
+
+41:03.750 --> 41:24.000
+[ Music ]
+
+41:24.000 --> 41:34.000
+The power of the author.

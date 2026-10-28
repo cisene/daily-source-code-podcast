@@ -1,0 +1,2536 @@
+WEBVTT
+
+00:07.500 --> 00:14.500
+Well, good afternoon everybody.
+It's Monday. It's October 4th.
+
+00:27.000 --> 00:29.000
+to power all the door is closed.
+
+00:29.000 --> 00:33.000
+And I got a lot of partying to
+do, another fabulous weekend,
+
+00:33.000 --> 00:37.000
+although I was actually in the
+United Kingdom.
+
+00:37.000 --> 00:40.000
+Trish and I went over to check
+out the new house,
+
+00:40.000 --> 00:44.000
+we'll be moving in, oh man, it's
+coming up quickly.
+
+00:44.000 --> 00:46.000
+Somewhere around the third week
+of November, so this,
+
+00:46.000 --> 00:48.000
+you can imagine there's so much
+to do,
+
+00:48.000 --> 00:50.000
+and meanwhile I'm sitting here,
+
+00:50.000 --> 00:53.000
+three quarters of my waking
+hours with headphones on,
+
+00:53.000 --> 00:55.000
+talking into microphones,
+talking to other people
+
+00:55.000 --> 01:00.000
+by my computer, I have to divide
+myself up a little bit more.
+
+01:00.000 --> 01:02.000
+So this is your daily source
+code,
+
+01:02.000 --> 01:07.000
+and I've been actually doing
+interviews about what we're
+doing here,
+
+01:07.000 --> 01:13.000
+podcasting, getting calls from,
+particularly from the West Coast
+and the States,
+
+01:13.000 --> 01:17.000
+and I'm really excited about
+everything that's happening.
+
+01:17.000 --> 01:19.000
+There's so many things I want to
+go through today,
+
+01:19.000 --> 01:22.000
+I'm going to try and make the
+show a little bit shorter than
+the normal.
+
+01:24.000 --> 01:29.000
+I tend on having a guest on the
+next source code, which may
+even, I might even release
+
+01:29.000 --> 01:34.000
+that right after today's show,
+kind of have like a today plus
+one.
+
+01:34.000 --> 01:41.000
+Hugo Shotman, I've pointed to
+him before and we've spoken
+about him as really leading
+
+01:41.000 --> 01:45.000
+a lot of the charge, certainly
+in documenting ways of setting
+up podcasting software.
+
+01:45.000 --> 01:50.000
+And so I said, you know, why
+don't we talk on daily source
+code and we'll see if we
+
+01:50.000 --> 01:53.000
+can come up with something.
+
+01:53.000 --> 01:55.000
+I don't know.
+
+01:55.000 --> 02:00.000
+Now, I've been going through
+more set up shit and I did
+another trade secrets with
+
+02:00.000 --> 02:01.000
+Dave last night.
+
+02:01.000 --> 02:06.000
+Now granted, I was probably a
+little bit tired just from
+coming back from the
+
+02:06.000 --> 02:10.000
+UK, you know, a little bit of
+car travel than flying.
+
+02:10.000 --> 02:15.000
+And it was around 9, 9.30, 10
+o'clock my time when we recorded
+the show.
+
+02:15.000 --> 02:18.000
+I was so unhappy with the
+quality of his sound.
+
+02:18.000 --> 02:23.000
+You know, we've tried just about
+everything and the best quality
+by far
+
+02:23.000 --> 02:25.000
+of all the different chat.
+
+02:25.500 --> 02:28.500
+that we can use cross-platform
+is Skype.
+
+02:28.500 --> 02:30.500
+It's bar none. It's great
+quality.
+
+02:30.500 --> 02:35.500
+The latency is, it appears far
+lower than anything else.
+
+02:35.500 --> 02:38.500
+Mind you Dave's on Windows and
+I'm on a Mac
+
+02:38.500 --> 02:40.500
+and we're just, you know, guys
+just want to use something.
+
+02:40.500 --> 02:42.500
+So we're not great
+technologists.
+
+02:43.500 --> 02:46.500
+tweaking everything and it seems
+that we have almost tweaked
+everything but Skype is still
+
+02:46.500 --> 02:54.500
+in beta and it won't let you
+choose a virtual audio device at
+least not on the Mac.
+
+02:54.500 --> 02:58.500
+So until that's in there it
+really isn't 100% what we need
+but we're going to continue,
+
+02:58.500 --> 03:03.500
+we're going to try and use Skype
+from now on even though it does
+once in a while also
+
+03:03.500 --> 03:05.500
+just kind of quit.
+
+03:05.500 --> 03:09.500
+Anyway, so I was really pissed
+off about that.
+
+03:09.500 --> 03:16.500
+It just it bothered me so much
+and I started to work on new
+setups in the meantime.
+
+03:16.500 --> 03:21.500
+I discovered something very
+important as we were doing the
+show last night, the quality
+
+03:21.500 --> 03:28.500
+of his call degraded
+significantly and I couldn't
+figure it out and he says
+actually we could
+
+03:28.500 --> 03:33.500
+understand him okay but he
+couldn't understand me and it's
+like what's going on and it
+
+03:33.500 --> 03:38.500
+wasn't until much later that I
+realized that I'd become victim
+of my own success
+
+03:38.500 --> 03:44.500
+in a way because it was iPodder
+that kicked in and started
+downloading stuff at whatever
+
+03:44.500 --> 03:44.500
+desig-
+
+03:45.000 --> 03:49.000
+time it was. And that of course
+used up all the bandwidth and
+crunched the connection.
+
+03:49.000 --> 03:54.000
+So whenever we come up with some
+software or something that helps
+you record a podcast,
+
+03:54.000 --> 04:02.000
+we need a big old red button
+that turns off all iPod activity
+because it's like that
+
+04:02.000 --> 04:08.000
+has definitely messed up a lot
+of the recording of the show.
+
+04:08.000 --> 04:13.000
+I had a couple of new podcasts
+that I wanted to point to and I
+have met a resolution
+
+04:13.000 --> 04:19.000
+by the way that when I post a
+new daily source code I will
+have to put up some
+
+04:19.000 --> 04:25.000
+links on the weblog portion of
+it and I'll refer it I guess in
+the somewhere in
+
+04:25.000 --> 04:30.000
+the ID3 tags I'll refer to the
+promo link of that weblog post
+so you should be
+
+04:30.000 --> 04:35.000
+able to find it because there is
+just too much stuff you know
+going on now and
+
+04:35.000 --> 04:37.000
+there's good stuff that I don't
+want to get lost in the shuffle
+so I want to
+
+04:37.000 --> 04:41.000
+start creating some some links
+to some of these new things.
+
+04:41.000 --> 04:47.000
+I'm seeing how I didn't have
+GeekSpeak here.
+
+04:46.500 --> 04:49.500
+I have enough for three shows,
+believe me.
+
+04:49.500 --> 04:53.500
+Actually, I'll start off with
+this one.
+
+04:53.500 --> 04:56.500
+This one was announced through
+the iPod or dev list.
+
+04:56.500 --> 04:59.500
+I'll just play the intro of it
+because it's kind of cool.
+
+04:59.500 --> 05:01.500
+It's got some good production
+value and I think it's...
+
+05:01.500 --> 05:04.500
+Particularly if we're looking at
+the audience that currently is
+using iPod
+
+05:04.500 --> 05:06.500
+or I think this will be a show
+that's going to fly.
+
+05:33.000 --> 05:36.000
+of missions to explore both
+homes.
+
+05:55.500 --> 05:57.500
+figure out what that word is
+that shit
+
+05:57.500 --> 05:59.500
+the software lands
+
+05:59.500 --> 06:01.500
+let me just listen to that I get
+it
+
+06:01.500 --> 06:03.500
+what is it 5 4 3 2 1 and then
+shift
+
+06:03.500 --> 06:05.500
+let's listen to that
+
+06:05.500 --> 06:07.500
+what was that
+
+06:07.500 --> 06:09.500
+1
+
+06:09.500 --> 06:11.500
+shit
+
+06:11.500 --> 06:13.500
+hold on a second
+
+06:13.500 --> 06:15.500
+hi young
+
+06:15.500 --> 06:17.500
+what?
+
+06:17.500 --> 06:19.500
+new?
+
+06:19.500 --> 06:21.500
+okay I'm coming
+
+06:21.500 --> 06:23.500
+alright
+
+06:23.500 --> 06:25.500
+looks like we're gonna have to
+pause this recording
+
+06:25.500 --> 06:27.500
+I'll be back in
+
+06:27.500 --> 06:29.500
+a nanosecond for you as I eat my
+dinner
+
+06:29.500 --> 06:31.500
+okay most excellent
+
+06:31.500 --> 06:33.500
+that was a nice
+
+06:33.500 --> 06:35.500
+35 minute break had some dinner
+and I'm back
+
+06:35.500 --> 06:37.500
+and now everything's almost
+actually
+
+06:37.500 --> 06:39.500
+on track I think that in about
+15 minutes
+
+06:39.500 --> 06:41.500
+I can
+
+06:41.500 --> 06:43.500
+give Hugo a shot in a call
+
+06:43.500 --> 06:45.500
+and we'll talk to him
+
+06:45.500 --> 06:47.500
+so let's play a couple of things
+
+06:47.500 --> 06:49.500
+before we get to that
+
+06:49.500 --> 06:51.500
+I already played you the program
+one there
+
+06:51.500 --> 06:53.500
+the brand new podcast
+
+06:53.500 --> 06:55.500
+Michael Men's
+
+06:55.500 --> 06:57.500
+brand new podcast
+
+06:57.000 --> 07:02.000
+I'll make sure I point to that
+in the notes to the source code
+for today.
+
+07:02.000 --> 07:06.000
+Something else I found that, and
+a lot of this is coming through
+on the BlogDigger media feed,
+
+07:06.000 --> 07:13.000
+of course, now that I have
+iPodRx 2.0 running on my Mac,
+and it's really, it's quite
+wonderful.
+
+07:13.000 --> 07:18.000
+I just got to say I love the way
+it installs and how it sets
+everything up. Although,
+
+07:18.000 --> 07:24.000
+I think that probably something
+that all iPod developers could
+think about is creating a
+
+07:25.000 --> 07:32.000
+a default feed. It's a feed that
+is already in there just to show
+the user what even what a
+
+07:33.000 --> 07:39.000
+URL looks like. Hold on a
+second, my dog wants the little
+dog. Come on, so I'll be back.
+Let me go.
+
+07:41.000 --> 07:48.000
+And maybe that's a feed that
+only has one small, kind of like
+a hello world. Welcome to my
+iPodRx
+
+07:49.000 --> 07:56.000
+MP3 audit. So, you know, just
+the first experience doesn't
+necessarily have to be with a 20
+or 30 meg
+
+07:56.000 --> 07:58.000
+download from something like the
+day.
+
+08:00.000 --> 08:05.000
+And I got a... what was this
+that I found?
+
+08:05.000 --> 08:12.000
+Oh, it was probably an audio
+blog post, but it was just kind
+of... well, you'll hear it.
+
+08:12.000 --> 08:17.000
+It's interesting how technology,
+even though it's supposed to be
+so slick, can really,
+
+08:17.000 --> 08:19.000
+really fuck you up when you're
+traveling.
+
+08:19.000 --> 08:25.000
+This is titled 10.0238.mp3.
+
+08:25.000 --> 08:29.000
+So don't know where it's coming
+from. No.mp3 metadata, but check
+it out.
+
+08:30.000 --> 08:35.000
+Hey, good morning. It's 4.20am
+and I'm in Des Moines.
+
+08:35.000 --> 08:38.000
+Here's another reason to hate
+United.
+
+08:38.000 --> 08:46.000
+When I booked this flight to get
+home this morning, I decided to
+have it automatically add the
+flight to my Outlook calendar.
+
+08:46.000 --> 08:49.000
+So it told me that I was leaving
+at 6.12 in the morning.
+
+08:49.000 --> 08:56.000
+The trouble is I'm leaving Des
+Moines at 6.12 in the morning,
+Denver time, which means I'm
+leaving Des Moines at 7.12.
+
+08:56.000 --> 09:01.000
+So I'm here at the airport way
+earlier than I need to be and
+needless to say.
+
+09:01.500 --> 09:03.500
+I'm a chap that annoyed.
+
+09:03.500 --> 09:08.500
+So that's another way you can
+use this kind of technology to
+just let us know how you
+
+09:10.500 --> 09:15.500
+Also, it appears that podcasting
+is breaking through in other
+countries.
+
+09:15.500 --> 09:22.500
+I posted on my weblog, I posted
+to an Italian explanation of
+iPodder and today comes iPod
+
+09:22.500 --> 09:23.500
+soft audio.
+
+09:27.000 --> 09:28.000
+IpodSoft.
+
+09:30.000 --> 09:33.000
+Hello. The first audio news from
+IpodSoft.
+
+09:34.000 --> 09:35.000
+Let's see how it goes.
+
+09:35.000 --> 09:38.000
+First, computer test. Left,
+right. OK.
+
+09:38.000 --> 09:41.000
+So if it works, we'll do it
+regularly.
+
+09:41.000 --> 09:43.000
+Oh wow, that was tricky. Did you
+hear that?
+
+09:43.000 --> 09:45.000
+Did you hear that go from left
+to right?
+
+09:45.000 --> 09:47.000
+That's like, that's how they
+start their show off.
+
+09:47.000 --> 09:49.000
+Say, wait, hold on.
+
+09:49.000 --> 09:52.000
+We're going to test you now.
+Left, right, left, right.
+
+09:52.000 --> 09:53.000
+That was cool.
+
+09:53.000 --> 09:54.000
+Left, right. OK.
+
+09:54.000 --> 09:55.000
+We'll keep.
+
+09:55.000 --> 09:59.000
+Anyway, so some German iPod
+news.
+
+09:59.000 --> 10:02.000
+And I could understand most of
+it being,
+
+10:02.000 --> 10:04.000
+I could speak Dutch pretty well.
+
+10:04.000 --> 10:08.000
+But about at least a third of
+what they're saying is in
+English anyway.
+
+10:08.000 --> 10:12.000
+So I was going to scoop the
+Gilmore Gang,
+
+10:12.000 --> 10:14.000
+on the Gilmore Gang, by
+uploading,
+
+10:14.000 --> 10:16.000
+or actually by playing a little
+bit of the,
+
+10:16.000 --> 10:18.000
+what's that, huh? Two balls?
+
+10:18.000 --> 10:20.000
+Two balls. What kind of balls
+are these?
+
+10:20.000 --> 10:22.000
+We have cream balls.
+
+10:22.000 --> 10:23.000
+We have cream balls.
+
+10:23.000 --> 10:25.000
+Do you have those in there?
+
+10:25.000 --> 10:27.000
+They do now.
+
+10:27.000 --> 10:29.000
+I like our donkey balls.
+
+10:28.500 --> 10:28.500
+No.
+
+10:28.500 --> 10:30.500
+Who's that?
+
+10:30.500 --> 10:32.500
+No, whipped cream balls.
+
+10:32.500 --> 10:33.500
+Filled with...
+
+10:33.500 --> 10:35.500
+Filled with whipped cream.
+
+10:35.500 --> 10:36.500
+Thank you.
+
+10:36.500 --> 10:37.500
+Thank you, cream sushi.
+
+10:37.500 --> 10:39.500
+Right on.
+
+10:39.500 --> 10:40.500
+Okay.
+
+10:40.500 --> 10:43.500
+So I said I was going to scoop
+the Gilmore Gang,
+
+10:43.500 --> 10:46.500
+who did their show live from
+Nome Dex,
+
+10:46.500 --> 10:49.500
+which was in Lake Tahoe, I
+believe.
+
+10:49.500 --> 10:50.500
+Oh, shit.
+
+10:50.500 --> 10:52.500
+Now the other dog wants to go
+in.
+
+10:52.500 --> 10:53.500
+Come here, Jess.
+
+10:53.500 --> 10:54.500
+Come on.
+
+10:54.500 --> 10:55.500
+Come on, go.
+
+10:57.000 --> 10:59.000
+Now, I'm telling you, it's been
+like this all day.
+
+10:59.000 --> 11:01.000
+The phone's been ringing, people
+interrupting.
+
+11:01.000 --> 11:03.000
+I just can't get down to doing a
+show.
+
+11:04.000 --> 11:07.000
+So anyway, I knew that Doug Kay
+was down there
+
+11:07.000 --> 11:08.000
+doing the streaming stuff.
+
+11:08.000 --> 11:11.000
+So I actually recorded the
+stream of the Gilmore Gang
+
+11:11.000 --> 11:12.000
+and I wanted to play back a
+little bit
+
+11:12.000 --> 11:14.000
+because they were talking about
+iPodder
+
+11:14.000 --> 11:16.000
+and iPod platform and podcasting
+was great.
+
+11:16.000 --> 11:18.000
+Now it's jumping up and down as
+I was.
+
+11:19.500 --> 11:23.500
+in our inn, the room at the inn
+in the UK where
+
+11:25.500 --> 11:32.500
+was really cool but then raster
+web audio scoop me to the
+scoopage
+
+11:33.500 --> 11:33.500
+well
+
+11:42.000 --> 11:48.000
+the Gilmore Gang. I think John
+Udell said something really
+significant here and I
+
+11:48.000 --> 11:52.000
+just wanted to share that with
+you.
+
+11:52.000 --> 11:54.000
+I can't believe I hit the ball.
+
+11:54.000 --> 11:55.000
+Quite impressive.
+
+11:55.000 --> 11:56.000
+It landed in the water.
+
+11:56.000 --> 11:57.000
+Yes, but the splash was quite
+impressive.
+
+11:57.000 --> 12:04.000
+This place is so beautiful. I
+can see just coming here to
+think or read, though that
+
+12:04.000 --> 12:07.000
+probably defeats the purpose of
+the holes with the flags and
+all.
+
+12:07.000 --> 12:10.000
+There's something rather serene
+about walking around here.
+
+12:10.000 --> 12:11.000
+You come here every week?
+
+12:11.000 --> 12:13.000
+No, when I can.
+
+12:13.000 --> 12:15.000
+I'm often working on the
+weekends.
+
+12:15.000 --> 12:16.000
+Bummer.
+
+12:16.000 --> 12:18.000
+Isn't it?
+
+12:18.000 --> 12:25.000
+Crap. Okay. You know what? I'm
+pretty sure that that wasn't the
+Gilmore Gang.
+
+12:25.000 --> 12:28.000
+I don't even think that was John
+Udell.
+
+12:28.000 --> 12:30.000
+I think that was the Gilmore
+Girls.
+
+12:30.000 --> 12:31.000
+I'm sorry, everybody.
+
+12:31.000 --> 12:32.000
+I'm forgetting.
+
+12:32.000 --> 12:36.000
+Hopefully that had the same
+effect on you as it had on me
+the first time.
+
+12:36.000 --> 12:38.000
+I was like, what the hell is he
+playing?
+
+12:38.000 --> 12:40.000
+What does nothing do with the
+Gilmore Gang?
+
+12:40.000 --> 12:42.000
+Indeed, the Gilmore Girls.
+
+12:42.000 --> 12:43.000
+Always.
+
+12:43.500 --> 12:49.500
+Nice to have pizza, rice, and
+humor on the daily source code
+via raster web audio.
+
+12:49.500 --> 12:51.500
+So I do have a bit of the
+Gilmore gang.
+
+12:51.500 --> 12:56.500
+This is kind of cool because
+this in effect is bootleg.
+
+12:56.500 --> 13:00.500
+I think I may be posting it
+before it's even posted on
+ITConversations.com.
+
+13:00.500 --> 13:06.500
+I'm just going to play a little
+bit at the end of the show of
+what Steve Gilmore said
+
+13:06.500 --> 13:07.500
+was so incredibly nice.
+
+13:07.500 --> 13:14.500
+Just like Hugo Shopman, I'm
+going to ask Steve if he'll let
+me interview him on a daily
+source code.
+
+13:14.500 --> 13:21.500
+He clearly understands the
+opportunity that is in
+podcasting and iPodder, etc.
+
+13:21.500 --> 13:24.500
+And he's very vocal about it.
+
+13:24.500 --> 13:25.500
+Check it out.
+
+13:25.500 --> 13:29.500
+Final bit from the Gilmore gang
+soon to be up at
+ITConversations.com.
+
+13:29.500 --> 13:37.500
+You know, as somebody, the
+second executive at a major
+software company asked me the
+other day
+
+13:38.500 --> 13:43.500
+when's the Gilmore gang going to
+go, you know, national?
+
+13:43.500 --> 13:44.500
+And I said it's all...
+
+13:45.000 --> 13:45.000
+Where did he go?
+
+13:45.000 --> 13:46.000
+Act it.
+
+13:46.000 --> 13:47.000
+What do you want?
+
+13:47.000 --> 13:53.000
+I mean, as Chris said, we're
+being broadcast through the iPod
+
+13:53.000 --> 13:58.000
+platform to anybody, anywhere,
+who has access to the network.
+
+13:58.000 --> 14:00.000
+The streaming audio that Doug
+Kay is doing
+
+14:00.000 --> 14:04.000
+is we had questions on the first
+day of this conference
+
+14:04.000 --> 14:09.000
+from Australia, from New
+Zealand.
+
+14:09.000 --> 14:11.000
+Georgia.
+
+14:11.000 --> 14:12.000
+Even Georgia.
+
+14:12.000 --> 14:16.000
+And I just want to say one thing
+about professional content.
+
+14:16.000 --> 14:18.000
+I've been a record producer.
+
+14:18.000 --> 14:21.000
+I've directed films.
+
+14:21.000 --> 14:24.000
+They may not be professional in
+the sense
+
+14:24.000 --> 14:27.000
+that they weren't Hollywood
+blockbusters,
+
+14:27.000 --> 14:30.000
+but I know how that stuff works.
+
+14:30.000 --> 14:34.000
+And I'm telling you that what
+Adam Curry is doing
+
+14:34.000 --> 14:37.000
+and what Dave Slusher is doing
+from Conway, South Carolina
+
+14:37.000 --> 14:42.000
+and what Robert Scobal is doing
+from pulling it
+
+14:42.000 --> 14:44.000
+out of his ass.
+
+14:44.000 --> 14:45.000
+Wait a minute.
+
+14:45.000 --> 14:47.000
+Never underestimate the bad.
+
+14:46.500 --> 14:49.500
+with the Robert Scoble's ass.
+
+14:49.500 --> 14:51.500
+It is just as professional, if
+not more so,
+
+14:51.500 --> 14:56.500
+because these technologies, as
+they boil down
+
+14:56.500 --> 15:00.500
+and virtualized into a Mac today
+and a PDA
+
+15:00.500 --> 15:03.500
+or some sort of cell phone
+tomorrow,
+
+15:03.500 --> 15:06.500
+this is the recording studio of
+the future,
+
+15:06.500 --> 15:09.500
+and the future is now.
+
+15:09.500 --> 15:12.500
+This is happening today, and it
+is going,
+
+15:12.500 --> 15:14.500
+when people say in four or five
+years,
+
+15:14.500 --> 15:18.500
+when the iPod platform really
+takes off,
+
+15:18.500 --> 15:22.500
+they're missing the boat by
+about four or five years.
+
+15:22.500 --> 15:24.500
+It's happening right now.
+
+15:24.500 --> 15:27.500
+I really encourage you to listen
+to the entire Gilmore Gang,
+
+15:27.500 --> 15:29.500
+and I'm sure they'll also have
+other bits of the conference
+
+15:29.500 --> 15:33.500
+from NomeDecks up on
+ITConversations.com.
+
+15:33.500 --> 15:36.500
+I listened to a bit of Will
+Wheaton.
+
+15:36.500 --> 15:40.500
+Dave and I got to figure out a
+way to be able to record that
+
+15:40.500 --> 15:43.500
+and comment at the same time,
+because it's funny.
+
+15:43.500 --> 15:46.500
+You listen to something together
+and you comment.
+
+15:46.500 --> 15:47.500
+You come up with...
+
+15:48.000 --> 15:52.000
+with wacky stuff and there was
+also another conference. It was
+the future of content.
+
+15:54.000 --> 15:57.000
+session that was and there was
+also a lot of iPod or talk so
+make sure you catch
+
+15:57.000 --> 16:03.000
+that it'll probably be another
+day or so until they get all of
+that encoded and
+
+16:03.000 --> 16:06.000
+sorted out you know and this
+conference is can be pretty
+grueling
+
+16:06.000 --> 16:11.000
+particularly if you're doing
+streaming stuff. So let me see I
+got about five
+
+16:11.000 --> 16:15.000
+more minutes till we can call
+Hugh.
+
+16:19.500 --> 16:24.500
+past seven right now in Belgium.
+And I believe he's either in the
+Netherlands or Austria,
+
+16:24.500 --> 16:29.500
+but we're going to find out
+where he is. But while I was in
+the UK, I was looking around
+
+16:29.500 --> 16:39.500
+to see how the British citizens
+reacted to the presidential
+debate. And you know, from
+
+16:39.500 --> 16:43.500
+one thing leads to another, and
+I stumbled across a piece of
+video, which is, it's all
+animated,
+
+16:43.500 --> 16:50.500
+but I want to let you hear this
+because the voiceover is
+self-explanatory. And this, I
+think,
+
+16:50.500 --> 16:56.500
+is something that will be, well,
+you'll have to check out. Just
+listen to what this is. It's
+
+16:56.500 --> 17:03.500
+only about a minute and a half,
+and it's simply titled,
+Barry.move. This is how stuff
+comes
+
+17:03.500 --> 17:07.500
+along, and unfortunately there's
+no metadata whatsoever, but in
+the credits, and I'm
+
+17:07.500 --> 17:13.500
+going to link to this from my
+weblog for this source code
+posting, in the credits
+
+17:13.500 --> 17:18.500
+there's all kinds of information
+about who's behind this and what
+their drive is. But I
+
+17:18.500 --> 17:20.500
+think it gives a view of what...
+
+17:21.000 --> 17:26.000
+But Britons think of the United
+States in general and perhaps of
+the presidential elections
+
+17:26.000 --> 17:31.000
+and the world at large.
+
+17:34.500 --> 17:38.500
+The United States of America is
+the most powerful nation on
+Earth.
+
+17:38.500 --> 17:43.500
+In itself, this goes a long way
+to explaining the things it does
+around the world.
+
+17:43.500 --> 17:46.500
+At present, it's conducting a
+war on terror.
+
+17:46.500 --> 17:51.500
+Or more accurately, a campaign
+against opposition to US
+domination.
+
+17:51.500 --> 17:55.500
+Others prefer to call it the
+beginnings of the Third World
+War.
+
+17:55.500 --> 17:58.500
+United States has an insatiable
+appetite for conflict.
+
+18:00.000 --> 18:01.000
+career in the 1950s.
+
+18:03.000 --> 18:08.000
+one or other in some corner of
+the globe non-stop right up to
+it as a day.
+
+18:08.000 --> 18:11.000
+This drive is now led by the
+weapons manufacturers
+themselves.
+
+18:11.000 --> 18:13.000
+It's a highly dangerous project.
+
+18:16.500 --> 18:19.500
+It's the door of a new fashion
+being pushed open.
+
+18:24.000 --> 18:30.000
+The reality, as we see from the
+Iraqi invasion, is that the
+presidency has been...
+
+18:33.000 --> 18:40.000
+And this ghastly molecule aims
+to turn the world into its very
+own enslaved global mark.
+
+18:43.500 --> 18:47.500
+by Al Qaeda on the World Trade
+Center. It's just one response
+to it.
+
+18:49.500 --> 18:55.500
+Is this a conspiracy? Quite the
+opposite. It is a high-profile
+project known as the
+
+18:55.500 --> 19:01.500
+project of the new American
+Century. People like Dick Janie,
+Donald Rumsfeld,
+
+19:01.500 --> 19:05.500
+Richard Pearl are the major
+players among politicians
+right-wing thinkers
+
+19:05.500 --> 19:07.500
+and
+
+19:10.500 --> 19:15.500
+The project is a neoconservative
+manifesto, which includes in its
+toolbox the unbridled
+
+19:15.500 --> 19:18.500
+use of war and clearing a path
+for US interests.
+
+19:21.000 --> 19:24.000
+Iraq came entirely from this
+visible yet sinister group.
+
+19:30.000 --> 19:36.000
+And so who's next to wonder
+Iran, North Korea, France?
+
+19:37.500 --> 19:39.500
+None of us really matter to
+them.
+
+19:46.500 --> 19:48.500
+So then it goes into some
+credits.
+
+19:48.500 --> 19:50.500
+Barry McNamara, I know that name
+from somewhere.
+
+19:50.500 --> 19:54.500
+That's who did the voiceover.
+
+19:54.500 --> 20:01.500
+And then there's a final credit
+here, knife-party.net, directed
+and produced by knife-party.net.
+
+20:01.500 --> 20:03.500
+So you want to check that out.
+
+20:03.500 --> 20:10.500
+I've heard this theory before
+about a new world order and the
+new world movement.
+
+20:10.500 --> 20:18.500
+And I, yeah, it's the wonders of
+the internet that gives us the
+power to have this stuff
+
+20:18.500 --> 20:22.500
+put together, all this art, you
+know, and be able to play it for
+you.
+
+20:22.500 --> 20:25.500
+So, you know, this is, keep more
+of it coming.
+
+20:25.500 --> 20:27.500
+I don't think we'll ever, you
+know, this is the election.
+
+20:27.500 --> 20:32.500
+This is the chance where we have
+to use all these digital media
+tools to really get our
+
+20:32.500 --> 20:34.500
+point across and say what we
+want to.
+
+20:34.500 --> 20:36.500
+You can also, of course, just do
+it in traditional song.
+
+20:38.750 --> 24:48.750
+[ Music ]
+
+24:54.000 --> 25:02.000
+I didn't know I was un-American
+and uh, just a nice little tune
+on the daily source code for
+October 4th, 2004.
+
+25:13.500 --> 25:18.500
+Would it be this way?
+
+25:22.500 --> 25:24.500
+I hope I can find out who that
+is.
+
+25:24.500 --> 25:29.500
+Okay, it's time now, I'd say, to
+see if we can get Hugo on the...
+
+25:33.000 --> 25:35.000
+We're calling him via Skype.
+
+25:35.000 --> 25:36.000
+There we go.
+
+25:36.000 --> 25:37.000
+It's like it's working.
+
+25:40.500 --> 25:42.500
+Hi, how are you doing?
+
+25:42.500 --> 25:43.500
+I'm good.
+
+25:43.500 --> 25:45.500
+I'm recording already.
+
+25:45.500 --> 25:46.500
+That's good.
+
+25:46.500 --> 25:48.500
+So welcome to the source code.
+
+25:48.500 --> 25:49.500
+Thank you very much.
+
+25:49.500 --> 25:51.500
+You know, Hugo, you blew me
+away.
+
+25:51.500 --> 25:53.500
+Hold on a second.
+
+25:53.500 --> 25:57.500
+This is, I'm trying to get the,
+this is exactly why I wanted to
+call you because I want to
+
+25:57.500 --> 26:03.500
+make sure we get, we get squared
+away on the best personal setup
+for this kind of stuff.
+
+26:03.500 --> 26:04.500
+Okay.
+
+26:04.500 --> 26:06.500
+Well, you're kind of breaking up
+a little bit.
+
+26:06.500 --> 26:08.500
+How am I on your side?
+
+26:08.500 --> 26:10.500
+Yeah, you're coming through
+okay.
+
+26:10.500 --> 26:13.500
+I'll say what, I'm going to try
+calling again.
+
+26:13.500 --> 26:14.500
+Okay?
+
+26:14.500 --> 26:15.500
+Okay.
+
+26:15.500 --> 26:22.500
+Okay, we're, we're back and
+we've, I think now, by now we
+actually have it set up so
+
+26:22.500 --> 26:26.500
+that not only will you hear me
+talking, but we'll also hear
+Hugo talking.
+
+26:26.500 --> 26:33.500
+I mean, Hugo, I mean, I've had
+so much, you know, success and
+failure and all kinds
+
+26:33.500 --> 26:34.500
+of crap with this.
+
+26:34.500 --> 26:35.500
+I mean, what?
+
+26:35.500 --> 26:38.500
+I mean, help me out here.
+
+26:38.500 --> 26:40.500
+Where, where do we have to go?
+
+26:40.500 --> 26:41.500
+Who do we have to talk to?
+
+26:41.500 --> 26:41.500
+How do we get to the end of
+this?
+
+26:42.000 --> 26:46.000
+we have to get this working
+better and do you think that
+there's something we can
+bootstrap
+
+26:46.000 --> 26:54.000
+that'll get us further than
+where we're at right now because
+this is giving me many sleepless
+
+26:54.000 --> 26:55.000
+nights?
+
+26:55.000 --> 26:56.000
+Yes.
+
+26:56.000 --> 27:06.000
+Well, one answer is with the
+things that we have right now,
+we can write down different
+
+27:06.000 --> 27:15.000
+setups and lessons learned and
+exchange the best setup with
+each other so that we can learn
+
+27:15.000 --> 27:22.000
+and record it somewhere, which I
+have started on my side.
+
+27:22.000 --> 27:26.000
+We have to ask developers to
+actually create an all-in-all
+all-in-one
+
+27:30.000 --> 27:34.000
+Don't come up with a service.
+
+27:34.000 --> 27:38.000
+You've mentioned this service,
+and probably we've only recorded
+the fact that you mentioned
+
+27:38.000 --> 27:39.000
+it once.
+
+27:39.000 --> 27:42.000
+So, we've talked about it three
+times.
+
+27:42.000 --> 27:45.000
+Tell me about what your idea is,
+because I've heard a couple of
+other people mention that
+
+27:45.000 --> 27:48.000
+the idea of a service, how do
+you envision that?
+
+27:48.000 --> 27:49.000
+What would that be?
+
+27:49.000 --> 27:51.000
+What kind of service can we
+make?
+
+27:51.000 --> 27:58.000
+Can we develop that will bring
+all of the technologies that
+we're trying to figure
+
+27:58.000 --> 28:00.000
+out, all of the audio routing?
+
+28:00.000 --> 28:04.000
+Can we make something that will
+bring that to the people who
+want to do the show
+
+28:04.000 --> 28:07.000
+and not worry about the rest?
+
+28:07.000 --> 28:10.000
+Yeah, I think so.
+
+28:10.000 --> 28:19.000
+Just like you had a web log
+service right now where you post
+to.
+
+28:19.000 --> 28:26.000
+For instance, Radio Userland, it
+can run on your own machine, but
+it can also run
+
+28:26.000 --> 28:28.000
+completely somewhere else.
+
+28:28.000 --> 28:31.000
+Now, getting text to that server
+is...
+
+28:31.500 --> 28:37.500
+easy and we have lots of tools
+to do that already. Audio to it
+is a bit more
+
+28:37.500 --> 28:49.500
+difficult and intuitive for just
+users. Now you could SPP it to
+the service or email it or...
+
+28:49.500 --> 28:55.500
+Well you're talking about it is
+really is really a publishing
+system though.
+
+28:55.500 --> 29:00.500
+That what you're talking about?
+Yeah but maybe also a recording
+system because
+
+29:00.500 --> 29:09.500
+the next step is you open a line
+with the server through
+something that we are all
+
+29:09.500 --> 29:17.500
+familiar with like iChat or
+voice over IP and have that be
+the recording.
+
+29:17.500 --> 29:22.500
+And okay and so then the server
+will record can this in the
+server or this
+
+29:22.500 --> 29:26.500
+service will also be able to
+combine stuff so say I want to
+talk with you we
+
+29:26.500 --> 29:30.500
+don't have to restart this thing
+25 million times it'll just
+combine those
+
+29:30.500 --> 29:34.500
+sources okay
+
+29:33.000 --> 29:35.000
+I also, yeah, I'm listening.
+
+29:35.000 --> 29:38.000
+Yeah, you'll have a chat with
+multiple people
+
+29:38.000 --> 29:40.000
+or a conference with multiple
+people
+
+29:40.000 --> 29:43.000
+and it'll record everything.
+
+29:43.000 --> 29:46.000
+So shouldn't Apple be doing this
+
+29:46.000 --> 29:49.000
+or shouldn't AOL Instant
+Messenger,
+
+29:49.000 --> 29:49.000
+shouldn't these, I mean,
+
+29:49.000 --> 29:51.000
+is this something we really
+wanna jump into?
+
+29:51.000 --> 29:54.000
+Is this something that we as,
+you know,
+
+29:54.000 --> 29:56.000
+mere mortal developers and users
+
+29:56.000 --> 29:58.000
+really wanna put our foot into?
+
+29:59.000 --> 30:02.000
+Well, we can use those tools
+already.
+
+30:02.000 --> 30:06.000
+We only have to put the pieces
+together.
+
+30:06.000 --> 30:09.000
+For instance, with SIP,
+
+30:09.000 --> 30:13.000
+there are SIP routers, SIP
+routers,
+
+30:13.000 --> 30:16.000
+that you can reprogram to almost
+anything.
+
+30:16.000 --> 30:20.000
+And it would be easy to add
+
+30:20.000 --> 30:25.000
+publishing capability and, you
+know,
+
+30:26.000 --> 30:31.000
+those are automatic enclosure
+generation MP3 encoding.
+
+30:31.000 --> 30:35.000
+You can put everything.
+
+30:34.500 --> 30:36.500
+in that same server.
+
+30:36.500 --> 30:41.500
+So I think, well that's a, but I
+think this is an interesting
+thought, you know, because
+
+30:41.500 --> 30:49.500
+I have to agree that there is, I
+mean there's such a high barrier
+level of entry on doing
+
+30:49.500 --> 30:54.500
+this stuff, figuring out how to
+connect all the bits so you can
+record the audio and your
+
+30:54.500 --> 30:59.500
+microphone and someone else and
+maybe a phone call.
+
+30:59.500 --> 31:03.500
+Is this something that maybe,
+what's that PBX software that
+everyone keeps raving about
+
+31:03.500 --> 31:05.500
+it's open source.
+
+31:07.500 --> 31:09.500
+Yeah, I have a link.
+
+31:09.500 --> 31:10.500
+I forgot the name.
+
+31:10.500 --> 31:15.500
+Actually, I had a little time
+the last week.
+
+31:15.500 --> 31:18.500
+It's too bad that it's bad
+timing.
+
+31:18.500 --> 31:19.500
+Because I was traveling.
+
+31:19.500 --> 31:21.500
+I was like in the Netherlands
+when you were there
+
+31:21.500 --> 31:25.500
+last Wednesday and until Sunday.
+
+31:25.500 --> 31:25.500
+Oh, OK.
+
+31:25.500 --> 31:28.500
+Well, I mean, is this for work
+related stuff
+
+31:28.500 --> 31:30.500
+that you're doing?
+
+31:30.500 --> 31:33.500
+Yeah, I was there for a perfect
+person.
+
+31:33.500 --> 31:34.500
+And then I went to a family.
+
+31:34.500 --> 31:37.500
+And I kind of...
+
+31:37.500 --> 31:41.500
+Well, you're allowed to do that.
+
+31:41.500 --> 31:44.500
+You're allowed family visits.
+
+31:44.500 --> 31:48.500
+I think there's no such timing
+as really good timing.
+
+31:48.500 --> 31:50.500
+There's all kinds of stuff that
+always comes and goes.
+
+31:50.500 --> 31:54.500
+But I'm so happy that we could
+just
+
+31:54.500 --> 31:56.500
+want to reach out to you and
+just say hi.
+
+31:56.500 --> 31:58.500
+And let you know that I
+certainly
+
+31:58.500 --> 32:01.500
+appreciate all the work that
+you're doing
+
+32:01.500 --> 32:02.500
+on figuring this stuff out.
+
+32:02.500 --> 32:06.500
+And I'm fascinated by the
+service idea.
+
+32:06.500 --> 32:08.500
+And now it's...
+
+32:09.000 --> 32:14.000
+Is this something that you would
+involve your employer with
+maybe?
+
+32:14.000 --> 32:16.000
+Is that something that Siemens
+would be interested in?
+
+32:18.000 --> 32:21.000
+Well, I'm in a small division of
+Siemens.
+
+32:21.000 --> 32:24.000
+Siemens is really, I'm not in
+the right division.
+
+32:24.000 --> 32:26.000
+So it would be difficult.
+
+32:26.000 --> 32:27.000
+Okay.
+
+32:27.000 --> 32:34.000
+If I wanted to do something with
+it, then it would mean something
+from my job.
+
+32:34.000 --> 32:35.000
+Right.
+
+32:35.000 --> 32:36.000
+Right, all right.
+
+32:36.000 --> 32:38.000
+So what is your background?
+
+32:38.000 --> 32:41.000
+What are your hobbies?
+
+32:41.000 --> 32:45.000
+What's the kind of stuff you
+like to do?
+
+32:45.000 --> 32:47.000
+Background from school actually
+is very technical.
+
+32:47.000 --> 32:51.000
+But I started to do consulting
+early on.
+
+32:51.000 --> 32:54.000
+I've been to Cambridge
+Technology Partners.
+
+32:54.000 --> 32:55.000
+Yeah.
+
+32:55.000 --> 32:56.000
+I remember that.
+
+32:56.000 --> 33:03.000
+I worked for them in Amsterdam
+in the dotcom years.
+
+33:03.000 --> 33:10.000
+I went to Accenture here in
+Zurich and went to Austria for a
+PhD instructor.
+
+33:10.500 --> 33:13.500
+So that's what makes me take as
+well.
+
+33:13.500 --> 33:14.500
+Okay.
+
+33:14.500 --> 33:15.500
+Okay.
+
+33:15.500 --> 33:17.500
+And came to Siemens.
+
+33:17.500 --> 33:18.500
+Okay.
+
+33:18.500 --> 33:21.500
+And what's it like to live in
+Vienna?
+
+33:21.500 --> 33:23.500
+No, Zurich.
+
+33:23.500 --> 33:24.500
+I'm trying Zurich.
+
+33:24.500 --> 33:25.500
+What's it like there?
+
+33:25.500 --> 33:26.500
+Is it nice?
+
+33:26.500 --> 33:28.500
+Yeah, it's the Amsterdam of
+Switzerland.
+
+33:28.500 --> 33:29.500
+It's...
+
+33:29.500 --> 33:34.500
+I don't know if that's a
+compliment or if that's good or
+bad.
+
+33:36.000 --> 33:43.000
+media. You know, you've got lots
+of international people, you
+know, it's
+
+33:43.000 --> 33:50.000
+well, I could get away with,
+with not speaking German. You
+know, it's,
+
+33:50.000 --> 33:59.000
+it's lots going on, lots for
+single, you know, expert type
+people. Yeah. And
+
+33:59.000 --> 34:05.000
+the quality of living is just,
+it's good. Plus, it's close to
+the
+
+34:05.000 --> 34:10.000
+mountain. Where you like to ski,
+right? Exactly. Perfect.
+
+34:10.000 --> 34:16.000
+Perfect. Well, you know what,
+we're following your, your
+research
+
+34:16.000 --> 34:21.000
+very, very closely. And, you
+know, I'd like to, now that I've
+kind
+
+34:21.000 --> 34:24.000
+of figured out what the best way
+is to contact you, maybe later
+
+34:24.000 --> 34:27.000
+on the week, we can hook up
+again. And then by then, I'll
+
+34:27.000 --> 34:30.000
+have had some responses, and
+maybe there'll be some questions
+
+34:30.000 --> 34:31.000
+or reactions. And we can
+
+34:36.000 --> 34:38.000
+Sure, I'd be happy to.
+
+34:38.000 --> 34:46.000
+Okay, so on email we'll set up a
+time and a day and then we'll
+chat a little bit more.
+
+34:46.000 --> 34:47.000
+This is a great introduction.
+
+34:47.000 --> 34:54.000
+Alright, can you play me a song
+of the day or is it I'll set up?
+
+34:54.000 --> 34:57.000
+It's not set up so that you'll
+hear the song of the day, but I
+can certainly play
+
+34:57.000 --> 34:58.000
+a song of the day.
+
+35:00.000 --> 35:08.000
+Well, I really like Prince, but
+I just bought the Supper Club 7
+and that's like really relaxed.
+
+35:08.000 --> 35:09.000
+Have you heard it yet?
+
+35:09.000 --> 35:12.000
+No, no, I haven't heard the...
+
+35:12.000 --> 35:14.000
+I think I have Supper Club 2.
+
+35:14.000 --> 35:17.000
+I certainly don't think I'm
+anywhere near 7.
+
+35:17.000 --> 35:20.000
+Anyway, no, no.
+
+35:20.000 --> 35:23.000
+But my setup is bare bones.
+
+35:23.000 --> 35:28.000
+I don't have the regular setup
+subscribed on the site, so I
+cannot play you any music
+
+35:28.000 --> 35:29.000
+either.
+
+35:29.000 --> 35:31.000
+Well, hopefully next time.
+
+35:31.000 --> 35:38.000
+Okay, I'll make sure we find
+some Prince to put on for you
+and we'll talk to you in a
+couple
+
+35:38.000 --> 35:39.000
+of days and we'll check in
+again.
+
+35:39.000 --> 35:41.000
+All right, thank you very much.
+
+35:41.000 --> 35:42.000
+Okay, here you go.
+
+35:42.000 --> 35:43.000
+No, thank you.
+
+35:43.000 --> 35:45.000
+Thanks for your time and have a
+great evening.
+
+35:45.000 --> 35:47.000
+All right, bye-bye.
+
+35:47.000 --> 35:50.000
+And my thanks to Hugo
+Schottmann.
+
+35:58.750 --> 37:58.750
+[ Music ]
+
+38:00.000 --> 38:01.000
+Oh, give me that!
+
+38:06.250 --> 38:56.000
+[ Music ]
+
+38:56.000 --> 38:57.000
+Keep fighting!
+
+38:57.000 --> 38:59.000
+Keep keep keep fighting!
+
+38:59.000 --> 39:01.000
+Don't stop dancing!
+
+39:01.000 --> 39:01.000
+Tch!
+
+39:01.000 --> 39:02.000
+Tch!
+
+39:02.000 --> 39:02.000
+Tch!
+
+39:02.000 --> 39:03.000
+Tch!
+
+39:03.000 --> 39:03.000
+Tch!
+
+39:03.000 --> 39:04.000
+Tch!
+
+39:04.000 --> 39:31.250
+[ Music ]
+
+39:33.000 --> 39:35.000
+Alright, on one y'all.
+
+39:36.000 --> 39:38.000
+You hear this old school joint?
+
+39:38.000 --> 39:40.000
+Don't you ever touch my stereo.
+
+39:41.000 --> 39:44.000
+This set up got good and plenty
+
+39:44.000 --> 39:46.000
+of what you need the most.
+
+39:47.000 --> 39:48.000
+And that's
+
+39:48.000 --> 39:49.000
+TRI
+
+39:50.000 --> 39:51.000
+P
+
+39:53.000 --> 39:54.000
+Yeah.
+
+39:55.000 --> 39:56.000
+Okay.
+
+39:56.000 --> 39:58.000
+And so it just keeps on
+
+39:58.000 --> 40:01.000
+jamming and jamming and jamming
+and jamming.
+
+40:01.000 --> 40:03.000
+And it's kind of like,
+
+40:03.000 --> 40:05.000
+you know, it's kind of like the
+
+40:05.000 --> 40:07.000
+gods were playing with this
+because I've been talking about
+
+40:07.000 --> 40:09.000
+Prince. I think
+
+40:10.000 --> 40:12.000
+I think Dave and I talked about
+it on trade secrets.
+
+40:12.000 --> 40:14.000
+We, you know, we said, you know,
+
+40:14.000 --> 40:16.000
+Prince would totally understand
+this stuff, right?
+
+40:16.000 --> 40:18.000
+He'd be so completely into it.
+
+40:20.000 --> 40:21.000
+And
+
+40:22.000 --> 40:24.000
+lo and behold, if I wasn't
+interviewed
+
+40:24.000 --> 40:26.000
+by Julio
+
+40:26.000 --> 40:28.000
+and Julio works for
+
+40:28.000 --> 40:31.000
+it's kind of, it's a
+night-ridder publication
+
+40:31.000 --> 40:34.000
+in Minneapolis, St. Paul.
+
+40:34.500 --> 40:38.500
+Uh, hold on a second.
+
+40:38.500 --> 40:40.500
+Julio, here we go.
+
+40:40.500 --> 40:47.500
+Julio Ojeda Zapada works for
+the, oh there it is, the St.
+Paul Pioneer Press.
+
+40:47.500 --> 40:52.500
+And so I said, you know, as
+Julio was interviewing me, I
+said, you know, I think this is
+all
+
+40:52.500 --> 40:55.500
+meant to be because, you know,
+Prince is going to read this and
+then he's going
+
+40:55.500 --> 40:56.500
+to listen to the source code.
+
+40:56.500 --> 40:59.500
+He's going to call up and he's
+going to get it and he's going
+to want to use this
+
+40:59.500 --> 41:01.500
+for the distribution of his
+music.
+
+41:01.500 --> 41:02.500
+Okay.
+
+41:02.500 --> 41:05.500
+Maybe I'm just rambling on a
+little bit too much.
+
+41:05.500 --> 41:10.500
+I'm going to leave you with one
+last bit that I found online.
+
+41:10.500 --> 41:14.500
+My gosh, I'm not sure where this
+came from, other than the
+
+41:14.500 --> 41:17.500
+blog digger media feed, right?
+
+41:17.500 --> 41:20.500
+You've probably read about the
+number of times during the
+
+41:20.500 --> 41:24.500
+Republican National Convention,
+how many times different words
+like
+
+41:24.500 --> 41:29.500
+Osama bin Laden, no, I'm sorry,
+Saddam Hussein, Iraq, war on
+terror,
+
+41:29.500 --> 41:32.500
+etc., but not Osama bin Laden.
+
+41:32.500 --> 41:35.500
+All these different terms were
+used.
+
+41:36.000 --> 41:41.000
+over and over and over again and
+maybe you heard some audio of
+it. I don't know but someone
+finally
+
+41:41.000 --> 41:45.000
+Went through the trouble of
+putting this all together into a
+video
+
+41:46.000 --> 41:48.000
+Let me just see I think the
+video is from
+
+41:49.000 --> 41:54.000
+It's live. It's probably from
+C-span and what I thought I'd do
+is I'd play this it only lasts a
+couple of minutes
+
+41:54.000 --> 41:59.000
+But it'll really freak you out
+when you hear how many times
+they're they're repeating these
+words and how many different
+people
+
+41:59.000 --> 42:03.000
+And who these people are and so
+if there's a caption that comes
+up
+
+42:03.000 --> 42:05.000
+Maybe I'll just break in and
+tell you that what it says like
+here
+
+42:05.000 --> 42:08.000
+it says, how do you run a
+convention on a recathive
+failure and
+
+42:09.000 --> 42:11.000
+so now it starts off with of
+course
+
+42:11.000 --> 42:17.000
+Invoke 9 11 the heart of this
+great city. We saw a tragedy
+arrive on a quiet morning
+
+42:18.000 --> 42:25.000
+September the 11th September the
+11th September the 11th
+September 11th September 11th
+September 11th September
+
+42:25.000 --> 42:27.000
+11th September 11th September 11
+
+42:28.000 --> 42:30.000
+September 11th September 11
+
+42:30.000 --> 42:32.000
+September 11th
+
+42:32.000 --> 42:33.000
+11.
+
+42:33.000 --> 42:34.000
+September 11.
+
+42:34.000 --> 42:35.000
+September 11.
+
+42:35.000 --> 42:36.000
+September 11.
+
+42:36.000 --> 42:37.000
+September 11.
+
+42:37.000 --> 42:38.000
+September 11.
+
+42:37.500 --> 42:43.500
+September 11! September 11
+September 11
+
+42:38.000 --> 42:39.000
+September 11.
+
+42:39.000 --> 42:40.000
+September 11.
+
+42:40.000 --> 42:41.000
+September 11.
+
+42:43.500 --> 42:46.500
+September 11 September 11
+September 11
+
+42:46.500 --> 42:51.500
+This is Giuliani by the way. Now
+it says no your enemy.
+
+42:51.500 --> 43:04.500
+Saddam Hussein
+
+43:03.000 --> 43:08.000
+Handle the bin Laden matter
+appropriately.
+
+43:08.000 --> 43:11.000
+And that's just got crits
+playing and everyone being
+quiet.
+
+43:13.500 --> 43:15.500
+Above all, spread fear.
+
+43:15.500 --> 43:16.500
+And danger.
+
+43:16.500 --> 43:17.500
+Continuing danger.
+
+43:17.500 --> 43:18.500
+Power of danger.
+
+43:18.500 --> 43:20.500
+Very, very dangerous world.
+
+43:20.500 --> 43:22.500
+Brave new threat.
+
+43:22.500 --> 43:25.500
+Horrific acts of atrocities,
+murderous regimes.
+
+43:25.500 --> 43:27.500
+Dedicating to killing us.
+
+43:27.500 --> 43:28.500
+Tyranny and terror.
+
+43:28.500 --> 43:32.500
+Slaughtered thousands of weapons
+of mass destruction.
+
+43:32.500 --> 43:34.500
+Weapons of mass destruction.
+
+43:34.500 --> 43:35.500
+Weapons programs.
+
+43:35.500 --> 43:37.500
+The deadliest of weapons.
+
+43:37.500 --> 43:37.500
+Terrible weapons.
+
+43:37.500 --> 43:39.500
+Nuclear weapons.
+
+43:39.500 --> 43:40.500
+Nuclear weapons.
+
+43:40.500 --> 43:41.500
+Poison gas.
+
+43:41.500 --> 43:42.500
+Torture chambers.
+
+43:42.500 --> 43:43.500
+Mass graves.
+
+43:43.500 --> 43:44.500
+Deadly technology.
+
+43:44.500 --> 43:46.500
+Radical ideology of hate.
+
+43:46.500 --> 43:48.500
+Terror of threats.
+
+43:48.500 --> 43:48.500
+Terror.
+
+43:48.500 --> 43:49.500
+Terror.
+
+43:49.500 --> 43:49.500
+Terror.
+
+43:49.500 --> 43:50.500
+War on terrorism.
+
+43:50.500 --> 43:52.500
+War against terrorism.
+
+43:52.500 --> 43:53.500
+Global war on terror.
+
+43:53.500 --> 43:54.500
+Global terrorism.
+
+43:57.000 --> 43:58.000
+Global.
+
+43:58.000 --> 44:00.000
+God Giuliani's unbelievable.
+
+44:00.000 --> 44:02.000
+He's the best one of all of
+them.
+
+44:02.000 --> 44:05.000
+They continuously have thousands
+of quotes by Giuliani.
+
+44:05.000 --> 44:06.000
+Global.
+
+44:06.000 --> 44:07.000
+Charism.
+
+44:07.000 --> 44:08.000
+Global.
+
+44:08.000 --> 44:09.000
+Terrorism.
+
+44:09.000 --> 44:10.000
+Terrorism.
+
+44:10.000 --> 44:11.000
+Charism.
+
+44:11.000 --> 44:12.000
+Terrorism.
+
+44:12.000 --> 44:13.000
+Terrorism.
+
+44:13.000 --> 44:14.000
+Terrorism.
+
+44:14.000 --> 44:15.000
+Terrorism.
+
+44:15.000 --> 44:16.000
+Terrorism.
+
+44:30.000 --> 44:31.000
+Terrorist, terrorist, terrorist.
+
+44:32.000 --> 44:34.000
+George W. Bush. Keeping America
+Scared.
+
+44:34.000 --> 44:36.000
+That's what it winds up with
+there.
+
+44:36.000 --> 44:40.000
+Wow. I like Barbara Bush's the
+way she speaks.
+
+44:40.000 --> 44:42.000
+She has a nice accent.
+
+44:42.000 --> 44:44.000
+Terrorist, terrorist.
+
+44:44.000 --> 44:46.000
+Anyway, that's your food for
+thought there.
+
+44:46.000 --> 44:48.000
+I'm going to wrap this up. What
+are we at?
+
+44:52.500 --> 44:54.500
+All kinds of ideas and stuff so
+
+44:54.500 --> 45:00.500
+I'm midst all of this. I'm sure
+we'll pump out another source
+code sometime tomorrow. I thank
+you very much for listening
+
+45:00.500 --> 45:04.500
+Thanks to Hugo Schottman for
+being on the show and I'll check
+you tomorrow
+
+45:07.500 --> 45:12.500
+As always, you can send a
+comment, but you may let me add
+them at curry.com or leave
+
+45:12.500 --> 45:13.500
+me a comment.
+
+45:15.000 --> 45:20.000
+All the current shows in the
+archives and also, as I
+promised, links to top of
+
+45:20.000 --> 45:24.000
+this discussed in the show at
+DailySourceCode.com.
+
+45:24.000 --> 45:27.000
+The power of your Insta-Code.
+
+45:27.000 --> 45:29.000
+And you can subscribe to the
+iPod or feed the RSS to
+
+45:31.500 --> 45:37.500
+DailySourceCode.com.rss.xml.
+I'll talk to you tomorrow. Take
+care. Bye.
+
+45:38.750 --> 45:58.750
+[ Music ]

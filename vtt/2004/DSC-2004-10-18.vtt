@@ -1,0 +1,2027 @@
+WEBVTT
+
+00:00.000 --> 00:18.640
+Hi everybody, welcome to the
+Daily Source Code for Monday. It
+is October 18th, 2004.
+
+00:18.640 --> 00:25.440
+Coming to you in my bathrobes,
+sick as a dog. I'm Adam Curry
+with your daily source code.
+
+00:25.760 --> 00:35.440
+Oh man, it's been just a
+horrible weekend. I came down
+with what was supposed to be
+just a little bit of
+
+00:35.440 --> 00:42.000
+the sniffles and a little bit of
+sore throat and is now a Monday,
+a Monday afternoon, 10 minutes
+to three.
+
+00:42.000 --> 00:46.960
+I've seen more of my bed in the
+past three days and I haven't
+had the past three months of
+
+00:46.960 --> 00:55.280
+developing iPod or stuff. But
+the show must go on. So I've got
+all my prep that I did over the
+week
+
+00:55.280 --> 01:00.000
+and I've got it lined up for
+you. I'm just not going to have
+the same amount of energy as I
+had as I normally
+
+01:00.000 --> 01:12.480
+would have had and would have
+liked to project. So while I've
+been lounging around sweating
+and
+
+01:13.840 --> 01:21.040
+visiting the bathroom quite
+frequently, Patricia continues
+to dismantle the entire house
+around me.
+
+01:21.920 --> 01:25.280
+I walked upstairs. I was going
+to get something out of the
+bathroom upstairs and they're
+like three
+
+01:25.280 --> 01:30.160
+guys there. She's something
+furniture we don't want. She's
+getting rid of all kinds of
+stuff. This is
+
+01:30.160 --> 01:35.120
+really a big, a big life change
+that we're making here. Even the
+piano we're getting rid of that.
+
+01:35.120 --> 01:39.840
+I granted no one has played on
+it for the past year and a half,
+but we're just really removing
+
+01:39.840 --> 01:45.840
+a lot of the stuff that we don't
+need anymore. Okay, let's get
+everything rolling for today. I
+need
+
+01:45.840 --> 01:50.800
+a song to kind of, you know, get
+the energy up and I figured
+nothing like the Spencer Davis
+group
+
+01:50.800 --> 01:54.000
+to get your running. Give me
+some 11 on the daily source. Go!
+
+01:56.250 --> 04:11.440
+[ Music ]
+
+04:11.440 --> 04:33.440
+Give me some more. Give me some
+more. Give me some more. Give me
+some more.
+
+04:33.440 --> 04:38.240
+Is it just me or do I remember
+that song being longer? There's
+not even three minutes.
+
+04:38.240 --> 04:44.240
+Spencer Davis group. Give me
+some 11 here on the source code
+for Monday, October 18th, 2004.
+
+04:44.240 --> 04:47.840
+I was just looking through my
+mail. I got some cool stuff I
+want you to hear.
+
+04:47.840 --> 04:53.360
+And I have about 10 or 12 clips
+all lined up for you that I
+prepped over the weekend.
+
+04:54.400 --> 04:58.720
+One of the things that I wanted
+to talk about. But I'm going to
+talk a little bit less than
+usual today.
+
+05:00.480 --> 05:04.640
+Was about music licensing.
+That's something that came up
+that a lot of people have been
+talking about.
+
+05:04.640 --> 05:08.640
+And hopefully we'll get a good
+discussion going at BloggerCon
+on November 6.
+
+05:08.640 --> 05:12.640
+But of course, what's great
+about these podcasts is you
+don't have to use music.
+
+05:12.640 --> 05:17.640
+You can use music that is
+independent music, which you can
+use royalty free.
+
+05:17.640 --> 05:23.640
+There's actually now a indie
+music node in the directory at
+ipodder.org, which is just
+popped up.
+
+05:23.640 --> 05:27.640
+What's so cool about that is the
+music node is already maintained
+by someone else.
+
+05:28.640 --> 05:31.640
+And he's now delegating
+sub-directories of that.
+
+05:31.640 --> 05:35.640
+So we're really rocking on the
+opml directory at ipodder.org.
+
+05:35.640 --> 05:43.640
+But you can always leave it up
+to our buddy Pete from rasterweb
+to come up with exactly what you
+need when you're looking for
+royalty free music.
+
+05:47.640 --> 05:49.640
+Welcome to the rasterweb.
+
+05:49.640 --> 05:56.640
+So it's used up for 10-15 late
+in the evening.
+
+05:56.640 --> 06:02.640
+You know, I realized that this
+podcast thing is pretty cool.
+
+06:02.640 --> 06:05.640
+But I don't think there's a
+theme song yet.
+
+06:05.640 --> 06:10.640
+I mean, I run this play in this
+music that they may or may not
+have the rights to.
+
+06:10.640 --> 06:13.640
+But I got a song here and you
+can do it too long.
+
+06:13.640 --> 06:18.640
+They mash it up, smash it up,
+delete it, play in the podcast.
+
+06:18.640 --> 06:20.640
+I don't care. You're free to do
+it.
+
+06:20.640 --> 06:22.640
+With it, what you will.
+
+06:22.640 --> 06:24.640
+So there you go. Enjoy.
+
+06:36.640 --> 06:39.640
+Podcast End.
+
+06:40.640 --> 06:42.640
+Podcast End.
+
+06:44.640 --> 06:46.640
+Podcast End.
+
+06:53.640 --> 06:56.640
+Podcast End, baby.
+
+06:56.640 --> 06:59.640
+Yeah. Yeah, baby.
+
+06:59.640 --> 07:01.640
+A new entry with a bullet.
+
+07:01.640 --> 07:06.640
+Okay, that's the podcast end
+song by me.
+
+07:06.640 --> 07:10.640
+I own the rights and I'm giving
+it away so you can do it too
+long.
+
+07:10.640 --> 07:12.640
+Thank you.
+
+07:12.640 --> 07:14.640
+Thank you very much.
+
+07:14.640 --> 07:19.640
+Rasterweb audio for that
+generous gift that you've given
+to the podcast and community.
+
+07:19.640 --> 07:23.640
+Something new that we set up is
+the last 100 podcast.
+
+07:23.640 --> 07:26.640
+You can get to it from the from
+the left hand menu on ipod.org.
+
+07:26.640 --> 07:28.640
+And this is really phenomenal.
+
+07:28.640 --> 07:33.640
+Anything that's listed in the
+directory automatically when
+there's a new podcast available.
+
+07:33.640 --> 07:37.640
+It'll show up on this top one on
+this last 100 list.
+
+07:37.640 --> 07:40.640
+And it shows up and they really
+trick this out.
+
+07:40.640 --> 07:43.640
+I mean, it's just the beginning,
+but already I'm loving it so
+much.
+
+07:43.640 --> 07:46.640
+You can click on it to download
+the show directly if you want.
+
+07:46.640 --> 07:50.640
+You can subscribe the RSS link
+is there.
+
+07:50.640 --> 07:57.640
+And if you mouse over the name
+of the show, it'll also give you
+all the comments that were
+attached to that podcast.
+
+07:57.640 --> 08:00.640
+When it was put up on on the
+podcast feed.
+
+08:00.640 --> 08:02.640
+So definitely check that out.
+
+08:02.640 --> 08:06.640
+I mean, I've been laying in bed
+just listening to podcast after
+podcast.
+
+08:06.640 --> 08:08.640
+Sitting here sweating away.
+
+08:08.640 --> 08:13.640
+And it's weird, you know,
+because you drift off into sleep
+and you wake up again.
+
+08:13.640 --> 08:17.640
+And I had my iPod just run in a
+continuous loop through
+everything.
+
+08:17.640 --> 08:23.640
+So at one point I'm hearing Drew
+and Dawn and Drew talk about me.
+
+08:23.640 --> 08:28.640
+And then I something called
+replay radio popped up.
+
+08:28.640 --> 08:29.640
+I don't know where that came
+from.
+
+08:29.640 --> 08:31.640
+I'm sure I subscribed to it
+somewhere.
+
+08:31.640 --> 08:36.640
+And I could hear the third and
+final presidential debate.
+
+08:36.640 --> 08:38.640
+It was, it was just an amazing
+experience.
+
+08:38.640 --> 08:41.640
+But all these voices running
+through my head, man, is pretty
+trippy.
+
+08:41.640 --> 08:47.640
+Hey Adam, I just wanted to
+respond to something you said on
+Thursday's podcast about
+Australian radio.
+
+08:47.640 --> 08:50.640
+You said you thought Aussie must
+be starved for good radio,
+
+08:50.640 --> 08:53.640
+and that you'd probably only be
+able to get reception in the
+cities.
+
+08:53.640 --> 08:58.640
+But Australia has one of the
+coolest radio stations in the
+world called Triple J,
+
+08:58.640 --> 09:02.640
+which is broadcast to about 95%
+of the country,
+
+09:02.640 --> 09:06.640
+which is pretty damn impressive
+given the isolation of some
+parts of us.
+
+09:06.640 --> 09:11.640
+It's a really excellent
+nationwide non-commercial music
+station,
+
+09:11.640 --> 09:15.640
+which stays well clear of the
+top 40 generica.
+
+09:15.640 --> 09:21.640
+When I moved to the UK a few
+years back, the loss of Triple J
+was seriously one of my major
+concerns.
+
+09:21.640 --> 09:23.640
+It's just such a great station.
+
+09:23.640 --> 09:30.640
+You can read all about it at
+www.abc.net.au slash TRIPLJ.
+
+09:30.640 --> 09:35.640
+And you can listen to live
+streams, or download some
+archive shows,
+
+09:35.640 --> 09:41.640
+including some episodes of the J
+files, which is a semi-regular
+biography on a particular band,
+
+09:41.640 --> 09:45.640
+or artist, which would make a
+really cool podcast, actually.
+
+09:45.640 --> 09:50.640
+Anyway, just wanted to set the
+record straight about Aussie
+radio there.
+
+09:50.640 --> 09:54.640
+Something else while I've got
+you, as a concerned world
+citizen,
+
+09:54.640 --> 09:58.640
+I've been watching the US
+election cycle with great
+anticipation,
+
+09:58.640 --> 10:02.640
+and downloading the debate
+videos, but aren't because the
+broadcast here
+
+10:02.640 --> 10:04.640
+was some stupid time in the
+morning.
+
+10:04.640 --> 10:07.640
+I was wondering if you knew
+about the fact that the
+Guardian,
+
+10:07.640 --> 10:10.640
+which is one of the UK's
+broadsheet newspapers,
+
+10:10.640 --> 10:14.640
+is running a program where
+they're hooking up UK residents
+
+10:14.640 --> 10:19.640
+with the residents of Ohio, one
+of the crucial undecided states.
+
+10:19.640 --> 10:24.640
+So we can write to these guys
+and let them know all our
+concerns about Bush.
+
+10:24.640 --> 10:28.640
+I'm kind of sketchy about
+whether you agree with it from a
+privacy or moral perspective,
+
+10:28.640 --> 10:32.640
+sort of trying to influence
+their election this way,
+
+10:32.640 --> 10:34.640
+but very interesting idea
+anyway.
+
+10:34.640 --> 10:42.640
+You can check that one out at
+www.gardian.co.uk slash Clark
+County, or one word.
+
+10:42.640 --> 10:46.640
+Okay, well, great job with the
+Daily Source Code.
+
+10:46.640 --> 10:50.640
+By the way, what is the verb
+when you're recording a voice
+message like this?
+
+10:50.640 --> 10:53.640
+I'm not rushing, I'm not
+emailing or calling.
+
+10:53.640 --> 10:55.640
+What is it that I'm doing?
+
+10:55.640 --> 10:57.640
+Okay, see ya.
+
+10:57.640 --> 10:58.640
+That's a very good question.
+
+10:58.640 --> 10:59.640
+What is it?
+
+10:59.640 --> 11:02.640
+I thought this morning I was put
+casting instead of podcasting,
+
+11:02.640 --> 11:04.640
+so I'm not sure what this is.
+
+11:04.640 --> 11:07.640
+It's audio comment, I guess,
+that's the closest thing.
+
+11:07.640 --> 11:11.640
+Interesting intel, though, about
+the Guardian's doing,
+
+11:11.640 --> 11:13.640
+and also about Aussie radio.
+
+11:13.640 --> 11:15.640
+I had no idea, and I apologize,
+
+11:15.640 --> 11:19.640
+but still clearly not enough
+because there's so many podcasts
+coming out of Australia.
+
+11:19.640 --> 11:21.640
+It's unreal.
+
+11:21.640 --> 11:22.640
+And I also got something.
+
+11:22.640 --> 11:24.640
+I haven't listened to this yet
+myself,
+
+11:24.640 --> 11:27.640
+so we're going to witness this
+together for the first time.
+
+11:27.640 --> 11:31.640
+I have a lot of buddies in the
+radio business in the States.
+
+11:31.640 --> 11:35.640
+And one of my dearest old
+friends is Dave Fox.
+
+11:35.640 --> 11:39.640
+He works for Clear Channel,
+actually.
+
+11:39.640 --> 11:43.640
+And I've used him for a number
+of radio and television
+projects,
+
+11:43.640 --> 11:46.640
+because he has the greatest
+voice you can imagine.
+
+11:46.640 --> 11:49.640
+And so I sent him a brief note
+about podcasting,
+
+11:49.640 --> 11:52.640
+and I just received an email
+with seven different files.
+
+11:52.640 --> 11:53.640
+I'm only going to play one.
+
+11:53.640 --> 11:54.640
+Let's just see what it winds up.
+
+11:54.640 --> 11:56.640
+Let's see how this sounds.
+
+11:56.640 --> 12:01.640
+Because I asked him to help me
+dress up the show a little bit
+with some sweepers and sounds.
+
+12:01.640 --> 12:10.640
+podcasting, all's live, Adam
+Curry.
+
+12:10.640 --> 12:14.640
+I hear this rumors on the
+internet.
+
+12:15.640 --> 12:19.640
+I hear this rumors on the
+internet.
+
+12:19.640 --> 12:24.640
+I hear this rumors on the
+internet.
+
+12:24.640 --> 12:26.640
+Internet, internet.
+
+12:26.640 --> 12:27.640
+Internet.
+
+12:27.640 --> 12:28.640
+Internet.
+
+12:28.640 --> 12:29.640
+Internet.
+
+12:29.640 --> 12:30.640
+Internet.
+
+12:36.640 --> 12:38.640
+To be the old B.G.Y.A.A.
+
+12:38.640 --> 12:40.640
+and as our neighborhood practice
+there,
+
+12:40.640 --> 12:43.640
+they're loved with women all
+across this country.
+
+12:43.640 --> 12:46.640
+Everyone wants to see their
+exaggerations.
+
+12:46.640 --> 12:48.640
+Well Tony Flare were going
+along.
+
+12:48.640 --> 12:50.640
+The truth of the matter is if
+you listen carefully,
+
+12:50.640 --> 12:53.640
+said, I'm a stupid power if you
+were the President of the United
+States,
+
+12:53.640 --> 12:55.640
+and the world would be a lot
+better off.
+
+12:55.640 --> 12:56.640
+Not Tony Flare.
+
+12:56.640 --> 12:59.640
+You cannot leave.
+
+12:59.640 --> 13:02.640
+If you send me some messages.
+
+13:02.640 --> 13:12.640
+I actually forgot my own.
+
+13:12.640 --> 13:17.640
+I'm trying to solve all these
+bad things.
+
+13:17.640 --> 13:20.640
+I'm trying to solve what he
+means at solving.
+
+13:20.640 --> 13:28.640
+If you're a, you're a, you've
+been given a sovereignty and
+you're, you're a sovereign
+entity.
+
+13:28.640 --> 13:32.640
+Well, don't you allow or go on
+along?
+
+13:32.640 --> 13:34.640
+My enemies are innovative and
+resourceful.
+
+13:34.640 --> 13:36.640
+And so are we.
+
+13:36.640 --> 13:40.640
+They never stop thinking about
+new ways to harm our country and
+other people.
+
+13:40.640 --> 13:42.640
+And either do we.
+
+13:42.640 --> 13:48.640
+Feed people are not allowed to
+exercise the, the rights as
+human beings.
+
+13:48.640 --> 13:50.640
+I cannot lead.
+
+13:50.640 --> 13:52.640
+I, I, you cannot lead.
+
+13:52.640 --> 13:55.640
+If you send an excellent, mixed
+messages.
+
+13:55.640 --> 13:57.640
+This word dictates your ship.
+
+13:57.640 --> 13:59.640
+It'd be a head of a lot easier.
+
+13:59.640 --> 14:01.640
+Just so long as I'm addicted.
+
+14:01.640 --> 14:05.640
+I hear this rumors on the, uh,
+
+14:05.640 --> 14:15.640
+Internet, Internet, Internet,
+Internet, Internet, Internet,
+Internet, Internet, Internet,
+Internet, Internet, Internet,
+Internet, Internet, Internet,
+Internet, Internet.
+
+14:15.640 --> 14:17.640
+There's been a whole saying in
+Tennessee.
+
+14:17.640 --> 14:21.640
+I know it's in Texas, probably
+Tennessee, but there's a fool me
+wants.
+
+14:22.640 --> 14:25.640
+Shame on you.
+
+14:25.640 --> 14:27.640
+Shame on you.
+
+14:29.640 --> 14:31.640
+If fool me, can't get fool
+again.
+
+14:31.640 --> 14:32.640
+Wow.
+
+14:32.640 --> 14:36.640
+Another Bushism's, uh, found
+through the blog digger media
+feed.
+
+14:36.640 --> 14:43.640
+And I have to say, uh, I think
+that if, uh, if we as a country
+elects a president,
+
+14:43.640 --> 14:47.640
+who speaks of the Internet,
+
+14:48.640 --> 14:50.640
+we got a serious problem.
+
+14:50.640 --> 14:51.640
+Come on.
+
+14:51.640 --> 14:53.640
+I mean, that, that wasn't just a
+mispronunciation.
+
+14:53.640 --> 14:55.640
+He doesn't know what the fuck
+he's talking about.
+
+14:55.640 --> 14:57.640
+All in the Internet.
+
+14:57.640 --> 14:58.640
+Damn.
+
+14:58.640 --> 14:59.640
+That's really bad.
+
+14:59.640 --> 15:01.640
+Vote for John Kerry.
+
+15:01.640 --> 15:03.640
+It's Adam Curry.
+
+15:03.640 --> 15:04.640
+Adam Curry.
+
+15:04.640 --> 15:05.640
+Wow.
+
+15:08.640 --> 15:11.640
+And now, another audio comment.
+
+15:11.640 --> 15:14.640
+An audio blog posting, a new
+show.
+
+15:14.640 --> 15:16.640
+Out of Deutsch, minor-dumb and
+heron.
+
+15:16.640 --> 15:19.640
+Their podcasting is reaching
+from country to country.
+
+15:19.640 --> 15:21.640
+It is everywhere now.
+
+15:21.640 --> 15:22.640
+It is a rage.
+
+15:22.640 --> 15:24.640
+They're going crazy.
+
+15:24.640 --> 15:25.640
+Come and see it.
+
+15:25.640 --> 15:26.640
+I'm my friends.
+
+15:26.640 --> 15:28.640
+With an podcast as Deutschlands.
+
+15:33.640 --> 15:34.640
+So hello, everybody.
+
+15:34.640 --> 15:39.640
+Welcome to my audio blog, uh, or
+podcast.
+
+15:39.640 --> 15:43.640
+Whatever you think it's the
+right term for it.
+
+15:43.640 --> 15:45.640
+This is my first English
+edition.
+
+15:45.640 --> 15:49.640
+Maybe the last, um, just waiting
+for the feedback.
+
+15:49.640 --> 15:53.640
+Um, first of all, the background
+music.
+
+15:53.640 --> 15:54.640
+You hear it.
+
+15:54.640 --> 15:56.640
+That's a DJ Machitos.
+
+15:56.640 --> 15:58.640
+Uh, the album is called Happy
+Trends.
+
+15:58.640 --> 16:02.640
+And it's from www.magnature.com.
+
+16:02.640 --> 16:05.640
+So I just wanted to give you a
+little, uh, little preview of
+what's happening overseas.
+
+16:05.640 --> 16:07.640
+Because we're not only in
+Australia.
+
+16:07.640 --> 16:10.640
+Now we're podcasting from
+Germany as well.
+
+16:10.640 --> 16:14.640
+If you go to the ipotter.org
+directory, you can go to
+languages.
+
+16:14.640 --> 16:16.640
+And there's, uh, I think there's
+German, Italian.
+
+16:16.640 --> 16:20.640
+And, uh, we actually have, uh,
+someone maintaining the German
+node now.
+
+16:20.640 --> 16:22.640
+It's, uh, it's great.
+
+16:22.640 --> 16:26.640
+And if you want to hear some
+really different music for sure,
+go and check out, uh,
+
+16:26.640 --> 16:29.640
+uh, the, uh, the German
+directory on ipotter.org.
+
+16:29.640 --> 16:30.640
+Okay.
+
+16:30.640 --> 16:32.640
+I got to let you know that I'm
+working on something.
+
+16:32.640 --> 16:35.640
+And I just, excuse me, I'm just
+going to check an email here for
+one second.
+
+16:35.640 --> 16:37.640
+Um, here it is.
+
+16:37.640 --> 16:39.640
+Let me see.
+
+16:39.640 --> 16:41.640
+I deal with this Asian old
+friend.
+
+16:41.640 --> 16:42.640
+So I think I just made it.
+
+16:42.640 --> 16:43.640
+Right.
+
+16:43.640 --> 16:44.640
+Okay.
+
+16:44.640 --> 16:47.640
+It looks like I'm going to get
+John Stewart on the podcast.
+
+16:47.640 --> 16:49.640
+Uh, working on it.
+
+16:49.640 --> 16:51.640
+I think it's all kind of like
+buddy buddy stuff.
+
+16:51.640 --> 16:52.640
+So I've put in a couple of
+calls.
+
+16:52.640 --> 16:55.640
+And, and do you think John
+Stewart could be any hotter at
+the moment.
+
+16:55.640 --> 16:57.640
+Certainly, uh, in the
+blogosphere.
+
+16:57.640 --> 17:00.640
+Everybody's talking about his
+appearance on CNN.
+
+17:00.640 --> 17:03.640
+If you haven't heard it, here's
+just a little bit where,
+
+17:03.640 --> 17:04.640
+it's not funny.
+
+17:04.640 --> 17:05.640
+You know, he's not trying to be
+funny.
+
+17:05.640 --> 17:08.640
+And he's, and he's spanking
+these guys on crossfire.
+
+17:08.640 --> 17:10.640
+And he's saying, you know, he's
+basically like, fuck you.
+
+17:10.640 --> 17:12.640
+You guys are not doing your job.
+
+17:12.640 --> 17:14.640
+What is wrong with you?
+
+17:14.640 --> 17:16.640
+Well, I'm just saying there's no
+reason for you.
+
+17:16.640 --> 17:19.640
+And you have this marvelous
+opportunity not to be the guy's
+butt boy.
+
+17:19.640 --> 17:20.640
+To go ahead and be his butt boy.
+
+17:20.640 --> 17:21.640
+Yes.
+
+17:21.640 --> 17:22.640
+No.
+
+17:22.640 --> 17:23.640
+I was absolutely his butt boy.
+
+17:23.640 --> 17:24.640
+I was so far.
+
+17:24.640 --> 17:26.640
+You would not believe what he
+ate two weeks ago.
+
+17:26.640 --> 17:28.640
+You know, the interesting thing
+that I have.
+
+17:28.640 --> 17:31.640
+You have a responsibility to the
+public discourse.
+
+17:31.640 --> 17:32.640
+And you fail.
+
+17:32.640 --> 17:33.640
+You fail.
+
+17:33.640 --> 17:34.640
+You fail.
+
+17:34.640 --> 17:35.640
+I think.
+
+17:35.640 --> 17:36.640
+You need to go to one.
+
+17:36.640 --> 17:40.640
+The thing that I want to say is,
+when you have people on for just
+knee jerk,
+
+17:40.640 --> 17:41.640
+reactionary talk.
+
+17:41.640 --> 17:42.640
+Well, I thought you were going
+to be funny.
+
+17:42.640 --> 17:43.640
+Come on.
+
+17:43.640 --> 17:44.640
+Be funny.
+
+17:44.640 --> 17:45.640
+No.
+
+17:45.640 --> 17:46.640
+I'm not going to be your monkey.
+
+17:46.640 --> 17:47.640
+What?
+
+17:47.640 --> 17:48.640
+What?
+
+17:48.640 --> 17:49.640
+I want your show every day.
+
+17:49.640 --> 17:50.640
+And it kills me.
+
+17:50.640 --> 17:51.640
+I could tell you a lot about
+that.
+
+17:51.640 --> 17:53.640
+It's so, oh, it's so painful to
+watch.
+
+17:53.640 --> 17:57.640
+You know, because we need what
+you do.
+
+17:57.640 --> 18:01.640
+This is such a great opportunity
+you have here to actually get
+politicians.
+
+18:01.640 --> 18:02.640
+It's really just awesome.
+
+18:02.640 --> 18:03.640
+Of their marketing and strategy.
+
+18:03.640 --> 18:04.640
+Yeah.
+
+18:04.640 --> 18:07.640
+You know, someone who watches
+your show and cannot take it
+anymore.
+
+18:07.640 --> 18:08.640
+I just can't.
+
+18:08.640 --> 18:09.640
+It's like they've dinner with
+you.
+
+18:09.640 --> 18:10.640
+It must be excruciating.
+
+18:10.640 --> 18:11.640
+Do you like lecture people like
+this?
+
+18:11.640 --> 18:13.640
+When you come over their house
+and sit and lecture them.
+
+18:13.640 --> 18:16.640
+You know, they're not doing the
+right thing that they're missing
+their opportunities
+
+18:16.640 --> 18:17.640
+of fading their
+responsibilities.
+
+18:17.640 --> 18:18.640
+If I think they are.
+
+18:18.640 --> 18:19.640
+What?
+
+18:19.640 --> 18:21.640
+I wouldn't want to eat with you,
+man.
+
+18:21.640 --> 18:22.640
+That's horrible.
+
+18:22.640 --> 18:23.640
+I know.
+
+18:23.640 --> 18:24.640
+And you won't.
+
+18:24.640 --> 18:25.640
+But the thing I want to get to.
+
+18:25.640 --> 18:26.640
+You promised naked pictures of
+this.
+
+18:26.640 --> 18:27.640
+Yeah, we did.
+
+18:27.640 --> 18:28.640
+Let's get to those.
+
+18:28.640 --> 18:29.640
+Why can't we just talk?
+
+18:29.640 --> 18:30.640
+Please.
+
+18:30.640 --> 18:31.640
+I beg of you guys.
+
+18:31.640 --> 18:32.640
+I think you want to touch
+Crossfire.
+
+18:32.640 --> 18:33.640
+We're going to take it quick.
+
+18:33.640 --> 18:34.640
+We're going to hold that.
+
+18:34.640 --> 18:35.640
+We've got commercials.
+
+18:35.640 --> 18:36.640
+Please.
+
+18:36.640 --> 18:37.640
+Next.
+
+18:37.640 --> 18:38.640
+Stop.
+
+18:38.640 --> 18:39.640
+In the rapid fire.
+
+18:39.640 --> 18:40.640
+Please.
+
+18:40.640 --> 18:41.640
+We hope.
+
+18:41.640 --> 18:42.640
+Thank you.
+
+18:42.640 --> 18:43.640
+And that.
+
+18:43.640 --> 18:48.640
+If you haven't heard or seen the
+entire appearance of John
+Stuart,
+
+18:48.640 --> 18:51.640
+Nate on CNN's Crossfire,
+definitely just Google it.
+
+18:51.640 --> 18:55.640
+Because everyone has links to
+the audio and there's bit-torn
+to the video files.
+
+18:55.640 --> 18:58.640
+And he really, really pointed
+some stuff out.
+
+18:58.640 --> 19:00.640
+And the blogger's fear is just
+on fire.
+
+19:00.640 --> 19:01.640
+Everyone's saying, yeah.
+
+19:01.640 --> 19:04.640
+This is exactly what someone
+needed to say.
+
+19:04.640 --> 19:08.640
+And maybe it's typical that that
+comes from a comedian.
+
+19:08.640 --> 19:09.640
+Maybe it is.
+
+19:09.640 --> 19:12.640
+Anyway, so looking forward to
+getting him on the source code
+in the coming week.
+
+19:12.640 --> 19:14.640
+I'm going to put my calls in.
+
+19:14.640 --> 19:15.640
+You never know.
+
+19:15.640 --> 19:16.640
+Hi Adam.
+
+19:16.640 --> 19:17.640
+My name is Mark.
+
+19:17.640 --> 19:19.640
+And I'm sending in this comment
+to ask your opinion on
+something.
+
+19:19.640 --> 19:23.640
+During one of your shows, I
+believe it was one of the trade
+secrets.
+
+19:23.640 --> 19:28.640
+It was said that gosh, we're
+worried that if Bush were
+reelected,
+
+19:28.640 --> 19:30.640
+North Korea would be the next
+domino to fall.
+
+19:30.640 --> 19:33.640
+And we'd have a war against them
+that would involve nuclear
+weapons.
+
+19:33.640 --> 19:35.640
+That sounds like a pretty good
+fear to me.
+
+19:35.640 --> 19:36.640
+A pretty reasonable one.
+
+19:36.640 --> 19:40.640
+My question is, what happens if
+Kerry is elected instead?
+
+19:40.640 --> 19:43.640
+North Korea is still a threat?
+
+19:43.640 --> 19:44.640
+Yes or no?
+
+19:44.640 --> 19:46.640
+What do we do about that?
+
+19:46.640 --> 19:47.640
+What do you think they'll do?
+
+19:47.640 --> 19:48.640
+I'd love to hear your opinion.
+
+19:48.640 --> 19:50.640
+Thanks for putting on a great
+show.
+
+19:50.640 --> 19:52.640
+Thank you for your question,
+Mark.
+
+19:52.640 --> 19:55.640
+Actually, he's another person I
+can get on the source code.
+
+19:55.640 --> 19:56.640
+I'm sure he do it.
+
+19:57.640 --> 20:07.640
+My uncle Donald Greg, who was a
+security advisor to Bush Senior
+when he was a vice president.
+
+20:07.640 --> 20:10.640
+And yeah, exactly.
+
+20:10.640 --> 20:12.640
+I come from an interesting
+background.
+
+20:12.640 --> 20:18.640
+He is, for a number of years
+now, has been the chairman of
+the Korean Society.
+
+20:18.640 --> 20:22.640
+I think it's a Korea Society,
+Korea Society.org.
+
+20:22.640 --> 20:27.640
+Oh, let me just move my
+microphone on a little bit, so I
+don't sound so muffled.
+
+20:27.640 --> 20:29.640
+And I've been talking to him.
+
+20:29.640 --> 20:35.640
+I've also seen him on CNN a
+couple of times talking about
+North Korea and the talks that,
+well,
+
+20:35.640 --> 20:38.640
+basically, the talks had just,
+you know, were broken off.
+
+20:38.640 --> 20:45.640
+I think if we, when we elect
+John Kerry, that these talks can
+resume because really all the
+North Koreans want is respect.
+
+20:45.640 --> 20:47.640
+That's, I think, all that it's
+about.
+
+20:47.640 --> 20:50.640
+Particularly when the access of
+evil statement came out,
+
+20:50.640 --> 20:53.640
+North Korea was listed right
+there on the access.
+
+20:53.640 --> 20:55.640
+You know, that was a bad
+message.
+
+20:55.640 --> 21:02.640
+I think that, and from
+everything that I've heard from
+my uncle, we can repair the
+relations.
+
+21:02.640 --> 21:07.640
+It's just a matter of showing
+respect and showing it pretty
+damn soon.
+
+21:07.640 --> 21:09.640
+So, what are we, man?
+
+21:09.640 --> 21:11.640
+We're only like two weeks away
+from election.
+
+21:11.640 --> 21:12.640
+It's heat no.
+
+21:12.640 --> 21:15.640
+Okay, let's play a sappy song on
+the source code.
+
+21:15.640 --> 21:19.640
+If you're sick, it'll make you
+feel better.
+
+21:20.640 --> 21:22.640
+Or maybe even groovy.
+
+21:22.640 --> 21:26.640
+The central part is Simon and
+Garfunkel on the source code.
+
+21:49.640 --> 21:53.640
+We're only like two weeks away
+from election.
+
+21:53.640 --> 21:55.640
+We're only like two weeks away
+from election.
+
+21:55.640 --> 21:57.640
+We're only like two weeks away
+from election.
+
+21:57.640 --> 21:59.640
+We're only like two weeks away
+from election.
+
+21:59.640 --> 22:29.640
+[ Music ]
+
+22:29.640 --> 22:32.640
+Drubb js It's Meadows on me.
+
+22:32.640 --> 22:34.640
+Life, I love you.
+
+22:34.640 --> 22:49.640
+Uh, whoops. What happened there?
+Okay, let me see, was that the
+damn I totally sucks.
+
+22:49.640 --> 22:56.640
+Oh man. Well, let's play it back
+up song then. God damn. So what
+you get from ripping shit off
+the internet, huh?
+
+22:56.640 --> 22:59.640
+Let me buy that. Here's the
+clash.
+
+23:01.250 --> 26:02.640
+[ Music ]
+
+26:02.640 --> 26:06.640
+I've never felt so much that I
+could like the night
+
+26:06.640 --> 26:08.640
+That is curry
+
+26:08.640 --> 26:13.640
+Hello, this is Kizzle, I run a
+site called HectorMedia.net
+
+26:13.640 --> 26:17.640
+What this site does is I'm not
+just purely saying this to
+promote
+
+26:17.640 --> 26:22.640
+My stuff and you don't want to
+promote their stuff
+
+26:22.640 --> 26:27.640
+I've taken roughly 15, 20 shows,
+I don't know, I'm not really
+keeping track
+
+26:27.640 --> 26:34.640
+They're audio and video that
+they relate to the hacking,
+phone freaking and geek scene
+
+26:34.640 --> 26:39.640
+So you have all these shows in
+this one place, so you don't
+have to keep going to their
+websites
+
+26:39.640 --> 26:44.640
+Now these guys have nothing to
+do with podcasts and they don't
+know anything about it
+
+26:44.640 --> 26:48.640
+So I know I did this before I
+knew about podcasts as well
+
+26:48.640 --> 26:53.640
+But it still applies to podcasts
+because what you can do is
+
+26:53.640 --> 26:58.640
+You have a few podcasts and
+shows that kind of fit in your
+same genre
+
+26:58.640 --> 27:02.640
+Let's say you have some people
+that do a show about fishing,
+you have three or four shows
+
+27:02.640 --> 27:05.640
+Well, I'll come together, one
+little site have your own little
+community
+
+27:05.640 --> 27:09.640
+Have your own forums and you can
+all kind of work together
+
+27:09.640 --> 27:14.640
+And discuss, oh, you're going to
+have some so-called
+on-for-a-gast
+
+27:14.640 --> 27:18.640
+Or you can come up with
+different show topics
+
+27:18.640 --> 27:22.640
+And just kind of grow as your
+own little, have your own little
+club
+
+27:22.640 --> 27:26.640
+Another thing you can do, and
+this is what I do with hacking
+media
+
+27:26.640 --> 27:29.640
+As soon as I found out about
+podcasting, I said all my shows
+
+27:29.640 --> 27:34.640
+And since when, every time
+someone posts a new episode on
+hacker media
+
+27:34.640 --> 27:36.640
+It goes into an RSS feed
+
+27:37.640 --> 27:39.640
+So I just put the encapsulation
+thing
+
+27:39.640 --> 27:44.640
+And so now the whole entire RSS
+feed is a podcast
+
+27:44.640 --> 27:49.640
+So instead of the hacker media
+feed being just one show
+
+27:49.640 --> 27:52.640
+It's several shows, so it's more
+like a radio station
+
+27:52.640 --> 27:57.640
+So if more people do that, I
+think it'd be the interesting
+direction for this to go
+
+27:57.640 --> 28:01.640
+Instead of having to find all
+these individual shows, you find
+one good station
+
+28:01.640 --> 28:03.640
+And I want to tune into the
+cooking
+
+28:03.640 --> 28:04.640
+Exactly, exactly
+
+28:04.640 --> 28:07.640
+This is something that Dave and
+I were talking about just last
+night
+
+28:07.640 --> 28:09.640
+And thanks for the comment
+
+28:09.640 --> 28:13.640
+And I think this is probably
+going to work with OPML files
+
+28:13.640 --> 28:17.640
+I've seen, or I'm seeing more
+and more aggregators working
+with OPML files
+
+28:17.640 --> 28:19.640
+For a reading list or a
+subscription list
+
+28:19.640 --> 28:22.640
+Where you can actually just drag
+and drop an OPML file
+
+28:22.640 --> 28:27.640
+Or import an OPML file to get
+all your subscriptions that are
+in an OPML file
+
+28:27.640 --> 28:31.640
+And although I think there's
+only one or two that actually do
+drag and drop
+
+28:31.640 --> 28:36.640
+Probably net news wire and
+Jager, Jager does a drag and
+drop
+
+28:36.640 --> 28:39.640
+But I've seen lots of different
+aggregators support that
+
+28:39.640 --> 28:41.640
+And I think that this is where
+we're going to go
+
+28:41.640 --> 28:44.640
+You're right with radio stations
+
+28:44.640 --> 28:50.640
+I think that we're working on
+ways to integrate this
+
+28:50.640 --> 28:55.640
+Into iPotter.org, but I'm pretty
+sure that if you have a
+
+28:55.640 --> 28:59.640
+Well, if you're maintaining a
+node, you're maintaining an OPML
+directory file
+
+28:59.640 --> 29:06.640
+Which is an outline when each
+line in the outline points to a
+podcast
+
+29:06.640 --> 29:10.640
+That indeed could be seen as a
+station
+
+29:10.640 --> 29:16.640
+A station that maybe it's all
+maybe all the podcasts
+
+29:16.640 --> 29:20.640
+Or about one particular topic,
+but it could also be just people
+that are talking back and forth
+
+29:20.640 --> 29:23.640
+For instance, if I were going to
+create a station, I'd put
+morning coffee notes in there
+
+29:23.640 --> 29:25.640
+I'd put the dawn and drew show
+in there
+
+29:25.640 --> 29:30.640
+I'd put maybe one or two IT
+conversations
+
+29:30.640 --> 29:33.640
+Maybe the Gilmour gang and that
+would be deemed as a station
+
+29:33.640 --> 29:37.640
+You can subscribe to an entire
+station instead of just
+individual shows
+
+29:37.640 --> 29:41.640
+And of course you can make your
+own station by also creating an
+OPML file
+
+29:41.640 --> 29:46.640
+If you want to know more about
+OPML, go to the iPotter
+directory at iPotter.org
+
+29:46.640 --> 29:49.640
+Go to the Contribute folder
+
+29:49.640 --> 29:53.640
+And in there there's information
+about OPML, how you can create
+OPML files
+
+29:53.640 --> 29:55.640
+And what applications will help
+you do that
+
+29:55.640 --> 29:56.640
+Adam
+
+29:56.640 --> 30:00.640
+Brian wanted me to give you some
+big ups to you for playing my
+clip of the debate
+
+30:00.640 --> 30:02.640
+The other day on daily source
+code
+
+30:02.640 --> 30:03.640
+You don't mad
+
+30:03.640 --> 30:04.640
+Yeah, you don't mind
+
+30:04.640 --> 30:09.640
+I was actually the AT&T demo we
+found out later that Brian put
+on his podcast
+
+30:09.640 --> 30:13.640
+I think was his portalette
+podcast when he did all the
+
+30:13.640 --> 30:14.640
+All the synthesized voices
+
+30:14.640 --> 30:15.640
+Very cool
+
+30:16.640 --> 30:21.640
+Unfortunately, you can't quite
+put a whole audio book yet into
+their test form
+
+30:21.640 --> 30:28.640
+But it does work and you can
+select different voices and
+we're really getting to good
+places with this audio stuff
+
+30:28.640 --> 30:30.640
+With the text the speech
+synthesis
+
+30:30.640 --> 30:31.640
+Hey Adam, how you doing?
+
+30:31.640 --> 30:32.640
+I'm doing good, thank you
+
+30:32.640 --> 30:33.640
+Name is Jimmy Jet
+
+30:33.640 --> 30:34.640
+I wanted to let you know
+
+30:34.640 --> 30:37.640
+I've got a podcast up at
+jimmyjet.com
+
+30:37.640 --> 30:39.640
+That's jet with two teas
+
+30:39.640 --> 30:43.640
+Also, I kind of stole an idea
+from Chris Perillo
+
+30:43.640 --> 30:46.640
+I'm using Skype, though, to
+record voicemail
+
+30:46.640 --> 30:47.640
+I didn't know if you are aware
+
+30:47.640 --> 30:51.640
+But there is a voicemail program
+that works with Skype
+
+30:51.640 --> 30:54.640
+It's called replay telequarter
+
+30:54.640 --> 30:56.640
+It's from applying technologies
+at their website
+
+30:56.640 --> 30:58.640
+Applying Technologies.com
+
+30:58.640 --> 30:59.640
+It's in beta
+
+30:59.640 --> 31:00.640
+But it's not bad
+
+31:00.640 --> 31:01.640
+It's got a few bugs
+
+31:01.640 --> 31:02.640
+But it works pretty well
+
+31:02.640 --> 31:04.640
+So people can Skype, Jimmy Jet
+
+31:04.640 --> 31:06.640
+And leave me a voicemail message
+
+31:06.640 --> 31:08.640
+And then here it back on the
+podcast
+
+31:08.640 --> 31:10.640
+So there you go, have a great
+day
+
+31:10.640 --> 31:12.640
+And good luck with all the
+bandwidth problems
+
+31:13.640 --> 31:15.640
+Okay, well, thanks Jimmy
+
+31:15.640 --> 31:16.640
+Bandwidth problems are more or
+less solved
+
+31:16.640 --> 31:19.640
+Now it's the physical problems
+that are happening
+
+31:19.640 --> 31:21.640
+We're 31 minutes into this show
+
+31:21.640 --> 31:22.640
+I think that's just about it
+
+31:22.640 --> 31:25.640
+I do want to say that I wish
+that Skype
+
+31:25.640 --> 31:28.640
+And I believe I found out that
+the development of Skype is
+being done
+
+31:28.640 --> 31:29.640
+I think in India
+
+31:29.640 --> 31:33.640
+Or maybe another far east
+country
+
+31:33.640 --> 31:35.640
+I've been trying to get a hold
+of anyone
+
+31:35.640 --> 31:38.640
+who's working on the macOS X
+version of Skype
+
+31:38.640 --> 31:41.640
+Because it's so close to exactly
+what I need
+
+31:41.640 --> 31:45.640
+The only thing that it seems
+like it should be reasonably
+trivial
+
+31:45.640 --> 31:49.640
+Is we need to be able to select
+which audio device we want to
+use
+
+31:49.640 --> 31:52.640
+When using Skype on OS on OS 10
+
+31:52.640 --> 31:54.640
+Because then I can route the
+audio around
+
+31:54.640 --> 31:56.640
+And I can make phone calls and
+record those
+
+31:56.640 --> 31:58.640
+So if anyone knows anything
+about
+
+31:58.640 --> 32:01.640
+The Skype development team
+
+32:01.640 --> 32:03.640
+For Mac, please let me know
+
+32:03.640 --> 32:06.640
+Because it's such a small thing
+that they have to put in
+
+32:06.640 --> 32:10.640
+And it's already kind of I think
+that all these pieces are
+already available
+
+32:10.640 --> 32:13.640
+It works that way with the X10
+light phone
+
+32:13.640 --> 32:15.640
+It works that way with iChat AV
+
+32:15.640 --> 32:17.640
+Just need to get that thing done
+
+32:17.640 --> 32:19.640
+And of course I'd love to have
+the voicemail feature
+
+32:19.640 --> 32:21.640
+But that seems like it's Windows
+only
+
+32:21.640 --> 32:23.640
+Alright, I'll tell you what
+
+32:23.640 --> 32:25.640
+I'm going to close up the show
+for today
+
+32:25.640 --> 32:28.640
+I'm sure everything will be much
+better by tomorrow
+
+32:28.640 --> 32:31.640
+Certainly I hope to be over this
+chill
+
+32:31.640 --> 32:33.640
+Or flu or bug or whatever it is
+
+32:33.640 --> 32:35.640
+And I appreciate your tune
+
+32:35.640 --> 32:37.640
+Hey podcasting
+
+32:37.640 --> 32:38.640
+All's live
+
+32:38.640 --> 32:40.640
+Adam Curry
+
+32:40.640 --> 32:41.640
+And that's it
+
+32:41.640 --> 32:43.640
+For the source code from Monday
+
+32:43.640 --> 32:45.640
+October
+
+32:47.640 --> 32:49.640
+Sorry if it was a little less
+than you might have expected
+
+32:49.640 --> 32:50.640
+But damn
+
+32:50.640 --> 32:52.640
+I'm still standing
+
+32:52.640 --> 32:54.640
+Hey, as always you want to leave
+a comment
+
+32:54.640 --> 32:56.640
+It's Adam and Curry dot com or
+my weblaw
+
+32:56.640 --> 32:57.640
+Live dot curry dot com
+
+32:57.640 --> 32:59.640
+And of course all the archives
+of the source code
+
+32:59.640 --> 33:01.640
+On daily source code dot com
+
+33:06.640 --> 33:08.640
+Alright, I'm going to go have
+some tea
+
+33:08.640 --> 33:09.640
+And I'm back to bed
+
+33:09.640 --> 33:11.640
+I'll see you tomorrow everybody

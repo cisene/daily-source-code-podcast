@@ -1,0 +1,1671 @@
+WEBVTT
+
+00:00.000 --> 00:13.840
+Welcome to the podcast from the
+Kate and Jid is the daily source
+code this is where
+
+00:13.840 --> 00:20.720
+users and developers party
+together hold on hold on I see
+you over there developer come on
+out come on join the party
+
+00:21.360 --> 00:24.080
+you users over there on the left
+come on out on the dance floor
+
+00:24.080 --> 00:32.320
+today is Wednesday it's December
+1st 2004 we're supposed to say
+rabbit rabbit bunny bunny
+
+00:32.320 --> 00:35.920
+whatever the heck it is it's
+supposed to bring you good luck
+and I wish all of that for all
+of you
+
+00:36.720 --> 00:41.600
+coming to you from the United
+Kingdom where we're learning
+more about local culture every
+single day
+
+00:41.600 --> 00:47.360
+this is your daily source code
+I'm Adam Curry it is seven
+minutes till 10 in the evening
+
+00:47.360 --> 00:51.840
+I'm still a bit behind on my
+production schedule that of
+course is because of the
+
+00:51.840 --> 00:56.800
+complete lack of bandwidth more
+about that later on in the show
+because I do have some good news
+to
+
+00:56.800 --> 01:07.040
+report when it comes to DS 3
+letters of the album that are so
+important to me well that
+
+01:07.040 --> 01:18.400
+and KLA I guess that's still
+important maybe see easy is one
+two three okay I kind of a
+
+01:18.480 --> 01:24.880
+sad note to start off on for
+today's daily source code we've
+been waiting for it and then
+
+01:24.880 --> 01:31.120
+I know that sounds kind of
+macabre but the Netherlands has
+been waiting for quite a while
+and finally
+
+01:32.720 --> 01:43.840
+father of the Dutch Queen
+Beatrix died today at 93 we're
+an artist we know was diagnosed
+with cancer
+
+01:43.840 --> 01:49.920
+in November last week tumors had
+spread to his stomach lungs
+causing a great difficulty with
+breathing
+
+01:49.920 --> 01:58.880
+he'd really been on the edge of
+life for probably at least five
+to ten years so it wasn't
+
+01:58.880 --> 02:05.120
+didn't come as a as a complete
+surprise but still very sad day
+and the whole country is in
+
+02:05.120 --> 02:09.920
+mourning and the country has had
+a lot to mourn recently you know
+that of course the death of
+
+02:09.920 --> 02:17.920
+Theo von Hoch, the Dutch
+filmmaker before that two years
+ago Pimfortan politician in the
+meantime
+
+02:17.920 --> 02:24.880
+close the the Queen's husband
+passed away and now her dad so
+she's also having she's not
+having
+
+02:24.880 --> 02:31.760
+a very good year that's for sure
+and and Bernard was an
+interesting character I'll just
+tell you
+
+02:31.760 --> 02:37.920
+a little bit about him that I
+know you probably heard of him
+in relation to the Lockheed
+scandal apparently
+
+02:38.560 --> 02:44.560
+the allegation was that he took
+some kind of bribe to get
+Lockheed some business with the
+F-14 I
+
+02:44.560 --> 02:49.920
+think it was and he took a
+million dollar bribe but I'm not
+too sure if that was ever
+successfully
+
+02:49.920 --> 02:55.200
+proven and and what exactly that
+was about I certainly don't
+think he needed a million
+dollars I
+
+02:55.200 --> 03:04.000
+think the royal family is
+wealthy enough the prince set up
+the world wildlife fund and that
+you know
+
+03:04.080 --> 03:09.840
+the you probably recognize the
+logo by the panda bear so he's
+done a lot of work with that he
+
+03:09.840 --> 03:15.040
+also was one of the founders of
+the building bird group I think
+he might have had something
+
+03:15.040 --> 03:19.200
+to do with the Paris club as
+well very very influential on
+the on the young the huge
+
+03:20.320 --> 03:28.560
+uber scale of money in the world
+and the prince always wore an
+orange flower a red flower I'm
+
+03:28.560 --> 03:36.000
+sorry was it red flower no white
+flower a white flower there you
+go god I really I really know
+
+03:36.000 --> 03:41.040
+what I'm talking about and rumor
+has a religion has it that he
+also drank a glass of honey
+
+03:41.040 --> 03:45.200
+can beer every single morning
+for breakfast of course it being
+a fine-dutch product but he also
+
+03:45.200 --> 03:50.080
+said that it really got him
+going was very healthy to have a
+glass of beer one glass of beer
+in the
+
+03:50.080 --> 03:56.080
+morning at breakfast or maybe
+just after breakfast any loved
+his cars he had Ferrari's lots
+of
+
+03:56.080 --> 04:01.520
+Ferrari's later in his life he
+didn't drive himself but he'd
+have his driver drive his
+Ferrari and
+
+04:01.520 --> 04:06.560
+it's it next to him and he was
+rumored to have women all over
+the world and a couple of
+village
+
+04:06.560 --> 04:10.880
+other illegitimate children you
+know exactly what you want from
+your prince you know he was in
+
+04:10.880 --> 04:18.080
+all I think was really cool and
+we will certainly certainly miss
+him on the on the political
+
+04:18.080 --> 04:24.640
+and on the royalty scene as well
+okay moving right along from
+death let's go on to what
+happened this
+
+04:24.640 --> 04:31.840
+morning nine o'clock my phone
+started ringing and it was the
+BBC I guess my number is now
+
+04:31.840 --> 04:39.360
+known at the BBC and so anyone
+who works at the BBC gives me a
+call this was lovely lady from
+
+04:39.360 --> 04:43.200
+BBC world now I used to listen
+to the world service all the
+time when I was especially when
+I was
+
+04:43.200 --> 04:47.680
+commuting back and forth between
+Belgium and and the Netherlands
+the radio studio in the morning
+
+04:47.680 --> 04:52.240
+I really like to listen to it
+and it has an incredible reach
+the entire world does literally
+
+04:52.240 --> 04:57.280
+tune into the BBC world service
+and so they said well we want to
+do a segment on podcasting
+
+04:57.280 --> 05:03.280
+and we'd like to do that at 12
+25 this morning like okay so who
+dropped out you know who
+couldn't
+
+05:03.280 --> 05:10.080
+make it no no no this will be
+perfect and you know whatever so
+I said well you know I can call
+
+05:10.080 --> 05:15.520
+in or whatever you said oh no we
+have a studio and gilford of
+course you do so even though
+
+05:15.520 --> 05:21.200
+their main studios in London
+they have a studio which is
+actually a part of the BBC SCR
+which is
+
+05:21.200 --> 05:28.400
+South Coast radio learned about
+that yesterday as I got a little
+education on the FM dial that I
+
+05:28.400 --> 05:36.080
+had scanned and they do have a
+studio right on the campus of
+Surrey University and so she
+said oh I
+
+05:36.080 --> 05:40.080
+have a card pick you up and the
+car was going to come at a
+quarter to 12 excuse me I'm a
+
+05:40.080 --> 05:50.800
+one a day remember there we go
+so the car was going to come
+pick me up at a quarter to 12
+
+05:50.800 --> 05:55.920
+like 10 after 12 I figured I'm
+going to call and and Marion
+called me and said no well the
+
+05:55.920 --> 06:01.600
+driver's sitting outside your
+house said no he's not wrong
+address you figured it out so
+
+06:01.600 --> 06:07.360
+finally what happens is you know
+real nice guy cab driver races
+you know off with me to get to
+
+06:07.360 --> 06:13.120
+the studio on time get into the
+studio do the thing do a live
+bit it was good you know the
+basic
+
+06:13.120 --> 06:18.960
+simple questions what is
+podcasting where is it going
+what do you think blah blah so
+did that bit
+
+06:18.960 --> 06:24.960
+and then waited around a little
+bit for a car to drive me back
+and I was back around 115 and
+
+06:25.920 --> 06:31.120
+that was just the beginning of
+the day then I helped Patricia
+we cleared out the dining room
+which
+
+06:31.120 --> 06:35.520
+was basically filled with
+paintings had to put all of
+those up in the attic because we
+just don't
+
+06:35.520 --> 06:39.520
+have enough space for all of our
+collection so we we've made some
+choices what we're going to hang
+
+06:39.520 --> 06:46.400
+up in the cottage so spent a lot
+of time moving stuff up from
+downstairs up to the attic
+taking
+
+06:46.400 --> 06:51.680
+stuff out to the garage tonight
+by the way is trash night kind
+of another humongous load which
+
+06:51.680 --> 06:57.120
+have to separate between
+cardboard and all the other
+stuff so I'm going to do that
+before I hit the
+
+06:57.120 --> 07:04.560
+hay and actually started putting
+some of the paintings up which
+meant one or two holes that
+
+07:04.640 --> 07:11.040
+needed to be drilled and I'm
+really not good at this I can do
+it I guess but we're getting
+close we're
+
+07:11.040 --> 07:17.920
+getting very close to making
+this extremely livable I'm
+really happy about that nice cup
+of tea
+
+07:18.960 --> 07:23.040
+a lot of people mess about my
+mom and how she's been doing and
+I realized that I haven't really
+
+07:23.040 --> 07:27.040
+given an update in a while I've
+given people updates privately
+who asked about it who inquired
+
+07:28.320 --> 07:34.320
+and so we've been through all
+the tests and two weeks ago the
+final test were done and it
+turns out
+
+07:34.400 --> 07:41.440
+my mom is a perfect candidate
+for an operation so there's no
+spread of the disease it's
+
+07:41.440 --> 07:47.680
+all still in the lower portion
+of her lung the doctors feel
+confident they can do with
+removing half
+
+07:47.680 --> 07:52.320
+of her lung but at this point
+they basically say well if you
+wake up and you have one tube
+sticking
+
+07:52.320 --> 07:57.200
+out of you we removed half along
+if it's two tubes we removed a
+full lung either way she'll be
+able
+
+07:57.280 --> 08:06.640
+to live on and and function on
+one lung if necessary in the
+lung cancer world this is really
+
+08:06.640 --> 08:12.560
+really good news and we're
+extremely happy now we're just
+waiting for the spot in line
+
+08:15.120 --> 08:19.760
+for you know I guess basically
+I'm going to call up two days
+before before she can go in
+
+08:19.760 --> 08:26.080
+for the operation so we're all
+kind of waiting for that and
+there are the people who have
+you know
+
+08:26.160 --> 08:30.320
+who need you know I have
+priority I need to go ahead of
+her we're still hoping that'll
+happen
+
+08:30.320 --> 08:35.840
+before Christmas so we are
+looking forward to that thank
+you all so much once again for
+all your
+
+08:35.840 --> 08:39.840
+your love and your prayers and
+all your thoughts it's it's
+really been amazing and very
+
+08:39.840 --> 08:47.600
+very helpful to the entire
+family and big Dave Jacobs you
+might have seen this on Dave
+winters web
+
+08:47.600 --> 08:55.440
+blog Friday six o'clock in the
+morning Pacific time he gets his
+new kidney and that
+
+08:56.560 --> 09:01.680
+incredible news I didn't know
+that I guess everything just
+happened all at once you know
+
+09:02.800 --> 09:06.880
+as far as I know how this works
+you know you get a call you got
+the kidney schedule the
+
+09:06.880 --> 09:13.280
+operation boom so six o'clock
+Pacific time on Friday fingers
+crossed that'll be let me see
+
+09:13.280 --> 09:23.680
+six a.m. 12 it'll be two p.m. in
+London on Friday so I'll be we
+will have all fingers crossed
+here
+
+09:23.760 --> 09:30.480
+for big Dave Jacobs our love
+thoughts go out to you and I
+heard a speaking of Dave winters
+
+09:30.480 --> 09:36.400
+I heard his morning coffee notes
+boy Dave has a lost his voice it
+was so cool for him to do
+
+09:36.960 --> 09:42.800
+from the do a podcast regardless
+of him losing his voice I
+encourage you to listen to this
+if
+
+09:42.800 --> 09:47.360
+you're a user or developer which
+means everyone listening to this
+show should listen to that
+
+09:47.360 --> 09:52.480
+morning coffee notes all I mean
+just put a link to that right
+now so you know where to get
+that online
+
+09:53.440 --> 09:58.320
+I'm doing that in my production
+show show notes so you'll be
+able to click right on it and
+get
+
+09:58.960 --> 10:01.360
+morning coffee notes for
+December 1st 2004
+
+10:02.320 --> 10:07.600
+So listen to that because it's a
+lot about being a developer
+being a user and how do we party
+together
+
+10:07.600 --> 10:12.400
+at the end Dave put in a nice
+special message for me which
+I'll never buddy ever Bob
+
+10:14.400 --> 10:18.000
+This was for you Adam it's it's
+what's 16 minutes into it and
+
+10:18.640 --> 10:23.040
+you could probably get yourself
+to Starbucks in the time it
+takes you listen to this thing
+maybe less
+
+10:23.600 --> 10:29.040
+Anyway, I just actually want to
+add that one out one note is
+that boy do we miss you Adam
+
+10:29.040 --> 10:34.480
+man get your fucking uh you know
+get your high speed internet
+line so we can like do some of
+it
+
+10:34.480 --> 10:41.600
+you know we miss you man and put
+it that's empathetic yeah and
+you're to add tip to my
+
+10:42.400 --> 10:50.400
+my very good friends Don Andrew
+going on who are I just love
+both of them to piece I think
+
+10:50.400 --> 10:55.440
+they're the greatest people in
+the world and you know I don't
+care even if she is bitchy
+
+10:55.840 --> 11:00.800
+even if she is bitchy stay away
+from my woman whina still my
+favorite anyway
+
+11:02.560 --> 11:07.440
+Alright thank you Dave and
+actually I saw that you've done
+the morning coffee notes
+
+11:07.440 --> 11:11.360
+I didn't have time to get the
+Starbucks today so Patricia I
+went out for dinner and I just
+
+11:11.680 --> 11:17.440
+threw on the uh the modem and
+downloaded the all seven megs
+while we were out to dinner and
+it was
+
+11:17.440 --> 11:23.840
+there sitting for me when I got
+back so here's the good news
+tomorrow Ben with arrives at the
+
+11:23.840 --> 11:30.720
+cottage today special delivery
+my ADSL modem showed up it's a
+beautiful 56 megabyte
+
+11:30.720 --> 11:37.680
+per second wireless router
+plugged it in of course the DSL
+light was flashing meaning there
+was no
+
+11:37.680 --> 11:41.760
+DSL service I gave the guys a
+call they said no problem
+tomorrow they kicked the switch
+
+11:42.560 --> 11:47.280
+in the exchange and everything
+should be working no more
+intervention is needed your DSL
+line should
+
+11:47.280 --> 11:53.040
+stop flashing and then you'll be
+up and rolling I did not by the
+way go with BT with British
+telecom
+
+11:53.040 --> 11:57.200
+I'm not going to tell you who I
+went with yet the reason I
+didn't go with BT is because
+they still
+
+11:57.200 --> 12:04.480
+have a uh a bandwidth cap 30 or
+not just bandwidth traffic
+actual data limit so there's 30
+
+12:04.480 --> 12:09.280
+gigabytes per month and that's
+it and I'm like new bin down
+that road don't want to witness
+that again
+
+12:09.280 --> 12:14.400
+I asked them I said are you sure
+you don't have any other kind of
+package no so there were a
+couple
+
+12:14.400 --> 12:22.080
+of other providers providing
+good speeds and unlimited
+unmetored bandwidth so I went
+with one of those
+
+12:22.080 --> 12:27.760
+so far so good everything seems
+to be doing okay tomorrow
+hopefully everything will just
+magically
+
+12:27.840 --> 12:33.840
+pop on it'll all work and I'll
+be back um because and it's
+funny because I talked a
+
+12:33.840 --> 12:39.280
+day about this before you know I
+said I'm hurting so bad you know
+with with the bandwidth because
+
+12:39.280 --> 12:44.320
+just your life slows down to a
+tenth of the speed that you had
+forget uploading and downloading
+
+12:44.320 --> 12:51.920
+podcasts I mean that's virtually
+impossible email attachments uh
+just you know ordering uh
+playing tickets
+
+12:51.920 --> 12:57.600
+or hotel room everything takes
+so much longer it's just it's
+excruciating and Dave said
+
+12:57.600 --> 13:03.680
+hey ma'am we are hurting along
+with you and I thought and said
+you know fuck it's true it is
+we're all
+
+13:03.680 --> 13:08.400
+hurting you know I need my Skype
+calls and I need to be back in
+touch so tomorrow and I think
+still
+
+13:08.400 --> 13:14.160
+we did a pretty good job within
+two weeks of getting uh phone
+line because I had I went from
+zero to
+
+13:14.160 --> 13:20.800
+to DSL if we can get everything
+right and then Saturday the uh
+satellite guys show up I've
+ordered
+
+13:20.800 --> 13:26.240
+a couple of sky boxes uh
+including the one with the
+digital hard drive uh primarily
+so we can get
+
+13:26.320 --> 13:31.200
+our teenage daughter out of the
+living room with the only TV is
+right now with that free view
+box
+
+13:31.200 --> 13:35.040
+lover to death but we've got you
+know she and she needs to have
+her own spot too you know
+
+13:35.040 --> 13:41.200
+wish you she likes to sit in
+front of the TV watch corang TV
+or MTV or whatever other uh
+music
+
+13:41.200 --> 13:46.400
+television she usually watches
+and then she wants to be on her
+laptop sit there on MSN chatting
+with her
+
+13:46.400 --> 13:50.960
+with her friends you know and
+and then SMSing messages back
+and forth on the cell phones
+that's what
+
+13:50.960 --> 13:55.360
+they do so gotta get that set up
+so that should be done by
+Saturday and then we're pretty
+good
+
+13:55.360 --> 14:02.720
+you know got my credit cards uh
+local bank accounts uh actually
+paid my uh my phone bill online
+today
+
+14:02.720 --> 14:08.080
+we have uh we're setting up our
+life and it feels really really
+good um and it'll be even better
+
+14:08.080 --> 14:13.520
+when we have all of the the
+bandwidth we need coming in
+which also means by the way that
+uh we
+
+14:13.520 --> 14:17.520
+get our phone line back because
+it's tough man sharing one phone
+line between two people who want
+
+14:17.520 --> 14:22.560
+to be in the internet and you
+know people who want to call us
+and uh Patricia wants to call
+and
+
+14:23.120 --> 14:27.680
+it gets expensive just doing on
+a cell phones even though
+there's not that much price
+difference anymore
+
+14:27.680 --> 14:32.720
+and by the way I can't wait to
+use my Skype out account again
+because you know that's the
+cheapest
+
+14:32.720 --> 14:37.360
+the cheapest way uh to make any
+kind of phone call and the
+quality is great and I'm just
+
+14:37.360 --> 14:41.760
+things are looking up I'm really
+happy about that and I got an
+email as we continue to learn
+more
+
+14:41.760 --> 14:52.240
+about the UK culture and
+inventions uh comment from
+anonymous connect anonymous
+connect says
+
+14:52.320 --> 14:57.840
+Alexander Bell was born and
+mostly educated in Scotland
+before briefly living in Canada
+
+14:57.840 --> 15:03.200
+he moved to the states when he
+was 20 through 23 and as you can
+see from his page on uh uh the
+
+15:03.200 --> 15:09.040
+mother corps website here in
+Canada it is said that he
+dreamed up the telephone in
+Canada
+
+15:09.040 --> 15:14.960
+and then constructed it in the
+states so here we have so we
+have uh uh all three nations
+have
+
+15:14.960 --> 15:19.920
+some claim to Alexander Graham
+Bell uh depends of course you're
+talking to educated in Scotland
+
+15:20.320 --> 15:26.800
+inspired in Canada empowered in
+the United States interesting
+isn't it history and how one
+
+15:26.800 --> 15:33.280
+person's history doesn't
+necessarily have to be the other
+person's history got a Skype
+call from
+
+15:33.280 --> 15:39.760
+Lee Wilkins yesterday uh the
+Jenny and Lee show Jenny and Lee
+uh the Jenny and Lee show dot
+com I
+
+15:39.760 --> 15:45.360
+think is there a podcast a
+website address and he contacted
+me through Skype and then
+through cell
+
+15:45.440 --> 15:51.840
+phone then he had a real
+horrible story just a sob story
+about his wife Jenny and him and
+uh and
+
+15:51.840 --> 15:57.200
+their dogs and moving back and
+forth and uh it's it's a
+horrible story where you know
+the company
+
+15:57.200 --> 16:01.040
+he was working for moved into
+the states and then within a
+week they had to move back
+because it
+
+16:01.040 --> 16:05.680
+wasn't working out or something
+had gone wrong and because they
+had moved their dogs out they
+couldn't
+
+16:05.680 --> 16:09.760
+move them back in because they
+didn't have the rabies shot so
+the dogs are now stuck somewhere
+in
+
+16:09.760 --> 16:17.120
+Atlanta they have to have the
+dogs flown in from Atlanta
+because Atlanta or Delta messed
+up the
+
+16:17.120 --> 16:23.040
+flights then they go into
+quarantine for six months so I
+wanted to get Lee on Skype and
+talk to
+
+16:23.040 --> 16:27.920
+him about it and see if uh the
+podcasts community might want to
+help out and shipping a little
+bit
+
+16:27.920 --> 16:32.640
+because they're really I mean I
+know how they feel because we
+had at least we had the same
+scare you know
+
+16:32.640 --> 16:38.640
+that uh that are dogs and cats
+we have to go into quarantine uh
+but now Lee can't even get his
+
+16:38.720 --> 16:45.120
+animals back from and they're
+they're little uh Jack Russell
+Terriers oh man they're so cute
+
+16:46.000 --> 16:50.880
+and they're in Atlanta somewhere
+so I'm going to oops sorry about
+that don't hit the microphone
+
+16:50.880 --> 16:57.040
+it sounds really unprofessional
+um I'll uh when I've been with
+Tomar I'm going to get Lee on
+Skype
+
+16:57.040 --> 17:02.640
+and we'll get the whole story
+yes they also talked about um
+one of the problems that I'm
+
+17:02.640 --> 17:08.000
+seeing with the iPod or at least
+the problem is kind of the
+vacation button um where
+
+17:08.640 --> 17:13.600
+if you've been away or haven't
+you know been up to haven't been
+able to suck in your current
+
+17:13.600 --> 17:21.200
+subscriptions or like me you've
+been van with challenged you
+know what you don't want is to
+reconnect
+
+17:21.200 --> 17:26.640
+and then um basically the scan
+takes so long because it won't
+just bring in the latest dawn
+
+17:26.640 --> 17:30.240
+and drew show it brings in every
+single dawn and drew show that
+I've missed in that period that
+
+17:30.240 --> 17:34.560
+I've been gone and uh I was
+thinking that we need some kind
+of functionality for that and
+then I got an
+
+17:34.640 --> 17:39.440
+email from um from Arabic and
+I've put this into the pod show
+notes even though it's in Dutch
+
+17:39.440 --> 17:46.400
+someone might have appreciated
+um everyone is uh one of the
+creators of Doppler Doppler 1.1
+and uh
+
+17:46.400 --> 17:55.360
+he says that on Doppler if you
+right click on a feed you can
+select uh a contextual menu
+called
+
+17:55.440 --> 18:04.320
+catch up catch up see a TCH
+space up so not catch up but
+catch up catch up uh and then
+what it does
+
+18:04.320 --> 18:09.120
+is it adds every enclosure into
+the download history but without
+actually downloading it so you
+can
+
+18:09.120 --> 18:14.560
+go back and download those
+download those later but
+basically you say you know catch
+up skip everything
+
+18:14.560 --> 18:18.560
+but remember that you didn't
+actually download it but pretend
+like you didn't download it for
+now so
+
+18:18.560 --> 18:23.200
+you can just get the latest
+stories and that's great of
+course Doppler uh only works on
+Windows
+
+18:23.280 --> 18:29.520
+which is uh a bummer but uh I
+think there's some uh some art
+to look for there that uh that
+is useful
+
+18:29.520 --> 18:34.240
+for other iPodders because you
+know what people do eventually
+go on vacation and we've got a
+big
+
+18:34.240 --> 18:39.280
+one coming up Christmas holidays
+so we don't want to have people
+you know breaking their uh
+
+18:39.280 --> 18:44.240
+their hard drives with you know
+by reconnecting and having to
+suck in all this stuff and and
+really
+
+18:44.240 --> 18:51.280
+losing a lot of the benefit of
+what iPodder brings to the table
+and now um a little bit from uh
+
+18:51.360 --> 18:57.040
+Ray was a witch was a witch was
+a witch not me to only got an
+eye neither of us can pronounce
+
+18:57.040 --> 19:03.360
+his name right and Tony works
+with him there's uh ICM raw news
+for uh yesterday
+
+19:04.960 --> 19:10.640
+thank you you are clear to voice
+print identification you see
+we're on a mission from
+
+19:10.640 --> 19:17.040
+guy it's Tuesday November 30th
+2004 and this is the news about
+independent Christian music
+
+19:17.120 --> 19:23.200
+my name is Rick Wes Whips
+Chronos will be in concert on
+December 17th 2004
+
+19:23.200 --> 19:28.160
+at the Jehovah Java coffee shop
+in Salem Missouri for more
+information check out their
+website
+
+19:28.160 --> 19:34.560
+across music.com and this
+Saturday wobble performed with
+Sarah McKinnon in Chandler,
+Arizona
+
+19:34.560 --> 19:41.840
+for more information check out
+their website at wobba.net and
+the verse the day is Proverbs 11
+verse 30
+
+19:41.920 --> 19:49.440
+the fruit of the righteous is a
+tree of life and he who is wise
+wins souls and an additional
+news
+
+19:49.440 --> 19:56.160
+after winning 74 games of
+jeopardy and $2.5 million
+software engineer Ken Jennings
+lost this evening
+
+19:56.160 --> 20:00.160
+and that brings this edition of
+the news to a close have a great
+night bye bye
+
+20:11.920 --> 20:18.000
+specifically for you the
+independent Christian music raw
+news because it's a great
+example of a really
+
+20:18.000 --> 20:24.400
+short podcast you know it's a
+minute and 20 seconds lot of
+information in there um i don't
+know
+
+20:24.400 --> 20:29.040
+I just kind of like it and it's
+Rick Wes Whips yeah I was pretty
+damn close on that um excellent
+you
+
+20:29.040 --> 20:33.760
+can find that in the ipod.org
+directory listed of course under
+the well it should not just only
+be
+
+20:33.760 --> 20:40.240
+listed under religious podcasts
+but it is um and uh ICM
+independent Christian music news
+
+20:40.320 --> 20:44.880
+gonna make it a short show today
+what are we 20 minutes into the
+podcast again because well
+
+20:44.880 --> 20:51.040
+parsium uploading uh from the
+modem once again hopefully for
+the last time tonight uh
+secondly
+
+20:51.040 --> 20:57.200
+i didn't have any time to go off
+to uh to my uh my uh bandwidth
+watering hole starbucks and
+
+20:57.200 --> 21:01.360
+and grab all the latest music
+and podcasts and so i should
+start catching up by tomorrow
+
+21:01.360 --> 21:06.800
+by the weekend i'll be
+completely okurant uh so just
+don't have all the stuff i
+usually like to
+
+21:06.880 --> 21:14.560
+play for you i do want to
+continue with um my uh British
+uh for americans uh where we
+left off
+
+21:14.560 --> 21:22.320
+yesterday was the arse about
+face um obviously there's a
+couple more arse uh
+pronunciations
+
+21:22.320 --> 21:28.080
+or uh saying that they have here
+in the UK arse over elbow is one
+another way of saying head over
+
+21:28.080 --> 21:33.200
+heels but a little more
+descriptive usually happens
+after 11pm on a Saturday night
+after too many
+
+21:33.200 --> 21:39.680
+beers um i guess what we'd say
+in the states is arse over tea
+kettle arse over tit another
+version
+
+21:39.680 --> 21:45.360
+of arse over elbow but a bit
+more graphic and forbidden
+during a super bowl show arse
+hole
+
+21:45.360 --> 21:51.920
+asshole to you not very nice in
+either american english or
+british english arse hold uh
+what does
+
+21:51.920 --> 21:56.880
+that mean it means drunk usually
+in the advanced stages of a
+drunk and stupor so it would be
+
+21:56.880 --> 22:03.600
+be considered completely arse
+hold um let's see what is the
+next one we're still on a man
+how do you
+
+22:03.600 --> 22:11.200
+like this as well um you chaps
+would say two or as well for
+instance if my friend ordered a
+
+22:11.200 --> 22:16.400
+middle of light i would say i'll
+have one as well people usually
+just say as well okay so that's
+uh
+
+22:16.400 --> 22:23.280
+some more british language
+culture let's see ass you'll be
+surprised to uh to find that an
+ass does
+
+22:23.280 --> 22:31.040
+mean you're but but mainly it
+means a donkey in uh uh in the
+UK okay here's one backing i
+won't
+
+22:31.040 --> 22:36.560
+be using this one uh any more
+backing tobacco uh but that'll
+be the sort you used to roll
+your own
+
+22:36.560 --> 22:42.160
+you used to have a lot of
+backing bang we're into bees you
+notice that bang nothing to do
+with your
+
+22:42.160 --> 22:47.520
+hair this is a rather
+unattractive way of describing
+having sex always gets a smile
+from brit
+
+22:47.680 --> 22:52.400
+american hairdressers when
+they're asked about their bangs
+how's your bangs honey bar me
+
+22:53.280 --> 22:59.040
+bar me so when tells you your
+bar me means you've gone mad or
+crazy for example you'd have to
+be
+
+22:59.040 --> 23:07.440
+bar me to visit England without
+trying black pudding uh okay
+let's uh do two more here bees
+knees
+
+23:08.560 --> 23:15.840
+bees knees the polite version of
+dogs bollocks so if you're in
+polite company and want to say
+
+23:15.920 --> 23:25.280
+that something was fabulous that
+phrase might come in handy bees
+knees hi hon i'm uh i have a
+list
+
+23:25.280 --> 23:33.120
+of yeah i got a whole list you
+want to do one okay you know
+what uh let me find one one man
+
+23:38.640 --> 23:43.520
+i want to find a good one here
+bleeding glimey we know glimey
+
+23:43.520 --> 23:50.240
+and shag i'm sure well i'm at
+the b i'm not an s yet okay
+please come over to the mic
+
+23:50.240 --> 23:57.040
+it's very funny because for us
+Dutch for me then come over shag
+is is something you smoke
+
+23:57.920 --> 24:04.240
+right and i just had that that's
+backing over here backing
+tobacco is backing but shag s h
+a g is something
+
+24:04.240 --> 24:11.840
+you smoke yeah tobacco i've
+swashmoke to shag shag the smog
+shag how good was dinner huh
+
+24:11.920 --> 24:22.080
+oh dinner was i was so good but
+we had fish right best best best
+best best best
+
+24:22.080 --> 24:28.160
+a fried why is not no no no no
+so we had a good conversation at
+dinner
+
+24:28.160 --> 24:34.400
+yeah about bass because we
+looked at the menu we both had
+bass yeah because when it's a
+guitar
+
+24:34.400 --> 24:41.520
+it's spelled the same way but
+it's bass can i hear the bass
+please did i say that yeah
+
+24:41.840 --> 24:48.160
+okay i love you yeah can i have
+the flag bass you but i'm music
+i want some i think music
+
+24:48.160 --> 24:53.120
+right away so can i have some
+bass here yeah and the guy went
+boom boom boom boom
+
+24:54.320 --> 24:57.360
+i missed your basement you see
+what i had to queueed up i
+actually wanted to play
+
+24:57.360 --> 25:00.800
+mumbo Italyana was my last song
+i was just talking to Wilhelm
+from kota
+
+25:00.800 --> 25:04.960
+oh tell me about Wilhelm tell us
+who Wilhelm from kota and i
+promised him that you
+
+25:05.600 --> 25:10.000
+you sent him mumbo Italyana tell
+us who Wilhelm from kota is
+Wilhelm from kota is
+
+25:10.320 --> 25:17.600
+the really the k yeah the record
+what is the record company boss
+yeah of uh
+
+25:18.960 --> 25:24.160
+now you can actually can you um
+comparing with um
+
+25:24.160 --> 25:28.480
+clive davis yeah clive davis
+yeah clive he's kind of like in
+fact he he
+
+25:29.760 --> 25:36.640
+discovered golden hearing he
+discovered shocking blue um your
+Venus yeah that was him
+
+25:36.720 --> 25:42.800
+miss a Venus mr. Venus uh who
+else uh earthen fire well that
+people all know earthen
+
+25:42.800 --> 25:48.640
+fire but golden hearing was his
+name he didn't he and Freddie
+high and also um
+
+25:48.640 --> 25:53.280
+the police didn't they own all
+the police published him for a
+while he's the big
+
+25:53.280 --> 25:57.920
+big publisher he's got all the
+publishing rights yes any sounds
+like water companies and
+
+25:57.920 --> 26:02.640
+trash recycling companies yeah
+he's he's he's the mobster
+
+26:03.280 --> 26:09.840
+he knew it knew it knew it's
+hotels and Portugal hotels and
+golf clubs and he's a nice guy
+yeah
+
+26:10.640 --> 26:17.520
+he's your mentor he's my mentor
+and my uh my record boss for
+years and we're going to do
+something
+
+26:17.520 --> 26:24.080
+that making the DVD of my uh my
+whole career yeah from when i
+was 16 years old to now that was
+uh
+
+26:24.080 --> 26:31.600
+before there was wood before
+there was you yeah well no when
+you were 16 hours there yeah i
+was uh oh
+
+26:32.560 --> 26:40.480
+yeah that's right we were just
+talking about that that um he
+said i i met Adam when he was
+
+26:41.520 --> 26:45.520
+what was he well our old were
+you you were yeah yeah he when
+he met
+
+26:45.520 --> 26:51.040
+yeah i was doing the porn movie
+that's what he just mentioned
+that you did the porn movie
+
+26:51.040 --> 26:54.720
+did the movie i did the voice
+for the porn movie i didn't do
+the actual one yeah because the
+
+26:54.720 --> 27:00.240
+guys had the penis without the
+voice and you had the voice well
+i have the penis but he didn't
+pay me
+
+27:00.800 --> 27:07.680
+exactly yeah exactly but you
+remember that you were a bit
+young but you had the voice for
+it
+
+27:07.680 --> 27:14.160
+and he we were just talking
+about oh yeah baby i'm from the
+city health inspection
+
+27:14.720 --> 27:20.320
+yeah remember the lines yeah so
+that's where we met each other
+because i was you were in the
+
+27:20.400 --> 27:27.760
+I was in the other studio we uh
+i did the recording of the star
+sisters that just met me
+
+27:28.400 --> 27:33.840
+and stars on forty five and
+while we were doing a while we
+were in that studio i heard you
+
+27:33.840 --> 27:42.880
+in the other studio moaning uh
+and i said to my uh to my
+producer who who is this what
+what's
+
+27:42.880 --> 27:48.240
+going on in the other studio so
+i had a look and there were you
+but you little
+
+27:48.880 --> 27:55.600
+where what i looked like i had
+like a little dorky boy yeah
+very good and um you sweaty
+hands
+
+27:55.600 --> 28:04.160
+you said hi i'm Adam i'm Adam i
+was seven i was uh 17 at the
+time 17 i have your poster
+hanging
+
+28:04.160 --> 28:10.720
+you my uh in the bathroom yeah
+you're bathroom yeah no in my
+room you're right in my room
+yeah
+
+28:10.720 --> 28:15.520
+and that's actually how we met
+was the first time oh i had met
+you many times with a poster
+
+28:15.600 --> 28:22.000
+you don't really love you i'm
+sure i did i'm sure i said
+something like that yeah and
+strange
+
+28:23.680 --> 28:32.080
+Tony con says hi Tony con i told
+you about Tony con he loves you
+he loves your voice he
+
+28:32.080 --> 28:39.600
+thinks she's a very nice person
+he has no fucking clue how you
+look um i don't think so maybe
+
+28:39.680 --> 28:46.080
+he's googled your name the
+picture maybe he's like google
+patrisha pie p a a a y
+
+28:46.080 --> 28:52.000
+i'll then you get the playboy
+pizza yeah there you go
+everybody google patrisha pie p
+a y
+
+28:52.000 --> 28:57.280
+please google me google me baby
+so he wants the mumbo y tliana
+what does he want to do with
+
+28:57.280 --> 29:03.760
+he wants to put it in the DVD
+really yes you know to end the
+DVD with a song from uh actually
+
+29:03.760 --> 29:08.400
+from now nobody can it's and
+it's in uh it has a creative
+comments license now i can't use
+it commercially
+
+29:10.000 --> 29:17.840
+oh he doesn't know that yeah all
+right thank you very much all
+right baby um i'm going to
+
+29:17.840 --> 29:22.560
+play the song uh get out of here
+and i'll come down and have some
+tea with you i have the candles
+
+29:22.560 --> 29:28.240
+oh the candles are all right
+everyone so let's just do that
+one more time shall we mumbo
+
+29:28.240 --> 29:31.360
+badyana oh
+
+29:33.750 --> 31:36.250
+[ Music ]
+
+31:37.240 --> 31:40.240
+Hold your calories, it's time to
+get on a train
+
+31:46.240 --> 31:48.240
+Mumbo, it's time to get on a
+train
+
+31:48.240 --> 31:51.240
+We're done, we are done
+
+31:51.240 --> 31:54.240
+Shake it buzzer, shake it buzzer
+
+31:54.240 --> 31:56.240
+Shake it buzzer, shake it buzzer
+
+31:56.240 --> 32:00.240
+I'm Trishipai, and mumbo, it's
+me, I know, on the daily source
+code
+
+32:00.240 --> 32:02.240
+For Wednesday, the first episode
+
+32:04.240 --> 32:07.240
+And I still owe you a complete
+list of all the musicians that
+played on that track
+
+32:07.240 --> 32:10.240
+Because not a single sample
+machine was used
+
+32:10.240 --> 32:12.240
+Well, of course, they used that
+in the mix
+
+32:12.240 --> 32:15.240
+But it was all live musicians
+playing live
+
+32:15.240 --> 32:19.240
+Horns, live drums, the whole
+nine yards
+
+32:19.240 --> 32:21.240
+You can tell the difference, can
+you?
+
+32:23.240 --> 32:25.240
+Alright, that's gonna do it for
+the source code
+
+32:25.240 --> 32:29.240
+For today, hopefully tomorrow
+we'll have the fully enabled
+broad band edition
+
+32:29.240 --> 32:32.240
+Come and leave from Curry
+Cottage in the UK
+
+32:32.240 --> 32:35.240
+As always, comments are welcome
+through Atama Curry.com
+
+32:35.240 --> 32:37.240
+We're blog Curry.com
+
+32:37.240 --> 32:40.240
+And of course, say thank you for
+this
+
+32:40.240 --> 32:43.240
+Share on the archives and then
+the source code
+
+32:43.240 --> 32:45.240
+We'll leave you for now
+
+32:45.240 --> 32:47.240
+We'll be back tomorrow of
+Thursday
+
+32:47.240 --> 32:51.240
+We'll be the December 7th
+edition of the source code
+
+32:51.240 --> 32:53.240
+Take it easy, everybody, goodbye
