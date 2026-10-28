@@ -37,7 +37,7 @@ guid:
   isPermaLink: false
   link: http://curry.podshow.com/?p=325
 enclosure:
-  url: http://m.podshow.com/media/21/episodes/29021/dailysourcecode-29021-10-03-2006.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-10-03.mp3
   length: 20621844
   type: audio/mpeg
 itunes:
@@ -116,10 +116,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: http://m.podshow.com/media/21/episodes/29021/dailysourcecode-29021-10-03-2006.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-10-03.mp3
 fileinfo:
   filename: DSC-2006-10-03.mp3
   size: 20621844
-  duration: 1719.04
+  duration: 1719
   bitrate: 96000
   source: 2006/DSC-2006-10-03.mp3
+  origin_url: http://m.podshow.com/media/21/episodes/29021/dailysourcecode-29021-10-03-2006.mp3

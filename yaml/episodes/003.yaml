@@ -15,7 +15,7 @@ dc:
 content:
   encoded: null
 enclosure:
-  url: http://cloud2.urj.nl/bt/dailySourceCode-20040815.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-08-15.mp3
   length: 6614480
   type: audio/mpeg
 itunes:
@@ -74,12 +74,13 @@ podcast:
     length: 6614480
     bitrate: 64000
     default: true
-    title: Daily Source Code
+    title: Standard
     source:
-      uri: http://cloud2.urj.nl/bt/dailySourceCode-20040815.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-08-15.mp3
 fileinfo:
   filename: DSC-2004-08-15.mp3
   size: 6614480
-  duration: 826.749
+  duration: 827
   bitrate: 64000
   source: 2004/DSC-2004-08-15.mp3
+  origin_url: http://cloud2.urj.nl/bt/dailySourceCode-20040815.mp3

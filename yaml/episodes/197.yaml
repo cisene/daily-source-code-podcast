@@ -24,7 +24,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/06/21.html#a7089
 enclosure:
-  url: http://mp3.dailysourcecode.podshow.com/DSC-2005-06-21.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-21.mp3
   length: 12945139
   type: audio/mpeg
 itunes:
@@ -90,10 +90,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2005-06-21.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-21.mp3
 fileinfo:
   filename: DSC-2005-06-21.mp3
   size: 12945139
-  duration: 1621.029
+  duration: 1621
   bitrate: 64000
   source: 2005/DSC-2005-06-21.mp3
+  origin_url: http://mp3.dailysourcecode.podshow.com/DSC-2005-06-21.mp3

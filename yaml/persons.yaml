@@ -1,0 +1,183 @@
+---
+# People of the Daily Source Code, the values for <podcast:person>: name,
+# group and role (Podcasting 2.0 taxonomy), href (Wikipedia) and img
+# (Wikimedia Commons). episodes: where a person is in the show besides
+# Adam, who hosts every episode.
+
+persons:
+
+- name: Adam Curry
+  group: cast
+  role: host
+  href: https://en.wikipedia.org/wiki/Adam_Curry
+  img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+
+- name: Patricia Paay
+  group: cast
+  role: host
+  href: https://en.wikipedia.org/wiki/Patricia_Paay
+  img: https://upload.wikimedia.org/wikipedia/commons/f/fc/Patricia_Paay.png
+  episodes:
+  - episode: '137'
+    role: host
+  - episode: '142'
+    role: host
+  - episode: '172'
+    role: co-host
+  - episode: bonus-2005-05-17-RVZR
+    role: co-host
+
+# Musician, artist, friend of Adam's; guest at the Hilltop Watchtower (#838).
+# No Wikipedia page (nl, en) found; href is his LinkedIn profile.
+- name: Joep Berkenbosch
+  group: cast
+  role: guest
+  href: https://www.linkedin.com/in/joep-berkenbosch-781b44b
+  img: null
+  episodes:
+  - episode: '838'
+    role: guest
+
+# Bonus items (yaml/bonus-episodes.yaml): co-hosts, guests and the listeners
+# who produced a Best of the Charlie. Episodes named bonus-<id>.
+
+- name: Dave Winer
+  group: cast
+  role: co-host
+  href: https://en.wikipedia.org/wiki/Dave_Winer
+  img: https://upload.wikimedia.org/wikipedia/commons/c/c9/David_Winer_by_Joi_Ito.jpg
+  episodes:
+  - episode: bonus-2004-09-25-Trade-Secrets
+    role: co-host
+  - episode: bonus-2004-09-28-Trade-Secrets
+    role: co-host
+  - episode: bonus-2004-12-08-Phone-Test
+    role: co-host
+
+- name: Leo Laporte
+  group: cast
+  role: host
+  href: https://en.wikipedia.org/wiki/Leo_Laporte
+  img: https://upload.wikimedia.org/wikipedia/commons/6/6a/Leo_Laporte_27_September_2007.jpg
+  episodes:
+  - episode: bonus-2007-01-21-TWiT-85
+    role: host
+
+# No Wikipedia page of their own; href is the show's page.
+- name: Dawn Miceli
+  group: cast
+  role: host
+  href: https://en.wikipedia.org/wiki/The_Dawn_and_Drew_Show
+  img: https://pbs.twimg.com/profile_images/63440509/IMG_6711_400x400.jpg
+  episodes:
+  - episode: bonus-2007-08-06-Dawn-and-Drew
+    role: host
+
+- name: Drew Domkus
+  group: cast
+  role: host
+  href: https://en.wikipedia.org/wiki/The_Dawn_and_Drew_Show
+  img: null
+  episodes:
+  - episode: bonus-2007-08-06-Dawn-and-Drew
+    role: host
+
+- name: Bobbi Eden
+  group: cast
+  role: guest
+  href: https://en.wikipedia.org/wiki/Bobbi_Eden
+  img: https://upload.wikimedia.org/wikipedia/commons/b/bf/Bobbi_Eden_2015_by_Glenn_Francis.jpg
+  episodes:
+  - episode: bonus-2010-07-07-Special-Report
+    role: guest
+
+# Listener producers of the Best of the Charlie shows; no Wikipedia pages.
+# Vocalist (Lovespirals), author, podcaster (The Chillcast); no Wikipedia
+# page, href is her own site.
+- name: Anji Bee
+  group: creative direction
+  role: producer
+  href: https://www.anjibee.com/
+  img: https://www.anjibee.com/wp-content/uploads/2022/03/IMG_1582-672x372.jpg
+  episodes:
+  - episode: bonus-2006-04-10-Best-of-Charlie-5
+    role: producer
+
+- name: Marcus Couch
+  group: creative direction
+  role: producer
+  href: null
+  img: null
+  episodes:
+  - episode: bonus-2007-01-01-Best-of-Charlie
+    role: producer
+
+- name: Barbara Couch
+  group: creative direction
+  role: producer
+  href: null
+  img: null
+  episodes:
+  - episode: bonus-2007-01-01-Best-of-Charlie
+    role: producer
+
+- name: Sander Hoksbergen
+  group: creative direction
+  role: producer
+  href: null
+  img: null
+  episodes:
+  - episode: bonus-2007-01-03-Best-of-Charlie
+    role: producer
+
+- name: Happy
+  group: creative direction
+  role: producer
+  href: null
+  img: null
+  episodes:
+  - episode: bonus-2007-01-04-Best-of-Charlie
+    role: producer
+
+- name: Chris Doelle
+  group: creative direction
+  role: producer
+  href: null
+  img: null
+  episodes:
+  - episode: bonus-2007-01-05-Best-of-Charlie
+    role: producer
+
+# PodShow developers, guests of DevCast (2006); no Wikipedia pages.
+- name: Kevin Ostrowski
+  group: cast
+  role: guest
+  href: null
+  img: null
+  episodes:
+  - episode: bonus-2006-04-21-DevCast-2
+    role: guest
+  - episode: bonus-2006-05-19-DevCast-5
+    role: guest
+
+- name: Erin O'Neill
+  group: cast
+  role: guest
+  href: null
+  img: null
+  episodes:
+  - episode: bonus-2006-04-28-DevCast-3
+    role: guest
+
+- name: Andrew Grumet
+  group: cast
+  role: guest
+  href: null
+  img: null
+  episodes:
+  - episode: bonus-2006-05-16-DevCast-4
+    role: guest
+  - episode: bonus-2006-05-19-DevCast-5
+    role: guest
+  - episode: bonus-2006-06-16-DevCast-6
+    role: guest

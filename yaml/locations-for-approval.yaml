@@ -1,0 +1,740 @@
+
+locations:
+
+- location: Curry Bunker
+  type: residence
+  origin: curated
+  aliases: [The Bunker]
+  placename: Amsterdam, NL
+  latitude: 52.365562
+  longitude: 4.891813
+  altitude: 13
+  precision: town
+  query: null
+  osm: relation/271110
+  geonames: null
+
+- location: Curry Castle
+  type: residence
+  origin: curated
+  aliases: [Curry Castle in Flanders]
+  placename: Rijkevoorsel, BE
+  latitude: 51.330813
+  longitude: 4.766188
+  altitude: 27
+  precision: town
+  query: null
+  osm: relation/1277952
+  geonames: null
+
+- location: Curry Cottage
+  type: residence
+  origin: curated
+  aliases: [The Cottage]
+  placename: Guildford, UK
+  latitude: 51.239562
+  longitude: -0.545813
+  altitude: 93
+  precision: town
+  query: null
+  osm: node/1688821544
+  geonames: null
+
+- location: Curry Manor
+  type: residence
+  origin: curated
+  aliases: [The Curry Manor, The Manor, Curry Compound]
+  placename: Guildford, UK
+  latitude: 51.23536
+  longitude: -0.57427
+  altitude: 45
+  precision: town
+  query: null
+  osm: node/1688821544
+  geonames: 2647793
+
+- location: Curry Condo
+  type: residence
+  origin: curated
+  aliases: [The Condo, The Curry Condo, Curricondo]
+  placename: San Francisco, US
+  latitude: 37.7749
+  longitude: -122.4194
+  altitude: 24
+  precision: town
+  query: null
+  osm: relation/111968
+  geonames: null
+  notes: '"From Curry Condo, San Francisco, Ca" (show notes, 2005 .. 2008). Condo not resolved (city centre).'
+
+- location: Curry Terrace
+  type: residence
+  origin: curated
+  aliases: []
+  placename: London, UK
+  latitude: 51.50853
+  longitude: -0.12574
+  altitude: 25
+  precision: town
+  query: null
+  osm: relation/65606
+  geonames: 2643743
+
+- location: Curry Coast
+  type: residence
+  origin: curated
+  aliases: [The Curry Coast]
+  placename: Fire Island, US
+  latitude: 40.694861
+  longitude: -72.979224
+  altitude: 3
+  precision: area
+  query: Fire Island, New York, USA
+  osm: relation/4766700
+  geonames: null
+
+- location: Hilltop Watchtower
+  type: residence
+  origin: curated
+  aliases: [Hilltop Watch Tower, Crackpot Command Center, Hilltop Watchtower Crackpot Command Center]
+  placename: Los Angeles, US
+  latitude: 34.05223
+  longitude: -118.24368
+  altitude: null
+  precision: town
+  query: null
+  osm: relation/207359
+  geonames: null
+
+- location: Camp Mofo
+  type: residence
+  origin: curated
+  aliases: []
+  placename: Austin, US
+  latitude: 30.26715
+  longitude: -97.74306
+  altitude: 149
+  precision: town
+  query: null
+  osm: relation/113314
+  geonames: 4671654
+
+- location: Studio A8
+  type: vehicle
+  origin: curated
+  aliases: [The A8, A8]
+  placename: null
+  latitude: null
+  longitude: null
+  altitude: null
+  precision: null
+  query: null
+  osm: null
+  geonames: null
+
+- location: N277DS
+  type: vehicle
+  origin: curated
+  aliases: [Delta Sierra, November 277 Delta Sierra, The N277DS]
+  placename: null
+  latitude: null
+  longitude: null
+  altitude: null
+  precision: null
+  query: null
+  osm: null
+  geonames: null
+
+- location: The Magnum
+  type: vehicle
+  origin: curated
+  aliases: [Magnum]
+  placename: Garden City, US
+  latitude: 40.7266477
+  longitude: -73.6343052
+  altitude: null
+  precision: town
+  query: null
+  osm: relation/174481
+  geonames: null
+
+- location: In flight
+  type: vehicle
+  origin: curated
+  aliases: []
+  placename: null
+  latitude: null
+  longitude: null
+  altitude: null
+  precision: null
+  query: null
+  osm: null
+  geonames: null
+
+- location: Amsterdam Airport Schiphol
+  type: venue
+  origin: curated
+  aliases: [Schiphol, Schiphol airport]
+  placename: Amsterdam, NL
+  latitude: 52.3103
+  longitude: 4.76028
+  altitude: -3
+  precision: building
+  query: null
+  osm: relation/12470437
+  geonames: 6296680
+
+- location: Hotel Okura Amsterdam
+  type: venue
+  origin: curated
+  aliases: [Okura Hotel]
+  placename: Amsterdam, NL
+  latitude: 52.348619
+  longitude: 4.893199
+  altitude: 4
+  precision: building
+  query: Hotel Okura Amsterdam
+  osm: node/2817713466
+  geonames: null
+
+- location: Amstel Hotel
+  type: venue
+  origin: curated
+  aliases: [The Amstel Hotel, Amstall Hotel]
+  placename: Amsterdam, NL
+  latitude: 52.360051
+  longitude: 4.905219
+  altitude: 7
+  precision: building
+  query: InterContinental Amstel Amsterdam
+  osm: node/11086833078
+  geonames: null
+
+- location: Waldorf Astoria
+  type: venue
+  origin: curated
+  aliases: [The Waldorf, Waldorf]
+  placename: New York, US
+  latitude: 40.756502
+  longitude: -73.973362
+  altitude: 50
+  precision: building
+  query: Waldorf Astoria, Park Avenue, New York
+  osm: way/85393997
+  geonames: null
+
+- location: Tribeca Grand Hotel
+  type: venue
+  origin: curated
+  aliases: []
+  placename: New York, US
+  latitude: 40.719309
+  longitude: -74.004837
+  altitude: 16
+  precision: building
+  query: Roxy Hotel, 2 Avenue of the Americas, New York
+  osm: way/250052719
+  geonames: null
+
+- location: Gramercy Park Hotel
+  type: venue
+  origin: curated
+  aliases: [Grammarcy Park Hotel]
+  placename: New York, US
+  latitude: 40.738567
+  longitude: -73.985772
+  altitude: 36
+  precision: building
+  query: Gramercy Park Hotel, New York
+  osm: way/264755328
+  geonames: null
+
+- location: W Hotel New York
+  type: venue
+  origin: curated
+  aliases: [The W Hotel, W Hotel]
+  placename: New York, US
+  latitude: 40.71427
+  longitude: -74.00597
+  altitude: null
+  precision: town
+  query: null
+  osm: relation/175905
+  geonames: null
+
+- location: St. Patrick's Cathedral
+  type: venue
+  origin: curated
+  aliases: [St Patrick's Cathedral]
+  placename: New York, US
+  latitude: 40.758558
+  longitude: -73.976364
+  altitude: 63
+  precision: building
+  query: St. Patrick's Cathedral, Manhattan
+  osm: way/266010379
+  geonames: null
+
+- location: Central Park
+  type: venue
+  origin: curated
+  aliases: []
+  placename: New York, US
+  latitude: 40.782773
+  longitude: -73.965363
+  altitude: 33
+  precision: area
+  query: Central Park, Manhattan, New York
+  osm: way/427818536
+  geonames: null
+
+- location: Roosevelt Field Mall
+  type: venue
+  origin: curated
+  aliases: [Roosevelt Field]
+  placename: Garden City, US
+  latitude: 40.738069
+  longitude: -73.613796
+  altitude: 34
+  precision: building
+  query: Roosevelt Field, Garden City, New York
+  osm: node/12344628908
+  geonames: null
+  notes: '"From The Magnum, Roosevelt Field Mall, NY, USA" (#654, #655).'
+
+- location: Clift Hotel
+  type: venue
+  origin: curated
+  aliases: [The Clift]
+  placename: San Francisco, US
+  latitude: 37.786768
+  longitude: -122.411145
+  altitude: 51
+  precision: building
+  query: Clift Royal Sonesta Hotel, Geary Street, San Francisco
+  osm: way/71504442
+  geonames: null
+
+- location: Hotel Vitale
+  type: venue
+  origin: curated
+  aliases: []
+  placename: San Francisco, US
+  latitude: 37.7936
+  longitude: -122.392881
+  altitude: 5
+  precision: building
+  query: Hotel Vitale, San Francisco
+  osm: node/9721647434
+  geonames: null
+
+- location: Pan Pacific Hotel
+  type: venue
+  origin: curated
+  aliases: []
+  placename: San Francisco, US
+  latitude: 37.788144
+  longitude: -122.410227
+  altitude: 55
+  precision: area
+  query: 500 Post Street, San Francisco
+  osm: way/440486297
+  geonames: null
+
+- location: Beverly Hills Hotel
+  type: venue
+  origin: curated
+  aliases: [The Beverly Hills Hotel]
+  placename: Beverly Hills, US
+  latitude: 34.081715
+  longitude: -118.413797
+  altitude: 126
+  precision: building
+  query: The Beverly Hills Hotel, Sunset Boulevard, Beverly Hills
+  osm: way/901300314
+  geonames: null
+
+- location: Ontario Convention Center
+  type: venue
+  origin: curated
+  aliases: [Portable Media Expo, Podcast Expo]
+  placename: Ontario, US
+  latitude: 34.065233
+  longitude: -117.606369
+  altitude: 304
+  precision: area
+  query: Ontario Convention Center, Ontario, California
+  osm: way/37825060
+  geonames: null
+
+- location: Sheraton Ontario
+  type: venue
+  origin: curated
+  aliases: [Curry Suite, The Curry Suite, Sheraton]
+  placename: Ontario, US
+  latitude: 34.068756
+  longitude: -117.612662
+  altitude: 307
+  precision: building
+  query: Sheraton, Ontario, California
+  osm: way/702275393
+  geonames: null
+
+- location: Bell Harbor Conference Center
+  type: venue
+  origin: curated
+  aliases: [Bell Harbor Convention Center, Bell Harbor, Gnomedex]
+  placename: Seattle, US
+  latitude: 47.6111425
+  longitude: -122.3492096
+  altitude: 6
+  precision: building
+  query: null
+  osm: way/234436233
+  geonames: null
+
+- location: Roundhouse
+  type: venue
+  origin: curated
+  aliases: [The Roundhouse, Round House]
+  placename: London, UK
+  latitude: 51.54325
+  longitude: -0.151976
+  altitude: 36
+  precision: building
+  query: Roundhouse, Chalk Farm Road, London
+  osm: way/1110282368
+  geonames: null
+
+- location: Hyde Park
+  type: venue
+  origin: curated
+  aliases: []
+  placename: London, UK
+  latitude: 51.50735
+  longitude: -0.16571
+  altitude: 26
+  precision: area
+  query: null
+  osm: way/372975520
+  geonames: 2646325
+
+- location: Starbucks Market Street Guildford
+  type: venue
+  origin: curated
+  aliases: [Starbucks on Market Street]
+  placename: Guildford, UK
+  latitude: 51.236249
+  longitude: -0.572893
+  altitude: 54
+  precision: street
+  query: Market Street, Guildford, Surrey, United Kingdom
+  osm: way/25803695
+  geonames: null
+
+- location: KPCB CEO Summit
+  type: venue
+  origin: curated
+  aliases: [KPBC CEO Summit]
+  placename: Monterey, US
+  latitude: 36.60024
+  longitude: -121.89468
+  altitude: 8
+  precision: town
+  query: null
+  osm: relation/112336
+  geonames: 5374361
+
+- location: PodShow HQ
+  type: venue
+  origin: curated
+  aliases: [Pod Show HQ, Podshow HQ, PodShow headquarters]
+  placename: San Francisco, US
+  latitude: 37.77493
+  longitude: -122.41942
+  altitude: null
+  precision: town
+  query: null
+  osm: relation/111968
+  geonames: null
+
+- location: Madison Avenue
+  type: venue
+  origin: curated
+  aliases: []
+  placename: New York, US
+  latitude: 40.798073
+  longitude: -73.946251
+  altitude: 14
+  precision: street
+  query: Madison Avenue, Manhattan, New York
+  osm: way/1071929277
+  geonames: null
+
+- location: Ricky's
+  type: venue
+  origin: curated
+  aliases: []
+  placename: null
+  latitude: null
+  longitude: null
+  altitude: null
+  precision: null
+  query: null
+  osm: null
+  geonames: null
+
+- location: Tysons Corner
+  type: place
+  origin: curated
+  aliases: [Tyson's Corner, Tysons]
+  placename: Tysons, US
+  latitude: 38.91872
+  longitude: -77.23109
+  altitude: 148
+  precision: town
+  query: null
+  osm: relation/206744
+  geonames: 4790534
+
+- location: Amsterdam
+  type: place
+  origin: generated
+  placename: Amsterdam, NL
+  latitude: 52.37403
+  longitude: 4.88969
+  altitude: 13
+  precision: town
+  osm: relation/271110
+  geonames: 2759794
+
+- location: Belgium
+  type: place
+  origin: generated
+  placename: Kingdom of Belgium, BE
+  latitude: 50.75
+  longitude: 4.5
+  altitude: null
+  precision: country
+  osm: relation/52411
+  geonames: 2802361
+
+- location: Berkeley
+  type: place
+  origin: generated
+  placename: Berkeley, US
+  latitude: 37.87159
+  longitude: -122.27275
+  altitude: 52
+  precision: town
+  osm: relation/2833528
+  geonames: 5327684
+
+- location: Brussels
+  type: place
+  origin: generated
+  placename: Brussels, BE
+  latitude: 50.85045
+  longitude: 4.34878
+  altitude: 28
+  precision: town
+  osm: relation/58274
+  geonames: 2800866
+
+- location: Cannes
+  type: place
+  origin: generated
+  placename: Cannes, FR
+  latitude: 43.55135
+  longitude: 7.01275
+  altitude: 0
+  precision: town
+  osm: relation/91734
+  geonames: 3028808
+
+- location: Guildford
+  type: place
+  origin: generated
+  placename: Guildford, UK
+  latitude: 51.23536
+  longitude: -0.57427
+  altitude: 45
+  precision: town
+  osm: node/1688821544
+  geonames: 2647793
+
+- location: Helsinki
+  type: place
+  origin: generated
+  placename: Helsinki, FI
+  latitude: 60.16952
+  longitude: 24.93545
+  altitude: 26
+  precision: town
+  osm: relation/34914
+  geonames: 658225
+
+- location: Los Angeles
+  type: place
+  origin: generated
+  placename: Los Angeles, US
+  latitude: 34.05223
+  longitude: -118.24368
+  altitude: 89
+  precision: town
+  osm: relation/207359
+  geonames: 5368361
+
+- location: Manhattan
+  type: place
+  origin: generated
+  placename: Manhattan, US
+  latitude: 40.78343
+  longitude: -73.96625
+  altitude: 35
+  precision: town
+  osm: relation/8398124
+  geonames: 5125771
+
+- location: Miami
+  type: place
+  origin: generated
+  placename: Miami, US
+  latitude: 25.77427
+  longitude: -80.19366
+  altitude: 2
+  precision: town
+  osm: relation/1216769
+  geonames: 4164138
+
+- location: Nashville
+  type: place
+  origin: generated
+  placename: Nashville, US
+  latitude: 36.16589
+  longitude: -86.78444
+  altitude: 170
+  precision: town
+  osm: relation/197472
+  geonames: 4644585
+
+- location: Netherlands
+  type: place
+  origin: generated
+  placename: The Netherlands, NL
+  latitude: 52.25
+  longitude: 5.75
+  altitude: null
+  precision: country
+  osm: relation/47796
+  geonames: 2750405
+
+- location: New York City
+  type: place
+  origin: generated
+  placename: New York City, US
+  latitude: 40.71427
+  longitude: -74.00597
+  altitude: 10
+  precision: town
+  osm: relation/175905
+  geonames: 5128581
+
+- location: Northern California
+  type: place
+  origin: generated
+  placename: Northern California, US
+  latitude: 39.76531
+  longitude: -121.90983
+  altitude: 48
+  precision: region
+  osm: null
+  geonames: 12217729
+
+- location: Palo Alto
+  type: place
+  origin: generated
+  placename: Palo Alto, US
+  latitude: 37.44188
+  longitude: -122.14302
+  altitude: 9
+  precision: town
+  osm: relation/1544955
+  geonames: 5380748
+
+- location: Portland
+  type: place
+  origin: generated
+  placename: Portland, US
+  latitude: 45.52345
+  longitude: -122.67621
+  altitude: 12
+  precision: town
+  osm: relation/186579
+  geonames: 5746545
+
+- location: San Diego
+  type: place
+  origin: generated
+  placename: San Diego, US
+  latitude: 32.71571
+  longitude: -117.16472
+  altitude: 20
+  precision: town
+  osm: relation/253832
+  geonames: 5391811
+
+- location: San Francisco
+  type: place
+  origin: generated
+  placename: San Francisco, US
+  latitude: 37.77493
+  longitude: -122.41942
+  altitude: 16
+  precision: town
+  osm: relation/111968
+  geonames: 5391959
+
+- location: Seattle
+  type: place
+  origin: generated
+  placename: Seattle, US
+  latitude: 47.60621
+  longitude: -122.33207
+  altitude: 56
+  precision: town
+  osm: relation/237385
+  geonames: 5809844
+
+- location: South Beach
+  type: place
+  origin: generated
+  placename: South Beach, US
+  latitude: 25.7681
+  longitude: -80.131
+  altitude: 3
+  precision: area
+  osm: node/4226222889
+  geonames: 6946365
+
+- location: United Kingdom
+  type: place
+  origin: generated
+  placename: United Kingdom of Great Britain and Northern Ireland, UK
+  latitude: 54.75844
+  longitude: -2.69531
+  altitude: null
+  precision: country
+  osm: relation/62149
+  geonames: 2635167
+
+- location: Utrecht
+  type: place
+  origin: generated
+  placename: Utrecht, NL
+  latitude: 52.09083
+  longitude: 5.12222
+  altitude: 13
+  precision: town
+  osm: relation/1433619
+  geonames: 2745912

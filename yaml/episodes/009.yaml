@@ -15,8 +15,8 @@ dc:
 content:
   encoded: null
 enclosure:
-  url: http://cloud2.urj.nl/gems/dailySourceCode20040822.mp3
-  length: 10305253
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-08-22.mp3
+  length: 10305381
   type: audio/mpeg
 itunes:
   author: Adam Curry
@@ -71,15 +71,16 @@ podcast:
     accountUrl: null
   alternateEnclosure:
   - type: audio/mpeg
-    length: 10305253
+    length: 10305381
     bitrate: 64000
     default: true
-    title: Daily Source Code
+    title: Standard
     source:
-      uri: http://cloud2.urj.nl/gems/dailySourceCode20040822.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-08-22.mp3
 fileinfo:
   filename: DSC-2004-08-22.mp3
   size: 10305381
-  duration: 1287.993
+  duration: 1288
   bitrate: 64000
   source: 2004/DSC-2004-08-22.mp3
+  origin_url: http://cloud2.urj.nl/gems/dailySourceCode20040822.mp3

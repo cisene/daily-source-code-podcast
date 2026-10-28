@@ -40,7 +40,7 @@ guid:
   isPermaLink: false
   link: http://curry.podshow.com/?p=288
 enclosure:
-  url: http://m.podshow.com/media/21/episodes/22682/dailysourcecode-22682-08-25-2006.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-08-25.mp3
   length: 37476566
   type: audio/mpeg
 itunes:
@@ -122,10 +122,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: http://m.podshow.com/media/21/episodes/22682/dailysourcecode-22682-08-25-2006.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-08-25.mp3
 fileinfo:
   filename: DSC-2006-08-25.mp3
   size: 37476566
-  duration: 3121.345
+  duration: 3121
   bitrate: 96000
   source: 2006/DSC-2006-08-25.mp3
+  origin_url: http://m.podshow.com/media/21/episodes/22682/dailysourcecode-22682-08-25-2006.mp3

@@ -17,7 +17,7 @@ dc:
 content:
   encoded: null
 enclosure:
-  url: http://mp3.dailysourcecode.podshow.com/DSC-2005-06-25.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-25.mp3
   length: 15893627
   type: audio/mpeg
 itunes:
@@ -77,10 +77,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2005-06-25.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-25.mp3
 fileinfo:
   filename: DSC-2005-06-25.mp3
   size: 15893627
-  duration: 1991.34
+  duration: 1991
   bitrate: 64000
   source: 2005/DSC-2005-06-25.mp3
+  origin_url: http://mp3.dailysourcecode.podshow.com/DSC-2005-06-25.mp3

@@ -15,7 +15,7 @@ dc:
 content:
   encoded: null
 enclosure:
-  url: http://cloud2.urj.nl/gems/dailySourceCode20040818.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-08-18.mp3
   length: 5157572
   type: audio/mpeg
 itunes:
@@ -74,12 +74,13 @@ podcast:
     length: 5157572
     bitrate: 64000
     default: true
-    title: Daily Source Code
+    title: Standard
     source:
-      uri: http://cloud2.urj.nl/gems/dailySourceCode20040818.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-08-18.mp3
 fileinfo:
   filename: DSC-2004-08-18.mp3
   size: 5157572
-  duration: 644.519
+  duration: 645
   bitrate: 64000
   source: 2004/DSC-2004-08-18.mp3
+  origin_url: http://cloud2.urj.nl/gems/dailySourceCode20040818.mp3

@@ -1,0 +1,487 @@
+---
+# Bonus items: recordings of the Daily Source Code period that are not
+# numbered shows. Specials posted in the DSC feed at the time, Adam's other
+# shows and recordings, and other people's shows with Adam in them.
+# python/build-bonus-episodes.py turns each into yaml/episodes/bonus-<id>.yaml
+# (itunes:episodeType bonus, no episode number) and lays out the episode list
+# of daily-source-code.yaml by date.
+#
+# Per item:
+#   id      date and a short text; also the release name DSC-<id>.<ext>
+#   kind    special (in the DSC feed then), adam (Adam's own, elsewhere),
+#           guest (another show, Adam a guest or the subject)
+#   source  the audio: archive path, or mp3/... in the repo
+#   origin  where title, date, link and show notes come from:
+#           post: <permalink> in json/dsc-posts-mirror.json
+#           blog: <permalink> in json/blog-posts.json
+#           feed: <rss file> + enclosure: <text in the enclosure url>
+#   date    the date when there is no origin with a date; basis says why
+#   url     the original enclosure url, when the origin does not have it
+#   title, subtitle, author, description: set when the origin has none
+#   people  guests and co-hosts (names as in yaml/persons.yaml)
+#   adam    Adam's role when not host
+# Unique recordings only: a same-format copy of an episode is not used, a
+# different format of the same recording goes to that episode's
+# alternateEnclosure (see 000-Irregularities.md).
+
+bonus:
+
+- id: 2004-09-25-Trade-Secrets
+  kind: adam
+  source: mp3/homepage.mac.com/adamcurry/TS/TS-2004-09-25.mp3
+  url: http://homepage.mac.com/adamcurry/TS/TS-2004-09-25.mp3
+  date: 2004-09-25
+  basis: file name
+  title: "Trade Secrets: voip setups sux"
+  subtitle: Trade Secrets with Dave Winer and Adam Curry, 2004-09-25
+  author: Dave Winer and Adam Curry
+  description: "TS-2004-09-25 voip setups sux\n\nsecrets.scripting.com"
+  people: [Dave Winer]
+
+- id: 2004-09-28-Trade-Secrets
+  kind: adam
+  source: mp3/homepage.mac.com/adamcurry/TS/TS-2004-09-28.mp3
+  url: http://homepage.mac.com/adamcurry/TS/TS-2004-09-28.mp3
+  date: 2004-09-28
+  basis: file name
+  title: "Trade Secrets: xten sipcall and 'leakage'"
+  subtitle: Trade Secrets with Dave Winer and Adam Curry, 2004-09-28
+  author: Dave Winer and Adam Curry
+  description: "TS-2004-09-28 xten sipcall and 'leakage'\n\nsecrets.scripting.com"
+  people: [Dave Winer]
+
+- id: 2004-11-06-Bloggercon
+  kind: guest
+  source: 2004/Podcasting.mp3
+  date: 2004-11-06
+  basis: Adam's blog of 2004-08-16, "bloggercon III Standford Law, Palo Alto, Ca. November 6th"
+  title: "Bloggercon III: Podcasting"
+  subtitle: Adam Curry's podcasting session at Bloggercon III, Stanford Law School, recorded by IT Conversations
+  author: Adam Curry
+  description: "Bloggercon III, Stanford Law School, November 6th 2004: the Podcasting session, led by Adam Curry. Recorded by IT Conversations."
+
+- id: 2004-11-25-Culture-Show
+  kind: guest
+  source: 2004/CultureShowPodcasting-2004-11-25.mp4
+  origin:
+    blog: http://www.blognewsnetwork.com/members/0000001/2004/11/25.html#a6903
+  title: "The Culture Show (BBC Two): Podcasting"
+  subtitle: The BBC Two Culture Show piece on podcasting, aired 2004-11-25
+  author: BBC Two, The Culture Show
+
+- id: 2004-12-08-Phone-Test
+  kind: adam
+  source: 2004/DaveAndAdamPhoneTest-2004-12-08.mp3
+  date: 2004-12-08
+  basis: file name
+  title: Dave and Adam Phone Test
+  subtitle: Dave Winer and Adam Curry test recording a phone call
+  author: Adam Curry and Dave Winer
+  description: DaveAndAdamPhoneTest
+  people: [Dave Winer]
+
+- id: 2005-04-19-Utrecht
+  kind: adam
+  source: mp3/repaired/homepage.mac.com/dailysourcecode/DSC/DSC-2005-04-19.mp3
+  url: http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-04-19.mp3
+  date: 2005-04-19
+  basis: file name and tags
+  title: A quick update from Utrecht
+  subtitle: DSC-2005-04-19, not posted in the Daily Source Code category
+  description: "DSC-2005-04-19\n\nA quick update from Utrecht"
+
+- id: 2005-05-17-RVZR
+  kind: special
+  source: 2005/RVZR-2005-05-17.mp3
+  origin:
+    feed: rss/curry-com-xml-rss-200505230141.xml
+    enclosure: RVZR-2005-05-17
+  date: 2005-05-17
+  basis: file name (the curry.com feed item has no date)
+  people: [Patricia Paay]
+
+- id: 2005-10-07-JobCast
+  kind: special
+  source: 2005/DSC-2005-10-06-JobCast.mp3
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/07.html#a7162
+
+- id: 2005-10-13-iPod-Video
+  kind: special
+  source: 2005/dsc.mp4
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/13.html#a7166
+
+- id: 2005-10-23-Video
+  kind: special
+  source: 2005/DSCV-01-2005-10-23.m4v
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/24.html#a7173
+
+- id: 2005-10-25-MK-Video-Promo
+  kind: special
+  source: 2005/maryandkarla_HALLOWEEN_PROMO.m4v
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/25.html#a7176
+
+- id: 2005-11-27-Sunday-Fun
+  kind: special
+  source: 2005/QYDJ-ThingsAreBad.mp3
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/27.html#a7198
+
+- id: 2005-12-03-Xmas-1
+  kind: adam
+  source: mp3/mp3.dailysourcecode.podshow.com/podshowXmas1.mp3
+  origin:
+    feed: rss/xmas-podshow-com-rss2-20060209.xml
+    enclosure: podshowXmas1.mp3
+
+- id: 2005-12-04-Xmas-2
+  kind: adam
+  source: mp3/mp3.dailysourcecode.podshow.com/podshowXmas2.mp3
+  origin:
+    feed: rss/xmas-podshow-com-rss2-20060209.xml
+    enclosure: podshowXmas2.mp3
+
+- id: 2005-12-05-Xmas-3
+  kind: adam
+  source: mp3/mp3.dailysourcecode.podshow.com/podshowXmas3.mp3
+  origin:
+    feed: rss/xmas-podshow-com-rss2-20060209.xml
+    enclosure: podshowXmas3.mp3
+
+- id: 2005-12-07-Xmas-4
+  kind: adam
+  source: mp3/mp3.dailysourcecode.podshow.com/xmasPodshow4.mp3
+  origin:
+    feed: rss/xmas-podshow-com-rss2-20060209.xml
+    enclosure: xmasPodshow4.mp3
+
+- id: 2005-12-08-Xmas-5
+  kind: adam
+  source: mp3/mp3.dailysourcecode.podshow.com/xmasPodshow5.mp3
+  origin:
+    feed: rss/xmas-podshow-com-rss2-20060209.xml
+    enclosure: xmasPodshow5.mp3
+
+- id: 2006-03-02-Video-Music-Cast-1
+  kind: special
+  source: mp3/mp3.dailysourcecode.podshow.com/DSC-VMC-1-2006-03-02.m4v
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/02.html#a7263
+
+- id: 2006-03-06-In-Flight
+  kind: special
+  source: mp3/mp3.dailysourcecode.podshow.com/EGTF-EHRD-inflight.MP4
+  url: http://mp3.dailysourcecode.podshow.com/EGTF-EHRD-inflight.MP4
+  date: 2006-03-06
+  basis: linked in the show notes of #347 (2006-03-06)
+  title: "In flight: EGTF-EHRD"
+  subtitle: Video from the Delta Sierra, Fairoaks (EGTF) to Rotterdam (EHRD), linked in #347
+  description: EGTF-EHRD-inflight
+
+- id: 2006-03-20-Video-Music-Cast-2
+  kind: special
+  source: 2006/DSC-2006-03-20.m4v
+  date: 2006-03-20
+  basis: file name; "Welcome to the second episode of the Victor Mike Charlie, my video music cast" (no post found)
+  title: DSC Video Music Cast #2
+  subtitle: The second Victor Mike Charlie, from the Curry Condo, San Francisco
+  description: DSC-2006-03-20
+
+- id: 2006-03-21-Daily-Video-Cast-1
+  kind: special
+  source: 2006/DSC-2006-03-21.m4v
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/22.html#a7278
+
+- id: 2006-03-22-PodShow-Video
+  kind: adam
+  source: 2006/DSC-2006-03-22.m4v
+  date: 2006-03-22
+  basis: file name (no post found)
+  title: PodShow office video
+  subtitle: Video from the PodShow office, 2006-03-22 (not posted)
+  description: DSC-2006-03-22
+
+- id: 2006-03-23-Daily-Video-Cast-2
+  kind: special
+  source: mp3/mp3.dailysourcecode.podshow.com/MyDesktopVideoPodcast.mp4
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/24.html#a7282
+
+- id: 2006-03-25-Daily-Video-Cast-3
+  kind: special
+  source: 2006/DSC-2006-03-25.m4v
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/25.html#a7284
+
+- id: 2006-04-04-Best-of-Charlie-1
+  kind: special
+  source: 2006/DSC365--bestofMB01.mp3
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/04.html#a7289
+
+- id: 2006-04-05-Best-of-Charlie-2
+  kind: special
+  source: 2006/DSC366--bestofMB02.mp3
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/05.html#a7290
+
+- id: 2006-04-06-Best-of-Charlie-3
+  kind: special
+  source: 2006/DSC367--bestofMB03.mp3
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/06.html#a7291
+
+- id: 2006-04-10-Best-of-Charlie-5
+  kind: special
+  source: 2006/dsc369_boc_anjibee.mp3
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/10.html#a7293
+  people: [Anji Bee]
+
+- id: 2006-04-11-Best-of-Charlie-6
+  kind: special
+  source: 2006/DSC-2006-04-22-MysteryMashup.mp3
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/11.html#a7294
+
+- id: 2006-04-19-DevCast-1
+  kind: adam
+  source: 2006/DSC-2006-04-22-DevCast-1.mp3
+  origin:
+    feed: rss/devcast-podshow-com-feed-20060830.xml
+    enclosure: devcast-4080-04-19-2006
+  subtitle: "DevCast, the PodShow+ and PDN developers podcast"
+
+- id: 2006-04-21-DevCast-2
+  kind: adam
+  source: 2006/DSC-2006-05-24-DevCast-2.mp3
+  origin:
+    feed: rss/devcast-podshow-com-feed-20060830.xml
+    enclosure: devcast-4097-04-21-2006
+  subtitle: "DevCast, the PodShow+ and PDN developers podcast"
+  people: ["Kevin Ostrowski"]
+
+- id: 2006-04-28-DevCast-3
+  kind: adam
+  source: 2006/03-DevCast-3.mp3
+  origin:
+    feed: rss/devcast-podshow-com-feed-20060830.xml
+    enclosure: devcast-4731-04-28-2006
+  subtitle: "DevCast, the PodShow+ and PDN developers podcast"
+  people: ["Erin O'Neill"]
+
+- id: 2006-05-16-DevCast-4
+  kind: adam
+  source: 2006/04-DevCast-4.mp3
+  origin:
+    feed: rss/devcast-podshow-com-feed-20060830.xml
+    enclosure: devcast-5223-05-16-2006
+  subtitle: "DevCast, the PodShow+ and PDN developers podcast"
+  people: ["Andrew Grumet"]
+
+- id: 2006-05-19-DevCast-5
+  kind: adam
+  source: 2006/05-DevCast-5.mp3
+  origin:
+    feed: rss/devcast-podshow-com-feed-20060830.xml
+    enclosure: devcast-5283-05-19-2006
+  subtitle: "DevCast, the PodShow+ and PDN developers podcast"
+  people: ["Kevin Ostrowski", "Andrew Grumet"]
+
+- id: 2006-06-16-DevCast-6
+  kind: adam
+  source: 2006/06-DevCast-6.mp3
+  origin:
+    feed: rss/devcast-podshow-com-feed-20060830.xml
+    enclosure: devcast-7698-06-16-2006
+  subtitle: "DevCast, the PodShow+ and PDN developers podcast"
+  people: ["Andrew Grumet"]
+
+- id: 2006-05-06-Rewind
+  kind: special
+  source: 2006/DSC-2006-05-06.mp3
+  origin:
+    post: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/05/07.html#a7312
+
+- id: 2006-06-22-Katrina-Video-1
+  kind: special
+  source: 2006/DSC-2006-06-22-Katrina-Video-1.mov
+  origin:
+    feed: rss/backup/feed-2006-07-04.xml
+    enclosure: deltasierracharl-7884-06-21-2006
+
+- id: 2006-07-03-For-Mom
+  kind: special
+  source: 2006/DSC-2006-07-03-For-Mom.mp3
+  origin:
+    feed: rss/backup/feed-2006-07-04.xml
+    enclosure: deltasierracharl-8295-07-03-2006
+
+- id: 2006-08-13-Perversion-For-Profit-1
+  kind: special
+  source: "2006/Perversion For Profit #1.m4v"
+  origin:
+    feed: rss/backup/feed-2006-08-15.xml
+    enclosure: deltasierracharl-20911-08-13-2006
+
+- id: 2006-08-24-Perversion-For-Profit-2
+  kind: adam
+  source: 2006/PFP-002.m4v
+  origin:
+    blog: http://curry.podshow.com/?p=286
+
+- id: 2006-08-29-Perversion-For-Profit-3
+  kind: adam
+  source: 2006/PFP-003.m4v
+  origin:
+    blog: http://curry.podshow.com/?p=290
+
+- id: 2006-09-11-Perversion-For-Profit-4
+  kind: adam
+  source: 2006/PFP-004.m4v
+  origin:
+    blog: http://curry.podshow.com/?p=300
+
+- id: 2006-10-21-London-Live-Promo
+  kind: adam
+  source: "2006/London Live Promo.m4v"
+  date: 2006-10-21
+  basis: creation time in the file (2006-10-21T11:06:45Z); no post found
+  title: London Live Promo
+  subtitle: Perversion For Profit promo video
+  description: London Live Promo
+
+- id: 2007-01-01-Best-of-Charlie
+  kind: special
+  source: 2007/DSC-2007-01-01-BOC1.mp3
+  origin:
+    feed: rss/backup/feed-2007-01-09.xml
+    enclosure: dailysourcecode-43948-01-01-2007
+  people: [Marcus Couch, Barbara Couch]
+
+- id: 2007-01-02-Best-of-Charlie
+  kind: special
+  source: 2007/DSC-2007-01-02-BOC2.mp3
+  origin:
+    feed: rss/backup/feed-2007-01-09.xml
+    enclosure: dailysourcecode-44039-01-02-2007
+
+- id: 2007-01-03-Best-of-Charlie
+  kind: special
+  source: 2007/DSC-2007-01-03-BOC3.mp3
+  origin:
+    feed: rss/backup/feed-2007-01-09.xml
+    enclosure: dailysourcecode-44172-01-03-2007
+  people: [Sander Hoksbergen]
+
+- id: 2007-01-04-Best-of-Charlie
+  kind: special
+  source: 2007/DSC-2007-01-04-BOC4.mp3
+  origin:
+    feed: rss/backup/feed-2007-01-09.xml
+    enclosure: dailysourcecode-44325-01-04-2007
+  people: [Happy]
+
+- id: 2007-01-05-Best-of-Charlie
+  kind: special
+  source: 2007/DSC-2007-01-05-BOC5.mp3
+  origin:
+    feed: rss/backup/feed-2007-01-09.xml
+    enclosure: dailysourcecode-44430-01-05-2007
+  people: [Chris Doelle]
+
+- id: 2007-01-21-TWiT-85
+  kind: guest
+  source: 2007/TWiT-85-The-Podfather-2007-01-21.mp3
+  url: http://twit.tv/85
+  date: 2007-01-21
+  basis: file name
+  title: "TWiT 85: The Podfather"
+  subtitle: Adam Curry on This Week in Tech with Leo Laporte
+  author: Leo Laporte and the TWiTs
+  description: "TWiT 85: The Podfather\n\nthis WEEK in TECH, http://twit.tv/85"
+  people: [Leo Laporte]
+  adam: guest
+
+- id: 2007-02-14-First-Show-Through-The-Interface
+  kind: adam
+  source: 2007/DSC-2007-02-14-My-first-Show-directly-through-the-interface.mp3
+  date: 2007-02-14
+  basis: file name
+  title: My first Show directly through the interface
+  subtitle: DevCast test recording
+  description: My first Show directly through the interface
+
+- id: 2007-05-30-VidBlaster-Test-1
+  kind: adam
+  source: 2007/DSC-2007-05-30-AC-VidBlaster-Test-1.mp4
+  date: 2007-05-30
+  basis: file name and creation time (2007-05-30T14:20:49Z)
+  title: AC VidBlaster Test 1
+  subtitle: Perversion For Profit video test
+  description: AC VidBlaster Test 1
+
+- id: 2007-05-30-VidBlaster-Test-2
+  kind: adam
+  source: 2007/DSC-2007-05-30-AC-VidBlaster-Test-2.mp4
+  date: 2007-05-30
+  basis: file name and creation time (2007-05-30T14:41:22Z)
+  title: AC VidBlaster Test 2
+  subtitle: Perversion For Profit video test
+  description: AC VidBlaster Test 2
+
+- id: 2007-05-30-Darmstadt
+  kind: adam
+  source: 2007/DSC-2007-05-30-Darmstadt-Antanovs.mp4
+  date: 2007-05-30
+  basis: file name and creation time (2007-05-30T15:11:22Z)
+  title: Darmstadt Antanov's
+  subtitle: Perversion For Profit video from Darmstadt
+  description: Darmstadt Antanov's
+
+- id: 2007-08-06-Dawn-and-Drew
+  kind: guest
+  source: 2007/DSC-2007-08-06-DNDS.mp3
+  date: 2007-08-06
+  basis: file name
+  title: "The Dawn and Drew Show #646"
+  subtitle: The Dawn and Drew Show (DNDS-646)
+  author: Dawn Miceli and Drew Domkus
+  description: DNDS-646
+  people: [Dawn Miceli, Drew Domkus]
+  adam: guest
+
+- id: 2008-03-26-Special-Announcement
+  kind: special
+  source: 2008/DSC-2008-04-05-XXX-Special-Announcement-From-Adam-Curry.mp3
+  origin:
+    feed: rss/backup/feed-2008-05-12.xml
+    enclosure: dailysourcecode-105471-03-26-2008
+
+- id: 2008-12-31-Year-End-Special
+  kind: special
+  source: 2008/DSC-2008-12-31.mp3
+  origin:
+    feed: rss/dailysourcecode-2010-06-19.xml
+    enclosure: dailysourcecode-138006-12-31-2008
+
+- id: 2010-06-14-Curry-on-Stern
+  kind: special
+  source: "2010/Curry on Stern-2010-06-14.mp3"
+  origin:
+    feed: rss/backup/feed-2010-06-20.xml
+    enclosure: dailysourcecode-235776-06-14-2010
+
+- id: 2010-07-07-Special-Report
+  kind: special
+  source: 2010/DSC-2010-07-07-Special-Report-with-Bobbi-Eden.mp3
+  origin:
+    feed: rss/dailysourcecode-2010-01-02.xml
+    enclosure: dailysourcecode-239083-07-07-2010
+  people: [Bobbi Eden]
+
+# Not used: see 000-Irregularities.md, "Bonus items".

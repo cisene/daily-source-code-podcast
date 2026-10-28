@@ -27,7 +27,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/20.html#a7235
 enclosure:
-  url: http://mp3.dailysourcecode.podshow.com/DSC-320-2006-01-20d.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-20.mp3
   length: 44502910
   type: audio/mpeg
 itunes:
@@ -96,10 +96,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2006-01-20.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-20.mp3
 fileinfo:
   filename: DSC-2006-01-20.mp3
   size: 44502910
-  duration: 3711.007
+  duration: 3711
   bitrate: 96000
   source: 2006/DSC-2006-01-20.mp3
+  origin_url: http://mp3.dailysourcecode.podshow.com/DSC-320-2006-01-20d.mp3

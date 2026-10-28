@@ -11,7 +11,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/14.html#a7190
 enclosure:
-  url: http://mp3.dailysourcecode.podshow.com/DSC-279-2005-11-13.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-13.mp3
   length: 105660920
   type: audio/mpeg
 itunes:
@@ -64,10 +64,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2005-11-13.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-13.mp3
 fileinfo:
   filename: DSC-2005-11-13.mp3
   size: 105660920
-  duration: 4402.26
+  duration: 4402
   bitrate: 192000
   source: 2005/DSC-2005-11-13.mp3
+  origin_url: http://mp3.dailysourcecode.podshow.com/DSC-279-2005-11-13.mp3

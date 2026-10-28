@@ -11,7 +11,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/14.html#a6962
 enclosure:
-  url: http://adam.opml.org/DSC20041214.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-14.mp3
   length: 22889732
   type: audio/mpeg
 itunes:
@@ -64,10 +64,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2004-12-14.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-14.mp3
 fileinfo:
   filename: DSC-2004-12-14.mp3
   size: 22889732
-  duration: 2860.19
+  duration: 2860
   bitrate: 64000
   source: 2004/DSC-2004-12-14.mp3
+  origin_url: http://adam.opml.org/DSC20041214.mp3

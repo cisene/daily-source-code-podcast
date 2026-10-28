@@ -11,8 +11,8 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/08/14.html#a7116
 enclosure:
-  url: http://mp3.dailysourcecode.podshow.com/DSC-222-2005-08-13.mp3
-  length: null
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-08-13.mp3
+  length: 18638066
   type: audio/mpeg
 itunes:
   author: Adam Curry
@@ -59,15 +59,16 @@ podcast:
     accountUrl: null
   alternateEnclosure:
   - type: audio/mpeg
-    length: null
-    bitrate: null
+    length: 18638066
+    bitrate: 64000
     default: true
     title: Standard
     source:
-      uri: http://mp3.dailysourcecode.podshow.com/DSC-222-2005-08-13.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-08-13.mp3
 fileinfo:
   filename: DSC-2005-08-13.mp3
   size: 18638066
-  duration: 2328.737
+  duration: 2329
   bitrate: 64000
   source: 2005/DSC-2005-08-13.mp3
+  origin_url: http://mp3.dailysourcecode.podshow.com/DSC-222-2005-08-13.mp3

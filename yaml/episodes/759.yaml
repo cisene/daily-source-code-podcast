@@ -12,7 +12,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2008/05/19.html#a375
 enclosure:
-  url: http://m-uk.podshow.com/media/21/episodes/112842/dailysourcecode-112842-05-19-2008.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2008-05-19.mp3
   length: 60893242
   type: audio/mpeg
 itunes:
@@ -66,10 +66,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2008-05-19.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2008-05-19.mp3
 fileinfo:
   filename: DSC-2008-05-19.mp3
   size: 60893242
-  duration: 3798.204
+  duration: 3798
   bitrate: 128000
   source: 2008/DSC-2008-05-19.mp3
+  origin_url: http://m-uk.podshow.com/media/21/episodes/112842/dailysourcecode-112842-05-19-2008.mp3

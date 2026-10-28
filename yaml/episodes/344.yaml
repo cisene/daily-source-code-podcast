@@ -16,7 +16,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2006/03/01.html#a7261
 enclosure:
-  url: http://mp3.dailysourcecode.podshow.com/DSC-344-2006-03-01w.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-01.mp3
   length: 38514015
   type: audio/mpeg
 itunes:
@@ -74,10 +74,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2006-03-01.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-01.mp3
 fileinfo:
   filename: DSC-2006-03-01.mp3
   size: 38514015
-  duration: 3211.207
+  duration: 3211
   bitrate: 96000
   source: 2006/DSC-2006-03-01.mp3
+  origin_url: http://mp3.dailysourcecode.podshow.com/DSC-344-2006-03-01w.mp3

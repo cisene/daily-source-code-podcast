@@ -12,7 +12,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2008/04/10.html#a361
 enclosure:
-  url: http://m.podshow.com/media/21/episodes/107479/dailysourcecode-107479-04-10-2008.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2008-04-10.mp3
   length: 41764255
   type: audio/mpeg
 itunes:
@@ -66,10 +66,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2008-04-10.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2008-04-10.mp3
 fileinfo:
   filename: DSC-2008-04-10.mp3
   size: 41764255
-  duration: 2599.576
+  duration: 2600
   bitrate: 128000
   source: 2008/DSC-2008-04-10.mp3
+  origin_url: http://m.podshow.com/media/21/episodes/107479/dailysourcecode-107479-04-10-2008.mp3

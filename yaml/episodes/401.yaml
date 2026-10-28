@@ -34,7 +34,7 @@ guid:
   isPermaLink: false
   link: '#daily-source-code-episode-guid-401'
 enclosure:
-  url: DSC-2006-06-08.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-08.mp3
   length: 31578388
   type: audio/mpeg
 itunes:
@@ -110,10 +110,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2006-06-08.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-08.mp3
 fileinfo:
   filename: DSC-2006-06-08.mp3
   size: 31578388
-  duration: 2632.229
+  duration: 2632
   bitrate: 96000
   source: 2006/DSC-2006-06-08.mp3
+  origin_url: DSC-2006-06-08.mp3

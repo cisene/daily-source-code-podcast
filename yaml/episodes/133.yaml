@@ -101,7 +101,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/02/28.html#a7025
 enclosure:
-  url: http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-02-28.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-02-28.mp3
   length: 21328686
   type: audio/mpeg
 itunes:
@@ -244,10 +244,11 @@ podcast:
     default: true
     title: Standard
     source:
-      uri: DSC-2005-02-28.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-02-28.mp3
 fileinfo:
   filename: DSC-2005-02-28.mp3
   size: 21328686
-  duration: 2664.404
+  duration: 2664
   bitrate: 64000
   source: 2005/DSC-2005-02-28.mp3
+  origin_url: http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-02-28.mp3
