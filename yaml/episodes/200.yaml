@@ -1,11 +1,12 @@
 episode: '200'
 title: Daily Source Code for Saturday June 25th 2005
 link: http://mp3.dailysourcecode.podshow.com/DSC-2005-06-25.mp3
-pubDate: Sun, 26 Jun 2005 05:09:25 GMT
+pubDate: Sun, 26 Jun 2005 05:09:25 +0000
 category: podcast
 description: |-
   Shownotes: From Gnomedex 2005 Seattle, USADirec link to the show
-  The Final Conference KeyNote Podcast\nDuration: 00:33:11
+  The Final Conference KeyNote Podcast
+  Duration: 00:33:11
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,7 +18,7 @@ dc:
 content:
   encoded: null
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-25.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-25.mp3
   length: 15893627
   type: audio/mpeg
 itunes:
@@ -26,14 +27,15 @@ itunes:
   subtitle: null
   summary: |-
     Shownotes: From Gnomedex 2005 Seattle, USADirec link to the show
-    The Final Conference KeyNote Podcast\nDuration: 00:33:11
+    The Final Conference KeyNote Podcast
+    Duration: 00:33:11
   explicit: true
   keywords: delta,rotterdam,sierra,soundseeing,tour
   duration: 1991
   season: null
   episode: '200'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-200'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '200'
   season: null
@@ -53,18 +55,19 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-200'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-200'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-06-25.json
     type: application/json+chapters
   transcript:
-  - url: null
-    type: null
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-06-25.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-06-25.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
   - uri: null
     protocol: null
@@ -74,10 +77,19 @@ podcast:
   - type: audio/mpeg
     length: 15893627
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #200'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-25.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-25.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-06-25.mp3
   size: 15893627

@@ -1,7 +1,7 @@
 episode: '332'
 title: Daily Source Code for Wednesday February 08th 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/08.html#a7249
-pubDate: Wed Feb  8 12:18:58 2006 +0000
+pubDate: Wed, 08 Feb 2006 12:18:58 +0000
 category: podcast
 description: |-
   - MADPOD_PodFather_Blues_Song
@@ -19,7 +19,8 @@ description: |-
   - Rewind-Submissions01
   - GeekBrief, Cali.. Grrrrrhrrrhrr
   * Kevin's Warning
-  - CommonGround-Take3-BottleOfDreams-FadeOut\nDuration: 00:51:11
+  - CommonGround-Take3-BottleOfDreams-FadeOut
+  Duration: 00:51:11
 author: Adam Curry
 language: en-us
 comments: null
@@ -27,7 +28,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/08.html#a7249
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-08.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-08.mp3
   length: 36839324
   type: audio/mpeg
 itunes:
@@ -50,14 +51,15 @@ itunes:
     - Rewind-Submissions01
     - GeekBrief, Cali.. Grrrrrhrrrhrr
     * Kevin's Warning
-    - CommonGround-Take3-BottleOfDreams-FadeOut\nDuration: 00:51:11
+    - CommonGround-Take3-BottleOfDreams-FadeOut
+    Duration: 00:51:11
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3071
   season: null
   episode: '332'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-332'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '332'
   season: null
@@ -72,20 +74,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-332'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-332'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-02-08.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-332'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-02-08.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-02-08.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -93,10 +96,19 @@ podcast:
   - type: audio/mpeg
     length: 36839324
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #332'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-08.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-08.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-02-08.mp3
   size: 36839324

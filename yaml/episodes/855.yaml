@@ -1,9 +1,11 @@
 episode: '855'
 title: Daily Source Code for Friday December 17th 2010
 link: http://www.mevio.com/episode/261559/dsc-855-2010-12-17
-pubDate: Mon Dec 20 22:13:43 2010 +0000
+pubDate: Mon, 20 Dec 2010 22:13:43 +0000
 category: podcast
-description: '#855 Adam Curry''s Daily Source Code for Friday December 17th 2010 The Goodbye Beefheart FUBAR Friday - DSC App:\nDuration: 03:05:43'
+description: |-
+  #855 Adam Curry's Daily Source Code for Friday December 17th 2010 The Goodbye Beefheart FUBAR Friday - DSC App:
+  Duration: 03:05:43
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,26 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/261559/dsc-855-2010-12-17
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-12-17.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-12-17.mp3
   length: 134103824
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday December 17th 2010
   subtitle: The Goodbye Beefheart FUBAR Friday
-  summary: '<p><b>#855 Adam Curry''s Daily Source Code for Friday December 17th 2010</b></p><p><b>The Goodbye Beefheart FUBAR Friday</b></p><p><img alt="dsc855art" src="http://curryscloud.com/dsc855art" /></p><p><b>- <a href="http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8">DSC App</a>: </b><br></p>'
+  summary: |-
+    #855 Adam Curry's Daily Source Code for Friday December 17th 2010
+
+    The Goodbye Beefheart FUBAR Friday
+
+    - DSC App:
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 11143
   season: null
   episode: '855'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-855'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '855'
   season: null
@@ -40,20 +47,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-855'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-855'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-12-17.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-855'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-12-17.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-12-17.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +69,19 @@ podcast:
   - type: audio/mpeg
     length: 134103824
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #855'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-12-17.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-12-17.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-12-17.mp3
   size: 134103824

@@ -1,9 +1,9 @@
 episode: '318'
 title: Daily Source Code for Wednesday January 18th 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/18.html#a7233
-pubDate: Wed Jan 18 06:38:26 2006 +0000
+pubDate: Wed, 18 Jan 2006 06:38:26 +0000
 category: podcast
-description: "DSC-318-2006-01-18\n\n\n\x95 My Little Radio - Waste another night\n¢? My audio\n¢? Skipping\n\x95 Atlanta\n¢? Australia\n¢? Australia 2\n\x95\n\x95\n\x95\n\x95\n\x95\n°Â Job opening!\n\x95 Flash Programmer requirements: (emphasis on PROGRAMMER, not DESIGNER)\n\n\nActionscript 2 expert\nProven experience using Actionscript 2 core classes\nAbility to create new classes\nExperience using Actionscript 2 components and events\nCreate clips that interact with dynamic content (PHP/XML)\nCreate streaming media players.\n°Â Trinity\n\x95\n¢? Pukin' 4 Trinity\n¢? T-Shirt\n\x95\n\x95 Chance - Hip Hop High\\nDuration: 00:33:22"
+description: "DSC-318-2006-01-18\n\n\n  My Little Radio - Waste another night\n¢? My audio\n¢? Skipping\n  Atlanta\n¢? Australia\n¢? Australia 2\n \n \n \n \n \n°Â Job opening!\n  Flash Programmer requirements: (emphasis on PROGRAMMER, not DESIGNER)\n\n\nActionscript 2 expert\nProven experience using Actionscript 2 core classes\nAbility to create new classes\nExperience using Actionscript 2 components and events\nCreate clips that interact with dynamic content (PHP/XML)\nCreate streaming media players.\n°Â Trinity\n \n¢? Pukin' 4 Trinity\n¢? T-Shirt\n \n  Chance - Hip Hop High\nDuration: 00:33:22"
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +11,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/18.html#a7233
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-18.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-18.mp3
   length: 24025285
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday January 18th 2006
   subtitle: null
-  summary: "DSC-318-2006-01-18\n\n\n\x95 My Little Radio - Waste another night\n¢? My audio\n¢? Skipping\n\x95 Atlanta\n¢? Australia\n¢? Australia 2\n\x95\n\x95\n\x95\n\x95\n\x95\n°Â Job opening!\n\x95 Flash Programmer requirements: (emphasis on PROGRAMMER, not DESIGNER)\n\n\nActionscript 2 expert\nProven experience using Actionscript 2 core classes\nAbility to create new classes\nExperience using Actionscript 2 components and events\nCreate clips that interact with dynamic content (PHP/XML)\nCreate streaming media players.\n°Â Trinity\n\x95\n¢? Pukin' 4 Trinity\n¢? T-Shirt\n\x95\n\x95 Chance - Hip Hop High\\nDuration: 00:33:22"
+  summary: "DSC-318-2006-01-18\n\n  My Little Radio - Waste another night\n¢? My audio\n¢? Skipping\n  Atlanta\n¢? Australia\n¢? Australia 2\n \n \n \n \n \n°Â Job opening!\n  Flash Programmer requirements: (emphasis on PROGRAMMER, not DESIGNER)\n\nActionscript 2 expert\nProven experience using Actionscript 2 core classes\nAbility to create new classes\nExperience using Actionscript 2 components and events\nCreate clips that interact with dynamic content (PHP/XML)\nCreate streaming media players.\n°Â Trinity\n \n¢? Pukin' 4 Trinity\n¢? T-Shirt\n \n  Chance - Hip Hop High\nDuration: 00:33:22"
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2002
   season: null
   episode: '318'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-318'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '318'
   season: null
@@ -40,20 +40,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-318'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-318'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-01-18.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-318'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-01-18.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-01-18.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +62,19 @@ podcast:
   - type: audio/mpeg
     length: 24025285
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #318'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-18.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-18.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-01-18.mp3
   size: 24025285

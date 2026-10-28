@@ -1,30 +1,31 @@
 episode: '110'
 title: Daily Source Code for Monday January 24th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/01/24.html#a7002
-pubDate: Mon Jan 24 13:07:36 2005 +0000
+pubDate: Mon, 24 Jan 2005 13:07:36 +0000
 category: podcast
 description: |-
   Show details
-  	Podcast on January 24th 2005
-  	From Guildford, Curry Cottage
-  	<a href="http://adam.opml.org/DSC20050124.mp3">Direct download link</a>
-  	<a href="http://torrents.podcatch.com/DSC20050124.mp3.torrent">Torrent link</a>
-  	<a href="http://www.curry.com/xml/rss.xml">Podcast feed</a>
-  	<a href="http://www.curry.com/">Weblog</a>
-  	<a href="mailto:adam@curry.com">Email</a>
+   Podcast on January 24th 2005
+   From Guildford, Curry Cottage
+   <a href="http://adam.opml.org/DSC20050124.mp3">Direct download link</a>
+   <a href="http://torrents.podcatch.com/DSC20050124.mp3.torrent">Torrent link</a>
+   <a href="http://www.curry.com/xml/rss.xml">Podcast feed</a>
+   <a href="http://www.curry.com/">Weblog</a>
+   <a href="mailto:adam@curry.com">Email</a>
   Adam's Podcasting Sweeper
   Rockmaninov Opener
   No Stinkin' Transmitters - OpenPodcast.org #554
   Jimmy O'Toole
-  	Limerick
-  		Limerick-Curry's Megabit Balls
+   Limerick
+    Limerick-Curry's Megabit Balls
   Biddies Coverville director's cut
   iPodder Lemon/NNW/CastBlaster
   Kim and Ken- SS - Podcastamatic - OpenPodcast.org #753
   Taxi Eric Podcasting oh wow
   Trivia - podcastnotes112105
   podcastconukpromo
-  AC-DC Ft. Madge Weinstein\nDuration: 00:45:14
+  AC-DC Ft. Madge Weinstein
+  Duration: 00:45:14
 author: Adam Curry
 language: en-us
 comments: null
@@ -32,7 +33,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/01/24.html#a7002
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-01-24.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-01-24.mp3
   length: 21718175
   type: audio/mpeg
 itunes:
@@ -41,33 +42,49 @@ itunes:
   subtitle: The first for the week, with a Madge mix-up, podsafe music from NY and plenty of promos.
   summary: |-
     Show details
-    	Podcast on January 24th 2005
-    	From Guildford, Curry Cottage
-    	<a href="http://adam.opml.org/DSC20050124.mp3">Direct download link</a>
-    	<a href="http://torrents.podcatch.com/DSC20050124.mp3.torrent">Torrent link</a>
-    	<a href="http://www.curry.com/xml/rss.xml">Podcast feed</a>
-    	<a href="http://www.curry.com/">Weblog</a>
-    	<a href="mailto:adam@curry.com">Email</a>
+    - Podcast on January 24th 2005
+    - From Guildford, Curry Cottage
+    - Direct download link
+    - Torrent link
+    - Podcast feed
+    - Weblog
+    - Email
     Adam's Podcasting Sweeper
     Rockmaninov Opener
     No Stinkin' Transmitters - OpenPodcast.org #554
     Jimmy O'Toole
-    	Limerick
-    		Limerick-Curry's Megabit Balls
+    - Limerick
+      - Limerick-Curry's Megabit Balls
     Biddies Coverville director's cut
     iPodder Lemon/NNW/CastBlaster
     Kim and Ken- SS - Podcastamatic - OpenPodcast.org #753
     Taxi Eric Podcasting oh wow
     Trivia - podcastnotes112105
     podcastconukpromo
-    AC-DC Ft. Madge Weinstein\nDuration: 00:45:14
+    AC-DC Ft. Madge Weinstein
+    - Madge Got Balls
+    Cole Camplese & MOJO Student, Kyle Palmer
+    - NLII
+      - NLII Podcasting Promo
+    AC + Biddies + Hazes
+    Radio Adventures Of Dr. Floyd Podcast Promo #2 - OpenPodcast.org #752
+    Craig Shoemaker
+    - .NET Help
+    Jeremy
+    - LinuxQuestions.org Podcast
+      - DSC Promo
+    Andrew Neesley
+    - Newest
+      - Pretty Girl
+    Inkernet Commercial
+    Rockmaninov Closer
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2714
   season: null
   episode: '110'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-110'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '110'
   season: null
@@ -82,20 +99,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-110'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-110'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-01-24.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-110'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-01-24.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-01-24.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -103,10 +121,19 @@ podcast:
   - type: audio/mpeg
     length: 21718175
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #110'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-01-24.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-01-24.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-01-24.mp3
   size: 21718175

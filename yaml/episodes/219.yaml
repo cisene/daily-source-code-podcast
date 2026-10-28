@@ -1,9 +1,11 @@
 episode: '219'
 title: Daily Source Code for Tuesday August 02nd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/08/03.html#a7113
-pubDate: Wed Aug  3 09:17:43 2005 +0000
+pubDate: Wed, 03 Aug 2005 09:17:43 +0000
 category: podcast
-description: 'From The Cottage, Guildford UK - REPOST Direct link to fileThe day after the Playboy partyMashup: Stairway to bootleg Heaven - DJ Earworm [Site]Wim Duisenberg did not die in his swimmingpool<br>Promo: Exit50 [Site]<br>Promo: BitJobs Podcast [Site]Podsafe: Gentry Bronson and the Watchmen - Everything''s so fucked [Site]Promo: PuffCast [Site]Backtracks Podcast #5 [Site]\nDuration: 00:40:38'
+description: |-
+  From The Cottage, Guildford UK - REPOST Direct link to fileThe day after the Playboy partyMashup: Stairway to bootleg Heaven - DJ Earworm [Site]Wim Duisenberg did not die in his swimmingpool<br>Promo: Exit50 [Site]<br>Promo: BitJobs Podcast [Site]Podsafe: Gentry Bronson and the Watchmen - Everything's so fucked [Site]Promo: PuffCast [Site]Backtracks Podcast #5 [Site]
+  Duration: 00:40:38
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,32 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/08/03.html#a7113
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-08-02.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-08-02.mp3
   length: 24384544
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday August 02nd 2005
   subtitle: null
-  summary: '<br><h4>From The Cottage, Guildford UK - REPOST<br><br></h4><br><ul><br><li>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-219-2005-08-02.mp3">link</a>to file</li><li>The day after the Playboy party</li><li>Mashup: Stairway to bootleg Heaven - DJ Earworm [<a href="http://www.djearworm.com/">Site</a>]</li><li>Wim Duisenberg did not die in his swimmingpool<br><br></li><li>Promo: Exit50 [<a href="http://www.exit50.com/">Site</a>]<br><br></li><li>Promo: BitJobs Podcast [<a href="http://bitjobs.net/">Site</a>]</li><li>Podsafe: Gentry Bronson and the Watchmen - Everything''s so fucked [<a href="http://www.itsaboutmusic.com/gentrybronson.html">Site</a>]</li><li>Promo: PuffCast [<a href="http://puffcast.com/">Site</a>]</li><li>Backtracks Podcast #5 [<a href="http://backtrackspodcast.com/">Site</a>]</li><br></ul><br>'
+  summary: |-
+    From The Cottage, Guildford UK - REPOST
+
+    - Directto file
+    - The day after the Playboy party
+    - Mashup: Stairway to bootleg Heaven - DJ Earworm []
+    - Wim Duisenberg did not die in his swimmingpool
+    - Promo: Exit50 []
+    - Promo: BitJobs Podcast []
+    - Podsafe: Gentry Bronson and the Watchmen - Everything's so fucked []
+    - Promo: PuffCast []
+    - Backtracks Podcast #5 []
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2438
   season: null
   episode: '219'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-219'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '219'
   season: null
@@ -40,20 +53,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-219'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-219'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-08-02.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-219'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-08-02.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-08-02.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +75,19 @@ podcast:
   - type: audio/mpeg
     length: 24384544
     bitrate: 80000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #219'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-08-02.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-08-02.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-08-02.mp3
   size: 24384544

@@ -1,9 +1,11 @@
 episode: '205'
 title: Daily Source Code for Friday July 08th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/08.html#a7098
-pubDate: Fri Jul  8 16:03:55 2005 +0000
+pubDate: Fri, 08 Jul 2005 16:03:55 +0000
 category: podcast
-description: 'Shownotes: From The Cottage in Guildford, UK<br>Direct link to the showMashup: Osymyso - Inro Inspection [Site]Promo: Skepticality [Site]Wake up Internet Podcast from the UK [Site]Curry and van Inkel podcast feedPodsafe: BuffyGirl - Everywhere I go [Site]\nDuration: 00:38:21'
+description: |-
+  Shownotes: From The Cottage in Guildford, UK<br>Direct link to the showMashup: Osymyso - Inro Inspection [Site]Promo: Skepticality [Site]Wake up Internet Podcast from the UK [Site]Curry and van Inkel podcast feedPodsafe: BuffyGirl - Everywhere I go [Site]
+  Duration: 00:38:21
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,30 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/08.html#a7098
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-07-08.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-07-08.mp3
   length: 23009704
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday July 08th 2005
   subtitle: null
-  summary: '<br><p><br></p><p><br><br><p><br></p><p><br><br>Shownotes:<br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><ul><br><li>From The Cottage in Guildford, UK<br><br></li><li>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-2005-07-08.mp3">link</a>to the show</li><li>Mashup: Osymyso - Inro Inspection [<a href="http://www.osymyso.com/">Site</a>]</li><li>Promo: Skepticality [<a href="http://www.skepticality.com/">Site</a>]</li><li>Wake up Internet Podcast from the UK [<a href="http://wakeupinternet.blogspot.com/2005/07/podcast-number-2.html">Site</a>]</li><li>Curry and van Inkel podcast<a href="http://clogwog.net/cenvi/">feed</a></li><li>Podsafe: BuffyGirl - Everywhere I go [<a href="http://www.buffygirl.com/">Site</a>]</li><br></ul><br>'
+  summary: |-
+    Shownotes:
+
+    - From The Cottage in Guildford, UK
+    - Directto the show
+    - Mashup: Osymyso - Inro Inspection []
+    - Promo: Skepticality []
+    - Wake up Internet Podcast from the UK []
+    - Curry and van Inkel podcast
+    - Podsafe: BuffyGirl - Everywhere I go []
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2301
   season: null
   episode: '205'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-205'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '205'
   season: null
@@ -40,20 +51,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-205'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-205'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-07-08.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-205'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-07-08.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-07-08.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +73,19 @@ podcast:
   - type: audio/mpeg
     length: 23009704
     bitrate: 80000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #205'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-07-08.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-07-08.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-07-08.mp3
   size: 23009704

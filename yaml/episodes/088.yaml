@@ -1,9 +1,11 @@
 episode: '088'
 title: Daily Source Code for Sunday December 19th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/20.html#a6980
-pubDate: Mon Dec 20 15:02:39 2004 +0000
+pubDate: Mon, 20 Dec 2004 15:02:39 +0000
 category: podcast
-description: 'A Sunday evening source code, with some drums, nasa, and plenti ''venti'' info on broadband in the uk.<br>mp3 Production notes in html and opml\nDuration: 00:40:47'
+description: |-
+  A Sunday evening source code, with some drums, nasa, and plenti 'venti' info on broadband in the uk.<br>mp3 Production notes in html and opml
+  Duration: 00:40:47
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,24 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/20.html#a6980
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-19.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-19.mp3
   length: 19588170
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Sunday December 19th 2004
   subtitle: Drum cadence, Skol commercial and a long distance dedication
-  summary: A Sunday evening source code, with some drums, nasa, and plenti 'venti' info on broadband in the uk.<p><br><br><a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2004-12-19.mp3">mp3</a><p><br><br>Production notes in<a href="http://www.blognewsnetwork.com/members/0000001/outlines/DSC-2004-12-19.html">html</a>and<a href="http://www.blognewsnetwork.com/members/0000001/opml/DSC-2004-12-19.opml">opml</a><br>
+  summary: |-
+    A Sunday evening source code, with some drums, nasa, and plenti 'venti' info on broadband in the uk.
+
+    Production notes inand
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2447
   season: null
   episode: '088'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-088'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '088'
   season: null
@@ -40,20 +45,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-088'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-088'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-12-19.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-088'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-12-19.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-12-19.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +67,19 @@ podcast:
   - type: audio/mpeg
     length: 19588170
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #88'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-19.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-19.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-12-19.mp3
   size: 19588170

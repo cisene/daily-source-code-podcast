@@ -1,7 +1,7 @@
 episode: '321'
 title: Daily Source Code for Monday January 23rd 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/23.html#a7236
-pubDate: Mon Jan 23 13:20:50 2006 +0000
+pubDate: Mon, 23 Jan 2006 13:20:50 +0000
 category: podcast
 description: |-
   - Extraordinary Girl
@@ -31,7 +31,8 @@ description: |-
   * ID3 Tags
   * More ID3
   - pissed off pimp
-  - Freak Accident Tour Dates Announcement\nDuration: 01:09:42
+  - Freak Accident Tour Dates Announcement
+  Duration: 01:09:42
 author: Adam Curry
 language: en-us
 comments: null
@@ -39,7 +40,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/23.html#a7236
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-23.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-23.mp3
   length: 50149204
   type: audio/mpeg
 itunes:
@@ -61,11 +62,11 @@ itunes:
     - Earthlink
     * Acuvue
     - MM
-        * Stubble
-        - msm_acne
-        * Shaving site
-        * Manicure
-        * Prehistoric MM Man
+    * Stubble
+    - msm_acne
+    * Shaving site
+    * Manicure
+    * Prehistoric MM Man
     - renamed_Audio Comment re_DSC_319
     - keepthefaith
     - physicians
@@ -74,14 +75,15 @@ itunes:
     * ID3 Tags
     * More ID3
     - pissed off pimp
-    - Freak Accident Tour Dates Announcement\nDuration: 01:09:42
+    - Freak Accident Tour Dates Announcement
+    Duration: 01:09:42
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 4182
   season: null
   episode: '321'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-321'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '321'
   season: null
@@ -96,20 +98,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-321'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-321'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-01-23.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-321'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-01-23.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-01-23.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -117,10 +120,19 @@ podcast:
   - type: audio/mpeg
     length: 50149204
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #321'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-23.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-23.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-01-23.mp3
   size: 50149204

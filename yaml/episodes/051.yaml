@@ -1,9 +1,11 @@
 episode: '051'
 title: DSC Commercial
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/22.html#a6792
-pubDate: Fri Oct 22 06:45:38 2004 +0000
+pubDate: Fri, 22 Oct 2004 06:45:38 +0000
 category: podcast
-description: 'My buddy Katja made a commercial (video) for the daily source code :)\nDuration: 00:00:37'
+description: |-
+  My buddy Katja made a commercial (video) for the daily source code :)
+  Duration: 00:00:37
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/22.html#a6792
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-22-ipodder.mp4
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2004-10-22-ipodder.mp4
   length: 4355492
   type: video/mp4
 itunes:
   author: Adam Curry
   title: DSC Commercial
   subtitle: null
-  summary: My buddy<a href="http://katjatrijber.web-log.nl/">Katja</a>made a commercial (<a href="http://homepage.mac.com/adamcurry/gems/ipodder.mp4">video</a>) for the daily source code :)
+  summary: My buddyKatjamade a commercial (video) for the daily source code :)
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 37
   season: null
   episode: '051'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-051'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '051'
   season: null
@@ -40,20 +42,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-051'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-051'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-10-22-ipodder.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-051'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-10-22-ipodder.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-10-22-ipodder.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +64,19 @@ podcast:
   - type: video/mp4
     length: 4355492
     bitrate: 950980
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #51'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-22-ipodder.mp4
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2004-10-22-ipodder.mp4
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: ipodder.mp4
   size: 4355492

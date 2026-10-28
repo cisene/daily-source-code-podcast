@@ -1,13 +1,13 @@
 episode: null
 title: Podshow Xmas Part 1
 link: http://xmas.podshow.com/?p=2
-pubDate: Sat Dec  3 19:38:17 2005 +0000
+pubDate: Sat, 03 Dec 2005 19:38:17 +0000
 category: podcast
 description: |-
   <p>First in a series of mixed podsafe music holiday songs. Just subscribe to the <a href="http://xmas.podshow.com/?feed=rss2">feed</a> and you&#8217;ll have a nice collection for the holidays!</p>
-  	<p>In order to respect the rights of the owners of the songs, I will be mixing two songs together with a holiday greeting from podcasters and podsafe artists in each episode. This should still give some good serendipity when you put your mp3 player on shuffle mode. Encoding is at 128kps for better quality.</p>
-  	<p>To kick it off we hear from <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=b69291b9e6017fff1ba9a1514f5f4c27">Podsafe for Peace</a> and <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=4fcd5120d856f2b21cf2f0ad493f54d0">Jill Parr</a>.</p>
-  	<p><a href="http://mp3.dailysourcecode.podshow.com/podshowXmas1.mp3">Part 1</a>
+   <p>In order to respect the rights of the owners of the songs, I will be mixing two songs together with a holiday greeting from podcasters and podsafe artists in each episode. This should still give some good serendipity when you put your mp3 player on shuffle mode. Encoding is at 128kps for better quality.</p>
+   <p>To kick it off we hear from <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=b69291b9e6017fff1ba9a1514f5f4c27">Podsafe for Peace</a> and <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=4fcd5120d856f2b21cf2f0ad493f54d0">Jill Parr</a>.</p>
+   <p><a href="http://mp3.dailysourcecode.podshow.com/podshowXmas1.mp3">Part 1</a>
   </p>
 author: Adam Curry
 language: en-us
@@ -16,7 +16,7 @@ guid:
   isPermaLink: false
   link: http://xmas.podshow.com/?p=2
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-03-Xmas-1.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-03-Xmas-1.mp3
   length: 8955343
   type: audio/mpeg
 itunes:
@@ -24,18 +24,21 @@ itunes:
   title: Podshow Xmas Part 1
   subtitle: 'Bonus: Adam Curry, not in the Daily Source Code feed'
   summary: |-
-    <p>First in a series of mixed podsafe music holiday songs. Just subscribe to the <a href="http://xmas.podshow.com/?feed=rss2">feed</a> and you&#8217;ll have a nice collection for the holidays!</p>
-    	<p>In order to respect the rights of the owners of the songs, I will be mixing two songs together with a holiday greeting from podcasters and podsafe artists in each episode. This should still give some good serendipity when you put your mp3 player on shuffle mode. Encoding is at 128kps for better quality.</p>
-    	<p>To kick it off we hear from <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=b69291b9e6017fff1ba9a1514f5f4c27">Podsafe for Peace</a> and <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=4fcd5120d856f2b21cf2f0ad493f54d0">Jill Parr</a>.</p>
-    	<p><a href="http://mp3.dailysourcecode.podshow.com/podshowXmas1.mp3">Part 1</a>
-    </p>
+    First in a series of mixed podsafe music holiday songs. Just subscribe to the and you’ll have a nice collection for the holidays!
+
+    In order to respect the rights of the owners of the songs, I will be mixing two songs together with a holiday greeting from podcasters and podsafe artists in each episode. This should still give some good serendipity when you put your mp3 player on shuffle mode. Encoding is at 128kps for better quality.
+
+    To kick it off we hear from Podsafe for Peace and Jill Parr.
+
+    Part 1
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 560
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -45,14 +48,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -60,10 +62,19 @@ podcast:
   - type: audio/mpeg
     length: 8955343
     bitrate: 128032
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2005-12-03
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-03-Xmas-1.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-03-Xmas-1.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: podshowXmas1.mp3
   size: 8955343

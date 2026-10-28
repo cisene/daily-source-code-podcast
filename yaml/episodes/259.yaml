@@ -1,9 +1,11 @@
 episode: '259'
 title: Daily Source Code for Thursday October 13rd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/13.html#a7167
-pubDate: Thu Oct 13 01:38:53 2005 +0000
+pubDate: Thu, 13 Oct 2005 01:38:53 +0000
 category: podcast
-description: 'Copyright PodShow, Inc. 2005 adam@curry.com dailysourcecode.com\nDuration: 00:49:10'
+description: |-
+  Copyright PodShow, Inc. 2005 adam@curry.com dailysourcecode.com
+  Duration: 00:49:10
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,23 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/13.html#a7167
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-13.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-10-13.mp3
   length: 35438943
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday October 13rd 2005
   subtitle: null
-  summary: 'Copyright PodShow, Inc. 2005 adam@curry.com dailysourcecode.com\nDuration: 00:49:10'
+  summary: |-
+    Copyright PodShow, Inc. 2005 adam@curry.com dailysourcecode.com
+    Duration: 00:49:10
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2950
   season: null
   episode: '259'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-259'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '259'
   season: null
@@ -40,20 +44,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-259'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-259'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-10-13.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-259'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-10-13.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-10-13.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +66,19 @@ podcast:
   - type: audio/mpeg
     length: 35438943
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #259'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-13.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-10-13.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-10-13.mp3
   size: 35438943

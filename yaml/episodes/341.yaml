@@ -1,7 +1,7 @@
 episode: '341'
 title: Daily Source Code for Thursday February 23rd 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/23.html#a7258
-pubDate: Thu Feb 23 15:48:40 2006 +0000
+pubDate: Thu, 23 Feb 2006 15:48:40 +0000
 category: podcast
 description: |-
   - Rusty Bender Rules! (Strange Brain Radio)
@@ -18,7 +18,8 @@ description: |-
   - TIP show#3
   - dailysourcesimulacrum
   - R1_0020
-  - 01_143\nDuration: 00:37:21
+  - 01_143
+  Duration: 00:37:21
 author: Adam Curry
 language: en-us
 comments: null
@@ -26,7 +27,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/23.html#a7258
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-23.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-23.mp3
   length: 26889499
   type: audio/mpeg
 itunes:
@@ -35,7 +36,7 @@ itunes:
   subtitle: null
   summary: |-
     - Rusty Bender Rules! (Strange Brain Radio)
-        - IhateAdam
+    - IhateAdam
     - 01_See_the_Sun
     - FLickr public
     - ELink conversation
@@ -48,14 +49,15 @@ itunes:
     - TIP show#3
     - dailysourcesimulacrum
     - R1_0020
-    - 01_143\nDuration: 00:37:21
+    - 01_143
+    Duration: 00:37:21
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2241
   season: null
   episode: '341'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-341'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '341'
   season: null
@@ -70,20 +72,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-341'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-341'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-02-23.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-341'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-02-23.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-02-23.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -91,10 +94,19 @@ podcast:
   - type: audio/mpeg
     length: 26889499
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #341'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-23.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-23.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-02-23.mp3
   size: 26889499

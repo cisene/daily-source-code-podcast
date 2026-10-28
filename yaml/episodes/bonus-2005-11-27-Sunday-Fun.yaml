@@ -1,7 +1,7 @@
 episode: null
 title: Sunday Fun
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/27.html#a7198
-pubDate: Sun Nov 27 16:35:55 2005 +0000
+pubDate: Sun, 27 Nov 2005 16:35:55 +0000
 category: podcast
 description: <br>Some busy weeks ahead for us at PodShow, all of it <a href="http://mp3.dailysourcecode.podshow.com/QYDJ-ThingsAreBad.mp3">fun</a> ofcourse :)<br><br>
 author: Adam Curry
@@ -11,21 +11,22 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/27.html#a7198
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-27-Sunday-Fun.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-11-27-Sunday-Fun.mp3
   length: 2203148
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Sunday Fun
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
-  summary: <br>Some busy weeks ahead for us at PodShow, all of it <a href="http://mp3.dailysourcecode.podshow.com/QYDJ-ThingsAreBad.mp3">fun</a> ofcourse :)<br><br>
+  summary: Some busy weeks ahead for us at PodShow, all of it fun ofcourse :)
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 110
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -35,14 +36,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -50,10 +50,19 @@ podcast:
   - type: audio/mpeg
     length: 2203148
     bitrate: 160675
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2005-11-27
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-27-Sunday-Fun.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-11-27-Sunday-Fun.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: QYDJ-ThingsAreBad.mp3
   size: 2203148

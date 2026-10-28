@@ -1,9 +1,11 @@
 episode: '226'
 title: Daily Source Code for Tuesday August 23rd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/08/23.html#a7120
-pubDate: Tue Aug 23 22:40:45 2005 +0000
+pubDate: Tue, 23 Aug 2005 22:40:45 +0000
 category: podcast
-description: 'From Curry Cottage, Guildford<br>UK Direct Link<br>to the ShowShownotes tomorrow!\nDuration: 00:32:29'
+description: |-
+  From Curry Cottage, Guildford<br>UK Direct Link<br>to the ShowShownotes tomorrow!
+  Duration: 00:32:29
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,28 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/08/23.html#a7120
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-08-23.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-08-23.mp3
   length: 19501685
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday August 23rd 2005
   subtitle: null
-  summary: <br><h4>From Curry Cottage, Guildford<br>UK</h4><p></p><ul><br><li>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-226-2005-08-23.mp3">Link</a><br>to the Show</li><li>Shownotes tomorrow!</li><br></ul><br>
+  summary: |-
+    From Curry Cottage, Guildford
+    UK
+
+    - Direct
+    to the Show
+
+    - Shownotes tomorrow!
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1949
   season: null
   episode: '226'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-226'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '226'
   season: null
@@ -40,20 +49,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-226'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-226'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-08-23.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-226'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-08-23.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-08-23.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +71,19 @@ podcast:
   - type: audio/mpeg
     length: 19501685
     bitrate: 80000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #226'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-08-23.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-08-23.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-08-23.mp3
   size: 19501685

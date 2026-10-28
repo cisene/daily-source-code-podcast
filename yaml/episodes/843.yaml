@@ -1,9 +1,11 @@
 episode: '843'
 title: Daily Source Code for Saturday August 21st 2010
 link: http://www.mevio.com/episode/245509/dsc-843-2010-08-21
-pubDate: Sun Aug 22 06:29:31 2010 +0000
+pubDate: Sun, 22 Aug 2010 06:29:31 +0000
 category: podcast
-description: '#843 Adam Curry''s Daily Source Code for Saturday August 21st 2010 Discover Simple, Private Sharing at Drop.io Snafu SaturdayMusic Appreciation EditionSupport This ShowDonate:No Agenda Founding Producer Donation PagePropagateBig App Show:bit.ly—BigAppShow Discover Simple, Private Sharing at Drop.io\nDuration: 03:01:58'
+description: |-
+  #843 Adam Curry's Daily Source Code for Saturday August 21st 2010 Discover Simple, Private Sharing at Drop.io Snafu SaturdayMusic Appreciation EditionSupport This ShowDonate:No Agenda Founding Producer Donation PagePropagateBig App Show:bit.ly—BigAppShow Discover Simple, Private Sharing at Drop.io
+  Duration: 03:01:58
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,22 +13,36 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/245509/dsc-843-2010-08-21
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-08-21.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-08-21.mp3
   length: 131024198
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday August 21st 2010
   subtitle: Snafu Saturday
-  summary: <font class="Apple-style-span"><span class="Apple-style-span"><b>#843 Adam Curry's Daily Source Code for Saturday August 21st 2010</b></span><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="384" src="http://drop.io/download/public/9cqvjphny2rc9u4twskh/d4b81520bcc1e04a565c6129e3ed2bdab55b53a5/Asset/42821920/v3/large_thumbnail" width="480" /></div><ul><li>Snafu Saturday<ul><li>Music Appreciation Edition</li></ul></li><li>Support This Show<ul><li>Donate:<ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li><li>Propagate<ul><li>Big App Show:<a href="http://bit.ly/Big">bit.ly—Big</a>AppShow</li><li><br></li></ul></li></ul></li></ul><div></div><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="480" src="http://drop.io/download/public/9cqvjphny2rc9u4twskh/074eb7e6b72e08812137c45404b08f7b75eb2cd5/Asset/42821912/v3/large_thumbnail"
-    width="480" /></div>
+  summary: |-
+    #843 Adam Curry's Daily Source Code for Saturday August 21st 2010
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - Snafu Saturday
+    - Music Appreciation Edition
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page
+    - Propagate
+    - Big App Show:bit.ly—BigAppShow
+
+    -
+
+    Discover Simple, Private Sharing atDrop.io
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 10918
   season: null
   episode: '843'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-843'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '843'
   season: null
@@ -41,20 +57,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-843'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-843'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-08-21.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-843'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-08-21.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-08-21.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +79,19 @@ podcast:
   - type: audio/mpeg
     length: 131024198
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #843'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-08-21.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-08-21.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-08-21.mp3
   size: 131024198

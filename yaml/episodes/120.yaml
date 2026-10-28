@@ -1,31 +1,32 @@
 episode: '120'
 title: Daily Source Code for Monday February 07th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/02/07.html#a7012
-pubDate: Mon Feb  7 17:50:46 2005 +0000
+pubDate: Mon, 07 Feb 2005 17:50:46 +0000
 category: podcast
 description: |-
   Show details
-  	Podcast on February 7th 2005
-  	From Guildford, Curry Cottage
-  	<a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-02-07.mp3">Direct download link</a>
-  	<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">Podcast feed</a>
-  	<a href="http://www.curry.com/">Weblog</a>
-  	<a href="mailto:adam@curry.com">Email</a>
-  	<a href="mailto:mp3feedback@gmail.com">MP3 Submissions and feedback</a>
+   Podcast on February 7th 2005
+   From Guildford, Curry Cottage
+   <a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-02-07.mp3">Direct download link</a>
+   <a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">Podcast feed</a>
+   <a href="http://www.curry.com/">Weblog</a>
+   <a href="mailto:adam@curry.com">Email</a>
+   <a href="mailto:mp3feedback@gmail.com">MP3 Submissions and feedback</a>
   No Stinkin' Transmitters - OpenPodcast.org #554
   5th generation of RnR
   Adam's Podcasting Sweeper
   Rockmaninov Opener
   Ookla the Mok
-  	Dr. Demento's Basement Tapes 12
-  		F. People
+   Dr. Demento's Basement Tapes 12
+    F. People
   blackhistorypromo
   Great EU discussion on the comments
-  	Raymond Poort
+   Raymond Poort
   Pheugoo
-  	Crazy Ribbon of Choice
+   Crazy Ribbon of Choice
   hit test 6
-  Rockmaninov Closer\nDuration: 00:30:17
+  Rockmaninov Closer
+  Duration: 00:30:17
 author: Adam Curry
 language: en-us
 comments: null
@@ -33,7 +34,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/02/07.html#a7012
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-02-07.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-02-07.mp3
   length: 14542418
   type: audio/mpeg
 itunes:
@@ -42,34 +43,34 @@ itunes:
   subtitle: EU talk with Raymond and an awesome mashup!
   summary: |-
     Show details
-    	Podcast on February 7th 2005
-    	From Guildford, Curry Cottage
-    	<a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-02-07.mp3">Direct download link</a>
-    	<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">Podcast feed</a>
-    	<a href="http://www.curry.com/">Weblog</a>
-    	<a href="mailto:adam@curry.com">Email</a>
-    	<a href="mailto:mp3feedback@gmail.com">MP3 Submissions and feedback</a>
+    - Podcast on February 7th 2005
+    - From Guildford, Curry Cottage
+    - Direct download link
+    - Podcast feed
+    - Weblog
+    - Email
+    - MP3 Submissions and feedback
     No Stinkin' Transmitters - OpenPodcast.org #554
     5th generation of RnR
     Adam's Podcasting Sweeper
     Rockmaninov Opener
     Ookla the Mok
-    	Dr. Demento's Basement Tapes 12
-    		F. People
+    - Dr. Demento's Basement Tapes 12
+      - F. People
     blackhistorypromo
     Great EU discussion on the comments
-    	Raymond Poort
+    - Raymond Poort
     Pheugoo
-    	Crazy Ribbon of Choice
+    - Crazy Ribbon of Choice
     hit test 6
-    Rockmaninov Closer\nDuration: 00:30:17
+    Rockmaninov Closer
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1817
   season: null
   episode: '120'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-120'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '120'
   season: null
@@ -84,20 +85,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-120'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-120'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-02-07.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-120'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-02-07.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-02-07.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -105,10 +107,19 @@ podcast:
   - type: audio/mpeg
     length: 14542418
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #120'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-02-07.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-02-07.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-02-07.mp3
   size: 14542418

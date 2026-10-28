@@ -1,9 +1,11 @@
 episode: '275'
 title: Daily Source Code for Monday November 07th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/07.html#a7186
-pubDate: Mon Nov  7 17:14:50 2005 +0000
+pubDate: Mon, 07 Nov 2005 17:14:50 +0000
 category: podcast
-description: '#275 Daily Source Code for Monday November 7th 2005 From Curry Cottage, Guildford, United Kingdom Direct Link to the show Subscribe to the feed Subscribe with iTunes News on the Curry Car in today''s ''cast Time-code based Shownotes\nDuration: 00:49:03'
+description: |-
+  #275 Daily Source Code for Monday November 7th 2005 From Curry Cottage, Guildford, United Kingdom Direct Link to the show Subscribe to the feed Subscribe with iTunes News on the Curry Car in today's 'cast Time-code based Shownotes
+  Duration: 00:49:03
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,35 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/07.html#a7186
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-07.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-11-07.mp3
   length: 35326616
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday November 07th 2005
   subtitle: null
-  summary: <br>#275<br>Daily Source Code for Monday November 7th 2005<br><p><br><br>From Curry Cottage, Guildford, United Kingdom<br><p><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-275-2005-11-07.mp3">Link</a>to the show<br><p><br><br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br><p><br><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br><p><br><br><br>News on the Curry Car in today's 'cast<br><p><br><br>Time-code based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #275
+    Daily Source Code for Monday November 7th 2005
+
+    From Curry Cottage, Guildford, United Kingdom
+
+    Directto the show
+
+    Subscribe to the
+
+    Subscribe withiTunes
+
+    News on the Curry Car in today's 'cast
+
+    Time-code basedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2943
   season: null
   episode: '275'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-275'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '275'
   season: null
@@ -40,20 +56,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-275'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-275'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-11-07.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-275'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-11-07.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-11-07.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +78,19 @@ podcast:
   - type: audio/mpeg
     length: 35326616
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #275'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-07.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-11-07.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-11-07.mp3
   size: 35326616

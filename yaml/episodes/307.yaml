@@ -1,9 +1,11 @@
 episode: '307'
 title: Daily Source Code for Monday January 02nd 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/02.html#a7219
-pubDate: Mon Jan  2 13:41:36 2006 +0000
+pubDate: Mon, 02 Jan 2006 13:41:36 +0000
 category: podcast
-description: '#307 Daily Source Code for Monday January 2nd 2006 From Curry Cottage, Guildford, United Kingdom- AdamCurryIntro- 02_And_So_My_Troubles_Begin* Negatones* RIAA Rants* Steve Jobs Radio Person of the Year- WHIT-PromoForAdam- AdamDSC_KTNY- Music Without Vocals backing tracks Podcast* The Senseo conspiracy- 051229AdamAdvertisingConceptb* Pronnouncing TIA* YADC* PMN Suggestions- 03_Just_Another_Girl* P4P on the BBC* LibriVox OPMLDirect Link to the showSubscribe to the feedSubscribe with iTunesTime Code Based Shownotes\nDuration: 00:34:54'
+description: |-
+  #307 Daily Source Code for Monday January 2nd 2006 From Curry Cottage, Guildford, United Kingdom- AdamCurryIntro- 02_And_So_My_Troubles_Begin* Negatones* RIAA Rants* Steve Jobs Radio Person of the Year- WHIT-PromoForAdam- AdamDSC_KTNY- Music Without Vocals backing tracks Podcast* The Senseo conspiracy- 051229AdamAdvertisingConceptb* Pronnouncing TIA* YADC* PMN Suggestions- 03_Just_Another_Girl* P4P on the BBC* LibriVox OPMLDirect Link to the showSubscribe to the feedSubscribe with iTunesTime Code Based Shownotes
+  Duration: 00:34:54
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,46 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/02.html#a7219
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-02.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-02.mp3
   length: 25143405
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday January 02nd 2006
   subtitle: null
-  summary: <br>#307 Daily Source Code for Monday January 2nd 2006<br><p><br></p><br>From Curry Cottage, Guildford, United Kingdom<br><br>- AdamCurryIntro<br>- 02_And_So_My_Troubles_Begin<br>* Negatones<br>* RIAA Rants<br>* Steve Jobs Radio Person of the Year<br>- WHIT-PromoForAdam<br>- AdamDSC_KTNY<br>- Music Without Vocals backing tracks Podcast<br>* The Senseo conspiracy<br>- 051229AdamAdvertisingConceptb<br>* Pronnouncing TIA<br>* YADC<br>* PMN Suggestions<br>- 03_Just_Another_Girl<br>* P4P on the BBC<br>* LibriVox OPML<br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-307-2006-01-02.mp3">Link</a>to the show<br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br>Time Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #307 Daily Source Code for Monday January 2nd 2006
+
+    From Curry Cottage, Guildford, United Kingdom
+
+    - AdamCurryIntro
+    - 02_And_So_My_Troubles_Begin
+    * Negatones
+    * RIAA Rants
+    * Steve Jobs Radio Person of the Year
+    - WHIT-PromoForAdam
+    - AdamDSC_KTNY
+    - Music Without Vocals backing tracks Podcast
+    * The Senseo conspiracy
+    - 051229AdamAdvertisingConceptb
+    * Pronnouncing TIA
+    * YADC
+    * PMN Suggestions
+    - 03_Just_Another_Girl
+    * P4P on the BBC
+    * LibriVox OPML
+
+    Directto the show
+    Subscribe to the
+    Subscribe withiTunes
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2094
   season: null
   episode: '307'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-307'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '307'
   season: null
@@ -40,20 +67,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-307'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-307'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-01-02.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-307'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-01-02.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-01-02.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +89,19 @@ podcast:
   - type: audio/mpeg
     length: 25143405
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #307'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-02.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-02.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-01-02.mp3
   size: 25143405

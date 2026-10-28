@@ -1,9 +1,11 @@
 episode: '180'
 title: Daily Source Code for Friday May 20 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/05/20.html#a7072
-pubDate: Fri May 20 11:51:28 2005 +0000
+pubDate: Fri, 20 May 2005 11:51:28 +0000
 category: podcast
-description: 'Shownotes: From Curry Cottage in Guildford UKDirect link to the showMashup: DJ BC - What''s Opera Doc? [Site]Submit yer stuff:submit[at]podshow.compodsafe[at]podshow.commashup[at]podshow.comPromo: Media Artists Secrets [Site]Promo: Dutch HopTo [Site]Promo: Pod Pyrates [Site]This burp brought to you by SenseoEmail from Scott Shannon everyyybodddyyy!Promo: Chub Creek [Site]The Eurovision Song Contest [Site]Podsafe: Chance - When doves cry [Site]\nDuration: 00:40:12'
+description: |-
+  Shownotes: From Curry Cottage in Guildford UKDirect link to the showMashup: DJ BC - What's Opera Doc? [Site]Submit yer stuff:submit[at]podshow.compodsafe[at]podshow.commashup[at]podshow.comPromo: Media Artists Secrets [Site]Promo: Dutch HopTo [Site]Promo: Pod Pyrates [Site]This burp brought to you by SenseoEmail from Scott Shannon everyyybodddyyy!Promo: Chub Creek [Site]The Eurovision Song Contest [Site]Podsafe: Chance - When doves cry [Site]
+  Duration: 00:40:12
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,22 +13,38 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/05/20.html#a7072
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-05-20.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-20.mp3
   length: 24120304
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday May 20 2005
   subtitle: null
-  summary: '<h4>Shownotes:<br><br></h4><br><br><br><p><br></p><br><br><ul><br><li>From Curry Cottage in Guildford UK</li><li>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-2005-05-20.mp3">link</a>to the show</li><li>Mashup: DJ BC - What''s Opera Doc? [<a href="http://culturedeluxe.com/songdesc.asp?id=6329">Site</a>]</li><li>Submit yer stuff:</li><ul><li>submit[at]podshow.com</li><li>podsafe[at]podshow.com</li><li>mashup[at]podshow.com</li></ul><li>Promo: Media Artists Secrets [<a href="http://www.fmstudio.com/blog/2005/05/media-artists-secrets-podcast-feed.html">Site</a>]</li><li>Promo: Dutch HopTo [<a href="http://dutch.hopto.org/">Site</a>]</li><li>Promo: Pod Pyrates [<a href="http://jesterstear.libsyn.com/">Site</a>]</li><li>This burp brought to you by<a href="http://www.amazon.com/exec/obidos/ASIN/B0001ES9G2/adamcurrysweb-20?creative=327641&amp;camp=14573&amp;link_code=as1">Senseo</a></li><li>Email from Scott Shannon everyyybodddyyy!</li><li>Promo: Chub Creek [<a href="http://68.146.231.163/%7EChubcreek/B189300973/index.html">Site</a>]</li><li>The
-    Eurovision Song Contest [<a href="http://www.eurovision.tv/english/index.htm">Site</a>]</li><li>Podsafe: Chance - When doves cry [<a href="http://mynameischance.com/">Site</a>]</li><br></ul>'
+  summary: |-
+    Shownotes:
+
+    - From Curry Cottage in Guildford UK
+    - Directto the show
+    - Mashup: DJ BC - What's Opera Doc? []
+    - Submit yer stuff:
+    - submit[at]podshow.com
+    - podsafe[at]podshow.com
+    - mashup[at]podshow.com
+    - Promo: Media Artists Secrets []
+    - Promo: Dutch HopTo []
+    - Promo: Pod Pyrates []
+    - This burp brought to you bySenseo
+    - Email from Scott Shannon everyyybodddyyy!
+    - Promo: Chub Creek []
+    - The Eurovision Song Contest []
+    - Podsafe: Chance - When doves cry []
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2412
   season: null
   episode: '180'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-180'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '180'
   season: null
@@ -41,20 +59,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-180'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-180'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-05-20.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-180'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-05-20.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-05-20.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +81,19 @@ podcast:
   - type: audio/mpeg
     length: 24120304
     bitrate: 80000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #180'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-05-20.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-20.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-05-20.mp3
   size: 24120304

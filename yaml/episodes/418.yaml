@@ -1,7 +1,7 @@
 episode: '418'
 title: Daily Source Code for Tuesday July 11st 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/07/11.html#a23
-pubDate: Tue Jul 11 13:47:44 2006 +0000
+pubDate: Tue, 11 Jul 2006 13:47:44 +0000
 category: podcast
 description: |-
   <p>#418 Daily Source Code for Tuesday July 11th 2006</p>
@@ -14,7 +14,8 @@ description: |-
   is getting it...</a><br>World Cup<br>VM Numbers: (201) 625-6357 or
   44-20-7681-3753<br>Boned<br>Rocketboob<br>Jersey Todd Song<br>SAVE OUR SCHOOL -
   <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=96b439ff757e79c8df631087cd2e3af4">Children
-  of Selsted CE Primary School</a><br>Meet me at theSHOW: <a href="http://adam.podshow.com/">adam.podshow.com</a></div>\nDuration: 00:38:51
+  of Selsted CE Primary School</a><br>Meet me at theSHOW: <a href="http://adam.podshow.com/">adam.podshow.com</a></div>
+  Duration: 00:38:51
 author: Adam Curry
 language: en-us
 comments: null
@@ -22,7 +23,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/07/11.html#a23
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-07-11.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-07-11.mp3
   length: 27967777
   type: audio/mpeg
 itunes:
@@ -30,24 +31,44 @@ itunes:
   title: Daily Source Code for Tuesday July 11st 2006
   subtitle: null
   summary: |-
-    <p>#418 Daily Source Code for Tuesday July 11th 2006</p>
-    <p>From Curry Cottage, Guildford, UK.</p>
-    <div>Can you dig it<br>Firefly - <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=05914a63a60ce505d927880d728fdf3a">Kevin
-    Burdick</a><br>Twofer - <a href="http://inoveryourhead.podshow.com/">IOYH</a> -
-    <a href="http://podsavethequeen.com/">PSTQ</a><br>36 Minutes from Guildford
-    Promo<br>Fw: Valarie Clark&nbsp;&nbsp; Inbox<br>PS+<br>You're not evil feedback<br>Karmyb
-    Tyler PS+<br>Ken Lay dies<br><a href="http://newmusiclab.podshow.com/">This guy
-    is getting it...</a><br>World Cup<br>VM Numbers: (201) 625-6357 or
-    44-20-7681-3753<br>Boned<br>Rocketboob<br>Jersey Todd Song<br>SAVE OUR SCHOOL -
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=96b439ff757e79c8df631087cd2e3af4">Children
-    of Selsted CE Primary School</a><br>Meet me at theSHOW: <a href="http://adam.podshow.com/">adam.podshow.com</a></div>\nDuration: 00:38:51
+    #418 Daily Source Code for Tuesday July 11th 2006
+
+    From Curry Cottage, Guildford, UK.
+
+    Can you dig it
+    Firefly - Kevin
+    Burdick
+    Twofer - IOYH -
+    PSTQ
+    36 Minutes from Guildford
+    Promo
+    Fw: Valarie Clark Inbox
+    PS+
+    You're not evil feedback
+    Karmyb
+    Tyler PS+
+    Ken Lay dies
+    This guy
+    is getting it...
+    World Cup
+    VM Numbers: (201) 625-6357 or
+    44-20-7681-3753
+    Boned
+    Rocketboob
+    Jersey Todd Song
+    SAVE OUR SCHOOL -
+    Children
+    of Selsted CE Primary School
+    Meet me at theSHOW: adam.podshow.com
+
+    Duration: 00:38:51
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2331
   season: null
   episode: '418'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-418'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '418'
   season: null
@@ -62,20 +83,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-418'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-418'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-07-11.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-418'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-07-11.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-07-11.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -83,10 +105,19 @@ podcast:
   - type: audio/mpeg
     length: 27967777
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #418'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-07-11.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-07-11.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-07-11.mp3
   size: 27967777

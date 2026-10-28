@@ -1,7 +1,7 @@
 episode: '362'
 title: Daily Source Code for Wednesday March 29th 2006
 link: http://radio.weblogs.com/0001014/2006/03/29.html#a7286
-pubDate: Wed Mar 29 12:09:52 2006 +0000
+pubDate: Wed, 29 Mar 2006 12:09:52 +0000
 category: podcast
 description: '#362 Daily Source Code for Wednesday March 29th 2006<br>From The Curry Cottage, Guildford, UK<br>- pc_godaddy_02<br>- Spam<br>- lipgloss_dsc_feedback_20060329<br>- Welcome KATG listeners<br>- KATG-PS<br>- bgb-dsc<br>- pod2mob continued<br>- GTandP2M<br>- madgecaligoldencomment<br>- DSC-podment-1<br>- castblastermike_dailybreakfast_promo<br>- I Miss Blighty Podcast shuts down * GMail solution<br>* BOCs<br>* alpha-omega<br>- BLow Your Whistle (Remix)<br>Direct Link to the show<br>User Shownotes<br>Subscribe in iTunes'
 author: Adam Curry
@@ -11,22 +11,51 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2006/03/29.html#a7286
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-29.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-29.mp3
   length: 28493945
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday March 29th 2006
   subtitle: null
-  summary: <p>#362 Daily Source Code for Wednesday March 29th 2006</p><br><p>From The Curry Cottage, Guildford, UK</p><br><p>- pc_godaddy_02<br><br>- <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=e418a4c6cb933be8c7abc95c51dec765">Spam</a><br><br>- lipgloss_dsc_feedback_20060329<br><br>- Welcome KATG listeners<br><br>- KATG-PS<br><br>- bgb-dsc<br><br>- pod2mob continued<br><br>- GTandP2M<br><br>- madgecaligoldencomment<br><br>- DSC-podment-1<br><br>- castblastermike_dailybreakfast_promo<br><br>- I Miss Blighty Podcast shuts down<img src="http://curry.podshow.com/wp-images/smilies/icon_sad.gif" alt=":(" class="wp-smiley"><br><br>* GMail solution<br><br>* BOCs<br><br>* alpha-omega<br><br>- <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=8891532ada434a48f7135814a9b49f67">BLow Your Whistle (Remix)</a></p><br><p>Direct<a href="http://m.podshow.com/media/21/episodes/2969/deltasierracharl-2969-03-29-2006.mp3">Link</a>to the show<br><br>User<a
-    href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br><br><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&amp;s=143441&amp;i=2663806">Subscribe</a>in iTunes<br></p>
+  summary: |-
+    #362 Daily Source Code for Wednesday March 29th 2006
+
+    From The Curry Cottage, Guildford, UK
+
+    - pc_godaddy_02
+    - Spam
+    - lipgloss_dsc_feedback_20060329
+    - Welcome KATG listeners
+    - KATG-PS
+    - bgb-dsc
+    - pod2mob continued
+    - GTandP2M
+    - madgecaligoldencomment
+    - DSC-podment-1
+    - castblastermike_dailybreakfast_promo
+    - I Miss Blighty Podcast shuts down
+
+    * GMail solution
+
+    * BOCs
+
+    * alpha-omega
+
+    - BLow Your Whistle (Remix)
+
+    Directto the show
+
+    UserShownotes
+
+    Subscribein iTunes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2375
   season: null
   episode: '362'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-362'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '362'
   season: null
@@ -41,20 +70,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-362'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-362'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-03-29.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-362'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-03-29.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-03-29.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +92,19 @@ podcast:
   - type: audio/mpeg
     length: 28493945
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #362'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-29.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-29.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-03-29.mp3
   size: 28493945

@@ -1,9 +1,11 @@
 episode: '079'
 title: Daily Source Code for Friday December 03rd 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/03.html#a6928
-pubDate: Fri Dec  3 16:29:14 2004 +0000
+pubDate: Fri, 03 Dec 2004 16:29:14 +0000
 category: podcast
-description: 'This is the first Source Code recorded at Starbucks in Guildford. It''s on Market Street, right off the High Street and I''ll be here every weekday at 2pm until the cottage is connected. Got a good 40 minutes recorded, some of it on Skype with Lee Wilkins who needs some serious help with his to cute dogs who are currently incarcerated in Atlanta! mp3 Podcast production notes have all the details: html opml\nDuration: 00:44:33'
+description: |-
+  This is the first Source Code recorded at Starbucks in Guildford. It's on Market Street, right off the High Street and I'll be here every weekday at 2pm until the cottage is connected. Got a good 40 minutes recorded, some of it on Skype with Lee Wilkins who needs some serious help with his to cute dogs who are currently incarcerated in Atlanta! mp3 Podcast production notes have all the details: html opml
+  Duration: 00:44:33
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,42 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/03.html#a6928
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-03.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-03.mp3
   length: 21392369
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday December 03rd 2004
   subtitle: From the Guildford Starbucks!
-  summary: 'This is the first Source Code recorded at Starbucks in Guildford. It''s on Market Street, right off the High Street and I''ll be here every weekday at 2pm until the cottage is connected.<br><br>Got a good 40 minutes recorded, some of it on Skype with Lee Wilkins who needs some serious help with his to cute dogs who are currently incarcerated in Atlanta!<br><br><a href="http://adam.opml.org/DSC20041203.mp3">mp3</a><br><br>Podcast production notes have all the details: <a href="http://live.curry.com/outlines/DSC-2004-12-03.html">html</a><a href="http://live.curry.com/opml/DSC-2004-12-03.opml">opml</a>'
+  summary: |-
+    This is the first Source Code recorded at Starbucks in Guildford. It's on Market Street, right off the High Street and I'll be here every weekday at 2pm until the cottage is connected.
+
+    Got a good 40 minutes recorded, some of it on Skype with Lee Wilkins who needs some serious help with his to cute dogs who are currently incarcerated in Atlanta!
+
+    Podcast production notes have all the details:
+
+    #title "DSC-2004-12-03"
+    The first podcast from the Starbucks in Guildford. It's on Market Street, just off the High Street. You're welcome to party along every weekday at 2pm, until I get the cottage connected!
+    This episode of the Daily Source Code
+    - The Broadband saga continues
+    - UKOnline
+    - British Telecom
+    - ADSL Availability checker
+    - NTL Cable
+    Songs
+    - American Heartbreak - Sick and Tired
+    - Rock and Roll Geek Show
+    - Lascivious Biddies - The Truck Song
+    Lee Wilkins
+    - Weblog
+    - Alfie and Benson
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2673
   season: null
   episode: '079'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-079'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '079'
   season: null
@@ -40,20 +63,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-079'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-079'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-12-03.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-079'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-12-03.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-12-03.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +85,19 @@ podcast:
   - type: audio/mpeg
     length: 21392369
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #79'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-03.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-03.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-12-03.mp3
   size: 21392369

@@ -1,9 +1,11 @@
 episode: '850'
 title: Daily Source Code for Saturday October 23rd 2010
 link: http://www.mevio.com/episode/254543/dsc-850-2010-10-23
-pubDate: Sun Oct 24 12:07:16 2010 +0000
+pubDate: Sun, 24 Oct 2010 12:07:16 +0000
 category: podcast
-description: '#850 Adam Curry''s Daily Source Code SNAFU Saturday All Request and Dedication Discover Simple, Private Sharing at Drop.io SNAFU SaturdayThe "All request and dedication" editionSupport This ShowDonate: No Agenda Founding Producer Donation Page dvorak.org—nas dvorak.org—nas<br>PropagateBig App Show: bit.ly—Big bit.ly—Big bit.ly—BigAppShowAppShowDSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681 itunes.apple.com—id377980681\nDuration: 03:12:22'
+description: |-
+  #850 Adam Curry's Daily Source Code SNAFU Saturday All Request and Dedication Discover Simple, Private Sharing at Drop.io SNAFU SaturdayThe "All request and dedication" editionSupport This ShowDonate: No Agenda Founding Producer Donation Page dvorak.org—nas dvorak.org—nas<br>PropagateBig App Show: bit.ly—Big bit.ly—Big bit.ly—BigAppShowAppShowDSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681 itunes.apple.com—id377980681
+  Duration: 03:12:22
 author: Adam Curry
 language: en-us
 comments: null
@@ -15,21 +17,34 @@ dc:
 content:
   encoded: null
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-10-23.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-10-23.mp3
   length: 138693871
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday October 23rd 2010
   subtitle: SNAFU Saturday All Request and Dedication
-  summary: '<b>#850 Adam Curry''s Daily Source Code<br>SNAFU Saturday All Request and Dedication<br></b><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="384" src="http://drop.io/download/public/sxvlt2ybkd8crcfv2hja/f1aaf3a93d68c48d8d5dd3291e94218054ed165a/Asset/49532079/v3/large_thumbnail" width="480" /></div><div><ul><li>SNAFU Saturday<ul><li>The "All request and dedication" edition</li></ul></li><li>Support This Show<ul><li>Donate: <ul><li>No Agenda Founding Producer Donation Page dvorak.org—nas<a href="http://dvorak.org/nas/">dvorak.org—nas</a><br></li></ul></li><li>Propagate<ul><li>Big App Show: bit.ly—Big bit.ly—Big<a href="http://bit.ly/BigAppShow">bit.ly—BigAppShow</a>AppShow</li><li>DSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681<a href="http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8">itunes.apple.com—id377980681</a><br></li></ul></li></ul></li></ul></div>'
+  summary: |-
+    #850 Adam Curry's Daily Source Code
+    SNAFU Saturday All Request and Dedication
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - SNAFU Saturday
+    - The "All request and dedication" edition
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page dvorak.org—nasdvorak.org—nas
+    - Propagate
+    - Big App Show: bit.ly—Big bit.ly—Bigbit.ly—BigAppShowAppShow
+    - DSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681itunes.apple.com—id377980681
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 11542
   season: null
   episode: '850'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-850'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '850'
   season: null
@@ -44,20 +59,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-850'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-850'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-10-23.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-850'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-10-23.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-10-23.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -65,10 +81,19 @@ podcast:
   - type: audio/mpeg
     length: 138693871
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #850'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-10-23.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-10-23.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-10-23.mp3
   size: 138693871

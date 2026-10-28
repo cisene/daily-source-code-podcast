@@ -1,9 +1,11 @@
 episode: '812'
 title: Daily Source Code for Tuesday December 23rd 2008
 link: http://radio.weblogs.com/0001014/2008/12/23.html#a429
-pubDate: Tue Dec 23 20:42:57 2008 +0000
+pubDate: Tue, 23 Dec 2008 20:42:57 +0000
 category: podcast
-description: '<p><font size="2">Call Anytime using the voicemail at<a href="http://drop.io/dailysourcecode">drop.io/dailysourcecode</a>or email me: <a href="mailto:adam@mevio.com">adam@mevio.com</a></p><p>Direct<a href="http://m.podshow.com/media/21/episodes/137354/dailysourcecode-137354-12-23-2008.mp3">Link</a>to the show.</p><p><a href="http://www.btpodshow.com/view/?kId=137354&tId=2">Comment</a></p><br><br>\nDuration: 01:32:05'
+description: |-
+  <p><font size="2">Call Anytime using the voicemail at<a href="http://drop.io/dailysourcecode">drop.io/dailysourcecode</a>or email me: <a href="mailto:adam@mevio.com">adam@mevio.com</a></p><p>Direct<a href="http://m.podshow.com/media/21/episodes/137354/dailysourcecode-137354-12-23-2008.mp3">Link</a>to the show.</p><p><a href="http://www.btpodshow.com/view/?kId=137354&tId=2">Comment</a></p><br><br>
+  Duration: 01:32:05
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,28 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2008/12/23.html#a429
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2008-12-23.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-12-23.mp3
   length: 88439347
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday December 23rd 2008
   subtitle: null
-  summary: '<p><font size="2">Call Anytime using the voicemail at<a href="http://drop.io/dailysourcecode">drop.io/dailysourcecode</a>or email me: <a href="mailto:adam@mevio.com">adam@mevio.com</a></p><p>Direct<a href="http://m.podshow.com/media/21/episodes/137354/dailysourcecode-137354-12-23-2008.mp3">Link</a>to the show.</p><p><a href="http://www.btpodshow.com/view/?kId=137354&tId=2">Comment</a></p><br><br>\nDuration: 01:32:05'
+  summary: |-
+    Call Anytime using the voicemail atdrop.io/dailysourcecodeor email me: adam@mevio.com
+
+    Directto the show.
+
+    Comment
+
+    Duration: 01:32:05
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 5525
   season: null
   episode: '812'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-812'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '812'
   season: null
@@ -40,20 +49,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-812'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-812'
+  - url: https://thedailysourcecode.com/chapters/DSC-2008-12-23.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-812'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2008-12-23.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2008-12-23.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +71,19 @@ podcast:
   - type: audio/mpeg
     length: 88439347
     bitrate: 128000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #812'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2008-12-23.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-12-23.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2008-12-23.mp3
   size: 88439347

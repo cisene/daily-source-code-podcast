@@ -1,28 +1,29 @@
 episode: '128'
 title: Daily Source Code for Monday February 21st 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/02/21.html#a7020
-pubDate: Mon Feb 21 08:30:55 2005 +0000
+pubDate: Mon, 21 Feb 2005 08:30:55 +0000
 category: podcast
 description: |-
   Show details
-  	Podcast on February 21st 2005
-  	From San Franscisco, California
-  	<a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-02-21.mp3">Direct download link</a>
-  	<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">Podcast feed</a>
-  	<a href="http://www.curry.com/">Weblo</a>
-  	<a href="mailto:adam@curry.com">Email</a>
-  	<a href="mailto:mp3feedback@gmail.com">MP3 Submissions and feedback</a>
+   Podcast on February 21st 2005
+   From San Franscisco, California
+   <a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-02-21.mp3">Direct download link</a>
+   <a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">Podcast feed</a>
+   <a href="http://www.curry.com/">Weblo</a>
+   <a href="mailto:adam@curry.com">Email</a>
+   <a href="mailto:mp3feedback@gmail.com">MP3 Submissions and feedback</a>
   No Stinkin' Transmitters - OpenPodcast.org #554
   5th generation of RnR
   Adam's Podcasting Sweeper
   Rockmaninov Opener
   DnD Shindig!
   Avril Lavigne vs McSleazy
-  	McSleazy
-  		Ska-ter Boi
+   McSleazy
+    Ska-ter Boi
   Madge sign reading
-  	6:20 remain
-  	Madge Weinstein\nDuration: 00:41:32
+   6:20 remain
+   Madge Weinstein
+  Duration: 00:41:32
 author: Adam Curry
 language: en-us
 comments: null
@@ -30,7 +31,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/02/21.html#a7020
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-02-21.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-02-21.mp3
   length: 19949924
   type: audio/mpeg
 itunes:
@@ -39,31 +40,32 @@ itunes:
   subtitle: From San Fran
   summary: |-
     Show details
-    	Podcast on February 21st 2005
-    	From San Franscisco, California
-    	<a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-02-21.mp3">Direct download link</a>
-    	<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">Podcast feed</a>
-    	<a href="http://www.curry.com/">Weblo</a>
-    	<a href="mailto:adam@curry.com">Email</a>
-    	<a href="mailto:mp3feedback@gmail.com">MP3 Submissions and feedback</a>
+    Podcast on February 21st 2005
+    From San Franscisco, California
+    Direct download link
+    Podcast feed
+    Weblo
+    Email
+    MP3 Submissions and feedback
     No Stinkin' Transmitters - OpenPodcast.org #554
     5th generation of RnR
     Adam's Podcasting Sweeper
     Rockmaninov Opener
     DnD Shindig!
     Avril Lavigne vs McSleazy
-    	McSleazy
-    		Ska-ter Boi
+    McSleazy
+    Ska-ter Boi
     Madge sign reading
-    	6:20 remain
-    	Madge Weinstein\nDuration: 00:41:32
+    6:20 remain
+    Madge Weinstein
+    Duration: 00:41:32
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2492
   season: null
   episode: '128'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-128'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '128'
   season: null
@@ -78,20 +80,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-128'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-128'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-02-21.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-128'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-02-21.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-02-21.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -99,10 +102,19 @@ podcast:
   - type: audio/mpeg
     length: 19949924
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #128'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-02-21.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-02-21.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-02-21.mp3
   size: 19949924

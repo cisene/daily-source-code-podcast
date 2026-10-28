@@ -1,14 +1,14 @@
 episode: null
 title: DVC-02-2006-03-23
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/24.html#a7282
-pubDate: Fri Mar 24 04:43:54 2006 +0000
+pubDate: Fri, 24 Mar 2006 04:43:54 +0000
 category: podcast
 description: |-
   <br><div class="storycontent">
-           	<p>DVC-02-2006-03-23</p>
-  	<p>From PodShow HQ, San Francisco Ca.</p>
-  	<p>Just messing around with my mac and quicktime.</p>
-  	<p>Direct <a href="http://mp3.dailysourcecode.podshow.com/MyDesktopVideoPodcast.mp4">Link</a> to Video
+            <p>DVC-02-2006-03-23</p>
+   <p>From PodShow HQ, San Francisco Ca.</p>
+   <p>Just messing around with my mac and quicktime.</p>
+   <p>Direct <a href="http://mp3.dailysourcecode.podshow.com/MyDesktopVideoPodcast.mp4">Link</a> to Video
   </p>
 author: Adam Curry
 language: en-us
@@ -17,7 +17,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/24.html#a7282
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-23-Daily-Video-Cast-2.mp4
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-03-23-Daily-Video-Cast-2.mp4
   length: 8059602
   type: video/mp4
 itunes:
@@ -25,19 +25,21 @@ itunes:
   title: DVC-02-2006-03-23
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
   summary: |-
-    <br><div class="storycontent">
-             	<p>DVC-02-2006-03-23</p>
-    	<p>From PodShow HQ, San Francisco Ca.</p>
-    	<p>Just messing around with my mac and quicktime.</p>
-    	<p>Direct <a href="http://mp3.dailysourcecode.podshow.com/MyDesktopVideoPodcast.mp4">Link</a> to Video
-    </p>
+    DVC-02-2006-03-23
+
+    From PodShow HQ, San Francisco Ca.
+
+    Just messing around with my mac and quicktime.
+
+    Direct to Video
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 214
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -47,14 +49,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +63,19 @@ podcast:
   - type: video/mp4
     length: 8059602
     bitrate: 301990
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-03-23
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-23-Daily-Video-Cast-2.mp4
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-03-23-Daily-Video-Cast-2.mp4
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: MyDesktopVideoPodcast.mp4
   size: 8059602

@@ -1,9 +1,11 @@
 episode: '848'
 title: Daily Source Code for Saturday October 09th 2010
 link: http://www.mevio.com/episode/252591/dsc-848-2010-10-09
-pubDate: Sat Oct  9 20:06:03 2010 +0000
+pubDate: Sat, 09 Oct 2010 20:06:03 +0000
 category: podcast
-description: '#848 Adam Curry''s Daily Source Code for Saturday October 9th 2010 The "Don''t touch that end" edition Discover Simple, Private Sharing at Drop.io SNAFU SaturdayThe "Don''t touch that end" editionSupport This ShowDonate: No Agenda Founding Producer Donation PagePropagateBig App Show: bit.ly—BigAppShowDSC App: itunes.apple.com—id377980681\nDuration: 03:25:21'
+description: |-
+  #848 Adam Curry's Daily Source Code for Saturday October 9th 2010 The "Don't touch that end" edition Discover Simple, Private Sharing at Drop.io SNAFU SaturdayThe "Don't touch that end" editionSupport This ShowDonate: No Agenda Founding Producer Donation PagePropagateBig App Show: bit.ly—BigAppShowDSC App: itunes.apple.com—id377980681
+  Duration: 03:25:21
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,34 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/252591/dsc-848-2010-10-09
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-10-09.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-10-09.mp3
   length: 147930428
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday October 09th 2010
   subtitle: SNAFU Saturday
-  summary: '<b>#848 Adam Curry''s Daily Source Code for Saturday October 9th 2010<br>The "Don''t touch that end" edition<br></b><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="384" src="http://drop.io/download/public/dgh8xiq6sxkjkzkqsvww/4aff4101257d3c49cdcd6fda839a7a331017e2ec/Asset/48146063/v3/large_thumbnail" width="480" /></div><div><ul><li>SNAFU Saturday<ul><li>The "Don''t touch that end" edition</li></ul></li><li>Support This Show<ul><li>Donate: <ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li><li>Propagate<ul><li>Big App Show: <a href="http://bit.ly/Big">bit.ly—Big</a>AppShow</li><li>DSC App: <a href="http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8">itunes.apple.com—id377980681</a><br></li></ul></li></ul></li></ul></div>'
+  summary: |-
+    #848 Adam Curry's Daily Source Code for Saturday October 9th 2010
+    The "Don't touch that end" edition
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - SNAFU Saturday
+    - The "Don't touch that end" edition
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page
+    - Propagate
+    - Big App Show: bit.ly—BigAppShow
+    - DSC App: itunes.apple.com—id377980681
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 12321
   season: null
   episode: '848'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-848'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '848'
   season: null
@@ -40,20 +55,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-848'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-848'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-10-09.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-848'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-10-09.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-10-09.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +77,19 @@ podcast:
   - type: audio/mpeg
     length: 147930428
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #848'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-10-09.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-10-09.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-10-09.mp3
   size: 147930428

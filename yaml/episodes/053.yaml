@@ -1,9 +1,11 @@
 episode: '053'
 title: Daily Source Code for Saturday October 23rd 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/23.html#a6794
-pubDate: Sat Oct 23 11:06:31 2004 +0000
+pubDate: Sat, 23 Oct 2004 11:06:31 +0000
 category: podcast
-description: 'Surprise! A saturday Source Code as a make-do for yesterday''s no show. Recorded very early this morning. So it''s a mellow show with a couple indie tunes and more new podcasts to check out.\nDuration: 00:53:46'
+description: |-
+  Surprise! A saturday Source Code as a make-do for yesterday's no show. Recorded very early this morning. So it's a mellow show with a couple indie tunes and more new podcasts to check out.
+  Duration: 00:53:46
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,7 +13,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/23.html#a6794
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-23.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-23.mp3
   length: 25806935
   type: audio/mpeg
 itunes:
@@ -25,7 +27,7 @@ itunes:
   season: null
   episode: '053'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-053'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '053'
   season: null
@@ -40,20 +42,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-053'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-053'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-10-23.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-053'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-10-23.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-10-23.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +64,19 @@ podcast:
   - type: audio/mpeg
     length: 25806935
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #53'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-23.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-23.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-10-23.mp3
   size: 25806935

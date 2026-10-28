@@ -1,9 +1,11 @@
 episode: '058'
 title: Daily Source Code for Monday November 01st 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/01.html#a6823
-pubDate: Mon Nov  1 19:55:16 2004 +0000
+pubDate: Mon, 01 Nov 2004 19:55:16 +0000
 category: podcast
-description: 'Plenty of new podcasts to listen to, and much political jive.<br>1 hour and 10 minutes<br>32 mb<br>mp3<br>Production notes html<br>Production notes opml\nDuration: 01:09:54'
+description: |-
+  Plenty of new podcasts to listen to, and much political jive.<br>1 hour and 10 minutes<br>32 mb<br>mp3<br>Production notes html<br>Production notes opml
+  Duration: 01:09:54
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,96 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/01.html#a6823
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-01.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-01.mp3
   length: 33552991
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday November 01st 2004
   subtitle: mucho new podcasts and political jive
-  summary: Plenty of new podcasts to listen to, and much political jive.<br><br>1 hour and 10 minutes<br><br>32 mb<br><br><a href="http://homepage.mac.com/adamcurry/DSC/DSC-2004-11-01.mp3">mp3</a><br><br>Production notes<a href="http://cloud2.urj.nl/static/acnews/dsc-2004-11-01.html">html</a><br><br>Production notes<a href="http://www.blognewsnetwork.com/members/0000001/opml/DSC-2004-11-01.opml">opml</a><br>
+  summary: |-
+    Plenty of new podcasts to listen to, and much political jive.
+
+    1 hour and 10 minutes
+
+    Production notes
+
+    Production notes
+
+    Forward Statements Opener
+    Billionaires for Bush
+    - Don't Vote!
+    No Gillmor Gang
+    - Dave's gonna start doing regular podcasts, yippee!
+    Strokin' time!
+    - Message from Todd
+    - Boing
+    Comment from Bill Rice
+    - Bloggercon Travel Edition
+    - Something you can listen to on the trip
+      - ABC piece about Podcasting
+      - Link to website
+      - Music of the Blogospheres
+      - 12:00
+        - Busy kicking the other guys ass on the FM dial
+      - 16:00
+        - The industry is worried
+      - 34:10
+        - Jon Stewart analysis
+    John Stewart on CSPAN
+    - Talking about the media
+      - JonStewartCSPAN 2004#379183
+    Radio UserLand outliner production system
+    Tapdancing Podcaster News
+    Ken Gantz from Louiville ky
+    - AC
+    - boinnnggs
+    - Boing
+    - BlogosphereRadio.com
+      - New Mic!
+      - Blogosphere News for 10/29/2004
+    - VotingBooth
+    - Votingbooth credits
+    - iTrip
+      - 100.3
+    Jonathan Coulton
+    - Ikea
+    - Album: Smoking Monkey
+    - From Chester conn.
+    - Web
+    Feeling down lately, in a rut?
+    - Career-Op - "Off the edge" - October 29, 2004
+    - 40 seconds start
+    David Newberger comment
+    - Tribal Podcast
+    - Thxs Adam Curry
+    Credits
+    - Email from Brendan Creesy -- Adam Curry (adam@curry.com)
+    Gilberto Gil
+    - EMail about Gilberto Gil
+      - Wilson Roberto Afonso
+      - Hi, Adam,
+      - Great to hear you playing Brazilian music! Even better when it's RIAA-free music!
+      - By the way, did you know that the singer and composer of that song, Gilberto Gil, is currently the Brazilian Minister for Culture?
+      - Keep up the good work!
+      - -Wilson
+    - Wired article
+    Elections!
+    - Bush Blinders
+      - From: Chris Malatesta
+      - BushBlunders
+    - kerrys big plan
+    Jens Lekman
+    - When I Said I Wanted To Be Your Dog
+      - You Are the Light
+    Rockmaninov Opener
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 4194
   season: null
   episode: '058'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-058'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '058'
   season: null
@@ -40,20 +117,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-058'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-058'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-11-01.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-058'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-11-01.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-11-01.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +139,19 @@ podcast:
   - type: audio/mpeg
     length: 33552991
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #58'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-01.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-01.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-11-01.mp3
   size: 33552991

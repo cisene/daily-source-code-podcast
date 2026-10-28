@@ -1,11 +1,11 @@
 episode: null
 title: Podshow Xmas Part 3
 link: http://xmas.podshow.com/?p=4
-pubDate: Mon Dec  5 11:26:10 2005 +0000
+pubDate: Mon, 05 Dec 2005 11:26:10 +0000
 category: podcast
 description: |-
   <p>We start today off with <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=888866b23fd420d1a5b9138e1008827b">Bubble</a> and Christmas here on Mars, followed by the Podsafe Pastor <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=f77d12dec5c4c4752490101e895672b7">Doug Boldt</a> with his instrumental version of the Twelve Days of Christmas, which is an almost ancient classical podsafe piece.</p>
-  	<p><a href="http://mp3.dailysourcecode.podshow.com/podshowXmas3.mp3">Part 3</a>
+   <p><a href="http://mp3.dailysourcecode.podshow.com/podshowXmas3.mp3">Part 3</a>
   </p>
 author: Adam Curry
 language: en-us
@@ -14,7 +14,7 @@ guid:
   isPermaLink: false
   link: http://xmas.podshow.com/?p=4
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-05-Xmas-3.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-05-Xmas-3.mp3
   length: 8634708
   type: audio/mpeg
 itunes:
@@ -22,16 +22,17 @@ itunes:
   title: Podshow Xmas Part 3
   subtitle: 'Bonus: Adam Curry, not in the Daily Source Code feed'
   summary: |-
-    <p>We start today off with <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=888866b23fd420d1a5b9138e1008827b">Bubble</a> and Christmas here on Mars, followed by the Podsafe Pastor <a href="http://music.podshow.com/music/producers/producerLibrary/artistdetails.php?BandHash=f77d12dec5c4c4752490101e895672b7">Doug Boldt</a> with his instrumental version of the Twelve Days of Christmas, which is an almost ancient classical podsafe piece.</p>
-    	<p><a href="http://mp3.dailysourcecode.podshow.com/podshowXmas3.mp3">Part 3</a>
-    </p>
+    We start today off with Bubble and Christmas here on Mars, followed by the Podsafe Pastor Doug Boldt with his instrumental version of the Twelve Days of Christmas, which is an almost ancient classical podsafe piece.
+
+    Part 3
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 540
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -41,14 +42,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -56,10 +56,19 @@ podcast:
   - type: audio/mpeg
     length: 8634708
     bitrate: 128032
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2005-12-05
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-05-Xmas-3.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-05-Xmas-3.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: podshowXmas3.mp3
   size: 8634708

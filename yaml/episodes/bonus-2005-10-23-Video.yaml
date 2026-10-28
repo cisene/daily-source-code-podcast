@@ -1,7 +1,7 @@
 episode: null
 title: 'Daily Source Code Video for Sunday October 23d 2005 #1'
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/24.html#a7173
-pubDate: Mon Oct 24 01:11:26 2005 +0000
+pubDate: Mon, 24 Oct 2005 01:11:26 +0000
 category: podcast
 description: |-
   <br>Daily Source Code Video for Sunday October 23d 2005 #1<br><p>
@@ -34,7 +34,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/24.html#a7173
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-23-Video.m4v
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2005-10-23-Video.m4v
   length: 9508692
   type: video/x-m4v
 itunes:
@@ -42,36 +42,33 @@ itunes:
   title: 'Daily Source Code Video for Sunday October 23d 2005 #1'
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
   summary: |-
-    <br>Daily Source Code Video for Sunday October 23d 2005 #1<br><p>
+    Daily Source Code Video for Sunday October 23d 2005 #1
 
-    From Curry Condo, San Francisco California<br><p>
+    From Curry Condo, San Francisco California
 
-    Direct <a href="http://mp3.dailysourcecode.podshow.com/DSCV-01-2005-10-23.m4v">link</a> to the video.<br><p>
+    Direct to the video.
 
-    <br><p>
+    I got a video iPod yesterday, subscribed to a multitude of video Podcasts. Quite interesting.
 
-    I got a video iPod yesterday, subscribed to a multitude of video Podcasts. Quite interesting.<br><p>
+    My own experimentation with the platform starts with this short 'cast of Curry Condo.
 
-    My own experimentation with the platform starts with this short 'cast of Curry Condo.<br><p>
+    If you own a video iPod, it should show up automatically under Video Podcasts. Lemme know if it worked!
 
-    If you own a video iPod, it should show up automatically under Video Podcasts. Lemme know if it worked!<br><p>
+    [Details of clip]
 
-    <br><p>
+    Recorded with an iSight on a G4 Powerbook (the new one!)
 
-    [Details of clip]<br><p>
+    Edited in iMovie on a G5 iMac (a new one!)
 
-    Recorded with an iSight on a G4 Powerbook (the new one!)<br><p>
-
-    Edited in iMovie on a G5 iMac (a new one!)<br><p>
-
-    Exported as 'Quicktime to iPod'<br>
+    Exported as 'Quicktime to iPod'
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 113
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -81,14 +78,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -96,10 +92,19 @@ podcast:
   - type: video/x-m4v
     length: 9508692
     bitrate: 674899
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2005-10-23
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-23-Video.m4v
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2005-10-23-Video.m4v
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSCV-01-2005-10-23.m4v
   size: 9508692

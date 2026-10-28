@@ -1,9 +1,11 @@
 episode: '049'
 title: Daily Source Code for Wednesday October 20 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/20.html#a6786
-pubDate: Wed Oct 20 15:36:24 2004 +0000
+pubDate: Wed, 20 Oct 2004 15:36:24 +0000
 category: podcast
-description: 'Today''s source code comes to you partially from the car with a personal message and from the Bunker in Amsterdam. On the show today - All things Indy Music. Podcast reviews and some tunes...\nDuration: 00:43:04'
+description: |-
+  Today's source code comes to you partially from the car with a personal message and from the Bunker in Amsterdam. On the show today - All things Indy Music. Podcast reviews and some tunes...
+  Duration: 00:43:04
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,7 +13,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/20.html#a6786
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-20.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-20.mp3
   length: 20677460
   type: audio/mpeg
 itunes:
@@ -25,7 +27,7 @@ itunes:
   season: null
   episode: '049'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-049'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '049'
   season: null
@@ -40,20 +42,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-049'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-049'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-10-20.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-049'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-10-20.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-10-20.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +64,19 @@ podcast:
   - type: audio/mpeg
     length: 20677460
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #49'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-20.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-20.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-10-20.mp3
   size: 20677460

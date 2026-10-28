@@ -1,9 +1,11 @@
 episode: '240'
 title: Daily Source Code for Thursday September 15th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/09/15.html#a7135
-pubDate: Thu Sep 15 18:34:31 2005 +0000
+pubDate: Thu, 15 Sep 2005 18:34:31 +0000
 category: podcast
-description: '▼ ❑ Daily Source Code for Thursday September 15th 2005 #240 [apple] ❑ From Curry Cottage, Guildford, United Kingdom [apple] ❑ Direct Link to the show [apple] ❑ Mashup: Even your Jazz isn''t safe -- via [MashupTown] [apple] ❑ Orange County Choppers [Site] ▶ ❑ Across the sound podcast about soundvertising [Site] [apple] ❑ PodSafe: Karmyn Tyler - Summertime [Site] [apple] ❑ HitTest #58 [Site]\nDuration: 00:29:50'
+description: |-
+  ▼ ❑ Daily Source Code for Thursday September 15th 2005 #240 [apple] ❑ From Curry Cottage, Guildford, United Kingdom [apple] ❑ Direct Link to the show [apple] ❑ Mashup: Even your Jazz isn't safe -- via [MashupTown] [apple] ❑ Orange County Choppers [Site] ▶ ❑ Across the sound podcast about soundvertising [Site] [apple] ❑ PodSafe: Karmyn Tyler - Summertime [Site] [apple] ❑ HitTest #58 [Site]
+  Duration: 00:29:50
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,22 +13,36 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/09/15.html#a7135
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-09-15.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-09-15.mp3
   length: 21487169
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday September 15th 2005
   subtitle: null
-  summary: '<br>&#9660;&nbsp;&nbsp; &nbsp;&#10065;&nbsp;&nbsp; &nbsp;Daily Source Code for Thursday September 15th 2005 #240<br><p><br><br>&nbsp;&nbsp; &nbsp;[apple]&nbsp;&nbsp; &nbsp;&#10065;&nbsp;&nbsp; &nbsp;From Curry Cottage, Guildford, United Kingdom<br><p><br><br>&nbsp;&nbsp; &nbsp;[apple]&nbsp;&nbsp; &nbsp;&#10065;&nbsp;&nbsp; &nbsp;Direct<a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-240-2005-09-15.mp3">Link</a>to the show<br><p><br><br>[apple]&nbsp;&nbsp; &nbsp;&#10065;&nbsp;&nbsp; &nbsp;Mashup: Even your Jazz isn''t safe -- via [<a href="http://mashuptown.com/">MashupTown</a>]<br><p><br><br>[apple]&nbsp;&nbsp; &nbsp;&#10065;&nbsp;&nbsp; &nbsp;Orange County Choppers [<a href="http://www.orangecountychoppers.com/">Site</a>]<br><p><br><br>&#9654;&nbsp;&nbsp; &nbsp;&#10065;&nbsp;&nbsp; &nbsp;Across the sound podcast about soundvertising [<a href="http://www.acrossthesound.net/">Site</a>]<br><p><br><br>[apple]&nbsp;&nbsp; &nbsp;&#10065;&nbsp;&nbsp; &nbsp;PodSafe: Karmyn Tyler
-    - Summertime [<a href="http://www.karmyntyler.com/">Site</a>]<br><p><br><br>[apple]&nbsp;&nbsp; &nbsp;&#10065;&nbsp;&nbsp; &nbsp;HitTest #58 [<a href="http://janpolet.com/">Site</a>]<br>'
+  summary: |-
+    ▼ ❑ Daily Source Code for Thursday September 15th 2005 #240
+
+    [apple] ❑ From Curry Cottage, Guildford, United Kingdom
+
+    [apple] ❑ Directto the show
+
+    [apple] ❑ Mashup: Even your Jazz isn't safe -- via [MashupTown]
+
+    [apple] ❑ Orange County Choppers []
+
+    ▶ ❑ Across the sound podcast about soundvertising []
+
+    [apple] ❑ PodSafe: Karmyn Tyler - Summertime []
+
+    [apple] ❑ HitTest #58 []
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1790
   season: null
   episode: '240'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-240'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '240'
   season: null
@@ -41,20 +57,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-240'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-240'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-09-15.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-240'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-09-15.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-09-15.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +79,19 @@ podcast:
   - type: audio/mpeg
     length: 21487169
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #240'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-09-15.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-09-15.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-09-15.mp3
   size: 21487169

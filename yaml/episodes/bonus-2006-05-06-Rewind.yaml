@@ -1,12 +1,12 @@
 episode: null
 title: DSC_Rewind_Week_Of_5-5-06
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/05/07.html#a7312
-pubDate: Sat May  6 23:22:30 2006 +0000
+pubDate: Sat, 06 May 2006 23:22:30 +0000
 category: podcast
 description: |-
   <br>DSC_Rewind_Week_Of_5-5-06<br><br><div class="storycontent">
-           	<p>Scott Taylor creates the first DSC Rewind of the past week</p>
-  	<p>Direct <a href="http://m.podshow.com/media/21/episodes/4951/deltasierracharl-4951-05-06-2006.mp3">Link</a> to the show
+            <p>Scott Taylor creates the first DSC Rewind of the past week</p>
+   <p>Direct <a href="http://m.podshow.com/media/21/episodes/4951/deltasierracharl-4951-05-06-2006.mp3">Link</a> to the show
   </p>
           </div><br><br>
 author: Adam Curry
@@ -16,7 +16,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/05/07.html#a7312
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-05-06-Rewind.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-05-06-Rewind.mp3
   length: 14213911
   type: audio/mpeg
 itunes:
@@ -24,18 +24,19 @@ itunes:
   title: DSC_Rewind_Week_Of_5-5-06
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
   summary: |-
-    <br>DSC_Rewind_Week_Of_5-5-06<br><br><div class="storycontent">
-             	<p>Scott Taylor creates the first DSC Rewind of the past week</p>
-    	<p>Direct <a href="http://m.podshow.com/media/21/episodes/4951/deltasierracharl-4951-05-06-2006.mp3">Link</a> to the show
-    </p>
-            </div><br><br>
+    DSC_Rewind_Week_Of_5-5-06
+
+    Scott Taylor creates the first DSC Rewind of the past week
+
+    Direct to the show
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1772
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -45,14 +46,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
-  chapters: null
-  transcript: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-05-06-Rewind.json
+    type: application/json+chapters
+  transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-05-06-Rewind.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-05-06-Rewind.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -60,10 +68,19 @@ podcast:
   - type: audio/mpeg
     length: 14213911
     bitrate: 64168
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-05-06
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-05-06-Rewind.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-05-06-Rewind.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-05-06.mp3
   size: 14213911

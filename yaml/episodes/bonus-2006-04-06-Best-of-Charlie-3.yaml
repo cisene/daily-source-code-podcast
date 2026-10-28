@@ -1,13 +1,13 @@
 episode: null
 title: 'Best of Charlie #3'
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/06.html#a7291
-pubDate: Thu Apr  6 15:51:15 2006 +0000
+pubDate: Thu, 06 Apr 2006 15:51:15 +0000
 category: podcast
 description: |-
   <br>Best of Charlie #3<br><div class="storycontent">
-           	<p>Another lazy day in the sunshine. Delivering on the continued promise, another Best of Charlie.<br>
+            <p>Another lazy day in the sunshine. Delivering on the continued promise, another Best of Charlie.<br>
   What choices will hae been made this time?</p>
-  	<p>Direct <a href="http://mp3.digitalflotsam.podshow.com/DSC367--bestofMB03.mp3">Link</a> to Show
+   <p>Direct <a href="http://mp3.digitalflotsam.podshow.com/DSC367--bestofMB03.mp3">Link</a> to Show
   </p>
           </div><br><br>
 author: Adam Curry
@@ -17,7 +17,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/06.html#a7291
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-06-Best-of-Charlie-3.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-06-Best-of-Charlie-3.mp3
   length: 23504575
   type: audio/mpeg
 itunes:
@@ -25,19 +25,21 @@ itunes:
   title: 'Best of Charlie #3'
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
   summary: |-
-    <br>Best of Charlie #3<br><div class="storycontent">
-             	<p>Another lazy day in the sunshine. Delivering on the continued promise, another Best of Charlie.<br>
-    What choices will hae been made this time?</p>
-    	<p>Direct <a href="http://mp3.digitalflotsam.podshow.com/DSC367--bestofMB03.mp3">Link</a> to Show
-    </p>
-            </div><br><br>
+    Best of Charlie #3
+
+    Another lazy day in the sunshine. Delivering on the continued promise, another Best of Charlie.
+
+    What choices will hae been made this time?
+
+    Direct to Show
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1469
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -47,14 +49,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +63,19 @@ podcast:
   - type: audio/mpeg
     length: 23504575
     bitrate: 128008
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-04-06
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-06-Best-of-Charlie-3.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-06-Best-of-Charlie-3.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC367--bestofMB03.mp3
   size: 23504575

@@ -1,7 +1,7 @@
 episode: '137'
 title: Patricia Paay Podcast
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/03/06.html#a7029
-pubDate: Sun Mar  6 23:47:39 2005 +0000
+pubDate: Sun, 06 Mar 2005 23:47:39 +0000
 category: podcast
 description: I finally was able to get Patricia in the mood for a podcast of her<br>work. We had fun and played some tunes from her 40 year career. mp3 Shownotes in html and opml
 author: Adam Curry
@@ -11,21 +11,25 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/03/06.html#a7029
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-03-06.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-03-06.mp3
   length: 33673282
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Patricia Paay Podcast
   subtitle: The First PP Podcast
-  summary: I finally was able to get Patricia in the mood for a podcast of her<br>work. We had fun and played some tunes from her 40 year career.<br><p><br><br><br><p><br><br><a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-PPP-2005-03-06.mp3">mp3</a><br><p><br><br><br><p><br><br>Shownotes in<a href="http://www.curry.com/DSC/DSC-PPP-2005-03-06">html</a>and<a href="http://cloud2.urj.nl/static/gems/gurry/DSCPPP20050306.opml">opml</a><br>
+  summary: |-
+    I finally was able to get Patricia in the mood for a podcast of her
+    work. We had fun and played some tunes from her 40 year career.
+
+    Shownotes inand
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 4208
   season: null
   episode: '137'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-137'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '137'
   season: null
@@ -40,7 +44,7 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
   - person: Patricia Paay
@@ -48,17 +52,18 @@ podcast:
     img: https://upload.wikimedia.org/wikipedia/commons/f/fc/Patricia_Paay.png
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-137'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-137'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-03-06.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-137'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-03-06.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-03-06.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -66,10 +71,19 @@ podcast:
   - type: audio/mpeg
     length: 33673282
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #137'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-03-06.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-03-06.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-PPP-2005-03-06.mp3
   size: 33673282

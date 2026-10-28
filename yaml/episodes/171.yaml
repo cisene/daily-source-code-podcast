@@ -1,7 +1,7 @@
 episode: '171'
 title: Daily Source Code for Friday May 6th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/05/06.html#a7063
-pubDate: Fri May  6 18:21:47 2005 +0000
+pubDate: Fri, 06 May 2005 18:21:47 +0000
 category: podcast
 description: Radio and Record legend Steve Leeds visited the cottage this lovely<br>friday afternoon and I sat him down for a trip down memory lane in<br>today's 'cast From the Cottage in Guildford UKDirect link to the show
 author: Adam Curry
@@ -11,21 +11,27 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/05/06.html#a7063
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-05-06.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-06.mp3
   length: 37344218
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday May 6th 2005
   subtitle: null
-  summary: Radio and Record legend Steve Leeds visited the cottage this lovely<br>friday afternoon and I sat him down for a trip down memory lane in<br>today's 'cast<br><br><br><ul><br><li>From the Cottage in Guildford UK</li><li>Direct<a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-05-06.mp3">link</a>to the show<br><br></li><br></ul>
+  summary: |-
+    Radio and Record legend Steve Leeds visited the cottage this lovely
+    friday afternoon and I sat him down for a trip down memory lane in
+    today's 'cast
+
+    - From the Cottage in Guildford UK
+    - Directto the show
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 4668
   season: null
   episode: '171'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-171'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '171'
   season: null
@@ -40,20 +46,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-171'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-171'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-05-06.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-171'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-05-06.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-05-06.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +68,19 @@ podcast:
   - type: audio/mpeg
     length: 37344218
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #171'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-05-06.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-06.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-05-06.mp3
   size: 37344218

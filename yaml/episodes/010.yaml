@@ -1,7 +1,7 @@
 episode: '010'
 title: daily source code Sun Aug 22 21:14:27 CEST 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/08/22.html#a6424
-pubDate: Sun Aug 22 19:14:33 2004 +0000
+pubDate: Sun, 22 Aug 2004 19:14:33 +0000
 category: podcast
 description: 'The Daily Source Code: mp3'
 author: Adam Curry
@@ -11,21 +11,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/08/22.html#a6424
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-08-22-test.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-08-22-test.mp3
   length: 127615
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: daily source code Sun Aug 22 21:14:27 CEST 2004
   subtitle: null
-  summary: 'The Daily Source Code: <a href=http://cloud2.urj.nl/gems/dailySourceCode08222004.mp3>mp3</a>'
+  summary: 'The Daily Source Code:'
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 18
   season: null
   episode: '010'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-010'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '010'
   season: null
@@ -40,20 +40,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-010'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-010'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-08-22-test.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-010'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-08-22-test.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-08-22-test.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +62,19 @@ podcast:
   - type: audio/mpeg
     length: 127615
     bitrate: 56000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #10'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-08-22-test.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-08-22-test.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-08-22 test.mp3
   size: 127615

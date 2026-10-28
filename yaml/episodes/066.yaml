@@ -1,9 +1,11 @@
 episode: '066'
 title: Daily Source Code for Saturday November 13rd 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/13.html#a6866
-pubDate: Sat Nov 13 10:16:24 2004 +0000
+pubDate: Sat, 13 Nov 2004 10:16:24 +0000
 category: podcast
-description: 'Yesterday the BBC dropped by (for 7 hours) to tape a piece about Podcasting for The Culture Show on BBC2. To really appreciate the final product (hopefully someone will tape it) you have to have the ''source code'' to parts of the interview and podcast demonstration. That''s what''s on today''s voyeuristic Source Code. 24 minutes 11 mb mp3\nDuration: 00:24:06'
+description: |-
+  Yesterday the BBC dropped by (for 7 hours) to tape a piece about Podcasting for The Culture Show on BBC2. To really appreciate the final product (hopefully someone will tape it) you have to have the 'source code' to parts of the interview and podcast demonstration. That's what's on today's voyeuristic Source Code. 24 minutes 11 mb mp3
+  Duration: 00:24:06
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/13.html#a6866
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-13.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-13.mp3
   length: 11568606
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday November 13rd 2004
   subtitle: Having fun with the BBC @ the Castle
-  summary: Yesterday the BBC dropped by (for 7 hours) to tape a piece about Podcasting for<a href="http://www.bbc.co.uk/arts/cultureshow/">The Culture Show</a>on BBC2. To really appreciate the final product (hopefully someone will tape it) you have to have the 'source code' to parts of the interview and podcast demonstration. That's what's on today's voyeuristic Source Code.<br><br>24 minutes 11 mb<a href="http://adam.opml.org/DSC20041113.mp3">mp3</a>
+  summary: Yesterday the BBC dropped by (for 7 hours) to tape a piece about Podcasting forThe Culture Showon BBC2. To really appreciate the final product (hopefully someone will tape it) you have to have the 'source code' to parts of the interview and podcast demonstration. That's what's on today's voyeuristic Source Code.
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1446
   season: null
   episode: '066'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-066'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '066'
   season: null
@@ -40,20 +42,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-066'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-066'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-11-13.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-066'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-11-13.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-11-13.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +64,19 @@ podcast:
   - type: audio/mpeg
     length: 11568606
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #66'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-13.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-13.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-11-13.mp3
   size: 11568606

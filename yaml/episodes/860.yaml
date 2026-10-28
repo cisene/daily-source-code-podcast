@@ -1,9 +1,11 @@
 episode: '860'
 title: Daily Source Code for Saturday February 05th 2011
 link: http://www.mevio.com/episode/267039/dsc-860-2011-02-05
-pubDate: Sat Feb  5 20:35:50 2011 +0000
+pubDate: Sat, 05 Feb 2011 20:35:50 +0000
 category: podcast
-description: '#860 Adam Curry''s Daily Source Code for Saturday February 5th 2011 SNAFU Saturday Boots To The Head Edition We start a revolution on thsi show with the ShoeBox. Join us!\nDuration: 03:32:06'
+description: |-
+  #860 Adam Curry's Daily Source Code for Saturday February 5th 2011 SNAFU Saturday Boots To The Head Edition We start a revolution on thsi show with the ShoeBox. Join us!
+  Duration: 03:32:06
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,25 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/267039/dsc-860-2011-02-05
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2011-02-05.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2011-02-05.mp3
   length: 152964707
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday February 05th 2011
   subtitle: SNAFU Saturday Boots To The Head Edition
-  summary: <p>#860 Adam Curry's Daily Source Code for Saturday February 5th 2011<br>SNAFU Saturday Boots To The Head Edition</p><p><img alt="[Image]" src="http://www.curryscloud.com/shownotes/dsc860Art.png" title="undefined" /></p><p>We start a revolution on thsi show with the ShoeBox. Join us!</p>
+  summary: |-
+    #860 Adam Curry's Daily Source Code for Saturday February 5th 2011
+    SNAFU Saturday Boots To The Head Edition
+
+    We start a revolution on thsi show with the ShoeBox. Join us!
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 12726
   season: null
   episode: '860'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-860'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '860'
   season: null
@@ -40,20 +46,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-860'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-860'
+  - url: https://thedailysourcecode.com/chapters/DSC-2011-02-05.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-860'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2011-02-05.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2011-02-05.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +68,19 @@ podcast:
   - type: audio/mpeg
     length: 152964707
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #860'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2011-02-05.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2011-02-05.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2011-02-05.mp3
   size: 152964707

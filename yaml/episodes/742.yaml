@@ -1,9 +1,11 @@
 episode: '742'
 title: Daily Source Code for Wednesday April 02nd 2008
 link: http://radio.weblogs.com/0001014/2008/04/02.html#a358
-pubDate: Wed Apr  2 15:27:02 2008 +0000
+pubDate: Wed, 02 Apr 2008 15:27:02 +0000
 category: podcast
-description: '  <p><strong>#742 Daily Source Code for Wednesday April 2nd 2008</strong></p><p>Meta topics on today''s show: educating ourselves on economics, how the world works and who runs it. Savants needed, now hiring :)</p><p>Here’s the DSC Demographics<a href="http://tinyurl.com/356kct">survey link</a></p><p>Get up to 70% discount on life insurance with<a href="http://accuquote.com/dsc">AccuQuote.com</a>give them a call: 1800-410-7214</p><p>Now available exclusively through PodShow, a<a href="http://curry.podshow.com/?page_id=846">15% discount</a>on the Nokia N810 Internet Tablet. Check out my promo codes and coupon page links.</p><p>Call Anytime:</p><p>+12016256357 or +442076813753</p>\nDuration: 00:41:33'
+description: |2-
+    <p><strong>#742 Daily Source Code for Wednesday April 2nd 2008</strong></p><p>Meta topics on today's show: educating ourselves on economics, how the world works and who runs it. Savants needed, now hiring :)</p><p>Here’s the DSC Demographics<a href="http://tinyurl.com/356kct">survey link</a></p><p>Get up to 70% discount on life insurance with<a href="http://accuquote.com/dsc">AccuQuote.com</a>give them a call: 1800-410-7214</p><p>Now available exclusively through PodShow, a<a href="http://curry.podshow.com/?page_id=846">15% discount</a>on the Nokia N810 Internet Tablet. Check out my promo codes and coupon page links.</p><p>Call Anytime:</p><p>+12016256357 or +442076813753</p>
+  Duration: 00:41:33
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,36 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2008/04/02.html#a358
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2008-04-02.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-04-02.mp3
   length: 40042236
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday April 02nd 2008
   subtitle: null
-  summary: '  <p><strong>#742 Daily Source Code for Wednesday April 2nd 2008</strong></p><p>Meta topics on today''s show: educating ourselves on economics, how the world works and who runs it. Savants needed, now hiring :)</p><p>Here’s the DSC Demographics<a href="http://tinyurl.com/356kct">survey link</a></p><p>Get up to 70% discount on life insurance with<a href="http://accuquote.com/dsc">AccuQuote.com</a>give them a call: 1800-410-7214</p><p>Now available exclusively through PodShow, a<a href="http://curry.podshow.com/?page_id=846">15% discount</a>on the Nokia N810 Internet Tablet. Check out my promo codes and coupon page links.</p><p>Call Anytime:</p><p>+12016256357 or +442076813753</p>\nDuration: 00:41:33'
+  summary: |-
+    #742 Daily Source Code for Wednesday April 2nd 2008
+
+    Meta topics on today's show: educating ourselves on economics, how the world works and who runs it. Savants needed, now hiring :)
+
+    Here’s the DSC Demographicssurvey link
+
+    Get up to 70% discount on life insurance withAccuQuote.comgive them a call: 1800-410-7214
+
+    Now available exclusively through PodShow, a15% discounton the Nokia N810 Internet Tablet. Check out my promo codes and coupon page links.
+
+    Call Anytime:
+
+    +12016256357 or +442076813753
+
+    Duration: 00:41:33
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2493
   season: null
   episode: '742'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-742'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '742'
   season: null
@@ -40,20 +57,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-742'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-742'
+  - url: https://thedailysourcecode.com/chapters/DSC-2008-04-02.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-742'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2008-04-02.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2008-04-02.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +79,19 @@ podcast:
   - type: audio/mpeg
     length: 40042236
     bitrate: 128000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #742'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2008-04-02.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-04-02.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2008-04-02.mp3
   size: 40042236

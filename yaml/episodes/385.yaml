@@ -1,7 +1,7 @@
 episode: '385'
 title: Daily Source Code for Thursday May 11st 2006
 link: http://radio.weblogs.com/0001014/2006/05/11.html#a7316
-pubDate: Thu May 11 11:32:36 2006 +0000
+pubDate: Thu, 11 May 2006 11:32:36 +0000
 category: podcast
 description: |-
   - 307_rocks
@@ -21,7 +21,8 @@ description: |-
   * Second Life Marriage
   - EarthLinkFeedback
   - Summer 2006 Podcast Theme Contest
-  - 01_Drowning\nDuration: 00:43:25
+  - 01_Drowning
+  Duration: 00:43:25
 author: Adam Curry
 language: en-us
 comments: null
@@ -29,7 +30,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2006/05/11.html#a7316
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-05-11.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-05-11.mp3
   length: 31249120
   type: audio/mpeg
 itunes:
@@ -54,14 +55,15 @@ itunes:
     * Second Life Marriage
     - EarthLinkFeedback
     - Summer 2006 Podcast Theme Contest
-    - 01_Drowning\nDuration: 00:43:25
+    - 01_Drowning
+    Duration: 00:43:25
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2605
   season: null
   episode: '385'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-385'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '385'
   season: null
@@ -76,20 +78,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-385'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-385'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-05-11.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-385'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-05-11.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-05-11.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -97,10 +100,19 @@ podcast:
   - type: audio/mpeg
     length: 31249120
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #385'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-05-11.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-05-11.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-05-11.mp3
   size: 31249120

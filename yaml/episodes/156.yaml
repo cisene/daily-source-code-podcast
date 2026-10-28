@@ -1,9 +1,11 @@
 episode: '156'
 title: Daily Source Code for Thursday April 07th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/07.html#a7048
-pubDate: Thu Apr  7 15:51:39 2005 +0000
+pubDate: Thu, 07 Apr 2005 15:51:39 +0000
 category: podcast
-description: 'Today''s ''cast is one big beta test of the ''CastBlaster'' podcast<br>recording studio. I figured the best way to test this was to do a real<br>podcast with it. Of course I ran into a number of improvements that<br>need to be made. But overall I''m pretty happy. As promised in the show,<br>in lieu of shownotes today here''s a partial screenshot of the studio program. mp3\nDuration: 00:22:31'
+description: |-
+  Today's 'cast is one big beta test of the 'CastBlaster' podcast<br>recording studio. I figured the best way to test this was to do a real<br>podcast with it. Of course I ran into a number of improvements that<br>need to be made. But overall I'm pretty happy. As promised in the show,<br>in lieu of shownotes today here's a partial screenshot of the studio program. mp3
+  Duration: 00:22:31
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,26 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/07.html#a7048
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-07.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-07.mp3
   length: 10756352
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday April 07th 2005
   subtitle: Testing the bet aof the CastBlaster
-  summary: Today's 'cast is one big beta test of the 'CastBlaster' podcast<br>recording studio. I figured the best way to test this was to do a real<br>podcast with it. Of course I ran into a number of improvements that<br>need to be made. But overall I'm pretty happy. As promised in the show,<br>in lieu of shownotes today here's a partial<a href="http://www.curry.com/pictures/viewer$5517">screenshot</a>of the studio program.<br><br><br><br><br><br><a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-04-07.mp3">mp3</a>
+  summary: |-
+    Today's 'cast is one big beta test of the 'CastBlaster' podcast
+    recording studio. I figured the best way to test this was to do a real
+    podcast with it. Of course I ran into a number of improvements that
+    need to be made. But overall I'm pretty happy. As promised in the show,
+    in lieu of shownotes today here's a partialscreenshotof the studio program.
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1351
   season: null
   episode: '156'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-156'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '156'
   season: null
@@ -40,20 +47,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-156'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-156'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-04-07.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-156'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-04-07.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-04-07.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +69,19 @@ podcast:
   - type: audio/mpeg
     length: 10756352
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #156'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-07.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-07.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-04-07.mp3
   size: 10756352

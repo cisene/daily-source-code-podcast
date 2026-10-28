@@ -1,9 +1,11 @@
 episode: '087'
 title: Daily Source Code for Thursday December 16th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/16.html#a6978
-pubDate: Thu Dec 16 15:40:33 2004 +0000
+pubDate: Thu, 16 Dec 2004 15:40:33 +0000
 category: podcast
-description: 'The thursday ''cast with a word from matthew, promos and some geek stuff thrown in for good measure :)<br>mp3 Productions notes in html and opml\nDuration: 00:41:39'
+description: |-
+  The thursday 'cast with a word from matthew, promos and some geek stuff thrown in for good measure :)<br>mp3 Productions notes in html and opml
+  Duration: 00:41:39
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,87 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/16.html#a6978
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-16.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-16.mp3
   length: 19999488
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday December 16th 2004
   subtitle: http://live.curry.com/opml/DSC-2004-12-16.opml
-  summary: The thursday 'cast with a word from matthew, promos and some geek stuff thrown in for good measure :)<p><br><br><a href="http://homepage.mac.com/adamcurry/DSC/DSC-2004-12-16.mp3">mp3</a><p><br><br>Productions notes in<a href="http://live.curry.com/outlines/DSC-2004-12-16.html">html</a>and<a href="http://live.curry.com/opml/DSC-2004-12-16.opml">opml</a><br>
+  summary: |-
+    The thursday 'cast with a word from matthew, promos and some geek stuff thrown in for good measure :)
+
+    Productions notes inand
+
+    #title "DSC-2004-12-16"
+    Show details
+    - Podcast on December 16th 2004
+    - From Curry Cottage, UK
+    - Direct download link
+    - Podcast feed
+    - Weblog
+    - Email
+    Rockmaninov Opener
+    Network testing
+    adamritenour iriver Comment
+    iRiver hacking
+    - From: meowing@xs4all.nl
+    - Subject: iriver stuff
+    - Date: December 14, 2004 9:53:30 PM GMT+00:00
+    - To: Adam Curry
+    - Hi Adam,
+    - about the USB thing, I thought the same for quite a while,
+    - after discovering that my o.s. was lacking the appropriate
+    - up to date USB-driver. Can't blame iriver for that.
+    - Don't remember where I got it, but it is out there,
+    - and it's really blazing fast now, at least, mine is.
+    - I have the iHP-140, with a 40 GB hard drive, bought it online
+    - in February 2004, and luckily, Windows AND linux by default
+    - recognized it as a drive. Just a portable drive, a USB-drive.
+    - Never used the iriver CDroms, never needed additional software
+    - to transfer files. Just used my plain old Total Commander
+    - (which is like Norton Commander, but better, and for Windows).
+    - No DRM-crap either. They must have gotten paid by the wrong guys,
+    - iriver used to be a real key nerd tool, it supports Ogg Vorbis
+    - and you can hack the firmware easy as sh*t.
+    - Tip: http://www.misticriver.net/
+    - http://www.misticriver.net/boards/showthread.php?t=6677&highlight=usb+speed
+    - The manager-software only stuff is also with most of the Canon-
+    - camera's, and that's why I don't have a Canon digital cam ;-)
+    - I like all my equipment to be external drives, just like you.
+    - (Guess iriver stole that thing/idea from Canon then...)
+    - OK that's it for now, podcast ze!
+    - Greetings from Amsterdam, the NL,
+    - Julius
+    - --
+    - You don't stop laughing because you grow old,
+    - you grow old because you stop laughing. - http://lulligvoorje.nl
+    Coverville
+    - R.E.M., The Lascivious Biddies, Was (Not Was) and more!
+      - Coverville-2004-12-14
+    Dutch Podcasting
+    GodCast.org
+    - The Living Word
+      - Matthew 6:19-21 (12/15/04)
+    Lee Wilkins
+    - Paypal & Alfie & Benson
+    Ryan Mahoski
+    - AudioThink
+      - AudioThink - Kiosk Idea
+    TheScout.Net
+    - OpenPodcast.org
+      - ChristmasCast Promo - OpenPodcast.org #332
+    MoJones
+    - Strong Man
+      - TV Junkie
+    Rockmaninov Closer
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2499
   season: null
   episode: '087'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-087'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '087'
   season: null
@@ -40,20 +108,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-087'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-087'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-12-16.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-087'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-12-16.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-12-16.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +130,19 @@ podcast:
   - type: audio/mpeg
     length: 19999488
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #87'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-16.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-16.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-12-16.mp3
   size: 19999488

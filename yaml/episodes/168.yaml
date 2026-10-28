@@ -1,7 +1,7 @@
 episode: '168'
 title: Podshow Strategy Cast 2.0
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/29.html#a7060
-pubDate: Fri Apr 29 05:37:10 2005 +0000
+pubDate: Fri, 29 Apr 2005 05:37:10 +0000
 category: podcast
 description: As promised, the Podshow Strategy 'cast 2.0 Recorded on location in New<br>York. In this podcast we discuss the past, present and future. 2 [tired] guys,<br>an iRiver and a coat hanger...
 author: Adam Curry
@@ -11,21 +11,24 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/29.html#a7060
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-29.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-29.mp3
   length: 111045875
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Podshow Strategy Cast 2.0
   subtitle: Podshow.com
-  summary: As promised, the Podshow<a href="http://homepage.mac.com/dailysourcecode/DSC/Podshow20.mp3">Strategy 'cast 2.0</a>Recorded on location in New<br>York. In this podcast we discuss the past, present and future. 2 [tired] guys,<br>an iRiver and a<a href="http://www.curry.com/pictures/viewer$7135">coat hanger</a>...
+  summary: |-
+    As promised, the PodshowStrategy 'cast 2.0Recorded on location in New
+    York. In this podcast we discuss the past, present and future. 2 [tired] guys,
+    an iRiver and acoat hanger...
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 6940
   season: null
   episode: '168'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-168'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '168'
   season: null
@@ -40,20 +43,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-168'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-168'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-04-29.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-168'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-04-29.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-04-29.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +65,19 @@ podcast:
   - type: audio/mpeg
     length: 111045875
     bitrate: 128000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #168'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-29.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-29.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: Podshow20.mp3
   size: 111045875

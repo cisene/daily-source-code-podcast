@@ -1,12 +1,12 @@
 episode: null
 title: Podshow Xmas Part 2
 link: http://xmas.podshow.com/?p=3
-pubDate: Sun Dec  4 12:06:28 2005 +0000
+pubDate: Sun, 04 Dec 2005 12:06:28 +0000
 category: podcast
 description: |-
   <p>Part 2 in the series of Podsafe holiday tunes and greetings to fill your mp3 player with.</p>
-  	<p>On today&#8217;s episode: <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=227f808a08e34bf9fc5da7729fa99fe8">Candy Butchers</a> - Give me a second chance for Christmas and <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=341ddd025f3a544560acb8d1863620e7">Beatrice Ericsson</a> - Christmas without you.</p>
-  	<p><a href="http://mp3.dailysourcecode.podshow.com/podshowXmas2.mp3">Part 2</a>
+   <p>On today&#8217;s episode: <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=227f808a08e34bf9fc5da7729fa99fe8">Candy Butchers</a> - Give me a second chance for Christmas and <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=341ddd025f3a544560acb8d1863620e7">Beatrice Ericsson</a> - Christmas without you.</p>
+   <p><a href="http://mp3.dailysourcecode.podshow.com/podshowXmas2.mp3">Part 2</a>
   </p>
 author: Adam Curry
 language: en-us
@@ -15,7 +15,7 @@ guid:
   isPermaLink: false
   link: http://xmas.podshow.com/?p=3
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-04-Xmas-2.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-04-Xmas-2.mp3
   length: 6906454
   type: audio/mpeg
 itunes:
@@ -23,17 +23,19 @@ itunes:
   title: Podshow Xmas Part 2
   subtitle: 'Bonus: Adam Curry, not in the Daily Source Code feed'
   summary: |-
-    <p>Part 2 in the series of Podsafe holiday tunes and greetings to fill your mp3 player with.</p>
-    	<p>On today&#8217;s episode: <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=227f808a08e34bf9fc5da7729fa99fe8">Candy Butchers</a> - Give me a second chance for Christmas and <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=341ddd025f3a544560acb8d1863620e7">Beatrice Ericsson</a> - Christmas without you.</p>
-    	<p><a href="http://mp3.dailysourcecode.podshow.com/podshowXmas2.mp3">Part 2</a>
-    </p>
+    Part 2 in the series of Podsafe holiday tunes and greetings to fill your mp3 player with.
+
+    On today’s episode: Candy Butchers - Give me a second chance for Christmas and Beatrice Ericsson - Christmas without you.
+
+    Part 2
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 432
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -43,14 +45,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -58,10 +59,19 @@ podcast:
   - type: audio/mpeg
     length: 6906454
     bitrate: 128040
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2005-12-04
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-04-Xmas-2.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-04-Xmas-2.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: podshowXmas2.mp3
   size: 6906454

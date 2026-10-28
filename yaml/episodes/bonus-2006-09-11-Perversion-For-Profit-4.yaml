@@ -1,7 +1,7 @@
 episode: null
 title: PFP-004
 link: http://curry.podshow.com/?p=300
-pubDate: Mon Sep 11 12:00:00 2006 +0000
+pubDate: Mon, 11 Sep 2006 12:00:00 +0000
 category: podcast
 description: |-
   Without planning it to be so, this episode of Perversion For Profit turned out to contain a lot of GWB videos. Plenty of music in the show. Enjoy!
@@ -14,7 +14,7 @@ guid:
   isPermaLink: false
   link: http://curry.podshow.com/?p=300
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-09-11-Perversion-For-Profit-4.m4v
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-09-11-Perversion-For-Profit-4.m4v
   length: 103363293
   type: video/x-m4v
 itunes:
@@ -23,15 +23,16 @@ itunes:
   subtitle: 'Bonus: Adam Curry, not in the Daily Source Code feed'
   summary: |-
     Without planning it to be so, this episode of Perversion For Profit turned out to contain a lot of GWB videos. Plenty of music in the show. Enjoy!
-     Direct Link To The Show
-     Comment
+    Direct Link To The Show
+    Comment
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1190
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -41,14 +42,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -56,17 +56,26 @@ podcast:
   - type: video/x-m4v
     length: 103363293
     bitrate: 694976
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-09-11
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-09-11-Perversion-For-Profit-4.m4v
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-09-11-Perversion-For-Profit-4.m4v
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: PFP-004.m4v
   size: 103363293
   duration: 1190
   bitrate: 694976
   source: 2006/PFP-004.m4v
-  origin_url: null
+  origin_url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-09-11-Perversion-For-Profit-4.m4v
 bonus:
   id: 2006-09-11-Perversion-For-Profit-4
   kind: adam

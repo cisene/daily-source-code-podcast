@@ -1,7 +1,7 @@
 episode: '339'
 title: Daily Source Code for Tuesday February 21st 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/21.html#a7256
-pubDate: Tue Feb 21 16:21:54 2006 +0000
+pubDate: Tue, 21 Feb 2006 16:21:54 +0000
 category: podcast
 description: |-
   * Good Day
@@ -25,7 +25,8 @@ description: |-
   - K2 hang
   * Grevais charges
   - Andrew DGAP
-  * Boob Fairy\nDuration: 01:00:13
+  * Boob Fairy
+  Duration: 01:00:13
 author: Adam Curry
 language: en-us
 comments: null
@@ -33,7 +34,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/21.html#a7256
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-21.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-21.mp3
   length: 43324603
   type: audio/mpeg
 itunes:
@@ -62,14 +63,15 @@ itunes:
     - K2 hang
     * Grevais charges
     - Andrew DGAP
-    * Boob Fairy\nDuration: 01:00:13
+    * Boob Fairy
+    Duration: 01:00:13
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3613
   season: null
   episode: '339'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-339'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '339'
   season: null
@@ -84,20 +86,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-339'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-339'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-02-21.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-339'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-02-21.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-02-21.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -105,10 +108,19 @@ podcast:
   - type: audio/mpeg
     length: 43324603
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #339'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-21.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-21.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-02-21.mp3
   size: 43324603

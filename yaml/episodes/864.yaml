@@ -1,7 +1,7 @@
 episode: '864'
 title: Daily Source Code for Thursday April 26th 2012
 link: http://www.mevio.com/episode/314065/dsc-864-2012-04-26
-pubDate: Fri Apr 27 05:36:20 2012 +0000
+pubDate: Fri, 27 Apr 2012 05:36:20 +0000
 category: podcast
 description: |-
   Daily Source Code for Thursday April 26th 2012
@@ -18,7 +18,8 @@ description: |-
 
   Thanks to Jack Daniels
   Than you Max Factor for my makeup
-  Thanks to all the artists we love and miss\nDuration: 02:27:25
+  Thanks to all the artists we love and miss
+  Duration: 02:27:25
 author: Adam Curry
 language: en-us
 comments: null
@@ -26,7 +27,7 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/314065/dsc-864-2012-04-26
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2012-04-26.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2012-04-26.mp3
   length: 106233165
   type: audio/mpeg
 itunes:
@@ -36,7 +37,6 @@ itunes:
   summary: |-
     Daily Source Code for Thursday April 26th 2012
     Remembering The Ones We Lost
-
 
     Remembering The Ones We Lost
     Remembering the one's we lost
@@ -48,14 +48,15 @@ itunes:
 
     Thanks to Jack Daniels
     Than you Max Factor for my makeup
-    Thanks to all the artists we love and miss\nDuration: 02:27:25
+    Thanks to all the artists we love and miss
+    Duration: 02:27:25
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 8845
   season: null
   episode: '864'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-864'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '864'
   season: null
@@ -70,20 +71,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-864'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-864'
+  - url: https://thedailysourcecode.com/chapters/DSC-2012-04-26.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-864'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2012-04-26.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2012-04-26.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -91,10 +93,19 @@ podcast:
   - type: audio/mpeg
     length: 106233165
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #864'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2012-04-26.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2012-04-26.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2012-04-26.mp3
   size: 106233165

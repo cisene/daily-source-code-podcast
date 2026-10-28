@@ -1,7 +1,7 @@
 episode: '063'
 title: Daily Source Code for Tuesday November 9th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/10.html#a6847
-pubDate: Wed Nov 10 08:15:56 2004 +0000
+pubDate: Wed, 10 Nov 2004 08:15:56 +0000
 category: podcast
 description: I'm home at the castle, my bags however are not. From 37,000 feet its the Daily Source Code<br>Production notes<br>mp3
 author: Adam Curry
@@ -11,21 +11,44 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/10.html#a6847
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-09.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-09.mp3
   length: 19653513
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday November 9th 2004
   subtitle: from 37000 feet
-  summary: I'm home at the castle, my bags however are not. <p><br><br>From 37,000 feet its the Daily Source Code<p><br><br><a href="http://www.blognewsnetwork.com/members/0000001/outlines/DSC-2004-11-09.html">Production notes</a><p><br><br><a href="http://homepage.mac.com/adamcurry/DSC/DSC-2004-11-09.mp3">mp3</a><br>
+  summary: |-
+    I'm home at the castle, my bags however are not.
+
+    From 37,000 feet its the Daily Source Code
+
+    Production notes
+
+    norelpref
+    - god hates silliness
+      - pleasurework
+    Rockmaninov Opener
+    Bush Squanderer
+    Bloggercon
+    - jaime batiz
+    - RnRGeek11_7_04
+    Radio Brothers Promo
+    3 Quarters - Madeline
+    Ipodio.com
+    Tapdance Post election
+    iPodder 1.1 Announcement (short version)
+    KOMO 1000 News
+    - Herb Weisbaum - Megapixels
+    Podcasting from SoftwareLand #9
+    Cup of Joe - OpenPodcast.org #127
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2456
   season: null
   episode: '063'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-063'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '063'
   season: null
@@ -40,20 +63,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-063'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-063'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-11-09.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-063'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-11-09.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-11-09.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +85,19 @@ podcast:
   - type: audio/mpeg
     length: 19653513
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #63'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-09.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-09.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-11-09.mp3
   size: 19653513

@@ -1,9 +1,11 @@
 episode: '308'
 title: Daily Source Code for Tuesday January 03rd 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/03.html#a7220
-pubDate: Tue Jan  3 14:18:59 2006 +0000
+pubDate: Tue, 03 Jan 2006 14:18:59 +0000
 category: podcast
-description: '#308 Daily Source Code for Tuesday January 3d 2006 From Curry Cottage, Guildford, United Kingdom- iwontforgetyou twelve34 from Ontario Ca.* RIAA Racketeering* ASCAP collects from Girls scouts- Comment_to_DSC-307* Promo Block* Senseo* Big Haired Fag* MM2DAY* Cybster DJ Remix* Senseo ProgrammingDirect Link to the showSubscribe to the feedSubscribe with iTunesTime Code Based Shownotes\nDuration: 00:34:35'
+description: |-
+  #308 Daily Source Code for Tuesday January 3d 2006 From Curry Cottage, Guildford, United Kingdom- iwontforgetyou twelve34 from Ontario Ca.* RIAA Racketeering* ASCAP collects from Girls scouts- Comment_to_DSC-307* Promo Block* Senseo* Big Haired Fag* MM2DAY* Cybster DJ Remix* Senseo ProgrammingDirect Link to the showSubscribe to the feedSubscribe with iTunesTime Code Based Shownotes
+  Duration: 00:34:35
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,39 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/03.html#a7220
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-03.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-03.mp3
   length: 24910497
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday January 03rd 2006
   subtitle: null
-  summary: <br>#308 Daily Source Code for Tuesday January 3d 2006<br><p><br></p><br>From Curry Cottage, Guildford, United Kingdom<br>- iwontforgetyou twelve34 from Ontario Ca.<br>* RIAA Racketeering<br>* ASCAP collects from Girls scouts<br>- Comment_to_DSC-307<br>* Promo Block<br>* Senseo<br>* Big Haired Fag<br>* MM2DAY<br>* Cybster DJ Remix<br>* Senseo Programming<br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-308-2006-01-03.mp3">Link</a>to the show<br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br>Time Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #308 Daily Source Code for Tuesday January 3d 2006
+
+    From Curry Cottage, Guildford, United Kingdom
+    - iwontforgetyou twelve34 from Ontario Ca.
+    * RIAA Racketeering
+    * ASCAP collects from Girls scouts
+    - Comment_to_DSC-307
+    * Promo Block
+    * Senseo
+    * Big Haired Fag
+    * MM2DAY
+    * Cybster DJ Remix
+    * Senseo Programming
+
+    Directto the show
+    Subscribe to the
+    Subscribe withiTunes
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2075
   season: null
   episode: '308'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-308'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '308'
   season: null
@@ -40,20 +60,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-308'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-308'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-01-03.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-308'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-01-03.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-01-03.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +82,19 @@ podcast:
   - type: audio/mpeg
     length: 24910497
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #308'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-03.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-03.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-01-03.mp3
   size: 24910497

@@ -1,19 +1,20 @@
 episode: '459'
 title: Daily Source Code for Monday September 11st 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/09/11.html#a69
-pubDate: Mon Sep 11 08:17:46 2006 +0000
+pubDate: Mon, 11 Sep 2006 08:17:46 +0000
 category: podcast
 description: |-
   <div class="storycontent">
-           	<p>It&#146;s been ages since I skyped
+            <p>It&#146;s been ages since I skyped
   with Ken Clark. Today seemed as good a day as any to catch up on the
   recent news from our former employer. We talk about the 25th
   anniversary non-event and a couple Tom Freston stories. The Lady
   Patricia joins in at the end of the show as well.</p>
-  	<p>Direct <a href="http://m.podshow.com/media/21/episodes/25652/dailysourcecode-25652-09-11-2006.mp3">Link</a> To The Show</p>
-  	<p><a href="http://www.podshow.com/shows/?mode=detail&amp;episode_id=25652">Comment</a>
+   <p>Direct <a href="http://m.podshow.com/media/21/episodes/25652/dailysourcecode-25652-09-11-2006.mp3">Link</a> To The Show</p>
+   <p><a href="http://www.podshow.com/shows/?mode=detail&amp;episode_id=25652">Comment</a>
   </p>
-          </div>\nDuration: 00:57:37
+          </div>
+  Duration: 00:57:37
 author: Adam Curry
 language: en-us
 comments: null
@@ -21,7 +22,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/09/11.html#a69
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-09-11.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-09-11.mp3
   length: 41525659
   type: audio/mpeg
 itunes:
@@ -29,23 +30,24 @@ itunes:
   title: Daily Source Code for Monday September 11st 2006
   subtitle: null
   summary: |-
-    <div class="storycontent">
-             	<p>It&#146;s been ages since I skyped
+    It’s been ages since I skyped
     with Ken Clark. Today seemed as good a day as any to catch up on the
     recent news from our former employer. We talk about the 25th
     anniversary non-event and a couple Tom Freston stories. The Lady
-    Patricia joins in at the end of the show as well.</p>
-    	<p>Direct <a href="http://m.podshow.com/media/21/episodes/25652/dailysourcecode-25652-09-11-2006.mp3">Link</a> To The Show</p>
-    	<p><a href="http://www.podshow.com/shows/?mode=detail&amp;episode_id=25652">Comment</a>
-    </p>
-            </div>\nDuration: 00:57:37
+    Patricia joins in at the end of the show as well.
+
+    Direct To The Show
+
+    Comment
+
+    Duration: 00:57:37
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3457
   season: null
   episode: '459'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-459'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '459'
   season: null
@@ -60,20 +62,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-459'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-459'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-09-11.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-459'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-09-11.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-09-11.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -81,10 +84,19 @@ podcast:
   - type: audio/mpeg
     length: 41525659
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #459'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-09-11.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-09-11.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-09-11.mp3
   size: 41525659

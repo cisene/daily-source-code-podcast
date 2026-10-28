@@ -1,9 +1,11 @@
 episode: '152'
 title: Daily Source Code for Wednesday March 30 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/03/30.html#a7044
-pubDate: Wed Mar 30 04:41:31 2005 +0000
+pubDate: Wed, 30 Mar 2005 04:41:31 +0000
 category: podcast
-description: 'A quick update from our vacation spot, the Curry Condo...<br>mp3Shownotes? We don''t need no stinkin'' shownotes!\nDuration: 00:14:58'
+description: |-
+  A quick update from our vacation spot, the Curry Condo...<br>mp3Shownotes? We don't need no stinkin' shownotes!
+  Duration: 00:14:58
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,24 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/03/30.html#a7044
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-03-30.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-03-30.mp3
   length: 7189360
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday March 30 2005
   subtitle: Quick update from Curry Condo in South Beach Florida
-  summary: A quick update from our vacation spot, the Curry Condo...<br><br><br><a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-03-29.mp3">mp3</a><br><br>Shownotes? We don't need no stinkin' shownotes!
+  summary: |-
+    A quick update from our vacation spot, the Curry Condo...
+
+    Shownotes? We don't need no stinkin' shownotes!
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 898
   season: null
   episode: '152'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-152'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '152'
   season: null
@@ -40,20 +45,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-152'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-152'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-03-30.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-152'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-03-30.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-03-30.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +67,19 @@ podcast:
   - type: audio/mpeg
     length: 7189360
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #152'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-03-30.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-03-30.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-03-30.mp3
   size: 7189360

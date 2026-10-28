@@ -1,9 +1,11 @@
 episode: '040'
 title: Daily Source Code for Tuesday October 05th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/05.html#a6723
-pubDate: Tue Oct  5 15:45:33 2004 +0000
+pubDate: Tue, 05 Oct 2004 15:45:33 +0000
 category: podcast
-description: '''tuesday tunes & ipodder bits''mp3 32 mb, 38 minutesLinks to mentions in the show:Russell BeattieScobelRogueamoeba SoftwareThe Life & Death of Peter Sellers\nDuration: 00:38:36'
+description: |-
+  'tuesday tunes & ipodder bits'mp3 32 mb, 38 minutesLinks to mentions in the show:Russell BeattieScobelRogueamoeba SoftwareThe Life & Death of Peter Sellers
+  Duration: 00:38:36
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,32 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/05.html#a6723
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-05.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-05.mp3
   length: 34110194
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday October 05th 2004
   subtitle: tuesdays tunes & podder bits
-  summary: <p>'tuesday tunes & ipodder bits'</p><p><a href="http://homepage.mac.com/adamcurry/DSC/DSC-2004-10-05.mp3">mp3</a>32 mb, 38 minutes</p><p>Links to mentions in the show:</p><p><a href="http://www.russellbeattie.com/notebook/1008071.html">Russell Beattie</a></p><p><a href="http://radio.weblogs.com/0001011/2004/10/04.html#a8350">Scobel</a></p><p><a href="http://rogueamoeba.com/">Rogueamoeba Software</a></p><p><a href="http://sunday.ninemsn.com.au/sunday/art_profiles/article_1637.asp">The Life & Death of Peter Sellers</a></p>
+  summary: |-
+    'tuesday tunes & ipodder bits'
+
+    Links to mentions in the show:
+
+    Russell Beattie
+
+    Scobel
+
+    Rogueamoeba Software
+
+    The Life & Death of Peter Sellers
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2316
   season: null
   episode: '040'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-040'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '040'
   season: null
@@ -40,20 +53,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-040'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-040'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-10-05.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-040'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-10-05.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-10-05.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +75,19 @@ podcast:
   - type: audio/mpeg
     length: 34110194
     bitrate: 117794
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #40'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-05.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-05.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-10-05.mp3
   size: 34110194

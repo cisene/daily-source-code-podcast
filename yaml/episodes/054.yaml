@@ -1,9 +1,11 @@
 episode: '054'
 title: Daily Source Code for Monday October 25th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/25.html#a6802
-pubDate: Mon Oct 25 17:32:42 2004 +0000
+pubDate: Mon, 25 Oct 2004 17:32:42 +0000
 category: podcast
-description: 'I bit the bullet and drove all around town(s) in search of some temporary solution for recording to mp3 externally from my computer. I got quite an education in what''s available and it''s all podcast ready! So I recorded an intro on the (low quality) memo-recorder function on my way home from the store.<br>The ''bic lighter'' size mp3 recorder is damn handy. And because I''m recording from the headphone jack, it''s feasible that I could record a podcast on almost any computer that is handy, or plug in my hi-quality microphone for podcasts on the go. Now for a battery powered mixer so I can mix in tunes from my iPod and I''m really set!<br>The show is 43 minutes long and comes in 19.7 megabytes of podtune filled fun :)<br>mp3\nDuration: 00:43:11'
+description: |-
+  I bit the bullet and drove all around town(s) in search of some temporary solution for recording to mp3 externally from my computer. I got quite an education in what's available and it's all podcast ready! So I recorded an intro on the (low quality) memo-recorder function on my way home from the store.<br>The 'bic lighter' size mp3 recorder is damn handy. And because I'm recording from the headphone jack, it's feasible that I could record a podcast on almost any computer that is handy, or plug in my hi-quality microphone for podcasts on the go. Now for a battery powered mixer so I can mix in tunes from my iPod and I'm really set!<br>The show is 43 minutes long and comes in 19.7 megabytes of podtune filled fun :)<br>mp3
+  Duration: 00:43:11
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,26 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/25.html#a6802
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-25.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-25.mp3
   length: 20729300
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday October 25th 2004
   subtitle: recorded to mpr on yepp - 0 - rama
-  summary: <p>I bit the bullet and drove all around town(s) in search of some temporary solution for recording to mp3 externally from my computer. I got quite an education in what's available and it's all podcast ready! So I recorded an intro on the (low quality) memo-recorder function on my way home from the store.</p><br><br><p>The 'bic lighter' size mp3 recorder is damn handy. And because I'm recording from the headphone jack, it's feasible that I could record a podcast on almost any computer that is handy, or plug in my hi-quality microphone for podcasts on the go. Now for a battery powered mixer so I can mix in tunes from my iPod and I'm really set!</p><br><br><p>The show is 43 minutes long and comes in 19.7 megabytes of podtune filled fun :)</p><br><br><p><a href="http://homepage.mac.com/adamcurry/DSC/DSC-2004-10-25.mp3">mp3</a></p>
+  summary: |-
+    I bit the bullet and drove all around town(s) in search of some temporary solution for recording to mp3 externally from my computer. I got quite an education in what's available and it's all podcast ready! So I recorded an intro on the (low quality) memo-recorder function on my way home from the store.
+
+    The 'bic lighter' size mp3 recorder is damn handy. And because I'm recording from the headphone jack, it's feasible that I could record a podcast on almost any computer that is handy, or plug in my hi-quality microphone for podcasts on the go. Now for a battery powered mixer so I can mix in tunes from my iPod and I'm really set!
+
+    The show is 43 minutes long and comes in 19.7 megabytes of podtune filled fun :)
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2591
   season: null
   episode: '054'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-054'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '054'
   season: null
@@ -40,20 +47,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-054'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-054'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-10-25.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-054'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-10-25.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-10-25.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +69,19 @@ podcast:
   - type: audio/mpeg
     length: 20729300
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #54'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-25.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-25.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-10-25.mp3
   size: 20729300

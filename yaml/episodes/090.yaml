@@ -1,9 +1,11 @@
 episode: '090'
 title: Daily Source Code for Wednesday December 22nd 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/22.html#a6982
-pubDate: Wed Dec 22 22:55:12 2004 +0000
+pubDate: Wed, 22 Dec 2004 22:55:12 +0000
 category: podcast
-description: 'Another podcast from Utrecht. I slept most of the day and am totally<br>off schedule. But life is good in the city and this source code<br>reflects the holiday cheer :) mp3 Production notes in html and<br>opml\nDuration: 00:41:44'
+description: |-
+  Another podcast from Utrecht. I slept most of the day and am totally<br>off schedule. But life is good in the city and this source code<br>reflects the holiday cheer :) mp3 Production notes in html and<br>opml
+  Duration: 00:41:44
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,82 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/22.html#a6982
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-22.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-22.mp3
   length: 20036399
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday December 22nd 2004
   subtitle: Holiday cheer and pod-safe crankin' music
-  summary: Another podcast from Utrecht. I slept most of the day and am totally<br>off schedule. But life is good in the city and this source code<br>reflects the holiday cheer :)<br><br><br><a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2004-12-22.mp3"><br>mp3</a><br><br><br><br>Production notes in<a href="http://www.curry.com/DSC/DSC-2004-12-22">html</a>and<br><a href="http://static2.podcatch.com/blogs/gems/gurry/DSC20041220.opml">opml</a><br><br>
+  summary: |-
+    Another podcast from Utrecht. I slept most of the day and am totally
+    off schedule. But life is good in the city and this source code
+    reflects the holiday cheer :)
+
+    Production notes inand
+
+    #title "DSC-2004-12-22"
+    Show details
+    - Podcast on December 22nd 2004
+    - From Utrecht, the Netherlands
+    - Direct download link
+    - Torrent link
+    - Podcast feed
+    - Weblog
+    - Email
+    Adam's Podcasting Sweeper
+    Rockmaninov Opener
+    xmas tune
+    Pete Prodoehl
+    - http://rasterweb.net/raster/
+      - RasterWeb! Audio 2004-12-18 "The Rules of Podcasting"
+    Scott Brenner
+    - TodaysPodcast.com
+      - tp_20041222_neologism
+    American Heartbreak - Xmas
+    - post on site
+    - American Heartbreak
+      - Xmas Song
+    A new macuser
+    - New comment posted on CURRY.COM.
+    - Commenter's?name:?
+    - Mike
+    - Email?address:?
+    - holland042@hotmail.com
+    - Web?site:?
+    - IP?address:?
+    - 82.163.183.144
+    - Domain?name:?
+    - dsl82-163-183-144.as15444.net
+    - Commenting?on:?
+    - awakening in utrecht
+    - Hi Adam, Really pleased to hear the good news about your mother, sending all best wishes to her, you and all your family. On a slightly different note - I have finally decided to make the big move! . . . yes, I'm moving from PC to MAC!!, busy looking at what to buy, Powerbook or a desktop Mac?, if you can spare a few valuable Podcast minutes be really interested to hear what hardware you run and your thoughts on this as "Macman". Mike.
+    Family reviews
+    - Family Reviews
+      - Ocean's Twelve
+        - Oceans-twelve
+    Japanese podcasts and ipodder
+    Mur Lafferty
+    - Geek Fu Action Grip
+      - Geek Fu Action Grip Promo
+    Dawn Miceli and Drew Domkus
+    - 12 Days of Podcasting
+      - 12DOP-2004-12-22
+    www.msmobiles.com
+    - msmobiles.com Podcast 35
+      - msmobiles.com Podcast
+    Intwine
+    - Intwine
+      - Happy
+    KASS-Promo
+    Rockmaninov Closer
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2504
   season: null
   episode: '090'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-090'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '090'
   season: null
@@ -40,20 +103,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-090'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-090'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-12-22.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-090'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-12-22.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-12-22.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +125,19 @@ podcast:
   - type: audio/mpeg
     length: 20036399
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #90'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-22.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-22.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-12-22.mp3
   size: 20036399

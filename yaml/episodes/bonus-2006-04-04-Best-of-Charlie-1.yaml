@@ -1,17 +1,17 @@
 episode: null
 title: 'Best of Charlie #1'
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/04.html#a7289
-pubDate: Tue Apr  4 11:08:42 2006 +0000
+pubDate: Tue, 04 Apr 2006 11:08:42 +0000
 category: podcast
 description: |-
   <br><div class="storycontent">
-           	<p>Thanks to listeners of Daily
+            <p>Thanks to listeners of Daily
   Source Code (who will be credited properly upon my return from
   vacation) I am pleased to present you with the first installment of the
   BOC[base ']s. completely user generated, I[base ']ll be listening to it for the first
   time as everyone else subscribed to the DSC feed.</p>
-  	<p>Thanks to PDub for uploading it to his server, making this all the more possible from our vacation hideaway[sigma]</p>
-  	<p>Direct <a href="http://mp3.digitalflotsam.podshow.com/DSC365--bestofMB01.mp3">Link</a> to the Show
+   <p>Thanks to PDub for uploading it to his server, making this all the more possible from our vacation hideaway[sigma]</p>
+   <p>Direct <a href="http://mp3.digitalflotsam.podshow.com/DSC365--bestofMB01.mp3">Link</a> to the Show
   </p>
 author: Adam Curry
 language: en-us
@@ -20,7 +20,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/04.html#a7289
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-04-Best-of-Charlie-1.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-04-Best-of-Charlie-1.mp3
   length: 23516034
   type: audio/mpeg
 itunes:
@@ -28,22 +28,23 @@ itunes:
   title: 'Best of Charlie #1'
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
   summary: |-
-    <br><div class="storycontent">
-             	<p>Thanks to listeners of Daily
+    Thanks to listeners of Daily
     Source Code (who will be credited properly upon my return from
     vacation) I am pleased to present you with the first installment of the
     BOC[base ']s. completely user generated, I[base ']ll be listening to it for the first
-    time as everyone else subscribed to the DSC feed.</p>
-    	<p>Thanks to PDub for uploading it to his server, making this all the more possible from our vacation hideaway[sigma]</p>
-    	<p>Direct <a href="http://mp3.digitalflotsam.podshow.com/DSC365--bestofMB01.mp3">Link</a> to the Show
-    </p>
+    time as everyone else subscribed to the DSC feed.
+
+    Thanks to PDub for uploading it to his server, making this all the more possible from our vacation hideaway[sigma]
+
+    Direct to the Show
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1470
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -53,14 +54,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -68,10 +68,19 @@ podcast:
   - type: audio/mpeg
     length: 23516034
     bitrate: 128008
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-04-04
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-04-Best-of-Charlie-1.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-04-Best-of-Charlie-1.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC365--bestofMB01.mp3
   size: 23516034

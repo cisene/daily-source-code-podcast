@@ -1,9 +1,11 @@
 episode: '245'
 title: Daily Source Code for Saturday September 24th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/09/25.html#a7145
-pubDate: Sun Sep 25 05:29:16 2005 +0000
+pubDate: Sun, 25 Sep 2005 05:29:16 +0000
 category: podcast
-description: 'Daily Source Code for Saturday September 24th 2005 #245 From Curry Condo, San Francisco, California Direct Link to the show A ''Saturday Night Special'', also suitable for Sunday morning.... Shownotes\nDuration: 00:39:04'
+description: |-
+  Daily Source Code for Saturday September 24th 2005 #245 From Curry Condo, San Francisco, California Direct Link to the show A 'Saturday Night Special', also suitable for Sunday morning.... Shownotes
+  Duration: 00:39:04
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,30 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/09/25.html#a7145
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-09-24.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-09-24.mp3
   length: 28135060
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday September 24th 2005
   subtitle: null
-  summary: '<br>Daily Source Code for Saturday September 24th 2005 #245<br><p><br><br>From Curry Condo, San Francisco, California<br><p><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-245-2005-09-24.mp3">Link</a>to the show<br><p><br><br><br><p><br><br>A ''Saturday Night Special'', also suitable for Sunday morning....<br><p><br><br><br><p><br><br><a href="http://www.dailysourcecode.info/">Shownotes</a><br>'
+  summary: |-
+    Daily Source Code for Saturday September 24th 2005 #245
+
+    From Curry Condo, San Francisco, California
+
+    Directto the show
+
+    A 'Saturday Night Special', also suitable for Sunday morning....
+
+    Shownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2344
   season: null
   episode: '245'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-245'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '245'
   season: null
@@ -40,20 +51,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-245'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-245'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-09-24.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-245'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-09-24.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-09-24.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +73,19 @@ podcast:
   - type: audio/mpeg
     length: 28135060
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #245'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-09-24.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-09-24.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-09-24.mp3
   size: 28135060

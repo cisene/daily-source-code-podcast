@@ -1,7 +1,7 @@
 episode: '360'
 title: Daily Source Code for Friday March 24th 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/24.html#a7283
-pubDate: Fri Mar 24 15:24:00 2006 +0000
+pubDate: Fri, 24 Mar 2006 15:24:00 +0000
 category: podcast
 description: |-
   - Adam's Ringtone MM
@@ -22,7 +22,8 @@ description: |-
   - 101u4bw_feedback_badass
   - hatethefeedback
   * Arnoud Frogcaster
-  -Justin Witakur\nDuration: 00:47:01
+  -Justin Witakur
+  Duration: 00:47:01
 author: Adam Curry
 language: en-us
 comments: null
@@ -30,7 +31,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/24.html#a7283
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-24.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-24.mp3
   length: 33839177
   type: audio/mpeg
 itunes:
@@ -56,14 +57,15 @@ itunes:
     - 101u4bw_feedback_badass
     - hatethefeedback
     * Arnoud Frogcaster
-    -Justin Witakur\nDuration: 00:47:01
+    -Justin Witakur
+    Duration: 00:47:01
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2821
   season: null
   episode: '360'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-360'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '360'
   season: null
@@ -78,20 +80,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-360'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-360'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-03-24.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-360'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-03-24.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-03-24.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -99,10 +102,19 @@ podcast:
   - type: audio/mpeg
     length: 33839177
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #360'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-24.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-24.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-03-24.mp3
   size: 33839177

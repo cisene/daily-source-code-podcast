@@ -1,7 +1,7 @@
 episode: '399'
 title: Daily Source Code for Monday June 05th 2006
 link: http://curry.podshow.com/?p=170
-pubDate: Mon Jun  5 13:10:25 2006 +0000
+pubDate: Mon, 05 Jun 2006 13:10:25 +0000
 category: podcast
 description: |-
   03_Cowbell_Song.mp3- Years of Static
@@ -22,7 +22,8 @@ description: |-
   csb-2006-06-05.mp3
   Richard Vobes 500
   blacklabsales.mp3
-  ecstasy.mp3\nDuration: 00:46:31
+  ecstasy.mp3
+  Duration: 00:46:31
 author: Adam Curry
 language: en-us
 comments: null
@@ -30,7 +31,7 @@ guid:
   isPermaLink: false
   link: http://curry.podshow.com/?p=170
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-05.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-05.mp3
   length: 33484386
   type: audio/mpeg
 itunes:
@@ -56,14 +57,15 @@ itunes:
     csb-2006-06-05.mp3
     Richard Vobes 500
     blacklabsales.mp3
-    ecstasy.mp3\nDuration: 00:46:31
+    ecstasy.mp3
+    Duration: 00:46:31
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2791
   season: null
   episode: '399'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-399'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '399'
   season: null
@@ -78,20 +80,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-399'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-399'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-06-05.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-399'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-06-05.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-06-05.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -99,10 +102,19 @@ podcast:
   - type: audio/mpeg
     length: 33484386
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #399'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-05.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-05.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-06-05.mp3
   size: 33484386

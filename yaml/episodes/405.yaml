@@ -1,7 +1,7 @@
 episode: '405'
 title: Daily Source Code for Friday June 16th 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/06/16.html#a8
-pubDate: Fri Jun 16 15:33:46 2006 +0000
+pubDate: Fri, 16 Jun 2006 15:33:46 +0000
 category: podcast
 description: |-
   #404 Daily Source Code for Friday June 16th 2006
@@ -27,7 +27,8 @@ description: |-
   <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=835ee2b1bcbf1019a53f48ebbae41d21">dontbreakit</a>.mp3
 
   User <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a>
-  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 00:37:37
+  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes
+  Duration: 00:37:37
 author: Adam Curry
 language: en-us
 comments: null
@@ -35,7 +36,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/06/16.html#a8
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-16.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-16.mp3
   length: 27086057
   type: audio/mpeg
 itunes:
@@ -49,31 +50,32 @@ itunes:
 
     PodFather_StarCAST_ID.mp3
     audiotag_adamcurryDSC.mp3
-    Esperanza_-_<a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=96c4852aee852759eb9d8b81a9bea16a">Sophia_Ramos</a>_1.mp3
+    Esperanza_-_Sophia_Ramos_1.mp3
     Ray on the Charlie 02 The Soccer Edition.mp3
     VM Numbers: (201) 625-6357 or 44-20-7681-3753.1.1
     Podcast Alley on Nokia phones
     londonBoobHeaven.mp3
     ftc-promo.mp3
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=3e3b7fe1019fed7936c0589160f8111f">Caitlyn Smith</a>
+    Caitlyn Smith
     IOYH/FNDP
     WhatIsCommercial.mp3
     PSTQ this weekend
     scrapeIntro.mp3
     Scrape.mp3
     snakebite2.mp3
-    <a href="http://adchallenge.podshow.com">elinkBlues</a>.mp3
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=835ee2b1bcbf1019a53f48ebbae41d21">dontbreakit</a>.mp3
+    elinkBlues.mp3
+    dontbreakit.mp3
 
-    User <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a>
-    <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 00:37:37
+    User Shownotes
+    Subscribe in iTunes
+    Duration: 00:37:37
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2257
   season: null
   episode: '405'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-405'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '405'
   season: null
@@ -88,20 +90,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-405'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-405'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-06-16.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-405'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-06-16.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-06-16.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -109,10 +112,19 @@ podcast:
   - type: audio/mpeg
     length: 27086057
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #405'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-16.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-16.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-06-16.mp3
   size: 27086057

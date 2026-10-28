@@ -1,9 +1,11 @@
 episode: '154'
 title: Daily Source Code for Sunday April 03rd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/04.html#a7046
-pubDate: Mon Apr  4 03:36:39 2005 +0000
+pubDate: Mon, 04 Apr 2005 03:36:39 +0000
 category: podcast
-description: 'A new week, starting at the Condo, from the balcony on my (eek!) Windows tablet. A surprising guest appearance on the hittest makes for a perfect sunday late-nite show.\nDuration: 00:47:02'
+description: |-
+  A new week, starting at the Condo, from the balcony on my (eek!) Windows tablet. A surprising guest appearance on the hittest makes for a perfect sunday late-nite show.
+  Duration: 00:47:02
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,23 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/04.html#a7046
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-03.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-03.mp3
   length: 39521708
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Sunday April 03rd 2005
   subtitle: From the balcony of Curry Condo in South Beach. First 'cast on windows!
-  summary: 'A new week, starting at the Condo, from the balcony on my (eek!) Windows tablet. A surprising guest appearance on the hittest makes for a perfect sunday late-nite show.\nDuration: 00:47:02'
+  summary: |-
+    A new week, starting at the Condo, from the balcony on my (eek!) Windows tablet. A surprising guest appearance on the hittest makes for a perfect sunday late-nite show.
+    Duration: 00:47:02
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2822
   season: null
   episode: '154'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-154'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '154'
   season: null
@@ -40,20 +44,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-154'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-154'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-04-03.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-154'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-04-03.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-04-03.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +66,19 @@ podcast:
   - type: audio/mpeg
     length: 39521708
     bitrate: 112000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #154'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-03.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-03.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-04-03.mp3
   size: 39521708

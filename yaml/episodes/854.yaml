@@ -1,9 +1,11 @@
 episode: '854'
 title: Daily Source Code for Saturday December 04th 2010
 link: http://www.mevio.com/episode/259791/fubar-friday
-pubDate: Sat Dec  4 19:28:46 2010 +0000
+pubDate: Sat, 04 Dec 2010 19:28:46 +0000
 category: podcast
-description: '#854 Adam Curry''s Daily Source Code for Friday December 3d 2010The FUBAR Friday Extravaganza- DSC App-\nDuration: 03:40:04'
+description: |-
+  #854 Adam Curry's Daily Source Code for Friday December 3d 2010The FUBAR Friday Extravaganza- DSC App-
+  Duration: 03:40:04
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,25 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/259791/fubar-friday
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-12-04.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-12-04.mp3
   length: 158690764
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday December 04th 2010
   subtitle: FUBAR Friday
-  summary: <p>#854 Adam Curry's Daily Source Code for Friday December 3d 2010<br>The FUBAR Friday Extravaganza</p><p><img src="http://curryscloud.com/dsc854art" alt="dsc854art" /></p><p><a href="http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8">- DSC App-</a><br></p>
+  summary: |-
+    #854 Adam Curry's Daily Source Code for Friday December 3d 2010
+    The FUBAR Friday Extravaganza
+
+    - DSC App-
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 13204
   season: null
   episode: '854'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-854'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '854'
   season: null
@@ -40,20 +46,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-854'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-854'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-12-04.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-854'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-12-04.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-12-04.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +68,19 @@ podcast:
   - type: audio/mpeg
     length: 158690764
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #854'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-12-04.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-12-04.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-12-04.mp3
   size: 158690764

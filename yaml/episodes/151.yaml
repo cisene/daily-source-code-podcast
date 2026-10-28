@@ -1,9 +1,26 @@
 episode: '151'
 title: Daily Source Code for Friday March 25th 2005
 link: http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-03-25.mp3
-pubDate: Fri Mar 25 17:05:25 2005 +0000
+pubDate: Fri, 25 Mar 2005 17:05:25 +0000
 category: podcast
-description: "Show details\n\tPodcast on March 21st 2005\n\tFrom Curry Cottage, Guildford UK\n\t<a href=\"http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-03-21.mp3\">Direct download link</a>\n\t<a href=\"http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml\">Podcast feed</a>\n\t<a href=\"http://www.curry.com/\">Weblog</a>\n\t<a href=\"mailto:adam@curry.com\">Email</a>\n\t<a href=\"mailto:mp3feedback@gmail.com\">MP3 Submissions and feedback</a>\nyour dj has just begun\nNo Stinkin' Transmitters\nAdam's Podcasting Sweeper\nRockmaninov Opener\n\nBilly Ocean\nAC2theFuture\nFather Roderick Vonh\x96gen\\nDuration: 00:40:31"
+description: |-
+  Show details
+   Podcast on March 21st 2005
+   From Curry Cottage, Guildford UK
+   <a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-03-21.mp3">Direct download link</a>
+   <a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">Podcast feed</a>
+   <a href="http://www.curry.com/">Weblog</a>
+   <a href="mailto:adam@curry.com">Email</a>
+   <a href="mailto:mp3feedback@gmail.com">MP3 Submissions and feedback</a>
+  your dj has just begun
+  No Stinkin' Transmitters
+  Adam's Podcasting Sweeper
+  Rockmaninov Opener
+
+  Billy Ocean
+  AC2theFuture
+  Father Roderick Vonh gen
+  Duration: 00:40:31
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +28,38 @@ guid:
   isPermaLink: false
   link: http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-03-25.mp3
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-03-25.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-03-25.mp3
   length: 19464359
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday March 25th 2005
   subtitle: More aviation podcasting, new theme songs, a clapping ashup and more
-  summary: "Show details\n\tPodcast on March 21st 2005\n\tFrom Curry Cottage, Guildford UK\n\t<a href=\"http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-03-21.mp3\">Direct download link</a>\n\t<a href=\"http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml\">Podcast feed</a>\n\t<a href=\"http://www.curry.com/\">Weblog</a>\n\t<a href=\"mailto:adam@curry.com\">Email</a>\n\t<a href=\"mailto:mp3feedback@gmail.com\">MP3 Submissions and feedback</a>\nyour dj has just begun\nNo Stinkin' Transmitters\nAdam's Podcasting Sweeper\nRockmaninov Opener\n\nBilly Ocean\nAC2theFuture\nFather Roderick Vonh\x96gen\\nDuration: 00:40:31"
+  summary: |-
+    Show details
+    Podcast on March 21st 2005
+    From Curry Cottage, Guildford UK
+    Direct download link
+    Podcast feed
+    Weblog
+    Email
+    MP3 Submissions and feedback
+    your dj has just begun
+    No Stinkin' Transmitters
+    Adam's Podcasting Sweeper
+    Rockmaninov Opener
+
+    Billy Ocean
+    AC2theFuture
+    Father Roderick Vonh gen
+    Duration: 00:40:31
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2431
   season: null
   episode: '151'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-151'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '151'
   season: null
@@ -40,20 +74,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-151'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-151'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-03-25.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-151'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-03-25.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-03-25.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +96,19 @@ podcast:
   - type: audio/mpeg
     length: 19464359
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #151'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-03-25.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-03-25.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-03-25.mp3
   size: 19464359

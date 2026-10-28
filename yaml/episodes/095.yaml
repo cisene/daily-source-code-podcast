@@ -1,12 +1,13 @@
 episode: '095'
 title: Daily Source Code for Thursday December 30 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/30.html#a6987
-pubDate: Thu Dec 30 16:18:43 2004 +0000
+pubDate: Thu, 30 Dec 2004 16:18:43 +0000
 category: podcast
 description: |-
   OPML: http://static2.podcatch.com/blogs/gems/gurry/DSC20041230.opml
 
-  HTML: http://api.activerenderer.com/activeRenderer/render/?src=http://static2.podcatch.com/blogs/gems/gurry/DSC20041230.opml\nDuration: 00:46:11
+  HTML: http://api.activerenderer.com/activeRenderer/render/?src=http://static2.podcatch.com/blogs/gems/gurry/DSC20041230.opml
+  Duration: 00:46:11
 author: Adam Curry
 language: en-us
 comments: null
@@ -14,7 +15,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/30.html#a6987
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-30.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-30.mp3
   length: 22176777
   type: audio/mpeg
 itunes:
@@ -24,14 +25,214 @@ itunes:
   summary: |-
     OPML: http://static2.podcatch.com/blogs/gems/gurry/DSC20041230.opml
 
-    HTML: http://api.activerenderer.com/activeRenderer/render/?src=http://static2.podcatch.com/blogs/gems/gurry/DSC20041230.opml\nDuration: 00:46:11
+    HTML: http://api.activerenderer.com/activeRenderer/render/?src=http://static2.podcatch.com/blogs/gems/gurry/DSC20041230.opml
+    Duration: 00:46:11
+
+    #title "DSC-2004-12-30"
+    Show details
+    - Podcast on December 30th 2004
+    - From Curry Cottage, Guildford UK
+    - Direct download link
+    - Torrent link
+    - Podcast feed
+    - Weblog
+    - Email
+    Radio scan sweeper
+    Adam's Podcasting Sweeper
+    Rockmaninov Opener
+    Welcome BBC readers
+    Boston Phoenix article
+    Drum Battle
+    - email
+      - From: Joel Hawksley
+      - Subject: music for your podcast
+      - Date: December 29, 2004 9:15:01 PM GMT+00:00
+      - To: Adam Curry
+      - Adam,
+      - here's a "famous" drum cadence from the movie /Drumline/ (by fox, a must
+      - see movie btw)
+      - liscence: probably mpaa, but who cares
+      - title: The Classic Drum Battle
+      - -joel
+    - Drumline
+      - Drumline
+        - The Classic Drum Battle
+    Howard Stern on Letterman
+    More sample rate stuff
+    - FLEB comment
+      - New comment posted on CURRY.COM.
+      - Commenter's?name:?
+      - FLEB
+      - Email?address:?
+      - arcticdoom@pixelsaredead.com
+      - Web?site:?
+      - http://www.voterudy.org
+      - IP?address:?
+      - 63.90.115.89
+      - Domain?name:?
+      - 63.90.115.89
+      - Commenting?on:?
+      - Daily Source Code for December 29th 2004
+      - Regarding the MP3 warble problem: I don't know how much of this you know or don't know (I'm sure a lot of it's old news to you, but someone else here might be able to use this info), so I'll just run down everything I know. I'm not a pro, but this is what I know from what I picked up. -- You're getting all the warble because you changed the SAMPLE rate of the audio, but not the BITrate of the compression. That means you have more raw, uncompressed audio going in, hence it needs to be compressed more aggressively. The SAMPLE rate measures the rate of the individual voltage readings that make up a waveform. For example, CD quality audio is 44100Hz, or 44100 samples per second. The practical sound application of sample rate is that the highest frequency you can represent digitally is the sample rate divided by 2. (This highest frequency would be a simple square wave: one sample for the high point, one sample for the low point.) Although the human ear cuts off at around 11-12kHz, some people can tell a difference in tone and quality between a 22050 (highest freq: 11025Hz) and a 44100 (highest freq: 22050Hz) sound file. The practical data application of sample rate is that, basically, samples are data. A uncompressed file with a higher sample rate has more data than one with a lower sample rate. This comes into play in your situation when you try to compress them down. The BITRATE is a bit different. Fundamentally, the bit rate has nothing to do with the "sound" that's being produced. It's simply a measure of "How much data does one second of sound take up?". Compression attempts to shrink the size (number of bits) per second of audio, making the uncompressed audio, (at about 705.6kbps for CD-quality audio) into a file at 64kbps or 128kbps MP3s that you're used to. When you tell the MP3 compressor you want a 64kbps file, you're telling it, "Compress this raw audio, whatever it is, enough that one second will take up 64000 bits." Basically, you're setting the size of the "box", and the MP3 compressor stuffs your audio down small enough to fit. When you had the downsampling to 21000Hz sample rate, there were fewer samples per second, and therefore less raw audio data that the compressor had to fit in that 64kb "box". When you turned that off, however, it was trying to cram almost twice as much raw data (the 44100Hz-rate original file) into the same-size 64kbps "box". The only way to achieve that was to apply more squeeze to it. Since MP3 is lossy compression, more compression means more loss, and you get the signature MP3 warble. My advice would be to set the the process up to make 22050Hz files, which is a more common sample rate, and should (hopefully) work on people's portables. You really don't need that sound quality up in the 11050-22050Hz frequencies for something as talk-based as what you're doing. Alternatively, you could look into making VBR (Variable BitRate) MP3 files, which analyze each frame of audio and pick the best bitrate for good-sounding compression.
+    EPS
+    - From: Michael Lopez
+    - Subject: Don't we need an emergency podcast system?
+    - Date: December 28, 2004 8:55:58 PM GMT+00:00
+    - To: Adam Curry
+    - Reply-To: Michael Lopez
+    - We need one - maybe it would even get checked every 5 or 10 minutes
+    - instead of twice or thrice daily. It could warn you of upcomming
+    - catastrophies like the tsunami and save lives. You could mitigate
+    - traffic overload by only subscribing to places you or your loved ones
+    - were at.
+    - Would have to allow anyone to update from anywhere. Maybe allow you
+    - to upload stuff if you're in trouble - or safe.
+    D.J. Flippybum
+    - OpenPodcast.org
+      - Sound of the Day - December 27 2004 - OpenPodcast.org #396
+    KASS promo
+    Super Podder Streamer
+    Hank Handy
+    - Beatles Mash-up Medley
+    Firefox Scrolling
+    - From: Jason Anderson
+    - Subject: firefox page up/down keys
+    - Date: December 29, 2004 3:34:15 AM GMT+00:00
+    - To: Adam Curry
+    - Hi Adam,
+    - Love the show...
+    - To scroll to the top or bottom of a page on your powerbook you can use the FN+left or right keys in firefox.
+    - Cheers,
+    - Jason
+    BoingToy
+    - boingToy
+    - email
+      - From: allan
+      - Subject: DSC for 12/28/04 and Hello
+      - Date: December 29, 2004 4:16:52 AM GMT+00:00
+      - To: Adam Curry
+      - Adam,
+      - Just finished listening to the 12/28/04 podcast and wanted to let you know how good it is to know that your mom is cancer free.
+      - Attached is a mp3 that i recorded from a toy that I got from a co-workers desk. When I heard it, I thought it would be great for your show.
+      - Thanks for the great work you put in for the DSC. I look forward to listening to it on my drive into work each morning.
+      - Thank,
+      - Allan Metzler
+      - The Linux Link Tech Show
+      - www.thelinuxlink.net
+    amarillo
+    More distatsers
+    - hellsbellboy email
+      - Hey Adam..? I was listening to your Podcast today (Dec 29th) another great one.. Just wanted to tell you.. least in that area of the world. they get hit by a lot of Natural disasters..
+        - ?
+      - ?
+      - http://tesla.liketelevision.com/liketelevision/tuner.php?channel=318&format=tv&theme=history
+      - ?
+      - ?November 13, 1970 - a Massive Typhoon his Bangladesh. A colossal 20-foot tidal wave strikes the shores of the Ganges Delta on November 13, 1970, wreaking lethal damage on the people of East Pakistan. A 120-mile per hour cyclone spurred the tidal wave that washed over 100 islands near the coast. The island of Bolla took the brunt of the storm with an estimated 100,000 dead. An estimated total of 150,000 dead makes this the century's largest disaster by water. The Ganges Delta had suffered many furious storms, but this is the worst natural disaster in the history of the region. Damage would however been even greater had not an extensive system of dikes been established in the years before, to reduce the flooding that has long plagued the shores of East Pakistan.
+      - ?
+      - ?
+      - So this kind of thing isn't unheard of.. It's happened more then a few times..? I guess if anything it's new to us "Westerners". If you think about it.. between India and China there are a few Billion people, and I image a large portion of them leave close to the coast.
+      - ?
+      - Here is another list of hurricans that have happened around the world.
+      - ?
+      - http://encarta.msn.com/encnet/refpages/RefMedia.aspx?refid=701500587&artrefid=761565992&sec=-1&pn=1
+      - ?
+      - ?April 30, 1991?? cyclone?? Bangladesh?? 138,866 deaths.
+      - ?A few months later another one
+      - ?June 10, 1991?? cyclone?? Bangladesh?? 125,720 deaths,
+        - ?
+      - That's a quarter of a million people dead in a 2 month period.
+      - ?
+      - I have to wonder if the only reason this is such big news is because so many Westerners where there and hundreds of them are missing.
+        - ?
+      - ?
+      - ?
+      - I lived in the UK from 1990 till 1994, I believe the English are a bit different on many levels from us Americans. I remember when I use to get on a bus in Cambridge, no one talks to anyone.. no one acknowledges anyone else on the bus. But I did notice, if people spot you for a American they are rather nice, and will start up a conversation.
+        - ?
+      - Take care, best of luck to you.
+    CIDI pleas
+    - email
+      - From: Michael Bazzoni
+      - Subject: Center for International Disaster Information
+      - Date: December 29, 2004 6:01:55 PM GMT+00:00
+      - To: Adam Curry
+      - Reply-To: Michael Bazzoni
+      - Here is a link to a good audio file that asks for donations from the
+      - Center for International Disaster Information. This backs what you
+      - said in today's podcast, but I thought you would at least want to
+      - listen to it and might add it to a future source code.
+      - Here is a direct link to the MP3 file: http://zpr.newc.com/Tsunami.mp3
+      - Here is a link to the Center for International Disaster Information:
+      - http://www.cidi.org/incident/tsunami/
+      - I think that the podcast community will show support for this. As you
+      - have basically said, this can be a great medium to try and solve all
+      - kinds of problems on so many different subjects or at least discuss
+      - them in a very open and honest way. Of course it is all thanks to you
+      - and your efforts.
+      - I think we all need to keep some positive thoughts for all the people
+      - affected by the Tsunami and the people working on the relief effort
+      - while we are celebrating the New Year.
+      - --
+      - Michael Bazzoni
+    - Tsunami
+    A godcaster responds
+    - Steve Web
+      - From: Steve Webb
+      - Subject: A GodCaster responds...
+      - Date: December 30, 2004 4:06:54 AM GMT+00:00
+      - To: Adam Curry
+      - Adam,
+      - I just heard your DSC from the 29th. You asked where the GodCasters were on
+      - the devastation from the earthquakes and tsunamis.
+      - I spoke on that in my last podcast. You may want to give a listen. It's near
+      - the start of the show.
+      - Let me know your reaction to my comments. I'd love to discuss this with you
+      - further.
+      - If you have the time, you may want to listen to the entire podcast. I
+      - respond to a listener in Sweden who has some questions. Maybe you'll find
+      - that interesting, too.
+      - Hurting and praying for the families and victims,
+      - ~Steve Webb
+      - **************
+      - From Steve to all our friends:
+      - Check out the newest phenomenon on the web: Podcasting! Kind of like Tivo,
+      - you can have audio downloaded automatically to your computer, then (also
+      - automatically) to your portable mp3 player. This link will tell you more:
+      - http://en.wikipedia.org/wiki/Podcast
+      - Learn about *our* podcast, called "Lifespring!"at:
+      - http://www.caltem1.org/podcast.htm
+      - Subscribe (free!) to our podcast feed at:
+      - http://www.caltem1.org/Podcasts/rss.xml
+      - If you have any questions about podcasting, just ask me!
+      - --
+      - No virus found in this outgoing message.
+      - Checked by AVG Anti-Virus.
+      - Version: 7.0.296 / Virus Database: 265.6.6 - Release Date: 12/28/2004
+    Rick W. ICM intro
+    Bari Koral
+    - Bari Koral
+      - Confessions Of An Indiegirl
+        - Midnight Train To Georgia
+    Goodnight Inkernet
+    - email from Dave
+      - From: Dave Calderbank
+      - Subject: Inkernet
+      - Date: December 23, 2004 6:47:40 PM GMT+00:00
+      - To: Adam Curry
+      - Hi Adam,
+      - I was screwing around with Peak and came up with this... Damn Dawn Miceli and her inkernet! :)
+      - Dave.
+      - --
+      - -----------------------------------------------------------------------
+      - We are not responsible for any crashes, data loss or non-specific bodily discomfort including but not limited to spontaneous decapitation that you might conceivably suffer by receiving this email.
+    - Inkernet Commercial
+    Rockmaninov Closer
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2771
   season: null
   episode: '095'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-095'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '095'
   season: null
@@ -46,20 +247,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-095'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-095'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-12-30.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-095'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-12-30.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-12-30.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -67,10 +269,19 @@ podcast:
   - type: audio/mpeg
     length: 22176777
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #95'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-30.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-30.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-12-30.mp3
   size: 22176777

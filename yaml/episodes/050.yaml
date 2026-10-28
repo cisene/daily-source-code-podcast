@@ -1,9 +1,11 @@
 episode: '050'
 title: Daily Source Code for Thursday October 21st 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/21.html#a6789
-pubDate: Thu Oct 21 21:41:57 2004 +0000
+pubDate: Thu, 21 Oct 2004 21:41:57 +0000
 category: podcast
-description: 'Today''s show features several new podcast formats, some awesome poetry and music by MoJones and the Beastie Boys\nDuration: 00:40:37'
+description: |-
+  Today's show features several new podcast formats, some awesome poetry and music by MoJones and the Beastie Boys
+  Duration: 00:40:37
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,7 +13,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/21.html#a6789
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-21.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-21.mp3
   length: 19498399
   type: audio/mpeg
 itunes:
@@ -25,7 +27,7 @@ itunes:
   season: null
   episode: '050'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-050'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '050'
   season: null
@@ -40,20 +42,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-050'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-050'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-10-21.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-050'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-10-21.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-10-21.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +64,19 @@ podcast:
   - type: audio/mpeg
     length: 19498399
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #50'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-21.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-21.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-10-21.mp3
   size: 19498399

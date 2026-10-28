@@ -1,9 +1,11 @@
 episode: '158'
 title: Daily Source Code for Saturday April 09th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/10.html#a7050
-pubDate: Sun Apr 10 10:21:10 2005 +0000
+pubDate: Sun, 10 Apr 2005 10:21:10 +0000
 category: podcast
-description: 'It''s been a couple months since Ken and I connected on Skype to rehash<br>some of the finer moments from our past at MTV. In this 50 minute<br>gabfest we relive the joy of some of the memos sent from the ''office''<br>to the studios, regarding Hammer and the King of Pop. mp3\nDuration: 00:54:07'
+description: |-
+  It's been a couple months since Ken and I connected on Skype to rehash<br>some of the finer moments from our past at MTV. In this 50 minute<br>gabfest we relive the joy of some of the memos sent from the 'office'<br>to the studios, regarding Hammer and the King of Pop. mp3
+  Duration: 00:54:07
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,25 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/10.html#a7050
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-09.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-09.mp3
   length: 25987876
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday April 09th 2005
   subtitle: MTV Chronicles Part III
-  summary: It's been a couple months since Ken and I connected on Skype to rehash<br>some of the finer moments from our past at MTV. In this 50 minute<br>gabfest we relive the joy of some of the memos sent from the 'office'<br>to the studios, regarding Hammer and the King of Pop.<br><br><br><br><br><br><a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-04-09.mp3">mp3</a>
+  summary: |-
+    It's been a couple months since Ken and I connected on Skype to rehash
+    some of the finer moments from our past at MTV. In this 50 minute
+    gabfest we relive the joy of some of the memos sent from the 'office'
+    to the studios, regarding Hammer and the King of Pop.
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3247
   season: null
   episode: '158'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-158'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '158'
   season: null
@@ -40,20 +46,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-158'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-158'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-04-09.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-158'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-04-09.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-04-09.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +68,19 @@ podcast:
   - type: audio/mpeg
     length: 25987876
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #158'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-09.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-09.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-04-09.mp3
   size: 25987876

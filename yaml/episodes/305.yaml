@@ -1,9 +1,11 @@
 episode: '305'
 title: Daily Source Code for Tuesday December 27th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/12/27.html#a7217
-pubDate: Tue Dec 27 16:17:51 2005 +0000
+pubDate: Tue, 27 Dec 2005 16:17:51 +0000
 category: podcast
-description: '#305 Daily Source Code for Tuesday December 27th 2005 From Curry Cottage, Guildford, United Kingdom - sound_scientist<br>- xmas<br>- Wx metars and tafs<br>* Keep ''em laughing!<br>* TIA<br>* Cadence with Cowbell from Paul Nichols<br>- Matthew Ebel Mash<br>- Flying<br>* CSB''s 2006 predictions<br>- Earthlink<br>- YCPromo<br>* Razors<br>- DSC304Comment<br>* Mashup<br>* Blue Vagrants from PMN<br>- Suzie Quatro on RnR Geek Show<br>Direct Link to the showSubscribe to the feedSubscribe with iTunesTime Code Based Shownotes\nDuration: 00:45:58'
+description: |-
+  #305 Daily Source Code for Tuesday December 27th 2005 From Curry Cottage, Guildford, United Kingdom - sound_scientist<br>- xmas<br>- Wx metars and tafs<br>* Keep 'em laughing!<br>* TIA<br>* Cadence with Cowbell from Paul Nichols<br>- Matthew Ebel Mash<br>- Flying<br>* CSB's 2006 predictions<br>- Earthlink<br>- YCPromo<br>* Razors<br>- DSC304Comment<br>* Mashup<br>* Blue Vagrants from PMN<br>- Suzie Quatro on RnR Geek Show<br>Direct Link to the showSubscribe to the feedSubscribe with iTunesTime Code Based Shownotes
+  Duration: 00:45:58
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,57 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/12/27.html#a7217
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-27.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-27.mp3
   length: 33095615
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday December 27th 2005
   subtitle: null
-  summary: <br>#305 Daily Source Code for Tuesday December 27th 2005<br><p><br></p><br>From Curry Cottage, Guildford, United Kingdom<br><br><br><br>- sound_scientist<br><br>- xmas<br><br>- Wx metars and tafs<br><br>* Keep 'em laughing!<br><br>* TIA<br><br>* Cadence with Cowbell from Paul Nichols<br><br>- Matthew Ebel Mash<br><br>- Flying<br><br>* CSB's 2006 predictions<br><br>- Earthlink<br><br>- YCPromo<br><br>* Razors<br><br>- DSC304Comment<br><br>* Mashup<br><br>* Blue Vagrants from PMN<br><br>- Suzie Quatro on RnR Geek Show<br><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-305-2005-12-27.mp3">Link</a>to the show<br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br>Time Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #305 Daily Source Code for Tuesday December 27th 2005
+
+    From Curry Cottage, Guildford, United Kingdom
+
+    - sound_scientist
+    - xmas
+    - Wx metars and tafs
+
+    * Keep 'em laughing!
+
+    * TIA
+
+    * Cadence with Cowbell from Paul Nichols
+
+    - Matthew Ebel Mash
+    - Flying
+
+    * CSB's 2006 predictions
+
+    - Earthlink
+    - YCPromo
+
+    * Razors
+
+    - DSC304Comment
+
+    * Mashup
+
+    * Blue Vagrants from PMN
+
+    - Suzie Quatro on RnR Geek Show
+
+    Directto the show
+    Subscribe to the
+    Subscribe withiTunes
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2758
   season: null
   episode: '305'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-305'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '305'
   season: null
@@ -40,20 +78,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-305'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-305'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-12-27.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-305'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-12-27.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-12-27.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +100,19 @@ podcast:
   - type: audio/mpeg
     length: 33095615
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #305'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-27.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-27.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-12-27.mp3
   size: 33095615

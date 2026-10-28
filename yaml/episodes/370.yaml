@@ -1,9 +1,11 @@
 episode: '370'
 title: Daily Source Code for Wednesday April 19th 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/19.html#a7300
-pubDate: Wed Apr 19 17:16:58 2006 +0000
+pubDate: Wed, 19 Apr 2006 17:16:58 +0000
 category: podcast
-description: '#370 Daily Source Code for Wednesday April 19th 2006<br>From The N277DS, in and around Guildford, UK<br>A<br>very different type of soundseeing tour of the Guildford area on a<br>short local flight (edited for your listening pleasure). We also find<br>out how very important those pre-take-off checks are!<br>Music by Matthew Ebel<br>Direct Link to the show<br>User Shownotes<br>Subscribe in iTunes\nDuration: 00:46:03'
+description: |-
+  #370 Daily Source Code for Wednesday April 19th 2006<br>From The N277DS, in and around Guildford, UK<br>A<br>very different type of soundseeing tour of the Guildford area on a<br>short local flight (edited for your listening pleasure). We also find<br>out how very important those pre-take-off checks are!<br>Music by Matthew Ebel<br>Direct Link to the show<br>User Shownotes<br>Subscribe in iTunes
+  Duration: 00:46:03
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,37 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/19.html#a7300
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-19.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-19.mp3
   length: 44216494
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday April 19th 2006
   subtitle: null
-  summary: <br><div class="storycontent"><br><p>#370 Daily Source Code for Wednesday April 19th 2006</p><br><p>From The N277DS, in and around Guildford, UK</p><br><p>A<br>very different type of soundseeing tour of the Guildford area on a<br>short local flight (edited for your listening pleasure). We also find<br>out how very important those pre-take-off checks are!</p><br><p>Music by<a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=280202729dad1ad3a780a4d20afbe39b">Matthew Ebel</a></p><br><p>Direct<a href="http://m.podshow.com/media/21/episodes/4078/deltasierracharl-4078-04-19-2006.mp3">Link</a>to the show<br><br>User<a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br><br><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&amp;s=143441&amp;i=2663806">Subscribe</a>in iTunes</p>
+  summary: |-
+    #370 Daily Source Code for Wednesday April 19th 2006
+
+    From The N277DS, in and around Guildford, UK
+
+    A
+    very different type of soundseeing tour of the Guildford area on a
+    short local flight (edited for your listening pleasure). We also find
+    out how very important those pre-take-off checks are!
+
+    Music byMatthew Ebel
+
+    Directto the show
+
+    UserShownotes
+
+    Subscribein iTunes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2763
   season: null
   episode: '370'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-370'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '370'
   season: null
@@ -40,20 +58,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-370'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-370'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-04-19.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-370'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-04-19.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-04-19.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +80,19 @@ podcast:
   - type: audio/mpeg
     length: 44216494
     bitrate: 128000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #370'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-19.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-19.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-04-19.mp3
   size: 44216494

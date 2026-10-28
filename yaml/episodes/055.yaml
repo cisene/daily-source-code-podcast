@@ -1,9 +1,11 @@
 episode: '055'
 title: Daily Source Code for Tuesday October 26th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/26.html#a6805
-pubDate: Tue Oct 26 14:12:06 2004 +0000
+pubDate: Tue, 26 Oct 2004 14:12:06 +0000
 category: podcast
-description: 'A special surprise on today''s source code, as Patricia opens up her history vaults about David Bowie. Because it was so cool, the show runs long. About an hour and the file size is 28mb. mp3\nDuration: 01:01:51'
+description: |-
+  A special surprise on today's source code, as Patricia opens up her history vaults about David Bowie. Because it was so cool, the show runs long. About an hour and the file size is 28mb. mp3
+  Duration: 01:01:51
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,24 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/26.html#a6805
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-26.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-26.mp3
   length: 29692257
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday October 26th 2004
   subtitle: Podtunes, Podcasts and a David Bowie Exclusive!
-  summary: A special surprise on today's source code, as Patricia opens up her history vaults about David Bowie.<br><br>Because it was so cool, the show runs long. About an hour and the file size is 28mb.<br><br><a href="http://homepage.mac.com/adamcurry/DSC/DSC-2004-10-26.mp3">mp3</a>
+  summary: |-
+    A special surprise on today's source code, as Patricia opens up her history vaults about David Bowie.
+
+    Because it was so cool, the show runs long. About an hour and the file size is 28mb.
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3711
   season: null
   episode: '055'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-055'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '055'
   season: null
@@ -40,20 +45,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-055'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-055'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-10-26.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-055'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-10-26.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-10-26.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +67,19 @@ podcast:
   - type: audio/mpeg
     length: 29692257
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #55'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-26.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-26.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-10-26.mp3
   size: 29692257

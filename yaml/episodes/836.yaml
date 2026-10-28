@@ -1,9 +1,11 @@
 episode: '836'
 title: Daily Source Code for Friday June 25th 2010
 link: http://www.mevio.com/episode/237480/dsc-836-2010-06-25
-pubDate: Fri Jun 25 16:30:54 2010 +0000
+pubDate: Fri, 25 Jun 2010 16:30:54 +0000
 category: podcast
-description: '#836 Adam Curry''s Daily Source Code For Friday June 25th 2010Fubar Friday Extended Version Discover Simple, Private Sharing at Drop.io Discover Simple, Private Sharing at Drop.io The All Request Fubar Friday Extended Version3 Hours Of Goodness Compressed Into A BUndle Of MP3 Joy For YouSupport This ShowDonate:No Agenda Founding Producer Donation Page\nDuration: 02:56:02'
+description: |-
+  #836 Adam Curry's Daily Source Code For Friday June 25th 2010Fubar Friday Extended Version Discover Simple, Private Sharing at Drop.io Discover Simple, Private Sharing at Drop.io The All Request Fubar Friday Extended Version3 Hours Of Goodness Compressed Into A BUndle Of MP3 Joy For YouSupport This ShowDonate:No Agenda Founding Producer Donation Page
+  Duration: 02:56:02
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,22 +13,33 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/237480/dsc-836-2010-06-25
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-06-25.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-06-25.mp3
   length: 127242927
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday June 25th 2010
   subtitle: Fubar Friday Extended Version
-  summary: <font class="Apple-style-span"><span class="Apple-style-span"><b>#836 Adam Curry's Daily Source Code For Friday June 25th 2010</b></span><div><font class="Apple-style-span"><span class="Apple-style-span"><b>Fubar Friday Extended Version</b></span></div><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="480" src="http://drop.io/download/public/zyqbkdo1ytneulzy26l5/0633c23542fba8ae54a7220e9abf72507ea7d7ea/Asset/36680926/v3/large_thumbnail" width="480" /></div><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="384" src="http://drop.io/download/public/zyqbkdo1ytneulzy26l5/6e48c10ea11fef39ae154084c037b94af2b40731/Asset/36680920/v3/large_thumbnail" width="480" /></div><div></div><ul><li>The All Request Fubar Friday Extended Version<ul><li>3 Hours Of Goodness Compressed Into A BUndle Of MP3 Joy For You</li></ul></li><li>Support This Show<ul><li>Donate:<ul><li><a
-    href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li></ul></li></ul><div></div>
+  summary: |-
+    #836 Adam Curry's Daily Source Code For Friday June 25th 2010
+    Fubar Friday Extended Version
+
+    Discover Simple, Private Sharing atDrop.io
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - The All Request Fubar Friday Extended Version
+    - 3 Hours Of Goodness Compressed Into A BUndle Of MP3 Joy For You
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 10562
   season: null
   episode: '836'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-836'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '836'
   season: null
@@ -41,20 +54,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-836'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-836'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-06-25.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-836'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-06-25.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-06-25.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +76,19 @@ podcast:
   - type: audio/mpeg
     length: 127242927
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #836'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-06-25.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-06-25.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-06-25.mp3
   size: 127242927

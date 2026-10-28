@@ -1,9 +1,11 @@
 episode: '281'
 title: Daily Source Code for Thursday November 17th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/17.html#a7192
-pubDate: Thu Nov 17 15:53:24 2005 +0000
+pubDate: Thu, 17 Nov 2005 15:53:24 +0000
 category: podcast
-description: '#281 Daily Source Code for Thursday November 17th 2005 From the Curry Condo, San Francisco Ca. Direct Link to the show Subscribe to the feed Subscribe with iTunes Time Code Based Shownotes\nDuration: 00:49:01'
+description: |-
+  #281 Daily Source Code for Thursday November 17th 2005 From the Curry Condo, San Francisco Ca. Direct Link to the show Subscribe to the feed Subscribe with iTunes Time Code Based Shownotes
+  Duration: 00:49:01
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,33 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/17.html#a7192
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-17.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-11-17.mp3
   length: 35299813
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday November 17th 2005
   subtitle: null
-  summary: <br>#281<br>Daily Source Code for Thursday November 17th 2005<br><p><br><br><p><br></p><p><br><br>From the Curry Condo, San Francisco Ca.<br><p><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-281-2005-11-17.mp3">Link</a>to the show<br><p><br><br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br><p><br><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br><p><br><br>Time Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #281
+    Daily Source Code for Thursday November 17th 2005
+
+    From the Curry Condo, San Francisco Ca.
+
+    Directto the show
+
+    Subscribe to the
+
+    Subscribe withiTunes
+
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2941
   season: null
   episode: '281'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-281'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '281'
   season: null
@@ -40,20 +54,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-281'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-281'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-11-17.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-281'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-11-17.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-11-17.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +76,19 @@ podcast:
   - type: audio/mpeg
     length: 35299813
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #281'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-17.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-11-17.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-11-17.mp3
   size: 35299813

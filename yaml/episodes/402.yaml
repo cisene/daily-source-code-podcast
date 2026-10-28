@@ -1,7 +1,7 @@
 episode: '402'
 title: Daily Source Code for Friday June 09th 2006
 link: http://curry.podshow.com/?p=177
-pubDate: Fri Jun  9 16:10:23 2006 +0000
+pubDate: Fri, 09 Jun 2006 16:10:23 +0000
 category: podcast
 description: |-
   #402 Daily Source Code for Friday June 9th 2006
@@ -14,7 +14,8 @@ description: |-
   -<a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=7f3199a797693b6d6ecaaf20fc8629f4">Kathy Valentine</a> - Retouch Me
 
   <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">User Shownotes</A>
-  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 00:33:38
+  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes
+  Duration: 00:33:38
 author: Adam Curry
 language: en-us
 comments: null
@@ -22,7 +23,7 @@ guid:
   isPermaLink: false
   link: http://curry.podshow.com/?p=177
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-09.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-09.mp3
   length: 24220467
   type: audio/mpeg
 itunes:
@@ -36,18 +37,19 @@ itunes:
 
     The Lady and The Tramp
 
-    -<a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=467184aa28845217a21a5b0e5763aa84">Laura Clapp</a> - Hey Hey Sister
-    -<a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=7f3199a797693b6d6ecaaf20fc8629f4">Kathy Valentine</a> - Retouch Me
+    -Laura Clapp - Hey Hey Sister
+    -Kathy Valentine - Retouch Me
 
-    <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">User Shownotes</A>
-    <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 00:33:38
+    User Shownotes
+    Subscribe in iTunes
+    Duration: 00:33:38
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2018
   season: null
   episode: '402'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-402'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '402'
   season: null
@@ -62,20 +64,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-402'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-402'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-06-09.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-402'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-06-09.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-06-09.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -83,10 +86,19 @@ podcast:
   - type: audio/mpeg
     length: 24220467
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #402'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-09.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-09.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-06-09.mp3
   size: 24220467

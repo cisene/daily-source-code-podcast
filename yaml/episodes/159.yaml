@@ -1,9 +1,11 @@
 episode: '159'
 title: Daily Source Code for Tuesday April 12nd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/12.html#a7051
-pubDate: Tue Apr 12 05:01:45 2005 +0000
+pubDate: Tue, 12 Apr 2005 05:01:45 +0000
 category: podcast
-description: 'From the Waldorf Astoria in NY mp3 Shownotes in html and opml\nDuration: 00:42:19'
+description: |-
+  From the Waldorf Astoria in NY mp3 Shownotes in html and opml
+  Duration: 00:42:19
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,24 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/12.html#a7051
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-12.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-12.mp3
   length: 20216608
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday April 12nd 2005
   subtitle: null
-  summary: From the Waldorf Astoria in NY<br><br><br><br><br><br><a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-04-12.mp3">mp3</a><br><br><br><br><br><br>Shownotes in<a href="http://www.curry.com/DSC/DSC-2005-04-12">html</a>and<a href="http://cloud2.urj.nl/static/gems/gurry/DSC20050412.opml">opml</a>
+  summary: |-
+    From the Waldorf Astoria in NY
+
+    Shownotes inand
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2539
   season: null
   episode: '159'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-159'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '159'
   season: null
@@ -40,20 +45,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-159'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-159'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-04-12.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-159'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-04-12.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-04-12.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +67,19 @@ podcast:
   - type: audio/mpeg
     length: 20216608
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #159'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-12.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-12.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-04-12.mp3
   size: 20216608

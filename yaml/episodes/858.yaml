@@ -1,9 +1,11 @@
 episode: '858'
 title: Daily Source Code for Monday January 17th 2011
 link: http://www.mevio.com/episode/264501/dsc-858-2011-01-17
-pubDate: Tue Jan 18 22:26:34 2011 +0000
+pubDate: Tue, 18 Jan 2011 22:26:34 +0000
 category: podcast
-description: '#858 Adam Curry''s Daily Source Code for Monday January 17th 2011 The Manic Monday Edition\nDuration: 02:55:28'
+description: |-
+  #858 Adam Curry's Daily Source Code for Monday January 17th 2011 The Manic Monday Edition
+  Duration: 02:55:28
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,23 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/264501/dsc-858-2011-01-17
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2011-01-17.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2011-01-17.mp3
   length: 126398088
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday January 17th 2011
   subtitle: The Manic Monday Impromptu Episode
-  summary: <p>#858 Adam Curry's Daily Source Code for Monday January 17th 2011<br>The Manic Monday Edition</p><p><img alt="[Image]" src="http://curryscloud.com/dsc858art" title="undefined" /></p>
+  summary: |-
+    #858 Adam Curry's Daily Source Code for Monday January 17th 2011
+    The Manic Monday Edition
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 10528
   season: null
   episode: '858'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-858'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '858'
   season: null
@@ -40,20 +44,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-858'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-858'
+  - url: https://thedailysourcecode.com/chapters/DSC-2011-01-17.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-858'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2011-01-17.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2011-01-17.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +66,19 @@ podcast:
   - type: audio/mpeg
     length: 126398088
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #858'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2011-01-17.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2011-01-17.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2011-01-17.mp3
   size: 126398088

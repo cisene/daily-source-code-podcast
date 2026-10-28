@@ -1,11 +1,12 @@
 episode: '104'
 title: Daily Source Code for Friday January 14th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/01/14.html#a6996
-pubDate: Fri Jan 14 13:27:36 2005 +0000
+pubDate: Fri, 14 Jan 2005 13:27:36 +0000
 category: podcast
 description: |-
   mp3feedback@gmail.com
-  www.curry.com/xml/rss.xml\nDuration: 00:35:02
+  www.curry.com/xml/rss.xml
+  Duration: 00:35:02
 author: Adam Curry
 language: en-us
 comments: null
@@ -13,7 +14,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/01/14.html#a6996
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-01-14.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-01-14.mp3
   length: 16824588
   type: audio/mpeg
 itunes:
@@ -22,14 +23,46 @@ itunes:
   subtitle: Sound-seeing from the cottage to starbucks in Guildford
   summary: |-
     mp3feedback@gmail.com
-    www.curry.com/xml/rss.xml\nDuration: 00:35:02
+    www.curry.com/xml/rss.xml
+    Duration: 00:35:02
+
+    Show details
+    - Podcast on January 14th 2005
+    - A sound seeing tour from the cottage to starbucks
+    - Direct download link
+    - Torrent link
+    - Podcast feed
+    - Weblog
+    - Email
+    No Stinkin' Transmitters - OpenPodcast.org #554
+    Adam's Podcasting Sweeper
+    Rockmaninov Opener
+    A Soundseeing tour from the cottage to starbucks, through the town of Guildford
+    KASS - Dave Kendall
+    Lots of responses to Andy Hertzfeld's comments
+    car sitting
+    - Great DSC today Adam.
+    - Hope you get your BB fixed ,
+    - Sitting outside in the car by yoursellf might make? your neighbours think? :
+    - A) You are a creepy stalker.
+    - B) you had a falling out with patricia and have been kicked out of the house.
+    - C) You are 'sucking the man' (breaking your non-smoking pact)
+    - D) You are a freaky Geek that is not allowed to use his laptop in the house.
+    - E) You are watching your region free porn collection
+    - F) You are on the phone with Madge
+    - E) All of the above (in different combinations)
+    - So Hope ya get it fixed :)
+    - Knightwise
+    - www.knightwise.com
+    Kaballah expos?
+    Inkernet Commercial
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2102
   season: null
   episode: '104'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-104'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '104'
   season: null
@@ -44,20 +77,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-104'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-104'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-01-14.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-104'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-01-14.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-01-14.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -65,10 +99,19 @@ podcast:
   - type: audio/mpeg
     length: 16824588
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #104'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-01-14.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-01-14.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-01-14.mp3
   size: 16824588

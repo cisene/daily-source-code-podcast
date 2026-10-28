@@ -1,9 +1,11 @@
 episode: '845'
 title: Daily Source Code for Saturday September 04th 2010
 link: http://www.mevio.com/episode/247348/dsc-845-2010-09-04
-pubDate: Sat Sep  4 21:57:19 2010 +0000
+pubDate: Sat, 04 Sep 2010 21:57:19 +0000
 category: podcast
-description: '#845 Adam Curry''s Daily Source Code for Saturday September 4th 2010 The It''s My Party and I''ll Play What The F@!k I want To Edition Discover Simple, Private Sharing at Drop.io Snafu SaturdayThe It''s My Party and I''ll Play What The F@!k I want To EditionSupport This ShowDonate: No Agenda Founding Producer Donation PagePropagateBig App Show: bit.ly—BigAppShow\nDuration: 03:17:52'
+description: |-
+  #845 Adam Curry's Daily Source Code for Saturday September 4th 2010 The It's My Party and I'll Play What The F@!k I want To Edition Discover Simple, Private Sharing at Drop.io Snafu SaturdayThe It's My Party and I'll Play What The F@!k I want To EditionSupport This ShowDonate: No Agenda Founding Producer Donation PagePropagateBig App Show: bit.ly—BigAppShow
+  Duration: 03:17:52
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,33 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/247348/dsc-845-2010-09-04
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-09-04.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-09-04.mp3
   length: 142605867
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday September 04th 2010
   subtitle: The It's My Party and I'll Play What The F@!k I want To Edition
-  summary: '<b>#845 Adam Curry''s Daily Source Code for Saturday September 4th 2010<br>The It''s My Party and I''ll Play What The F@!k I want To Edition</b><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="384" src="http://drop.io/download/public/4pqxcgtwkf0ppmsnp8qs/af2ce171d1c9183018976071d9e9c25c7c9a5fc8/Asset/44381074/v3/large_thumbnail" width="480" /></div><div><ul><li>Snafu Saturday<ul><li>The It''s My Party and I''ll Play What The F@!k I want To Edition</li></ul></li><li>Support This Show<ul><li>Donate: <ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li><li>Propagate<ul><li>Big App Show: <a href="http://bit.ly/Big">bit.ly—Big</a>AppShow</li></ul></li></ul></li></ul></div>'
+  summary: |-
+    #845 Adam Curry's Daily Source Code for Saturday September 4th 2010
+    The It's My Party and I'll Play What The F@!k I want To Edition
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - Snafu Saturday
+    - The It's My Party and I'll Play What The F@!k I want To Edition
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page
+    - Propagate
+    - Big App Show: bit.ly—BigAppShow
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 11872
   season: null
   episode: '845'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-845'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '845'
   season: null
@@ -40,20 +54,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-845'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-845'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-09-04.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-845'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-09-04.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-09-04.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +76,19 @@ podcast:
   - type: audio/mpeg
     length: 142605867
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #845'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-09-04.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-09-04.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-09-04.mp3
   size: 142605867

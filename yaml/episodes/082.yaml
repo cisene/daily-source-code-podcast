@@ -1,9 +1,11 @@
 episode: '082'
 title: Daily Source Code for Wednesday December 08th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/08.html#a6943
-pubDate: Wed Dec  8 16:11:21 2004 +0000
+pubDate: Wed, 08 Dec 2004 16:11:21 +0000
 category: podcast
-description: 'Went to London today, was inspired and you can hear it in the ''cast. Less reverb, more cowbell. mp3 Production notes in html, opml\nDuration: 00:39:13'
+description: |-
+  Went to London today, was inspired and you can hear it in the 'cast. Less reverb, more cowbell. mp3 Production notes in html, opml
+  Duration: 00:39:13
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/08.html#a6943
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-08.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-08.mp3
   length: 18832379
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday December 08th 2004
   subtitle: A day in London is quite inspiring
-  summary: Went to London today, was inspired and you can hear it in the 'cast. Less reverb, more cowbell.<br><br><a href="http://adam.opml.org/DSC20041208.mp3">mp3</a><br><br>Production notes in<a href="http://live.curry.com/outlines/DSC-2004-12-08.html">html<a/>, <a href="http://live.curry.com/opml/DSC-2004-12-08.opml">opml</a>
+  summary: Went to London today, was inspired and you can hear it in the 'cast. Less reverb, more cowbell.
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2353
   season: null
   episode: '082'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-082'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '082'
   season: null
@@ -40,20 +42,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-082'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-082'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-12-08.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-082'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-12-08.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-12-08.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +64,19 @@ podcast:
   - type: audio/mpeg
     length: 18832379
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #82'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-08.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-08.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-12-08.mp3
   size: 18832379

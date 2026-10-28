@@ -1,13 +1,14 @@
 episode: '202'
 title: Daily Source Code for Sunday July 03rd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/04.html#a7095
-pubDate: Mon Jul  4 04:55:13 2005 +0000
+pubDate: Mon, 04 Jul 2005 04:55:13 +0000
 category: podcast
 description: |-
   Daily Source Code for July 3d 2005 #202
   Shownotes:
 
-  From South Beach, Miami\nDuration: 00:47:58
+  From South Beach, Miami
+  Duration: 00:47:58
 author: Adam Curry
 language: en-us
 comments: null
@@ -15,7 +16,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/04.html#a7095
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-07-03.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-07-03.mp3
   length: 22953400
   type: audio/mpeg
 itunes:
@@ -26,14 +27,15 @@ itunes:
     Daily Source Code for July 3d 2005 #202
     Shownotes:
 
-    From South Beach, Miami\nDuration: 00:47:58
+    From South Beach, Miami
+    Duration: 00:47:58
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2878
   season: null
   episode: '202'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-202'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '202'
   season: null
@@ -48,20 +50,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-202'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-202'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-07-03.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-202'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-07-03.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-07-03.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -69,10 +72,19 @@ podcast:
   - type: audio/mpeg
     length: 22953400
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #202'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-07-03.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-07-03.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-07-03.mp3
   size: 22953400

@@ -1,7 +1,7 @@
 episode: null
 title: DSC-Special Announcement
 link: http://www.mevio.com/view/?kId=105471&tId=2
-pubDate: Wed Mar 26 18:06:57 2008 +0000
+pubDate: Wed, 26 Mar 2008 18:06:57 +0000
 category: podcast
 description: <font size="2"><font face="helvetica"><strong>#XXX Special Announcement From Adam Curry <br /></strong></font></font>
 author: Adam Curry
@@ -11,21 +11,22 @@ guid:
   isPermaLink: false
   link: http://m.podshow.com/media/21/episodes/105471/dailysourcecode-105471-03-26-2008.mp3
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2008-03-26-Special-Announcement.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-03-26-Special-Announcement.mp3
   length: 3751688
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: DSC-Special Announcement
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
-  summary: <font size="2"><font face="helvetica"><strong>#XXX Special Announcement From Adam Curry <br /></strong></font></font>
+  summary: '#XXX Special Announcement From Adam Curry'
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 231
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -35,14 +36,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
-  chapters: null
-  transcript: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2008-03-26-Special-Announcement.json
+    type: application/json+chapters
+  transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2008-03-26-Special-Announcement.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2008-03-26-Special-Announcement.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -50,10 +58,19 @@ podcast:
   - type: audio/mpeg
     length: 3751688
     bitrate: 129913
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2008-03-26
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2008-03-26-Special-Announcement.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-03-26-Special-Announcement.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2008-04-05-XXX-Special-Announcement-From-Adam-Curry.mp3
   size: 3751688

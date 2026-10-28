@@ -1,9 +1,11 @@
 episode: '157'
 title: Daily Source Code for Friday April 08th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/08.html#a7049
-pubDate: Fri Apr  8 21:20:52 2005 +0000
+pubDate: Fri, 08 Apr 2005 21:20:52 +0000
 category: podcast
-description: 'Another beta-cast of the CastBlaster Software. This show still has some<br>bugs in it, but much better than yesterday. I need to do a better job<br>of watching my levels when not using the ''auto'' feature, so the sound<br>is a bit ''hot'' now and then. But again, it''s beta :) My father in law jumped into the mix by building me a mini sound-dimmer<br>so I can use my normal microphone on the input of the tablet. Pictures<br>here. Today also featured a skype call with Christina to demonstrate that integration. Overall I''m really jazzed! Over the weekend I''m sure I''ll be doing more testing. mp3\nDuration: 00:27:21'
+description: |-
+  Another beta-cast of the CastBlaster Software. This show still has some<br>bugs in it, but much better than yesterday. I need to do a better job<br>of watching my levels when not using the 'auto' feature, so the sound<br>is a bit 'hot' now and then. But again, it's beta :) My father in law jumped into the mix by building me a mini sound-dimmer<br>so I can use my normal microphone on the input of the tablet. Pictures<br>here. Today also featured a skype call with Christina to demonstrate that integration. Overall I'm really jazzed! Over the weekend I'm sure I'll be doing more testing. mp3
+  Duration: 00:27:21
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,33 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/08.html#a7049
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-08.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-08.mp3
   length: 13068272
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday April 08th 2005
   subtitle: null
-  summary: Another beta-cast of the<a href="http://www.curry.com/pictures/viewer$5517">CastBlaster</a>Software. This show still has some<br>bugs in it, but much better than yesterday. I need to do a better job<br>of watching my levels when not using the 'auto' feature, so the sound<br>is a bit 'hot' now and then. But again, it's beta :)<br><br><br><br><br><br>My father in law jumped into the mix by building me a mini sound-dimmer<br>so I can use my normal microphone on the input of the tablet. Pictures<br><a href="http://www.flickr.com/photos/adamc1999/sets/219133/">here</a>.<br><br><br><br><br><br>Today also featured a skype call with Christina to demonstrate that integration. Overall I'm really jazzed!<br><br><br>Over the weekend I'm sure I'll be doing more testing.<br><br><br><br><br><br><a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-04-08.mp3">mp3</a>
+  summary: |-
+    Another beta-cast of theCastBlasterSoftware. This show still has some
+    bugs in it, but much better than yesterday. I need to do a better job
+    of watching my levels when not using the 'auto' feature, so the sound
+    is a bit 'hot' now and then. But again, it's beta :)
+
+    My father in law jumped into the mix by building me a mini sound-dimmer
+    so I can use my normal microphone on the input of the tablet. Pictures
+    .
+
+    Today also featured a skype call with Christina to demonstrate that integration. Overall I'm really jazzed!
+
+    Over the weekend I'm sure I'll be doing more testing.
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1641
   season: null
   episode: '157'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-157'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '157'
   season: null
@@ -40,20 +54,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-157'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-157'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-04-08.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-157'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-04-08.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-04-08.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +76,19 @@ podcast:
   - type: audio/mpeg
     length: 13068272
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #157'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-08.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-08.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-04-08.mp3
   size: 13068272

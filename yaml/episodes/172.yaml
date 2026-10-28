@@ -1,7 +1,7 @@
 episode: '172'
 title: Recht Voor Z'n Raap Podcast for May 8th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/05/08.html#a7064
-pubDate: Sun May  8 18:59:36 2005 +0000
+pubDate: Sun, 08 May 2005 18:59:36 +0000
 category: podcast
 description: Patricia and I hijack the DSC podcast feed for our own podcast, in Dutch... mp3
 author: Adam Curry
@@ -11,21 +11,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/05/08.html#a7064
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-08-RVZR.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-08-RVZR.mp3
   length: 23054818
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Recht Voor Z'n Raap Podcast for May 8th 2005
   subtitle: Recht Voor Z'n Raap Podcast
-  summary: Patricia and I hijack the DSC podcast feed for our own podcast, in Dutch...<br><br><br><br><a href="http://homepage.mac.com/dailysourcecode/RVZR/RVZR-2005-06-08.mp3">mp3</a><br>
+  summary: Patricia and I hijack the DSC podcast feed for our own podcast, in Dutch...
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2881
   season: null
   episode: '172'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-172'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '172'
   season: null
@@ -40,7 +40,7 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
   - person: Patricia Paay
@@ -48,17 +48,13 @@ podcast:
     img: https://upload.wikimedia.org/wikipedia/commons/f/fc/Patricia_Paay.png
     group: cast
     role: co-host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-172'
-  chapters:
-    url: '#daily-source-code-episode-pc20-chapters-172'
-    type: application/json+chapters
+  chapters: null
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-172'
-    type: application/srt
+  - url: https://thedailysourcecode.com/srt/DSC-2005-06-08-RVZR.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -66,10 +62,19 @@ podcast:
   - type: audio/mpeg
     length: 23054818
     bitrate: 64000
+    lang: nl
     default: true
-    title: Standard
+    title: 'DSC #172'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-08-RVZR.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-08-RVZR.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: RVZR-2005-06-08.mp3
   size: 23054818

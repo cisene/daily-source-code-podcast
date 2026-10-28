@@ -1,7 +1,7 @@
 episode: '059'
 title: Daily Source Code for Tuesday November 2nd 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/03.html#a6827
-pubDate: Wed Nov  3 03:29:21 2004 +0000
+pubDate: Wed, 03 Nov 2004 03:29:21 +0000
 category: podcast
 description: 'On the show today: Theo van Gogh is murdered in Amsterdam, new podcasts and a bit about aggregator developers. 43 minutes, 28 mb, mp3 Production notes in html Production notes in opml'
 author: Adam Curry
@@ -11,21 +11,98 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/03.html#a6827
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-02.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-02.mp3
   length: 22915604
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday November 2nd 2004
   subtitle: theo van gogh assassinated
-  summary: 'On the show today: Theo van Gogh is murdered in Amsterdam, new podcasts and a bit about aggregator developers.<p><br><br>43 minutes, 28 mb, <a href="http://homepage.mac.com/adamcurry/DSC/DSC-2004-11-02.mp3">mp3</a><p><br><br>Production notes in<a href="http://cloud2.urj.nl/static/acnews/dsc-2004-11-02.html">html</a><p><br><br>Production notes in<a href="http://www.blognewsnetwork.com/members/0000001/opml/DSC-2004-11-02.opml">opml</a><br>'
+  summary: |-
+    On the show today: Theo van Gogh is murdered in Amsterdam, new podcasts and a bit about aggregator developers.
+
+    Forward Statements Opener
+    Theo van Gogh
+    - MoJones
+      - Strong Man
+        - Where The Sun Stopped Shining
+        - MoJones Web
+    Aggregator developers
+    - SN post about aggy devs
+    - Blogharbour
+    Sattelite radio idea
+    - Jenn Kahn from Wired
+    New Podcast
+    - Tokyo Calling
+    - Subscribe here link
+    - Scott Lockman
+      - Tokyo Calling
+        - Tokyo_Calling_003
+    Gilmor Gang files
+    - Gillmor Gang Announcements
+    EMail from Phil Ryan
+    - Details
+      - Phil ryan
+      - Email address:
+      - pryan@socal.rr.com
+      - Web site:
+      - IP address:
+      - 24.165.80.166
+      - Domain name:
+      - cpe-24-165-80-166.socal.rr.com
+      - Commenting on:
+      - http://radio.weblogs.com/0001014/2004/10/30.html#a6814
+    - Hey,thanks very much for your podcasts I enjoy them very much.They make my drive to and from work much more enjoyable.Please Keep it up!! I discovered you on the LA Times article in early oct. Don't Stop Im sure this is snowballing Fast!!! I enjoy your Broadcasts Adam, at least you as a broadcast professional help as a starting point for the other podcasters. And myself having spent countless hours in traffic Having something good and interesting to listen to makes a world of difference.
+    Scott Brenner audio comment: ASCAP
+    - scottBrenner
+    - Coverville
+      - Some Halloween-inspired covers...
+        - Coverville-2004-10-31
+    - Coverville
+    EMail from Dithermaster about iTrip tones
+    - Details
+      - From: Dithermaster
+      - Subject: iTrip
+      - Date: November 1, 2004 10:39:50 PM CET
+      - To: Adam Curry
+      - Reply-To: Dithermaster
+    - Adam:
+    - If you want the iTrip tone files to *actually* change frequencies, you
+    - have to NOT play the bit after the pause. It's a "cancel code" that
+    - makes the iTrip NOT change frequencies. It's there so if your iPod
+    - plays the frequency songs by accident (say, during "all play, shuffle
+    - mode") then your iTrip won't change frequency.
+    - The instructions for actually changing the frequency is to start the
+    - file playing until the iTrip starts blinking, then Pause playback.
+    - This *prevents* the stop codes from playing, and then the iTrip
+    - actually changes frequency. Get it?
+    - And, please don't send that in your podcast. It would suck for anyone
+    - using an iTrip and no longer packing the iTrip files to change back.
+    - Or, worse, fumbling with their iPod in traffic and crashing. I used
+    - to use an iTrip and I would curse your name if you did that.
+    - Sincerely,
+    - ///d@
+    KOMO 1000 News
+    - Herb Weisbaum - Google Desktop Search
+    BloggerCon
+    - Preparing for flight
+      - Dave Behind the Mic
+      - Doug Kaye - WebTalk radio
+    - MCN about Food for thought 12:00
+    - MCN 11/01/04
+    - About making money
+    New Podcast
+    - GatorJUG Podcast041101
+    Samenstelle.net Podcast promo
+    - - OpenPodcast.org #72 promo
+    Rockmaninov Closer
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2864
   season: null
   episode: '059'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-059'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '059'
   season: null
@@ -40,20 +117,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-059'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-059'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-11-02.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-059'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-11-02.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-11-02.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +139,19 @@ podcast:
   - type: audio/mpeg
     length: 22915604
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #59'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-02.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-02.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-11-02.mp3
   size: 22915604

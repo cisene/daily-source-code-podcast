@@ -1,7 +1,7 @@
 episode: '019'
 title: Daily Source Code for Friday September 3rd 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/09/03.html#a6490
-pubDate: Fri Sep  3 14:55:58 2004 +0000
+pubDate: Fri, 03 Sep 2004 14:55:58 +0000
 category: podcast
 description: mp3 26.6 mb, 39 minutes
 author: Adam Curry
@@ -15,31 +15,31 @@ dc:
 content:
   encoded: null
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-09-03.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-09-03.mp3
   length: 27984382
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday September 3rd 2004
   subtitle: null
-  summary: <a href="http://cloud2.urj.nl/gems/dailySourceCode09032004.mp3">mp3</a>26.6 mb, 39 minutes<br><br>
+  summary: null
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2332
   season: null
   episode: '019'
   image:
-    href: http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&width=600&height=337&scheme=1
-  pubDate: Fri Sep  3 14:55:58 2004 +0000
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
+  pubDate: Fri, 03 Sep 2004 14:55:58 +0000
 podcast:
   episode: '019'
   season: null
   title: Daily Source Code for Friday September 3rd 2004
   subtitle: null
-  summary: <a href="http://cloud2.urj.nl/gems/dailySourceCode09032004.mp3">mp3</a>26.6 mb, 39 minutes<br><br>
+  summary: null
   explicit: true
   description: null
-  pubDate: Fri Sep  3 14:55:58 2004 +0000
+  pubDate: Fri, 03 Sep 2004 14:55:58 +0000
   license: null
   guid: 0cd12a0f-6101-3944-a140-68fc2b57fd96
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
@@ -52,18 +52,19 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - href: http://img.mevio.com/images/e67/e84/e67e84dc7cfab8425f2430aac69c15c5c6c71809.jpg?url=http%3A%2F%2Forigin.thumbs.mevio.com%2Fmedia%2F21%2Fepisodes%2F115444%2Fthumbnail.jpg&width=600&height=337&scheme=1
   chapters:
-  - url: null
-    type: null
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-09-03.json
+    type: application/json+chapters
   transcript:
-  - url: null
-    type: null
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-09-03.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-09-03.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
   - uri: null
     protocol: disabled
@@ -73,10 +74,19 @@ podcast:
   - type: audio/mpeg
     length: 27984382
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #19'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-09-03.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-09-03.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-09-03.mp3
   size: 27984382

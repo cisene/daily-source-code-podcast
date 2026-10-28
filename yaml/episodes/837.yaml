@@ -1,9 +1,11 @@
 episode: '837'
 title: Daily Source Code for Friday July 02nd 2010
 link: http://www.mevio.com/episode/238494/dsc-837-2010-07-02
-pubDate: Fri Jul  2 17:16:08 2010 +0000
+pubDate: Fri, 02 Jul 2010 17:16:08 +0000
 category: podcast
-description: '#837 Adam Curry''s Daily Source Code for Friday July 2nd 2010Freedom Fubar Friday Discover Simple, Private Sharing at Drop.io Discover Simple, Private Sharing at Drop.io The Freedom Fubar Friday3 Hours Of Goodness Compressed Into A Bundle Of MP3 Joy For YouSupport This ShowDonate:No Agenda Founding Producer Donation Page\nDuration: 03:18:58'
+description: |-
+  #837 Adam Curry's Daily Source Code for Friday July 2nd 2010Freedom Fubar Friday Discover Simple, Private Sharing at Drop.io Discover Simple, Private Sharing at Drop.io The Freedom Fubar Friday3 Hours Of Goodness Compressed Into A Bundle Of MP3 Joy For YouSupport This ShowDonate:No Agenda Founding Producer Donation Page
+  Duration: 03:18:58
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,22 +13,33 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/238494/dsc-837-2010-07-02
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-07-02.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-07-02.mp3
   length: 191011679
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday July 02nd 2010
   subtitle: Freedom Fubar Friday
-  summary: <font class="Apple-style-span"><span class="Apple-style-span"><b>#837 Adam Curry's Daily Source Code for Friday July 2nd 2010</b></span><div><font class="Apple-style-span"><span class="Apple-style-span"><b>Freedom Fubar Friday</b></span></div><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="383" src="http://drop.io/download/public/iqx4hmsxxx7wgztlscqr/7a6751e719a9e1c338e5f290844144cb63b127f9/Asset/37470854/v3/large_thumbnail" width="480" /></div><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="480" src="http://drop.io/download/public/iqx4hmsxxx7wgztlscqr/b550eb7499d6bcbff3df1d6e5b58e165459ef60a/Asset/37470848/v3/large_thumbnail" width="480" /></div><ul><li>The Freedom Fubar Friday<ul><li>3 Hours Of Goodness Compressed Into A Bundle Of MP3 Joy For You</li></ul></li><li>Support This Show<ul><li>Donate:<ul><li><a href="http://dvorak.org/nas/">No Agenda
-    Founding Producer Donation Page</a></li></ul></li></ul></li></ul><div></div>
+  summary: |-
+    #837 Adam Curry's Daily Source Code for Friday July 2nd 2010
+    Freedom Fubar Friday
+
+    Discover Simple, Private Sharing atDrop.io
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - The Freedom Fubar Friday
+    - 3 Hours Of Goodness Compressed Into A Bundle Of MP3 Joy For You
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 11938
   season: null
   episode: '837'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-837'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '837'
   season: null
@@ -41,20 +54,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-837'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-837'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-07-02.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-837'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-07-02.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-07-02.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +76,19 @@ podcast:
   - type: audio/mpeg
     length: 191011679
     bitrate: 128000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #837'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-07-02.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-07-02.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-07-02.mp3
   size: 191011679

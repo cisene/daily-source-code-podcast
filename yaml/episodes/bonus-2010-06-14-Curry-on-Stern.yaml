@@ -1,9 +1,9 @@
 episode: null
 title: Curry on Stern
 link: http://www.mevio.com/episode/235776/curry-on-stern
-pubDate: Mon Jun 14 18:12:48 2010 +0000
+pubDate: Mon, 14 Jun 2010 18:12:48 +0000
 category: podcast
-description: <p>Curry on Stern</p> <p>My $100 million offer to Howard Stern </p>
+description: <p>Curry on Stern</p> <p>My $100 million offer to Howard Stern </p>
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +11,25 @@ guid:
   isPermaLink: false
   link: http://m.podshow.com/media/21/episodes/235776/dailysourcecode-235776-06-14-2010.mp3
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-06-14-Curry-on-Stern.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-06-14-Curry-on-Stern.mp3
   length: 21775903
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Curry on Stern
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
-  summary: <p>Curry on Stern</p> <p>My $100 million offer to Howard Stern </p>
+  summary: |-
+    Curry on Stern
+
+    My $100 million offer to Howard Stern
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1360
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -35,14 +39,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -50,10 +53,19 @@ podcast:
   - type: audio/mpeg
     length: 21775903
     bitrate: 128062
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2010-06-14
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-06-14-Curry-on-Stern.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-06-14-Curry-on-Stern.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: Curry on Stern-2010-06-14.mp3
   size: 21775903

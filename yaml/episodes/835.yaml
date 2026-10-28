@@ -1,9 +1,11 @@
 episode: '835'
 title: Daily Source Code for Saturday June 19th 2010
 link: http://www.mevio.com/episode/236631/dsc-835-2010-06-19
-pubDate: Sun Jun 20 00:30:22 2010 +0000
+pubDate: Sun, 20 Jun 2010 00:30:22 +0000
 category: podcast
-description: '  <p>#835 Adam Curry''s Daily Source Code For Saturday June 19th 2010</p><ul style="font-family:Times;font-size:medium;"><li>The All Request Snafu Saturday<ul><li>Workin'' out my shit</li></ul></li><li>Support This Show<ul><li>Donate:</li></ul><ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li><li><br></li></ul><div><div style="text-align:left;color:#595653;font-size:11px;font-family:Verdana, sans-serif;padding-top:10px;padding-right:5px;">Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="" width="480" height="360" src="http://drop.io/download/public/070icroglans4hjjaf3p/7ab0fe2a969b05e8314e79a2401f9c6a595593d2/Asset/36056517/v3/large_thumbnail" /></div>\nDuration: 02:00:14'
+description: |2-
+    <p>#835 Adam Curry's Daily Source Code For Saturday June 19th 2010</p><ul style="font-family:Times;font-size:medium;"><li>The All Request Snafu Saturday<ul><li>Workin' out my shit</li></ul></li><li>Support This Show<ul><li>Donate:</li></ul><ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li><li><br></li></ul><div><div style="text-align:left;color:#595653;font-size:11px;font-family:Verdana, sans-serif;padding-top:10px;padding-right:5px;">Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="" width="480" height="360" src="http://drop.io/download/public/070icroglans4hjjaf3p/7ab0fe2a969b05e8314e79a2401f9c6a595593d2/Asset/36056517/v3/large_thumbnail" /></div>
+  Duration: 02:00:14
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,34 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/236631/dsc-835-2010-06-19
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-06-19.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-06-19.mp3
   length: 86583122
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday June 19th 2010
   subtitle: Workin' out my shit
-  summary: '  <p>#835 Adam Curry''s Daily Source Code For Saturday June 19th 2010</p><ul style="font-family:Times;font-size:medium;"><li>The All Request Snafu Saturday<ul><li>Workin'' out my shit</li></ul></li><li>Support This Show<ul><li>Donate:</li></ul><ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li><li><br></li></ul><div><div style="text-align:left;color:#595653;font-size:11px;font-family:Verdana, sans-serif;padding-top:10px;padding-right:5px;">Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="" width="480" height="360" src="http://drop.io/download/public/070icroglans4hjjaf3p/7ab0fe2a969b05e8314e79a2401f9c6a595593d2/Asset/36056517/v3/large_thumbnail" /></div>\nDuration: 02:00:14'
+  summary: |-
+    #835 Adam Curry's Daily Source Code For Saturday June 19th 2010
+
+    - The All Request Snafu Saturday
+    - Workin' out my shit
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page
+
+    -
+
+    Discover Simple, Private Sharing atDrop.io
+
+    Duration: 02:00:14
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 7214
   season: null
   episode: '835'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-835'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '835'
   season: null
@@ -40,20 +55,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-835'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-835'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-06-19.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-835'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-06-19.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-06-19.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +77,19 @@ podcast:
   - type: audio/mpeg
     length: 86583122
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #835'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-06-19.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-06-19.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-06-19.mp3
   size: 86583122

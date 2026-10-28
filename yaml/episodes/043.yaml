@@ -1,9 +1,11 @@
 episode: '043'
 title: Daily Source Code for Monday October 11st 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/11.html#a6747
-pubDate: Mon Oct 11 17:15:16 2004 +0000
+pubDate: Mon, 11 Oct 2004 17:15:16 +0000
 category: podcast
-description: 'Featuring the GWB Singers<br>mp3 43 mb, 53 minutes\nDuration: 00:53:07'
+description: |-
+  Featuring the GWB Singers<br>mp3 43 mb, 53 minutes
+  Duration: 00:53:07
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/11.html#a6747
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-11.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-11.mp3
   length: 45557296
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday October 11st 2004
   subtitle: GWB Singers
-  summary: <p>Featuring the GWB Singers</p><p><br><br><p><a href="http://cloud2.urj.nl/gems/DSC-2004-10-11.mp3">mp3</a>43 mb, 53 minutes</p><br>
+  summary: Featuring the GWB Singers
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3187
   season: null
   episode: '043'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-043'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '043'
   season: null
@@ -40,20 +42,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-043'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-043'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-10-11.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-043'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-10-11.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-10-11.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +64,19 @@ podcast:
   - type: audio/mpeg
     length: 45557296
     bitrate: 114358
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #43'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-11.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-11.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-10-11.mp3
   size: 45557296

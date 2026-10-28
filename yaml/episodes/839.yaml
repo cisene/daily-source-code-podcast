@@ -1,9 +1,11 @@
 episode: '839'
 title: Daily Source Code for Saturday July 10 2010
 link: http://www.mevio.com/episode/239458/dsc-839-2010-07-10
-pubDate: Sat Jul 10 17:07:11 2010 +0000
+pubDate: Sat, 10 Jul 2010 17:07:11 +0000
 category: podcast
-description: '#839 Adam Curry''s Daily Source Code for July 10th 2010Snafu Saturday Rum & Coke EditionDiscover Simple, Private Sharing atDrop.ioDiscover Simple, Private Sharing atDrop.ioThe Snafu SaturdayThe Rum & Coke EditionSupport This ShowDonate:No Agenda Founding Producer Donation PagePropagateBig App Show:bit.ly—BigAppShowDSC iPhone Apphttp://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8\nDuration: 03:09:28'
+description: |-
+  #839 Adam Curry's Daily Source Code for July 10th 2010Snafu Saturday Rum & Coke EditionDiscover Simple, Private Sharing atDrop.ioDiscover Simple, Private Sharing atDrop.ioThe Snafu SaturdayThe Rum & Coke EditionSupport This ShowDonate:No Agenda Founding Producer Donation PagePropagateBig App Show:bit.ly—BigAppShowDSC iPhone Apphttp://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8
+  Duration: 03:09:28
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,22 +13,37 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/239458/dsc-839-2010-07-10
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-07-10.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-07-10.mp3
   length: 136429412
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday July 10 2010
   subtitle: Snafu Saturday Rum & Coke Edition
-  summary: <div><font class="Apple-style-span"><span class="Apple-style-span"><b>#839 Adam Curry's Daily Source Code for July 10th 2010</b></span><div><font class="Apple-style-span"><span class="Apple-style-span"><b>Snafu Saturday Rum &amp; Coke Edition</b></span></div><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="384" src="http://drop.io/download/public/tsfc0ubf3olvktxh27me/8ba5ab286ae8ebcb65243bac72cf4a277ecb9a90/Asset/38305211/v3/large_thumbnail" width="480" /></div><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="480" src="http://drop.io/download/public/tsfc0ubf3olvktxh27me/fc85ce84de8dd27d5658a96c5d00b83e5b1a1c05/Asset/38305216/v3/large_thumbnail" width="480" /></div><ul><li>The Snafu Saturday<ul><li>The Rum &amp; Coke Edition</li></ul></li><li>Support This Show<ul><li>Donate:<ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation
-    Page</a></li></ul></li><li>Propagate<ul><li>Big App Show:<a href="http://bit.ly/Big">bit.ly—Big</a>AppShow</li></ul></li></ul></li><li>DSC iPhone App<ul><li><a href="http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8">http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8</a></li></ul></li></ul><div></div></div>
+  summary: |-
+    #839 Adam Curry's Daily Source Code for July 10th 2010
+    Snafu Saturday Rum & Coke Edition
+
+    Discover Simple, Private Sharing atDrop.io
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - The Snafu Saturday
+    - The Rum & Coke Edition
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page
+    - Propagate
+    - Big App Show:bit.ly—BigAppShow
+    - DSC iPhone App
+    - http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 11368
   season: null
   episode: '839'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-839'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '839'
   season: null
@@ -41,20 +58,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-839'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-839'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-07-10.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-839'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-07-10.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-07-10.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +80,19 @@ podcast:
   - type: audio/mpeg
     length: 136429412
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #839'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-07-10.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-07-10.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-07-10.mp3
   size: 136429412

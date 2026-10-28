@@ -1,7 +1,7 @@
 episode: null
 title: 'In flight: EGTF-EHRD'
 link: null
-pubDate: Mon Mar  6 12:00:00 2006 +0000
+pubDate: Mon, 06 Mar 2006 12:00:00 +0000
 category: podcast
 description: EGTF-EHRD-inflight
 author: Adam Curry
@@ -11,7 +11,7 @@ guid:
   isPermaLink: false
   link: http://mp3.dailysourcecode.podshow.com/EGTF-EHRD-inflight.MP4
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-06-In-Flight.mp4
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-03-06-In-Flight.mp4
   length: 11141120
   type: video/mp4
 itunes:
@@ -25,7 +25,8 @@ itunes:
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -35,14 +36,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -50,10 +50,19 @@ podcast:
   - type: video/mp4
     length: 11141120
     bitrate: 2522377
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-03-06
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-06-In-Flight.mp4
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-03-06-In-Flight.mp4
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: EGTF-EHRD-inflight.MP4
   size: 11141120

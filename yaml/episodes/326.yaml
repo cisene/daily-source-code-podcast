@@ -1,7 +1,7 @@
 episode: '326'
 title: Daily Source Code for Monday January 30 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/30.html#a7241
-pubDate: Mon Jan 30 15:03:28 2006 +0000
+pubDate: Mon, 30 Jan 2006 15:03:28 +0000
 category: podcast
 description: |-
   - 04_-_No_Use_Denying_-_The_Cool_Waters_Band
@@ -29,7 +29,8 @@ description: |-
   - Fresh_Media_Works_Promo02
   * BBC journalist
   * Dutch BUMA action
-  - Ever_Since\nDuration: 00:46:20
+  - Ever_Since
+  Duration: 00:46:20
 author: Adam Curry
 language: en-us
 comments: null
@@ -37,7 +38,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/30.html#a7241
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-30.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-30.mp3
   length: 33349939
   type: audio/mpeg
 itunes:
@@ -61,7 +62,7 @@ itunes:
     - DSC_Audio_Comment_Hair
     * BIll album sells!
     * Tailwinds Drew
-    - geekbrief.podshow.com <http://geekbrief.podshow.com/>
+    - geekbrief.podshow.com
     - DSCfeedback_AllisterJenks
     - FeedBack Adam from Nick Jaffe
     * KTSP
@@ -70,14 +71,15 @@ itunes:
     - Fresh_Media_Works_Promo02
     * BBC journalist
     * Dutch BUMA action
-    - Ever_Since\nDuration: 00:46:20
+    - Ever_Since
+    Duration: 00:46:20
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2780
   season: null
   episode: '326'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-326'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '326'
   season: null
@@ -92,20 +94,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-326'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-326'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-01-30.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-326'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-01-30.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-01-30.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -113,10 +116,19 @@ podcast:
   - type: audio/mpeg
     length: 33349939
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #326'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-30.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-30.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-01-30.mp3
   size: 33349939

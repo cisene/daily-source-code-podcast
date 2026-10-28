@@ -1,7 +1,7 @@
 episode: '333'
 title: Daily Source Code for Thursday February 09th 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/09.html#a7250
-pubDate: Thu Feb  9 13:33:04 2006 +0000
+pubDate: Thu, 09 Feb 2006 13:33:04 +0000
 category: podcast
 description: |-
   - CastBlasterSampleRateFeedback
@@ -24,7 +24,8 @@ description: |-
   - davidscomment1
   - 1yearPromo
   - Adam_invite
-  - nathalieBrown-Iwonder\nDuration: 01:02:17
+  - nathalieBrown-Iwonder
+  Duration: 01:02:17
 author: Adam Curry
 language: en-us
 comments: null
@@ -32,7 +33,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/09.html#a7250
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-09.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-09.mp3
   length: 44815700
   type: audio/mpeg
 itunes:
@@ -60,14 +61,15 @@ itunes:
     - davidscomment1
     - 1yearPromo
     - Adam_invite
-    - nathalieBrown-Iwonder\nDuration: 01:02:17
+    - nathalieBrown-Iwonder
+    Duration: 01:02:17
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3737
   season: null
   episode: '333'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-333'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '333'
   season: null
@@ -82,20 +84,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-333'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-333'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-02-09.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-333'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-02-09.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-02-09.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -103,10 +106,19 @@ podcast:
   - type: audio/mpeg
     length: 44815700
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #333'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-09.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-09.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-02-09.mp3
   size: 44815700

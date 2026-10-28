@@ -1,9 +1,11 @@
 episode: '857'
 title: Daily Source Code for Thursday January 06th 2011
 link: http://www.mevio.com/episode/263315/dsc-857-2011-01-06
-pubDate: Sat Jan  8 11:18:13 2011 +0000
+pubDate: Sat, 08 Jan 2011 11:18:13 +0000
 category: podcast
-description: '#857 Adam Curry''s Daily Source Code p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px Helvetica} The "FUBAR Friday "Birthing Open Source Radio" edition Get the DSC iPhone app\nDuration: 03:08:07'
+description: |-
+  #857 Adam Curry's Daily Source Code p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px Helvetica} The "FUBAR Friday "Birthing Open Source Radio" edition Get the DSC iPhone app
+  Duration: 03:08:07
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,26 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/263315/dsc-857-2011-01-06
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2011-01-06.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2011-01-06.mp3
   length: 135538224
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday January 06th 2011
   subtitle: The "FUBAR Friday "Birthing Open Source Radio" edition
-  summary: '#857 Adam Curry''s Daily Source Code<br>p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px Helvetica} <p class="p1">The "FUBAR Friday "Birthing Open Source Radio" edition</p><p class="p1"><img alt="[Image]" src="http://curryscloud.com/dsc856art" title="undefined" /></p><p class="p1"><br><a href="http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8">Get the DSC iPhone app</a></p>'
+  summary: |-
+    #857 Adam Curry's Daily Source Code
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px Helvetica}
+    The "FUBAR Friday "Birthing Open Source Radio" edition
+
+    Get the DSC iPhone app
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 11287
   season: null
   episode: '857'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-857'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '857'
   season: null
@@ -40,20 +47,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-857'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-857'
+  - url: https://thedailysourcecode.com/chapters/DSC-2011-01-06.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-857'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2011-01-06.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2011-01-06.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +69,19 @@ podcast:
   - type: audio/mpeg
     length: 135538224
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #857'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2011-01-06.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2011-01-06.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2011-01-06.mp3
   size: 135538224

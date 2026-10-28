@@ -1,7 +1,7 @@
 episode: null
 title: DevCast 5
 link: http://m.podshow.com/media/204/episodes/5283/devcast-5283-05-19-2006.mp3
-pubDate: Fri May 19 22:34:42 2006 +0000
+pubDate: Fri, 19 May 2006 22:34:42 +0000
 category: podcast
 description: |-
   In this episode we talk to Kevin Ostrowski and Andrew Grumet about the SDK, and where you can find it.
@@ -13,7 +13,7 @@ guid:
   isPermaLink: false
   link: http://m.podshow.com/media/204/episodes/5283/devcast-5283-05-19-2006.mp3
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-05-19-DevCast-5.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-05-19-DevCast-5.mp3
   length: 9673266
   type: audio/mpeg
 itunes:
@@ -29,7 +29,8 @@ itunes:
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -39,7 +40,7 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
   - person: Kevin Ostrowski
@@ -52,11 +53,10 @@ podcast:
     img: null
     group: cast
     role: guest
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -64,10 +64,19 @@ podcast:
   - type: audio/mpeg
     length: 9673266
     bitrate: 96374
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-05-19
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-05-19-DevCast-5.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-05-19-DevCast-5.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: 05-DevCast-5.mp3
   size: 9673266

@@ -1,9 +1,11 @@
 episode: '851'
 title: Daily Source Code for Friday October 29th 2010
 link: http://www.mevio.com/episode/255281/dsc-851-2010-10-29
-pubDate: Sat Oct 30 08:47:26 2010 +0000
+pubDate: Sat, 30 Oct 2010 08:47:26 +0000
 category: podcast
-description: '#851 Adam Curry''s Daily Source Code for Friday Oct 29th 2010 FUBAR Friday Three Bottles is too much Edition Support This ShowDonate: No Agenda Founding Producer Donation Page dvorak.org—nas dvorak.org—nas dvorak.org—nas<br>PropagateBig App Show: bit.ly—Big bit.ly—Big bit.ly—BigAppShow bit.ly—BigAppShowAppShowDSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681 itunes.apple.com—id377980681 itunes.apple.com—id377980681\nDuration: 03:30:58'
+description: |-
+  #851 Adam Curry's Daily Source Code for Friday Oct 29th 2010 FUBAR Friday Three Bottles is too much Edition Support This ShowDonate: No Agenda Founding Producer Donation Page dvorak.org—nas dvorak.org—nas dvorak.org—nas<br>PropagateBig App Show: bit.ly—Big bit.ly—Big bit.ly—BigAppShow bit.ly—BigAppShowAppShowDSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681 itunes.apple.com—id377980681 itunes.apple.com—id377980681
+  Duration: 03:30:58
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,30 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/255281/dsc-851-2010-10-29
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-10-29.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-10-29.mp3
   length: 202766986
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday October 29th 2010
   subtitle: FUBAR Friday Three Bottles is too much Edition
-  summary: '<p><b>#851 Adam Curry''s Daily Source Code for Friday Oct 29th 2010<br>FUBAR Friday Three Bottles is too much Edition</b></p><p><img alt="DSC851Artwork.jpg" src="http://web.me.com/foobarboy/Site/Zulu_Apps_LLC/Media/DSC851Artwork.jpg" /></p><p></p><ul><li>Support This Show<ul><li>Donate: <ul><li>No Agenda Founding Producer Donation Page dvorak.org—nas dvorak.org—nas<a href="http://dvorak.org/nas/">dvorak.org—nas</a><br></li></ul></li><li>Propagate<ul><li>Big App Show: bit.ly—Big bit.ly—Big bit.ly—BigAppShow<a href="http://bit.ly/BigAppShow">bit.ly—BigAppShow</a>AppShow</li><li>DSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681 itunes.apple.com—id377980681<a href="http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8">itunes.apple.com—id377980681</a><br></li></ul></li></ul></li></ul>'
+  summary: |-
+    #851 Adam Curry's Daily Source Code for Friday Oct 29th 2010
+    FUBAR Friday Three Bottles is too much Edition
+
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page dvorak.org—nas dvorak.org—nasdvorak.org—nas
+    - Propagate
+    - Big App Show: bit.ly—Big bit.ly—Big bit.ly—BigAppShowbit.ly—BigAppShowAppShow
+    - DSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681 itunes.apple.com—id377980681itunes.apple.com—id377980681
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 12658
   season: null
   episode: '851'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-851'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '851'
   season: null
@@ -40,20 +51,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-851'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-851'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-10-29.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-851'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-10-29.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-10-29.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +73,19 @@ podcast:
   - type: audio/mpeg
     length: 202766986
     bitrate: 128000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #851'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-10-29.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-10-29.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-10-29.mp3
   size: 202766986

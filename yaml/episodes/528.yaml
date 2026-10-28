@@ -1,25 +1,26 @@
 episode: '528'
 title: Daily Source Code for Friday January 19th 2007
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2007/01/19.html#a144
-pubDate: Fri Jan 19 20:39:56 2007 +0000
+pubDate: Fri, 19 Jan 2007 20:39:56 +0000
 category: podcast
 description: |-
   <div class="title" id="post-465">
            <a href="http://curry.podshow.com/?p=465" rel="bookmark">
-            DSC-528-2007-01-19         </a>
+            DSC-528-2007-01-19 </a>
           </div>
-  	    <h3><span class="posted">Posted on </span>
+       <h3><span class="posted">Posted on </span>
           Friday 19 January 2007
          </h3>
-  	    <div class="storycontent">
-           	<p>DSC-528-2007-01-19</p>
-  	<p>From The Comcast Connectivity Crippled Curry Condo</p>
-  	<p>Everything is FUBAR&#146;d here, shownotes to come later.</p>
-  	<p>I fucking hate Comcast.</p>
-  	<p>Direct <a href="http://m.podshow.com/media/21/episodes/46258/dailysourcecode-46258-01-19-2007.mp3">Link</a> To The Show</p>
-  	<p><a href="http://www.podshow.com/shows/?mode=detail&amp;episode_id=46258">Comment</a>
+       <div class="storycontent">
+            <p>DSC-528-2007-01-19</p>
+   <p>From The Comcast Connectivity Crippled Curry Condo</p>
+   <p>Everything is FUBAR&#146;d here, shownotes to come later.</p>
+   <p>I fucking hate Comcast.</p>
+   <p>Direct <a href="http://m.podshow.com/media/21/episodes/46258/dailysourcecode-46258-01-19-2007.mp3">Link</a> To The Show</p>
+   <p><a href="http://www.podshow.com/shows/?mode=detail&amp;episode_id=46258">Comment</a>
   </p>
-          </div>\nDuration: 00:30:29
+          </div>
+  Duration: 00:30:29
 author: Adam Curry
 language: en-us
 comments: null
@@ -27,7 +28,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2007/01/19.html#a144
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2007-01-19.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-01-19.mp3
   length: 22108506
   type: audio/mpeg
 itunes:
@@ -35,29 +36,31 @@ itunes:
   title: Daily Source Code for Friday January 19th 2007
   subtitle: null
   summary: |-
-    <div class="title" id="post-465">
-             <a href="http://curry.podshow.com/?p=465" rel="bookmark">
-              DSC-528-2007-01-19         </a>
-            </div>
-    	    <h3><span class="posted">Posted on </span>
-            Friday 19 January 2007
-           </h3>
-    	    <div class="storycontent">
-             	<p>DSC-528-2007-01-19</p>
-    	<p>From The Comcast Connectivity Crippled Curry Condo</p>
-    	<p>Everything is FUBAR&#146;d here, shownotes to come later.</p>
-    	<p>I fucking hate Comcast.</p>
-    	<p>Direct <a href="http://m.podshow.com/media/21/episodes/46258/dailysourcecode-46258-01-19-2007.mp3">Link</a> To The Show</p>
-    	<p><a href="http://www.podshow.com/shows/?mode=detail&amp;episode_id=46258">Comment</a>
-    </p>
-            </div>\nDuration: 00:30:29
+    DSC-528-2007-01-19
+
+    Posted on
+    Friday 19 January 2007
+
+    DSC-528-2007-01-19
+
+    From The Comcast Connectivity Crippled Curry Condo
+
+    Everything is FUBAR’d here, shownotes to come later.
+
+    I fucking hate Comcast.
+
+    Direct To The Show
+
+    Comment
+
+    Duration: 00:30:29
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1829
   season: null
   episode: '528'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-528'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '528'
   season: null
@@ -72,20 +75,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-528'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-528'
+  - url: https://thedailysourcecode.com/chapters/DSC-2007-01-19.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-528'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2007-01-19.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2007-01-19.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -93,10 +97,19 @@ podcast:
   - type: audio/mpeg
     length: 22108506
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #528'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2007-01-19.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-01-19.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2007-01-19.mp3
   size: 22108506

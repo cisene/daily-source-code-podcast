@@ -1,18 +1,18 @@
 episode: null
 title: 'Best of Charlie #2'
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/05.html#a7290
-pubDate: Wed Apr  5 10:46:10 2006 +0000
+pubDate: Wed, 05 Apr 2006 10:46:10 +0000
 category: podcast
 description: |-
   <br><div class="storycontent">
-           	<p>Best of Charlie #2</p>
-  	<p>Yesterday
+            <p>Best of Charlie #2</p>
+   <p>Yesterday
   I was lying on the beach, toes pointed towards the sea, chuckling out
   loud at the BOC1. Patricia asked if I was laughing at myself. No, it
   was all the listener feedback, bits and songs that I was so tickled by.
   Charlie Heads truly are an amazing bunch!</p>
-  	<p>No idea what[base ']s in store for us today, but I[base ']m bosting BOC2 dutifully[sigma]</p>
-  	<p>Direct <a href="http://mp3.digitalflotsam.podshow.com/DSC366--bestofMB02.mp3">Link</a> to Show
+   <p>No idea what[base ']s in store for us today, but I[base ']m bosting BOC2 dutifully[sigma]</p>
+   <p>Direct <a href="http://mp3.digitalflotsam.podshow.com/DSC366--bestofMB02.mp3">Link</a> to Show
   </p>
 author: Adam Curry
 language: en-us
@@ -21,7 +21,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/05.html#a7290
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-05-Best-of-Charlie-2.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-05-Best-of-Charlie-2.mp3
   length: 23522304
   type: audio/mpeg
 itunes:
@@ -29,23 +29,25 @@ itunes:
   title: 'Best of Charlie #2'
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
   summary: |-
-    <br><div class="storycontent">
-             	<p>Best of Charlie #2</p>
-    	<p>Yesterday
+    Best of Charlie #2
+
+    Yesterday
     I was lying on the beach, toes pointed towards the sea, chuckling out
     loud at the BOC1. Patricia asked if I was laughing at myself. No, it
     was all the listener feedback, bits and songs that I was so tickled by.
-    Charlie Heads truly are an amazing bunch!</p>
-    	<p>No idea what[base ']s in store for us today, but I[base ']m bosting BOC2 dutifully[sigma]</p>
-    	<p>Direct <a href="http://mp3.digitalflotsam.podshow.com/DSC366--bestofMB02.mp3">Link</a> to Show
-    </p>
+    Charlie Heads truly are an amazing bunch!
+
+    No idea what[base ']s in store for us today, but I[base ']m bosting BOC2 dutifully[sigma]
+
+    Direct to Show
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1470
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -55,14 +57,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -70,10 +71,19 @@ podcast:
   - type: audio/mpeg
     length: 23522304
     bitrate: 128008
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-04-05
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-05-Best-of-Charlie-2.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-05-Best-of-Charlie-2.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC366--bestofMB02.mp3
   size: 23522304

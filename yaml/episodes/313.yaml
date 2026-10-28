@@ -1,9 +1,11 @@
 episode: '313'
 title: Daily Source Code for Tuesday January 10 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/10.html#a7227
-pubDate: Tue Jan 10 15:34:47 2006 +0000
+pubDate: Tue, 10 Jan 2006 15:34:47 +0000
 category: podcast
-description: '#313 Daily Source Code for Tuesday January 10th 2006 From Curry Condo, San Francisco, California- 01_143<br>- Google Maps on BB (glm)<br>- IM+ on BB<br>* Soundloop came back last night!<br>- Karate Cast Language?<br>- Howards first show<br>- Promos - LIO - Promo - Squadcast-Promo-30<br>* Frank Truth on Sinatra homepage<br>- xplane_comment<br>- Car show that puts you behind the wheel, a la my driving<br>* YADC<br>- 04_I_Am_Not_Afraid.mp3<br>Direct Link to the show<br>Subscribe to the feed<br>Subscribe with iTunes<br>Time Code Based Shownotes\nDuration: 00:39:26'
+description: |-
+  #313 Daily Source Code for Tuesday January 10th 2006 From Curry Condo, San Francisco, California- 01_143<br>- Google Maps on BB (glm)<br>- IM+ on BB<br>* Soundloop came back last night!<br>- Karate Cast Language?<br>- Howards first show<br>- Promos - LIO - Promo - Squadcast-Promo-30<br>* Frank Truth on Sinatra homepage<br>- xplane_comment<br>- Car show that puts you behind the wheel, a la my driving<br>* YADC<br>- 04_I_Am_Not_Afraid.mp3<br>Direct Link to the show<br>Subscribe to the feed<br>Subscribe with iTunes<br>Time Code Based Shownotes
+  Duration: 00:39:26
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,53 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/10.html#a7227
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-10.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-10.mp3
   length: 28392770
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday January 10 2006
   subtitle: null
-  summary: <br>#313 Daily Source Code for Tuesday January 10th 2006<br><br><p><br></p>From Curry Condo, San Francisco, California<br><br>- 01_143<br><br>- Google Maps on BB (glm)<br><br>- IM+ on BB<br><br>* Soundloop came back last night!<br><br>- Karate Cast Language?<br><br>- Howards first show<br><br>- Promos<br><br>&nbsp;&nbsp;&nbsp; - LIO - Promo<br><br>&nbsp;&nbsp;&nbsp; - Squadcast-Promo-30<br><br>* Frank Truth on Sinatra homepage<br><br>- xplane_comment<br><br>- Car show that puts you behind the wheel, a la my driving<br><br>* YADC<br><br>- 04_I_Am_Not_Afraid.mp3<br><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-313-2006-01-10.mp3">Link</a>to the show<br><br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br><br>Time Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #313 Daily Source Code for Tuesday January 10th 2006
+
+    From Curry Condo, San Francisco, California
+
+    - 01_143
+    - Google Maps on BB (glm)
+    - IM+ on BB
+
+    * Soundloop came back last night!
+
+    - Karate Cast Language?
+    - Howards first show
+    - Promos
+    - LIO - Promo
+    - Squadcast-Promo-30
+
+    * Frank Truth on Sinatra homepage
+
+    - xplane_comment
+    - Car show that puts you behind the wheel, a la my driving
+
+    * YADC
+
+    - 04_I_Am_Not_Afraid.mp3
+
+    Directto the show
+
+    Subscribe to the
+
+    Subscribe withiTunes
+
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2366
   season: null
   episode: '313'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-313'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '313'
   season: null
@@ -40,20 +74,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-313'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-313'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-01-10.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-313'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-01-10.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-01-10.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +96,19 @@ podcast:
   - type: audio/mpeg
     length: 28392770
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #313'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-10.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-10.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-01-10.mp3
   size: 28392770

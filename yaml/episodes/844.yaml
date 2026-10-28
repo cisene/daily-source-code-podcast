@@ -1,9 +1,11 @@
 episode: '844'
 title: Daily Source Code for Friday August 27th 2010
 link: http://www.mevio.com/episode/246311/dsc-844-2010-08-27
-pubDate: Fri Aug 27 18:25:36 2010 +0000
+pubDate: Fri, 27 Aug 2010 18:25:36 +0000
 category: podcast
-description: '#844 Adam Curry''s Daily Source Code for Friday August 27th 2010Happy Birthday Christina!!! Discover Simple, Private Sharing at Drop.io FUBAR FridayFreighttrain Express EditionSupport This ShowDonate:No Agenda Founding Producer Donation PagePropagateBig App Show:bit.ly—BigAppShow\nDuration: 02:28:01'
+description: |-
+  #844 Adam Curry's Daily Source Code for Friday August 27th 2010Happy Birthday Christina!!! Discover Simple, Private Sharing at Drop.io FUBAR FridayFreighttrain Express EditionSupport This ShowDonate:No Agenda Founding Producer Donation PagePropagateBig App Show:bit.ly—BigAppShow
+  Duration: 02:28:01
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,33 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/246311/dsc-844-2010-08-27
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-08-27.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-08-27.mp3
   length: 106585878
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday August 27th 2010
   subtitle: The Freightrain Express FUBAR Friday!
-  summary: <font class="Apple-style-span"><span class="Apple-style-span"><b>#844 Adam Curry's Daily Source Code for Friday August 27th 2010</b></span><div><font class="Apple-style-span"><span class="Apple-style-span"><b>Happy Birthday Christina!!!</b></span></div><div></div><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img alt="[Image]" height="384" src="http://drop.io/download/public/x1nl2wvufifrubqaqbfi/a54ff18151c49392f423fb7c6ba163d597a49599/Asset/43488560/v3/large_thumbnail" width="480" /></div><ul><li>FUBAR Friday<ul><li>Freighttrain Express Edition</li></ul></li><li>Support This Show<ul><li>Donate:<ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li><li>Propagate<ul><li>Big App Show:<a href="http://bit.ly/Big">bit.ly—Big</a>AppShow</li></ul></li></ul></li></ul><div></div>
+  summary: |-
+    #844 Adam Curry's Daily Source Code for Friday August 27th 2010
+    Happy Birthday Christina!!!
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - FUBAR Friday
+    - Freighttrain Express Edition
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page
+    - Propagate
+    - Big App Show:bit.ly—BigAppShow
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 8881
   season: null
   episode: '844'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-844'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '844'
   season: null
@@ -40,20 +54,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-844'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-844'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-08-27.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-844'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-08-27.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-08-27.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +76,19 @@ podcast:
   - type: audio/mpeg
     length: 106585878
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #844'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-08-27.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-08-27.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-08-27.mp3
   size: 106585878

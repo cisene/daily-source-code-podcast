@@ -1,9 +1,11 @@
 episode: '849'
 title: Daily Source Code for Saturday October 16th 2010
 link: http://www.mevio.com/episode/253455/849-dsc-849-2010-10-16
-pubDate: Sun Oct 17 20:10:44 2010 +0000
+pubDate: Sun, 17 Oct 2010 20:10:44 +0000
 category: podcast
-description: '#849 Adam Curry''s Daily Source Code for Saturday October 16th 2020SNAFU Saturday Discover Simple, Private Sharing at Drop.io SNAFU SaturdayThe "Drop it while it''s hot" editionSupport This ShowDonate: No Agenda Founding Producer Donation Page dvorak.org—nas<br>PropagateBig App Show: bit.ly—Big bit.ly—BigAppShowDSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681\nDuration: 03:31:54'
+description: |-
+  #849 Adam Curry's Daily Source Code for Saturday October 16th 2020SNAFU Saturday Discover Simple, Private Sharing at Drop.io SNAFU SaturdayThe "Drop it while it's hot" editionSupport This ShowDonate: No Agenda Founding Producer Donation Page dvorak.org—nas<br>PropagateBig App Show: bit.ly—Big bit.ly—BigAppShowDSC App: itunes.apple.com—id377980681 itunes.apple.com—id377980681
+  Duration: 03:31:54
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,34 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/253455/849-dsc-849-2010-10-16
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-10-16.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-10-16.mp3
   length: 152738162
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Saturday October 16th 2010
   subtitle: Snafu Saturday
-  summary: '<b>#849 Adam Curry''s Daily Source Code for Saturday October 16th 2020<br>SNAFU Saturday<br></b><div><div>Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img src="http://drop.io/download/public/txrabdm9ykokqyh9etg4/37134b89a53663120f7c9b683b9c6b6feff83495/Asset/48850248/v3/large_thumbnail" alt="[Image]" height="384" width="480" /></div><div><ul><li>SNAFU Saturday<ul><li>The "Drop it while it''s hot" edition</li></ul></li><li>Support This Show<ul><li>Donate: <ul><li>No Agenda Founding Producer Donation Page<a href="http://dvorak.org/nas/">dvorak.org—nas</a><br></li></ul></li><li>Propagate<ul><li>Big App Show: bit.ly—Big<a href="http://bit.ly/BigAppShow">bit.ly—Big</a>AppShow</li><li>DSC App: itunes.apple.com—id377980681<a href="http://itunes.apple.com/us/app/daily-source-code/id377980681?mt=8">itunes.apple.com—id377980681</a><br></li></ul></li></ul></li></ul></div>'
+  summary: |-
+    #849 Adam Curry's Daily Source Code for Saturday October 16th 2020
+    SNAFU Saturday
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - SNAFU Saturday
+    - The "Drop it while it's hot" edition
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Pagedvorak.org—nas
+    - Propagate
+    - Big App Show: bit.ly—Bigbit.ly—BigAppShow
+    - DSC App: itunes.apple.com—id377980681itunes.apple.com—id377980681
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 12714
   season: null
   episode: '849'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-849'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '849'
   season: null
@@ -40,20 +55,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-849'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-849'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-10-16.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-849'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-10-16.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-10-16.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +77,19 @@ podcast:
   - type: audio/mpeg
     length: 152738162
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #849'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-10-16.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-10-16.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-10-16.mp3
   size: 152738162

@@ -1,7 +1,7 @@
 episode: '400'
 title: Daily Source Code for Tuesday June 6th 2006
 link: http://curry.podshow.com/?p=172
-pubDate: Tue Jun  6 13:40:53 2006 +0000
+pubDate: Tue, 06 Jun 2006 13:40:53 +0000
 category: podcast
 description: |-
   Daily Source Code for Tuesday June 6th 2006<p>
@@ -29,7 +29,8 @@ description: |-
 
   Direct Link to the show<br>
   User <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
-  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 01:01:46
+  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes
+  Duration: 01:01:46
 author: Adam Curry
 language: en-us
 comments: null
@@ -37,7 +38,7 @@ guid:
   isPermaLink: false
   link: http://curry.podshow.com/?p=172
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-06.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-06.mp3
   length: 44439497
   type: audio/mpeg
 itunes:
@@ -45,39 +46,59 @@ itunes:
   title: Daily Source Code for Tuesday June 6th 2006
   subtitle: 'Adam Curry''s Daily Source Code #21'
   summary: |-
-    Daily Source Code for Tuesday June 6th 2006<p>
-    <p>
-    From Curry Cottage in Guildford, UK.
-    <p>
-    ac400thShow.mp3<br>
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=66aa1951c6103069c0202b8fda205532">01_Soul_Town.mp3</a><br>
-    Howard Greenstein's <a href="http://getwellsawyer.googlepages.com/">Nephew</a><br>
-    adamcommentshow400.mp3<br>
-    Yivtach.mp3<br>
-    VM Numbers: (201) 625-6357 or 44-20-7681-3753<br>
-    Win-Dock<br>
-    Trinity <a href="http://newfangledgreen.com/2006/06/03/students-unveil-trinity-a-200-mpg-suv/">Rip-Off</a><br>
-    CongratsOnDSC400FromDerek.mp3<br>
-    Gay Means Rubbish <a href="http://www.timesonline.co.uk/article/0,,2-2212170,00.html#cid=OTC">BBC</a><br>
-    World Cup <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=aadc10e3960d848fd852eac34175f5d2">Come on England</a><br>
-    jtspromo.mp3<br>
-    Ad <a href="http://adchallenge.podshow.com/">Challenge</a><br>
-    dscfb2.mp3<br>
-    macWoes.mp3<br>
-    Wife Beaters<br>
-    garyAlexanderSongIntro.mp3<br>
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=db3a04fae471b9b2cf6f50e38e636c63">Once_Upon_A_Time_In_America</a>.mp3<p>
+    Daily Source Code for Tuesday June 6th 2006
 
-    Direct Link to the show<br>
-    User <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
-    <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 01:01:46
+    From Curry Cottage in Guildford, UK.
+
+    ac400thShow.mp3
+
+    01_Soul_Town.mp3
+
+    Howard Greenstein's Nephew
+
+    adamcommentshow400.mp3
+
+    Yivtach.mp3
+
+    VM Numbers: (201) 625-6357 or 44-20-7681-3753
+
+    Win-Dock
+
+    Trinity Rip-Off
+
+    CongratsOnDSC400FromDerek.mp3
+
+    Gay Means Rubbish BBC
+
+    World Cup Come on England
+
+    jtspromo.mp3
+
+    Ad Challenge
+
+    dscfb2.mp3
+
+    macWoes.mp3
+
+    Wife Beaters
+
+    garyAlexanderSongIntro.mp3
+
+    Once_Upon_A_Time_In_America.mp3
+
+    Direct Link to the show
+
+    User Shownotes
+
+    Subscribe in iTunes
+    Duration: 01:01:46
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3706
   season: null
   episode: '400'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-400'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '400'
   season: null
@@ -92,20 +113,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-400'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-400'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-06-06.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-400'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-06-06.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-06-06.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -113,10 +135,19 @@ podcast:
   - type: audio/mpeg
     length: 44439497
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #400'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-06.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-06.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-06-06.mp3
   size: 44439497

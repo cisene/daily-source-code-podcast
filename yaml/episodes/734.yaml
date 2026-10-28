@@ -1,9 +1,11 @@
 episode: '734'
 title: Daily Source Code for Monday March 17th 2008
 link: http://radio.weblogs.com/0001014/2008/03/17.html#a349
-pubDate: Mon Mar 17 16:37:41 2008 +0000
+pubDate: Mon, 17 Mar 2008 16:37:41 +0000
 category: podcast
-description: '  <p><strong>#734 Daily Source Code for Monday March 17th 2008</strong></p><p><font size="2"><strong>Music in this episode:</strong></p><p><font size="2">Here’s the DSC Demographics<a href="http://tinyurl.com/356kct">survey link</a></p><p>For lowest prices on domain names, check out the<a href="http://curry.podshow.com/?page_id=845">DSC GoDaddy coupons</a>you can use for the best discount anywhere.</p><p>Now available exclusively through PodShow, a<a href="http://curry.podshow.com/?page_id=846">15% discount</a>on the Nokia N810 Internet Tablet. Check out my promo codes and coupon page links.</p>\nDuration: 00:50:39'
+description: |2-
+    <p><strong>#734 Daily Source Code for Monday March 17th 2008</strong></p><p><font size="2"><strong>Music in this episode:</strong></p><p><font size="2">Here’s the DSC Demographics<a href="http://tinyurl.com/356kct">survey link</a></p><p>For lowest prices on domain names, check out the<a href="http://curry.podshow.com/?page_id=845">DSC GoDaddy coupons</a>you can use for the best discount anywhere.</p><p>Now available exclusively through PodShow, a<a href="http://curry.podshow.com/?page_id=846">15% discount</a>on the Nokia N810 Internet Tablet. Check out my promo codes and coupon page links.</p>
+  Duration: 00:50:39
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,32 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2008/03/17.html#a349
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2008-03-17.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-03-17.mp3
   length: 48750931
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday March 17th 2008
   subtitle: null
-  summary: '  <p><strong>#734 Daily Source Code for Monday March 17th 2008</strong></p><p><font size="2"><strong>Music in this episode:</strong></p><p><font size="2">Here’s the DSC Demographics<a href="http://tinyurl.com/356kct">survey link</a></p><p>For lowest prices on domain names, check out the<a href="http://curry.podshow.com/?page_id=845">DSC GoDaddy coupons</a>you can use for the best discount anywhere.</p><p>Now available exclusively through PodShow, a<a href="http://curry.podshow.com/?page_id=846">15% discount</a>on the Nokia N810 Internet Tablet. Check out my promo codes and coupon page links.</p>\nDuration: 00:50:39'
+  summary: |-
+    #734 Daily Source Code for Monday March 17th 2008
+
+    Music in this episode:
+
+    Here’s the DSC Demographicssurvey link
+
+    For lowest prices on domain names, check out theDSC GoDaddy couponsyou can use for the best discount anywhere.
+
+    Now available exclusively through PodShow, a15% discounton the Nokia N810 Internet Tablet. Check out my promo codes and coupon page links.
+
+    Duration: 00:50:39
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3039
   season: null
   episode: '734'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-734'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '734'
   season: null
@@ -40,20 +53,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-734'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-734'
+  - url: https://thedailysourcecode.com/chapters/DSC-2008-03-17.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-734'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2008-03-17.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2008-03-17.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +75,19 @@ podcast:
   - type: audio/mpeg
     length: 48750931
     bitrate: 128000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #734'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2008-03-17.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-03-17.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2008-03-17.mp3
   size: 48750931

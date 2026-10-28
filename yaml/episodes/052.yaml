@@ -1,9 +1,11 @@
 episode: '052'
 title: no source 2day
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/22.html#a6793
-pubDate: Fri Oct 22 20:07:09 2004 +0000
+pubDate: Fri, 22 Oct 2004 20:07:09 +0000
 category: podcast
-description: 'Dave and I just finished taping the Gillmor Gang and it''s late here. I think instead of taping a source code Patricia and I are going to have sex. Hope you don''t mind. Now that I think of it, could be an interesting podcast...\nDuration: 00:01:23'
+description: |-
+  Dave and I just finished taping the Gillmor Gang and it's late here. I think instead of taping a source code Patricia and I are going to have sex. Hope you don't mind. Now that I think of it, could be an interesting podcast...
+  Duration: 00:01:23
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/10/22.html#a6793
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-22-to-adam-from-dawn.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-22-to-adam-from-dawn.mp3
   length: 251127
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: no source 2day
   subtitle: null
-  summary: Dave and I just finished taping the<a href="http://itconversations.com/series/gillmorgang.html">Gillmor Gang</a>and it's late here. I think instead of taping a source code Patricia and I are going to have sex. Hope you don't mind. Now that I think of it, could be an interesting podcast...
+  summary: Dave and I just finished taping theGillmor Gangand it's late here. I think instead of taping a source code Patricia and I are going to have sex. Hope you don't mind. Now that I think of it, could be an interesting podcast...
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 83
   season: null
   episode: '052'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-052'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '052'
   season: null
@@ -40,20 +42,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-052'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-052'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-10-22-to-adam-from-dawn.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-052'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-10-22-to-adam-from-dawn.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-10-22-to-adam-from-dawn.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +64,19 @@ podcast:
   - type: audio/mpeg
     length: 251127
     bitrate: 24215
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #52'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-10-22-to-adam-from-dawn.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-22-to-adam-from-dawn.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: to-adam-from-dawn.mp3
   size: 251127

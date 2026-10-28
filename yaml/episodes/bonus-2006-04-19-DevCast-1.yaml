@@ -1,7 +1,7 @@
 episode: null
 title: DevCast 1
 link: http://m.podshow.com/media/204/episodes/4080/devcast-4080-04-19-2006.mp3
-pubDate: Wed Apr 19 17:57:22 2006 +0000
+pubDate: Wed, 19 Apr 2006 17:57:22 +0000
 category: podcast
 description: The first PodShow+ and PDN developers podcast with Andrew Grumet
 author: Adam Curry
@@ -11,7 +11,7 @@ guid:
   isPermaLink: false
   link: http://m.podshow.com/media/204/episodes/4080/devcast-4080-04-19-2006.mp3
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-19-DevCast-1.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-19-DevCast-1.mp3
   length: 10550361
   type: audio/mpeg
 itunes:
@@ -25,7 +25,8 @@ itunes:
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -35,14 +36,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
-  chapters: null
-  transcript: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-04-19-DevCast-1.json
+    type: application/json+chapters
+  transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-04-19-DevCast-1.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-04-19-DevCast-1.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -50,10 +58,19 @@ podcast:
   - type: audio/mpeg
     length: 10550361
     bitrate: 96342
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-04-19
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-04-19-DevCast-1.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-19-DevCast-1.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-04-22-DevCast-1.mp3
   size: 10550361

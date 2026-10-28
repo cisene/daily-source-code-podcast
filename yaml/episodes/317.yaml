@@ -1,9 +1,11 @@
 episode: '317'
 title: Daily Source Code for Tuesday January 17th 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/17.html#a7232
-pubDate: Tue Jan 17 09:12:00 2006 +0000
+pubDate: Tue, 17 Jan 2006 09:12:00 +0000
 category: podcast
-description: '#317 Daily Source Code for Tuesday January 17th 2006 From Curry Condo, San Francisco, California- 01_Wake_Up_again* Atlanta- PodshowLifespringPromo- A%20message%20to%20DSC- Earthlink- DSC_polarbear* Senseo* MM* Argyle Pimps feedback* Car Cast- Roger Smalls* London air show- Francis_Jocky_My_lifeDirect Link to the show<br>Subscribe to the feed<br>Subscribe with iTunes<br>Time Code Based Shownotes\nDuration: 00:38:53'
+description: |-
+  #317 Daily Source Code for Tuesday January 17th 2006 From Curry Condo, San Francisco, California- 01_Wake_Up_again* Atlanta- PodshowLifespringPromo- A%20message%20to%20DSC- Earthlink- DSC_polarbear* Senseo* MM* Argyle Pimps feedback* Car Cast- Roger Smalls* London air show- Francis_Jocky_My_lifeDirect Link to the show<br>Subscribe to the feed<br>Subscribe with iTunes<br>Time Code Based Shownotes
+  Duration: 00:38:53
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,45 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/17.html#a7232
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-17.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-17.mp3
   length: 27997780
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday January 17th 2006
   subtitle: null
-  summary: <br>#317 Daily Source Code for Tuesday January 17th 2006<br><br><p><br></p>From Curry Condo, San Francisco, California<br>- 01_Wake_Up_again<br>* Atlanta<br>- PodshowLifespringPromo<br>- A%20message%20to%20DSC<br>- Earthlink<br>- DSC_polarbear<br>* Senseo<br>* MM<br>* Argyle Pimps feedback<br>* Car Cast<br>- Roger Smalls<br>* London air show<br>- Francis_Jocky_My_life<br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-317-2006-01-17a.mp3">Link</a>to the show<br><br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br><br>Time Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #317 Daily Source Code for Tuesday January 17th 2006
+
+    From Curry Condo, San Francisco, California
+    - 01_Wake_Up_again
+    * Atlanta
+    - PodshowLifespringPromo
+    - A%20message%20to%20DSC
+    - Earthlink
+    - DSC_polarbear
+    * Senseo
+    * MM
+    * Argyle Pimps feedback
+    * Car Cast
+    - Roger Smalls
+    * London air show
+    - Francis_Jocky_My_life
+
+    Directto the show
+
+    Subscribe to the
+
+    Subscribe withiTunes
+
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2333
   season: null
   episode: '317'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-317'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '317'
   season: null
@@ -40,20 +66,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-317'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-317'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-01-17.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-317'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-01-17.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-01-17.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +88,19 @@ podcast:
   - type: audio/mpeg
     length: 27997780
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #317'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-17.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-17.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-01-17.mp3
   size: 27997780

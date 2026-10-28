@@ -1,9 +1,11 @@
 episode: '235'
 title: Daily Source Code for Monday September 05th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/09/05.html#a7129
-pubDate: Mon Sep  5 09:10:44 2005 +0000
+pubDate: Mon, 05 Sep 2005 09:10:44 +0000
 category: podcast
-description: 'One foot out the door for a quickie NY trip, so today''s Source Code is a short ''JobCast'' from Podshow HQ in SF. Direct Link to the show\nDuration: 00:15:36'
+description: |-
+  One foot out the door for a quickie NY trip, so today's Source Code is a short 'JobCast' from Podshow HQ in SF. Direct Link to the show
+  Duration: 00:15:36
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,24 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/09/05.html#a7129
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-09-05.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-09-05.mp3
   length: 11243010
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday September 05th 2005
   subtitle: null
-  summary: <br><span><br><br><br><br></span>One foot out the door for a quickie NY trip, so today's Source Code is a short 'JobCast' from Podshow HQ in SF.<br><p><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-235-2005-09-05.mp3">Link</a>to the show<br><p><br><br><span></span><br>
+  summary: |-
+    One foot out the door for a quickie NY trip, so today's Source Code is a short 'JobCast' from Podshow HQ in SF.
+
+    Directto the show
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 936
   season: null
   episode: '235'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-235'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '235'
   season: null
@@ -40,20 +45,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-235'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-235'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-09-05.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-235'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-09-05.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-09-05.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +67,19 @@ podcast:
   - type: audio/mpeg
     length: 11243010
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #235'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-09-05.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-09-05.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-09-05.mp3
   size: 11243010

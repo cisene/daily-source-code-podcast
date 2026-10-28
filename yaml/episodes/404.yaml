@@ -1,7 +1,7 @@
 episode: '404'
 title: Daily Source Code for Thursday June 15th 2006
 link: http://curry.podshow.com/?p=184
-pubDate: Thu Jun 15 15:34:58 2006 +0000
+pubDate: Thu, 15 Jun 2006 15:34:58 +0000
 category: podcast
 description: |-
   #404 Daily Source Code for Thursday June 15th 2006
@@ -32,7 +32,8 @@ description: |-
 
 
   User <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a>
-  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 00:48:19
+  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes
+  Duration: 00:48:19
 author: Adam Curry
 language: en-us
 comments: null
@@ -40,7 +41,7 @@ guid:
   isPermaLink: false
   link: http://curry.podshow.com/?p=184
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-15.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-15.mp3
   length: 34771916
   type: audio/mpeg
 itunes:
@@ -52,38 +53,38 @@ itunes:
 
     From The Curry Condo, San Francisco, Ca.
 
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=88c5412e11c4d0bcdd32d9bad0292ee3">gentlemen_losers</a>-2002-7.5-01-married_on_monday.mp3
+    gentlemen_losers-2002-7.5-01-married_on_monday.mp3
     Rachmaninov_Vocalise.mp3
     Rachmaninov
     Trinity
     Batteries
     Levitz
     Brigid
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=19e0f237df2dbb3427df9f45710e5adb">BigMountainFudgeCake</a>-GodHatesPenguins.mp3
+    BigMountainFudgeCake-GodHatesPenguins.mp3
     Emily
     GaryFromNJlovesListening.wav
     Saturday Soccer
     snakeBite.wav
     soccer_shout_podcast_Jun14.mp3
-    <a href="http://adchallenge.podshow.com/">Ad Challenge</a>
+    Ad Challenge
     londonGatePodSafe.wav
     companion_music_feeds.mp3
     mpad50promo1.mp3
     pdLove.wav
     Begging for a contract.mp3
     lauraClappIntro.wav
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=467184aa28845217a21a5b0e5763aa84">Laura Clapp</a> Not_For_Me_-_Live.mp3
+    Laura Clapp Not_For_Me_-_Live.mp3
 
-
-    User <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a>
-    <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 00:48:19
+    User Shownotes
+    Subscribe in iTunes
+    Duration: 00:48:19
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2899
   season: null
   episode: '404'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-404'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '404'
   season: null
@@ -98,20 +99,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-404'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-404'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-06-15.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-404'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-06-15.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-06-15.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -119,10 +121,19 @@ podcast:
   - type: audio/mpeg
     length: 34771916
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #404'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-15.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-15.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-06-15.mp3
   size: 34771916

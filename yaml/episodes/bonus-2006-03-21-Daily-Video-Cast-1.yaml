@@ -1,14 +1,14 @@
 episode: null
 title: '#01 Daily Video Cast Tuesday March 21st 2006'
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/22.html#a7278
-pubDate: Wed Mar 22 04:39:02 2006 +0000
+pubDate: Wed, 22 Mar 2006 04:39:02 +0000
 category: podcast
 description: |-
   <br><div class="storycontent">
-           	<p>#01 Daily Video Cast Tuesday March 21st 2006<br>
+            <p>#01 Daily Video Cast Tuesday March 21st 2006<br>
   From Curry Condo San Francisco, Ca.</p>
-  	<p>Showing off Katja[base ']s skills as she implants me with an iPod</p>
-  	<p>Direct <a href="http://media.podshow.com/media/21/episodes/2857/deltasierracharl-2857-03-21-2006.m4v">Link</a> to Video
+   <p>Showing off Katja[base ']s skills as she implants me with an iPod</p>
+   <p>Direct <a href="http://media.podshow.com/media/21/episodes/2857/deltasierracharl-2857-03-21-2006.m4v">Link</a> to Video
   </p>
 author: Adam Curry
 language: en-us
@@ -17,7 +17,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/22.html#a7278
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-21-Daily-Video-Cast-1.m4v
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-03-21-Daily-Video-Cast-1.m4v
   length: 14170106
   type: video/x-m4v
 itunes:
@@ -25,19 +25,21 @@ itunes:
   title: '#01 Daily Video Cast Tuesday March 21st 2006'
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
   summary: |-
-    <br><div class="storycontent">
-             	<p>#01 Daily Video Cast Tuesday March 21st 2006<br>
-    From Curry Condo San Francisco, Ca.</p>
-    	<p>Showing off Katja[base ']s skills as she implants me with an iPod</p>
-    	<p>Direct <a href="http://media.podshow.com/media/21/episodes/2857/deltasierracharl-2857-03-21-2006.m4v">Link</a> to Video
-    </p>
+    #01 Daily Video Cast Tuesday March 21st 2006
+
+    From Curry Condo San Francisco, Ca.
+
+    Showing off Katja[base ']s skills as she implants me with an iPod
+
+    Direct to Video
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 160
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -47,14 +49,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +63,19 @@ podcast:
   - type: video/x-m4v
     length: 14170106
     bitrate: 706357
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-03-21
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-21-Daily-Video-Cast-1.m4v
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-03-21-Daily-Video-Cast-1.m4v
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-03-21.m4v
   size: 14170106

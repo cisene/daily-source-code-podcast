@@ -1,9 +1,11 @@
 episode: '085'
 title: Daily Source Code for Tuesday December 14th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/14.html#a6962
-pubDate: Tue Dec 14 14:00:46 2004 +0000
+pubDate: Tue, 14 Dec 2004 14:00:46 +0000
 category: podcast
-description: 'From the cottage, podsafe planetary premiere of Bari Koral, promos and more.<br>mp3 Production notes in html and opml\nDuration: 00:47:40'
+description: |-
+  From the cottage, podsafe planetary premiere of Bari Koral, promos and more.<br>mp3 Production notes in html and opml
+  Duration: 00:47:40
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,24 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/14.html#a6962
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-14.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-14.mp3
   length: 22889732
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday December 14th 2004
   subtitle: http://live.curry.com/opml/DSC-2004-12-14.opml
-  summary: From the cottage, podsafe planetary premiere of Bari Koral, promos and more.<p><br><br><a href="http://adam.opml.org/DSC20041214.mp3">mp3</a><p><br><br>Production notes in<a href="http://live.curry.com/outlines/DSC-2004-12-14.html">html</a>and<a href="http://live.curry.com/opml/DSC-2004-12-14.opml">opml</a><br>
+  summary: |-
+    From the cottage, podsafe planetary premiere of Bari Koral, promos and more.
+
+    Production notes inand
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2860
   season: null
   episode: '085'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-085'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '085'
   season: null
@@ -40,20 +45,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-085'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-085'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-12-14.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-085'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-12-14.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-12-14.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +67,19 @@ podcast:
   - type: audio/mpeg
     length: 22889732
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #85'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-14.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-14.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-12-14.mp3
   size: 22889732

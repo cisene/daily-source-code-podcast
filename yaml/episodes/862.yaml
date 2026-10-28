@@ -1,11 +1,12 @@
 episode: '862'
 title: Daily Source Code for Saturday April 16th 2011
 link: http://www.mevio.com/episode/280880/dsc-862-3011-04-16
-pubDate: Sun May 15 13:38:50 2011 +0000
+pubDate: Sun, 15 May 2011 13:38:50 +0000
 category: podcast
 description: |-
   #862 Adam Curry's Daily Source Code for Saturday April 16th 2011
-  The SNAFU Saturday Show\nDuration: 02:29:47
+  The SNAFU Saturday Show
+  Duration: 02:29:47
 author: Adam Curry
 language: en-us
 comments: null
@@ -13,7 +14,7 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/280880/dsc-862-3011-04-16
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2011-04-16.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2011-04-16.mp3
   length: 107862936
   type: audio/mpeg
 itunes:
@@ -22,14 +23,15 @@ itunes:
   subtitle: The SNAFU Saturday Show
   summary: |-
     #862 Adam Curry's Daily Source Code for Saturday April 16th 2011
-    The SNAFU Saturday Show\nDuration: 02:29:47
+    The SNAFU Saturday Show
+    Duration: 02:29:47
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 8987
   season: null
   episode: '862'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-862'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '862'
   season: null
@@ -44,20 +46,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-862'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-862'
+  - url: https://thedailysourcecode.com/chapters/DSC-2011-04-16.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-862'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2011-04-16.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2011-04-16.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -65,10 +68,19 @@ podcast:
   - type: audio/mpeg
     length: 107862936
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #862'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2011-04-16.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2011-04-16.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2011-04-16.mp3
   size: 107862936

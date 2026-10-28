@@ -1,9 +1,11 @@
 episode: '302'
 title: Daily Source Code for Tuesday December 20 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/12/20.html#a7214
-pubDate: Tue Dec 20 12:59:42 2005 +0000
+pubDate: Tue, 20 Dec 2005 12:59:42 +0000
 category: podcast
-description: '#302 Daily Source Code for Tuesday December 20th 2005 From Curry Cottage, Guildford, United Kingdom - 01_Horatio * Mach3Power * EggNog keep ''em comin''! - WPNPROMO7E - Gmail-Podcast-Promo - strom - Adam_Sex_Senseo_MadPod - MadPod - Podshow xmas f-up - fly_fly_fly * Performance rights - My_Own_Merry_Christmas * Accross the sound - Podshow-FATSACK * Trinity Direct Link to the show Subscribe to the feed Subscribe with iTunes Time Code Based Shownotes\nDuration: 00:40:47'
+description: |-
+  #302 Daily Source Code for Tuesday December 20th 2005 From Curry Cottage, Guildford, United Kingdom - 01_Horatio * Mach3Power * EggNog keep 'em comin'! - WPNPROMO7E - Gmail-Podcast-Promo - strom - Adam_Sex_Senseo_MadPod - MadPod - Podshow xmas f-up - fly_fly_fly * Performance rights - My_Own_Merry_Christmas * Accross the sound - Podshow-FATSACK * Trinity Direct Link to the show Subscribe to the feed Subscribe with iTunes Time Code Based Shownotes
+  Duration: 00:40:47
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,22 +13,56 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/12/20.html#a7214
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-20.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-20.mp3
   length: 29373349
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday December 20 2005
   subtitle: null
-  summary: <br>#302 Daily Source Code for Tuesday December 20th 2005<br><p><br><br><br><p><br></p><p><br><br>From Curry Cottage, Guildford, United Kingdom<br><p><br><br><br><p><br><br>- 01_Horatio<br><p><br><br>* Mach3Power<br><p><br><br>* EggNog keep 'em comin'!<br><p><br><br>- WPNPROMO7E<br><p><br><br>- Gmail-Podcast-Promo<br><p><br><br>- strom<br><p><br><br>- Adam_Sex_Senseo_MadPod<br><p><br><br>- MadPod<br><p><br><br>- Podshow xmas f-up<br><p><br><br>- fly_fly_fly<br><p><br><br>* Performance rights<br><p><br><br>- My_Own_Merry_Christmas<br><p><br><br>* Accross the sound<br><p><br><br>- Podshow-FATSACK<br><p><br><br>* Trinity<br><p><br><br><br><p><br><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-302-2005-12-20.mp3">Link</a>to the show<br><p><br><br><br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br><p><br><br><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br><p><br><br><br>Time
-    Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #302 Daily Source Code for Tuesday December 20th 2005
+
+    From Curry Cottage, Guildford, United Kingdom
+
+    - 01_Horatio
+
+    * Mach3Power
+
+    * EggNog keep 'em comin'!
+
+    - WPNPROMO7E
+    - Gmail-Podcast-Promo
+    - strom
+    - Adam_Sex_Senseo_MadPod
+    - MadPod
+    - Podshow xmas f-up
+    - fly_fly_fly
+
+    * Performance rights
+
+    - My_Own_Merry_Christmas
+
+    * Accross the sound
+
+    - Podshow-FATSACK
+
+    * Trinity
+
+    Directto the show
+
+    Subscribe to the
+
+    Subscribe withiTunes
+
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2447
   season: null
   episode: '302'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-302'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '302'
   season: null
@@ -41,20 +77,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-302'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-302'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-12-20.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-302'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-12-20.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-12-20.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +99,19 @@ podcast:
   - type: audio/mpeg
     length: 29373349
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #302'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-20.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-20.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-12-20.mp3
   size: 29373349

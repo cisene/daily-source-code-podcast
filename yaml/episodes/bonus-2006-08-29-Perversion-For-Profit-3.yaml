@@ -1,7 +1,7 @@
 episode: null
 title: PFP-003
 link: http://curry.podshow.com/?p=290
-pubDate: Tue Aug 29 08:41:55 2006 +0000
+pubDate: Tue, 29 Aug 2006 08:41:55 +0000
 category: podcast
 description: |-
   Episode 3 of my video show Perversion For Profit is up.
@@ -15,7 +15,7 @@ guid:
   isPermaLink: false
   link: http://curry.podshow.com/?p=290
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-08-29-Perversion-For-Profit-3.m4v
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-08-29-Perversion-For-Profit-3.m4v
   length: 73705250
   type: video/x-m4v
 itunes:
@@ -33,7 +33,8 @@ itunes:
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -43,14 +44,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -58,17 +58,26 @@ podcast:
   - type: video/x-m4v
     length: 73705250
     bitrate: 815361
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-08-29
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-08-29-Perversion-For-Profit-3.m4v
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-08-29-Perversion-For-Profit-3.m4v
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: PFP-003.m4v
   size: 73705250
   duration: 723
   bitrate: 815361
   source: 2006/PFP-003.m4v
-  origin_url: null
+  origin_url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-08-29-Perversion-For-Profit-3.m4v
 bonus:
   id: 2006-08-29-Perversion-For-Profit-3
   kind: adam

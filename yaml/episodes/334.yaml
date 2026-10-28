@@ -1,7 +1,7 @@
 episode: '334'
 title: Daily Source Code for Friday February 10 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/10.html#a7251
-pubDate: Fri Feb 10 13:48:37 2006 +0000
+pubDate: Fri, 10 Feb 2006 13:48:37 +0000
 category: podcast
 description: |-
   - Scamper Talks to Adam
@@ -9,7 +9,8 @@ description: |-
   -The lovely Patricia joins for a chat
   * Idol vs Grannies
   - Sexy_Adam-Biddies
-  - Granian-SexInABox\nDuration: 00:39:57
+  - Granian-SexInABox
+  Duration: 00:39:57
 author: Adam Curry
 language: en-us
 comments: null
@@ -17,7 +18,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/10.html#a7251
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-10.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-10.mp3
   length: 28763534
   type: audio/mpeg
 itunes:
@@ -30,14 +31,15 @@ itunes:
     -The lovely Patricia joins for a chat
     * Idol vs Grannies
     - Sexy_Adam-Biddies
-    - Granian-SexInABox\nDuration: 00:39:57
+    - Granian-SexInABox
+    Duration: 00:39:57
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2397
   season: null
   episode: '334'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-334'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '334'
   season: null
@@ -52,20 +54,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-334'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-334'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-02-10.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-334'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-02-10.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-02-10.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -73,10 +76,19 @@ podcast:
   - type: audio/mpeg
     length: 28763534
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #334'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-10.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-10.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-02-10.mp3
   size: 28763534

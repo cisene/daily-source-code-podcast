@@ -1,9 +1,11 @@
 episode: '255'
 title: Daily Source Code for Thursday October 06th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/06.html#a7159
-pubDate: Thu Oct  6 21:51:56 2005 +0000
+pubDate: Thu, 06 Oct 2005 21:51:56 +0000
 category: podcast
-description: 'Daily Source Code for Thursday October 6th 2005 #255 From Curry Cottage, Guildford, UK Direct Link to the show Time-code based Shownotes\nDuration: 00:49:05'
+description: |-
+  Daily Source Code for Thursday October 6th 2005 #255 From Curry Cottage, Guildford, UK Direct Link to the show Time-code based Shownotes
+  Duration: 00:49:05
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,28 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/06.html#a7159
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-06.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-10-06.mp3
   length: 35341563
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday October 06th 2005
   subtitle: null
-  summary: 'Daily Source Code for Thursday October 6th 2005 #255<br><p><br><br>From Curry Cottage, Guildford, UK<br><p><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-255-2005-10-06.mp3">Link</a>to the show<br><p><br><br>Time-code based<a href="http://dailysourcecode.secretelite.com/Main_Page">Shownotes</a><br>'
+  summary: |-
+    Daily Source Code for Thursday October 6th 2005 #255
+
+    From Curry Cottage, Guildford, UK
+
+    Directto the show
+
+    Time-code basedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2945
   season: null
   episode: '255'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-255'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '255'
   season: null
@@ -40,20 +49,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-255'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-255'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-10-06.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-255'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-10-06.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-10-06.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +71,19 @@ podcast:
   - type: audio/mpeg
     length: 35341563
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #255'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-06.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-10-06.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-255-2005-10-06.mp3
   size: 35341563

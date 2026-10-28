@@ -1,9 +1,11 @@
 episode: '833'
 title: Daily Source Code for Friday May 21st 2010
 link: http://www.mevio.com/episode/232486/dsc-833-2010-05-21
-pubDate: Fri May 21 21:13:32 2010 +0000
+pubDate: Fri, 21 May 2010 21:13:32 +0000
 category: podcast
-description: ' <b>#833 Adam Curry''s Daily Source Code For Friday May 21st 2010</b><br><div><div style="text-align:left;color:rgb(89,86,83);font-size:11px;font-family:Verdana, sans-serif;padding-top:10px;padding-right:5px;">Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img src="http://drop.io/download/public/luvbkwqywx2y8k936bpi/1835e209a3715fe5227d3f808452d3343550cb87/Asset/32622212/v3/large_thumbnail" alt="" width="480" height="384" /></div><ul><li>The All Request Fubar Friday</li><li>Support This Show<ul><li>Donate: <ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li></ul></li></ul>\nDuration: 01:55:42'
+description: |2-
+   <b>#833 Adam Curry's Daily Source Code For Friday May 21st 2010</b><br><div><div style="text-align:left;color:rgb(89,86,83);font-size:11px;font-family:Verdana, sans-serif;padding-top:10px;padding-right:5px;">Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img src="http://drop.io/download/public/luvbkwqywx2y8k936bpi/1835e209a3715fe5227d3f808452d3343550cb87/Asset/32622212/v3/large_thumbnail" alt="" width="480" height="384" /></div><ul><li>The All Request Fubar Friday</li><li>Support This Show<ul><li>Donate: <ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li></ul></li></ul>
+  Duration: 01:55:42
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,31 @@ guid:
   isPermaLink: false
   link: http://www.mevio.com/episode/232486/dsc-833-2010-05-21
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2010-05-21.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-05-21.mp3
   length: 83478696
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday May 21st 2010
   subtitle: The Fubar Friday All Request Extravaganza
-  summary: ' <b>#833 Adam Curry''s Daily Source Code For Friday May 21st 2010</b><br><div><div style="text-align:left;color:rgb(89,86,83);font-size:11px;font-family:Verdana, sans-serif;padding-top:10px;padding-right:5px;">Discover Simple, Private Sharing at<a href="http://drop.io">Drop.io</a></div><img src="http://drop.io/download/public/luvbkwqywx2y8k936bpi/1835e209a3715fe5227d3f808452d3343550cb87/Asset/32622212/v3/large_thumbnail" alt="" width="480" height="384" /></div><ul><li>The All Request Fubar Friday</li><li>Support This Show<ul><li>Donate: <ul><li><a href="http://dvorak.org/nas/">No Agenda Founding Producer Donation Page</a></li></ul></li></ul></li></ul>\nDuration: 01:55:42'
+  summary: |-
+    #833 Adam Curry's Daily Source Code For Friday May 21st 2010
+
+    Discover Simple, Private Sharing atDrop.io
+
+    - The All Request Fubar Friday
+    - Support This Show
+    - Donate:
+    - No Agenda Founding Producer Donation Page
+
+    Duration: 01:55:42
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 6942
   season: null
   episode: '833'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-833'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '833'
   season: null
@@ -40,20 +52,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-833'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-833'
+  - url: https://thedailysourcecode.com/chapters/DSC-2010-05-21.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-833'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2010-05-21.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2010-05-21.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +74,19 @@ podcast:
   - type: audio/mpeg
     length: 83478696
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #833'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2010-05-21.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-05-21.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2010-05-21.mp3
   size: 83478696

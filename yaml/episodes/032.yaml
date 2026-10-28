@@ -1,9 +1,11 @@
 episode: '032'
 title: trade secrets september 22 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/09/22.html#a6605
-pubDate: Wed Sep 22 19:52:33 2004 +0000
+pubDate: Wed, 22 Sep 2004 19:52:33 +0000
 category: podcast
-description: 'Our second show is up! Trade Secrets mp3, 1 hour 19 minutes, 57 mb\nDuration: 00:10:55'
+description: |-
+  Our second show is up! Trade Secrets mp3, 1 hour 19 minutes, 57 mb
+  Duration: 00:10:55
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/09/22.html#a6605
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-09-22-Trade-Secrets.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-09-22-Trade-Secrets.mp3
   length: 8215375
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: trade secrets september 22 2004
   subtitle: null
-  summary: Our second show is up! <a href="http://secrets.scripting.com/2004/09/22#a26">Trade Secrets</a><a href="http://cloud2.urj.nl/gems/TS-2004-09-22.mp3">mp3</a>, 1 hour 19 minutes, 57 mb<br><br>
+  summary: Our second show is up! Trade Secrets, 1 hour 19 minutes, 57 mb
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 655
   season: null
   episode: '032'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-032'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '032'
   season: null
@@ -40,20 +42,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-032'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-032'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-09-22-Trade-Secrets.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-032'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-09-22-Trade-Secrets.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-09-22-Trade-Secrets.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +64,19 @@ podcast:
   - type: audio/mpeg
     length: 8215375
     bitrate: 13765
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #32'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-09-22-Trade-Secrets.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-09-22-Trade-Secrets.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: TS-2004-09-22.mp3
   size: 8215375

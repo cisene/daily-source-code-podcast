@@ -1,9 +1,11 @@
 episode: '285'
 title: Daily Source Code for Wednesday November 23rd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/23.html#a7196
-pubDate: Wed Nov 23 14:46:33 2005 +0000
+pubDate: Wed, 23 Nov 2005 14:46:33 +0000
 category: podcast
-description: '#285 Daily Source Code for Wednesday November 23d 2005 From Curry Cottage, Guildford United Kingdom. Rockin'' ''round the podmas tree Direct Link to the show Subscribe to the feed Subscribe with iTunes Time Code Based Shownotes\nDuration: 00:48:32'
+description: |-
+  #285 Daily Source Code for Wednesday November 23d 2005 From Curry Cottage, Guildford United Kingdom. Rockin' 'round the podmas tree Direct Link to the show Subscribe to the feed Subscribe with iTunes Time Code Based Shownotes
+  Duration: 00:48:32
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,34 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/11/23.html#a7196
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-23.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-11-23.mp3
   length: 34955680
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday November 23rd 2005
   subtitle: null
-  summary: <br>#285 Daily Source Code for Wednesday November 23d 2005<br><p><br><br><p><br></p><p><br><br>From Curry Cottage, Guildford United Kingdom.<br><p><br><br><br><br><br>Rockin' 'round the podmas tree<br><p><br><br><br><br><p><br><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-285-2005-11-23.mp3">Link</a>to the show<br><p><br><br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br><p><br><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br><p><br><br>Time Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #285 Daily Source Code for Wednesday November 23d 2005
+
+    From Curry Cottage, Guildford United Kingdom.
+
+    Rockin' 'round the podmas tree
+
+    Directto the show
+
+    Subscribe to the
+
+    Subscribe withiTunes
+
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2912
   season: null
   episode: '285'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-285'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '285'
   season: null
@@ -40,20 +55,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-285'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-285'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-11-23.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-285'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-11-23.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-11-23.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +77,19 @@ podcast:
   - type: audio/mpeg
     length: 34955680
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #285'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-11-23.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-11-23.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-11-23.mp3
   size: 34955680

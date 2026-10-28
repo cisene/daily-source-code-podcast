@@ -1,9 +1,11 @@
 episode: '243'
 title: Daily Source Code for Wednesday September 21st 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/09/21.html#a7141
-pubDate: Wed Sep 21 17:43:21 2005 +0000
+pubDate: Wed, 21 Sep 2005 17:43:21 +0000
 category: podcast
-description: '▼ Daily Source Code for Monday September 21st 2005 #243From Curry Condo, San Francisco, CaliforniaDirect Link to the show\nDuration: 00:43:05'
+description: |-
+  ▼ Daily Source Code for Monday September 21st 2005 #243From Curry Condo, San Francisco, CaliforniaDirect Link to the show
+  Duration: 00:43:05
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,24 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/09/21.html#a7141
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-09-21.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-09-21.mp3
   length: 31031371
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday September 21st 2005
   subtitle: null
-  summary: '<br>&#9660; Daily Source Code for Monday September 21st 2005 #243<br>From Curry Condo, San Francisco, California<br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-243-2005-09-21.mp3">Link</a>to the show<br>'
+  summary: |-
+    ▼ Daily Source Code for Monday September 21st 2005 #243
+    From Curry Condo, San Francisco, California
+    Directto the show
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2585
   season: null
   episode: '243'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-243'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '243'
   season: null
@@ -40,20 +45,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-243'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-243'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-09-21.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-243'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-09-21.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-09-21.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +67,19 @@ podcast:
   - type: audio/mpeg
     length: 31031371
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #243'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-09-21.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-09-21.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-09-21.mp3
   size: 31031371

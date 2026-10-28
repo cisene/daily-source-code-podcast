@@ -1,9 +1,11 @@
 episode: '355'
 title: Daily Source Code for Friday March 17th 2006
 link: http://radio.weblogs.com/0001014/2006/03/17.html#a7273
-pubDate: Fri Mar 17 14:35:17 2006 +0000
+pubDate: Fri, 17 Mar 2006 14:35:17 +0000
 category: podcast
-description: '#355 Daily Source Code for Friday March 17th 2006<br>From The Curry Condo, San Francisco, Ca.<br>- stPaddy<br>- paddy Mix<br>- Audio Comment DSC 354 overmodulated<br>- BOD Meeting<br>- P-Dub onNoseHair<br>- IndieFilmNation_DSC_Promo<br>- caligoestocali-comment<br>* Sign-off<br>* JobCast<br>* BT<br>- csb-2006-03-15-b<br>* Kevin Reeves<br>Direct Link to the show<br>User Shownotes<br>Subscribe in iTunes\nDuration: 00:35:39'
+description: |-
+  #355 Daily Source Code for Friday March 17th 2006<br>From The Curry Condo, San Francisco, Ca.<br>- stPaddy<br>- paddy Mix<br>- Audio Comment DSC 354 overmodulated<br>- BOD Meeting<br>- P-Dub onNoseHair<br>- IndieFilmNation_DSC_Promo<br>- caligoestocali-comment<br>* Sign-off<br>* JobCast<br>* BT<br>- csb-2006-03-15-b<br>* Kevin Reeves<br>Direct Link to the show<br>User Shownotes<br>Subscribe in iTunes
+  Duration: 00:35:39
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,22 +13,48 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2006/03/17.html#a7273
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-17.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-17.mp3
   length: 25673053
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday March 17th 2006
   subtitle: null
-  summary: <p>#355 Daily Source Code for Friday March 17th 2006</p><br><p>From The Curry Condo, San Francisco, Ca.</p><br><p>- <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=adc643232c95b1fcd30feb8f135e3e40">stPaddy</a><br><br>- <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=f0a185f98b0a2eaeac00948557557322">paddy</a><a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=aebbfb4dde8fb9123f1d8b9e110a9e42">Mix</a><br><br>- Audio Comment DSC 354 overmodulated<br><br>- BOD Meeting<br><br>- P-Dub onNoseHair<br><br>- IndieFilmNation_DSC_Promo<br><br>- caligoestocali-comment<br><br>* Sign-off<br><br>* JobCast<br><br>* BT<br><br>- csb-2006-03-15-b<br><br>* <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=6d2e6d5fa53f967519b617ffb79beafd">Kevin Reeves</a></p><br><p>Direct<a href="http://media.podshow.com/media/21/episodes/2565/deltasierracharl-2565-03-17-2006_pshow_1302.mp3">Link</a>to the
-    show<br><br>User<a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br><br><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&amp;s=143441&amp;i=2663806">Subscribe</a>in iTunes<br></p>
+  summary: |-
+    #355 Daily Source Code for Friday March 17th 2006
+
+    From The Curry Condo, San Francisco, Ca.
+
+    - stPaddy
+    - paddyMix
+    - Audio Comment DSC 354 overmodulated
+    - BOD Meeting
+    - P-Dub onNoseHair
+    - IndieFilmNation_DSC_Promo
+    - caligoestocali-comment
+
+    * Sign-off
+
+    * JobCast
+
+    * BT
+
+    - csb-2006-03-15-b
+
+    * Kevin Reeves
+
+    Directto the show
+
+    UserShownotes
+
+    Subscribein iTunes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2139
   season: null
   episode: '355'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-355'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '355'
   season: null
@@ -41,20 +69,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-355'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-355'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-03-17.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-355'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-03-17.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-03-17.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +91,19 @@ podcast:
   - type: audio/mpeg
     length: 25673053
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #355'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-17.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-17.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-03-17.mp3
   size: 25673053

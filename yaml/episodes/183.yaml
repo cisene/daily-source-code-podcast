@@ -1,9 +1,11 @@
 episode: '183'
 title: Daily Source Code for Tuesday May 24th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/05/24.html#a7075
-pubDate: Tue May 24 04:15:38 2005 +0000
+pubDate: Tue, 24 May 2005 04:15:38 +0000
 category: podcast
-description: 'After 20 hours of being stuck in Phoenix we decide to take matters into our own hands. Our trip is far from over and the series is certainly to be continued... mp3 Slide show to go with the last 10 minutes of this ''cast\nDuration: 00:20:18'
+description: |-
+  After 20 hours of being stuck in Phoenix we decide to take matters into our own hands. Our trip is far from over and the series is certainly to be continued... mp3 Slide show to go with the last 10 minutes of this 'cast
+  Duration: 00:20:18
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,26 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/05/24.html#a7075
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-05-24.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-24.mp3
   length: 9751187
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday May 24th 2005
   subtitle: null
-  summary: <br><h4>After 20 hours of being stuck in Phoenix we decide to take matters into our own hands.<br><br></h4><p><br><br>Our trip is far from over and the series is certainly to be continued...<br><p><br><br><br><p><br><br><a href="http://mp3.dailysourcecode.podshow.com/DSC-2005-05-24.mp3">mp3</a><br><p><br><br><br><p><br><br><a href="http://flickr.com/photos/adamc1999/sets/370676/show/">Slide show</a>to go with the last 10 minutes of this 'cast<br><p><br><br><br><br>
+  summary: |-
+    After 20 hours of being stuck in Phoenix we decide to take matters into our own hands.
+
+    Our trip is far from over and the series is certainly to be continued...
+
+    Slide showto go with the last 10 minutes of this 'cast
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1218
   season: null
   episode: '183'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-183'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '183'
   season: null
@@ -40,20 +47,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-183'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-183'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-05-24.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-183'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-05-24.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-05-24.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +69,19 @@ podcast:
   - type: audio/mpeg
     length: 9751187
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #183'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-05-24.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-24.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-05-24.mp3
   size: 9751187

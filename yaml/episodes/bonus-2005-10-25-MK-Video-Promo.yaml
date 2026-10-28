@@ -1,7 +1,7 @@
 episode: null
 title: MK Video Promo
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/25.html#a7176
-pubDate: Tue Oct 25 10:59:17 2005 +0000
+pubDate: Tue, 25 Oct 2005 10:59:17 +0000
 category: podcast
 description: <br>A halloween <a href="http://mp3.dailysourcecode.podshow.com/maryandkarla_HALLOWEEN_PROMO.m4v">video promo</a> from Mary and Karla<br><br>
 author: Adam Curry
@@ -11,21 +11,22 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/25.html#a7176
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-25-MK-Video-Promo.m4v
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2005-10-25-MK-Video-Promo.m4v
   length: 3708034
   type: video/x-m4v
 itunes:
   author: Adam Curry
   title: MK Video Promo
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
-  summary: <br>A halloween <a href="http://mp3.dailysourcecode.podshow.com/maryandkarla_HALLOWEEN_PROMO.m4v">video promo</a> from Mary and Karla<br><br>
+  summary: A halloween video promo from Mary and Karla
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 42
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -35,14 +36,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -50,10 +50,19 @@ podcast:
   - type: video/x-m4v
     length: 3708034
     bitrate: 704949
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2005-10-25
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-25-MK-Video-Promo.m4v
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2005-10-25-MK-Video-Promo.m4v
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: maryandkarla_HALLOWEEN_PROMO.m4v
   size: 3708034

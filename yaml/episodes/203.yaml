@@ -1,9 +1,11 @@
 episode: '203'
 title: Daily Source Code for Wednesday July 06th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/06.html#a7096
-pubDate: Wed Jul  6 20:37:06 2005 +0000
+pubDate: Wed, 06 Jul 2005 20:37:06 +0000
 category: podcast
-description: 'Shownotes: From The Cottage in Guildford, UK<br>Direct link to the showMashup: Can''t help I''m 64 - Voicedude<br>Virgin Atlantic flight<br>Promo: Digital Interference [Site]Promo: Keith and the Girl [Site]<br>Welcome to the Podshow Family:MommyCast [Site]<br>BiddieCast [Site]2012 Olympics to be held in London<br>Podsafe: Roxy Perry - Do it [Site]Promo: Skepticality [Site]Backtracks Podcast<br>Hit Test #47 - Jan Polet [Site]\nDuration: 00:40:22'
+description: |-
+  Shownotes: From The Cottage in Guildford, UK<br>Direct link to the showMashup: Can't help I'm 64 - Voicedude<br>Virgin Atlantic flight<br>Promo: Digital Interference [Site]Promo: Keith and the Girl [Site]<br>Welcome to the Podshow Family:MommyCast [Site]<br>BiddieCast [Site]2012 Olympics to be held in London<br>Podsafe: Roxy Perry - Do it [Site]Promo: Skepticality [Site]Backtracks Podcast<br>Hit Test #47 - Jan Polet [Site]
+  Duration: 00:40:22
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,22 +13,37 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/07/06.html#a7096
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-07-06.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-07-06.mp3
   length: 24216064
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday July 06th 2005
   subtitle: null
-  summary: '<br><h4>Shownotes:<br><br></h4><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><p><br></p><p><br><br><ul><br><li>From The Cottage in Guildford, UK<br><br></li><li>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-2005-07-06.mp3">link</a>to the show</li><li>Mashup: Can''t help I''m 64&nbsp; - Voicedude<br><br></li><li>Virgin Atlantic flight<br><br></li><li>Promo: Digital Interference [<a href="http://www.incenseprayer.com/di/">Site</a>]</li><li>Promo: Keith and the Girl [<a href="http://shitecom.libsyn.com/">Site</a>]<br><br></li><li>Welcome to the Podshow Family:</li><ul><li>MommyCast [<a href="http://mommycast.com/">Site</a>]<br><br></li><li>BiddieCast [<a href="http://biddies4ever.com/">Site</a>]</li></ul><li>2012 Olympics to be held in London<br><br></li><li>Podsafe: Roxy Perry - Do it [<a href="http://www.roxyperry.com/">Site</a>]</li><li>Promo:
-    Skepticality [<a href="http://www.skepticality.com/">Site</a>]</li><li>Backtracks Podcast<br><br></li><li>Hit Test #47 - Jan Polet [<a href="http://janpolet.com/">Site</a>]</li><br></ul><br>'
+  summary: |-
+    Shownotes:
+
+    - From The Cottage in Guildford, UK
+    - Directto the show
+    - Mashup: Can't help I'm 64 - Voicedude
+    - Virgin Atlantic flight
+    - Promo: Digital Interference []
+    - Promo: Keith and the Girl []
+    - Welcome to the Podshow Family:
+    - MommyCast []
+    - BiddieCast []
+    - 2012 Olympics to be held in London
+    - Podsafe: Roxy Perry - Do it []
+    - Promo: Skepticality []
+    - Backtracks Podcast
+    - Hit Test #47 - Jan Polet []
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2422
   season: null
   episode: '203'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-203'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '203'
   season: null
@@ -41,20 +58,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-203'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-203'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-07-06.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-203'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-07-06.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-07-06.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +80,19 @@ podcast:
   - type: audio/mpeg
     length: 24216064
     bitrate: 80000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #203'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-07-06.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-07-06.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-07-06.mp3
   size: 24216064

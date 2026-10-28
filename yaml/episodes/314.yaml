@@ -1,9 +1,11 @@
 episode: '314'
 title: Daily Source Code for Wednesday January 11st 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/11.html#a7228
-pubDate: Wed Jan 11 16:28:52 2006 +0000
+pubDate: Wed, 11 Jan 2006 16:28:52 +0000
 category: podcast
-description: '#314 Daily Source Code for Wednesday January 11th 2006 From Curry Condo, San Francisco, California- RotoNoto_Band_-_CrazyInfatuation<br>- ZDF visit<br>- advertisingonDSC<br>- Ron''s Logic<br>* New Apple stuff<br>- HQ demo<br>- Promos - This Day in Apple History Podcast - Beyond Science Moon Man - Insomnia Radio Promo - Confessions of an IndieGirl podcast promo<br>* MM<br>* iTunes issues<br>- MacPro Podcast on PodcasterCon<br>* Shownotes.info feedback<br>Direct Link to the show<br>Subscribe to the feed<br>Subscribe with iTunes<br>Time Code Based Shownotes\nDuration: 00:46:08'
+description: |-
+  #314 Daily Source Code for Wednesday January 11th 2006 From Curry Condo, San Francisco, California- RotoNoto_Band_-_CrazyInfatuation<br>- ZDF visit<br>- advertisingonDSC<br>- Ron's Logic<br>* New Apple stuff<br>- HQ demo<br>- Promos - This Day in Apple History Podcast - Beyond Science Moon Man - Insomnia Radio Promo - Confessions of an IndieGirl podcast promo<br>* MM<br>* iTunes issues<br>- MacPro Podcast on PodcasterCon<br>* Shownotes.info feedback<br>Direct Link to the show<br>Subscribe to the feed<br>Subscribe with iTunes<br>Time Code Based Shownotes
+  Duration: 00:46:08
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,54 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/01/11.html#a7228
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-11.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-11.mp3
   length: 33225559
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday January 11st 2006
   subtitle: null
-  summary: <br>#314 Daily Source Code for Wednesday January 11th 2006<br><br><p><br></p>From Curry Condo, San Francisco, California<br><br>- RotoNoto_Band_-_CrazyInfatuation<br><br>- ZDF visit<br><br>- advertisingonDSC<br><br>- Ron's Logic<br><br>* New Apple stuff<br><br>- HQ demo<br><br>- Promos<br><br> - This Day in Apple History Podcast<br><br> - Beyond Science Moon Man<br><br> - Insomnia Radio Promo<br><br> - Confessions of an IndieGirl podcast promo<br><br>* MM<br><br>* iTunes issues<br><br>- MacPro Podcast on PodcasterCon<br><br>* Shownotes.info feedback<br><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-314-2006-01-11.mp3">Link</a>to the show<br><br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br><br>Time Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #314 Daily Source Code for Wednesday January 11th 2006
+
+    From Curry Condo, San Francisco, California
+
+    - RotoNoto_Band_-_CrazyInfatuation
+    - ZDF visit
+    - advertisingonDSC
+    - Ron's Logic
+
+    * New Apple stuff
+
+    - HQ demo
+    - Promos
+    - This Day in Apple History Podcast
+    - Beyond Science Moon Man
+    - Insomnia Radio Promo
+    - Confessions of an IndieGirl podcast promo
+
+    * MM
+
+    * iTunes issues
+
+    - MacPro Podcast on PodcasterCon
+
+    * Shownotes.info feedback
+
+    Directto the show
+
+    Subscribe to the
+
+    Subscribe withiTunes
+
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2768
   season: null
   episode: '314'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-314'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '314'
   season: null
@@ -40,20 +75,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-314'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-314'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-01-11.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-314'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-01-11.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-01-11.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +97,19 @@ podcast:
   - type: audio/mpeg
     length: 33225559
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #314'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-01-11.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-11.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-01-11.mp3
   size: 33225559

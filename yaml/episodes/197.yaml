@@ -1,7 +1,7 @@
 episode: '197'
 title: Daily Source Code for Tuesday June 21st 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/06/21.html#a7089
-pubDate: Tue Jun 21 10:33:46 2005 +0000
+pubDate: Tue, 21 Jun 2005 10:33:46 +0000
 category: podcast
 description: |-
   Daily Source Code for June 21st 2005 #197
@@ -16,7 +16,8 @@ description: |-
   podsafe[at]podshow.com
   Mashups
 
-  mashup[at]podshow.com\nDuration: 00:27:01
+  mashup[at]podshow.com
+  Duration: 00:27:01
 author: Adam Curry
 language: en-us
 comments: null
@@ -24,7 +25,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/06/21.html#a7089
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-21.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-21.mp3
   length: 12945139
   type: audio/mpeg
 itunes:
@@ -44,14 +45,15 @@ itunes:
     podsafe[at]podshow.com
     Mashups
 
-    mashup[at]podshow.com\nDuration: 00:27:01
+    mashup[at]podshow.com
+    Duration: 00:27:01
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1621
   season: null
   episode: '197'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-197'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '197'
   season: null
@@ -66,20 +68,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-197'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-197'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-06-21.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-197'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-06-21.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-06-21.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -87,10 +90,19 @@ podcast:
   - type: audio/mpeg
     length: 12945139
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #197'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-21.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-21.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-06-21.mp3
   size: 12945139

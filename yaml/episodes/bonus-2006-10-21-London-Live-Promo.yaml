@@ -1,7 +1,7 @@
 episode: null
 title: London Live Promo
 link: null
-pubDate: Sat Oct 21 12:00:00 2006 +0000
+pubDate: Sat, 21 Oct 2006 12:00:00 +0000
 category: podcast
 description: London Live Promo
 author: Adam Curry
@@ -11,7 +11,7 @@ guid:
   isPermaLink: false
   link: bonus-2006-10-21-London-Live-Promo
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-10-21-London-Live-Promo.m4v
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-10-21-London-Live-Promo.m4v
   length: 1595993
   type: video/x-m4v
 itunes:
@@ -25,7 +25,8 @@ itunes:
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -35,14 +36,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -50,17 +50,26 @@ podcast:
   - type: video/x-m4v
     length: 1595993
     bitrate: 856051
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-10-21
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-10-21-London-Live-Promo.m4v
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-10-21-London-Live-Promo.m4v
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: London Live Promo.m4v
   size: 1595993
   duration: 15
   bitrate: 856051
   source: 2006/London Live Promo.m4v
-  origin_url: null
+  origin_url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-10-21-London-Live-Promo.m4v
 bonus:
   id: 2006-10-21-London-Live-Promo
   kind: adam

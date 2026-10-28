@@ -1,7 +1,7 @@
 episode: '342'
 title: Daily Source Code for Monday February 27th 2006
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/27.html#a7259
-pubDate: Mon Feb 27 11:02:30 2006 +0000
+pubDate: Mon, 27 Feb 2006 11:02:30 +0000
 category: podcast
 description: |-
   - podfathersPrayer
@@ -22,7 +22,8 @@ description: |-
       - wastingmytime
       - music.podshow.comÑartistdetails.php
         <http://music.podshow.com/music/listeners/artistdetails.php?BandHa
-        sh=280202729dad1ad3a780a4d20afbe39b>\nDuration: 00:48:05
+        sh=280202729dad1ad3a780a4d20afbe39b>
+  Duration: 00:48:05
 author: Adam Curry
 language: en-us
 comments: null
@@ -30,7 +31,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/02/27.html#a7259
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-27.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-27.mp3
   length: 34607449
   type: audio/mpeg
 itunes:
@@ -53,17 +54,17 @@ itunes:
     - curryaudiofeedback
     * Ballad of Barney Fife
     - Matthew Ebel on PMN
-        - wastingmytime
-        - music.podshow.comÑartistdetails.php
-          <http://music.podshow.com/music/listeners/artistdetails.php?BandHa
-          sh=280202729dad1ad3a780a4d20afbe39b>\nDuration: 00:48:05
+    - wastingmytime
+    - music.podshow.comÑartistdetails.php
+
+    Duration: 00:48:05
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2885
   season: null
   episode: '342'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-342'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '342'
   season: null
@@ -78,20 +79,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-342'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-342'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-02-27.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-342'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-02-27.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-02-27.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -99,10 +101,19 @@ podcast:
   - type: audio/mpeg
     length: 34607449
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #342'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-02-27.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-27.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-02-27.mp3
   size: 34607449

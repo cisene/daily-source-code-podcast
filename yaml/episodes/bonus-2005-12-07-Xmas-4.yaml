@@ -1,12 +1,12 @@
 episode: null
 title: Podshow Xmas Part 4
 link: http://xmas.podshow.com/?p=5
-pubDate: Wed Dec  7 16:29:39 2005 +0000
+pubDate: Wed, 07 Dec 2005 16:29:39 +0000
 category: podcast
 description: |-
   <p>The fun continues on the podsafe christmas <a href="http://xmas.podshow.com/?feed=rss2">feed</a>.<br />
   Today we have <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=617e70da4d0bdb86506451ce9f9a68a2">American Heartbreak</a>&#8217;s Greatest Christmas song ever and <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=1d72ed801f3b640840d386004b52c84b">Joel Kopischke</a> with the funny I&#8217;m your snowman baby.</p>
-  	<p><a href="http://mp3.dailysourcecode.podshow.com/xmasPodshow4.mp3">Part 4</a>
+   <p><a href="http://mp3.dailysourcecode.podshow.com/xmasPodshow4.mp3">Part 4</a>
   </p>
 author: Adam Curry
 language: en-us
@@ -15,7 +15,7 @@ guid:
   isPermaLink: false
   link: http://xmas.podshow.com/?p=5
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-07-Xmas-4.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-07-Xmas-4.mp3
   length: 7604359
   type: audio/mpeg
 itunes:
@@ -23,17 +23,19 @@ itunes:
   title: Podshow Xmas Part 4
   subtitle: 'Bonus: Adam Curry, not in the Daily Source Code feed'
   summary: |-
-    <p>The fun continues on the podsafe christmas <a href="http://xmas.podshow.com/?feed=rss2">feed</a>.<br />
-    Today we have <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=617e70da4d0bdb86506451ce9f9a68a2">American Heartbreak</a>&#8217;s Greatest Christmas song ever and <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=1d72ed801f3b640840d386004b52c84b">Joel Kopischke</a> with the funny I&#8217;m your snowman baby.</p>
-    	<p><a href="http://mp3.dailysourcecode.podshow.com/xmasPodshow4.mp3">Part 4</a>
-    </p>
+    The fun continues on the podsafe christmas .
+
+    Today we have American Heartbreak’s Greatest Christmas song ever and Joel Kopischke with the funny I’m your snowman baby.
+
+    Part 4
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 475
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -43,14 +45,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -58,10 +59,19 @@ podcast:
   - type: audio/mpeg
     length: 7604359
     bitrate: 128035
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2005-12-07
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-07-Xmas-4.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-07-Xmas-4.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: xmasPodshow4.mp3
   size: 7604359

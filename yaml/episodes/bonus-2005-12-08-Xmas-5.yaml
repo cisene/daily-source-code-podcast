@@ -1,11 +1,11 @@
 episode: null
 title: Podshow Xmas Part 5
 link: http://xmas.podshow.com/?p=6
-pubDate: Thu Dec  8 17:21:45 2005 +0000
+pubDate: Thu, 08 Dec 2005 17:21:45 +0000
 category: podcast
 description: |-
   <p>Today&#8217;s pod of holiday pleasure contains <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=1c8b64f1c2c0450a071e7467cc4aec04">Chris Barker</a>&#8217;s rendition of God Rest Ye Merry Gentlemen, and Christmas Wish from <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=6eb7be1b04c28aaafb6ccfc0a89038de">Gidgets ga ga</a>.</p>
-  	<p><a href="http://mp3.dailysourcecode.podshow.com/xmasPodshow5.mp3">Part 5</a>
+   <p><a href="http://mp3.dailysourcecode.podshow.com/xmasPodshow5.mp3">Part 5</a>
   </p>
 author: Adam Curry
 language: en-us
@@ -14,7 +14,7 @@ guid:
   isPermaLink: false
   link: http://xmas.podshow.com/?p=6
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-08-Xmas-5.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-08-Xmas-5.mp3
   length: 6918906
   type: audio/mpeg
 itunes:
@@ -22,16 +22,17 @@ itunes:
   title: Podshow Xmas Part 5
   subtitle: 'Bonus: Adam Curry, not in the Daily Source Code feed'
   summary: |-
-    <p>Today&#8217;s pod of holiday pleasure contains <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=1c8b64f1c2c0450a071e7467cc4aec04">Chris Barker</a>&#8217;s rendition of God Rest Ye Merry Gentlemen, and Christmas Wish from <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=6eb7be1b04c28aaafb6ccfc0a89038de">Gidgets ga ga</a>.</p>
-    	<p><a href="http://mp3.dailysourcecode.podshow.com/xmasPodshow5.mp3">Part 5</a>
-    </p>
+    Today’s pod of holiday pleasure contains Chris Barker’s rendition of God Rest Ye Merry Gentlemen, and Christmas Wish from Gidgets ga ga.
+
+    Part 5
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 432
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -41,14 +42,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -56,10 +56,19 @@ podcast:
   - type: audio/mpeg
     length: 6918906
     bitrate: 128038
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2005-12-08
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-08-Xmas-5.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-08-Xmas-5.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: xmasPodshow5.mp3
   size: 6918906

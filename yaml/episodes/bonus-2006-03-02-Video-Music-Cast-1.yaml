@@ -1,14 +1,14 @@
 episode: null
 title: 'DSC Video Music Podcast #1'
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/02.html#a7263
-pubDate: Thu Mar  2 19:01:15 2006 +0000
+pubDate: Thu, 02 Mar 2006 19:01:15 +0000
 category: podcast
 description: |-
   <br><div class="storycontent">
-           	<p>DSC Video Music Podcast #1</p><p>
+            <p>DSC Video Music Podcast #1</p><p>
   Geoff Smith's video to his <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=91f6bc9ba66421768cc215f33ad693b7">Podsafe song</a> 'Not On The Radio' inspired me to create a video podcast. Messing
   around a bit with the format, but this might become a regular show.</p>
-  	<p>Direct <a href="http://mp3.dailysourcecode.podshow.com/DSC-VMC-1-2006-03-02.m4v">Link</a> to the video. (Right click to download, something we gotta fix)
+   <p>Direct <a href="http://mp3.dailysourcecode.podshow.com/DSC-VMC-1-2006-03-02.m4v">Link</a> to the video. (Right click to download, something we gotta fix)
   </p>
 author: Adam Curry
 language: en-us
@@ -17,7 +17,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/03/02.html#a7263
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-02-Video-Music-Cast-1.m4v
+  url: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-03-02-Video-Music-Cast-1.m4v
   length: 24231804
   type: video/x-m4v
 itunes:
@@ -25,19 +25,20 @@ itunes:
   title: 'DSC Video Music Podcast #1'
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
   summary: |-
-    <br><div class="storycontent">
-             	<p>DSC Video Music Podcast #1</p><p>
-    Geoff Smith's video to his <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=91f6bc9ba66421768cc215f33ad693b7">Podsafe song</a> 'Not On The Radio' inspired me to create a video podcast. Messing
-    around a bit with the format, but this might become a regular show.</p>
-    	<p>Direct <a href="http://mp3.dailysourcecode.podshow.com/DSC-VMC-1-2006-03-02.m4v">Link</a> to the video. (Right click to download, something we gotta fix)
-    </p>
+    DSC Video Music Podcast #1
+
+    Geoff Smith's video to his Podsafe song 'Not On The Radio' inspired me to create a video podcast. Messing
+    around a bit with the format, but this might become a regular show.
+
+    Direct to the video. (Right click to download, something we gotta fix)
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 267
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -47,14 +48,13 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +62,19 @@ podcast:
   - type: video/x-m4v
     length: 24231804
     bitrate: 725051
+    lang: null
     default: true
-    title: Standard
+    title: DSC Bonus 2006-03-02
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-02-Video-Music-Cast-1.m4v
+      uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-03-02-Video-Music-Cast-1.m4v
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-VMC-1-2006-03-02.m4v
   size: 24231804

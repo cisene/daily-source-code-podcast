@@ -1,9 +1,11 @@
 episode: '081'
 title: Daily Source Code for Tuesday December 07th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/07.html#a6941
-pubDate: Tue Dec  7 16:39:00 2004 +0000
+pubDate: Tue, 07 Dec 2004 16:39:00 +0000
 category: podcast
-description: 'After yesterday''s 60 minutes, we''re back to almost 40. Patricia drops by to talk about her bruises and I share my drum love with drew. Yes, you will enjoy. mp3 Production notes in html and opml\nDuration: 00:36:51'
+description: |-
+  After yesterday's 60 minutes, we're back to almost 40. Patricia drops by to talk about her bruises and I share my drum love with drew. Yes, you will enjoy. mp3 Production notes in html and opml
+  Duration: 00:36:51
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,24 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/12/07.html#a6941
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-07.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-07.mp3
   length: 17698070
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday December 07th 2004
   subtitle: 'shownotes: http://live.curry.com/outlines/DSC-2004-12-07.html'
-  summary: After yesterday's 60 minutes, we're back to almost 40. Patricia drops by to talk about her bruises and I share my drum love with drew. Yes, you will enjoy.<br><br><a href="http://adam.opml.org/DSC20041207.mp3">mp3</a><br><br>Production notes in<a href="http://live.curry.com/outlines/DSC-2004-12-07.html">html</a>and<a href="http://live.curry.com/opml/DSC-2004-12-07.opml">opml</a>
+  summary: |-
+    After yesterday's 60 minutes, we're back to almost 40. Patricia drops by to talk about her bruises and I share my drum love with drew. Yes, you will enjoy.
+
+    Production notes inand
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2211
   season: null
   episode: '081'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-081'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '081'
   season: null
@@ -40,20 +45,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-081'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-081'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-12-07.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-081'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-12-07.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-12-07.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +67,19 @@ podcast:
   - type: audio/mpeg
     length: 17698070
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #81'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-12-07.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-07.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-12-07.mp3
   size: 17698070

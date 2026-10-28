@@ -1,7 +1,7 @@
 episode: '018'
 title: Daily Source Code for Thursday September 2nd 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/09/02.html#a6481
-pubDate: Thu Sep  2 13:07:58 2004 +0000
+pubDate: Thu, 02 Sep 2004 13:07:58 +0000
 category: podcast
 description: mp3 30.7mb, 45 minutes
 author: Adam Curry
@@ -11,21 +11,21 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/09/02.html#a6481
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-09-02.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-09-02.mp3
   length: 32195843
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday September 2nd 2004
   subtitle: null
-  summary: <a href="http://cloud2.urj.nl/gems/dailySourceCode09022004.mp3">mp3</a>30.7mb, 45 minutes<br><br><br>
+  summary: null
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2683
   season: null
   episode: '018'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-018'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '018'
   season: null
@@ -40,20 +40,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-018'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-018'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-09-02.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-018'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-09-02.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-09-02.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +62,19 @@ podcast:
   - type: audio/mpeg
     length: 32195843
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #18'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-09-02.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-09-02.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-09-02.mp3
   size: 32195843

@@ -1,13 +1,13 @@
 episode: '361'
 title: Daily Source Code for Tuesday March 28th 2006
 link: http://radio.weblogs.com/0001014/2006/03/28.html#a7285
-pubDate: Tue Mar 28 12:00:48 2006 +0000
+pubDate: Tue, 28 Mar 2006 12:00:48 +0000
 category: podcast
 description: |-
   - 01_See_the_Sun
   * Back to HBB!
   - cali-sick-thanks
-  -  Alpha-Omega Podcast Promo adam-curry-01
+  - Alpha-Omega Podcast Promo adam-curry-01
   - Adam-WonkaComplex
   - Golden Ticket DSC Promo
   * DSC-Diet
@@ -23,13 +23,14 @@ description: |-
   - csb-2006-03-27
   - CSB and EU law
   - DennisMillerTheStrip
-  - 365!!   jc feedback 060329
+  - 365!! jc feedback 060329
   - satellite repair man 1
   - DFPromo0603
   - MNVSAudPromo15
   - LifespringComment_LordsName
   - curry3
-  - Adema_Minki_-_Blind_Girl\nDuration: 00:55:47
+  - Adema_Minki_-_Blind_Girl
+  Duration: 00:55:47
 author: Adam Curry
 language: en-us
 comments: null
@@ -37,7 +38,7 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2006/03/28.html#a7285
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-28.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-28.mp3
   length: 40141492
   type: audio/mpeg
 itunes:
@@ -48,14 +49,13 @@ itunes:
     - 01_See_the_Sun
     * Back to HBB!
     - cali-sick-thanks
-    -  Alpha-Omega Podcast Promo adam-curry-01
+    - Alpha-Omega Podcast Promo adam-curry-01
     - Adam-WonkaComplex
     - Golden Ticket DSC Promo
     * DSC-Diet
     - DorkComment
     - Go Daddy DSC1
     - www.marketwire.comÑrelease_html_b1
-      <http://www.marketwire.com/mw/release_html_b1?release_id=114656>
     - DSC Over Pod2Mob
     * Creative Earthlink promo for use on DSC from paul@netherlandssound.com
     - Comment Spam
@@ -64,20 +64,21 @@ itunes:
     - csb-2006-03-27
     - CSB and EU law
     - DennisMillerTheStrip
-    - 365!!   jc feedback 060329
+    - 365!! jc feedback 060329
     - satellite repair man 1
     - DFPromo0603
     - MNVSAudPromo15
     - LifespringComment_LordsName
     - curry3
-    - Adema_Minki_-_Blind_Girl\nDuration: 00:55:47
+    - Adema_Minki_-_Blind_Girl
+    Duration: 00:55:47
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3347
   season: null
   episode: '361'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-361'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '361'
   season: null
@@ -92,20 +93,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-361'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-361'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-03-28.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-361'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-03-28.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-03-28.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -113,10 +115,19 @@ podcast:
   - type: audio/mpeg
     length: 40141492
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #361'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-03-28.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-28.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-03-28.mp3
   size: 40141492

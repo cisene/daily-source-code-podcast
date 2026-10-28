@@ -1,7 +1,7 @@
 episode: '403'
 title: Daily Source Code for Tuesday June 13rd 2006
 link: http://curry.podshow.com/?p=179
-pubDate: Tue Jun 13 15:08:49 2006 +0000
+pubDate: Tue, 13 Jun 2006 15:08:49 +0000
 category: podcast
 description: |-
   #403 Daily Source Code for Mon. June 13th 2006
@@ -35,7 +35,8 @@ description: |-
   <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=4334f1304b2023382621feeb712ac690">Salient</a> - Immortalize_Me.mp3
 
   User <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a>
-  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 00:44:15
+  <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes
+  Duration: 00:44:15
 author: Adam Curry
 language: en-us
 comments: null
@@ -43,7 +44,7 @@ guid:
   isPermaLink: false
   link: http://curry.podshow.com/?p=179
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-13.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-13.mp3
   length: 31856935
   type: audio/mpeg
 itunes:
@@ -56,7 +57,7 @@ itunes:
     From The Curry Condo, San Francisco, Ca.
 
     ChrisFromDallas650Miles.wav
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=014f4395a18ffb0865565bdd962e80fa">nataliebrown</a>_i_wonder_128.mp3
+    nataliebrown_i_wonder_128.mp3
     NOKIA_EXPORT_2006_06_12.mp3
     Roger on One Click BBC
     Scoble leaves Microsoft
@@ -64,7 +65,7 @@ itunes:
     MW12 AC promo.mp3
     clprom-jun.MP3
     27 spot rnrtv.mp3
-    <a href="http://adchallenge.podshow.com/">Ad Challenge</a>
+    Ad Challenge
     World Cup
     Castblaster_MacOSX.mp3
     Only Gay in the village
@@ -73,23 +74,24 @@ itunes:
     talkIntoTheMic.wav
     HHO Fuel from Ray
     420.wav
-    German Chancellor <a href="http://www.bundeskanzlerin.de/bk/Redaktion/RSS/Kanzlerkalender,templateId=renderRSSList.html">podcasting</a>
+    German Chancellor podcasting
     adam_curry_Falloutboy.mp3
     Adamscloset.mp3
     Wife Beaters
     Writely
     SalientIntro.wav
-    <a href="http://music.podshow.com/music/listeners/artistdetails.php?BandHash=4334f1304b2023382621feeb712ac690">Salient</a> - Immortalize_Me.mp3
+    Salient - Immortalize_Me.mp3
 
-    User <a href="http://shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a>
-    <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727&s=143441&i=2663806">Subscribe</a> in iTunes\nDuration: 00:44:15
+    User Shownotes
+    Subscribe in iTunes
+    Duration: 00:44:15
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2655
   season: null
   episode: '403'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-403'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '403'
   season: null
@@ -104,20 +106,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-403'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-403'
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-06-13.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-403'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-06-13.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-06-13.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -125,10 +128,19 @@ podcast:
   - type: audio/mpeg
     length: 31856935
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #403'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2006-06-13.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-13.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2006-06-13.mp3
   size: 31856935

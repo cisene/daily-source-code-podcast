@@ -1,9 +1,11 @@
 episode: '265'
 title: Daily Source Code for Monday October 24th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/24.html#a7174
-pubDate: Mon Oct 24 10:45:36 2005 +0000
+pubDate: Mon, 24 Oct 2005 10:45:36 +0000
 category: podcast
-description: 'Daily Source Code for Monday October 24th 2005 #265 From Curry Condo, San Francisco, California Direct Link to the show Time-code based Shownotes\nDuration: 00:49:02'
+description: |-
+  Daily Source Code for Monday October 24th 2005 #265 From Curry Condo, San Francisco, California Direct Link to the show Time-code based Shownotes
+  Duration: 00:49:02
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,28 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/10/24.html#a7174
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-24.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-10-24.mp3
   length: 35312196
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Monday October 24th 2005
   subtitle: null
-  summary: '<br>Daily Source Code for Monday October 24th 2005 #265<br><p><br><br>From Curry Condo, San Francisco, California<br><p><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-265-2005-10-24.mp3">Link</a>to the show<br><p><br><br>Time-code based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>'
+  summary: |-
+    Daily Source Code for Monday October 24th 2005 #265
+
+    From Curry Condo, San Francisco, California
+
+    Directto the show
+
+    Time-code basedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2942
   season: null
   episode: '265'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-265'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '265'
   season: null
@@ -40,20 +49,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-265'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-265'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-10-24.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-265'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-10-24.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-10-24.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +71,19 @@ podcast:
   - type: audio/mpeg
     length: 35312196
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #265'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-10-24.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-10-24.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-10-24.mp3
   size: 35312196

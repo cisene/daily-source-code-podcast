@@ -1,9 +1,11 @@
 episode: '297'
 title: Daily Source Code for Tuesday December 13rd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/12/13.html#a7209
-pubDate: Tue Dec 13 15:04:04 2005 +0000
+pubDate: Tue, 13 Dec 2005 15:04:04 +0000
 category: podcast
-description: '#297 Daily Source Code for Tuesday December 13th 2005 From Curry Condo, San Francisco, California - Alkaline Trio - Queen of Pain (Jade Tree Records) - GMail down! * Madge on Podcast411 - Trinity * Shaving - Welcome Mark Sierra - RIAA_Phone_Call - www.boycott-riaa.com Direct Link to the show<br>Subscribe to the feed<br>Subscribe with iTunes<br>Time Code Based Shownotes\nDuration: 00:48:43'
+description: |-
+  #297 Daily Source Code for Tuesday December 13th 2005 From Curry Condo, San Francisco, California - Alkaline Trio - Queen of Pain (Jade Tree Records) - GMail down! * Madge on Podcast411 - Trinity * Shaving - Welcome Mark Sierra - RIAA_Phone_Call - www.boycott-riaa.com Direct Link to the show<br>Subscribe to the feed<br>Subscribe with iTunes<br>Time Code Based Shownotes
+  Duration: 00:48:43
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,45 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/12/13.html#a7209
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-13.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-13.mp3
   length: 35072606
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Tuesday December 13rd 2005
   subtitle: null
-  summary: <br>#297 Daily Source Code for Tuesday December 13th 2005<br><br><p><br></p><br>From Curry Condo, San Francisco, California<br><p><br><br><br><p><br><br>- Alkaline Trio - Queen of Pain (Jade Tree Records)<br><p><br><br>- GMail down!<br><p><br><br>* Madge on Podcast411<br><p><br><br>- Trinity<br><p><br><br>* Shaving<br><p><br><br>- Welcome Mark Sierra<br><p><br><br>- RIAA_Phone_Call<br><p><br><br>- <a href="http://www.boycott-riaa.com">www.boycott-riaa.com</a><br><p><br><br><br><br>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-297-2005-12-13.mp3">Link</a>to the show<br><br>Subscribe to the<a href="http://radio.weblogs.com/0001014/categories/dailySourceCode/rss.xml">feed</a><br><br>Subscribe with<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329727">iTunes</a><br><br>Time Code Based<a href="http://www.shownotes.info/wiki/Category:Daily_Source_Code_Shownotes">Shownotes</a><br>
+  summary: |-
+    #297 Daily Source Code for Tuesday December 13th 2005
+
+    From Curry Condo, San Francisco, California
+
+    - Alkaline Trio - Queen of Pain (Jade Tree Records)
+    - GMail down!
+
+    * Madge on Podcast411
+
+    - Trinity
+
+    * Shaving
+
+    - Welcome Mark Sierra
+    - RIAA_Phone_Call
+    - www.boycott-riaa.com
+
+    Directto the show
+
+    Subscribe to the
+
+    Subscribe withiTunes
+
+    Time Code BasedShownotes
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2923
   season: null
   episode: '297'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-297'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '297'
   season: null
@@ -40,20 +66,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-297'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-297'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-12-13.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-297'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-12-13.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-12-13.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +88,19 @@ podcast:
   - type: audio/mpeg
     length: 35072606
     bitrate: 96000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #297'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-12-13.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-13.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-12-13.mp3
   size: 35072606

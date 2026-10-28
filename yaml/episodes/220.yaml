@@ -1,9 +1,11 @@
 episode: '220'
 title: Daily Source Code for Thursday August 04th 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/08/04.html#a7114
-pubDate: Thu Aug  4 18:47:35 2005 +0000
+pubDate: Thu, 04 Aug 2005 18:47:35 +0000
 category: podcast
-description: 'From The Cottage, Guildford UK Direct link to fileMashup: Arty Fufkin - We belong together time after time [Site]The Daily Download [Site]<br>Fox and the City [Site]<br>Yeast Radio [Site]<br>Podsafe: Brother Love - SummerTime [Site]PodSafe: Music Network [Site]<br>PodSafe: CruiseBox - Tell the FCC to stick it [Site]Happy Anniversary honey!\nDuration: 00:33:41'
+description: |-
+  From The Cottage, Guildford UK Direct link to fileMashup: Arty Fufkin - We belong together time after time [Site]The Daily Download [Site]<br>Fox and the City [Site]<br>Yeast Radio [Site]<br>Podsafe: Brother Love - SummerTime [Site]PodSafe: Music Network [Site]<br>PodSafe: CruiseBox - Tell the FCC to stick it [Site]Happy Anniversary honey!
+  Duration: 00:33:41
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,32 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/08/04.html#a7114
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-08-04.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-08-04.mp3
   length: 20220646
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday August 04th 2005
   subtitle: null
-  summary: '<br><h4>From The Cottage, Guildford UK</h4><br><p><br></p><br><ul><br><li>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-220-2005-08-04.mp3">link</a>to file</li><li>Mashup: Arty Fufkin - We belong together time after time [<a href="http://mashuptown.com/">Site</a>]</li><li>The Daily Download [<a href="http://www.apeboymonkeygirl.com/">Site</a>]<br><br></li><li>Fox and the City [<a href="http://hometown.aol.com/utcooper/ragan.html">Site</a>]<br><br></li><li>Yeast Radio [<a href="http://yeastradio.com/">Site</a>]<br><br></li><li>Podsafe: Brother Love - SummerTime [<a href="http://www.brotherloverocks.com/">Site</a>]</li><li>PodSafe: Music Network [<a href="http://podsafemusicnetwork.com/">Site</a>]<br><br></li><li>PodSafe: CruiseBox - Tell the FCC to stick it [<a href="http://audiopium.typepad.com/thatpodcastsong/">Site</a>]</li><li>Happy Anniversary honey!</li><br></ul><br>'
+  summary: |-
+    From The Cottage, Guildford UK
+
+    - Directto file
+    - Mashup: Arty Fufkin - We belong together time after time []
+    - The Daily Download []
+    - Fox and the City []
+    - Yeast Radio []
+    - Podsafe: Brother Love - SummerTime []
+    - PodSafe: Music Network []
+    - PodSafe: CruiseBox - Tell the FCC to stick it []
+    - Happy Anniversary honey!
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2021
   season: null
   episode: '220'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-220'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '220'
   season: null
@@ -40,20 +53,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-220'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-220'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-08-04.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-220'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-08-04.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-08-04.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +75,19 @@ podcast:
   - type: audio/mpeg
     length: 20220646
     bitrate: 80000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #220'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-08-04.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-08-04.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-08-04.mp3
   size: 20220646

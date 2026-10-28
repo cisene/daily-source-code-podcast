@@ -1,7 +1,7 @@
 episode: null
 title: 'Recht Voor Z''n Raap Podcast #2'
 link: http://mp3.dailysourcecode.podshow.com/RVZR-2005-05-17.mp3
-pubDate: Tue May 17 12:00:00 2005 +0000
+pubDate: Tue, 17 May 2005 12:00:00 +0000
 category: podcast
 description: |-
   <h4>Recht Voor Z'n Raap Podcast #2</h4>
@@ -17,7 +17,7 @@ guid:
   isPermaLink: false
   link: http://www.curry.com/2005/05/17#a8405
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-05-17-RVZR.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-17-RVZR.mp3
   length: 33422344
   type: audio/mpeg
 itunes:
@@ -25,19 +25,21 @@ itunes:
   title: 'Recht Voor Z''n Raap Podcast #2'
   subtitle: 'Bonus: a special of the Daily Source Code, outside the numbered shows'
   summary: |-
-    <h4>Recht Voor Z'n Raap Podcast #2</h4>
-    <br>
-    Pat and I just recorded our podcast for the week.<br>
-    I didn't add the (dutch spoken) podcast to my DSC feed, it will have it's own feed by next week.<br>
-    <br>
-    Click <a href="http://mp3.dailysourcecode.podshow.com/RVZR-2005-05-17.mp3">here</a> to listen or download the show<br>
+    Recht Voor Z'n Raap Podcast #2
+
+    Pat and I just recorded our podcast for the week.
+
+    I didn't add the (dutch spoken) podcast to my DSC feed, it will have it's own feed by next week.
+
+    Click to listen or download the show
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 3342
   season: null
   episode: null
   episodeType: bonus
-  image: null
+  image:
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: null
   season: null
@@ -47,7 +49,7 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
   - person: Patricia Paay
@@ -55,11 +57,10 @@ podcast:
     img: https://upload.wikimedia.org/wikipedia/commons/f/fc/Patricia_Paay.png
     group: cast
     role: co-host
-  images: null
   chapters: null
   transcript: null
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -67,10 +68,19 @@ podcast:
   - type: audio/mpeg
     length: 33422344
     bitrate: 80002
+    lang: nl
     default: true
-    title: Standard
+    title: DSC Bonus 2005-05-17
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-05-17-RVZR.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-17-RVZR.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: RVZR-2005-05-17.mp3
   size: 33422344

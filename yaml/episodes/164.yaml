@@ -1,9 +1,11 @@
 episode: '164'
 title: Daily Source Code for Friday April 22nd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/22.html#a7056
-pubDate: Fri Apr 22 11:27:55 2005 +0000
+pubDate: Fri, 22 Apr 2005 11:27:55 +0000
 category: podcast
-description: 'I raided the promo bin again and found a cool mashup. Also some details about the paparazzi, the BBC and podsafe music thoughts. mp3 Detailed shownotes in html and opml<br># C~[0]\nDuration: 00:40:26'
+description: |-
+  I raided the promo bin again and found a cool mashup. Also some details about the paparazzi, the BBC and podsafe music thoughts. mp3 Detailed shownotes in html and opml<br># C~[0]
+  Duration: 00:40:26
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,26 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/04/22.html#a7056
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-22.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-22.mp3
   length: 19318880
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday April 22nd 2005
   subtitle: null
-  summary: I raided the promo bin again and found a cool mashup. Also some details about the paparazzi, the BBC and podsafe music thoughts.<br><br><br><br><br><br><a href="http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-04-22.mp3">mp3</a><br><br><br><br><br><br>Detailed shownotes in<a href="http://www.curry.com/DSC/DSC-2005-04-22">html</a>and<a href="http://cloud2.urj.nl/static/gems/gurry/DSC20050422.opml">opml</a><br><br><a href="http://www.curry.com/2005/04/22#a6545">#</a><a href="http://www.curry.com/comments?u=gurry&amp;p=6545&amp;link=http%3A%2F%2Fwww.curry.com%2F2005%2F04%2F22%23a6545" onclick="window.open (this.href, 'comments', 'width=515, height=480, location=0, resizable=1, scrollbars=1, status=0, toolbar=0, directories=0'); return(false);" title="Click to comment on this post..." class="commentLink">C~[0]</a>
+  summary: |-
+    I raided the promo bin again and found a cool mashup. Also some details about the paparazzi, the BBC and podsafe music thoughts.
+
+    Detailed shownotes inand
+
+    #C~[0]
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2426
   season: null
   episode: '164'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-164'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '164'
   season: null
@@ -40,20 +47,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-164'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-164'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-04-22.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-164'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-04-22.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-04-22.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +69,19 @@ podcast:
   - type: audio/mpeg
     length: 19318880
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #164'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-04-22.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-22.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-04-22.mp3
   size: 19318880

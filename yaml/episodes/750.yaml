@@ -1,7 +1,7 @@
 episode: '750'
 title: Daily Source Code for Wednesday April 23rd 2008
 link: http://radio.weblogs.com/0001014/2008/04/23.html#a366
-pubDate: Thu Apr 24 05:09:53 2008 +0000
+pubDate: Thu, 24 Apr 2008 05:09:53 +0000
 category: podcast
 description: '#750 Daily Source Code for Wednesday April 23d 2008 drop.io: simple private sharingA long overdue catch-up show, this one runs long, so be forewarned :) We tackle everything dear to us, China, Our money, Masturbating against cancer and stanky smells from continental Europe. Tired Of Being Alone? This is the show for you. A fine member of the MEVIO family of media properties! Here[base '']s the DSC Demographics survey link Get up to 70% discount on life insurance with AccuQuote.com give them a call: 1800-410-7214 Get 35 Free Songs at eMusic.com, no obligation, yours to keep! Call Anytime: +12016256357 or +442076813753 or email me: adam@mevio.com<br>Direct Link to the show.<br>Comment'
 author: Adam Curry
@@ -11,22 +11,40 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/2008/04/23.html#a366
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2008-04-23.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-04-23.mp3
   length: 76245560
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Wednesday April 23rd 2008
   subtitle: null
-  summary: '<p><br></p><p><strong>#750 Daily Source Code for Wednesday April 23d 2008</strong></p><div><img src="http://assets.drop.io/download/public/wa5ytbarqtgrogf1navu/e7026adc8aef244bdbfdaa65c01c5e028fcbe532/10986640-e5de-012a-0c67-00127994f632/8dd90e70-f3eb-012a-7c98-fba3909cdec3/youworkforus_large.jpg" alt="[Image]" width="310" height="240" /><div><a href="http://drop.io/dailysourcecode">drop.io</a>: simple private sharing</div></div><p>A long overdue catch-up show, this one runs long, so be forewarned :) We tackle everything dear to us, China, Our money, Masturbating<a href="http://www.foxnews.com/story/0,2933,352278,00.html">against</a>cancer and<a href="http://edition.cnn.com/2008/WORLD/europe/04/19/london.stink/index.html">stanky smells</a>from continental Europe. Tired Of Being Alone? This is the show for you. A fine member of the MEVIO family of media properties! </p><p>Here[base '']s the DSC Demographics<a href="http://tinyurl.com/356kct">survey link</a></p><p>Get up to 70%
-    discount on life insurance with<a href="http://accuquote.com/dsc">AccuQuote.com</a>give them a call: 1800-410-7214</p><p>Get 35 Free Songs at<a href="http://www.emusic.com/dailysourcecode">eMusic.com</a>, no obligation, yours to keep! </p><p>Call Anytime:</p><p>+12016256357 or +442076813753 or email me: <a href="mailto:adam@mevio.com">adam@mevio.com</a><br></p><p><br><br><p>Direct<a href="http://m.podshow.com/media/21/episodes/109679/dailysourcecode-109679-04-23-2008.mp3">Link</a>to the show.</p><br><p><a href="http://www.btpodshow.com/shows/?mode=detail&episode_id=109679">Comment</a></p><br>'
+  summary: |-
+    #750 Daily Source Code for Wednesday April 23d 2008
+
+    drop.io: simple private sharing
+
+    A long overdue catch-up show, this one runs long, so be forewarned :) We tackle everything dear to us, China, Our money, Masturbatingagainstcancer andstanky smellsfrom continental Europe. Tired Of Being Alone? This is the show for you. A fine member of the MEVIO family of media properties!
+
+    Here[base ']s the DSC Demographicssurvey link
+
+    Get up to 70% discount on life insurance withAccuQuote.comgive them a call: 1800-410-7214
+
+    Get 35 Free Songs ateMusic.com, no obligation, yours to keep!
+
+    Call Anytime:
+
+    +12016256357 or +442076813753 or email me: adam@mevio.com
+
+    Directto the show.
+
+    Comment
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 4756
   season: null
   episode: '750'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-750'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '750'
   season: null
@@ -41,20 +59,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-750'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-750'
+  - url: https://thedailysourcecode.com/chapters/DSC-2008-04-23.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-750'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2008-04-23.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2008-04-23.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -62,10 +81,19 @@ podcast:
   - type: audio/mpeg
     length: 76245560
     bitrate: 128000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #750'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2008-04-23.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-04-23.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2008-04-25.mp3
   size: 76245560

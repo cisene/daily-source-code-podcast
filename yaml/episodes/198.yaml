@@ -1,9 +1,11 @@
 episode: '198'
 title: Daily Source Code for Thursday June 23rd 2005
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/06/24.html#a7090
-pubDate: Fri Jun 24 00:30:47 2005 +0000
+pubDate: Fri, 24 Jun 2005 00:30:47 +0000
 category: podcast
-description: 'Shownotes Time shifted from Seattle, USA<br>Direct link to the showPortions of this show not work safeThe topic of this Podcast is The 100 Million Listener March:My life as a broadcaster in chronological orderFrom a 14 year old geek transmitter builder to a 40 year old Podcaster<br>Submit yer stuff:Promos and podcasts<br>submit[at]podshow.comPodsafe Music<br>podsafe[at]podshow.comMashups<br>mashup[at]podshow.com\nDuration: 00:46:42'
+description: |-
+  Shownotes Time shifted from Seattle, USA<br>Direct link to the showPortions of this show not work safeThe topic of this Podcast is The 100 Million Listener March:My life as a broadcaster in chronological orderFrom a 14 year old geek transmitter builder to a 40 year old Podcaster<br>Submit yer stuff:Promos and podcasts<br>submit[at]podshow.comPodsafe Music<br>podsafe[at]podshow.comMashups<br>mashup[at]podshow.com
+  Duration: 00:46:42
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,36 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/06/24.html#a7090
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-23.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-23.mp3
   length: 28021530
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Thursday June 23rd 2005
   subtitle: null
-  summary: <br><h4>Shownotes<br><p><br><br></h4><br><ul><br><li>Time shifted from Seattle, USA<br><br></li><li>Direct<a href="http://mp3.dailysourcecode.podshow.com/DSC-2005-06-23.mp3">link</a>to the show</li><li>Portions of this show not work safe</li><li>The topic of this Podcast is<span>The 100 Million Listener March</span>:</li><ul><li>My life as a broadcaster in chronological order</li><li>From a 14 year old geek transmitter builder to a 40 year old Podcaster<br><br></li></ul><li>Submit yer stuff:</li><ul><li>Promos and podcasts<br><br></li></ul><ul><ul><li>submit[at]podshow.com</li></ul><li>Podsafe Music<br><br></li><ul><li>podsafe[at]podshow.com</li></ul><li>Mashups<br><br></li><ul><li>mashup[at]podshow.com</li></ul></ul><br></ul><br>
+  summary: |-
+    Shownotes
+
+    - Time shifted from Seattle, USA
+    - Directto the show
+    - Portions of this show not work safe
+    - The topic of this Podcast isThe 100 Million Listener March:
+    - My life as a broadcaster in chronological order
+    - From a 14 year old geek transmitter builder to a 40 year old Podcaster
+    - Submit yer stuff:
+    - Promos and podcasts
+    - submit[at]podshow.com
+    - Podsafe Music
+    - podsafe[at]podshow.com
+    - Mashups
+    - mashup[at]podshow.com
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 2802
   season: null
   episode: '198'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-198'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '198'
   season: null
@@ -40,20 +57,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-198'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-198'
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-06-23.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-198'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-06-23.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-06-23.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +79,19 @@ podcast:
   - type: audio/mpeg
     length: 28021530
     bitrate: 80000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #198'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2005-06-23.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-23.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2005-06-23.mp3
   size: 28021530

@@ -1,9 +1,11 @@
 episode: '062'
 title: Daily Source Code for Friday November 05th 2004
 link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/06.html#a6838
-pubDate: Sat Nov  6 02:03:12 2004 +0000
+pubDate: Sat, 06 Nov 2004 02:03:12 +0000
 category: podcast
-description: '(Almost) Live from Rickey''s Hyatt in Palo Alto!<br>The internet is for Porn!<br>Production Notes in html and opml 31 minutes 14 mb mp3\nDuration: 00:31:35'
+description: |-
+  (Almost) Live from Rickey's Hyatt in Palo Alto!<br>The internet is for Porn!<br>Production Notes in html and opml 31 minutes 14 mb mp3
+  Duration: 00:31:35
 author: Adam Curry
 language: en-us
 comments: null
@@ -11,21 +13,74 @@ guid:
   isPermaLink: false
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2004/11/06.html#a6838
 enclosure:
-  url: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-05.mp3
+  url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-05.mp3
   length: 15164977
   type: audio/mpeg
 itunes:
   author: Adam Curry
   title: Daily Source Code for Friday November 05th 2004
   subtitle: From the Riot Hyatt! The internet is for Porn everybody
-  summary: (Almost) Live from Rickey's Hyatt in Palo Alto!<br>The internet is for Porn!<p><br><br><a href="http://www.blognewsnetwork.com/members/0000001/outlines/DSC-2004-11-05.html">Production Notes</a>in html and opml<p><br><br>31 minutes 14 mb<a href="http://homepage.mac.com/adamcurry/DSC/DSC-2004-11-05.mp3">mp3</a><br>
+  summary: |-
+    (Almost) Live from Rickey's Hyatt in Palo Alto!
+    The internet is for Porn!
+
+    Production Notesin html and opml
+
+    Forward Looking Statements Opener
+    - Adam Curry's Album
+      - Forward Statements Opener
+    BloggerCon rap
+    non-RIAA music
+    - Magnatune.com
+    Rick Lyon/Stephanie D'Abruzzo
+    - Avenue Q
+      - The Internet Is for Porn
+    iPodder Lemon 1.1 released
+    - email
+      - Hi Adam,
+      - Just before Bloggercon we have a great announcement to make, iPodder v1.1 is
+      - released for Windows and Macintosh!
+      - What are the new features of version 1.1?
+      - ---------------------------
+      - - Select podcast feeds by using the integrated directory (OPML) inside
+      - iPodder or add feeds manually from the GUI.
+      - - Choose your own download folder!
+      - - The feed list now displays the title, location, downloaded MB and
+      - subscription state for each feed.
+      - - Enhanced download progress feedback.
+      - - Don't want to check all feeds? You can now check just one feed.
+      - - iPodder can now run on startup.
+      - - Advanced options for Power Users.
+      - - Automatic setting of Grouping: Podcast for iTunes/Win users.
+      - - Lots of extra debugging code to make it easier to figure out what went
+      - wrong if a download fails.
+      - Go get your copy at:
+      - http://ipodder.sourceforge.net/
+      - Well, enjoy Bloggercon!
+      - Cheers,
+      - The iPodder team
+    Random Podcast
+    - Random Baggage 01 - OpenPodcast.org #76
+    Super Smart Radio Whore Sex Show
+    - How to get laid
+      - SSRWSS-2004-10-29
+    Pete Prodoehl & Drew Domkus
+    - http://rasterweb.net/raster/
+      - RasterWeb! Audio 2004-11-02 "Adam Curry's Favorite Web Site"
+    Jovink and the voederbietels
+    - De 9 de
+      - Luie flikker
+    Russell S. Holliman
+    - OpenPodcast.org
+      - Treo Podcast - Special Post-Election Message - OpenPodcast.org #95
+    Rockmaninov Opener
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 1895
   season: null
   episode: '062'
   image:
-    href: '#daily-source-code-episde-itunes-image-href-062'
+    href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '062'
   season: null
@@ -40,20 +95,21 @@ podcast:
   person:
   - person: Adam Curry
     href: https://en.wikipedia.org/wiki/Adam_Curry
-    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+    img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  images:
-    images:
-    - '#daily-source-code-episode-pc20-images-062'
   chapters:
-    url: '#daily-source-code-episode-pc20-chapters-062'
+  - url: https://thedailysourcecode.com/chapters/DSC-2004-11-05.json
     type: application/json+chapters
   transcript:
-    url: '#daily-source-code-episode-pc20-transcript-062'
-    type: application/srt
+  - url: https://thedailysourcecode.com/vtt/DSC-2004-11-05.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2004-11-05.srt
+    type: application/x-subrip
+    language: en
   socialInteract:
-    uri: null
+  - uri: null
     protocol: disabled
     accountId: null
     accountUrl: null
@@ -61,10 +117,19 @@ podcast:
   - type: audio/mpeg
     length: 15164977
     bitrate: 64000
+    lang: null
     default: true
-    title: Standard
+    title: 'DSC #62'
     source:
-      uri: https://op3.dev/e/thedailysourcecode.com/DSC-2004-11-05.mp3
+      uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-05.mp3
+  image:
+  - href: https://thedailysourcecode.com/artwork/episode-300x300.png
+    alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
+    aspect-ratio: 1/1
+    width: 300
+    height: 300
+    type: image/png
+    purpose: artwork
 fileinfo:
   filename: DSC-2004-11-05.mp3
   size: 15164977
