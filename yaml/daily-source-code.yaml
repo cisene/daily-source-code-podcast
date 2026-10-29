@@ -4,10 +4,12 @@ feed:
   # Host of the renovated feed and its images, filled in for __BASE_URL__
   # (Adam's domain, 2026-10-27).
   base_url: https://thedailysourcecode.com
-  # Audio and video, flat at the host root, through the OP3 analytics prefix:
-  # audio_url + release name (yaml/release-audio.yaml), set in every episode
-  # by python/update-episodes-enclosures.py.
-  audio_url: https://op3.dev/e/thedailysourcecode.com/
+  # Audio in /audio, video in /video, through the OP3 analytics prefix:
+  # audio_url or video_url + release name (yaml/release-audio.yaml), set in
+  # every episode by python/update-episodes-enclosures.py (folder structure
+  # 2026-10-28: /audio /chapters /opml /srt /video /vtt).
+  audio_url: https://op3.dev/e/thedailysourcecode.com/audio/
+  video_url: https://op3.dev/e/thedailysourcecode.com/video/
   xml:
     version: 2
     namespaces:
@@ -32,7 +34,7 @@ rss:
       attributes:
         rel: self
         type: application/rss+xml
-        href: __BASE_URL__/rss
+        href: __BASE_URL__/rss.xml
         title: Adam Curry's Daily Source Code Podcast
 
     - tag: title
@@ -41,7 +43,7 @@ rss:
 
     - tag: language
       namespace: dc
-      text: English
+      text: en
 
     - tag: creator
       namespace: dc
@@ -97,7 +99,7 @@ rss:
       tags:
       
       - tag: url
-        text: __BASE_URL__/img/channel/dsc-logo-144.png
+        text: __BASE_URL__/artwork/dsc-logo-144.png
     
       - tag: link
         text: __BASE_URL__/
@@ -115,18 +117,18 @@ rss:
         text: 144
   
     - tag: pubDate
-      text: 2004-08-13 13:52:49 +0000
+      text: Fri, 13 Aug 2004 13:52:49 +0000
   
     - tag: lastBuildDate
       text: __NOW__
 
-    - tag: new-feed-url
-      namespace: itunes
-      text: __BASE_URL__/rss
-
+    # itunes:new-feed-url belongs in the old feed (Apple moves a listing
+    # from there), not in the new one: left out. itunes:block no: apps and
+    # Podcast Index read yes as hidden everywhere, not only on Apple
+    # (2026-10-29, the user). Off Apple: the feed is never submitted there.
     - tag: block
       namespace: itunes
-      text: True
+      text: False
 
     - tag: summary
       namespace: itunes
@@ -169,31 +171,12 @@ rss:
       attributes:
         text: TV & Film
 
+    # Apple's Technology has no subcategories (Gadgets, Software How-To,
+    # Tech News, Podcasting were dropped by Apple)
     - tag: category
       namespace: itunes
       attributes:
         text: Technology
-      tags:
-
-      - tag: category
-        namespace: itunes
-        attributes:
-          text: Gadgets
-
-      - tag: category
-        namespace: itunes
-        attributes:
-          text: Software How-To
-
-      - tag: category
-        namespace: itunes
-        attributes:
-          text: Tech News
-
-      - tag: category
-        namespace: itunes
-        attributes:
-          text: Podcasting
 
     - tag: explicit
       namespace: itunes
@@ -218,30 +201,18 @@ rss:
     - tag: image
       namespace: itunes
       attributes:
-        href: __BASE_URL__/img/itunes/dsc-logo-3000.png
+        href: __BASE_URL__/artwork/dsc-logo-3000.png
 
     - tag: guid
       namespace: podcast
       # UUIDv5 (namespace ead4c236-bf58-58c6-a2c6-a6b28d128cb6) of the feed
-      # url without scheme, thedailysourcecode.com/rss; never change it once
-      # published
-      text: 89e3c616-17b1-5a8e-9972-fef9d48a07c1
+      # url without scheme, thedailysourcecode.com/rss.xml (the address on
+      # Adam's page, 2026-10-28); never change it once published
+      text: 854cabf3-8c71-51de-8ad5-510a4d6a816c
 
-    - tag: summary
-      namespace: podcast
-      text: Adam Curry's Daily Source Code Podcast
-
-    - tag: complete
-      namespace: podcast
-      text: False
-    
     - tag: medium
       namespace: podcast
       text: podcast
-
-    - tag: explicit
-      namespace: podcast
-      text: True
 
     - tag: locked
       namespace: podcast
@@ -249,15 +220,30 @@ rss:
         owner: adam@curry.com
       text: True
 
+    # The licence of the original feeds (<copyright>); not in the namespace's
+    # license list, so a custom identifier with the url (required then).
+    # To confirm with Adam.
     - tag: license
       namespace: podcast
-      text: 
+      attributes:
+        url: https://creativecommons.org/licenses/by-nc-sa/3.0/us/
+      text: CC-BY-NC-SA-3.0-US
+
+    # The host of the show, as on every episode (../yaml/persons.yaml)
+    - tag: person
+      namespace: podcast
+      attributes:
+        role: host
+        group: cast
+        href: https://en.wikipedia.org/wiki/Adam_Curry
+        img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
+      text: Adam Curry
 
     # podcast:image, one per purpose (podcast:images is deprecated)
     - tag: image
       namespace: podcast
       attributes:
-        href: __BASE_URL__/img/itunes/dsc-logo-3000.png
+        href: __BASE_URL__/artwork/dsc-logo-3000.png
         alt: "Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show's first logo, 2004, reconstructed)"
         aspect-ratio: 1/1
         width: 3000
@@ -268,7 +254,7 @@ rss:
     - tag: image
       namespace: podcast
       attributes:
-        href: __BASE_URL__/img/podcast/dsc-logo-circle-3000.png
+        href: __BASE_URL__/artwork/dsc-logo-circle-3000.png
         alt: "Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show's first logo, 2004, reconstructed)"
         aspect-ratio: 1/1
         width: 3000
@@ -279,7 +265,7 @@ rss:
     - tag: image
       namespace: podcast
       attributes:
-        href: __BASE_URL__/img/podcast/dsc-logo-16x9-1920.png
+        href: __BASE_URL__/artwork/dsc-logo-16x9-1920.png
         alt: "Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show's first logo, 2004, reconstructed)"
         aspect-ratio: 16/9
         width: 1920
@@ -290,7 +276,7 @@ rss:
     - tag: image
       namespace: podcast
       attributes:
-        href: __BASE_URL__/img/podcast/dsc-logo-9x16-1080.png
+        href: __BASE_URL__/artwork/dsc-logo-9x16-1080.png
         alt: "Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show's first logo, 2004, reconstructed)"
         aspect-ratio: 9/16
         width: 1080
@@ -298,51 +284,25 @@ rss:
         type: image/png
         purpose: canvas
 
+    # podcast:block, one tag each (yes/no); the id must be on the service
+    # slug list (serviceslugs.txt): threads, fediverse, bluesky are not, and
+    # cannot be blocked by name. Was: global no, spotify yes (twice), facebook
+    # yes, threads yes, fediverse no, bluesky yes. To confirm with Adam.
     - tag: block
       namespace: podcast
-      tags:
+      text: False
 
-      - tag: block
-        namespace: podcast
-        attributes:
-          id: global
-        text: False
+    - tag: block
+      namespace: podcast
+      attributes:
+        id: spotify
+      text: True
 
-      - tag: block
-        namespace: podcast
-        attributes:
-          id: spotify
-        text: True
-
-      - tag: block
-        namespace: podcast
-        attributes:
-          id: facebook
-        text: True
-
-      - tag: block
-        namespace: podcast
-        attributes:
-          id: spotify
-        text: True
-
-      - tag: block
-        namespace: podcast
-        attributes:
-          id: threads
-        text: True
-
-      - tag: block
-        namespace: podcast
-        attributes:
-          id: fediverse
-        text: False
-
-      - tag: block
-        namespace: podcast
-        attributes:
-          id: bluesky
-        text: True
+    - tag: block
+      namespace: podcast
+      attributes:
+        id: facebook
+      text: True
 
     - tag: rating
       namespace: rawvoice
@@ -355,7 +315,7 @@ rss:
     - tag: subscribe
       namespace: rawvoice
       attributes:
-        feed:         __BASE_URL__/rss
+        feed:         __BASE_URL__/rss.xml
         amazon_music: null
         anghami:      null
         blubrry:      null

@@ -10,7 +10,7 @@ persons:
   group: cast
   role: host
   href: https://en.wikipedia.org/wiki/Adam_Curry
-  img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg
+  img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
 
 - name: Patricia Paay
   group: cast
@@ -106,10 +106,13 @@ persons:
 - name: Marcus Couch
   group: creative direction
   role: producer
-  href: null
-  img: null
+  href: https://marcuscouch.com/
+  img: https://secure.gravatar.com/avatar/31618c01ea7a04d562e4142243214a8a4355976744621b700738136199ebddf4?s=400
   episodes:
   - episode: bonus-2007-01-01-Best-of-Charlie
+    role: producer
+  # "Executive Producer: Marcus Couch" in the show notes
+  - episode: '866'
     role: producer
 
 - name: Barbara Couch
@@ -142,8 +145,8 @@ persons:
 - name: Chris Doelle
   group: creative direction
   role: producer
-  href: null
-  img: null
+  href: https://www.chrisdoelle.com/
+  img: https://www.chrisdoelle.com/wp-content/uploads/2026/08/chris-doelle-headshot.jpg
   episodes:
   - episode: bonus-2007-01-05-Best-of-Charlie
     role: producer
