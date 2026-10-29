@@ -1,0 +1,971 @@
+1
+00:00:00,000 --> 00:00:05,500
+Hi everybody, welcome to the Daily Source Code.
+
+2
+00:00:05,500 --> 00:00:15,800
+This is for April 19th, 2005, coming to you from Utrecht in the Netherlands, the hotel
+
+3
+00:00:15,800 --> 00:00:20,560
+that I've been to several times since I've had to stay in this part of the country.
+
+4
+00:00:20,560 --> 00:00:31,560
+I actually just crossed over to the 20th and I wanted to do a podcast but I definitely didn't
+
+5
+00:00:31,560 --> 00:00:37,560
+feel physically up to the task of assembling a complete rundown home.
+
+6
+00:00:37,560 --> 00:00:38,560
+So let me turn down the TV.
+
+7
+00:00:38,560 --> 00:00:43,560
+I was just watching the newsreels of the new Pope.
+
+8
+00:00:43,560 --> 00:00:45,560
+Is it Benedictus?
+
+9
+00:00:45,560 --> 00:00:47,560
+Do you have a number?
+
+10
+00:00:47,560 --> 00:00:49,560
+Benedictus II.
+
+11
+00:00:49,560 --> 00:00:51,560
+So that's big news.
+
+12
+00:00:51,560 --> 00:01:00,560
+Anyway, so I did bring the I-River and I played a bit of kind of like a test
+
+13
+00:01:00,560 --> 00:01:05,560
+sound scene to where New York on the last podcast that I did.
+
+14
+00:01:05,560 --> 00:01:06,560
+What was that?
+
+15
+00:01:06,560 --> 00:01:08,560
+Yesterday's Daily Source Code.
+
+16
+00:01:08,560 --> 00:01:11,560
+And this is with the new Griffin microphone.
+
+17
+00:01:11,560 --> 00:01:15,560
+Now I don't think it has anywhere near the dynamics of the other mic.
+
+18
+00:01:15,560 --> 00:01:18,560
+On the other hand, it only costs like 39 bucks.
+
+19
+00:01:18,560 --> 00:01:23,560
+So I figure, you know, let's see if we can get an ultimate setup here.
+
+20
+00:01:23,560 --> 00:01:27,560
+Now, I think the reason why it sounds so nasal basically is because it's
+
+21
+00:01:27,560 --> 00:01:30,560
+clipped onto my, there we go.
+
+22
+00:01:30,560 --> 00:01:34,560
+It's clipped onto my, onto the collar of my sweater.
+
+23
+00:01:34,560 --> 00:01:38,560
+So now I'm just kind of holding onto it and that still sounds pretty nasal.
+
+24
+00:01:38,560 --> 00:01:40,560
+Anyway, we'll just have to deal with that.
+
+25
+00:01:40,560 --> 00:01:43,560
+Please don't email me saying it sounds nasal.
+
+26
+00:01:43,560 --> 00:01:45,560
+And I'll try to compress it or something before.
+
+27
+00:01:45,560 --> 00:01:49,560
+Oh dude, I was going to try and compress it, but guess what?
+
+28
+00:01:49,560 --> 00:01:54,560
+For the first time I've actually gone on the road, I didn't bring the Mac.
+
+29
+00:01:54,560 --> 00:01:59,560
+And I feel shitty now because I can't, I don't think I have any compression tools.
+
+30
+00:01:59,560 --> 00:02:02,560
+I'm certainly not going to go looking for them tonight.
+
+31
+00:02:02,560 --> 00:02:04,560
+I only brought the tablet.
+
+32
+00:02:04,560 --> 00:02:09,560
+The reason being, so I'm here in Utrecht in the Netherlands for two reasons.
+
+33
+00:02:10,560 --> 00:02:17,560
+One is, I needed to connect with Crystal, Crystal the PA,
+
+34
+00:02:17,560 --> 00:02:21,560
+who actually has now moved to Geneva herself and she's coming back.
+
+35
+00:02:21,560 --> 00:02:25,560
+You know, we're tying ends up here and a couple more bills to pay
+
+36
+00:02:25,560 --> 00:02:28,560
+and she still has her apartment so that's like the makeshift
+
+37
+00:02:28,560 --> 00:02:32,560
+closed down all operations in the Holland office.
+
+38
+00:02:32,560 --> 00:02:36,560
+And secondly, because the Wing Commander, Wing Commander William
+
+39
+00:02:36,560 --> 00:02:40,560
+had taken schedule two days for me to do some flight training.
+
+40
+00:02:40,560 --> 00:02:45,560
+And what was cool about this is he came to pick me up this morning.
+
+41
+00:02:45,560 --> 00:02:51,560
+He was at Fair Oaks Airfield at like 8.15.
+
+42
+00:02:51,560 --> 00:02:54,560
+I was a little bit late, 8.35.
+
+43
+00:02:54,560 --> 00:02:57,560
+We were supposed to meet at 8.30, but there was some traffic
+
+44
+00:02:57,560 --> 00:03:00,560
+and none of the cabs, there's a car service that we use.
+
+45
+00:03:00,560 --> 00:03:03,560
+It's just kind of like, you know, a taxi cab that you call.
+
+46
+00:03:03,560 --> 00:03:07,560
+So it's not like a limo service.
+
+47
+00:03:07,560 --> 00:03:10,560
+And they had no drivers who knew where the airport was
+
+48
+00:03:10,560 --> 00:03:15,560
+and I had the address and I had actually put it in the GPS on the Audi
+
+49
+00:03:15,560 --> 00:03:20,560
+in order to find it again after I needed to go there.
+
+50
+00:03:20,560 --> 00:03:24,560
+But Patricia needed the car, so...
+
+51
+00:03:24,560 --> 00:03:27,560
+I finally found the guy who came 10 minutes late.
+
+52
+00:03:27,560 --> 00:03:31,560
+So anyway, we got there and William and Nick, Nick the stick,
+
+53
+00:03:31,560 --> 00:03:37,560
+I've flown with him, we did a sound-seeing tour once with the Mooney a while back.
+
+54
+00:03:37,560 --> 00:03:42,560
+He had flown over with William and they were having, you know, their fried eggs
+
+55
+00:03:42,560 --> 00:03:44,560
+and sausages because of this airfield.
+
+56
+00:03:44,560 --> 00:03:49,560
+Although small, it has a cute little restaurant and that was open.
+
+57
+00:03:49,560 --> 00:03:52,560
+Actually it's owned by Alamand, that name may ring a bell.
+
+58
+00:03:52,560 --> 00:03:55,560
+I think Alamand was a Formula One driver 100 million years ago
+
+59
+00:03:55,560 --> 00:04:00,560
+and he got it in helicopters and this is an old airfield.
+
+60
+00:04:00,560 --> 00:04:03,560
+So you can almost see the guy standing on the roof
+
+61
+00:04:03,560 --> 00:04:08,560
+looking as the planes are coming home from a bombing raid
+
+62
+00:04:08,560 --> 00:04:11,560
+or fighting off Messerschneitz.
+
+63
+00:04:15,560 --> 00:04:18,560
+So we took off from there.
+
+64
+00:04:18,560 --> 00:04:20,560
+I'm sorry, I'm really tired, I'm just a little jet-lagged.
+
+65
+00:04:20,560 --> 00:04:24,560
+I just wanted to let you know what was going on in case you're interested
+
+66
+00:04:24,560 --> 00:04:29,560
+and still trying to keep the rhythm going and doing a daily show.
+
+67
+00:04:29,560 --> 00:04:34,560
+So then we took off towards Dover
+
+68
+00:04:34,560 --> 00:04:37,560
+and going through the Heathrow control zone first.
+
+69
+00:04:37,560 --> 00:04:39,560
+So we actually were put on, you know, Heathrow was controlling us
+
+70
+00:04:39,560 --> 00:04:43,560
+just like all the other traffic with, you know, big jets, what have you.
+
+71
+00:04:43,560 --> 00:04:46,560
+Up to 5,000 feet, flew right past London City,
+
+72
+00:04:46,560 --> 00:04:48,560
+could see it right there on the left-hand side,
+
+73
+00:04:48,560 --> 00:04:51,560
+you know, learning a tremendous amount of things while doing this.
+
+74
+00:04:51,560 --> 00:04:54,560
+Because this is actually a lot of airplane to learn how to fly an airplane
+
+75
+00:04:54,560 --> 00:04:58,560
+on the Cessna 182RG.
+
+76
+00:04:58,560 --> 00:05:00,560
+And then we were over the English Channel,
+
+77
+00:05:00,560 --> 00:05:02,560
+because that was the big crossing to make,
+
+78
+00:05:02,560 --> 00:05:04,560
+and then all of a sudden William, the wing commander,
+
+79
+00:05:04,560 --> 00:05:06,560
+sitting in the right-hand seat, you know, unbuckles, gets up,
+
+80
+00:05:06,560 --> 00:05:08,560
+and sits in the back, and then he and Nick,
+
+81
+00:05:08,560 --> 00:05:10,560
+Nick was also in the back, they're taking pictures, you know,
+
+82
+00:05:10,560 --> 00:05:13,560
+so, oh, I'm flying all alone at 5,000 feet, you know.
+
+83
+00:05:13,560 --> 00:05:15,560
+That was pretty cool.
+
+84
+00:05:15,560 --> 00:05:19,560
+And we just went from airport to airport doing touch-and-goes
+
+85
+00:05:19,560 --> 00:05:24,560
+and it was really, once again, quite exhilarating
+
+86
+00:05:24,560 --> 00:05:28,560
+and I really realized that it's going to take me a good year,
+
+87
+00:05:28,560 --> 00:05:31,560
+I think, before I'll be able to do anything like that myself.
+
+88
+00:05:31,560 --> 00:05:34,560
+And it's just so much, so much to think about
+
+89
+00:05:34,560 --> 00:05:36,560
+and so much to work on.
+
+90
+00:05:36,560 --> 00:05:38,560
+And he also, he's also not letting me do the, you know,
+
+91
+00:05:38,560 --> 00:05:41,560
+the digital jockey thing with the GPS, you know,
+
+92
+00:05:41,560 --> 00:05:45,560
+just flip on the GPS and the autopilot syncs to it
+
+93
+00:05:45,560 --> 00:05:48,560
+and you just go from reference point to reference point.
+
+94
+00:05:48,560 --> 00:05:51,560
+Now, he's making me do the VORs, which is,
+
+95
+00:05:51,560 --> 00:05:56,560
+actually that's, you know, there's some World War II technology
+
+96
+00:05:56,560 --> 00:05:59,560
+and even prior to that, the way the navigation works
+
+97
+00:05:59,560 --> 00:06:01,560
+and it's done with radio transmitters and, you know,
+
+98
+00:06:01,560 --> 00:06:03,560
+beacons and your cross-referencing stuff
+
+99
+00:06:03,560 --> 00:06:06,560
+and you're, you know, you're able to figure out,
+
+100
+00:06:06,560 --> 00:06:08,560
+it's basically, it's navigation.
+
+101
+00:06:08,560 --> 00:06:09,560
+Shit.
+
+102
+00:06:09,560 --> 00:06:12,560
+Coming from all that, holding a sexton up to the sun stuff,
+
+103
+00:06:12,560 --> 00:06:13,560
+I think.
+
+104
+00:06:13,560 --> 00:06:17,560
+So that was a really good day
+
+105
+00:06:17,560 --> 00:06:19,560
+and then, you know, so we were back at
+
+106
+00:06:19,560 --> 00:06:21,560
+over some airport around four
+
+107
+00:06:21,560 --> 00:06:23,560
+after a couple of touch-and-goes there
+
+108
+00:06:23,560 --> 00:06:24,560
+and the weather turned shit.
+
+109
+00:06:24,560 --> 00:06:25,560
+It was raining.
+
+110
+00:06:25,560 --> 00:06:27,560
+But that's kind of cool because, you know,
+
+111
+00:06:27,560 --> 00:06:29,560
+I've always been an all-weather pilot.
+
+112
+00:06:29,560 --> 00:06:31,560
+So that was a good experience as well
+
+113
+00:06:31,560 --> 00:06:32,560
+and that's really what it's about
+
+114
+00:06:32,560 --> 00:06:35,560
+because there's no substitute for that.
+
+115
+00:06:35,560 --> 00:06:39,560
+So tomorrow, actually,
+
+116
+00:06:39,560 --> 00:06:42,560
+I want to thank everyone who sent in
+
+117
+00:06:42,560 --> 00:06:46,560
+suggestions for getting rid of the spam in my Gmail.
+
+118
+00:06:46,560 --> 00:06:48,560
+Bill Kress actually sent me an email
+
+119
+00:06:48,560 --> 00:06:50,560
+and he has a whole bunch of, you know, like tests
+
+120
+00:06:50,560 --> 00:06:53,560
+that I can do to figure out maybe it's my Curry.com address
+
+121
+00:06:53,560 --> 00:06:55,560
+and, you know, how I can add some filters in there
+
+122
+00:06:55,560 --> 00:06:58,560
+because I guess most people don't have as much trouble
+
+123
+00:06:58,560 --> 00:07:01,560
+with spam as I do.
+
+124
+00:07:01,560 --> 00:07:03,560
+And then he actually put into words
+
+125
+00:07:03,560 --> 00:07:05,560
+a feature for the iPodders
+
+126
+00:07:05,560 --> 00:07:09,560
+and something that the developers might want to think about.
+
+127
+00:07:09,560 --> 00:07:10,560
+Oops.
+
+128
+00:07:10,560 --> 00:07:12,560
+My screen saver.
+
+129
+00:07:12,560 --> 00:07:14,560
+Is to have like a keep option
+
+130
+00:07:14,560 --> 00:07:16,560
+so you can say that you want,
+
+131
+00:07:16,560 --> 00:07:20,560
+you know, you want a podcast to be deleted automatically
+
+132
+00:07:20,560 --> 00:07:22,560
+but be able to have some kind of metric
+
+133
+00:07:22,560 --> 00:07:24,560
+where it keeps three episodes or three hours
+
+134
+00:07:24,560 --> 00:07:27,560
+for each podcast because, you know,
+
+135
+00:07:27,560 --> 00:07:30,560
+sometimes you may not get to a certain show for a while
+
+136
+00:07:30,560 --> 00:07:32,560
+and then you want to catch up
+
+137
+00:07:32,560 --> 00:07:34,560
+and then we have the catch up feature
+
+138
+00:07:34,560 --> 00:07:36,560
+which just downloads the latest ones.
+
+139
+00:07:36,560 --> 00:07:38,560
+This is not so much a download issue
+
+140
+00:07:38,560 --> 00:07:40,560
+it's just a decision issue
+
+141
+00:07:40,560 --> 00:07:42,560
+and I think that we can probably come up
+
+142
+00:07:42,560 --> 00:07:44,560
+with a whole bunch of interesting ways
+
+143
+00:07:44,560 --> 00:07:46,560
+to make that experience even better.
+
+144
+00:07:46,560 --> 00:07:48,560
+I guess these are a lot of the TiVo-like features
+
+145
+00:07:48,560 --> 00:07:51,560
+you can learn a lot from what they're doing, I think.
+
+146
+00:07:51,560 --> 00:07:54,560
+Not the content, obviously, but some of the organization.
+
+147
+00:07:54,560 --> 00:07:56,560
+I've never actually tried the TiVo.
+
+148
+00:07:56,560 --> 00:07:59,560
+I have Sky Digital which is what's used over here.
+
+149
+00:07:59,560 --> 00:08:02,560
+Now, tomorrow, and I'm already hating the fact
+
+150
+00:08:02,560 --> 00:08:05,560
+that I didn't bring the other microphone
+
+151
+00:08:05,560 --> 00:08:07,560
+just going to have to be this one,
+
+152
+00:08:07,560 --> 00:08:10,560
+it's definitely going to be a sound scene tour
+
+153
+00:08:10,560 --> 00:08:12,560
+at 11 o'clock and I think I went through
+
+154
+00:08:12,560 --> 00:08:14,560
+some of this on yesterday's show.
+
+155
+00:08:14,560 --> 00:08:16,560
+At 11 o'clock in the morning
+
+156
+00:08:16,560 --> 00:08:19,560
+the Ministry of Defense
+
+157
+00:08:19,560 --> 00:08:21,560
+wanted to give that transmitter back
+
+158
+00:08:21,560 --> 00:08:24,560
+that I had left with the Dutch Marines in Iraq.
+
+159
+00:08:24,560 --> 00:08:27,560
+And so I've now, actually,
+
+160
+00:08:27,560 --> 00:08:29,560
+of course the Ministry of Defense
+
+161
+00:08:29,560 --> 00:08:31,560
+they sent out the press release
+
+162
+00:08:31,560 --> 00:08:33,560
+and so we're meeting in this field
+
+163
+00:08:33,560 --> 00:08:36,560
+near Hill where a cougar is going to appear
+
+164
+00:08:36,560 --> 00:08:38,560
+in the sky and apparently
+
+165
+00:08:38,560 --> 00:08:40,560
+four Marines are going to be repelling down
+
+166
+00:08:40,560 --> 00:08:43,560
+with this transmitter
+
+167
+00:08:43,560 --> 00:08:45,560
+and they're going to give that back to me
+
+168
+00:08:45,560 --> 00:08:47,560
+and that's like some kind of ceremony
+
+169
+00:08:47,560 --> 00:08:49,560
+and it's going to be fun because, you know,
+
+170
+00:08:49,560 --> 00:08:52,560
+it's good to see the guys again.
+
+171
+00:08:52,560 --> 00:08:57,560
+So I'll have the recording running the entire time
+
+172
+00:08:57,560 --> 00:09:01,560
+and we'll see if we can make anything out of it
+
+173
+00:09:01,560 --> 00:09:03,560
+and get anything good.
+
+174
+00:09:03,560 --> 00:09:06,560
+It surely will be a trial by fire.
+
+175
+00:09:06,560 --> 00:09:09,560
+That's for sure.
+
+176
+00:09:09,560 --> 00:09:13,560
+And if it sucks then we've learned something.
+
+177
+00:09:13,560 --> 00:09:16,560
+I'm just a little sad that I didn't bring the backup system
+
+178
+00:09:16,560 --> 00:09:19,560
+because this will be great material to basically capture.
+
+179
+00:09:19,560 --> 00:09:21,560
+Oh and there's something else I was talking to
+
+180
+00:09:21,560 --> 00:09:24,560
+a friend of mine who said that, you know,
+
+181
+00:09:24,560 --> 00:09:26,560
+there's a, you know,
+
+182
+00:09:26,560 --> 00:09:29,560
+I'm looking at all the different angles of pod safe music
+
+183
+00:09:29,560 --> 00:09:31,560
+and how we can get,
+
+184
+00:09:31,560 --> 00:09:34,560
+how we can build a place
+
+185
+00:09:34,560 --> 00:09:38,560
+where we can really foster this great energy
+
+186
+00:09:38,560 --> 00:09:41,560
+that we've got from all kinds of people
+
+187
+00:09:41,560 --> 00:09:44,560
+who want to play cool, interesting music on their podcast
+
+188
+00:09:44,560 --> 00:09:46,560
+and they were passionate about it
+
+189
+00:09:46,560 --> 00:09:49,560
+and what's my thought now?
+
+190
+00:09:49,560 --> 00:09:51,560
+I totally lost my train of thought.
+
+191
+00:09:51,560 --> 00:09:54,560
+I'm sorry, I'm so completely fried.
+
+192
+00:09:54,560 --> 00:09:56,560
+I don't know what it was.
+
+193
+00:09:56,560 --> 00:09:59,560
+It was something good.
+
+194
+00:09:59,560 --> 00:10:01,560
+I'm looking through my, do you hear that?
+
+195
+00:10:01,560 --> 00:10:03,560
+That's something, you know, here often,
+
+196
+00:10:03,560 --> 00:10:05,560
+I hear my PC fan kicking.
+
+197
+00:10:05,560 --> 00:10:08,560
+Let me just cut this down on that.
+
+198
+00:10:08,560 --> 00:10:10,560
+Listen to that man.
+
+199
+00:10:10,560 --> 00:10:14,560
+For no reason, just because I'm scrolling up on my browser.
+
+200
+00:10:14,560 --> 00:10:16,560
+I'm using Firefox.
+
+201
+00:10:16,560 --> 00:10:19,560
+Does that take a lot of processing power?
+
+202
+00:10:19,560 --> 00:10:21,560
+That's really strange.
+
+203
+00:10:21,560 --> 00:10:24,560
+Okay, so anyway, so I've totally gone blank
+
+204
+00:10:24,560 --> 00:10:27,560
+on whatever was I was going to say.
+
+205
+00:10:27,560 --> 00:10:29,560
+I should almost rewind this just to go back.
+
+206
+00:10:29,560 --> 00:10:32,560
+Listen, oh man, I hate it when that happens.
+
+207
+00:10:32,560 --> 00:10:35,560
+Ever since I got back from the easy jet trip,
+
+208
+00:10:35,560 --> 00:10:38,560
+I really got, I don't know, the jet lag has been
+
+209
+00:10:38,560 --> 00:10:41,560
+very interesting this time around.
+
+210
+00:10:41,560 --> 00:10:44,560
+It's definitely kicked my ass a bit.
+
+211
+00:10:44,560 --> 00:10:47,560
+You go through an entire night without sleeping.
+
+212
+00:10:47,560 --> 00:10:49,560
+Usually I get an hour or two,
+
+213
+00:10:49,560 --> 00:10:52,560
+but I don't know what they've done with the seats.
+
+214
+00:10:52,560 --> 00:10:55,560
+Somehow they've made it just exactly the right length
+
+215
+00:10:55,560 --> 00:10:57,560
+of the way they've done the seat in front of me.
+
+216
+00:10:57,560 --> 00:10:59,560
+It's amazing.
+
+217
+00:10:59,560 --> 00:11:01,560
+Okay, what are we at here?
+
+218
+00:11:01,560 --> 00:11:03,560
+Oh, this is nice and short.
+
+219
+00:11:03,560 --> 00:11:06,560
+So that's basically a quick update.
+
+220
+00:11:06,560 --> 00:11:09,560
+Strategy Cast with Ron coming up.
+
+221
+00:11:09,560 --> 00:11:11,560
+That'll probably be Thursday,
+
+222
+00:11:11,560 --> 00:11:13,560
+and we're just going to, you know,
+
+223
+00:11:13,560 --> 00:11:16,560
+just talk about what's going on.
+
+224
+00:11:16,560 --> 00:11:19,560
+I'll give you some more thoughts.
+
+225
+00:11:19,560 --> 00:11:22,560
+Okay, I got to go to bed.
+
+226
+00:11:22,560 --> 00:11:25,560
+Because after that, after the whole Marine thing,
+
+227
+00:11:25,560 --> 00:11:27,560
+then it's more flight training,
+
+228
+00:11:27,560 --> 00:11:30,560
+actually coordinating a conference call.
+
+229
+00:11:30,560 --> 00:11:33,560
+So I'm going to land somewhere up in the north of Holland,
+
+230
+00:11:33,560 --> 00:11:35,560
+and then we'll have lunch,
+
+231
+00:11:35,560 --> 00:11:37,560
+and then I'll do my call,
+
+232
+00:11:37,560 --> 00:11:39,560
+and then we'll do some more flying,
+
+233
+00:11:39,560 --> 00:11:42,560
+and then actually come back to either
+
+234
+00:11:42,560 --> 00:11:44,560
+Hilbersome or Amsterdam,
+
+235
+00:11:44,560 --> 00:11:47,560
+then I'll hop on the easy jet and go on home.
+
+236
+00:11:47,560 --> 00:11:50,560
+That's just so the William doesn't have to go flying back and forth.
+
+237
+00:11:50,560 --> 00:11:52,560
+I'll actually be able to do that myself.
+
+238
+00:11:52,560 --> 00:11:54,560
+So anyway, hope you don't mind
+
+239
+00:11:54,560 --> 00:11:56,560
+the looseness of this particular show.
+
+240
+00:11:56,560 --> 00:11:58,560
+That's why I'm keeping it short.
+
+241
+00:11:58,560 --> 00:12:00,560
+Tomorrow, more with the Dutch Marines
+
+242
+00:12:00,560 --> 00:12:02,560
+on the daily source code.
+
+243
+00:12:02,560 --> 00:12:04,560
+See you then.
