@@ -1,0 +1,8499 @@
+WEBVTT
+
+00:00.000 --> 00:14.920
+Hello, and welcome to IT
+Conversations. I'm your host
+Doug Kay, and today we have a
+recorded
+
+00:14.920 --> 00:21.240
+session from BloggerCon 3 held
+at Stanford University on
+November 6, 2004. This session
+
+00:21.240 --> 00:28.240
+is on podcasting, and the
+session leader is Adam Curry.
+
+00:28.240 --> 00:51.520
+Good morning everybody. Howdy.
+Can you hear me okay? It's
+working all right. It could be
+
+00:51.520 --> 00:58.080
+a little bit louder if someone
+could turn that up a bit. It's 9
+o'clock exactly, and that
+
+00:58.080 --> 01:01.280
+means we're starting with the
+podcasting session. My name is
+Adam Curry. It's great
+
+01:01.280 --> 01:11.400
+to see everybody here, and from
+where I'm standing, the ratio
+Apple to Windows is just an
+amazing
+
+01:11.400 --> 01:22.880
+sight to see this. I want to
+thank Dave right off the bat.
+We've been working really
+intensely
+
+01:22.880 --> 01:32.640
+for the past, well ever since
+podcasting started, so a couple
+weeks now. While he's been
+working
+
+01:32.640 --> 01:38.080
+with me and we've been doing all
+this stuff together, he's also
+producing a conference
+
+01:38.080 --> 01:45.560
+which is an incredibly,
+incredibly big deal to pull off,
+and the smoothness of it all
+
+01:45.560 --> 01:51.000
+is just excellent. Of course,
+Dave will credit all the people
+who have helped him put
+
+01:51.000 --> 01:58.360
+this together. So podcasting.
+First thing I thought we should
+do is just do our regular
+
+01:58.360 --> 02:09.520
+check on Google. Hold on if I
+can spell Google. And hold on a
+sec. I had to split up my Mac
+
+02:09.520 --> 02:22.840
+no longer has a connection. So,
+oops. Yeah. Google still doesn't
+understand it. Did you
+
+02:22.840 --> 02:35.840
+mean broadcasting? Meanwhile,
+191,000 hits for podcasting. Now
+actually, we do have a
+
+02:35.880 --> 02:41.080
+definition on iPod.org which
+I'll just leave up there because
+it's a little bit confusing.
+
+02:41.080 --> 02:48.480
+What is podcasting? Is it
+something that just started with
+iPods or with MP3 players?
+
+02:48.480 --> 02:53.680
+Or this definition I think
+really says it all, which means
+it can be perhaps a lot
+
+02:53.680 --> 02:59.760
+broader than what we're doing
+today. I wanted to give you a
+little bit of history of the
+
+02:59.760 --> 03:03.960
+past couple of months about how
+this came to be and some of the
+things that happened
+
+03:04.080 --> 03:08.800
+and show that it really was very
+simple because it was just a
+matter of users and
+
+03:08.800 --> 03:14.120
+developers. I say users and
+developers partying together and
+coming up with amazing
+
+03:14.120 --> 03:19.120
+stuff. Are the developers in the
+room who consider themselves to
+be real developers?
+
+03:19.120 --> 03:29.120
+Okay. Good. Welcome to the
+party. Glad to have you here.
+Just briefly, five years ago
+
+03:29.280 --> 03:35.880
+Dave and I conceived an idea of
+how to distribute media files
+through the web. We
+
+03:35.880 --> 03:38.680
+could go into all kinds of
+technical details about that. I
+don't think this
+
+03:38.680 --> 03:43.360
+room is going to want to do that
+just now or maybe later on.
+We'll see. But it
+
+03:43.360 --> 03:49.120
+was relatively simple and was
+built on top of protocols and
+formats that Dave
+
+03:49.120 --> 03:52.160
+had already invented. They were
+already being used and they used
+weblog
+
+03:52.160 --> 03:58.640
+infrastructure. It was just
+that. It was time shifting an
+MP3 file or a
+
+03:58.640 --> 04:03.160
+video file so that it would kind
+of come into my computer if he
+sent one to me and
+
+04:03.160 --> 04:07.800
+would just be there when I woke
+up and said what's new and vice
+versa. We did
+
+04:07.800 --> 04:11.920
+that for about four years. We
+sent each other little clips and
+we'd post about
+
+04:11.920 --> 04:16.800
+it and say, oh, isn't this cool?
+Yeah. When everybody uses it,
+it'll be really
+
+04:16.800 --> 04:23.320
+cool. Now, there have been MP3
+files that people have been
+putting on the
+
+04:23.320 --> 04:29.360
+web for years and years and
+years. Shows, dramas,
+documentaries, stuff that is
+
+04:29.360 --> 04:33.480
+coming from traditional radio.
+It's been around. The problem
+that I always had
+
+04:33.480 --> 04:38.840
+because I was listening to
+Dave's morning coffee notes
+which he went from
+
+04:38.840 --> 04:42.440
+kind of the text version to the
+audio version for a while and I
+really liked
+
+04:42.440 --> 04:46.960
+it. But it wasn't very clear if
+I just looked at scripting news
+and okay
+
+04:46.960 --> 04:50.880
+where's the file and I might
+look over it and might
+understand that that
+
+04:50.920 --> 04:53.960
+was something that I wanted to
+get. And quite honestly, I
+didn't want to sit and
+
+04:53.960 --> 04:56.760
+click and download and have
+stuff, you know, wait until it
+comes in, play it on
+
+04:56.760 --> 05:03.240
+my computer. And I would
+usually, you know, drag it over
+to my iPod and use it on
+
+05:03.240 --> 05:06.960
+the commute or go shopping or
+whatever or when I just wanted
+to tune up my
+
+05:06.960 --> 05:13.240
+14-year-old daughter's songs.
+And I wanted to have that happen
+
+05:13.240 --> 05:16.640
+automatically because it was
+just a laborious process and I
+would miss
+
+05:16.640 --> 05:21.520
+stuff. And I just wouldn't be
+current with whatever he was
+doing. Also Dave at
+
+05:21.520 --> 05:26.480
+the time which was the first
+blogger con I think was working
+with Chris Leiden.
+
+05:26.480 --> 05:32.480
+Is Chris here? I don't think he
+is. And Chris was doing
+interviews and Dave
+
+05:32.480 --> 05:37.240
+was putting those in this
+distribution system which is
+based on RSS. And that
+
+05:37.240 --> 05:41.600
+was cool, you know. I don't get
+all these interviews
+automatically on my, one
+
+05:41.600 --> 05:45.800
+of them automatically on my
+iPod. And I actually looked
+around for people to
+
+05:45.800 --> 05:51.080
+help me do this. I'm not a
+programmer. I don't feel like a
+programmer. In fact, the
+
+05:51.080 --> 05:53.640
+first blogger con asked a couple
+people here if you know they
+could help me out
+
+05:53.640 --> 06:00.040
+and wound up actually Marcus
+Mahler who I pay to watch my
+servers and stuff and
+
+06:00.040 --> 06:03.760
+he developed some stuff for me.
+He actually built what I would
+say the
+
+06:03.760 --> 06:08.720
+first iPod in Radio User Land.
+Radio User Land if you're not
+familiar with
+
+06:08.720 --> 06:12.360
+it is, well it's much more than
+a web blogging tool but it is an
+
+06:12.400 --> 06:17.400
+aggregator that understands how
+to get enclosures which is the
+basis of podcasts.
+
+06:17.400 --> 06:22.920
+And he created a little script
+that literally would update my
+iPod with
+
+06:22.920 --> 06:25.400
+whatever came in. It didn't work
+very well. That was the problem.
+It was
+
+06:25.400 --> 06:30.640
+unreliable for a whole bunch of
+issues. One of which is the way
+radio
+
+06:30.640 --> 06:35.280
+downloads. It just, it didn't
+work entirely well. And I
+couldn't get
+
+06:35.280 --> 06:40.680
+anyone to help me figure this
+out. And I saw all the bits. I
+knew that
+
+06:40.680 --> 06:43.480
+everything was in place and if I
+could just tie them together I
+could
+
+06:43.480 --> 06:48.440
+probably make it happen. So I
+took about a month and I'll just
+show this to
+
+06:48.440 --> 06:53.320
+you because I thought you might
+appreciate it. It's much less of
+a
+
+06:53.320 --> 06:57.280
+big deal than you might think.
+And I wrote basically a page and
+a half
+
+06:57.280 --> 07:04.640
+of text. This is Apple script.
+I'd already learned a bit of
+user talk
+
+07:04.640 --> 07:08.440
+which is Radio User Land and
+Frontiers scripting language.
+And you'll
+
+07:08.480 --> 07:13.280
+see in here literally, it was
+all copy-paste. I went out to
+Google and
+
+07:13.280 --> 07:19.040
+I said, RSS, Apple script. And
+it came back and it gave me all
+these
+
+07:19.040 --> 07:24.280
+great examples of stuff that
+people were doing with Apple
+script and RSS.
+
+07:24.280 --> 07:27.600
+Which wasn't very much actually.
+But there was a lot of iPod
+stuff and I
+
+07:27.600 --> 07:31.880
+learned that you can talk to
+with iTunes and your iPod and
+there's
+
+07:31.880 --> 07:35.320
+all these things in there and
+you'll see that literally as I
+copy and
+
+07:35.360 --> 07:42.600
+paste and stuff. This is really
+my code and here's finished
+parsing and I
+
+07:42.600 --> 07:47.360
+called stuff like enclosure
+sucker. But the big deal is down
+at the
+
+07:47.360 --> 07:52.200
+bottom of the page where it says
+copy to iTunes. And that was
+really
+
+07:52.200 --> 07:58.600
+the big deal for me. When it was
+done and I just called it iPod
+
+07:58.600 --> 08:02.520
+because that's the name I come
+up with which commercially
+doesn't
+
+08:02.520 --> 08:06.240
+make sense but it stuck. I was
+really happy but it really,
+
+08:06.240 --> 08:09.960
+really sucks. It's the worst
+program I've ever used and of
+
+08:09.960 --> 08:13.880
+course because I don't know how
+to do this. Really, please, it's
+
+08:13.880 --> 08:16.440
+still available. Download it and
+see how bad it sucks. It just
+
+08:16.440 --> 08:21.480
+breaks all over the place. And I
+put it out and said, this
+
+08:21.480 --> 08:24.040
+sucks. Can anyone please improve
+it for me? Help me. And
+
+08:24.040 --> 08:26.400
+that's when it started and
+that's when I think for me at
+
+08:26.400 --> 08:31.800
+least the connect of users and
+developers happened where I put
+
+08:31.800 --> 08:34.000
+out a little more initiative
+than just saying, hey, make this
+
+08:34.000 --> 08:36.880
+for me because I found out that
+asking programmers and
+
+08:36.880 --> 08:39.480
+developers to make something for
+you is like asking them to do
+
+08:39.480 --> 08:42.760
+your homework. It just doesn't
+work that way. And from here
+
+08:42.760 --> 08:47.600
+just grew this incredible based
+on a Yahoo Groups mailing list
+
+08:47.600 --> 08:51.240
+I might add. This incredible
+community of users and
+
+08:51.240 --> 08:55.960
+developers having a conversation
+with no hidden agenda. The
+
+08:55.960 --> 08:58.200
+only agenda was we want to make
+this easier. We want to
+
+08:58.200 --> 09:00.320
+make it cool. We want to have a
+lot of fun while we're
+
+09:00.320 --> 09:05.280
+doing this. And I think that a
+real nice part of all that is
+
+09:05.280 --> 09:08.440
+that the developers are also
+podcasters. They're not just
+
+09:08.440 --> 09:11.560
+making code. Of those developers
+who raise their hands,
+
+09:11.560 --> 09:14.840
+someone doing a podcast, I hope?
+You can raise it a little
+
+09:14.840 --> 09:21.360
+bit higher. So that's just a
+brief history of how we got
+
+09:21.360 --> 09:25.360
+here. And then what happened
+from there is it's just like
+
+09:25.360 --> 09:32.480
+web logs. You can read web logs.
+We all know more or less
+
+09:32.480 --> 09:35.520
+what web logs bring to us. But I
+think one of the beauties
+
+09:35.520 --> 09:38.120
+about web logs is you can create
+your own at any time
+
+09:38.120 --> 09:42.480
+and you can participate. And
+this, with what we've created
+
+09:42.480 --> 09:47.200
+here, anybody can basically
+create a podcast. And
+
+09:47.200 --> 09:51.840
+definition of a podcast or a
+program, really anyone can
+
+09:51.840 --> 09:54.360
+do that as long as you have a
+computer that at least
+
+09:54.360 --> 09:57.880
+has a built-in microphone. From
+there, you can really
+
+09:57.880 --> 10:01.200
+branch out and do some really
+fancy stuff. I'm not quite
+
+10:01.200 --> 10:03.480
+sure what, I've heard a couple
+things about what you came
+
+10:03.480 --> 10:06.760
+to this session to find out
+about. The only thing I
+
+10:06.760 --> 10:08.880
+really have set in my mind is
+that I think a lot of
+
+10:08.880 --> 10:13.040
+people want to see how I do a
+podcast, which may be
+
+10:13.040 --> 10:15.120
+different from the way you're
+doing it. But if
+
+10:15.120 --> 10:17.520
+anyone has a direction you'd
+like to go right now,
+
+10:17.520 --> 10:19.880
+just let me know so that we can
+get a mic to you
+
+10:19.920 --> 10:24.240
+and go down that path.
+Otherwise, I'm going to do
+
+10:24.240 --> 10:28.200
+whatever the hell I want to do.
+Just wait until the
+
+10:28.200 --> 10:32.960
+mic comes up. And please, let's
+know who you are,
+
+10:32.960 --> 10:34.600
+the URL or podcast.
+
+10:34.600 --> 10:37.440
+Hi, I love your show. I listen
+to it all the time.
+
+10:37.440 --> 10:40.680
+My name is Donovan Watts. I work
+for the National
+
+10:40.680 --> 10:43.280
+Radio Project and they put out a
+weekly show called
+
+10:43.280 --> 10:46.320
+Making Contact. It's a 30-minute
+audio
+
+10:46.360 --> 10:50.560
+documentary, RadioProject.org.
+And it's just perfect for
+
+10:50.560 --> 10:52.640
+podcasting. I've been wanting to
+do this for a long
+
+10:52.640 --> 10:57.800
+time. So recently I started
+podcasting and a whole
+
+10:57.800 --> 11:01.240
+week radio picked us up and
+without my even saying
+
+11:01.240 --> 11:03.040
+anything. So I'm pretty excited
+about the
+
+11:03.040 --> 11:07.840
+potential. But we have two
+audiences. One is the
+
+11:07.840 --> 11:10.240
+listeners with the iPods and the
+listening
+
+11:10.240 --> 11:12.440
+devices. But the other people
+I'm interested
+
+11:12.440 --> 11:15.240
+in getting a hold of are the
+stations. You
+
+11:15.280 --> 11:17.960
+know, every week we send out
+hundreds of CDs and I
+
+11:17.960 --> 11:20.360
+want to eliminate that. So, you
+know, what I have
+
+11:20.360 --> 11:22.920
+a real interest in is how to get
+these stations
+
+11:22.920 --> 11:24.840
+to get on board and how to make
+it easy for
+
+11:24.840 --> 11:26.160
+them to get the show.
+
+11:26.160 --> 11:28.040
+Okay, so what you're, if I
+understand your
+
+11:28.040 --> 11:31.360
+question correctly, is how can
+you use, excuse
+
+11:31.360 --> 11:34.480
+me, podcasting as a syndication
+method for
+
+11:34.480 --> 11:38.360
+traditional broadcast? Okay,
+well, Tony, do you
+
+11:38.360 --> 11:40.880
+want to jump in here? Because
+you are quite
+
+11:40.880 --> 11:43.960
+familiar with, let's call it
+traditional
+
+11:44.000 --> 11:45.560
+radio. We've got a microphone
+coming down
+
+11:45.560 --> 11:48.600
+here to Tony, please. There you
+go. Tony Khan
+
+11:48.600 --> 11:51.560
+is a legend in the public, well,
+not just
+
+11:51.560 --> 11:53.240
+public radio, but in radio in
+general.
+
+11:53.240 --> 11:56.240
+Just look up his CV on the web
+and he
+
+11:56.240 --> 11:57.800
+currently has a podcast of
+Morning
+
+11:57.800 --> 12:01.240
+Stories also on WGBHN in the
+podcast.
+
+12:01.240 --> 12:02.920
+That's the surest way to shut me
+up. Call
+
+12:02.920 --> 12:06.400
+me a legend. I guess I've said
+it all
+
+12:06.400 --> 12:08.040
+already and I have no idea what
+I said.
+
+12:08.040 --> 12:12.160
+So, the main problem, excuse me,
+the main
+
+12:12.240 --> 12:14.000
+problem in trying to get
+anything from
+
+12:14.000 --> 12:18.000
+the outside into broadcasting is
+the
+
+12:18.000 --> 12:20.480
+same problem that you face in
+any line
+
+12:20.480 --> 12:23.440
+of work from being in the
+Pentagon to
+
+12:23.440 --> 12:25.920
+being a camel trader in a
+bazaar, and
+
+12:25.920 --> 12:28.240
+that is you got to know
+somebody. It's
+
+12:28.240 --> 12:30.360
+all personal and you've got to
+persuade
+
+12:30.360 --> 12:32.360
+them that what you have really
+is
+
+12:32.360 --> 12:35.160
+essential to their well-being,
+happiness,
+
+12:35.160 --> 12:37.160
+it may be the preservation of
+their job.
+
+12:37.160 --> 12:39.520
+So that's a huge problem. It's
+got
+
+12:39.520 --> 12:41.200
+nothing at all to do with the
+quality
+
+12:41.240 --> 12:43.360
+of the content of your show. And
+I
+
+12:43.360 --> 12:45.120
+think an enormous amount of
+energy can
+
+12:45.120 --> 12:47.120
+be misspent trying to get what
+you've
+
+12:47.120 --> 12:49.240
+got that's original and fresh
+into a
+
+12:49.240 --> 12:52.000
+medium like broadcasting, which
+already
+
+12:52.000 --> 12:53.920
+has its own ideas about what it
+wants
+
+12:53.920 --> 12:57.120
+to do. And I'm here because I
+believe
+
+12:57.120 --> 12:59.440
+that all that time, energy, and
+sense
+
+12:59.440 --> 13:02.080
+of fun is better spent trying to
+
+13:02.080 --> 13:05.320
+create a market and an
+environment and
+
+13:05.320 --> 13:07.560
+a climate for new ideas that is
+
+13:07.560 --> 13:09.240
+different from broadcasting so
+that
+
+13:09.280 --> 13:11.560
+broadcasting as a whole can
+start to
+
+13:11.560 --> 13:14.160
+come and say, geez, we got
+something to
+
+13:14.160 --> 13:16.800
+learn from you guys. You are
+essential
+
+13:16.800 --> 13:19.200
+to our survival now. So what was
+that
+
+13:19.200 --> 13:22.360
+show you were doing? I think if
+we
+
+13:22.360 --> 13:24.200
+build community here and we
+build new
+
+13:24.200 --> 13:26.480
+ideas and we appreciate the fact
+that
+
+13:26.480 --> 13:27.960
+the main difference between
+what's
+
+13:27.960 --> 13:29.240
+happening here and what's
+happening in
+
+13:29.240 --> 13:31.280
+broadcasting is that this
+movement is
+
+13:31.280 --> 13:33.720
+young, it's supple, it's fresh,
+it's
+
+13:33.720 --> 13:35.800
+about partying and about having
+fun a
+
+13:35.800 --> 13:37.280
+lot more than it's about making
+money
+
+13:37.320 --> 13:40.120
+and keeping your job. Those
+qualities
+
+13:40.120 --> 13:42.440
+are rare. They don't last
+terribly long
+
+13:42.440 --> 13:46.200
+anywhere. Make sure you hold on
+to that
+
+13:46.200 --> 13:49.240
+and make sure you get to express
+your
+
+13:49.240 --> 13:51.000
+show, Adam, for instance, is
+creating a
+
+13:51.000 --> 13:52.960
+new form. Every podcast I've
+heard is
+
+13:52.960 --> 13:54.720
+creating a new form. Don and
+Drew is a
+
+13:54.720 --> 13:57.480
+new form. They would never,
+never come
+
+13:57.480 --> 14:01.800
+out of public broadcasting. I
+thought
+
+14:01.800 --> 14:03.440
+the mile-housing was
+interesting. They
+
+14:03.440 --> 14:04.880
+would never be allowed in the
+bathroom
+
+14:04.880 --> 14:09.760
+probably at WGBH. But it's real
+
+14:09.760 --> 14:13.080
+important to remember that the
+hits are
+
+14:13.080 --> 14:14.800
+going to come from the bottom
+up, from
+
+14:14.800 --> 14:18.120
+the outside in. No programmer
+knows how
+
+14:18.120 --> 14:20.120
+to make a hit, but they think
+that's
+
+14:20.120 --> 14:22.520
+their job. So they will listen
+to the
+
+14:22.520 --> 14:25.160
+wrong things. So I don't want to
+
+14:25.160 --> 14:27.880
+repeat myself, but I guess I am.
+Try not
+
+14:27.880 --> 14:29.840
+to spend too much time getting
+into
+
+14:29.840 --> 14:32.000
+broadcasting if you think of
+yourself as
+
+14:32.000 --> 14:34.400
+a podcaster. If you think of
+yourself
+
+14:34.440 --> 14:36.240
+as a podcaster, figure out what
+is
+
+14:36.240 --> 14:37.720
+really special and different
+about
+
+14:37.720 --> 14:40.880
+podcasting and then get
+broadcasting to
+
+14:40.880 --> 14:44.120
+salivate about it. Right. It's
+what Tony
+
+14:44.120 --> 14:45.600
+is saying here is one of the big
+things
+
+14:45.600 --> 14:48.120
+that I really love about what
+we're
+
+14:48.120 --> 14:50.920
+doing is exactly that. It's fun.
+You
+
+14:50.920 --> 14:52.880
+can hear the pattern. I've been
+in
+
+14:52.880 --> 14:57.080
+radio since I was 15 and there's
+all
+
+14:57.080 --> 14:58.160
+these rules, you know, there's
+all
+
+14:58.160 --> 14:59.720
+these ways that you kind of do
+stuff
+
+14:59.720 --> 15:03.000
+and time is definitely money. No
+
+15:03.000 --> 15:04.480
+matter if you're public radio or
+
+15:04.480 --> 15:06.640
+not, every minute is accounted
+for.
+
+15:06.640 --> 15:11.800
+And my wife, who I've been with
+for 17
+
+15:11.800 --> 15:14.360
+years now, in the early, early
+days of
+
+15:14.360 --> 15:16.400
+my career, I would be on radio
+and
+
+15:16.400 --> 15:18.160
+television and if I would flub a
+line
+
+15:18.160 --> 15:20.720
+and they don't always let you
+
+15:20.720 --> 15:22.240
+redo stuff, you know, the
+director
+
+15:22.240 --> 15:23.400
+makes the decisions and now
+we're not
+
+15:23.400 --> 15:24.960
+going to do that over because my
+shots
+
+15:24.960 --> 15:26.200
+were great, fuck whatever you
+said.
+
+15:26.200 --> 15:29.760
+I don't like television. That's
+one
+
+15:29.760 --> 15:31.840
+of many reasons. But I would be
+
+15:31.840 --> 15:34.480
+really upset and we're talking
+85
+
+15:34.480 --> 15:37.360
+and I'd sit at home and go, oh,
+I fucked up that line.
+
+15:37.360 --> 15:39.760
+And she said, oh man, that was
+the best
+
+15:39.760 --> 15:41.840
+part. So you became human for
+like a
+
+15:41.840 --> 15:47.200
+nanosecond. And that's exactly
+what it is.
+
+15:47.200 --> 15:49.240
+You can hear the humanity, you
+can hear
+
+15:49.240 --> 15:51.840
+it all coming through. Don and
+Drew are
+
+15:51.840 --> 15:53.440
+both here, right? Where are you
+guys
+
+15:53.440 --> 15:59.760
+sitting? Stand up for a second.
+
+15:59.760 --> 16:03.120
+Can we get a microphone up?
+
+16:03.120 --> 16:05.200
+Now despite what you've heard,
+Don and I
+
+16:05.200 --> 16:07.280
+have no relationship of sexual
+nature. I
+
+16:07.280 --> 16:08.720
+did not have sexual relations
+with that
+
+16:08.720 --> 16:12.160
+woman.
+
+16:12.160 --> 16:13.440
+Yet.
+
+16:13.440 --> 16:15.280
+Hey Drew.
+
+16:15.280 --> 16:17.760
+What I'd like to hear from you
+guys
+
+16:17.760 --> 16:21.760
+is what got you started. I think
+I can
+
+16:21.760 --> 16:24.560
+kind of feel that Drew is
+
+16:24.560 --> 16:26.080
+clearly the producer and he's
+
+16:26.080 --> 16:28.880
+driving Don in a way. But you
+know,
+
+16:28.960 --> 16:31.040
+maybe you could just tell us how
+you
+
+16:31.040 --> 16:32.720
+fell into this and why you've
+been
+
+16:32.720 --> 16:34.320
+doing it every single day and
+why you
+
+16:34.320 --> 16:36.320
+keep doing it and just your
+feelings
+
+16:36.320 --> 16:38.160
+about that.
+
+16:38.160 --> 16:39.680
+Sure. Yeah, you're not allowed
+to hold
+
+16:39.680 --> 16:42.640
+the mic.
+
+16:42.640 --> 16:44.480
+I've just been into the internet
+and
+
+16:44.480 --> 16:45.840
+blogging and all that stuff for,
+you
+
+16:45.840 --> 16:47.600
+know, years now. And I'm
+actually
+
+16:47.600 --> 16:49.600
+friends with Pete Raster Webb.
+
+16:49.600 --> 16:51.040
+And he's the guy that kind of
+just
+
+16:51.040 --> 16:52.640
+pushed me into it. You know, one
+
+16:52.640 --> 16:53.760
+weekend he was like, you better
+put
+
+16:53.760 --> 16:55.760
+something out or else, you know,
+
+16:55.760 --> 16:57.120
+some wisecrack. And so I did and
+it
+
+16:57.120 --> 16:59.840
+was real stupid. And so, you
+know,
+
+16:59.840 --> 17:01.920
+Don heard it and I just kind of
+like,
+
+17:01.920 --> 17:03.680
+you know, we're a team and
+
+17:03.680 --> 17:06.400
+she's the talent. I'm just the
+yes,
+
+17:06.400 --> 17:08.560
+the tech. And it's just been,
+you
+
+17:08.560 --> 17:09.760
+know, it's just been crazy,
+something
+
+17:09.760 --> 17:11.040
+fun, you know, just been having
+a
+
+17:11.040 --> 17:12.160
+blast.
+
+17:12.160 --> 17:13.120
+Don, is that really the way it
+
+17:13.120 --> 17:13.680
+happened?
+
+17:13.680 --> 17:15.760
+Yeah, his first podcast was so
+
+17:15.760 --> 17:19.360
+nerdy I couldn't even take it.
+
+17:19.360 --> 17:21.440
+And I was like, wait a second.
+
+17:21.440 --> 17:23.360
+This sounds like a cool way for
+me
+
+17:23.360 --> 17:25.760
+to rant and people can listen.
+
+17:25.760 --> 17:28.640
+And so I kind of mooched in on
+his
+
+17:28.640 --> 17:29.440
+thing.
+
+17:29.440 --> 17:33.360
+So.
+
+17:33.360 --> 17:35.040
+She's always been the talent.
+
+17:35.040 --> 17:35.520
+Sorry?
+
+17:35.520 --> 17:36.640
+She's always been the talent.
+I've
+
+17:36.640 --> 17:38.000
+just always, you know, looked
+for
+
+17:38.000 --> 17:40.240
+the vehicle to put her out
+there.
+
+17:40.240 --> 17:43.680
+He's making me blush.
+
+17:43.680 --> 17:46.720
+Last night's show should.
+
+17:46.720 --> 17:49.920
+Um, is it hard to get up the
+
+17:49.920 --> 17:51.200
+energy to do a show every single
+
+17:51.200 --> 17:52.880
+day?
+
+17:52.880 --> 17:54.800
+Oh, sometimes I just can't do
+it.
+
+17:54.800 --> 17:56.160
+I'm just too tired.
+
+17:56.160 --> 17:58.560
+But, um, I don't know, we don't
+do
+
+17:58.560 --> 18:00.240
+it every day anymore, because I
+was
+
+18:00.240 --> 18:02.000
+getting kind of burnt out. And
+you
+
+18:02.000 --> 18:04.560
+can only say like, fuck and shit
+so
+
+18:04.560 --> 18:06.160
+many times in a night before it
+
+18:06.160 --> 18:15.040
+becomes, you know.
+
+18:15.040 --> 18:16.800
+What, uh, what are you coming
+
+18:16.800 --> 18:18.480
+looking for from, from the
+podcasting
+
+18:18.480 --> 18:19.760
+session? Is there anything
+that's at
+
+18:19.760 --> 18:21.760
+the top of your mind?
+
+18:21.760 --> 18:23.680
+You know, I just wanted to, um,
+you
+
+18:23.680 --> 18:24.880
+know, since we kind of got
+wrapped
+
+18:24.880 --> 18:26.320
+into this whole thing so fast, I
+just
+
+18:26.320 --> 18:28.000
+wanted to, uh, you know, just
+take
+
+18:28.000 --> 18:29.200
+advantage of being here.
+
+18:29.200 --> 18:30.880
+You know, meeting you, meeting
+Dave,
+
+18:30.880 --> 18:33.440
+just, uh, just having a good old
+
+18:33.440 --> 18:34.480
+time.
+
+18:34.480 --> 18:35.760
+Excellent. Okay. Well, you're
+
+18:35.760 --> 18:37.120
+welcome to, you're welcome here.
+We're
+
+18:37.120 --> 18:39.120
+happy to have you guys.
+
+18:39.120 --> 18:42.000
+Yeah, uh, Dave is, yes, right
+on.
+
+18:42.000 --> 18:44.400
+Um, let me just tell you about
+Dave
+
+18:44.400 --> 18:45.520
+Slusher.
+
+18:45.520 --> 18:47.360
+What do you live, is it?
+
+18:47.440 --> 18:48.960
+How am I South Carolina?
+
+18:48.960 --> 18:50.160
+Is that right, Steve?
+
+18:50.160 --> 18:53.200
+Yes, it is.
+
+18:53.200 --> 18:58.000
+Um, uh, Dave was kind of the,
+the
+
+18:58.000 --> 18:59.680
+first guy that we were cross
+
+18:59.680 --> 19:00.880
+podcasting. He caught on
+
+19:00.880 --> 19:03.120
+immediately and I don't, I can't
+
+19:03.120 --> 19:04.720
+remember how I, I probably threw
+a
+
+19:04.720 --> 19:06.400
+referral log or whatever and
+then
+
+19:06.400 --> 19:07.840
+I was like, whoa, you know,
+here's a
+
+19:07.840 --> 19:09.600
+guy talking about hurricanes
+and,
+
+19:09.600 --> 19:10.640
+you know, and how I was really
+
+19:10.640 --> 19:12.480
+worried about what was going on.
+
+19:12.480 --> 19:14.640
+It was so personal, but we
+started
+
+19:14.640 --> 19:16.320
+doing this almost like at a
+radio,
+
+19:16.320 --> 19:18.480
+like at a real radio station
+where,
+
+19:18.480 --> 19:19.840
+and it used to be that way where
+the
+
+19:19.840 --> 19:21.200
+jocks would talk about each
+other and
+
+19:21.200 --> 19:22.560
+the morning guy would talk about
+the
+
+19:22.560 --> 19:24.000
+midday guy coming up and, oh,
+did you
+
+19:24.000 --> 19:25.280
+hear the overnight guy?
+
+19:25.280 --> 19:27.040
+And so we were having this, this
+
+19:27.040 --> 19:30.880
+conversation and, uh, shoot, I
+think,
+
+19:30.880 --> 19:32.960
+the actual term podcasting, you
+
+19:32.960 --> 19:34.880
+figured out that we should, uh,
+
+19:34.880 --> 19:36.080
+well explain, uh, explain who's
+
+19:36.080 --> 19:37.360
+sitting next to you and why
+don't you
+
+19:37.360 --> 19:38.640
+tell us about yourself and how
+you
+
+19:38.640 --> 19:39.200
+got into podcasting.
+
+19:39.200 --> 19:40.640
+Okay, well, I'm Dave Slusher of
+
+19:40.640 --> 19:43.680
+Evil Genius Chronicles and, uh,
+
+19:43.680 --> 19:48.800
+yeah, so, you know, I just
+happened to
+
+19:48.800 --> 19:50.320
+be, you know, I've been reading
+
+19:50.320 --> 19:52.640
+Adam's, uh, weblog for a long
+time and
+
+19:52.640 --> 19:53.840
+I just happened to be in the
+right
+
+19:53.840 --> 19:55.440
+place at the right time to get
+in
+
+19:55.440 --> 19:57.840
+early, you know, I had this, I
+already
+
+19:57.840 --> 19:59.120
+had the stuff in my house.
+
+19:59.120 --> 20:00.880
+That's, that's what gave me,
+like, a
+
+20:00.880 --> 20:02.000
+weak head start on everyone
+else.
+
+20:02.000 --> 20:03.520
+I already had stuff, because I
+had
+
+20:03.520 --> 20:05.760
+produced it, I had been in radio
+
+20:05.760 --> 20:08.000
+before and I had produced a show
+
+20:08.000 --> 20:10.000
+that was syndicated in public
+radio,
+
+20:10.000 --> 20:12.080
+like from my house, literally.
+
+20:12.080 --> 20:14.400
+And, uh, so I've kind of been
+through
+
+20:14.400 --> 20:16.160
+the whole, you know, getting
+into the
+
+20:16.160 --> 20:19.360
+actual big, or not big, but
+public
+
+20:19.360 --> 20:20.800
+radio system as an independent
+
+20:20.800 --> 20:22.880
+producer, which the barrier is
+lower
+
+20:22.880 --> 20:24.000
+than you would think, but it is
+a
+
+20:24.000 --> 20:25.200
+barrier.
+
+20:25.200 --> 20:27.200
+And so I have been through that
+
+20:27.200 --> 20:29.520
+and so the, the notion of kind
+of the,
+
+20:29.520 --> 20:31.920
+the almost no friction or very
+low
+
+20:31.920 --> 20:34.240
+friction, very low barrier to
+entry,
+
+20:34.240 --> 20:36.320
+um, for doing a very similar
+kind of
+
+20:36.320 --> 20:38.560
+thing would just really appeal
+to me.
+
+20:38.560 --> 20:40.080
+And so when I listened to the
+first
+
+20:40.080 --> 20:42.000
+couple of, uh, Adam's Daily
+Source
+
+20:42.000 --> 20:44.320
+Codes, uh, I more or less,
+
+20:44.320 --> 20:45.840
+I said I think in the very first
+one,
+
+20:45.840 --> 20:47.120
+I gave, I had, there's a great
+quote
+
+20:47.120 --> 20:48.480
+from Rick Nielsen of Cheap Trick
+
+20:48.480 --> 20:49.760
+for Bands. He said, when you
+first
+
+20:49.760 --> 20:51.600
+start doing a band, pick a band
+you
+
+20:51.600 --> 20:53.920
+love, find their most obscure
+songs,
+
+20:53.920 --> 20:55.120
+and cover them, and everyone
+will
+
+20:55.120 --> 20:56.400
+think they're yours.
+
+20:56.400 --> 20:58.400
+I remember you saying, yeah,
+yeah,
+
+20:58.400 --> 20:59.280
+remember that. No one will, no
+one
+
+20:59.280 --> 21:00.640
+will know the song and then you
+
+21:00.640 --> 21:02.480
+find your own voice while you're
+
+21:02.480 --> 21:04.080
+slavishly imitating them and
+
+21:04.080 --> 21:05.360
+eventually it'll come out and
+it'll
+
+21:05.360 --> 21:06.800
+be different and it'll be you.
+And I,
+
+21:06.800 --> 21:08.000
+I kind of think that's what
+happened
+
+21:08.000 --> 21:09.680
+is my first, I don't know, five
+or
+
+21:09.680 --> 21:11.440
+ten were more or less the junior
+
+21:11.440 --> 21:13.280
+varsity version of, of Adam's
+show,
+
+21:13.920 --> 21:15.520
+but over time it's kind of
+become
+
+21:15.520 --> 21:16.880
+different and I, you know, we're
+
+21:16.880 --> 21:18.320
+doing different sorts of things
+now
+
+21:18.320 --> 21:19.520
+and so it kind of worked like it
+
+21:19.520 --> 21:21.760
+was supposed to. But, uh, you
+know,
+
+21:21.760 --> 21:24.240
+so that's just, you know, I, I
+have
+
+21:25.040 --> 21:28.320
+over time, uh, uh, Dana Greenlee
+
+21:28.320 --> 21:30.720
+from, uh, Web Talk Radio
+actually
+
+21:31.680 --> 21:33.680
+in one of the, discussing the
+show
+
+21:34.400 --> 21:35.360
+mentioned that I sounded like
+
+21:35.360 --> 21:37.280
+Ira Glass and until she said
+
+21:37.280 --> 21:39.360
+that, I hadn't realized that
+
+21:39.360 --> 21:42.240
+I probably actually am because
+I'm
+
+21:42.240 --> 21:43.440
+a huge fan of that guy. I think
+
+21:43.440 --> 21:44.960
+that's maybe the most brilliant
+
+21:44.960 --> 21:46.160
+show in the history of public
+
+21:46.160 --> 21:48.720
+radio at This American Life,
+
+21:49.280 --> 21:50.640
+which is hard to remember now
+
+21:50.640 --> 21:51.520
+because we've been soaking in it
+
+21:51.520 --> 21:52.800
+for almost a decade, but it was
+
+21:52.800 --> 21:54.320
+so different when it first came
+
+21:54.320 --> 21:55.920
+out and so that's actually kind
+
+21:55.920 --> 21:56.880
+of the direction I've been
+
+21:56.880 --> 21:58.960
+trying to take things and
+without
+
+21:58.960 --> 22:00.640
+probably really realizing it.
+
+22:01.280 --> 22:03.280
+But, uh, what I like about that
+
+22:03.280 --> 22:04.480
+is, is it brought kind of a
+
+22:04.480 --> 22:07.040
+personal connection, uh, to
+public
+
+22:07.040 --> 22:08.240
+radio that maybe hadn't been
+
+22:08.240 --> 22:09.680
+there and that's, that's what
+
+22:09.680 --> 22:12.400
+this is all about to me is, uh,
+
+22:12.400 --> 22:15.440
+when I listen to whomever it is,
+
+22:15.440 --> 22:17.200
+I always feel more of a personal
+
+22:17.200 --> 22:20.000
+connection from engaging, uh, in
+
+22:20.000 --> 22:22.320
+their podcast. Even somebody
+like
+
+22:22.320 --> 22:23.600
+you who I've been reading your
+
+22:23.600 --> 22:25.680
+text for years and years, uh, I
+
+22:25.680 --> 22:27.360
+feel more connected to you when
+
+22:27.360 --> 22:29.040
+I listen to one single episode
+of
+
+22:29.040 --> 22:31.040
+your show than I did for a
+
+22:31.040 --> 22:32.800
+year of reading text blogs
+
+22:32.800 --> 22:34.720
+because I hear your voice, uh,
+you
+
+22:34.720 --> 22:36.320
+know, I get, I, I feel like
+
+22:36.320 --> 22:37.520
+there's more of a person at the
+
+22:37.520 --> 22:40.320
+other end and so that's what I
+
+22:40.320 --> 22:42.080
+like doing. I love the fact that
+
+22:42.080 --> 22:43.040
+I've, I don't know, I've talked
+to
+
+22:43.040 --> 22:45.520
+15 or 20 people who like, feel
+
+22:45.520 --> 22:47.280
+like they know me since I've
+
+22:47.280 --> 22:50.960
+been here and, uh, and vice
+
+22:50.960 --> 22:52.400
+versa. I feel like I know
+people.
+
+22:52.400 --> 22:53.440
+I feel like I know Mike Butler.
+
+22:53.440 --> 22:54.640
+I've never met the guy, you
+know?
+
+22:54.640 --> 22:56.160
+It, it used to be that way also
+
+22:56.160 --> 22:57.920
+on radio. You would, you would
+
+22:57.920 --> 22:59.360
+intimately know your favorite
+
+22:59.360 --> 23:00.480
+DJ. You know, you would
+
+23:00.480 --> 23:01.840
+intimately know all about him
+
+23:01.840 --> 23:02.880
+because he could talk a lot more
+
+23:02.880 --> 23:04.640
+freely and I think this, uh,
+
+23:04.640 --> 23:05.840
+you know, it's, it's a lot more
+
+23:05.840 --> 23:07.200
+of the reality of life that's
+
+23:07.200 --> 23:08.400
+getting back into that. I agree.
+
+23:08.400 --> 23:09.280
+They just want to briefly
+
+23:09.280 --> 23:10.560
+explain how, how the pod, how
+
+23:10.560 --> 23:11.680
+podcasting came about because
+
+23:11.680 --> 23:12.400
+that's, I would just want to
+
+23:12.400 --> 23:13.520
+make sure that that's really
+
+23:13.520 --> 23:14.640
+clear because it's interesting
+
+23:14.640 --> 23:15.680
+way it happened.
+
+23:15.680 --> 23:17.200
+I'm sitting next to, uh, Danny
+
+23:17.200 --> 23:19.040
+Gregory who I'd like to, uh,
+
+23:19.040 --> 23:20.240
+make sure everyone realizes is
+
+23:20.240 --> 23:21.840
+a brilliant bastard and he's
+
+23:21.840 --> 23:23.280
+the guy who coined the term
+
+23:23.280 --> 23:24.320
+podcast.
+
+23:24.320 --> 23:25.520
+All right Danny.
+
+23:25.520 --> 23:31.440
+He, uh, so he's the guy who
+
+23:31.440 --> 23:33.200
+coined the term and a few of us
+
+23:33.200 --> 23:34.400
+started running with it so
+
+23:35.040 --> 23:36.880
+either the credit or the blame
+
+23:36.880 --> 23:38.000
+goes kind of towards this end.
+
+23:39.200 --> 23:40.240
+I tend to think it's credit,
+
+23:40.240 --> 23:41.360
+certain people think it's blame,
+
+23:42.000 --> 23:44.800
+but, uh, I just saw a referral.
+
+23:44.800 --> 23:46.240
+So you had coined the term
+
+23:46.240 --> 23:47.680
+and registered the domain
+
+23:47.680 --> 23:50.400
+and I saw like a robot hit
+
+23:50.400 --> 23:51.440
+my weblog and I'm like,
+
+23:51.440 --> 23:52.160
+podcast?
+
+23:52.720 --> 23:54.560
+Hmm, what is this podcast
+
+23:54.560 --> 23:55.280
+of which you speak?
+
+23:56.240 --> 23:57.840
+And then he used the term on
+
+23:57.840 --> 23:59.280
+the iPod or dev list and it's
+
+23:59.280 --> 24:00.160
+one of those kind of,
+
+24:00.720 --> 24:01.680
+it's like it hit the
+
+24:01.680 --> 24:03.040
+resonance energy and it just
+
+24:03.040 --> 24:04.400
+made everything vibrate
+
+24:04.400 --> 24:05.520
+perfectly.
+
+24:05.520 --> 24:07.440
+And so we had been
+
+24:07.440 --> 24:08.480
+talking about a lot of stuff
+
+24:08.480 --> 24:09.120
+and we had been,
+
+24:09.120 --> 24:10.080
+we all knew what we were
+
+24:10.080 --> 24:10.720
+talking about,
+
+24:10.720 --> 24:12.240
+but none of the terms like
+
+24:12.240 --> 24:13.200
+plucked the string and,
+
+24:13.200 --> 24:14.080
+you know, made a note.
+
+24:14.640 --> 24:16.080
+And that was the one and
+
+24:16.080 --> 24:17.200
+you'll notice that we talked
+
+24:17.200 --> 24:18.560
+about, Steve Gilmore had
+
+24:18.560 --> 24:19.680
+been talking about the iPod
+
+24:19.680 --> 24:21.440
+platform and everyone kind of
+
+24:21.440 --> 24:22.160
+knew what he meant,
+
+24:22.160 --> 24:23.440
+but once you had this like
+
+24:24.000 --> 24:24.640
+sexy term,
+
+24:25.280 --> 24:26.640
+an explosion happened and kind
+
+24:26.640 --> 24:26.960
+of the,
+
+24:27.520 --> 24:28.800
+I tend to kind of
+
+24:29.440 --> 24:30.480
+think there's something
+
+24:30.480 --> 24:31.200
+causal there,
+
+24:31.200 --> 24:32.080
+but you know,
+
+24:32.960 --> 24:34.640
+there's an argument that
+
+24:34.640 --> 24:35.600
+can be made either way,
+
+24:35.600 --> 24:36.400
+but that's,
+
+24:36.400 --> 24:37.680
+that's where the actual word
+
+24:37.680 --> 24:38.480
+came from.
+
+24:38.480 --> 24:39.680
+Podcasters like to talk.
+
+24:40.400 --> 24:40.960
+It's really good.
+
+24:40.960 --> 24:41.440
+Sorry.
+
+24:41.440 --> 24:42.400
+Thank you very much, Dave.
+
+24:42.400 --> 24:43.360
+Steve, I was going to call on
+
+24:43.360 --> 24:44.400
+Steve Gilmore actually.
+
+24:45.040 --> 24:45.920
+Steve, could you raise your
+
+24:45.920 --> 24:47.120
+hand or stand up?
+
+24:47.120 --> 24:47.360
+Thank you.
+
+24:47.360 --> 24:48.240
+Can we get a microphone?
+
+24:49.600 --> 24:50.720
+You may or may not have heard
+
+24:50.720 --> 24:51.520
+the Gilmore gang,
+
+24:52.560 --> 24:53.440
+which you can find through.
+
+24:53.440 --> 24:54.240
+I, yes.
+
+24:58.080 --> 24:58.880
+You can find that through
+
+24:59.440 --> 25:01.440
+itconversations.com,
+
+25:01.440 --> 25:02.080
+Doug Kay,
+
+25:02.080 --> 25:03.920
+who runs and produces
+
+25:03.920 --> 25:04.960
+and does everything
+
+25:04.960 --> 25:06.160
+as up there at the back.
+
+25:06.160 --> 25:07.680
+He's also working on our
+webcast.
+
+25:07.680 --> 25:08.480
+Thank you very much, Doug.
+
+25:12.960 --> 25:14.080
+If you want to jack in,
+
+25:14.080 --> 25:14.560
+by the way,
+
+25:14.560 --> 25:16.400
+there's plenty of connectors.
+
+25:16.400 --> 25:17.440
+But Steve,
+
+25:17.440 --> 25:18.240
+the Gilmore gang was
+
+25:18.800 --> 25:19.520
+around before
+
+25:20.080 --> 25:22.880
+the iPod functionality came out.
+
+25:24.320 --> 25:24.640
+You want to-
+
+25:24.640 --> 25:25.760
+Yeah, it was all my idea,
+
+25:25.760 --> 25:26.240
+basically,
+
+25:26.240 --> 25:26.880
+this whole thing.
+
+25:28.560 --> 25:29.360
+We knew that, Steve.
+
+25:30.560 --> 25:31.840
+And I just want to
+
+25:31.840 --> 25:32.640
+point to
+
+25:32.720 --> 25:34.000
+another member of the Gilmore
+gang
+
+25:34.000 --> 25:35.200
+in the third row,
+
+25:35.200 --> 25:35.840
+Doc Searles.
+
+25:35.840 --> 25:36.480
+Searles, yep.
+
+25:40.720 --> 25:42.160
+So what do you want me to say?
+
+25:44.880 --> 25:46.080
+I just want you to take credit
+
+25:46.080 --> 25:47.200
+for inventing all this, Steve,
+
+25:47.200 --> 25:47.760
+that's all.
+
+25:47.760 --> 25:49.280
+Okay, well, my job is done.
+
+25:50.240 --> 25:52.400
+Tell me what has happened
+
+25:52.400 --> 25:54.080
+since you started
+
+25:54.080 --> 25:55.440
+with the Gilmore gang
+
+25:55.440 --> 25:56.480
+and now we have
+
+25:57.200 --> 25:59.200
+what you call the iPod platform.
+
+25:59.200 --> 25:59.760
+Well, you know,
+
+25:59.760 --> 26:00.640
+there was an interesting
+
+26:01.520 --> 26:02.880
+evolution of the Gilmore gang.
+
+26:03.520 --> 26:04.240
+When I first
+
+26:05.040 --> 26:06.240
+started talking with Doug Kay
+
+26:06.240 --> 26:06.720
+about this,
+
+26:07.680 --> 26:08.800
+how long ago was that, Doug?
+
+26:08.800 --> 26:10.160
+About six months?
+
+26:10.160 --> 26:11.520
+Six months?
+
+26:11.520 --> 26:12.240
+I don't know.
+
+26:12.240 --> 26:12.720
+Six months.
+
+26:15.200 --> 26:16.800
+Doug was doing,
+
+26:16.800 --> 26:17.920
+as you can see,
+
+26:17.920 --> 26:20.160
+from his IT conversation site.
+
+26:20.160 --> 26:21.280
+He was doing a lot of
+
+26:22.000 --> 26:23.360
+transcripts
+
+26:23.360 --> 26:26.400
+for the performances
+
+26:26.400 --> 26:28.080
+that he was putting on the
+network.
+
+26:28.720 --> 26:30.240
+And so
+
+26:30.320 --> 26:31.840
+we had a couple of transcripts
+
+26:31.840 --> 26:33.520
+cut of the first few Gilmore
+
+26:33.520 --> 26:34.160
+gangs.
+
+26:34.160 --> 26:35.120
+And I read them
+
+26:35.120 --> 26:35.600
+and, you know,
+
+26:35.600 --> 26:36.480
+first of all, I had to,
+
+26:37.840 --> 26:38.400
+they, you know,
+
+26:38.400 --> 26:39.760
+I think they went off to India.
+
+26:39.760 --> 26:41.680
+So it was an interesting
+
+26:41.680 --> 26:42.640
+version of English
+
+26:42.640 --> 26:43.360
+that came back.
+
+26:44.640 --> 26:46.080
+And so I just didn't
+
+26:46.080 --> 26:46.880
+want to do the work
+
+26:46.880 --> 26:48.480
+of proofing it.
+
+26:48.480 --> 26:49.440
+You know, it was basically,
+
+26:49.440 --> 26:50.640
+I was lazy.
+
+26:50.640 --> 26:52.400
+But over time,
+
+26:52.400 --> 26:53.280
+we started watching
+
+26:53.280 --> 26:54.800
+the characteristics of the
+
+26:55.920 --> 26:57.840
+relationship between
+
+26:57.840 --> 26:59.600
+streaming and downloads.
+
+27:00.240 --> 27:01.760
+And for almost from the
+beginning,
+
+27:02.480 --> 27:04.880
+the downloads outnumbered
+
+27:04.880 --> 27:06.080
+streaming by two to one.
+
+27:06.720 --> 27:08.560
+So this was the beginning
+
+27:08.560 --> 27:09.120
+of a hint.
+
+27:09.680 --> 27:11.200
+And I kept, you know,
+
+27:11.200 --> 27:12.000
+Tim Bray once
+
+27:12.640 --> 27:13.760
+I am to me and said,
+
+27:14.800 --> 27:15.040
+you know,
+
+27:15.680 --> 27:17.520
+that he just didn't have time
+
+27:17.520 --> 27:18.400
+for the Gilmore gang.
+
+27:18.400 --> 27:19.440
+And, you know, that it was,
+
+27:19.440 --> 27:20.400
+you know, an hour and,
+
+27:20.400 --> 27:21.520
+you know, maybe 10 minutes,
+
+27:21.520 --> 27:22.720
+you know, whatever.
+
+27:22.720 --> 27:24.640
+And I sort of at that point
+
+27:24.640 --> 27:26.160
+made it my goal in life
+
+27:26.160 --> 27:28.080
+to make it as long as possible.
+
+27:28.880 --> 27:33.200
+And one time,
+
+27:33.200 --> 27:34.240
+we had Brendan Eich,
+
+27:34.240 --> 27:36.800
+who's the architect of Mozilla
+on.
+
+27:37.520 --> 27:39.040
+And the next day,
+
+27:41.520 --> 27:43.040
+Tim calls me,
+
+27:43.040 --> 27:44.720
+doesn't even I am me,
+
+27:44.720 --> 27:46.560
+calls me to say,
+
+27:46.560 --> 27:48.240
+and he wrote this long post
+
+27:48.240 --> 27:49.120
+about, you know,
+
+27:49.120 --> 27:50.640
+obviously he'd been trapped
+
+27:50.640 --> 27:51.840
+into this discussion
+
+27:51.840 --> 27:52.800
+because it was all about
+
+27:52.800 --> 27:54.560
+stuff that he was interested in.
+
+27:54.560 --> 27:56.560
+And from that moment on,
+
+27:56.560 --> 27:57.200
+we had him.
+
+27:57.760 --> 27:58.560
+So I,
+
+27:58.560 --> 27:59.680
+we're never going to do any
+
+27:59.680 --> 28:01.200
+transcripts on the Gilmore gang.
+
+28:01.840 --> 28:04.480
+And essentially,
+
+28:04.480 --> 28:05.520
+that is the,
+
+28:05.520 --> 28:07.040
+you know, the capturing
+
+28:07.040 --> 28:07.760
+the attention,
+
+28:08.400 --> 28:09.920
+the voice as you've done
+
+28:09.920 --> 28:11.040
+and as Dave has done,
+
+28:11.600 --> 28:11.840
+you know,
+
+28:12.960 --> 28:14.720
+and as Dave Slusher
+
+28:14.720 --> 28:16.320
+and Don and Drew,
+
+28:16.320 --> 28:18.240
+I mean, the cast of characters
+
+28:18.240 --> 28:20.320
+is already beyond
+
+28:20.880 --> 28:22.080
+what we can consume,
+
+28:23.520 --> 28:24.960
+you know, and have real lives.
+
+28:25.680 --> 28:28.320
+So, you know,
+
+28:28.320 --> 28:29.520
+I think we're now we're poised
+
+28:29.520 --> 28:30.880
+for the next generation of this,
+
+28:30.880 --> 28:32.320
+which is where we figure out
+
+28:32.320 --> 28:34.160
+how to be able to mine attention
+
+28:34.720 --> 28:36.880
+and tag
+
+28:36.880 --> 28:38.240
+and provide metadata
+
+28:38.240 --> 28:39.440
+on these feeds.
+
+28:39.440 --> 28:40.960
+Because from my perspective,
+
+28:40.960 --> 28:41.840
+and I know this is,
+
+28:43.120 --> 28:43.920
+you know,
+
+28:43.920 --> 28:44.880
+may not be,
+
+28:44.880 --> 28:45.680
+I know there are people
+
+28:45.680 --> 28:46.320
+like Dave Weiner
+
+28:46.320 --> 28:47.200
+who disagree with me,
+
+28:48.000 --> 28:48.880
+I think.
+
+28:48.880 --> 28:52.160
+But I see the blogosphere as
+
+28:52.800 --> 28:56.800
+an annotation for the
+
+28:56.800 --> 28:57.680
+for the podosphere.
+
+28:59.600 --> 29:00.400
+I think that's where the
+
+29:00.400 --> 29:01.760
+metadata is going to go.
+
+29:01.760 --> 29:02.720
+I think that the,
+
+29:02.720 --> 29:04.400
+you know, the information
+
+29:04.400 --> 29:06.000
+that is in the blogosphere
+
+29:06.560 --> 29:08.720
+is going to be used
+
+29:08.720 --> 29:10.960
+to reveal the opaque
+
+29:11.680 --> 29:13.280
+network of the podosphere
+
+29:13.280 --> 29:15.040
+that is emerging here,
+
+29:15.040 --> 29:15.680
+you know,
+
+29:15.680 --> 29:16.960
+how you find out about
+
+29:16.960 --> 29:18.080
+what is interesting,
+
+29:18.080 --> 29:19.520
+who is interested in what,
+
+29:20.080 --> 29:21.120
+the kind of conversation
+
+29:21.120 --> 29:21.840
+that you're having
+
+29:22.720 --> 29:24.400
+in the podosphere
+
+29:24.400 --> 29:25.760
+between Dave Slusher
+
+29:25.760 --> 29:27.440
+and Don and Drew
+
+29:27.440 --> 29:28.240
+and all the people
+
+29:28.240 --> 29:30.080
+that you're putting
+
+29:30.080 --> 29:30.720
+on your show
+
+29:30.720 --> 29:31.840
+for the first time.
+
+29:31.840 --> 29:33.600
+You're the Alan Freed
+
+29:33.600 --> 29:35.760
+of podcasting.
+
+29:35.760 --> 29:36.800
+Is that a compliment, Steve?
+
+29:37.680 --> 29:39.120
+Well, we'll talk about that
+later.
+
+29:40.240 --> 29:40.480
+You know,
+
+29:40.480 --> 29:41.920
+that's an old reference,
+
+29:41.920 --> 29:42.880
+but Alan Freed was,
+
+29:42.880 --> 29:43.120
+you know,
+
+29:43.120 --> 29:44.000
+the sort of the
+
+29:44.000 --> 29:45.600
+considered to be the reason
+
+29:45.600 --> 29:46.640
+that the Rock and Roll
+
+29:46.640 --> 29:48.320
+Hall of Fame is in Cleveland
+
+29:48.320 --> 29:49.920
+is because Alan Freed
+
+29:49.920 --> 29:50.480
+was born
+
+29:50.560 --> 29:51.200
+and grew up there.
+
+29:52.080 --> 29:53.760
+So this was a disc jockey who
+
+29:55.440 --> 29:56.640
+basically promoted
+
+29:56.640 --> 29:58.880
+a bunch of very small bands
+
+29:58.880 --> 29:59.280
+into,
+
+30:00.160 --> 30:00.480
+you know,
+
+30:00.480 --> 30:01.600
+into a revolution.
+
+30:01.600 --> 30:03.680
+So what we're dealing with here,
+
+30:03.680 --> 30:04.960
+I was just saying to
+
+30:04.960 --> 30:05.760
+Nick Bradbury,
+
+30:05.760 --> 30:06.560
+who's one of the,
+
+30:06.560 --> 30:06.800
+you know,
+
+30:06.800 --> 30:08.080
+the author of Feed Demon,
+
+30:08.080 --> 30:09.120
+one of which is now
+
+30:09.120 --> 30:10.240
+supporting podcasting,
+
+30:10.240 --> 30:10.720
+by the way.
+
+30:10.720 --> 30:11.120
+Right on.
+
+30:13.920 --> 30:14.720
+And I was saying that,
+
+30:14.720 --> 30:14.960
+you know,
+
+30:15.600 --> 30:16.160
+we're listening
+
+30:16.160 --> 30:16.800
+and we're sort of
+
+30:17.760 --> 30:18.480
+thrilled to see,
+
+30:18.480 --> 30:18.800
+you know,
+
+30:18.800 --> 30:19.680
+we're in the same room
+
+30:19.680 --> 30:21.200
+with Don and Drew, you know.
+
+30:22.240 --> 30:23.520
+But seriously,
+
+30:23.520 --> 30:25.360
+this is the beginning of,
+
+30:25.360 --> 30:26.800
+we're going to look back on
+this,
+
+30:26.800 --> 30:28.000
+not very long from now
+
+30:28.000 --> 30:28.800
+and realize that
+
+30:29.360 --> 30:30.480
+all of these players,
+
+30:31.200 --> 30:32.240
+all of us in this room,
+
+30:32.240 --> 30:33.200
+in this space,
+
+30:34.480 --> 30:36.000
+pardon the expression,
+
+30:36.000 --> 30:38.720
+are the next generation
+
+30:38.720 --> 30:40.000
+of the media.
+
+30:40.000 --> 30:41.040
+This is the new media
+
+30:41.040 --> 30:42.400
+and it's being born right now
+
+30:42.400 --> 30:45.120
+and this is a seriously big
+wave.
+
+30:46.560 --> 30:48.160
+Is, did Michael Butler make it
+in?
+
+30:49.920 --> 30:51.200
+Stand up, Michael.
+
+30:51.200 --> 30:52.000
+This is Michael Butler
+
+30:52.000 --> 30:53.440
+from the Rock and Roll Geek
+Show, everybody.
+
+30:58.640 --> 31:00.000
+Something that Steve said,
+
+31:00.000 --> 31:02.240
+I obviously want to lead into
+music
+
+31:02.240 --> 31:03.440
+and as it relates
+
+31:03.440 --> 31:04.800
+to what we're doing with
+podcasts.
+
+31:06.080 --> 31:06.800
+It's great to be
+
+31:08.080 --> 31:08.880
+in a law school,
+
+31:09.520 --> 31:10.640
+to be able to talk about that.
+
+31:10.640 --> 31:13.600
+I don't know if we need to go
+deep into stuff,
+
+31:13.600 --> 31:17.040
+but Michael has been in a band
+
+31:17.040 --> 31:18.000
+for about seven years,
+
+31:18.000 --> 31:20.000
+I guess called American
+Heartbreak.
+
+31:20.000 --> 31:22.160
+Yeah, I have all my CDs here for
+you too, by the way.
+
+31:23.600 --> 31:25.440
+Why don't you tell us about
+yourself
+
+31:25.440 --> 31:26.960
+and how you got into podcasting
+
+31:26.960 --> 31:28.480
+and what's going on?
+
+31:29.520 --> 31:31.200
+I stumbled across your site,
+
+31:32.240 --> 31:34.560
+just goofing off one day,
+
+31:34.560 --> 31:35.520
+avoiding my wife
+
+31:36.240 --> 31:39.200
+and I'm really in the doghouse
+
+31:39.200 --> 31:40.240
+right now too, by the way.
+
+31:40.240 --> 31:41.440
+I got you, you know, everything
+okay?
+
+31:42.320 --> 31:43.920
+We'll see how it is when I get
+home.
+
+31:43.920 --> 31:46.080
+Anyway, so I stumbled across
+your site
+
+31:46.320 --> 31:49.280
+and saw that you did an audio
+blog,
+
+31:49.280 --> 31:50.640
+so I was like, hey, that might
+be kind of cool
+
+31:50.640 --> 31:52.640
+because I was doing a blog for a
+long time
+
+31:52.640 --> 31:55.840
+and every musician probably
+thinks they're a DJ
+
+31:55.840 --> 31:57.840
+and wants to turn everybody on
+to their music.
+
+31:58.880 --> 32:01.840
+So I just tried it, played some
+music I like,
+
+32:01.840 --> 32:04.080
+figured I'd throw my own band in
+there occasionally
+
+32:04.080 --> 32:05.840
+and here it is.
+
+32:05.840 --> 32:08.880
+Has it done anything?
+
+32:08.880 --> 32:10.400
+Have you gotten any responses?
+
+32:10.400 --> 32:11.440
+Has it done anything for you
+
+32:11.440 --> 32:12.800
+or for the band or for your
+music?
+
+32:12.800 --> 32:14.800
+Well, my site's been shut down a
+couple of times
+
+32:15.520 --> 32:17.760
+for too much traffic, which I
+guess is kind of cool.
+
+32:19.280 --> 32:19.920
+People have been,
+
+32:19.920 --> 32:22.000
+a lot more people have been
+showing up to the shows,
+
+32:22.000 --> 32:23.040
+get a lot of emails.
+
+32:24.160 --> 32:25.920
+So you've been plugging me, I
+appreciate that.
+
+32:26.720 --> 32:27.440
+Well, it's good stuff.
+
+32:28.160 --> 32:28.800
+All right then.
+
+32:28.800 --> 32:32.000
+And this is something that's a
+conversation
+
+32:32.000 --> 32:35.760
+that's going on about, just
+about music in general
+
+32:36.320 --> 32:39.520
+and are there any other radio
+people here who,
+
+32:40.480 --> 32:42.000
+right there, it doesn't pipe up
+
+32:42.000 --> 32:42.960
+any time you feel like it.
+
+32:43.360 --> 32:46.160
+Radio, to me, is,
+
+32:46.160 --> 32:47.200
+I'm going to bring the mic over
+to Tony,
+
+32:48.640 --> 32:50.960
+has been the soundtrack to my
+life.
+
+32:51.920 --> 32:54.320
+So, whether it doesn't even have
+to be music,
+
+32:54.320 --> 32:56.400
+but music really works well in
+my brain.
+
+32:59.440 --> 33:00.880
+What we don't have yet
+
+33:00.880 --> 33:03.440
+or what we haven't had with what
+we're coining
+
+33:03.440 --> 33:08.480
+non-RIAA music or music that
+basically,
+
+33:08.480 --> 33:11.040
+that with the creator's
+permission,
+
+33:11.040 --> 33:12.320
+you can play and don't have to
+deal
+
+33:12.320 --> 33:15.040
+with a whole bunch of rights
+organizations
+
+33:15.040 --> 33:17.520
+and payments and legalese.
+
+33:19.120 --> 33:21.760
+Is it, yeah, you can go to
+garageband.com
+
+33:21.760 --> 33:23.920
+and surf through stuff and
+listen to it.
+
+33:23.920 --> 33:24.560
+Yeah, you can go.
+
+33:25.280 --> 33:26.480
+There's just a million places
+
+33:26.480 --> 33:28.000
+with great independent music.
+
+33:29.360 --> 33:32.080
+But to have someone you listen
+to
+
+33:32.080 --> 33:33.280
+because you like the show
+
+33:33.280 --> 33:35.120
+or you trust them or whatever
+you feel,
+
+33:35.120 --> 33:36.400
+to say, oh, and by the way,
+
+33:36.400 --> 33:38.240
+here's American Heartbreak
+
+33:39.440 --> 33:40.800
+or here's Mo Jones.
+
+33:40.800 --> 33:42.640
+I know I've sold at least one CD
+
+33:42.640 --> 33:44.400
+to Steve Gilmore of Mo Jones.
+
+33:45.520 --> 33:47.440
+It becomes a whole different
+feeling
+
+33:47.440 --> 33:49.120
+and it's like your friend
+
+33:49.120 --> 33:50.720
+is recommending something to
+you.
+
+33:51.600 --> 33:52.560
+It's almost intangible,
+
+33:52.560 --> 33:54.640
+but it's starting to work so
+well,
+
+33:54.640 --> 33:56.080
+in fact, that my daughter,
+
+33:56.080 --> 33:58.400
+who's a weblogger, she's 14,
+
+33:58.400 --> 34:00.000
+she's a big fan of Good
+Charlotte.
+
+34:00.000 --> 34:01.680
+She has a, her weblog is
+
+34:01.680 --> 34:03.360
+land of the young and the
+hopeless.com.
+
+34:05.440 --> 34:08.720
+And the opening band for the
+Good Charlotte tour
+
+34:08.720 --> 34:10.400
+is an unsigned band
+
+34:10.400 --> 34:11.280
+called Three Quarters.
+
+34:12.000 --> 34:13.920
+And she sent me the MP3.
+
+34:13.920 --> 34:15.520
+She's not a podcaster yet,
+
+34:15.520 --> 34:16.800
+but she said, hey dad,
+
+34:16.800 --> 34:18.080
+you know, I'm talking to their
+manager
+
+34:18.080 --> 34:19.600
+and you got to play this on your
+show.
+
+34:21.760 --> 34:22.720
+And think about what,
+
+34:22.720 --> 34:23.760
+and I'm going to,
+
+34:23.760 --> 34:24.720
+you know, even if it sucks,
+
+34:24.720 --> 34:25.840
+I'm going to play it.
+
+34:25.840 --> 34:28.880
+But this really important,
+
+34:30.240 --> 34:31.280
+that's how hits are born.
+
+34:31.280 --> 34:33.680
+That's how music gets out there.
+
+34:33.680 --> 34:35.520
+In the top 40 radio,
+
+34:35.520 --> 34:36.720
+you know, you want to make sure
+
+34:36.720 --> 34:38.320
+that Z100 in New York
+
+34:38.320 --> 34:39.200
+adds the record
+
+34:39.200 --> 34:40.480
+to their playlist rotation
+
+34:40.480 --> 34:41.520
+at the same time
+
+34:41.520 --> 34:43.040
+KISS FM Los Angeles does it,
+
+34:43.040 --> 34:43.840
+you know, because then,
+
+34:43.840 --> 34:45.120
+of course, you'll pour some
+marketing
+
+34:45.120 --> 34:46.800
+on top and everyone's hearing it
+
+34:46.800 --> 34:48.240
+and it starts to all gel
+together.
+
+34:48.800 --> 34:49.200
+Tony?
+
+34:49.760 --> 34:52.320
+I just wanted to ask you a
+question, Adam,
+
+34:52.320 --> 34:53.040
+because I think,
+
+34:53.520 --> 34:55.360
+you know, I'm thinking about
+this idea of,
+
+34:55.360 --> 34:58.560
+well, users here really means
+producers,
+
+34:58.560 --> 35:01.040
+you know, the users of all this
+technology
+
+35:01.040 --> 35:03.360
+of people who want to make a
+podcast.
+
+35:03.920 --> 35:05.760
+And almost every,
+
+35:05.760 --> 35:07.760
+for almost every podcaster I've
+spoken with,
+
+35:07.840 --> 35:11.920
+the road has led to you as the
+podcaster,
+
+35:11.920 --> 35:14.720
+because you sort of
+anthologized.
+
+35:14.720 --> 35:16.560
+Among other things, you set a
+tone,
+
+35:16.560 --> 35:18.080
+you said, okay, this is going to
+be really personal.
+
+35:18.080 --> 35:18.880
+It's going to be about me.
+
+35:18.880 --> 35:20.320
+It's going to be about my
+relationship
+
+35:20.320 --> 35:22.160
+with my wife and my kid.
+
+35:22.160 --> 35:24.240
+It's going to be about my doing
+it out of my house.
+
+35:25.040 --> 35:26.400
+It's going to be about me
+standing up
+
+35:26.400 --> 35:28.000
+and walking around while I'm
+doing this
+
+35:28.000 --> 35:30.400
+so that there was a very low
+buttock factor,
+
+35:30.400 --> 35:32.560
+you know, as well in the
+broadcast.
+
+35:32.560 --> 35:33.280
+You set a tone,
+
+35:33.280 --> 35:34.080
+but you also said,
+
+35:34.080 --> 35:35.920
+I'm going to collect what you're
+sounding like
+
+35:35.920 --> 35:37.040
+and play it back to you.
+
+35:37.760 --> 35:42.000
+So you made everybody feel that
+there was something
+
+35:42.000 --> 35:44.960
+that was possible that they
+could do
+
+35:44.960 --> 35:46.640
+that would make a personal
+connection.
+
+35:46.640 --> 35:48.080
+It's been very, very personal.
+
+35:48.080 --> 35:49.840
+And as someone from public
+radio,
+
+35:49.840 --> 35:53.040
+I'm really trying to think about
+this personal side.
+
+35:53.040 --> 35:57.600
+Do you think that there is
+something about podcasting
+
+35:57.600 --> 36:01.520
+that is going in a direction
+that is really different
+
+36:02.720 --> 36:04.720
+in terms of the kind of
+relationship
+
+36:04.800 --> 36:07.920
+that listeners want to form with
+a podcast
+
+36:07.920 --> 36:10.160
+that public radio should be
+looking at?
+
+36:10.160 --> 36:13.680
+We see ourselves as content
+providers for thoughtful people,
+
+36:13.680 --> 36:15.280
+but we may not be thinking
+enough
+
+36:15.280 --> 36:18.320
+in terms of actually making
+direct connections
+
+36:18.320 --> 36:20.240
+with people and having people
+want
+
+36:20.240 --> 36:22.480
+to connect with the people in
+public radio.
+
+36:24.000 --> 36:25.760
+I yield my time to the
+distinguished gentleman
+
+36:25.760 --> 36:26.640
+from Seattle.
+
+36:28.560 --> 36:29.200
+That was good.
+
+36:29.760 --> 36:30.320
+That was good.
+
+36:31.600 --> 36:34.160
+That's like saying that it's
+like a blog.
+
+36:34.880 --> 36:37.520
+I mean, Adam, and it's also like
+saying it's like MTV.
+
+36:37.520 --> 36:39.520
+That's what Adam did on MTV,
+right?
+
+36:39.520 --> 36:42.640
+So he would get the stars would
+come and wearing knee pads
+
+36:42.640 --> 36:44.640
+to try to get them to play their
+song.
+
+36:47.840 --> 36:49.600
+He gets that and he does it.
+
+36:50.880 --> 36:52.080
+That's just his nature.
+
+36:54.080 --> 36:56.880
+And to Steve, it is just like a
+blog.
+
+36:57.600 --> 36:59.600
+I don't see that there's a
+difference.
+
+36:59.600 --> 37:00.960
+I do a morning coffee notes.
+
+37:00.960 --> 37:03.840
+I'm a writer and I'm a talker.
+
+37:04.160 --> 37:04.960
+Both.
+
+37:04.960 --> 37:06.880
+And you get a different story
+
+37:06.880 --> 37:08.480
+when it comes out of the mouth
+
+37:08.480 --> 37:11.120
+than you do when it comes out of
+the fingers, right?
+
+37:11.920 --> 37:15.120
+But I've gone back to writing
+morning coffee notes now.
+
+37:15.120 --> 37:17.040
+And sometimes I feel like
+writing
+
+37:17.040 --> 37:18.400
+and sometimes I feel like
+talking.
+
+37:18.400 --> 37:22.160
+And I sort of just go with the
+flow, whatever.
+
+37:22.160 --> 37:24.960
+And so I don't see one as
+annotating the other.
+
+37:24.960 --> 37:26.800
+And so when Tony, you say that
+it could
+
+37:27.840 --> 37:30.880
+fertilize public radio, of
+course it could.
+
+37:31.840 --> 37:34.000
+And that's like saying that the
+New York Times
+
+37:34.000 --> 37:35.040
+should be a weblog.
+
+37:35.040 --> 37:36.880
+And the New York Times should be
+a weblog.
+
+37:36.880 --> 37:39.040
+And the New York Times will be a
+weblog
+
+37:39.040 --> 37:40.000
+at some point in the future.
+
+37:40.880 --> 37:44.720
+Why doesn't the New York Times
+have an archive?
+
+37:44.720 --> 37:47.040
+Why can't I see what the front
+page
+
+37:47.040 --> 37:48.960
+of the New York Times website
+looked like
+
+37:48.960 --> 37:50.000
+on a specific date?
+
+37:50.960 --> 37:53.120
+Is there any sense to not having
+that feature?
+
+37:53.120 --> 37:54.400
+Why wouldn't they want to have
+it?
+
+37:55.760 --> 37:56.960
+But yet they don't...
+
+37:58.000 --> 38:00.080
+There's some reluctance to
+actually
+
+38:00.080 --> 38:02.240
+take an idea from outside of
+their...
+
+38:02.240 --> 38:04.080
+You know, they're sort of...
+
+38:04.080 --> 38:06.320
+They're very insular and they
+want those ideas
+
+38:06.320 --> 38:07.680
+to come self-generated.
+
+38:07.680 --> 38:09.280
+But they'll do it at some point.
+
+38:09.280 --> 38:10.880
+They'll also put stories up in
+reverse
+
+38:10.880 --> 38:12.560
+chronological order because it's
+a very
+
+38:12.560 --> 38:14.880
+sensible way to put up stories,
+right?
+
+38:14.880 --> 38:17.440
+So, yeah, you will distribute
+programs
+
+38:17.440 --> 38:19.920
+that are created in amateur
+space.
+
+38:19.920 --> 38:22.560
+You pretty kind of already do in
+some way.
+
+38:24.160 --> 38:27.200
+And just the same way that a
+reporter
+
+38:27.280 --> 38:30.480
+for NPR or a reporter for a
+newspaper
+
+38:31.280 --> 38:34.320
+quotes people that are experts
+on what they're doing.
+
+38:34.320 --> 38:37.120
+It's just the same idea applied
+to a different medium.
+
+38:37.120 --> 38:39.680
+And I'd say that one other
+comment
+
+38:39.680 --> 38:43.040
+that is all going so much faster
+with podcasting
+
+38:43.040 --> 38:47.040
+because we don't have to wait
+for the traditional media
+
+38:47.040 --> 38:50.320
+to figure out what we're doing
+to carry our message
+
+38:50.320 --> 38:51.680
+because we can do it ourselves
+
+38:51.680 --> 38:52.640
+because we already have one,
+
+38:52.640 --> 38:54.160
+which is called the blogosphere.
+
+38:54.160 --> 38:57.040
+And the blogosphere carries the
+message of podcasting
+
+38:57.040 --> 38:59.840
+and so this thing bootstraps up
+in one tenth,
+
+38:59.840 --> 39:01.440
+one one hundredth the time
+
+39:01.440 --> 39:03.280
+that the blogosphere itself
+bootstrapped up
+
+39:03.280 --> 39:04.800
+because we already get it.
+
+39:04.800 --> 39:06.000
+We already understand
+
+39:06.000 --> 39:08.880
+that the voice of an individual
+is a powerful thing
+
+39:08.880 --> 39:12.480
+whereas there's sort of a sense
+in the professional world
+
+39:12.480 --> 39:14.320
+that they kind of know it,
+
+39:14.320 --> 39:16.080
+but they are in denial of it
+
+39:16.080 --> 39:18.400
+and they need it as the security
+blanket
+
+39:18.400 --> 39:21.280
+because that's all between them
+and being on the street.
+
+39:22.080 --> 39:26.640
+So anyway, it's kind of a way of
+thinking,
+
+39:26.640 --> 39:27.920
+I guess is what all I'm saying.
+
+39:27.920 --> 39:29.760
+Can you just bring the mic up
+there
+
+39:29.760 --> 39:30.880
+because now people are getting
+into it.
+
+39:30.880 --> 39:31.360
+This is good.
+
+39:34.080 --> 39:34.960
+Thanks.
+
+39:34.960 --> 39:36.800
+Chris Carthy from Half Moon Bay
+here
+
+39:36.800 --> 39:38.080
+in the great state of
+California.
+
+39:38.960 --> 39:40.640
+Question I have for the room
+
+39:40.640 --> 39:42.960
+is how do we deal with the
+discrepancy
+
+39:42.960 --> 39:44.400
+between a podcast
+
+39:44.400 --> 39:47.440
+which is forced to be listened
+to
+
+39:47.440 --> 39:48.960
+and absorbed in real time
+
+39:49.520 --> 39:51.600
+versus the written word
+
+39:51.600 --> 39:53.200
+which can be scanned,
+
+39:53.200 --> 39:54.560
+which can be absorbed
+
+39:54.560 --> 39:58.160
+and can be sort of self filtered
+
+39:58.160 --> 40:01.120
+in a quarter or a tenth of the
+time
+
+40:01.120 --> 40:02.560
+as listening to something
+
+40:02.560 --> 40:04.640
+that you need to listen to
+
+40:04.640 --> 40:07.280
+at the rate it was created.
+
+40:08.480 --> 40:12.080
+Well, I'll just grab a couple of
+things there.
+
+40:12.080 --> 40:15.120
+First of all, the iPod basically
+sucks
+
+40:15.120 --> 40:16.560
+for a lot of your problems
+
+40:16.560 --> 40:18.000
+because you can't fast forward
+
+40:18.000 --> 40:20.400
+and just jump ahead and jump
+back.
+
+40:20.400 --> 40:22.800
+So there's some definite
+interface issues.
+
+40:22.800 --> 40:24.480
+When I play songs in my podcast,
+
+40:24.480 --> 40:26.400
+I say, or not always say,
+
+40:26.400 --> 40:28.480
+but I should say three minutes
+and 30 seconds
+
+40:28.480 --> 40:29.600
+if you don't want to hear it,
+
+40:29.600 --> 40:30.320
+just skip ahead.
+
+40:30.320 --> 40:31.200
+I shouldn't have to say that.
+
+40:31.200 --> 40:31.920
+It should be just a button
+
+40:31.920 --> 40:33.520
+that kind of does something like
+that.
+
+40:37.760 --> 40:38.720
+You want to try it?
+
+40:38.720 --> 40:39.760
+You want to jump in here?
+
+40:39.760 --> 40:42.160
+Yeah, maybe this takes this
+conversation
+
+40:42.160 --> 40:43.600
+in a little bit of a different
+direction.
+
+40:44.880 --> 40:45.760
+My name is Cole Jolly.
+
+40:45.760 --> 40:46.640
+I work for IDC
+
+40:47.520 --> 40:49.200
+and I'm a product manager.
+
+40:49.200 --> 40:51.840
+So I listen to problems
+
+40:51.840 --> 40:53.440
+and I try to, like a yentai,
+
+40:53.440 --> 40:55.200
+try to match solutions to
+problems.
+
+40:55.200 --> 41:01.440
+And the constituency of end
+users
+
+41:01.440 --> 41:03.440
+that I listen to is a little bit
+different.
+
+41:03.440 --> 41:05.760
+They're not necessarily
+producers
+
+41:05.760 --> 41:07.680
+or broadcasters per se,
+
+41:07.680 --> 41:10.320
+but they're like analysts on
+Wall Street
+
+41:10.320 --> 41:12.080
+and bankers and people
+
+41:12.080 --> 41:13.520
+that work for large corporations
+
+41:13.520 --> 41:14.800
+that manufacture technology.
+
+41:15.680 --> 41:18.160
+And they have their own
+constituencies
+
+41:18.160 --> 41:19.440
+that they broadcast to.
+
+41:20.160 --> 41:22.560
+And to this question,
+
+41:25.200 --> 41:25.920
+how can I put this?
+
+41:26.960 --> 41:29.280
+So podcasting, I got this
+immediately
+
+41:29.280 --> 41:31.200
+when I saw you talking about
+this
+
+41:31.200 --> 41:32.960
+in your conversations with Dave
+
+41:34.080 --> 41:35.200
+and I listened to your show.
+
+41:36.160 --> 41:38.560
+It's the logical next step of
+RSS for me,
+
+41:38.560 --> 41:39.840
+which I've been evangelizing
+
+41:39.840 --> 41:41.360
+into Wall Street now for two
+years.
+
+41:41.920 --> 41:43.920
+And all of a sudden, they got it
+this year.
+
+41:44.640 --> 41:45.680
+Before they didn't,
+
+41:45.680 --> 41:47.680
+they managed a lot of
+information all day long.
+
+41:48.640 --> 41:50.800
+They need something faster than
+real time.
+
+41:51.760 --> 41:54.480
+And to Steve Gilmore's point
+
+41:54.480 --> 41:55.760
+about metadata,
+
+41:55.760 --> 41:56.720
+that we're at this point
+
+41:56.720 --> 41:58.480
+where I need to be able to kind
+of index
+
+41:59.600 --> 42:02.800
+what you say and to crawl it
+quickly
+
+42:02.800 --> 42:04.800
+across all of these
+conversations
+
+42:04.800 --> 42:06.160
+and zero in like Google
+
+42:06.160 --> 42:08.400
+to the point where I can find,
+
+42:08.960 --> 42:11.360
+you know, this pivotal
+information
+
+42:11.360 --> 42:13.280
+that causes me to make a
+decision,
+
+42:13.280 --> 42:15.680
+then I, as a, let's say I'm an
+analyst,
+
+42:15.680 --> 42:18.320
+can turn around and broadcast,
+
+42:18.320 --> 42:20.400
+podcast my analysis,
+
+42:20.400 --> 42:21.440
+I just got off of a call
+
+42:22.240 --> 42:23.920
+with numbers being reported
+
+42:23.920 --> 42:26.720
+to the analysts that listens to
+me
+
+42:26.720 --> 42:27.920
+and they make decisions,
+
+42:27.920 --> 42:29.760
+they make buy or sell decisions
+
+42:29.760 --> 42:33.120
+that affect pension funds and
+economies.
+
+42:33.920 --> 42:34.720
+You just mentioned that,
+
+42:34.720 --> 42:35.600
+I just wanted to bring up
+
+42:36.720 --> 42:37.600
+a little bit less different.
+
+42:37.600 --> 42:38.640
+It's different from music,
+
+42:38.640 --> 42:41.840
+but it's kind of the same thing,
+
+42:41.840 --> 42:43.440
+which is all about this
+relationship.
+
+42:43.440 --> 42:45.440
+I just wanted to bring up a
+podcast
+
+42:45.440 --> 42:46.960
+that I bumped into the other day
+
+42:46.960 --> 42:48.160
+called Earnings Cast,
+
+42:48.720 --> 42:50.720
+which is literally...
+
+42:50.720 --> 42:53.120
+Today, welcome to the Audible
+8th third quarter,
+
+42:53.120 --> 42:54.720
+2004 Home Conference.
+
+42:55.600 --> 42:57.520
+It's literally all the
+conference calls
+
+42:57.520 --> 42:58.400
+of the quarters that,
+
+42:59.840 --> 43:01.120
+you know, where the analysts
+call in
+
+43:01.120 --> 43:04.240
+and talk about the latest
+earnings.
+
+43:04.240 --> 43:05.920
+All of those are now coming in
+
+43:05.920 --> 43:06.720
+through podcasts.
+
+43:08.560 --> 43:09.280
+I'm not doing it,
+
+43:10.640 --> 43:12.640
+but this is clearly an issue
+that...
+
+43:12.640 --> 43:13.600
+Metadata?
+
+43:14.320 --> 43:14.960
+Oh, sorry.
+
+43:16.640 --> 43:16.880
+Okay.
+
+43:17.600 --> 43:18.880
+When people wave frantically,
+
+43:18.880 --> 43:20.160
+you just got to go to them, I
+guess.
+
+43:20.160 --> 43:20.720
+That's it, right.
+
+43:21.440 --> 43:22.800
+You can always throw something
+at me
+
+43:22.800 --> 43:23.440
+if I don't see you.
+
+43:23.440 --> 43:23.920
+That will help.
+
+43:30.000 --> 43:30.960
+Part of the reason I waved
+
+43:30.960 --> 43:31.920
+is I'm just so shocked
+
+43:31.920 --> 43:33.120
+because I'm doing earnings cast
+
+43:33.120 --> 43:33.840
+and you plugged it.
+
+43:33.840 --> 43:37.280
+But I do actually have something
+to say,
+
+43:39.600 --> 43:40.400
+which is a little bit
+
+43:41.760 --> 43:42.960
+more philosophical
+
+43:42.960 --> 43:44.240
+about what's going on here.
+
+43:45.360 --> 43:47.120
+You know, I came home
+
+43:47.120 --> 43:48.240
+from traveling last week
+
+43:48.240 --> 43:50.320
+and my TV had been changed
+
+43:50.320 --> 43:51.520
+and suddenly there were like
+
+43:51.520 --> 43:53.680
+five channels of national public
+TV,
+
+43:53.680 --> 43:54.400
+KQED.
+
+43:54.960 --> 43:55.280
+Why?
+
+43:55.280 --> 43:56.800
+Because it changed to digital
+
+43:56.800 --> 43:58.400
+and they've got more bandwidth.
+
+43:58.400 --> 44:00.240
+So they've got tons of content
+
+44:00.240 --> 44:00.960
+that they...
+
+44:00.960 --> 44:01.600
+On the analog,
+
+44:01.600 --> 44:02.400
+they could only get into...
+
+44:02.400 --> 44:03.440
+They only had one channel.
+
+44:03.440 --> 44:04.320
+Suddenly on digital,
+
+44:04.320 --> 44:06.240
+they could put five channels
+there
+
+44:06.240 --> 44:06.960
+on this...
+
+44:06.960 --> 44:09.520
+And so there's now five KQEDs on
+my TV.
+
+44:10.160 --> 44:11.920
+And I started thinking, you
+know,
+
+44:11.920 --> 44:13.200
+podcasting basically means
+
+44:13.200 --> 44:14.640
+there's an unlimited number of
+channels.
+
+44:15.840 --> 44:18.640
+And that's going to dawn on
+people real quick
+
+44:18.640 --> 44:20.720
+because bandwidth suddenly
+becomes meaningless.
+
+44:20.720 --> 44:21.040
+You can...
+
+44:21.680 --> 44:22.880
+Insofar as you want
+
+44:22.880 --> 44:24.480
+to say something, you can.
+
+44:25.120 --> 44:26.160
+With the earnings cast,
+
+44:26.160 --> 44:29.440
+you know, I was doing a job for
+a company
+
+44:29.440 --> 44:31.760
+and I wanted them to listen to
+Google's earnings call
+
+44:31.760 --> 44:33.680
+because I thought they'd learn
+something from it.
+
+44:33.680 --> 44:34.400
+And they said,
+
+44:34.400 --> 44:35.840
+well, how am I going to get to
+listen to it?
+
+44:35.840 --> 44:36.880
+So I threw up a website
+
+44:36.880 --> 44:38.720
+and put it on for them to
+download.
+
+44:38.720 --> 44:40.240
+And then I thought, just a
+minute,
+
+44:40.960 --> 44:43.680
+I could do this for a lot more
+about these things.
+
+44:43.680 --> 44:45.920
+And I kind of did earnings cast
+almost by accident.
+
+44:46.480 --> 44:48.320
+But I think the bottom line here
+is
+
+44:48.320 --> 44:50.480
+there's an unlimited number of
+subjects,
+
+44:50.480 --> 44:51.680
+content areas,
+
+44:51.680 --> 44:53.760
+and there's an unlimited number
+of bandwidth.
+
+44:53.760 --> 44:55.840
+And now there's an unlimited
+number of producers.
+
+44:56.400 --> 44:58.160
+So I'm not so much worried
+
+44:58.160 --> 44:59.360
+about having enough time in the
+day
+
+44:59.360 --> 45:00.160
+to listen to stuff
+
+45:00.160 --> 45:02.080
+because I'll just listen to what
+I'm interested in.
+
+45:02.080 --> 45:04.160
+I do need help figuring out
+what's out there.
+
+45:04.880 --> 45:06.000
+And I think that's a big deal.
+
+45:06.560 --> 45:08.160
+But I think the world's going to
+change
+
+45:08.160 --> 45:09.040
+really, really quickly
+
+45:09.120 --> 45:11.360
+and the whole meaning of
+consuming
+
+45:12.720 --> 45:14.320
+all kinds of media is going to
+change
+
+45:14.320 --> 45:15.280
+very, very quickly now.
+
+45:15.920 --> 45:16.240
+Right.
+
+45:16.240 --> 45:17.120
+Let's go down to the front here.
+
+45:17.120 --> 45:18.400
+He's been very patient.
+
+45:18.400 --> 45:18.560
+Great.
+
+45:19.200 --> 45:19.520
+Oh, yeah.
+
+45:19.520 --> 45:19.760
+Don't touch the mic.
+
+45:19.760 --> 45:20.960
+I'll touch that mic.
+
+45:20.960 --> 45:21.200
+Okay.
+
+45:21.200 --> 45:21.360
+Yeah.
+
+45:21.360 --> 45:21.920
+My name's Karen.
+
+45:21.920 --> 45:22.720
+I'm just a user.
+
+45:23.360 --> 45:23.760
+But I...
+
+45:27.360 --> 45:28.640
+Yeah, I mean, my comment was,
+
+45:28.640 --> 45:29.680
+you know, it was 52 minutes
+
+45:29.680 --> 45:30.400
+into this discussion
+
+45:30.400 --> 45:32.400
+before a non-famous person got
+to speak.
+
+45:32.960 --> 45:35.200
+So if you're pseudo famous
+
+45:36.080 --> 45:37.440
+or anybody would recognize your
+name
+
+45:37.440 --> 45:37.760
+in the room,
+
+45:37.760 --> 45:39.760
+it'd be great if you let a user
+speak for a while.
+
+45:39.760 --> 45:41.360
+But I just want to say
+
+45:41.360 --> 45:43.600
+one of the cool things about
+podcasting
+
+45:43.600 --> 45:45.280
+is now I started playing
+
+45:45.280 --> 45:47.280
+Grand Theft Auto San Andreas.
+
+45:47.280 --> 45:48.640
+And it has radio.
+
+45:48.640 --> 45:49.760
+Yeah, it's great.
+
+45:49.760 --> 45:51.360
+But the thing is you get tired
+of the radio
+
+45:51.360 --> 45:53.840
+in San Andreas pretty quickly.
+
+45:53.840 --> 45:55.120
+So, you know, now I've started
+
+45:55.120 --> 45:56.960
+overlaying podcasting in.
+
+45:56.960 --> 46:02.560
+And so, and my wife is...
+
+46:02.560 --> 46:04.400
+My wife's a vegetarian.
+
+46:04.400 --> 46:05.920
+So, you know, I went to Adam's
+Directory
+
+46:05.920 --> 46:06.960
+and I said, okay, well, you
+know,
+
+46:06.960 --> 46:07.840
+she likes vegetarian stuff,
+
+46:07.840 --> 46:09.680
+so I'll start listening to vegan
+radio.
+
+46:09.680 --> 46:12.400
+So now, so now I can play Grand
+Theft Auto
+
+46:12.400 --> 46:13.760
+and like, you know, do drive-bys
+
+46:13.760 --> 46:14.800
+and shoot and stuff like that,
+
+46:14.800 --> 46:16.320
+as long as, you know,
+
+46:16.320 --> 46:18.080
+vegan talk is running in the
+background.
+
+46:22.160 --> 46:23.520
+But it's, you know,
+
+46:23.520 --> 46:24.560
+so the thing is, you know,
+
+46:24.560 --> 46:25.760
+it's great that there's all
+these people
+
+46:25.760 --> 46:27.440
+in this room who have five days
+a week
+
+46:27.440 --> 46:29.440
+or seven days a week to do
+podcasts.
+
+46:29.440 --> 46:31.360
+But, you know, I'm looking for a
+subtext
+
+46:31.360 --> 46:32.000
+to my life.
+
+46:32.000 --> 46:33.280
+I'm looking for people to talk
+
+46:34.000 --> 46:36.240
+about things that can interact
+with my life.
+
+46:36.240 --> 46:38.240
+So, I hope people don't, you
+know,
+
+46:38.240 --> 46:39.840
+feel that they have to jump into
+podcasts
+
+46:39.840 --> 46:41.040
+and they have to do it five days
+a week.
+
+46:41.040 --> 46:42.240
+You know, what I'd love
+
+46:42.240 --> 46:44.080
+is to be able to put in a DVD
+
+46:44.080 --> 46:45.920
+and then put us,
+
+46:45.920 --> 46:47.680
+know that somebody watched the
+DVD with me
+
+46:47.680 --> 46:49.200
+and then like had a bunch of
+their friends
+
+46:49.200 --> 46:50.720
+just like chat about it
+
+46:50.720 --> 46:52.400
+as they were watching so I could
+listen to it.
+
+46:52.400 --> 46:53.520
+So start thinking about how
+you're
+
+46:53.520 --> 46:56.480
+going to plug yourself into
+people's lives
+
+46:56.480 --> 46:57.360
+so that, you know,
+
+46:57.360 --> 46:59.280
+we can use this podcasting
+medium
+
+46:59.280 --> 47:01.040
+to interact and provide a more
+personal
+
+47:01.040 --> 47:02.480
+experience to things we share in
+comments.
+
+47:02.480 --> 47:04.160
+That's great. Thank you. That's
+a great comment.
+
+47:07.120 --> 47:09.280
+I'm afraid now to say who's
+next,
+
+47:09.280 --> 47:10.960
+you know, is a non-famous people
+here?
+
+47:12.960 --> 47:14.080
+Over here, don't mind.
+
+47:15.920 --> 47:17.200
+Hi, I'm Joseph Palmer
+
+47:17.200 --> 47:19.600
+and I have all the words of the
+book
+
+47:19.600 --> 47:21.600
+of the Monty Python skits.
+
+47:21.600 --> 47:23.920
+So the answer to your question
+about
+
+47:24.800 --> 47:27.520
+whether the content has to flow
+
+47:27.520 --> 47:28.800
+at the rate you're reading it
+
+47:28.800 --> 47:30.480
+or the content should be vocal,
+
+47:30.480 --> 47:31.280
+guess what?
+
+47:31.280 --> 47:32.960
+There are different kinds of
+stories
+
+47:32.960 --> 47:34.480
+that can be told in different
+ways.
+
+47:35.040 --> 47:35.760
+So if you read,
+
+47:36.560 --> 47:37.680
+is your wife a goer?
+
+47:38.320 --> 47:39.120
+Know what I mean?
+
+47:39.120 --> 47:39.920
+Know what I mean?
+
+47:39.920 --> 47:40.720
+That isn't funny.
+
+47:41.280 --> 47:41.920
+Know what I mean?
+
+47:42.640 --> 47:42.880
+Right?
+
+47:42.880 --> 47:45.680
+So audio is good for things
+different than text.
+
+47:46.400 --> 47:48.320
+You can do things in audio with
+music.
+
+47:48.320 --> 47:49.360
+You can do things in audio
+
+47:49.360 --> 47:50.560
+with the pacing,
+
+47:50.560 --> 47:51.360
+the timing
+
+47:51.360 --> 47:52.880
+that you can't do in the text.
+
+47:53.520 --> 47:54.160
+And that's,
+
+47:54.160 --> 47:55.120
+that's it.
+
+47:55.120 --> 47:55.520
+I'm done.
+
+47:56.800 --> 47:57.840
+And I'll just add to that.
+
+47:57.840 --> 48:00.320
+I think that we've been
+conditioned by
+
+48:00.880 --> 48:02.160
+what media is,
+
+48:02.160 --> 48:04.880
+what broadcast radio is
+certainly
+
+48:04.880 --> 48:06.800
+is to expect it to be a certain
+way.
+
+48:06.800 --> 48:08.320
+And it's very rare that you,
+
+48:08.320 --> 48:09.600
+that you hear kind of burst out.
+
+48:09.600 --> 48:11.520
+We've forgotten what audio is
+all about.
+
+48:11.520 --> 48:12.240
+Audio is beautiful.
+
+48:12.240 --> 48:13.840
+You can do so many things with
+it.
+
+48:13.840 --> 48:15.120
+You can manipulate it
+
+48:15.120 --> 48:16.640
+in so many fantastic ways,
+
+48:16.640 --> 48:19.040
+particularly in the digital
+realm.
+
+48:19.040 --> 48:20.080
+I think we have,
+
+48:20.080 --> 48:21.520
+we have a lot to relearn
+actually.
+
+48:22.880 --> 48:23.520
+Yeah, oh man,
+
+48:23.520 --> 48:24.640
+we're never going to get to all
+this.
+
+48:25.920 --> 48:27.200
+I'm Andy Abramson,
+
+48:27.200 --> 48:28.560
+co-host of the World Technology
+Roundup
+
+48:28.560 --> 48:29.280
+on Ken Radio.
+
+48:29.280 --> 48:30.800
+We've been broadcasting on the
+internet
+
+48:30.800 --> 48:32.240
+since 1994,
+
+48:32.240 --> 48:34.080
+186,000 listeners we've grown
+
+48:34.080 --> 48:35.360
+since 1998.
+
+48:36.400 --> 48:38.320
+We look at podcasting very
+interestingly.
+
+48:38.320 --> 48:39.440
+I look at it as,
+
+48:39.440 --> 48:41.120
+as instead of mass media,
+
+48:41.120 --> 48:42.160
+as very personal media,
+
+48:42.160 --> 48:43.120
+very narrow casting,
+
+48:43.120 --> 48:44.640
+it's not a matter of
+
+48:45.920 --> 48:46.960
+how many people are listening,
+
+48:46.960 --> 48:48.160
+it's who's listening.
+
+48:48.160 --> 48:49.360
+And that's what really matters
+
+48:49.360 --> 48:50.400
+because whether you have to
+write
+
+48:50.400 --> 48:51.200
+10 people,
+
+48:51.200 --> 48:52.880
+or the right 10,000 people,
+
+48:52.880 --> 48:53.840
+that's the first,
+
+48:53.840 --> 48:54.880
+most important thing
+
+48:54.880 --> 48:55.600
+about all this.
+
+48:55.600 --> 48:56.400
+Second,
+
+48:56.400 --> 48:57.040
+you have,
+
+48:57.040 --> 48:57.840
+as we talk about,
+
+48:57.840 --> 48:58.720
+we don't break the news,
+
+48:58.720 --> 48:59.680
+we fix it.
+
+48:59.680 --> 49:02.160
+I think what we're going to see
+here
+
+49:02.160 --> 49:03.200
+is a lot of
+
+49:04.160 --> 49:06.320
+correction and accuracy
+
+49:06.320 --> 49:08.160
+that the general media does not
+have.
+
+49:09.040 --> 49:10.000
+There really is no oversight.
+
+49:10.000 --> 49:11.360
+Plays into the web log.
+
+49:11.360 --> 49:12.320
+Plays into the web log
+
+49:12.320 --> 49:14.480
+and you have this feedback
+mechanism
+
+49:14.480 --> 49:16.000
+which is instantaneous,
+
+49:16.000 --> 49:17.280
+or you have a feedback mechanism
+
+49:17.280 --> 49:17.600
+that says,
+
+49:17.600 --> 49:18.800
+I just listened to what you said
+
+49:18.800 --> 49:19.760
+three weeks ago
+
+49:19.760 --> 49:21.040
+and we see this with our
+
+49:21.040 --> 49:22.000
+regular listeners now
+
+49:22.000 --> 49:23.920
+who correct us or point out
+things
+
+49:23.920 --> 49:25.200
+and we play this little game
+
+49:25.200 --> 49:26.160
+of I love blogs,
+
+49:26.160 --> 49:27.280
+can hate blogs
+
+49:27.280 --> 49:29.280
+and our listeners are the same
+way.
+
+49:29.280 --> 49:30.000
+Some of them like it,
+
+49:30.000 --> 49:31.120
+some of them don't.
+
+49:31.120 --> 49:32.880
+But you're very accountable
+
+49:32.880 --> 49:34.320
+and your audience becomes
+
+49:34.320 --> 49:34.960
+your friends,
+
+49:34.960 --> 49:35.520
+your family,
+
+49:35.520 --> 49:36.720
+your community.
+
+49:36.720 --> 49:37.360
+And again,
+
+49:37.360 --> 49:39.440
+whether it's 10 or 10,000
+
+49:39.440 --> 49:40.720
+or 10 million,
+
+49:40.720 --> 49:41.440
+we're in an era of
+
+49:41.440 --> 49:43.120
+one-to-one communication.
+
+49:43.120 --> 49:44.960
+We're in an era of where
+accuracy,
+
+49:46.880 --> 49:48.000
+focus and targeting
+
+49:48.000 --> 49:49.920
+is all being made apparent
+
+49:49.920 --> 49:51.920
+by technologies like podcasting
+
+49:51.920 --> 49:53.520
+and being powered by streaming.
+
+49:53.520 --> 49:54.000
+So it doesn't matter
+
+49:54.000 --> 49:54.960
+whether you listen live,
+
+49:54.960 --> 49:56.320
+you listen on download,
+
+49:56.320 --> 49:57.360
+you listen streaming.
+
+49:57.360 --> 49:58.640
+You're hearing somebody's
+thoughts
+
+49:58.640 --> 49:59.760
+and you have the ability then
+
+49:59.760 --> 50:01.280
+to shape your opinions
+
+50:01.280 --> 50:01.920
+and feedback.
+
+50:01.920 --> 50:02.080
+So.
+
+50:02.080 --> 50:02.640
+Right.
+
+50:02.640 --> 50:03.840
+I totally agree.
+
+50:03.840 --> 50:04.720
+Just one thing I want to say
+
+50:04.720 --> 50:05.600
+which also comes into the
+
+50:05.600 --> 50:07.280
+how do we consume all this
+information
+
+50:08.080 --> 50:10.080
+if you're thinking about
+podcasting.
+
+50:10.720 --> 50:11.600
+We're already setting
+
+50:11.600 --> 50:12.880
+a whole bunch of rules
+
+50:12.880 --> 50:14.640
+that we shouldn't be setting, I
+feel.
+
+50:14.640 --> 50:16.320
+You don't have to create a show.
+
+50:16.320 --> 50:17.520
+It doesn't have to be
+
+50:17.520 --> 50:18.720
+an opening sequence.
+
+50:19.280 --> 50:20.560
+Here's what's coming up.
+
+50:20.560 --> 50:21.680
+It doesn't have to be
+
+50:21.680 --> 50:23.120
+like what Dave is doing
+
+50:23.120 --> 50:25.920
+or Donna Drew or Michael.
+
+50:26.720 --> 50:27.920
+I would love to,
+
+50:27.920 --> 50:28.720
+like earnings cast,
+
+50:28.720 --> 50:30.320
+that to me was a real
+eye-opener.
+
+50:30.320 --> 50:33.360
+I'm waiting for a Wall Street
+analyst
+
+50:33.360 --> 50:36.000
+to record a minute every morning
+
+50:36.000 --> 50:38.560
+of here's the stock picks for
+today.
+
+50:38.560 --> 50:39.920
+I would love to have someone
+
+50:40.560 --> 50:41.920
+do a weather report
+
+50:41.920 --> 50:43.840
+even though Pete Perdil did it
+for me once
+
+50:43.840 --> 50:46.560
+of my hometown.
+
+50:47.120 --> 50:48.000
+So that in the morning
+
+50:48.000 --> 50:49.040
+when I just go through
+
+50:49.040 --> 50:50.080
+all the new podcasts,
+
+50:50.080 --> 50:51.760
+eventually I'll get exactly
+
+50:51.760 --> 50:52.240
+what I want
+
+50:52.240 --> 50:53.520
+and maybe even in the order I
+want it.
+
+50:53.520 --> 50:55.040
+No, and here's a weather report.
+
+50:55.040 --> 50:57.440
+So if you're thinking about
+
+50:57.440 --> 50:58.320
+doing podcasting,
+
+50:58.320 --> 50:59.200
+let's not get trapped
+
+50:59.200 --> 51:00.400
+into it. It has to be a show.
+
+51:01.520 --> 51:03.200
+But I think what we're learning
+here
+
+51:03.200 --> 51:05.280
+is that what really makes it
+
+51:05.280 --> 51:06.400
+fun for everybody
+
+51:06.400 --> 51:07.600
+is exactly that.
+
+51:07.600 --> 51:09.360
+It sounds like you're having
+fun.
+
+51:09.360 --> 51:10.880
+Like you're just
+
+51:10.880 --> 51:12.640
+the way you might write on your
+weblog.
+
+51:12.640 --> 51:14.080
+I think that's a really
+important
+
+51:15.280 --> 51:16.080
+important part of what we're
+doing.
+
+51:16.080 --> 51:17.200
+Is anyone at this point
+
+51:17.200 --> 51:18.400
+who does not understand
+
+51:18.400 --> 51:19.280
+what we're talking about
+
+51:19.280 --> 51:19.680
+and saying,
+
+51:19.680 --> 51:20.960
+help, I'm lost.
+
+51:20.960 --> 51:21.920
+I don't get it.
+
+51:21.920 --> 51:23.520
+What the fuck is going on?
+
+51:23.520 --> 51:24.880
+Sir, please.
+
+51:24.880 --> 51:25.600
+Take the mic to him.
+
+51:27.600 --> 51:28.880
+I knew I had to give me the
+microphone.
+
+51:30.160 --> 51:30.480
+Sorry.
+
+51:31.200 --> 51:32.080
+One thing I think is kind of
+
+51:32.080 --> 51:33.920
+interesting is in the contrast
+here
+
+51:33.920 --> 51:34.880
+is that if you go on
+
+51:34.880 --> 51:35.600
+and listen to the people
+
+51:35.600 --> 51:37.200
+that basically grew up with the
+technology,
+
+51:37.200 --> 51:38.000
+still in the language
+
+51:38.000 --> 51:40.560
+formation phase of their
+existence,
+
+51:40.560 --> 51:41.360
+they're actually going
+
+51:41.360 --> 51:42.560
+and relate to the technology
+
+51:42.560 --> 51:43.760
+a lot differently
+
+51:43.760 --> 51:44.720
+than the old fogies,
+
+51:44.720 --> 51:45.120
+in fact,
+
+51:45.120 --> 51:46.320
+that a lot have been speaking.
+
+51:46.320 --> 51:46.880
+In particular,
+
+51:46.880 --> 51:47.600
+if you go on and listen
+
+51:47.600 --> 51:48.640
+to the guy that winds up
+
+51:48.640 --> 51:50.320
+overlaying vegan talk radio
+
+51:50.320 --> 51:50.880
+or whatever it is
+
+51:50.880 --> 51:52.800
+over a grand theft auto thing,
+
+51:52.800 --> 51:53.760
+that strikes me.
+
+51:53.760 --> 51:55.520
+Maybe I'm off here
+
+51:55.520 --> 51:57.200
+as a fundamentally different
+experience
+
+51:57.200 --> 51:57.840
+than going on
+
+51:57.840 --> 51:59.280
+and podcasting out
+
+52:00.480 --> 52:02.000
+financial reports
+
+52:02.000 --> 52:03.200
+every morning on stuff.
+
+52:03.200 --> 52:04.080
+One thing I'd be interested
+
+52:04.080 --> 52:04.960
+in getting feedback from,
+
+52:04.960 --> 52:05.360
+in fact,
+
+52:05.360 --> 52:06.240
+is guys,
+
+52:06.240 --> 52:07.120
+I guess the requirement
+
+52:07.120 --> 52:08.320
+is that they're under 25
+
+52:08.320 --> 52:09.360
+and have been using a computer
+
+52:09.360 --> 52:10.640
+for at least 15 years.
+
+52:10.640 --> 52:11.360
+How do they go on
+
+52:11.360 --> 52:12.720
+and relate to the media?
+
+52:12.720 --> 52:13.360
+How do they go on
+
+52:13.360 --> 52:14.400
+and see this thing being used
+
+52:14.400 --> 52:15.200
+and how does it integrate
+
+52:15.200 --> 52:16.160
+with their life day to day?
+
+52:16.160 --> 52:16.640
+That's kind of,
+
+52:16.640 --> 52:17.600
+I guess, an open question.
+
+52:17.600 --> 52:18.880
+Does anyone want to tackle that?
+
+52:19.840 --> 52:24.240
+I'm not going to touch it then.
+
+52:28.960 --> 52:29.440
+Just,
+
+52:29.440 --> 52:31.360
+well, Dave just gave me a note
+of paper.
+
+52:31.360 --> 52:32.240
+I'm going to get to that in a
+second.
+
+52:32.240 --> 52:33.520
+Let's just grab one more here.
+
+52:34.320 --> 52:36.080
+So there's been a lot of talk
+here
+
+52:36.080 --> 52:37.920
+about the need for annotation,
+
+52:37.920 --> 52:41.600
+the need for being able to find
+the good stuff.
+
+52:41.600 --> 52:43.360
+And so I think it's maybe
+important
+
+52:43.360 --> 52:46.320
+to consider from a user
+perspective
+
+52:46.320 --> 52:48.320
+what a user will expect
+
+52:48.400 --> 52:50.640
+to use all of these annotations.
+
+52:50.640 --> 52:52.080
+How will they consume them?
+
+52:52.080 --> 52:53.120
+And so one of the things
+
+52:53.120 --> 52:54.400
+I've been thinking about,
+
+52:54.400 --> 52:55.440
+by the way, I'm Brendan Wilson,
+
+52:55.440 --> 52:56.080
+forgot about that,
+
+52:57.920 --> 53:00.720
+is if you consider blogging
+
+53:00.720 --> 53:01.520
+as sort of like
+
+53:02.960 --> 53:06.960
+an uncensored letters to the
+editor almost,
+
+53:06.960 --> 53:07.280
+right?
+
+53:07.280 --> 53:08.320
+Someone puts something up
+
+53:08.320 --> 53:10.160
+and everyone can respond to it.
+
+53:10.160 --> 53:12.720
+You can consider that podcasting
+
+53:12.720 --> 53:13.760
+with annotations
+
+53:13.760 --> 53:16.320
+becomes like the radio call-in
+show,
+
+53:16.320 --> 53:17.760
+Howard Stern on PCP.
+
+53:18.400 --> 53:21.760
+So I think it'd be really
+interesting
+
+53:21.760 --> 53:23.280
+despite the limitations of,
+
+53:23.280 --> 53:24.960
+say, the iPod and what it can
+do,
+
+53:25.760 --> 53:27.040
+I think there's a possibility
+
+53:27.040 --> 53:28.160
+for more intelligence
+
+53:28.160 --> 53:30.560
+in the software on the client
+side
+
+53:30.560 --> 53:31.920
+to sort of pull down,
+
+53:31.920 --> 53:33.680
+I pull down Adam's show,
+
+53:33.680 --> 53:34.960
+someone pulls and says,
+
+53:34.960 --> 53:36.640
+hey, this section's quite
+interesting.
+
+53:36.640 --> 53:37.760
+A number of other people
+
+53:37.760 --> 53:39.760
+add that interesting
+information.
+
+53:39.760 --> 53:41.520
+And then my iPod or software
+
+53:41.520 --> 53:42.480
+remixes it
+
+53:42.480 --> 53:45.120
+so I can either listen to the
+whole show,
+
+53:45.120 --> 53:46.480
+listen to the greatest hits
+
+53:46.480 --> 53:48.160
+that people said were
+interesting,
+
+53:48.160 --> 53:49.440
+or sort of listen to it
+
+53:49.440 --> 53:50.960
+with the interjections
+
+53:50.960 --> 53:52.720
+within Adam's show.
+
+53:52.720 --> 53:53.520
+You know, he says this
+
+53:53.520 --> 53:56.160
+and then oh, so-and-so thinks
+this after it.
+
+53:56.880 --> 53:58.480
+That's what I would expect as a
+user
+
+53:58.480 --> 53:59.440
+to be able to use this
+
+53:59.440 --> 54:01.600
+in a completely away from my
+computer,
+
+54:01.600 --> 54:02.720
+sitting on my iPod,
+
+54:03.360 --> 54:04.880
+but limiting the amount of time
+
+54:04.880 --> 54:05.840
+I'm spending on this.
+
+54:08.240 --> 54:09.920
+Maybe you're a shill that Dave
+put there,
+
+54:09.920 --> 54:11.120
+but the note that Dave gave me
+
+54:11.120 --> 54:12.880
+was how could the iPod work
+better?
+
+54:13.440 --> 54:16.480
+Open standard remixes allow a
+lot of-
+
+54:16.480 --> 54:17.040
+Oh!
+
+54:17.040 --> 54:17.600
+Oh!
+
+54:17.600 --> 54:17.840
+Oh!
+
+54:17.840 --> 54:18.240
+Oh!
+
+54:18.240 --> 54:18.480
+Oh!
+
+54:18.480 --> 54:18.640
+Oh!
+
+54:18.640 --> 54:19.040
+Oh!
+
+54:19.040 --> 54:19.280
+Oh!
+
+54:19.280 --> 54:19.600
+Oh!
+
+54:19.600 --> 54:20.080
+Oh!
+
+54:20.080 --> 54:20.400
+Oh!
+
+54:20.400 --> 54:20.640
+Oh!
+
+54:20.640 --> 54:20.880
+Oh!
+
+54:20.880 --> 54:21.200
+Oh!
+
+54:21.200 --> 54:21.440
+Oh!
+
+54:21.440 --> 54:21.680
+Oh!
+
+54:21.680 --> 54:22.000
+Oh!
+
+54:22.000 --> 54:22.240
+Oh!
+
+54:22.240 --> 54:22.800
+Oh!
+
+54:22.800 --> 54:23.040
+Oh!
+
+54:23.040 --> 54:24.240
+You want to say anything else
+
+54:24.240 --> 54:24.880
+with the microphone?
+
+54:26.880 --> 54:27.680
+I'm sorry.
+
+54:28.400 --> 54:29.920
+Yeah, making it an open standard
+
+54:29.920 --> 54:30.640
+allow people to write
+
+54:30.640 --> 54:31.600
+third-party applications
+
+54:31.600 --> 54:36.240
+that'll run on the iPod
+hardware.
+
+54:36.240 --> 54:37.280
+I mean, I haven't bought it
+
+54:37.280 --> 54:38.240
+because I don't want to get
+
+54:38.240 --> 54:40.080
+locked into a fixed standard.
+
+54:40.080 --> 54:41.040
+I mean, last week,
+
+54:41.040 --> 54:42.080
+you know, Apple just chose
+
+54:42.160 --> 54:42.800
+to shut it off,
+
+54:42.800 --> 54:44.000
+shut off some functionality.
+
+54:44.000 --> 54:44.960
+I'm not going to buy into that.
+
+54:45.760 --> 54:46.640
+Does anyone want to talk
+
+54:46.640 --> 54:48.560
+about who is not using an iPod
+
+54:48.560 --> 54:49.600
+but another MP3 player
+
+54:49.600 --> 54:51.040
+they think is better than an
+iPod?
+
+54:51.040 --> 54:51.920
+I'd love to hear that
+
+54:51.920 --> 54:52.800
+because I-
+
+54:52.800 --> 54:53.120
+Go ahead.
+
+54:54.080 --> 54:55.200
+Stacey Kramer from
+
+54:55.200 --> 54:56.400
+online journalism review
+
+54:56.400 --> 54:58.000
+and paid content, etc.
+
+54:58.880 --> 55:00.480
+And I'm not actually using-
+
+55:00.480 --> 55:01.920
+I mean, I have access
+
+55:01.920 --> 55:02.880
+to a lot of different ways
+
+55:02.880 --> 55:03.280
+to do this
+
+55:03.280 --> 55:04.960
+and I've started trying to,
+
+55:04.960 --> 55:06.720
+but I'm concerned
+
+55:06.720 --> 55:08.240
+about the fixation on iPod
+
+55:09.280 --> 55:10.480
+and a little bit concerned
+
+55:10.480 --> 55:11.760
+about the podcasting name
+
+55:11.760 --> 55:12.480
+in that respect
+
+55:12.480 --> 55:13.600
+because it leads people
+
+55:13.600 --> 55:14.320
+to the idea
+
+55:15.520 --> 55:16.560
+that you can only do this
+
+55:16.560 --> 55:17.680
+effectively with an iPod.
+
+55:17.680 --> 55:18.320
+And guess what?
+
+55:18.320 --> 55:19.200
+When you start to try
+
+55:19.200 --> 55:19.680
+and do it
+
+55:19.680 --> 55:20.720
+with all the other different
+
+55:20.720 --> 55:21.600
+things you have access to
+
+55:21.600 --> 55:22.880
+to play MP3s,
+
+55:22.880 --> 55:23.840
+it's not easy.
+
+55:25.120 --> 55:26.480
+I started just downloading
+
+55:26.480 --> 55:27.520
+things piece by piece
+
+55:27.520 --> 55:28.640
+from IT conversations
+
+55:28.640 --> 55:29.600
+to take here
+
+55:29.600 --> 55:30.800
+because I couldn't figure out
+
+55:30.800 --> 55:31.760
+how to make it all work.
+
+55:32.320 --> 55:32.960
+I'm glad you're here
+
+55:32.960 --> 55:34.080
+and I'm glad you're saying this
+
+55:34.080 --> 55:37.360
+because just like I said
+
+55:37.360 --> 55:39.280
+my original iPod program
+
+55:39.280 --> 55:39.760
+sucked,
+
+55:40.720 --> 55:42.000
+in general I think
+
+55:42.000 --> 55:42.560
+most of the people
+
+55:42.560 --> 55:43.760
+who are working on these
+programs
+
+55:43.760 --> 55:44.400
+will think that
+
+55:44.400 --> 55:45.600
+there's a lot of work to be done
+
+55:45.600 --> 55:46.400
+and hearing that
+
+55:47.120 --> 55:47.520
+from you
+
+55:48.400 --> 55:48.800
+is like,
+
+55:49.520 --> 55:50.480
+here's a great opportunity.
+
+55:50.480 --> 55:51.360
+We have to figure out
+
+55:51.360 --> 55:52.400
+how to make that better for you
+
+55:52.400 --> 55:53.600
+so that it does work.
+
+55:53.600 --> 55:54.480
+The name thing though,
+
+55:55.280 --> 55:56.400
+it's unchangeable.
+
+55:56.400 --> 55:57.040
+Forget about it.
+
+55:57.040 --> 55:57.520
+It's out there.
+
+55:57.520 --> 55:58.880
+We'll never change that.
+
+55:58.880 --> 55:59.600
+I realize that.
+
+55:59.600 --> 56:00.960
+I think that requires
+
+56:00.960 --> 56:02.080
+a little better education
+
+56:02.080 --> 56:02.880
+from people
+
+56:02.880 --> 56:03.600
+and a little better sense
+
+56:03.600 --> 56:04.720
+of removing the concept
+
+56:04.720 --> 56:05.680
+of podcasting
+
+56:05.680 --> 56:07.200
+from the hardware
+
+56:07.200 --> 56:08.400
+of iPod
+
+56:08.400 --> 56:09.360
+to a lot of people.
+
+56:09.440 --> 56:10.560
+The other thing I would just
+point out
+
+56:10.560 --> 56:11.760
+is not everybody is listening
+
+56:11.760 --> 56:13.040
+to this on portable players
+
+56:14.240 --> 56:16.480
+or on little gadgets.
+
+56:16.480 --> 56:17.280
+I mean, I'm sitting here.
+
+56:17.280 --> 56:18.320
+I've got a pocket PC.
+
+56:18.320 --> 56:19.040
+I've got a laptop
+
+56:19.040 --> 56:20.640
+I was traveling with yesterday.
+
+56:20.640 --> 56:21.760
+I could listen to this
+
+56:21.760 --> 56:22.720
+on any of these.
+
+56:23.360 --> 56:25.040
+And so I think that's,
+
+56:25.040 --> 56:27.360
+my phone has MP3 capability.
+
+56:27.920 --> 56:29.920
+So I would like to just
+encourage
+
+56:29.920 --> 56:32.400
+us to keep in mind
+
+56:32.400 --> 56:34.000
+the variance of platforms
+
+56:34.000 --> 56:34.960
+that people are using
+
+56:34.960 --> 56:35.920
+and not only think of this
+
+56:35.920 --> 56:37.440
+as a tiny mobile concept.
+
+56:38.000 --> 56:39.520
+And excellent.
+
+56:39.520 --> 56:41.120
+Because I totally agree with
+you.
+
+56:41.120 --> 56:42.560
+And there are things
+
+56:42.560 --> 56:43.520
+Steve Gilmore came up
+
+56:43.520 --> 56:45.760
+with a number of 650 million
+
+56:45.760 --> 56:46.800
+new MP3 players
+
+56:46.800 --> 56:48.000
+that are going to come into the
+market
+
+56:48.000 --> 56:49.200
+in cell phones.
+
+56:49.200 --> 56:50.080
+And what's really neat
+
+56:50.080 --> 56:51.680
+about cell phones is,
+
+56:51.680 --> 56:52.720
+oh, yeah, they're connected.
+
+56:53.600 --> 56:54.480
+And they can be connected
+
+56:54.480 --> 56:55.360
+through multiple ways.
+
+56:55.360 --> 56:56.720
+I think you're absolutely right.
+
+56:56.720 --> 56:58.080
+And we need to work on that.
+
+56:58.080 --> 56:59.280
+So, you know,
+
+56:59.280 --> 57:00.480
+this is where the developers
+
+57:00.480 --> 57:02.640
+should start to raise their
+hands.
+
+57:04.560 --> 57:05.680
+That one looks like a developer.
+
+57:05.680 --> 57:06.480
+Could you please...
+
+57:11.200 --> 57:12.720
+Hi, my name is Mike Levin,
+
+57:12.720 --> 57:13.600
+MikeLevin.net.
+
+57:13.600 --> 57:14.480
+And I have a podcast
+
+57:14.480 --> 57:15.840
+called Podcast from the Swamp.
+
+57:17.600 --> 57:18.160
+One thing...
+
+57:19.040 --> 57:19.600
+Yeah, thanks.
+
+57:20.320 --> 57:22.080
+One thing that we can do,
+
+57:23.760 --> 57:25.600
+everyone who creates a podcast,
+
+57:26.240 --> 57:28.000
+even if you're not a developer,
+
+57:28.000 --> 57:31.200
+you have to create the RSS XML
+feed.
+
+57:31.760 --> 57:34.080
+And you can put keywords in
+there.
+
+57:34.080 --> 57:35.520
+And that's how search engines
+work.
+
+57:35.680 --> 57:39.520
+So, if you want your podcast to
+be indexed...
+
+57:43.520 --> 57:44.880
+You just put it like that, yeah.
+
+57:45.760 --> 57:47.280
+If you want your podcast to be
+indexed
+
+57:47.280 --> 57:48.800
+and picked up by search engines,
+
+57:48.800 --> 57:49.680
+you could put,
+
+57:49.680 --> 57:51.600
+I guess you could call it a pod
+roll
+
+57:51.600 --> 57:52.960
+or something like that in there.
+
+57:52.960 --> 57:55.040
+You can name the topics
+
+57:55.040 --> 57:56.160
+that you cover.
+
+57:56.720 --> 57:59.280
+And then the search engines
+
+57:59.280 --> 58:00.000
+will pick it up.
+
+58:02.480 --> 58:04.400
+As far as the iPod
+
+58:04.560 --> 58:07.520
+and podcast moniker,
+
+58:08.560 --> 58:10.000
+I guess after a while,
+
+58:10.000 --> 58:12.640
+we started calling photocopies
+Xeroxes.
+
+58:13.280 --> 58:14.960
+And, you know, whatever.
+
+58:14.960 --> 58:15.920
+It's a catchy word.
+
+58:16.640 --> 58:17.600
+I think the important thing
+
+58:17.600 --> 58:18.640
+is that people understand
+
+58:18.640 --> 58:19.840
+what the word means.
+
+58:19.840 --> 58:21.600
+It's unfortunate that it's a
+brand name,
+
+58:22.160 --> 58:24.720
+but that's just how it goes.
+
+58:26.320 --> 58:28.320
+John Dvorak wrote an article
+
+58:28.880 --> 58:30.960
+kind of putting down a
+podcasting.
+
+58:31.760 --> 58:32.560
+Oh, no, no, no, no.
+
+58:32.560 --> 58:33.680
+Hold on, hold on, hold on.
+
+58:34.160 --> 58:35.440
+I want to say publicly,
+
+58:35.440 --> 58:36.880
+I agree with John Dvorak.
+
+58:37.600 --> 58:41.040
+It's not there yet for everyone.
+
+58:41.040 --> 58:42.240
+It is not easy.
+
+58:42.240 --> 58:43.120
+It doesn't work.
+
+58:43.120 --> 58:43.840
+Shit breaks.
+
+58:43.840 --> 58:44.960
+You're falling off the edge.
+
+58:46.240 --> 58:47.280
+We'll kick his ass later
+
+58:47.280 --> 58:48.640
+when we have it all fixed.
+
+58:48.640 --> 58:49.360
+Don't get me wrong.
+
+58:50.080 --> 58:51.040
+But I think he's right
+
+58:51.040 --> 58:51.840
+at this moment in time.
+
+58:51.840 --> 58:52.400
+Sorry.
+
+58:52.400 --> 58:53.120
+Oh, well, that's okay.
+
+58:53.120 --> 58:53.920
+Well, I mean,
+
+58:53.920 --> 58:54.800
+you know, he pointed out
+
+58:54.800 --> 58:56.480
+a couple of things about
+podcasting
+
+58:56.480 --> 58:58.000
+that, you know, some podcasts...
+
+58:58.640 --> 58:59.760
+Well, some podcasters
+
+58:59.760 --> 59:00.960
+look like they came from
+
+59:00.960 --> 59:02.160
+High Times Magazine.
+
+59:04.640 --> 59:06.080
+Where's the lighter click,
+everybody?
+
+59:09.200 --> 59:10.560
+Yeah, I wasn't sure
+
+59:10.560 --> 59:11.440
+where he was coming from
+
+59:11.440 --> 59:12.080
+with that one.
+
+59:12.080 --> 59:15.520
+And you know that some podcasts
+
+59:15.520 --> 59:17.360
+may not be that interesting?
+
+59:17.360 --> 59:19.280
+Well, I don't know about that
+either.
+
+59:19.280 --> 59:20.560
+Anyway, I wrote a response
+
+59:21.600 --> 59:23.920
+to his article in PC World.
+
+59:25.680 --> 59:31.600
+But anyway, the idea of
+podrolling
+
+59:31.600 --> 59:32.880
+and adding keywords
+
+59:32.880 --> 59:35.280
+to your RSS.XML feed,
+
+59:35.280 --> 59:37.120
+I think would really help
+
+59:37.120 --> 59:38.720
+add relevance to the podcast
+
+59:38.720 --> 59:40.800
+because it's hard to search
+
+59:40.800 --> 59:42.160
+and audio feed.
+
+59:42.160 --> 59:42.960
+I don't think we have
+
+59:42.960 --> 59:44.080
+very good technology
+
+59:44.080 --> 59:45.440
+to do that kind of thing yet.
+
+59:46.480 --> 59:47.680
+But index, you know,
+
+59:47.680 --> 59:49.600
+keywords would help us approach
+that.
+
+59:50.560 --> 59:52.480
+I'm just going to take this
+
+59:52.480 --> 59:53.440
+discussion for a second
+
+59:53.440 --> 59:54.640
+because everyone's talking about
+
+59:54.640 --> 59:56.960
+now we're getting into metadata
+
+59:56.960 --> 59:57.680
+and all these words
+
+59:57.680 --> 59:58.640
+that maybe not everybody
+
+59:58.640 --> 59:59.200
+understands.
+
+59:59.200 --> 01:00:00.400
+I just want to show something
+
+01:00:00.400 --> 01:00:01.360
+that I'm working on,
+
+01:00:01.440 --> 01:00:02.480
+which is basically the next
+
+01:00:02.480 --> 01:00:03.360
+crappy program
+
+01:00:03.360 --> 01:00:04.240
+that I'm going to throw out
+there,
+
+01:00:04.240 --> 01:00:04.560
+I hope.
+
+01:00:06.560 --> 01:00:07.760
+It doesn't work at all right
+now,
+
+01:00:07.760 --> 01:00:08.560
+but at least you can kind of
+
+01:00:08.560 --> 01:00:10.320
+get the idea as to what I'm
+doing.
+
+01:00:11.760 --> 01:00:14.160
+The iPod directory, which,
+
+01:00:14.160 --> 01:00:14.800
+yeah, here it is,
+
+01:00:16.640 --> 01:00:19.120
+which I'm trying to help
+everyone,
+
+01:00:19.120 --> 01:00:19.840
+you know, we're all working
+
+01:00:19.840 --> 01:00:22.000
+together to build this out,
+
+01:00:22.000 --> 01:00:24.400
+is based upon OPML.
+
+01:00:25.200 --> 01:00:26.400
+And on the other side
+
+01:00:26.400 --> 01:00:27.120
+of the screen here,
+
+01:00:27.120 --> 01:00:29.040
+you can see my Outliner,
+
+01:00:29.040 --> 01:00:30.240
+which is an Outliner
+
+01:00:30.240 --> 01:00:31.200
+in Radio User Land.
+
+01:00:32.080 --> 01:00:33.440
+And that is literally
+
+01:00:33.440 --> 01:00:34.880
+the same as that.
+
+01:00:36.720 --> 01:00:37.760
+So if you go to,
+
+01:00:37.760 --> 01:00:38.400
+well, what's new
+
+01:00:38.400 --> 01:00:39.360
+is already open here.
+
+01:00:40.000 --> 01:00:40.720
+This is interesting
+
+01:00:40.720 --> 01:00:41.440
+doing it this way.
+
+01:00:42.560 --> 01:00:43.200
+And if you click on
+
+01:00:43.200 --> 01:00:44.000
+what's new here,
+
+01:00:45.760 --> 01:00:47.120
+and you'll see the
+representation
+
+01:00:47.920 --> 01:00:49.360
+of exactly the same things.
+
+01:00:49.920 --> 01:00:52.000
+Now, the point
+
+01:00:52.000 --> 01:00:53.200
+where it gets cool
+
+01:00:53.200 --> 01:00:53.920
+is that I don't own
+
+01:00:53.920 --> 01:00:54.720
+this directory.
+
+01:00:55.840 --> 01:00:56.800
+It's not, you know,
+
+01:00:56.800 --> 01:00:58.400
+I own the top level
+
+01:00:58.400 --> 01:00:59.040
+that I showed you,
+
+01:00:59.040 --> 01:00:59.920
+which is there,
+
+01:01:00.000 --> 01:01:01.040
+because I basically put
+
+01:01:01.040 --> 01:01:02.720
+some categories in place,
+
+01:01:02.720 --> 01:01:04.800
+but I'm not maintaining
+
+01:01:04.800 --> 01:01:05.840
+this entire thing.
+
+01:01:05.840 --> 01:01:06.800
+In fact, I'm maintaining
+
+01:01:06.800 --> 01:01:07.680
+very, very little
+
+01:01:07.680 --> 01:01:08.880
+of it at this point
+
+01:01:08.880 --> 01:01:10.000
+because anyone
+
+01:01:10.000 --> 01:01:11.120
+who can create
+
+01:01:11.120 --> 01:01:12.560
+an OPML document
+
+01:01:12.560 --> 01:01:14.160
+and just think HTML,
+
+01:01:14.160 --> 01:01:14.480
+you know,
+
+01:01:14.480 --> 01:01:15.840
+there are programs
+
+01:01:15.840 --> 01:01:16.400
+that will do this,
+
+01:01:16.400 --> 01:01:17.040
+there are editors,
+
+01:01:17.040 --> 01:01:18.080
+it's not very complicated.
+
+01:01:18.080 --> 01:01:18.960
+You don't have to know
+
+01:01:18.960 --> 01:01:19.680
+a hell of a lot
+
+01:01:19.680 --> 01:01:21.440
+except how to just basically
+
+01:01:21.440 --> 01:01:23.360
+type and paste in links.
+
+01:01:24.400 --> 01:01:25.040
+They can become
+
+01:01:25.040 --> 01:01:26.080
+a part of this directory.
+
+01:01:26.080 --> 01:01:28.000
+So just to show you,
+
+01:01:30.880 --> 01:01:31.680
+sorry, under,
+
+01:01:33.360 --> 01:01:33.920
+where am I?
+
+01:01:35.120 --> 01:01:35.840
+I want to go back
+
+01:01:36.880 --> 01:01:37.760
+to categories.
+
+01:01:40.400 --> 01:01:41.440
+Is this working?
+
+01:01:44.400 --> 01:01:44.800
+Okay.
+
+01:01:44.800 --> 01:01:45.520
+Well, that's coming up
+
+01:01:45.520 --> 01:01:46.560
+and I'll show you the
+
+01:01:46.560 --> 01:01:47.600
+categories here.
+
+01:01:49.760 --> 01:01:51.280
+So anything that
+
+01:01:51.280 --> 01:01:52.320
+that has this little arrow
+
+01:01:52.320 --> 01:01:53.360
+is basically a link
+
+01:01:53.360 --> 01:01:55.040
+to someone else's
+
+01:01:55.040 --> 01:01:55.520
+maintain,
+
+01:01:55.520 --> 01:01:56.720
+someone else's OPML.
+
+01:01:57.440 --> 01:01:58.480
+So if I were to open
+
+01:01:58.480 --> 01:01:59.600
+a health and fitness
+
+01:01:59.920 --> 01:02:01.120
+I'm maintaining that
+
+01:02:01.120 --> 01:02:02.400
+and here's a link to
+
+01:02:03.840 --> 01:02:05.600
+to the RSS feed
+
+01:02:05.600 --> 01:02:06.640
+for that particular show.
+
+01:02:07.280 --> 01:02:08.720
+But if we look at the music node
+
+01:02:10.560 --> 01:02:11.360
+and if I double click
+
+01:02:11.360 --> 01:02:12.320
+you see that it's a link
+
+01:02:12.320 --> 01:02:13.120
+so actually
+
+01:02:13.120 --> 01:02:14.400
+just to show you that
+
+01:02:18.880 --> 01:02:19.520
+get info
+
+01:02:20.240 --> 01:02:22.240
+it's going to a guy in Holland,
+
+01:02:22.240 --> 01:02:23.520
+Hans von Rand
+
+01:02:23.520 --> 01:02:25.120
+and that's his OPML file.
+
+01:02:26.560 --> 01:02:27.200
+Now in my
+
+01:02:28.160 --> 01:02:29.920
+Outliner when I click that
+
+01:02:29.920 --> 01:02:30.960
+it's basically bringing that
+
+01:02:30.960 --> 01:02:31.920
+OPML file
+
+01:02:32.480 --> 01:02:33.760
+and everything associated
+
+01:02:33.760 --> 01:02:34.000
+with it
+
+01:02:34.000 --> 01:02:35.040
+and it's going to expand it.
+
+01:02:35.040 --> 01:02:36.240
+Hope, oh no, I'm sorry
+
+01:02:36.240 --> 01:02:37.600
+I'm no longer connected
+
+01:02:37.600 --> 01:02:38.320
+it's not going to do that.
+
+01:02:39.600 --> 01:02:40.480
+But the way it looks
+
+01:02:41.280 --> 01:02:41.920
+over on the
+
+01:02:43.120 --> 01:02:44.400
+on the iPod directory
+
+01:02:44.400 --> 01:02:45.040
+under music.
+
+01:02:48.880 --> 01:02:49.600
+Oops, that was
+
+01:02:49.600 --> 01:02:50.400
+that wasn't that was
+
+01:02:51.520 --> 01:02:52.400
+Yeah, no problem Michael.
+
+01:02:54.720 --> 01:02:55.760
+There we go music.
+
+01:02:55.760 --> 01:02:56.320
+Now you see
+
+01:02:57.760 --> 01:02:58.480
+immediately a whole bunch
+
+01:02:58.480 --> 01:02:59.440
+of subcategories
+
+01:02:59.440 --> 01:03:00.960
+which aren't necessarily
+
+01:03:00.960 --> 01:03:02.160
+maintained by him.
+
+01:03:02.160 --> 01:03:03.120
+We go into general
+
+01:03:03.680 --> 01:03:04.640
+you'll see that
+
+01:03:04.640 --> 01:03:05.600
+because he's
+
+01:03:05.600 --> 01:03:06.960
+he has an OPML file
+
+01:03:06.960 --> 01:03:07.920
+and there's all kinds of
+
+01:03:07.920 --> 01:03:09.520
+let's just call it metadata
+
+01:03:09.520 --> 01:03:11.200
+rolling through this OPML file.
+
+01:03:12.480 --> 01:03:13.600
+Stuff happens automatically
+
+01:03:13.600 --> 01:03:14.720
+like the suggest a link
+
+01:03:14.720 --> 01:03:15.840
+is going to go to him
+
+01:03:15.840 --> 01:03:16.480
+and not to me.
+
+01:03:17.920 --> 01:03:18.960
+I'm just going to finish
+
+01:03:18.960 --> 01:03:19.680
+this one thought
+
+01:03:19.680 --> 01:03:20.400
+because now I'm
+
+01:03:21.200 --> 01:03:22.160
+when I started
+
+01:03:22.160 --> 01:03:23.040
+to understand this
+
+01:03:23.040 --> 01:03:23.760
+and the power
+
+01:03:24.560 --> 01:03:25.920
+of having
+
+01:03:25.920 --> 01:03:27.040
+this completely distributed
+
+01:03:27.120 --> 01:03:28.320
+that anyone can maintain
+
+01:03:28.320 --> 01:03:28.960
+a node and it's
+
+01:03:28.960 --> 01:03:30.160
+and the amount of
+
+01:03:30.960 --> 01:03:31.920
+nodes and feeds
+
+01:03:31.920 --> 01:03:32.640
+that are being added
+
+01:03:32.640 --> 01:03:34.080
+as added is just astronomical.
+
+01:03:34.080 --> 01:03:34.960
+Sometimes it's
+
+01:03:34.960 --> 01:03:36.080
+it's 20 in a day
+
+01:03:36.080 --> 01:03:36.800
+or 30 in a day.
+
+01:03:36.800 --> 01:03:37.200
+It's really
+
+01:03:37.200 --> 01:03:37.840
+it's really growing
+
+01:03:37.840 --> 01:03:38.320
+quite quickly
+
+01:03:38.320 --> 01:03:38.880
+and it's just kind of
+
+01:03:38.880 --> 01:03:40.080
+all flowing up to the
+
+01:03:40.080 --> 01:03:41.280
+even to the what's new portion.
+
+01:03:42.560 --> 01:03:43.840
+Yeah, it made sense for me
+
+01:03:43.840 --> 01:03:44.640
+to start to figure out
+
+01:03:44.640 --> 01:03:45.280
+what else we could do
+
+01:03:45.280 --> 01:03:46.480
+with OPML
+
+01:03:46.480 --> 01:03:47.440
+and I started doing
+
+01:03:48.160 --> 01:03:48.720
+kind of a
+
+01:03:49.840 --> 01:03:50.960
+a production console
+
+01:03:52.240 --> 01:03:52.960
+and this is actually
+
+01:03:52.960 --> 01:03:54.000
+how I how I prepped
+
+01:03:54.000 --> 01:03:54.880
+for my podcast.
+
+01:03:55.520 --> 01:03:57.520
+This is nothing more
+
+01:03:57.520 --> 01:03:58.720
+than than a simple
+
+01:03:58.720 --> 01:03:59.200
+outliner
+
+01:04:00.720 --> 01:04:01.520
+and under
+
+01:04:01.520 --> 01:04:02.160
+each node
+
+01:04:02.160 --> 01:04:02.720
+you know
+
+01:04:02.720 --> 01:04:03.200
+I can
+
+01:04:03.200 --> 01:04:04.160
+I usually expand this
+
+01:04:04.160 --> 01:04:04.800
+by using the
+
+01:04:04.800 --> 01:04:05.360
+apple key
+
+01:04:06.640 --> 01:04:07.200
+comma
+
+01:04:07.200 --> 01:04:08.240
+because that's easier than
+
+01:04:08.240 --> 01:04:08.800
+you know I need to
+
+01:04:08.800 --> 01:04:09.600
+keep my hands on the
+
+01:04:09.600 --> 01:04:10.720
+computer for starting
+
+01:04:10.720 --> 01:04:11.440
+music and stuff.
+
+01:04:12.720 --> 01:04:13.440
+So there's a link
+
+01:04:13.440 --> 01:04:14.160
+if I click on that
+
+01:04:14.160 --> 01:04:15.200
+it'll open up a browser
+
+01:04:15.760 --> 01:04:16.320
+but there's other
+
+01:04:16.320 --> 01:04:17.120
+different types of
+
+01:04:17.120 --> 01:04:17.840
+nodes in here
+
+01:04:18.400 --> 01:04:19.040
+and this is I think
+
+01:04:19.040 --> 01:04:19.840
+what people are going
+
+01:04:19.840 --> 01:04:20.560
+to be looking for.
+
+01:04:21.920 --> 01:04:24.000
+So if I expand this
+
+01:04:24.000 --> 01:04:24.960
+this Rick Lyons
+
+01:04:24.960 --> 01:04:26.000
+Stephanie De Bruzzo
+
+01:04:26.640 --> 01:04:27.760
+that's the album title
+
+01:04:28.960 --> 01:04:29.760
+if I open that
+
+01:04:31.120 --> 01:04:32.240
+that's the actual song
+
+01:04:34.000 --> 01:04:35.920
+and if I double click on that
+
+01:04:35.920 --> 01:04:37.440
+it's going to open it up here
+
+01:04:38.320 --> 01:04:38.960
+hold on
+
+01:04:38.960 --> 01:04:39.920
+it opened it here
+
+01:04:39.920 --> 01:04:41.280
+it opens up this player
+
+01:04:41.280 --> 01:04:42.000
+ready for me to go
+
+01:04:42.000 --> 01:04:42.560
+all I have to do is
+
+01:04:42.560 --> 01:04:43.440
+hit the space bar.
+
+01:04:54.640 --> 01:05:01.680
+I don't have the lyrics
+
+01:05:01.680 --> 01:05:02.480
+but you'll get
+
+01:05:02.480 --> 01:05:03.440
+you'll get it pretty quickly.
+
+01:05:20.400 --> 01:05:21.200
+So we could listen
+
+01:05:21.200 --> 01:05:22.000
+that all day of course
+
+01:05:22.640 --> 01:05:23.360
+but meanwhile
+
+01:05:24.080 --> 01:05:24.640
+you might have seen
+
+01:05:24.640 --> 01:05:25.680
+that I right clicked
+
+01:05:25.680 --> 01:05:27.280
+on this song
+
+01:05:27.280 --> 01:05:28.080
+and it brings up
+
+01:05:28.880 --> 01:05:30.480
+what I think is the metadata
+
+01:05:31.280 --> 01:05:31.760
+don't ask me
+
+01:05:31.760 --> 01:05:32.480
+how it got in there
+
+01:05:32.480 --> 01:05:33.040
+because I'm not quite
+
+01:05:33.040 --> 01:05:34.080
+I haven't quite figured that out
+
+01:05:34.800 --> 01:05:36.800
+but in my opml file
+
+01:05:36.800 --> 01:05:37.200
+I have
+
+01:05:38.000 --> 01:05:38.960
+the album artist
+
+01:05:38.960 --> 01:05:39.600
+and then under
+
+01:05:40.480 --> 01:05:41.440
+ads is where you get
+
+01:05:41.440 --> 01:05:43.120
+basically a lot of the
+
+01:05:43.120 --> 01:05:44.720
+ID3 information
+
+01:05:45.360 --> 01:05:46.320
+and it takes me
+
+01:05:46.320 --> 01:05:47.760
+zero effort
+
+01:05:47.760 --> 01:05:48.800
+to actually create this
+
+01:05:48.800 --> 01:05:50.160
+I drop the mp3 files
+
+01:05:50.160 --> 01:05:50.800
+I want to use
+
+01:05:50.800 --> 01:05:51.920
+into a folder
+
+01:05:51.920 --> 01:05:52.800
+and this just kind of
+
+01:05:53.440 --> 01:05:54.480
+opens up
+
+01:05:54.480 --> 01:05:56.080
+I'm not sure what to do with
+this
+
+01:05:56.080 --> 01:05:56.960
+I hope people who are
+
+01:05:56.960 --> 01:05:57.440
+in this room
+
+01:05:57.440 --> 01:05:58.400
+who are developing
+
+01:05:58.400 --> 01:05:59.360
+and thinking about this
+
+01:05:59.360 --> 01:06:00.320
+will look at it
+
+01:06:00.320 --> 01:06:01.040
+and figure out
+
+01:06:01.040 --> 01:06:02.400
+how we can use this
+
+01:06:02.400 --> 01:06:03.200
+to me it feels like
+
+01:06:03.200 --> 01:06:03.760
+I can literally
+
+01:06:03.760 --> 01:06:04.400
+I should be able to
+
+01:06:05.200 --> 01:06:06.000
+copy
+
+01:06:06.000 --> 01:06:06.880
+and paste a link
+
+01:06:06.880 --> 01:06:07.840
+into an outline
+
+01:06:07.840 --> 01:06:08.480
+and you know
+
+01:06:08.480 --> 01:06:09.040
+that should be able
+
+01:06:09.040 --> 01:06:10.000
+to bring in
+
+01:06:10.000 --> 01:06:11.360
+the the source files
+
+01:06:11.360 --> 01:06:11.920
+from
+
+01:06:11.920 --> 01:06:12.800
+you know Michael Butler's
+
+01:06:12.800 --> 01:06:13.120
+shows
+
+01:06:13.120 --> 01:06:14.080
+so I can actually
+
+01:06:14.080 --> 01:06:14.960
+just get the mp3
+
+01:06:14.960 --> 01:06:15.440
+of the song
+
+01:06:15.440 --> 01:06:16.560
+that he was playing
+
+01:06:16.560 --> 01:06:17.280
+or it could be
+
+01:06:17.280 --> 01:06:17.920
+a browser link
+
+01:06:17.920 --> 01:06:18.640
+for that matter
+
+01:06:18.640 --> 01:06:19.440
+so I just want to
+
+01:06:19.440 --> 01:06:19.760
+bring that up
+
+01:06:19.760 --> 01:06:20.480
+so people can start
+
+01:06:20.480 --> 01:06:21.280
+thinking about that
+
+01:06:22.160 --> 01:06:22.400
+okay
+
+01:06:22.400 --> 01:06:23.040
+can we get a mic
+
+01:06:23.040 --> 01:06:23.360
+over there
+
+01:06:23.360 --> 01:06:23.760
+real quick
+
+01:06:24.480 --> 01:06:25.040
+we have about
+
+01:06:26.000 --> 01:06:26.800
+eight minutes left
+
+01:06:31.520 --> 01:06:31.920
+sorry
+
+01:06:32.880 --> 01:06:33.280
+demo
+
+01:06:36.720 --> 01:06:37.360
+okay
+
+01:06:37.360 --> 01:06:38.080
+well let's just
+
+01:06:38.080 --> 01:06:38.880
+take that one
+
+01:06:38.880 --> 01:06:39.360
+comment then
+
+01:06:40.480 --> 01:06:41.040
+hi Adam
+
+01:06:41.040 --> 01:06:42.000
+I'm David Sifri
+
+01:06:42.000 --> 01:06:43.040
+from Technorati
+
+01:06:43.040 --> 01:06:43.520
+hey David
+
+01:06:44.320 --> 01:06:45.280
+and I just wanted to
+
+01:06:45.920 --> 01:06:46.160
+you know
+
+01:06:46.160 --> 01:06:46.640
+to the point
+
+01:06:46.640 --> 01:06:47.200
+of people saying
+
+01:06:47.200 --> 01:06:47.600
+oh well
+
+01:06:47.600 --> 01:06:48.320
+how do you do
+
+01:06:48.320 --> 01:06:48.560
+that
+
+01:06:48.560 --> 01:06:49.520
+those kinds of searches
+
+01:06:49.520 --> 01:06:50.320
+how do you find
+
+01:06:50.880 --> 01:06:51.200
+you know
+
+01:06:51.200 --> 01:06:52.000
+this incredible
+
+01:06:52.000 --> 01:06:52.880
+wealth of information
+
+01:06:52.880 --> 01:06:53.520
+that's out there
+
+01:06:54.240 --> 01:06:55.520
+so what we started to do
+
+01:06:56.320 --> 01:06:57.280
+is just
+
+01:06:57.280 --> 01:06:57.840
+you know
+
+01:06:57.840 --> 01:06:58.400
+looking at
+
+01:06:58.400 --> 01:06:58.800
+where
+
+01:06:58.800 --> 01:06:59.600
+what are the
+
+01:06:59.600 --> 01:07:00.400
+podcasts
+
+01:07:00.400 --> 01:07:00.880
+that people
+
+01:07:00.880 --> 01:07:01.600
+are linking to
+
+01:07:02.640 --> 01:07:02.960
+and actually
+
+01:07:02.960 --> 01:07:03.920
+that's up there now
+
+01:07:03.920 --> 01:07:04.240
+on
+
+01:07:04.240 --> 01:07:04.640
+on
+
+01:07:04.640 --> 01:07:04.880
+on
+
+01:07:04.880 --> 01:07:05.760
+now that's
+
+01:07:05.760 --> 01:07:06.240
+commercial
+
+01:07:06.240 --> 01:07:06.800
+I just
+
+01:07:06.800 --> 01:07:07.760
+I just posted it
+
+01:07:07.760 --> 01:07:08.400
+on my blog
+
+01:07:08.400 --> 01:07:09.120
+go to my blog
+
+01:07:09.120 --> 01:07:09.600
+and see it
+
+01:07:12.320 --> 01:07:13.280
+oh I'm sorry
+
+01:07:13.280 --> 01:07:13.600
+like
+
+01:07:13.600 --> 01:07:14.480
+I just posted
+
+01:07:14.480 --> 01:07:15.200
+something that
+
+01:07:15.200 --> 01:07:16.000
+that talks about
+
+01:07:16.560 --> 01:07:17.600
+how people can get
+
+01:07:19.120 --> 01:07:20.080
+I'm sorry Dave
+
+01:07:20.160 --> 01:07:21.280
+I didn't realize that
+
+01:07:21.280 --> 01:07:21.600
+you know
+
+01:07:21.600 --> 01:07:22.560
+the stuff on
+
+01:07:22.560 --> 01:07:23.120
+you know
+
+01:07:23.120 --> 01:07:24.240
+it's just another directory
+
+01:07:25.520 --> 01:07:26.320
+all right hey
+
+01:07:26.320 --> 01:07:27.280
+no problem
+
+01:07:27.280 --> 01:07:28.000
+sorry for the
+
+01:07:28.000 --> 01:07:28.640
+it's what
+
+01:07:28.640 --> 01:07:29.360
+really wasn't meant
+
+01:07:29.360 --> 01:07:30.480
+there's a commercial message
+
+01:07:30.480 --> 01:07:31.040
+no problem
+
+01:07:31.040 --> 01:07:31.760
+I was just saying
+
+01:07:31.760 --> 01:07:32.160
+it's good
+
+01:07:32.160 --> 01:07:32.640
+it's good that we're
+
+01:07:32.640 --> 01:07:33.280
+talking about
+
+01:07:33.280 --> 01:07:33.840
+it's good well
+
+01:07:33.840 --> 01:07:34.320
+it's good that we're
+
+01:07:34.320 --> 01:07:34.960
+learning the ground
+
+01:07:34.960 --> 01:07:35.920
+rules and reiterating them
+
+01:07:35.920 --> 01:07:36.160
+so
+
+01:07:36.960 --> 01:07:37.840
+people want to
+
+01:07:37.840 --> 01:07:38.160
+see it
+
+01:07:40.320 --> 01:07:40.960
+yeah sure
+
+01:07:40.960 --> 01:07:41.280
+Hank
+
+01:07:41.280 --> 01:07:41.840
+Hank Berry
+
+01:07:41.840 --> 01:07:42.160
+you know
+
+01:07:42.160 --> 01:07:43.040
+introduce yourself
+
+01:07:43.040 --> 01:07:44.400
+Dave Sifri's my hero so
+
+01:07:45.120 --> 01:07:46.320
+you can say whatever you want to
+say
+
+01:07:46.320 --> 01:07:47.520
+um
+
+01:07:47.520 --> 01:07:49.760
+um
+
+01:07:49.760 --> 01:07:50.640
+I think that a lot of
+
+01:07:50.640 --> 01:07:51.200
+the energies
+
+01:07:51.200 --> 01:07:51.760
+I'm Hank Berry
+
+01:07:51.760 --> 01:07:52.320
+this a lot of
+
+01:07:52.320 --> 01:07:53.440
+energy is being expended
+
+01:07:53.440 --> 01:07:54.000
+on something that
+
+01:07:54.000 --> 01:07:54.720
+Apple can shut off
+
+01:07:54.720 --> 01:07:55.680
+relatively quickly
+
+01:07:56.320 --> 01:07:56.720
+and
+
+01:07:57.440 --> 01:07:58.080
+I know
+
+01:07:58.080 --> 01:07:59.120
+from personal experience
+
+01:07:59.120 --> 01:07:59.360
+that
+
+01:08:00.480 --> 01:08:01.360
+the r-a-a doesn't
+
+01:08:01.360 --> 01:08:02.400
+like mp3 files
+
+01:08:03.120 --> 01:08:04.000
+and I think that
+
+01:08:04.000 --> 01:08:04.960
+is the
+
+01:08:04.960 --> 01:08:06.240
+the technology proliferates
+
+01:08:06.240 --> 01:08:06.640
+is going to be
+
+01:08:06.640 --> 01:08:07.760
+this question of
+
+01:08:07.760 --> 01:08:08.320
+are people going to
+
+01:08:08.320 --> 01:08:09.920
+support open mp3 files
+
+01:08:09.920 --> 01:08:10.480
+and so I think
+
+01:08:10.480 --> 01:08:11.120
+somebody like
+
+01:08:11.120 --> 01:08:11.680
+feedburner
+
+01:08:11.680 --> 01:08:12.400
+should think about
+
+01:08:12.400 --> 01:08:13.120
+writing a client
+
+01:08:13.120 --> 01:08:13.760
+that'll go down
+
+01:08:13.760 --> 01:08:14.960
+on an mp3 player
+
+01:08:15.920 --> 01:08:16.640
+so that you can
+
+01:08:16.640 --> 01:08:17.520
+be assured that
+
+01:08:17.520 --> 01:08:18.080
+you're going to have
+
+01:08:18.880 --> 01:08:19.760
+some client software
+
+01:08:19.760 --> 01:08:20.160
+down there
+
+01:08:20.160 --> 01:08:20.800
+close to the
+
+01:08:21.360 --> 01:08:23.040
+to the portable device
+
+01:08:23.040 --> 01:08:24.320
+that will remain
+
+01:08:24.320 --> 01:08:24.800
+open
+
+01:08:24.800 --> 01:08:25.680
+because I don't think
+
+01:08:25.680 --> 01:08:27.280
+you can rely on that
+
+01:08:27.280 --> 01:08:28.320
+connection existing
+
+01:08:28.320 --> 01:08:29.680
+for a long period of time
+
+01:08:29.680 --> 01:08:30.400
+Sony has announced
+
+01:08:30.400 --> 01:08:30.800
+of course that
+
+01:08:30.800 --> 01:08:31.360
+they're going to
+
+01:08:31.360 --> 01:08:32.080
+continue to support
+
+01:08:32.080 --> 01:08:32.720
+they're now going to
+
+01:08:32.720 --> 01:08:34.240
+support open mp3s
+
+01:08:34.240 --> 01:08:35.040
+on their devices
+
+01:08:35.040 --> 01:08:35.520
+and people need
+
+01:08:35.520 --> 01:08:36.240
+to form alliances
+
+01:08:36.240 --> 01:08:36.720
+with people
+
+01:08:36.720 --> 01:08:37.440
+other than Apple
+
+01:08:37.440 --> 01:08:37.840
+in order to make
+
+01:08:37.840 --> 01:08:38.320
+sure this thing
+
+01:08:38.320 --> 01:08:38.800
+keeps going
+
+01:08:44.000 --> 01:08:44.720
+well I mean
+
+01:08:44.720 --> 01:08:45.200
+yeah just keep
+
+01:08:45.200 --> 01:08:45.680
+can you just keep
+
+01:08:45.680 --> 01:08:46.320
+the mic with Hank
+
+01:08:46.640 --> 01:08:47.520
+you said two things
+
+01:08:47.520 --> 01:08:48.400
+that freak me out
+
+01:08:48.400 --> 01:08:49.120
+one was Apple
+
+01:08:49.120 --> 01:08:49.840
+could shut it down
+
+01:08:50.560 --> 01:08:51.200
+Apple could decide
+
+01:08:51.200 --> 01:08:51.520
+that they're not
+
+01:08:51.520 --> 01:08:52.080
+going to support
+
+01:08:52.080 --> 01:08:53.440
+mp3 files anymore
+
+01:08:53.440 --> 01:08:54.400
+they could very easily
+
+01:08:54.400 --> 01:08:54.720
+do that
+
+01:08:54.720 --> 01:08:55.360
+as the latest
+
+01:08:55.360 --> 01:08:56.160
+rev of the software
+
+01:08:56.160 --> 01:08:56.400
+but that doesn't
+
+01:08:56.400 --> 01:08:56.960
+shut down
+
+01:08:56.960 --> 01:08:58.560
+I mean mp3 players
+
+01:08:58.560 --> 01:08:58.960
+are rampant
+
+01:08:58.960 --> 01:08:59.440
+it's not just the
+
+01:08:59.440 --> 01:09:00.000
+iPod
+
+01:09:00.000 --> 01:09:00.640
+no I understand
+
+01:09:00.640 --> 01:09:01.840
+but my point is that
+
+01:09:01.840 --> 01:09:02.320
+that if you look
+
+01:09:02.320 --> 01:09:02.800
+around the room
+
+01:09:02.800 --> 01:09:03.600
+here this is
+
+01:09:03.600 --> 01:09:04.640
+we have a lot of
+
+01:09:04.640 --> 01:09:05.360
+a lot of
+
+01:09:05.360 --> 01:09:06.720
+Apple materials here
+
+01:09:06.720 --> 01:09:07.360
+the fact that
+
+01:09:07.360 --> 01:09:08.400
+people are using
+
+01:09:09.120 --> 01:09:09.680
+iPods
+
+01:09:09.680 --> 01:09:10.160
+I'd say for
+
+01:09:10.160 --> 01:09:10.800
+the majority
+
+01:09:10.800 --> 01:09:11.520
+of podcast
+
+01:09:11.520 --> 01:09:12.800
+listening in the world
+
+01:09:12.800 --> 01:09:14.240
+on a portable basis
+
+01:09:14.240 --> 01:09:14.880
+is that I mean
+
+01:09:14.880 --> 01:09:15.920
+maybe I'm mistaken
+
+01:09:16.000 --> 01:09:16.560
+to disagree
+
+01:09:16.560 --> 01:09:17.440
+I don't think we have
+
+01:09:17.440 --> 01:09:18.240
+many of those numbers
+
+01:09:18.240 --> 01:09:19.440
+really we don't know
+
+01:09:19.440 --> 01:09:21.120
+okay then that's great
+
+01:09:21.120 --> 01:09:21.840
+but I do think
+
+01:09:21.840 --> 01:09:22.880
+that there is this issue
+
+01:09:22.880 --> 01:09:23.840
+out there about mp3
+
+01:09:23.840 --> 01:09:24.320
+and that people
+
+01:09:24.320 --> 01:09:25.200
+shouldn't rely on that
+
+01:09:25.200 --> 01:09:26.080
+being around forever
+
+01:09:30.080 --> 01:09:30.640
+we don't have enough
+
+01:09:30.640 --> 01:09:31.360
+time to go into this
+
+01:09:31.360 --> 01:09:32.960
+but I strongly disagree
+
+01:09:32.960 --> 01:09:33.760
+with that mp3s
+
+01:09:33.760 --> 01:09:34.400
+are going away
+
+01:09:34.400 --> 01:09:35.120
+I don't see that
+
+01:09:36.000 --> 01:09:37.120
+mp3 files maybe
+
+01:09:37.600 --> 01:09:38.080
+no I just
+
+01:09:42.080 --> 01:09:42.480
+hold on just
+
+01:09:43.760 --> 01:09:44.320
+just give them the mic
+
+01:09:44.320 --> 01:09:44.640
+because he's
+
+01:09:44.640 --> 01:09:45.200
+supported by the
+
+01:09:45.200 --> 01:09:45.920
+Apple platform
+
+01:09:45.920 --> 01:09:46.720
+being supported by the
+
+01:09:46.720 --> 01:09:47.520
+Windows platform
+
+01:09:47.520 --> 01:09:48.160
+those are the two things
+
+01:09:48.160 --> 01:09:48.480
+I'm saying
+
+01:09:49.840 --> 01:09:50.480
+where do you want to go
+
+01:09:50.480 --> 01:09:50.960
+to Larry
+
+01:09:52.960 --> 01:09:53.200
+so
+
+01:09:54.320 --> 01:09:54.880
+so I
+
+01:09:54.880 --> 01:09:55.600
+I want to talk about
+
+01:09:55.600 --> 01:09:56.320
+a different kind of
+
+01:09:56.320 --> 01:09:56.800
+development
+
+01:09:56.800 --> 01:09:57.520
+that has to happen
+
+01:09:57.520 --> 01:09:58.080
+in this space
+
+01:09:59.920 --> 01:10:00.400
+if you look at the
+
+01:10:00.400 --> 01:10:01.200
+history of the Internet
+
+01:10:01.200 --> 01:10:02.080
+looks something like this
+
+01:10:02.640 --> 01:10:03.440
+tech
+
+01:10:03.440 --> 01:10:04.880
+people have great ideas
+
+01:10:04.880 --> 01:10:05.280
+about how to
+
+01:10:05.280 --> 01:10:06.240
+make stuff work
+
+01:10:06.240 --> 01:10:07.280
+and lawyers come in
+
+01:10:07.280 --> 01:10:08.160
+with hatchets
+
+01:10:08.160 --> 01:10:09.040
+and cut it apart
+
+01:10:10.080 --> 01:10:10.720
+that's basically
+
+01:10:10.720 --> 01:10:11.440
+the life that
+
+01:10:11.440 --> 01:10:12.240
+Hank lived
+
+01:10:12.240 --> 01:10:13.520
+it's the life that
+
+01:10:13.520 --> 01:10:14.320
+I think we should
+
+01:10:14.320 --> 01:10:15.920
+design this system
+
+01:10:15.920 --> 01:10:16.800
+to avoid
+
+01:10:16.800 --> 01:10:17.680
+so I think
+
+01:10:17.680 --> 01:10:18.400
+one important
+
+01:10:21.120 --> 01:10:22.640
+one important development
+
+01:10:22.640 --> 01:10:23.920
+which I'd be eager to help
+
+01:10:24.800 --> 01:10:25.360
+begin
+
+01:10:25.360 --> 01:10:26.240
+would be thoughts
+
+01:10:26.240 --> 01:10:27.040
+about how we can
+
+01:10:27.040 --> 01:10:28.320
+begin to wrap this
+
+01:10:29.200 --> 01:10:31.040
+so that it's impenetrable
+
+01:10:31.040 --> 01:10:33.200
+by the 20th century
+
+01:10:33.200 --> 01:10:34.160
+legal mind
+
+01:10:34.160 --> 01:10:35.520
+so it can flow
+
+01:10:36.080 --> 01:10:36.720
+and develop
+
+01:10:36.720 --> 01:10:37.520
+in all sorts of ways
+
+01:10:37.520 --> 01:10:37.920
+none of us
+
+01:10:37.920 --> 01:10:38.560
+can predict
+
+01:10:38.560 --> 01:10:39.440
+without somebody
+
+01:10:39.440 --> 01:10:40.000
+saying that
+
+01:10:40.000 --> 01:10:41.280
+the RIAA lawyers
+
+01:10:41.280 --> 01:10:41.920
+have deemed this
+
+01:10:41.920 --> 01:10:42.640
+to be illegal
+
+01:10:42.640 --> 01:10:43.280
+and therefore
+
+01:10:43.280 --> 01:10:44.480
+Apple has to shut it down
+
+01:10:44.480 --> 01:10:45.200
+or Microsoft
+
+01:10:45.200 --> 01:10:46.400
+has to shut it down
+
+01:10:46.400 --> 01:10:48.000
+so one part of the development
+
+01:10:48.000 --> 01:10:49.600
+is architecting
+
+01:10:49.600 --> 01:10:50.400
+the freedoms
+
+01:10:50.400 --> 01:10:51.360
+into this system
+
+01:10:51.360 --> 01:10:52.160
+to guarantee
+
+01:10:52.160 --> 01:10:52.880
+that it can be used
+
+01:10:52.880 --> 01:10:54.160
+in all sorts of different ways
+
+01:10:54.720 --> 01:10:56.560
+without requiring
+
+01:10:56.560 --> 01:10:57.520
+people that I train
+
+01:10:57.520 --> 01:10:58.080
+for a living
+
+01:10:58.080 --> 01:10:59.120
+to stand between you
+
+01:10:59.120 --> 01:10:59.680
+and the people
+
+01:10:59.680 --> 01:11:00.800
+you want to talk to
+
+01:11:00.800 --> 01:11:01.280
+oh we
+
+01:11:01.280 --> 01:11:01.920
+certainly welcome
+
+01:11:01.920 --> 01:11:02.640
+your help on that
+
+01:11:05.360 --> 01:11:05.680
+hold on
+
+01:11:05.680 --> 01:11:07.360
+how many blocks do you have
+
+01:11:07.360 --> 01:11:08.560
+Larry listening to me
+
+01:11:08.560 --> 01:11:10.000
+it's an hour and a half
+
+01:11:10.000 --> 01:11:11.120
+session on the law
+
+01:11:11.760 --> 01:11:12.720
+and blogging
+
+01:11:12.720 --> 01:11:13.840
+and so we have
+
+01:11:13.840 --> 01:11:14.960
+a whole hour and a half
+
+01:11:14.960 --> 01:11:16.240
+to work on this
+
+01:11:16.240 --> 01:11:16.880
+and I think there's
+
+01:11:16.880 --> 01:11:18.560
+just huge power between
+
+01:11:18.560 --> 01:11:19.120
+like
+
+01:11:19.120 --> 01:11:19.760
+if Adam
+
+01:11:19.760 --> 01:11:21.120
+and Larry could work together
+
+01:11:21.120 --> 01:11:22.560
+and that being symbolic
+
+01:11:22.560 --> 01:11:23.360
+users and lawyers
+
+01:11:23.360 --> 01:11:24.160
+of communities
+
+01:11:24.160 --> 01:11:25.200
+well there's like
+
+01:11:25.200 --> 01:11:25.920
+lawyers are like
+
+01:11:25.920 --> 01:11:26.640
+I learned this at
+
+01:11:26.640 --> 01:11:27.440
+Harvard Law School
+
+01:11:27.440 --> 01:11:28.320
+is there's like
+
+01:11:28.320 --> 01:11:29.200
+good cholesterol
+
+01:11:29.200 --> 01:11:30.080
+bad cholesterol
+
+01:11:30.080 --> 01:11:31.040
+there's good lawyers
+
+01:11:31.040 --> 01:11:31.920
+and bad lawyers
+
+01:11:31.920 --> 01:11:32.800
+okay
+
+01:11:32.800 --> 01:11:34.000
+Larry is
+
+01:11:34.000 --> 01:11:35.120
+these are the good lawyers
+
+01:11:35.120 --> 01:11:35.600
+okay
+
+01:11:35.600 --> 01:11:36.240
+all right
+
+01:11:36.240 --> 01:11:36.560
+yeah
+
+01:11:36.560 --> 01:11:37.680
+these are our buddies so
+
+01:11:38.240 --> 01:11:39.040
+okay um
+
+01:11:39.040 --> 01:11:39.760
+we have exactly
+
+01:11:40.400 --> 01:11:41.520
+developers and users
+
+01:11:41.600 --> 01:11:42.240
+and lawyers
+
+01:11:42.240 --> 01:11:43.360
+parting together
+
+01:11:43.360 --> 01:11:43.520
+yeah
+
+01:11:44.720 --> 01:11:45.520
+which is dull
+
+01:11:50.080 --> 01:11:50.800
+sorry
+
+01:11:50.800 --> 01:11:51.840
+I'm an acronym guy
+
+01:11:53.520 --> 01:11:54.320
+okay so I literally
+
+01:11:54.320 --> 01:11:55.040
+have
+
+01:11:55.040 --> 01:11:55.760
+three minutes
+
+01:11:55.760 --> 01:11:55.920
+and
+
+01:11:58.640 --> 01:11:59.520
+people would like to see
+
+01:12:00.080 --> 01:12:00.560
+a demo
+
+01:12:01.200 --> 01:12:01.920
+there's really not much
+
+01:12:01.920 --> 01:12:02.400
+to demo
+
+01:12:02.400 --> 01:12:03.440
+other than I just
+
+01:12:03.440 --> 01:12:05.040
+I brought my podcasting bag
+
+01:12:06.960 --> 01:12:07.680
+and if I
+
+01:12:07.680 --> 01:12:08.480
+if I pour the
+
+01:12:08.480 --> 01:12:08.880
+well
+
+01:12:08.880 --> 01:12:09.440
+shit there's
+
+01:12:09.440 --> 01:12:10.400
+part something from my hair
+
+01:12:12.320 --> 01:12:14.720
+it's just for bad hair day
+
+01:12:15.200 --> 01:12:15.680
+that's uh
+
+01:12:17.120 --> 01:12:17.680
+but literally
+
+01:12:18.320 --> 01:12:19.040
+you know I just
+
+01:12:19.040 --> 01:12:20.000
+brought out the pieces
+
+01:12:20.000 --> 01:12:20.800
+that I use
+
+01:12:20.800 --> 01:12:21.280
+it's kind of like
+
+01:12:21.280 --> 01:12:21.840
+show and tell
+
+01:12:21.840 --> 01:12:22.720
+in third grade
+
+01:12:24.560 --> 01:12:26.080
+what a big part of what
+
+01:12:26.080 --> 01:12:26.880
+makes the source code
+
+01:12:26.880 --> 01:12:27.440
+different is
+
+01:12:27.440 --> 01:12:28.320
+I can walk around
+
+01:12:28.320 --> 01:12:29.280
+on mobile
+
+01:12:29.280 --> 01:12:30.080
+and that's actually
+
+01:12:30.080 --> 01:12:30.800
+the almost
+
+01:12:30.800 --> 01:12:31.760
+non-podcast
+
+01:12:31.760 --> 01:12:32.880
+or non-blogger
+
+01:12:32.880 --> 01:12:33.840
+type piece of equipment
+
+01:12:33.840 --> 01:12:34.560
+I have
+
+01:12:34.560 --> 01:12:35.200
+which is this
+
+01:12:35.200 --> 01:12:35.680
+this is
+
+01:12:35.680 --> 01:12:36.320
+just like this one
+
+01:12:36.320 --> 01:12:36.800
+it's a
+
+01:12:36.800 --> 01:12:37.520
+a lav
+
+01:12:37.520 --> 01:12:38.320
+mic
+
+01:12:38.320 --> 01:12:39.520
+with a transmitter
+
+01:12:39.520 --> 01:12:40.320
+and this is
+
+01:12:40.320 --> 01:12:41.200
+the receiver
+
+01:12:41.440 --> 01:12:42.640
+very expensive
+
+01:12:42.640 --> 01:12:43.520
+if you want to get these
+
+01:12:43.520 --> 01:12:44.640
+that really work very well
+
+01:12:45.920 --> 01:12:46.560
+this costs
+
+01:12:46.560 --> 01:12:47.760
+$2,000 easily
+
+01:12:47.760 --> 01:12:48.560
+and yeah it's
+
+01:12:48.560 --> 01:12:49.120
+this is
+
+01:12:49.120 --> 01:12:50.480
+we did a reality tv show
+
+01:12:50.480 --> 01:12:51.360
+and I basically
+
+01:12:51.360 --> 01:12:51.840
+kept this
+
+01:12:56.240 --> 01:12:56.480
+so
+
+01:12:57.200 --> 01:12:58.560
+just to show you all the bits
+
+01:12:58.560 --> 01:12:59.280
+and you know
+
+01:12:59.280 --> 01:13:00.000
+and we can
+
+01:13:00.000 --> 01:13:00.640
+talk about this
+
+01:13:00.640 --> 01:13:01.040
+I'm here
+
+01:13:01.040 --> 01:13:01.840
+and through Monday
+
+01:13:01.840 --> 01:13:02.640
+and everyone can
+
+01:13:02.640 --> 01:13:03.200
+can come up
+
+01:13:03.200 --> 01:13:03.760
+and I'll show you
+
+01:13:03.760 --> 01:13:04.640
+what I'm doing
+
+01:13:04.640 --> 01:13:05.040
+literally
+
+01:13:05.040 --> 01:13:05.600
+so this is
+
+01:13:05.600 --> 01:13:06.880
+this is your microphone jack
+
+01:13:07.840 --> 01:13:08.560
+I put that
+
+01:13:08.560 --> 01:13:09.520
+into the
+
+01:13:09.520 --> 01:13:10.480
+the microphone jack
+
+01:13:10.480 --> 01:13:11.360
+here the line in
+
+01:13:12.640 --> 01:13:13.840
+and after
+
+01:13:13.840 --> 01:13:14.640
+many many
+
+01:13:14.640 --> 01:13:15.680
+many hours of
+
+01:13:16.560 --> 01:13:18.000
+extreme sadness
+
+01:13:18.800 --> 01:13:19.360
+and
+
+01:13:19.360 --> 01:13:20.160
+crying
+
+01:13:20.160 --> 01:13:20.960
+and
+
+01:13:20.960 --> 01:13:22.160
+making up excuses
+
+01:13:22.160 --> 01:13:22.400
+and
+
+01:13:23.600 --> 01:13:24.960
+of lost shows
+
+01:13:24.960 --> 01:13:25.440
+that I
+
+01:13:25.440 --> 01:13:27.360
+tried to record directly
+
+01:13:27.360 --> 01:13:28.240
+to my hard disk
+
+01:13:28.240 --> 01:13:28.800
+and I've used
+
+01:13:29.360 --> 01:13:30.480
+every single combination
+
+01:13:30.480 --> 01:13:31.200
+of programs
+
+01:13:31.200 --> 01:13:32.000
+I can come up with
+
+01:13:34.000 --> 01:13:35.200
+it's just not safe
+
+01:13:37.120 --> 01:13:37.760
+I think that
+
+01:13:37.760 --> 01:13:38.480
+a lot of people here
+
+01:13:38.480 --> 01:13:39.120
+have witnessed
+
+01:13:39.120 --> 01:13:40.480
+an hour's worth of recording
+
+01:13:40.480 --> 01:13:42.000
+and it's gone
+
+01:13:42.000 --> 01:13:43.120
+your computer crashes
+
+01:13:44.320 --> 01:13:44.880
+so
+
+01:13:44.880 --> 01:13:46.320
+I'm going to make a
+recommendation
+
+01:13:46.320 --> 01:13:47.280
+which is not
+
+01:13:47.280 --> 01:13:47.680
+necessary
+
+01:13:47.680 --> 01:13:48.640
+I wish it were different
+
+01:13:48.640 --> 01:13:49.680
+but I haven't yet to see
+
+01:13:50.640 --> 01:13:51.200
+a pc
+
+01:13:51.760 --> 01:13:53.040
+that can reliably
+
+01:13:53.040 --> 01:13:54.320
+record audio
+
+01:13:54.320 --> 01:13:55.360
+and you know
+
+01:13:55.360 --> 01:13:56.400
+unless it's a
+
+01:13:56.400 --> 01:13:57.280
+a high-end system
+
+01:13:57.280 --> 01:13:58.000
+where they probably
+
+01:13:58.000 --> 01:13:59.120
+give you external
+
+01:13:59.120 --> 01:13:59.680
+hardware
+
+01:13:59.680 --> 01:14:00.800
+external drives
+
+01:14:00.800 --> 01:14:02.400
+and that's exactly what I did
+
+01:14:02.400 --> 01:14:03.040
+is I went out
+
+01:14:03.040 --> 01:14:04.000
+and bought the ugliest
+
+01:14:04.000 --> 01:14:04.640
+the ugliest
+
+01:14:05.600 --> 01:14:06.720
+little mp3 player
+
+01:14:06.720 --> 01:14:07.440
+it's called a yep
+
+01:14:07.440 --> 01:14:08.800
+I think Samsung makes it
+
+01:14:09.280 --> 01:14:10.320
+orange and brush metal
+
+01:14:10.320 --> 01:14:11.520
+is just totally doing it for me
+
+01:14:12.720 --> 01:14:14.560
+it can take 256 megs
+
+01:14:14.560 --> 01:14:15.840
+of data
+
+01:14:15.840 --> 01:14:16.560
+and you can also
+
+01:14:16.560 --> 01:14:17.280
+record onto it
+
+01:14:17.280 --> 01:14:17.920
+so this has
+
+01:14:17.920 --> 01:14:18.720
+none of the playlist
+
+01:14:18.720 --> 01:14:19.120
+features
+
+01:14:19.120 --> 01:14:20.000
+or any of that stuff
+
+01:14:20.000 --> 01:14:20.720
+and I guess
+
+01:14:20.720 --> 01:14:21.920
+that some chipset came out
+
+01:14:21.920 --> 01:14:22.320
+that you know
+
+01:14:22.320 --> 01:14:23.840
+these seem to be everywhere
+
+01:14:23.840 --> 01:14:24.880
+and literally
+
+01:14:24.880 --> 01:14:26.000
+I just plug this
+
+01:14:26.000 --> 01:14:27.040
+into the headphone jack
+
+01:14:27.680 --> 01:14:28.720
+of my
+
+01:14:28.720 --> 01:14:29.440
+of my computer
+
+01:14:30.160 --> 01:14:30.960
+and
+
+01:14:30.960 --> 01:14:31.600
+anything
+
+01:14:31.600 --> 01:14:32.160
+any sound
+
+01:14:32.160 --> 01:14:32.800
+I can create
+
+01:14:32.800 --> 01:14:33.520
+on my computer
+
+01:14:34.160 --> 01:14:35.680
+will basically be recorded
+
+01:14:35.680 --> 01:14:36.640
+to this thing
+
+01:14:36.640 --> 01:14:37.280
+and then
+
+01:14:37.280 --> 01:14:37.840
+when I'm done
+
+01:14:37.840 --> 01:14:39.360
+I can plug this into the usb
+
+01:14:39.360 --> 01:14:40.640
+and there's the mp3 file
+
+01:14:40.640 --> 01:14:41.760
+and I go through the
+
+01:14:41.760 --> 01:14:43.600
+also a completely laborious
+process
+
+01:14:43.600 --> 01:14:44.720
+which would take me 20 minutes
+
+01:14:44.720 --> 01:14:46.000
+here to show you of
+
+01:14:46.000 --> 01:14:46.880
+uploading it
+
+01:14:46.880 --> 01:14:48.640
+oh I forgot to do the id3 tags
+
+01:14:48.640 --> 01:14:49.680
+and there's all this stuff
+
+01:14:49.680 --> 01:14:51.840
+that we have no tools
+
+01:14:51.840 --> 01:14:53.360
+for creating podcasts
+
+01:14:53.360 --> 01:14:54.240
+now the big difference
+
+01:14:54.960 --> 01:14:55.520
+with
+
+01:14:55.520 --> 01:14:56.000
+what I do
+
+01:14:56.000 --> 01:14:56.720
+and what most people
+
+01:14:56.720 --> 01:14:57.920
+that I'm hearing doing
+
+01:14:57.920 --> 01:14:58.320
+is
+
+01:14:58.320 --> 01:14:59.440
+I don't edit my show
+
+01:15:00.080 --> 01:15:00.560
+I don't
+
+01:15:01.200 --> 01:15:02.480
+put the stuff in later
+
+01:15:02.480 --> 01:15:03.920
+I do it all live on the fly
+
+01:15:03.920 --> 01:15:04.880
+which is kind of like
+
+01:15:04.880 --> 01:15:06.000
+playing Nintendo
+
+01:15:06.000 --> 01:15:07.360
+it's hand-eye coordination
+
+01:15:08.400 --> 01:15:09.200
+and
+
+01:15:09.200 --> 01:15:09.600
+it's true
+
+01:15:10.640 --> 01:15:11.280
+so we can
+
+01:15:11.280 --> 01:15:12.000
+you know go back
+
+01:15:12.000 --> 01:15:12.960
+so basically
+
+01:15:12.960 --> 01:15:14.240
+I just open up my microphone
+
+01:15:14.240 --> 01:15:15.600
+and just switch it on
+
+01:15:15.600 --> 01:15:15.840
+and
+
+01:15:16.480 --> 01:15:17.600
+and while I'm talking
+
+01:15:17.600 --> 01:15:18.480
+you see what I'm doing now
+
+01:15:18.480 --> 01:15:19.120
+it's kind of tougher
+
+01:15:19.120 --> 01:15:20.320
+to do it looking at two screens
+
+01:15:20.320 --> 01:15:20.800
+and I
+
+01:15:20.800 --> 01:15:22.160
+hit the space bar
+
+01:15:22.160 --> 01:15:22.720
+and I can
+
+01:15:22.720 --> 01:15:23.680
+control the volume
+
+01:15:23.680 --> 01:15:24.960
+you see I'm controlling the
+volume
+
+01:15:24.960 --> 01:15:25.360
+there
+
+01:15:25.360 --> 01:15:26.880
+by holding down the apple key
+
+01:15:26.880 --> 01:15:28.480
+and up and down arrows
+
+01:15:28.480 --> 01:15:29.680
+and that's basically my
+
+01:15:29.680 --> 01:15:30.240
+fader
+
+01:15:30.240 --> 01:15:31.440
+if you're working radio
+
+01:15:31.440 --> 01:15:32.720
+you know there's a slider there
+
+01:15:32.720 --> 01:15:33.760
+you can pull up and down
+
+01:15:35.200 --> 01:15:36.400
+and then if I want to
+
+01:15:36.400 --> 01:15:37.280
+go to
+
+01:15:37.280 --> 01:15:37.920
+the next thing
+
+01:15:38.640 --> 01:15:39.280
+which would
+
+01:15:39.280 --> 01:15:40.160
+be this
+
+01:15:40.160 --> 01:15:41.040
+you know I can have these
+
+01:15:41.040 --> 01:15:41.440
+queued up
+
+01:15:41.440 --> 01:15:42.080
+I can have them
+
+01:15:42.080 --> 01:15:42.400
+I can
+
+01:15:43.040 --> 01:15:43.680
+in radio
+
+01:15:44.160 --> 01:15:45.040
+radio stations have
+
+01:15:45.040 --> 01:15:45.520
+what we call
+
+01:15:45.520 --> 01:15:46.000
+cart machine
+
+01:15:46.000 --> 01:15:46.800
+we used to have what we call
+
+01:15:46.800 --> 01:15:47.520
+cart machines
+
+01:15:47.520 --> 01:15:48.080
+which are
+
+01:15:48.080 --> 01:15:48.880
+basically
+
+01:15:48.880 --> 01:15:49.920
+jacked up eight tracks
+
+01:15:49.920 --> 01:15:50.960
+with a continuous loop
+
+01:15:50.960 --> 01:15:51.680
+and you put a song
+
+01:15:51.680 --> 01:15:52.880
+on it or a commercial
+
+01:15:52.880 --> 01:15:53.840
+and then when it's over
+
+01:15:53.840 --> 01:15:54.400
+it's queued up
+
+01:15:54.400 --> 01:15:55.200
+and it's ready to go
+
+01:15:55.200 --> 01:15:55.520
+so
+
+01:15:55.520 --> 01:15:56.320
+this almost looks
+
+01:15:56.320 --> 01:15:57.200
+exactly the same
+
+01:15:57.200 --> 01:15:57.520
+when I
+
+01:15:58.080 --> 01:15:58.880
+when I look at it
+
+01:15:59.600 --> 01:16:00.400
+so I just crank up
+
+01:16:00.400 --> 01:16:01.280
+the volume on this
+
+01:16:01.840 --> 01:16:02.080
+and
+
+01:16:03.040 --> 01:16:03.440
+perfect
+
+01:16:06.000 --> 01:16:06.720
+it's 1015
+
+01:16:06.720 --> 01:16:07.840
+that's the end of the podcasting
+
+01:16:07.840 --> 01:16:08.560
+session everybody
+
+01:16:27.920 --> 01:16:28.560
+you've been listening
+
+01:16:28.560 --> 01:16:29.840
+to the podcasting session
+
+01:16:29.840 --> 01:16:30.960
+from blogger con three
+
+01:16:30.960 --> 01:16:32.400
+held at stanford university
+
+01:16:32.400 --> 01:16:34.240
+on november 6 2004
+
+01:16:34.800 --> 01:16:35.760
+my name is dug k
+
+01:16:35.760 --> 01:16:36.320
+and I hope you'll
+
+01:16:36.320 --> 01:16:37.120
+join me next time
+
+01:16:37.120 --> 01:16:38.240
+for another edition of
+
+01:16:38.240 --> 01:16:39.440
+it conversations
