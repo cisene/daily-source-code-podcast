@@ -18,7 +18,7 @@ content:
   encoded: null
 enclosure:
   url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2012-08-29.mp3
-  length: 111823423
+  length: 111807527
   type: audio/mpeg
 itunes:
   author: Adam Curry
@@ -92,7 +92,7 @@ podcast:
     role: host
   - person: Marcus Couch
     href: https://marcuscouch.com/
-    img: null
+    img: https://secure.gravatar.com/avatar/31618c01ea7a04d562e4142243214a8a4355976744621b700738136199ebddf4?s=400
     group: creative direction
     role: producer
   chapters:
@@ -105,14 +105,9 @@ podcast:
   - url: https://thedailysourcecode.com/srt/DSC-2012-08-29.srt
     type: application/x-subrip
     language: en
-  socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
   alternateEnclosure:
   - type: audio/mpeg
-    length: 111823423
+    length: 111807527
     bitrate: 96000
     lang: null
     default: true

@@ -15,7 +15,7 @@ guid:
   link: http://twit.tv/85
 enclosure:
   url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-01-21-TWiT-85.mp3
-  length: 35877136
+  length: 35811371
   type: audio/mpeg
 itunes:
   author: Leo Laporte and the TWiTs
@@ -50,16 +50,19 @@ podcast:
     img: https://upload.wikimedia.org/wikipedia/commons/6/6a/Leo_Laporte_27_September_2007.jpg
     group: cast
     role: host
-  chapters: null
-  transcript: null
-  socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2007-01-21-TWiT-85.json
+    type: application/json+chapters
+  transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2007-01-21-TWiT-85.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2007-01-21-TWiT-85.srt
+    type: application/x-subrip
+    language: en
   alternateEnclosure:
   - type: audio/mpeg
-    length: 35877136
+    length: 35811371
     bitrate: 64183
     lang: null
     default: true

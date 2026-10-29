@@ -15,7 +15,7 @@ guid:
   link: http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-04-19.mp3
 enclosure:
   url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-19-Utrecht.mp3
-  length: 11682573
+  length: 11719791
   type: audio/mpeg
 itunes:
   author: Adam Curry
@@ -45,19 +45,19 @@ podcast:
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  chapters: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-04-19-Utrecht.json
+    type: application/json+chapters
   transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-04-19-Utrecht.vtt
+    type: text/vtt
+    language: en
   - url: https://thedailysourcecode.com/srt/DSC-2005-04-19-Utrecht.srt
     type: application/x-subrip
     language: en
-  socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
   alternateEnclosure:
   - type: audio/mpeg
-    length: 11682573
+    length: 11719791
     bitrate: 128002
     lang: null
     default: true

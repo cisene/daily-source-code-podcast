@@ -46,13 +46,16 @@ podcast:
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  chapters: null
-  transcript: null
-  socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-03-25-Daily-Video-Cast-3.json
+    type: application/json+chapters
+  transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-03-25-Daily-Video-Cast-3.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-03-25-Daily-Video-Cast-3.srt
+    type: application/x-subrip
+    language: en
   alternateEnclosure:
   - type: video/x-m4v
     length: 29567809

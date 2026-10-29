@@ -12,7 +12,7 @@ guid:
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2005/05/08.html#a7064
 enclosure:
   url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-08-RVZR.mp3
-  length: 23054818
+  length: 23086223
   type: audio/mpeg
 itunes:
   author: Adam Curry
@@ -48,19 +48,19 @@ podcast:
     img: https://upload.wikimedia.org/wikipedia/commons/f/fc/Patricia_Paay.png
     group: cast
     role: co-host
-  chapters: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-06-08-RVZR.json
+    type: application/json+chapters
   transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-06-08-RVZR.vtt
+    type: text/vtt
+    language: en
   - url: https://thedailysourcecode.com/srt/DSC-2005-06-08-RVZR.srt
     type: application/x-subrip
     language: en
-  socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
   alternateEnclosure:
   - type: audio/mpeg
-    length: 23054818
+    length: 23086223
     bitrate: 64000
     lang: nl
     default: true

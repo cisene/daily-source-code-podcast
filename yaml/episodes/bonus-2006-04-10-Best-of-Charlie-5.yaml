@@ -20,7 +20,7 @@ guid:
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/10.html#a7293
 enclosure:
   url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-10-Best-of-Charlie-5.mp3
-  length: 28801392
+  length: 28838136
   type: audio/mpeg
 itunes:
   author: Adam Curry
@@ -61,16 +61,19 @@ podcast:
     img: https://www.anjibee.com/wp-content/uploads/2022/03/IMG_1582-672x372.jpg
     group: creative direction
     role: producer
-  chapters: null
-  transcript: null
-  socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-04-10-Best-of-Charlie-5.json
+    type: application/json+chapters
+  transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-04-10-Best-of-Charlie-5.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-04-10-Best-of-Charlie-5.srt
+    type: application/x-subrip
+    language: en
   alternateEnclosure:
   - type: audio/mpeg
-    length: 28801392
+    length: 28838136
     bitrate: 128007
     lang: null
     default: true

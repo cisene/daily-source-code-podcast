@@ -12,7 +12,7 @@ guid:
   link: http://m.podshow.com/media/204/episodes/5223/devcast-5223-05-16-2006.mp3
 enclosure:
   url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-05-16-DevCast-4.mp3
-  length: 6843251
+  length: 6843036
   type: audio/mpeg
 itunes:
   author: Adam Curry
@@ -44,16 +44,19 @@ podcast:
     img: null
     group: cast
     role: guest
-  chapters: null
-  transcript: null
-  socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-05-16-DevCast-4.json
+    type: application/json+chapters
+  transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-05-16-DevCast-4.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-05-16-DevCast-4.srt
+    type: application/x-subrip
+    language: en
   alternateEnclosure:
   - type: audio/mpeg
-    length: 6843251
+    length: 6843036
     bitrate: 96529
     lang: null
     default: true

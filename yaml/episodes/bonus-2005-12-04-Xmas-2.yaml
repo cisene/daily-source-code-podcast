@@ -16,7 +16,7 @@ guid:
   link: http://xmas.podshow.com/?p=3
 enclosure:
   url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-04-Xmas-2.mp3
-  length: 6906454
+  length: 6941674
   type: audio/mpeg
 itunes:
   author: Adam Curry
@@ -48,16 +48,19 @@ podcast:
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  chapters: null
-  transcript: null
-  socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2005-12-04-Xmas-2.json
+    type: application/json+chapters
+  transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2005-12-04-Xmas-2.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2005-12-04-Xmas-2.srt
+    type: application/x-subrip
+    language: en
   alternateEnclosure:
   - type: audio/mpeg
-    length: 6906454
+    length: 6941674
     bitrate: 128040
     lang: null
     default: true

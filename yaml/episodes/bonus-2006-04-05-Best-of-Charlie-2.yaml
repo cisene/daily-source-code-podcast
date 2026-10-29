@@ -22,7 +22,7 @@ guid:
   link: http://radio.weblogs.com/0001014/categories/dailySourceCode/2006/04/05.html#a7290
 enclosure:
   url: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-04-05-Best-of-Charlie-2.mp3
-  length: 23522304
+  length: 23558894
   type: audio/mpeg
 itunes:
   author: Adam Curry
@@ -60,16 +60,19 @@ podcast:
     img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg
     group: cast
     role: host
-  chapters: null
-  transcript: null
-  socialInteract:
-  - uri: null
-    protocol: disabled
-    accountId: null
-    accountUrl: null
+  chapters:
+  - url: https://thedailysourcecode.com/chapters/DSC-2006-04-05-Best-of-Charlie-2.json
+    type: application/json+chapters
+  transcript:
+  - url: https://thedailysourcecode.com/vtt/DSC-2006-04-05-Best-of-Charlie-2.vtt
+    type: text/vtt
+    language: en
+  - url: https://thedailysourcecode.com/srt/DSC-2006-04-05-Best-of-Charlie-2.srt
+    type: application/x-subrip
+    language: en
   alternateEnclosure:
   - type: audio/mpeg
-    length: 23522304
+    length: 23558894
     bitrate: 128008
     lang: null
     default: true
