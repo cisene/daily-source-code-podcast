@@ -1,0 +1,7360 @@
+WEBVTT
+
+00:00.000 --> 00:06.120
+Netcasts you love.
+
+00:06.120 --> 00:11.360
+From people you trust.
+
+00:11.360 --> 00:14.080
+This is TWIT.
+
+00:14.080 --> 00:27.960
+Bandwidth for This Week in Tech
+is provided by AOL Radio and
+AOL.com slash podcasting.
+
+00:27.960 --> 00:50.200
+This is TWIT This Week in Tech,
+episode 85 for January 22, 2007
+The Podfather.
+
+00:50.200 --> 00:55.800
+It is time to TWIT and Patrick
+Norton is back from a long
+hiatus.
+
+00:55.800 --> 00:58.800
+I hope that hiatus has been
+operated on and is now
+completely removed.
+
+00:58.800 --> 00:59.800
+We missed you, Patrick.
+
+00:59.800 --> 01:03.560
+Oh, well, it's that darn
+business production schedule.
+
+01:03.560 --> 01:05.800
+See us holiday travel thing.
+
+01:05.800 --> 01:11.680
+Yeah, between dusty trucks and
+trade shows in Vegas, it's hard
+to get Patrick, but we're
+
+01:11.680 --> 01:12.680
+glad to have you.
+
+01:12.680 --> 01:16.680
+And I know you have a lot of us
+being trapped in Wyoming behind
+the snowstorm was part
+
+01:16.680 --> 01:17.680
+of it.
+
+01:17.680 --> 01:18.680
+Oh, dear.
+
+01:18.680 --> 01:19.680
+Oh, wow.
+
+01:19.680 --> 01:20.680
+That was unplanned?
+
+01:20.680 --> 01:21.680
+No.
+
+01:21.680 --> 01:22.680
+I love Laramie Wyoming.
+
+01:22.680 --> 01:27.120
+It's one of my favorite towns in
+Wyoming after Jackson Hole, but
+I was not planning on spending,
+
+01:27.120 --> 01:31.600
+you know, a day and a half there
+waiting for Route 80 to open up
+on my way home.
+
+01:31.600 --> 01:32.600
+Wow.
+
+01:32.600 --> 01:33.600
+Wow.
+
+01:33.600 --> 01:40.040
+Also from Great Britain on the
+line, Will Harris from
+bit-tech.net, he's become one
+
+01:40.040 --> 01:46.560
+of our most welcome regulars and
+he's the guy who stirred up the
+whole thing with
+
+01:46.560 --> 01:49.560
+the pink jumper and the pink
+glasses and Adam Curry.
+
+01:49.560 --> 01:55.000
+It was your idea to offer him
+$20 and lo and behold, look
+here, he is, ladies and
+gentlemen,
+
+01:55.000 --> 02:00.720
+the Podfather himself, the
+founder of Podshow, of course,
+the original podcaster with his
+
+02:00.720 --> 02:03.480
+daily source code still going
+strong over 500 episodes.
+
+02:03.480 --> 02:05.480
+Adam, I'm so glad we could have
+you on Twitter.
+
+02:05.480 --> 02:09.040
+Oh, it's really great to be
+here, Leo, and you may now kiss
+the ring.
+
+02:09.040 --> 02:10.040
+Go ahead.
+
+02:10.040 --> 02:11.880
+Can I tongue it?
+
+02:11.880 --> 02:12.880
+Is it okay to tongue it?
+
+02:12.880 --> 02:13.880
+Yeah.
+
+02:13.880 --> 02:15.880
+As long as you get around all
+the edges.
+
+02:15.880 --> 02:17.880
+I'll polish it.
+
+02:17.880 --> 02:19.600
+Will and I were just going to
+the pub.
+
+02:19.600 --> 02:22.600
+Y'all can call us when you're
+done with this.
+
+02:22.600 --> 02:24.160
+Slightly unsettling this flow.
+
+02:24.160 --> 02:25.880
+I'm just glad Adam's got his
+connectivity.
+
+02:25.880 --> 02:29.680
+He's in San Francisco today and
+I guess Comcast was not behaving
+earlier this
+
+02:29.680 --> 02:30.680
+week.
+
+02:30.680 --> 02:31.680
+Oh, this is so amazing.
+
+02:31.680 --> 02:35.480
+I am literally, I literally, now
+you've got to check this out.
+
+02:35.480 --> 02:37.720
+I'm going to do a whole video
+show about this.
+
+02:37.720 --> 02:39.880
+I jacked into the telco closet.
+
+02:39.880 --> 02:42.680
+I put a Wi-Fi range extender
+into a hub.
+
+02:42.680 --> 02:47.320
+That is picked up by my iMac,
+which then routes to a Linksys,
+which then spreads
+
+02:47.360 --> 02:48.360
+it throughout the condo.
+
+02:48.360 --> 02:53.360
+Do not mess with curry, man,
+when it comes to connectivity.
+
+02:53.360 --> 02:54.360
+Damn it.
+
+02:54.360 --> 02:55.360
+Damn it.
+
+02:55.360 --> 03:00.560
+This is one of the things I
+think that's so cool about you,
+Adam, is you're kind of
+
+03:00.560 --> 03:01.560
+a movie star.
+
+03:01.560 --> 03:03.640
+I mean, starting with MTV and
+everything.
+
+03:03.640 --> 03:06.440
+And yet, you're really quite a
+geek deep down.
+
+03:06.440 --> 03:11.440
+In fact, really, that's perhaps
+what your legacy will be.
+
+03:11.440 --> 03:14.960
+Do people, have they finally
+stopped introducing you as
+former MTV VJ?
+
+03:15.600 --> 03:17.600
+I don't think that will ever
+stop.
+
+03:17.600 --> 03:19.600
+Does that drive you crazy?
+
+03:19.600 --> 03:20.600
+No, no, no.
+
+03:20.600 --> 03:22.800
+I'm very proud of the time I
+spent there.
+
+03:22.800 --> 03:26.480
+Not proud of all the work that I
+did, but it was a very exciting
+time at an interesting
+
+03:26.480 --> 03:30.200
+point in the history of media
+when things were changing
+dramatically.
+
+03:30.200 --> 03:31.200
+True.
+
+03:31.200 --> 03:36.280
+But it is true that if you look
+at the roots of my broadcasting
+career, it started with
+
+03:36.280 --> 03:40.520
+me building my own transmitter
+and having my mom drive me
+around the block to see how
+
+03:40.520 --> 03:42.200
+far the signal would reach.
+
+03:42.200 --> 03:47.680
+And I had the Radio Shack 101
+project kit, so I was always
+making stuff.
+
+03:47.680 --> 03:51.240
+So I'm totally a geek.
+
+03:51.240 --> 03:54.080
+I just met the right people who
+knew how to do my hair.
+
+03:54.080 --> 03:57.760
+Well, and your wife still does
+your hair, I think, so she's
+doing her hair.
+
+03:57.760 --> 03:58.760
+Absolutely.
+
+03:58.760 --> 03:59.760
+Absolutely.
+
+03:59.760 --> 04:00.760
+I'll tell her, Leo.
+
+04:00.760 --> 04:01.760
+Thank you.
+
+04:01.760 --> 04:02.760
+Still looking good.
+
+04:02.760 --> 04:04.640
+A little shorter, but still
+looking like a movie star.
+
+04:04.640 --> 04:07.120
+Pink jumper or not?
+
+04:07.120 --> 04:09.600
+Let me just say one thing about
+the pink jumper.
+
+04:10.160 --> 04:15.240
+When you go, this was at the
+Podcast Con UK, which is not
+really the epitome of the
+
+04:15.240 --> 04:16.920
+fashion industry.
+
+04:16.920 --> 04:21.800
+So no matter what, no matter
+what you come in, dressed as,
+you know, and the
+
+04:21.800 --> 04:25.520
+pink jumper, okay, but I just
+want to make one thing very
+clear, the glasses,
+
+04:25.520 --> 04:28.480
+the rose-tinted glasses are
+really foreseeing.
+
+04:28.480 --> 04:30.440
+They're not, you know,
+sunglasses.
+
+04:30.440 --> 04:34.000
+Yes, they're purposely
+rose-tinted because, let's face
+it, the wood looks
+
+04:34.000 --> 04:35.000
+nicer that way.
+
+04:35.000 --> 04:38.960
+Well, in the interest of full
+disclosure, we didn't give you
+20 bucks either, so.
+
+04:38.960 --> 04:39.960
+That's true.
+
+04:39.960 --> 04:40.960
+Although I am just...
+
+04:40.960 --> 04:44.800
+I'm using a Splenda flavor blend
+right now in my Senseo coffee,
+so.
+
+04:44.800 --> 04:46.200
+Leo, I appreciate it.
+
+04:46.200 --> 04:47.920
+I'll send that snippet to the
+client.
+
+04:47.920 --> 04:51.560
+And, in fact, I use GoDaddy to
+register all my domains.
+
+04:51.560 --> 04:55.160
+Well, you know, you laugh about
+it, but this is exactly what
+brand
+
+04:55.160 --> 04:56.680
+advertising is about.
+
+04:56.680 --> 05:00.560
+Brand advertising is not about
+finding some relevance on a web
+page and
+
+05:00.560 --> 05:05.840
+putting a relevant link to a
+product to click.
+
+05:05.840 --> 05:08.520
+You know, it's about creating a
+brand messaging.
+
+05:09.200 --> 05:10.200
+Yeah, exactly.
+
+05:10.200 --> 05:11.200
+And it carries through.
+
+05:11.200 --> 05:14.200
+Here you are, talking about
+Splendas, if it's the most
+normal thing in the world.
+
+05:14.200 --> 05:15.200
+Well, it is.
+
+05:15.200 --> 05:16.200
+It is with the advantage of...
+
+05:16.200 --> 05:17.200
+I don't know.
+
+05:17.200 --> 05:19.200
+Folks, don't worry, this isn't
+going to become inside
+podcasting for the rest of
+
+05:19.200 --> 05:20.200
+the show.
+
+05:20.200 --> 05:21.200
+We will get to the tech news.
+
+05:21.200 --> 05:22.200
+I want to talk to MckiSplend.
+
+05:22.200 --> 05:23.200
+I want to talk to MckiSplend.
+
+05:23.200 --> 05:24.200
+I want to talk to MckiSplend.
+
+05:24.200 --> 05:25.200
+People are fascinated that
+people actually use Splenda in
+real life.
+
+05:25.200 --> 05:26.200
+I love Splend.
+
+05:26.200 --> 05:27.200
+I'll be honest with you, I use
+Splenda.
+
+05:27.200 --> 05:28.200
+In fact, I...
+
+05:28.200 --> 05:32.560
+Callie and Neil were up doing
+Call For Help a few months ago
+and they got the call
+
+05:32.560 --> 05:34.600
+on the show and I said, oh, hey,
+Neil, I'm a big Splendid.
+
+05:34.600 --> 05:36.440
+I don't use the flavor blends,
+I'll be honest with you,
+
+05:36.440 --> 05:37.920
+but I do love Splendid.
+
+05:37.920 --> 05:40.120
+I hate to think, you know,
+nobody knows what it's doing to
+me,
+
+05:40.120 --> 05:42.480
+but it's, but it's, you know,
+well, sure it's fine.
+
+05:42.480 --> 05:45.400
+Now that you can go to the
+truthaboutsplendid.com,
+
+05:45.400 --> 05:47.400
+you can find out what it's not
+doing to you, Leo.
+
+05:47.400 --> 05:48.880
+Oh, good, all right.
+
+05:48.880 --> 05:51.640
+Just for the record, I am a very
+big fan of the Pink Jump.
+
+05:51.640 --> 05:53.360
+I did think it was very nice.
+
+05:53.360 --> 05:54.200
+All right, thank you.
+
+05:54.200 --> 05:55.040
+Thank you.
+
+05:55.040 --> 05:56.800
+It was the, it was the context.
+
+05:56.800 --> 05:59.080
+You're confirming everything,
+
+05:59.080 --> 06:01.360
+everybody thinks about Brits
+right now, Will.
+
+06:01.360 --> 06:03.040
+You understand that.
+
+06:03.040 --> 06:04.080
+Well, why is that?
+
+06:04.080 --> 06:05.560
+I don't know why that is.
+
+06:05.560 --> 06:10.080
+I've never met a more macho,
+manly, you know, people as a
+whole.
+
+06:10.080 --> 06:11.600
+Are you kidding me, Leo?
+
+06:12.720 --> 06:15.160
+It's like 70% of all British men
+are gay.
+
+06:15.160 --> 06:16.000
+Oh, wait a minute.
+
+06:16.000 --> 06:17.960
+You see, you see, you see.
+
+06:17.960 --> 06:19.560
+Well, let's slow down a little
+bit.
+
+06:19.560 --> 06:21.240
+Now, before we get into it.
+
+06:21.240 --> 06:23.240
+You're living in San Francisco
+while you're saying that.
+
+06:23.240 --> 06:24.080
+Don't get too excited.
+
+06:24.080 --> 06:26.560
+At least skew the results a
+little bit.
+
+06:26.560 --> 06:30.800
+And he has an I Want You poster
+as his icon on Skype,
+
+06:30.800 --> 06:32.440
+so I don't know what that means.
+
+06:32.440 --> 06:33.840
+And what neighborhood are you
+living in?
+
+06:33.840 --> 06:35.800
+I think may as well get all the
+facts out.
+
+06:35.800 --> 06:36.640
+Now, come on.
+
+06:36.640 --> 06:38.160
+Not that there's anything wrong
+with that,
+
+06:38.160 --> 06:39.000
+but we're getting back to it.
+
+06:39.000 --> 06:39.840
+There's nothing wrong with that.
+
+06:39.840 --> 06:40.800
+Getting back to what you were
+saying
+
+06:40.800 --> 06:42.920
+about podcasting and
+advertising.
+
+06:42.920 --> 06:45.440
+I think that that's an
+interesting juxtaposition.
+
+06:45.440 --> 06:47.640
+You obviously were talking about
+Google ads
+
+06:47.640 --> 06:49.480
+versus podcast ads.
+
+06:49.480 --> 06:50.920
+And I think that that is one of
+the strengths
+
+06:50.920 --> 06:52.720
+of podcasting ads.
+
+06:52.720 --> 06:55.440
+They're personal as opposed to
+impersonal.
+
+06:55.440 --> 06:57.160
+Well, from a business
+perspective,
+
+06:57.160 --> 06:58.600
+and I've always made very clear,
+
+06:58.600 --> 07:01.600
+pod show is about
+commercializing whatever we can
+
+07:01.600 --> 07:03.600
+in this new media revolution.
+
+07:05.560 --> 07:09.440
+Google is extremely successful
+with their ad words.
+
+07:09.440 --> 07:10.440
+There's no doubt about it.
+
+07:10.440 --> 07:12.120
+They've turned advertising on
+their head.
+
+07:12.120 --> 07:14.840
+But the big end game that even
+Google
+
+07:14.840 --> 07:17.600
+is working towards is brand
+advertising
+
+07:17.600 --> 07:19.320
+and creating an affinity.
+
+07:19.320 --> 07:20.800
+And if you look at the
+relationship
+
+07:20.800 --> 07:22.600
+between the producer of a
+podcast
+
+07:22.600 --> 07:25.360
+who is also often a host and the
+audience,
+
+07:25.400 --> 07:29.440
+that's what they call the
+customer engagement,
+
+07:29.440 --> 07:30.800
+what we call audience, Leo.
+
+07:30.800 --> 07:33.080
+Engagement is the big word in
+advertising right now,
+
+07:33.080 --> 07:33.920
+isn't it?
+
+07:33.920 --> 07:35.760
+Right, but it's all about
+audience.
+
+07:35.760 --> 07:37.560
+And no matter what you're
+talking about,
+
+07:37.560 --> 07:39.160
+your audience will, they'll buy
+stuff
+
+07:39.160 --> 07:40.840
+that you're not even getting
+paid to promote.
+
+07:40.840 --> 07:44.640
+Mostly that's the case, because
+we have so few advertisers.
+
+07:44.640 --> 07:46.480
+Well, I'm happy to talk to you
+about that, sir.
+
+07:46.480 --> 07:47.320
+You know that.
+
+07:49.160 --> 07:50.640
+First of all, I actually would
+like to ask you
+
+07:50.640 --> 07:52.400
+a little bit about pod show.
+
+07:52.400 --> 07:55.120
+Because it isn't exactly clear
+what the notion is.
+
+07:55.120 --> 07:56.480
+Some people said you're trying
+to build
+
+07:56.480 --> 07:59.520
+a new media network.
+
+07:59.520 --> 08:00.760
+Is it an advertising network?
+
+08:00.760 --> 08:01.800
+Is it a network of programs?
+
+08:01.800 --> 08:04.000
+What exactly is the plan with
+pod show?
+
+08:04.000 --> 08:06.960
+Well, it is a new media network.
+
+08:06.960 --> 08:10.680
+Because in order to have network
+entertainment,
+
+08:10.680 --> 08:12.760
+you have to be able to do the
+networking side
+
+08:12.760 --> 08:15.120
+and the entertainment side.
+
+08:15.120 --> 08:17.360
+And it's all built around our
+version
+
+08:17.360 --> 08:18.840
+of an advertising platform.
+
+08:18.840 --> 08:23.720
+The way we sell packages to
+advertisers,
+
+08:23.720 --> 08:26.680
+the way we work with producers
+and hosts,
+
+08:26.680 --> 08:28.360
+who we have relationships with,
+or things
+
+08:28.360 --> 08:29.440
+that we create ourselves.
+
+08:29.440 --> 08:30.920
+And it does make sense to
+integrate that
+
+08:30.920 --> 08:33.080
+across the board, I have to say.
+
+08:33.080 --> 08:35.080
+You have to scale it,
+absolutely.
+
+08:35.080 --> 08:39.080
+And also, advertisers are
+looking for,
+
+08:39.080 --> 08:40.560
+I'm sorry, advertisers, of
+course,
+
+08:40.560 --> 08:42.200
+are looking for their audience.
+
+08:42.200 --> 08:44.720
+But the agencies they work with,
+
+08:44.720 --> 08:46.800
+they're looking for a place
+where they can go
+
+08:46.800 --> 08:48.320
+where they're going to get
+consistency.
+
+08:48.320 --> 08:49.800
+They know what's going to be
+delivered.
+
+08:49.800 --> 08:52.320
+They know how it's going to be
+reported to them.
+
+08:52.320 --> 08:54.400
+So that's kind of where we fit
+in.
+
+08:54.400 --> 08:55.400
+And it's going well.
+
+08:55.400 --> 08:58.400
+Adam, I've got to say, if your
+advertisers are looking
+
+08:58.400 --> 09:01.120
+for that much, they're ahead of
+the curve in a lot of places.
+
+09:01.120 --> 09:02.360
+Because most of the places I've
+seen
+
+09:02.360 --> 09:05.120
+are trying to define how video
+and audio
+
+09:05.120 --> 09:06.240
+is delivered on the web.
+
+09:06.240 --> 09:08.080
+And there's more tracking
+systems
+
+09:08.080 --> 09:10.440
+I've run into in the last year
+than ever thought
+
+09:10.440 --> 09:11.240
+would be possible.
+
+09:11.240 --> 09:13.240
+Numbers are the problem, aren't
+they, really?
+
+09:13.240 --> 09:15.280
+Well, what we work on the
+hardest,
+
+09:15.280 --> 09:18.680
+you can't have media change the
+way it's created,
+
+09:18.680 --> 09:21.880
+the way it's distributed, who
+creates and distributes it.
+
+09:21.880 --> 09:24.760
+You can't have that change
+without advertising changing.
+
+09:24.760 --> 09:26.840
+That is what we work on the
+hardest,
+
+09:26.840 --> 09:28.960
+is changing advertising.
+
+09:28.960 --> 09:30.960
+And that's what our agency
+spends a lot of time doing,
+
+09:30.960 --> 09:34.200
+educating ad agencies, trying to
+explain to them,
+
+09:34.200 --> 09:36.320
+this is something different.
+
+09:36.320 --> 09:39.760
+It's not radio, it's something
+different.
+
+09:39.760 --> 09:41.640
+We don't have to sell it in
+30-second chunks
+
+09:41.640 --> 09:44.080
+because we have no limitation on
+time.
+
+09:44.080 --> 09:46.000
+Ergo this conversation that's
+going on.
+
+09:46.000 --> 09:48.080
+And on, and on, and on, and on.
+
+09:48.080 --> 09:49.680
+And in this week's technique.
+
+09:49.680 --> 09:51.320
+I want to talk about Pirate Bay.
+
+09:51.320 --> 09:52.480
+It's a little bit of an old
+story,
+
+09:52.480 --> 09:54.360
+but I think since we've got two
+Brits on here,
+
+09:54.360 --> 09:55.880
+or two people who live in
+Britain anyway,
+
+09:55.880 --> 09:57.440
+this is such a tradition in
+Britain
+
+09:57.440 --> 09:58.960
+to have these pirate radio
+stations,
+
+09:58.960 --> 09:59.800
+like Radio Luxiport.
+
+09:59.800 --> 10:00.640
+Oh, the Sea Land thing?
+
+10:00.640 --> 10:02.800
+Sea Land and Radio Caroline.
+
+10:02.800 --> 10:06.040
+Now Pirate Bay, the BitTorrent
+tracker site
+
+10:06.040 --> 10:08.880
+that has been up and down in
+Sweden,
+
+10:08.880 --> 10:10.840
+is trying, I think it's more
+publicity than anything else,
+
+10:10.840 --> 10:12.800
+but wants to buy Sea Land.
+
+10:12.800 --> 10:15.520
+Sea Land's got a kind of crazy
+quilt history.
+
+10:15.520 --> 10:18.480
+Will Harris, are you following
+this story?
+
+10:18.480 --> 10:19.880
+Yeah, it's pretty crazy.
+
+10:19.880 --> 10:22.000
+I mean, a Sea Land.
+
+10:22.000 --> 10:23.320
+Sea Land was...
+
+10:23.320 --> 10:25.280
+Well, they might call it Bit
+Land when they own it.
+
+10:25.280 --> 10:26.360
+I don't know.
+
+10:26.360 --> 10:28.320
+Like an oil rig.
+
+10:28.320 --> 10:30.240
+No, it's a naval platform.
+
+10:30.240 --> 10:31.720
+It was for target practice.
+
+10:31.720 --> 10:32.880
+Oh, it's a naval platform.
+
+10:32.880 --> 10:33.720
+Yeah.
+
+10:33.720 --> 10:36.480
+Well, it's a pile of concrete
+off the British coast.
+
+10:36.480 --> 10:40.280
+It looks like a drilling rig, it
+does.
+
+10:40.280 --> 10:42.320
+Well, so I don't know if the guy
+still owns it,
+
+10:42.320 --> 10:43.320
+but for many years,
+
+10:43.320 --> 10:44.160
+he does.
+
+10:44.160 --> 10:45.000
+There's a guy who lived on Sea
+Land,
+
+10:45.000 --> 10:47.160
+and he had his own passports and
+his own money,
+
+10:47.160 --> 10:48.960
+and he wasn't recognized
+internationally.
+
+10:49.040 --> 10:52.120
+Roy of Sea Land, and he's still
+there,
+
+10:52.120 --> 10:54.160
+and the problem is he's getting
+old,
+
+10:54.160 --> 10:56.200
+and he's trying to sell it off.
+
+10:56.200 --> 10:58.200
+But were they ever acknowledged
+
+10:58.200 --> 11:00.080
+as a real sovereign nation?
+
+11:00.080 --> 11:01.200
+No, I don't think so.
+
+11:01.200 --> 11:05.760
+I mean, if they could shut down
+all of mp3.com in Russia,
+
+11:05.760 --> 11:08.160
+eventually, I'm sure they can
+shut down Sea Land,
+
+11:08.160 --> 11:10.440
+so it sounds like more like a
+publicity stunt to me,
+
+11:10.440 --> 11:11.280
+which is a nice one, of course.
+
+11:11.280 --> 11:12.120
+So what I want to know is,
+
+11:12.120 --> 11:14.640
+if they're going to set up
+Pirate Bay on Sea Land,
+
+11:14.640 --> 11:16.400
+what exactly is the net
+connectivity
+
+11:16.400 --> 11:17.760
+in the middle of the ocean on a
+naval platform?
+
+11:17.760 --> 11:18.920
+Apparently, it's one megabit.
+
+11:18.920 --> 11:20.280
+It's not enough to run a track.
+
+11:20.280 --> 11:22.400
+Dude, I've got this set up here
+in my condo.
+
+11:22.400 --> 11:23.400
+I can sell it to him.
+
+11:23.400 --> 11:24.240
+No condo.
+
+11:24.240 --> 11:25.080
+Yeah, I'm gonna come out.
+
+11:25.080 --> 11:25.920
+He can wire it for Y5.
+
+11:25.920 --> 11:27.400
+It'll be great.
+
+11:27.400 --> 11:29.440
+All you need is a Pringles
+cantana,
+
+11:29.440 --> 11:30.800
+and you're set.
+
+11:30.800 --> 11:32.680
+Well, of course, the concept
+with BitTorrent
+
+11:32.680 --> 11:35.360
+is that they only have to seed
+it from Sea Land.
+
+11:35.360 --> 11:37.280
+They don't actually have to have
+all the bandwidth.
+
+11:37.280 --> 11:39.160
+But imagine the bandwidth on the
+Pirate Bay
+
+11:39.160 --> 11:40.000
+is pretty serious.
+
+11:40.000 --> 11:42.120
+I mean, there's a lot of people
+using it.
+
+11:42.120 --> 11:43.280
+How is all of mp3?
+
+11:43.280 --> 11:44.120
+It's still alive.
+
+11:44.120 --> 11:44.960
+It's still running.
+
+11:44.960 --> 11:45.800
+You can't use a credit card,
+
+11:45.800 --> 11:47.120
+but they don't seem like they're
+out of business.
+
+11:47.120 --> 11:48.480
+I don't know how well they're...
+
+11:48.480 --> 11:51.480
+I mean, the RIAA's attempt to
+shut them down
+
+11:51.480 --> 11:52.600
+isn't that effective.
+
+11:54.000 --> 11:54.840
+Yeah, I don't know.
+
+11:54.840 --> 11:58.240
+It's, you know, that's on an
+agenda somewhere at the UN.
+
+11:58.240 --> 11:59.360
+Oh, it's on a big agenda.
+
+11:59.360 --> 12:01.240
+Absolutely, you know.
+
+12:01.240 --> 12:03.160
+You think it's really on a big
+agenda?
+
+12:03.160 --> 12:05.440
+Well, if the United States it
+is.
+
+12:05.440 --> 12:06.280
+Yeah, I mean, there's...
+
+12:06.280 --> 12:08.440
+It's been a part of economic
+policy
+
+12:08.440 --> 12:09.960
+of the United States government
+
+12:09.960 --> 12:12.640
+that's been beating on Russia.
+
+12:12.640 --> 12:15.720
+It's actually written into these
+treaties now.
+
+12:16.320 --> 12:17.360
+By name.
+
+12:17.360 --> 12:19.400
+Well, it's pretty much like the
+Gucci bags
+
+12:19.400 --> 12:21.640
+and the sunglasses that you can
+buy on any street
+
+12:21.640 --> 12:23.720
+in New York or LA or San
+Francisco.
+
+12:23.720 --> 12:25.960
+You know, yeah, they're supposed
+to be stopping that, too.
+
+12:25.960 --> 12:26.800
+Yeah, right.
+
+12:26.800 --> 12:27.640
+But it's...
+
+12:27.640 --> 12:29.800
+And I tell my wife all the time,
+
+12:29.800 --> 12:31.440
+don't buy that shit, man,
+
+12:31.440 --> 12:33.240
+because one day someone will rip
+your shit off
+
+12:33.240 --> 12:35.040
+and you'll be really angry.
+
+12:35.040 --> 12:36.240
+Adam, I'm gonna have to edit
+those.
+
+12:36.240 --> 12:37.080
+We have a clean tag.
+
+12:37.080 --> 12:37.920
+Oh, we can't say that?
+
+12:37.920 --> 12:38.760
+We have a clean tag.
+
+12:38.760 --> 12:41.160
+This is not the daily source
+code, my friend.
+
+12:41.160 --> 12:44.160
+I can't go around with $13
+million
+
+12:44.160 --> 12:46.040
+to airplane strap to my Tukas.
+
+12:46.040 --> 12:46.880
+It's $15.
+
+12:46.880 --> 12:47.840
+$15, I'm sorry.
+
+12:49.080 --> 12:50.560
+Actually, that's an interesting
+story
+
+12:50.560 --> 12:52.480
+is Virgin Atlantic's attempt
+
+12:52.480 --> 12:55.160
+to get into the U.S. market with
+a viral video.
+
+12:55.160 --> 12:56.840
+Have you seen the viral video?
+
+12:56.840 --> 12:57.680
+No, I haven't.
+
+12:57.680 --> 13:00.080
+The problem is that U.S. law
+prohibits
+
+13:00.080 --> 13:03.040
+non-U.S. citizens from operating
+an airline
+
+13:03.040 --> 13:03.920
+in the United States.
+
+13:03.920 --> 13:06.560
+Virgin would like to get into
+the U.S.
+
+13:06.560 --> 13:10.200
+and the Department of
+Transportation's blocking them
+
+13:10.200 --> 13:11.160
+right now.
+
+13:11.160 --> 13:12.000
+And so...
+
+13:12.000 --> 13:12.840
+I think Arnold will fix that.
+
+13:12.840 --> 13:14.240
+Arnold, if it's coming in and
+say,
+
+13:14.240 --> 13:16.360
+if I can become president,
+Richard,
+
+13:16.360 --> 13:18.400
+you can become an American
+citizen.
+
+13:19.400 --> 13:21.240
+Now, they're doing it through a
+shell company.
+
+13:21.240 --> 13:22.080
+It's a shell.
+
+13:22.080 --> 13:23.200
+It's all Americans running it,
+
+13:23.200 --> 13:24.600
+but the Department of
+Transportation
+
+13:24.600 --> 13:26.520
+seems not to be swayed.
+
+13:26.520 --> 13:28.080
+So now they've gone to YouTube.
+
+13:28.080 --> 13:29.000
+And you can actually see this.
+
+13:29.000 --> 13:30.040
+Our friend, Alex Lindsey,
+
+13:30.040 --> 13:33.200
+produced a commercial for these
+new jets,
+
+13:33.200 --> 13:34.280
+which looks slick.
+
+13:34.280 --> 13:37.200
+Linux Box is running with
+entertainment.
+
+13:37.200 --> 13:40.000
+And they're trying to get people
+to sign petitions,
+
+13:40.000 --> 13:41.320
+which I signed,
+
+13:41.320 --> 13:45.000
+to get the DOT to get off their
+B-U-T-T
+
+13:45.000 --> 13:47.200
+and let Virgin in.
+
+13:47.200 --> 13:50.720
+Now, I fly Virgin once a month,
+
+13:50.720 --> 13:52.720
+and their in-flight
+entertainment system,
+
+13:52.720 --> 13:54.320
+which indeed, the one they're
+using currently
+
+13:54.320 --> 13:55.520
+is based on Linux,
+
+13:55.520 --> 13:57.720
+because I've seen the boot
+screen a couple of times,
+
+13:57.720 --> 14:01.000
+is phenomenal.
+
+14:01.000 --> 14:03.160
+And it's really not just that it
+works,
+
+14:03.160 --> 14:06.680
+but they also refresh the
+content every month.
+
+14:06.680 --> 14:07.960
+They're trying to bring this to
+the U.S.
+
+14:07.960 --> 14:10.800
+They've got RJ-11 jacks at every
+seat.
+
+14:10.800 --> 14:13.600
+They've got standard power
+supplies at every seat.
+
+14:13.600 --> 14:15.680
+Wait, wait, they've got POTS
+jacks at every seat?
+
+14:15.680 --> 14:17.360
+No, no, I'm sorry, IJ-45.
+
+14:17.360 --> 14:18.520
+I'm sorry.
+
+14:18.520 --> 14:20.400
+I'm sorry, I'm standing in the
+presence of...
+
+14:20.400 --> 14:21.240
+I bow down.
+
+14:21.240 --> 14:22.800
+I'm sorry, I'll kiss your ring,
+too, Patrick.
+
+14:22.800 --> 14:23.640
+RJ-45.
+
+14:23.640 --> 14:24.640
+No, no, no, I was just sitting
+there,
+
+14:24.640 --> 14:25.880
+I was like, you bring your own
+phone?
+
+14:25.880 --> 14:27.840
+That's amazing.
+
+14:27.840 --> 14:29.880
+They've got dial-up networking
+in every seat.
+
+14:29.880 --> 14:31.240
+It's amazing.
+
+14:31.240 --> 14:32.720
+No, I don't...
+
+14:32.720 --> 14:34.480
+Do they offer internet
+connectivity
+
+14:34.480 --> 14:35.320
+on these Virgin flights?
+
+14:35.320 --> 14:36.880
+No, not currently.
+
+14:36.880 --> 14:37.720
+They have...
+
+14:37.720 --> 14:40.480
+You can use an SMS service.
+
+14:40.480 --> 14:42.040
+I wish they would do it,
+
+14:42.040 --> 14:45.080
+because that's the only thing
+missing from that experience.
+
+14:45.080 --> 14:46.120
+I love them to death.
+
+14:46.120 --> 14:48.280
+I have a million miles, only one
+million more,
+
+14:48.280 --> 14:50.560
+and I can get a free flight on
+Spaceship One.
+
+14:50.560 --> 14:51.400
+Really?
+
+14:51.400 --> 14:52.840
+Yeah, two million miles.
+
+14:52.840 --> 14:55.120
+How long did it take to get the
+first million?
+
+14:55.120 --> 14:56.200
+A year.
+
+14:56.200 --> 14:57.120
+Really?
+
+14:57.120 --> 14:57.960
+Yeah, so if I get the second
+million.
+
+14:57.960 --> 15:00.880
+You did a million miles in one
+year?
+
+15:00.880 --> 15:02.400
+Yeah, but there's a lot of
+bonuses
+
+15:02.400 --> 15:03.920
+and promotions in there.
+
+15:03.920 --> 15:04.960
+So I probably did the...
+
+15:05.000 --> 15:07.240
+Maybe about a quarter million
+miles, 300,000 miles?
+
+15:07.240 --> 15:09.240
+Yeah, I'd say it's about that,
+yeah.
+
+15:09.240 --> 15:10.680
+Good Lord.
+
+15:10.680 --> 15:12.720
+It's time to stay home.
+
+15:12.720 --> 15:14.600
+Holy cow, that's crazy.
+
+15:14.600 --> 15:17.160
+So a million miles and you would
+get to go to space,
+
+15:17.160 --> 15:18.440
+would you do that?
+
+15:18.440 --> 15:19.320
+Absolutely.
+
+15:19.320 --> 15:20.320
+You would?
+
+15:20.320 --> 15:21.160
+Oh, yeah.
+
+15:21.160 --> 15:22.000
+Oh, man, I'd love to.
+
+15:22.000 --> 15:23.040
+You're talking to the guy
+
+15:23.040 --> 15:25.760
+who refused to go in the Blue
+Angels plane.
+
+15:25.760 --> 15:27.720
+Patrick went, but I wouldn't do
+it.
+
+15:27.720 --> 15:28.760
+Well, I'm a pilot, you know,
+
+15:28.760 --> 15:31.240
+so I kinda have that bug.
+
+15:31.240 --> 15:32.520
+You trust Richard Branson.
+
+15:32.520 --> 15:33.760
+One of the features they do have
+
+15:33.760 --> 15:36.320
+on these new jets is you can
+chat
+
+15:36.320 --> 15:37.320
+with the other people on the
+plane.
+
+15:37.320 --> 15:39.280
+In fact, they create a chat room
+
+15:39.280 --> 15:40.240
+of everybody on the plane,
+
+15:40.240 --> 15:41.520
+which you can go into.
+
+15:41.520 --> 15:42.360
+Cool.
+
+15:42.360 --> 15:43.960
+Is that bizarre?
+
+15:43.960 --> 15:46.280
+I don't know exactly what that
+would be like.
+
+15:46.280 --> 15:47.120
+So...
+
+15:47.120 --> 15:49.360
+It's a hotty in 24G, look over
+here, baby.
+
+15:49.360 --> 15:52.040
+They also, you can order food
+from the screen
+
+15:52.040 --> 15:53.200
+and they said the stewardesses
+
+15:53.200 --> 15:54.280
+will bring it to you, or the...
+
+15:54.280 --> 15:56.840
+Can you imagine just like an IRC
+back channel
+
+15:56.840 --> 15:58.520
+at a conference where the
+stewardesses
+
+15:58.520 --> 16:01.320
+or the flight attendant is doing
+the safety demonstration,
+
+16:01.320 --> 16:05.360
+everyone's rankin', rankin' on
+them in the chat.
+
+16:05.360 --> 16:07.880
+It's the bad kids in the back of
+the class.
+
+16:07.880 --> 16:09.080
+I love it.
+
+16:09.080 --> 16:11.080
+Oh yeah, the little parking
+margarine cup attached
+
+16:11.080 --> 16:12.840
+to the enema bag's gonna be real
+useful
+
+16:12.840 --> 16:16.760
+in shoulder rolling at 500 miles
+an hour.
+
+16:16.760 --> 16:18.000
+Yeah, I can see that happening.
+
+16:18.000 --> 16:20.680
+Netflix is gonna start streaming
+movies as well.
+
+16:20.680 --> 16:23.800
+Now this is something that you
+won't be able to do, Will,
+
+16:23.800 --> 16:25.320
+but those of us who live in the
+States
+
+16:25.320 --> 16:27.360
+will be able to, next to the add
+button,
+
+16:27.360 --> 16:29.320
+where you add a movie to your
+Netflix queue,
+
+16:29.320 --> 16:30.760
+press a play button on some
+movies
+
+16:30.760 --> 16:34.040
+and we'll actually be able to
+watch it on the net.
+
+16:34.040 --> 16:36.400
+We actually had a viewer email
+us in about this.
+
+16:36.400 --> 16:38.840
+It's very similar to a lot of
+the existing systems,
+
+16:38.840 --> 16:40.920
+except for the cinema now, kind
+of, or...
+
+16:40.920 --> 16:42.920
+Yeah, except that apparently
+Netflix
+
+16:42.920 --> 16:45.000
+spent $40 million developing
+this one.
+
+16:45.000 --> 16:45.840
+Wow.
+
+16:46.680 --> 16:49.280
+PC-only, IA Internet
+Explorer-only,
+
+16:49.280 --> 16:52.800
+WMV-based encryption it looks
+like or feels like.
+
+16:52.800 --> 16:55.240
+It would have to be, there's no
+way they'd allow that.
+
+16:55.240 --> 16:58.320
+But you can't stop and start and
+switch films, right?
+
+16:58.320 --> 16:59.920
+Well, yeah, and that's what's
+kind of interesting
+
+16:59.920 --> 17:01.760
+is they're charging it based on
+the amount of time
+
+17:01.760 --> 17:03.800
+you physically watch the movie,
+
+17:03.800 --> 17:05.800
+which means you have to be
+logged into the net
+
+17:05.800 --> 17:07.400
+every time you wanna watch the
+movie.
+
+17:07.400 --> 17:08.240
+Right.
+
+17:08.240 --> 17:10.040
+Because it has to revalidate the
+DRM,
+
+17:10.040 --> 17:11.920
+because it's essentially
+streaming.
+
+17:11.920 --> 17:14.760
+So you're not gonna be able to
+purchase a movie
+
+17:14.760 --> 17:17.560
+or rent a movie and then drive
+up to the ski house
+
+17:17.560 --> 17:18.400
+and watch it there.
+
+17:18.400 --> 17:20.280
+You're gonna have to have a
+broadband connection
+
+17:20.280 --> 17:21.280
+anywhere you are.
+
+17:21.280 --> 17:23.520
+Reed Hastings, the CEO of
+Netflix said,
+
+17:23.520 --> 17:24.800
+we've gotta have a second act.
+
+17:24.800 --> 17:27.800
+Everybody agrees DVDs aren't
+gonna last forever.
+
+17:27.800 --> 17:29.400
+Is this a legitimate second act
+
+17:29.400 --> 17:31.200
+or is this just a, I mean,
+
+17:31.200 --> 17:33.200
+lots of other players as you
+point out.
+
+17:33.200 --> 17:35.000
+Well, they're in an interesting
+position
+
+17:35.000 --> 17:36.760
+in that they already have,
+
+17:36.760 --> 17:39.920
+I've heard numbers as high as 6
+million regular subscribers
+
+17:39.920 --> 17:40.760
+to their service.
+
+17:40.760 --> 17:41.600
+Wow.
+
+17:41.600 --> 17:43.720
+So if all of those 6 million
+subscribers
+
+17:43.720 --> 17:46.680
+or even a small percentage or a
+moderate percentage
+
+17:46.680 --> 17:49.400
+of the 6 million subscribers
+have broadband,
+
+17:49.400 --> 17:51.720
+that could give them a pretty
+huge leg up
+
+17:51.720 --> 17:53.960
+over all of these online
+services.
+
+17:53.960 --> 17:55.960
+That said, they suffer from the
+same problems.
+
+17:55.960 --> 17:58.200
+They're claiming they'll be near
+instantaneous starting,
+
+17:58.200 --> 17:59.920
+but people have noted, tried it
+out.
+
+17:59.920 --> 18:01.720
+You know, like I said, we had a
+viewer who wrote it.
+
+18:01.720 --> 18:04.160
+He said, one movie started in
+like 30 seconds.
+
+18:04.160 --> 18:06.440
+It was a black and white Abbott
+Costello movie.
+
+18:06.440 --> 18:08.960
+You know, another movie, which
+was, you know,
+
+18:08.960 --> 18:10.880
+a modern, you know, full color
+feature.
+
+18:10.880 --> 18:12.640
+It took about 15 or 20 minutes
+to queue
+
+18:12.640 --> 18:13.480
+before it started.
+
+18:13.480 --> 18:14.880
+That's my problem with all these
+offerings
+
+18:14.880 --> 18:17.600
+is they don't tend to have
+pirates of the Caribbean
+
+18:17.600 --> 18:18.800
+on these streams.
+
+18:18.800 --> 18:20.840
+Well, actually a lot of the, a
+lot of the,
+
+18:20.840 --> 18:23.320
+a lot of the, of the major ones,
+
+18:23.320 --> 18:26.800
+like the, you know, movie links,
+cinema and out type ones.
+
+18:26.800 --> 18:27.800
+Are they starting to actually
+
+18:28.200 --> 18:29.840
+do have, they've had, they've
+had big movies on
+
+18:29.840 --> 18:30.920
+for a very long time.
+
+18:30.920 --> 18:33.920
+In fact, I believe movie link
+was actually started by the,
+
+18:35.600 --> 18:37.560
+it's either movie link or cinema
+now
+
+18:37.560 --> 18:40.680
+or both were actually started by
+the studios.
+
+18:41.680 --> 18:45.840
+This, you know, this concept,
+this business model
+
+18:45.840 --> 18:48.600
+of taking Hollywood content,
+
+18:48.600 --> 18:50.960
+licensing that for distribution
+over the internet
+
+18:50.960 --> 18:53.400
+I think is seriously flawed.
+
+18:53.400 --> 18:57.080
+The distribution costs are going
+to be enormous.
+
+18:57.640 --> 18:58.840
+The bandwidth costs.
+
+18:58.840 --> 19:00.560
+To get this to the customer.
+
+19:00.560 --> 19:02.520
+And if they make any money,
+
+19:02.520 --> 19:04.320
+the first thing that Hollywood
+is going to do
+
+19:04.320 --> 19:05.720
+is renegotiate.
+
+19:05.720 --> 19:07.280
+You know, it's, it's a dead end.
+
+19:07.280 --> 19:09.120
+It's, it's just like iTunes.
+
+19:09.120 --> 19:09.960
+Of course the.
+
+19:09.960 --> 19:11.000
+It's just like podcasts
+
+19:11.000 --> 19:12.640
+and video delivery online.
+
+19:12.640 --> 19:13.480
+Well, no.
+
+19:13.480 --> 19:14.320
+How are we different?
+
+19:14.320 --> 19:15.160
+How are we different?
+
+19:15.160 --> 19:17.920
+It's because we're willing to
+negotiate
+
+19:17.920 --> 19:21.520
+and deal with each other in a
+much more civilized manner.
+
+19:21.520 --> 19:23.920
+Hollywood is all about squeezing
+the last nickel.
+
+19:23.920 --> 19:25.760
+So if you don't own the content
+
+19:25.760 --> 19:28.080
+that you're distributing,
+
+19:28.080 --> 19:30.240
+you own your content, Leo, that
+you're distributing.
+
+19:30.240 --> 19:32.960
+So you're not going to rob
+yourself, you know,
+
+19:32.960 --> 19:35.240
+but Hollywood, you know, believe
+me,
+
+19:35.240 --> 19:37.280
+Apple does not make a lot of
+money per track.
+
+19:37.280 --> 19:39.600
+In aggregate, if you sell a
+billion songs, that's great,
+
+19:39.600 --> 19:41.480
+but it's not about the music.
+
+19:41.480 --> 19:42.320
+And we know that.
+
+19:42.320 --> 19:43.160
+Right.
+
+19:43.160 --> 19:44.960
+It's not a profit deal for them.
+
+19:44.960 --> 19:46.240
+It's about selling iPods.
+
+19:46.240 --> 19:47.600
+Yeah, it's about selling the
+hardware.
+
+19:47.600 --> 19:48.440
+Absolutely.
+
+19:48.440 --> 19:49.280
+Yeah.
+
+19:49.280 --> 19:51.120
+We're talking about squeezing
+every last.
+
+19:51.120 --> 19:53.160
+Are you going to bring up the
+Zoom?
+
+19:53.160 --> 19:54.280
+Yeah, baby.
+
+19:54.280 --> 19:55.120
+Tell me about this.
+
+19:55.120 --> 19:56.560
+Is this just fraud?
+
+19:56.560 --> 19:57.720
+Well, okay, go ahead.
+
+19:57.720 --> 19:58.960
+I mean, everybody knows, right?
+
+19:58.960 --> 20:02.240
+The Zoom catchphrase is welcome
+to the social.
+
+20:02.240 --> 20:03.080
+Yeah.
+
+20:03.080 --> 20:06.280
+By the way, I found a nightclub
+in Toronto called The Social.
+
+20:06.280 --> 20:08.640
+So I finally figured out what
+that means.
+
+20:08.640 --> 20:10.640
+It's this nightclub in Toronto.
+
+20:10.640 --> 20:12.400
+They all want you to go there.
+
+20:12.400 --> 20:13.240
+No?
+
+20:13.240 --> 20:14.720
+But also, we also know that, you
+know,
+
+20:14.720 --> 20:17.680
+Microsoft is pimping the Zoom
+out to all the big studios
+
+20:17.680 --> 20:19.280
+to try and get some support.
+
+20:19.280 --> 20:21.680
+So the units and the Sonys and
+whatever,
+
+20:21.720 --> 20:26.680
+well, it turns out now that
+there are some songs
+
+20:26.680 --> 20:30.480
+in the music catalog that you
+can't squirt.
+
+20:30.480 --> 20:31.200
+Not some.
+
+20:31.200 --> 20:35.800
+It's quite, somebody told me
+it's almost half.
+
+20:35.800 --> 20:36.840
+It's a huge number.
+
+20:36.840 --> 20:38.400
+So how pointless is that?
+
+20:38.400 --> 20:39.520
+You can't even squirt them.
+
+20:39.520 --> 20:40.360
+I mean, what kind?
+
+20:40.360 --> 20:42.000
+These record companies are
+insane.
+
+20:42.000 --> 20:43.240
+The thing is so protected.
+
+20:43.240 --> 20:45.400
+You can only three days or three
+plays
+
+20:45.400 --> 20:48.040
+and they don't even want you to
+do that.
+
+20:48.040 --> 20:50.800
+Yeah, it's pretty, I mean, it's
+pretty bonkers.
+
+20:50.840 --> 20:54.240
+It's a bit of a half-cut
+measure, really, isn't it?
+
+20:54.240 --> 20:55.800
+It makes it look like even more
+of a gimmick
+
+20:55.800 --> 20:56.640
+than it was before.
+
+20:56.640 --> 20:57.480
+It's kind of stunning.
+
+20:57.480 --> 20:59.880
+Is it Sony that's one of the...
+
+20:59.880 --> 21:01.520
+It's Universal and Sony, right?
+
+21:01.520 --> 21:03.080
+Universal.
+
+21:03.080 --> 21:06.680
+That's pretty much, that covers
+a lot of material.
+
+21:06.680 --> 21:07.520
+And you won't know.
+
+21:07.520 --> 21:10.160
+You can't tell until you try.
+
+21:10.160 --> 21:13.640
+Yeah, and Gadget says it's
+roughly 40 to 50% of artists.
+
+21:13.640 --> 21:15.840
+Unbelievable.
+
+21:15.840 --> 21:17.600
+Whereas if they had only made
+the Zoom
+
+21:17.600 --> 21:21.080
+a little bit more compatible
+with MP3s
+
+21:21.080 --> 21:23.000
+and a little more easy to work
+with MP3s,
+
+21:23.000 --> 21:25.440
+I think it would gain a lot more
+traction.
+
+21:25.440 --> 21:27.840
+Hey, if they just supported
+podcasts.
+
+21:27.840 --> 21:29.000
+Yeah, exactly.
+
+21:29.000 --> 21:31.040
+Well, that's, you know...
+
+21:31.040 --> 21:33.680
+They brought this to market so
+quickly.
+
+21:33.680 --> 21:35.640
+They knew from day one that
+podcasting
+
+21:35.640 --> 21:37.200
+was not gonna be in the first
+release
+
+21:37.200 --> 21:40.440
+and they will support it one way
+or the other, I'm sure.
+
+21:40.440 --> 21:42.240
+I mean, I talked to the product
+manager
+
+21:42.240 --> 21:46.320
+for Windows Media Play 11 last
+year at CES 2006
+
+21:46.320 --> 21:50.040
+and they said, yeah, we really
+wanna have RSS
+
+21:50.040 --> 21:51.960
+and we should have RSS, but we
+don't
+
+21:51.960 --> 21:54.560
+and we're gonna try to add it in
+as quickly as possible.
+
+21:54.560 --> 21:55.680
+You know, and I was kind of
+sitting there
+
+21:55.680 --> 21:57.560
+just kind of like, you're
+kidding me, right?
+
+21:57.560 --> 21:59.640
+You know.
+
+21:59.640 --> 22:01.360
+By the way, Adam, you might be
+interested,
+
+22:01.360 --> 22:06.360
+there are 100 Pink Zoons out
+there to go with your jumper.
+
+22:07.680 --> 22:09.720
+It's just random whether you'll
+get one.
+
+22:10.720 --> 22:12.320
+Thanks, Leo, always support me.
+
+22:12.320 --> 22:14.320
+Although I understand they're
+available on eBay
+
+22:14.320 --> 22:16.800
+if you really have to have it.
+
+22:16.800 --> 22:19.560
+I was at Fry's Electronics in
+Concord,
+
+22:19.560 --> 22:20.920
+which of course is kind of a...
+
+22:20.920 --> 22:22.280
+Oh, that's a Mecca.
+
+22:22.280 --> 22:25.320
+Yeah, that is a Mecca when
+you're in Northern California
+
+22:25.320 --> 22:27.560
+and it was the first time I was
+able
+
+22:27.560 --> 22:30.360
+to get my hands on a Zoon and I
+was surprised.
+
+22:30.360 --> 22:31.880
+Of course, everyone else who's
+had,
+
+22:31.880 --> 22:33.520
+who's tried one knows this,
+
+22:33.520 --> 22:35.920
+but I was surprised that that
+turn wheel doesn't turn.
+
+22:35.920 --> 22:38.120
+It's up down left-right.
+
+22:38.120 --> 22:39.760
+Yeah, I was like, huh, it's not
+working right
+
+22:39.760 --> 22:42.320
+and then I figured it out.
+
+22:42.320 --> 22:44.080
+I like the Zoon in a lot of
+ways.
+
+22:44.080 --> 22:45.800
+I like the Zoon, but I think
+it's clear now
+
+22:45.800 --> 22:48.840
+that this DRM thing is just
+broken.
+
+22:48.840 --> 22:50.880
+Well, I played Room 1 for the
+first time at CES
+
+22:50.880 --> 22:52.480
+this year, I hadn't seen it
+before.
+
+22:52.480 --> 22:54.840
+And what amazed me was it was
+basically like,
+
+22:54.840 --> 22:56.640
+like the first iPod.
+
+22:56.640 --> 22:58.440
+Yeah, it feels like that,
+doesn't it?
+
+22:58.440 --> 23:01.760
+Kind of big and clunky and yeah,
+you're right.
+
+23:01.760 --> 23:04.280
+The interface is pretty clean
+though.
+
+23:04.280 --> 23:05.120
+I like the UI.
+
+23:05.120 --> 23:07.560
+I wish there was the word
+podcaster in the UI.
+
+23:07.560 --> 23:10.480
+So you think, Patrick, that they
+will,
+
+23:10.480 --> 23:12.240
+at some point, release an update
+to the Zoon
+
+23:12.240 --> 23:13.880
+and then suddenly you'll see
+that word podcaster.
+
+23:13.880 --> 23:14.920
+Well, they use the word
+podcaster?
+
+23:14.920 --> 23:17.240
+Well, part of the issue with
+podcasters
+
+23:17.240 --> 23:20.240
+is they don't currently have RSS
+support
+
+23:20.240 --> 23:21.800
+in Windows Media Player 11.
+
+23:21.800 --> 23:23.760
+And like I said before, that's
+something
+
+23:23.760 --> 23:26.600
+they were aware of being a major
+flaw
+
+23:26.600 --> 23:29.560
+in Windows Media Player 11 12
+months ago.
+
+23:29.560 --> 23:32.880
+So, WMP11's out, it'd be nice to
+see them,
+
+23:32.880 --> 23:35.080
+maybe after Vista ships, they'll
+finally turn around
+
+23:35.080 --> 23:38.400
+and, you know, because without
+the RSS integration,
+
+23:38.400 --> 23:39.240
+you know what I mean?
+
+23:39.240 --> 23:41.480
+Without the RSS screen or
+podcatcher.
+
+23:42.280 --> 23:43.120
+Hey, Patrick.
+
+23:43.120 --> 23:44.520
+You can use juice.
+
+23:44.520 --> 23:47.360
+You can use the iPod or, you
+know, juice.
+
+23:47.360 --> 23:49.480
+Well, there's a reason such a
+huge number.
+
+23:49.480 --> 23:52.720
+Like, you know, 40% of the
+people downloading,
+
+23:52.720 --> 23:55.120
+like at least 40% of the people
+downloading,
+
+23:55.120 --> 23:59.400
+yeah, for DLTV, use iTunes.
+
+23:59.400 --> 24:00.240
+Patrick?
+
+24:00.240 --> 24:01.080
+Yeah.
+
+24:01.080 --> 24:04.440
+Do you think that the reason why
+Microsoft
+
+24:04.440 --> 24:07.520
+has been so in limbo about RSS
+in Media Player
+
+24:07.520 --> 24:10.880
+and the Zoon is because they
+were supposed
+
+24:10.880 --> 24:15.880
+to be using this central RSS
+repository in Vista
+
+24:16.480 --> 24:20.160
+that is under the hood and that
+no longer got support
+
+24:20.160 --> 24:21.400
+and it's just everyone's
+confused
+
+24:21.400 --> 24:23.200
+about where they should be
+getting it from?
+
+24:23.200 --> 24:24.480
+That would certainly be a start
+of it.
+
+24:24.480 --> 24:27.600
+I also want to say, I was
+surprised at how fervent
+
+24:27.600 --> 24:31.880
+they were about, you know,
+getting RSS built into IE7.
+
+24:31.880 --> 24:33.360
+You know, as part of their sort
+of checklist
+
+24:33.360 --> 24:34.960
+for things they were two years
+late
+
+24:34.960 --> 24:37.280
+on capturing up to Firefox with.
+
+24:37.280 --> 24:38.840
+It would make sense though if
+they'd relied
+
+24:38.840 --> 24:42.520
+upon a central capability in
+Vista
+
+24:42.520 --> 24:44.400
+and it was one more thing yanked
+at a Vista
+
+24:44.400 --> 24:47.040
+that, well, all the plans are
+now on the back burner
+
+24:47.040 --> 24:48.880
+because they can't count on it.
+
+24:48.880 --> 24:50.160
+That's what I think probably
+happened.
+
+24:50.160 --> 24:51.320
+Yeah, that makes sense.
+
+24:52.320 --> 24:54.160
+I would like to see you, Adam,
+
+24:54.160 --> 24:58.320
+and other new media people
+really kind of put some
+pressure.
+
+24:58.320 --> 25:00.680
+Certainly, I've just been
+outspoken on Microsoft
+
+25:00.680 --> 25:03.600
+to really make this a priority,
+to put this into.
+
+25:03.600 --> 25:05.640
+Let me tell you a little story,
+Leo.
+
+25:06.640 --> 25:11.640
+Before Apple integrated
+podcasting into iTunes,
+
+25:12.320 --> 25:14.480
+well before that, probably six
+months,
+
+25:14.480 --> 25:17.440
+my partner and I, Ron Bloom, we
+went to Microsoft
+
+25:17.440 --> 25:19.720
+and we had a number of
+conversations
+
+25:19.720 --> 25:22.640
+and we talked about, we actually
+were willing
+
+25:22.640 --> 25:25.560
+to put our developers to work,
+
+25:25.560 --> 25:28.760
+to put a headless version of
+iPod
+
+25:28.760 --> 25:32.640
+or Juicy, if you will, into
+something
+
+25:32.640 --> 25:34.640
+that we would install, that
+would be on Windows.
+
+25:34.640 --> 25:38.400
+We had all these conversations
+and at that point,
+
+25:38.400 --> 25:40.240
+it was like, it's definitely
+coming in the next release
+
+25:40.240 --> 25:44.440
+of Windows Media Player and then
+we didn't hear anything
+
+25:44.440 --> 25:46.440
+and then Apple called and said
+it had
+
+25:46.440 --> 25:49.280
+the exact same spiel to them and
+they just did it
+
+25:49.280 --> 25:53.000
+and they just integrated it and
+quite honestly,
+
+25:53.000 --> 25:54.120
+I'm really tired.
+
+25:54.120 --> 25:57.080
+Why the hell should I have to
+push Microsoft?
+
+25:57.080 --> 25:58.280
+It's impossible.
+
+25:58.280 --> 26:00.120
+You can't push that company to
+do anything.
+
+26:00.120 --> 26:00.960
+But I'll tell you why,
+
+26:00.960 --> 26:02.760
+because 95% of the world's using
+it.
+
+26:03.680 --> 26:06.720
+If they don't support it, we're
+gonna hit a ceiling.
+
+26:06.720 --> 26:08.400
+I think we've hit the ceiling
+
+26:08.400 --> 26:10.440
+and we can't go much beyond that
+
+26:10.440 --> 26:13.400
+until it's kind of on the
+desktop in Windows.
+
+26:13.400 --> 26:14.760
+Well, that's true, but you have
+to look
+
+26:14.760 --> 26:19.440
+at how many people use iTunes on
+Windows.
+
+26:19.440 --> 26:22.440
+It's all very well saying, 95%
+of people use Windows.
+
+26:22.440 --> 26:24.760
+How many Windows users are using
+iPod
+
+26:24.760 --> 26:26.160
+and therefore using iTunes?
+
+26:26.160 --> 26:29.840
+Well, every iPod user on Windows
+is using iTunes
+
+26:29.840 --> 26:31.720
+and so is it really a ceiling?
+
+26:31.760 --> 26:36.080
+We see about 70% of all
+downloads
+
+26:36.080 --> 26:38.800
+that are iTunes related coming
+from the Windows version.
+
+26:38.800 --> 26:42.400
+It used to be 50-50 and now it's
+about 70%.
+
+26:42.400 --> 26:44.200
+I think our numbers are
+something similar,
+
+26:44.200 --> 26:46.120
+although it's almost 90% of
+their listeners
+
+26:46.120 --> 26:48.720
+are using iTunes on some
+platform.
+
+26:48.720 --> 26:51.640
+I just think we need an ecology
+here.
+
+26:51.640 --> 26:53.520
+It's Apple's so dominant and
+it's not.
+
+26:53.520 --> 26:56.520
+And again, kudos to Apple for
+stepping up and doing it.
+
+26:56.520 --> 26:58.040
+I'm not complaining about that
+at all.
+
+26:58.040 --> 26:58.880
+I wanna see Microsoft.
+
+26:58.880 --> 27:00.680
+Well, we're the open source guys
+outside of,
+
+27:00.680 --> 27:05.280
+I mean, here's what I think
+happened where we went wrong.
+
+27:05.280 --> 27:08.760
+Juice, formerly known as iPod or
+Lemon.
+
+27:08.760 --> 27:10.640
+Which you wrote the first
+version of.
+
+27:10.640 --> 27:12.280
+Yeah, well, I didn't write any
+of that code
+
+27:12.280 --> 27:15.080
+because I think it was in Python
+initially.
+
+27:15.080 --> 27:17.880
+Well, I wrote an Apple script
+and then it went to Python
+
+27:17.880 --> 27:21.120
+and PHP, or it's now it's
+Python, I think.
+
+27:22.240 --> 27:24.080
+What I think they did wrong
+there
+
+27:24.080 --> 27:26.600
+is they then turned it into a
+player
+
+27:26.600 --> 27:28.640
+and that really confuses a lot
+of people.
+
+27:28.680 --> 27:32.200
+It was just a utility, which was
+what my original script was,
+
+27:32.200 --> 27:33.800
+just hidden and doesn't do
+anything,
+
+27:33.800 --> 27:36.600
+but made me notify you of what
+it's doing.
+
+27:36.600 --> 27:37.720
+I think that's where they went
+wrong
+
+27:37.720 --> 27:41.120
+because creating a player is
+very, very difficult business.
+
+27:41.120 --> 27:42.120
+And honestly.
+
+27:42.120 --> 27:44.360
+And you don't need to because
+there is a player.
+
+27:44.360 --> 27:45.520
+There's plenty of players.
+
+27:45.520 --> 27:46.800
+Yeah, our Windows media player.
+
+27:46.800 --> 27:48.960
+I think the more it looks like
+Windows, the better
+
+27:48.960 --> 27:50.840
+and that's why I'd like to see
+Microsoft.
+
+27:50.840 --> 27:52.120
+But you think the open source
+community
+
+27:52.120 --> 27:54.240
+could step up and provide a
+solution
+
+27:54.240 --> 27:55.960
+that people would adopt?
+
+27:55.960 --> 27:57.520
+Well, one of two ways,
+
+27:57.520 --> 28:02.080
+is maybe someone revisits the
+whole concept of juice
+
+28:02.080 --> 28:05.680
+and creates a new version that
+somehow makes it clearer
+
+28:05.680 --> 28:10.240
+to users and how it integrates
+with their favorite player.
+
+28:10.240 --> 28:11.080
+It's an extension.
+
+28:11.080 --> 28:11.920
+It's a widget.
+
+28:11.920 --> 28:14.640
+It just does it and then media
+player takes over.
+
+28:14.640 --> 28:17.680
+Yeah, or conversely, the open
+source community,
+
+28:17.680 --> 28:19.880
+of course, could easily create a
+kick-ass player.
+
+28:19.880 --> 28:23.160
+But what I typically find is
+that it just misses
+
+28:23.520 --> 28:26.080
+the beautiful art that Apple
+cranks out.
+
+28:26.080 --> 28:27.760
+It just never looks right.
+
+28:27.760 --> 28:29.680
+There's Songbird, which is
+pretty gorgeous,
+
+28:29.680 --> 28:32.200
+but it's hard to get people to
+download that.
+
+28:32.200 --> 28:35.080
+I mean, it certainly hasn't hurt
+Apple.
+
+28:35.080 --> 28:37.760
+They reported on Wednesday that
+their first quarter profit
+
+28:37.760 --> 28:41.240
+was up 78% exceeding Wall
+Street's expectations,
+
+28:41.240 --> 28:44.520
+a profit of $1 billion,
+
+28:44.520 --> 28:48.360
+with apologies to Dr. Evil.
+
+28:48.360 --> 28:50.480
+That's a buck 14 a share.
+
+28:50.560 --> 28:55.560
+iPod sales $21 million in a
+quarter.
+
+28:55.560 --> 28:56.720
+That's pretty astounding.
+
+28:56.720 --> 29:00.480
+Total iPod sales $90 million
+since October 2001.
+
+29:01.280 --> 29:02.120
+That's pretty crazy.
+
+29:02.120 --> 29:04.560
+Well, do you remember the
+cassette Walkman's?
+
+29:04.560 --> 29:05.400
+Yeah, Sony.
+
+29:05.400 --> 29:07.600
+We've been through this before.
+
+29:07.600 --> 29:08.440
+You think it'll happen?
+
+29:08.440 --> 29:09.280
+Same thing will happen?
+
+29:09.280 --> 29:10.400
+Something else will come along?
+
+29:10.400 --> 29:13.480
+Or will somebody make a better
+iPod?
+
+29:13.480 --> 29:15.640
+Well, I was thinking about this
+the other day
+
+29:15.640 --> 29:18.880
+and I remember when you just had
+to have the Walkman.
+
+29:19.520 --> 29:21.160
+And if you didn't have the Sony
+Walkman,
+
+29:21.160 --> 29:24.080
+you had the cheesy kind and it's
+exactly...
+
+29:24.080 --> 29:25.280
+You got the shitty headphone...
+
+29:25.280 --> 29:26.120
+Oh, sorry, Leo.
+
+29:26.120 --> 29:26.960
+You got the crappy...
+
+29:26.960 --> 29:27.800
+Can I say crap?
+
+29:27.800 --> 29:29.400
+You got the crappy headphone.
+
+29:29.400 --> 29:30.960
+You got the crappy headphones
+
+29:30.960 --> 29:35.960
+or you don't have the new Dolby
+DBX noise reduction.
+
+29:36.400 --> 29:39.080
+And then something along the way
+happened
+
+29:39.080 --> 29:42.320
+and I'm not quite sure what,
+honestly.
+
+29:42.320 --> 29:44.280
+Then we tried the portable DVD
+players
+
+29:44.280 --> 29:45.880
+that wasn't really too
+successful
+
+29:45.880 --> 29:48.080
+because there was too much
+skipping, typically.
+
+29:48.120 --> 29:50.680
+So maybe it was just pent-up
+demand
+
+29:50.680 --> 29:52.040
+that built over the years.
+
+29:52.040 --> 29:53.000
+I remember Patrick, though,
+
+29:53.000 --> 29:58.000
+when we saw the first hard drive
+MP3 players.
+
+29:58.080 --> 29:58.920
+Remember that?
+
+29:58.920 --> 29:59.760
+What was it?
+
+29:59.760 --> 30:00.600
+PJB 100.
+
+30:00.600 --> 30:01.440
+Yeah.
+
+30:01.440 --> 30:02.280
+That was pretty exciting.
+
+30:02.280 --> 30:03.120
+I still have one.
+
+30:03.120 --> 30:03.960
+You did?
+
+30:03.960 --> 30:04.800
+It was amazing.
+
+30:04.800 --> 30:06.520
+There was clearly something
+special
+
+30:06.520 --> 30:09.320
+about the idea of having that
+many songs in a device.
+
+30:09.320 --> 30:10.600
+It wasn't as small as an iPod,
+
+30:10.600 --> 30:12.160
+but it was very exciting.
+
+30:12.160 --> 30:14.760
+Well, it predated, it was before
+the iPod.
+
+30:14.760 --> 30:16.880
+Well before, yeah, you don't
+know, I know.
+
+30:16.920 --> 30:18.120
+And then there was a company
+
+30:18.120 --> 30:19.840
+that was doing that with the
+Indash.
+
+30:19.840 --> 30:20.680
+Was it Q?
+
+30:20.680 --> 30:21.920
+What was the name of that?
+
+30:21.920 --> 30:23.120
+The MP3 car.
+
+30:23.120 --> 30:24.200
+MP3 car, yeah.
+
+30:24.200 --> 30:25.240
+Or car MP3.com.
+
+30:25.240 --> 30:28.360
+I wonder if some of the impetus
+for Apple's iPhone
+
+30:28.360 --> 30:32.440
+is not to be there when that
+time has come,
+
+30:32.440 --> 30:35.200
+you know, when the iPod reaches
+end of life
+
+30:35.200 --> 30:37.200
+to have the next thing.
+
+30:37.200 --> 30:38.040
+Isn't that something?
+
+30:38.040 --> 30:38.880
+That's very possible.
+
+30:38.880 --> 30:40.360
+Is that what Apple's goal is?
+
+30:40.360 --> 30:44.800
+Maybe it's just having another
+next thing.
+
+30:44.800 --> 30:45.640
+Right.
+
+30:46.360 --> 30:48.160
+That's how Steve's positioning
+it for sure.
+
+30:48.160 --> 30:49.000
+It's the next thing.
+
+30:49.000 --> 30:51.320
+Yeah, when you had the first
+Motorola flip phones
+
+30:51.320 --> 30:55.800
+in 1996, 1997, and everyone
+loved it
+
+30:55.800 --> 30:57.320
+and it was the coolest thing to
+have,
+
+30:57.320 --> 31:00.040
+then all of a sudden they were
+completely out of style.
+
+31:00.040 --> 31:02.360
+It was, you know, they were also
+breaking
+
+31:02.360 --> 31:04.040
+because you'd open it, the lid
+would flip off
+
+31:04.040 --> 31:06.640
+in the space and stuff.
+
+31:06.640 --> 31:09.120
+But now the flip phone is,
+without a doubt, is back.
+
+31:09.120 --> 31:12.200
+It's fashion, Leo, it's just
+fashion.
+
+31:12.200 --> 31:13.480
+Yeah, that's a very good point.
+
+31:13.480 --> 31:15.440
+And it's hard to influence
+fashion.
+
+31:15.440 --> 31:18.400
+I mean, I don't think Apple,
+
+31:18.400 --> 31:20.600
+any more than anybody else has a
+handle on how to do that.
+
+31:20.600 --> 31:24.160
+Ah, but wait, this is where
+Steve Jobs is brilliant.
+
+31:24.160 --> 31:25.800
+You know, he brings in Bono,
+
+31:25.800 --> 31:27.760
+the epitome of rock and roll in
+fashion.
+
+31:27.760 --> 31:28.600
+Right.
+
+31:28.600 --> 31:31.000
+Whether you, I mean, I don't
+agree with his fashion sense,
+
+31:31.000 --> 31:32.760
+but yeah, exactly, very
+debatable,
+
+31:32.760 --> 31:37.480
+but you know, coming out with a
+red iPod
+
+31:37.480 --> 31:40.680
+for the red brand, that's a huge
+fashion statement.
+
+31:40.680 --> 31:42.600
+That doesn't explain why John
+Mayer
+
+31:42.600 --> 31:44.320
+keeps showing up at the keynotes
+though.
+
+31:44.320 --> 31:45.160
+I don't understand that at all.
+
+31:45.200 --> 31:46.600
+But that's also Steve's weird.
+
+31:46.600 --> 31:48.720
+I mean, Steve's been obsessed
+with rock stars forever.
+
+31:48.720 --> 31:49.560
+Yes.
+
+31:49.560 --> 31:51.720
+He's got this sort of like NPR
+target audience
+
+31:51.720 --> 31:53.400
+for all of his presentations
+these days.
+
+31:53.400 --> 31:54.600
+That's true. Yeah, that's a good
+point, yeah.
+
+31:54.600 --> 31:55.680
+Dude, he's doing a show.
+
+31:55.680 --> 31:58.240
+You gotta have different opening
+and closing acts sometimes,
+
+31:58.240 --> 31:59.440
+you know, and you, and you, and
+sometimes.
+
+31:59.440 --> 32:00.520
+Kanye West was great.
+
+32:00.520 --> 32:01.360
+I love that.
+
+32:01.360 --> 32:04.200
+But John Mayer, I can do
+without.
+
+32:04.200 --> 32:05.040
+I don't know, maybe.
+
+32:05.040 --> 32:06.640
+Well, the question is, I mean,
+can they, can they get,
+
+32:06.640 --> 32:10.040
+I mean, the, you know, nobody,
+nobody at Apple
+
+32:10.040 --> 32:12.120
+could have known that the iPod
+was going to explode.
+
+32:12.120 --> 32:15.120
+No, I mean, if you, if you gave
+this headline to Apple,
+
+32:15.640 --> 32:18.720
+you know, five years ago, they
+would go, huh?
+
+32:18.720 --> 32:20.920
+You know, what we make most of
+our money on what?
+
+32:20.920 --> 32:21.920
+A music player?
+
+32:21.920 --> 32:26.320
+We are not Apple computer ink,
+we're just Apple ink, huh?
+
+32:26.320 --> 32:28.720
+Although Mac sales were up 40%
+too.
+
+32:28.720 --> 32:30.920
+I mean, Mac sales did well.
+
+32:30.920 --> 32:32.760
+Yeah, but it's also, I mean,
+it's also,
+
+32:32.760 --> 32:34.800
+it's a big quarter for spending
+for a lot of people, too.
+
+32:34.800 --> 32:35.640
+Well, but.
+
+32:35.640 --> 32:36.880
+For the first time in a while,
+
+32:36.880 --> 32:38.480
+everybody wasn't looking around
+going.
+
+32:38.480 --> 32:41.200
+Mac, Mac sales, Mac sales grew
+at double
+
+32:41.200 --> 32:42.840
+the growth of overall PC market.
+
+32:42.880 --> 32:45.680
+I mean, it was a good quarter
+for Apple.
+
+32:45.680 --> 32:48.400
+Yeah, but it'll be curious to
+see what the next quarter is
+like.
+
+32:48.400 --> 32:49.400
+People were waiting for Vista.
+
+32:49.400 --> 32:52.200
+A lot of pent up demand is
+coming out.
+
+32:52.200 --> 32:53.440
+You think they'll, you think
+they'll be glad
+
+32:53.440 --> 32:55.000
+they waited for Vista, Patrick?
+
+32:56.720 --> 32:57.760
+Oh, I don't know.
+
+32:57.760 --> 33:01.120
+Vista's, I, I, you know,
+Vista's,
+
+33:01.120 --> 33:03.600
+Vista's better than Windows ME.
+
+33:05.880 --> 33:07.960
+You know, Walt Mossberg in the
+journal this week
+
+33:07.960 --> 33:09.640
+said something that kind of
+surprised me
+
+33:09.640 --> 33:11.400
+because lately he's been a bit
+of an Apple cheerleader.
+
+33:11.400 --> 33:13.840
+He said, this is the best
+version of Windows ever.
+
+33:13.840 --> 33:15.080
+And frankly, I'd agree with him.
+
+33:15.080 --> 33:17.920
+I mean, it's very impressive,
+but it's,
+
+33:17.920 --> 33:21.000
+and then he goes on to say, but
+it's still Windows.
+
+33:22.040 --> 33:25.000
+Cold, but hard, but fair.
+
+33:25.000 --> 33:27.000
+He said, yeah.
+
+33:27.000 --> 33:29.640
+He said it's more, I mean, and
+this is true too.
+
+33:29.640 --> 33:32.040
+I mean, and I think Microsoft
+has to respect its DNA.
+
+33:32.040 --> 33:34.200
+It's more of Windows.
+
+33:34.200 --> 33:37.280
+It's not going to be a
+revolution.
+
+33:37.280 --> 33:39.720
+Well, part of what's interesting
+is you kind of take a look
+
+33:40.600 --> 33:44.200
+and I'm gonna send my apologies
+out
+
+33:44.200 --> 33:46.160
+to the entire open source
+community
+
+33:46.160 --> 33:48.760
+to sort of prevent a flood of
+email,
+
+33:48.760 --> 33:52.920
+but if you step away from Linux
+and BSD
+
+33:52.920 --> 33:54.520
+and the other open source
+operating systems
+
+33:54.520 --> 33:57.520
+and you basically look at the
+two highest profile
+
+33:57.520 --> 33:59.760
+operating systems out there, and
+again,
+
+33:59.760 --> 34:01.840
+don't send me emails saying more
+people using Linux
+
+34:01.840 --> 34:02.680
+than OS 10.
+
+34:02.680 --> 34:04.000
+I don't care for the purposes of
+this operation.
+
+34:04.000 --> 34:05.040
+Is that true?
+
+34:05.040 --> 34:06.840
+Well, I don't know.
+
+34:06.840 --> 34:08.400
+Somebody is asserting that,
+however.
+
+34:09.120 --> 34:11.160
+I'm certainly going to get email
+if I say
+
+34:11.160 --> 34:12.520
+that OS 10 is more popular,
+
+34:12.520 --> 34:14.600
+but if you look at the way, I
+mean.
+
+34:14.600 --> 34:16.520
+Actually, more people are using
+World of Warcraft
+
+34:16.520 --> 34:18.960
+as their base operating system
+than any other.
+
+34:18.960 --> 34:20.720
+Or at least to occupy most of
+their day.
+
+34:20.720 --> 34:22.720
+And how about that guy that got
+the levels?
+
+34:22.720 --> 34:24.520
+Burning Crusade, baby.
+
+34:25.320 --> 34:29.320
+I was gonna rename to the
+Burning Crusade,
+
+34:29.320 --> 34:30.560
+but then they did that and I
+couldn't,
+
+34:30.560 --> 34:31.480
+so I'm very disappointed.
+
+34:31.480 --> 34:34.720
+All I'm thinking is like in the
+era of cyber war,
+
+34:34.720 --> 34:36.000
+France is gonna clean up.
+
+34:36.440 --> 34:39.520
+So we should explain the Burning
+Crusade,
+
+34:39.520 --> 34:40.840
+and then we can get back to
+your,
+
+34:40.840 --> 34:43.160
+because we've now gone
+completely down a rat hole,
+
+34:43.160 --> 34:47.760
+but the newest, actually the
+first expansion pack
+
+34:47.760 --> 34:48.880
+for World of Warcraft is out.
+
+34:48.880 --> 34:51.840
+Burning Crusade allows you to go
+to a whole new world
+
+34:51.840 --> 34:56.680
+and allows you to go from the
+top 60 to 70 now,
+
+34:56.680 --> 34:57.920
+which is one beta.
+
+34:57.920 --> 35:01.680
+It's the version of 11 for World
+of Warcraft users.
+
+35:01.680 --> 35:04.040
+And I just want you to know I am
+not a geek.
+
+35:04.040 --> 35:05.880
+I am a level 12 paladin, baby.
+
+35:07.320 --> 35:08.160
+And, uh...
+
+35:08.160 --> 35:09.000
+Dude, that's Paul.
+
+35:09.000 --> 35:09.840
+You're a casual player.
+
+35:09.840 --> 35:11.720
+Somebody did that, somebody did
+that in,
+
+35:11.720 --> 35:13.040
+yeah, I'm a very casual player.
+
+35:13.040 --> 35:14.760
+Somebody did that, you said in
+28 hours
+
+35:14.760 --> 35:16.240
+a French fella did that to a 10.
+
+35:16.240 --> 35:17.080
+Leveled up 10.
+
+35:17.080 --> 35:17.920
+From 60 to 70.
+
+35:17.920 --> 35:18.760
+Unbelievable.
+
+35:18.760 --> 35:20.440
+And reported the whole thing on
+YouTube.
+
+35:20.440 --> 35:22.120
+Is it on YouTube?
+
+35:22.120 --> 35:22.960
+I'm pretty sure.
+
+35:22.960 --> 35:23.960
+A 28 hour mirror.
+
+35:25.200 --> 35:26.920
+Perhaps they fast forwarded
+through it.
+
+35:26.920 --> 35:27.760
+All right, so.
+
+35:27.760 --> 35:28.600
+Just the highlights.
+
+35:28.600 --> 35:29.440
+So that's the Burning Crusade
+rat hole.
+
+35:29.440 --> 35:30.680
+Let's get back to what you were
+saying,
+
+35:30.680 --> 35:33.280
+which was, I forgot something
+about Linux.
+
+35:33.720 --> 35:35.600
+Looking at the way the two major
+players,
+
+35:35.600 --> 35:37.280
+like I think in the public
+spine,
+
+35:37.280 --> 35:38.720
+there's two major players right
+now
+
+35:38.720 --> 35:40.120
+for personal operating systems.
+
+35:40.120 --> 35:42.320
+And there's Apple and there's
+Microsoft.
+
+35:42.320 --> 35:43.640
+And Apple's, you know, they've
+always,
+
+35:43.640 --> 35:45.560
+you know, every three years they
+wipe off
+
+35:45.560 --> 35:47.160
+an entire generation of
+hardware.
+
+35:47.160 --> 35:49.640
+And now they're basically doing
+these sort of annual,
+
+35:49.640 --> 35:53.280
+you know, little more than
+annual updates to OS 10.
+
+35:53.280 --> 35:54.640
+And, you know, they charge you
+
+35:54.640 --> 35:57.560
+what's starting to look more and
+more like a fair amount.
+
+35:57.560 --> 35:59.320
+If a video game can cost 60
+bucks,
+
+35:59.320 --> 36:02.920
+an operating system at 120
+doesn't sound too bad.
+
+36:02.920 --> 36:05.200
+Versus the sort of massive
+attempts
+
+36:05.200 --> 36:07.440
+to rewrite Microsoft's operating
+system
+
+36:07.440 --> 36:09.600
+coupled with a massive cost to
+upgrade.
+
+36:09.600 --> 36:11.800
+What is it like for most people
+to be at least 100
+
+36:11.800 --> 36:14.160
+and many 200 and more, right?
+
+36:14.160 --> 36:16.440
+Yeah. To get to ultimate anyway.
+
+36:16.440 --> 36:19.720
+Yeah, well, ultimate's
+fascinating, but, you know,
+
+36:19.720 --> 36:21.480
+I mean, it's, you know, we're,
+what,
+
+36:21.480 --> 36:22.800
+two weeks less than two weeks
+away
+
+36:22.800 --> 36:24.120
+at this point from the release.
+
+36:24.120 --> 36:24.960
+That's right.
+
+36:24.960 --> 36:25.800
+The consumer version.
+
+36:25.800 --> 36:26.920
+Yeah.
+
+36:26.920 --> 36:28.600
+Actually, I wonder if anybody's
+pre-ordering for that.
+
+36:28.600 --> 36:31.320
+But it's just, it's such a very
+different, you know,
+
+36:31.320 --> 36:32.280
+Apple's kind of like, hey,
+
+36:32.360 --> 36:33.120
+we've got the, you know,
+
+36:33.120 --> 36:35.400
+we've got the foundation is
+good.
+
+36:35.400 --> 36:37.040
+We've got these open source cats
+
+36:37.040 --> 36:38.560
+that are doing great things with
+the kernel
+
+36:38.560 --> 36:40.000
+and we're just gonna keep
+plugging away.
+
+36:40.000 --> 36:41.000
+I'm excited about leopard.
+
+36:41.000 --> 36:43.280
+I think it's got a long way off.
+
+36:43.280 --> 36:46.240
+Interesting twist, however, to
+this Apple story.
+
+36:46.240 --> 36:49.320
+You know, that all the Core 2
+Macs
+
+36:49.320 --> 36:51.840
+have come with, it turns out,
+
+36:51.840 --> 36:54.040
+airport cards that could do
+802.11
+
+36:54.040 --> 36:57.680
+and it does require a firmware
+patch
+
+36:57.680 --> 37:00.320
+and Apple's claiming that it's
+Sarbanes Oxley
+
+37:00.360 --> 37:02.480
+that's making them charge a buck
+99.
+
+37:02.480 --> 37:03.960
+It's some weird accounting rule
+
+37:03.960 --> 37:06.920
+that since they've already
+booked the revenue
+
+37:06.920 --> 37:08.880
+from selling these machines,
+
+37:08.880 --> 37:09.920
+if they're going to upgrade,
+
+37:09.920 --> 37:11.000
+I don't buy this.
+
+37:11.000 --> 37:11.840
+Anybody buy this,
+
+37:11.840 --> 37:13.400
+if you're gonna upgrade the
+capabilities of the machine,
+
+37:13.400 --> 37:14.800
+they have to charge you a buck
+99.
+
+37:14.800 --> 37:16.000
+What?
+
+37:16.000 --> 37:16.840
+Well, I can't support it.
+
+37:16.840 --> 37:18.800
+I think it's true.
+
+37:18.800 --> 37:20.440
+Adam, did you study accounting
+in school?
+
+37:20.440 --> 37:22.160
+Cause we need some help here.
+
+37:22.160 --> 37:24.480
+Well, no, but I did run my own
+public company.
+
+37:24.480 --> 37:27.160
+So, you know, bad socks.
+
+37:27.160 --> 37:30.000
+Well, this is before socks.
+
+37:30.000 --> 37:32.440
+I mean, Sarbanes Oxley has been
+a class weird.
+
+37:32.440 --> 37:33.280
+Yeah.
+
+37:33.280 --> 37:35.520
+As somebody, like one of my best
+friends is an accountant,
+
+37:35.520 --> 37:37.840
+if you wanna hear him sort of go
+off in strange directions,
+
+37:37.840 --> 37:38.920
+just bring up socks.
+
+37:38.920 --> 37:40.520
+This was the U.S. law that came
+in
+
+37:40.520 --> 37:42.120
+after the Enron scandal,
+
+37:42.120 --> 37:45.440
+to, well, one hoped to add
+transparency
+
+37:45.440 --> 37:46.920
+and accounting.
+
+37:46.920 --> 37:50.560
+Well, it used to be much easier
+to indeed,
+
+37:50.560 --> 37:53.920
+if you, so from what I
+understand of it,
+
+37:53.920 --> 37:55.720
+and I certainly don't want to be
+an expert
+
+37:55.720 --> 37:57.440
+or know everything about it,
+
+37:57.440 --> 38:00.200
+they did recognize the revenue
+from this in advance,
+
+38:00.200 --> 38:02.560
+which of course is something
+that props up your 10 Q
+
+38:02.560 --> 38:04.440
+and your quarterly numbers.
+
+38:04.440 --> 38:07.000
+And I think it used to be a lot
+easier
+
+38:07.000 --> 38:10.280
+to explain that away later
+
+38:10.280 --> 38:12.400
+without charging the customer
+for it.
+
+38:12.400 --> 38:13.240
+I understand.
+
+38:13.240 --> 38:15.360
+When I download an update to
+software for free,
+
+38:15.360 --> 38:17.560
+doesn't that add value to the
+software
+
+38:17.560 --> 38:19.760
+and wasn't that revenue already
+recognized?
+
+38:19.760 --> 38:21.200
+I'm not, I don't, I don't get
+it.
+
+38:21.200 --> 38:22.880
+Well, I think this is,
+
+38:22.880 --> 38:24.360
+I think this is something to
+follow
+
+38:24.360 --> 38:27.000
+because if this is a trend,
+
+38:27.000 --> 38:29.960
+then it may very well be that
+you have to,
+
+38:29.960 --> 38:31.200
+you know, pay for this stuff
+
+38:31.200 --> 38:33.440
+where it has to be accounted for
+some way
+
+38:33.440 --> 38:36.040
+directly with the consumer
+instead of, you know,
+
+38:36.040 --> 38:38.000
+between balance sheets within a
+corporation.
+
+38:38.000 --> 38:39.320
+That could be pretty messed up.
+
+38:39.320 --> 38:41.720
+So I do have my eye on this one.
+
+38:41.720 --> 38:43.520
+See that's actually got a pretty
+good article
+
+38:43.520 --> 38:44.520
+written up on this.
+
+38:44.520 --> 38:47.600
+And they're saying basically
+this was a choice
+
+38:47.600 --> 38:49.000
+of how to book the revenue.
+
+38:49.000 --> 38:51.880
+And they're probably a little
+bit conservative
+
+38:51.880 --> 38:53.160
+given the option scandal.
+
+38:53.160 --> 38:54.840
+The SEC is looking closely at
+them.
+
+38:54.880 --> 38:57.400
+This might be a good time to tow
+the line.
+
+38:57.400 --> 38:59.080
+Here's another thought.
+
+38:59.080 --> 39:01.160
+Is it possible this is a
+licensing issue
+
+39:01.160 --> 39:03.360
+that if you, you know, they put
+something in
+
+39:03.360 --> 39:04.840
+that they license.
+
+39:04.840 --> 39:05.680
+They have to pay for.
+
+39:05.680 --> 39:08.800
+Yeah, they have to pay for per
+user essentially
+
+39:08.800 --> 39:09.640
+if it's activated.
+
+39:09.640 --> 39:10.480
+Could it be that?
+
+39:10.480 --> 39:12.120
+It does seem a rather token
+amount.
+
+39:12.120 --> 39:15.200
+I mean, Apple probably will have
+some revenue from this
+
+39:15.200 --> 39:16.640
+but not a significant amount.
+
+39:17.840 --> 39:19.240
+I'll pay it, it's a buck 99.
+
+39:19.240 --> 39:22.160
+I mean, I'll pay it to get in in
+my MacBook Pro
+
+39:22.160 --> 39:24.440
+but it just, it's an odd thing
+to do.
+
+39:24.440 --> 39:25.640
+The good news is the current,
+
+39:25.640 --> 39:27.680
+the new U.S. Congress is
+apparently
+
+39:27.680 --> 39:29.320
+reevaluating Sarbanes-Oxley.
+
+39:29.320 --> 39:31.520
+So maybe this is something
+that...
+
+39:31.520 --> 39:35.320
+Well, we're in deep Kimche with
+Sarbanes-Oxley.
+
+39:35.320 --> 39:36.760
+Another word for crap Leo.
+
+39:38.760 --> 39:40.720
+No, I mean, this is really
+horrible.
+
+39:40.720 --> 39:43.760
+All the, the IPO market has gone
+overseas.
+
+39:43.760 --> 39:46.120
+It's in London is thriving now
+
+39:46.120 --> 39:47.600
+and just look at the, you know,
+the dollars.
+
+39:47.600 --> 39:49.120
+Is that what happened to IPO?
+
+39:49.120 --> 39:51.640
+We haven't had an IPO in years.
+
+39:51.640 --> 39:53.760
+Certainly no tech IPO in years.
+
+39:53.760 --> 39:55.040
+Nobody wants to do it.
+
+39:55.040 --> 39:55.880
+An alternative.
+
+39:55.880 --> 39:57.680
+Even GoDaddy came right up to
+the line
+
+39:57.680 --> 39:59.640
+and said, whoa, and backed off.
+
+39:59.640 --> 40:00.480
+Yep.
+
+40:00.480 --> 40:02.400
+And that's cause of socks.
+
+40:02.400 --> 40:03.240
+Oh, absolutely.
+
+40:03.240 --> 40:04.080
+Very interesting.
+
+40:04.080 --> 40:06.120
+Well, it sounds like a bad law
+if it's doing.
+
+40:06.120 --> 40:08.160
+While we're on the topic of...
+
+40:08.160 --> 40:09.000
+Bad laws?
+
+40:09.000 --> 40:11.440
+Sort of, you know, I was gonna
+go with
+
+40:11.440 --> 40:14.560
+the transmission and sort of
+data rates and things.
+
+40:14.560 --> 40:16.520
+Well, I was absolutely amazed to
+see this month
+
+40:16.520 --> 40:18.680
+that the latest issue of Playboy
+
+40:18.680 --> 40:21.880
+has got a two page editorial on
+net neutrality,
+
+40:21.880 --> 40:24.480
+FCC and bandwidth utilization.
+
+40:24.480 --> 40:26.080
+Well, I only read it for the
+pictures,
+
+40:26.080 --> 40:27.600
+so I must have missed that.
+
+40:27.600 --> 40:30.000
+Well, the article was written
+three months ago.
+
+40:30.000 --> 40:31.160
+Has it changed now?
+
+40:32.160 --> 40:34.680
+Well, no, it's just, that's
+their lead time
+
+40:34.680 --> 40:36.080
+is three months.
+
+40:36.080 --> 40:36.920
+Oh, I see.
+
+40:36.920 --> 40:39.320
+So it was a big story three
+months ago.
+
+40:39.320 --> 40:40.160
+Yep.
+
+40:40.160 --> 40:42.400
+I mean, I thought it was amazing
+that the tech community
+
+40:42.400 --> 40:44.240
+has done such a great job of
+making
+
+40:44.240 --> 40:45.480
+such a who heart out of this
+
+40:45.480 --> 40:46.800
+that it can reach something, you
+know,
+
+40:46.800 --> 40:49.200
+as completely mainstream as
+Playboy.
+
+40:49.200 --> 40:51.080
+Well, I don't know if it was the
+tech community
+
+40:51.080 --> 40:52.640
+so much as the content community
+
+40:52.640 --> 40:54.920
+that made such a huge noise
+about it.
+
+40:54.920 --> 40:56.200
+I thought it was Trisha Helfer.
+
+40:56.200 --> 41:00.680
+Playboy makes a lot of money
+online.
+
+41:00.680 --> 41:01.520
+You know what I mean?
+
+41:01.520 --> 41:02.440
+It's certainly in their, yeah,
+
+41:02.440 --> 41:04.320
+absolutely in their interest to
+keep an eye on it.
+
+41:04.320 --> 41:05.160
+Yeah.
+
+41:05.160 --> 41:06.840
+They certainly took their time
+and sort of,
+
+41:06.840 --> 41:08.480
+you know, I mean, what was the
+gist of the,
+
+41:08.480 --> 41:10.600
+what was the gist of the
+article?
+
+41:10.600 --> 41:13.640
+It was just basically saying how
+absolutely useless
+
+41:13.640 --> 41:15.720
+the FCC was, how it was in the
+grasp
+
+41:15.720 --> 41:17.680
+of all the big content companies
+
+41:17.680 --> 41:18.640
+and that it was giving, you
+know,
+
+41:18.640 --> 41:21.000
+it was trying to stiff users
+effectively.
+
+41:21.000 --> 41:22.720
+By selling out to all these
+people
+
+41:22.720 --> 41:25.920
+and that the FCC had gone, had
+lost its remit
+
+41:25.920 --> 41:27.600
+of public service and they
+basically become
+
+41:27.600 --> 41:29.360
+a sort of business evangelist.
+
+41:30.440 --> 41:33.000
+Which is, well, I think this
+whole net neutrality
+
+41:33.000 --> 41:35.840
+debate has been a very feudal
+one.
+
+41:35.840 --> 41:37.880
+And I don't, I'm not even sure I
+understand
+
+41:37.880 --> 41:39.560
+what people are trying to
+communicate
+
+41:39.560 --> 41:41.360
+with net neutrality, nor do I
+believe
+
+41:41.360 --> 41:44.640
+that these people understand
+what networking is
+
+41:44.640 --> 41:46.280
+and what it costs to make a
+network
+
+41:46.280 --> 41:48.360
+and to maintain it and how
+that's utilized.
+
+41:48.360 --> 41:49.760
+You say these people, who do you
+mean?
+
+41:49.760 --> 41:51.680
+Do you mean the Congress or do
+you mean?
+
+41:51.680 --> 41:54.160
+No, everybody who was yelling
+and screaming
+
+41:54.160 --> 41:56.000
+about net neutrality.
+
+41:56.000 --> 41:59.760
+You think that, so you're in the
+AT&T court on this one.
+
+42:00.880 --> 42:04.760
+No, I'm not necessarily in
+either court,
+
+42:04.760 --> 42:08.000
+but I do know a lot about
+networking
+
+42:08.000 --> 42:12.040
+and when you see what it, look,
+it's all about money.
+
+42:12.040 --> 42:14.160
+It's very expensive to set up a
+network
+
+42:14.160 --> 42:15.840
+and if you have lots of traffic,
+
+42:15.840 --> 42:18.200
+that means more switches, bigger
+switches,
+
+42:18.200 --> 42:20.220
+that comes at a huge cost.
+
+42:20.220 --> 42:25.220
+So I'm not necessarily against
+ISPs and telcos
+
+42:26.960 --> 42:29.720
+charging the content providers
+for that distribution.
+
+42:29.720 --> 42:33.040
+Oh, but it sounds like then
+you've got this kind of toll
+road,
+
+42:33.040 --> 42:35.680
+this gerrymandered network where
+every time
+
+42:35.680 --> 42:38.160
+you wanna go somewhere, you've
+gotta pay a little fee
+
+42:38.160 --> 42:39.600
+because we've got toll roads
+everywhere.
+
+42:39.600 --> 42:40.440
+Is that what we want?
+
+42:40.440 --> 42:44.200
+I'm also not worried about the
+sheer force
+
+42:44.200 --> 42:47.840
+of human beings to get something
+
+42:47.880 --> 42:51.080
+if they want it, no matter if
+they have to beg,
+
+42:51.080 --> 42:52.880
+steal, or borrow to get it.
+
+42:52.880 --> 42:54.200
+Mostly.
+
+42:54.200 --> 42:56.040
+There will be alternatives,
+
+42:56.040 --> 42:58.360
+but we already have a toll road.
+
+42:58.360 --> 43:00.120
+I pay for bandwidth going out
+
+43:00.120 --> 43:01.480
+and you pay for bandwidth coming
+in.
+
+43:01.480 --> 43:02.880
+The toll road's already there.
+
+43:02.880 --> 43:04.400
+There's nothing new here.
+
+43:04.400 --> 43:05.240
+Yeah, but let's not add more.
+
+43:05.240 --> 43:07.640
+The AT&T, the toll road needs to
+be paid for.
+
+43:07.640 --> 43:10.800
+Although it's our, but we're
+paying for it now
+
+43:10.800 --> 43:14.040
+and it's a variable cost and
+it's competition.
+
+43:14.040 --> 43:15.840
+Adam, we're arguing on the same
+side.
+
+43:16.400 --> 43:19.440
+AT&T basically claims that they
+can't deliver.
+
+43:19.440 --> 43:22.440
+They can't deliver the download.
+
+43:22.440 --> 43:26.160
+Ironically, they've kind of
+backed off on this.
+
+43:26.160 --> 43:27.520
+They said, we'll never do that.
+
+43:27.520 --> 43:30.680
+We didn't mean that and we don't
+wanna do it.
+
+43:30.680 --> 43:31.920
+Oh, I think they will, Leo.
+
+43:31.920 --> 43:33.520
+I think they will most
+definitely do it,
+
+43:33.520 --> 43:36.840
+but they won't do it to people
+
+43:36.840 --> 43:41.840
+who are providing media and
+other content
+
+43:42.160 --> 43:44.680
+peer to peer or one to few
+
+43:44.680 --> 43:46.600
+or even one to many.
+
+43:46.600 --> 43:51.600
+It'll really come companies like
+YouTube, PodShow, Google,
+
+43:51.800 --> 43:53.640
+a Tweet may have to deal with
+that as well
+
+43:53.640 --> 43:55.400
+because you're just pushing
+tremendous amounts
+
+43:55.400 --> 43:57.960
+of bandwidth through their
+system.
+
+43:57.960 --> 44:00.440
+So basically, let me see if I
+got this straight at them.
+
+44:00.440 --> 44:03.320
+I'm paying Comcast a bloody
+fortune
+
+44:03.320 --> 44:05.080
+for my connectivity,
+
+44:05.080 --> 44:07.120
+which I can't actually reach
+
+44:07.120 --> 44:08.800
+with any single provider
+
+44:08.800 --> 44:10.520
+that can actually saturate that
+connection
+
+44:10.520 --> 44:12.960
+because I don't deserve to get
+the bandwidth
+
+44:12.960 --> 44:14.160
+I think I'm paying for.
+
+44:15.160 --> 44:16.520
+Well, I don't think anyone has
+said
+
+44:16.520 --> 44:18.560
+it's exactly going to be like
+that.
+
+44:18.560 --> 44:22.080
+I think that there's been talk
+of prioritization packets.
+
+44:22.080 --> 44:26.680
+No, not reach and have a
+different priority
+
+44:26.680 --> 44:28.520
+or two different things.
+
+44:28.520 --> 44:32.120
+I think that there will
+definitely be levels
+
+44:32.120 --> 44:35.240
+of the so-called toll road
+
+44:35.240 --> 44:37.840
+that will depend upon amount of
+media,
+
+44:37.840 --> 44:40.240
+quality of media and consistency
+
+44:40.240 --> 44:41.600
+that is being sent down the
+pipe.
+
+44:41.600 --> 44:43.600
+I don't think anyone's going to
+get cut off
+
+44:43.600 --> 44:45.480
+and I don't think the consumer,
+
+44:45.480 --> 44:48.200
+and we already have all kinds of
+restrictions
+
+44:48.200 --> 44:52.120
+on running servers on your ISP
+connections.
+
+44:52.120 --> 44:54.120
+This has been around for a long,
+long time.
+
+44:54.120 --> 44:56.680
+I'm talking about getting the
+download speed
+
+44:56.680 --> 44:58.160
+I think I'm paying for.
+
+44:58.160 --> 45:00.680
+Well, I think that's a different
+issue.
+
+45:00.680 --> 45:04.040
+We have thousands of users that
+find themselves
+
+45:04.040 --> 45:07.640
+dealing with packet shaping
+issues on the ISP level.
+
+45:07.640 --> 45:09.320
+But this is a misnomer
+
+45:09.360 --> 45:13.240
+because it's been marketed
+incorrectly
+
+45:13.240 --> 45:14.720
+or maybe very correctly.
+
+45:14.720 --> 45:17.640
+When someone sells you an
+eight-megabit connection
+
+45:17.640 --> 45:21.960
+and you see a video coming down
+at two megabits per second,
+
+45:21.960 --> 45:23.480
+there's a lot of stuff in the
+middle
+
+45:23.480 --> 45:26.200
+that that eight-megabit
+connection has no control over.
+
+45:26.200 --> 45:28.200
+I'm not talking about eight
+megabits to two megabits.
+
+45:28.200 --> 45:30.000
+I'm talking about people being
+
+45:30.000 --> 45:31.840
+throttled to 20 or 50k.
+
+45:32.800 --> 45:35.480
+We were seeing 500k to a megabit
+
+45:35.480 --> 45:36.560
+suddenly finding themselves
+
+45:36.560 --> 45:38.080
+and not because they've hit a
+monthly cap
+
+45:38.080 --> 45:39.680
+and they amounted a lot of
+download.
+
+45:39.680 --> 45:42.000
+The people universally suddenly
+can't get it.
+
+45:42.000 --> 45:43.880
+Downloads paid from certain
+sites higher.
+
+45:43.880 --> 45:46.160
+Well, this is already happening.
+
+45:46.160 --> 45:47.640
+This is already happening
+
+45:47.640 --> 45:50.000
+because their networks can't
+handle the amount of traffic.
+
+45:50.000 --> 45:53.120
+Is this the old argument though
+
+45:53.120 --> 45:56.800
+that we can't sustain flat rate
+pricing on data.
+
+45:56.800 --> 45:59.440
+We've got to go back to per-bit
+pricing.
+
+45:59.440 --> 46:03.040
+I mean, isn't that something
+people would like to do too?
+
+46:03.040 --> 46:05.160
+Wouldn't that solve the issue?
+
+46:05.160 --> 46:06.960
+Customers want flat rate.
+
+46:07.000 --> 46:08.960
+Just look at cell phone plans.
+
+46:08.960 --> 46:11.200
+When networking started,
+
+46:11.200 --> 46:14.640
+we came up with this whole idea
+of a peering agreement
+
+46:14.640 --> 46:16.800
+precisely because the telcos
+
+46:16.800 --> 46:18.080
+didn't really have the
+capability
+
+46:18.080 --> 46:19.840
+or the horsepower at the time
+
+46:19.840 --> 46:21.680
+to be able to calculate every
+bit
+
+46:21.680 --> 46:22.840
+that passed through their
+routers
+
+46:22.840 --> 46:23.760
+and who would belong to
+
+46:23.760 --> 46:27.800
+like they were used to doing
+with telephone minutes
+
+46:27.800 --> 46:29.440
+because there's something at the
+end of every month
+
+46:29.440 --> 46:30.360
+that's called settlement
+
+46:30.360 --> 46:32.920
+and all the telcos exchange all
+their records
+
+46:32.920 --> 46:34.120
+and hey, I paid you.
+
+46:34.120 --> 46:35.280
+I sent this much your way.
+
+46:35.280 --> 46:37.200
+I sent this much my way.
+
+46:37.200 --> 46:38.920
+We're gonna either wash it out
+
+46:38.920 --> 46:41.520
+or you owe me money or I owe you
+money
+
+46:41.520 --> 46:45.040
+and these peering agreements
+started basically by saying,
+
+46:45.040 --> 46:46.040
+look, we can't count it
+
+46:46.040 --> 46:48.560
+but we can't see exactly what's
+coming through you
+
+46:48.560 --> 46:49.800
+or is directed towards you
+
+46:49.800 --> 46:52.160
+but it's kind of the same amount
+so we're peers.
+
+46:52.160 --> 46:54.840
+And so yes, I think the only way
+to do it
+
+46:54.840 --> 46:57.880
+is to go back to actual packet
+counting.
+
+46:57.880 --> 46:58.720
+At a cost.
+
+46:58.720 --> 47:00.440
+I mean, that means all of a
+sudden
+
+47:00.440 --> 47:02.080
+you're putting switches and
+routers everywhere.
+
+47:02.080 --> 47:03.000
+You're measuring everything.
+
+47:03.000 --> 47:05.320
+There's some bottlenecking.
+
+47:05.320 --> 47:06.320
+At the end of the day though,
+
+47:06.320 --> 47:08.520
+I think the consumer will win
+big time.
+
+47:08.520 --> 47:10.040
+I think exactly the opposite.
+
+47:10.040 --> 47:13.800
+The consumer at home is going to
+get fantastic throughput
+
+47:13.800 --> 47:15.120
+from anything they want.
+
+47:16.240 --> 47:17.320
+Well, you know, it's funny.
+
+47:17.320 --> 47:18.560
+If they're willing to pay for it
+
+47:18.560 --> 47:19.920
+and their ISP is willing to pay
+for it.
+
+47:19.920 --> 47:21.120
+Well, here's a, I mean,
+
+47:21.120 --> 47:23.520
+we have listeners in Sweden who
+continually tell me,
+
+47:23.520 --> 47:26.640
+oh, hey, we get 100 megabit
+downloads
+
+47:26.640 --> 47:27.840
+for 20 bucks a month.
+
+47:27.840 --> 47:30.040
+Why is it so cheap there?
+
+47:30.040 --> 47:31.720
+It's subsidized by the
+government.
+
+47:31.720 --> 47:33.480
+The government's paying for it.
+
+47:33.480 --> 47:34.800
+Is that what you wanted, Will?
+
+47:34.800 --> 47:35.640
+Thank you.
+
+47:35.640 --> 47:36.480
+Sure.
+
+47:36.480 --> 47:38.920
+And I think our government
+should pitch in too.
+
+47:38.920 --> 47:41.480
+In fact, I believe that's part
+of the net neutrality debate
+
+47:41.480 --> 47:43.960
+is that there was lots of money
+allocated
+
+47:43.960 --> 47:45.920
+towards the telcos years ago
+
+47:45.920 --> 47:47.760
+and they were supposed to build
+out their networks
+
+47:47.760 --> 47:48.680
+and they didn't really do it.
+
+47:48.680 --> 47:52.840
+And I think that's where a lot
+of anger stems from.
+
+47:52.840 --> 47:54.400
+But yeah, this is just important
+to me
+
+47:54.400 --> 47:57.280
+as the electricity grid or the
+water network.
+
+47:57.280 --> 48:00.280
+Why wouldn't the government at
+least have some involvement
+
+48:00.280 --> 48:02.280
+or set some type of regulation?
+
+48:02.280 --> 48:04.040
+I'm not against that.
+
+48:04.040 --> 48:06.720
+And just in case you think this
+is a dead issue,
+
+48:06.720 --> 48:08.600
+the new Congress has in fact
+reintroduced
+
+48:08.600 --> 48:09.840
+a net neutrality bill,
+
+48:11.000 --> 48:12.760
+a pro-net neutrality bill, I
+might add,
+
+48:12.760 --> 48:14.080
+and as long as we're talking
+about it.
+
+48:14.080 --> 48:16.400
+Which is just pandering towards
+constituents
+
+48:16.400 --> 48:18.200
+because they don't know what the
+hell they're talking about.
+
+48:18.200 --> 48:20.000
+It's a series of tubes.
+
+48:21.000 --> 48:23.360
+So you're saying it's us that's
+dumb
+
+48:23.360 --> 48:25.520
+and Ted Stevens knew what he was
+talking about.
+
+48:25.520 --> 48:26.840
+He was right on the money, man.
+
+48:26.840 --> 48:29.320
+He sent the truck my way just
+this morning.
+
+48:29.360 --> 48:30.200
+I got the internet.
+
+48:30.200 --> 48:32.360
+I won't work out on the smoking.
+
+48:32.360 --> 48:33.520
+There's a new bill actually.
+
+48:33.520 --> 48:35.800
+As long as we're talking about
+Congress,
+
+48:35.800 --> 48:38.360
+the Senate introduced a bill
+called the Platform,
+
+48:38.360 --> 48:40.080
+I should say the US Senate,
+
+48:40.080 --> 48:42.320
+introduced a bill called the
+Platform Equality and Remedies
+
+48:42.320 --> 48:43.800
+for Rights Holders in Music Act,
+
+48:43.800 --> 48:46.560
+a nice acronym that stands for
+Perform.
+
+48:46.560 --> 48:47.960
+This is a bill that died,
+
+48:47.960 --> 48:51.040
+an RIA bill that died last year.
+
+48:51.040 --> 48:52.960
+It would require content
+protection
+
+48:52.960 --> 48:54.880
+on all satellite radio
+broadcasts.
+
+48:54.880 --> 48:56.000
+You might be interested in this,
+Adam,
+
+48:56.000 --> 48:57.600
+since you do stuff on Sirius,
+
+48:57.640 --> 49:00.640
+along with cable and internet
+broadcasts.
+
+49:00.640 --> 49:02.560
+Broadcasters would be required
+to use
+
+49:02.560 --> 49:06.440
+reasonably available and
+economically reasonable
+technology
+
+49:06.440 --> 49:09.000
+to prevent music theft.
+
+49:09.000 --> 49:12.040
+Another misunderstood
+conversation
+
+49:12.040 --> 49:15.000
+that has produced a knee-jerk
+reaction.
+
+49:15.000 --> 49:17.640
+Well, you've done a lot for
+PodSafe music
+
+49:17.640 --> 49:20.040
+with your PodSafe network.
+
+49:20.040 --> 49:21.640
+Exactly, that's the point.
+
+49:21.640 --> 49:23.760
+And that's what this is about.
+
+49:23.760 --> 49:25.960
+It's about licensing and money.
+
+49:26.000 --> 49:29.760
+There's huge forces at work who
+make money
+
+49:29.760 --> 49:32.880
+based upon the reuse of content,
+
+49:32.880 --> 49:35.520
+musical works, the publishing
+predominantly,
+
+49:35.520 --> 49:38.720
+but also the duplication rights.
+
+49:38.720 --> 49:41.160
+And it's always been a nice
+little game.
+
+49:41.160 --> 49:43.360
+You have the 6,000 radio
+stations,
+
+49:43.360 --> 49:44.600
+they all have to pay X amount
+
+49:44.600 --> 49:46.840
+based upon how many listeners
+they have.
+
+49:46.840 --> 49:48.520
+And the way that money is
+divided
+
+49:48.520 --> 49:51.360
+within the performing rights
+societies,
+
+49:51.360 --> 49:55.400
+ASCAP BMI has always been a very
+fuzzy black box,
+
+49:55.400 --> 49:57.000
+let the people who want to make
+money
+
+49:57.000 --> 49:57.960
+are making the money.
+
+49:57.960 --> 50:02.040
+And what the PodSafe music
+revolution did is said,
+
+50:02.040 --> 50:05.520
+hey, that's fine, we want your
+stuff protected
+
+50:05.520 --> 50:08.200
+and we don't necessarily believe
+in DRM.
+
+50:08.200 --> 50:13.200
+So trust your co-license
+agreement partners
+
+50:13.200 --> 50:17.240
+on this, mainly podcasters, and
+give your stuff for free.
+
+50:17.240 --> 50:20.040
+And let them play it and we'll
+tell you
+
+50:20.040 --> 50:22.040
+when it was played and then you
+can go
+
+50:22.040 --> 50:25.120
+and build your business and
+everything's fair.
+
+50:25.160 --> 50:27.000
+There's no money exchanging
+hands though.
+
+50:27.000 --> 50:30.080
+So it's only about licensure?
+
+50:30.080 --> 50:32.960
+It's merely just so that they
+know what's going on.
+
+50:32.960 --> 50:34.600
+I mean, they're getting value in
+terms
+
+50:34.600 --> 50:35.600
+of promotional value.
+
+50:37.400 --> 50:42.400
+They're getting huge value and
+not just financial value,
+
+50:42.600 --> 50:45.760
+but there is a tremendous social
+reward.
+
+50:45.760 --> 50:48.200
+It's something very, if you got
+a recommendation
+
+50:48.200 --> 50:50.480
+like, oh, you were looking for
+the Rolling Stones,
+
+50:50.480 --> 50:52.200
+you might want to check out
+Brother Love
+
+50:52.200 --> 50:54.280
+and I'd listen to a song
+
+50:54.280 --> 50:55.960
+and maybe I'd buy a CD,
+
+50:55.960 --> 51:00.960
+but when the creator of a
+product like a song
+
+51:01.000 --> 51:02.640
+is played on a show,
+
+51:02.640 --> 51:05.360
+basically someone who's telling
+his thousand friends
+
+51:05.360 --> 51:07.760
+or more, hey, check this out.
+
+51:07.760 --> 51:09.040
+I really love this guy.
+
+51:09.040 --> 51:10.200
+In fact, I love it so much
+
+51:10.200 --> 51:12.840
+and I'm gonna play it back to
+back five times.
+
+51:12.840 --> 51:14.520
+That is a great feeling.
+
+51:14.520 --> 51:17.120
+That's what motivates people, I
+think, more than money
+
+51:17.120 --> 51:20.440
+and from one can, typically, you
+can create the other.
+
+51:20.440 --> 51:22.000
+Brother Love's very happy.
+
+51:22.000 --> 51:23.800
+I know he's got a lot of
+notoriety now
+
+51:24.080 --> 51:26.160
+and it's done a great thing for
+him, I think.
+
+51:26.160 --> 51:27.760
+Hey, Will, you had some stories
+
+51:27.760 --> 51:28.840
+that you wanted to bring up.
+
+51:28.840 --> 51:30.800
+Have we covered them or I'm
+looking for them
+
+51:30.800 --> 51:32.640
+and I don't see them here, what?
+
+51:32.640 --> 51:35.280
+I put them in the four-tweet
+kind of bucket.
+
+51:35.280 --> 51:36.120
+Ah, they're in four-tweet?
+
+51:36.120 --> 51:38.360
+Well, bring them up, tell me
+what you would like to say.
+
+51:38.360 --> 51:39.440
+I can't remember what it is,
+man.
+
+51:39.440 --> 51:40.280
+All right, I'll have to,
+
+51:40.280 --> 51:42.120
+I'm still looking at Tricia
+Helfer's layout
+
+51:42.120 --> 51:47.120
+and Playboy, so let me load
+delicious speaking up.
+
+51:47.680 --> 51:49.400
+Which was shot three years ago.
+
+51:49.400 --> 51:50.600
+Was it really?
+
+51:50.600 --> 51:51.760
+Of course.
+
+51:51.760 --> 51:52.640
+Took forever.
+
+51:52.640 --> 51:55.320
+Now that she's a star on
+Battlestar Galactica.
+
+51:56.240 --> 51:58.200
+Poor kid.
+
+51:58.200 --> 52:00.900
+Apple says Cisco lawsuit is
+silly.
+
+52:02.040 --> 52:05.480
+Apple actually has an
+interesting loophole.
+
+52:05.480 --> 52:08.520
+Apparently Cisco held that
+trademark for iPhone
+
+52:08.520 --> 52:10.280
+for six years before they
+released an iPhone
+
+52:10.280 --> 52:14.200
+just before Apple did, hoping to
+revive the trademark.
+
+52:14.200 --> 52:15.960
+But the patent and trade office
+says
+
+52:15.960 --> 52:18.680
+over nine different
+organizations
+
+52:18.680 --> 52:21.400
+have claimed ownership over the
+iPhone patents.
+
+52:21.400 --> 52:22.840
+Yeah, that's what Apple said as
+well.
+
+52:22.840 --> 52:24.720
+So I think Apple's gonna get
+away with it
+
+52:24.720 --> 52:27.160
+and Cisco's trademark is gonna
+look like
+
+52:27.160 --> 52:29.200
+it's not gonna get it because
+they didn't use it
+
+52:29.200 --> 52:30.040
+for too long.
+
+52:30.040 --> 52:30.880
+They didn't use it.
+
+52:30.880 --> 52:31.720
+People are using it in the
+meantime.
+
+52:31.720 --> 52:33.080
+They didn't use it.
+
+52:33.080 --> 52:36.280
+And also, there's a great video
+on YouTube
+
+52:36.280 --> 52:40.520
+of Steve Bulma, Microsoft being
+asked about the iPhone
+
+52:40.520 --> 52:42.000
+and he puts on this really
+stupid,
+
+52:42.000 --> 52:45.360
+like affected kind of snort,
+laugh, hybrid
+
+52:45.360 --> 52:46.880
+and looks like complete idiot.
+
+52:48.080 --> 52:50.280
+It really looks like he's
+actually quite nervous
+
+52:50.280 --> 52:52.560
+about the iPhone and is doing
+his best
+
+52:52.560 --> 52:56.520
+to make it not seem so, yes?
+
+52:56.520 --> 52:57.520
+It's pretty hilarious.
+
+52:57.520 --> 52:59.240
+Should I play a little bit of
+that?
+
+52:59.240 --> 53:00.080
+Yeah, go ahead.
+
+53:00.080 --> 53:02.280
+Steve, let me ask you about the
+iPhone
+
+53:02.280 --> 53:04.280
+and the Zoom, if I may.
+
+53:04.280 --> 53:06.080
+Zoom was getting some traction
+
+53:06.080 --> 53:08.360
+and Steve Jobs goes to Macworld
+
+53:08.360 --> 53:10.320
+and he pulls out this iPhone.
+
+53:10.320 --> 53:12.760
+What was your first reaction
+when you saw that?
+
+53:13.640 --> 53:17.160
+$500 fully subsidized with a
+plan.
+
+53:17.160 --> 53:20.080
+I said that is the most
+expensive phone in the world
+
+53:20.080 --> 53:22.200
+and it doesn't appeal to
+business customers
+
+53:22.200 --> 53:23.960
+because it doesn't have a
+keyboard.
+
+53:23.960 --> 53:25.360
+He almost sounds like he's
+crying.
+
+53:25.360 --> 53:26.200
+I'll be honest with you.
+
+53:26.200 --> 53:30.080
+He doesn't sound too happy about
+that.
+
+53:31.080 --> 53:33.520
+He says something really
+interesting there,
+
+53:33.520 --> 53:34.520
+though, about the keyboard,
+
+53:34.520 --> 53:37.280
+which I'm very interested in as
+well.
+
+53:37.280 --> 53:39.560
+I have not held an iPhone.
+
+53:39.560 --> 53:42.960
+I do have a Nokia N800 internet
+tablet.
+
+53:42.960 --> 53:44.040
+You love that thing.
+
+53:44.040 --> 53:45.800
+You've been raving about that
+thing.
+
+53:45.800 --> 53:48.520
+Yeah, and at first I thought
+this on-screen keyboard
+
+53:48.520 --> 53:52.440
+was really no good because you
+have no tactile response,
+
+53:52.440 --> 53:56.520
+but I forced myself to relearn
+
+53:56.520 --> 53:59.240
+how to use a different type of
+keyboard.
+
+53:59.240 --> 54:01.560
+And I have to say, it's kind of
+growing on me
+
+54:01.560 --> 54:05.080
+and to hear Balmer laugh like
+that,
+
+54:05.080 --> 54:06.920
+I think he has to be careful.
+
+54:06.920 --> 54:10.480
+Well, he's also, I mean, that's
+classic Balmer kind of redirect.
+
+54:10.480 --> 54:11.320
+I mean.
+
+54:11.320 --> 54:12.160
+Well, but he makes a point.
+
+54:12.160 --> 54:13.080
+It's very expensive.
+
+54:13.080 --> 54:14.040
+There is no keyboard.
+
+54:14.040 --> 54:17.240
+Everybody's kind of conditioned
+to the trio BlackBerry model
+
+54:17.240 --> 54:18.480
+where you have a little
+keyboard.
+
+54:18.480 --> 54:20.440
+Although Jobs addressed that in
+his keynote,
+
+54:20.440 --> 54:22.760
+said, we don't think this is a
+good idea.
+
+54:22.760 --> 54:25.120
+I did talk to David Pogue of the
+New York Times
+
+54:25.120 --> 54:26.960
+who actually typed on the thing
+for about 20 minutes
+
+54:26.960 --> 54:29.080
+and said it's very hard to type
+on.
+
+54:29.080 --> 54:31.200
+Yeah, but it takes a lot longer
+than 20 minutes
+
+54:31.200 --> 54:32.040
+to get used to it.
+
+54:32.040 --> 54:33.440
+I'm a BlackBerry fiend.
+
+54:33.440 --> 54:35.200
+I actually gave that up for my
+Nokia,
+
+54:35.200 --> 54:37.600
+what is it, E61, which has,
+
+54:37.600 --> 54:39.080
+it does have a regular keyboard,
+
+54:39.080 --> 54:44.080
+but it's not in the patented fan
+configuration.
+
+54:45.600 --> 54:47.320
+So that took me a little while
+to learn.
+
+54:47.320 --> 54:51.080
+And I don't know, I was pretty
+much against the whole
+
+54:51.080 --> 54:54.400
+on-screen keyboard and user
+interface.
+
+54:54.400 --> 54:56.600
+I'm starting to back out a
+little bit.
+
+54:56.600 --> 54:59.960
+Did you have a 770 or is this
+800 that you're first in?
+
+54:59.960 --> 55:00.800
+No, I did not.
+
+55:00.800 --> 55:03.320
+This is, I would never buy
+anything like that.
+
+55:03.320 --> 55:07.120
+Nokia sent me this and I was
+happy to try it out
+
+55:07.120 --> 55:09.280
+and I'm quite enamored with what
+it does.
+
+55:09.280 --> 55:10.120
+It's basically, I think.
+
+55:10.120 --> 55:10.960
+It's very small.
+
+55:10.960 --> 55:12.080
+It's almost a little tablet,
+
+55:12.080 --> 55:13.600
+but it's not a full-sized
+tablet.
+
+55:13.600 --> 55:14.880
+It's a small screen.
+
+55:14.880 --> 55:17.000
+It's a small screen, but what's
+nice about it,
+
+55:17.000 --> 55:17.840
+well, there's two things.
+
+55:17.840 --> 55:20.280
+One is it doesn't have a phone
+integrated,
+
+55:20.280 --> 55:22.920
+but it communicates with your
+phone through Bluetooth
+
+55:22.920 --> 55:26.200
+so you can get a wireless data
+connection.
+
+55:26.200 --> 55:28.880
+It does all the remembering of
+your Wi-Fi points
+
+55:28.880 --> 55:30.160
+and switches automatically.
+
+55:30.160 --> 55:32.200
+But the most interesting thing
+about it,
+
+55:32.200 --> 55:33.600
+and I don't hear anyone, you
+know,
+
+55:33.600 --> 55:37.480
+this whole conversation about
+iPhone being open or closed,
+
+55:37.480 --> 55:38.560
+the Nokia is open.
+
+55:38.560 --> 55:40.200
+It's Linux.
+
+55:40.200 --> 55:41.880
+It's built on Debian, I think,
+
+55:41.880 --> 55:43.480
+Debian flavor of Linux.
+
+55:43.480 --> 55:46.000
+And there's an active developer
+community
+
+55:46.000 --> 55:47.360
+creating applications for it.
+
+55:47.360 --> 55:49.960
+It's got GPS in the chip.
+
+55:49.960 --> 55:52.240
+It's even got radio in the chip.
+
+55:52.240 --> 55:53.480
+It's got an onboard camera.
+
+55:53.480 --> 55:54.840
+It's got all the things there.
+
+55:54.840 --> 55:56.840
+And it's immensely slow, though.
+
+55:56.840 --> 55:58.520
+No, no, not at all.
+
+55:58.520 --> 56:00.040
+It's as bad as it is at X-Scale,
+
+56:00.040 --> 56:00.880
+what's in there?
+
+56:00.880 --> 56:03.240
+Both generations, and it just
+seems,
+
+56:03.240 --> 56:06.040
+it takes an incredible amount of
+patience
+
+56:06.040 --> 56:08.400
+to wait for even basic web pages
+to load.
+
+56:08.400 --> 56:10.720
+Really, on the N800?
+
+56:10.720 --> 56:11.560
+Yeah.
+
+56:11.560 --> 56:13.800
+Oh, no, that hasn't bothered me
+at all.
+
+56:13.800 --> 56:15.280
+No, I mean, I have to say,
+
+56:15.760 --> 56:16.600
+what do you use it for?
+
+56:16.600 --> 56:18.600
+Is it for going about town?
+
+56:18.600 --> 56:19.440
+Yeah, good question.
+
+56:19.440 --> 56:23.000
+Now, I use it for basically for
+Gmail.
+
+56:23.000 --> 56:25.560
+And if I just want to look at
+something,
+
+56:25.560 --> 56:27.280
+I download podcasts with it
+
+56:27.280 --> 56:29.080
+and listen to them on the
+device.
+
+56:29.080 --> 56:30.800
+But I will say I use the,
+
+56:30.800 --> 56:33.040
+even though it has a
+full-functioning Opera
+
+56:33.040 --> 56:36.600
+browser inside, which supports
+Flash 7,
+
+56:36.600 --> 56:40.040
+which is also quite nice for a
+Linux-based device.
+
+56:41.040 --> 56:46.040
+I use Gmail Mobile, which, of
+course,
+
+56:46.040 --> 56:48.080
+loads really fast and just
+works.
+
+56:48.080 --> 56:50.600
+But you can drag the screen
+around with your fingers.
+
+56:50.600 --> 56:52.320
+You don't have to necessarily
+use scroll bars.
+
+56:52.320 --> 56:55.480
+You can just tap, hold, and move
+a webpage left, right,
+
+56:55.480 --> 56:57.640
+and up, down in any direction
+you want.
+
+56:57.640 --> 56:58.480
+Oh, that's nice.
+
+56:58.480 --> 57:00.120
+That's kind of like the iPhone,
+really.
+
+57:00.120 --> 57:02.200
+So you're really using your
+hands
+
+57:02.200 --> 57:03.920
+to do more with the interface
+
+57:03.920 --> 57:05.760
+than a mouse click and point.
+
+57:05.760 --> 57:07.280
+It's interesting, and I think
+there
+
+57:07.280 --> 57:09.240
+is something to explore there.
+
+57:09.240 --> 57:10.680
+I think that's one of the things
+people
+
+57:10.680 --> 57:12.680
+were very interested in with the
+iPhone
+
+57:12.680 --> 57:14.320
+and the Safari browser on the
+iPhone.
+
+57:14.320 --> 57:15.800
+And maybe we are entering a new
+world
+
+57:15.800 --> 57:19.280
+of touch-screen user interfaces.
+
+57:19.280 --> 57:22.080
+Maybe there's some progress to
+be made there.
+
+57:22.080 --> 57:25.480
+Well, it's open source, so I
+think developers
+
+57:25.480 --> 57:29.800
+should go to, what is it,
+maibo.org, m-a-e-b-o.org,
+
+57:29.800 --> 57:33.800
+and jump in, because people are
+creating stuff.
+
+57:33.800 --> 57:35.120
+Let me ask you about this,
+Patrick.
+
+57:35.120 --> 57:36.560
+You work for ZIF Davis.
+
+57:36.560 --> 57:40.960
+According to hard OCP, ZIF's
+going to be broken up and sold.
+
+57:40.960 --> 57:43.600
+Bids were due on Friday.
+
+57:43.600 --> 57:45.160
+Do you know anything about that?
+
+57:45.160 --> 57:47.080
+Yeah, this is an eight-month-old
+story
+
+57:47.080 --> 57:50.600
+that I apparently just picked up
+on.
+
+57:50.600 --> 57:52.320
+There's nothing, they didn't add
+anything new.
+
+57:52.320 --> 57:53.960
+They said that the PC and gaming
+division
+
+57:53.960 --> 57:55.560
+would be broken up, that's not
+new.
+
+57:55.560 --> 57:57.680
+Well, there is no PC and gaming
+division.
+
+57:57.680 --> 57:59.360
+There's three divisions to the
+companies,
+
+57:59.360 --> 58:01.280
+the Enterprise, Consumer and
+Small Business,
+
+58:01.280 --> 58:02.560
+and the gaming division.
+
+58:02.560 --> 58:04.320
+The gaming division is the
+gaming magazines
+
+58:04.440 --> 58:06.560
+and the enterprise is...
+
+58:06.560 --> 58:08.680
+They picked this up by the, I
+should point out,
+
+58:08.680 --> 58:11.000
+from the Post, the New York
+Post.
+
+58:12.080 --> 58:15.400
+You know, what's, they've been
+shopping
+
+58:15.400 --> 58:16.480
+all three divisions.
+
+58:16.480 --> 58:19.400
+I think the books have been
+shopped
+
+58:19.400 --> 58:21.960
+for the gaming division and
+enterprise already.
+
+58:21.960 --> 58:23.400
+The final division being shopped
+
+58:23.400 --> 58:25.120
+is the Consumer and Small
+Business division,
+
+58:25.120 --> 58:25.960
+which is my work.
+
+58:25.960 --> 58:28.360
+Doesn't, oh, does it impact you
+at all?
+
+58:28.360 --> 58:30.520
+Well, you know, how many sales
+do we go through
+
+58:30.520 --> 58:33.040
+at ZDTV, DetectTV, that'd be
+two.
+
+58:33.600 --> 58:35.640
+I went through my last ZIF Davis
+sale.
+
+58:35.640 --> 58:38.000
+I'm not going through any more
+ZIF Davis sales.
+
+58:38.000 --> 58:40.160
+I mean, I went through, what,
+three or four?
+
+58:40.160 --> 58:41.640
+Three or four, yeah.
+
+58:41.640 --> 58:42.640
+DetectTV was sold in June.
+
+58:42.640 --> 58:45.720
+I was with it, I started it in
+94
+
+58:45.720 --> 58:47.920
+when it was still owned by the
+ZIF family.
+
+58:47.920 --> 58:49.320
+Yeah, so when Bill Ziff owned
+it,
+
+58:49.320 --> 58:51.680
+he went from Bill Ziff to a
+holding company
+
+58:51.680 --> 58:52.680
+to a holding company.
+
+58:52.680 --> 58:53.840
+To SoftBank to...
+
+58:53.840 --> 58:54.960
+SoftBank to...
+
+58:54.960 --> 58:56.440
+To Paul Allen.
+
+58:56.440 --> 58:57.280
+Paul Allen.
+
+58:57.280 --> 58:58.440
+I left before Comcast.
+
+58:58.440 --> 59:00.200
+No, I guess I didn't leave
+before Comcast,
+
+59:00.200 --> 59:01.040
+so I guess...
+
+59:01.040 --> 59:02.040
+Yeah, you were out right before
+that close.
+
+59:02.040 --> 59:03.160
+Was it just before that closed?
+
+59:03.160 --> 59:04.600
+All right, and a good thing too.
+
+59:04.600 --> 59:06.000
+Let me tell you, I'm happy.
+
+59:06.000 --> 59:07.720
+I have some ZIF Davis related
+news.
+
+59:07.720 --> 59:09.200
+Oh, yes?
+
+59:09.200 --> 59:12.360
+Well, former ZIF Davis employee,
+Natalie Del Conte,
+
+59:12.360 --> 59:15.080
+will start her own video news
+show
+
+59:15.080 --> 59:18.240
+called Tech Check on Pod Show in
+a couple weeks.
+
+59:18.240 --> 59:19.080
+Excellent.
+
+59:19.080 --> 59:21.040
+How many shows are on Pod Show
+now?
+
+59:22.760 --> 59:24.080
+Do you have any idea?
+
+59:24.080 --> 59:27.520
+Yeah, on the network itself, we
+have 5,000
+
+59:27.520 --> 59:30.920
+and of those 5,000, about 500,
+
+59:30.920 --> 59:33.360
+we have expanded agreements with
+
+59:33.360 --> 59:36.080
+and who are making upfront
+money, et cetera.
+
+59:36.080 --> 59:37.560
+That's impressive.
+
+59:37.560 --> 59:38.840
+Now, is she making upfront money
+
+59:38.840 --> 59:41.120
+or is she doing this on spec?
+
+59:41.120 --> 59:43.920
+Oh, Natalie is working for us
+full-time on this.
+
+59:43.920 --> 59:45.040
+Oh, good, right.
+
+59:45.040 --> 59:47.920
+So, I guess she was in a...
+
+59:47.920 --> 59:48.760
+Tech crunch.
+
+59:48.760 --> 59:50.200
+Tech crunch.
+
+59:50.200 --> 59:52.040
+Interesting, I almost got Mike
+Harrington on this.
+
+59:52.040 --> 59:54.240
+Maybe that's why he didn't want
+to go on.
+
+59:55.360 --> 59:59.080
+He wouldn't let her work for Pod
+Show
+
+59:59.080 --> 01:00:00.520
+and write for Tech Crunch.
+
+01:00:00.600 --> 01:00:02.320
+He considers us a competitor.
+
+01:00:02.320 --> 01:00:04.440
+That's exactly why I mentioned
+that you'd be on, Adam.
+
+01:00:04.440 --> 01:00:06.480
+All right, just curious.
+
+01:00:06.480 --> 01:00:08.600
+The Juiced is on the loose.
+
+01:00:08.600 --> 01:00:10.600
+How many of you have played with
+Juiced
+
+01:00:10.600 --> 01:00:11.440
+and what do you think of it?
+
+01:00:11.440 --> 01:00:13.560
+This is the new venture from
+Skype Fullscreen
+
+01:00:13.560 --> 01:00:15.520
+television network via
+streaming.
+
+01:00:17.080 --> 01:00:18.960
+Pretty, I have to say, pretty
+impressive.
+
+01:00:18.960 --> 01:00:21.680
+The user interface especially is
+just gorgeous.
+
+01:00:22.960 --> 01:00:25.640
+BitTech does a review of it.
+
+01:00:25.640 --> 01:00:28.800
+Let's first ask Nick.
+
+01:00:28.800 --> 01:00:29.640
+What do you think?
+
+01:00:29.760 --> 01:00:30.800
+What do you say about that,
+Juiced?
+
+01:00:30.800 --> 01:00:31.440
+How do you like Juiced?
+
+01:00:31.440 --> 01:00:33.240
+You were the one who put the
+story in.
+
+01:00:33.240 --> 01:00:35.600
+Do you know what I think it's
+really interesting
+
+01:00:35.600 --> 01:00:39.600
+because it's a recognition of
+what I think
+
+01:00:39.600 --> 01:00:41.960
+is one of the big areas of
+content to come,
+
+01:00:41.960 --> 01:00:44.240
+which is like this mid-tail of
+content.
+
+01:00:44.240 --> 01:00:45.560
+If you take like...
+
+01:00:45.560 --> 01:00:48.000
+Not long-tail, but mid-tail.
+
+01:00:48.000 --> 01:00:50.200
+If you've got the top of the
+tail, as it were,
+
+01:00:50.200 --> 01:00:53.200
+is like your fox and your 24 and
+lost and whatever.
+
+01:00:53.200 --> 01:00:58.200
+You've got YouTube and cat in
+toilet at the far end.
+
+01:00:58.520 --> 01:01:00.760
+And in the middle, you've got
+this kind of professional
+
+01:01:00.760 --> 01:01:04.480
+grade programming that is
+possibly interest,
+
+01:01:04.480 --> 01:01:07.280
+sort of specific and is really,
+really interesting.
+
+01:01:07.280 --> 01:01:10.280
+And Juiced is going around
+really trying to roll up
+
+01:01:10.280 --> 01:01:12.320
+some of that stuff and get it
+online
+
+01:01:12.320 --> 01:01:16.320
+and create real sort of like a
+TV browser
+
+01:01:16.320 --> 01:01:18.440
+and a TV channel, but on your
+computer
+
+01:01:18.440 --> 01:01:20.800
+made up of this really kind of
+interesting content.
+
+01:01:20.800 --> 01:01:22.880
+And I think it's going to be a
+great home
+
+01:01:22.880 --> 01:01:26.440
+for the kind of the dignations
+and the Mac breaks.
+
+01:01:26.600 --> 01:01:28.560
+Right now, you're even seeing
+much music on it.
+
+01:01:28.560 --> 01:01:31.240
+You're seeing some world poker
+tour on there.
+
+01:01:31.240 --> 01:01:33.680
+Adam, you said you sound like
+you had some thoughts
+
+01:01:33.680 --> 01:01:34.520
+about this.
+
+01:01:36.920 --> 01:01:40.000
+Yeah, I have not been able to
+use it.
+
+01:01:40.000 --> 01:01:43.160
+I'm still waiting for my beta
+user password.
+
+01:01:43.160 --> 01:01:45.000
+As are a lot of people.
+
+01:01:45.000 --> 01:01:46.720
+Yeah, I'm obviously aware of it.
+
+01:01:46.720 --> 01:01:48.240
+I think there's a couple of
+things
+
+01:01:48.240 --> 01:01:50.040
+that are wrong with this.
+
+01:01:50.040 --> 01:01:52.800
+One, it appears to me that they
+are soliciting
+
+01:01:52.800 --> 01:01:56.360
+mainstream content and building
+a,
+
+01:01:56.360 --> 01:01:57.880
+basically a television service,
+
+01:01:57.880 --> 01:01:59.720
+which technically I'm sure is
+going
+
+01:01:59.720 --> 01:02:02.840
+to be extremely well received.
+
+01:02:02.840 --> 01:02:05.320
+And I think the experience will
+be great.
+
+01:02:06.920 --> 01:02:09.640
+So we go right back to my
+example
+
+01:02:09.640 --> 01:02:11.880
+of making no money on Hollywood
+content.
+
+01:02:11.880 --> 01:02:13.040
+So I think that's a mistake.
+
+01:02:13.040 --> 01:02:14.680
+And then from what I have read
+
+01:02:15.880 --> 01:02:20.480
+about their business model in
+mainstream publications
+
+01:02:20.480 --> 01:02:22.440
+that are read, that they're
+going
+
+01:02:22.440 --> 01:02:25.640
+with a form of AdSense type
+model,
+
+01:02:25.640 --> 01:02:27.200
+trying to provide relevancy,
+
+01:02:27.200 --> 01:02:28.720
+not just based upon the content,
+
+01:02:28.720 --> 01:02:30.920
+but based upon who you are.
+
+01:02:30.920 --> 01:02:33.040
+So a lot of pie in the sky type
+stuff,
+
+01:02:33.040 --> 01:02:36.040
+which is not, again, it's not
+the brand advertising
+
+01:02:36.040 --> 01:02:38.120
+I think everyone's looking for.
+
+01:02:38.120 --> 01:02:39.400
+So I'd have to really see,
+
+01:02:39.400 --> 01:02:42.200
+it all comes down to the content
+at the end of the day.
+
+01:02:42.200 --> 01:02:45.120
+Look at what people are willing
+to watch on crappy YouTube.
+
+01:02:46.280 --> 01:02:48.560
+So can you give me the same
+hilarious stuff
+
+01:02:49.440 --> 01:02:53.080
+on this beautiful high-def type
+experience?
+
+01:02:53.080 --> 01:02:53.920
+You think they should go
+
+01:02:53.920 --> 01:02:56.040
+with the user-generated content?
+
+01:02:56.040 --> 01:02:58.920
+Well, their distribution,
+
+01:02:58.920 --> 01:03:00.240
+they've always relied on other
+people
+
+01:03:00.240 --> 01:03:01.280
+to create the content.
+
+01:03:01.280 --> 01:03:02.400
+Skype is the same thing,
+
+01:03:02.400 --> 01:03:03.720
+because I was the same thing.
+
+01:03:03.720 --> 01:03:06.200
+So other people providing the
+content
+
+01:03:06.200 --> 01:03:08.160
+has made them very successful.
+
+01:03:08.160 --> 01:03:09.880
+But I think now they're stepping
+into a game,
+
+01:03:09.880 --> 01:03:11.960
+which I just don't know if
+there's a game to be had.
+
+01:03:11.960 --> 01:03:15.040
+The other issue from what I
+understand
+
+01:03:15.040 --> 01:03:16.720
+is that this thing will chew up
+
+01:03:16.720 --> 01:03:21.720
+two to 300 megabytes of data
+transferred down
+
+01:03:22.680 --> 01:03:25.720
+and 150 megabytes of data
+transferred up
+
+01:03:25.720 --> 01:03:27.560
+if you are within the network.
+
+01:03:27.560 --> 01:03:29.840
+So I have my doubts about how
+that's going to sit
+
+01:03:29.840 --> 01:03:32.160
+with our ISP friends.
+
+01:03:32.160 --> 01:03:33.240
+But at the end of the day,
+
+01:03:33.240 --> 01:03:36.040
+I've poo-pooed both of them in
+the past.
+
+01:03:36.040 --> 01:03:39.800
+I met them when they were
+building Kazab,
+
+01:03:39.800 --> 01:03:41.480
+because they were stationed in
+the North.
+
+01:03:41.480 --> 01:03:42.640
+Actually, they were just about
+to sell it.
+
+01:03:42.640 --> 01:03:44.720
+They were stationed in
+Amsterdam.
+
+01:03:44.720 --> 01:03:46.680
+And at the time, I thought,
+
+01:03:46.680 --> 01:03:48.680
+man, these wacky guys are out of
+their mind.
+
+01:03:48.680 --> 01:03:51.200
+And I was very wrong about that.
+
+01:03:51.200 --> 01:03:53.400
+So they're definitely not
+stupid,
+
+01:03:53.400 --> 01:03:56.320
+and they know how to get press,
+but...
+
+01:03:56.320 --> 01:03:57.600
+And they're good programmers, I
+think.
+
+01:03:57.600 --> 01:04:00.000
+And in each case, they've
+written really good software.
+
+01:04:00.000 --> 01:04:01.000
+This is just as beautiful.
+
+01:04:01.000 --> 01:04:02.920
+Wait till you see it, it's
+beautiful.
+
+01:04:02.920 --> 01:04:04.200
+I think it was all,
+
+01:04:04.200 --> 01:04:05.600
+they do that in Romania, I
+think.
+
+01:04:05.600 --> 01:04:06.800
+I don't know if they still do it
+that way,
+
+01:04:06.800 --> 01:04:07.920
+but that's how they built a lot
+of Skype.
+
+01:04:07.920 --> 01:04:08.760
+Interesting.
+
+01:04:08.760 --> 01:04:10.360
+A lot of Skype and Kazab.
+
+01:04:10.360 --> 01:04:11.560
+Yeah, it was just the two of
+them
+
+01:04:11.560 --> 01:04:12.920
+sitting in an office in
+Amsterdam
+
+01:04:12.920 --> 01:04:15.160
+and all their engineers were in
+Romania.
+
+01:04:16.560 --> 01:04:20.560
+But again, is this what we're
+waiting for?
+
+01:04:20.560 --> 01:04:22.280
+Is it, are we waiting for,
+
+01:04:22.280 --> 01:04:24.160
+to be able to see the office?
+
+01:04:24.160 --> 01:04:25.640
+You could watch the office.
+
+01:04:27.040 --> 01:04:29.000
+It's like, no, I don't think so.
+
+01:04:29.000 --> 01:04:31.360
+What is six, even downloadable
+videos,
+
+01:04:31.360 --> 01:04:33.520
+I have to question stuff.
+
+01:04:33.520 --> 01:04:36.080
+It's like, what is the success
+of video on the internet?
+
+01:04:36.080 --> 01:04:38.400
+No one can deny that it's
+YouTube.
+
+01:04:38.400 --> 01:04:40.440
+And in general, although it's
+possible,
+
+01:04:40.440 --> 01:04:41.680
+people aren't downloading.
+
+01:04:41.680 --> 01:04:43.760
+They're just viewing in web
+browsers.
+
+01:04:43.760 --> 01:04:47.280
+And it's some combination of it
+being simple,
+
+01:04:47.280 --> 01:04:49.240
+it working every single time.
+
+01:04:49.240 --> 01:04:50.880
+But for it to be funny.
+
+01:04:50.880 --> 01:04:52.920
+But for it to mature, doesn't it
+have to stop
+
+01:04:52.920 --> 01:04:55.640
+playing on my web browser and
+start playing on my TV?
+
+01:04:56.840 --> 01:04:58.480
+Well, I think it's two different
+things.
+
+01:04:58.480 --> 01:05:01.680
+The television is morphing
+dramatically.
+
+01:05:01.680 --> 01:05:03.760
+It's become flat, it's become
+big,
+
+01:05:03.760 --> 01:05:05.920
+it's on the wall, it's like a
+piece of art.
+
+01:05:05.920 --> 01:05:09.600
+It's delivering sports, it's
+delivering news,
+
+01:05:09.600 --> 01:05:12.600
+it's delivering a cinema
+experience,
+
+01:05:12.600 --> 01:05:17.600
+which is why I'm not too high on
+the whole Netflix streaming.
+
+01:05:19.240 --> 01:05:22.400
+I don't think it's too much
+trouble
+
+01:05:22.400 --> 01:05:26.520
+for people to go and get a high
+HD DVD
+
+01:05:26.520 --> 01:05:27.720
+if they're gonna watch a movie.
+
+01:05:27.720 --> 01:05:29.880
+So do you think that the economy
+is,
+
+01:05:29.880 --> 01:05:32.600
+the good TV is for premium
+content?
+
+01:05:32.600 --> 01:05:35.480
+The computer is for YouTube
+style?
+
+01:05:35.480 --> 01:05:37.800
+No, no, no, don't get me wrong.
+
+01:05:37.800 --> 01:05:39.760
+When you say premium content,
+
+01:05:39.760 --> 01:05:42.640
+I think I'm talking about
+quality.
+
+01:05:42.640 --> 01:05:46.240
+So you can't watch a sports game
+
+01:05:46.240 --> 01:05:48.600
+really effectively on your
+computer
+
+01:05:48.600 --> 01:05:49.760
+with today's technology.
+
+01:05:49.760 --> 01:05:52.520
+You wanna watch sports on a big
+ass screen
+
+01:05:52.520 --> 01:05:55.080
+with a whole bunch of your
+buddies around drinking beer,
+
+01:05:55.080 --> 01:05:56.920
+and it's gotta have great sound.
+
+01:05:56.920 --> 01:05:58.520
+And it's a whole different type
+of experience
+
+01:05:58.520 --> 01:06:01.240
+and very, very costly to make.
+
+01:06:01.240 --> 01:06:06.240
+It's 13 to 20 cameras on any
+good day at any game.
+
+01:06:06.880 --> 01:06:09.320
+And this is just an expensive
+proposition.
+
+01:06:09.320 --> 01:06:11.160
+But what's interesting, Adam, is
+until YouTube,
+
+01:06:11.160 --> 01:06:13.800
+the biggest purveyor video
+online
+
+01:06:13.800 --> 01:06:15.880
+was actually Major League
+Baseball,
+
+01:06:15.880 --> 01:06:18.960
+who were simply taking their
+rights over the broadcast
+
+01:06:18.960 --> 01:06:20.720
+to stream them online and make
+them available
+
+01:06:20.720 --> 01:06:22.520
+and charge money for them.
+
+01:06:22.520 --> 01:06:24.880
+Well, interim step, I think,
+
+01:06:24.880 --> 01:06:27.200
+and it's a little different than
+a lot of sports.
+
+01:06:27.200 --> 01:06:31.400
+It's not NASCAR, it's not
+football, it's not soccer.
+
+01:06:31.400 --> 01:06:34.800
+Baseball, at times, can be a
+very, very slow game,
+
+01:06:35.080 --> 01:06:38.120
+and that kind of fits in with
+what you can parse
+
+01:06:38.120 --> 01:06:39.160
+through today's technology
+
+01:06:39.160 --> 01:06:41.320
+and what you can actually parse
+with your eyes.
+
+01:06:41.320 --> 01:06:43.080
+But for movies, the same thing.
+
+01:06:44.120 --> 01:06:45.960
+Yeah, I think there'll be a lot,
+
+01:06:45.960 --> 01:06:47.720
+I watch all kinds of movies
+
+01:06:47.720 --> 01:06:49.400
+streaming through Windows Media
+Player.
+
+01:06:49.400 --> 01:06:51.640
+I've got my porn accounts, you
+know, I watch that,
+
+01:06:51.640 --> 01:06:53.160
+and it's exactly what I want,
+you know?
+
+01:06:53.160 --> 01:06:55.240
+And I pay per minute, fantastic.
+
+01:06:55.240 --> 01:06:57.400
+But if I'm gonna watch a movie
+
+01:06:57.400 --> 01:07:02.040
+that $30 to $100 million went
+into to create,
+
+01:07:02.040 --> 01:07:03.520
+I really enjoy it much more
+
+01:07:03.560 --> 01:07:06.280
+if I'm watching that in an HD
+experience.
+
+01:07:06.280 --> 01:07:08.440
+I'm not arguing against that,
+but it's like,
+
+01:07:08.440 --> 01:07:10.480
+there's certainly, there's some
+compelling arguments
+
+01:07:10.480 --> 01:07:13.680
+for streaming, live streaming of
+sporting events,
+
+01:07:13.680 --> 01:07:16.120
+and if Major League Baseball can
+make it work.
+
+01:07:16.120 --> 01:07:17.440
+I mean, it's interesting to
+think about
+
+01:07:17.440 --> 01:07:21.360
+what it costs to actually get a
+500K or megabit stream,
+
+01:07:21.360 --> 01:07:22.560
+you know what I mean, to get it
+out there
+
+01:07:22.560 --> 01:07:23.880
+to people and what it's gonna
+cost
+
+01:07:23.880 --> 01:07:26.120
+in terms of either advertising
+revenue
+
+01:07:26.120 --> 01:07:28.800
+or people being willing to pay
+for the subscriptions.
+
+01:07:28.800 --> 01:07:30.360
+And that latter part, paying for
+the scripts
+
+01:07:30.360 --> 01:07:31.200
+of the subscriptions
+
+01:07:31.200 --> 01:07:32.880
+is kind of what made Major
+League Baseball work.
+
+01:07:33.560 --> 01:07:34.720
+You know, it's also interesting
+to realize
+
+01:07:34.720 --> 01:07:37.440
+there's an entire generation
+that's been perfectly happy
+
+01:07:37.440 --> 01:07:40.880
+with media quality MP3s that
+they download.
+
+01:07:40.880 --> 01:07:43.240
+And, you know, I mean, how many
+people
+
+01:07:43.240 --> 01:07:45.640
+have you run into that live off
+of content
+
+01:07:45.640 --> 01:07:47.440
+they download off of
+peer-to-peer?
+
+01:07:47.440 --> 01:07:49.480
+So I think you're right there
+
+01:07:49.480 --> 01:07:51.200
+about Major League Baseball,
+
+01:07:51.200 --> 01:07:53.560
+but I think the reason, this
+just proves it,
+
+01:07:53.560 --> 01:07:55.840
+the reason why people were
+willing to subscribe
+
+01:07:55.840 --> 01:07:57.200
+to Major League Baseball
+
+01:07:57.200 --> 01:08:00.040
+is to be able to see all the
+games they want to see.
+
+01:08:00.040 --> 01:08:01.200
+It wasn't, you know,
+
+01:08:01.200 --> 01:08:04.120
+because you just can't get
+access to the content,
+
+01:08:04.120 --> 01:08:06.640
+to all the content in your
+region.
+
+01:08:06.640 --> 01:08:09.320
+That's just the way everything's
+been set up.
+
+01:08:09.320 --> 01:08:12.080
+So that just proves that people
+will go to any extent
+
+01:08:12.080 --> 01:08:13.960
+to get content they really love.
+
+01:08:13.960 --> 01:08:18.240
+But television is much more
+social experience.
+
+01:08:18.240 --> 01:08:19.840
+You know, you're watching a game
+with friends.
+
+01:08:19.840 --> 01:08:22.880
+You're watching a movie with
+your family or friends.
+
+01:08:22.880 --> 01:08:26.560
+You're using it as a screen for
+your Wii.
+
+01:08:26.560 --> 01:08:28.920
+You know, it's just a different
+type of device
+
+01:08:28.920 --> 01:08:29.760
+and demands different content.
+
+01:08:29.800 --> 01:08:30.640
+It's not that hard.
+
+01:08:30.640 --> 01:08:33.920
+It's not that hard to bring
+online content on your screen.
+
+01:08:33.920 --> 01:08:34.760
+It's whether, you know,
+
+01:08:34.760 --> 01:08:35.520
+it's how long it's going to
+take.
+
+01:08:35.520 --> 01:08:36.760
+I mean, what's in it?
+
+01:08:36.760 --> 01:08:38.760
+Hey, I was watching Studio 40
+that downloaded
+
+01:08:38.760 --> 01:08:42.840
+from the internet on my Xbox 360
+on my HDTV last night.
+
+01:08:42.840 --> 01:08:46.240
+That seems, to me, that seems
+like a perfect world.
+
+01:08:46.240 --> 01:08:48.400
+But we've got like 80% of our
+users download
+
+01:08:48.400 --> 01:08:49.240
+rather than streaming.
+
+01:08:49.240 --> 01:08:50.600
+And it's a long format program
+
+01:08:50.600 --> 01:08:54.000
+and about 20, 25% actually
+already are watching
+
+01:08:54.000 --> 01:08:56.840
+on a television or an HDTV.
+
+01:08:56.840 --> 01:08:58.320
+I mean, one of the biggest
+demands we get
+
+01:08:58.320 --> 01:08:59.840
+is people want a widescreen
+version
+
+01:08:59.840 --> 01:09:00.840
+and they want a higher,
+
+01:09:00.840 --> 01:09:02.560
+they want basically a higher bit
+rate version
+
+01:09:02.560 --> 01:09:04.480
+that's going to look better on
+an HDTV.
+
+01:09:04.480 --> 01:09:06.520
+I think there's no question
+we're in a state of flux.
+
+01:09:06.520 --> 01:09:08.640
+It's kind of hard to predict
+exactly what's going to happen.
+
+01:09:08.640 --> 01:09:09.840
+I think you both made good
+points,
+
+01:09:09.840 --> 01:09:10.960
+but we're going to wrap this up
+
+01:09:10.960 --> 01:09:12.840
+because we're out of time.
+
+01:09:12.840 --> 01:09:13.680
+And you know what, Adam?
+
+01:09:13.680 --> 01:09:15.840
+I think you've got to come back.
+
+01:09:15.840 --> 01:09:17.160
+Oh, I'd love to.
+
+01:09:17.160 --> 01:09:19.160
+If you could PayPal me another
+20 bucks, I'll.
+
+01:09:19.160 --> 01:09:21.200
+We got our 20 bucks worth.
+
+01:09:21.200 --> 01:09:22.520
+I'll tell you, even when you
+convert it
+
+01:09:22.520 --> 01:09:24.920
+to British pounds or euros or
+whatever the hell it is
+
+01:09:24.920 --> 01:09:26.480
+you guys use over there.
+
+01:09:26.480 --> 01:09:27.960
+I'm really glad you could be
+here.
+
+01:09:28.000 --> 01:09:30.720
+Of course, Pod Show is Adam's
+great company
+
+01:09:30.720 --> 01:09:32.560
+and has done so much to help
+podcasters.
+
+01:09:32.560 --> 01:09:34.280
+I can't, when you say,
+
+01:09:34.280 --> 01:09:37.080
+what did you say, 10,000
+podcasts on there?
+
+01:09:37.080 --> 01:09:40.480
+5,000 on the network, 500 are
+making upfront money.
+
+01:09:40.480 --> 01:09:41.400
+That's fantastic.
+
+01:09:41.400 --> 01:09:44.200
+That's just, you know, that's a
+great boon
+
+01:09:44.200 --> 01:09:46.720
+for those 500 and for the 5,000.
+
+01:09:46.720 --> 01:09:47.560
+And of course-
+
+01:09:47.560 --> 01:09:48.400
+Anyone's welcome to join.
+
+01:09:48.400 --> 01:09:51.200
+Daily source code is Adam's own
+podcast.
+
+01:09:51.200 --> 01:09:53.480
+It has been since practically
+day one.
+
+01:09:53.480 --> 01:09:57.880
+I think it's actually the second
+podcast of all time.
+
+01:09:57.920 --> 01:09:58.800
+He's the Pod Father.
+
+01:09:58.800 --> 01:10:00.680
+Adam, thank you for joining us.
+
+01:10:00.680 --> 01:10:01.520
+Thank you.
+
+01:10:01.520 --> 01:10:03.400
+One question, were you wearing
+the pink jumper?
+
+01:10:03.400 --> 01:10:05.240
+No, I'm wearing the turquoise
+jumper, actually.
+
+01:10:05.240 --> 01:10:06.840
+Thank you, very nice, so nice.
+
+01:10:06.840 --> 01:10:08.200
+Of course, the American audience
+is saying,
+
+01:10:08.200 --> 01:10:09.320
+what is all this about jumpers?
+
+01:10:09.320 --> 01:10:10.840
+They think you're wearing a
+moomoo or something.
+
+01:10:10.840 --> 01:10:12.960
+It's just a sweater, folks.
+
+01:10:12.960 --> 01:10:14.800
+It's just a sweater.
+
+01:10:14.800 --> 01:10:19.040
+Thanks to Will Harris,
+bit-tech.net is his website.
+
+01:10:19.040 --> 01:10:21.040
+He's the guy who gave us the
+pink jumper sighting
+
+01:10:21.040 --> 01:10:22.760
+and thanks to you, we got Adam
+on
+
+01:10:22.760 --> 01:10:25.480
+and it's great to hear from you
+as always.
+
+01:10:25.480 --> 01:10:27.080
+I get more email when you're on
+
+01:10:27.080 --> 01:10:28.040
+than almost anybody else.
+
+01:10:28.040 --> 01:10:31.600
+People really like hearing the
+international perspective.
+
+01:10:31.600 --> 01:10:33.160
+It's just a British accent.
+
+01:10:33.160 --> 01:10:34.760
+Nobody likes me, it's just the
+accent.
+
+01:10:34.760 --> 01:10:35.920
+It's true, we love the accent.
+
+01:10:35.920 --> 01:10:38.240
+You sound so intelligent, you
+know?
+
+01:10:38.240 --> 01:10:40.840
+And bit-tech.net is a great
+place
+
+01:10:40.840 --> 01:10:43.120
+to go to read up on a lot of
+these stories.
+
+01:10:43.120 --> 01:10:46.280
+And of course, Patrick Norton is
+the host of DL.TV.
+
+01:10:47.360 --> 01:10:50.360
+As long as Ziff Davis can hold
+it together.
+
+01:10:50.360 --> 01:10:51.920
+But Patrick, you know there's
+always a home
+
+01:10:51.920 --> 01:10:53.880
+for DLTV no matter where you,
+you know,
+
+01:10:53.880 --> 01:10:55.240
+whatever happens, I don't think
+
+01:10:55.240 --> 01:10:56.360
+that's any question about that.
+
+01:10:56.360 --> 01:10:58.360
+It's a great show with Robert
+Herron.
+
+01:10:58.360 --> 01:11:01.360
+And Leo, may I thank you for
+being such a fantastic host.
+
+01:11:01.360 --> 01:11:03.520
+It's very difficult having been
+involved
+
+01:11:03.520 --> 01:11:06.360
+with several of these type of
+roundtable shows.
+
+01:11:06.360 --> 01:11:08.840
+There's only three guests, but
+you do a great job at that
+
+01:11:08.840 --> 01:11:11.240
+and my wife just creams over
+your voice.
+
+01:11:11.240 --> 01:11:15.840
+Okay, well while you're busy
+watching your pay-per-view
+
+01:11:15.840 --> 01:11:19.360
+at porn, I might just come over
+and say hello.
+
+01:11:19.360 --> 01:11:20.360
+Oh, you got a deal, man.
+
+01:11:20.360 --> 01:11:22.760
+20 bucks, I'll send it back.
+
+01:11:22.760 --> 01:11:23.600
+Hey, it really is-
+
+01:11:23.880 --> 01:11:24.720
+God show channel.
+
+01:11:24.720 --> 01:11:27.480
+It really has been a lot of fun.
+
+01:11:27.480 --> 01:11:29.400
+I thank you all and I'm serious,
+Adam.
+
+01:11:29.400 --> 01:11:32.160
+I would love to have you on any
+time you're interested.
+
+01:11:32.160 --> 01:11:34.840
+You had considerably to the
+panel
+
+01:11:34.840 --> 01:11:35.680
+and it's just really great.
+
+01:11:35.680 --> 01:11:36.520
+Well, thank you.
+
+01:11:36.520 --> 01:11:38.120
+I'd love to and the only reason
+
+01:11:38.120 --> 01:11:39.440
+I just haven't hooked it up
+earlier
+
+01:11:39.440 --> 01:11:42.000
+is because I usually travel on
+Saturday
+
+01:11:42.000 --> 01:11:44.640
+and I arrive Sunday and it's
+midnight where I am.
+
+01:11:44.640 --> 01:11:45.480
+So-
+
+01:11:45.480 --> 01:11:48.400
+Well, and million dollar, you
+don't get a million miles
+
+01:11:48.400 --> 01:11:51.520
+without doing a considerable
+amount of time in an airplane.
+
+01:11:51.520 --> 01:11:52.360
+That's correct.
+
+01:11:52.400 --> 01:11:56.360
+13 or 15 million is not that
+important.
+
+01:11:56.360 --> 01:11:57.800
+Of course, Will is up and then
+let's see.
+
+01:11:57.800 --> 01:11:59.160
+Let's see, Will now it's a,
+
+01:11:59.160 --> 01:12:01.600
+what is it about, one in the
+morning there?
+
+01:12:01.600 --> 01:12:02.440
+20 plus 12.
+
+01:12:02.440 --> 01:12:03.600
+12, 19, all right.
+
+01:12:03.600 --> 01:12:04.920
+I thank you for staying up late.
+
+01:12:04.920 --> 01:12:05.760
+Another twit.
+
+01:12:05.760 --> 01:12:06.960
+This week in tech.
+
+01:12:06.960 --> 01:12:07.800
+He's in the care.
+
+01:12:07.800 --> 01:12:10.800
+This week in tech.
+
+01:12:10.800 --> 01:12:13.800
+This week in tech.
+
+01:12:13.800 --> 01:12:14.800
+This week in tech.
+
+01:12:14.800 --> 01:12:15.800
+This week in tech.
+
+01:12:15.800 --> 01:12:16.800
+This week in tech.
+
+01:12:16.800 --> 01:12:17.800
+This week in tech.
+
+01:12:17.800 --> 01:12:18.800
+This week in tech.
+
+01:12:18.800 --> 01:12:19.800
+This week in tech.
+
+01:12:19.800 --> 01:12:20.800
+This week in tech.
+
+01:12:20.800 --> 01:12:21.800
+This week in tech.
+
+01:12:22.040 --> 01:12:24.040
+This is a crap society.
+
+01:12:26.040 --> 01:12:28.040
+This is a crap generation.
+
+01:12:29.160 --> 01:12:33.840
+This one is crap everywhere.
+
+01:12:33.840 --> 01:12:35.840
+There's ads everywhere.
+
+01:12:35.840 --> 01:12:37.840
+There's no ads.
+
+01:12:37.840 --> 01:12:39.840
+This one's got everything in
+tech.
+
+01:12:39.840 --> 01:12:40.840
+I'm a cranky old man.
+
+01:12:40.840 --> 01:12:43.840
+And this week in tech.
+
+01:12:43.840 --> 01:12:46.840
+Just made my sense of coffee
+with my Splendor Flavor blend
+
+01:12:46.840 --> 01:12:48.760
+and I'm gonna sign up right now
+
+01:12:48.760 --> 01:12:51.640
+for a Go Daddy account and I'm
+ready.
+
+01:12:51.640 --> 01:12:52.640
+I love you.
+
+01:12:52.640 --> 01:12:58.080
+How come you're not in the Go
+Daddy Super Bowl commercial?
+
+01:12:58.080 --> 01:12:59.480
+My breast size is too small.
+
+01:12:59.480 --> 01:13:00.480
+Yeah, I noticed.
+
+01:13:00.480 --> 01:13:04.560
+There were quite a few women in
+that, but he can't make one de
+l'air yet.
+
+01:13:04.560 --> 01:13:06.800
+I don't think he's got one yet
+that de l'air.
+
+01:13:06.800 --> 01:13:09.960
+Well, but you certainly
+understand them doing that
+purposely.
+
+01:13:09.960 --> 01:13:10.960
+Right.
+
+01:13:10.960 --> 01:13:11.960
+And he's sure getting a lot of
+attention.
+
+01:13:11.960 --> 01:13:15.200
+Yeah, that's the entire point.
+
+01:13:15.200 --> 01:13:18.640
+So I haven't talked to Callie,
+but I know she was in one of the
+early ones.
+
+01:13:18.640 --> 01:13:23.160
+Is she still in the later
+editions, or is she one of the
+people who is greatest?
+
+01:13:23.160 --> 01:13:28.880
+Well, Callie's commercial was
+more one of the brand imaging
+things they're doing, where
+
+01:13:28.880 --> 01:13:31.680
+they want to approach a whole
+bunch of different markets.
+
+01:13:31.680 --> 01:13:38.520
+So the whole vibe of Go Daddy is
+big-chested, all-American,
+bombshell girls.
+
+01:13:38.520 --> 01:13:42.080
+I know that's what I look for
+when I look for a domain
+registrar.
+
+01:13:42.080 --> 01:13:43.960
+Well, I'll tell you, it's
+interesting.
+
+01:13:43.960 --> 01:13:51.000
+We have, you know, on our
+homepage is the Go Daddy girl
+advertisement, and we've done
+some
+
+01:13:51.000 --> 01:13:55.520
+surveys, and lots of people
+said, well, you know, I saw this
+picture on the homepage that
+
+01:13:55.520 --> 01:14:01.640
+wasn't too sure, you know, what
+the site was about, and I'm a
+little worried.
+
+01:14:01.640 --> 01:14:04.320
+It's a fool's paradise.
+
+01:14:04.320 --> 01:14:09.320
+This is amazing.
