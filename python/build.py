@@ -7,7 +7,8 @@ import yaml
 
 from lxml import etree
 
-from datetime import datetime
+from datetime import datetime, timezone
+from email.utils import format_datetime, parsedate_to_datetime
 
 import types
 
@@ -22,6 +23,14 @@ APPLICATION_NAME = 'MirrorBallLawnmower'
 APPLICATION_VERSION = '0.2'
 
 
+def rfc822(value):
+  text = re.sub(r"\s+", " ", str(value).strip())
+  try:
+    return format_datetime(datetime.strptime(text, '%a %b %d %H:%M:%S %Y %z'))
+  except ValueError:
+    return format_datetime(parsedate_to_datetime(text))
+
+
 def writeRSS(filepath, contents):
   s = "\n".join(contents) + "\n"
   with open(filepath, "w") as f:
@@ -33,9 +42,9 @@ def writeYAML(filepath, contents):
 
 def truefalseTOtruefalse(booleanvalue):
   if booleanvalue == True:
-    result = "True"
+    result = "true"
   else:
-    result = "False"
+    result = "false"
 
   return result
 
@@ -68,6 +77,15 @@ def readYAML(filepath):
   return data
 
 
+def fillBaseURL(data, base_url):
+  if isinstance(data, dict):
+    return { k: fillBaseURL(v, base_url) for k, v in data.items() }
+  if isinstance(data, list):
+    return [ fillBaseURL(v, base_url) for v in data ]
+  if isinstance(data, str):
+    return data.replace('__BASE_URL__', base_url)
+  return data
+
 
 def main():
 
@@ -76,6 +94,8 @@ def main():
   if main_config == None:
     print("Config in {CONFIG_MAIN} unreadable")
     exit(127)
+
+  main_config = fillBaseURL(main_config, str(main_config['feed']['base_url']).rstrip('/'))
 
 # xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" xmlns:atom="http://www.w3.org/2005/Atom"
 
@@ -132,13 +152,17 @@ def main():
         if tag['attributes'][attr] != None:
           elem.set(attr, str(tag['attributes'][attr]))
 
-    if "text" in tag:
+    if "text" in tag and tag['text'] != None:
       tag_text = tag['text']
       if isinstance(tag_text, bool) == True:
-        if tag_text == True:
+        if tag_tagname == 'explicit':
+          elem.text = truefalseTOtruefalse(tag_text)
+        elif tag_text == True:
           elem.text = 'yes'
         else:
           elem.text = 'no'
+      elif tag_text == '__NOW__':
+        elem.text = format_datetime(datetime.now(timezone.utc))
       else:
         elem.text = str(tag_text)
 
@@ -182,7 +206,7 @@ def main():
             if subtag['attributes'][attr] != None:
               subelem.set(attr, str(subtag['attributes'][attr]))
 
-        if "text" in subtag:
+        if "text" in subtag and subtag['text'] != None:
           subtag_text = subtag['text']
           if isinstance(subtag_text, bool) == True:
             #subelem.text = subtag_text
@@ -225,11 +249,12 @@ def main():
 
     if item['pubDate'] != None:
       elem_pubdate = etree.Element("pubDate", nsmap = nsmap)
-      elem_pubdate.text = str(item['pubDate'])
+      elem_pubdate.text = rfc822(item['pubDate'])
       elem_item.append(elem_pubdate)
 
     if item['author'] != None:
-      elem_author = etree.Element("author", nsmap = nsmap)
+      tag_ns = main_config['feed']['xml']['namespaces']['dc']
+      elem_author = etree.Element("".join(["{", f"{tag_ns}", "}", "creator"]), nsmap = nsmap)
       elem_author.text = str(item['author'])
       elem_item.append(elem_author)
 
@@ -243,11 +268,6 @@ def main():
       elem_category.text = str(item['category'])
       elem_item.append(elem_category)
 
-    if item['language'] != None:
-      elem_language = etree.Element("language", nsmap = nsmap)
-      elem_language.text = str(item['language'])
-      elem_item.append(elem_language)
-
     if item['description'] != None:
       elem_description = etree.Element("description", nsmap = nsmap)
       elem_description.text = str(item['description'])
@@ -255,7 +275,7 @@ def main():
 
     if item['guid'] != None:
       elem_guid = etree.Element("guid", nsmap = nsmap)
-      elem_guid.set("isPermaLink", str(item['guid']['isPermaLink']))
+      elem_guid.set("isPermaLink", str(item['guid']['isPermaLink']).lower())
       elem_guid.text = str(item['guid']['link'])
       elem_item.append(elem_guid)
 
@@ -279,11 +299,11 @@ def main():
 
       tag_elem = "".join(["{", f"{tag_ns}", "}", f"episodeType"])
       itunes_elem = etree.Element(tag_elem, nsmap = nsmap)
-      itunes_elem.text = 'full'
+      itunes_elem.text = str(item['itunes'].get('episodeType') or 'full')
       elem_item.append(itunes_elem)
 
       for tag in item['itunes'].keys():
-        if item['itunes'][tag] == None:
+        if item['itunes'][tag] == None or tag in ['episodeType', 'title', 'pubDate']:
           continue
 
         tag_tagname = tag
@@ -322,7 +342,15 @@ def main():
           continue
 
         skip_tags = [
-          'images'
+          'images',
+          'guid',
+          'pubDate',
+          'title',
+          'subtitle',
+          'summary',
+          'description',
+          'keywords',
+          'explicit',
         ]
         if tag in skip_tags:
           continue
@@ -331,6 +359,8 @@ def main():
         tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
 
         tag_handlers = [
+          'person',
+          'image',
           'socialInteract',
           'chapters',
           'transcript',
@@ -351,15 +381,25 @@ def main():
             ]
 
             for person in item['podcast'][tag]:
-              tag_tagname = tag
-              tag_elem = "".join(["{", f"{tag_ns}", "}", f"{tag_tagname}"])
-
+              podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
               podcast_elem.text = str(person['person'])
 
               for attr in person_attributes:
                 if attr in person:
                   if person[attr] != None:
                     podcast_elem.set(attr, str(person[attr]))
+
+              elem_item.append(podcast_elem)
+
+          if tag == "image":
+            for img in item['podcast'][tag]:
+              if img.get('href') != None:
+                podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
+                for attr in img:
+                  if img[attr] != None:
+                    podcast_elem.set(attr, str(img[attr]))
+
+                elem_item.append(podcast_elem)
 
           if tag == "socialInteract":
             si_attributes = [
@@ -369,6 +409,8 @@ def main():
               'accountUrl'
             ]
             for siAccount in item['podcast'][tag]:
+              if siAccount.get('protocol') is None:
+                continue
               if siAccount['protocol'] == 'disabled':
                 podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
 
@@ -376,7 +418,8 @@ def main():
               else:
                 podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
                 for attr in si_attributes:
-                  podcast_elem.set(attr, str(siAccount[attr]))
+                  if siAccount.get(attr) != None:
+                    podcast_elem.set(attr, str(siAccount[attr]))
 
               elem_item.append(podcast_elem)
 
@@ -384,12 +427,15 @@ def main():
             tr_attributes = [
               'url',
               'type',
+              'language',
+              'rel',
             ]
             for trns in item['podcast'][tag]:
               if trns['url'] != None and trns['type'] != None:
                 podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
                 for attr in tr_attributes:
-                  podcast_elem.set(attr, trns[attr])
+                  if trns.get(attr) != None:
+                    podcast_elem.set(attr, str(trns[attr]))
 
                 elem_item.append(podcast_elem)
 
@@ -411,8 +457,12 @@ def main():
               'type',
               'length',
               'bitrate',
-              'default',
+              'height',
+              'lang',
               'title',
+              'rel',
+              'codecs',
+              'default',
             ]
 
             for ae in item['podcast'][tag]:
@@ -422,8 +472,9 @@ def main():
                 podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
 
                 for attr in sorted(ae_attributes):
-                  if ae[attr] != None:
-                    podcast_elem.set(attr, str(ae[attr]))
+                  if ae.get(attr) != None:
+                    value = ae[attr]
+                    podcast_elem.set(attr, truefalseTOtruefalse(value) if isinstance(value, bool) else str(value))
 
                     stag_tagname = "source"
                     stag_elem = "".join(["{", f"{tag_ns}", "}", f"{stag_tagname}"])
@@ -438,7 +489,10 @@ def main():
 
           for attr in item['podcast'][tag]:
             if item['podcast'][tag][attr] != None:
-              podcast_elem.set(attr, str(item['podcast'][tag][attr]))
+              if tag == 'location' and attr == 'name':
+                podcast_elem.text = str(item['podcast'][tag][attr])
+              else:
+                podcast_elem.set(attr, str(item['podcast'][tag][attr]))
 
         if isinstance(item['podcast'][tag], str) == True:
           if item['podcast'][tag] != None:
@@ -458,10 +512,11 @@ def main():
             #else:
             #  podcast_elem.text = 'no'
 
-        elem_item.append(podcast_elem)
+        if tag_tagname not in tag_handlers:
+          elem_item.append(podcast_elem)
 
 
-    rss.append(elem_item)
+    channel.append(elem_item)
   # Close RSS
 
   # Write to file

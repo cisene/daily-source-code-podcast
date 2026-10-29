@@ -1,17 +1,4 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-# Decorates episode yaml with what the local audio archive knows: exact
-# duration (full decode), size in bytes, bitrate, subtitle and show notes
-# from the ID3 tags.
-#
-# The audio archive is READ ONLY, it is only ever read through ffprobe and
-# ffmpeg decoding to a null muxer. Nothing is written next to the audio.
-#
-# Track numbers in the tags are not used, they are unreliable.
-#
-# Usage: python3 update-episodes-from-audio.py [--dry-run]
-
 import os
 import re
 import sys
@@ -31,7 +18,6 @@ MEDIA_EXTENSIONS = ('.mp3', '.m4v', '.mp4', '.mov')
 
 PLACEHOLDER = '#daily-source-code-'
 
-# Album values that only name the show, not the episode
 GENERIC_SUBTITLES = [
   'daily source code',
   'dailysourcecode.com',
@@ -43,7 +29,6 @@ GENERIC_SUBTITLES = [
 
 DURATION_SUFFIX = re.compile(r"\\nDuration: \d{2}:\d{2}:\d{2}$")
 
-# Episode filenames whose archive file is named differently
 ARCHIVE_ALIASES = {
   'DSC-2007-04-17.mp3': '2007/DSC-2007-04-17-repost.mp3',
   'DSC-2009-01-19.mp3': '2009/818 DSC-818-2009-01-2009.mp3',
@@ -52,24 +37,20 @@ ARCHIVE_ALIASES = {
 
 class QuotedDumper(yaml.SafeDumper):
   def analyze_scalar(self, scalar):
-    # Tabs are valid inside literal blocks, PyYAML is just conservative
     analysis = super().analyze_scalar(scalar.replace("\t", " "))
     analysis.scalar = scalar
     return analysis
 
 
 def representString(dumper, value):
-  # Keep episode numbers like '028' quoted as in the rest of the files
   if re.match(r"^\d+$", value):
     return dumper.represent_scalar('tag:yaml.org,2002:str', value, style="'")
-  # Multi line show notes (OPML/HTML) as readable literal blocks
   if "\n" in value:
     return dumper.represent_scalar('tag:yaml.org,2002:str', value, style='|')
   return dumper.represent_str(value)
 
 
 def trimLines(text):
-  # Trailing whitespace on a line prevents a literal block in yaml
   return "\n".join(line.rstrip(" \t\r") for line in text.replace("\r\n", "\n").split("\n"))
 
 
@@ -126,7 +107,6 @@ def probe(path):
 
 
 def decodeDuration(path):
-  # Decodes the whole first audio stream to a null muxer, exact for VBR too
   out = subprocess.run(
     ['ffmpeg', '-nostdin', '-v', 'error', '-i', path, '-map', '0:a:0',
      '-f', 'null', '-', '-progress', 'pipe:1'],
@@ -139,9 +119,6 @@ def decodeDuration(path):
 
 
 def readFrames(path):
-  # Every ID3 frame as data (ffprobe hides repeated COMM, TDRL, WFED, ..),
-  # to keep the original tagging once the files are re-tagged. Binary frames
-  # (APIC, PRIV) are only described, images are extracted to img/ already.
   try:
     from mutagen.id3 import ID3, ID3NoHeaderError
   except ImportError:
@@ -237,13 +214,11 @@ def dateOf(filename):
 
 
 def indexArchive(cache):
-  # basename -> relpath, year directories before Misc
   index = {}
   for relpath in sorted(cache, key=lambda p: (p.startswith('Misc/'), p)):
     name = os.path.basename(relpath)
     if name not in index:
       index[name] = relpath
-    # DSC-259-2005-10-13.mp3 also answers for DSC-2005-10-13.mp3
     m = re.match(r"^DSC-\d{3}-(\d{4}-\d{2}-\d{2}\.\w+)$", name)
     if m and f"DSC-{m.group(1)}" not in index:
       index[f"DSC-{m.group(1)}"] = relpath
@@ -257,38 +232,30 @@ def findArchiveFile(filename, index, cache):
     return ARCHIVE_ALIASES[filename]
   if filename in index:
     return index[filename]
-  # DSC-770-2008-06-18.mp3 / DSC-206B-2005-07-11.mp3 -> DSC-2008-06-18.mp3
   plain = re.sub(r"^DSC-\d{3}[A-Z]?-(?=\d{4}-)", "DSC-", filename)
   return index.get(plain)
 
 
 def indexSizes(cache):
-  # size in bytes -> relpaths, year directories before Misc
   sizes = {}
   for relpath in sorted(cache, key=lambda p: (p.startswith('Misc/'), p)):
     sizes.setdefault(cache[relpath]['size'], []).append(relpath)
   return sizes
 
 
-def findArchiveFileByLength(ep, relpath, sizes, cache):
-  # The enclosure length from the feed is byte exact, it beats a filename
-  # that points at another show (stubs 010-013 were one show off)
+def findArchiveFileByLength(ep, relpath, sizes, cache, held):
   length = get(ep, 'enclosure', 'length')
   if not isinstance(length, int) or length < 100000:
     return None
   if relpath != None and cache[relpath]['size'] == length:
     return None
   found = [p for p in sizes.get(length, []) if not p.startswith('Misc/')]
-  if len(found) == 1:
+  if len(found) == 1 and found[0] not in held:
     return found[0]
   return None
 
 
 def findMonthEndFixes(episodes, index):
-  # A stub generator bug gave episodes dated YYYY-MM-MM the file of the last
-  # show of that month, which then appears on two episodes. The lower number
-  # gets the YYYY-MM-MM file when that file exists, is unused and fits between
-  # the neighbouring episodes. Hand-merged episodes are left alone.
   fixes = {}
   used = {}
   for n, ep in episodes.items():
@@ -325,7 +292,6 @@ def subtitleFromTags(tags):
     tags.get('tds'),
     tags.get('tt3'),
   ]
-  # From 2009 TIT3/TDES are short episode titles rather than notes
   for key in ['tit3', 'tdes']:
     value = tags.get(key)
     if value != None and len(value) <= 120 and '<' not in value:
@@ -357,7 +323,6 @@ def isJunkComment(value):
 
 
 def shownotesFromTags(tags):
-  # Raw, keeping the original markup (HTML / outline) for later processing
   tdes = tags.get('tdes')
   if tdes != None and (len(tdes) > 120 or '<' in tdes):
     return tdes.strip()
@@ -399,7 +364,6 @@ def titleFor(ymd):
 
 
 def setMirrored(ep, key, value):
-  # itunes and podcast are mirrored where both carry the key
   for ns in ['itunes', 'podcast']:
     if isinstance(ep.get(ns), dict) and (key in ep[ns] or ns == 'itunes'):
       ep[ns][key] = value
@@ -412,8 +376,6 @@ def replaceBasename(uri, old, new):
 
 
 def alternateEnclosures(ep):
-  # alternateEnclosure is a list, one entry per source uri. The stub generator
-  # wrote a single mapping with a list of uris, rewritten here as the list.
   value = ep['podcast'].get('alternateEnclosure')
   if isinstance(value, dict):
     uris = get(value, 'source', 'uri')
@@ -457,7 +419,7 @@ def updateEpisode(n, ep, audio, relpath, fix, log):
   size = audio['size']
 
   ep['fileinfo']['size'] = size
-  ep['fileinfo']['duration'] = round(duration, 3)
+  ep['fileinfo']['duration'] = int(round(duration))
   ep['fileinfo']['bitrate'] = audio['bitrate']
   ep['fileinfo']['source'] = relpath
   ep['itunes']['duration'] = int(round(duration))
@@ -471,12 +433,9 @@ def updateEpisode(n, ep, audio, relpath, fix, log):
       if audio['bitrate'] != None:
         ae['bitrate'] = audio['bitrate']
 
-  # Description, mirrored into the summaries that copy it
-  # Hand curated descriptions are kept, only a trailing Duration is refreshed
   old_description = ep.get('description')
   description = old_description
   if fix != None:
-    # Text taken from the wrong file by the stub generator
     old_description = None
     ep['itunes']['subtitle'] = None
     if 'subtitle' in ep['podcast']:
@@ -515,7 +474,8 @@ def main():
 
   episodes = {}
   for n in range(1, EPISODE_COUNT + 1):
-    episodes[n] = readYAML(f"{EPISODE_DIR}{n:03}.yaml")
+    if os.path.isfile(f"{EPISODE_DIR}{n:03}.yaml"):
+      episodes[n] = readYAML(f"{EPISODE_DIR}{n:03}.yaml")
 
   fixes = findMonthEndFixes(episodes, index)
 
@@ -534,7 +494,8 @@ def main():
 
     filename = fixes[n][1] if n in fixes else get(ep, 'fileinfo', 'filename')
     relpath = findArchiveFile(filename, index, cache)
-    exact = None if n in fixes else findArchiveFileByLength(ep, relpath, sizes, cache)
+    held = {get(e, 'fileinfo', 'source') for m, e in episodes.items() if m != n and isinstance(e, dict) and isinstance(e.get('fileinfo'), dict)}
+    exact = None if n in fixes else findArchiveFileByLength(ep, relpath, sizes, cache, held)
     if exact != None:
       log.append(f"{n:03}: enclosure length matches {exact}, not {relpath or filename}")
       relpath = exact

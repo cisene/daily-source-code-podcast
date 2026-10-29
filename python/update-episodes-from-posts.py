@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-# Fill placeholder link, guid, pubDate, enclosure url and description of the
-# episodes from the original Daily Source Code posts in json/dsc-posts-*.json
-# (saved feed items, Wayback day pages where no feed has the post).
-#
-# Only placeholders are replaced, curated values are kept. An episode is only
-# filled when exactly one episode yaml holds that show and its title date
-# agrees with its audio file.
-
 import os
 import re
 import sys
@@ -20,14 +12,10 @@ EPISODE_DIR = '../yaml/episodes/'
 POSTS_FILES = '../json/dsc-posts-*.json'
 EPISODE_LAST = 867
 
-# The enclosure of post #7044 was published broken (text/html, 12444 bytes),
-# the show is DSC-2005-03-30.mp3 (linked from the same post on the day page)
 ENCLOSURE_FIXES = {
   'http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-03-29.mp3': 'http://homepage.mac.com/dailysourcecode/DSC/DSC-2005-03-30.mp3',
 }
 
-# Feed items that are not a show of their own: test posts and the 18 second
-# test clip of 2004-08-22
 SKIP_ENCLOSURES = [
   'dailySourceCode08222004.mp3',
 ]
@@ -37,7 +25,6 @@ MONTH_ABBR = {m[:3]: i + 1 for i, m in enumerate(MONTHS)}
 
 
 def loadScript(name, filename, stubs=[]):
-  # The other update scripts are not modules, load their helpers by path
   for stub in stubs:
     sys.modules.setdefault(stub, types.ModuleType(stub))
   spec = importlib.util.spec_from_file_location(name, os.path.join(os.path.dirname(os.path.abspath(__file__)), filename))
@@ -61,11 +48,7 @@ def validDate(y, m, d):
 
 
 def dateFromName(name):
-  # DSC-2004-10-27.mp3, DSC20041210.mp3, dailySourceCode20040822.mp3,
-  # dailySourceCode08302004.mp3 (MMDDYYYY), DSC-14092004.mp3 (DDMMYYYY),
-  # DSC-19-09-2004.mp3, DSC-15-Sept-2004.mp3, dailySourceCode200408212004.mp3
   name = os.path.basename(str(name or ''))
-  # deltasierracharl-4812-05-01-2006.mp3 (MM-DD-YYYY)
   m = re.search(r"(?i)^(?:deltasierracharl|dailysourcecode)-\d+-(\d{2})-(\d{2})-(\d{4})", name)
   if m:
     return validDate(m.group(3), m.group(1), m.group(2))
@@ -88,7 +71,6 @@ def dateFromName(name):
 
 
 def dateFromTitle(title):
-  # "daily source code october 27 2004", "Daily Source Code for Wednesday March 02nd 2005"
   m = re.search(r"(?i)\b(" + '|'.join(MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th|d)?,?\s+(20(?:0[4-9]|1[0-3]))", str(title or ''))
   if m:
     return validDate(m.group(3), MONTHS.index(m.group(1).lower()) + 1, m.group(2))
@@ -115,24 +97,21 @@ def formatPubDate(pubDate):
 
 
 def postShows(posts):
-  # show date -> posts carrying that show's audio
   shows = {}
   for post in posts:
     enclosure = post.get('enclosure') or {}
     url = ENCLOSURE_FIXES.get(enclosure.get('url'), enclosure.get('url'))
     if url == None or os.path.basename(url) in SKIP_ENCLOSURES:
       continue
-    if not re.match(r"(?i)^(dsc|dailysourcecode|deltasierracharl).*\.(mp3|m4a|mp4)$", os.path.basename(url)) or 'PPP' in url:
+    if not re.match(r"(?i)^(\d{3}-)?(dsc|dailysourcecode|deltasierracharl).*\.(mp3|m4a|mp4)$", os.path.basename(url)) or 'PPP' in url:
       continue
     ymd = dateFromName(url) or dateFromTitle(post.get('title'))
     if ymd == None:
       continue
-    # A repost of the same mp3 (2004-09-22) is the same show, the first post counts
     if any(p['enclosure']['url'] == url for p in shows.get(ymd, [])):
       continue
     fixed = dict(enclosure, url=url)
     if url != enclosure.get('url'):
-      # the published length belongs to the broken url
       fixed['length'] = None
     post = dict(post, enclosure=fixed)
     shows.setdefault(ymd, []).append(post)
@@ -197,7 +176,6 @@ def updateEpisode(n, ep, post, log):
 
 def main():
   dry_run = '--dry-run' in sys.argv
-  # pubDate is written the way update-episodes-from-rss.py writes it ('%c')
   locale.setlocale(locale.LC_TIME, 'C')
 
   posts = []
@@ -230,8 +208,6 @@ def main():
       skipped.append(f"{ymd}: {', '.join(f'{n:03}' for n in numbers)} hold the same show")
       continue
     if len(found) > 1:
-      # A repost, a v2 upload or an extra (JobCast, announcement) next to the
-      # show post: the one titled as a show wins when there is exactly one
       titled = [p for p in found if re.search(r"(?i)daily\s+[sd]ource\s+code\s+for", str(p.get('title')))]
       if len(titled) != 1:
         skipped.append(f"{ymd}: posts {', '.join(str(p['anchor']) for p in found)} carry the same show")
@@ -249,7 +225,6 @@ def main():
     if post_date != None and post_date != ymd:
       skipped.append(f"{n:03}: post #{found[0]['anchor']} title says {post_date}, audio is {ymd}")
       continue
-    # Adam numbered the shows from #180 on, the post title carries it
     stated = re.search(r"#\s?(\d{3})\b", str(found[0].get('title')))
     if stated and int(stated.group(1)) != n:
       numbering.append(f"{n:03}: post #{found[0]['anchor']} is titled #{stated.group(1)}")

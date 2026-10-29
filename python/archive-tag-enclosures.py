@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-# List the published enclosure urls named in the tags of the archive files.
-#
-# From 2006 on the archive files carry the original post in their tags (TDES,
-# comment) with its "Direct link to the show", and often the item guid (TGID).
-# That names the feed item the file was published as, whatever date is in the
-# archive file name. Writes json/dsc-archive-tag-enclosures.json:
-#   { "2007/DSC-2007-12-04.mp3": { "title": ..., "urls": [...] }, ... }
-#
-# The archive is only read (ffprobe).
-
 import os
 import re
 import sys

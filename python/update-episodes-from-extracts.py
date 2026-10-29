@@ -1,29 +1,4 @@
 #!/usr/bin/env python3
-# Fill placeholder link, guid, pubDate, enclosure url and description of the
-# episodes from the feed items update-episodes-from-rss.py extracted to
-# rss/episodes/*.yaml.
-#
-# Only placeholders are replaced, curated values are kept. The extracts are
-# numbered by feed order, not by show, so they are matched to the episodes:
-#
-# 1. by the archive file's own tags (json/dsc-archive-tag-enclosures.json,
-#    from archive-tag-enclosures.py): the post embedded in the tags names the
-#    published mp3. Used when exactly one feed item is named and the number
-#    in the file's title tag, else the item's stated number or title date,
-#    agrees with the episode. This match also replaces
-#    values an earlier run took from another feed item.
-# 2. by the number the item states ("#670 Daily Source Code for …"), when the
-#    item was published within 3 days of the show.
-# 3. by date: the date in the enclosure url is the date of exactly one
-#    episode's audio file and no other extract carries that date.
-# 4. by title date: items uploaded a day before or after the recording carry
-#    the upload day in the enclosure url, the item title has the show date.
-# 5. by the archive file's tags again, for an episode left without any feed
-#    item, when nothing else matched the named item (logged).
-#
-# Enclosure lengths stay the archive size: later published files were
-# re-tagged and differ in size from the archive copies.
-
 import os
 import re
 import sys
@@ -38,7 +13,6 @@ EXTRACT_DIR = '../rss/episodes/'
 TAGS_FILE = '../json/dsc-archive-tag-enclosures.json'
 EPISODE_LAST = 867
 
-# Typos in published item titles, by enclosure file
 TITLE_FIXES = {
   'dailysourcecode-280880-05-15-2011.mp3': ('April 16 3011', 'April 16 2011'),
 }
@@ -69,15 +43,11 @@ def itemTitleDate(extract):
 
 
 def itemNumber(extract):
-  # The subtitle repeats the post headline, "#695 Daily Source Code for …"
   m = re.search(r"^#\s?(\d{3})\b", str(audio.get(extract, 'itunes', 'subtitle') or '').strip())
   return int(m.group(1)) if m else None
 
 
 def agrees(n, ep, extract, file_title=None):
-  # The archive file's own title states the show number ("#489 Daily Source …")
-  # and the item, when it states one, the same (tags copied from the previous
-  # show name the previous show's item)
   m = re.search(r"^#\s?(\d{3})\b", str(file_title or '').strip())
   if m:
     return int(m.group(1)) == n and itemNumber(extract) in [None, n]
@@ -88,7 +58,6 @@ def agrees(n, ep, extract, file_title=None):
 
 
 def replaceable(value, placeholder, wrong):
-  # A placeholder, or the value an earlier run took from the wrong feed item
   return posts.isPlaceholder(value, placeholder) or (wrong != None and value == wrong)
 
 
@@ -126,8 +95,6 @@ def updateEpisode(n, ep, extract, log, wrong=None):
         ae['source']['uri'] = url
     changes.append('enclosure url')
 
-  # The extracts hold the item's show notes already cleaned up by
-  # update-episodes-from-rss.py: text in description, HTML in the summaries
   text = extract.get('description')
   if text != None and str(text).strip() != '' and audio.isPlaceholderDescription(ep.get('description')):
     duration = audio.get(ep, 'fileinfo', 'duration')
@@ -154,7 +121,6 @@ def main():
     extract = audio.readYAML(path)
     if not isinstance(extract, dict) or audio.get(extract, 'enclosure', 'url') == None:
       continue
-    # The same item in several saved feeds is one extract
     if enclosureName(extract) in byname:
       continue
     byname[enclosureName(extract)] = extract
@@ -182,7 +148,6 @@ def main():
   claimed = set()
   matched = set()
 
-  # 1. The feed item the archive file's tags name
   for n, ep in episodes.items():
     tags = tagged.get(audio.get(ep, 'fileinfo', 'source')) or {}
     names = [os.path.basename(u) for u in tags.get('urls', [])]
@@ -202,7 +167,6 @@ def main():
       log[-1] += f" by archive tags"
       changed.add(n)
 
-  # 2. The number the item states
   for extract in byname.values():
     n = itemNumber(extract)
     if n == None or n not in episodes or n in matched or enclosureName(extract) in claimed:
@@ -219,7 +183,6 @@ def main():
     if updateEpisode(n, episodes[n], extract, log, None if wrong is extract else wrong):
       changed.add(n)
 
-  # 3. The date in the enclosure url
   for ymd, numbers in sorted(holders.items()):
     found = [e for e in extracts.get(ymd, []) if enclosureName(e) not in claimed]
     numbers = [n for n in numbers if n not in matched]
@@ -237,7 +200,6 @@ def main():
     if updateEpisode(n, episodes[n], found[0], log):
       changed.add(n)
 
-  # 4. Upload day differs from the show date: the title date
   unmatched = []
   for ymd, found in sorted(extracts.items()):
     for extract in found:
@@ -255,7 +217,6 @@ def main():
       if updateEpisode(n, episodes[n], extract, log):
         changed.add(n)
 
-  # 5. Tags name an item nothing else matched, the episode has no feed item
   for n, ep in episodes.items():
     if n in matched or posts.hasScheme(audio.get(ep, 'enclosure', 'url')):
       continue
@@ -271,7 +232,6 @@ def main():
     if updateEpisode(n, ep, extract, log):
       changed.add(n)
 
-  # Items an episode already has from an earlier run are not unmatched
   current = set(os.path.basename(str(audio.get(ep, 'enclosure', 'url'))) for ep in episodes.values())
   unmatched = [u for u in unmatched if u.split(' ')[1] not in current]
 

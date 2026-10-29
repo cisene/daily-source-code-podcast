@@ -120,15 +120,6 @@ class EpisodeData:
       }
     ],
 
-    'socialInteract': [
-      {
-        'uri': None,
-        'protocol': 'disabled',
-        'accountId': None,
-        'accountUrl': None,
-      }
-    ],
-
     'alternateEnclosure': [
       {
         'type': None,
@@ -1006,7 +997,7 @@ def processFiles(filelist):
                 person = {
                   'person': "Adam Curry",
                   'href': "http://curry.com/",
-                  'img': "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg",
+                  'img': "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg",
                   'group': "cast",
                   'role': "host",
                 }
@@ -1019,7 +1010,7 @@ def processFiles(filelist):
           person = {
             'person': "Adam Curry",
             'href': "http://curry.com/",
-            'img': "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/440px-Adam_Curry_2016.jpg",
+            'img': "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_Curry_2016.jpg/500px-Adam_Curry_2016.jpg",
             'group': "cast",
             'role': "host",
           }

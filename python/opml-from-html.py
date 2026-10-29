@@ -1,17 +1,4 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-# Reconstructs OPML show notes from their HTML rendering:
-# - Radio UserLand's activeRenderer (blognewsnetwork.com/members/0000001/outlines/),
-#   it keeps the structure, the text of every node and the url of link and rss
-#   nodes, and loses the other attributes (artist, album, type="song", f,
-#   sizeFile, whenFileCreated) and the #title directive.
-# - OmniOutliner's HTML export (mp3.dailysourcecode.podshow.com/DSC-NNN-YYYY-MM-DD/index.html),
-#   it keeps the structure and the text, links written "Link <url>" in the OPML.
-#
-# Usage: opml-from-html.py <outline.html> [<outline.opml>]
-#        opml-from-html.py --compare <outline.html> <original.opml>
-
 import re
 import sys
 import html
@@ -25,12 +12,8 @@ UPDATED = re.compile(r'last updated:\s*([^<]+?)\s*</div>', re.S)
 HREF = re.compile(r'<a [^>]*href="([^"]*)"')
 RSSCLUDE = re.compile(r"(?:rssclude|transclude)\('p\d+',\s*'([^']*)'\)")
 
-# The renderer linked bare urls and email addresses, the OPML has them as text
 AUTOLINK = re.compile(r'<a href="(?:mailto:)?([^"<>]+)">\1</a>')
 
-# Radio on the Mac wrote MacRoman bytes into OPML declared ISO-8859-1. The
-# renderer read them as MacRoman and wrote an entity, or a name for the
-# characters it had no entity for.
 MACROMAN_NAMES = {
   '[sgl dagger]': '\u2020',
   '[dbl dagger]': '\u2021',
@@ -43,14 +26,11 @@ MACROMAN_NAMES = {
   "[base ']": '\u201a',
 }
 
-# Radio left NUL characters at the end of some texts (also in its own OPML),
-# XML has no way to write them
 CONTROL = re.compile(r'[\x00-\x08\x0b\x0c\x0e-\x1f]')
 ENTITY = re.compile(r'&(?:[A-Za-z][A-Za-z0-9]*|#\d+|#x[0-9A-Fa-f]+);')
 
 
 def encodingOf(data):
-  # Radio wrote Latin-1, OmniOutliner UTF-8 and says so
   head = data[:2000].decode('latin-1').lower()
   return 'utf-8' if 'charset=utf-8' in head or 'encoding="utf-8"' in head else 'latin-1'
 
@@ -62,13 +42,11 @@ def readText(path):
 
 
 def decodeText(value):
-  # Back from the rendered html to the text of the OPML node, as Latin-1
   value = AUTOLINK.sub(r'\1', value)
   for name, char in MACROMAN_NAMES.items():
     value = value.replace(name, char)
 
   def entity(m):
-    # &nbsp; and the other ASCII entities are part of the text itself
     char = html.unescape(m.group(0))
     if len(char) == 1 and ord(char) > 127 and char != '\xa0':
       return char
@@ -92,13 +70,11 @@ def decodeText(value):
 
 
 def parseHTML(text):
-  # Returns (title, updated, nodes), nodes are dicts with text, url, type, children
   title = TITLE.search(text)
   updated = UPDATED.search(text)
   root = {'children': []}
   stack = [(0, root)]
   last = None
-  # Node ids are a page prefix and a counter from 0: r90, r91 .. r99, r910
   first = NODE.search(text)
   prefix = first.group(1)[:-1] if first and first.group(1).endswith('0') else ''
   for m in NODE.finditer(text):
@@ -106,8 +82,6 @@ def parseHTML(text):
     depth = int(m.group(2))
     wedge = m.group(3)
     if last != None and number > last[0] + 1:
-      # Empty nodes were not rendered, but they used up a node number. A blank
-      # line belongs with the node before it unless the next node is deeper.
       blank = depth if depth > last[1] else last[1]
       while stack[-1][0] >= blank:
         stack.pop()
@@ -135,13 +109,9 @@ def parseHTML(text):
   )
 
 
-# A row ends with the two tables around its cells, an attachment can bring its
-# own table. The last row of a page can run into Adam's Amazon iframes.
 OMNI_TOKEN = re.compile(r'<!-- Begin group [^>]*-->|<!-- End group [^>]*-->|<td style="[^"]*" class="subcell col1">(.*?)(?:</td>\s*</tr>\s*</table>\s*</td>\s*</tr>\s*</table>\s*</div>|<br>\s*(?=<iframe))', re.S)
 OMNI_LINK = re.compile(r'<span><a href="([^"]*)">(.*?)</a></span>', re.S)
-# Attached audio: an inline QuickTime player titled with the file name
 OMNI_PLAYER = re.compile(r'<table [^>]*display: inline;[^>]*>.*?<div [^>]*>(.*?)</div>.*?</object>(?:\s*</td>\s*</tr>\s*</table>)?', re.S)
-# Other attachments: a grey link to the file
 OMNI_ATTACHMENT = re.compile(r'<span style="background-color: #f1f1f1;"><a href="[^"]*">(.*?)</a></span>', re.S)
 
 
@@ -150,7 +120,6 @@ def decodeOmniText(value):
   value = OMNI_PLAYER.sub(r'\1', value)
   value = OMNI_ATTACHMENT.sub(r'\1', value)
   value = OMNI_LINK.sub(lambda m: f"{m.group(2)} <{m.group(1)}>", value)
-  # Styled runs (colors) have no counterpart in the OPML
   value = re.sub(r'<span style="[^"]*">|</span>', '', value)
   value = re.sub(r'<br>\n?', "\n", value)
   return html.unescape(value)
@@ -180,7 +149,6 @@ def parseAny(text):
 
 
 def parseOPML(text):
-  # Tolerant reader for Radio's OPML, which is not always well-formed XML
   root = {'children': []}
   stack = [root]
   for m in re.finditer(r'<outline\b((?:[^>"]|"[^"]*")*?)(/?)>|</outline>', text):
@@ -226,7 +194,6 @@ def renderOPML(title, updated, nodes, source, encoding, renderer):
   lines.append('\t<head>')
   lines.append(f'\t\t<title>{quoteAttribute(title or "")}.opml</title>')
   if updated != None:
-    # Radio wrote this in Adam's local time, kept as it was rendered
     lines.append(f'\t\t<!-- last updated: {quoteAttribute(updated)} -->')
   lines.append('\t\t<ownerName>Adam Curry</ownerName>')
   lines.append('\t\t</head>')
@@ -238,7 +205,6 @@ def renderOPML(title, updated, nodes, source, encoding, renderer):
 
 
 def flatten(nodes, depth=0, out=None):
-  # (depth, text, url) of every node, the #directives of the OPML left out
   if out == None:
     out = []
   for node in nodes:
