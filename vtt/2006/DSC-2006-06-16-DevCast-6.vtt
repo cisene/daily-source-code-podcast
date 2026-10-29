@@ -1,0 +1,1159 @@
+WEBVTT
+
+00:00.000 --> 00:06.000
+This podcast is brought to you
+by PodShow and GoDaddy.
+
+00:06.000 --> 00:09.000
+Want killer content with a
+badass domain name?
+
+00:09.000 --> 00:14.000
+This show will give you a
+special code to get great
+discounts at GoDaddy.com.
+
+00:16.000 --> 00:22.000
+Hey everybody, welcome to
+Devcast number six coming to you
+from San Francisco, California.
+
+00:22.000 --> 00:26.000
+First time we've actually done
+the Devcast outside of the
+United Kingdom,
+
+00:26.000 --> 00:29.000
+but I feel very, very close now.
+
+00:29.000 --> 00:33.000
+In fact, if I threw a rock, I
+could probably hit Andrew
+Gromit's head.
+
+00:33.000 --> 00:35.000
+Hey, how you doing, Adam?
+
+00:35.000 --> 00:37.000
+Hey, Andrew. Are you at the
+office now?
+
+00:37.000 --> 00:38.000
+I am.
+
+00:38.000 --> 00:40.000
+Well, good morning to you, sir.
+
+00:40.000 --> 00:41.000
+Good morning.
+
+00:41.000 --> 00:46.000
+It is Friday and our Devcast has
+been a couple weeks.
+
+00:46.000 --> 00:52.000
+We threw out a bevy, a veritable
+cornucopia of golden tickets
+last time we did the show.
+
+00:52.000 --> 00:56.000
+How many did we actually hand
+out? How many were claimed? Do
+you know Andrew offhand?
+
+00:56.000 --> 00:59.000
+It was certainly into the
+hundreds.
+
+00:59.000 --> 01:00.000
+Excellent.
+
+01:00.000 --> 01:05.000
+And most of these people are
+actually on and signed up and
+doing stuff and creating stuff,
+right?
+
+01:05.000 --> 01:06.000
+Yeah, that's right.
+
+01:06.000 --> 01:12.000
+And from what I hear from Sue,
+there's this continuing trickle
+of additional people in.
+
+01:12.000 --> 01:13.000
+Oh, really?
+
+01:13.000 --> 01:14.000
+Yeah.
+
+01:14.000 --> 01:18.000
+You don't mean to say that
+people have passed on their
+passwords and stuff?
+
+01:18.000 --> 01:20.000
+Oh, phrases, do you think?
+
+01:20.000 --> 01:22.000
+They wouldn't possibly do that.
+
+01:22.000 --> 01:24.000
+Developers aren't like that now,
+are they?
+
+01:24.000 --> 01:27.000
+Yeah, they're decent, honest
+people.
+
+01:27.000 --> 01:36.000
+So we are getting very close to
+our public beta of PodShow Plus
+and the podcast delivery
+network.
+
+01:36.000 --> 01:43.000
+And of those hundreds of
+developers who now in who've
+received golden tickets and who
+are beta testing and bang in the
+system
+
+01:43.000 --> 01:48.000
+and also creating modules for
+PodShow Plus and what that
+means.
+
+01:48.000 --> 01:52.000
+Well, if you're not a developer
+and a listener, you just have to
+wait.
+
+01:52.000 --> 01:54.000
+We should do screenshots,
+Andrew.
+
+01:54.000 --> 01:56.000
+Hey, that's a great idea.
+
+01:56.000 --> 02:00.000
+I'll throw some up maybe as
+follow on posts on the developer
+site.
+
+02:00.000 --> 02:01.000
+That'd be cool.
+
+02:01.000 --> 02:02.000
+So what are we seeing?
+
+02:02.000 --> 02:08.000
+What kind of activity have we
+seen from the developers on
+putting together modules for
+PodShow Plus?
+
+02:08.000 --> 02:10.000
+There's been some interesting
+ones to come in.
+
+02:10.000 --> 02:16.000
+We've got probably the first one
+was Tomas' Google search module.
+
+02:16.000 --> 02:19.000
+And we'll introduce Tomas in a
+second.
+
+02:20.000 --> 02:29.000
+We've also seen some modules
+that expose presence information
+on various instant messaging
+networks.
+
+02:29.000 --> 02:31.000
+And that was actually pretty
+cool to see.
+
+02:31.000 --> 02:37.000
+But actually, that's actually
+part of one of our own modules,
+our contact info module.
+
+02:37.000 --> 02:45.000
+Clearly, people are sort of
+picking up on what we intended,
+which was not just to allow you
+to paste in some text,
+
+02:45.000 --> 02:53.000
+but also to do things that are
+sort of web aware and sort of
+connected to the world out
+there.
+
+02:53.000 --> 02:55.000
+Web 2.0, dude.
+
+02:55.000 --> 02:59.000
+Yeah, you know, I was trying to
+shy away from that.
+
+02:59.000 --> 03:01.000
+I could hear your brain working.
+
+03:01.000 --> 03:05.000
+He wants to say it, but he's
+never going to say it.
+
+03:05.000 --> 03:10.000
+All right, so it would have
+been, actually it would have
+been even cooler if I was in the
+UK,
+
+03:10.000 --> 03:12.000
+because we would have three
+continents.
+
+03:12.000 --> 03:14.000
+Not really.
+
+03:14.000 --> 03:17.000
+Well, the UK isn't really a
+continent.
+
+03:17.000 --> 03:23.000
+We would have had three land
+masses connected together,
+coming to us now from...
+
+03:23.000 --> 03:26.000
+Is it Hauda in the Netherlands,
+Tomas?
+
+03:26.000 --> 03:27.000
+Yes, it is.
+
+03:27.000 --> 03:32.000
+Okay, ladies and gentlemen, we
+have Tomas on Skype.
+
+03:32.000 --> 03:38.000
+It's funny, Andrew, because you
+say Tomas, kind of like the
+Spanish pronunciation.
+
+03:38.000 --> 03:39.000
+Yeah.
+
+03:39.000 --> 03:40.000
+But it's Tomas.
+
+03:40.000 --> 03:42.000
+I think it's Tomas, or is it
+Tomas?
+
+03:42.000 --> 03:44.000
+What is it Tomas, Tomas, Tomas?
+
+03:44.000 --> 03:46.000
+Oh, it's just Tomas.
+
+03:46.000 --> 03:48.000
+Okay, see, I knew it.
+
+03:48.000 --> 03:50.000
+Okay, so I emphasis on the first
+syllable there.
+
+03:50.000 --> 03:55.000
+So Tomas is a developer in the
+Netherlands.
+
+03:55.000 --> 03:57.000
+Are you a freelance developer?
+
+03:57.000 --> 03:58.000
+Do you work for a company?
+
+03:58.000 --> 04:00.000
+What's your situation?
+
+04:00.000 --> 04:06.000
+I'm a high school student, or
+have been for the last six
+years.
+
+04:06.000 --> 04:14.000
+And I'm now heading towards a
+study at the University of Uweg,
+Informatic Computer Science.
+
+04:14.000 --> 04:20.000
+And at the moment, my only work
+relation is doing support work,
+
+04:20.000 --> 04:24.000
+but nothing really programming
+related.
+
+04:24.000 --> 04:25.000
+So it's more a hobby.
+
+04:25.000 --> 04:27.000
+Okay, so you're a high school
+student.
+
+04:27.000 --> 04:29.000
+How old are you, Tomas, if you
+don't mind me asking?
+
+04:29.000 --> 04:30.000
+18.
+
+04:30.000 --> 04:31.000
+Okay.
+
+04:31.000 --> 04:33.000
+So you're almost done then with
+school.
+
+04:33.000 --> 04:35.000
+That's right, university next
+course.
+
+04:35.000 --> 04:36.000
+Just done.
+
+04:36.000 --> 04:40.000
+I heard final years yesterday.
+
+04:40.000 --> 04:45.000
+So you reached out to us, and I
+want to hear that story as well
+in a second,
+
+04:45.000 --> 04:48.000
+but how did you hear about
+podcasting?
+
+04:48.000 --> 04:50.000
+How did you become interested?
+
+04:50.000 --> 04:53.000
+How did you figure out why did
+you start listening to the
+devcast?
+
+04:53.000 --> 04:56.000
+You want to give a little
+background to that, Tomas?
+
+04:56.000 --> 05:02.000
+Yeah, I heard someone on
+mainstream radio talk about
+podcasting
+
+05:02.000 --> 05:05.000
+and got searching on it,
+listening to some Dutch podcast.
+
+05:05.000 --> 05:10.000
+We have quite, well, a show like
+company in Netherlands.
+
+05:10.000 --> 05:17.000
+And, well, somewhere or another,
+I listened to the DSC, well, for
+about a year now.
+
+05:17.000 --> 05:21.000
+And by that, I heard about
+devcast and listened to that.
+
+05:21.000 --> 05:24.000
+And that way, you find out
+golden tickets.
+
+05:24.000 --> 05:27.000
+And well, that's just how I got
+involved.
+
+05:27.000 --> 05:30.000
+So we got an email from Tomas.
+
+05:30.000 --> 05:35.000
+It must have been six weeks ago,
+maybe even longer, Andrew.
+
+05:35.000 --> 05:38.000
+I think it was before, was it
+for devcast?
+
+05:38.000 --> 05:40.000
+Yeah, it might have been
+mid-May.
+
+05:40.000 --> 05:41.000
+Okay.
+
+05:41.000 --> 05:45.000
+And Tomas basically said, hey,
+dudes, I can so totally break
+your algorithm
+
+05:45.000 --> 05:47.000
+on the golden tickets.
+
+05:47.000 --> 05:52.000
+You may want to try this.
+
+05:52.000 --> 05:54.000
+Wasn't it something like that?
+
+05:54.000 --> 05:55.000
+Yeah.
+
+05:55.000 --> 06:01.000
+Yeah, I think actually that
+maybe a couple hours before we
+got the email from him,
+
+06:01.000 --> 06:06.000
+you know, when we released the
+golden tickets, so we have all
+kinds of logging,
+
+06:06.000 --> 06:09.000
+and I watched what's going on,
+and I could see some interesting
+stuff going on.
+
+06:09.000 --> 06:16.000
+And I sent a note to Adam, and I
+said, hey, I think this guy is
+trying to hack us.
+
+06:16.000 --> 06:22.000
+And Tomas, I think you might
+remember that there was
+something about your IP address.
+
+06:22.000 --> 06:25.000
+I think I reversed DNSed it and
+figured out who you are even.
+
+06:25.000 --> 06:28.000
+But then the email came in and I
+said, ah, okay, cool.
+
+06:28.000 --> 06:30.000
+It's a friendly hacker.
+
+06:30.000 --> 06:33.000
+Yes, you matched my local mail
+server.
+
+06:33.000 --> 06:34.000
+That was it.
+
+06:34.000 --> 06:35.000
+It was your mail server, yeah.
+
+06:35.000 --> 06:40.000
+Ah, you can't escape the wrath
+of Grummit.
+
+06:40.000 --> 06:44.000
+My last name is also my domain
+name, which is why you find out
+pretty quickly.
+
+06:44.000 --> 06:46.000
+Ah, there you go.
+
+06:46.000 --> 06:48.000
+We'll do it every single time.
+
+06:48.000 --> 06:53.000
+Okay, so then we got talking to
+Tomas, and he, of course, had
+some good suggestions,
+
+06:53.000 --> 06:58.000
+and we got him in on the beta
+program, and he's been working
+on some stuff.
+
+06:58.000 --> 07:00.000
+You want to tell us what you've
+been doing there, Tomas?
+
+07:00.000 --> 07:05.000
+Yeah, well, we were talking
+about the SDK on Devcast,
+
+07:05.000 --> 07:10.000
+and getting people to wait for
+it, and everybody was crying out
+to give me the SDK.
+
+07:10.000 --> 07:15.000
+I was skyping with Andrew, and,
+well, one way or another,
+
+07:15.000 --> 07:18.000
+he gave me a pre-release version
+of the SDK.
+
+07:18.000 --> 07:23.000
+So, like, well, can you take a
+look at it and check on it and
+see what might be changed
+
+07:23.000 --> 07:27.000
+or what needs some more
+documentation to get other
+people to use it.
+
+07:27.000 --> 07:29.000
+And, well, I got playing around
+with it,
+
+07:29.000 --> 07:33.000
+and well, I actually found a few
+bugs and fixed it.
+
+07:33.000 --> 07:38.000
+And then, well, a few days
+before the actual release of the
+SDK,
+
+07:38.000 --> 07:42.000
+I wrote a Google module.
+
+07:42.000 --> 07:45.000
+You might have seen it. I don't
+know if it's in...
+
+07:45.000 --> 07:46.000
+No, it's not yet in the beta.
+
+07:46.000 --> 07:48.000
+No, it's not in the beta yet.
+Why don't you tell us what it
+does?
+
+07:48.000 --> 07:51.000
+I mean, I can kind of guess,
+obviously.
+
+07:51.000 --> 07:54.000
+Yes, it's quite simple a module.
+
+07:54.000 --> 07:57.000
+You can type in a search phrase
+and hit Search,
+
+07:57.000 --> 08:00.000
+and it will do some HX calls and
+use the Google API
+
+08:00.000 --> 08:03.000
+to fetch you search results from
+Google.
+
+08:03.000 --> 08:08.000
+So, we saw that work and we
+liked just the stuff,
+
+08:08.000 --> 08:10.000
+the way that Tomas was thinking.
+
+08:10.000 --> 08:14.000
+And this is what's cool about
+the entire Quit Your Day Job
+campaign
+
+08:14.000 --> 08:16.000
+that has been ongoing for almost
+a year now.
+
+08:16.000 --> 08:18.000
+It's not just for podcasters.
+
+08:18.000 --> 08:20.000
+It's for pod safe music artists.
+
+08:20.000 --> 08:23.000
+It's for people who are creative
+in all walks of life.
+
+08:23.000 --> 08:27.000
+And also for developers,
+although I'm not sure we're
+quite at Quit Your Day Job
+
+08:27.000 --> 08:29.000
+since you don't even have a day
+job, really,
+
+08:29.000 --> 08:34.000
+but I was in the meeting, was it
+yesterday or the day before?
+
+08:34.000 --> 08:38.000
+And it was like 10 pod show
+people, Ron and I were in there.
+
+08:38.000 --> 08:40.000
+And on the phone was Tomas,
+
+08:40.000 --> 08:44.000
+and he was taking us through
+this really cool module
+
+08:44.000 --> 08:49.000
+that he's been working on for
+us.
+
+08:49.000 --> 08:51.000
+And Andrew, you've been managing
+that process?
+
+08:51.000 --> 08:53.000
+Yeah, right.
+
+08:53.000 --> 08:57.000
+So, I don't know how much detail
+we want to go into.
+
+08:57.000 --> 09:00.000
+Not too much detail because,
+yeah, exactly.
+
+09:00.000 --> 09:03.000
+Oh, sorry, I missed that last
+bit.
+
+09:03.000 --> 09:05.000
+No, you don't have to go into
+too much detail,
+
+09:05.000 --> 09:07.000
+but just a little bit will be
+cool.
+
+09:07.000 --> 09:10.000
+I just say that we were in one
+of those great brainstorming
+meetings
+
+09:10.000 --> 09:14.000
+and Ron had some ideas and was
+drawing back some previous calls
+
+09:14.000 --> 09:17.000
+that we'd been on and wouldn't
+be great if we had a module
+
+09:17.000 --> 09:19.000
+that could let us put these
+pieces together in this way.
+
+09:19.000 --> 09:22.000
+And I sort of saw it as a nice
+extension of the work
+
+09:22.000 --> 09:26.000
+that Tomas had already done.
+
+09:26.000 --> 09:29.000
+And so we said, you know,
+
+09:29.000 --> 09:32.000
+hey, do you want to do some
+contracting work for us
+
+09:32.000 --> 09:39.000
+and build something that's going
+to go into a product of ours?
+
+09:39.000 --> 09:40.000
+And here we are.
+
+09:40.000 --> 09:43.000
+And foolishly he said yes, yeah,
+exactly.
+
+09:43.000 --> 09:45.000
+Well, the timing was actually
+perfect
+
+09:45.000 --> 09:47.000
+because I just finished a final
+test in school
+
+09:47.000 --> 09:50.000
+and I had a month of nothing to
+do.
+
+09:50.000 --> 09:53.000
+Excellent, and how did the final
+test go?
+
+09:54.000 --> 09:59.000
+Yeah, I got it yesterday with an
+average of 8 out of 10, so
+perfectly.
+
+09:59.000 --> 10:03.000
+He is a rocket scientist.
+Fantastic.
+
+10:03.000 --> 10:07.000
+So this is just an example of
+some of the things that we want
+to do,
+
+10:07.000 --> 10:09.000
+particularly in the developer
+realm.
+
+10:09.000 --> 10:12.000
+And I have to say, Andrew, you
+really pegged it there
+
+10:12.000 --> 10:15.000
+when you said one of those
+famous brainstorming meetings.
+
+10:15.000 --> 10:19.000
+Really what's happened is that
+on all sides of the equation
+
+10:19.000 --> 10:23.000
+people are learning about each
+other's skills and crafts
+
+10:23.000 --> 10:27.000
+and, you know, Ron and I have
+learned a lot about,
+
+10:27.000 --> 10:29.000
+oh, just feeds in general.
+
+10:29.000 --> 10:32.000
+I think when Ron really got
+feeds,
+
+10:32.000 --> 10:35.000
+a whole world opened up and it's
+fun
+
+10:35.000 --> 10:38.000
+because I can see a lot of our
+developers
+
+10:38.000 --> 10:40.000
+also really understanding the
+business case,
+
+10:40.000 --> 10:42.000
+the creative side for
+podcasters.
+
+10:42.000 --> 10:45.000
+And of course, above all,
+
+10:45.000 --> 10:47.000
+really the experience we want to
+deliver
+
+10:47.000 --> 10:50.000
+for the audience, for listeners
+and for viewers.
+
+10:50.000 --> 10:53.000
+But I think there's lots of
+opportunity
+
+10:53.000 --> 10:56.000
+for more stuff, more stuff to be
+built
+
+10:56.000 --> 10:58.000
+and probably more contract work.
+
+10:58.000 --> 11:00.000
+Andrew, you see that on the
+horizon?
+
+11:00.000 --> 11:02.000
+Yeah, absolutely.
+
+11:02.000 --> 11:05.000
+We're thinking about doing a...
+
+11:05.000 --> 11:07.000
+Again, don't quote me on this.
+
+11:07.000 --> 11:09.000
+We're still thinking it through,
+
+11:09.000 --> 11:11.000
+but just sort of coming up with
+a price,
+
+11:11.000 --> 11:14.000
+build us a module and, you know,
+
+11:14.000 --> 11:16.000
+make it the kind of, you know,
+
+11:16.000 --> 11:19.000
+you build more modules and we
+pay you more.
+
+11:19.000 --> 11:22.000
+Dude, this is a great company.
+
+11:22.000 --> 11:24.000
+Yeah.
+
+11:24.000 --> 11:27.000
+Okay, so what's next?
+
+11:27.000 --> 11:28.000
+Where do we go from here?
+
+11:28.000 --> 11:30.000
+What else can we tell the
+developers
+
+11:30.000 --> 11:31.000
+who are listening?
+
+11:31.000 --> 11:34.000
+What other information can we
+pass on?
+
+11:34.000 --> 11:37.000
+One thing that Tom has and I
+have been talking about
+
+11:37.000 --> 11:41.000
+was just trying to be more
+available
+
+11:41.000 --> 11:44.000
+and present for developers, you
+know,
+
+11:44.000 --> 11:46.000
+just essentially reaching out to
+people
+
+11:46.000 --> 11:47.000
+a bit more than we have.
+
+11:47.000 --> 11:49.000
+And there's been a lot of, you
+know,
+
+11:49.000 --> 11:51.000
+on this side we've been quite
+sort of noses down,
+
+11:51.000 --> 11:54.000
+you know, getting ready for the
+big release.
+
+11:54.000 --> 11:57.000
+But Tomas had actually expressed
+some interest
+
+11:57.000 --> 12:01.000
+in helping us with our
+communications efforts.
+
+12:01.000 --> 12:04.000
+So do you want to say anything
+about that, Tomas?
+
+12:04.000 --> 12:07.000
+Yeah, basically I was...
+
+12:07.000 --> 12:10.000
+But we were talking about what
+other modules
+
+12:10.000 --> 12:13.000
+are written and how much was
+done with the SDK
+
+12:13.000 --> 12:15.000
+we have now, the first version.
+
+12:15.000 --> 12:18.000
+And it was actually not really
+much
+
+12:18.000 --> 12:21.000
+and people were more waiting for
+us
+
+12:21.000 --> 12:24.000
+to appoint something to do or we
+don't know.
+
+12:24.000 --> 12:27.000
+But I didn't really see a lot of
+activity.
+
+12:27.000 --> 12:30.000
+Well, there's a mailing list
+about this SDK
+
+12:30.000 --> 12:32.000
+but nobody uses it.
+
+12:32.000 --> 12:34.000
+So I was thinking like how do we
+get
+
+12:34.000 --> 12:36.000
+more people into developing
+
+12:36.000 --> 12:38.000
+and how do we get everybody to
+write
+
+12:38.000 --> 12:41.000
+whatever they want and to
+customize it.
+
+12:41.000 --> 12:43.000
+And one of the ideas was
+
+12:43.000 --> 12:45.000
+maybe people need some more help
+
+12:45.000 --> 12:48.000
+or they've got questions
+
+12:48.000 --> 12:50.000
+or nobody has any ideas.
+
+12:50.000 --> 12:52.000
+So first of all,
+
+12:52.000 --> 12:54.000
+call to people with great ideas
+
+12:54.000 --> 12:56.000
+but no way to code it.
+
+12:56.000 --> 12:59.000
+Please just send an email to
+Andrew
+
+12:59.000 --> 13:04.000
+or post a comment on
+developer.botshow.com
+
+13:04.000 --> 13:07.000
+And for all developers with
+questions
+
+13:07.000 --> 13:09.000
+we might want to get the mailing
+list
+
+13:09.000 --> 13:12.000
+more used so everybody can help
+each other
+
+13:12.000 --> 13:15.000
+and we might even end up having
+
+13:15.000 --> 13:17.000
+more modules and cooler ideas.
+
+13:17.000 --> 13:19.000
+You bring up something really
+important there
+
+13:19.000 --> 13:21.000
+because I like what you said
+
+13:21.000 --> 13:23.000
+even if you have a cool idea
+
+13:23.000 --> 13:25.000
+and have no idea how to code it
+
+13:25.000 --> 13:27.000
+definitely get on
+developer.botshow.com
+
+13:27.000 --> 13:30.000
+and you can find email links
+there
+
+13:30.000 --> 13:32.000
+and the mailing list, etc.
+
+13:32.000 --> 13:34.000
+Because that really does work.
+
+13:34.000 --> 13:39.000
+Even if you're just someone who
+has a thought
+
+13:39.000 --> 13:41.000
+I think those ideas are really
+welcome
+
+13:41.000 --> 13:44.000
+and that's really the underlying
+theme of all this
+
+13:44.000 --> 13:47.000
+is that when we get to work
+together
+
+13:47.000 --> 13:50.000
+we can come up with some really
+cool stuff,
+
+13:50.000 --> 13:52.000
+some cool products.
+
+13:52.000 --> 13:54.000
+Yeah, basically we should just
+
+13:54.000 --> 13:56.000
+build our own development
+community
+
+13:56.000 --> 13:58.000
+and get more and more people
+involved
+
+13:58.000 --> 14:00.000
+to accomplish more.
+
+14:00.000 --> 14:03.000
+Excellent. Andrew, anything to
+add to that?
+
+14:03.000 --> 14:05.000
+Not right now.
+
+14:05.000 --> 14:07.000
+You're doing your email, aren't
+you?
+
+14:07.000 --> 14:09.000
+Or are you downloading porn
+again?
+
+14:09.000 --> 14:11.000
+It's a porn.
+
+14:11.000 --> 14:13.000
+All right, guys.
+
+14:13.000 --> 14:15.000
+Well then let's wrap this up
+
+14:15.000 --> 14:17.000
+just about our 15 minutes for
+the devcast.
+
+14:17.000 --> 14:19.000
+Perfect. Thank you both very
+much.
+
+14:19.000 --> 14:21.000
+Tomas, great to have you on
+board.
+
+14:21.000 --> 14:23.000
+Great to be working with you.
+
+14:23.000 --> 14:25.000
+I look forward to more cool
+stuff
+
+14:25.000 --> 14:27.000
+and also working with you
+
+14:27.000 --> 14:29.000
+on building up the community
+
+14:29.000 --> 14:31.000
+and I think it's going to be a
+lot of fun.
+
+14:31.000 --> 14:33.000
+OK.
+
+14:33.000 --> 14:35.000
+And Andrew?
+
+14:35.000 --> 14:37.000
+Yo.
+
+14:37.000 --> 14:39.000
+I'll see you in a couple of
+minutes.
+
+14:39.000 --> 14:41.000
+Excellent. Looking forward to
+it.
+
+14:41.000 --> 14:43.000
+I'm sorry, was there something
+else, Andrew?
+
+14:43.000 --> 14:45.000
+Oh, no, no. I'm good.
+
+14:45.000 --> 14:47.000
+OK. All right, guys.
+
+14:47.000 --> 14:49.000
+Thank you all very much. Have a
+great weekend, everybody.
+
+14:49.000 --> 14:51.000
+So much for devcast number six.
+
+14:51.000 --> 14:53.000
+We'll be back soon.
+
+14:53.000 --> 14:55.000
+Just before release I would
+guess
+
+14:55.000 --> 14:57.000
+with devcast number seven.
+
+15:01.000 --> 15:03.000
+This podcast and more great ones
+like it
+
+15:03.000 --> 15:05.000
+on the High Performance Podcast
+Delivery Network
+
+15:05.000 --> 15:07.000
+from PodShow and Limelight
+Networks.
+
+15:07.000 --> 15:09.000
+I love it.

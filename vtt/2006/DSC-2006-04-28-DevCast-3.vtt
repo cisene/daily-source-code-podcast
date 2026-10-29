@@ -1,0 +1,1466 @@
+WEBVTT
+
+00:00.000 --> 00:07.000
+This podcast is brought to you
+by Poncho and GoDaddy.
+
+00:07.000 --> 00:10.000
+Want killer content with a
+badass domain name?
+
+00:10.000 --> 00:12.000
+This show will give you a
+special code.
+
+00:12.000 --> 00:17.000
+Get great discounts at
+GoDaddy.com.
+
+00:17.000 --> 00:18.000
+Well, hey everybody.
+
+00:18.000 --> 00:20.000
+Welcome to Devcast number three.
+
+00:20.000 --> 00:22.000
+It's late here Friday evening in
+London.
+
+00:22.000 --> 00:24.000
+And of course, that's one of
+the...
+
+00:24.000 --> 00:28.000
+Well, sometimes a tremendous
+advantage to be eight hours...
+
+00:28.000 --> 00:33.000
+You have eight hours of
+separation between yourself and
+the heat of all the action.
+
+00:33.000 --> 00:35.000
+But sometimes it's a little bit
+challenging.
+
+00:35.000 --> 00:37.000
+But I finally got her.
+
+00:37.000 --> 00:42.000
+The woman we've been looking for
+for the past, I don't know,
+three days.
+
+00:42.000 --> 00:44.000
+Finally on the Skype, Erin
+O'Neill.
+
+00:44.000 --> 00:45.000
+Erin, how are you?
+
+00:45.000 --> 00:47.000
+I'm doing good. A little tired.
+
+00:47.000 --> 00:51.000
+Now, we weren't able to connect
+because you were at...
+
+00:51.000 --> 00:52.000
+What was this?
+
+00:52.000 --> 00:54.000
+A sequel course?
+
+00:54.000 --> 00:56.000
+What exactly were you doing?
+
+00:56.000 --> 01:03.000
+I was at the MySQL user
+conference that happens once a
+year down in Silicon Valley.
+
+01:03.000 --> 01:08.000
+So people came from all over the
+world to lead sessions and
+network
+
+01:08.000 --> 01:11.000
+and talk about MySQL and
+challenges.
+
+01:11.000 --> 01:13.000
+Meet children from other lands?
+
+01:13.000 --> 01:15.000
+Yes, yes.
+
+01:15.000 --> 01:19.000
+A lot of people from Australia
+and Germany and Sweden.
+
+01:19.000 --> 01:21.000
+Really? That's interesting.
+
+01:21.000 --> 01:24.000
+I wonder why those countries in
+particular.
+
+01:24.000 --> 01:26.000
+MySQL has offices there.
+
+01:26.000 --> 01:28.000
+Oh, okay.
+
+01:28.000 --> 01:31.000
+So MySQL actually is a company
+as well.
+
+01:31.000 --> 01:33.000
+Yes.
+
+01:33.000 --> 01:36.000
+I think they're kind of a
+non-profit company.
+
+01:36.000 --> 01:39.000
+I'm not exactly sure because I
+don't pay attention to that
+part.
+
+01:39.000 --> 01:42.000
+We paid for this, I hope.
+
+01:42.000 --> 01:43.000
+Yeah, yeah.
+
+01:43.000 --> 01:45.000
+And it was long. They don't play
+at all.
+
+01:45.000 --> 01:49.000
+I'm not used to conferences that
+go from early in the morning to
+late at night.
+
+01:49.000 --> 01:51.000
+So Erin was there.
+
+01:51.000 --> 01:53.000
+Connectivity was spotty, I
+think.
+
+01:53.000 --> 01:55.000
+And then she's emailing me like,
+
+01:55.000 --> 01:57.000
+Wow, there's a whole bunch of
+geeks here.
+
+01:57.000 --> 02:01.000
+It's no fun.
+
+02:01.000 --> 02:04.000
+There was like 40 guys to every
+woman.
+
+02:04.000 --> 02:06.000
+There were only 10 of us.
+
+02:06.000 --> 02:08.000
+That's kind of...
+
+02:08.000 --> 02:10.000
+At the Oracle ones, I used to go
+to...
+
+02:10.000 --> 02:13.000
+It seemed like it was 50 to 60%
+women.
+
+02:13.000 --> 02:17.000
+How long have you been a
+database wizard, Erin?
+
+02:17.000 --> 02:21.000
+I come into it and then get
+snagged into doing system work.
+
+02:21.000 --> 02:24.000
+So I started a long time ago.
+
+02:24.000 --> 02:25.000
+Okay.
+
+02:25.000 --> 02:26.000
+Okay, I guess it was...
+
+02:26.000 --> 02:28.000
+Too long to say dates.
+
+02:28.000 --> 02:31.000
+Yeah, I guess it would be
+improper to ask you exactly how
+long ago.
+
+02:31.000 --> 02:33.000
+Long, long time ago.
+
+02:33.000 --> 02:36.000
+But it seems like there's a
+shortage of Unix geeks
+
+02:36.000 --> 02:38.000
+and I'll be doing database
+stuff.
+
+02:38.000 --> 02:40.000
+And next thing I know, I'm a
+scissored man
+
+02:40.000 --> 02:43.000
+and it's kind of missing
+database.
+
+02:43.000 --> 02:45.000
+Yeah, but you're also really
+good at both, you know.
+
+02:45.000 --> 02:48.000
+We like to misuse that as much
+as possible.
+
+02:48.000 --> 02:50.000
+Yeah, but right after this
+conference,
+
+02:50.000 --> 02:52.000
+I just need to, you know,
+
+02:52.000 --> 02:56.000
+tighten down and spend as much
+time on the database as I can.
+
+02:56.000 --> 02:59.000
+Okay, so Erin is, as you can
+tell,
+
+02:59.000 --> 03:04.000
+she basically rules over all
+things database.
+
+03:04.000 --> 03:06.000
+All her database belongs to her.
+
+03:06.000 --> 03:09.000
+And as well as some sysadmin.
+
+03:09.000 --> 03:11.000
+In fact, I don't think there's
+anything in the company
+
+03:11.000 --> 03:14.000
+that doesn't actually touch your
+domain, right?
+
+03:14.000 --> 03:18.000
+Everything talks to your
+database at some point.
+
+03:18.000 --> 03:22.000
+Yeah, I think, well, the old pod
+show has static pages
+
+03:22.000 --> 03:24.000
+and they don't, not too much.
+
+03:24.000 --> 03:26.000
+But yeah, I guess most
+everything.
+
+03:26.000 --> 03:28.000
+You mean the site that's
+currently up?
+
+03:28.000 --> 03:29.000
+Yeah, yeah.
+
+03:29.000 --> 03:30.000
+Right, okay.
+
+03:30.000 --> 03:35.000
+But music uses it, PCA uses
+database.
+
+03:35.000 --> 03:38.000
+And of course, PDN does the new
+pod show plus.
+
+03:38.000 --> 03:42.000
+Okay, so tell us what you've got
+set up
+
+03:42.000 --> 03:46.000
+and what you're doing and what
+you've been developing so far.
+
+03:46.000 --> 03:48.000
+I mean, you can just give us an
+executive overview,
+
+03:48.000 --> 03:50.000
+dive in as deep as you want.
+
+03:50.000 --> 03:52.000
+I won't get too geeky.
+
+03:52.000 --> 03:54.000
+Are you kidding me?
+
+03:54.000 --> 03:56.000
+A woman talking nerdy and geeky?
+
+03:56.000 --> 03:58.000
+That's hot.
+
+04:01.000 --> 04:03.000
+Well, we have two legacy systems
+
+04:03.000 --> 04:04.000
+and they need a lot of
+babysitting
+
+04:04.000 --> 04:07.000
+and that's the music.podshow.com
+
+04:07.000 --> 04:09.000
+and podcast alley.
+
+04:09.000 --> 04:12.000
+And then they're just there.
+
+04:12.000 --> 04:14.000
+Everything's on the same
+machine.
+
+04:14.000 --> 04:17.000
+And then for the new fabulous
+pod show plus,
+
+04:17.000 --> 04:22.000
+we're using master slave
+database replication.
+
+04:22.000 --> 04:24.000
+And so we have one master.
+
+04:24.000 --> 04:26.000
+Can you just say that again
+really slowly?
+
+04:26.000 --> 04:30.000
+Could you just say master slave
+database replication?
+
+04:30.000 --> 04:32.000
+I thought you'd like that one.
+
+04:32.000 --> 04:35.000
+Baby, it's my new mantra.
+
+04:35.000 --> 04:38.000
+So we've got that going pretty
+well.
+
+04:38.000 --> 04:42.000
+And I think we have four slaves
+now.
+
+04:42.000 --> 04:44.000
+Unfortunately, we use some third
+party software
+
+04:44.000 --> 04:47.000
+that doesn't know how to use
+master slave database stuff
+
+04:47.000 --> 04:51.000
+and we're not willing to rewrite
+their software.
+
+04:51.000 --> 04:54.000
+But it seems to be working well.
+
+04:54.000 --> 04:57.000
+So a big part of,
+
+04:57.000 --> 04:59.000
+I would presume what you're
+thinking about
+
+04:59.000 --> 05:02.000
+for the future is scalability
+and stuff like that.
+
+05:02.000 --> 05:06.000
+What's the, what are your
+thoughts?
+
+05:06.000 --> 05:10.000
+Well, working with Rackspace on
+that,
+
+05:10.000 --> 05:13.000
+the Rackspace database person
+was there at the conference.
+
+05:13.000 --> 05:15.000
+I hung out with him quite a bit
+on Tuesday.
+
+05:15.000 --> 05:17.000
+He's a lot of fun.
+
+05:17.000 --> 05:21.000
+And he was looking at things for
+scalability
+
+05:21.000 --> 05:23.000
+in the cluster area,
+
+05:23.000 --> 05:26.000
+which I've since found out won't
+work for us.
+
+05:26.000 --> 05:29.000
+That replication's really what
+we need.
+
+05:29.000 --> 05:33.000
+And looking at different
+database engine types
+
+05:33.000 --> 05:37.000
+to move to and when to use what
+kindness is too nerdy.
+
+05:37.000 --> 05:39.000
+No, not at all.
+
+05:39.000 --> 05:43.000
+I was just about to say that
+it's been so nice
+
+05:43.000 --> 05:45.000
+working with you over the past
+couple of months
+
+05:45.000 --> 05:47.000
+because at one point I actually
+called up Aaron
+
+05:47.000 --> 05:50.000
+and said, OK, Aaron, walk me
+through just
+
+05:50.000 --> 05:52.000
+what the hell does all this
+mean?
+
+05:52.000 --> 05:54.000
+Please, I really want to
+understand.
+
+05:54.000 --> 05:57.000
+And you were so helpful because
+you really helped me
+
+05:57.000 --> 06:00.000
+get a grip on or an
+understanding of exactly what it
+is
+
+06:00.000 --> 06:02.000
+because you were also
+integrating.
+
+06:02.000 --> 06:04.000
+So those two legacy systems you
+spoke of,
+
+06:04.000 --> 06:07.000
+Podcast Alley and the PodSafe
+Music Network,
+
+06:07.000 --> 06:10.000
+those are in time going to be
+migrated
+
+06:10.000 --> 06:14.000
+into the current master slave
+system, aren't they?
+
+06:14.000 --> 06:16.000
+Yeah.
+
+06:16.000 --> 06:21.000
+We might go into a master master
+slave until we can.
+
+06:21.000 --> 06:25.000
+I have to go potter my nose.
+
+06:25.000 --> 06:29.000
+So we can get the music network
+rolled in
+
+06:29.000 --> 06:32.000
+because that's such a popular
+site, as you well know.
+
+06:32.000 --> 06:35.000
+And so is Podcast Alley.
+
+06:35.000 --> 06:37.000
+Have you actually done anything
+like this before,
+
+06:37.000 --> 06:39.000
+like the stuff we're doing with
+PodShow Plus?
+
+06:39.000 --> 06:41.000
+No, no, I haven't.
+
+06:41.000 --> 06:43.000
+I haven't, not with MySQL.
+
+06:43.000 --> 06:45.000
+So I did a little bit of master
+slave
+
+06:45.000 --> 06:47.000
+when I was over at Signatures
+with Kevin
+
+06:47.000 --> 06:50.000
+because Kevin and I and Anton
+all worked together.
+
+06:50.000 --> 06:52.000
+Oh, Anton, yeah, that's who I
+got to talk to, Max.
+
+06:52.000 --> 06:54.000
+Yeah, the mad Russian.
+
+06:54.000 --> 06:55.000
+Yeah, the mad Russian.
+
+06:55.000 --> 06:58.000
+And then we got these other two
+really cool developers,
+
+06:58.000 --> 07:00.000
+Kurt and Gavin.
+
+07:00.000 --> 07:02.000
+I've met Gavin briefly.
+
+07:02.000 --> 07:04.000
+I have not met Kurt yet, I don't
+think.
+
+07:04.000 --> 07:06.000
+I think you've met, oh.
+
+07:06.000 --> 07:08.000
+Have I met Kurt? I don't think
+so.
+
+07:08.000 --> 07:11.000
+Oh, so they're both really cool
+guys,
+
+07:11.000 --> 07:13.000
+and I work with them closely
+
+07:13.000 --> 07:16.000
+because they don't make tables
+without running them by me.
+
+07:16.000 --> 07:19.000
+And Anton and I have always
+worked that way
+
+07:19.000 --> 07:21.000
+where Kevin works in the middle
+of the night,
+
+07:21.000 --> 07:23.000
+so he just makes his tables,
+
+07:23.000 --> 07:25.000
+and then I have to bitch if he
+does it wrong,
+
+07:25.000 --> 07:27.000
+which isn't too often.
+
+07:27.000 --> 07:29.000
+He actually does a good job,
+
+07:29.000 --> 07:31.000
+so I don't really have to bitch
+at him.
+
+07:31.000 --> 07:33.000
+This is what I like so much
+about Pod Show
+
+07:33.000 --> 07:35.000
+is it was almost like, here's a
+cool party,
+
+07:35.000 --> 07:37.000
+bring two of your friends.
+
+07:37.000 --> 07:39.000
+Everyone's brought their
+favorite people
+
+07:39.000 --> 07:41.000
+who they've worked with before,
+
+07:41.000 --> 07:43.000
+and that really makes a
+difference, I think.
+
+07:43.000 --> 07:45.000
+Well, you know, this is the
+first company
+
+07:45.000 --> 07:47.000
+I've worked at in a long time.
+
+07:47.000 --> 07:49.000
+It's actually like my first
+startup company
+
+07:49.000 --> 07:51.000
+way back when.
+
+07:51.000 --> 07:53.000
+It was called Involve,
+
+07:53.000 --> 07:55.000
+and we made the first gaming
+portal
+
+07:55.000 --> 07:57.000
+called Arcadium.com.
+
+07:57.000 --> 07:59.000
+Okay, yeah, I've heard of that.
+
+07:59.000 --> 08:01.000
+And then MyNick.com
+
+08:01.000 --> 08:03.000
+bought our, you know, we went
+under
+
+08:03.000 --> 08:05.000
+because they wanted our software
+
+08:05.000 --> 08:08.000
+so that MyNick.com currently
+uses it.
+
+08:08.000 --> 08:10.000
+At least last I heard.
+
+08:10.000 --> 08:12.000
+But that company, everybody
+liked each other.
+
+08:12.000 --> 08:14.000
+We would do fun things,
+
+08:14.000 --> 08:16.000
+like go bowling or go hear bands
+together,
+
+08:16.000 --> 08:18.000
+and there was a band that worked
+there,
+
+08:18.000 --> 08:20.000
+and I'm a photographer.
+
+08:20.000 --> 08:22.000
+Everybody modeled for me.
+
+08:22.000 --> 08:24.000
+Oh, when do I get to model for
+you?
+
+08:24.000 --> 08:26.000
+Ooh, next time you're out.
+
+08:26.000 --> 08:28.000
+Can I do it with my clothes on,
+
+08:28.000 --> 08:30.000
+or is this nude modeling?
+
+08:30.000 --> 08:32.000
+I don't really do too much nude
+photography.
+
+08:32.000 --> 08:33.000
+Okay.
+
+08:33.000 --> 08:35.000
+But I may put you in a dress.
+
+08:35.000 --> 08:37.000
+Oh, cool.
+
+08:37.000 --> 08:39.000
+Master Slave in a dress.
+
+08:39.000 --> 08:41.000
+I'm all for it.
+
+08:41.000 --> 08:43.000
+Well, so now Pod's show, it's
+like that.
+
+08:43.000 --> 08:45.000
+We really like each other.
+
+08:45.000 --> 08:47.000
+Last night was Chris Beshears
+
+08:47.000 --> 08:49.000
+going away.
+
+08:49.000 --> 08:51.000
+Yeah, I'm sorry I missed that.
+It was a bummer.
+
+08:51.000 --> 08:53.000
+It was really fun, and, you
+know,
+
+08:53.000 --> 08:55.000
+we were hanging out with each
+other
+
+08:55.000 --> 08:57.000
+and going to lunch, and so,
+
+08:57.000 --> 08:59.000
+it has that spirit.
+
+08:59.000 --> 09:01.000
+You know, Steve and Mark are in
+a band,
+
+09:01.000 --> 09:03.000
+and so we all went to see them
+on Monday night.
+
+09:03.000 --> 09:05.000
+How were they?
+
+09:05.000 --> 09:07.000
+The Fabulous Evil Brothers.
+Yeah, were they good?
+
+09:07.000 --> 09:09.000
+I did enjoy them a lot.
+
+09:09.000 --> 09:11.000
+I didn't enjoy the sound quite
+as well.
+
+09:11.000 --> 09:13.000
+I think that
+
+09:13.000 --> 09:15.000
+Cafe de Nord kind of screwed up
+their sound a bit.
+
+09:15.000 --> 09:17.000
+Oh, that's too bad.
+
+09:17.000 --> 09:19.000
+It was a small place. It was
+fun.
+
+09:19.000 --> 09:21.000
+I can't wait to see them again.
+
+09:21.000 --> 09:23.000
+Yeah, so it's a fun...
+
+09:23.000 --> 09:25.000
+Hold on one second, Aaron,
+because it's time.
+
+09:25.000 --> 09:27.000
+Hold on. It is time now. Here it
+comes.
+
+09:29.000 --> 09:31.000
+So, a number of people just
+
+09:31.000 --> 09:33.000
+heard something completely
+
+09:33.000 --> 09:35.000
+out of the ordinary. They heard
+a golden ticket
+
+09:35.000 --> 09:37.000
+and they just got a passphrase
+
+09:37.000 --> 09:39.000
+and instructions on where to go.
+
+09:39.000 --> 09:41.000
+I'm sorry to interrupt our flow
+there, Aaron,
+
+09:41.000 --> 09:43.000
+but, you know, I gotta throw
+these tickets out there. Yeah,
+yeah, I knew that was coming.
+
+09:43.000 --> 09:45.000
+Gotta throw the tickets out
+there.
+
+09:45.000 --> 09:47.000
+Andrew warned me. He was
+already.
+
+09:47.000 --> 09:49.000
+I'm using Andrew's headset.
+
+09:49.000 --> 09:51.000
+Oh, okay.
+
+09:51.000 --> 09:53.000
+Yeah, I was gonna say it sounds
+good.
+
+09:53.000 --> 09:55.000
+Typical Andrew to have a great
+headset.
+
+09:55.000 --> 09:57.000
+So, have you seen any of the
+developers
+
+09:57.000 --> 09:59.000
+who are on the system yet?
+
+09:59.000 --> 10:01.000
+Have you encountered them yet?
+
+10:01.000 --> 10:03.000
+Are they...
+
+10:03.000 --> 10:05.000
+No, I have not because I was at
+the
+
+10:05.000 --> 10:07.000
+the frigging conference.
+
+10:07.000 --> 10:09.000
+You were at the conference.
+
+10:09.000 --> 10:11.000
+I didn't have enough time to get
+on.
+
+10:11.000 --> 10:13.000
+And when I would get online,
+
+10:13.000 --> 10:15.000
+I was mostly dealing with
+problems
+
+10:15.000 --> 10:17.000
+that were happening and trying
+to
+
+10:17.000 --> 10:19.000
+solve some of those.
+
+10:19.000 --> 10:21.000
+So, I have not gotten
+
+10:21.000 --> 10:23.000
+online and
+
+10:23.000 --> 10:25.000
+see who's using it.
+
+10:25.000 --> 10:27.000
+You know what I'm missing,
+Aaron?
+
+10:27.000 --> 10:29.000
+I don't think I've found you on
+PodShow Plus yet.
+
+10:29.000 --> 10:31.000
+You haven't? I'm there.
+
+10:31.000 --> 10:33.000
+What are you called?
+
+10:33.000 --> 10:35.000
+You probably don't know my
+email.
+
+10:35.000 --> 10:37.000
+What are you called?
+
+10:37.000 --> 10:39.000
+What's your...
+
+10:39.000 --> 10:41.000
+Probably E on Arts.
+
+10:41.000 --> 10:43.000
+I don't know if I have a stage
+name.
+
+10:43.000 --> 10:45.000
+You can't get in without a stage
+name.
+
+10:49.000 --> 10:51.000
+You can't be there without a
+stage name.
+
+10:51.000 --> 10:53.000
+I'm there. I have an entourage.
+
+10:53.000 --> 10:55.000
+I'm E on Arts with Jesus.
+
+10:55.000 --> 10:57.000
+Dig me, will you? Just dig me
+and then I'll find you.
+
+10:57.000 --> 10:59.000
+I'm always trying to find you.
+
+10:59.000 --> 11:01.000
+I'm douche.
+
+11:01.000 --> 11:03.000
+We'll see. I didn't know yours.
+
+11:03.000 --> 11:05.000
+You didn't know mine.
+
+11:05.000 --> 11:07.000
+I'll show you mine if you show
+me yours, baby.
+
+11:09.000 --> 11:11.000
+Yeah, just dig me. I'm douche.
+
+11:11.000 --> 11:13.000
+There's words, right?
+
+11:13.000 --> 11:15.000
+Dig and stuff. People are going,
+what the hell is that?
+
+11:15.000 --> 11:17.000
+This is a lot of what's really
+cool about PodShow Plus.
+
+11:17.000 --> 11:19.000
+Easy way to connect.
+
+11:19.000 --> 11:21.000
+Oh, there you are.
+
+11:21.000 --> 11:23.000
+You got me. Hold on.
+
+11:23.000 --> 11:25.000
+I haven't figured out how to
+connect.
+
+11:25.000 --> 11:27.000
+How to dig you.
+
+11:27.000 --> 11:29.000
+You dig me and then I dig you
+back.
+
+11:29.000 --> 11:31.000
+I just digged you.
+
+11:31.000 --> 11:33.000
+I should have a message that
+says I got a new dig, right?
+
+11:33.000 --> 11:35.000
+Yeah.
+
+11:35.000 --> 11:37.000
+One new dig.
+
+11:37.000 --> 11:39.000
+I love it when that works.
+
+11:39.000 --> 11:41.000
+Okay, here's what's wrong about
+it.
+
+11:41.000 --> 11:43.000
+You don't pop up immediately.
+
+11:43.000 --> 11:45.000
+You have to go to page three. We
+got to fix that.
+
+11:45.000 --> 11:47.000
+That's mine.
+
+11:47.000 --> 11:49.000
+I know. I got to put some photos
+up.
+
+11:49.000 --> 11:51.000
+I just haven't had a chance.
+
+11:51.000 --> 11:53.000
+Wait a minute. I still don't see
+you, though.
+
+11:55.000 --> 11:57.000
+I said dig.
+
+11:57.000 --> 11:59.000
+I'm sure that you...
+
+11:59.000 --> 12:01.000
+Oh, wait a minute.
+
+12:01.000 --> 12:03.000
+People that dig me.
+
+12:03.000 --> 12:05.000
+I'm going to the wrong place.
+
+12:05.000 --> 12:07.000
+I see what's happening.
+
+12:07.000 --> 12:09.000
+I've got to fix some of this
+stuff.
+
+12:09.000 --> 12:11.000
+Fill out a bug.
+
+12:11.000 --> 12:13.000
+I'm loving filling out the bug
+reports.
+
+12:13.000 --> 12:15.000
+That's my favorite.
+
+12:15.000 --> 12:17.000
+Make sure they make sense.
+
+12:17.000 --> 12:19.000
+Ron and I are going to have a
+special thing called the Fug
+Report,
+
+12:19.000 --> 12:21.000
+which is a feature
+
+12:21.000 --> 12:23.000
+and a bug in the same...
+
+12:23.000 --> 12:25.000
+No, no, no.
+
+12:25.000 --> 12:27.000
+Yeah, we want a Fug Report.
+
+12:27.000 --> 12:29.000
+We got the feature alley
+
+12:29.000 --> 12:31.000
+or whatever it's called.
+
+12:31.000 --> 12:33.000
+Yeah, feature Festiva.
+
+12:33.000 --> 12:35.000
+Okay.
+
+12:35.000 --> 12:37.000
+I even have you down in my
+collection.
+
+12:37.000 --> 12:39.000
+The Daily Source Code.
+
+12:39.000 --> 12:41.000
+I got the Rock and Roll Geek
+Show.
+
+12:41.000 --> 12:43.000
+I got the Roadhouse and the
+Daily Downloads.
+
+12:43.000 --> 12:45.000
+Okay, I got to go figure it out.
+
+12:45.000 --> 12:47.000
+I got to find out what's going
+on.
+
+12:47.000 --> 12:49.000
+You got to figure it out.
+
+12:49.000 --> 12:51.000
+Okay, so...
+
+12:51.000 --> 12:53.000
+for the next couple of weeks,
+
+12:53.000 --> 12:55.000
+what are you working on?
+
+12:55.000 --> 12:57.000
+Oh, tightening up the database.
+
+12:57.000 --> 12:59.000
+Making some changes.
+
+12:59.000 --> 13:01.000
+Looking through that kind of
+stuff
+
+13:01.000 --> 13:03.000
+and offloading more scissor men
+stuff.
+
+13:03.000 --> 13:05.000
+Just tomorrow for the whole
+world to come in.
+
+13:05.000 --> 13:07.000
+Could we handle it?
+
+13:07.000 --> 13:09.000
+I don't know.
+
+13:09.000 --> 13:11.000
+This is not great.
+
+13:11.000 --> 13:13.000
+If you asked me that
+
+13:13.000 --> 13:15.000
+before I went to the conference,
+
+13:15.000 --> 13:17.000
+I would have said, fuck yes,
+
+13:17.000 --> 13:19.000
+but because you said that after
+the conference,
+
+13:19.000 --> 13:21.000
+I'm a little freaked out.
+
+13:21.000 --> 13:23.000
+Okay, so you definitely learned
+some things
+
+13:23.000 --> 13:25.000
+that were informative.
+
+13:25.000 --> 13:27.000
+Yeah, yeah.
+
+13:27.000 --> 13:29.000
+How about are people trying to
+poke at us
+
+13:29.000 --> 13:31.000
+from the outside?
+
+13:31.000 --> 13:33.000
+We went through that last week.
+
+13:33.000 --> 13:35.000
+That's why it wasn't prepared
+for the conference.
+
+13:35.000 --> 13:37.000
+You know, Jersey Joe
+
+13:37.000 --> 13:39.000
+involved with helping us out on
+that.
+
+13:39.000 --> 13:41.000
+Yeah, you don't want to mess
+with a guy
+
+13:41.000 --> 13:43.000
+called Jersey Joe who's sitting
+there
+
+13:43.000 --> 13:45.000
+watching our stuff. You know
+what I mean?
+
+13:45.000 --> 13:47.000
+It's like you want to stay far
+away
+
+13:47.000 --> 13:49.000
+from Jersey Joe.
+
+13:49.000 --> 13:51.000
+Exactly.
+
+13:51.000 --> 13:53.000
+We're pulling him in more for
+the security
+
+13:53.000 --> 13:55.000
+after that little incident last
+week.
+
+13:55.000 --> 13:57.000
+Sad.
+
+13:57.000 --> 13:59.000
+Can you tell me what happened
+
+13:59.000 --> 14:01.000
+when you didn't get away too
+much info?
+
+14:01.000 --> 14:03.000
+It actually wasn't with
+
+14:03.000 --> 14:05.000
+Pacho Plus at all.
+
+14:05.000 --> 14:07.000
+Was this the
+
+14:07.000 --> 14:09.000
+PodSafe Music Network?
+
+14:09.000 --> 14:11.000
+No, it was one of our
+
+14:11.000 --> 14:13.000
+legacy systems.
+
+14:13.000 --> 14:15.000
+Not going to PHPBB we didn't
+know about
+
+14:15.000 --> 14:17.000
+and it wasn't secure
+
+14:17.000 --> 14:19.000
+and we clamped it down.
+
+14:19.000 --> 14:21.000
+Wow, shit happens.
+
+14:21.000 --> 14:23.000
+We just got to close down that
+legacy stuff.
+
+14:23.000 --> 14:25.000
+Okay, Aaron.
+
+14:25.000 --> 14:27.000
+We're about at 15 minutes
+
+14:27.000 --> 14:29.000
+and I'm trying to keep these
+relatively short.
+
+14:29.000 --> 14:31.000
+Is there anything I can do to
+make your life
+
+14:31.000 --> 14:33.000
+easier?
+
+14:35.000 --> 14:37.000
+Oh, model for me in drag, I
+guess.
+
+14:37.000 --> 14:39.000
+Done. I'm so there.
+
+14:39.000 --> 14:41.000
+Patricia's coming with me next
+time
+
+14:41.000 --> 14:43.000
+in San Francisco so she can
+dress me up.
+
+14:43.000 --> 14:45.000
+We've decided you should perform
+at
+
+14:45.000 --> 14:47.000
+Tarani Shack. Yeah.
+
+14:47.000 --> 14:49.000
+Your number you did for us. Baby
+steps, hun.
+
+14:49.000 --> 14:51.000
+Baby steps. You mean my Barry
+Manilow singing?
+
+14:51.000 --> 14:53.000
+Exactly.
+
+14:53.000 --> 14:55.000
+You don't have to dress as a
+woman to perform
+
+14:55.000 --> 14:57.000
+that. You like that, didn't you?
+
+14:57.000 --> 14:59.000
+Yes, I did.
+
+14:59.000 --> 15:01.000
+I've contemplated releasing that
+video.
+
+15:01.000 --> 15:03.000
+We did an internal video
+
+15:03.000 --> 15:05.000
+for one of our Fridays
+
+15:05.000 --> 15:07.000
+and it included
+
+15:07.000 --> 15:09.000
+a fine performance by myself.
+
+15:09.000 --> 15:11.000
+I've considered releasing that
+but
+
+15:11.000 --> 15:13.000
+maybe just keep it for us,
+private.
+
+15:13.000 --> 15:15.000
+Okay.
+
+15:15.000 --> 15:17.000
+Okay, but you got a deal
+
+15:17.000 --> 15:19.000
+if that'll make your life any
+easier
+
+15:19.000 --> 15:21.000
+I definitely will model for you
+in a dress.
+
+15:21.000 --> 15:23.000
+I'm happy to do it. Okay.
+
+15:23.000 --> 15:25.000
+That is users and developers
+partying together,
+
+15:25.000 --> 15:27.000
+my dear.
+
+15:27.000 --> 15:29.000
+All right, Aaron.
+
+15:29.000 --> 15:31.000
+Thanks so much for taking time
+
+15:31.000 --> 15:33.000
+and glad to have you back
+
+15:33.000 --> 15:35.000
+and well, I'm sure we'll be in
+contact
+
+15:35.000 --> 15:37.000
+Monday or sometime next week.
+
+15:37.000 --> 15:39.000
+Yes. Talk to you later.
+
+15:39.000 --> 15:41.000
+All right. Aaron O'Neill
+everybody.
+
+15:41.000 --> 15:43.000
+Database sorceress at PodShow HQ
+
+15:43.000 --> 15:45.000
+and
+
+15:45.000 --> 15:47.000
+sometime at the beginning of
+next week, we'll come back at
+you
+
+15:47.000 --> 15:49.000
+with devcast number four
+
+15:49.000 --> 15:51.000
+and more golden tickets.
+
+15:51.000 --> 15:53.000
+This podcast and more great ones
+like it
+
+15:53.000 --> 15:55.000
+on the high performance podcast
+delivery
+
+15:55.000 --> 15:57.000
+network from PodShow
+
+15:57.000 --> 15:59.000
+and Limelight Networks.
+
+15:59.000 --> 16:01.000
+I love it.
+
+16:21.000 --> 16:23.000
+Thank you.

@@ -1,0 +1,606 @@
+WEBVTT
+
+00:00.000 --> 00:06.000
+This podcast is brought to you
+by PodShow and GoDaddy.
+
+00:06.000 --> 00:09.000
+Want killer content with a
+badass domain name?
+
+00:09.000 --> 00:14.000
+This show will give you a
+special code to get great
+discounts at GoDaddy.com.
+
+00:16.000 --> 00:19.000
+Hey everybody, how you doing?
+Welcome to Devcast number four.
+
+00:19.000 --> 00:24.000
+My name's Adam, coming to you
+from the Curry Cottage in
+Guilford.
+
+00:24.000 --> 00:28.000
+It's been, uh, crikey. It's been
+almost two weeks now since the
+last Devcast
+
+00:28.000 --> 00:30.000
+and there are reasons for it.
+
+00:30.000 --> 00:33.000
+I can already, you know, see
+that there's grumblings and
+people not understanding
+
+00:33.000 --> 00:36.000
+why the radio silence and a lot
+has been going on.
+
+00:36.000 --> 00:39.000
+And it's really, it's actually
+kind of stupid stuff,
+
+00:39.000 --> 00:42.000
+a little bit beyond our control
+because we're so strapped with
+everything,
+
+00:42.000 --> 00:44.000
+but a couple of things went
+wrong.
+
+00:44.000 --> 00:47.000
+And it all has to do with, well,
+it's really all about the setup
+
+00:47.000 --> 00:49.000
+and we have a couple of comments
+that came in
+
+00:49.000 --> 00:51.000
+for the Devcast specifically.
+
+00:51.000 --> 00:53.000
+Let me start with this first
+one.
+
+00:53.000 --> 00:55.000
+It's kind of relative to what
+we're going to talk about,
+
+00:55.000 --> 00:58.000
+what the delay has been and how
+we're solving all that.
+
+00:58.000 --> 01:01.000
+Hi Adam, I was just listening to
+daily source code 367
+
+01:01.000 --> 01:04.000
+and you were talking about the
+developer APIs
+
+01:04.000 --> 01:06.000
+and a source control repository
+that you guys were putting up
+
+01:06.000 --> 01:09.000
+in order to share it with the
+developers.
+
+01:09.000 --> 01:12.000
+And this statement kind of
+concerned me.
+
+01:12.000 --> 01:18.000
+We're setting up a CVS, which is
+a revision system.
+
+01:18.000 --> 01:22.000
+CVS is a revision system, but
+it's a little out of date
+
+01:22.000 --> 01:24.000
+and you're going to find a lot
+of the maintenance
+
+01:24.000 --> 01:26.000
+of the repository to be rather
+difficult.
+
+01:26.000 --> 01:30.000
+Many large open source software
+projects such as KDE,
+
+01:30.000 --> 01:34.000
+GCC, Python and Samba are all
+moving to Subversion,
+
+01:34.000 --> 01:37.000
+which is a revision control
+system that was written
+
+01:37.000 --> 01:39.000
+specifically to replace CVS.
+
+01:39.000 --> 01:43.000
+And it supports a lot of things
+that CVS just doesn't support,
+
+01:43.000 --> 01:46.000
+like moving things around,
+easier authentication,
+
+01:46.000 --> 01:49.000
+running your source repository
+through Apache.
+
+01:49.000 --> 01:51.000
+A lot of people are moving
+toward this
+
+01:51.000 --> 01:54.000
+revision control system, so I
+know I'm geeking out
+
+01:54.000 --> 01:56.000
+a little bit here, but I just
+wanted to help out
+
+01:56.000 --> 01:59.000
+and don't want to see you
+actually bring up
+
+01:59.000 --> 02:01.000
+all your source code on such an
+antiquated system.
+
+02:01.000 --> 02:03.000
+I hope this helps. Thanks.
+
+02:03.000 --> 02:05.000
+Yeah, thank you very much.
+
+02:05.000 --> 02:07.000
+I know exactly what you're
+talking about.
+
+02:07.000 --> 02:09.000
+I'm not familiar with what
+you're talking about.
+
+02:09.000 --> 02:11.000
+I do get it and I do appreciate
+it
+
+02:11.000 --> 02:13.000
+and I know that the rest of the
+development team
+
+02:13.000 --> 02:15.000
+is listening to this.
+
+02:15.000 --> 02:17.000
+Well, what we decided to do
+actually,
+
+02:17.000 --> 02:19.000
+to make things what we thought
+would be really easy
+
+02:19.000 --> 02:21.000
+was to just bring up a
+SourceForge project
+
+02:21.000 --> 02:23.000
+and check all of the code in
+there
+
+02:23.000 --> 02:25.000
+because, you know, so much stuff
+is taking care
+
+02:25.000 --> 02:27.000
+of people already know the
+interface.
+
+02:27.000 --> 02:29.000
+And I think actually one of the
+names you mentioned
+
+02:29.000 --> 02:31.000
+is something that we're setting
+up.
+
+02:31.000 --> 02:33.000
+But what I did is, the problem
+has been
+
+02:33.000 --> 02:35.000
+that SourceForge, I think they
+had a major meltdown
+
+02:35.000 --> 02:37.000
+on their infrastructure.
+
+02:37.000 --> 02:39.000
+They haven't been able to start
+new projects.
+
+02:39.000 --> 02:41.000
+They haven't been able to create
+stuff for people.
+
+02:41.000 --> 02:43.000
+So we're somewhere in their
+queue waiting,
+
+02:43.000 --> 02:45.000
+literally waiting.
+
+02:45.000 --> 02:47.000
+I'm also finalizing the SDK
+
+02:47.000 --> 02:49.000
+and I asked Andrew Gromit
+
+02:49.000 --> 02:51.000
+to send me an audio comment with
+an update.
+
+02:51.000 --> 02:53.000
+Hi, Adam. It's Andrew here at
+PodShow HQ.
+
+02:53.000 --> 02:55.000
+I just wanted to give you an
+update
+
+02:55.000 --> 02:57.000
+on the modules SDK.
+
+02:57.000 --> 02:59.000
+Some great news.
+
+02:59.000 --> 03:01.000
+We've released a preview copy of
+the SDK
+
+03:01.000 --> 03:03.000
+to the first lucky developers
+
+03:03.000 --> 03:05.000
+and are starting to collect
+feedback.
+
+03:05.000 --> 03:07.000
+I've already seen some pretty
+cool stuff coming in.
+
+03:07.000 --> 03:09.000
+Modules
+
+03:09.000 --> 03:11.000
+that do searches
+
+03:11.000 --> 03:13.000
+and post-soap requests
+
+03:13.000 --> 03:15.000
+and the sky's really the limit.
+
+03:15.000 --> 03:17.000
+We can't wait to get this out
+there
+
+03:17.000 --> 03:19.000
+into the hands of more people.
+
+03:19.000 --> 03:21.000
+Some less great news
+
+03:21.000 --> 03:23.000
+is that SourceForge hasn't come
+through
+
+03:23.000 --> 03:25.000
+with our requested project.
+
+03:25.000 --> 03:27.000
+They're having some trouble with
+their CVS infrastructure.
+
+03:27.000 --> 03:29.000
+And even though we've requested
+
+03:29.000 --> 03:31.000
+Subversion support,
+
+03:31.000 --> 03:33.000
+the infrastructure problems have
+apparently brought
+
+03:33.000 --> 03:35.000
+new project creation to a
+grinding halt.
+
+03:35.000 --> 03:37.000
+So
+
+03:37.000 --> 03:39.000
+we're now in the process of
+setting up
+
+03:39.000 --> 03:41.000
+our own code development system
+
+03:41.000 --> 03:43.000
+that will be based on track and
+Subversion.
+
+03:43.000 --> 03:45.000
+Most of the software
+
+03:45.000 --> 03:47.000
+is already in place on the
+production servers.
+
+03:47.000 --> 03:49.000
+The team is finalizing that
+piece today.
+
+03:49.000 --> 03:51.000
+After that
+
+03:51.000 --> 03:53.000
+we have the first round of
+feedback
+
+03:53.000 --> 03:55.000
+to incorporate into the code
+base in docs
+
+03:55.000 --> 03:57.000
+and then we're good to go.
+
+03:57.000 --> 03:59.000
+If everything goes according to
+plan
+
+03:59.000 --> 04:01.000
+we should be ready by late
+Wednesday.
+
+04:01.000 --> 04:03.000
+So that's all for now
+
+04:03.000 --> 04:05.000
+and thanks everyone for your
+patience.
+
+04:05.000 --> 04:07.000
+We can't wait to get the modules
+SDK
+
+04:07.000 --> 04:09.000
+into your hands.
+
+04:09.000 --> 04:11.000
+They sound kind of like Q
+
+04:11.000 --> 04:13.000
+at HQ telling me what all my
+weaponry does.
+
+04:15.000 --> 04:17.000
+Excellent.
+
+04:17.000 --> 04:19.000
+So Wednesday then I guess
+
+04:19.000 --> 04:21.000
+is when we get everything
+kicking into high gear.
+
+04:21.000 --> 04:23.000
+Golden ticket still being handed
+out.
+
+04:23.000 --> 04:25.000
+We've handed out quite a number
+of them actually
+
+04:25.000 --> 04:27.000
+although not everyone has
+received a golden ticket.
+
+04:27.000 --> 04:29.000
+Eventually
+
+04:29.000 --> 04:31.000
+we'll just turn it on and make
+sure
+
+04:31.000 --> 04:33.000
+that every single person has
+one.
+
+04:33.000 --> 04:35.000
+We're just trying to slip stream
+stuff in there
+
+04:35.000 --> 04:37.000
+and so far so good.
+
+04:37.000 --> 04:39.000
+Because the people who are
+already in on the system
+
+04:39.000 --> 04:41.000
+are actually using PodShow Plus
+
+04:41.000 --> 04:43.000
+and the podcast delivery
+network.
+
+04:43.000 --> 04:45.000
+Hey Adam, Nick Starr.
+
+04:45.000 --> 04:47.000
+Just got my ticket to the
+
+04:47.000 --> 04:49.000
+PodShow Plus
+
+04:49.000 --> 04:51.000
+and I have to say I'm really
+digging it.
+
+04:51.000 --> 04:53.000
+It's really cool.
+
+04:53.000 --> 04:55.000
+I think there's so many features
+on there
+
+04:55.000 --> 04:57.000
+that no one even expected.
+
+04:57.000 --> 04:59.000
+I have to say
+
+04:59.000 --> 05:01.000
+for everyone out there
+
+05:01.000 --> 05:03.000
+when this thing comes out it's
+going to be huge.
+
+05:03.000 --> 05:05.000
+If you guys like my space
+
+05:05.000 --> 05:07.000
+this thing blows
+
+05:07.000 --> 05:09.000
+anything out there away.
+
+05:09.000 --> 05:11.000
+It's great for publishing a
+podcast.
+
+05:11.000 --> 05:13.000
+It's great for everything.
+
+05:13.000 --> 05:15.000
+Just the PodShow Plus
+
+05:15.000 --> 05:17.000
+is awesome.
+
+05:17.000 --> 05:19.000
+Keep up the great work there at
+PodShow Guys.
+
+05:19.000 --> 05:21.000
+Take care.
+
+05:21.000 --> 05:23.000
+So obviously since I don't know
+what the hell I'm talking about
+
+05:23.000 --> 05:25.000
+we're going to keep this devcast
+
+05:25.000 --> 05:27.000
+relatively short.
+
+05:27.000 --> 05:29.000
+But then maybe Wednesday
+
+05:29.000 --> 05:31.000
+end of my day here in the UK
+
+05:31.000 --> 05:33.000
+beginning of the San Francisco
+day
+
+05:33.000 --> 05:35.000
+with a Skype call or something.
+
+05:35.000 --> 05:37.000
+I'm going to be
+
+05:37.000 --> 05:39.000
+in the British Telecom offices
+
+05:39.000 --> 05:41.000
+meeting with the CEO
+
+05:41.000 --> 05:43.000
+on Wednesday.
+
+05:43.000 --> 05:45.000
+So it may be a little bit later
+on in the day
+
+05:45.000 --> 05:47.000
+but I'll definitely try and get
+that up.
+
+05:47.000 --> 05:49.000
+I'm going to leave you with the
+song.
+
+05:49.000 --> 05:51.000
+I've been looking around for
+cool songs for developers
+
+05:51.000 --> 05:53.000
+if possible
+
+05:53.000 --> 05:55.000
+at all. Of course PodSafe
+
+05:55.000 --> 05:57.000
+from the PodSafe Music Network
+
+05:57.000 --> 05:59.000
+and something I played on the
+source code the other day
+
+05:59.000 --> 06:01.000
+was MC++
+
+06:01.000 --> 06:03.000
+and I think I've played this one
+on the source code before
+
+06:03.000 --> 06:05.000
+but it's
+
+06:05.000 --> 06:07.000
+something for all you code
+jockeys out there.
+
+06:08.750 --> 08:52.800
+[ Music ]
+
+08:52.800 --> 08:55.800
+Cold Monkey very simple man
+
+08:55.800 --> 08:58.800
+Big, warm, fuzzy, secret mark
+
+08:58.800 --> 09:01.800
+Cold Monkey like you
+
+09:18.800 --> 09:22.800
+Podcast delivery network from
+PodShow and Limelight Networks
+
+09:22.800 --> 09:24.800
+I love it
