@@ -126,9 +126,9 @@ def updateEpisode(n, ep, post, log):
   changes = []
   permalink = post['permalink']
 
-  if isPlaceholder(ep.get('link'), '#daily-source-code-episode-web'):
-    ep['link'] = permalink
-    changes.append('link')
+  if isPlaceholder(ep.get('originalLink'), '#daily-source-code-episode-web'):
+    ep['originalLink'] = permalink
+    changes.append('originalLink')
   if isinstance(ep.get('guid'), dict) and isPlaceholder(ep['guid'].get('link'), '#daily-source-code-episode-guid'):
     ep['guid']['link'] = permalink
     changes.append('guid')

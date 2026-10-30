@@ -57,9 +57,9 @@ def main():
     tags = fileTags(ARCHIVE_DIR + source)
     tgid = tags.get('TGID') or tags.get('TID')
     if tgid and tgid.startswith('http://radio.weblogs.com/'):
-      if posts.isPlaceholder(ep.get('link'), '#daily-source-code-episode-web'):
-        ep['link'] = tgid
-        changes.append('link')
+      if posts.isPlaceholder(ep.get('originalLink'), '#daily-source-code-episode-web'):
+        ep['originalLink'] = tgid
+        changes.append('originalLink')
       if isinstance(ep.get('guid'), dict) and posts.isPlaceholder(ep['guid'].get('link'), '#daily-source-code-episode-guid'):
         ep['guid']['link'] = tgid
         ep['guid']['isPermaLink'] = False

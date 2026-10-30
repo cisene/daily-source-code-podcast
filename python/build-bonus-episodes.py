@@ -170,7 +170,8 @@ def build(entry, posts, blog, persons):
   return {
     'episode': None,
     'title': facts['title'],
-    'link': facts.get('link'),
+    'link': None,
+    'originalLink': facts.get('link'),
     'pubDate': rfcDate(when),
     'category': 'podcast',
     'description': description,

@@ -53,6 +53,14 @@ def main():
     ep = audio.readYAML(path)
     stem = os.path.splitext(row['release'])[0]
     before = yaml.safe_dump(ep)
+    if 'originalLink' not in ep:
+      ordered = {}
+      for key, value in ep.items():
+        ordered[key] = value
+        if key == 'link':
+          ordered['originalLink'] = value
+      ep = ordered
+    ep['link'] = f"{base}/episodes/{stem}.html"
     podcast = ep['podcast']
 
     exts = have.get(stem, set())

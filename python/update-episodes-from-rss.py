@@ -154,7 +154,8 @@ class EpisodeData:
     result = {
       'episode': self.episode,
       'title': self.title,
-      'link':  self.link,
+      'link':  None,
+      'originalLink': self.link,
       'pubDate': self.pubDate,
       'category': self.category,
       'description': self.description,

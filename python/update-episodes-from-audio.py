@@ -267,7 +267,7 @@ def findMonthEndFixes(episodes, index):
     if len(numbers) < 2:
       continue
     n = min(numbers)
-    if isSet(get(episodes[n], 'link')):
+    if isSet(get(episodes[n], 'originalLink')):
       continue
     ymd = dateOf(fn)
     if ymd == None:

@@ -44,7 +44,8 @@ upload.py --go feed                      # last; refused until the rest is up
 - `DSC_ACL` sets an object ACL, `DSC_TRANSFERS` the parallel uploads (4).
 
 `build.py` renders the feed (`../rss.xml`); `rss.xml` on the
-host is that render.
+host is that render. An episode's `link` is its page on the site (set by
+update-episodes-links.py); `originalLink` keeps the original post.
 
 ## Per script
 
@@ -177,7 +178,8 @@ thedailysourcecode.com (feed: base_url, and audio_url / video_url through
 OP3) in ../yaml/daily-source-code.yaml and every episode yaml against the
 files the stage holds or will hold (stage-release.py: audio, video, srt,
 vtt, chapters, opml), the repo's artwork/ and the feed (/rss.xml, uploaded when
-rendered). Also lists files that go up but nothing links (fine for opml).
+rendered). The site's own pages (/, /episodes/*.html) are not checked. Also
+lists files that go up but nothing links (fine for opml).
 Once the stage exists (upload.yaml: stage), every enclosure and
 alternateEnclosure length must be the size of the staged file: the bucket
 sits behind deep caches, so what goes up has to be right the first time.
@@ -610,6 +612,9 @@ folder structure of 2026-10-28 (/audio /chapters /opml /srt /video /vtt):
 
 
 ```
+link                /episodes/<release stem>.html, the episode's page on the
+                    site; the first run moves the old link (the original
+                    post) to originalLink, which the other scripts use
 podcast:transcript  /vtt/<release stem>.vtt (text/vtt) and
                     /srt/<release stem>.srt (application/x-subrip), language
                     en, for the episodes with a transcript, else none

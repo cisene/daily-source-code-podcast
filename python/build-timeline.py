@@ -565,7 +565,7 @@ def missingFields(stub, frag, info):
   fields = {
     'pubDate': state(stub_pub, get(usable_frag, 'pubDate')),
     'title': 'ok' if title != None else 'none',
-    'link': state(get(stub, 'link'), get(usable_frag, 'link')),
+    'link': state(get(stub, 'originalLink'), get(usable_frag, 'link')),
     'description': state(description, get(usable_frag, 'description')),
     'enclosure': state(stub_url, get(usable_frag, 'enclosure', 'url')),
     'image': state(get(stub, 'itunes', 'image', 'href'), get(usable_frag, 'itunes', 'image', 'href')),

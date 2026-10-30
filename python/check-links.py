@@ -78,7 +78,7 @@ def main():
     for prefix in prefixes:
       if value.startswith(prefix):
         path = value[len(prefix):].split('#')[0].split('?')[0]
-        if path == '':
+        if path == '' or (path.startswith('episodes/') and path.endswith('.html')):
           return
         linked.setdefault(path, where)
         if not URL_SAFE.match(path):

@@ -66,9 +66,9 @@ def updateEpisode(n, ep, extract, log, wrong=None):
   wrong = wrong or {}
 
   link = extract.get('link')
-  if posts.hasScheme(link) and link != ep.get('link') and replaceable(ep.get('link'), '#daily-source-code-episode-web', wrong.get('link')):
-    ep['link'] = link
-    changes.append('link')
+  if posts.hasScheme(link) and link != ep.get('originalLink') and replaceable(ep.get('originalLink'), '#daily-source-code-episode-web', wrong.get('link')):
+    ep['originalLink'] = link
+    changes.append('originalLink')
 
   guid = audio.get(extract, 'guid', 'link')
   if posts.hasScheme(guid) and isinstance(ep.get('guid'), dict) and guid != ep['guid'].get('link') and replaceable(ep['guid'].get('link'), '#daily-source-code-episode-guid', audio.get(wrong, 'guid', 'link')):
