@@ -498,6 +498,8 @@ def main():
             if item['podcast'][tag][attr] != None:
               if tag == 'location' and attr == 'name':
                 podcast_elem.text = str(item['podcast'][tag][attr])
+              elif tag == 'season' and attr == 'number':
+                podcast_elem.text = str(item['podcast'][tag][attr])
               else:
                 podcast_elem.set(attr, str(item['podcast'][tag][attr]))
 

@@ -13,6 +13,7 @@ build-bonus-episodes.py --write --list
 release-audio-names.py
 update-episodes-enclosures.py --write
 update-episodes-links.py --write
+update-episodes-seasons.py --write
 update-episodes-summaries.py --write
 update-episodes-text.py --write
 check-links.py
@@ -21,6 +22,19 @@ check-links.py
 New transcripts: `srt-transcribe.py`, `srt-music.py` (analyse, apply),
 `srt-fix-names.py`, `convert-srv-to-vtt.py`, `build-chapters.py --write`, then
 `update-episodes-links.py --write`.
+
+Updating the feed (always in this order):
+
+```
+check-live-feed.py              # site vs last upload; exit 1 = edited on the site
+  (if changed: mirror the shown lines into the yaml, rerun until it only
+   reports our own changes)
+...our yaml changes...
+build.py                        # renders ../rss.xml
+check-links.py
+cp ../rss.xml <stage>/feed/rss.xml
+upload.py --go feed
+```
 
 Stage and upload:
 
@@ -635,6 +649,69 @@ Written as lists, the shape build.py renders. podcast:socialInteract is
 dropped: the episodes have no comment threads (decided 2026-10-28).
 
 Usage, from python/: update-episodes-links.py [--write]
+
+
+### check-live-feed.py
+
+First step of every feed update. Adam and Dave sometimes edit the live feed
+by hand (on 2026-10-30 they fixed the namespace URI, the channel link and the
+categories), and a push from here would silently undo that. Downloads
+<base_url>/<filename> (../yaml/daily-source-code.yaml, with our User-Agent
+and Cache-Control: no-cache), saves it to <tmp>/dsc-live-rss.xml, and
+compares it byte for byte with the stage's feed/rss.xml, the last feed we
+uploaded.
+
+- identical, or only lastBuildDate differs: exit 0, safe to render and push.
+- anything else: exit 1 and prints the changed lines (staged -, live +).
+  Mirror each change into the yaml (channel: ../yaml/daily-source-code.yaml,
+  items: the episode yaml), render, and check that the render now carries
+  them before pushing.
+
+Usage, from python/: check-live-feed.py
+
+
+### update-episodes-seasons.py
+
+One season per calendar year of the episode date (the date of
+../yaml/release-audio.yaml, which is the date in the release name, not the
+pubDate). Writes both itunes: season and podcast: season, the same number:
+
+```
+2004 -> 1   2005 -> 2   2006 -> 3   2007 -> 4   2008 -> 5
+2009 -> 6   2010 -> 7   2011 -> 8   2012 -> 9   2013 -> 10
+```
+
+```yaml
+itunes:
+  season: '5'
+podcast:
+  season:
+    number: '5'
+    name: '2008'
+```
+
+rendered by build.py as
+
+```xml
+<itunes:season>5</itunes:season>
+<podcast:season name="2008">5</podcast:season>
+```
+
+(build.py writes podcast: season: number as the tag text, every other key
+as an attribute.) Apps that read the name show "2008"; apps that only read
+the number show "Season 5".
+
+--years walks this back to plain years: the number becomes the year and the
+name is left out (null, so no attribute):
+
+```xml
+<itunes:season>2008</itunes:season>
+<podcast:season>2008</podcast:season>
+```
+
+Running without --years puts the 1-10 numbering back. Both are idempotent.
+
+Usage, from python/: update-episodes-seasons.py [--write] [--years]
 
 
 ### update-episodes-summaries.py
