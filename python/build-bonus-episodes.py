@@ -23,7 +23,7 @@ AUDIO_DIR = '/media/chrise/work/audio/dsc/DSC/'
 MIME_TYPES = {
   '.mp3': 'audio/mpeg',
   '.m4a': 'audio/x-m4a',
-  '.m4v': 'video/x-m4v',
+  '.m4v': 'video/mp4',
   '.mp4': 'video/mp4',
   '.mov': 'video/quicktime',
 }
