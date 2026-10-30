@@ -66,9 +66,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-11-29.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-11-29.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 35063162
@@ -78,6 +80,9 @@ podcast:
     title: 'DSC #288'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-11-29.mp3
+    integrity:
+      type: sri
+      value: sha384-u5jUIY4zhdF1KE0GUiK6CfEu5EMORVO8NOz3HcS3j7NCcOgEPy7xWhlZ8Racoifd
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

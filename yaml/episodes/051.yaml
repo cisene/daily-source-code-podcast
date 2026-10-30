@@ -53,9 +53,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2004-10-22-ipodder.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2004-10-22-ipodder.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: video/mp4
     length: 4355492
@@ -65,6 +67,9 @@ podcast:
     title: 'DSC #51'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2004-10-22-ipodder.mp4
+    integrity:
+      type: sri
+      value: sha384-/H+Zpxuoi2GONKA9aWR3h/xWd456tc2DRkpPHJJubcZuK83798TOnO2Hk0DGGyNR
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

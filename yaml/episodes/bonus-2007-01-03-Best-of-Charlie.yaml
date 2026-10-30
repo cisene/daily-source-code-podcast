@@ -114,9 +114,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2007-01-03-Best-of-Charlie.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2007-01-03-Best-of-Charlie.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 20005508
@@ -126,6 +128,9 @@ podcast:
     title: DSC Bonus 2007-01-03
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-01-03-Best-of-Charlie.mp3
+    integrity:
+      type: sri
+      value: sha384-rfn6D0JewepZvq4BasmbLDfBRKFfuwMuleuJirsGR3yKBPQ+2S25Ps+ilsZlrL1v
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

@@ -125,9 +125,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2007-02-02.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2007-02-02.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 36709939
@@ -137,6 +139,9 @@ podcast:
     title: 'DSC #538'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-02-02.mp3
+    integrity:
+      type: sri
+      value: sha384-wwvM+pn6H4Y2Flmzjx5DBcV2b9pMW2xmZs+OoQCjcZ0/1NWrim5Sn+ig33UTzyRd
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

@@ -50,9 +50,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2010-06-14-Curry-on-Stern.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2010-06-14-Curry-on-Stern.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 21802624
@@ -62,6 +64,9 @@ podcast:
     title: DSC Bonus 2010-06-14
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2010-06-14-Curry-on-Stern.mp3
+    integrity:
+      type: sri
+      value: sha384-XBUJg8IYg58XDveGeljc7wdBCGvtxqiQW0Pt6M1MabnBiUhGEl5tXzuZ50uD6Gw8
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

@@ -82,9 +82,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-03-21.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-03-21.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 38218690
@@ -94,6 +96,9 @@ podcast:
     title: 'DSC #357'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-21.mp3
+    integrity:
+      type: sri
+      value: sha384-g5QXSIyO/tLdtRDRx66mkRrHQP42PC66RO3U7P/HQ2V28l8Nd0RKcN2lyKyHQq7U
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

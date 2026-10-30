@@ -122,9 +122,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-08-31.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-08-31.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 26403715
@@ -134,6 +136,9 @@ podcast:
     title: 'DSC #453'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-08-31.mp3
+    integrity:
+      type: sri
+      value: sha384-Sd3n6g1TVo2BHojo+mNI/SRxlgjXLAIgACV9Z3L1Yp5Dwhnu+dAewP5s9ceehscf
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

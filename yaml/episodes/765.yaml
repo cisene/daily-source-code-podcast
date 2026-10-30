@@ -70,9 +70,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2008-06-05.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2008-06-05.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 41162960
@@ -82,6 +84,9 @@ podcast:
     title: 'DSC #765'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-06-05.mp3
+    integrity:
+      type: sri
+      value: sha384-5ShQIvBEm3qqbbihYe9C43QksS/Vp1paPK5pCw0xLu35zRMuuOplhymGt97vQB55
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

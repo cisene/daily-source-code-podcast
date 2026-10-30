@@ -55,9 +55,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-05-17.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-05-17.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 20029538
@@ -67,6 +69,9 @@ podcast:
     title: 'DSC #389'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-05-17.mp3
+    integrity:
+      type: sri
+      value: sha384-ImCUhW3sUS4wqEcNw3F8XrR4jHH9l0CYwEgs9hVRtPTWjdYy3JE4d9mzlfo5FnWJ
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

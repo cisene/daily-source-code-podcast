@@ -104,9 +104,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2008-09-05.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2008-09-05.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 71275669
@@ -116,6 +118,9 @@ podcast:
     title: 'DSC #787'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-09-05.mp3
+    integrity:
+      type: sri
+      value: sha384-RoCOr4jIlTY84IwrNTUAP87h4hhKUOg9x0B7f0rnm+wLjFJJ1SP8RygVDlyXrAgz
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

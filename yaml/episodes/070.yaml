@@ -53,9 +53,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2004-11-20.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2004-11-20.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 15853811
@@ -65,6 +67,9 @@ podcast:
     title: 'DSC #70'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-11-20.mp3
+    integrity:
+      type: sri
+      value: sha384-BV+1L1M6k3dsyVziJQihB63YvNtytDJ82Hc6HuLOw+cd5QMYejKzjGM0tzlYdG3G
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

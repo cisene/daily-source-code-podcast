@@ -65,9 +65,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2004-08-23.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2004-08-23.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 16932504
@@ -77,6 +79,9 @@ podcast:
     title: 'DSC #11'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-08-23.mp3
+    integrity:
+      type: sri
+      value: sha384-WVjSPGjL6vAy5bYgk/H9yXr/3l5uKGeTwAogZAKWz+GTanTUeospkTM6/SiZwfFI
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

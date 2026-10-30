@@ -89,9 +89,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-05-11.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-05-11.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 31248584
@@ -101,6 +103,9 @@ podcast:
     title: 'DSC #385'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-05-11.mp3
+    integrity:
+      type: sri
+      value: sha384-wPXOsFGqPKvHh4y4pEDKaBUX3Lq2pODOYdCdTd9JbEfg7S4tt+T0jcHLePa0FxEc
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

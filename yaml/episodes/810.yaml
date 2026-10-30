@@ -80,9 +80,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2008-12-10.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2008-12-10.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 69159124
@@ -92,6 +94,9 @@ podcast:
     title: 'DSC #810'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-12-10.mp3
+    integrity:
+      type: sri
+      value: sha384-6O5fngvU6v6PfN3xH/xJynMYOrkq071bXKwF5Wqyw4pQIAf1XMOaE7oGZTzr01bN
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

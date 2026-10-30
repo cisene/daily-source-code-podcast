@@ -70,9 +70,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2008-02-06.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2008-02-06.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 45524369
@@ -82,6 +84,9 @@ podcast:
     title: 'DSC #719'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-02-06.mp3
+    integrity:
+      type: sri
+      value: sha384-1at8s0A4k9VaWai9ZJW7E2JDznmAS6q2q8mbkH4V0YhOBEnIE76Ms1PohlIPYB2R
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

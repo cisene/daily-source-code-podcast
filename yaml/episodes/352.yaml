@@ -79,9 +79,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-03-13.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-03-13.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 35750993
@@ -91,6 +93,9 @@ podcast:
     title: 'DSC #352'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-03-13.mp3
+    integrity:
+      type: sri
+      value: sha384-d+p+Tu63K3ELX/QcAjd57W9mz3C2rYUFgBu+0ypFa3Svq2Evc8VVLWq8DxVS54S1
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

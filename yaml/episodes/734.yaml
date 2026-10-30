@@ -64,9 +64,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2008-03-17.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2008-03-17.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 48667834
@@ -76,6 +78,9 @@ podcast:
     title: 'DSC #734'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-03-17.mp3
+    integrity:
+      type: sri
+      value: sha384-iJBR8zGtahZoRB6E27Vlkhf1zuWU6+v1SUswsDXZzTd9gtUw6nYLrx7wlrMYU+r9
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

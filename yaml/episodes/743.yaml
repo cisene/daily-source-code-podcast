@@ -82,9 +82,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2008-04-04.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2008-04-04.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 58051435
@@ -94,6 +96,9 @@ podcast:
     title: 'DSC #743'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-04-04.mp3
+    integrity:
+      type: sri
+      value: sha384-RU8PJ2bZAR2k1tajWyXnSc6r9sG52Kunumjool1GtdEt2b8EnUjWMsAWbJRfQCZs
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

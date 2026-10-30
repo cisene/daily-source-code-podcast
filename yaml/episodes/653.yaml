@@ -78,9 +78,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2007-08-20.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2007-08-20.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 20974541
@@ -90,6 +92,9 @@ podcast:
     title: 'DSC #653'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-08-20.mp3
+    integrity:
+      type: sri
+      value: sha384-R52V0LZq7Kqu5SWjeKRYP4gOUJY+UaIGGNW68WX19CJGavuPj/AOw5zJkiTuj0LY
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

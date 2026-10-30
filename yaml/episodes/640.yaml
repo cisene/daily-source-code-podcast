@@ -81,9 +81,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2007-07-25.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2007-07-25.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 33676654
@@ -93,6 +95,9 @@ podcast:
     title: 'DSC #640'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-07-25.mp3
+    integrity:
+      type: sri
+      value: sha384-1ZudHRntynJ1XZtyCApbQz0qdwoUuQCTN6eD2QBiqut88P0aP/mZ7S/28VZN88oq
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

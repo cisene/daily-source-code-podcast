@@ -85,9 +85,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-06-01.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-06-01.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 40618514
@@ -97,6 +99,9 @@ podcast:
     title: 'DSC #397'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-01.mp3
+    integrity:
+      type: sri
+      value: sha384-Xou2p7Ew9Bcwh3wu6Ym9+elyP+Ft+9MWTI3m+LmjiAKVC3eT//2TN8whRA98V8na
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

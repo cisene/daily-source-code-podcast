@@ -57,9 +57,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2007-08-06-Dawn-and-Drew.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2007-08-06-Dawn-and-Drew.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 21989572
@@ -69,6 +71,9 @@ podcast:
     title: DSC Bonus 2007-08-06
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-08-06-Dawn-and-Drew.mp3
+    integrity:
+      type: sri
+      value: sha384-CEWaf3BxHwskCu3/bRGudiFSzmlC33Tawl4xOUSvi57toMOnNxiAdsPbfKP5+Z8m
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

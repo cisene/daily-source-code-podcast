@@ -144,9 +144,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-06-21.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-06-21.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 45818894
@@ -156,6 +158,9 @@ podcast:
     title: 'DSC #408'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-06-21.mp3
+    integrity:
+      type: sri
+      value: sha384-EXNZc6rKz++iIiHKwzcke3Q6ih3nCtf+5DHpGE4CUsE3f0iIQKgQ8DFHwDuQY5Bq
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

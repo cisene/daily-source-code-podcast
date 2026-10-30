@@ -53,9 +53,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-05-21.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-05-21.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 5286386
@@ -65,6 +67,9 @@ podcast:
     title: 'DSC #181'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-21.mp3
+    integrity:
+      type: sri
+      value: sha384-Z0kygdXUhbYdUHAkePA511qc8enwoxHv477ljQzhCKPN+hQycc4SJE15J2PNru0H
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

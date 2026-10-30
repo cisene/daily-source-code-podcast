@@ -113,9 +113,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-12-27.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-12-27.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 21286504
@@ -125,6 +127,9 @@ podcast:
     title: 'DSC #519'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-12-27.mp3
+    integrity:
+      type: sri
+      value: sha384-0DcXzS6C1ZBrzy76YQGxAo/ojA0TkULsY65qx48sZM768XVPdqUykRy7UPppmBoz
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

@@ -237,9 +237,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-02-25.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-02-25.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 15167153
@@ -249,6 +251,9 @@ podcast:
     title: 'DSC #131'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-02-25.mp3
+    integrity:
+      type: sri
+      value: sha384-Yi/r341XCHesZcKNs5G/U6SzwDzHbV29rpqmzP2/zXpxJcs+NffgAyB1M7l++VIb
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

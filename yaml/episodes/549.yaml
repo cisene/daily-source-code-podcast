@@ -153,9 +153,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2007-02-20.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2007-02-20.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 28020120
@@ -165,6 +167,9 @@ podcast:
     title: 'DSC #549'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-02-20.mp3
+    integrity:
+      type: sri
+      value: sha384-mGnNItm51O55gDmMtg5uk6PCqbqDrL7TVlOHzxD6BQIU2HRYy7SVhy/1mSVNR9qQ
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

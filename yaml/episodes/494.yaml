@@ -122,9 +122,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-11-10.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-11-10.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 31268641
@@ -134,6 +136,9 @@ podcast:
     title: 'DSC #494'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-11-10.mp3
+    integrity:
+      type: sri
+      value: sha384-0nVnFGTR734lC29oDawQn/wg0akMTeHby2kMp6ZyOQwSZNDRkeaRa+0Qp5pYOYtr
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

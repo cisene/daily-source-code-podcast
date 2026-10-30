@@ -65,9 +65,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-05-17-RVZR.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-05-17-RVZR.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 33458680
@@ -77,6 +79,9 @@ podcast:
     title: DSC Bonus 2005-05-17
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-17-RVZR.mp3
+    integrity:
+      type: sri
+      value: sha384-eqXi4jhfBXvF5fyPdsZ2kfvS1hQNkHHAeKiEGWVj53t+WCCUqf6J5E/LISPy2Xwz
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

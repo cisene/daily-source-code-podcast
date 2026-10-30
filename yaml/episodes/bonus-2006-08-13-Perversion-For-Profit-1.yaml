@@ -73,9 +73,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-08-13-Perversion-For-Profit-1.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-08-13-Perversion-For-Profit-1.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: video/mp4
     length: 22435325
@@ -85,6 +87,9 @@ podcast:
     title: DSC Bonus 2006-08-13
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-08-13-Perversion-For-Profit-1.m4v
+    integrity:
+      type: sri
+      value: sha384-v/bE57fDZyNlOx09JE7PaH4tJYYzzhSMw6obbnpFiBRgGrlQPyNkyQyGdKdulmT4
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

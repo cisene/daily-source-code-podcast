@@ -51,9 +51,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-01-18.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-01-18.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 24024671
@@ -63,6 +65,9 @@ podcast:
     title: 'DSC #318'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-01-18.mp3
+    integrity:
+      type: sri
+      value: sha384-v6+9YSz4f89BVvbu7/U/N0XVBUNdqneejX4VWb2fqUp014gcf1A4wZr0oa+t0dvz
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

@@ -82,9 +82,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2009-01-20.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2009-01-20.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 58640760
@@ -94,6 +96,9 @@ podcast:
     title: 'DSC #818'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2009-01-20.mp3
+    integrity:
+      type: sri
+      value: sha384-DClNJUC+DCGAgs4kZjAXg4U+flbAAR9t3SPcLCC7GTy2lTxsa6QhJ1uiFm62szM8
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

@@ -97,9 +97,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-07-17.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-07-17.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 38569725
@@ -109,6 +111,9 @@ podcast:
     title: 'DSC #422'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-07-17.mp3
+    integrity:
+      type: sri
+      value: sha384-IdzeyuHRpe6eVkjN03S2psZTs/ycp3eNjA0Aep7ghw87IiI1Tpqb9elw1kB27gDT
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

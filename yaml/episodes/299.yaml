@@ -93,9 +93,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-12-15.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-12-15.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 29778069
@@ -105,6 +107,9 @@ podcast:
     title: 'DSC #299'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-15.mp3
+    integrity:
+      type: sri
+      value: sha384-hZXjm6pbY2ILwAwreazt9bivljcQjuOBAfah+wzce2yzwGRRCbR/27ChhNIAfIcw
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

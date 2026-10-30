@@ -233,9 +233,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-01-28.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-01-28.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 18188579
@@ -245,6 +247,9 @@ podcast:
     title: 'DSC #114'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-01-28.mp3
+    integrity:
+      type: sri
+      value: sha384-s1Ua/eLWyQ1pHO0Fd1Y0WzxKduJn0t79D+l2IQWE9JTSZ+Z61b45m3tbcs3WFQv1
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

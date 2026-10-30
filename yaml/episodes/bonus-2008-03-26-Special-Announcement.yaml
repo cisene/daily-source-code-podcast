@@ -47,9 +47,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2008-03-26-Special-Announcement.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2008-03-26-Special-Announcement.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 3733842
@@ -59,6 +61,9 @@ podcast:
     title: DSC Bonus 2008-03-26
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2008-03-26-Special-Announcement.mp3
+    integrity:
+      type: sri
+      value: sha384-AMLHc/MJbRqvmvFBtZejTn02b7fMcRvf5ik7FQ/AxShwdykbeclYe9rIrHFwfgIC
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

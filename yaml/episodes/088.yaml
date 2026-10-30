@@ -56,9 +56,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2004-12-19.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2004-12-19.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 19617767
@@ -68,6 +70,9 @@ podcast:
     title: 'DSC #88'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-12-19.mp3
+    integrity:
+      type: sri
+      value: sha384-Qr+SokD8fue34EA2Im9HPmlBRu81gZCLrTkg7xIHlaV932pWRDUiMRQsk/xtCm0P
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

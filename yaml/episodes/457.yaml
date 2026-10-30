@@ -110,9 +110,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-09-07.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-09-07.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 24702580
@@ -122,6 +124,9 @@ podcast:
     title: 'DSC #457'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-09-07.mp3
+    integrity:
+      type: sri
+      value: sha384-tgJHyhtfnajdAZB9rApuxKoCfZaTFB1EYucilULU0qfIpwoib/BrpFUZ01dA/OuO
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

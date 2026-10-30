@@ -53,9 +53,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-04-19-Utrecht.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-04-19-Utrecht.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 11719791
@@ -65,6 +67,9 @@ podcast:
     title: DSC Bonus 2005-04-19
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-04-19-Utrecht.mp3
+    integrity:
+      type: sri
+      value: sha384-5O/CHcEIIdky5gQgtmMMpqn/uMtlGnSOwluPRW/KIdFm0hXcdxyQhdfRIBgj9cSe
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

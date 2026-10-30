@@ -56,9 +56,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-06-08-RVZR.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-06-08-RVZR.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 23086223
@@ -68,6 +70,9 @@ podcast:
     title: 'DSC #172'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-06-08-RVZR.mp3
+    integrity:
+      type: sri
+      value: sha384-ctHAwRJwCjkFTzlAnTwANXhC7A6eHGVhpzKskqhyaaeJw9oUJ6j3wNZ2G55Jvilv
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

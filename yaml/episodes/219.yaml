@@ -64,9 +64,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-08-02.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-08-02.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 24420911
@@ -76,6 +78,9 @@ podcast:
     title: 'DSC #219'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-08-02.mp3
+    integrity:
+      type: sri
+      value: sha384-QSFpjiP2vt00tckn1FDTFNP+NrTW08+OM38p5ReN+Yuoc+DSi1PzeE5O6OzlIEf0
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

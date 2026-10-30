@@ -55,9 +55,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-02-22.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-02-22.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 17663432
@@ -67,6 +69,9 @@ podcast:
     title: 'DSC #340'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2006-02-22.mp3
+    integrity:
+      type: sri
+      value: sha384-qkCbPdEK5XhR7wC9C85x+xtA248pyKNatbU60pfB0cgSPq9Wh5y6w0kj6ZhVsN6q
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

@@ -47,9 +47,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2007-05-30-VidBlaster-Test-1.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2007-05-30-VidBlaster-Test-1.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: video/mp4
     length: 14737280
@@ -59,6 +61,9 @@ podcast:
     title: DSC Bonus 2007-05-30
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2007-05-30-VidBlaster-Test-1.mp4
+    integrity:
+      type: sri
+      value: sha384-IV0DtcRbIMbC5k3Q77IzSB6NAP6QjRPxlOxJUS3H3p0qtLDhtoK0EGbt/JXUHEP4
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

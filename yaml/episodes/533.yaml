@@ -108,9 +108,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2007-01-26.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2007-01-26.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 35019568
@@ -120,6 +122,9 @@ podcast:
     title: 'DSC #533'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-01-26.mp3
+    integrity:
+      type: sri
+      value: sha384-5fDyYZoJ/Zc6t2dlE9QDXFGoH9xeDRr9OykQcG72x1N5xhxe8I6g99d9eQ7falyq
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

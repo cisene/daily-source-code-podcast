@@ -47,9 +47,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2006-03-20-Video-Music-Cast-2.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2006-03-20-Video-Music-Cast-2.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: video/mp4
     length: 35455046
@@ -59,6 +61,9 @@ podcast:
     title: DSC Bonus 2006-03-20
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/video/DSC-2006-03-20-Video-Music-Cast-2.m4v
+    integrity:
+      type: sri
+      value: sha384-iEULCA8zdr9MWZcbpGk8HKj91YYiOdcjk0Pc9Xdb3+L8WGZ64kFhAHvcLFJwCjlU
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

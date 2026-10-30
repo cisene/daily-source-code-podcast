@@ -80,9 +80,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2007-06-29.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2007-06-29.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 41027458
@@ -92,6 +94,9 @@ podcast:
     title: 'DSC #626'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2007-06-29.mp3
+    integrity:
+      type: sri
+      value: sha384-KGDb7xpcD0gelFZdWzCA7Iab50Nv8mWQWsT2BI4YssuzPIqeJ894I7bup0zj9nI4
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

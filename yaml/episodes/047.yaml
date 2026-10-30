@@ -53,9 +53,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2004-10-15.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2004-10-15.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 36064826
@@ -65,6 +67,9 @@ podcast:
     title: 'DSC #47'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2004-10-15.mp3
+    integrity:
+      type: sri
+      value: sha384-ytdrBmh187sx8uOyhGieGo1f95mpL7KAmym8lsLJbj57uKV8h3yBC0f8sUqnCLXI
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

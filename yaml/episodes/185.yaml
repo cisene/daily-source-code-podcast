@@ -53,9 +53,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-05-26.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-05-26.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 16679109
@@ -65,6 +67,9 @@ podcast:
     title: 'DSC #185'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-05-26.mp3
+    integrity:
+      type: sri
+      value: sha384-jMp7W7mw2C/260ELEhtyJaV9k16XtYaxXf7wDmniiuO1ARulc19IKy76jcoHPrWK
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

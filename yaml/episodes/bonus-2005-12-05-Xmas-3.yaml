@@ -53,9 +53,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-12-05-Xmas-3.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-12-05-Xmas-3.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 8669936
@@ -65,6 +67,9 @@ podcast:
     title: DSC Bonus 2005-12-05
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-12-05-Xmas-3.mp3
+    integrity:
+      type: sri
+      value: sha384-/WbuEQE84gyk9sadkwtXZIDzdgp0si3QliuwLWLFqyl1aFEQNOP4ERd0ybdV508b
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'

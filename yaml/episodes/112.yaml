@@ -218,9 +218,11 @@ podcast:
   - url: https://thedailysourcecode.com/vtt/DSC-2005-01-26.vtt
     type: text/vtt
     language: en
+    rel: captions
   - url: https://thedailysourcecode.com/srt/DSC-2005-01-26.srt
     type: application/x-subrip
     language: en
+    rel: captions
   alternateEnclosure:
   - type: audio/mpeg
     length: 21104265
@@ -230,6 +232,9 @@ podcast:
     title: 'DSC #112'
     source:
       uri: https://op3.dev/e/thedailysourcecode.com/audio/DSC-2005-01-26.mp3
+    integrity:
+      type: sri
+      value: sha384-eRrM2C6h8LF0vSOmXvXco1dprmgnI1T2yOheXIySYY/q7ruwIKiNVU8ICOoLBIq6
   image:
   - href: https://thedailysourcecode.com/artwork/episode-300x300.png
     alt: 'Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show''s first logo, 2004, reconstructed)'
