@@ -68,4 +68,4 @@ To get a better picture and something to reference to, a timeline has been estab
 
 ## Current status
 
-A work-in-progress copy can be found here: [daily-source-code.rss](daily-source-code.rss)
+A work-in-progress copy can be found here: [rss.xml](rss.xml), live at [https://thedailysourcecode.com/rss.xml](https://thedailysourcecode.com/rss.xml)

@@ -17,7 +17,7 @@ import glob
 CONFIG_MAIN = '../yaml/daily-source-code.yaml'
 ITEMS_PATH = '../yaml/episodes/'
 
-RSS_PATH = '../daily-source-code.rss'
+RSS_PATH = '../rss.xml'
 
 APPLICATION_NAME = 'MirrorBallLawnmower'
 APPLICATION_VERSION = '0.2'
@@ -97,7 +97,7 @@ def main():
 
   main_config = fillBaseURL(main_config, str(main_config['feed']['base_url']).rstrip('/'))
 
-# xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" xmlns:atom="http://www.w3.org/2005/Atom"
+# xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom"
 
 # <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Education</media:category>
 # <media:content fileSize="1294326" type="audio/mpeg" url="https://dovetail.prxu.org/1941/5611623f-2c1f-4a9d-8717-c5e33b29d147/30secondsto_mixdown.mp3"/>

@@ -43,7 +43,7 @@ upload.py --go feed                      # last; refused until the rest is up
   `--replace` for a deliberate fix, then a CloudFront invalidation.
 - `DSC_ACL` sets an object ACL, `DSC_TRANSFERS` the parallel uploads (4).
 
-`build.py` renders the feed (`../daily-source-code.rss`); `rss.xml` on the
+`build.py` renders the feed (`../rss.xml`); `rss.xml` on the
 host is that render.
 
 ## Per script

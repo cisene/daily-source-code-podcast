@@ -1,6 +1,6 @@
 ---
 feed:
-  filename: daily-source-code.rss
+  filename: rss.xml
   # Host of the renovated feed and its images, filled in for __BASE_URL__
   # (Adam's domain, 2026-10-27).
   base_url: https://thedailysourcecode.com
@@ -13,7 +13,7 @@ feed:
   xml:
     version: 2
     namespaces:
-      podcast: "https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md"
+      podcast: "https://podcastindex.org/namespace/1.0"
       itunes: "http://www.itunes.com/dtds/podcast-1.0.dtd"
       atom: "http://www.w3.org/2005/Atom"
       media: "http://search.yahoo.com/mrss/"
@@ -69,13 +69,16 @@ rss:
       text: https://blogs.law.harvard.edu/tech/rss
 
     - tag: link
-      text: http://curry.com/
+      text: __BASE_URL__/
 
     - tag: title
       text: Adam Curry's Daily Source Code Podcast
 
     - tag: description
       text: Adam Curry's Daily Source Code Podcast
+
+    - tag: category
+      text: Technology
 
     - tag: category
       text: News & Politics
@@ -150,33 +153,23 @@ rss:
       namespace: itunes
       text: Adam Curry
 
-    - tag: category
-      namespace: itunes
-      attributes:
-        text: Arts
-      tags:
-
-      - tag: category
-        namespace: itunes
-        attributes:
-          text: Performing Arts
-
-    - tag: category
-      namespace: itunes
-      attributes:
-        text: Music
-
-    - tag: category
-      namespace: itunes
-      attributes:
-        text: TV & Film
-
     # Apple's Technology has no subcategories (Gadgets, Software How-To,
     # Tech News, Podcasting were dropped by Apple)
     - tag: category
       namespace: itunes
       attributes:
         text: Technology
+
+    - tag: category
+      namespace: itunes
+      attributes:
+        text: News
+      tags:
+
+      - tag: category
+        namespace: itunes
+        attributes:
+          text: Politics
 
     - tag: explicit
       namespace: itunes
