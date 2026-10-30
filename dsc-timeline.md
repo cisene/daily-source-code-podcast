@@ -31,7 +31,7 @@ Christopher Isene started out on with just bits and pieces of what was available
 
 
 
-The first stumbling steps to searching further came with the BitTorrent Sync key from Adam's blog post [The Daily Source Code Archive Project](http://blog.curry.com/2014/01/15/theDailySourceCodeArchiveProject.html) of 2014-01-15, a few weeks after the last episode. For a number of "[stupid and careless] reasons" Adam no longer had most of the mp3s, and he started a BitTorrent Sync archive to collect them from listeners around the world, with the read key `B5XIHOVFXGSA2QXS7ED6ONN4KG5JTH6T6`. In an update to the post, "Super Friend of the show Raymond Poort is uploading the entire archive as we speak!"
+The first stumbling steps to searching further came with the BitTorrent Sync key from Adam's blog post [The Daily Source Code Archive Project](http://blog.curry.com/2014/01/15/theDailySourceCodeArchiveProject.html) of 2014-01-15, a few weeks after the last episode. The day before he had [tweeted](https://x.com/adamcurry/status/422938197006749696): "Looking for a full archive of 'Daily Source Code' mp3s". For a number of "[stupid and careless] reasons" Adam no longer had most of the mp3s, and he started a BitTorrent Sync archive to collect them from listeners around the world, with the read key `B5XIHOVFXGSA2QXS7ED6ONN4KG5JTH6T6`. In an update to the post, "Super Friend of the show Raymond Poort is uploading the entire archive as we speak!"
 
 The audio of this restoration came from that BitTorrent Sync archive, in December 2022. From there the search went on to the RSS: the old feeds on radio-weblogs.com, PodShow and Mevio, and their archived copies. Along the way Adam's original iPod script turned up, an AppleScript compiled with its source stripped out, which was reverse-engineered with help from others. The rest is history.
 
@@ -63,6 +63,7 @@ Search Start: [Daily Source Code Adam Curry](https://web.archive.org/web/2024000
 
 ### Restoration time line
 
+* 2014-01-14 - Adam [tweets](https://x.com/adamcurry/status/422938197006749696): "Looking for a full archive of 'Daily Source Code' mp3s".
 * 2014-01-15 - Adam starts [The Daily Source Code Archive Project](http://blog.curry.com/2014/01/15/theDailySourceCodeArchiveProject.html), a BitTorrent Sync archive to collect the mp3s; Raymond Poort uploads the entire archive.
 * 2022-12 - The audio archive is fetched from the BitTorrent Sync archive of 2014.
 * 2022-12-22 - The project starts: first commit of this repository.
