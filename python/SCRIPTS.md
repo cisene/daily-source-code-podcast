@@ -651,6 +651,25 @@ dropped: the episodes have no comment threads (decided 2026-10-28).
 Usage, from python/: update-episodes-links.py [--write]
 
 
+### build-sitemap.py
+
+Writes the crawler files into the stage's site/ folder (stage: of
+../yaml/upload.yaml), uploaded to the bucket root by the manual "site" entry
+(upload.py --go site):
+
+- sitemap.xml (sitemaps.org 0.9): /, /episodes.html, /rss.xml (feed:
+  filename), then every episode page in feed order (the episodes: list of
+  ../yaml/daily-source-code.yaml, each episode's link). Stops if a link is
+  not an /episodes/ page on the site, or if a url repeats. No lastmod:
+  Adam's site makes the pages, we don't know when they change.
+- robots.txt: everything allowed, and a Sitemap: line pointing at
+  <base_url>/sitemap.xml.
+
+Rerun after episodes are added or links change.
+
+Usage, from python/: build-sitemap.py [--write]
+
+
 ### check-live-feed.py
 
 First step of every feed update. Adam and Dave sometimes edit the live feed
