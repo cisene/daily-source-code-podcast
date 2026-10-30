@@ -365,6 +365,7 @@ def main():
           'chapters',
           'transcript',
           'alternateEnclosure',
+          'contentLink',
         ]
 
         if tag_tagname not in tag_handlers:
@@ -450,6 +451,14 @@ def main():
                 for attr in ch_attributes:
                   podcast_elem.set(attr, chapt[attr])
 
+                elem_item.append(podcast_elem)
+
+          if tag == "contentLink":
+            for content in item['podcast'][tag]:
+              if content.get('href') != None:
+                podcast_elem = etree.Element(tag_elem, nsmap = nsmap)
+                podcast_elem.set('href', str(content['href']))
+                podcast_elem.text = str(content.get('text') or '')
                 elem_item.append(podcast_elem)
 
           if tag == "alternateEnclosure":

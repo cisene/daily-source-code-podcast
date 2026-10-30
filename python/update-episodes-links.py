@@ -10,6 +10,7 @@ RELEASE = '../yaml/release-audio.yaml'
 EPISODE_DIR = '../yaml/episodes/'
 CHAPTERS_DIR = '../chapters/'
 EPISODE_IMAGE = 'artwork/episode-300x300.png'
+CONTENT_TEXT = 'Episode page with player, chapters and transcript'
 LANGUAGE = 'en'
 IMAGE_ALT = "Daily Source Code: the words DAILY SOURCE CODE on three tilted bands, white on navy and navy on white (the show's first logo, 2004, reconstructed)"
 
@@ -62,6 +63,7 @@ def main():
       ep = ordered
     ep['link'] = f"{base}/episodes/{stem}.html"
     podcast = ep['podcast']
+    podcast['contentLink'] = [{'href': ep['link'], 'text': CONTENT_TEXT}]
 
     exts = have.get(stem, set())
     links = []

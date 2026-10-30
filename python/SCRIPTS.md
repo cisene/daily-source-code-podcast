@@ -633,6 +633,8 @@ folder structure of 2026-10-28 (/audio /chapters /opml /srt /video /vtt):
 link                /episodes/<release stem>.html, the episode's page on the
                     site; the first run moves the old link (the original
                     post) to originalLink, which the other scripts use
+podcast:contentLink the same page, text "Episode page with player, chapters
+                    and transcript" (build.py renders href + node text)
 podcast:transcript  /vtt/<release stem>.vtt (text/vtt) and
                     /srt/<release stem>.srt (application/x-subrip), language
                     en, rel captions (both have time codes), for the
