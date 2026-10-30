@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import os
 import re
+import base64
+import hashlib
 import sys
 import yaml
 import importlib.util
@@ -42,6 +44,14 @@ def shortTitle(ep, row):
   return f"DSC Bonus {row['date']}"
 
 
+def sri(path):
+  digest = hashlib.sha384()
+  with open(path, 'rb') as fp:
+    for block in iter(lambda: fp.read(1 << 20), b''):
+      digest.update(block)
+  return 'sha384-' + base64.b64encode(digest.digest()).decode()
+
+
 def main():
   write = '--write' in sys.argv
   with open(CHANNEL) as fp:
@@ -72,9 +82,11 @@ def main():
     old = (ep.get('enclosure') or {}).get('url')
     if old and old != url and not info.get('origin_url'):
       info['origin_url'] = old
-    staged = os.path.join(stage, 'audio', row['release']) if stage else None
+    staged = os.path.join(stage, mime.split('/')[0], row['release']) if stage else None
+    integrity = None
     if staged and os.path.exists(staged):
       size = os.path.getsize(staged)
+      integrity = {'type': 'sri', 'value': sri(staged)}
       staged_count += 1
     else:
       size = row.get('size') or info.get('size')
@@ -91,6 +103,7 @@ def main():
       'default': True,
       'title': shortTitle(ep, row),
       'source': {'uri': url},
+      'integrity': integrity,
     }]
     if before != (ep['enclosure'], ep['podcast']['alternateEnclosure']):
       changed += 1

@@ -207,6 +207,12 @@ rss:
       namespace: podcast
       text: podcast
 
+    - tag: updateFrequency
+      namespace: podcast
+      attributes:
+        complete: 'true'
+      text: "Complete: 863 episodes, August 2004 to November 2013"
+
     - tag: locked
       namespace: podcast
       attributes:

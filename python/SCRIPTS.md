@@ -493,7 +493,11 @@ copies in the stage (stage: of ../yaml/upload.yaml, made by
 stage-release.py: images stripped, logo embedded), the source sizes where
 ```
 
-a release is not staged yet.
+a release is not staged yet. Each staged file (stage audio/ or video/) also
+gives the alternateEnclosure a podcast:integrity, type sri, value the
+sha384 of the whole file (base64), so apps can verify the exact release
+copy. A file not staged gets no integrity. Hashes the whole stage (~31 GB),
+so a run takes a few minutes.
 
 Usage, from python/: update-episodes-enclosures.py [--write]
 
@@ -617,7 +621,8 @@ link                /episodes/<release stem>.html, the episode's page on the
                     post) to originalLink, which the other scripts use
 podcast:transcript  /vtt/<release stem>.vtt (text/vtt) and
                     /srt/<release stem>.srt (application/x-subrip), language
-                    en, for the episodes with a transcript, else none
+                    en, rel captions (both have time codes), for the
+                    episodes with a transcript, else none
 podcast:chapters    /chapters/<release stem>.json, where chapters/YEAR/ has
                     the file, else none
 itunes:image        /artwork/episode-300x300.png

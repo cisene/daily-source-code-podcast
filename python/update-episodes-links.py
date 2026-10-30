@@ -66,9 +66,9 @@ def main():
     exts = have.get(stem, set())
     links = []
     if '.vtt' in exts:
-      links.append({'url': f"{base}/vtt/{stem}.vtt", 'type': 'text/vtt', 'language': LANGUAGE})
+      links.append({'url': f"{base}/vtt/{stem}.vtt", 'type': 'text/vtt', 'language': LANGUAGE, 'rel': 'captions'})
     if '.srt' in exts:
-      links.append({'url': f"{base}/srt/{stem}.srt", 'type': 'application/x-subrip', 'language': LANGUAGE})
+      links.append({'url': f"{base}/srt/{stem}.srt", 'type': 'application/x-subrip', 'language': LANGUAGE, 'rel': 'captions'})
     podcast['transcript'] = links or None
     if links:
       tally['transcript'] += 1

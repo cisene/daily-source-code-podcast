@@ -483,6 +483,13 @@ def main():
 
                 podcast_elem.append(source_elem)
 
+                if ae.get('integrity') != None:
+                  itag_elem = "".join(["{", f"{tag_ns}", "}", "integrity"])
+                  integrity_elem = etree.Element(itag_elem, nsmap = nsmap)
+                  integrity_elem.set('type', str(ae['integrity']['type']))
+                  integrity_elem.set('value', str(ae['integrity']['value']))
+                  podcast_elem.append(integrity_elem)
+
               elem_item.append(podcast_elem)
 
         if isinstance(item['podcast'][tag], dict) == True:
