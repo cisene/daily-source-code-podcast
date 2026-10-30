@@ -114,13 +114,15 @@ itunes:
   explicit: true
   keywords: adam,curry,daily,source,code,delta,sierra,charlie,dsc
   duration: 4711
-  season: null
+  season: '5'
   episode: '792'
   image:
     href: https://thedailysourcecode.com/artwork/episode-300x300.png
 podcast:
   episode: '792'
-  season: null
+  season:
+    number: '5'
+    name: '2008'
   license: null
   guid: 59e051ee-34f3-3590-a4e2-192f2345a149
   location:
