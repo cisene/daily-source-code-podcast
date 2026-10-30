@@ -12,5 +12,5 @@
 
 ## RSS Validation
 
-https://podba.se/?url=https://raw.githubusercontent.com/cisene/daily-source-code-podcast/refs/heads/main/daily-source-code.rss
+https://podba.se/?url=https://raw.githubusercontent.com/cisene/daily-source-code-podcast/refs/heads/main/rss.xml
 
